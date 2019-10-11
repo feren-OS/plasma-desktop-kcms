@@ -1,0 +1,136 @@
+# Vincent Pinon <vpinon@kde.org>, 2017.
+# Yoann Laissus <yoann.laissus@gmail.com>, 2019.
+# Simon Depiets <sdepiets@gmail.com>, 2019.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcm_nightcolor\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"PO-Revision-Date: 2019-07-21 17:59+0800\n"
+"Last-Translator: Simon Depiets <sdepiets@gmail.com>\n"
+"Language-Team: French <kde-francophone@kde.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 19.07.70\n"
+"X-Environment: kde\n"
+"X-Accelerator-Marker: &\n"
+"X-Text-Markup: kde4\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Geoffray Levasseur, Matthieu Robin, Vincent Pinon, Simon Depiets"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
+"geoffray.levasseurbrandin@numericable.fr, kde@macolu.org, vpinon@kde.org, "
+"sdepiets@gmail.com"
+
+#: kcm.cpp:31
+#, kde-format
+msgid "Night Color"
+msgstr "Couleur de nuit"
+
+#: kcm.cpp:33
+#, kde-format
+msgid "Roman Gilg"
+msgstr "Roman Gilg"
+
+#: package/contents/ui/LocationsAutoView.qml:34
+#: package/contents/ui/LocationsFixedView.qml:38
+#, kde-format
+msgid "Latitude"
+msgstr "Latitude"
+
+#: package/contents/ui/LocationsAutoView.qml:44
+#: package/contents/ui/LocationsFixedView.qml:53
+#, kde-format
+msgid "Longitude"
+msgstr "Longitude"
+
+#: package/contents/ui/LocationsFixedView.qml:69
+#, kde-format
+msgid "Detect location"
+msgstr "Détecter la localisation"
+
+#: package/contents/ui/main.qml:103
+#, kde-format
+msgid "Activate Night Color"
+msgstr "Activer la couleur de nuit"
+
+#: package/contents/ui/main.qml:120
+#, kde-format
+msgid "Night Color Temperature: "
+msgstr "Température de couleur de nuit :"
+
+#: package/contents/ui/main.qml:120
+#, kde-format
+msgid " K"
+msgstr " K"
+
+#: package/contents/ui/main.qml:141
+#, kde-format
+msgid "Operation mode:"
+msgstr "Mode d'opération :"
+
+#: package/contents/ui/main.qml:146
+#, kde-format
+msgid "Automatic"
+msgstr "Automatique"
+
+#: package/contents/ui/main.qml:147
+#, kde-format
+msgid "Location"
+msgstr "Emplacement"
+
+#: package/contents/ui/main.qml:148
+#, kde-format
+msgid "Times"
+msgstr "Heures"
+
+#: package/contents/ui/main.qml:251 package/contents/ui/TimingsView.qml:39
+#, kde-format
+msgid "Sunrise begins"
+msgstr "Le lever de soleil commence"
+
+#: package/contents/ui/main.qml:263 package/contents/ui/main.qml:278
+#, kde-format
+msgid "(HH:MM)"
+msgstr "(HH:MM)"
+
+#: package/contents/ui/main.qml:266 package/contents/ui/TimingsView.qml:59
+#, kde-format
+msgid "Sunset begins"
+msgstr "Le coucher de soleil commence"
+
+#: package/contents/ui/main.qml:281
+#, kde-format
+msgid "Transition duration"
+msgstr "Durée de transition"
+
+#: package/contents/ui/main.qml:296
+#, kde-format
+msgid "(In minutes - min. 1, max. 600)"
+msgstr "(En minutes - min. 1, max. 600)"
+
+#: package/contents/ui/main.qml:305
+#, kde-format
+msgid "Error: Morning not before evening."
+msgstr "Erreur : le matin ne précède pas le soir."
+
+# unreviewed-context
+#: package/contents/ui/main.qml:321
+#, kde-format
+msgid "Error: Transition time overlaps."
+msgstr "Erreur : le temps de transition se recouvre."
+
+#: package/contents/ui/TimingsView.qml:49
+#: package/contents/ui/TimingsView.qml:69
+#, kde-format
+msgid "and ends"
+msgstr "et termine"

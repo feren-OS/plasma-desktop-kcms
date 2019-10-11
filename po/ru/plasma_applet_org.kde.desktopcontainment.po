@@ -1,0 +1,515 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Leonid Kanter <leon@asplinux.ru>, 2008.
+# Артём Середа <overmind88@gmail.com>, 2008.
+# Nick Shaforostoff <shafff@ukr.net>, 2008, 2009.
+# Andrey Cherepanov <skull@kde.ru>, 2009.
+# Alexander Potashev <aspotashev@gmail.com>, 2010, 2012, 2015, 2016, 2017, 2018, 2019.
+# Yuri Efremov <yur.arh@gmail.com>, 2011, 2012, 2013.
+# Alexander Lakhin <exclusion@gmail.com>, 2013.
+# Alexander Yavorsky <kekcuha@gmail.com>, 2018.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"PO-Revision-Date: 2019-09-02 00:28+0300\n"
+"Last-Translator: Alexander Potashev <aspotashev@gmail.com>\n"
+"Language-Team: Russian <kde-russian@lists.kde.ru>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
+"%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Lokalize 19.07.70\n"
+
+#: package/contents/config/config.qml:29
+msgid "Location"
+msgstr "Путь"
+
+#: package/contents/config/config.qml:36
+#: package/contents/ui/ConfigIcons.qml:220
+#: package/contents/ui/FolderViewLayer.qml:422
+msgid "Icons"
+msgstr "Значки"
+
+#: package/contents/config/config.qml:43
+msgid "Filter"
+msgstr "Фильтр"
+
+#: package/contents/config/config.qml:50
+msgid "Tweaks"
+msgstr "Поправки"
+
+#: package/contents/ui/AppletHandle.qml:105
+msgid "Resize"
+msgstr "Изменить размер"
+
+#: package/contents/ui/AppletHandle.qml:127
+msgid "Rotate"
+msgstr "Повернуть"
+
+#: package/contents/ui/AppletHandle.qml:284
+msgid "Remove"
+msgstr "Удалить"
+
+#: package/contents/ui/BackButtonItem.qml:116
+msgid "Back"
+msgstr "Назад"
+
+#: package/contents/ui/ConfigFilter.qml:76
+msgid "Files:"
+msgstr "Файлы:"
+
+#: package/contents/ui/ConfigFilter.qml:77
+msgid "Show all"
+msgstr "Показывать все"
+
+#: package/contents/ui/ConfigFilter.qml:77
+msgid "Show matching"
+msgstr "Показывать файлы по шаблону"
+
+#: package/contents/ui/ConfigFilter.qml:77
+msgid "Hide matching"
+msgstr "Скрывать файлы по шаблону"
+
+#: package/contents/ui/ConfigFilter.qml:82
+msgid "File name pattern:"
+msgstr "Шаблон имён файлов:"
+
+#: package/contents/ui/ConfigFilter.qml:88
+msgid "File types:"
+msgstr "Типы файлов:"
+
+#: package/contents/ui/ConfigFilter.qml:90
+msgid "Search..."
+msgstr "Поиск..."
+
+#: package/contents/ui/ConfigFilter.qml:188
+msgid "File type"
+msgstr "Тип файла"
+
+#: package/contents/ui/ConfigFilter.qml:197
+msgid "Description"
+msgstr "Описание"
+
+#: package/contents/ui/ConfigFilter.qml:211
+msgid "Select All"
+msgstr "Выбрать все"
+
+#: package/contents/ui/ConfigFilter.qml:222
+msgid "Deselect All"
+msgstr "Отменить выбор"
+
+#: package/contents/ui/ConfigIcons.qml:75
+msgid "Panel button:"
+msgstr "Кнопка на панели:"
+
+#: package/contents/ui/ConfigIcons.qml:81
+msgid "Use a custom icon"
+msgstr "Использовать нестандартный значок"
+
+#: package/contents/ui/ConfigIcons.qml:115
+msgctxt "@item:inmenu Open icon chooser dialog"
+msgid "Choose..."
+msgstr "Выбрать..."
+
+#: package/contents/ui/ConfigIcons.qml:121
+msgctxt "@item:inmenu Reset icon to default"
+msgid "Clear Icon"
+msgstr "Вернуть стандартный значок"
+
+#: package/contents/ui/ConfigIcons.qml:140
+msgid "Arrangement:"
+msgstr "Расположение:"
+
+#: package/contents/ui/ConfigIcons.qml:142
+#: plugins/folder/viewpropertiesmenu.cpp:34
+#, kde-format
+msgid "Rows"
+msgstr "По строкам"
+
+#: package/contents/ui/ConfigIcons.qml:142
+#: plugins/folder/viewpropertiesmenu.cpp:38
+#, kde-format
+msgid "Columns"
+msgstr "По столбцам"
+
+#: package/contents/ui/ConfigIcons.qml:149
+msgid "Align left"
+msgstr "Выровнять по левому краю"
+
+#: package/contents/ui/ConfigIcons.qml:149
+msgid "Align right"
+msgstr "Выровнять по правому краю"
+
+#: package/contents/ui/ConfigIcons.qml:164
+msgid "Lock in place"
+msgstr "Зафиксировать значки"
+
+#: package/contents/ui/ConfigIcons.qml:177
+msgid "Sorting:"
+msgstr "Сортировка:"
+
+#: package/contents/ui/ConfigIcons.qml:185
+msgid "Manual"
+msgstr "Вручную"
+
+#: package/contents/ui/ConfigIcons.qml:185
+#: plugins/folder/viewpropertiesmenu.cpp:62
+#, kde-format
+msgid "Name"
+msgstr "По имени"
+
+#: package/contents/ui/ConfigIcons.qml:185
+#: plugins/folder/viewpropertiesmenu.cpp:66
+#, kde-format
+msgid "Size"
+msgstr "По размеру"
+
+#: package/contents/ui/ConfigIcons.qml:185
+#: plugins/folder/viewpropertiesmenu.cpp:70
+#, kde-format
+msgid "Type"
+msgstr "По типу"
+
+#: package/contents/ui/ConfigIcons.qml:185
+#: plugins/folder/viewpropertiesmenu.cpp:74
+#, kde-format
+msgid "Date"
+msgstr "По дате"
+
+#: package/contents/ui/ConfigIcons.qml:196
+#: plugins/folder/viewpropertiesmenu.cpp:79
+#, kde-format
+msgid "Descending"
+msgstr "По убыванию"
+
+#: package/contents/ui/ConfigIcons.qml:204
+msgid "Folders first"
+msgstr "Папки в начале"
+
+#: package/contents/ui/ConfigIcons.qml:218
+msgctxt "whether to use icon or list view"
+msgid "View mode:"
+msgstr "Режим просмотра:"
+
+#: package/contents/ui/ConfigIcons.qml:220
+msgid "List"
+msgstr "Список"
+
+#: package/contents/ui/ConfigIcons.qml:231
+msgid "Icon size:"
+msgstr "Размер значков:"
+
+#: package/contents/ui/ConfigIcons.qml:246
+#: plugins/folder/viewpropertiesmenu.cpp:88
+#, kde-format
+msgid "Small"
+msgstr "Маленькие"
+
+#: package/contents/ui/ConfigIcons.qml:255
+#: plugins/folder/viewpropertiesmenu.cpp:88
+#, kde-format
+msgid "Large"
+msgstr "Большие"
+
+#: package/contents/ui/ConfigIcons.qml:263
+msgid "Label width:"
+msgstr "Ширина надписей:"
+
+#: package/contents/ui/ConfigIcons.qml:266
+msgid "Narrow"
+msgstr "Узкие"
+
+#: package/contents/ui/ConfigIcons.qml:267
+#: plugins/folder/viewpropertiesmenu.cpp:88
+#, kde-format
+msgid "Medium"
+msgstr "Средние"
+
+#: package/contents/ui/ConfigIcons.qml:268
+msgid "Wide"
+msgstr "Широкие"
+
+#: package/contents/ui/ConfigIcons.qml:276
+msgid "Text lines:"
+msgstr "Число строк текста:"
+
+#: package/contents/ui/ConfigIcons.qml:292
+msgid "Features:"
+msgstr "Возможности:"
+
+#: package/contents/ui/ConfigIcons.qml:294
+msgid "Tooltips"
+msgstr "Всплывающие подсказки"
+
+#: package/contents/ui/ConfigIcons.qml:301
+msgid "Selection markers"
+msgstr "Кнопки для выделения элементов"
+
+#: package/contents/ui/ConfigIcons.qml:308
+msgid "Folder preview popups"
+msgstr "Кнопки для просмотра содержимого папок"
+
+#: package/contents/ui/ConfigIcons.qml:314
+msgid "Preview thumbnails"
+msgstr "Миниатюры предварительного просмотра"
+
+#: package/contents/ui/ConfigIcons.qml:321
+msgid "Configure Preview Plugins..."
+msgstr "Настроить модули предварительного просмотра..."
+
+#: package/contents/ui/ConfigLocation.qml:93
+msgid "Show:"
+msgstr "Показывать:"
+
+#: package/contents/ui/ConfigLocation.qml:95
+msgid "Desktop folder"
+msgstr "Папку «Рабочий стол»"
+
+#: package/contents/ui/ConfigLocation.qml:102
+msgid "Files linked to the current activity"
+msgstr "Файлы, связанные с текущей комнатой"
+
+#: package/contents/ui/ConfigLocation.qml:109
+msgid "Places panel item:"
+msgstr "Точку входа:"
+
+#: package/contents/ui/ConfigLocation.qml:142
+msgid "Custom location:"
+msgstr "Следующую папку:"
+
+#: package/contents/ui/ConfigLocation.qml:150
+msgid "Type path or URL..."
+msgstr "Путь к папке или адрес URL..."
+
+#: package/contents/ui/ConfigLocation.qml:191
+msgid "Title:"
+msgstr "Заголовок:"
+
+#: package/contents/ui/ConfigLocation.qml:193
+msgid "None"
+msgstr "Нет"
+
+#: package/contents/ui/ConfigLocation.qml:193
+msgid "Default"
+msgstr "По умолчанию"
+
+#: package/contents/ui/ConfigLocation.qml:193
+msgid "Full path"
+msgstr "Полный путь"
+
+#: package/contents/ui/ConfigLocation.qml:193
+msgid "Custom title"
+msgstr "Свой заголовок"
+
+#: package/contents/ui/ConfigLocation.qml:208
+msgid "Enter custom title..."
+msgstr "Введите свой заголовок для папки"
+
+#: package/contents/ui/ConfigTweaks.qml:43
+msgid ""
+"With the Desktop Toolbox hidden, right-click on the desktop and choose "
+"'Configure Desktop...' to access this configuration window in the future"
+msgstr ""
+"Когда кнопка инструментов скрыта, это окно настройки можно открыть, нажав на "
+"рабочем столе правой кнопкой мыши и выбрав «Настроить рабочий стол...»."
+
+#: package/contents/ui/ConfigTweaks.qml:54
+msgid "Show the desktop toolbox"
+msgstr "Показывать кнопку инструментов Plasma"
+
+#: package/contents/ui/ConfigTweaks.qml:72
+msgid "Press and hold widgets to move them and reveal their handles"
+msgstr ""
+"Удерживание левой кнопки мыши на виджете позволяет двигать его и показывает "
+"кнопки виджета"
+
+#: package/contents/ui/FolderItemPreviewPluginsDialog.qml:36
+msgid "Preview Plugins"
+msgstr "Модули предварительного просмотра"
+
+#: package/contents/ui/FolderItemPreviewPluginsDialog.qml:94
+msgid "OK"
+msgstr "&ОК"
+
+#: package/contents/ui/FolderItemPreviewPluginsDialog.qml:107
+msgid "Cancel"
+msgstr "О&тмена"
+
+#: package/contents/ui/main.qml:382
+msgid "Widgets unlocked"
+msgstr "Виджеты разблокированы"
+
+#: package/contents/ui/main.qml:383
+msgid "You can press and hold widgets to move them and reveal their handles."
+msgstr ""
+"Нажмите на виджете и подержите кнопку мыши, чтобы начать перемещение или "
+"увидеть кнопки виджета."
+
+#: package/contents/ui/main.qml:384
+msgid "Got it"
+msgstr "Закрыть"
+
+#: package/contents/ui/main.qml:597
+msgid "Configure Desktop..."
+msgstr "Настроить рабочий стол..."
+
+#: plugins/folder/directorypicker.cpp:45
+#, kde-format
+msgid "Select Folder"
+msgstr "Выбор папки"
+
+#: plugins/folder/foldermodel.cpp:402
+#, kde-format
+msgid "&Refresh Desktop"
+msgstr "&Обновить рабочий стол"
+
+#: plugins/folder/foldermodel.cpp:402 plugins/folder/foldermodel.cpp:1609
+#, kde-format
+msgid "&Refresh View"
+msgstr "О&бновить вид"
+
+#: plugins/folder/foldermodel.cpp:1616
+#, kde-format
+msgid "&Empty Trash"
+msgstr "О&чистить корзину"
+
+#: plugins/folder/foldermodel.cpp:1619
+#, kde-format
+msgctxt "Restore from trash"
+msgid "Restore"
+msgstr "Восстановить"
+
+#: plugins/folder/foldermodel.cpp:1624
+#, kde-format
+msgid "&Open"
+msgstr "&Открыть"
+
+#: plugins/folder/foldermodel.cpp:1740
+#, kde-format
+msgid "&Paste"
+msgstr "Вст&авить"
+
+#: plugins/folder/foldermodel.cpp:1848
+#, kde-format
+msgid "&Properties"
+msgstr "&Свойства"
+
+#: plugins/folder/viewpropertiesmenu.cpp:31
+#, kde-format
+msgid "Arrange In"
+msgstr "Упорядочить"
+
+#: plugins/folder/viewpropertiesmenu.cpp:43
+#, kde-format
+msgid "Align"
+msgstr "Выровнять"
+
+#: plugins/folder/viewpropertiesmenu.cpp:46
+#, kde-format
+msgid "Left"
+msgstr "По левой стороне"
+
+#: plugins/folder/viewpropertiesmenu.cpp:50
+#, kde-format
+msgid "Right"
+msgstr "По правой стороне"
+
+#: plugins/folder/viewpropertiesmenu.cpp:55
+#, kde-format
+msgid "Sort By"
+msgstr "Сортировать"
+
+#: plugins/folder/viewpropertiesmenu.cpp:58
+#, kde-format
+msgid "Unsorted"
+msgstr "Без сортировки"
+
+#: plugins/folder/viewpropertiesmenu.cpp:81
+#, kde-format
+msgid "Folders First"
+msgstr "Папки в начале"
+
+#: plugins/folder/viewpropertiesmenu.cpp:84
+#, kde-format
+msgid "Icon Size"
+msgstr "Размер значков"
+
+#: plugins/folder/viewpropertiesmenu.cpp:88
+#, kde-format
+msgid "Tiny"
+msgstr "Крошечные"
+
+#: plugins/folder/viewpropertiesmenu.cpp:88
+#, kde-format
+msgid "Small Medium"
+msgstr "Меньше средних"
+
+#: plugins/folder/viewpropertiesmenu.cpp:88
+#, kde-format
+msgid "Huge"
+msgstr "Огромные"
+
+#: plugins/folder/viewpropertiesmenu.cpp:97
+#, kde-format
+msgid "Show Previews"
+msgstr "Показывать миниатюры"
+
+#: plugins/folder/viewpropertiesmenu.cpp:100
+#, kde-format
+msgid "Locked"
+msgstr "Зафиксировать значки"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Dummy list view item that you can click to go to parent directory. --aspotashev

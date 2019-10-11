@@ -1,0 +1,235 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Victor Ibragimov <victor.ibragimov@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcm_emoticons\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"PO-Revision-Date: 2012-01-04 21:58+0500\n"
+"Last-Translator: Victor Ibragimov <victor.ibragimov@gmail.com>\n"
+"Language-Team: Tajik <>\n"
+"Language: tg\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 0.2\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Виктор Ибрагимов"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "victor.ibragimov@gmail.com"
+
+#: emoticonslist.cpp:70
+#, kde-format
+msgid ""
+"Insert the string for the emoticon.  If you want multiple strings, separate "
+"them by spaces."
+msgstr "Введите эквивалентные строки для смайлика, разделяя их пробелами."
+
+#: emoticonslist.cpp:110
+#, kde-format
+msgid "Emoticons"
+msgstr "Тасвирчаҳо"
+
+#: emoticonslist.cpp:254
+#, kde-format
+msgid "Drag or Type Emoticon Theme URL"
+msgstr "Макони мавзӯъи тасвириро ворид кунед"
+
+#: emoticonslist.cpp:259
+#, kde-format
+msgid "Emoticon themes must be installed from local files."
+msgstr "Мавзӯъҳои тасвирӣ бояд аз файлҳои маҳаллӣ сабт карда шаванд."
+
+#: emoticonslist.cpp:260
+#, kde-format
+msgid "Could Not Install Emoticon Theme"
+msgstr "Мавзӯъи тасвирӣ сабт карда намешавад"
+
+#: emoticonslist.cpp:278
+#, kde-format
+msgid "Do you want to remove %1 too?"
+msgstr "Оё Шумо мехоҳед %1ро аллакай тоза намоед?"
+
+#: emoticonslist.cpp:278
+#, kde-format
+msgid "Delete emoticon"
+msgstr "Нест кардани тасвирча"
+
+#: emoticonslist.cpp:294
+#, kde-format
+msgid "Add Emoticon"
+msgstr "Илова кардани тасвирча"
+
+#: emoticonslist.cpp:318
+#, kde-format
+msgid "Edit Emoticon"
+msgstr "Таҳрир кардани тасвирча"
+
+#: emoticonslist.cpp:364 emoticonslist.cpp:388
+#, kde-format
+msgid "New Emoticon Theme"
+msgstr "Мавзӯъи тасвирии нав"
+
+#: emoticonslist.cpp:364
+#, fuzzy, kde-format
+#| msgid "Design a new emoticon theme"
+msgid "Name of new emoticon theme:"
+msgstr "Дизайн кардани мавзӯъи тасвирии нав"
+
+#: emoticonslist.cpp:370
+#, kde-format
+msgid "%1 theme already exists"
+msgstr "Мавзӯъи %1 аллакай мавҷуд аст"
+
+#: emoticonslist.cpp:388
+#, kde-format
+msgid "Choose the type of emoticon theme to create"
+msgstr "Барои эҷод кардани мавзӯъи тасвирӣ, намуди онро интихоб кунед"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, EmoticonsManager)
+#: emoticonslist.ui:14
+#, kde-format
+msgid "Emoticons Manager"
+msgstr "Мудири мавзӯъҳои тасвирӣ"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, btInstall)
+#: emoticonslist.ui:26
+#, kde-format
+msgid "Install a theme archive file you already have locally"
+msgstr "Сабт кардани мавзӯъ нав аз файли мавҷудбуда дар диски компютерӣ"
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, btInstall)
+#: emoticonslist.ui:29
+#, kde-format
+msgid ""
+"If you already have an emoticon theme archive locally, this button will "
+"unpack it and make it available for KDE applications"
+msgstr ""
+"Агар Шумо мавзӯъи тасврирӣ дар диски компютерӣ аллакай доред, Шумо метавонед "
+"мавзӯъро бо ин тугма кушоед ва барои барномаҳои KDE дастрас кунед"
+
+#. i18n: ectx: property (text), widget (QPushButton, btInstall)
+#: emoticonslist.ui:32
+#, fuzzy, kde-format
+#| msgid "Install Theme File..."
+msgid "Install from File..."
+msgstr "Сабт кардани мавзӯъ..."
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, btNew)
+#: emoticonslist.ui:45
+#, fuzzy, kde-format
+#| msgid "Get New Icon Themes..."
+msgid "Create New Theme..."
+msgstr "Загрузить наборы значков из Интернета"
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, btNew)
+#: emoticonslist.ui:48
+#, fuzzy, kde-format
+#| msgid ""
+#| "Start a new theme by assigning it a name. Then use the Add button on the "
+#| "right to add emoticons to this theme."
+msgid ""
+"Create a new theme by assigning it a name. Then use the Add button on the "
+"right to add emoticons to this theme."
+msgstr ""
+"Мавзӯъи навро бо номи нав истифода баред. Баъд аз илова намудани номи нав, "
+"тасвирчаҳоро бо тугмаи Илова кардан... илова кунед."
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, btRemoveTheme)
+#: emoticonslist.ui:99
+#, kde-format
+msgid "Remove Theme"
+msgstr "Тоза кардани мавзӯъ"
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, btRemoveTheme)
+#: emoticonslist.ui:102
+#, kde-format
+msgid "This will remove the selected theme from your disk."
+msgstr "Ин мавзӯъи интихобшударо аз диски компютерӣ тоза карда мекунад."
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, btGetNew)
+#: emoticonslist.ui:115
+#, fuzzy, kde-format
+#| msgid "Get new icon themes from the Internet"
+msgid "Get new emoticon icon themes from the Internet"
+msgstr "Загрузка схем из Интернета"
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, btGetNew)
+#: emoticonslist.ui:118
+#, fuzzy, kde-format
+#| msgid ""
+#| "You need to be connected to the Internet to use this action. A dialog "
+#| "will display a list of emoticon themes from the http://www.kde-look.org "
+#| "website. Clicking the Install button associated with a theme will install "
+#| "this theme locally."
+msgid ""
+"You need to be connected to the Internet to use this action. A dialog will "
+"display a list of emoticon themes from the https://store.kde.org website. "
+"Clicking the Install button associated with a theme will install this theme "
+"locally."
+msgstr ""
+"Шумо бояд ба Интернет пайваст шавед. Рӯйхати мавзӯъҳо аз суроғаи http://www."
+"kde.org нишон дода мешаванд. Барои сабт кардани мавзӯъи нав, тугмаи Сабт "
+"кардан-ро истифода баред."
+
+#. i18n: ectx: property (text), widget (QPushButton, btGetNew)
+#: emoticonslist.ui:121
+#, fuzzy, kde-format
+#| msgid "Create a new emoticon"
+msgid "Get New Emoticons..."
+msgstr "Эҷоди мавзӯъи тасвирии нав"
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbStrict)
+#: emoticonslist.ui:138
+#, kde-format
+msgid "Require spaces around emoticons"
+msgstr "Фосилаҳо барои мавзӯъи тасвирӣ лозим аст"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, btAdd)
+#: emoticonslist.ui:161
+#, fuzzy, kde-format
+#| msgid "Create a new emoticon"
+msgid "Create New Emoticon..."
+msgstr "Эҷоди мавзӯъи тасвирии нав"
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, btAdd)
+#: emoticonslist.ui:164
+#, kde-format
+msgid "Create a new emoticon by assigning it an icon and some text"
+msgstr "Эҷоди мавзӯъи тасвирии нав бо иловакунии тамға ва матн"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, btRemoveEmoticon)
+#: emoticonslist.ui:177
+#, fuzzy, kde-format
+#| msgid "Add Emoticon"
+msgid "Remove Emoticon"
+msgstr "Илова кардани тасвирча"
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, btRemoveEmoticon)
+#: emoticonslist.ui:180
+#, kde-format
+msgid "Remove the selected emoticon from your disk"
+msgstr "Тоза кардани мавзӯъи тасвирии интихобшуда аз диски компютерӣ"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, btEdit)
+#: emoticonslist.ui:193
+#, fuzzy, kde-format
+#| msgid "Edit Emoticon"
+msgid "Edit Emoticon..."
+msgstr "Таҳрир кардани тасвирча"
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, btEdit)
+#: emoticonslist.ui:196
+#, kde-format
+msgid "Edit the selected emoticon to change its icon or its text"
+msgstr ""
+"Тағйир кардани мавзӯъи тасвирӣ бо иваз намудани тамға ё матни интихобшуда"

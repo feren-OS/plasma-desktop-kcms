@@ -1,0 +1,175 @@
+<?xml version="1.0" ?>
+<!DOCTYPE article PUBLIC "-//KDE//DTD DocBook XML V4.5-Based Variant V1.1//EN"
+"dtd/kdedbx45.dtd" [
+  <!ENTITY % addindex "IGNORE">
+  <!ENTITY % Portuguese "INCLUDE">
+]>
+<article id="phonon" lang="&language;">
+<title
+>Configuração do Áudio e Vídeo</title>
+<articleinfo>
+<authorgroup>
+<author
+><firstname
+>Matthias</firstname
+><surname
+>Kretz</surname
+></author>
+<othercredit role="translator"
+><firstname
+>José</firstname
+><surname
+>Pires</surname
+><affiliation
+><address
+><email
+>zepires@gmail.com</email
+></address
+></affiliation
+><contrib
+>Tradução</contrib
+></othercredit
+> 
+</authorgroup>
+
+<date
+>2013-12-05</date>
+<releaseinfo
+>&kde; 4.12</releaseinfo>
+
+<keywordset>
+<keyword
+>KDE</keyword>
+<keyword
+>Systemsettings</keyword>
+<keyword
+>'hardware'</keyword>
+<keyword
+>multimédia</keyword>
+<keyword
+>som</keyword>
+<keyword
+>vídeo</keyword>
+<keyword
+>infra-estrutura</keyword>
+</keywordset>
+</articleinfo>
+
+<para
+>Este módulo do &systemsettings; permite-lhe configurar a preferência dos dispositivos de som e vídeo, assim como as infra-estruturas usadas pelo Phonon. </para>
+
+<variablelist>
+<varlistentry
+><term
+>Página de <guilabel
+>Preferências dos Dispositivos</guilabel
+></term>
+<listitem
+><para
+>Do lado esquerdo, aparece-lhe uma árvore com várias categorias de saídas e capturas. Para cada categoria, poderá escolher o dispositivo que deseja usar.</para>
+<para
+>Os itens de <guilabel
+>Reprodução de Áudio</guilabel
+> e <guilabel
+>Captura de Áudio</guilabel
+> definem a ordem predefinida para os dispositivos, podendo estes ser substituídos pelos seus respectivos sub-itens.</para>
+<para
+>Se carregar no botão <guibutton
+>Aplicar a Lista de Dispositivos a</guibutton
+>, aparecerá uma janela que lhe permite copiar a configuração seleccionada de uma categoria para as outras demais.</para>
+<para
+>Seleccione uma categoria, para que os dispositivos disponíveis para essa categoria sejam apresentados na lista à direita. A ordem nesta lista define a preferência que tem pelos dispositivos de saída e captura. Se, por alguma razão, o primeiro dispositivo não puder ser usado, o Phonon irá tentar usar o segundo, &etc;</para>
+<para
+>Use os botões <guibutton
+>Preferir</guibutton
+> e <guibutton
+>Adiar</guibutton
+> para alterar a ordem, bem como o botão para <guibutton
+>Testar</guibutton
+> como forma de reproduzir um som de teste no dispositivo seleccionado. </para
+></listitem>
+</varlistentry>
+
+<varlistentry
+><term
+>Página de <guilabel
+>Configuração do 'Hardware' de Áudio</guilabel
+></term>
+<listitem
+><para
+>As diversas listas nesta página permitem o controlo total sobre todas as placas ligadas ao sistema.</para>
+
+<variablelist>
+<varlistentry
+><term
+><guilabel
+>'Hardware'</guilabel
+></term>
+<listitem
+><para
+>Seleccione a <guilabel
+>Placa de Som</guilabel
+> e o <guilabel
+>Perfil</guilabel
+> disponível a usar.</para>
+</listitem
+></varlistentry>
+
+<varlistentry
+><term
+><guilabel
+>Configuração do Dispositivo</guilabel
+></term>
+<listitem
+><para
+>Seleccione o <guilabel
+>Dispositivo de Som</guilabel
+> e um <guilabel
+>Conector</guilabel
+>.</para>
+</listitem
+></varlistentry>
+
+<varlistentry
+><term
+><guilabel
+>Colocação e Teste do Altifalante</guilabel
+> ou <guilabel
+>Níveis de Entrada</guilabel
+></term>
+<listitem>
+<para
+>Para um dispositivo de reprodução: os botões nesta área permitem-lhe testar cada altifalante em separado. </para>
+<para
+>Para um dispositivo de gravação: Uma barra mostra os <guilabel
+>Níveis de Entrada</guilabel
+> do <guilabel
+>Conector</guilabel
+> seleccionado. </para>
+</listitem
+></varlistentry>
+</variablelist>
+
+
+
+</listitem>
+</varlistentry>
+
+<varlistentry
+><term
+>Página de <guilabel
+>Infra-Estrutura</guilabel
+></term>
+<listitem
+><para
+>Do lado esquerdo deste módulo, é apresentada uma lista com as infra-estruturas do Phonon encontradas no seu sistema. A ordem aqui determinada a sequência pela qual o Phonon irá usar essas infra-estruturas. Use os botões <guibutton
+>Preferir</guibutton
+> e <guibutton
+>Adiar</guibutton
+> para modificar essa ordem.</para>
+</listitem>
+</varlistentry>
+
+</variablelist>
+
+</article>

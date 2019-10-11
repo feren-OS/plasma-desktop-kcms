@@ -1,0 +1,218 @@
+# translation of kcmkeys.po to Uzbek
+# Copyright (C) 2003, 2004, 2005 Free Software Foundation, Inc.
+# Mashrab Kuvatov <kmashrab@uni-bremen.de>, 2003, 2004, 2005.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmkeys\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"PO-Revision-Date: 2005-10-16 16:59+0200\n"
+"Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
+"Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
+"Language: uz\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.10.2\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. i18n: ectx: property (text), widget (QLabel, components_label)
+#: export_scheme_dialog.ui:17
+#, kde-format
+msgid "Select the Components to Export"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, components)
+#: export_scheme_dialog.ui:27
+#, fuzzy, kde-format
+msgid "Components"
+msgstr "Тугмалар қолипини сақлаш"
+
+#: globalshortcuts.cpp:67
+#, kde-format
+msgid "You are about to reset all shortcuts to their default values."
+msgstr ""
+
+#: globalshortcuts.cpp:68
+#, kde-format
+msgid "Reset to defaults"
+msgstr ""
+
+#: globalshortcuts.cpp:69
+#, fuzzy, kde-format
+msgid "Current Component"
+msgstr "Тугмалар қолипини сақлаш"
+
+#: globalshortcuts.cpp:70
+#, fuzzy, kde-format
+msgid "All Components"
+msgstr "Тугмалар қолипини сақлаш"
+
+#: kglobalshortcutseditor.cpp:231
+#, fuzzy, kde-format
+#| msgid "Current Scheme"
+msgid "Import Scheme..."
+msgstr "Жорий қолип"
+
+#: kglobalshortcutseditor.cpp:232
+#, fuzzy, kde-format
+#| msgid "Current Scheme"
+msgid "Export Scheme..."
+msgstr "Жорий қолип"
+
+#: kglobalshortcutseditor.cpp:233
+#, kde-format
+msgid "Set All Shortcuts to None"
+msgstr ""
+
+#: kglobalshortcutseditor.cpp:241
+#, fuzzy, kde-format
+#| msgid "Application Missing"
+msgid "Applications"
+msgstr "Дастур мавжуд эмас"
+
+#: kglobalshortcutseditor.cpp:292
+#, kde-format
+msgid "Launch %1"
+msgstr ""
+
+#: kglobalshortcutseditor.cpp:328
+#, kde-format
+msgid ""
+"Component '%1' is currently active. Only global shortcuts currently not "
+"active will be removed from the list.\n"
+"All global shortcuts will reregister themselves with their defaults when "
+"they are next started."
+msgstr ""
+
+#: kglobalshortcutseditor.cpp:330 kglobalshortcutseditor.cpp:340
+#, fuzzy, kde-format
+msgid "Remove component"
+msgstr "Тугмалар қолипини сақлаш"
+
+#: kglobalshortcutseditor.cpp:336
+#, kde-format
+msgid ""
+"Are you sure you want to remove the registered shortcuts for component '%1'? "
+"The component and shortcuts will reregister themselves with their default "
+"settings when they are next started."
+msgstr ""
+
+#: kglobalshortcutseditor.cpp:450
+#, fuzzy, kde-format
+#| msgid "App&lication Shortcuts"
+msgid "Application Launchers"
+msgstr "&Дастур учун тугмалар бирикмаси"
+
+#: kglobalshortcutseditor.cpp:453
+#, fuzzy, kde-format
+#| msgid "Shortcut"
+msgid "Other Shortcuts"
+msgstr "Тугмалар бирикмаси"
+
+#: kglobalshortcutseditor.cpp:558
+#, kde-format
+msgid ""
+"Your current changes will be lost if you load another scheme before saving "
+"this one"
+msgstr ""
+
+#: kglobalshortcutseditor.cpp:559
+#, fuzzy, kde-format
+#| msgid "Shortcut Se&quences"
+msgid "Load Shortcut Scheme"
+msgstr "Ҳар &хил тугмалар бирикмаси"
+
+#: kglobalshortcutseditor.cpp:560
+#, kde-format
+msgid "Load"
+msgstr ""
+
+#: kglobalshortcutseditor.cpp:573
+#, kde-format
+msgid "This file (%1) does not exist. You can only select local files."
+msgstr ""
+
+#: kglobalshortcutseditor.cpp:601 kglobalshortcutseditor.cpp:624
+#, kde-format
+msgid ""
+"Message: %1\n"
+"Error: %2"
+msgstr ""
+
+#: kglobalshortcutseditor.cpp:606 kglobalshortcutseditor.cpp:629
+#, kde-format
+msgid "Failed to contact the KDE global shortcuts daemon\n"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, componentLabel)
+#: kglobalshortcutseditor.ui:37
+#, fuzzy, kde-format
+msgid "Component:"
+msgstr "Тугмалар қолипини сақлаш"
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, addButton)
+#: kglobalshortcutseditor.ui:77
+#, kde-format
+msgid "Add a new shortcut to an Application..."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QToolButton, addButton)
+#. i18n: ectx: property (text), widget (QToolButton, removeButton)
+#: kglobalshortcutseditor.ui:80 kglobalshortcutseditor.ui:90
+#, kde-format
+msgid "..."
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, removeButton)
+#: kglobalshortcutseditor.ui:87
+#, fuzzy, kde-format
+msgid "Remove the selected component"
+msgstr "Тугмалар қолипини сақлаш"
+
+#. i18n: ectx: property (text), widget (QPushButton, menu_button)
+#: kglobalshortcutseditor.ui:110
+#, kde-format
+msgid "File"
+msgstr ""
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, SelectApplicationDialog)
+#: select_application.ui:14
+#, kde-format
+msgid "Select Application"
+msgstr ""
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, SelectSchemeDialog)
+#. i18n: ectx: property (placeholderText), widget (KUrlRequester, m_url)
+#: select_scheme_dialog.ui:15 select_scheme_dialog.ui:123
+#, fuzzy, kde-format
+#| msgid "Shortcut Se&quences"
+msgid "Select Shortcut Scheme"
+msgstr "Ҳар &хил тугмалар бирикмаси"
+
+#. i18n: ectx: property (whatsThis), widget (QLabel, label)
+#: select_scheme_dialog.ui:39
+#, fuzzy, kde-format
+#| msgid "Shortcut Se&quences"
+msgid "Select one of the standard KDE shortcut schemes"
+msgstr "Ҳар &хил тугмалар бирикмаси"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: select_scheme_dialog.ui:42
+#, fuzzy, kde-format
+msgid "&Standard scheme:"
+msgstr "Тугмалар қолипини сақлаш"
+
+#. i18n: ectx: property (whatsThis), widget (QLabel, label_2)
+#: select_scheme_dialog.ui:92
+#, fuzzy, kde-format
+#| msgid "Shortcut Se&quences"
+msgid "Select a shortcut scheme file"
+msgstr "Ҳар &хил тугмалар бирикмаси"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: select_scheme_dialog.ui:95
+#, kde-format
+msgid "&Path:"
+msgstr ""

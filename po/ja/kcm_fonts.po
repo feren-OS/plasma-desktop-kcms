@@ -1,0 +1,235 @@
+# Translation of kcmfonts into Japanese.
+# This file is distributed under the same license as the kdebase package.
+# Noboru Sinohara <shinobo@leo.bekkoame.ne.jp>, 2002.
+# UTUMI Hirosi <utuhiro78@yahoo.co.jp>, 2004.
+# Kurose Shushi <md81@bird.email.ne.jp>, 2004.
+# Tadashi Jokagi <elf2000@users.sourceforge.net>, 2005.
+# Yukiko Bando <ybando@k6.dion.ne.jp>, 2007.
+# Fuminobu TAKEYAMA <ftake@geeko.jp>, 2015.
+# Fumiaki Okushi <fumiaki.okushi@gmail.com>, 2006, 2015, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmfonts\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-07-12 07:37+0200\n"
+"PO-Revision-Date: 2019-04-21 11:12-0700\n"
+"Last-Translator: Fumiaki Okushi <fumiaki.okushi@gmail.com>\n"
+"Language-Team: Japanese <kde-jp@kde.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 18.12.3\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Accelerator-Marker: &\n"
+"X-Text-Markup: kde4\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
+
+#: fonts.cpp:279
+#, kde-format
+msgid ""
+"<p>Some changes such as anti-aliasing or DPI will only affect newly started "
+"applications.</p>"
+msgstr ""
+"<p>アンチエイリアスや DPI などの一部の設定変更は、これ以降に起動されるアプリ"
+"ケーションにのみ反映されます。</p>"
+
+#: fonts.cpp:280 fonts.cpp:290
+#, kde-format
+msgid "Font Settings Changed"
+msgstr "フォント設定を変更しました"
+
+#: fonts.cpp:289
+#, kde-format
+msgid ""
+"<p>Some changes such as DPI will only affect newly started applications.</p>"
+msgstr ""
+"<p>DPI などの一部の設定変更は、これ以降に起動されるアプリケーションにのみ反映"
+"されます。</p>"
+
+#: fonts.cpp:443
+#, kde-format
+msgid "Fonts"
+msgstr "フォント"
+
+#: fonts.cpp:445
+#, kde-format
+msgid "Antonis Tsiapaliokas"
+msgstr ""
+
+#: kxftconfig.cpp:444
+#, kde-format
+msgctxt "use system subpixel setting"
+msgid "Vendor default"
+msgstr ""
+
+#: kxftconfig.cpp:446
+#, kde-format
+msgctxt "no subpixel rendering"
+msgid "None"
+msgstr "なし"
+
+#: kxftconfig.cpp:448
+#, kde-format
+msgid "RGB"
+msgstr "RGB"
+
+#: kxftconfig.cpp:450
+#, kde-format
+msgid "BGR"
+msgstr "BGR"
+
+#: kxftconfig.cpp:452
+#, kde-format
+msgid "Vertical RGB"
+msgstr "垂直 RGB"
+
+#: kxftconfig.cpp:454
+#, kde-format
+msgid "Vertical BGR"
+msgstr "垂直 BGR"
+
+#: kxftconfig.cpp:482
+#, kde-format
+msgctxt "use system hinting settings"
+msgid "Vendor default"
+msgstr ""
+
+#: kxftconfig.cpp:484
+#, kde-format
+msgctxt "medium hinting"
+msgid "Medium"
+msgstr "中間"
+
+#: kxftconfig.cpp:486
+#, kde-format
+msgctxt "no hinting"
+msgid "None"
+msgstr "なし"
+
+#: kxftconfig.cpp:488
+#, kde-format
+msgctxt "slight hinting"
+msgid "Slight"
+msgstr "軽く"
+
+#: kxftconfig.cpp:490
+#, kde-format
+msgctxt "full hinting"
+msgid "Full"
+msgstr "完全に"
+
+#: package/contents/ui/FontWidget.qml:68
+#, kde-format
+msgid "Select %1 Font..."
+msgstr ""
+
+#: package/contents/ui/main.qml:30
+#, kde-format
+msgid "This module lets you configure the system fonts."
+msgstr ""
+
+#: package/contents/ui/main.qml:40
+#, kde-format
+msgid "&Adjust All Fonts..."
+msgstr "すべてのフォントを調整(&J)..."
+
+#: package/contents/ui/main.qml:47
+#, kde-format
+msgid "General:"
+msgstr "一般:"
+
+#: package/contents/ui/main.qml:52
+#, kde-format
+msgid "Fixed width:"
+msgstr "等幅:"
+
+#: package/contents/ui/main.qml:57
+#, kde-format
+msgid "Small:"
+msgstr "最小:"
+
+#: package/contents/ui/main.qml:62
+#, kde-format
+msgid "Toolbar:"
+msgstr "ツールバー:"
+
+#: package/contents/ui/main.qml:67
+#, kde-format
+msgid "Menu:"
+msgstr "メニュー:"
+
+#: package/contents/ui/main.qml:72
+#, kde-format
+msgid "Window title:"
+msgstr "ウィンドウタイトル:"
+
+#: package/contents/ui/main.qml:84
+#, kde-format
+msgctxt "Used as a noun, and precedes a combobox full of options"
+msgid "Anti-aliasing:"
+msgstr "アンチエイリアス:"
+
+#: package/contents/ui/main.qml:86
+#, kde-format
+msgid "Enabled"
+msgstr "有効"
+
+#: package/contents/ui/main.qml:86
+#, kde-format
+msgid "Vendor default"
+msgstr ""
+
+#: package/contents/ui/main.qml:86
+#, kde-format
+msgid "Disabled"
+msgstr "無効"
+
+#: package/contents/ui/main.qml:96
+#, kde-format
+msgid "Exclude range from anti-aliasing"
+msgstr "アンチエイリアスから除外する範囲"
+
+#: package/contents/ui/main.qml:113 package/contents/ui/main.qml:128
+#, kde-format
+msgid "%1 pt"
+msgstr "%1 pt"
+
+#: package/contents/ui/main.qml:120
+#, fuzzy, kde-format
+#| msgid " to "
+msgid "to"
+msgstr " → "
+
+#: package/contents/ui/main.qml:141
+#, kde-format
+msgctxt "Used as a noun, and precedes a combobox full of options"
+msgid "Sub-pixel rendering:"
+msgstr "サブピクセルレンダリング:"
+
+#: package/contents/ui/main.qml:178
+#, fuzzy, kde-format
+#| msgid "Hinting style: "
+msgctxt "Used as a noun, and precedes a combobox full of options"
+msgid "Hinting:"
+msgstr "ヒントスタイル: "
+
+#: package/contents/ui/main.qml:216
+#, kde-format
+msgid "Force font DPI:"
+msgstr "フォントの DPI を指定:"
+
+#: package/contents/ui/main.qml:234
+#, kde-format
+msgid "Select Font"
+msgstr ""

@@ -1,0 +1,503 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# g.sora <g.sora@tiscali.it>, 2010, 2016.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"PO-Revision-Date: 2016-11-29 12:09+0100\n"
+"Last-Translator: Giovanni Sora <g.sora@tiscali.it>\n"
+"Language-Team: Interlingua <kde-i18n-doc@kde.org>\n"
+"Language: ia\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Giovanni Sora"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "g.sora@tiscali.it"
+
+#: kaccess.cpp:77
+#, kde-format
+msgid ""
+"The Shift key has been locked and is now active for all of the following "
+"keypresses."
+msgstr ""
+"Le clave de Shift ha essite blocate e ora es active pro tote le sequente "
+"claves de pressar (keypresses)"
+
+#: kaccess.cpp:78
+#, kde-format
+msgid "The Shift key is now active."
+msgstr "Le clave de Shift es ora active"
+
+#: kaccess.cpp:79
+#, kde-format
+msgid "The Shift key is now inactive."
+msgstr "Le clave Shift es ora inactive."
+
+#: kaccess.cpp:83
+#, kde-format
+msgid ""
+"The Control key has been locked and is now active for all of the following "
+"keypresses."
+msgstr ""
+"Le clave de Controlo ha essite blocate e es ora active pro tote le sequente "
+"claves de pressar (keypresses)."
+
+#: kaccess.cpp:84
+#, kde-format
+msgid "The Control key is now active."
+msgstr "Le clave de Controlo es ora active."
+
+#: kaccess.cpp:85
+#, kde-format
+msgid "The Control key is now inactive."
+msgstr "Le clave de Controlo es ora inactive."
+
+#: kaccess.cpp:89
+#, kde-format
+msgid ""
+"The Alt key has been locked and is now active for all of the following "
+"keypresses."
+msgstr ""
+"Le clave de Alt ha essite blocate e es ora active pro tote le sequente "
+"claves de pressar (keypresses)."
+
+#: kaccess.cpp:90
+#, kde-format
+msgid "The Alt key is now active."
+msgstr "Le clave Alt es ora active."
+
+#: kaccess.cpp:91
+#, kde-format
+msgid "The Alt key is now inactive."
+msgstr "Le clave Alt es ora inactive."
+
+#: kaccess.cpp:95
+#, kde-format
+msgid ""
+"The Win key has been locked and is now active for all of the following "
+"keypresses."
+msgstr ""
+"Le clave Win ha essite blocate e es ora active pro tote le sequente claves "
+"de pressar (keypresses)."
+
+#: kaccess.cpp:96
+#, kde-format
+msgid "The Win key is now active."
+msgstr "Le clave de Win es ora active."
+
+#: kaccess.cpp:97
+#, kde-format
+msgid "The Win key is now inactive."
+msgstr "Le clave de Win es ora inactive."
+
+#: kaccess.cpp:101
+#, kde-format
+msgid ""
+"The Meta key has been locked and is now active for all of the following "
+"keypresses."
+msgstr ""
+"le clave Meta ha essite blocate e es ora active pro tote le sequente claves "
+"de pressar (keypresses)."
+
+#: kaccess.cpp:102
+#, kde-format
+msgid "The Meta key is now active."
+msgstr "Le clave Meta es ora active."
+
+#: kaccess.cpp:103
+#, kde-format
+msgid "The Meta key is now inactive."
+msgstr "Le clave Meta es ora inactive."
+
+#: kaccess.cpp:107
+#, kde-format
+msgid ""
+"The Super key has been locked and is now active for all of the following "
+"keypresses."
+msgstr ""
+"Le clave Super ha essite blocate e ora es active pro tote le sequente claves "
+"de pressar (keypresses)."
+
+#: kaccess.cpp:108
+#, kde-format
+msgid "The Super key is now active."
+msgstr "Le clave Super es ora active."
+
+#: kaccess.cpp:109
+#, kde-format
+msgid "The Super key is now inactive."
+msgstr "Le clave Super es ora inactive."
+
+#: kaccess.cpp:113
+#, kde-format
+msgid ""
+"The Hyper key has been locked and is now active for all of the following "
+"keypresses."
+msgstr ""
+"Le clave Hyper ha essite blocate e ora es active pro tote le sequente claves "
+"de pressar (keypresses)."
+
+#: kaccess.cpp:114
+#, kde-format
+msgid "The Hyper key is now active."
+msgstr "Le clave Hyper es ora active"
+
+#: kaccess.cpp:115
+#, kde-format
+msgid "The Hyper key is now inactive."
+msgstr "Le clave Hyper es ora inactive."
+
+#: kaccess.cpp:119
+#, kde-format
+msgid ""
+"The Alt Graph key has been locked and is now active for all of the following "
+"keypresses."
+msgstr ""
+"Le clave de Alt Graph ha essite blocate e ora es active pro tote le sequente "
+"claves de pressar (keypresses)"
+
+#: kaccess.cpp:120
+#, kde-format
+msgid "The Alt Graph key is now active."
+msgstr "Le clave de Alt Graph es  ora active"
+
+#: kaccess.cpp:121
+#, kde-format
+msgid "The Alt Graph key is now inactive."
+msgstr "Le clave de Alt Graph es  ora inactive"
+
+#: kaccess.cpp:125
+#, kde-format
+msgid "The Num Lock key has been activated."
+msgstr "Le clave de Num Lock (Bloco Numeric) ha essite activate."
+
+#: kaccess.cpp:127
+#, kde-format
+msgid "The Num Lock key is now inactive."
+msgstr "Le clave de Num Lock es  ora active"
+
+#: kaccess.cpp:131
+#, kde-format
+msgid "The Caps Lock key has been activated."
+msgstr "Le clave de Caps Lock ha essite activate"
+
+#: kaccess.cpp:133
+#, kde-format
+msgid "The Caps Lock key is now inactive."
+msgstr "Le clave de Caps Lock es  ora active"
+
+#: kaccess.cpp:137
+#, kde-format
+msgid "The Scroll Lock key has been activated."
+msgstr "Le clave de Scroll Lock (Bloco de Rolo) ha essite activate"
+
+#: kaccess.cpp:139
+#, kde-format
+msgid "The Scroll Lock key is now inactive."
+msgstr "Le clave de Scroll Lock (bloco de Rolo) es  ora active"
+
+#: kaccess.cpp:357
+#, kde-format
+msgid "Toggle Screen Reader On and Off"
+msgstr "Commuta lector de schermo On e Off"
+
+#: kaccess.cpp:359
+#, kde-format
+msgctxt "Name for kaccess shortcuts category"
+msgid "Accessibility"
+msgstr "Accessibilitate"
+
+#: kaccess.cpp:648
+#, kde-format
+msgid "AltGraph"
+msgstr "AltGraph"
+
+#: kaccess.cpp:650
+#, kde-format
+msgid "Hyper"
+msgstr "Hyper"
+
+#: kaccess.cpp:652
+#, kde-format
+msgid "Super"
+msgstr "Super"
+
+#: kaccess.cpp:654
+#, kde-format
+msgid "Meta"
+msgstr "Meta"
+
+#: kaccess.cpp:671
+#, kde-format
+msgid "Warning"
+msgstr "Aviso"
+
+#: kaccess.cpp:699
+#, kde-format
+msgid "&When a gesture was used:"
+msgstr "&Quando un gesture esseva usate:"
+
+#: kaccess.cpp:705
+#, kde-format
+msgid "Change Settings Without Asking"
+msgstr "Modifica preferentias sin demandar"
+
+#: kaccess.cpp:706
+#, kde-format
+msgid "Show This Confirmation Dialog"
+msgstr "Monstra iste dialogo de confirmation"
+
+#: kaccess.cpp:707
+#, kde-format
+msgid "Deactivate All AccessX Features & Gestures"
+msgstr "De-activa tote le characteristicas & gestures de AccessX"
+
+#: kaccess.cpp:753 kaccess.cpp:755
+#, kde-format
+msgid "Slow keys"
+msgstr "Claves lente"
+
+#: kaccess.cpp:758 kaccess.cpp:760
+#, kde-format
+msgid "Bounce keys"
+msgstr "Claves elastic"
+
+#: kaccess.cpp:763 kaccess.cpp:765
+#, kde-format
+msgid "Sticky keys"
+msgstr "Claves collate"
+
+#: kaccess.cpp:768 kaccess.cpp:770
+#, kde-format
+msgid "Mouse keys"
+msgstr "Claves de mus"
+
+#: kaccess.cpp:775
+#, kde-format
+msgid "Do you really want to deactivate \"%1\"?"
+msgstr "Tu vole realmente de-activar \"%1\"?"
+
+#: kaccess.cpp:778
+#, kde-format
+msgid "Do you really want to deactivate \"%1\" and \"%2\"?"
+msgstr "Tu vole realmente de-activar \"%1\" e \"%2\"?"
+
+#: kaccess.cpp:781
+#, kde-format
+msgid "Do you really want to deactivate \"%1\", \"%2\" and \"%3\"?"
+msgstr "Tu vole realmente de-activar \"%1\", \"%2\" e \"%3\"?"
+
+#: kaccess.cpp:785
+#, kde-format
+msgid "Do you really want to deactivate \"%1\", \"%2\", \"%3\" and \"%4\"?"
+msgstr "Tu vole realmente de-activar \"%1\", \"%2\", \"%3\" e \"%4\"?"
+
+#: kaccess.cpp:792
+#, kde-format
+msgid "Do you really want to activate \"%1\"?"
+msgstr "Tu vole realmente activar \"%1\"?"
+
+#: kaccess.cpp:795
+#, kde-format
+msgid "Do you really want to activate \"%1\" and to deactivate \"%2\"?"
+msgstr "Tu vole realmente activar \"%1\" e de-activar \"%2\"?"
+
+#: kaccess.cpp:798
+#, kde-format
+msgid ""
+"Do you really want to activate \"%1\" and to deactivate \"%2\" and \"%3\"?"
+msgstr "Tu vole realmente activar \"%1\" e de-activar \"%2\" e \"%3\"?"
+
+#: kaccess.cpp:802
+#, kde-format
+msgid ""
+"Do you really want to activate \"%1\" and to deactivate \"%2\", \"%3\" and "
+"\"%4\"?"
+msgstr "Tu vole realmente activar \"%1\" e de-activar \"%2\", \"%3\" e \"%4\"?"
+
+#: kaccess.cpp:809
+#, kde-format
+msgid "Do you really want to activate \"%1\" and \"%2\"?"
+msgstr "Tu vole realmente activar \"%1\" e \"%2\"?"
+
+#: kaccess.cpp:812
+#, kde-format
+msgid ""
+"Do you really want to activate \"%1\" and \"%2\" and to deactivate \"%3\"?"
+msgstr "Tu vole realmente activar \"%1\" e \"%2\" e de-activar \"%3\"?"
+
+#: kaccess.cpp:816
+#, kde-format
+msgid ""
+"Do you really want to activate \"%1\", and \"%2\" and to deactivate \"%3\" "
+"and \"%4\"?"
+msgstr ""
+"Tu vole realmente activar \"%1\", e \"%2\" e de-activar \"%3\" and \"%4\"?"
+
+#: kaccess.cpp:823
+#, kde-format
+msgid "Do you really want to activate \"%1\", \"%2\" and \"%3\"?"
+msgstr "Tu vole realmente activar \"%1\", \"%2\" e \"%3\"?"
+
+#: kaccess.cpp:827
+#, kde-format
+msgid ""
+"Do you really want to activate \"%1\", \"%2\" and \"%3\" and to deactivate "
+"\"%4\"?"
+msgstr "Tu vole realmente activar \"%1\", \"%2\" e \"%3\" e de-activar \"%4\"?"
+
+#: kaccess.cpp:833
+#, kde-format
+msgid "Do you really want to activate \"%1\", \"%2\", \"%3\" and \"%4\"?"
+msgstr "Tu vole realmente activar \"%1\", \"%2\", \"%3\" e \"%4\"?"
+
+#: kaccess.cpp:840
+#, kde-format
+msgid "An application has requested to change this setting."
+msgstr "Un application ha requirite de cambiar iste preferentia."
+
+#: kaccess.cpp:844
+#, kde-format
+msgid ""
+"You held down the Shift key for 8 seconds or an application has requested to "
+"change this setting."
+msgstr ""
+"Tu tene premite le clave de Shift per 8 secundas o un application ha "
+"requirite de cambiar iste preferentia."
+
+#: kaccess.cpp:846
+#, kde-format
+msgid ""
+"You pressed the Shift key 5 consecutive times or an application has "
+"requested to change this setting."
+msgstr ""
+"Tu premeva le clave de Shift 5 vices consecutivemente o un application ha "
+"requirite de cambiar iste preferentia."
+
+#: kaccess.cpp:850
+#, kde-format
+msgid "You pressed %1 or an application has requested to change this setting."
+msgstr ""
+"Tu premeva %1 o un application ha requirite de cambiar iste preferentia."
+
+#: kaccess.cpp:855
+#, kde-format
+msgid ""
+"An application has requested to change these settings, or you used a "
+"combination of several keyboard gestures."
+msgstr ""
+"Un application ha requirite de cambiar iste preferentias, o tu usava un "
+"combination de multe gestures de claviero."
+
+#: kaccess.cpp:857
+#, kde-format
+msgid "An application has requested to change these settings."
+msgstr "Un application ha requirite de cambiar iste preferentias."
+
+#: kaccess.cpp:862
+#, kde-format
+msgid ""
+"These AccessX settings are needed for some users with motion impairments and "
+"can be configured in the KDE System Settings. You can also turn them on and "
+"off with standardized keyboard gestures.\n"
+"\n"
+"If you do not need them, you can select \"Deactivate all AccessX features "
+"and gestures\"."
+msgstr ""
+"Iste preferentias de AccessX es necessitate per  alcun usatores con "
+"problemas de movimento e pote esser configurate in le preferentias del "
+"Systema de KDE.  Tu pote anque mover los ON e OFF con gestures standard de "
+"claviero.\n"
+"\n"
+"Si tu non necessita los, tu pote selectionar \"Tu de-activa tote le "
+"characteristicas e gestures  de AccessX \"."
+
+#: kaccess.cpp:880
+#, kde-format
+msgid ""
+"Slow keys has been enabled. From now on, you need to press each key for a "
+"certain length of time before it gets accepted."
+msgstr ""
+"Le claves lente ha essite habilitate. Ab ora in avante, tu necessita de "
+"premer omne clave pro un certe longitude te tempore antea que il pote "
+"reciper acceptation."
+
+#: kaccess.cpp:882
+#, kde-format
+msgid "Slow keys has been disabled."
+msgstr "Le claves lente ha essite dishabilitate"
+
+#: kaccess.cpp:885
+#, kde-format
+msgid ""
+"Bounce keys has been enabled. From now on, each key will be blocked for a "
+"certain length of time after it was used."
+msgstr ""
+"Le claves Elastic ha essite habilitate. Ab ora in avante, omne clave essera "
+"blocate per un certe periodo de tempore postea que esseva usate."
+
+#: kaccess.cpp:887
+#, kde-format
+msgid "Bounce keys has been disabled."
+msgstr "Claves Elastic ha essite dishabilitate"
+
+#: kaccess.cpp:890
+#, kde-format
+msgid ""
+"Sticky keys has been enabled. From now on, modifier keys will stay latched "
+"after you have released them."
+msgstr ""
+"Claves Collate ha essite habilitate. De ora en avante, claves modificator "
+"remanera serrate postea que tu ha relaxate los"
+
+#: kaccess.cpp:892
+#, kde-format
+msgid "Sticky keys has been disabled."
+msgstr "Claves collate ha essite dishabilitate"
+
+#: kaccess.cpp:895
+#, kde-format
+msgid ""
+"Mouse keys has been enabled. From now on, you can use the number pad of your "
+"keyboard in order to control the mouse."
+msgstr ""
+"Claves de Mus ha essite habilitate. De ora in avante, tu pote usar le pad "
+"numeric de vostre claviero per controlar le mus."
+
+#: kaccess.cpp:897
+#, kde-format
+msgid "Mouse keys has been disabled."
+msgstr "Claves de Mus ha essite dishabilitate"
+
+#: main.cpp:55
+#, kde-format
+msgid "KDE Accessibility Tool"
+msgstr "Instrumento de accessibilitate de KDE"
+
+#: main.cpp:57
+#, kde-format
+msgid "(c) 2000, Matthias Hoelzer-Kluepfel"
+msgstr "(c) 2000, Matthias Hoelzer-Kluepfel"
+
+#: main.cpp:59
+#, kde-format
+msgid "Matthias Hoelzer-Kluepfel"
+msgstr "Matthias Hoelzer-Kluepfel"
+
+#: main.cpp:59
+#, kde-format
+msgid "Author"
+msgstr "Autor"

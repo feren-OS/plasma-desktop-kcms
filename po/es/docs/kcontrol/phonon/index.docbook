@@ -1,0 +1,189 @@
+<?xml version="1.0" ?>
+<!DOCTYPE article PUBLIC "-//KDE//DTD DocBook XML V4.5-Based Variant V1.1//EN"
+"dtd/kdedbx45.dtd" [
+  <!ENTITY % addindex "IGNORE">
+  <!ENTITY % Spanish "INCLUDE">
+]>
+<article id="phonon" lang="&language;">
+<title
+>Preferencias de audio y de vídeo</title>
+<articleinfo>
+<authorgroup>
+<author
+><firstname
+>Matthias</firstname
+><surname
+>Kretz</surname
+></author>
+<othercredit role="translator"
+> <firstname
+>Rocío</firstname
+> <surname
+>Gallego</surname
+> <affiliation
+><address
+><email
+>traducciones@rociogallego.com</email
+></address
+></affiliation
+> <contrib
+>Traducción</contrib
+> </othercredit
+><othercredit role="translator"
+><firstname
+>Cristina Yenyxe</firstname
+><surname
+>González García</surname
+><affiliation
+><address
+><email
+>the.blue.valkyrie@gmail.com</email
+></address
+></affiliation
+><contrib
+>Traductor</contrib
+></othercredit
+> 
+</authorgroup>
+
+<date
+>2013-12-05</date>
+<releaseinfo
+>&kde; 4.12</releaseinfo>
+
+<keywordset>
+<keyword
+>KDE</keyword>
+<keyword
+>Preferencias del sistema</keyword>
+<keyword
+>hardware</keyword>
+<keyword
+>multimedia</keyword>
+<keyword
+>sonido</keyword>
+<keyword
+>vídeo</keyword>
+<keyword
+>motor</keyword>
+</keywordset>
+</articleinfo>
+
+<para
+>El módulo de las &systemsettings; permite configurar las preferencias de los dispositivos de vídeo y sonido y los motores utilizados por Phonon. </para>
+
+<variablelist>
+<varlistentry
+><term
+>pestaña <guilabel
+>Preferencia del dispositivo</guilabel
+></term>
+<listitem
+><para
+>A la izquierda, aparece una lista de árbol con varias categorías de reproducción y de grabación. Para cada categoría, puede seleccionar el dispositivo que desea utilizar.</para>
+<para
+>Los elementos <guilabel
+>Reproducción de audio</guilabel
+> y <guilabel
+>Grabación de audio</guilabel
+> definen el orden predeterminado de los dispositivos que se pueden sustituir por cada subelemento.</para>
+<para
+>Al pulsar el botón <guibutton
+>Aplicar lista de dispositivos a</guibutton
+> se muestra un diálogo que le permite copiar la configuración seleccionada para la categoría actual a varias otras.</para>
+<para
+>Seleccione una categoría y los dispositivos disponibles para esa categoría serán mostrados en la lista de la derecha. El orden en esta lista determina la preferencia de los dispositivos de salida y de captura. Si por alguna razón el primer dispositivo no puede ser utilizado, Phonon intentará utilizar el segundo, &etc;</para>
+<para
+>Utilice los botones <guibutton
+>Preferir</guibutton
+> y <guibutton
+>Diferir</guibutton
+> para cambiar el orden y el botón <guibutton
+>Prueba</guibutton
+> para realizar una prueba de sonido sobre el dispositivo seleccionado. </para
+></listitem>
+</varlistentry>
+
+<varlistentry
+><term
+>pestaña <guilabel
+>Configuración de dispositivo de audio</guilabel
+></term>
+<listitem
+><para
+>Las distintas listas desplegables de esta pestaña le permiten tener un control total sobre todas las tarjetas que están conectadas al sistema.</para>
+
+<variablelist>
+<varlistentry
+><term
+><guilabel
+>Hardware</guilabel
+></term>
+<listitem
+><para
+>Seleccione la <guilabel
+>Tarjeta de sonido</guilabel
+> y un <guilabel
+>Perfil</guilabel
+> disponible que quiera utilizar.</para>
+</listitem
+></varlistentry>
+
+<varlistentry
+><term
+><guilabel
+>Configuración de dispositivo</guilabel
+></term>
+<listitem
+><para
+>Seleccione el <guilabel
+>Dispositivo de sonido</guilabel
+> y un <guilabel
+>Conector</guilabel
+>.</para>
+</listitem
+></varlistentry>
+
+<varlistentry
+><term
+><guilabel
+>Colocación y prueba de altavoces</guilabel
+> o <guilabel
+>Niveles de entrada</guilabel
+></term>
+<listitem>
+<para
+>Para un dispositivo de reproducción: los botones de este panel permiten probar cada altavoz de manera individual. </para>
+<para
+>Para un dispositivo de grabación: un deslizador muestra los <guilabel
+>Niveles de entrada</guilabel
+> del <guilabel
+>Conector</guilabel
+> seleccionado. </para>
+</listitem
+></varlistentry>
+</variablelist>
+
+
+
+</listitem>
+</varlistentry>
+
+<varlistentry
+><term
+>pestaña <guilabel
+>motor</guilabel
+></term>
+<listitem
+><para
+>En el lado izquierdo de este módulo, se muestra una lista de los motores para Phonon encontrados en su sistema. Este listado, determina el orden en el que Phonon utilizará dichos motores. Utilice los botones <guibutton
+>Preferir</guibutton
+> y <guibutton
+>Diferir</guibutton
+> para cambiar este orden.</para>
+</listitem>
+</varlistentry>
+
+</variablelist>
+
+</article>

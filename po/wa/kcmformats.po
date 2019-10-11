@@ -1,0 +1,167 @@
+# translation of kcmlocale.po to Walloon
+# Ratournaedje e walon des messaedjes di KDE.
+#
+# Pablo Saratxaga <pablo@walon.org>, 2003, 2004, 2007.
+# Jean Cayron <jean.cayron@gmail.com>, 2007, 2008, 2009.
+# Jean Cayron et Odile Lambert <jean.cayron@gmail.com>, 2010, 2011.
+# Jean Cayron <jean.cayron@base.be>, 2011, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmlocale\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"PO-Revision-Date: 2012-01-03 15:05+0100\n"
+"Last-Translator: Jean Cayron <jean.cayron@base.be>\n"
+"Language-Team: Walloon <linux-wa@walon.org>\n"
+"Language: wa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.2\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: kcmformats.cpp:45
+#, kde-format
+msgid ""
+"<h1>Formats</h1>You can configure the formats used for time, dates, money "
+"and other numbers here."
+msgstr ""
+
+#: kcmformats.cpp:102
+#, kde-format
+msgid "No change"
+msgstr ""
+
+#: kcmformats.cpp:139
+#, kde-format
+msgid "%1 - %2 (%3)"
+msgstr ""
+
+#: kcmformats.cpp:141
+#, fuzzy, kde-format
+#| msgctxt "@item currency name and currency code"
+#| msgid "%1 (%2)"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: kcmformats.cpp:274
+#, kde-format
+msgid "Your changes will take effect the next time you log in."
+msgstr ""
+
+#: kcmformats.cpp:275
+#, kde-format
+msgid "Format Settings Changed"
+msgstr ""
+
+#: kcmformats.cpp:341
+#, fuzzy, kde-format
+#| msgid "Long date format:"
+msgid "%1 (long format)"
+msgstr "Abwesnaedje del longue date :"
+
+#: kcmformats.cpp:342
+#, fuzzy, kde-format
+#| msgid "Short date format:"
+msgid "%1 (short format)"
+msgstr "Cogne del coûte date:"
+
+#: kcmformats.cpp:347
+#, fuzzy, kde-format
+#| msgid "Imperial System"
+msgctxt "Measurement combobox"
+msgid "Imperial UK"
+msgstr "Sistinme imperiå"
+
+#: kcmformats.cpp:349
+#, fuzzy, kde-format
+#| msgid "Imperial System"
+msgctxt "Measurement combobox"
+msgid "Imperial US"
+msgstr "Sistinme imperiå"
+
+#: kcmformats.cpp:351
+#, fuzzy, kde-format
+#| msgctxt "The Metric System"
+#| msgid "Metric"
+msgctxt "Measurement combobox"
+msgid "Metric"
+msgstr "Metrike"
+
+#. i18n: ectx: property (text), widget (QLabel, label_10)
+#: kcmformatswidget.ui:47
+#, kde-format
+msgid "Re&gion:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, checkDetailed)
+#: kcmformatswidget.ui:76
+#, fuzzy, kde-format
+#| msgid "Regional settings"
+msgid "De&tailed Settings"
+msgstr "Apontiaedjes redjonås"
+
+#. i18n: ectx: property (text), widget (QLabel, labelNumbers)
+#: kcmformatswidget.ui:83
+#, fuzzy, kde-format
+#| msgid "Numbers:"
+msgid "&Numbers:"
+msgstr "Nombes :"
+
+#. i18n: ectx: property (text), widget (QLabel, labelTime)
+#: kcmformatswidget.ui:112
+#, fuzzy, kde-format
+#| msgid "Time:"
+msgid "&Time:"
+msgstr "Eure :"
+
+#. i18n: ectx: property (text), widget (QLabel, labelCurrency)
+#: kcmformatswidget.ui:141
+#, fuzzy, kde-format
+#| msgid "Currency:"
+msgid "Currenc&y:"
+msgstr "Manoye :"
+
+#. i18n: ectx: property (text), widget (QLabel, labelMeasurement)
+#: kcmformatswidget.ui:170
+#, fuzzy, kde-format
+#| msgid "Measurement system:"
+msgid "Measurement &Units:"
+msgstr "Sistinme di mzuraedje :"
+
+#. i18n: ectx: property (text), widget (QLabel, labelCollate)
+#: kcmformatswidget.ui:199
+#, kde-format
+msgid "Co&llation and Sorting:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, labelMeasurement_2)
+#: kcmformatswidget.ui:238
+#, kde-format
+msgid "<b>Description</b>"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, lexNumbers)
+#: kcmformatswidget.ui:248
+#, kde-format
+msgid "Numbers:"
+msgstr "Nombes :"
+
+#. i18n: ectx: property (text), widget (QLabel, lexTime)
+#: kcmformatswidget.ui:268
+#, kde-format
+msgid "Time:"
+msgstr "Eure :"
+
+#. i18n: ectx: property (text), widget (QLabel, lexCurrency)
+#: kcmformatswidget.ui:288
+#, kde-format
+msgid "Currency:"
+msgstr "Manoye :"
+
+#. i18n: ectx: property (text), widget (QLabel, lexMeasurement_2)
+#: kcmformatswidget.ui:308
+#, fuzzy, kde-format
+#| msgid "Measurement system:"
+msgid "Measurement Units:"
+msgstr "Sistinme di mzuraedje :"

@@ -1,0 +1,163 @@
+# translation of kcmlocale.po to greek
+# translation of kcmlocale.po to
+# Copyright (C) 2002,2003, 2005, 2007, 2008 Free Software Foundation, Inc.
+#
+# Dimitris Kamenopoulos <el97146@mail.ntua.gr>, 2000-2002.
+# Stergios Dramis <sdramis@egnatia.ee.auth.gr>, 2002-2003.
+# Spiros Georgaras <sngeorgaras@otenet.gr>, 2005, 2007.
+# Toussis Manolis <manolis@koppermind.homelinux.org>, 2005, 2007, 2008, 2009.
+# Spiros Georgaras <sng@hellug.gr>, 2007.
+# Σπύρος Γεωργαράς <sngeorgaras@otenet.gr>, 2008.
+# Petros Vidalis <p_vidalis@hotmail.com>, 2009, 2010.
+# Nikos Pantazis <pantazisnikolaos@gmail.com>, 2011.
+# Dimitrios Glentadakis <dglent@gmail.com>, 2011, 2012, 2014.
+# Stelios <sstavra@gmail.com>, 2012.
+# Dimitris Kardarakos <dimkard@gmail.com>, 2014, 2016.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmlocale\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"PO-Revision-Date: 2016-01-13 23:56+0200\n"
+"Last-Translator: Dimitris Kardarakos <dimkard@gmail.com>\n"
+"Language-Team: Greek <kde-i18n-el@kde.org>\n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 2.0\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: kcmformats.cpp:45
+#, kde-format
+msgid ""
+"<h1>Formats</h1>You can configure the formats used for time, dates, money "
+"and other numbers here."
+msgstr ""
+"<h1>Μορφές</h1>Εδώ μπορείτε να διαμορφώσετε τις μορφές ώρας, ημερομηνίας, "
+"νομίσματος και άλλων αριθμών."
+
+#: kcmformats.cpp:102
+#, kde-format
+msgid "No change"
+msgstr "Καμία τροποποίηση"
+
+#: kcmformats.cpp:139
+#, kde-format
+msgid "%1 - %2 (%3)"
+msgstr "%1 - %2 (%3)"
+
+#: kcmformats.cpp:141
+#, kde-format
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: kcmformats.cpp:274
+#, kde-format
+msgid "Your changes will take effect the next time you log in."
+msgstr "Οι αλλαγές σας θα εφαρμοστούν την επόμενη φορά που θα συνδεθείτε."
+
+#: kcmformats.cpp:275
+#, kde-format
+msgid "Format Settings Changed"
+msgstr "Οι ρυθμίσεις μορφής άλλαξαν"
+
+#: kcmformats.cpp:341
+#, kde-format
+msgid "%1 (long format)"
+msgstr "%1 (εκτενής μορφή)"
+
+#: kcmformats.cpp:342
+#, kde-format
+msgid "%1 (short format)"
+msgstr "%1 (σύντομη μορφή)"
+
+#: kcmformats.cpp:347
+#, kde-format
+msgctxt "Measurement combobox"
+msgid "Imperial UK"
+msgstr "Βρετανικό αυτοκρατορικό σύστημα"
+
+#: kcmformats.cpp:349
+#, kde-format
+msgctxt "Measurement combobox"
+msgid "Imperial US"
+msgstr "Βρετανικό αυτοκρατορικό σύστημα"
+
+#: kcmformats.cpp:351
+#, kde-format
+msgctxt "Measurement combobox"
+msgid "Metric"
+msgstr "Μετρικό"
+
+#. i18n: ectx: property (text), widget (QLabel, label_10)
+#: kcmformatswidget.ui:47
+#, kde-format
+msgid "Re&gion:"
+msgstr "Περιο&χή:"
+
+#. i18n: ectx: property (text), widget (QCheckBox, checkDetailed)
+#: kcmformatswidget.ui:76
+#, kde-format
+msgid "De&tailed Settings"
+msgstr "Λε&πτομερείς ρυθμίσεις"
+
+#. i18n: ectx: property (text), widget (QLabel, labelNumbers)
+#: kcmformatswidget.ui:83
+#, kde-format
+msgid "&Numbers:"
+msgstr "Αρι&θμοί:"
+
+#. i18n: ectx: property (text), widget (QLabel, labelTime)
+#: kcmformatswidget.ui:112
+#, kde-format
+msgid "&Time:"
+msgstr "Ώ&ρα:"
+
+#. i18n: ectx: property (text), widget (QLabel, labelCurrency)
+#: kcmformatswidget.ui:141
+#, kde-format
+msgid "Currenc&y:"
+msgstr "Νό&μισμα:"
+
+#. i18n: ectx: property (text), widget (QLabel, labelMeasurement)
+#: kcmformatswidget.ui:170
+#, kde-format
+msgid "Measurement &Units:"
+msgstr "Μονάδες &μέτρησης:"
+
+#. i18n: ectx: property (text), widget (QLabel, labelCollate)
+#: kcmformatswidget.ui:199
+#, kde-format
+msgid "Co&llation and Sorting:"
+msgstr "Σύ&νθεση και ταξινόμηση:"
+
+#. i18n: ectx: property (text), widget (QLabel, labelMeasurement_2)
+#: kcmformatswidget.ui:238
+#, kde-format
+msgid "<b>Description</b>"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, lexNumbers)
+#: kcmformatswidget.ui:248
+#, kde-format
+msgid "Numbers:"
+msgstr "Αριθμοί:"
+
+#. i18n: ectx: property (text), widget (QLabel, lexTime)
+#: kcmformatswidget.ui:268
+#, kde-format
+msgid "Time:"
+msgstr "Ώρα:"
+
+#. i18n: ectx: property (text), widget (QLabel, lexCurrency)
+#: kcmformatswidget.ui:288
+#, kde-format
+msgid "Currency:"
+msgstr "Νόμισμα:"
+
+#. i18n: ectx: property (text), widget (QLabel, lexMeasurement_2)
+#: kcmformatswidget.ui:308
+#, kde-format
+msgid "Measurement Units:"
+msgstr "Μονάδες μέτρησης:"

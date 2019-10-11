@@ -1,0 +1,486 @@
+# translation of kaccess.po to Khmer
+# Khoem Sokhem <khoemsokhem@khmeros.info>, 2007, 2008, 2009.
+# Auk Piseth <piseth_dv@khmeros.info>, 2007, 2008, 2009.
+# Sokun <sokun_poch@khmeros.info>, 2007.
+# Eng Vannak <evannak@khmeros.info>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: kaccess\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"PO-Revision-Date: 2009-12-22 09:16+0700\n"
+"Last-Translator: Khoem Sokhem <khoemsokhem@khmeros.info>\n"
+"Language-Team: Khmer <support@khmeros.info>\n"
+"Language: km\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "ខឹម សុខែម, អេង វណ្ណៈ, អោក ពិសិដ្ឋ​​"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "khoemsokhem@khmeros.info,​​evannak@khmeros.info,piseth_dv@khmeros.info"
+
+#: kaccess.cpp:77
+#, kde-format
+msgid ""
+"The Shift key has been locked and is now active for all of the following "
+"keypresses."
+msgstr "គ្រាប់ចុច​ប្តូរ​ត្រូវ​បាន​ចាក់​សោ ហើយ​ឥឡូវ​នេះ​វា​សកម្ម សម្រាប់​ការ​ចុច​គ្រាប់ចុច​ខាងក្រោម​ទាំងអស់ ។​"
+
+#: kaccess.cpp:78
+#, kde-format
+msgid "The Shift key is now active."
+msgstr "ឥឡូវ​នេះ គ្រាប់​ចុច​ប្តូរ​សកម្ម ។"
+
+#: kaccess.cpp:79
+#, kde-format
+msgid "The Shift key is now inactive."
+msgstr "ឥឡូវ​នេះ គ្រាប់ចុច​ប្តូរ​អសកម្ម ។"
+
+#: kaccess.cpp:83
+#, kde-format
+msgid ""
+"The Control key has been locked and is now active for all of the following "
+"keypresses."
+msgstr "គ្រាប់ចុច​បញ្ជា​ត្រូវ​បាន​ចាក់សោ ហើយ​ឥឡូវ​នេះ​វា​សកម្ម សម្រាប់​ការ​ចុច​គ្រាប់ចុច​ខាងក្រោម​ទាំងអស់ ។"
+
+#: kaccess.cpp:84
+#, kde-format
+msgid "The Control key is now active."
+msgstr "ឥឡូវ​នេះ​គ្រាប់ចុច​បញ្ជា​សកម្ម"
+
+#: kaccess.cpp:85
+#, kde-format
+msgid "The Control key is now inactive."
+msgstr "ឥឡូវវ​នេះ គ្រាប់ចុច​បញ្ជា​អសកម្ម ។"
+
+#: kaccess.cpp:89
+#, kde-format
+msgid ""
+"The Alt key has been locked and is now active for all of the following "
+"keypresses."
+msgstr "គ្រាប់ចុច​ជំនួស​ត្រូវ​បាន​ចាក់សោ ហើយ​ឥឡូវ​នេះ​វា​សកម្ម សម្រាប់​ការ​ចុច​គ្រាប់ចុច​ខាងក្រោម​ទាំងអស់ ។"
+
+#: kaccess.cpp:90
+#, kde-format
+msgid "The Alt key is now active."
+msgstr "ឥឡូវនេះ គ្រាប់ចុច​ជំនួស​សកម្ម ។"
+
+#: kaccess.cpp:91
+#, kde-format
+msgid "The Alt key is now inactive."
+msgstr "ឥឡូវនេះ គ្រាប់ចុច​ជំនួស​អសកម្ម ។"
+
+#: kaccess.cpp:95
+#, kde-format
+msgid ""
+"The Win key has been locked and is now active for all of the following "
+"keypresses."
+msgstr "គ្រាប់ចុច Win ត្រូវ​បាន​ចាក់សោ ហើយ​ឥឡូវ​នេះ​វា​សកម្ម សម្រាប់​ការ​ចុច​គ្រាប់ចុច​ខាងក្រោម​ទាំងអស់ ។"
+
+#: kaccess.cpp:96
+#, kde-format
+msgid "The Win key is now active."
+msgstr "ឥឡូវនេះ គ្រាប់ចុច Win សកម្ម ។"
+
+#: kaccess.cpp:97
+#, kde-format
+msgid "The Win key is now inactive."
+msgstr "ឥឡូវនេះ គ្រាប់ចុច Win អសកម្ម ។"
+
+#: kaccess.cpp:101
+#, kde-format
+msgid ""
+"The Meta key has been locked and is now active for all of the following "
+"keypresses."
+msgstr "គ្រាប់ចុច​មេតា ត្រូវ​បាន​ចាក់សោ ហើយ​ឥឡូវ​នេះ​វា​សកម្ម សម្រាប់​ការ​ចុច​គ្រាប់ចុច​ខាងក្រោម​ទាំងអស់"
+
+#: kaccess.cpp:102
+#, kde-format
+msgid "The Meta key is now active."
+msgstr "ឥឡូវ​នេះ គ្រាប់ចុច​មេតា​សកម្ម ។"
+
+#: kaccess.cpp:103
+#, kde-format
+msgid "The Meta key is now inactive."
+msgstr "ឥឡូវ​នេះ គ្រាប់ចុច​មេតា​អសកម្ម ។"
+
+#: kaccess.cpp:107
+#, kde-format
+msgid ""
+"The Super key has been locked and is now active for all of the following "
+"keypresses."
+msgstr ""
+"គ្រាប់ចុច Super ត្រូវ​បាន​ចាក់សោ ហើយ​ឥឡូវ​នេះ​វា​សកម្ម សម្រាប់​ការ​ចុច​គ្រាប់ចុច​ខាងក្រោម​ទាំងអស់ ។"
+
+#: kaccess.cpp:108
+#, kde-format
+msgid "The Super key is now active."
+msgstr "ឥឡូវ​នេះ គ្រាប់ចុច Super សកម្ម ។"
+
+#: kaccess.cpp:109
+#, kde-format
+msgid "The Super key is now inactive."
+msgstr "ឥឡូវ​នេះ គ្រាប់ចុច Super អសកម្ម ។"
+
+#: kaccess.cpp:113
+#, kde-format
+msgid ""
+"The Hyper key has been locked and is now active for all of the following "
+"keypresses."
+msgstr ""
+"គ្រាប់ចុច Hyper ត្រូវ​បាន​ចាក់សោ ហើយ ឥឡូវ​នេះ​វា​សកម្ម សម្រាប់​ការ​ចុច​គ្រាប់ចុច​ខាងក្រោម​ទាំងអស់ ។"
+
+#: kaccess.cpp:114
+#, kde-format
+msgid "The Hyper key is now active."
+msgstr "ឥឡូវ​នេះ គ្រាប់ចុច Hyper សកម្ម ។"
+
+#: kaccess.cpp:115
+#, kde-format
+msgid "The Hyper key is now inactive."
+msgstr "ឥឡូវ​នេះ គ្រាប់ចុច Hyper អសកម្ម ។"
+
+#: kaccess.cpp:119
+#, kde-format
+msgid ""
+"The Alt Graph key has been locked and is now active for all of the following "
+"keypresses."
+msgstr ""
+"គ្រាប់ចុច Alt Graph ត្រូវ​បាន​ចាក់សោ ហើយ​ឥឡូវ​នេះ​វា​សកម្ម សម្រាប់​ការ​ចុច​គ្រាប់ចុច​ខាងក្រោម​ទាំងអស់ ។"
+
+#: kaccess.cpp:120
+#, kde-format
+msgid "The Alt Graph key is now active."
+msgstr "ឥឡូវ​នេះ គ្រាប់ចុច Alt Graph សកម្ម ។"
+
+#: kaccess.cpp:121
+#, kde-format
+msgid "The Alt Graph key is now inactive."
+msgstr "ឥឡូវ​នេះ គ្រាប់ចុច Alt Graph អសកម្ម ។"
+
+#: kaccess.cpp:125
+#, kde-format
+msgid "The Num Lock key has been activated."
+msgstr "ឥឡូវ​នេះ គ្រាប់ចុច​លេខ​ត្រូវ​បាន​ធ្វើ​ឲ្យ​សកម្ម ។"
+
+#: kaccess.cpp:127
+#, kde-format
+msgid "The Num Lock key is now inactive."
+msgstr "ឥឡូវ​នេះ គ្រាប់ចុច​លេខ​អសកម្ម ។"
+
+#: kaccess.cpp:131
+#, kde-format
+msgid "The Caps Lock key has been activated."
+msgstr "ឥឡូវ​នេះ គ្រាប់ចុច​ប្ដូរ​ជាប់​ត្រូវ​បាន​ធ្វើ​ឲ្យ​សកម្ម ។"
+
+#: kaccess.cpp:133
+#, kde-format
+msgid "The Caps Lock key is now inactive."
+msgstr "ឥឡូវ​នេះ គ្រាប់ចុច​ប្ដូរ​ជាប់​អសកម្ម ។"
+
+#: kaccess.cpp:137
+#, kde-format
+msgid "The Scroll Lock key has been activated."
+msgstr "ឥឡូវ​នេះ គ្រាប់ចុច Scroll Lock ត្រូវ​បាន​ធ្វើ​ឲ្យ​សកម្ម ។"
+
+#: kaccess.cpp:139
+#, kde-format
+msgid "The Scroll Lock key is now inactive."
+msgstr "ឥឡូវនេះ គ្រាប់ចុច Scroll Lock អសកម្ម ។"
+
+#: kaccess.cpp:357
+#, kde-format
+msgid "Toggle Screen Reader On and Off"
+msgstr ""
+
+#: kaccess.cpp:359
+#, fuzzy, kde-format
+#| msgid "KDE Accessibility Tool"
+msgctxt "Name for kaccess shortcuts category"
+msgid "Accessibility"
+msgstr "ឧបករណ៍​មធ្យោបាយ​ងាយស្រួល​ KDE"
+
+#: kaccess.cpp:648
+#, kde-format
+msgid "AltGraph"
+msgstr "AltGraph"
+
+#: kaccess.cpp:650
+#, kde-format
+msgid "Hyper"
+msgstr "Hyper"
+
+#: kaccess.cpp:652
+#, kde-format
+msgid "Super"
+msgstr "ខ្ពស់"
+
+#: kaccess.cpp:654
+#, kde-format
+msgid "Meta"
+msgstr "មេតា"
+
+#: kaccess.cpp:671
+#, kde-format
+msgid "Warning"
+msgstr "ការ​ព្រមាន​"
+
+#: kaccess.cpp:699
+#, kde-format
+msgid "&When a gesture was used:"
+msgstr "ពេល​កាយវិការ​មួយ​ត្រូវ​បាន​ប្រើ ៖"
+
+#: kaccess.cpp:705
+#, kde-format
+msgid "Change Settings Without Asking"
+msgstr "ផ្លាស់ប្តូរ​ការ​កំណត់​ដោយ​មិន​បាច់​សួរ"
+
+#: kaccess.cpp:706
+#, kde-format
+msgid "Show This Confirmation Dialog"
+msgstr "បង្ហាញ​ប្រអប់​ការ​អះអាង​នេះ"
+
+#: kaccess.cpp:707
+#, kde-format
+msgid "Deactivate All AccessX Features & Gestures"
+msgstr "ធ្វើ​ឲ្យ​លក្ខណៈ​ពិសេស និង​កាយវិការ AccessX ទាំងអស់​អសកម្ម"
+
+#: kaccess.cpp:753 kaccess.cpp:755
+#, kde-format
+msgid "Slow keys"
+msgstr "គ្រាប់ចុច​យឺត"
+
+#: kaccess.cpp:758 kaccess.cpp:760
+#, kde-format
+msgid "Bounce keys"
+msgstr "គ្រាប់ចុច​លោត"
+
+#: kaccess.cpp:763 kaccess.cpp:765
+#, kde-format
+msgid "Sticky keys"
+msgstr "គ្រាប់ចុច​ស្អិត"
+
+#: kaccess.cpp:768 kaccess.cpp:770
+#, kde-format
+msgid "Mouse keys"
+msgstr "គ្រាប់ចុច​កណ្ដុរ"
+
+#: kaccess.cpp:775
+#, kde-format
+msgid "Do you really want to deactivate \"%1\"?"
+msgstr "តើ​អ្នក​ពិត​ជា​ចង់​ធ្វើ​ឲ្យ \"%1\" អសកម្ម​ឬ?"
+
+#: kaccess.cpp:778
+#, kde-format
+msgid "Do you really want to deactivate \"%1\" and \"%2\"?"
+msgstr "តើ​អ្នក​ពិត​ជា​ចង់​ធ្វើ​ឲ្យ \"%1\" និង \"%2\" អសកម្ម​ឬ?"
+
+#: kaccess.cpp:781
+#, kde-format
+msgid "Do you really want to deactivate \"%1\", \"%2\" and \"%3\"?"
+msgstr "តើ​អ្នក​ពិត​ជា​ចង់​ធ្វើ​ឲ្យ \"%1\", \"%2\" និង \"%3\" អសកម្ម​ឬ?"
+
+#: kaccess.cpp:785
+#, kde-format
+msgid "Do you really want to deactivate \"%1\", \"%2\", \"%3\" and \"%4\"?"
+msgstr "តើ​អ្នក​ពិត​ជា​ចង់​ធ្វើ​ឲ្យ \"%1\", \"%2\", \"%3\" និង \"%4\" អសកម្ម​ឬ?"
+
+#: kaccess.cpp:792
+#, kde-format
+msgid "Do you really want to activate \"%1\"?"
+msgstr "តើ​អ្នក​ពិត​ជា​ចង់​ធ្វើ​ឲ្យ \"%1\" សកម្ម​ឬ?"
+
+#: kaccess.cpp:795
+#, kde-format
+msgid "Do you really want to activate \"%1\" and to deactivate \"%2\"?"
+msgstr "តើ​អ្នក​ពិត​ជា​ចង់​ធ្វើ​ឲ្យ \"%1\" សកម្ម ហើយ​ធ្វើ​ឲ្យ \"%2\" អសកម្ម​ឬ?"
+
+#: kaccess.cpp:798
+#, kde-format
+msgid ""
+"Do you really want to activate \"%1\" and to deactivate \"%2\" and \"%3\"?"
+msgstr "តើ​អ្នក​ពិត​ជា​ចង់​ធ្វើ​ឲ្យ \"%1\" សកម្ម ហើយ​ធ្វើ​ឲ្យ \"%2\" និង \"%3\" អសកម្ម​ឬ?"
+
+#: kaccess.cpp:802
+#, kde-format
+msgid ""
+"Do you really want to activate \"%1\" and to deactivate \"%2\", \"%3\" and "
+"\"%4\"?"
+msgstr "តើ​អ្នក​ពិត​ជា​ចង់​ធ្វើ​ឲ្យ \"%1\" សកម្ម ហើយ​ធ្វើ​ឲ្យ \"%2\", \"%3\" និង \"%4\" អសកម្ម​ឬ?"
+
+#: kaccess.cpp:809
+#, kde-format
+msgid "Do you really want to activate \"%1\" and \"%2\"?"
+msgstr "តើ​អ្នក​ពិត​ជា​ចង់​ធ្វើ​ឲ្យ \"%1\" និង \"%2\" សកម្ម​ឬ?"
+
+#: kaccess.cpp:812
+#, kde-format
+msgid ""
+"Do you really want to activate \"%1\" and \"%2\" and to deactivate \"%3\"?"
+msgstr "តើ​អ្នក​ពិត​ជា​ចង់​ធ្វើ​ឲ្យ \"%1\" និង \"%2\" សកម្ម ហើយ​ធ្វើ​ឲ្យ \"%3\" អសកម្ម​ឬ?"
+
+#: kaccess.cpp:816
+#, kde-format
+msgid ""
+"Do you really want to activate \"%1\", and \"%2\" and to deactivate \"%3\" "
+"and \"%4\"?"
+msgstr ""
+"តើ​អ្នក​ពិត​ជា​ចង់​ធ្វើ​ឲ្យ \"%1\" និង \"%2\" សកម្ម ហើយ​ធ្វើ​ឲ្យ \"%3\" និង \"%4\" អសកម្ម​ឬ?"
+
+#: kaccess.cpp:823
+#, kde-format
+msgid "Do you really want to activate \"%1\", \"%2\" and \"%3\"?"
+msgstr "តើ​អ្នក​ពិត​ជា​ចង់​ធ្វើ​ឲ្យ \"%1\", \"%2\" និង \"%3\" សកម្ម​ឬ?"
+
+#: kaccess.cpp:827
+#, kde-format
+msgid ""
+"Do you really want to activate \"%1\", \"%2\" and \"%3\" and to deactivate "
+"\"%4\"?"
+msgstr "តើ​អ្នក​ពិត​ជា​ចង់​ធ្វើ​ឲ្យ \"%1\", \"%2\" និង \"%3\" សកម្ម ហើយ​ធ្វើ​ឲ្យ \"%4\" អសកម្ម​ឬ?"
+
+#: kaccess.cpp:833
+#, kde-format
+msgid "Do you really want to activate \"%1\", \"%2\", \"%3\" and \"%4\"?"
+msgstr "តើ​អ្នក​ពិត​ជា​ចង់​ធ្វើ​ឲ្យ \"%1\", \"%2\", \"%3\" និង \"%4\" សកម្ម​ឬ?"
+
+#: kaccess.cpp:840
+#, kde-format
+msgid "An application has requested to change this setting."
+msgstr "កម្មវិធី​មួយ​បាន​ស្នើ​សុំ​ផ្លាស់ប្តូរ​ការ​កំណត់​នេះ ។"
+
+#: kaccess.cpp:844
+#, kde-format
+msgid ""
+"You held down the Shift key for 8 seconds or an application has requested to "
+"change this setting."
+msgstr ""
+"អ្នក​បាន​ចុច​គ្រាប់ចុច ប្ដូរ (Shift) អស់​រយៈពេល ៨ វិនាទី ឬ​កម្មវិធី​មួយ​បាន​ស្នើ​សុំ​ផ្លាស់ប្តូរ​ការ​កំណត់​នេះ ។"
+
+#: kaccess.cpp:846
+#, kde-format
+msgid ""
+"You pressed the Shift key 5 consecutive times or an application has "
+"requested to change this setting."
+msgstr ""
+"អ្នក​បាន​ចុច​គ្រាប់ចុច ប្ដូរ (Shift) ៥ ដង​ជាប់​គ្នា ឬ​កម្មវិធី​មួយ​បាន​ស្នើ​សុំ​ផ្លាស់ប្ដូរ​ការ​កំណត់​នេះ ។"
+
+#: kaccess.cpp:850
+#, kde-format
+msgid "You pressed %1 or an application has requested to change this setting."
+msgstr "អ្នក​បាន​ចុច %1 ឬ​កម្មវិធី​មួយ​បាន​ស្នើ​សុំ​ផ្លាស់ប្ដូរ​ការ​កំណត់​នេះ ។"
+
+#: kaccess.cpp:855
+#, kde-format
+msgid ""
+"An application has requested to change these settings, or you used a "
+"combination of several keyboard gestures."
+msgstr ""
+"កម្មវិធី​មួយ​បាន​ស្នើ​សុំ​ផ្លាស់ប្ដូរ​ការ​កំណត់​ទាំងនេះ ឬ​អ្នក​បាន​ប្រើការ​​បន្សំ​នៃ​កាយវិការ​ក្ដារចុច​ច្រើន ។"
+
+#: kaccess.cpp:857
+#, kde-format
+msgid "An application has requested to change these settings."
+msgstr "កម្មវិធី​មួយ​បាន​ស្នើ​សុំផ្លាស់​ប្ដូរ​ការ​កំណត់​ទាំងនេះ ។"
+
+#: kaccess.cpp:862
+#, kde-format
+msgid ""
+"These AccessX settings are needed for some users with motion impairments and "
+"can be configured in the KDE System Settings. You can also turn them on and "
+"off with standardized keyboard gestures.\n"
+"\n"
+"If you do not need them, you can select \"Deactivate all AccessX features "
+"and gestures\"."
+msgstr ""
+"ការ​កំណត់ AccessX ទាំងនេះ​​ចាំបាច់​​សម្រាប់​អ្នក​ប្រើ​មួយ​ចំនួនដែល​ពុំ​សូវ​ចះ​ ហើយ​វា​អាច​ត្រូវ​បាន​កំណត់​រចនាសម្ព័ន្ធ​"
+"ក្នុង​ការ​កំណត់​ផ្ទាល់​ខ្លួន KDE ។ អ្នក​អាច​បិទ ហើយ​បើក​ពួកវា​​​ដោយ​ប្រើ កាយវិការ​ក្តារចុច​ខ្នាត​គំរូ​ផង​ដែរ ។\n"
+"\n"
+"បើ​អ្នក​មិន​ត្រូវ​ការពួកវាទេ​ អ្នក​អាច​ជ្រើស \"ធ្វើ​ឲ្យ​​លក្ខណៈ​ពិសេស និងកាយវិការ​របស់ AccessX ទាំងអស់​"
+"អសកម្ម​\" ។"
+
+#: kaccess.cpp:880
+#, kde-format
+msgid ""
+"Slow keys has been enabled. From now on, you need to press each key for a "
+"certain length of time before it gets accepted."
+msgstr ""
+"គ្រាប់ចុច​យឺត​ត្រូវ​បាន​អនុញ្ញាត​ ។ ពី​ពេល​នេះ​ទៅ អ្នក​ត្រូវ​តែ​​ចុច​គ្រាប់ចុច​នីមួយៗ ក្នុង​រយៈពេល​ជាក់លាក់​ណា​មួយ​ មុន​"
+"ពេល​វា​ត្រូវ​បាន​ទទួល​យល់ព្រម​ ។"
+
+#: kaccess.cpp:882
+#, kde-format
+msgid "Slow keys has been disabled."
+msgstr "គ្រាប់ចុច​យឺត​មិន​ត្រូវ​បាន​អនុញ្ញាត​ ។"
+
+#: kaccess.cpp:885
+#, kde-format
+msgid ""
+"Bounce keys has been enabled. From now on, each key will be blocked for a "
+"certain length of time after it was used."
+msgstr ""
+"គ្រាប់ចុច​លោត​ត្រូវ​បាន​អនុញ្ញាត ។ ពី​ពេល​នេះ​ទៅ គ្រាប់ចុច​នីមួយៗ​នឹង​ត្រូវ​បានទប់ស្កាត់​តាម​រយៈពេល​ជាក់លាក់​"
+"បន្ទាប់​ពី​វា​ត្រូវ​បាន​ប្រើ ។"
+
+#: kaccess.cpp:887
+#, kde-format
+msgid "Bounce keys has been disabled."
+msgstr "គ្រាប់ចុច​លោត​មិន​ត្រូវ​បាន​អនុញ្ញាត ។"
+
+#: kaccess.cpp:890
+#, kde-format
+msgid ""
+"Sticky keys has been enabled. From now on, modifier keys will stay latched "
+"after you have released them."
+msgstr ""
+"គ្រាប់ចុច​ស្អិត​ត្រូវ​បាន​អនុញ្ញាត ។ ចាប់​ពី​ឥឡូ​វនេះ គ្រាប់ចុច​ប្រែប្រួល​នឹង​ត្រូវ​បាន​ទប់ស្កាត់​ បន្ទាប់​ពី​អ្នក​បាន​លែង​"
+"ពួក​វា ។"
+
+#: kaccess.cpp:892
+#, kde-format
+msgid "Sticky keys has been disabled."
+msgstr "គ្រាប់ចុច​ស្អិត​មិន​ត្រូវ​បាន​អនុញ្ញាត​ ។"
+
+#: kaccess.cpp:895
+#, kde-format
+msgid ""
+"Mouse keys has been enabled. From now on, you can use the number pad of your "
+"keyboard in order to control the mouse."
+msgstr ""
+"គ្រាប់ចុច​កណ្តុរ​ត្រូវ​បាន​អនុញ្ញាត ។ ពី​ពេល​នេះ​ទៅ អ្នក​អាច​ប្រើ​បន្ទះ​លេខ​ក្តារចុច​របស់​អ្នក​បញ្ជា​កណ្ដុរ​វិញ​​"
+"ម្ដង ។"
+
+#: kaccess.cpp:897
+#, kde-format
+msgid "Mouse keys has been disabled."
+msgstr "គ្រាប់ចុច​កណ្ដុរ​មិន​ត្រូវ​បាន​អនុញ្ញាត ។"
+
+#: main.cpp:55
+#, kde-format
+msgid "KDE Accessibility Tool"
+msgstr "ឧបករណ៍​មធ្យោបាយ​ងាយស្រួល​ KDE"
+
+#: main.cpp:57
+#, kde-format
+msgid "(c) 2000, Matthias Hoelzer-Kluepfel"
+msgstr "រក្សា​សិទ្ធិ​ឆ្នាំ ២០០០ ដោយ Matthias Hoelzer-Kluepfel"
+
+#: main.cpp:59
+#, kde-format
+msgid "Matthias Hoelzer-Kluepfel"
+msgstr "Matthias Hoelzer-Kluepfel"
+
+#: main.cpp:59
+#, kde-format
+msgid "Author"
+msgstr "អ្នក​និពន្ធ"

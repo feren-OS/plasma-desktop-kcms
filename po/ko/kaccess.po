@@ -1,0 +1,483 @@
+# translation of kaccess.po to Korean
+# Copyright (C) 2001,2004, 2005 Free Software Foundation, Inc.
+# Yu-Chan, Park <super@susekorea.net>, 2001, 2004.
+# Kwonwoo Nam <kwnam@haansoft.com>, 2004.
+# 유규형 <khyu@haansoft.com>, 2004.
+# Sung-Jae, Cho <jachin@hanafos.com>, 2005.
+# Shinjo Park <kde@peremen.name>, 2007, 2009, 2013, 2015, 2016.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kaccess\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"PO-Revision-Date: 2016-12-05 21:32+0100\n"
+"Last-Translator: Shinjo Park <kde@peremen.name>\n"
+"Language-Team: Korean <kde-kr@kde.org>\n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 2.0\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "박신조"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde@peremen.name"
+
+#: kaccess.cpp:77
+#, kde-format
+msgid ""
+"The Shift key has been locked and is now active for all of the following "
+"keypresses."
+msgstr "Shift 키가 잠겨 있으며 다음 키가 눌릴 때 같이 눌립니다."
+
+#: kaccess.cpp:78
+#, kde-format
+msgid "The Shift key is now active."
+msgstr "Shift 키가 활성화되었습니다."
+
+#: kaccess.cpp:79
+#, kde-format
+msgid "The Shift key is now inactive."
+msgstr "Shift 키가 비활성화되었습니다."
+
+#: kaccess.cpp:83
+#, kde-format
+msgid ""
+"The Control key has been locked and is now active for all of the following "
+"keypresses."
+msgstr "Control 키가 잠겨 있으며 다음 키가 눌릴 때 같이 눌립니다."
+
+#: kaccess.cpp:84
+#, kde-format
+msgid "The Control key is now active."
+msgstr "Control 키가 활성화되었습니다."
+
+#: kaccess.cpp:85
+#, kde-format
+msgid "The Control key is now inactive."
+msgstr "Control 키가 비활성화되었습니다."
+
+#: kaccess.cpp:89
+#, kde-format
+msgid ""
+"The Alt key has been locked and is now active for all of the following "
+"keypresses."
+msgstr "Alt 키가 잠겨 있으며 다음 키가 눌릴 때 같이 눌립니다."
+
+#: kaccess.cpp:90
+#, kde-format
+msgid "The Alt key is now active."
+msgstr "Alt 키가 활성화되었습니다."
+
+#: kaccess.cpp:91
+#, kde-format
+msgid "The Alt key is now inactive."
+msgstr "Alt 키가 비활성화되었습니다."
+
+#: kaccess.cpp:95
+#, kde-format
+msgid ""
+"The Win key has been locked and is now active for all of the following "
+"keypresses."
+msgstr "Windows 키가 잠겨 있으며 다음 키가 눌릴 때 같이 눌립니다."
+
+#: kaccess.cpp:96
+#, kde-format
+msgid "The Win key is now active."
+msgstr "Windows 키가 활성화되었습니다."
+
+#: kaccess.cpp:97
+#, kde-format
+msgid "The Win key is now inactive."
+msgstr "Windows 키가 비활성화되었습니다."
+
+#: kaccess.cpp:101
+#, kde-format
+msgid ""
+"The Meta key has been locked and is now active for all of the following "
+"keypresses."
+msgstr "메타 키가 잠겨 있으며 다음 키가 눌릴 때 같이 눌립니다."
+
+#: kaccess.cpp:102
+#, kde-format
+msgid "The Meta key is now active."
+msgstr "메타 키가 활성화되었습니다."
+
+#: kaccess.cpp:103
+#, kde-format
+msgid "The Meta key is now inactive."
+msgstr "메타 키가 비활성화되었습니다."
+
+#: kaccess.cpp:107
+#, kde-format
+msgid ""
+"The Super key has been locked and is now active for all of the following "
+"keypresses."
+msgstr "Super 키가 잠겨 있으며 다음 키가 눌릴 때 같이 눌립니다."
+
+#: kaccess.cpp:108
+#, kde-format
+msgid "The Super key is now active."
+msgstr "Super 키가 활성화되었습니다."
+
+#: kaccess.cpp:109
+#, kde-format
+msgid "The Super key is now inactive."
+msgstr "Super 키가 비활성화되었습니다."
+
+#: kaccess.cpp:113
+#, kde-format
+msgid ""
+"The Hyper key has been locked and is now active for all of the following "
+"keypresses."
+msgstr "Hyper 키가 잠겨 있으며 다음 키가 눌릴 때 같이 눌립니다."
+
+#: kaccess.cpp:114
+#, kde-format
+msgid "The Hyper key is now active."
+msgstr "Hyper 키가 활성화되었습니다."
+
+#: kaccess.cpp:115
+#, kde-format
+msgid "The Hyper key is now inactive."
+msgstr "Hyper 키가 비활성화되었습니다."
+
+#: kaccess.cpp:119
+#, kde-format
+msgid ""
+"The Alt Graph key has been locked and is now active for all of the following "
+"keypresses."
+msgstr "AltGr 키가 잠겨 있으며 다음 키가 눌릴 때 같이 눌립니다."
+
+#: kaccess.cpp:120
+#, kde-format
+msgid "The Alt Graph key is now active."
+msgstr "AltGr 키가 활성화되었습니다."
+
+#: kaccess.cpp:121
+#, kde-format
+msgid "The Alt Graph key is now inactive."
+msgstr "AltGr 키가 비활성화되었습니다."
+
+#: kaccess.cpp:125
+#, kde-format
+msgid "The Num Lock key has been activated."
+msgstr "Num Lock 키가 활성화되었습니다."
+
+#: kaccess.cpp:127
+#, kde-format
+msgid "The Num Lock key is now inactive."
+msgstr "Num Lock 키가 비활성화되었습니다."
+
+#: kaccess.cpp:131
+#, kde-format
+msgid "The Caps Lock key has been activated."
+msgstr "Caps Lock 키가 활성화되었습니다."
+
+#: kaccess.cpp:133
+#, kde-format
+msgid "The Caps Lock key is now inactive."
+msgstr "Caps Lock 키가 비활성화되었습니다."
+
+#: kaccess.cpp:137
+#, kde-format
+msgid "The Scroll Lock key has been activated."
+msgstr "Scroll Lock 키가 활성화되었습니다."
+
+#: kaccess.cpp:139
+#, kde-format
+msgid "The Scroll Lock key is now inactive."
+msgstr "Scroll Lock 키가 비활성화되었습니다."
+
+#: kaccess.cpp:357
+#, kde-format
+msgid "Toggle Screen Reader On and Off"
+msgstr "스크린 리더 켜고 끄기"
+
+#: kaccess.cpp:359
+#, kde-format
+msgctxt "Name for kaccess shortcuts category"
+msgid "Accessibility"
+msgstr "접근성"
+
+#: kaccess.cpp:648
+#, kde-format
+msgid "AltGraph"
+msgstr "AltGr"
+
+#: kaccess.cpp:650
+#, kde-format
+msgid "Hyper"
+msgstr "Hyper"
+
+#: kaccess.cpp:652
+#, kde-format
+msgid "Super"
+msgstr "Super"
+
+#: kaccess.cpp:654
+#, kde-format
+msgid "Meta"
+msgstr "Meta"
+
+#: kaccess.cpp:671
+#, kde-format
+msgid "Warning"
+msgstr "경고"
+
+#: kaccess.cpp:699
+#, kde-format
+msgid "&When a gesture was used:"
+msgstr "제스처가 사용되었을 때(&W):"
+
+#: kaccess.cpp:705
+#, kde-format
+msgid "Change Settings Without Asking"
+msgstr "물어보지 않고 설정 바꾸기"
+
+#: kaccess.cpp:706
+#, kde-format
+msgid "Show This Confirmation Dialog"
+msgstr "이 확인 대화 상자 표시하기"
+
+#: kaccess.cpp:707
+#, kde-format
+msgid "Deactivate All AccessX Features & Gestures"
+msgstr "모든 AccessX 기능과 제스처 끄기"
+
+#: kaccess.cpp:753 kaccess.cpp:755
+#, kde-format
+msgid "Slow keys"
+msgstr "느린 키"
+
+#: kaccess.cpp:758 kaccess.cpp:760
+#, kde-format
+msgid "Bounce keys"
+msgstr "튕김 키"
+
+#: kaccess.cpp:763 kaccess.cpp:765
+#, kde-format
+msgid "Sticky keys"
+msgstr "끈적이 키"
+
+#: kaccess.cpp:768 kaccess.cpp:770
+#, kde-format
+msgid "Mouse keys"
+msgstr "마우스 키"
+
+#: kaccess.cpp:775
+#, kde-format
+msgid "Do you really want to deactivate \"%1\"?"
+msgstr "\"%1\"을(를) 끄시겠습니까?"
+
+#: kaccess.cpp:778
+#, kde-format
+msgid "Do you really want to deactivate \"%1\" and \"%2\"?"
+msgstr "\"%1\"와(과) \"%2\"을(를) 끄시겠습니까?"
+
+#: kaccess.cpp:781
+#, kde-format
+msgid "Do you really want to deactivate \"%1\", \"%2\" and \"%3\"?"
+msgstr "\"%1\", \"%2\", \"%3\"을(를) 끄시겠습니까?"
+
+#: kaccess.cpp:785
+#, kde-format
+msgid "Do you really want to deactivate \"%1\", \"%2\", \"%3\" and \"%4\"?"
+msgstr "\"%1\", \"%2\", \"%3\", \"%4\"을(를) 끄시겠습니까?"
+
+#: kaccess.cpp:792
+#, kde-format
+msgid "Do you really want to activate \"%1\"?"
+msgstr "\"%1\"을(를) 켜시겠습니까?"
+
+#: kaccess.cpp:795
+#, kde-format
+msgid "Do you really want to activate \"%1\" and to deactivate \"%2\"?"
+msgstr "\"%1\"을(를) 켜고 \"%2\"을(를) 끄시겠습니까?"
+
+#: kaccess.cpp:798
+#, kde-format
+msgid ""
+"Do you really want to activate \"%1\" and to deactivate \"%2\" and \"%3\"?"
+msgstr "\"%1\"을(를) 켜고 \"%2\", \"%3\"을(를) 끄시겠습니까?"
+
+#: kaccess.cpp:802
+#, kde-format
+msgid ""
+"Do you really want to activate \"%1\" and to deactivate \"%2\", \"%3\" and "
+"\"%4\"?"
+msgstr "\"%1\"을(를) 켜고 \"%2\", \"%3\", \"%4\"을(를) 끄시겠습니까?"
+
+#: kaccess.cpp:809
+#, kde-format
+msgid "Do you really want to activate \"%1\" and \"%2\"?"
+msgstr "\"%1\", \"%2\"을(를) 켜시겠습니까?"
+
+#: kaccess.cpp:812
+#, kde-format
+msgid ""
+"Do you really want to activate \"%1\" and \"%2\" and to deactivate \"%3\"?"
+msgstr "\"%1\", \"%2\"을(를) 켜고 \"%3\"을(를) 끄시겠습니까?"
+
+#: kaccess.cpp:816
+#, kde-format
+msgid ""
+"Do you really want to activate \"%1\", and \"%2\" and to deactivate \"%3\" "
+"and \"%4\"?"
+msgstr "\"%1\", \"%2\"을(를) 켜고 \"%3\", \"%4\"을(를) 끄시겠습니까?"
+
+#: kaccess.cpp:823
+#, kde-format
+msgid "Do you really want to activate \"%1\", \"%2\" and \"%3\"?"
+msgstr "\"%1\", \"%2\", \"%3\"을(를) 켜시겠습니까?"
+
+#: kaccess.cpp:827
+#, kde-format
+msgid ""
+"Do you really want to activate \"%1\", \"%2\" and \"%3\" and to deactivate "
+"\"%4\"?"
+msgstr "\"%1\", \"%2\", \"%3\"을(를) 켜고 \"%4\"을(를) 끄시겠습니까?"
+
+#: kaccess.cpp:833
+#, kde-format
+msgid "Do you really want to activate \"%1\", \"%2\", \"%3\" and \"%4\"?"
+msgstr "\"%1\", \"%2\", \"%3\", \"%4\"을(를) 켜시겠습니까?"
+
+#: kaccess.cpp:840
+#, kde-format
+msgid "An application has requested to change this setting."
+msgstr "프로그램이 이 설정을 변경하기를 요청했습니다."
+
+#: kaccess.cpp:844
+#, kde-format
+msgid ""
+"You held down the Shift key for 8 seconds or an application has requested to "
+"change this setting."
+msgstr ""
+"Shift 키를 8초 동안 누르고 있었거나 프로그램이 이 설정을 변경하기를 요청했습"
+"니다."
+
+#: kaccess.cpp:846
+#, kde-format
+msgid ""
+"You pressed the Shift key 5 consecutive times or an application has "
+"requested to change this setting."
+msgstr ""
+"Shift 키를 연속으로 5번 눌렀거나 프로그램이 이 설정을 변경하기를 요청했습니"
+"다."
+
+#: kaccess.cpp:850
+#, kde-format
+msgid "You pressed %1 or an application has requested to change this setting."
+msgstr "%1 키를 눌렀거나 프로그램이 이 설정을 변경하기를 요청했습니다."
+
+#: kaccess.cpp:855
+#, kde-format
+msgid ""
+"An application has requested to change these settings, or you used a "
+"combination of several keyboard gestures."
+msgstr "여러 키 조합을 눌렀거나 프로그램이 이 설정을 변경하기를 요청했습니다."
+
+#: kaccess.cpp:857
+#, kde-format
+msgid "An application has requested to change these settings."
+msgstr "프로그램이 이 설정을 변경하기를 요청했습니다."
+
+#: kaccess.cpp:862
+#, kde-format
+msgid ""
+"These AccessX settings are needed for some users with motion impairments and "
+"can be configured in the KDE System Settings. You can also turn them on and "
+"off with standardized keyboard gestures.\n"
+"\n"
+"If you do not need them, you can select \"Deactivate all AccessX features "
+"and gestures\"."
+msgstr ""
+"지체 부자유자들을 위한 AccessX 설정은 KDE 시스템 설정에서 설정할 수 있습니"
+"다. 키보드 제스처를 사용해서 켜거나 끌 수 있습니다.\n"
+"\n"
+"이 설정이 필요하지 않으면 \"모든 AccessX 기능과 제스처 끄기\"를 선택하십시오."
+
+#: kaccess.cpp:880
+#, kde-format
+msgid ""
+"Slow keys has been enabled. From now on, you need to press each key for a "
+"certain length of time before it gets accepted."
+msgstr ""
+"느린 키가 켜졌습니다. 지금부터 키가 일정 시간 동안 눌려야만 눌린 것으로 인식"
+"됩니다."
+
+#: kaccess.cpp:882
+#, kde-format
+msgid "Slow keys has been disabled."
+msgstr "느린 키가 꺼졌습니다."
+
+#: kaccess.cpp:885
+#, kde-format
+msgid ""
+"Bounce keys has been enabled. From now on, each key will be blocked for a "
+"certain length of time after it was used."
+msgstr ""
+"튕김 키가 켜졌습니다. 지금부터 키가 눌리면 일정 시간 동안은 같은 키를 누를 "
+"수 없습니다."
+
+#: kaccess.cpp:887
+#, kde-format
+msgid "Bounce keys has been disabled."
+msgstr "튕김 키가 꺼졌습니다."
+
+#: kaccess.cpp:890
+#, kde-format
+msgid ""
+"Sticky keys has been enabled. From now on, modifier keys will stay latched "
+"after you have released them."
+msgstr ""
+"끈적이 키가 켜졌습니다. 지금부터 수정자 키를 눌렀다 놓아도 눌린 채로 있을 것"
+"입니다."
+
+#: kaccess.cpp:892
+#, kde-format
+msgid "Sticky keys has been disabled."
+msgstr "끈적이 키가 꺼졌습니다."
+
+#: kaccess.cpp:895
+#, kde-format
+msgid ""
+"Mouse keys has been enabled. From now on, you can use the number pad of your "
+"keyboard in order to control the mouse."
+msgstr ""
+"마우스 키가 켜졌습니다. 지금부터 키보드의 숫자 키로 마우스를 제어할 수 있습니"
+"다."
+
+#: kaccess.cpp:897
+#, kde-format
+msgid "Mouse keys has been disabled."
+msgstr "마우스 키가 꺼졌습니다."
+
+#: main.cpp:55
+#, kde-format
+msgid "KDE Accessibility Tool"
+msgstr "KDE 접근성 도구"
+
+#: main.cpp:57
+#, kde-format
+msgid "(c) 2000, Matthias Hoelzer-Kluepfel"
+msgstr "(c) 2000, Matthias Hoelzer-Kluepfel"
+
+#: main.cpp:59
+#, kde-format
+msgid "Matthias Hoelzer-Kluepfel"
+msgstr "Matthias Hoelzer-Kluepfel"
+
+#: main.cpp:59
+#, kde-format
+msgid "Author"
+msgstr "작성자"

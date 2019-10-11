@@ -1,0 +1,792 @@
+plasma-desktop (4:5.16.5-0xneon+18.04+bionic+build58) bionic; urgency=medium
+
+  * Automatic CI Build
+
+ -- Neon CI <neon@kde.org>  Thu, 12 Sep 2019 11:56:35 +0000
+
+plasma-desktop (4:5.16.5-0neon) bionic; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Tue, 03 Sep 2019 14:45:10 +0000
+
+plasma-desktop (4:5.16.4-0neon) bionic; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Tue, 30 Jul 2019 12:26:14 +0000
+
+plasma-desktop (4:5.16.3-0neon) bionic; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Tue, 09 Jul 2019 17:13:07 +0000
+
+plasma-desktop (4:5.16.2-0neon) bionic; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Tue, 25 Jun 2019 14:13:15 +0000
+
+plasma-desktop (4:5.16.1-0neon) bionic; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Tue, 18 Jun 2019 13:28:32 +0000
+
+plasma-desktop (4:5.16.0-0neon) bionic; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Mon, 10 Jun 2019 09:21:51 +0000
+
+plasma-desktop (4:5.15.90-0neon) bionic; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Tue, 07 May 2019 12:24:49 +0000
+
+plasma-desktop (4:5.15.4-0neon) bionic; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Tue, 02 Apr 2019 13:00:01 +0000
+
+plasma-desktop (4:5.15.3.2-0neon) bionic; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Tue, 12 Mar 2019 12:15:18 +0000
+
+plasma-desktop (4:5.15.2-0neon) bionic; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Tue, 26 Feb 2019 16:22:20 +0000
+
+plasma-desktop (4:5.15.1-0neon) bionic; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 20 Feb 2019 14:43:55 +0000
+
+plasma-desktop (4:5.15.0-0neon) bionic; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Mon, 11 Feb 2019 14:25:06 +0000
+
+plasma-desktop (4:5.14.80-0neon) bionic; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Tue, 27 Nov 2018 17:29:33 +0000
+
+plasma-desktop (4:5.14.5-0neon) bionic; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Tue, 08 Jan 2019 13:19:52 +0000
+
+plasma-desktop (4:5.14.3-1) unstable; urgency=medium
+
+  * Update upsteam signing-key
+  * New upstream release (5.14.3).
+  * Update build-deps and deps with the info from cmake
+  * Bump group breaks (4:5.14)
+  * Release to unstable
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 23 Nov 2018 08:50:58 -0300
+
+plasma-desktop (4:5.13.5-1) unstable; urgency=medium
+
+  * New revision
+  * Update fonts-hack recommends.
+    Thanks to Thomas Viehweger for the report (Closes: 907281)
+  * New upstream release (5.13.5).
+  * Update build-deps and deps with the info from cmake
+  * Drop the patch version for breeze
+  * Release to unstable
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 06 Sep 2018 20:40:39 +0200
+
+plasma-desktop (4:5.13.4-1) unstable; urgency=medium
+
+  * New upstream release (5.13.2).
+  * Update build-deps and deps with the info from cmake
+  * New upstream release (5.13.4).
+  * Update build-deps and deps with the info from cmake
+  * Update install files
+  * Release to unstable
+
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 19 Aug 2018 23:18:14 +0200
+
+plasma-desktop (4:5.13.1.1-1) unstable; urgency=medium
+
+  * New revision
+  * Use libscim-dev build dependency.
+    Thanks to Helmut Grohne for the report (Closes: 893435)
+  * New upstream release (5.13.1.1).
+  * Update build-deps and deps with the info from cmake
+  * Bump group breaks (4:5.13)
+  * Release to unstable
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 26 Jun 2018 13:43:15 +0200
+
+plasma-desktop (4:5.12.9.1-0xneon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Tue, 01 May 2018 14:41:51 +0000
+
+plasma-desktop (4:5.12.5-1) unstable; urgency=medium
+
+  * New upstream release (5.12.5).
+  * Bump Standards-Version to 4.1.4.
+  * Use https for the debian/copyright
+  * Release to unstable
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 09 May 2018 13:24:04 +0200
+
+plasma-desktop (4:5.12.4-1) unstable; urgency=medium
+
+  * New upstream release (5.12.4).
+  * Update build-deps and deps with the info from cmake
+  * Release to unstable
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 28 Mar 2018 18:12:50 +0200
+
+plasma-desktop (4:5.12.3-1) sid; urgency=medium
+
+  * New upstream release (5.12.3).
+  * Release to sid
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 07 Mar 2018 19:14:09 +0100
+
+plasma-desktop (4:5.12.2-1) sid; urgency=medium
+
+  * Bump kde-l10n version breaks/replaces.
+    LC_SCRIPTS/kfontinst/kfontinst.js is now in plasma-desktop-data.
+    Thanks to Andreas Beckmann for the report (Closes: 891017)
+  * New upstream release (5.12.2).
+  * Drop upstream patch
+  * Release to sid
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 24 Feb 2018 09:47:54 +0100
+
+plasma-desktop (4:5.12.1-1) sid; urgency=medium
+
+  * Use the salsa canonical urls
+  * New upstream release (5.12.1).
+  * Release to sid
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 20 Feb 2018 22:09:00 +0100
+
+plasma-desktop (4:5.12.0-3) sid; urgency=medium
+
+  * New revision
+  * [lookandfeel kcm] Do not declare plugin in lookandfeeltool code version
+  * Release to sid
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 15 Feb 2018 10:36:24 +0100
+
+plasma-desktop (4:5.12.0-2) sid; urgency=medium
+
+  * New revision
+  * Add xserver-xorg-input-libinput-dev optional build dep
+  * Drop qml-module-org-kde-extensionplugin transitional package dependency
+  * Release to sid
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 12 Feb 2018 16:03:48 +0100
+
+plasma-desktop (4:5.12.0-1) experimental; urgency=medium
+
+  * Bump debhelper build-dep and compat to 11.
+  * Build without build_stamp
+  * Add link options as-needed
+  * Add Bhushan Shah upstream signing key
+  * New upstream release (5.12.0).
+  * Update build-deps and deps with the info from cmake
+  * Bump Standards-Version to 4.1.3.
+  * Bump plasma-workspace-dev build dep version for libcolorcorrect
+  * Use https uri for uscan
+  * Release to experimental
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 08 Feb 2018 15:20:59 +0100
+
+plasma-desktop (4:5.11.4-1) experimental; urgency=medium
+
+  * New upstream release (5.11.4).
+  * Bump Standards-Version to 4.1.2.
+  * Update build-deps and deps with the info from cmake
+  * Update font recommendations
+  * Bump itemmodels build dep version
+  * Release to experimental
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 03 Jan 2018 16:49:10 -0300
+
+plasma-desktop (4:5.10.5-2) sid; urgency=medium
+
+  * New revision
+  * Bump Standards-Version to 4.1.0.
+  * Update build-deps and deps with the info from cmake
+  * Release to sid
+
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 03 Sep 2017 09:55:38 +0200
+
+plasma-desktop (4:5.10.5-1) experimental; urgency=medium
+
+  [ Maximiliano Curia ]
+  * New upstream release (5.10.3).
+  * Update build-deps and deps with the info from cmake
+  * Bump Standards-Version to 4.0.0.
+  * Update upstream metadata
+  * Use the new breeze-gtk package name
+  * Update build-deps and deps with the info from cmake
+  * New upstream release (5.10.4).
+  * Update build-deps and deps with the info from cmake
+  * Update build-deps and deps with the info from cmake
+  * Set Priority to optional
+  * New upstream release (5.10.5).
+  * Release to experimental
+
+  [ Jonathan Riddell ]
+  * add gpg keyring
+  * new build-deps needed breeze-dev libappstreamqt-dev
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 28 Aug 2017 15:29:42 +0200
+
+plasma-desktop (4:5.8.7.1-1) unstable; urgency=medium
+
+  * New upstream release (5.8.7.1)
+      + Revert "use KPluginMetaData::readStringList"
+        This reverts commit 7993cd433ca68a0136a990d3f1710a6360024fe9
+      + Set root.dragging to false during reset.
+        Fixes KDE#376633
+      + Fix default fixed font in fonts kcm
+        Now it is the same as used by plasma-integration.
+        Also adjust the file name in the comment, which was apparently forgotten.
+        Fixes #863243
+      + Fix switching categories via the filter listview on touchscreens.
+      + Disable editing of 'Global Shortcuts' component names
+        Fixes KDE#376935
+      + [Folder View] Fix action button hover and pressed state
+        The hover state didn't work because it referenced "pressed" which it didn't find in the scope.
+        The pressed graphic suffix was wrong.
+      + [AppletAppearance] Silence warning
+        "applet" is set after the item is created and would result in a warning on startup.
+      + Do apply margin if in right-to-left mode.
+        Fixes KDE#376529
+      + [Folder View] Explicitly set prefix as empty in normal state
+        Somehow with FrameSvg optimizations State no longer manages to reset the property back to its original state when state is reset.
+        Fixes KDE#377441
+      + [Kicker] Fix highlighting favorites
+        ToolTipArea steals mouse events from the MouseEventListener.
+        Related to KDE#377652
+      + Add missing member initialization.
+        Fixes KDE#378016
+      + [Applet Alternatives] Fix icon size
+        Another regression with new IconItem implicit size handling.
+        Unintuitively implicit size has precedence over regular size when placed in a Layout,
+        since the latter is managed by it.
+      + [Applet Alternatives] Don't animate highlight resize
+        The delegates hardly differ in size leading to ugly jumps when moving the selection
+      + [Folder View] Use toDisplayString which strips passwords
+        Otherwise we might be leaking sensitive information.
+      + [Task Manager] Keep entry highlighted when context menu or group dialog is open
+        This makes it easier to see what item the menu or popup is for.
+        In fact, the item should have stayed highlighted when the context menu is open but this was broken.
+        Also, for consistency, use the hover effect also for the group dialog (it used to be the "active" task).
+      + Backport 5.9/Master's GroupDialog code to 5.8.
+        This brings us to a common baseline on the three active branches
+        and addresses regressions on the 5.8 branch.
+        5.9's code added a scrollbar and improved keyboard nav.
+        Fixes KDE#378042
+      + Fix -Wreorder warning.
+      + possible to edit the default color scheme
+        no reason to not allow editing the default color sheme
+        with an invalid path, everyting falls back to the default,
+        keeping the dialog fully functional
+      + make sure the "default" sheme is actually default
+      + Remove implicit use of QtQml in Qt 5.7
+        The Plasma 5.8 branch should work with Qt 5.6.
+        This means we don't have the Connections enabled property available.
+        This moves the enabling logic into the handler.
+        Fixes KDE#380240 (Closes: 863243)
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 16 Jun 2017 19:19:32 +0200
+
+plasma-desktop (4:5.8.6-1) unstable; urgency=medium
+
+  * New upstream release (5.8.6)
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 25 Mar 2017 12:26:47 +0100
+
+plasma-desktop (4:5.8.5-1) experimental; urgency=medium
+
+  * New upstream release (5.8.5).
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 30 Dec 2016 18:46:20 +0100
+
+plasma-desktop (4:5.8.4-1) unstable; urgency=medium
+
+  * New upstream release (5.8.4)
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 23 Nov 2016 18:37:45 +0100
+
+plasma-desktop (4:5.8.2-1) unstable; urgency=medium
+
+  * New upstream release (5.8.2)
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 19 Oct 2016 15:28:07 +0200
+
+plasma-desktop (4:5.8.1-1) unstable; urgency=medium
+
+  * New upstream release (5.8.1)
+
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 16 Oct 2016 23:01:52 +0200
+
+plasma-desktop (4:5.8.0-1) unstable; urgency=medium
+
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+
+  [ Maximiliano Curia ]
+  * New upstream release (5.8.0)
+  * Update install files
+
+  [ Jonathan Riddell ]
+  * recommand fonts-noto
+  * qml dep on qml-module-org-kde-activities
+
+  [ Harald Sitter ]
+  * pull in breeze gtk
+
+  [ Rohan Garg ]
+  * Add kde-config-screenlocker to deps, wrap-and-sort
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 07 Oct 2016 14:10:47 +0200
+
+plasma-desktop (4:5.7.4-2) unstable; urgency=medium
+
+  * Team upload.
+  * Remove the transitional kde-touchpad, since it was never part of a stable
+    release.
+    - remove the obsolete breaks/replaces for it
+  * Change the section of libkfontinst5, and libkfontinstui5 to libs.
+  * Update the patches:
+    - add_missing_include: drop, fixed upstream
+  * Switch to non-deprecated build dependencies:
+    - kdoctools-dev -> libkf5doctools-dev
+    - kio-dev -> libkf5kio-dev
+  * Build with -gstabs instead of -g also on armel and armhf, to work around
+    virtual memory exhaustion.
+  * Update lintian overrides.
+  * Remove breaks/replaces on old versions of plasma-desktop-data, and
+    plasma-desktop-dev, since those were never part of a stable release.
+
+ -- Pino Toscano <pino@debian.org>  Thu, 15 Sep 2016 23:52:42 +0200
+
+plasma-desktop (4:5.7.4-1) unstable; urgency=medium
+
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+  * New upstream release (5.7.4)
+
+  [ Maximiliano Curia ]
+  * Recommend kwin-x11 and fallback to any package providing kwin.
+  * Add missing build dependency
+  * Drop activities-stats experimental library
+  * Update install files
+
+  [ Philip Muškovac ]
+  * Build-depend on libpackagekitqt5-dev
+
+  [ Jonathan Riddell ]
+  * add build-dep on libudev-dev
+
+  [ Harald Sitter ]
+  * add new bdep on ibus and scim (I think these moved from plasmaaddons)
+
+  [ Matthias Klumpp ]
+  * Do not recommend transitional packages for plasma-discover
+
+  [ Pino Toscano ]
+  * add missing changelog item
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 31 Aug 2016 14:17:12 +0200
+
+plasma-desktop (4:5.6.5-1) unstable; urgency=medium
+
+  [ Maximiliano Curia ]
+  * Promote plasma-integration to a hard dependency
+
+  [ Automatic packaging ]
+  * Refresh patches
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 29 Jun 2016 17:42:33 +0200
+
+plasma-desktop (4:5.6.4-2) unstable; urgency=high
+
+  * Recommend kactivitymanagerd.
+    Thanks to Martin Steigerwald for reporting (Closes: 826047)
+  * Promote kactivitymanagerd to dependency
+  * Bump plasma-framework dependency version
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 03 Jun 2016 21:20:16 +0200
+
+plasma-desktop (4:5.6.4-1) unstable; urgency=medium
+
+  [ Maximiliano Curia ]
+  * Drop libusb-dev build dependency. (Closes: #810452) Thanks to Aurelien Jarno
+  * Bump breaks/replaces for l10n packages, due to the addition of
+    kcm_device_automounter.mo. (Closes: #814526) Thanks to Andreas
+    Beckmann
+  * uscan no longer supports this kind of watch files.
+  * New upstream release (5.5.5).
+  * Automatic update with ddeb_migration3.py
+  * Add upstream metadata (DEP-12)
+  * Add missing breaks/replaces
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
+  * Add new patch: add_missing_include
+  * Use the right kwallet pam package name
+  * Add lintian-overrides for libkdeinit5_kaccess.so
+  * Recommend plasma-integration, without it the plasma widgets use the wrong font sizes
+
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+  * Refresh patches
+  * Bump Standards-Version to 3.9.8
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 01 Jun 2016 11:16:31 +0200
+
+plasma-desktop (4:5.5.4-1) experimental; urgency=medium
+
+  * New upstream release (5.5.0).
+  * New upstream release (5.5.1).
+  * New upstream release (5.5.2).
+  * New upstream release (5.5.3).
+  * New upstream release (5.5.4).
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 27 Jan 2016 16:48:48 +0100
+
+plasma-desktop (4:5.4.3-1) unstable; urgency=medium
+
+  * New upstream release (5.4.3).
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 01 Dec 2015 11:45:41 +0100
+
+plasma-desktop (4:5.4.2-1) unstable; urgency=medium
+
+  [ Scott Kitterman ]
+  * Add kio to plasma-desktop depends so I/O using widgets work (Closes:
+    #798664)
+  * Add qml-module-qt-labs-settings and qml-module-qt-labs-
+    folderlistmodel to plasma-desktop Depends (Closes: #799575)
+    - Thanks to Ralph Jung for the report
+
+  [ Maximiliano Curia ]
+  * New patch: allow_uxterm_overrides.diff (Closes: #797482) Thanks to
+    Thorsten Glaser
+  * New upstream release (5.4.2).
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 06 Oct 2015 07:51:52 +0200
+
+plasma-desktop (4:5.4.1-1) unstable; urgency=medium
+
+  * New upstream release (5.4.1).
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 09 Sep 2015 16:36:27 +0200
+
+plasma-desktop (4:5.4.0-3) experimental; urgency=medium
+
+  * Build with -gstabs instead of -g on mips and mipsel to work around
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 05 Sep 2015 19:32:33 +0200
+
+plasma-desktop (4:5.4.0-2) unstable; urgency=medium
+
+  * Force building against the experimental version of baloo.
+    virtual memory exhaustion.
+
+ -- Felix Geyer <fgeyer@debian.org>  Fri, 04 Sep 2015 21:07:53 +0200
+
+plasma-desktop (4:5.4.0-1) unstable; urgency=medium
+
+  * New upstream release (5.4.0).
+  * Remove upstream patch: upstream-
+    replace_license_reference_by_license_text
+  * Remove upstream patch: upstream_add_missing_licenses
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 04 Sep 2015 09:49:23 +0200
+
+plasma-desktop (4:5.4.0-0ubuntu1) wily; urgency=medium
+
+  * new upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 31 Aug 2015 15:54:56 +0100
+
+plasma-desktop (4:5.3.95-0ubuntu1) wily; urgency=medium
+
+  [ Scarlett Clark ]
+  * Vivid backport.
+  * Manual merge.
+
+  [ Jonathan Riddell ]
+  * new upstream beta release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 10 Aug 2015 23:19:44 +0200
+
+plasma-desktop (4:5.3.2-2) unstable; urgency=high
+
+  * Team upload.
+
+  [ Maximiliano Curia ]
+  * Add missing Breaks/Replaces. (Closes: #791891) Thanks to Andreas
+    Beckman
+
+  [ Felix Geyer ]
+  * Make Breaks/Replaces against kde-touchpad and kde-config-touchpad
+    versioned. (Closes: #793568)
+    They are transitional packages now.
+
+ -- Jeremy Lainé <jeremy.laine@m4x.org>  Sun, 26 Jul 2015 15:38:15 +0200
+
+plasma-desktop (4:5.3.2-1) unstable; urgency=medium
+
+  * New upstream release (5.3.0).
+  * New upstream release (5.3.1).
+  * New upstream release (5.3.2).
+  * Update copyright information.
+  * Add the missing Breaks/Replaces.
+  * New upstream patch: upstream-
+    replace_license_reference_by_license_text
+  * New upstream approved patch (reviewboard
+    https://git.reviewboard.kde.org/r/124290/):
+    upstream_add_missing_licenses.
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 08 Jul 2015 22:33:00 +0200
+
+plasma-desktop (4:5.3.2-0ubuntu3) wily; urgency=medium
+
+  * add those breaks/replaces to plasma-desktop-data as well
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Sun, 26 Jul 2015 21:26:47 +0200
+
+plasma-desktop (4:5.3.2-0ubuntu2) wily; urgency=medium
+
+  * add versions to breaks/replaces for touchpad which have
+    transitionals
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 14 Jul 2015 23:44:09 +0200
+
+plasma-desktop (4:5.3.2-0ubuntu1) wily; urgency=medium
+
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 02 Jul 2015 12:36:43 +0000
+
+plasma-desktop (4:5.3.1-0ubuntu3) wily; urgency=medium
+
+  * Remove dep on plasma-nm at upstream's request
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 25 Jun 2015 12:48:15 +0200
+
+plasma-desktop (4:5.3.1-0ubuntu2) wily; urgency=medium
+
+  * Recommend renamed oxygen fonts package fonts-oxygen
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 22 Jun 2015 14:59:23 +0200
+
+plasma-desktop (4:5.3.1-0ubuntu1) wily; urgency=medium
+
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 04 Jun 2015 21:08:18 +0200
+
+plasma-desktop (4:5.2.2-0ubuntu3) vivid; urgency=medium
+
+  * Add upstream_kfontinst-header-alignment.diff from upstream to fix
+    headers in kfontinst kcm
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 02 Apr 2015 15:43:04 +0200
+
+plasma-desktop (4:5.2.2-0ubuntu2) vivid; urgency=medium
+
+  * Add upstream_Hide-pager-when-there-s-only-one-virtual-desktop.patch
+    to hide the pager applet when there is only one virtual desktop.
+    with only one desktop it is pretty useless.
+
+ -- Harald Sitter <sitter@kde.org>  Thu, 26 Mar 2015 14:21:41 +0100
+
+plasma-desktop (4:5.2.2-1) experimental; urgency=medium
+
+  * New upstream release (5.2.1).
+  * New upstream release (5.2.2).
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 25 Mar 2015 23:17:22 +0100
+
+plasma-desktop (4:5.2.2-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Tue, 24 Mar 2015 07:42:28 -0700
+
+plasma-desktop (4:5.2.1-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 23 Feb 2015 09:46:57 -0800
+
+plasma-desktop (4:5.2.0-1) experimental; urgency=medium
+
+  * Prepare initial Debian release.
+  * Add myself as Uploader.
+  * Bump Standards-Version to 3.9.6, no changes needed.
+  * Update build dependencies to build against experimental and to
+    follow cmake.
+  * Update copyright information.
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 12 Feb 2015 22:57:30 +0100
+
+plasma-desktop (4:5.2.0-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+
+ -- Harald Sitter <sitter@kde.org>  Tue, 27 Jan 2015 14:58:59 +0100
+
+plasma-desktop (4:5.1.95-0ubuntu4) vivid; urgency=medium
+
+  * Add break/replaces on old baloo-kf5 for moved files
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 19 Jan 2015 18:16:31 +0100
+
+plasma-desktop (4:5.1.95-0ubuntu3) vivid; urgency=medium
+
+  * remove recommends on kwin-decoration-oxygen, it no longer exists
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 19 Jan 2015 13:17:45 +0100
+
+plasma-desktop (4:5.1.95-0ubuntu2) vivid; urgency=medium
+
+  * update build-dep versions for plasma packages
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 16 Jan 2015 12:42:33 +0100
+
+plasma-desktop (4:5.1.95-0ubuntu1) vivid; urgency=medium
+
+  * New upstream beta release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 15 Jan 2015 01:35:24 +0100
+
+plasma-desktop (4:5.1.2-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 15 Dec 2014 13:26:18 +0100
+
+plasma-desktop (4:5.1.1-0ubuntu1) vivid; urgency=medium
+
+  [ Jonathan Riddell ]
+  * New upstream beta release
+  * Add upstream_default-kickoff-applications.diff LP: #1362747
+    "No web browser in app menu"
+
+  [ Scarlett Clark ]
+  * Fix copyright file (remove spaces) to appease lintian.
+
+  [ Jonathan Riddell ]
+  * New upstream release
+  * New upstream release with fixed tar
+
+  [ Scarlett Clark ]
+  * New upstream release
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 10 Nov 2014 19:51:38 +0100
+
+plasma-desktop (4:5.0.2-0ubuntu1) utopic; urgency=medium
+
+  [ Harald Sitter ]
+  * switch to new pkg-kde-tools
+  * Move kconf_update_bin folder to plasma-desktop package (was in -dev)
+    + plasma-desktop now breaks and replaces previous versions of
+      plasma-desktop-dev
+  * Move dbus-1 service files to plasma-desktop-data (was in -dev)
+    + plasma-desktop-data now breaks and replaces previous versions of
+      plasma-desktop-dev
+    + Make the wildcard robust enough to not accidentially end up installing
+      interfaces to -data in the future
+
+  [ Scarlett Clark ]
+  * New upstream release
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 17 Sep 2014 18:20:38 -0700
+
+plasma-desktop (4:5.0.1-0ubuntu1~ubuntu14.10~ppa4) utopic; urgency=medium
+
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 11 Aug 2014 15:47:26 +0200
+
+plasma-desktop (4:5.0.0a-0ubuntu1) utopic; urgency=medium
+
+  [ Scarlett Clark ]
+  * New upstream tarball
+  * Add missing files to install
+
+  [ Harald Sitter ]
+  * plasma-desktop depends breeze instead of breeze-cursor-theme as breeze
+    provides the core UI styling for all of the shell
+    + Drop oxygen-icon-theme as dependency as breeze packaging handles
+      the oxygen relationship
+    + Drop gdb-minimal | gdb; it is a dep of workspace as that is where drkonqi
+      lives
+    + Depend on kded5 for the kded, style, keyboard and keys kcm as well as
+      the ktouchpadenabler kded module
+    + Add all workspace packages as recommends or depends of plasma-desktop 
+      as the entire bunch comprises what is considered a plasma-desktop.
+      + Depends:
+        - breeze - core theme package. needed by various parts of the stack, so
+                   removing it is almost never possible or viable
+        - kde-cli-tools - core tools like kcmshell5, used to run kcms
+        - oxygen-sounds - applications directly reference oxygen sound names and
+                          as such not having this package will render no sounds
+      + Recommends:
+        - kde-style-oxygen-qt5 - not needed if another style is installed
+        - khelpcenter
+        - khotkeys - advanced hotkey management
+        - kinfocenter - information center
+        - kio-extras - extra slaves, mostly useful for preview generator
+        - kmenuedit
+        - kwin - not needed if another wm is installed
+        - kwin-decoration-oxygen - not needed if another decoration is installed
+        - kwrited
+        - plasma-nm
+        - powerdevil
+        - systemsettings
+        - tty-oxygen-font-family
+     + Properly resolve qml module dependencies of plasma-desktop:
+       + plasma-framework (already present)
+       + qtdeclarative5-kf5declarative (kquickcontrolsaddons, kcoreaddons etc.)
+       + qml-module-org-kde-solid
+       + kactivities (for activities)
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Sun, 10 Aug 2014 15:44:47 +0200
+
+plasma-desktop (4:4.98.0-0ubuntu1) utopic; urgency=medium
+
+  [ Jonathan Riddell ]
+  * New upstream RC release
+
+  [ Scarlett Clark ]
+  * fix install file
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 07 Jul 2014 13:27:40 +0200
+
+plasma-desktop (4:4.97.0-0ubuntu1) utopic; urgency=medium
+
+  [ Scarlett Clark ]
+  * Initial release.
+  * add plasma-nm networking depend
+
+ -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Tue, 10 Jun 2014 10:24:08 +0100

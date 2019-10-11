@@ -1,0 +1,320 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+# Shinjo Park <kde@peremen.name>, 2014, 2015, 2016, 2017, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"PO-Revision-Date: 2019-05-07 22:50+0200\n"
+"Last-Translator: Shinjo Park <kde@peremen.name>\n"
+"Language-Team: Korean <kde-kr@kde.org>\n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 18.12.3\n"
+
+#: contents/activitymanager/ActivityItem.qml:206
+msgid "Currently being used"
+msgstr "현재 사용 중"
+
+#: contents/activitymanager/ActivityItem.qml:284
+msgid "Configure"
+msgstr "설정"
+
+#: contents/activitymanager/ActivityItem.qml:300
+msgid "Stop activity"
+msgstr "활동 정지"
+
+#: contents/activitymanager/ActivityList.qml:155
+msgid "Stopped activities:"
+msgstr "정지된 활동:"
+
+#: contents/activitymanager/ActivityManager.qml:140
+msgid "Create activity..."
+msgstr "활동 만들기..."
+
+#: contents/activitymanager/Heading.qml:70
+msgid "Activities"
+msgstr "활동"
+
+#: contents/activitymanager/Heading.qml:85
+#: contents/explorer/WidgetExplorer.qml:249
+msgid "Search..."
+msgstr "찾기..."
+
+#: contents/activitymanager/StoppedActivityItem.qml:146
+msgid "Configure activity"
+msgstr "활동 설정"
+
+#: contents/activitymanager/StoppedActivityItem.qml:161
+msgid "Delete"
+msgstr "삭제"
+
+#: contents/configuration/AppletConfiguration.qml:53
+#, fuzzy
+#| msgid "Keyboard Shortcuts"
+msgid "Keyboard Shortcuts"
+msgstr "키보드 단축키"
+
+#: contents/configuration/AppletConfiguration.qml:111
+msgid "Apply Settings"
+msgstr "설정 적용하기"
+
+#: contents/configuration/AppletConfiguration.qml:112
+msgid ""
+"The settings of the current module have changed. Do you want to apply the "
+"changes or discard them?"
+msgstr ""
+"현재 모듈에 저장되지 않은 변경 사항이 있습니다. 변경 사항을 적용하거나 무시하"
+"시겠습니까?"
+
+#: contents/configuration/AppletConfiguration.qml:407
+msgid "OK"
+msgstr "확인"
+
+#: contents/configuration/AppletConfiguration.qml:414
+msgid "Apply"
+msgstr "적용"
+
+#: contents/configuration/AppletConfiguration.qml:420
+#: contents/explorer/AppletAlternatives.qml:185
+msgid "Cancel"
+msgstr "취소"
+
+#: contents/configuration/ConfigurationContainmentActions.qml:31
+msgid "Left-Button"
+msgstr "왼쪽 단추"
+
+#: contents/configuration/ConfigurationContainmentActions.qml:32
+msgid "Right-Button"
+msgstr "오른쪽 단추"
+
+#: contents/configuration/ConfigurationContainmentActions.qml:33
+msgid "Middle-Button"
+msgstr "가운데 단추"
+
+#: contents/configuration/ConfigurationContainmentActions.qml:34
+msgid "Back-Button"
+msgstr "뒤로 가기단추"
+
+#: contents/configuration/ConfigurationContainmentActions.qml:35
+msgid "Forward-Button"
+msgstr "앞으로 가기 단추"
+
+#: contents/configuration/ConfigurationContainmentActions.qml:37
+msgid "Vertical-Scroll"
+msgstr "수직 스크롤"
+
+#: contents/configuration/ConfigurationContainmentActions.qml:38
+msgid "Horizontal-Scroll"
+msgstr "수평 스크롤"
+
+#: contents/configuration/ConfigurationContainmentActions.qml:40
+msgid "Shift"
+msgstr "Shift"
+
+#: contents/configuration/ConfigurationContainmentActions.qml:41
+msgid "Ctrl"
+msgstr "Ctrl"
+
+#: contents/configuration/ConfigurationContainmentActions.qml:42
+msgid "Alt"
+msgstr "Alt"
+
+#: contents/configuration/ConfigurationContainmentActions.qml:43
+msgid "Meta"
+msgstr "Meta"
+
+#: contents/configuration/ConfigurationContainmentActions.qml:83
+msgctxt "Concatenation sign for shortcuts, e.g. Ctrl+Shift"
+msgid "+"
+msgstr "+"
+
+#: contents/configuration/ConfigurationContainmentActions.qml:163
+#: contents/configuration/MouseEventInputButton.qml:27
+msgid "Add Action"
+msgstr "동작 추가"
+
+#: contents/configuration/ConfigurationContainmentAppearance.qml:75
+#, fuzzy
+#| msgid "Layout cannot be changed while widgets are locked"
+msgid "Layout cannot be changed while widgets are locked"
+msgstr "위젯이 잠겨 있을 때에는 레이아웃을 변경할 수 없습니다"
+
+#: contents/configuration/ConfigurationContainmentAppearance.qml:90
+msgid "Layout:"
+msgstr "레이아웃:"
+
+#: contents/configuration/ConfigurationContainmentAppearance.qml:105
+msgid "Wallpaper Type:"
+msgstr "배경 그림 종류:"
+
+#: contents/configuration/ConfigurationContainmentAppearance.qml:122
+msgid "Get New Plugins..."
+msgstr "새 플러그인 가져오기..."
+
+#: contents/configuration/ConfigurationContainmentAppearance.qml:140
+msgid "Layout changes must be applied before other changes can be made"
+msgstr "다른 항목을 변경하기 전 레이아웃 변경 사항을 적용해야 합니다"
+
+#: contents/configuration/ConfigurationContainmentAppearance.qml:146
+msgid "Apply now"
+msgstr "지금 적용하기"
+
+#: contents/configuration/ConfigurationShortcuts.qml:39
+msgid "This shortcut will activate the applet as though it had been clicked."
+msgstr "이 단축키를 누르면 애플릿을 누른 것처럼 활성화됩니다."
+
+#: contents/configuration/ContainmentConfiguration.qml:43
+msgid "Wallpaper"
+msgstr "배경 그림"
+
+#: contents/configuration/ContainmentConfiguration.qml:48
+msgid "Mouse Actions"
+msgstr "마우스 동작"
+
+#: contents/configuration/MouseEventInputButton.qml:34
+msgid "Input Here"
+msgstr "여기에 입력"
+
+#: contents/configuration/panelconfiguration/EdgeHandle.qml:28
+msgid "Screen Edge"
+msgstr "화면 경계"
+
+#: contents/configuration/panelconfiguration/EdgeHandle.qml:40
+msgid "Click and drag the button to a screen edge to move the panel there."
+msgstr "패널을 이동하려면 단추를 눌러서 다른 화면 경계로 드래그하십시오."
+
+#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:43
+msgid "Panel Alignment"
+msgstr "패널 정렬"
+
+#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:53
+msgid "Top"
+msgstr "위"
+
+#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:53
+msgid "Left"
+msgstr "왼쪽"
+
+#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:64
+msgid "Center"
+msgstr "가운데"
+
+#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:75
+msgid "Bottom"
+msgstr "아래"
+
+#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:75
+msgid "Right"
+msgstr "오른쪽"
+
+#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:85
+msgid "Visibility"
+msgstr "표시 여부"
+
+#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:93
+msgid "Always Visible"
+msgstr "항상 보임"
+
+#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:101
+msgid "Auto Hide"
+msgstr "자동 숨기기"
+
+#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:109
+msgid "Windows Can Cover"
+msgstr "창이 덮을 수 있음"
+
+#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:117
+msgid "Windows Go Below"
+msgstr "창이 내려감"
+
+#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:126
+msgid "Maximize Panel"
+msgstr "패널 최대화"
+
+#: contents/configuration/panelconfiguration/SizeHandle.qml:28
+msgid "Width"
+msgstr "너비"
+
+#: contents/configuration/panelconfiguration/SizeHandle.qml:28
+msgid "Height"
+msgstr "높이"
+
+#: contents/configuration/panelconfiguration/SizeHandle.qml:54
+msgid "Click and drag the button to resize the panel."
+msgstr "패널 크기를 조정하려면 단추를 눌러서 드래그하십시오."
+
+#: contents/configuration/panelconfiguration/ToolBar.qml:33
+msgid "Lock Widgets"
+msgstr "위젯 잠금"
+
+#: contents/configuration/panelconfiguration/ToolBar.qml:34
+msgid "Remove Panel"
+msgstr "패널 삭제"
+
+#: contents/configuration/panelconfiguration/ToolBar.qml:35
+msgid "Add Widgets..."
+msgstr "위젯 추가..."
+
+#: contents/configuration/panelconfiguration/ToolBar.qml:36
+msgid "Add Spacer"
+msgstr "공백 추가"
+
+#: contents/configuration/panelconfiguration/ToolBar.qml:37
+msgid "More Settings..."
+msgstr "더 많은 설정..."
+
+#: contents/configuration/panelconfiguration/ToolBar.qml:196
+msgid "Close"
+msgstr "닫기"
+
+#: contents/explorer/AppletAlternatives.qml:83
+msgid "Alternative Widgets"
+msgstr "대안 위젯"
+
+#: contents/explorer/AppletAlternatives.qml:174
+msgid "Switch"
+msgstr "전환"
+
+#: contents/explorer/AppletDelegate.qml:179
+msgid "Undo uninstall"
+msgstr "삭제 실행 취소"
+
+#: contents/explorer/AppletDelegate.qml:180
+msgid "Uninstall widget"
+msgstr "위젯 삭제"
+
+#: contents/explorer/Tooltip.qml:106
+msgid "License:"
+msgstr "라이선스:"
+
+#: contents/explorer/Tooltip.qml:115
+msgid "Author:"
+msgstr "작성자:"
+
+#: contents/explorer/Tooltip.qml:123
+msgid "Email:"
+msgstr "이메일:"
+
+#: contents/explorer/Tooltip.qml:142
+msgid "Uninstall"
+msgstr "삭제"
+
+#: contents/explorer/WidgetExplorer.qml:216
+msgid "Widgets"
+msgstr "위젯"
+
+#: contents/explorer/WidgetExplorer.qml:224
+msgid "Categories"
+msgstr "분류"
+
+#: contents/explorer/WidgetExplorer.qml:355
+#, fuzzy
+#| msgid "Get New Widgets..."
+msgid "Get New Widgets..."
+msgstr "새 위젯 가져오기..."

@@ -1,0 +1,231 @@
+# translation of kcmfonts.po to Chinese Traditional
+# traditional Chinese translation of kcmfonts
+# Copyright (C) 2001-2003, 2006, 2007, 2008 Free Software Foundation, Inc.
+#
+# Tung-Han Hsieh <thhsieh@linux.org.tw>, 2001.
+# Edward G.J. Lee <edt1023@speedymail.org>, 2002.
+# Frank Weng (a.k.a. Franklin) <franklin at goodhorse dot idv dot tw>, 2006, 2010.
+# Frank Weng (a.k.a. Franklin) <franklin@mail.everfocus.com.tw>, 2007.
+# Franklin Weng <franklin at goodhorse dot idv dot tw>, 2007, 2008.
+# Franklin Weng <franklin@goodhorse.idv.tw>, 2011, 2012, 2014.
+# Jeff Huang <s8321414@gmail.com>, 2017.
+# pan93412 <pan93412@gmail.com>, 2018, 2019.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmfonts\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-07-12 07:37+0200\n"
+"PO-Revision-Date: 2019-02-12 23:59+0800\n"
+"Last-Translator: pan93412 <pan93412@gmail.com>\n"
+"Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"dot tw>\n"
+"X-Generator: Lokalize 18.12.2\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Jeff Huang, pan93412"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "s8321314@gmail.com, pan93412@gmail.com"
+
+#: fonts.cpp:279
+#, kde-format
+msgid ""
+"<p>Some changes such as anti-aliasing or DPI will only affect newly started "
+"applications.</p>"
+msgstr ""
+"<p>有一些像是平滑字型或 DPI 設定上的變更，只會對於新啟動的程式有作用。</p>"
+
+#: fonts.cpp:280 fonts.cpp:290
+#, kde-format
+msgid "Font Settings Changed"
+msgstr "字型設定已改變"
+
+#: fonts.cpp:289
+#, kde-format
+msgid ""
+"<p>Some changes such as DPI will only affect newly started applications.</p>"
+msgstr "<p>有一些像是 DPI 設定上的變更，只會對於新啟動的程式有作用。</p>"
+
+#: fonts.cpp:443
+#, kde-format
+msgid "Fonts"
+msgstr "字體"
+
+#: fonts.cpp:445
+#, kde-format
+msgid "Antonis Tsiapaliokas"
+msgstr "Antonis Tsiapaliokas"
+
+#: kxftconfig.cpp:444
+#, kde-format
+msgctxt "use system subpixel setting"
+msgid "Vendor default"
+msgstr "供應商預設值"
+
+#: kxftconfig.cpp:446
+#, kde-format
+msgctxt "no subpixel rendering"
+msgid "None"
+msgstr "無"
+
+#: kxftconfig.cpp:448
+#, kde-format
+msgid "RGB"
+msgstr "RGB"
+
+#: kxftconfig.cpp:450
+#, kde-format
+msgid "BGR"
+msgstr "BGR"
+
+#: kxftconfig.cpp:452
+#, kde-format
+msgid "Vertical RGB"
+msgstr "垂直 RGB"
+
+#: kxftconfig.cpp:454
+#, kde-format
+msgid "Vertical BGR"
+msgstr "垂直 BGR"
+
+#: kxftconfig.cpp:482
+#, kde-format
+msgctxt "use system hinting settings"
+msgid "Vendor default"
+msgstr "供應商預設值"
+
+#: kxftconfig.cpp:484
+#, kde-format
+msgctxt "medium hinting"
+msgid "Medium"
+msgstr "中等"
+
+#: kxftconfig.cpp:486
+#, kde-format
+msgctxt "no hinting"
+msgid "None"
+msgstr "無"
+
+#: kxftconfig.cpp:488
+#, kde-format
+msgctxt "slight hinting"
+msgid "Slight"
+msgstr "微小的"
+
+#: kxftconfig.cpp:490
+#, kde-format
+msgctxt "full hinting"
+msgid "Full"
+msgstr "完整"
+
+#: package/contents/ui/FontWidget.qml:68
+#, kde-format
+msgid "Select %1 Font..."
+msgstr "選擇 %1 字型…"
+
+#: package/contents/ui/main.qml:30
+#, kde-format
+msgid "This module lets you configure the system fonts."
+msgstr "此模組能讓您設定系統字型。"
+
+#: package/contents/ui/main.qml:40
+#, kde-format
+msgid "&Adjust All Fonts..."
+msgstr "調整所有字型...(&A)"
+
+#: package/contents/ui/main.qml:47
+#, kde-format
+msgid "General:"
+msgstr "一般："
+
+#: package/contents/ui/main.qml:52
+#, kde-format
+msgid "Fixed width:"
+msgstr "固定寬度："
+
+#: package/contents/ui/main.qml:57
+#, kde-format
+msgid "Small:"
+msgstr "小："
+
+#: package/contents/ui/main.qml:62
+#, kde-format
+msgid "Toolbar:"
+msgstr "工具列："
+
+#: package/contents/ui/main.qml:67
+#, kde-format
+msgid "Menu:"
+msgstr "選單："
+
+#: package/contents/ui/main.qml:72
+#, kde-format
+msgid "Window title:"
+msgstr "視窗標題："
+
+#: package/contents/ui/main.qml:84
+#, kde-format
+msgctxt "Used as a noun, and precedes a combobox full of options"
+msgid "Anti-aliasing:"
+msgstr "防鋸齒："
+
+#: package/contents/ui/main.qml:86
+#, kde-format
+msgid "Enabled"
+msgstr "啟用"
+
+#: package/contents/ui/main.qml:86
+#, kde-format
+msgid "Vendor default"
+msgstr "供應商預設值"
+
+#: package/contents/ui/main.qml:86
+#, kde-format
+msgid "Disabled"
+msgstr "停用"
+
+#: package/contents/ui/main.qml:96
+#, kde-format
+msgid "Exclude range from anti-aliasing"
+msgstr "不包含來自防鋸齒的範圍"
+
+#: package/contents/ui/main.qml:113 package/contents/ui/main.qml:128
+#, kde-format
+msgid "%1 pt"
+msgstr "%1 pt"
+
+#: package/contents/ui/main.qml:120
+#, kde-format
+msgid "to"
+msgstr "至 "
+
+#: package/contents/ui/main.qml:141
+#, kde-format
+msgctxt "Used as a noun, and precedes a combobox full of options"
+msgid "Sub-pixel rendering:"
+msgstr "子像素繪製："
+
+#: package/contents/ui/main.qml:178
+#, kde-format
+msgctxt "Used as a noun, and precedes a combobox full of options"
+msgid "Hinting:"
+msgstr "提示："
+
+#: package/contents/ui/main.qml:216
+#, kde-format
+msgid "Force font DPI:"
+msgstr "強制指定字型 DPI："
+
+#: package/contents/ui/main.qml:234
+#, kde-format
+msgid "Select Font"
+msgstr "選擇字型"

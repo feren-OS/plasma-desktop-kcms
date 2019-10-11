@@ -1,0 +1,155 @@
+# Translation of kcmformats.po to Catalan (Valencian)
+# Copyright (C) 2014-2018 This_file_is_part_of_KDE
+# This file is distributed under the license LGPL version 2.1 or
+# version 3 or later versions approved by the membership of KDE e.V.
+#
+# Josep Ma. Ferrer <txemaq@gmail.com>, 2014, 2015, 2017, 2018.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmformats\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"PO-Revision-Date: 2018-01-02 22:09+0100\n"
+"Last-Translator: Josep Ma. Ferrer <txemaq@gmail.com>\n"
+"Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
+"Language: ca@valencia\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Accelerator-Marker: &\n"
+"X-Generator: Lokalize 2.0\n"
+
+#: kcmformats.cpp:45
+#, kde-format
+msgid ""
+"<h1>Formats</h1>You can configure the formats used for time, dates, money "
+"and other numbers here."
+msgstr ""
+"<h1>Formats</h1>Ací podeu configurar els formats utilitzats per l'hora, "
+"dates, moneda i altres nombres."
+
+#: kcmformats.cpp:102
+#, kde-format
+msgid "No change"
+msgstr "Sense canvi"
+
+#: kcmformats.cpp:139
+#, kde-format
+msgid "%1 - %2 (%3)"
+msgstr "%1 - %2 (%3)"
+
+#: kcmformats.cpp:141
+#, kde-format
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: kcmformats.cpp:274
+#, kde-format
+msgid "Your changes will take effect the next time you log in."
+msgstr "Els canvis tindran efecte la pròxima vegada que vos connecteu."
+
+#: kcmformats.cpp:275
+#, kde-format
+msgid "Format Settings Changed"
+msgstr "Ha canviat l'arranjament dels formats"
+
+#: kcmformats.cpp:341
+#, kde-format
+msgid "%1 (long format)"
+msgstr "%1 (format llarg)"
+
+#: kcmformats.cpp:342
+#, kde-format
+msgid "%1 (short format)"
+msgstr "%1 (format curt)"
+
+#: kcmformats.cpp:347
+#, kde-format
+msgctxt "Measurement combobox"
+msgid "Imperial UK"
+msgstr "Imperial del RU"
+
+#: kcmformats.cpp:349
+#, kde-format
+msgctxt "Measurement combobox"
+msgid "Imperial US"
+msgstr "Imperial dels EUA"
+
+#: kcmformats.cpp:351
+#, kde-format
+msgctxt "Measurement combobox"
+msgid "Metric"
+msgstr "Mètric"
+
+#. i18n: ectx: property (text), widget (QLabel, label_10)
+#: kcmformatswidget.ui:47
+#, kde-format
+msgid "Re&gion:"
+msgstr "Re&gió:"
+
+#. i18n: ectx: property (text), widget (QCheckBox, checkDetailed)
+#: kcmformatswidget.ui:76
+#, kde-format
+msgid "De&tailed Settings"
+msgstr "Arranjament de&tallat"
+
+#. i18n: ectx: property (text), widget (QLabel, labelNumbers)
+#: kcmformatswidget.ui:83
+#, kde-format
+msgid "&Numbers:"
+msgstr "&Nombres:"
+
+#. i18n: ectx: property (text), widget (QLabel, labelTime)
+#: kcmformatswidget.ui:112
+#, kde-format
+msgid "&Time:"
+msgstr "&Hora:"
+
+#. i18n: ectx: property (text), widget (QLabel, labelCurrency)
+#: kcmformatswidget.ui:141
+#, kde-format
+msgid "Currenc&y:"
+msgstr "Mo&neda:"
+
+#. i18n: ectx: property (text), widget (QLabel, labelMeasurement)
+#: kcmformatswidget.ui:170
+#, kde-format
+msgid "Measurement &Units:"
+msgstr "&Unitats de mesura:"
+
+#. i18n: ectx: property (text), widget (QLabel, labelCollate)
+#: kcmformatswidget.ui:199
+#, kde-format
+msgid "Co&llation and Sorting:"
+msgstr "Co&l·lació i ordenació:"
+
+#. i18n: ectx: property (text), widget (QLabel, labelMeasurement_2)
+#: kcmformatswidget.ui:238
+#, kde-format
+msgid "<b>Description</b>"
+msgstr "<b>Descripció</b>"
+
+#. i18n: ectx: property (text), widget (QLabel, lexNumbers)
+#: kcmformatswidget.ui:248
+#, kde-format
+msgid "Numbers:"
+msgstr "Nombres:"
+
+#. i18n: ectx: property (text), widget (QLabel, lexTime)
+#: kcmformatswidget.ui:268
+#, kde-format
+msgid "Time:"
+msgstr "Hora:"
+
+#. i18n: ectx: property (text), widget (QLabel, lexCurrency)
+#: kcmformatswidget.ui:288
+#, kde-format
+msgid "Currency:"
+msgstr "Moneda:"
+
+#. i18n: ectx: property (text), widget (QLabel, lexMeasurement_2)
+#: kcmformatswidget.ui:308
+#, kde-format
+msgid "Measurement Units:"
+msgstr "Unitats de mesura:"

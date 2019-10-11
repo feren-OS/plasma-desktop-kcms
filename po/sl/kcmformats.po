@@ -1,0 +1,163 @@
+# translation of kcmlocale.po to Slovenian
+# Translation of kcmlocale.po to Slovenian
+# KDEBASE translation to Slovenian language.
+# $Id: kcmformats.po 1550639 2019-08-30 07:08:12Z scripty $
+# $Source$
+#
+# Copyright (C) 2001, 2003, 2004, 2005, 2006, 2007 Free Software Foundation, Inc.
+# Marko Samastur <markos@elite.org>, 1999.
+# Gregor Rakar <gregor.rakar@kiss.uni-lj.si>, 2000.
+# Dora Mali <dora.mali@guest.arnes.si>, 2001.
+# Gregor Rakar <gregor.rakar@kiss.si>, 2003, 2004.
+# Jure Repinc <jlp@holodeck1.com>, 2006, 2007, 2008, 2009, 2010, 2011, 2012.
+# Andrej Vernekar <andrej.vernekar@gmail.com>, 2011.
+# Andrej Mernik <andrejm@ubuntu.si>, 2013, 2014, 2015, 2018.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmlocale\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"PO-Revision-Date: 2018-01-11 20:56+0100\n"
+"Last-Translator: Andrej Mernik <andrejm@ubuntu.si>\n"
+"Language-Team: Slovenian <lugos-slo@lugos.si>\n"
+"Language: sl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 2.0\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n"
+"%100==4 ? 3 : 0);\n"
+
+#: kcmformats.cpp:45
+#, kde-format
+msgid ""
+"<h1>Formats</h1>You can configure the formats used for time, dates, money "
+"and other numbers here."
+msgstr ""
+"<h1>Oblike</h1>Tukaj lahko nastavite oblike uporabljene za čas, datume, "
+"denar in druge številke."
+
+#: kcmformats.cpp:102
+#, kde-format
+msgid "No change"
+msgstr "Brez sprememb"
+
+#: kcmformats.cpp:139
+#, kde-format
+msgid "%1 - %2 (%3)"
+msgstr "%1 - %2 (%3)"
+
+#: kcmformats.cpp:141
+#, kde-format
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: kcmformats.cpp:274
+#, kde-format
+msgid "Your changes will take effect the next time you log in."
+msgstr "Spremembe bodo stopile v veljavo, ko se naslednjič prijavite."
+
+#: kcmformats.cpp:275
+#, kde-format
+msgid "Format Settings Changed"
+msgstr "Nastavitve oblike so bile spremenjene"
+
+#: kcmformats.cpp:341
+#, kde-format
+msgid "%1 (long format)"
+msgstr "%1 (dolga oblika)"
+
+#: kcmformats.cpp:342
+#, kde-format
+msgid "%1 (short format)"
+msgstr "%1 (kratka oblika)"
+
+#: kcmformats.cpp:347
+#, kde-format
+msgctxt "Measurement combobox"
+msgid "Imperial UK"
+msgstr "Imperialni sistem (VB)"
+
+#: kcmformats.cpp:349
+#, kde-format
+msgctxt "Measurement combobox"
+msgid "Imperial US"
+msgstr "Imperialni sistem (ZDA)"
+
+#: kcmformats.cpp:351
+#, kde-format
+msgctxt "Measurement combobox"
+msgid "Metric"
+msgstr "Metrični sistem"
+
+#. i18n: ectx: property (text), widget (QLabel, label_10)
+#: kcmformatswidget.ui:47
+#, kde-format
+msgid "Re&gion:"
+msgstr "O&bmočje"
+
+#. i18n: ectx: property (text), widget (QCheckBox, checkDetailed)
+#: kcmformatswidget.ui:76
+#, kde-format
+msgid "De&tailed Settings"
+msgstr "Podrobne nas&tavitve"
+
+#. i18n: ectx: property (text), widget (QLabel, labelNumbers)
+#: kcmformatswidget.ui:83
+#, kde-format
+msgid "&Numbers:"
+msgstr "Šte&vila:"
+
+#. i18n: ectx: property (text), widget (QLabel, labelTime)
+#: kcmformatswidget.ui:112
+#, kde-format
+msgid "&Time:"
+msgstr "Ča&s:"
+
+#. i18n: ectx: property (text), widget (QLabel, labelCurrency)
+#: kcmformatswidget.ui:141
+#, kde-format
+msgid "Currenc&y:"
+msgstr "Val&uta:"
+
+#. i18n: ectx: property (text), widget (QLabel, labelMeasurement)
+#: kcmformatswidget.ui:170
+#, kde-format
+msgid "Measurement &Units:"
+msgstr "Merske en&ote:"
+
+#. i18n: ectx: property (text), widget (QLabel, labelCollate)
+#: kcmformatswidget.ui:199
+#, kde-format
+msgid "Co&llation and Sorting:"
+msgstr "Z&druževanje in razvrščanje:"
+
+#. i18n: ectx: property (text), widget (QLabel, labelMeasurement_2)
+#: kcmformatswidget.ui:238
+#, kde-format
+msgid "<b>Description</b>"
+msgstr "<b>Opis</b>"
+
+#. i18n: ectx: property (text), widget (QLabel, lexNumbers)
+#: kcmformatswidget.ui:248
+#, kde-format
+msgid "Numbers:"
+msgstr "Števila:"
+
+#. i18n: ectx: property (text), widget (QLabel, lexTime)
+#: kcmformatswidget.ui:268
+#, kde-format
+msgid "Time:"
+msgstr "Čas:"
+
+#. i18n: ectx: property (text), widget (QLabel, lexCurrency)
+#: kcmformatswidget.ui:288
+#, kde-format
+msgid "Currency:"
+msgstr "Valuta:"
+
+#. i18n: ectx: property (text), widget (QLabel, lexMeasurement_2)
+#: kcmformatswidget.ui:308
+#, kde-format
+msgid "Measurement Units:"
+msgstr "Merske enote:"

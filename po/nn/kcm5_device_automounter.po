@@ -1,0 +1,237 @@
+# Translation of kcm5_device_automounter to Norwegian Nynorsk
+#
+# Karl Ove Hufthammer <karl@huftis.org>, 2010, 2015.
+# Øystein Steffensen-Alværvik <ystein@posteo.net>, 2018.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"PO-Revision-Date: 2018-07-11 22:00+0100\n"
+"Last-Translator: Øystein Steffensen-Alværvik <ystein@posteo.net>\n"
+"Language-Team: Norwegian Nynorsk <i18n-nn@lister.ping.uio.no>\n"
+"Language: nn\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 2.0\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Environment: kde\n"
+"X-Accelerator-Marker: &\n"
+"X-Text-Markup: kde4\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Karl Ove Hufthammer"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "karl@huftis.org"
+
+#: DeviceAutomounterKCM.cpp:46
+#, kde-format
+msgid "Device Automounter"
+msgstr "Automatisk avmontering"
+
+#: DeviceAutomounterKCM.cpp:50
+#, kde-format
+msgid "(c) 2009 Trever Fischer, (c) 2015 Kai Uwe Broulik"
+msgstr "© 2009 Trever Fischer, © 2015 Kai Uwe Broulik"
+
+#: DeviceAutomounterKCM.cpp:51
+#, kde-format
+msgid "Trever Fischer"
+msgstr "Trever Fischer"
+
+#: DeviceAutomounterKCM.cpp:51
+#, kde-format
+msgid "Original Author"
+msgstr "Opphavsperson"
+
+#: DeviceAutomounterKCM.cpp:52
+#, kde-format
+msgid "Kai Uwe Broulik"
+msgstr "Kai Uwe Broulik"
+
+#: DeviceAutomounterKCM.cpp:52
+#, kde-format
+msgid "Plasma 5 Port"
+msgstr "Porting til Plasma 5"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, automountEnabled)
+#: DeviceAutomounterKCM.ui:17
+#, kde-format
+msgid ""
+"When this is unchecked, no device automounting of any kind will happen, "
+"regardless of anything selected in the \"Device Overrides\" section."
+msgstr ""
+"Viss det ikkje er kryssa av her, vert einingane aldri automatisk monterte, "
+"uavhengig av kva som er valt under «Einingsoverstyring»."
+
+#. i18n: ectx: property (text), widget (QCheckBox, automountEnabled)
+#: DeviceAutomounterKCM.ui:20
+#, kde-format
+msgid "Enable automatic mounting of removable media"
+msgstr "Bruk automatisk montering av flyttbare lagringsmedium"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, automountUnknownDevices)
+#: DeviceAutomounterKCM.ui:45
+#, kde-format
+msgid ""
+"When this is checked, only remembered devices will be automatically mounted. "
+"A device is 'remembered' if it has ever been mounted before. For instance, "
+"plugging in a USB media player to charge is not sufficient to 'remember' it "
+"- if the files are not accessed, it will not be automatically mounted the "
+"next time it is seen. Once they have been accessed, however, the device's "
+"contents will be automatically made available to the system."
+msgstr ""
+"Viss det er kryssa av her, vert berre alt kjende einingar automatisk "
+"monterte. Ei eining er «kjend» om ho tidlegare er montert. For eksempel, om "
+"du koplar til ein USB-mediespelar for å lada han, er ikkje dette nok til å "
+"registrera han som «kjend». Viss du ikkje har opna opp for tilgang til "
+"filene på han, vert han ikkje automatisk montert neste gong. Men viss du har "
+"opna nokre filer, vert dette hugsa, og innhaldet vert automatisk gjort "
+"tilgjengeleg neste gong du koplar eininga til."
+
+#. i18n: ectx: property (text), widget (QCheckBox, automountUnknownDevices)
+#: DeviceAutomounterKCM.ui:48
+#, kde-format
+msgid ""
+"Only automatically mount removable media that has been manually mounted "
+"before"
+msgstr ""
+"Berre monter automatisk lagringsmedium som tidlegare er monterte manuelt"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, automountOnLogin)
+#: DeviceAutomounterKCM.ui:55
+#, kde-format
+msgid ""
+"If any removable storage devices are connected to your system when you login "
+"to your desktop, their contents will automatically be made available to your "
+"system for other programs to read."
+msgstr ""
+"Viss ei flyttbar lagringseining er kopla til maskina mens du loggar inn, "
+"vert innhaldet automatisk gjort tilgjengeleg for andre program."
+
+#. i18n: ectx: property (text), widget (QCheckBox, automountOnLogin)
+#: DeviceAutomounterKCM.ui:58
+#, kde-format
+msgid "Mount all removable media at login"
+msgstr "Monter alle flyttbare lagringsmedium ved innlogging"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, automountOnPlugin)
+#: DeviceAutomounterKCM.ui:65
+#, kde-format
+msgid ""
+"When this is checked, the contents of any storage device will automatically "
+"be made available to the system when it is plugged in or attached."
+msgstr ""
+"Viss det er kryssa av her, vert automatisk innhaldet på lagringseiningar "
+"gjort tilgjengeleg til systemet når du koplar eininga til."
+
+#. i18n: ectx: property (text), widget (QCheckBox, automountOnPlugin)
+#: DeviceAutomounterKCM.ui:68
+#, kde-format
+msgid "Automatically mount removable media when attached"
+msgstr "Monter alle flyttbare lagringsmedium ved tilkopling"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: DeviceAutomounterKCM.ui:90
+#, kde-format
+msgid "Device Overrides"
+msgstr "Einingsoverstyring"
+
+#. i18n: ectx: property (whatsThis), widget (QTreeView, deviceView)
+#: DeviceAutomounterKCM.ui:98
+#, kde-format
+msgid ""
+"This list contains the storage devices known to the system. If \"Automount "
+"on Login\" is checked, the device will be automatically mounted even though "
+"\"Mount all removable media at login\" is unchecked. The same applies for "
+"\"Automount on Attach\".\n"
+"\n"
+"If \"Enable automatic mounting of removable media\" is unchecked, the "
+"overrides do not apply and no devices will be automatically mounted."
+msgstr ""
+"Her er ei oversikt over lagringseiningar som systemet kjenner til. Viss du "
+"har kryssa av for «Automonter ved innlogging», vert eininga automatisk "
+"montert sjølv om du ikkje har kryssa av for «Monter alle flyttbare "
+"lagringsmedium ved innlogging». Det same gjeld «Automonter ved tilkopling».\n"
+"\n"
+"Viss du ikkje har kryssa av for «Bruk automatisk montering av flyttbare "
+"lagringsmedium», gjeld ikkje desse overstyringane, og ingen einingar vert "
+"automatisk monterte."
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, forgetDevice)
+#: DeviceAutomounterKCM.ui:137
+#, kde-format
+msgid ""
+"Clicking this button causes the selected devices to be 'forgotten'. This is "
+"only useful if \"Only automatically mount removable media that has been "
+"manually mounted before\" is checked. Once a device is forgotten and the "
+"system is set to only automatically mount familiar devices, the device will "
+"not be automatically mounted."
+msgstr ""
+"Trykk her viss du ønskjer at systemet skal «gløyma» å ha sett nokon av dei "
+"valde einingane. Dette er berre nyttig viss du har kryssa av for «Berre "
+"monter automatisk flyttbare lagringsmedium som tidlegare er monterte "
+"manuelt». Når ei eining er gløymd, vert ho ikkje automatisk montert med "
+"mindre systemet er sett opp til å montera alle einingar automatisk."
+
+#. i18n: ectx: property (text), widget (QPushButton, forgetDevice)
+#: DeviceAutomounterKCM.ui:140
+#, kde-format
+msgid "Forget Device"
+msgstr "Gløym eininga"
+
+#: DeviceModel.cpp:62
+#, kde-format
+msgid "Device"
+msgstr "Eining"
+
+#: DeviceModel.cpp:63
+#, kde-format
+msgid "Automount on Login"
+msgstr "Automonter ved innlogging"
+
+#: DeviceModel.cpp:64
+#, kde-format
+msgid "Automount on Attach"
+msgstr "Automonter ved tilkopling"
+
+#: DeviceModel.cpp:235 DeviceModel.cpp:274
+#, kde-format
+msgid "UDI: %1"
+msgstr "UDI: %1"
+
+#: DeviceModel.cpp:245 DeviceModel.cpp:284
+#, kde-format
+msgid "This device will be automatically mounted at login."
+msgstr "Denne eininga vert automatisk montert ved innlogging."
+
+#: DeviceModel.cpp:246 DeviceModel.cpp:285
+#, kde-format
+msgid "This device will not be automatically mounted at login."
+msgstr "Denne eininga vert ikkje automatisk montert ved innlogging."
+
+#: DeviceModel.cpp:254 DeviceModel.cpp:293
+#, kde-format
+msgid "This device will be automatically mounted when attached."
+msgstr "Denne eininga vert automatisk montert ved tilkopling."
+
+#: DeviceModel.cpp:255 DeviceModel.cpp:294
+#, kde-format
+msgid "This device will not be automatically mounted when attached."
+msgstr "Denne eininga vert ikkje automatisk montert ved tilkopling."
+
+#: DeviceModel.cpp:301
+#, kde-format
+msgid "Attached Devices"
+msgstr "Tilkopla einingar"
+
+#: DeviceModel.cpp:303
+#, kde-format
+msgid "Disconnected Devices"
+msgstr "Fråkopla einingar"

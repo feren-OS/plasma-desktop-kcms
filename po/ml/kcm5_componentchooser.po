@@ -1,0 +1,298 @@
+# translation of kcmcomponentchooser.po to Malayalam
+# Copyright (C) 2008,2010 This_file_is_part_of_KDE
+# This file is distributed under the same license as the kdebase package.
+# ANI PETER|അനി പീറ്റര്‍ <peter.ani@gmail.com>, 2008.
+# Hari|ഹരി  Vishnu | വിഷ്ണു <harivishnu@gmail.com>, 2008.
+# seshagiri prabhu <seshagiriprabhu@gmail.com>, 2010.
+# Praveen Arimbrathodiyil <pravi.a@gmail.com>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmcomponentchooser\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"PO-Revision-Date: 2019-08-11 14:09+0530\n"
+"Last-Translator: Subin Siby <mail@subinsb.com>\n"
+"Language-Team: Swathanthra|സ്വതന്ത്ര Malayalam|മലയാളം Computing|കമ്പ്യൂട്ടിങ്ങ് <smc-"
+"discuss@googlegroups.com>\n"
+"Language: ml\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "അനി പീറ്റര്‍,ഹരി വിഷ്ണു,ശേഷഗിരി പ്രഭു,പ്രവീണ്‍ അരിമ്പ്രത്തൊടിയില്‍"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
+"peter.ani@gmail.com,harivishnu@gmail.com,seshagiriprabhu@gmail.com,pravi."
+"a@gmail.com"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: browserconfig_ui.ui:29
+#, kde-format
+msgid "<qt>Open <b>http</b> and <b>https</b> URLs</qt>"
+msgstr "<qt><b>http</b>, <b>https</b> യുആര്‍എലുകള്‍ </qt>"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioKIO)
+#: browserconfig_ui.ui:36
+#, kde-format
+msgid "in an application based on the contents of the URL"
+msgstr "ഇവയുടെ ഉള്ളടക്കമനുസരിച്ചുള്ള പ്രയോഗത്തില്‍ താഴെ"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioService)
+#: browserconfig_ui.ui:46
+#, fuzzy, kde-format
+msgid "in the following application:"
+msgstr "പറയുന്ന ബ്രൌസറില്‍ തുറക്കുക:"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioExec)
+#: browserconfig_ui.ui:80
+#, fuzzy, kde-format
+msgid "with the following command:"
+msgstr "പറയുന്ന ബ്രൌസറില്‍ തുറക്കുക:"
+
+#. i18n: ectx: property (text), widget (QToolButton, btnSelectApplication)
+#. i18n: ectx: property (text), widget (QToolButton, btnSelectEmail)
+#. i18n: ectx: property (text), widget (QToolButton, btnSelectFileManager)
+#. i18n: ectx: property (text), widget (QToolButton, btnSelectTerminal)
+#: browserconfig_ui.ui:115 emailclientconfig_ui.ui:69
+#: filemanagerconfig_ui.ui:41 terminalemulatorconfig_ui.ui:60
+#, kde-format
+msgid "..."
+msgstr "..."
+
+#: componentchooser.cpp:134
+#, kde-format
+msgid "Unknown"
+msgstr "അപരിചിതം"
+
+#: componentchooser.cpp:151
+#, kde-format
+msgid ""
+"Choose from the list below which component should be used by default for the "
+"%1 service."
+msgstr ""
+"%1 സേവനത്തിനു് സഹജമായി ഉപയോഗിയ്ക്കേണ്ട ഘടകം താഴെയുള്ള പട്ടികയില്‍ നിന്നും തെരഞ്ഞെടുക്കുക."
+
+#: componentchooser.cpp:183
+#, kde-format
+msgid ""
+"<qt>You changed the default component of your choice, do want to save that "
+"change now ?</qt>"
+msgstr ""
+"<qt>നിങ്ങള്‍ക്കിഷ്ടമുള്ള സഹജമായ ഘടകം മാറ്റിയിരിയ്ക്കുന്നു, ആ മാറ്റങ്ങള്‍ ഇപ്പോള്‍ സൂക്ഷിയ്ക്കണമോ ?</"
+"qt>"
+
+#: componentchooser.cpp:188
+#, kde-format
+msgid "No description available"
+msgstr "വിവരണം ലഭ്യമല്ല"
+
+#. i18n: ectx: property (whatsThis), widget (QGroupBox, GroupBox1)
+#: componentchooser_ui.ui:26
+#, kde-format
+msgid ""
+"Here you can change the component program. Components are programs that "
+"handle basic tasks, like the terminal emulator, the text editor and the "
+"email client. Different KDE applications sometimes need to invoke a console "
+"emulator, send a mail or display some text. To do so consistently, these "
+"applications always call the same components. You can choose here which "
+"programs these components are."
+msgstr ""
+"ഇവിടെ നിങ്ങള്‍ക്ക്  ഘടക പ്രോഗ്രാമില്‍ മാറ്റം വരുത്താം.  ടെര്‍മിനല്‍ എമുലേറ്റര്‍, എഴുത്തിടം, ഈമെയില്‍ "
+"ക്ലയന്റ് പോലെ അടിസ്ഥാന ജോലികള്‍ കൈകാര്യം ചെയ്യുന്ന പ്രോഗ്രാമുകളാണു് ഘടകങ്ങള്‍. വ്യത്യസ്ത കെഡിഇ "
+"പ്രയോഗങ്ങള്‍ക്കു് ചിലപ്പോള്‍ കണ്‍സോള്‍ എമുലേറ്റര്‍ തുടങ്ങുക, ഈമെയില്‍ അയയ്ക്കുക ചില പദാവലി കാണിയ്ക്കുക "
+"തുടങ്ങിയ കാര്യങ്ങള്‍ ചെയ്യേണ്ടി വരും. ഈ ഘടകങ്ങള്‍ എതു് പ്രോഗ്രാമുകളാണെന്നു് ഇവിടെ നിങ്ങള്‍ക്കു് "
+"തെരഞ്ഞെടുക്കാം."
+
+#. i18n: ectx: property (title), widget (QGroupBox, GroupBox1)
+#: componentchooser_ui.ui:29
+#, kde-format
+msgid "Default Component"
+msgstr "സഹജമായ ഘടകം"
+
+#. i18n: ectx: property (whatsThis), widget (QListWidget, ServiceChooser)
+#: componentchooser_ui.ui:44
+#, kde-format
+msgid ""
+"<qt>\n"
+"<p>This list shows the configurable component types. Click the component you "
+"want to configure.</p>\n"
+"<p>In this dialog you can change KDE default components. Components are "
+"programs that handle basic tasks, like the terminal emulator, the text "
+"editor and the email client. Different KDE applications sometimes need to "
+"invoke a console emulator, send a mail or display some text. To do so "
+"consistently, these applications always call the same components. Here you "
+"can select which programs these components are.</p>\n"
+"</qt>"
+msgstr ""
+"<qt>\n"
+"<p>ക്രമീകരിയ്ക്കാന്‍ പറ്റുന്ന ഘടകങ്ങളുടെ തരം കാണിയ്ക്കുന്ന പട്ടികയയാണിതു്. നിങ്ങള്‍ക്കു് "
+"ക്രമീകരിയ്ക്കേണ്ട ഘടകത്തില്‍ അമര്‍ത്തുക.</p>\n"
+"<p>ഈ ഡയലോഗില്‍ നിങ്ങള്‍ക്ക് സഹജമായ കെഡിഇ ഘടകങ്ങളെ മാറ്റാം. ടെര്‍മിനല്‍ എമുലേറ്റര്‍, എഴുത്തിടം, "
+"ഈമെയില്‍ ക്ലയന്റ് പോലെ അടിസ്ഥാന ജോലികള്‍ കൈകാര്യം ചെയ്യുന്ന പ്രോഗ്രാമുകളാണു് ഘടകങ്ങള്‍. വ്യത്യസ്ത "
+"കെഡിഇ പ്രയോഗങ്ങള്‍ക്കു് ചിലപ്പോള്‍ കണ്‍സോള്‍ എമുലേറ്റര്‍ തുടങ്ങുക, ഈമെയില്‍ അയയ്ക്കുക ചില പദാവലി "
+"കാണിയ്ക്കുക തുടങ്ങിയ കാര്യങ്ങള്‍ ചെയ്യേണ്ടി വരും.  ഇതു ധ്രടതയോടെ ചെയ്യുവാന്‍ ചില പ്രയോഗം ഒരെ "
+"ഘടകത്തിനെ വീണ്ടും വിളിക്കുന്നു. അവ പ്രതീക്ഷയ്ക്കൊത്തു് ചെയ്യുവാന്‍ ഈ പ്രയോഗങ്ങള്‍ ഒരേ ഘടകങ്ങളെ "
+"എപ്പോഴും വിളിയ്ക്കുന്നു. ഈ ഘടകങ്ങള്‍ ഏതു് പ്രോഗ്രാമുകളാണെന്നു് ഇവിടെ നിങ്ങള്‍ക്കു് തെരഞ്ഞെടുക്കാം.</p>\n"
+"</qt>"
+
+#: componentchooserbrowser.cpp:150
+#, kde-format
+msgid "Select preferred Web browser application:"
+msgstr "നിങ്ങള്‍ക്കിഷ്ടമായ വെബ് ബ്രൌസര്‍ പ്രയോഗം തിരഞ്ഞെടുക്കുക:"
+
+#: componentchooseremail.cpp:86
+#, kde-format
+msgid "Select preferred email client:"
+msgstr "നിങ്ങള്‍ക്കിഷ്ടമായ ഈമെയില്‍ ക്ലൈന്റ് തിരഞ്ഞെടുക്കുക:"
+
+#: componentchooserterminal.cpp:104
+#, kde-format
+msgid "Select preferred terminal application:"
+msgstr "നിങ്ങള്‍ക്കിഷ്ടമായ ടെര്‍മിനല്‍ പ്രയോഗം തിരഞ്ഞെടുക്കുക:"
+
+#. i18n: ectx: property (whatsThis), widget (QRadioButton, kmailCB)
+#: emailclientconfig_ui.ui:12
+#, fuzzy, kde-format
+msgid "Kmail is the standard Mail program for the Plasma desktop."
+msgstr "കെഡിഇ പണിയിടത്തില്‍ സാധാരണ ഉപയോഗിക്കുന്ന മെയില്‍ പ്രോഗ്രാമാണു് കെമെയില്‍."
+
+#. i18n: ectx: property (text), widget (QRadioButton, kmailCB)
+#: emailclientconfig_ui.ui:15
+#, kde-format
+msgid "&Use KMail as preferred email client"
+msgstr "നിങ്ങള്‍ക്കിഷ്ടമായ ഈമെയില്‍ ക്ലൈന്റായി കെമെയില്‍ &തിരഞ്ഞെടുക്കുക"
+
+#. i18n: ectx: property (whatsThis), widget (QRadioButton, otherCB)
+#: emailclientconfig_ui.ui:22
+#, kde-format
+msgid "Select this option if you want to use any other mail program."
+msgstr "നിങ്ങള്‍ക്കു് മറ്റൊരു മെയില്‍ പ്രോഗ്രാം ഉപയോഗിക്കണമെങ്കില്‍ ഇതുപയോഗിക്കുക."
+
+#. i18n: ectx: property (text), widget (QRadioButton, otherCB)
+#: emailclientconfig_ui.ui:25
+#, kde-format
+msgid "Use a different &email client:"
+msgstr "മറ്റൊരു &ഈമെയില്‍ ക്ലയന്റ് ഉപയോഗിക്കുക:"
+
+#. i18n: ectx: property (toolTip), widget (KLineEdit, txtEMailClient)
+#: emailclientconfig_ui.ui:53
+#, fuzzy, no-c-format, kde-format
+msgid ""
+"Optional placeholders: <ul> <li>%t: Recipient's address</li> <li>%s: "
+"Subject</li> <li>%c: Carbon Copy (CC)</li> <li>%b: Blind Carbon Copy (BCC)</"
+"li> <li>%B: Template body text</li> <li>%A: Attachment </li> <li>%u: Full "
+"mailto: URL </li></ul>"
+msgstr ""
+"<ul> <li>%t: കിട്ടേണ്ടയാളുടെ വിലാസം</li> <li>%s: വിഷയം</li> <li>%c: കാര്‍ബണ്‍ പകര്‍പ്പു് "
+"(CC)</li> <li>%b: മറ്റുള്ളവരെ അറിയിയ്ക്കാത്ത കാര്‍ബണ്‍ പകര്‍പ്പു് (BCC)</li> <li>%B: "
+"ഉള്ളടക്കത്തിന്റെ മാതൃക</li> <li>%A: അനുബന്ധം </li> <li>%u: മുഴുവന്‍ മെയില്‍ടു: യുആര്‍എല്‍ </"
+"li></ul>"
+
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, txtEMailClient)
+#: emailclientconfig_ui.ui:56
+#, no-c-format, kde-format
+msgid ""
+"Press this button to select your favorite email client. Please note that the "
+"file you select has to have the executable attribute set in order to be "
+"accepted.<br/> You can also use several placeholders which will be replaced "
+"with the actual values when the email client is called:<ul> <li>%t: "
+"Recipient's address</li> <li>%s: Subject</li> <li>%c: Carbon Copy (CC)</li> "
+"<li>%b: Blind Carbon Copy (BCC)</li> <li>%B: Template body text</li> <li>%A: "
+"Attachment </li> </ul>"
+msgstr ""
+"നിങ്ങളുടെ പ്രയപ്പെട്ട ഈമെയില്‍ ക്ലയന്റ് തെരഞ്ഞെടുക്കാന്‍ ഈ ബട്ടന്‍ അമര്‍ത്തു. നിങ്ങള്‍ തിരഞ്ഞെടുത്ത ഫയല്‍ "
+"പ്രവര്‍ത്തിപ്പിയ്ക്കാന്‍ കഴിയുന്നതാണെങ്കില്‍ മാത്രമേ സ്വീകരിയ്ക്കുകയുള്ളൂ.<br/> നിങ്ങള്‍ക്ക് പല "
+"തരത്തിലുള്ള സ്ഥലംപിടിയ്ക്കാനുള്ള സംഗതികളും ഉപയോഗിയ്ക്കാം,  ഈമെയില്‍ ക്ലയന്റിനെ വിളിയ്ക്കുമ്പോള്‍ "
+"സ്ഥലം പിടിയ്ക്കാന്‍ വച്ചവ മാറ്റി ശരിയായ വിലകള്‍ വയ്ക്കും:<ul> <li>%t: കിട്ടേണ്ടയാളുടെ "
+"വിലാസം</li> <li>%s: വിഷയം</li> <li>%c: കാര്‍ബണ്‍ പകര്‍പ്പ് (CC)</li> <li>%b: "
+"മറ്റാരുമറിയാത്ത കാര്‍ബണ്‍ പകര്‍പ്പ് (BCC)</li> <li>%B: ഉള്ളടക്ക മാതൃക </li> <li>%A: അനുബന്ധം "
+"</li> </ul>"
+
+#. i18n: ectx: property (whatsThis), widget (QToolButton, btnSelectEmail)
+#: emailclientconfig_ui.ui:66
+#, kde-format
+msgid "Click here to browse for the mail program file."
+msgstr "മെയില്‍ പ്രോഗ്രാം ഫയല്‍ ബ്രൌസ് ചെയ്യുന്നതിനായി ഇവിടെ ക്ലിക്ക് ചെയ്യുക."
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, chkRunTerminal)
+#: emailclientconfig_ui.ui:99
+#, kde-format
+msgid ""
+"Activate this option if you want the selected email client to be executed in "
+"a terminal (e.g. <em>Konsole</em>)."
+msgstr ""
+"നിങ്ങള്‍ക്കു് തെരഞ്ഞെടുത്ത ഈമെയില്‍ ക്ലയന്റ് ടെര്‍മിനലില്‍ (ഉദാ. <em>കണ്‍സോള്‍</em>) "
+"പ്രവര്‍ത്തിപ്പിക്കണമെങ്കില്‍ ഇതു് സജീവമാക്കുക."
+
+#. i18n: ectx: property (text), widget (QCheckBox, chkRunTerminal)
+#: emailclientconfig_ui.ui:102
+#, kde-format
+msgid "&Run in terminal"
+msgstr "ടെര്‍മിനലില്‍ &പ്രവര്‍ത്തിപ്പിക്കുക"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: filemanagerconfig_ui.ui:12
+#, kde-format
+msgid "Browse directories using the following file manager:"
+msgstr "ഈ ഫയല്‍ കാര്യസ്ഥന്‍ ഉപയോഗിച്ച് തട്ടുകളില്‍ നോക്കുക"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioExec)
+#: filemanagerconfig_ui.ui:24
+#, kde-format
+msgid "Other: click Add... in the dialog shown here:"
+msgstr "വേറെ: ഇവിടെ കാണിക്കുന്ന ഡയലോഗ് ബോക്സില്‍ ചേര്‍ക്കുക... എന്നമര്‍ത്തുക:"
+
+#: kcm_componentchooser.cpp:44
+#, kde-format
+msgid "Component Chooser"
+msgstr "ഘടകം തിരഞ്ഞെടുക്കുന്നതിനുള്ള ഉപാധി"
+
+#: kcm_componentchooser.cpp:46
+#, kde-format
+msgid "(c), 2002 Joseph Wenninger"
+msgstr "(c), 2002 ജോസഫ് വെന്നിങര്‍"
+
+#: kcm_componentchooser.cpp:48
+#, kde-format
+msgid "Joseph Wenninger"
+msgstr "ജോസഫ് വെന്നിങര്‍"
+
+#. i18n: ectx: property (text), widget (QRadioButton, terminalCB)
+#: terminalemulatorconfig_ui.ui:12
+#, kde-format
+msgid "&Use Konsole as terminal application"
+msgstr "ടെര്‍മിനല്‍ പ്രയോഗമായി കണ്‍സോള്‍ &ഉപയോഗിക്കുക"
+
+#. i18n: ectx: property (text), widget (QRadioButton, otherCB)
+#: terminalemulatorconfig_ui.ui:19
+#, kde-format
+msgid "Use a different &terminal program:"
+msgstr "മറ്റൊരു &ടെര്‍മിനല്‍ പ്രയോഗം ഉപയോഗിക്കുക:"
+
+#. i18n: ectx: property (whatsThis), widget (QLineEdit, terminalLE)
+#: terminalemulatorconfig_ui.ui:47
+#, kde-format
+msgid ""
+"Press this button to select your favorite terminal client. Please note that "
+"the file you select has to have the executable attribute set in order to be "
+"accepted.<br/> Also note that some programs that utilize Terminal Emulator "
+"will not work if you add command line arguments (Example: konsole -ls)."
+msgstr ""
+"നിങ്ങളുടെ പ്രയപ്പെട്ട ടെര്‍മിനല്‍ തിരഞ്ഞെടുക്കാന്‍ ഈ ബട്ടന്‍ അമര്‍ത്തു. നിങ്ങള്‍ തിരഞ്ഞെടുത്ത ഫയല്‍ "
+"പ്രവര്‍ത്തിക്കാന്‍ കഴിയുന്നതാണെങ്കില്‍ മാത്രമേ സ്വീകരിക്കുകയുള്ളു.<br/> ടെര്‍മിനല്‍ എമുലേറ്റര്‍ "
+"ഉപയൊഗിച്ചു് പ്രവര്‍ത്തിക്കുന്ന പ്രോഗ്രാമില്‍ ആജ്ഞാസ്ഥാനം ആര്‍ഗ്യുമെന്റ് ചേര്‍ത്താല്‍ അതു പ്രവര്‍ത്തന "
+"രഹിതമാക്കും (ഉദാ: konsole -ls)."
+
+#. i18n: ectx: property (whatsThis), widget (QToolButton, btnSelectTerminal)
+#: terminalemulatorconfig_ui.ui:57
+#, kde-format
+msgid "Click here to browse for terminal program."
+msgstr "ടെര്‍മിനല്‍ പ്രോഗ്രാം ബ്രൌസ് ചെയ്യുന്നതിനായി ഇവിടെ ക്ലിക്ക് ചെയ്യുക."

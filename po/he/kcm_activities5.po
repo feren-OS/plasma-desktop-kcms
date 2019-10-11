@@ -1,0 +1,252 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Elkana Bardugo <ttv200@gmail.com>, 2016.
+# Elkana Bardugo <ttv200@gmail.com>, 2017. #zanata
+msgid ""
+msgstr ""
+"Project-Id-Version: kcm_activities5\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"PO-Revision-Date: 2017-05-16 11:33-0400\n"
+"Last-Translator: Elkana Bardugo <ttv200@gmail.com>\n"
+"Language-Team: Hebrew <kde-i18n-doc@kde.org>\n"
+"Language: he\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Zanata 3.9.6\n"
+
+#: ExtraActivitiesInterface.cpp:46 MainConfigurationWidget.cpp:46
+#, kde-format
+msgid "Activities"
+msgstr "פעילויות"
+
+#: imports/activitysettings.cpp:63
+#, kde-format
+msgctxt "@title:window"
+msgid "Delete Activity"
+msgstr "מחק פעילות"
+
+#: imports/activitysettings.cpp:64
+#, kde-format
+msgid "Are you sure you want to delete '%1'?"
+msgstr "למחוק את '%1'?"
+
+#: imports/dialog.cpp:94
+#, kde-format
+msgid ""
+"Error loading the QML files. Check your installation.\n"
+"Missing %1"
+msgstr ""
+"נכשל בטעינת קובצי QML. בדוק את ההתקנה.\n"
+"%1 חסר"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: imports/dialog.cpp:158 ui/SwitchingTabBase.ui:17
+#, kde-format
+msgid "General"
+msgstr "כללי"
+
+#: imports/dialog.cpp:159
+#, kde-format
+msgid "Other"
+msgstr "אחרים"
+
+#: imports/dialog.cpp:176
+#, kde-format
+msgctxt "@title:window"
+msgid "Create a New Activity"
+msgstr "צור פעילות חדשה"
+
+#: imports/dialog.cpp:177
+#, kde-format
+msgctxt "@title:window"
+msgid "Activity Settings"
+msgstr "הגדרות פעילות"
+
+#: imports/dialog.cpp:180
+#, kde-format
+msgctxt "@action:button"
+msgid "Create"
+msgstr "צור"
+
+#: imports/qml/activityDialog/components/DialogButtons.qml:44
+#, kde-format
+msgctxt "@action:button"
+msgid "Apply"
+msgstr "החל"
+
+#: imports/qml/activityDialog/components/DialogButtons.qml:53
+#, kde-format
+msgctxt "@action:button"
+msgid "Cancel"
+msgstr "בטל"
+
+#: imports/qml/activityDialog/components/ShortcutChooser.qml:36
+#, kde-format
+msgid "Shortcut for switching to this activity:"
+msgstr "קיצור דרך להחלפת פעילויות:"
+
+#: imports/qml/activityDialog/GeneralTab.qml:58
+#, kde-format
+msgid "Activity information"
+msgstr "מידע פעילות"
+
+#: imports/qml/activityDialog/GeneralTab.qml:66
+#, kde-format
+msgid "Name:"
+msgstr "שם:"
+
+#: imports/qml/activityDialog/GeneralTab.qml:73
+#, kde-format
+msgid "Description:"
+msgstr "תיאור:"
+
+#: imports/qml/activityDialog/GeneralTab.qml:99
+#, kde-format
+msgid "Wallpaper"
+msgstr "תמונת רקע"
+
+#: imports/qml/activityDialog/GeneralTab.qml:105
+#, kde-format
+msgctxt "@action:button"
+msgid "Change..."
+msgstr "שנה..."
+
+#: imports/qml/activityDialog/GeneralTab.qml:138
+#, kde-format
+msgid "Icon"
+msgstr "סמל"
+
+#: imports/qml/activityDialog/OtherTab.qml:44
+#, kde-format
+msgid "Private - do not track usage for this activity"
+msgstr "פרטי – אל תעקוב אחר השימוש בפעילות זו"
+
+#: MainConfigurationWidget.cpp:47
+#, kde-format
+msgid "Switching"
+msgstr "החלף"
+
+#: MainConfigurationWidget.cpp:48
+#, kde-format
+msgid "Privacy"
+msgstr "פרטיות"
+
+#: PrivacyTab.cpp:74
+#, kde-format
+msgctxt "unlimited number of months"
+msgid "forever"
+msgstr "לתמיד"
+
+#: PrivacyTab.cpp:84
+#, kde-format
+msgid "Forget the last hour"
+msgstr "שכח את השעה האחרונה"
+
+#: PrivacyTab.cpp:86
+#, kde-format
+msgid "Forget the last two hours"
+msgstr "שכח את השעתיים האחרונות"
+
+#: PrivacyTab.cpp:88
+#, kde-format
+msgid "Forget a day"
+msgstr "שכח את היום"
+
+#: PrivacyTab.cpp:90
+#, kde-format
+msgid "Forget everything"
+msgstr "שכח הכל"
+
+#: PrivacyTab.cpp:218
+#, kde-format
+msgctxt "unit of time. months to keep the history"
+msgid " month"
+msgid_plural " months"
+msgstr[0] "חודש"
+msgstr[1] "חודשים"
+
+#: PrivacyTab.cpp:222
+#, kde-format
+msgctxt "for in 'keep history for 5 months'"
+msgid "for "
+msgstr "של"
+
+#: qml/activitiesTab/ActivitiesView.qml:37
+#, kde-format
+msgid "Create activity..."
+msgstr "צור פעילות..."
+
+#: SwitchingTab.cpp:65
+#, kde-format
+msgid "Activity switching"
+msgstr "החלפת פעילות"
+
+#: SwitchingTab.cpp:69
+#, kde-format
+msgctxt "@action"
+msgid "Walk through activities"
+msgstr "עבור בין פעילויות"
+
+#: SwitchingTab.cpp:72
+#, kde-format
+msgctxt "@action"
+msgid "Walk through activities (Reverse)"
+msgstr "עבור בין פעילויות (בסדר הפוך)"
+
+#. i18n: ectx: property (text), widget (QLabel, labelRememberDocuments)
+#: ui/PrivacyTabBase.ui:17
+#, kde-format
+msgid "Remember opened documents:"
+msgstr "זכור מסמכים פתוחים:"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioRememberAllApplications)
+#: ui/PrivacyTabBase.ui:28
+#, kde-format
+msgid "For a&ll applications"
+msgstr "לכל הישומים"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioDontRememberApplications)
+#: ui/PrivacyTabBase.ui:38
+#, kde-format
+msgid "&Do not remember"
+msgstr "אל תזכור"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioRememberSpecificApplications)
+#: ui/PrivacyTabBase.ui:45
+#, kde-format
+msgid "O&nly for specific applications"
+msgstr "לישומים נבחרים"
+
+#. i18n: ectx: property (text), widget (QLabel, labelKeepHistory)
+#: ui/PrivacyTabBase.ui:67
+#, kde-format
+msgid "Keep history"
+msgstr "שמור היסטוריה"
+
+#. i18n: ectx: property (text), widget (QPushButton, buttonClearRecentHistory)
+#: ui/PrivacyTabBase.ui:93
+#, kde-format
+msgid "Clear recent history"
+msgstr "נקה היסטוריה"
+
+#. i18n: ectx: property (text), widget (QCheckBox, checkBlacklistAllNotOnList)
+#: ui/PrivacyTabBase.ui:112
+#, kde-format
+msgid "Blacklist all applications not on this list"
+msgstr "הוסף לרשימה השחורה את כל היישומים שאינם ברשימה הזו"
+
+#. i18n: ectx: property (text), widget (QCheckBox, checkRememberVirtualDesktop)
+#: ui/SwitchingTabBase.ui:23
+#, kde-format
+msgid "Remember the current virtual desktop for each activity (needs restart)"
+msgstr "זכור את השולחן העבודה הוירטואלי לכל פעילות (דורש הפעלה מחדש)"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: ui/SwitchingTabBase.ui:33
+#, kde-format
+msgid "Shortcuts"
+msgstr "קיצורי דרך"

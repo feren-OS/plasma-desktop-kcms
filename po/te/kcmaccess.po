@@ -1,0 +1,528 @@
+# translation of kcmaccess.po to Telugu
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Krishna Babu K <kkrothap@redhat.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmaccess\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"PO-Revision-Date: 2009-01-16 22:16+0530\n"
+"Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
+"Language-Team: Telugu <en@li.org>\n"
+"Language: te\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "కృష్ణబాబు కె , విజయ్ కిరణ్ కముజు"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "k.meetme@gmail.com,infyquest@gmail.com"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tabBell)
+#: accessibility.ui:21
+#, kde-format
+msgid "&Bell"
+msgstr "(&B) బెల్‌"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: accessibility.ui:27
+#, kde-format
+msgid "Audible Bell"
+msgstr "వినబడే బెల్"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, systemBell)
+#. i18n: ectx: property (toolTip), widget (QCheckBox, gestures)
+#: accessibility.ui:33 accessibility.ui:576
+#, fuzzy, kde-format
+#| msgid ""
+#| "If this option is checked, the default system bell will be used. See the "
+#| "\"System Bell\" control module for how to customize the system bell. "
+#| "Normally, this is just a \"beep\"."
+msgid ""
+"If this option is checked, the default system bell will be used. Usually, "
+"this is just a \"beep\"."
+msgstr ""
+"ఈ ఐచ్చికం చెక్‌ చేయబడివుంటే అప్రమేయ సిస్టమ్ బెల్‌ వుపయోగించబడుతుంది. సిస్టమ్ బెల్‌ను యెలా మలచుకోవాలి "
+"అనుదానికొరకు \"సిస్టమ్ బెల్‌\" నియంత్రణ మాడ్యూల్ చూడుము. సాదారణంగా, యిది \"బీప్\" మాత్రమే."
+
+#. i18n: ectx: property (text), widget (QCheckBox, systemBell)
+#: accessibility.ui:36
+#, kde-format
+msgid "Use &system bell"
+msgstr "(&s) సిస్టమ్ బెల్‌ను వుపయోగించుము"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, customBell)
+#. i18n: ectx: property (toolTip), widget (QCheckBox, accessxBeep)
+#: accessibility.ui:43 accessibility.ui:660
+#, kde-format
+msgid ""
+"Check this option if you want to use a customized bell, playing a sound "
+"file. If you do this, you will probably want to turn off the system bell."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, customBell)
+#: accessibility.ui:46
+#, kde-format
+msgid "Us&e customized bell"
+msgstr "(&e) మలచుకొనిని బెల్‌ను వుపయోగించుము"
+
+#. i18n: ectx: property (toolTip), widget (QLabel, soundLabel)
+#. i18n: ectx: property (toolTip), widget (QLineEdit, soundEdit)
+#. i18n: ectx: property (toolTip), widget (QPushButton, soundButton)
+#: accessibility.ui:71 accessibility.ui:84 accessibility.ui:91
+#, kde-format
+msgid ""
+"If the option \"Use customized bell\" is enabled, you can choose a sound "
+"file here. Click \"Browse...\" to choose a sound file using the file dialog."
+msgstr ""
+"\"మలచుకొనిన బెల్‌\" ఐచ్చికం చేతనమైవుంటే, మీరు శబ్దపు ఫైలు యిక్కడ యెంచుకొనవచ్చు. ఫైలు డైలాగ్‌ను "
+"వుపయోగించి శబ్దపు ఫైలును యెంచుకొనుటకు \"బ్రౌజ్‌చేయి...\" నొక్కుము."
+
+#. i18n: ectx: property (text), widget (QLabel, soundLabel)
+#: accessibility.ui:74
+#, kde-format
+msgid "Sound &to play:"
+msgstr "(&t) ప్లే చేయవలసిన శబ్దము:"
+
+#. i18n: ectx: property (text), widget (QPushButton, soundButton)
+#: accessibility.ui:94
+#, kde-format
+msgid "Browse..."
+msgstr "బ్రౌజ్‌చేయి..."
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: accessibility.ui:106
+#, fuzzy, kde-format
+#| msgid "Visible Bell"
+msgid "Visual Bell"
+msgstr "కనిపించు బెల్‌"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, visibleBell)
+#: accessibility.ui:112
+#, kde-format
+msgid ""
+"This option will turn on the \"visual bell\", i.e. a visual notification "
+"shown every time that normally just a bell would occur. This is especially "
+"useful for deaf people."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, visibleBell)
+#: accessibility.ui:115
+#, fuzzy, kde-format
+#| msgid "&Use visible bell"
+msgid "&Use visual bell"
+msgstr "(&U) కనిపించు బెల్‌ను వుపయోగించుము"
+
+#. i18n: ectx: property (toolTip), widget (QRadioButton, flashScreen)
+#: accessibility.ui:122
+#, kde-format
+msgid ""
+"The screen will turn to a custom color for the amount of time specified "
+"below."
+msgstr "క్రింద తెలిపిన సమయం పాటు తెర రంగు మలచుకొనిన రంగునకు మారుతుంది."
+
+#. i18n: ectx: property (text), widget (QRadioButton, flashScreen)
+#: accessibility.ui:125
+#, kde-format
+msgid "F&lash screen"
+msgstr "(&l) ఫ్లాష్ తెర"
+
+#. i18n: ectx: property (toolTip), widget (QRadioButton, invertScreen)
+#: accessibility.ui:132
+#, kde-format
+msgid ""
+"All screen colors will be inverted for the amount of time specified below."
+msgstr "క్రింద తెలిపిన సమయం పాటు అన్ని తెర రంగులు విలోమం చేయబడతాయి."
+
+#. i18n: ectx: property (text), widget (QRadioButton, invertScreen)
+#: accessibility.ui:135
+#, kde-format
+msgid "I&nvert screen"
+msgstr "(&n) విలోమ తెర"
+
+#. i18n: ectx: property (toolTip), widget (KColorButton, colorButton)
+#: accessibility.ui:158
+#, kde-format
+msgid ""
+"Click here to choose the color used for the \"flash screen\" visible bell."
+msgstr "\"ఫ్లాష్ తెర\" కనిపించు బెల్‌కు వుపయోగించిన రంగును యెంచుకొనుటకు యిక్కడ నొక్కుము."
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: accessibility.ui:165
+#, fuzzy, kde-format
+#| msgid "Duration:"
+msgid "&Duration:"
+msgstr "నిడివి:"
+
+#. i18n: ectx: property (toolTip), widget (QSpinBox, duration)
+#. i18n: ectx: property (toolTip), widget (QSpinBox, slowKeysDelay)
+#. i18n: ectx: property (toolTip), widget (QSpinBox, bounceKeysDelay)
+#. i18n: ectx: property (toolTip), widget (QSpinBox, timeoutDelay)
+#: accessibility.ui:178 accessibility.ui:389 accessibility.ui:486
+#: accessibility.ui:614
+#, kde-format
+msgid ""
+"Here you can customize the duration of the \"visible bell\" effect being "
+"shown."
+msgstr "\"కనిపించు బెల్‌\" ప్రభావం యెంతసేపు చూయించాలో ఆ నిడివిని మీరు యిక్కడ మలచుకొనవచ్చును."
+
+#. i18n: ectx: property (suffix), widget (QSpinBox, duration)
+#. i18n: ectx: property (suffix), widget (QSpinBox, slowKeysDelay)
+#. i18n: ectx: property (suffix), widget (QSpinBox, bounceKeysDelay)
+#: accessibility.ui:181 accessibility.ui:392 accessibility.ui:489
+#, kde-format
+msgid " msec"
+msgstr " msec"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tabModifier)
+#: accessibility.ui:224
+#, fuzzy, kde-format
+#| msgid "&Modifier Keys"
+msgid "&Modifier Keys"
+msgstr "(&M) సవరణి కీలు"
+
+#. i18n: ectx: property (title), widget (QGroupBox, sticky)
+#: accessibility.ui:230
+#, fuzzy, kde-format
+#| msgid "S&ticky Keys"
+msgid "Sticky Keys"
+msgstr "(&t) స్టికీ కీలు"
+
+#. i18n: ectx: property (text), widget (QCheckBox, stickyKeys)
+#: accessibility.ui:236
+#, kde-format
+msgid "Use &sticky keys"
+msgstr "(&s) స్టికీ కీలను వుపయోగించుము"
+
+#. i18n: ectx: property (text), widget (QCheckBox, stickyKeysLock)
+#: accessibility.ui:263
+#, kde-format
+msgid "&Lock sticky keys"
+msgstr "(&L) స్టికీ కీలను లాక్‌చేయుము"
+
+#. i18n: ectx: property (text), widget (QCheckBox, stickyKeysAutoOff)
+#: accessibility.ui:270
+#, kde-format
+msgid "Turn sticky keys off when two keys are pressed simultaneously"
+msgstr "రెండు కీలు వొకదానితర్వాత వొకటి నొక్కినప్పుడు స్టికీ కీలను ఆఫ్ చేయుము"
+
+#. i18n: ectx: property (text), widget (QCheckBox, stickyKeysBeep)
+#: accessibility.ui:277
+#, kde-format
+msgid "Use system bell whenever a modifier gets latched, locked or unlocked"
+msgstr "సవరణి(మాడిఫైర్) లాట్చ్ కాబడినా, లాక్ కాబడినా లేదా అన్‌లాక్ కాబడినా సిస్టమ్ బెల్‌ను వుపయోగించుము"
+
+#. i18n: ectx: property (title), widget (QGroupBox, locking)
+#: accessibility.ui:291
+#, kde-format
+msgid "Locking Keys"
+msgstr "కీలను లాక్ చేయుట"
+
+#. i18n: ectx: property (text), widget (QCheckBox, toggleKeysBeep)
+#: accessibility.ui:297
+#, kde-format
+msgid "Use system bell whenever a locking key gets activated or deactivated"
+msgstr "కీ లాకింగ్ చేయుట క్రియాశీలమైనా లేదా క్రియాహీనమైనా సిస్టమ్ బెల్‌ను వుపయోగించుము"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kNotifyModifiers)
+#: accessibility.ui:304
+#, fuzzy, kde-format
+#| msgid ""
+#| "Use KDE's system notification mechanism whenever a modifier or locking "
+#| "key changes its state"
+msgid ""
+"Use Plasma's notification mechanism for modifier or locking key state changes"
+msgstr ""
+"సవరణి(మా‍డిఫైర్) లేదా లాకింగ్ కీ దాని స్థితిని మార్చినప్పుడు KDE యొక్క సిస్టమ్ నోటిఫికేషన్ మెకానిజంను వుపయోగించుము"
+
+#. i18n: ectx: property (text), widget (QPushButton, kNotifyModifiersButton)
+#. i18n: ectx: property (text), widget (QPushButton, kNotifyAccessButton)
+#: accessibility.ui:329 accessibility.ui:706
+#, kde-format
+msgid "Configure &Notifications..."
+msgstr "(&N) నోటిఫికేషన్లను ఆకృతీకరించుము..."
+
+#. i18n: ectx: attribute (title), widget (QWidget, tabKeyFilters)
+#: accessibility.ui:368
+#, kde-format
+msgid "&Keyboard Filters"
+msgstr "(&K) కీబోర్డు ఫిల్టర్స్"
+
+#. i18n: ectx: property (title), widget (QGroupBox, slowkeys)
+#: accessibility.ui:374
+#, kde-format
+msgid "Slo&w Keys"
+msgstr "(&w) స్లో కీలు"
+
+#. i18n: ectx: property (text), widget (QCheckBox, slowKeys)
+#: accessibility.ui:382
+#, kde-format
+msgid "&Use slow keys"
+msgstr "(&U) స్లో కీలను వుపయోగించుము"
+
+#. i18n: ectx: property (text), widget (QCheckBox, slowKeysPressBeep)
+#: accessibility.ui:443
+#, kde-format
+msgid "&Use system bell whenever a key is pressed"
+msgstr "(&U) కీ వత్తబడినప్పుడు సిస్టమ్ బెల్‌ను వుపయోగించుము"
+
+#. i18n: ectx: property (text), widget (QCheckBox, slowKeysAcceptBeep)
+#: accessibility.ui:450
+#, kde-format
+msgid "&Use system bell whenever a key is accepted"
+msgstr "(&U) కీ ఆమోదింపబడినప్పుడు సిస్టమ్ బెల్‌ను వుపయోగించుము"
+
+#. i18n: ectx: property (text), widget (QCheckBox, slowKeysRejectBeep)
+#: accessibility.ui:457
+#, kde-format
+msgid "&Use system bell whenever a key is rejected"
+msgstr "(&U) కీ తిరస్కరింపబడినప్పుడు సిస్టమ్ బెల్‌ను వుపయోగించుము"
+
+#. i18n: ectx: property (title), widget (QGroupBox, bouncekeys)
+#: accessibility.ui:471
+#, kde-format
+msgid "Bounce Keys"
+msgstr "బౌన్సు కీలు"
+
+#. i18n: ectx: property (text), widget (QCheckBox, bounceKeys)
+#: accessibility.ui:479
+#, kde-format
+msgid "Use bou&nce keys"
+msgstr "(&n) బౌన్సు కీలను వుపయోగించుము"
+
+#. i18n: ectx: property (text), widget (QCheckBox, bounceKeysRejectBeep)
+#: accessibility.ui:538
+#, kde-format
+msgid "Use the system bell whenever a key is rejected"
+msgstr "కీ తిరస్కరించబడినప్పుడు సిస్టమ్ బెల్‌ను వుపయోగించుము"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tabActivationGestures)
+#: accessibility.ui:564
+#, fuzzy, kde-format
+#| msgid "Activation Gestures"
+msgid "Activation &Gestures"
+msgstr "క్రియాశీలపు జెస్టర్స్"
+
+#. i18n: ectx: property (title), widget (QGroupBox, activationgestures)
+#: accessibility.ui:570
+#, kde-format
+msgid "Activation Gestures"
+msgstr "క్రియాశీలపు జెస్టర్స్"
+
+#. i18n: ectx: property (text), widget (QCheckBox, gestures)
+#: accessibility.ui:579
+#, kde-format
+msgid "Use gestures for activating sticky keys and slow keys"
+msgstr "స్టికీ కీలను మరియు స్లో కీలను క్రియాశీలము చేయుటకు జెస్టర్స్‌ను వుపయోగించుము"
+
+#. i18n: ectx: property (text), widget (QCheckBox, timeout)
+#: accessibility.ui:589
+#, kde-format
+msgid ""
+"Turn sticky keys and slow keys off after a certain period of inactivity."
+msgstr "కొంత కాలంపాటు క్రియాహీనముగావుంటే స్టికీ కీలను మరియు స్లో కీలను ఆఫ్ చేయుము."
+
+#. i18n: ectx: property (suffix), widget (QSpinBox, timeoutDelay)
+#: accessibility.ui:617
+#, kde-format
+msgid " min"
+msgstr " ని"
+
+#. i18n: ectx: property (title), widget (QGroupBox, notification)
+#: accessibility.ui:654
+#, kde-format
+msgid "Notification"
+msgstr "నో‍టీసు"
+
+#. i18n: ectx: property (text), widget (QCheckBox, accessxBeep)
+#: accessibility.ui:663
+#, fuzzy, kde-format
+#| msgid ""
+#| "Use the system bell whenever a gesture is used to turn an accessibility "
+#| "feature on or off"
+msgid ""
+"Use the system bell whenever a gesture is used to toggle an accessibility "
+"feature"
+msgstr ""
+"ఒక జెస్టర్ యాక్సెస్‌బిలిటి సౌలభ్యాన్ని ఆన్ లేదా ఆఫ్ చేయటానికి వుపయోగించినప్పుడు సిస్టమ్ బెల్‌ను వుపయోగించుము"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, gestureConfirmation)
+#: accessibility.ui:671
+#, kde-format
+msgid ""
+"If this option is checked, KDE will show a confirmation dialog whenever a "
+"keyboard accessibility feature is turned on or off.\n"
+"Ensure you know what you are doing if you uncheck it, as the keyboard "
+"accessibility settings will then always be applied without confirmation."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, gestureConfirmation)
+#: accessibility.ui:674
+#, fuzzy, kde-format
+#| msgid ""
+#| "Show a confirmation dialog whenever a keyboard accessibility feature is "
+#| "turned on or off"
+msgid ""
+"Show a confirmation dialog whenever a keyboard accessibility feature is "
+"toggled"
+msgstr "కీబోర్డు యాక్సెస్‌బిలిటి సౌలభ్యము ఆన్ లేదా ఆఫ్ అయినప్పుడు నిర్ధారణ డైలాగును చూపుము"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kNotifyAccess)
+#: accessibility.ui:681
+#, fuzzy, kde-format
+#| msgid ""
+#| "Use KDE's system notification mechanism whenever a keyboard accessibility "
+#| "feature is turned on or off"
+msgid ""
+"Use Plasma's notification mechanism whenever a keyboard accessibility "
+"feature is toggled"
+msgstr ""
+"కీబోర్డు యాక్సెస్‌బిలిటి సౌలభ్యము ఆన్ లేదా ఆఫ్ అయినప్పుడు KDE యొక్క సిస్టమ్ నోటిఫికేషన్ మెకానిజంను "
+"వుపయోగించుము."
+
+#. i18n: ectx: attribute (title), widget (QWidget, tabScreenReader)
+#: accessibility.ui:745
+#, kde-format
+msgid "Screen Reader"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, screenReaderEnabled)
+#: accessibility.ui:751
+#, kde-format
+msgid "Screen reader enabled"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, launchOrcaConfiguration)
+#: accessibility.ui:760
+#, kde-format
+msgid "&Launch Orca Configuration"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: accessibility.ui:785
+#, kde-format
+msgid ""
+"Please note that you may have to log out once to allow the screen reader to "
+"work properly."
+msgstr ""
+
+#: kcmaccess.cpp:121
+#, kde-format
+msgid "AltGraph"
+msgstr "ఆల్ట్‌గ్రాఫ్"
+
+#: kcmaccess.cpp:123
+#, kde-format
+msgid "Hyper"
+msgstr "హైపర్"
+
+#: kcmaccess.cpp:125
+#, kde-format
+msgid "Super"
+msgstr "సూపర్"
+
+#: kcmaccess.cpp:139
+#, kde-format
+msgid "Press %1 while NumLock, CapsLock and ScrollLock are active"
+msgstr "నమ్‌లాక్, కాప్స్‌లాక్ మరియు స్క్రాల్‌లాక్ క్రియాశీలముగా వున్నప్పుడు %1ను వత్తుము"
+
+#: kcmaccess.cpp:141
+#, kde-format
+msgid "Press %1 while CapsLock and ScrollLock are active"
+msgstr "కాప్స్‌లాక్ మరియు స్క్రాల్‌లాక్ క్రియాశీలముగా వున్నప్పుడు %1 వత్తుము"
+
+#: kcmaccess.cpp:143
+#, kde-format
+msgid "Press %1 while NumLock and ScrollLock are active"
+msgstr "నమ్‌లాక్ మరియు స్క్రాల్‌లాక్ క్రియాశీలముగా వున్నప్పుడు %1 వత్తుము"
+
+#: kcmaccess.cpp:145
+#, kde-format
+msgid "Press %1 while ScrollLock is active"
+msgstr "స్క్రాల్‌లాక్ క్రియాశీలముగా వున్నప్పుడు %1 వత్తుము"
+
+#: kcmaccess.cpp:148
+#, kde-format
+msgid "Press %1 while NumLock and CapsLock are active"
+msgstr "నమ్‌లాక్ మరియు కాప్స్‌లాక్ క్రియాశీలముగా వున్నప్పుడు %1 వత్తుము"
+
+#: kcmaccess.cpp:150
+#, kde-format
+msgid "Press %1 while CapsLock is active"
+msgstr "కాప్స్‌లాక్ క్రియాశీలముగా వున్నప్పుడు %1 వత్తుము"
+
+#: kcmaccess.cpp:152
+#, kde-format
+msgid "Press %1 while NumLock is active"
+msgstr "నమ్‌లాక్ క్రియాశీలముగా వున్నప్పుడు %1 వత్తుము"
+
+#: kcmaccess.cpp:154
+#, kde-format
+msgid "Press %1"
+msgstr "%1 వత్తుము"
+
+#: kcmaccess.cpp:163
+#, kde-format
+msgid "KDE Accessibility Tool"
+msgstr "KDE అందుబాటు సాధనం"
+
+#: kcmaccess.cpp:164
+#, kde-format
+msgid "(c) 2000, Matthias Hoelzer-Kluepfel"
+msgstr "(c) 2000, మథియాస్ హోయెల్జర్-క్లుప్‌ఫెల్"
+
+#: kcmaccess.cpp:166
+#, kde-format
+msgid "Matthias Hoelzer-Kluepfel"
+msgstr "మథయాస్ హొయెల్జర్-క్లూప్ఫెల్"
+
+#: kcmaccess.cpp:166
+#, kde-format
+msgid "Author"
+msgstr "మూలకర్త"
+
+#: kcmaccess.cpp:221
+#, kde-format
+msgid ""
+"Here you can activate keyboard gestures that turn on the following "
+"features: \n"
+"Sticky keys: Press Shift key 5 consecutive times\n"
+"Slow keys: Hold down Shift for 8 seconds"
+msgstr ""
+"ఈ క్రింది సౌలభ్యాలను ఆన్ చేసే కీబోర్డు జెస్టర్స్‌ను యిక్కడ మీరు క్రియాశీల పరచవచ్చు:\n"
+"స్టికీ కీలు: షిఫ్టు కీను వరుసగా 5 సార్లు వత్తుము\n"
+"స్లో కీలు: షిఫ్టు కీను 8 సెకనుల పాటు వత్తి వుంచుము"
+
+#: kcmaccess.cpp:225
+#, kde-format
+msgid ""
+"Here you can activate keyboard gestures that turn on the following "
+"features: \n"
+"Mouse Keys: %1\n"
+"Sticky keys: Press Shift key 5 consecutive times\n"
+"Slow keys: Hold down Shift for 8 seconds"
+msgstr ""
+"క్రింది సౌలభ్యాలను ఆన్ చేసే కీబోర్డు జెస్టర్స్‌ను మీరు యిక్కడ క్రియాశీల పరచవచ్చు: \n"
+"మౌస్ కీలు: %1\n"
+"స్టికీ కీలు: షిఫ్టు కీను వరుసగా 5 సార్లు నొక్కుము\n"
+"స్లో కీలు: షిఫ్టు కీను 8 సెకనుల పాటు వత్తి వుంచుము"
+
+#: kcmaccess.cpp:261
+#, kde-format
+msgid "Could not set gsettings for Orca: \"%1\" failed"
+msgstr ""
+
+#: kcmaccess.cpp:268
+#, kde-format
+msgid "Error: Could not launch \"orca --setup\""
+msgstr ""

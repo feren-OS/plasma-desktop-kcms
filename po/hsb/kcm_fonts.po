@@ -1,0 +1,254 @@
+# translation of kcmfonts.po to Hornjoserbsce
+# Eduard Werner <edi.werner@gmx.de>, 2005, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmfonts\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-07-12 07:37+0200\n"
+"PO-Revision-Date: 2008-11-13 22:12+0100\n"
+"Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
+"Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
+"Language: hsb\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KAider 0.1\n"
+"Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
+"%100==4 ? 2 : 3;\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
+
+#: fonts.cpp:279
+#, fuzzy, kde-format
+#| msgid ""
+#| "<p>Some changes such as DPI will only affect newly started applications.</"
+#| "p>"
+msgid ""
+"<p>Some changes such as anti-aliasing or DPI will only affect newly started "
+"applications.</p>"
+msgstr ""
+"<p>Někotre změny kaž DPI potrjechja jenož aplikacije, kiž so znowa startuja."
+"</p>"
+
+#: fonts.cpp:280 fonts.cpp:290
+#, kde-format
+msgid "Font Settings Changed"
+msgstr "Nastajenja za pisma změnjene"
+
+#: fonts.cpp:289
+#, kde-format
+msgid ""
+"<p>Some changes such as DPI will only affect newly started applications.</p>"
+msgstr ""
+"<p>Někotre změny kaž DPI potrjechja jenož aplikacije, kiž so znowa startuja."
+"</p>"
+
+#: fonts.cpp:443
+#, kde-format
+msgid "Fonts"
+msgstr ""
+
+#: fonts.cpp:445
+#, kde-format
+msgid "Antonis Tsiapaliokas"
+msgstr ""
+
+#: kxftconfig.cpp:444
+#, fuzzy, kde-format
+#| msgctxt "Use anti-aliasing"
+#| msgid "System Settings"
+msgctxt "use system subpixel setting"
+msgid "Vendor default"
+msgstr "Nastajenja systema"
+
+#: kxftconfig.cpp:446
+#, fuzzy, kde-format
+#| msgid "None"
+msgctxt "no subpixel rendering"
+msgid "None"
+msgstr "žadyn"
+
+#: kxftconfig.cpp:448
+#, kde-format
+msgid "RGB"
+msgstr "ČZM"
+
+#: kxftconfig.cpp:450
+#, kde-format
+msgid "BGR"
+msgstr "MZČ"
+
+#: kxftconfig.cpp:452
+#, kde-format
+msgid "Vertical RGB"
+msgstr "Padorunje ČZM"
+
+#: kxftconfig.cpp:454
+#, kde-format
+msgid "Vertical BGR"
+msgstr "Padorunje MZČ"
+
+#: kxftconfig.cpp:482
+#, fuzzy, kde-format
+#| msgctxt "Use anti-aliasing"
+#| msgid "System Settings"
+msgctxt "use system hinting settings"
+msgid "Vendor default"
+msgstr "Nastajenja systema"
+
+#: kxftconfig.cpp:484
+#, fuzzy, kde-format
+#| msgid "Medium"
+msgctxt "medium hinting"
+msgid "Medium"
+msgstr "Srěnje"
+
+#: kxftconfig.cpp:486
+#, fuzzy, kde-format
+#| msgid "None"
+msgctxt "no hinting"
+msgid "None"
+msgstr "žadyn"
+
+#: kxftconfig.cpp:488
+#, fuzzy, kde-format
+#| msgid "Slight"
+msgctxt "slight hinting"
+msgid "Slight"
+msgstr "Słaby"
+
+#: kxftconfig.cpp:490
+#, fuzzy, kde-format
+#| msgid "Full"
+msgctxt "full hinting"
+msgid "Full"
+msgstr "Połny"
+
+#: package/contents/ui/FontWidget.qml:68
+#, kde-format
+msgid "Select %1 Font..."
+msgstr ""
+
+#: package/contents/ui/main.qml:30
+#, kde-format
+msgid "This module lets you configure the system fonts."
+msgstr ""
+
+#: package/contents/ui/main.qml:40
+#, fuzzy, kde-format
+#| msgid "Ad&just All Fonts..."
+msgid "&Adjust All Fonts..."
+msgstr "Wš&itke pisma připrawić..."
+
+#: package/contents/ui/main.qml:47
+#, fuzzy, kde-format
+#| msgid "General"
+msgid "General:"
+msgstr "Powšitkownje"
+
+#: package/contents/ui/main.qml:52
+#, fuzzy, kde-format
+#| msgid "Fixed width"
+msgid "Fixed width:"
+msgstr "Kruta šěrokosć"
+
+#: package/contents/ui/main.qml:57
+#, fuzzy, kde-format
+#| msgid "Small"
+msgid "Small:"
+msgstr "Małe"
+
+#: package/contents/ui/main.qml:62
+#, fuzzy, kde-format
+#| msgid "Toolbar"
+msgid "Toolbar:"
+msgstr "Nastrojowy pas"
+
+#: package/contents/ui/main.qml:67
+#, fuzzy, kde-format
+#| msgid "Menu"
+msgid "Menu:"
+msgstr "Meni"
+
+#: package/contents/ui/main.qml:72
+#, fuzzy, kde-format
+#| msgid "Window title"
+msgid "Window title:"
+msgstr "Titl wokna"
+
+#: package/contents/ui/main.qml:84
+#, fuzzy, kde-format
+#| msgid "Use a&nti-aliasing:"
+msgctxt "Used as a noun, and precedes a combobox full of options"
+msgid "Anti-aliasing:"
+msgstr "A&nti-aliasing wužiwać:"
+
+#: package/contents/ui/main.qml:86
+#, fuzzy, kde-format
+#| msgctxt "Use anti-aliasing"
+#| msgid "Enabled"
+msgid "Enabled"
+msgstr "Spřistupnjene"
+
+#: package/contents/ui/main.qml:86
+#, fuzzy, kde-format
+#| msgctxt "Use anti-aliasing"
+#| msgid "System Settings"
+msgid "Vendor default"
+msgstr "Nastajenja systema"
+
+#: package/contents/ui/main.qml:86
+#, fuzzy, kde-format
+#| msgctxt "Use anti-aliasing"
+#| msgid "Disabled"
+msgid "Disabled"
+msgstr "Hasnjene"
+
+#: package/contents/ui/main.qml:96
+#, kde-format
+msgid "Exclude range from anti-aliasing"
+msgstr ""
+
+#: package/contents/ui/main.qml:113 package/contents/ui/main.qml:128
+#, kde-format
+msgid "%1 pt"
+msgstr ""
+
+#: package/contents/ui/main.qml:120
+#, fuzzy, kde-format
+#| msgid " to "
+msgid "to"
+msgstr " do "
+
+#: package/contents/ui/main.qml:141
+#, fuzzy, kde-format
+#| msgid "&Use sub-pixel rendering:"
+msgctxt "Used as a noun, and precedes a combobox full of options"
+msgid "Sub-pixel rendering:"
+msgstr "Sub-pixel rendering w&užiwać:"
+
+#: package/contents/ui/main.qml:178
+#, fuzzy, kde-format
+#| msgid "Hinting style: "
+msgctxt "Used as a noun, and precedes a combobox full of options"
+msgid "Hinting:"
+msgstr "Stil hintinga:"
+
+#: package/contents/ui/main.qml:216
+#, fuzzy, kde-format
+#| msgid "Force fonts DPI:"
+msgid "Force font DPI:"
+msgstr "DPI za pismo:"
+
+#: package/contents/ui/main.qml:234
+#, kde-format
+msgid "Select Font"
+msgstr ""

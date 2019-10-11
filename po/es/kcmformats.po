@@ -1,0 +1,152 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Eloy Cuadra <ecuadra@eloihr.net>, 2014, 2015, 2017.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"PO-Revision-Date: 2017-11-20 21:39+0100\n"
+"Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
+"Language-Team: Spanish <kde-l10n-es@kde.org>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 2.0\n"
+
+#: kcmformats.cpp:45
+#, kde-format
+msgid ""
+"<h1>Formats</h1>You can configure the formats used for time, dates, money "
+"and other numbers here."
+msgstr ""
+"<h1>Formatos</h1>Aquí puede configurar los formatos usados para la hora, las "
+"fechas, la moneda y otros números."
+
+#: kcmformats.cpp:102
+#, kde-format
+msgid "No change"
+msgstr "Sin cambios"
+
+#: kcmformats.cpp:139
+#, kde-format
+msgid "%1 - %2 (%3)"
+msgstr "%1 - %2 (%3)"
+
+#: kcmformats.cpp:141
+#, kde-format
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: kcmformats.cpp:274
+#, kde-format
+msgid "Your changes will take effect the next time you log in."
+msgstr "Los cambios tendrán efecto la próxima vez que inicie sesión."
+
+#: kcmformats.cpp:275
+#, kde-format
+msgid "Format Settings Changed"
+msgstr "Preferencias de formato cambiadas"
+
+#: kcmformats.cpp:341
+#, kde-format
+msgid "%1 (long format)"
+msgstr "%1 (formato largo)"
+
+#: kcmformats.cpp:342
+#, kde-format
+msgid "%1 (short format)"
+msgstr "%1 (formato corto)"
+
+#: kcmformats.cpp:347
+#, kde-format
+msgctxt "Measurement combobox"
+msgid "Imperial UK"
+msgstr "Imperial del Reino Unido"
+
+#: kcmformats.cpp:349
+#, kde-format
+msgctxt "Measurement combobox"
+msgid "Imperial US"
+msgstr "Imperial de Estados Unidos"
+
+#: kcmformats.cpp:351
+#, kde-format
+msgctxt "Measurement combobox"
+msgid "Metric"
+msgstr "Métrico"
+
+#. i18n: ectx: property (text), widget (QLabel, label_10)
+#: kcmformatswidget.ui:47
+#, kde-format
+msgid "Re&gion:"
+msgstr "Re&gión:"
+
+#. i18n: ectx: property (text), widget (QCheckBox, checkDetailed)
+#: kcmformatswidget.ui:76
+#, kde-format
+msgid "De&tailed Settings"
+msgstr "Preferencias de&talladas"
+
+#. i18n: ectx: property (text), widget (QLabel, labelNumbers)
+#: kcmformatswidget.ui:83
+#, kde-format
+msgid "&Numbers:"
+msgstr "&Números:"
+
+#. i18n: ectx: property (text), widget (QLabel, labelTime)
+#: kcmformatswidget.ui:112
+#, kde-format
+msgid "&Time:"
+msgstr "&Hora:"
+
+#. i18n: ectx: property (text), widget (QLabel, labelCurrency)
+#: kcmformatswidget.ui:141
+#, kde-format
+msgid "Currenc&y:"
+msgstr "Sí&mbolo monetario:"
+
+#. i18n: ectx: property (text), widget (QLabel, labelMeasurement)
+#: kcmformatswidget.ui:170
+#, kde-format
+msgid "Measurement &Units:"
+msgstr "&Unidades de medida:"
+
+#. i18n: ectx: property (text), widget (QLabel, labelCollate)
+#: kcmformatswidget.ui:199
+#, kde-format
+msgid "Co&llation and Sorting:"
+msgstr "Co&lación y orden:"
+
+#. i18n: ectx: property (text), widget (QLabel, labelMeasurement_2)
+#: kcmformatswidget.ui:238
+#, kde-format
+msgid "<b>Description</b>"
+msgstr "<b>Descripción</b>"
+
+#. i18n: ectx: property (text), widget (QLabel, lexNumbers)
+#: kcmformatswidget.ui:248
+#, kde-format
+msgid "Numbers:"
+msgstr "Números:"
+
+#. i18n: ectx: property (text), widget (QLabel, lexTime)
+#: kcmformatswidget.ui:268
+#, kde-format
+msgid "Time:"
+msgstr "Hora:"
+
+#. i18n: ectx: property (text), widget (QLabel, lexCurrency)
+#: kcmformatswidget.ui:288
+#, kde-format
+msgid "Currency:"
+msgstr "Símbolo monetario:"
+
+#. i18n: ectx: property (text), widget (QLabel, lexMeasurement_2)
+#: kcmformatswidget.ui:308
+#, kde-format
+msgid "Measurement Units:"
+msgstr "Unidades de medida:"

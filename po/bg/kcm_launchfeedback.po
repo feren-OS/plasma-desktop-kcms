@@ -1,0 +1,91 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Zlatko Popov <zlatkopopov@fsa-bg.org>, 2006.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmlaunch\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"PO-Revision-Date: 2006-12-03 08:33+0200\n"
+"Last-Translator: Zlatko Popov <zlatkopopov@fsa-bg.org>\n"
+"Language-Team: Bulgarian <dict@linux.zonebg.com>\n"
+"Language: bg\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
+
+#: launchfeedback.cpp:40
+#, kde-format
+msgid "Configure application launch feedback"
+msgstr ""
+
+#: package/contents/ui/main.qml:28
+#, kde-format
+msgid "Launch Feedback"
+msgstr ""
+
+#: package/contents/ui/main.qml:60
+#, fuzzy, kde-format
+#| msgid "Bus&y Cursor"
+msgid "Cursor:"
+msgstr "&Зает курсор"
+
+#: package/contents/ui/main.qml:61
+#, kde-format
+msgid "No Feedback"
+msgstr ""
+
+#: package/contents/ui/main.qml:69
+#, kde-format
+msgid "Static"
+msgstr ""
+
+#: package/contents/ui/main.qml:77
+#, fuzzy, kde-format
+#| msgid "Blinking Cursor"
+msgid "Blinking"
+msgstr "Мигащ курсор"
+
+#: package/contents/ui/main.qml:85
+#, fuzzy, kde-format
+#| msgid "Bouncing Cursor"
+msgid "Bouncing"
+msgstr "Анимиран курсор"
+
+#: package/contents/ui/main.qml:93
+#, kde-format
+msgid "Task Manager:"
+msgstr ""
+
+#: package/contents/ui/main.qml:95
+#, fuzzy, kde-format
+#| msgid "Enable &taskbar notification"
+msgid "Enable animation"
+msgstr "Вкл&ючване на уведомяването чрез системния панел"
+
+#: package/contents/ui/main.qml:104
+#, fuzzy, kde-format
+#| msgid "&Startup indication timeout:"
+msgid "Stop animation after:"
+msgstr "П&родължителност на индикацията при стартиране:"
+
+#: package/contents/ui/main.qml:113
+#, fuzzy, kde-format
+#| msgid " sec"
+msgid "%1 sec"
+msgid_plural "%1 secs"
+msgstr[0] " сек"
+msgstr[1] " сек"

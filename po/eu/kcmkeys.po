@@ -1,0 +1,228 @@
+# Translation of kcmkeys.po to Euskara/Basque (eu).
+# Copyright (C) 2002-2018, The Free Software Foundation, Inc.
+# This file is distributed under the same license as the kde-workspace package.
+# KDE euskaratzeko proiektuaren arduraduna <xalba@euskalnet.net>.
+#
+# Translators:
+# Marcos <marcos@euskalgnu.org>, 2002,2003, 2004, 2005, 2006, 2007, 2008, 2010.
+# Koldo Navarro <koldo.np@euskalnet.net>, 2004.
+# Iñigo Salvador Azurmendi <xalba@euskalnet.net>, 2010, 2014, 2018.
+# Hizkuntza Politikarako Sailburuordetza <hizpol@ej-gv.es>, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmkeys\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"PO-Revision-Date: 2018-03-18 10:02+0100\n"
+"Last-Translator: Iñigo Salvador Azurmendi <xalba@euskalnet.net>\n"
+"Language-Team: Basque <kde-i18n-doc@kde.org>\n"
+"Language: eu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 2.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. i18n: ectx: property (text), widget (QLabel, components_label)
+#: export_scheme_dialog.ui:17
+#, kde-format
+msgid "Select the Components to Export"
+msgstr "Hautatu esportatu beharreko osagaiak"
+
+#. i18n: ectx: property (title), widget (QGroupBox, components)
+#: export_scheme_dialog.ui:27
+#, kde-format
+msgid "Components"
+msgstr "Osagaiak"
+
+#: globalshortcuts.cpp:67
+#, kde-format
+msgid "You are about to reset all shortcuts to their default values."
+msgstr "Lasterbide guztiak haien balio lehenetsietan berrezartzera zoaz."
+
+#: globalshortcuts.cpp:68
+#, kde-format
+msgid "Reset to defaults"
+msgstr "Berrezarri lehenetsietan"
+
+#: globalshortcuts.cpp:69
+#, kde-format
+msgid "Current Component"
+msgstr "Uneko osagaia"
+
+#: globalshortcuts.cpp:70
+#, kde-format
+msgid "All Components"
+msgstr "Osagai guztiak"
+
+#: kglobalshortcutseditor.cpp:231
+#, kde-format
+msgid "Import Scheme..."
+msgstr "Inportatu antolaera..."
+
+#: kglobalshortcutseditor.cpp:232
+#, kde-format
+msgid "Export Scheme..."
+msgstr "Esportatu antolaera..."
+
+#: kglobalshortcutseditor.cpp:233
+#, kde-format
+msgid "Set All Shortcuts to None"
+msgstr "Ezarri lasterbide guztiak ezerezera"
+
+#: kglobalshortcutseditor.cpp:241
+#, kde-format
+msgid "Applications"
+msgstr "Aplikazioak"
+
+#: kglobalshortcutseditor.cpp:292
+#, kde-format
+msgid "Launch %1"
+msgstr "Abiarazi %1"
+
+#: kglobalshortcutseditor.cpp:328
+#, kde-format
+msgid ""
+"Component '%1' is currently active. Only global shortcuts currently not "
+"active will be removed from the list.\n"
+"All global shortcuts will reregister themselves with their defaults when "
+"they are next started."
+msgstr ""
+"'%1' osagaia aktibo dago une honetan. Une honetan aktibo ez dauden "
+"lasterbide orokorrak bakarrik kenduko dira zerrendatik.\n"
+"Lasterbide orokor guztiek balio lehenetsiekin erregistratuko dute berriz "
+"beren burua hurrengo aldian abiarazten direnean."
+
+#: kglobalshortcutseditor.cpp:330 kglobalshortcutseditor.cpp:340
+#, kde-format
+msgid "Remove component"
+msgstr "Kendu osagaia"
+
+#: kglobalshortcutseditor.cpp:336
+#, kde-format
+msgid ""
+"Are you sure you want to remove the registered shortcuts for component '%1'? "
+"The component and shortcuts will reregister themselves with their default "
+"settings when they are next started."
+msgstr ""
+"Ziur zaude '%1' osagaiarentzako erregistratuta dauden lasterbideak kendu "
+"nahi dituzula? Osagaiak eta lasterbideak balio lehenetsiekin erregistratuko "
+"dute berriz beren burua hurrengo aldian abiarazten direnean."
+
+#: kglobalshortcutseditor.cpp:450
+#, kde-format
+msgid "Application Launchers"
+msgstr "Aplikazio abiarazleak"
+
+#: kglobalshortcutseditor.cpp:453
+#, kde-format
+msgid "Other Shortcuts"
+msgstr "Beste lasterbide batzuk"
+
+#: kglobalshortcutseditor.cpp:558
+#, kde-format
+msgid ""
+"Your current changes will be lost if you load another scheme before saving "
+"this one"
+msgstr ""
+"Zure uneko aldaketak galdu egingo dira, antolaera hau gorde aurretik beste "
+"bat kargatzen baduzu"
+
+#: kglobalshortcutseditor.cpp:559
+#, kde-format
+msgid "Load Shortcut Scheme"
+msgstr "Kargatu lasterbideen antolaera"
+
+#: kglobalshortcutseditor.cpp:560
+#, kde-format
+msgid "Load"
+msgstr "Kargatu"
+
+#: kglobalshortcutseditor.cpp:573
+#, kde-format
+msgid "This file (%1) does not exist. You can only select local files."
+msgstr ""
+"Fitxategia hau (%1) ez dago. Fitxategi lokalak bakarrik hauta ditzakezu."
+
+#: kglobalshortcutseditor.cpp:601 kglobalshortcutseditor.cpp:624
+#, kde-format
+msgid ""
+"Message: %1\n"
+"Error: %2"
+msgstr ""
+"Mezua: %1\n"
+"Errorea: %2"
+
+#: kglobalshortcutseditor.cpp:606 kglobalshortcutseditor.cpp:629
+#, kde-format
+msgid "Failed to contact the KDE global shortcuts daemon\n"
+msgstr ""
+"Huts egin du KDE lasterbide orokorren daimonarekin harremanetan jartzea\n"
+
+#. i18n: ectx: property (text), widget (QLabel, componentLabel)
+#: kglobalshortcutseditor.ui:37
+#, kde-format
+msgid "Component:"
+msgstr "Osagaia:"
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, addButton)
+#: kglobalshortcutseditor.ui:77
+#, kde-format
+msgid "Add a new shortcut to an Application..."
+msgstr "Gehitu lasterbide berri bat aplikazio bati..."
+
+#. i18n: ectx: property (text), widget (QToolButton, addButton)
+#. i18n: ectx: property (text), widget (QToolButton, removeButton)
+#: kglobalshortcutseditor.ui:80 kglobalshortcutseditor.ui:90
+#, kde-format
+msgid "..."
+msgstr "..."
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, removeButton)
+#: kglobalshortcutseditor.ui:87
+#, kde-format
+msgid "Remove the selected component"
+msgstr "Kendu hautatutako osagaia"
+
+#. i18n: ectx: property (text), widget (QPushButton, menu_button)
+#: kglobalshortcutseditor.ui:110
+#, kde-format
+msgid "File"
+msgstr "Fitxategia"
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, SelectApplicationDialog)
+#: select_application.ui:14
+#, kde-format
+msgid "Select Application"
+msgstr "Hautatu aplikazioa"
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, SelectSchemeDialog)
+#. i18n: ectx: property (placeholderText), widget (KUrlRequester, m_url)
+#: select_scheme_dialog.ui:15 select_scheme_dialog.ui:123
+#, kde-format
+msgid "Select Shortcut Scheme"
+msgstr "Hautatu lasterbideen antolaera"
+
+#. i18n: ectx: property (whatsThis), widget (QLabel, label)
+#: select_scheme_dialog.ui:39
+#, kde-format
+msgid "Select one of the standard KDE shortcut schemes"
+msgstr "Hautatu KDEren lasterbideen antolaera estandar bat"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: select_scheme_dialog.ui:42
+#, kde-format
+msgid "&Standard scheme:"
+msgstr "Antolaera e&standarra:"
+
+#. i18n: ectx: property (whatsThis), widget (QLabel, label_2)
+#: select_scheme_dialog.ui:92
+#, kde-format
+msgid "Select a shortcut scheme file"
+msgstr "Hautatu lasterbideen antolaera fitxategi bat"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: select_scheme_dialog.ui:95
+#, kde-format
+msgid "&Path:"
+msgstr "&Bide-izena:"

@@ -1,0 +1,199 @@
+# translation of kcm_autostart.po to Punjabi
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Amanpreet Singh <aalam@users.sf.net>, 2008.
+# A S Alam <aalam@users.sf.net>, 2008, 2010.
+# Amanpreet Singh Alam <aalam@users.sf.net>, 2009, 2012, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcm_autostart\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"PO-Revision-Date: 2013-01-05 08:31+0530\n"
+"Last-Translator: A S Alam <aalam@users.sf.net>\n"
+"Language-Team: Punjabi/Panjabi <punjabi-users@lists.sf.net>\n"
+"Language: pa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "ਅਮਨਪਰੀਤ ਸਿੰਘ ਆਲਮ"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "aalam@users.sf.net"
+
+#: addscriptdialog.cpp:40
+#, kde-format
+msgid "Shell script path:"
+msgstr "ਸੈੱਲ ਸਕ੍ਰਿਪਟ ਪਾਥ:"
+
+#: addscriptdialog.cpp:44
+#, kde-format
+msgid "Create as symlink"
+msgstr "ਸਿਮਲਿੰਕ ਵਾਂਗ ਬਣਾਓ"
+
+#: addscriptdialog.cpp:79
+#, kde-format
+msgid "\"%1\" is not an absolute path."
+msgstr "\"%1\" ਅਸਲ ਪਾਥ ਨਹੀਂ ਹੈ।"
+
+#: addscriptdialog.cpp:82
+#, kde-format
+msgid "\"%1\" does not exist."
+msgstr "\"%1 ਮੌਜੂਦ ਨਹੀਂ ਹੈ।"
+
+#: addscriptdialog.cpp:85
+#, kde-format
+msgid "\"%1\" is not a file."
+msgstr "\"%1\" ਫਾਈਲ ਨਹੀਂ ਹੈ।"
+
+#: addscriptdialog.cpp:88
+#, kde-format
+msgid "\"%1\" is not readable."
+msgstr "\"%1\" ਪੜ੍ਹਨਯੋਗ ਨਹੀਂ।"
+
+#: advanceddialog.cpp:32
+#, fuzzy, kde-format
+#| msgid "Autostart only in KDE"
+msgid "Autostart only in Plasma"
+msgstr "KDE ਵਿੱਚ ਹੀ ਆਟੋ-ਸਟਾਰਟ"
+
+#: autostart.cpp:53
+#, kde-format
+msgid "Name"
+msgstr "ਨਾਂ"
+
+#: autostart.cpp:54
+#, kde-format
+msgid "Command"
+msgstr "ਕਮਾਂਡ"
+
+#: autostart.cpp:55
+#, kde-format
+msgid "Status"
+msgstr "ਹਾਲਤ"
+
+#: autostart.cpp:56
+#, fuzzy, kde-format
+#| msgctxt ""
+#| "@title:column The name of the column that decides if the program is run "
+#| "on kde startup, on kde shutdown, etc"
+#| msgid "Run On"
+msgctxt ""
+"@title:column The name of the column that decides if the program is run on "
+"session startup, on session shutdown, etc"
+msgid "Run On"
+msgstr "ਚਲਾਓ"
+
+#: autostart.cpp:75
+#, fuzzy, kde-format
+#| msgid "KDE Autostart Manager"
+msgid "Session Autostart Manager"
+msgstr "KDE ਆਟੋ-ਸਟਾਰਟ ਮੈਨੇਜਰ"
+
+#: autostart.cpp:77
+#, fuzzy, kde-format
+#| msgid "KDE Autostart Manager Control Panel Module"
+msgid "Session Autostart Manager Control Panel Module"
+msgstr "KDE ਆਟੋਸਟਾਰਟ ਮੈਨੇਜਰ ਕੰਟਰੋਲ ਪੈਨਲ ਮੋਡੀਊਲ"
+
+#: autostart.cpp:79
+#, kde-format
+msgid "Copyright © 2006–2010 Autostart Manager team"
+msgstr "Copyright © 2006–2010 Autostart Manager team"
+
+#: autostart.cpp:80
+#, kde-format
+msgid "Stephen Leaf"
+msgstr "Stephen Leaf"
+
+#: autostart.cpp:81
+#, kde-format
+msgid "Montel Laurent"
+msgstr "Montel Laurent"
+
+#: autostart.cpp:81
+#, kde-format
+msgid "Maintainer"
+msgstr "ਪਰਬੰਧਕ"
+
+#: autostart.cpp:108 autostart.cpp:122
+#, kde-format
+msgctxt "The program won't be run"
+msgid "Disabled"
+msgstr "ਆਯੋਗ ਹੈ"
+
+#: autostart.cpp:110 autostart.cpp:122 autostartitem.cpp:77
+#, kde-format
+msgctxt "The program will be run"
+msgid "Enabled"
+msgstr "ਯੋਗ ਹੈ"
+
+#: autostart.cpp:156
+#, kde-format
+msgid "Startup"
+msgstr "ਸਟਾਰਟਅੱਪ"
+
+#: autostart.cpp:157
+#, kde-format
+msgid "Logout"
+msgstr ""
+
+#: autostart.cpp:158
+#, kde-format
+msgid "Before session startup"
+msgstr ""
+
+#: autostart.cpp:163
+#, kde-format
+msgid "Desktop File"
+msgstr "ਡੈਸਕਟਾਪ ਫਾਈਲ"
+
+#: autostart.cpp:171
+#, kde-format
+msgid "Script File"
+msgstr "ਸਕ੍ਰਿਪਟ ਫਾਈਲ"
+
+#: autostart.cpp:447
+#, kde-format
+msgid ""
+"Only files with “.sh” extensions are allowed for setting up the environment."
+msgstr "ਸੈਟਿੰਗ ਅੱਪ ਇੰਵਾਇਰਨਮੈਂਟ ਲਈ ਕੇਵਲ “.sh” ਇਕਸਟੈਨਸ਼ਨ ਵਾਲੀਆਂ ਫਾਈਲਾਂ ਹੀ ਪੜ੍ਹ ਸਕਦਾ ਹੈ।"
+
+#. i18n: ectx: property (text), widget (QPushButton, btnProperties)
+#: autostartconfig.ui:17
+#, kde-format
+msgid "&Properties..."
+msgstr "...ਵਿਸ਼ੇਸ਼ਤਾ(&P)"
+
+#. i18n: ectx: property (text), widget (QPushButton, btnAddScript)
+#: autostartconfig.ui:24
+#, kde-format
+msgid "Add Script..."
+msgstr "ਸਕ੍ਰਿਪਟ ਸ਼ਾਮਲ..."
+
+#. i18n: ectx: property (text), widget (QPushButton, btnRemove)
+#: autostartconfig.ui:46
+#, kde-format
+msgid "&Remove"
+msgstr "ਹਟਾਓ(&R)"
+
+#. i18n: ectx: property (text), widget (QPushButton, btnAdvanced)
+#: autostartconfig.ui:53
+#, kde-format
+msgid "Advanced..."
+msgstr "...ਤਕਨੀਕੀ"
+
+#. i18n: ectx: property (text), widget (QPushButton, btnAddProgram)
+#: autostartconfig.ui:60
+#, kde-format
+msgid "Add Program..."
+msgstr "ਪਰੋਗਰਾਮ ਸ਼ਾਮਲ..."

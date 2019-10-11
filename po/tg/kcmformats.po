@@ -1,0 +1,172 @@
+# translation of kcmlocale.po to Tajik
+# translation of kcmlocale.po to Тоҷикӣ
+# Copyright (C) 2004 Free Software Foundation, Inc.
+# 2004, infoDev, a World Bank organization
+# 2004, Khujand Computer Technologies, Inc.
+# 2004, KCT1, NGO
+#
+# Dilshod Marupov <dma165@hotmail.com>, 2004.
+# Victor Ibragimov <youth_opportunities@tajik.net>, 2004.
+# Victor Ibragimov <victor.ibragimov@gmail.com>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmlocale\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"PO-Revision-Date: 2011-11-23 00:21+0500\n"
+"Last-Translator: Victor Ibragimov <victor.ibragimov@gmail.com>\n"
+"Language-Team: Tajik <http://www.kde.tj>\n"
+"Language: tg\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.0\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: kcmformats.cpp:45
+#, kde-format
+msgid ""
+"<h1>Formats</h1>You can configure the formats used for time, dates, money "
+"and other numbers here."
+msgstr ""
+
+#: kcmformats.cpp:102
+#, kde-format
+msgid "No change"
+msgstr ""
+
+#: kcmformats.cpp:139
+#, kde-format
+msgid "%1 - %2 (%3)"
+msgstr ""
+
+#: kcmformats.cpp:141
+#, fuzzy, kde-format
+#| msgctxt "@item currency name and currency code"
+#| msgid "%1 (%2)"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: kcmformats.cpp:274
+#, kde-format
+msgid "Your changes will take effect the next time you log in."
+msgstr ""
+
+#: kcmformats.cpp:275
+#, kde-format
+msgid "Format Settings Changed"
+msgstr ""
+
+#: kcmformats.cpp:341
+#, fuzzy, kde-format
+#| msgid "Long date format:"
+msgid "%1 (long format)"
+msgstr "Шакли санаи дароз:"
+
+#: kcmformats.cpp:342
+#, fuzzy, kde-format
+#| msgid "Short date format:"
+msgid "%1 (short format)"
+msgstr "Намуди санаи мухтасар:"
+
+#: kcmformats.cpp:347
+#, fuzzy, kde-format
+#| msgid "Imperial System"
+msgctxt "Measurement combobox"
+msgid "Imperial UK"
+msgstr ": Системаи империявӣ"
+
+#: kcmformats.cpp:349
+#, fuzzy, kde-format
+#| msgid "Imperial System"
+msgctxt "Measurement combobox"
+msgid "Imperial US"
+msgstr ": Системаи империявӣ"
+
+#: kcmformats.cpp:351
+#, fuzzy, kde-format
+#| msgctxt "The Metric System"
+#| msgid "Metric"
+msgctxt "Measurement combobox"
+msgid "Metric"
+msgstr ""
+": Системаи метрика\n"
+"Метрика"
+
+#. i18n: ectx: property (text), widget (QLabel, label_10)
+#: kcmformatswidget.ui:47
+#, kde-format
+msgid "Re&gion:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, checkDetailed)
+#: kcmformatswidget.ui:76
+#, fuzzy, kde-format
+#| msgid "Regional settings"
+msgid "De&tailed Settings"
+msgstr "Танзимотҳои минтақавӣ"
+
+#. i18n: ectx: property (text), widget (QLabel, labelNumbers)
+#: kcmformatswidget.ui:83
+#, fuzzy, kde-format
+#| msgid "Numbers:"
+msgid "&Numbers:"
+msgstr "Ададҳо:"
+
+#. i18n: ectx: property (text), widget (QLabel, labelTime)
+#: kcmformatswidget.ui:112
+#, fuzzy, kde-format
+#| msgid "Time:"
+msgid "&Time:"
+msgstr "Вақт:"
+
+#. i18n: ectx: property (text), widget (QLabel, labelCurrency)
+#: kcmformatswidget.ui:141
+#, fuzzy, kde-format
+#| msgid "Currency:"
+msgid "Currenc&y:"
+msgstr "Асъор:"
+
+#. i18n: ectx: property (text), widget (QLabel, labelMeasurement)
+#: kcmformatswidget.ui:170
+#, fuzzy, kde-format
+#| msgid "Measurement system:"
+msgid "Measurement &Units:"
+msgstr "Системаи ченак:"
+
+#. i18n: ectx: property (text), widget (QLabel, labelCollate)
+#: kcmformatswidget.ui:199
+#, kde-format
+msgid "Co&llation and Sorting:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, labelMeasurement_2)
+#: kcmformatswidget.ui:238
+#, kde-format
+msgid "<b>Description</b>"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, lexNumbers)
+#: kcmformatswidget.ui:248
+#, kde-format
+msgid "Numbers:"
+msgstr "Ададҳо:"
+
+#. i18n: ectx: property (text), widget (QLabel, lexTime)
+#: kcmformatswidget.ui:268
+#, kde-format
+msgid "Time:"
+msgstr "Вақт:"
+
+#. i18n: ectx: property (text), widget (QLabel, lexCurrency)
+#: kcmformatswidget.ui:288
+#, kde-format
+msgid "Currency:"
+msgstr "Асъор:"
+
+#. i18n: ectx: property (text), widget (QLabel, lexMeasurement_2)
+#: kcmformatswidget.ui:308
+#, fuzzy, kde-format
+#| msgid "Measurement system:"
+msgid "Measurement Units:"
+msgstr "Системаи ченак:"

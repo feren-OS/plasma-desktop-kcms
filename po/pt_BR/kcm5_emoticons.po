@@ -1,0 +1,237 @@
+# Translation of kcm5_emoticons.po to Brazilian Portuguese
+# Copyright (C) 2014-2019 This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# André Marcelo Alvarenga <alvarenga@kde.org>, 2014, 2019.
+# Luiz Fernando Ranghetti <elchevive@opensuse.org>, 2016, 2017, 2018, 2019.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcm5_emoticons\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"PO-Revision-Date: 2019-04-14 22:29-0300\n"
+"Last-Translator: André Marcelo Alvarenga <alvarenga@kde.org>\n"
+"Language-Team: Brazilian Portuguese <kde-i18n-pt_br@kde.org>\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 18.12.3\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "André Marcelo Alvarenga"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "alvarenga@kde.org"
+
+#: emoticonslist.cpp:70
+#, kde-format
+msgid ""
+"Insert the string for the emoticon.  If you want multiple strings, separate "
+"them by spaces."
+msgstr ""
+"Insira o texto para o emoticon. Se quiser vários textos, separe-os com "
+"espaços."
+
+#: emoticonslist.cpp:110
+#, kde-format
+msgid "Emoticons"
+msgstr "Emoticons"
+
+#: emoticonslist.cpp:254
+#, kde-format
+msgid "Drag or Type Emoticon Theme URL"
+msgstr "Arraste ou digite a URL do tema do emoticon"
+
+#: emoticonslist.cpp:259
+#, kde-format
+msgid "Emoticon themes must be installed from local files."
+msgstr "Os temas emoticon devem ser instalados de arquivos locais."
+
+#: emoticonslist.cpp:260
+#, kde-format
+msgid "Could Not Install Emoticon Theme"
+msgstr "Não foi possível instalar o tema emoticon"
+
+#: emoticonslist.cpp:278
+#, kde-format
+msgid "Do you want to remove %1 too?"
+msgstr "Deseja remover também o %1?"
+
+#: emoticonslist.cpp:278
+#, kde-format
+msgid "Delete emoticon"
+msgstr "Excluir emoticon"
+
+#: emoticonslist.cpp:294
+#, kde-format
+msgid "Add Emoticon"
+msgstr "Adicionar emoticon"
+
+#: emoticonslist.cpp:318
+#, kde-format
+msgid "Edit Emoticon"
+msgstr "Editar emoticon"
+
+#: emoticonslist.cpp:364 emoticonslist.cpp:388
+#, kde-format
+msgid "New Emoticon Theme"
+msgstr "Novo tema emoticon"
+
+#: emoticonslist.cpp:364
+#, fuzzy, kde-format
+#| msgid "Name of new emoticon theme:"
+msgid "Name of new emoticon theme:"
+msgstr "Nome do novo tema emoticon:"
+
+#: emoticonslist.cpp:370
+#, kde-format
+msgid "%1 theme already exists"
+msgstr "O tema %1 já existe"
+
+#: emoticonslist.cpp:388
+#, kde-format
+msgid "Choose the type of emoticon theme to create"
+msgstr "Escolha o tipo de tema emoticon para criar"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, EmoticonsManager)
+#: emoticonslist.ui:14
+#, kde-format
+msgid "Emoticons Manager"
+msgstr "Gerenciador de emoticons"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, btInstall)
+#: emoticonslist.ui:26
+#, kde-format
+msgid "Install a theme archive file you already have locally"
+msgstr "Instala um arquivo de pacote de temas que você já tenha localmente"
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, btInstall)
+#: emoticonslist.ui:29
+#, kde-format
+msgid ""
+"If you already have an emoticon theme archive locally, this button will "
+"unpack it and make it available for KDE applications"
+msgstr ""
+"Se você já tem um arquivo de tema emoticon localmente, este botão irá "
+"descompactá-lo e tornar o tema disponível para os aplicativos do KDE"
+
+#. i18n: ectx: property (text), widget (QPushButton, btInstall)
+#: emoticonslist.ui:32
+#, fuzzy, kde-format
+#| msgid "Install from File..."
+msgid "Install from File..."
+msgstr "Instalar a partir do arquivo..."
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, btNew)
+#: emoticonslist.ui:45
+#, fuzzy, kde-format
+#| msgid "Create New Theme..."
+msgid "Create New Theme..."
+msgstr "Criar novo tema..."
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, btNew)
+#: emoticonslist.ui:48
+#, fuzzy, kde-format
+#| msgid ""
+#| "Create a new theme by assigning it a name. Then use the Add button on the "
+#| "right to add emoticons to this theme."
+msgid ""
+"Create a new theme by assigning it a name. Then use the Add button on the "
+"right to add emoticons to this theme."
+msgstr ""
+"Crie um novo tema, atribuindo-lhe um nome. Depois use o botão Adicionar à "
+"direita para adicionar emoticons a este tema."
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, btRemoveTheme)
+#: emoticonslist.ui:99
+#, kde-format
+msgid "Remove Theme"
+msgstr "Remover tema"
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, btRemoveTheme)
+#: emoticonslist.ui:102
+#, kde-format
+msgid "This will remove the selected theme from your disk."
+msgstr "Isto irá remover o tema selecionado do seu disco."
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, btGetNew)
+#: emoticonslist.ui:115
+#, fuzzy, kde-format
+#| msgid "Get new emoticon icon themes from the Internet"
+msgid "Get new emoticon icon themes from the Internet"
+msgstr "Baixar novos temas de ícones emoticon da Internet"
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, btGetNew)
+#: emoticonslist.ui:118
+#, fuzzy, kde-format
+#| msgid ""
+#| "You need to be connected to the Internet to use this action. A dialog "
+#| "will display a list of emoticon themes from the https://store.kde.org "
+#| "website. Clicking the Install button associated with a theme will install "
+#| "this theme locally."
+msgid ""
+"You need to be connected to the Internet to use this action. A dialog will "
+"display a list of emoticon themes from the https://store.kde.org website. "
+"Clicking the Install button associated with a theme will install this theme "
+"locally."
+msgstr ""
+"Você precisa estar conectado à Internet para usar esta ação. Uma caixa de "
+"diálogo irá mostrar uma lista de temas emoticons da página https://store.kde."
+"org. Clicar no botão Instalar associado ao tema irá instalar esse tema "
+"localmente."
+
+#. i18n: ectx: property (text), widget (QPushButton, btGetNew)
+#: emoticonslist.ui:121
+#, kde-format
+msgid "Get New Emoticons..."
+msgstr "Baixar novos emoticons..."
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbStrict)
+#: emoticonslist.ui:138
+#, kde-format
+msgid "Require spaces around emoticons"
+msgstr "Espaço necessário ao redor dos emoticons"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, btAdd)
+#: emoticonslist.ui:161
+#, fuzzy, kde-format
+#| msgid "Get New Emoticons..."
+msgid "Create New Emoticon..."
+msgstr "Baixar novos emoticons..."
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, btAdd)
+#: emoticonslist.ui:164
+#, kde-format
+msgid "Create a new emoticon by assigning it an icon and some text"
+msgstr "Cria um novo emoticon indicando um ícone e algum texto"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, btRemoveEmoticon)
+#: emoticonslist.ui:177
+#, kde-format
+msgid "Remove Emoticon"
+msgstr "Remover emoticon"
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, btRemoveEmoticon)
+#: emoticonslist.ui:180
+#, kde-format
+msgid "Remove the selected emoticon from your disk"
+msgstr "Remove o emoticon selecionado do seu disco"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, btEdit)
+#: emoticonslist.ui:193
+#, fuzzy, kde-format
+#| msgid "Edit Emoticon"
+msgid "Edit Emoticon..."
+msgstr "Editar emoticon"
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, btEdit)
+#: emoticonslist.ui:196
+#, kde-format
+msgid "Edit the selected emoticon to change its icon or its text"
+msgstr "Edita o emoticon selecionado para alterar seu ícone ou texto"

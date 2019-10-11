@@ -1,0 +1,250 @@
+# Malayalam translations for plasma-desktop package.
+# Copyright (C) 2019 This file is copyright:
+# This file is distributed under the same license as the plasma-desktop package.
+# Automatically generated, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-desktop\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"PO-Revision-Date: 2019-08-11 14:09+0530\n"
+"Last-Translator: Subin Siby <mail@subinsb.com>\n"
+"Language-Team: Swathanthra|സ്വതന്ത്ര Malayalam|മലയാളം Computing|കമ്പ്യൂട്ടിങ്ങ് <smc."
+"org.in>\n"
+"Language: ml\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ExtraActivitiesInterface.cpp:46 MainConfigurationWidget.cpp:46
+#, kde-format
+msgid "Activities"
+msgstr ""
+
+#: imports/activitysettings.cpp:63
+#, kde-format
+msgctxt "@title:window"
+msgid "Delete Activity"
+msgstr ""
+
+#: imports/activitysettings.cpp:64
+#, kde-format
+msgid "Are you sure you want to delete '%1'?"
+msgstr ""
+
+#: imports/dialog.cpp:94
+#, kde-format
+msgid ""
+"Error loading the QML files. Check your installation.\n"
+"Missing %1"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: imports/dialog.cpp:158 ui/SwitchingTabBase.ui:17
+#, kde-format
+msgid "General"
+msgstr ""
+
+#: imports/dialog.cpp:159
+#, kde-format
+msgid "Other"
+msgstr ""
+
+#: imports/dialog.cpp:176
+#, kde-format
+msgctxt "@title:window"
+msgid "Create a New Activity"
+msgstr ""
+
+#: imports/dialog.cpp:177
+#, kde-format
+msgctxt "@title:window"
+msgid "Activity Settings"
+msgstr ""
+
+#: imports/dialog.cpp:180
+#, kde-format
+msgctxt "@action:button"
+msgid "Create"
+msgstr ""
+
+#: imports/qml/activityDialog/components/DialogButtons.qml:44
+#, kde-format
+msgctxt "@action:button"
+msgid "Apply"
+msgstr ""
+
+#: imports/qml/activityDialog/components/DialogButtons.qml:53
+#, kde-format
+msgctxt "@action:button"
+msgid "Cancel"
+msgstr ""
+
+#: imports/qml/activityDialog/components/ShortcutChooser.qml:36
+#, kde-format
+msgid "Shortcut for switching to this activity:"
+msgstr ""
+
+#: imports/qml/activityDialog/GeneralTab.qml:58
+#, kde-format
+msgid "Activity information"
+msgstr ""
+
+#: imports/qml/activityDialog/GeneralTab.qml:66
+#, kde-format
+msgid "Name:"
+msgstr ""
+
+#: imports/qml/activityDialog/GeneralTab.qml:73
+#, kde-format
+msgid "Description:"
+msgstr ""
+
+#: imports/qml/activityDialog/GeneralTab.qml:99
+#, kde-format
+msgid "Wallpaper"
+msgstr ""
+
+#: imports/qml/activityDialog/GeneralTab.qml:105
+#, kde-format
+msgctxt "@action:button"
+msgid "Change..."
+msgstr ""
+
+#: imports/qml/activityDialog/GeneralTab.qml:138
+#, kde-format
+msgid "Icon"
+msgstr ""
+
+#: imports/qml/activityDialog/OtherTab.qml:44
+#, kde-format
+msgid "Private - do not track usage for this activity"
+msgstr ""
+
+#: MainConfigurationWidget.cpp:47
+#, kde-format
+msgid "Switching"
+msgstr ""
+
+#: MainConfigurationWidget.cpp:48
+#, kde-format
+msgid "Privacy"
+msgstr ""
+
+#: PrivacyTab.cpp:74
+#, kde-format
+msgctxt "unlimited number of months"
+msgid "forever"
+msgstr ""
+
+#: PrivacyTab.cpp:84
+#, kde-format
+msgid "Forget the last hour"
+msgstr ""
+
+#: PrivacyTab.cpp:86
+#, kde-format
+msgid "Forget the last two hours"
+msgstr ""
+
+#: PrivacyTab.cpp:88
+#, kde-format
+msgid "Forget a day"
+msgstr ""
+
+#: PrivacyTab.cpp:90
+#, kde-format
+msgid "Forget everything"
+msgstr ""
+
+#: PrivacyTab.cpp:218
+#, kde-format
+msgctxt "unit of time. months to keep the history"
+msgid " month"
+msgid_plural " months"
+msgstr[0] ""
+msgstr[1] ""
+
+#: PrivacyTab.cpp:222
+#, kde-format
+msgctxt "for in 'keep history for 5 months'"
+msgid "for "
+msgstr ""
+
+#: qml/activitiesTab/ActivitiesView.qml:37
+#, kde-format
+msgid "Create activity..."
+msgstr ""
+
+#: SwitchingTab.cpp:65
+#, kde-format
+msgid "Activity switching"
+msgstr ""
+
+#: SwitchingTab.cpp:69
+#, kde-format
+msgctxt "@action"
+msgid "Walk through activities"
+msgstr ""
+
+#: SwitchingTab.cpp:72
+#, kde-format
+msgctxt "@action"
+msgid "Walk through activities (Reverse)"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, labelRememberDocuments)
+#: ui/PrivacyTabBase.ui:17
+#, kde-format
+msgid "Remember opened documents:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioRememberAllApplications)
+#: ui/PrivacyTabBase.ui:28
+#, kde-format
+msgid "For a&ll applications"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioDontRememberApplications)
+#: ui/PrivacyTabBase.ui:38
+#, kde-format
+msgid "&Do not remember"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioRememberSpecificApplications)
+#: ui/PrivacyTabBase.ui:45
+#, kde-format
+msgid "O&nly for specific applications"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, labelKeepHistory)
+#: ui/PrivacyTabBase.ui:67
+#, kde-format
+msgid "Keep history"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, buttonClearRecentHistory)
+#: ui/PrivacyTabBase.ui:93
+#, kde-format
+msgid "Clear recent history"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, checkBlacklistAllNotOnList)
+#: ui/PrivacyTabBase.ui:112
+#, kde-format
+msgid "Blacklist all applications not on this list"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, checkRememberVirtualDesktop)
+#: ui/SwitchingTabBase.ui:23
+#, kde-format
+msgid "Remember the current virtual desktop for each activity (needs restart)"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: ui/SwitchingTabBase.ui:33
+#, kde-format
+msgid "Shortcuts"
+msgstr ""

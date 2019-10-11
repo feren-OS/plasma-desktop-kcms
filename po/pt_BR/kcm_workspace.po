@@ -1,0 +1,79 @@
+# Translation of kcmworkspaceoptions.po to Brazilian Portuguese
+# Copyright (C) 2014 This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# André Marcelo Alvarenga <alvarenga@kde.org>, 2014.
+# Luiz Fernando Ranghetti <elchevive@opensuse.org>, 2017, 2018.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmworkspaceoptions\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"PO-Revision-Date: 2018-05-28 18:14-0300\n"
+"Last-Translator: Luiz Fernando Ranghetti <elchevive@opensuse.org>\n"
+"Language-Team: Portuguese <kde-i18n-pt_BR@kde.org>\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 2.0\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "André Marcelo Alvarenga, Luiz Fernando Ranghetti"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "alvarenga@kde.org, elchevive@opensuse.org"
+
+#: package/contents/ui/main.qml:37
+#, kde-format
+msgid "Visual behavior:"
+msgstr "Comportamento do visual:"
+
+#: package/contents/ui/main.qml:38
+#, kde-format
+msgid "Display informational tooltips on mouse hover"
+msgstr "Exibir dicas informativas ao passar com o mouse"
+
+#: package/contents/ui/main.qml:45
+#, kde-format
+msgid "Display visual feedback for status changes"
+msgstr "Exibir retorno visual para alterações de status"
+
+#: package/contents/ui/main.qml:64
+#, kde-format
+msgid "Click behavior:"
+msgstr "Comportamento do clique:"
+
+#: package/contents/ui/main.qml:65
+#, kde-format
+msgid "Single-click to open files and folders"
+msgstr "Clique único para abrir arquivos e pastas"
+
+#: package/contents/ui/main.qml:72
+#, kde-format
+msgid "Double-click to open files and folders (single click to select)"
+msgstr ""
+"Clique duplo para abrir arquivos e pastas (clique único para selecionar)"
+
+#: workspaceoptions.cpp:40
+#, kde-format
+msgid "Plasma Workspace global options"
+msgstr "Opções globais do espaço de trabalho Plasma"
+
+#: workspaceoptions.cpp:42
+#, kde-format
+msgid ""
+"System Settings module for managing global options for the Plasma Workspace."
+msgstr ""
+"Módulo das configurações do sistema para gerenciar as opções globais do "
+"espaço de trabalho Plasma."
+
+#: workspaceoptions.cpp:45
+#, kde-format
+msgid "Furkan Tokac"
+msgstr "Furkan Tokac"

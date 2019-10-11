@@ -1,0 +1,153 @@
+# Balazs Nagy <julian7@kva.hu>
+#
+# Kristóf Kiszel <ulysses@kubuntu.org>, 2010, 2011, 2012, 2014.
+# Balázs Úr <urbalazs@gmail.com>, 2012.
+# Kiszel Kristóf <kiszel.kristof@gmail.com>, 2017.
+msgid ""
+msgstr ""
+"Project-Id-Version: KDE 4.2\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"PO-Revision-Date: 2017-12-11 13:20-0500\n"
+"Last-Translator: Kiszel Kristóf <kiszel.kristof@gmail.com>\n"
+"Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 2.0\n"
+
+#: kcmformats.cpp:45
+#, kde-format
+msgid ""
+"<h1>Formats</h1>You can configure the formats used for time, dates, money "
+"and other numbers here."
+msgstr ""
+"<h1>Formátumok</h1>Itt állíthatja be az idő, a dátumok, a pénz és más számok "
+"formátumait."
+
+#: kcmformats.cpp:102
+#, kde-format
+msgid "No change"
+msgstr "Nincs változás"
+
+#: kcmformats.cpp:139
+#, kde-format
+msgid "%1 - %2 (%3)"
+msgstr "%1 - %2 (%3)"
+
+#: kcmformats.cpp:141
+#, kde-format
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: kcmformats.cpp:274
+#, kde-format
+msgid "Your changes will take effect the next time you log in."
+msgstr "A módosítások a következő bejelentkezéstől érvényesek."
+
+#: kcmformats.cpp:275
+#, kde-format
+msgid "Format Settings Changed"
+msgstr "A formátumbeállítások megváltoztak"
+
+#: kcmformats.cpp:341
+#, kde-format
+msgid "%1 (long format)"
+msgstr "%1 (hosszú formátum)"
+
+#: kcmformats.cpp:342
+#, kde-format
+msgid "%1 (short format)"
+msgstr "%1 (rövid formátum)"
+
+#: kcmformats.cpp:347
+#, kde-format
+msgctxt "Measurement combobox"
+msgid "Imperial UK"
+msgstr "Angolszász (UK)"
+
+#: kcmformats.cpp:349
+#, kde-format
+msgctxt "Measurement combobox"
+msgid "Imperial US"
+msgstr "Angolszász (US)"
+
+#: kcmformats.cpp:351
+#, kde-format
+msgctxt "Measurement combobox"
+msgid "Metric"
+msgstr "Metrikus"
+
+#. i18n: ectx: property (text), widget (QLabel, label_10)
+#: kcmformatswidget.ui:47
+#, kde-format
+msgid "Re&gion:"
+msgstr "Ré&gió:"
+
+#. i18n: ectx: property (text), widget (QCheckBox, checkDetailed)
+#: kcmformatswidget.ui:76
+#, kde-format
+msgid "De&tailed Settings"
+msgstr "Részletes beállí&tások"
+
+#. i18n: ectx: property (text), widget (QLabel, labelNumbers)
+#: kcmformatswidget.ui:83
+#, kde-format
+msgid "&Numbers:"
+msgstr "Szá&mok:"
+
+#. i18n: ectx: property (text), widget (QLabel, labelTime)
+#: kcmformatswidget.ui:112
+#, kde-format
+msgid "&Time:"
+msgstr "&Idő:"
+
+#. i18n: ectx: property (text), widget (QLabel, labelCurrency)
+#: kcmformatswidget.ui:141
+#, kde-format
+msgid "Currenc&y:"
+msgstr "&Pénznem:"
+
+#. i18n: ectx: property (text), widget (QLabel, labelMeasurement)
+#: kcmformatswidget.ui:170
+#, kde-format
+msgid "Measurement &Units:"
+msgstr "Mértékeg&ységek:"
+
+#. i18n: ectx: property (text), widget (QLabel, labelCollate)
+#: kcmformatswidget.ui:199
+#, kde-format
+msgid "Co&llation and Sorting:"
+msgstr "Szétvá&logatás és rendezés:"
+
+#. i18n: ectx: property (text), widget (QLabel, labelMeasurement_2)
+#: kcmformatswidget.ui:238
+#, kde-format
+msgid "<b>Description</b>"
+msgstr "<b>Leírás</b>"
+
+#. i18n: ectx: property (text), widget (QLabel, lexNumbers)
+#: kcmformatswidget.ui:248
+#, kde-format
+msgid "Numbers:"
+msgstr "Számok:"
+
+#. i18n: ectx: property (text), widget (QLabel, lexTime)
+#: kcmformatswidget.ui:268
+#, kde-format
+msgid "Time:"
+msgstr "Idő:"
+
+#. i18n: ectx: property (text), widget (QLabel, lexCurrency)
+#: kcmformatswidget.ui:288
+#, kde-format
+msgid "Currency:"
+msgstr "Pénznem:"
+
+#. i18n: ectx: property (text), widget (QLabel, lexMeasurement_2)
+#: kcmformatswidget.ui:308
+#, kde-format
+msgid "Measurement Units:"
+msgstr "Mértékegységek:"

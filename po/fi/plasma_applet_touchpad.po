@@ -1,0 +1,62 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+# Lasse Liehu <lasse.liehu@gmail.com>, 2013, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"PO-Revision-Date: 2014-01-15 18:52+0200\n"
+"Last-Translator: Lasse Liehu <lasse.liehu@gmail.com>\n"
+"Language-Team: Finnish <lokalisointi@lists.coss.fi>\n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 1.5\n"
+
+#: src/applet/qml/contents/ui/touchpad.qml:50
+#, kde-format
+msgid "No touchpad was found"
+msgstr "Kosketuslevyä ei löydy"
+
+#: src/applet/qml/contents/ui/touchpad.qml:52
+#, kde-format
+msgid "Touchpad is enabled"
+msgstr "Kosketuslevy käytössä"
+
+#: src/applet/qml/contents/ui/touchpad.qml:54
+#, kde-format
+msgid "Touchpad is disabled"
+msgstr "Kosketuslevy ei käytössä"
+
+#: src/applet/qml/contents/ui/touchpad.qml:66
+#, kde-format
+msgid "Disable touchpad"
+msgstr "Poista kosketuslevy käytöstä"
+
+#: src/applet/qml/contents/ui/touchpad.qml:66
+#, kde-format
+msgid "Enable touchpad"
+msgstr "Ota kosketuslevy käyttöön"
+
+#: src/applet/qml/contents/ui/touchpad.qml:149
+#, kde-format
+msgid "Touchpad"
+msgstr "Kosketuslevy"
+
+#: src/applet/qml/contents/ui/touchpad.qml:151
+#, kde-format
+msgid ""
+"No mouse was detected.\n"
+"Are you sure you want to disable the touchpad?"
+msgstr ""
+"Hiirtä ei havaittu.\n"
+"Haluatko varmasti poistaa kosketuslevyn käytöstä?"
+
+#: src/applet/qml/contents/ui/touchpad.qml:152
+#, kde-format
+msgid "Disable"
+msgstr "Poista käytöstä"

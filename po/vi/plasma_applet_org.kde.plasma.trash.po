@@ -1,0 +1,78 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Lê Hoàng Phương, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"PO-Revision-Date: 2013-02-04 09:49+0800\n"
+"Last-Translator: Lê Hoàng Phương\n"
+"Language-Team: Vietnamese <kde-i18n-vi@kde.org>\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.5\n"
+
+#: contents/ui/main.qml:100
+#, fuzzy, kde-format
+#| msgid "&Open"
+msgctxt "a verb"
+msgid "Open"
+msgstr "&Mở"
+
+#: contents/ui/main.qml:101
+#, fuzzy, kde-format
+#| msgctxt "The trash is empty. This is not an action, but a state"
+#| msgid "Empty"
+msgctxt "a verb"
+msgid "Empty"
+msgstr "Không có gì"
+
+#: contents/ui/main.qml:107
+#, kde-format
+msgid "Trash Settings..."
+msgstr ""
+
+#: contents/ui/main.qml:155
+#, fuzzy, kde-format
+#| msgid "Trash"
+msgid ""
+"Trash\n"
+"Empty"
+msgstr "Thùng rác"
+
+#: contents/ui/main.qml:155
+#, fuzzy, kde-format
+#| msgid "One item"
+#| msgid_plural "%1 items"
+msgid ""
+"Trash\n"
+"One item"
+msgid_plural ""
+"Trash\n"
+" %1 items"
+msgstr[0] "%1 mục"
+
+#: contents/ui/main.qml:164
+#, kde-format
+msgid "Trash"
+msgstr "Thùng rác"
+
+#: contents/ui/main.qml:165
+#, fuzzy, kde-format
+#| msgctxt "The trash is empty. This is not an action, but a state"
+#| msgid "Empty"
+msgid "Empty"
+msgstr "Không có gì"
+
+#: contents/ui/main.qml:165
+#, fuzzy, kde-format
+#| msgid "One item"
+#| msgid_plural "%1 items"
+msgid "One item"
+msgid_plural "%1 items"
+msgstr[0] "%1 mục"

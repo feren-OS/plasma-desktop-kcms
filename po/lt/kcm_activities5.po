@@ -1,0 +1,256 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Mindaugas Baranauskas <opensuse.lietuviu.kalba@gmail.com>, 2016.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"PO-Revision-Date: 2016-11-23 20:49+0200\n"
+"Last-Translator: Mindaugas Baranauskas <opensuse.lietuviu.kalba@gmail.com>\n"
+"Language-Team: Lithuanian <kde-i18n-lt@kde.org>\n"
+"Language: lt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : n%10>=2 && (n%100<10 || n"
+"%100>=20) ? 1 : n%10==0 || (n%100>10 && n%100<20) ? 2 : 3);\n"
+"X-Generator: Lokalize 2.0\n"
+
+#: ExtraActivitiesInterface.cpp:46 MainConfigurationWidget.cpp:46
+#, kde-format
+msgid "Activities"
+msgstr "Veiklos"
+
+#: imports/activitysettings.cpp:63
+#, kde-format
+msgctxt "@title:window"
+msgid "Delete Activity"
+msgstr "Pašalinti veiklą"
+
+#: imports/activitysettings.cpp:64
+#, kde-format
+msgid "Are you sure you want to delete '%1'?"
+msgstr "Ar tikrai norite pašalinti „%1“?"
+
+#: imports/dialog.cpp:94
+#, kde-format
+msgid ""
+"Error loading the QML files. Check your installation.\n"
+"Missing %1"
+msgstr ""
+"Klaida įkeliant QML. Patikrinkite sistemoje įdiegtus paketus.\n"
+"Trūksta %1"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: imports/dialog.cpp:158 ui/SwitchingTabBase.ui:17
+#, kde-format
+msgid "General"
+msgstr "Bendra"
+
+#: imports/dialog.cpp:159
+#, kde-format
+msgid "Other"
+msgstr "Kita"
+
+#: imports/dialog.cpp:176
+#, kde-format
+msgctxt "@title:window"
+msgid "Create a New Activity"
+msgstr "Sukurti naują veiklą..."
+
+#: imports/dialog.cpp:177
+#, kde-format
+msgctxt "@title:window"
+msgid "Activity Settings"
+msgstr "Veiklos nuostatos"
+
+#: imports/dialog.cpp:180
+#, kde-format
+msgctxt "@action:button"
+msgid "Create"
+msgstr "Sukurti"
+
+#: imports/qml/activityDialog/components/DialogButtons.qml:44
+#, kde-format
+msgctxt "@action:button"
+msgid "Apply"
+msgstr "Pritaikyti"
+
+#: imports/qml/activityDialog/components/DialogButtons.qml:53
+#, kde-format
+msgctxt "@action:button"
+msgid "Cancel"
+msgstr "Atšaukti"
+
+#: imports/qml/activityDialog/components/ShortcutChooser.qml:36
+#, kde-format
+msgid "Shortcut for switching to this activity:"
+msgstr "Klavišų derinys persijungimui į šią veiklą:"
+
+#: imports/qml/activityDialog/GeneralTab.qml:58
+#, kde-format
+msgid "Activity information"
+msgstr "Veiklos informacija"
+
+#: imports/qml/activityDialog/GeneralTab.qml:66
+#, kde-format
+msgid "Name:"
+msgstr "Pavadinimas:"
+
+#: imports/qml/activityDialog/GeneralTab.qml:73
+#, kde-format
+msgid "Description:"
+msgstr "Aprašas:"
+
+#: imports/qml/activityDialog/GeneralTab.qml:99
+#, kde-format
+msgid "Wallpaper"
+msgstr "Darbalaukio fonas"
+
+#: imports/qml/activityDialog/GeneralTab.qml:105
+#, kde-format
+msgctxt "@action:button"
+msgid "Change..."
+msgstr "Keisti..."
+
+#: imports/qml/activityDialog/GeneralTab.qml:138
+#, kde-format
+msgid "Icon"
+msgstr "Ženkliukas"
+
+#: imports/qml/activityDialog/OtherTab.qml:44
+#, kde-format
+msgid "Private - do not track usage for this activity"
+msgstr "Privatus - nesekti šios veiklos naudojimo"
+
+#: MainConfigurationWidget.cpp:47
+#, kde-format
+msgid "Switching"
+msgstr "Perjungimas"
+
+#: MainConfigurationWidget.cpp:48
+#, kde-format
+msgid "Privacy"
+msgstr "Privatumas"
+
+#: PrivacyTab.cpp:74
+#, kde-format
+msgctxt "unlimited number of months"
+msgid "forever"
+msgstr "amžinai"
+
+#: PrivacyTab.cpp:84
+#, kde-format
+msgid "Forget the last hour"
+msgstr "Pamiršti apie paskutinę valandą"
+
+#: PrivacyTab.cpp:86
+#, kde-format
+msgid "Forget the last two hours"
+msgstr "Pamiršti apie paskutines dvi valandas"
+
+#: PrivacyTab.cpp:88
+#, kde-format
+msgid "Forget a day"
+msgstr "Pamiršti apie paskutinę dieną"
+
+#: PrivacyTab.cpp:90
+#, kde-format
+msgid "Forget everything"
+msgstr "Viską pamiršti"
+
+#: PrivacyTab.cpp:218
+#, kde-format
+msgctxt "unit of time. months to keep the history"
+msgid " month"
+msgid_plural " months"
+msgstr[0] " mėnesį"
+msgstr[1] " mėnesius"
+msgstr[2] " mėnesių"
+msgstr[3] " mėnesį"
+
+#: PrivacyTab.cpp:222
+#, kde-format
+msgctxt "for in 'keep history for 5 months'"
+msgid "for "
+msgstr " "
+
+#: qml/activitiesTab/ActivitiesView.qml:37
+#, kde-format
+msgid "Create activity..."
+msgstr "Sukurti veiklą..."
+
+#: SwitchingTab.cpp:65
+#, kde-format
+msgid "Activity switching"
+msgstr "Persijungimas tarp veiklų"
+
+#: SwitchingTab.cpp:69
+#, kde-format
+msgctxt "@action"
+msgid "Walk through activities"
+msgstr "Eiti per veiklas"
+
+#: SwitchingTab.cpp:72
+#, kde-format
+msgctxt "@action"
+msgid "Walk through activities (Reverse)"
+msgstr "Eiti per veiklas (atvirkščiai)"
+
+#. i18n: ectx: property (text), widget (QLabel, labelRememberDocuments)
+#: ui/PrivacyTabBase.ui:17
+#, kde-format
+msgid "Remember opened documents:"
+msgstr "Prisiminti atvertus dokumentus:"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioRememberAllApplications)
+#: ui/PrivacyTabBase.ui:28
+#, kde-format
+msgid "For a&ll applications"
+msgstr "&Visų programų"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioDontRememberApplications)
+#: ui/PrivacyTabBase.ui:38
+#, kde-format
+msgid "&Do not remember"
+msgstr "&Neprisiminti"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioRememberSpecificApplications)
+#: ui/PrivacyTabBase.ui:45
+#, kde-format
+msgid "O&nly for specific applications"
+msgstr "&Tik nurodytoms programoms"
+
+#. i18n: ectx: property (text), widget (QLabel, labelKeepHistory)
+#: ui/PrivacyTabBase.ui:67
+#, kde-format
+msgid "Keep history"
+msgstr "Žurnale įrašus laikyti"
+
+#. i18n: ectx: property (text), widget (QPushButton, buttonClearRecentHistory)
+#: ui/PrivacyTabBase.ui:93
+#, kde-format
+msgid "Clear recent history"
+msgstr "Išvalyti naujausius žurnalo įrašus"
+
+#. i18n: ectx: property (text), widget (QCheckBox, checkBlacklistAllNotOnList)
+#: ui/PrivacyTabBase.ui:112
+#, kde-format
+msgid "Blacklist all applications not on this list"
+msgstr "Jei programos nėra šiame sąraše, jas įtraukti į juodąjį sąrašą"
+
+#. i18n: ectx: property (text), widget (QCheckBox, checkRememberVirtualDesktop)
+#: ui/SwitchingTabBase.ui:23
+#, kde-format
+msgid "Remember the current virtual desktop for each activity (needs restart)"
+msgstr ""
+"Įsiminti paskirų veiklų paskiausiai naudotus darbalaukius (reikia paleisti "
+"iš naujo)"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: ui/SwitchingTabBase.ui:33
+#, kde-format
+msgid "Shortcuts"
+msgstr "Klavišų deriniai"

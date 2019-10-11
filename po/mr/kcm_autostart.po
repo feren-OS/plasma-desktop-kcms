@@ -1,0 +1,202 @@
+# translation of kcm_autostart.po to marathi
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Sandeep Shedmake <sandeep.shedmake@gmail.com>, 2009.
+# Chetan Khona <chetan@kompkin.com>, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcm_autostart\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"PO-Revision-Date: 2013-02-25 14:03+0530\n"
+"Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
+"Language-Team: American English <kde-i18n-doc@kde.org>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+"संदिप शेडमाके, \n"
+"चेतन खोना"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
+"sandeep.shedmake@gmail.com, \n"
+"chetan@kompkin.com"
+
+#: addscriptdialog.cpp:40
+#, kde-format
+msgid "Shell script path:"
+msgstr "शेल स्क्रिप्ट मार्ग :"
+
+#: addscriptdialog.cpp:44
+#, kde-format
+msgid "Create as symlink"
+msgstr "symlink नुरूप बनवा"
+
+#: addscriptdialog.cpp:79
+#, kde-format
+msgid "\"%1\" is not an absolute path."
+msgstr "\"%1\" हा संपूर्ण मार्ग नाही."
+
+#: addscriptdialog.cpp:82
+#, kde-format
+msgid "\"%1\" does not exist."
+msgstr "\"%1\" अस्तित्वात नाही."
+
+#: addscriptdialog.cpp:85
+#, kde-format
+msgid "\"%1\" is not a file."
+msgstr "\"%1\" ही फाईल नाही."
+
+#: addscriptdialog.cpp:88
+#, kde-format
+msgid "\"%1\" is not readable."
+msgstr "\"%1\" हे वाचता येण्याजोगे नाही."
+
+#: advanceddialog.cpp:32
+#, fuzzy, kde-format
+#| msgid "Autostart only in KDE"
+msgid "Autostart only in Plasma"
+msgstr "फक्त केडीई अंतर्गत स्वयंप्रारंभ करा"
+
+#: autostart.cpp:53
+#, kde-format
+msgid "Name"
+msgstr "नाव"
+
+#: autostart.cpp:54
+#, kde-format
+msgid "Command"
+msgstr "आदेश"
+
+#: autostart.cpp:55
+#, kde-format
+msgid "Status"
+msgstr "स्थिती"
+
+#: autostart.cpp:56
+#, fuzzy, kde-format
+#| msgctxt ""
+#| "@title:column The name of the column that decides if the program is run "
+#| "on kde startup, on kde shutdown, etc"
+#| msgid "Run On"
+msgctxt ""
+"@title:column The name of the column that decides if the program is run on "
+"session startup, on session shutdown, etc"
+msgid "Run On"
+msgstr "चालवा"
+
+#: autostart.cpp:75
+#, fuzzy, kde-format
+#| msgid "KDE Autostart Manager"
+msgid "Session Autostart Manager"
+msgstr "केडीई स्वयंप्रारंभ व्यवस्थापक"
+
+#: autostart.cpp:77
+#, fuzzy, kde-format
+#| msgid "KDE Autostart Manager Control Panel Module"
+msgid "Session Autostart Manager Control Panel Module"
+msgstr "केडीई स्वयंप्रारंभ व्यवस्थापक नियंत्रण पटल विभाग"
+
+#: autostart.cpp:79
+#, kde-format
+msgid "Copyright © 2006–2010 Autostart Manager team"
+msgstr "सर्वाधिकार © 2006–2010 स्वयंप्रारंभ व्यवस्थापक समूह"
+
+#: autostart.cpp:80
+#, kde-format
+msgid "Stephen Leaf"
+msgstr "स्टीफन लीफ"
+
+#: autostart.cpp:81
+#, kde-format
+msgid "Montel Laurent"
+msgstr "मोन्टेल लोरेन्ट"
+
+#: autostart.cpp:81
+#, kde-format
+msgid "Maintainer"
+msgstr "पालक"
+
+#: autostart.cpp:108 autostart.cpp:122
+#, kde-format
+msgctxt "The program won't be run"
+msgid "Disabled"
+msgstr "अकार्यान्वित"
+
+#: autostart.cpp:110 autostart.cpp:122 autostartitem.cpp:77
+#, kde-format
+msgctxt "The program will be run"
+msgid "Enabled"
+msgstr "कार्यान्वित"
+
+#: autostart.cpp:156
+#, kde-format
+msgid "Startup"
+msgstr "सुरुवातीस"
+
+#: autostart.cpp:157
+#, kde-format
+msgid "Logout"
+msgstr ""
+
+#: autostart.cpp:158
+#, kde-format
+msgid "Before session startup"
+msgstr ""
+
+#: autostart.cpp:163
+#, kde-format
+msgid "Desktop File"
+msgstr "डेस्कटॉप फाईल"
+
+#: autostart.cpp:171
+#, kde-format
+msgid "Script File"
+msgstr "स्क्रिप्ट फाईल"
+
+#: autostart.cpp:447
+#, kde-format
+msgid ""
+"Only files with “.sh” extensions are allowed for setting up the environment."
+msgstr "वातावरण संयोजीत करण्याकरिता फक्त \".sh\" विस्तारण असलेल्या फाईल्स चालतात."
+
+#. i18n: ectx: property (text), widget (QPushButton, btnProperties)
+#: autostartconfig.ui:17
+#, kde-format
+msgid "&Properties..."
+msgstr "गुणधर्म (&P)..."
+
+#. i18n: ectx: property (text), widget (QPushButton, btnAddScript)
+#: autostartconfig.ui:24
+#, kde-format
+msgid "Add Script..."
+msgstr "स्क्रिप्ट जोडा..."
+
+#. i18n: ectx: property (text), widget (QPushButton, btnRemove)
+#: autostartconfig.ui:46
+#, kde-format
+msgid "&Remove"
+msgstr "काढून टाका (&R)"
+
+#. i18n: ectx: property (text), widget (QPushButton, btnAdvanced)
+#: autostartconfig.ui:53
+#, kde-format
+msgid "Advanced..."
+msgstr "प्रगत..."
+
+#. i18n: ectx: property (text), widget (QPushButton, btnAddProgram)
+#: autostartconfig.ui:60
+#, kde-format
+msgid "Add Program..."
+msgstr "कार्यक्रम जोडा..."

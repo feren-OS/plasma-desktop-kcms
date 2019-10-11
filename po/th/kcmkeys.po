@@ -1,0 +1,225 @@
+# translation of kcmkeys.po to Thai
+# Copyright (C) 2003, 2005, 2007, 2008 Free Software Foundation, Inc.
+#
+# Thanomsub Noppaburana <donga_n@yahoo.com>, 2003, 2005.
+# Sahachart Anukulkitch <drrider@gmail.com>, 2005, 2007.
+# Thanomsub Noppaburana <donga.nb@gmail.com>, 2008, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmkeys\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"PO-Revision-Date: 2010-02-27 23:33+0700\n"
+"Last-Translator: Thanomsub Noppaburana <donga.nb@gmail.com>\n"
+"Language-Team: Thai <thai-l10n@googlegroups.com>\n"
+"Language: th\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. i18n: ectx: property (text), widget (QLabel, components_label)
+#: export_scheme_dialog.ui:17
+#, kde-format
+msgid "Select the Components to Export"
+msgstr "เลือกส่วนประกอบที่จะส่งออก"
+
+#. i18n: ectx: property (title), widget (QGroupBox, components)
+#: export_scheme_dialog.ui:27
+#, kde-format
+msgid "Components"
+msgstr "ส่วนประกอบ"
+
+#: globalshortcuts.cpp:67
+#, kde-format
+msgid "You are about to reset all shortcuts to their default values."
+msgstr "คุณต้องการจะตั้งค่าปุ่มพิมพ์ลัดทั้งหมดให้กลับไปใช้ค่าปริยายของพวกมัน"
+
+#: globalshortcuts.cpp:68
+#, kde-format
+msgid "Reset to defaults"
+msgstr "กลับไปใช้ค่าปริยาย"
+
+#: globalshortcuts.cpp:69
+#, kde-format
+msgid "Current Component"
+msgstr "ส่วนประกอบปัจจุบัน"
+
+#: globalshortcuts.cpp:70
+#, kde-format
+msgid "All Components"
+msgstr "ส่วนประกอบทั้งหมด"
+
+#: kglobalshortcutseditor.cpp:231
+#, kde-format
+msgid "Import Scheme..."
+msgstr "นำเข้าชุดปุ่มพิมพ์..."
+
+#: kglobalshortcutseditor.cpp:232
+#, kde-format
+msgid "Export Scheme..."
+msgstr "ส่งออกชุดปุ่มพิมพ์..."
+
+#: kglobalshortcutseditor.cpp:233
+#, kde-format
+msgid "Set All Shortcuts to None"
+msgstr "ตั้งปุ่มพิมพ์ลัดทั้งหมดให้ไม่มีปุ่มลัด"
+
+#: kglobalshortcutseditor.cpp:241
+#, kde-format
+msgid "Applications"
+msgstr ""
+
+#: kglobalshortcutseditor.cpp:292
+#, kde-format
+msgid "Launch %1"
+msgstr ""
+
+#: kglobalshortcutseditor.cpp:328
+#, kde-format
+msgid ""
+"Component '%1' is currently active. Only global shortcuts currently not "
+"active will be removed from the list.\n"
+"All global shortcuts will reregister themselves with their defaults when "
+"they are next started."
+msgstr ""
+"ส่วนประกอบ '%1' นั้นทำงานอยู่แล้วในปัจจุบัน มีเพียงปุ่มพิมพ์ลัดใช้งานส่วนรวม ที่ไม่มีทำงานอยู่เท่านั้น "
+"ที่จะถูกเอาอออกไปจากรายการได้\n"
+"ปุ่มพิมพ์ลัดใช้งานส่วนรวมทั้งหมดจะทำการลงทะเบียนตัวมันเองด้วยค่าปริยายของพวกมัน "
+"เมื่อเริ่มการทำงานในครั้งหน้า"
+
+#: kglobalshortcutseditor.cpp:330 kglobalshortcutseditor.cpp:340
+#, kde-format
+msgid "Remove component"
+msgstr "ลบส่วนประกอบ"
+
+#: kglobalshortcutseditor.cpp:336
+#, kde-format
+msgid ""
+"Are you sure you want to remove the registered shortcuts for component '%1'? "
+"The component and shortcuts will reregister themselves with their default "
+"settings when they are next started."
+msgstr ""
+"คุณแน่ใจหรือไม่ว่า ต้องการจะเอาปุ่มพิมพ์ลัดที่ถูกลงทะเบียนไว้สำหรับส่วนประกอบ '%1' ออก ? "
+"ส่วนประกอบและปุ่มพิมพ์ลัดต่าง ๆ จะทำการลงทะเบียนตัวมันเองด้วยค่าปริยายของพวกมัน "
+"เมื่อเริ่มการทำงานในครั้งหน้า"
+
+#: kglobalshortcutseditor.cpp:450
+#, kde-format
+msgid "Application Launchers"
+msgstr ""
+
+#: kglobalshortcutseditor.cpp:453
+#, fuzzy, kde-format
+#| msgid "Shortcuts:"
+msgid "Other Shortcuts"
+msgstr "ปุ่มพิมพ์ลัด:"
+
+#: kglobalshortcutseditor.cpp:558
+#, kde-format
+msgid ""
+"Your current changes will be lost if you load another scheme before saving "
+"this one"
+msgstr ""
+"การเปลี่ยนแปลงในปัจจุบันของคุณจะสูญหายไป หากคุณโหลดชุดแป้นพิมพ์อื่น ๆ "
+"ก่อนจะทำการบันทึกสิ่งที่ตั้งไว้นี้"
+
+#: kglobalshortcutseditor.cpp:559
+#, kde-format
+msgid "Load Shortcut Scheme"
+msgstr "โหลดชุดปุ่มพิมพ์ลัด"
+
+#: kglobalshortcutseditor.cpp:560
+#, kde-format
+msgid "Load"
+msgstr "โหลด"
+
+#: kglobalshortcutseditor.cpp:573
+#, kde-format
+msgid "This file (%1) does not exist. You can only select local files."
+msgstr "ยังไม่มีแฟ้ม (%1) อยู่ คุณสามารถเลือกได้เพียงแฟ้มภายในเครื่องเท่านั้น"
+
+#: kglobalshortcutseditor.cpp:601 kglobalshortcutseditor.cpp:624
+#, kde-format
+msgid ""
+"Message: %1\n"
+"Error: %2"
+msgstr ""
+"ข้อความ: %1\n"
+"ข้อผิดพลาด: %2"
+
+#: kglobalshortcutseditor.cpp:606 kglobalshortcutseditor.cpp:629
+#, kde-format
+msgid "Failed to contact the KDE global shortcuts daemon\n"
+msgstr "ล้มเหลวในการติดต่อกับดีมอนปุ่มพิมพ์ลัดส่วนรวมของ KDE\n"
+
+#. i18n: ectx: property (text), widget (QLabel, componentLabel)
+#: kglobalshortcutseditor.ui:37
+#, fuzzy, kde-format
+#| msgid "Components"
+msgid "Component:"
+msgstr "ส่วนประกอบ"
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, addButton)
+#: kglobalshortcutseditor.ui:77
+#, kde-format
+msgid "Add a new shortcut to an Application..."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QToolButton, addButton)
+#. i18n: ectx: property (text), widget (QToolButton, removeButton)
+#: kglobalshortcutseditor.ui:80 kglobalshortcutseditor.ui:90
+#, kde-format
+msgid "..."
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, removeButton)
+#: kglobalshortcutseditor.ui:87
+#, fuzzy, kde-format
+#| msgid "Remove component"
+msgid "Remove the selected component"
+msgstr "ลบส่วนประกอบ"
+
+#. i18n: ectx: property (text), widget (QPushButton, menu_button)
+#: kglobalshortcutseditor.ui:110
+#, kde-format
+msgid "File"
+msgstr "แฟ้ม"
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, SelectApplicationDialog)
+#: select_application.ui:14
+#, kde-format
+msgid "Select Application"
+msgstr ""
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, SelectSchemeDialog)
+#. i18n: ectx: property (placeholderText), widget (KUrlRequester, m_url)
+#: select_scheme_dialog.ui:15 select_scheme_dialog.ui:123
+#, kde-format
+msgid "Select Shortcut Scheme"
+msgstr "เลือกชุดปุ่มพิมพ์ลัด"
+
+#. i18n: ectx: property (whatsThis), widget (QLabel, label)
+#: select_scheme_dialog.ui:39
+#, kde-format
+msgid "Select one of the standard KDE shortcut schemes"
+msgstr "เลือกชุดปุ่มพิมพ์ลัดมาตรฐานตัวใดตัวหนึ่งของ KDE"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: select_scheme_dialog.ui:42
+#, kde-format
+msgid "&Standard scheme:"
+msgstr "ชุดปุ่มพิมพ์&มาตรฐาน:"
+
+#. i18n: ectx: property (whatsThis), widget (QLabel, label_2)
+#: select_scheme_dialog.ui:92
+#, kde-format
+msgid "Select a shortcut scheme file"
+msgstr "เลือกแฟ้มชุดปุ่มพิมพ์ลัด"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: select_scheme_dialog.ui:95
+#, kde-format
+msgid "&Path:"
+msgstr "เส้นทาง (&Path):"

@@ -1,0 +1,509 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Volkan Gezer <volkangezer@gmail.com>, 2013, 2014, 2015, 2017.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"PO-Revision-Date: 2017-10-04 12:15+0000\n"
+"Last-Translator: Kaan <kaanozdincer@gmail.com>\n"
+"Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 2.0\n"
+"X-POOTLE-MTIME: 1413102230.000000\n"
+
+#: package/contents/config/config.qml:26
+#, kde-format
+msgid "General"
+msgstr "Genel"
+
+#: package/contents/ui/code/tools.js:55
+#, kde-format
+msgid "Remove from Favorites"
+msgstr "Sık Kullanılanlardan Kaldır"
+
+#: package/contents/ui/code/tools.js:59
+#, kde-format
+msgid "Add to Favorites"
+msgstr "Sık Kullanılanlara Ekle"
+
+#: package/contents/ui/code/tools.js:83
+#, kde-format
+msgid "On All Activities"
+msgstr "Tüm Etkinliklerde"
+
+#: package/contents/ui/code/tools.js:133
+#, kde-format
+msgid "On The Current Activity"
+msgstr "Sadece Geçerli Etkinlikte"
+
+#: package/contents/ui/code/tools.js:147
+#, kde-format
+msgid "Show In Favorites"
+msgstr "Sık Kullanılanlarda Göster"
+
+#: package/contents/ui/ConfigGeneral.qml:58
+#, kde-format
+msgid "Icon:"
+msgstr "Simge:"
+
+#: package/contents/ui/ConfigGeneral.qml:138
+#, kde-format
+msgctxt "@item:inmenu Open icon chooser dialog"
+msgid "Choose..."
+msgstr "Seç..."
+
+#: package/contents/ui/ConfigGeneral.qml:143
+#, kde-format
+msgctxt "@item:inmenu Reset icon to default"
+msgid "Clear Icon"
+msgstr "Simgeyi temizle"
+
+#: package/contents/ui/ConfigGeneral.qml:161
+#, kde-format
+msgid "Show applications as:"
+msgstr "Uygulamaları göster:"
+
+#: package/contents/ui/ConfigGeneral.qml:163
+#, kde-format
+msgid "Name only"
+msgstr "Sadece isim"
+
+#: package/contents/ui/ConfigGeneral.qml:163
+#, kde-format
+msgid "Description only"
+msgstr "Yalnızca tanım"
+
+#: package/contents/ui/ConfigGeneral.qml:163
+#, kde-format
+msgid "Name (Description)"
+msgstr "İsim (Açıklama)"
+
+#: package/contents/ui/ConfigGeneral.qml:163
+#, kde-format
+msgid "Description (Name)"
+msgstr "Açıklama (İsim)"
+
+#: package/contents/ui/ConfigGeneral.qml:173
+#, fuzzy, kde-format
+#| msgid "Behavior"
+msgid "Behavior:"
+msgstr "Davranış"
+
+#: package/contents/ui/ConfigGeneral.qml:175
+#, fuzzy, kde-format
+#| msgid "Sort alphabetically"
+msgid "Sort applications alphabetically"
+msgstr "Alfabetik olarak sırala"
+
+#: package/contents/ui/ConfigGeneral.qml:183
+#, fuzzy, kde-format
+#| msgid "Flatten menu to a single level"
+msgid "Flatten sub-menus to a single level"
+msgstr "Tek bir seviyede düzleştirilmiş menü"
+
+#: package/contents/ui/ConfigGeneral.qml:194
+#, fuzzy, kde-format
+#| msgid "Categories"
+msgid "Show categories:"
+msgstr "Kategoriler"
+
+#: package/contents/ui/ConfigGeneral.qml:197
+#, fuzzy, kde-format
+#| msgid "Recent Applications"
+msgid "Recent applications"
+msgstr "Son Kullanılan Uygulamalar"
+
+#: package/contents/ui/ConfigGeneral.qml:198
+#, fuzzy, kde-format
+#| msgid "Often Used Applications"
+msgid "Often used applications"
+msgstr "Sıkça Kullanılan Uygulamalar"
+
+#: package/contents/ui/ConfigGeneral.qml:205
+#, fuzzy, kde-format
+#| msgid "Recent documents:"
+msgid "Recent documents"
+msgstr "Son kullanılan belgeler:"
+
+#: package/contents/ui/ConfigGeneral.qml:206
+#, fuzzy, kde-format
+#| msgid "Often Used Documents"
+msgid "Often used documents"
+msgstr "Sıkça Kullanılan Belgeler"
+
+#: package/contents/ui/ConfigGeneral.qml:213
+#, fuzzy, kde-format
+#| msgid "Recent Contacts"
+msgid "Recent contacts"
+msgstr "Son Bağlantılar"
+
+#: package/contents/ui/ConfigGeneral.qml:214
+#, fuzzy, kde-format
+#| msgid "Show often used contacts"
+msgid "Often used contacts"
+msgstr "Sıkça kullanılan kişileri göster"
+
+#: package/contents/ui/ConfigGeneral.qml:220
+#, kde-format
+msgid "Sort items in categories by:"
+msgstr ""
+
+#: package/contents/ui/ConfigGeneral.qml:221
+#, fuzzy, kde-format
+#| msgid "Recently used"
+msgctxt ""
+"@item:inlistbox Sort items in categories by [Recently used | Often used]"
+msgid "Recently used"
+msgstr "Yakın zamanda kullanılanlar"
+
+#: package/contents/ui/ConfigGeneral.qml:221
+#, fuzzy, kde-format
+#| msgid "Often used"
+msgctxt ""
+"@item:inlistbox Sort items in categories by [Recently used | Ofetn used]"
+msgid "Often used"
+msgstr "Sıkça kullanılan"
+
+#: package/contents/ui/ConfigGeneral.qml:231
+#, fuzzy, kde-format
+#| msgid "Search"
+msgid "Search:"
+msgstr "Ara"
+
+#: package/contents/ui/ConfigGeneral.qml:233
+#, kde-format
+msgid "Expand search to bookmarks, files and emails"
+msgstr "Aramayı yer imlerine, dosyalara ve e-postalara genişlet"
+
+#: package/contents/ui/ConfigGeneral.qml:241
+#, kde-format
+msgid "Align search results to bottom"
+msgstr "Arama sonuçlarını aşağıya hizala"
+
+#: package/contents/ui/DashboardRepresentation.qml:305
+#, kde-format
+msgid "Searching for '%1'"
+msgstr "'%1' aranıyor"
+
+#: package/contents/ui/DashboardRepresentation.qml:305
+#, fuzzy, kde-format
+#| msgid "Type to search."
+msgid "Type to search..."
+msgstr "Aramak için yazın."
+
+#: package/contents/ui/DashboardRepresentation.qml:405
+#: plugin/kastatsfavoritesmodel.cpp:494 plugin/simplefavoritesmodel.cpp:43
+#, kde-format
+msgid "Favorites"
+msgstr "Sık Kullanılanlar"
+
+#: package/contents/ui/DashboardRepresentation.qml:622
+#: package/contents/ui/DashboardTabBar.qml:55
+#, kde-format
+msgid "Widgets"
+msgstr "Gereçler"
+
+#: package/contents/ui/DashboardTabBar.qml:44
+#, kde-format
+msgid "Apps & Docs"
+msgstr "Uygulamalar & Belgeler"
+
+#: package/contents/ui/main.qml:272
+#, kde-format
+msgid "Edit Applications..."
+msgstr "Uygulamaları Düzenle..."
+
+#: package/contents/ui/MenuRepresentation.qml:319
+#, kde-format
+msgid "Search..."
+msgstr "Ara..."
+
+#: plugin/actionlist.cpp:95
+#, kde-format
+msgid "Open with:"
+msgstr "Birlikte aç:"
+
+#: plugin/actionlist.cpp:108
+#, kde-format
+msgid "Properties"
+msgstr "Özellikler"
+
+#: plugin/actionlist.cpp:153
+#, kde-format
+msgid "Add to Desktop"
+msgstr "Masaüstüne Ekle"
+
+#: plugin/actionlist.cpp:157
+#, kde-format
+msgid "Add to Panel (Widget)"
+msgstr "Panele Ekle (Gereç)"
+
+#: plugin/actionlist.cpp:161
+#, kde-format
+msgid "Pin to Task Manager"
+msgstr "Görev Yöneticisine Sabitle"
+
+#: plugin/actionlist.cpp:270 plugin/rootmodel.cpp:390
+#, kde-format
+msgid "Recent Documents"
+msgstr "Son Kullanılan Belgeler"
+
+#: plugin/actionlist.cpp:280
+#, kde-format
+msgid "Forget Recent Documents"
+msgstr "Son Kullanılan Belgeleri Unut"
+
+#: plugin/actionlist.cpp:336
+#, kde-format
+msgid "Edit Application..."
+msgstr "Uygulamayı Düzenle..."
+
+#: plugin/actionlist.cpp:383
+#, kde-format
+msgctxt "@action opens a software center with the application"
+msgid "Manage '%1'..."
+msgstr "'%1' uygulamasını yönet..."
+
+#: plugin/appentry.cpp:178
+#, kde-format
+msgid "Hide Application"
+msgstr "Uygulamayı Gizle"
+
+#: plugin/appentry.cpp:237
+#, kde-format
+msgctxt "App name (Generic name)"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: plugin/appentry.cpp:239
+#, kde-format
+msgctxt "Generic name (App name)"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: plugin/appsmodel.cpp:45 plugin/appsmodel.cpp:69 plugin/computermodel.cpp:110
+#: plugin/computermodel.cpp:242 plugin/recentusagemodel.cpp:149
+#: plugin/recentusagemodel.cpp:209
+#, kde-format
+msgid "Applications"
+msgstr "Uygulamalar"
+
+#: plugin/appsmodel.cpp:165
+#, kde-format
+msgid "Unhide Applications in this Submenu"
+msgstr "Bu alt menüdeki Uygulamaları görünür yap"
+
+#: plugin/appsmodel.cpp:171
+#, kde-format
+msgid "Unhide Applications in '%1'"
+msgstr "'%1' Uygulamalarını Görünür Yap"
+
+#: plugin/computermodel.cpp:104
+#, kde-format
+msgid "Run Command..."
+msgstr "Komut Çalıştır..."
+
+#: plugin/computermodel.cpp:108
+#, kde-format
+msgid "Run a command or a search query"
+msgstr "Bir komut çalıştır veya arama sorgusu yap"
+
+#: plugin/computermodel.cpp:161
+#, kde-format
+msgid "Computer"
+msgstr "Bilgisayar"
+
+#: plugin/contactentry.cpp:117 plugin/recentcontactsmodel.cpp:93
+#, kde-format
+msgid "Show Contact Information..."
+msgstr "Bağlantı Bilgisini Göster..."
+
+#: plugin/recentcontactsmodel.cpp:52
+#, kde-format
+msgid "Contacts"
+msgstr "Bağlantılar"
+
+#: plugin/recentcontactsmodel.cpp:85
+#, kde-format
+msgid "Forget Contact"
+msgstr "Bağlantıyı Unut"
+
+#: plugin/recentcontactsmodel.cpp:88 plugin/recentcontactsmodel.cpp:165
+#, kde-format
+msgid "Forget All Contacts"
+msgstr "Tüm Bağlantıları Unut"
+
+#: plugin/recentusagemodel.cpp:147
+#, kde-format
+msgid "Recently Used"
+msgstr "Yakın Zamanda Kullanılanlar"
+
+#: plugin/recentusagemodel.cpp:152 plugin/recentusagemodel.cpp:263
+#, kde-format
+msgid "Documents"
+msgstr "Belgeler"
+
+#: plugin/recentusagemodel.cpp:227
+#, kde-format
+msgid "Forget Application"
+msgstr "Uygulamayı Unut"
+
+#: plugin/recentusagemodel.cpp:275
+#, kde-format
+msgid "Forget Document"
+msgstr "Belgeyi Unut"
+
+#: plugin/recentusagemodel.cpp:403
+#, kde-format
+msgid "Forget All"
+msgstr "Tümünü Unut"
+
+#: plugin/recentusagemodel.cpp:405
+#, kde-format
+msgid "Forget All Applications"
+msgstr "Tüm Uygulamaları Unut"
+
+#: plugin/recentusagemodel.cpp:408
+#, kde-format
+msgid "Forget All Documents"
+msgstr "Tüm Belgeleri Unut"
+
+#: plugin/rootmodel.cpp:106
+#, kde-format
+msgid "Hide %1"
+msgstr "%1 Gizle"
+
+#: plugin/rootmodel.cpp:376
+#, kde-format
+msgid "All Applications"
+msgstr "Tüm Uygulamalar"
+
+#: plugin/rootmodel.cpp:382
+#, kde-format
+msgid "Recent Contacts"
+msgstr "Son Bağlantılar"
+
+#: plugin/rootmodel.cpp:391
+#, kde-format
+msgid "Often Used Documents"
+msgstr "Sıkça Kullanılan Belgeler"
+
+#: plugin/rootmodel.cpp:401
+#, kde-format
+msgid "Recent Applications"
+msgstr "Son Kullanılan Uygulamalar"
+
+#: plugin/rootmodel.cpp:402
+#, kde-format
+msgid "Often Used Applications"
+msgstr "Sıkça Kullanılan Uygulamalar"
+
+#: plugin/rootmodel.cpp:416
+#, kde-format
+msgid "Power / Session"
+msgstr "Güç / Oturum"
+
+#: plugin/runnermodel.cpp:238
+#, kde-format
+msgid "Search results"
+msgstr "Arama sonuçları"
+
+#: plugin/systementry.cpp:166
+#, kde-format
+msgid "Lock"
+msgstr "Kilitle"
+
+#: plugin/systementry.cpp:169
+#, kde-format
+msgid "Log Out"
+msgstr ""
+
+#: plugin/systementry.cpp:172 plugin/systementry.cpp:240
+#, kde-format
+msgid "Save Session"
+msgstr "Oturumu Kaydet"
+
+#: plugin/systementry.cpp:175
+#, kde-format
+msgid "Switch User"
+msgstr "Kullanıcı Değiştir"
+
+#: plugin/systementry.cpp:178
+#, kde-format
+msgctxt "Suspend to RAM"
+msgid "Sleep"
+msgstr ""
+
+#: plugin/systementry.cpp:181
+#, kde-format
+msgid "Hibernate"
+msgstr "Hazırda Beklet"
+
+#: plugin/systementry.cpp:184
+#, kde-format
+msgid "Restart"
+msgstr "Yeniden Başlat"
+
+#: plugin/systementry.cpp:187
+#, kde-format
+msgid "Shut Down"
+msgstr "Kapat"
+
+#: plugin/systementry.cpp:200 plugin/systementry.cpp:203
+#: plugin/systementry.cpp:206 plugin/systementry.cpp:209
+#, kde-format
+msgid "Session"
+msgstr "Oturum"
+
+#: plugin/systementry.cpp:212 plugin/systementry.cpp:215
+#: plugin/systementry.cpp:218 plugin/systementry.cpp:221
+#, kde-format
+msgid "System"
+msgstr "Sistem"
+
+#: plugin/systementry.cpp:234
+#, kde-format
+msgid "Lock screen"
+msgstr "Ekranı kilitle"
+
+#: plugin/systementry.cpp:237
+#, kde-format
+msgid "End session"
+msgstr "Oturumu sonlandır"
+
+#: plugin/systementry.cpp:243
+#, kde-format
+msgid "Start a parallel session as a different user"
+msgstr "Farklı bir kullanıcı olarak paralel oturum başlat"
+
+#: plugin/systementry.cpp:246
+#, kde-format
+msgid "Suspend to RAM"
+msgstr "RAM ile askıya al"
+
+#: plugin/systementry.cpp:249
+#, kde-format
+msgid "Suspend to disk"
+msgstr "Disk ile askıya al"
+
+#: plugin/systementry.cpp:252
+#, kde-format
+msgid "Restart computer"
+msgstr "Bilgisayarı yeniden başlat"
+
+#: plugin/systementry.cpp:255
+#, kde-format
+msgid "Turn off computer"
+msgstr "Bilgisayarı kapat"
+
+#: plugin/systemmodel.cpp:75
+#, kde-format
+msgid "System actions"
+msgstr "Sistem eylemleri"

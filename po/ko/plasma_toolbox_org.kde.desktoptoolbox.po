@@ -1,0 +1,43 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+# Shinjo Park <kde@peremen.name>, 2014, 2015, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"PO-Revision-Date: 2019-04-12 01:10+0100\n"
+"Last-Translator: Shinjo Park <kde@peremen.name>\n"
+"Language-Team: Korean <kde-kr@kde.org>\n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 2.0\n"
+
+#: contents/ui/ToolBoxButton.qml:30
+#, kde-format
+msgid "Default"
+msgstr "기본값"
+
+#: contents/ui/ToolBoxButton.qml:30
+#, kde-format
+msgid "Desktop Toolbox"
+msgstr "데스크톱 도구 상자"
+
+#: contents/ui/ToolBoxButton.qml:30
+#, kde-format
+msgid "Desktop Toolbox — %1 Activity"
+msgstr "데스크톱 도구 상자 — %1 활동"
+
+#: contents/ui/ToolBoxItem.qml:89
+#, kde-format
+msgid "Lock Screen"
+msgstr "화면 잠그기"
+
+#: contents/ui/ToolBoxItem.qml:99
+#, kde-format
+msgid "Leave"
+msgstr "떠나기"

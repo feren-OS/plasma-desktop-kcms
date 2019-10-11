@@ -1,0 +1,274 @@
+# translation of kcmstyle.po to Khmer
+# Khoem Sokhem <khoemsokhem@khmeros.info>, 2005, 2007, 2008, 2009, 2010.
+# Auk Piseth <piseth_dv@khmeros.info>, 2007, 2008.
+# Eng Vannak <evannak@khmeros.info>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmstyle\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"PO-Revision-Date: 2010-11-12 09:11+0700\n"
+"Last-Translator: Khoem Sokhem <khoemsokhem@khmeros.info>\n"
+"Language-Team: Khmer <support@khmeros.info>\n"
+"Language: km\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "ខឹម សុខែម, អេង វណ្ណៈ, អោក ពិសិដ្ឋ​​"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "khoemsokhem@khmeros.info,​​evannak@khmeros.info,piseth_dv@khmeros.info"
+
+#: kcmstyle.cpp:173
+#, fuzzy, kde-format
+#| msgid ""
+#| "<h1>Style</h1>This module allows you to modify the visual appearance of "
+#| "user interface elements, such as the widget style and effects."
+msgid ""
+"This module allows you to modify the visual appearance of applications' user "
+"interface elements."
+msgstr ""
+"<h1>រចនាប័ទ្ម</h1>ម៉ូឌុល​នេះ​អនុញ្ញាត​ឲ្យ​អ្នក​កែប្រែ​រូបរាង​ដែល​មើល​ឃើញ​នៃ​ធាតុ​ចំណុច​ប្រទាក់​អ្នកប្រើ​ដូច​ជា "
+"រចនាប័ទ្ម​វត្ថុ​មើល​ឃើញ និង​បែប​ផែន ។"
+
+#: kcmstyle.cpp:183
+#, fuzzy, kde-format
+#| msgctxt "@title:tab"
+#| msgid "&Applications"
+msgid "Application Style"
+msgstr "កម្មវិធី "
+
+#: kcmstyle.cpp:185
+#, kde-format
+msgid "(c) 2002 Karol Szwed, Daniel Molkentin"
+msgstr "រក្សា​សិទ្ធិ​ឆ្នាំ ២០០២ ដោយ Karol Szwed និង​ Daniel Molkentin"
+
+#: kcmstyle.cpp:187
+#, kde-format
+msgid "Karol Szwed"
+msgstr "Karol Szwed"
+
+#: kcmstyle.cpp:188
+#, kde-format
+msgid "Daniel Molkentin"
+msgstr "Daniel Molkentin"
+
+#: kcmstyle.cpp:198
+#, kde-format
+msgid "Preview"
+msgstr "មើល​ជាមុន"
+
+#: kcmstyle.cpp:252 kcmstyle.cpp:263
+#, kde-format
+msgid "There was an error loading the configuration dialog for this style."
+msgstr "មាន​កំហុស​ក្នុង​ការ​ផ្ទុក​ប្រអប់​ការ​កំណត់​រចនា​សម្ព័ន្ធ​សម្រាប់​រចនាប័ទ្ម​នេះ ។"
+
+#: kcmstyle.cpp:254 kcmstyle.cpp:265
+#, kde-format
+msgid "Unable to Load Dialog"
+msgstr "មិន​អាច​ផ្ទុក​ប្រអប់"
+
+#: kcmstyle.cpp:488
+#, kde-format
+msgid "No description available."
+msgstr "មិន​មាន​​ការ​ពិពណ៌នា ។"
+
+#: kcmstyle.cpp:695
+#, kde-format
+msgid ""
+"This area shows a preview of the currently selected style without having to "
+"apply it to the whole desktop."
+msgstr ""
+"តំបន់​នេះ​​បង្ហាញ​ទិដ្ឋភាព​ជា​មុន​នៃ​រចនាប័ទ្ម​ដែល​បាន​ជ្រើស​បច្ចុប្បន្ន ដោយ​មិន​អនុវត្ត​វា​​ទៅ​ផ្ទៃ​តុ​ទាំង​មូល​ឡើយ ។"
+
+#: kcmstyle.cpp:697
+#, kde-format
+msgid ""
+"Here you can choose from a list of predefined widget styles (e.g. the way "
+"buttons are drawn) which may or may not be combined with a theme (additional "
+"information like a marble texture or a gradient)."
+msgstr ""
+"នៅ​ទីនេះ អ្នក​អាច​ជ្រើស​ពី​បញ្ជី​របស់​រចនាប័ទ្ម​ធាតុ​ក្រាហ្វិក​​​ដែល​បាន​កំណត់​ជាមុន (ឧ. របៀប​គូរ​ប៊ូតុង) ​ត្រូវ​បាន ឬ​"
+"មិន​ត្រូវ​បាន​ផ្សំ​ជាមួយ​ស្បែក  (ព័ត៌មាន​បន្ថែម​ដូចជា វាយនភាព​ថ្ម​ម៉ាប ឬ​ជម្រាល) ។"
+
+#: kcmstyle.cpp:701
+#, fuzzy, kde-format
+#| msgid ""
+#| "If you enable this option, KDE Applications will show small icons "
+#| "alongside some important buttons."
+msgid ""
+"If you enable this option, applications will show small icons alongside some "
+"important buttons."
+msgstr "បើ​អ្នក​អនុញ្ញាត​ជម្រើស​នេះ កម្មវិធី KDE នឹង​បង្ហាញ​រូប​តំណាង​តូចៗ​ ជាមួយ​ប៊ូតុង​សំខាន់​ៗ​មួយ​ចំនួន ។"
+
+#: kcmstyle.cpp:703
+#, fuzzy, kde-format
+#| msgid ""
+#| "If you enable this option, KDE Applications will show small icons "
+#| "alongside most menu items."
+msgid ""
+"If you enable this option, applications will show small icons alongside most "
+"menu items."
+msgstr "បើ​អ្នក​បើក​​ជម្រើស​នេះ កម្មវិធី KDE នឹង​បង្ហាញ​រូប​តំណាង​តូចៗ​ ជាមួយ​ប៊ូតុង​សំខាន់​ៗ​មួយ​ចំនួន ។"
+
+#: kcmstyle.cpp:705
+#, fuzzy, kde-format
+#| msgid ""
+#| "<p><b>No Text:</b> Shows only icons on toolbar buttons. Best option for "
+#| "low resolutions.</p><p><b>Text Only: </b>Shows only text on toolbar "
+#| "buttons.</p><p><b>Text Beside Icons: </b> Shows icons and text on toolbar "
+#| "buttons. Text is aligned beside the icon.</p><b>Text Below Icons: </b> "
+#| "Shows icons and text on toolbar buttons. Text is aligned below the icon."
+msgid ""
+"<p><b>No text:</b> Shows only icons on toolbar buttons. Best option for low "
+"resolutions.</p><p><b>Text only: </b>Shows only text on toolbar buttons.</"
+"p><p><b>Text beside icons: </b> Shows icons and text on toolbar buttons. "
+"Text is aligned beside the icon.</p><b>Text below icons: </b> Shows icons "
+"and text on toolbar buttons. Text is aligned below the icon."
+msgstr ""
+"<p><b>គ្មាន​អត្ថបទ ៖</b> បង្ហាញ​បាន​តែ​រូប​តំណាង​លើ​​ប៊ូតុង​របារ​ឧបករណ៍ ។ ជម្រើស​ល្អ​បំផុត​សម្រាប់​គុណភាព​"
+"បង្ហាញ​ទាប ។</p><p><b>បាន​តែ​អត្ថបទ ៖ </b>បង្ហាញ​តែ​អត្ថបទ​នៅ​លើ​ប៊ូតុង​របារ​ឧបករណ៍ ។</"
+"p><p><b>អត្ថបទ​ជាមួយ​រូបតំណាង ៖ </b> បង្ហាញ​រូបតំណាង និង អត្ថបទនៅ​លើ ​ប៊ូតុង​របារ​ឧបករណ៍ ។ អត្ថបទ​"
+"ត្រូវ​បាន​តម្រឹម​ជាមួយ​រូប​តំណាង ។</p><b>អត្ថបទ ​ក្រោម​រូប​តំណាង ៖ </b> បង្ហាញ​រូប​តំណាង និង​​អត្ថបទ​លើ​ប៊ូតុង​"
+"របារ​ឧបករណ៍ ។ អត្ថបទ​​ត្រូវ​បាន​តម្រឹម​រូប​តំណាង​ដូច​ខាងក្រោម​នេះ ។"
+
+#: styleconfdialog.cpp:29
+#, kde-format
+msgid "Configure %1"
+msgstr "កំណត់​រចនាសម្ព័ន្ធ %1"
+
+#. i18n: ectx: property (text), widget (QLabel, labelApplicationStyle)
+#: styleconfig.ui:20
+#, fuzzy, kde-format
+#| msgctxt "@title:tab"
+#| msgid "&Applications"
+msgid "Application style:"
+msgstr "កម្មវិធី "
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, pbConfigStyle)
+#: styleconfig.ui:45
+#, fuzzy, kde-format
+#| msgctxt "@title:tab"
+#| msgid "&Applications"
+msgid "Configure Application Style..."
+msgstr "កម្មវិធី "
+
+#. i18n: ectx: property (text), widget (QLabel, labelShowIcons)
+#: styleconfig.ui:61
+#, fuzzy, kde-format
+#| msgid "Show icons in menus:"
+msgid "Show icons:"
+msgstr "បង្ហាញ​រូបតំណាង​នៅ​ក្នុង​ម៉ឺនុយ ៖"
+
+#. i18n: ectx: property (text), widget (QLabel, labelToolbarIcons)
+#: styleconfig.ui:68
+#, fuzzy, kde-format
+#| msgid "Main toolbar text:"
+msgid "Main toolbar label:"
+msgstr "អត្ថបទ​របារ​ឧបករណ៍​មេ ៖"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, comboToolbarIcons)
+#. i18n: ectx: property (text), item, widget (QComboBox, comboSecondaryToolbarIcons)
+#: styleconfig.ui:79 styleconfig.ui:113
+#, kde-format
+msgid "None"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, comboToolbarIcons)
+#. i18n: ectx: property (text), item, widget (QComboBox, comboSecondaryToolbarIcons)
+#: styleconfig.ui:84 styleconfig.ui:118
+#, fuzzy, kde-format
+#| msgid "Text Only"
+msgid "Text only"
+msgstr "បាន​តែ​អត្ថបទ​"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, comboToolbarIcons)
+#. i18n: ectx: property (text), item, widget (QComboBox, comboSecondaryToolbarIcons)
+#: styleconfig.ui:89 styleconfig.ui:123
+#, fuzzy, kde-format
+#| msgid "Text Beside Icons"
+msgid "Beside icons"
+msgstr "អត្ថបទអែប​ជិត​រូប​តំណាង"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, comboToolbarIcons)
+#. i18n: ectx: property (text), item, widget (QComboBox, comboSecondaryToolbarIcons)
+#: styleconfig.ui:94 styleconfig.ui:128
+#, fuzzy, kde-format
+#| msgid "Text Below Icons"
+msgid "Below icons"
+msgstr "អត្ថបទ​ក្រោម​រូប​តំណាង"
+
+#. i18n: ectx: property (text), widget (QLabel, labelSecondaryToolbarIcons)
+#: styleconfig.ui:102
+#, fuzzy, kde-format
+#| msgid "Secondary toolbar text:"
+msgid "Secondary toolbar label:"
+msgstr "អត្ថបទ​របារ​ឧបករណ៍​រងSecondary toolbar text:"
+
+#  i18n: file stylepreview.ui line 81
+#. i18n: ectx: property (text), widget (QCheckBox, cbIconsOnButtons)
+#: styleconfig.ui:136
+#, fuzzy, kde-format
+#| msgid "Radio button"
+msgid "On buttons"
+msgstr "ប៊ូតុង​មូល"
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbIconsInMenus)
+#: styleconfig.ui:146
+#, kde-format
+msgid "In menus"
+msgstr ""
+
+#  i18n: file stylepreview.ui line 59
+#. i18n: ectx: attribute (title), widget (QWidget, tab_1)
+#: stylepreview.ui:33
+#, kde-format
+msgid "Tab 1"
+msgstr "ផ្ទាំង ១"
+
+#  i18n: file stylepreview.ui line 240
+#. i18n: ectx: property (text), widget (QPushButton, pushButton)
+#: stylepreview.ui:65
+#, fuzzy, kde-format
+#| msgid "Button"
+msgid "Push Button"
+msgstr "ប៊ូតុង"
+
+#  i18n: file stylepreview.ui line 139
+#. i18n: ectx: property (text), item, widget (QComboBox, comboBox)
+#: stylepreview.ui:86
+#, fuzzy, kde-format
+#| msgid "Combobox"
+msgid "Combo box"
+msgstr "ប្រអប់​បន្សំ"
+
+#  i18n: file stylepreview.ui line 114
+#. i18n: ectx: property (text), widget (QCheckBox, checkBox)
+#: stylepreview.ui:96
+#, kde-format
+msgid "Checkbox"
+msgstr "ប្រអប់​ធីក"
+
+#  i18n: file stylepreview.ui line 81
+#. i18n: ectx: property (text), widget (QRadioButton, radioButton_2)
+#. i18n: ectx: property (text), widget (QRadioButton, radioButton_1)
+#: stylepreview.ui:106 stylepreview.ui:116
+#, kde-format
+msgid "Radio button"
+msgstr "ប៊ូតុង​មូល"
+
+#  i18n: file stylepreview.ui line 269
+#. i18n: ectx: attribute (title), widget (QWidget, tab_2)
+#: stylepreview.ui:133
+#, kde-format
+msgid "Tab 2"
+msgstr "ផ្ទាំង ២"

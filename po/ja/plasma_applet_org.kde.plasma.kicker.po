@@ -1,0 +1,500 @@
+# Fuminobu TAKEYAMA <ftake@geeko.jp>, 2015.
+# Fumiaki Okushi <fumiaki.okushi@gmail.com>, 2015, 2017.
+# Tomohiro Hyakutake <tomhioo@outlook.jp>, 2019.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_applet_kicker\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"PO-Revision-Date: 2019-07-10 18:26+0900\n"
+"Last-Translator: Tomohiro Hyakutake <tomhioo@outlook.jp>\n"
+"Language-Team: Japanese <kde-jp@kde.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Accelerator-Marker: &\n"
+"X-Text-Markup: kde4\n"
+"X-Generator: Lokalize 19.04.2\n"
+
+#: package/contents/config/config.qml:26
+#, kde-format
+msgid "General"
+msgstr "全般"
+
+#: package/contents/ui/code/tools.js:55
+#, kde-format
+msgid "Remove from Favorites"
+msgstr "お気に入りから削除"
+
+#: package/contents/ui/code/tools.js:59
+#, kde-format
+msgid "Add to Favorites"
+msgstr "お気に入りに追加"
+
+#: package/contents/ui/code/tools.js:83
+#, kde-format
+msgid "On All Activities"
+msgstr "すべてのアクティビティ"
+
+#: package/contents/ui/code/tools.js:133
+#, kde-format
+msgid "On The Current Activity"
+msgstr "現在のアクティビティ"
+
+#: package/contents/ui/code/tools.js:147
+#, kde-format
+msgid "Show In Favorites"
+msgstr "お気に入りに表示"
+
+#: package/contents/ui/ConfigGeneral.qml:58
+#, kde-format
+msgid "Icon:"
+msgstr "アイコン:"
+
+#: package/contents/ui/ConfigGeneral.qml:138
+#, kde-format
+msgctxt "@item:inmenu Open icon chooser dialog"
+msgid "Choose..."
+msgstr "選択..."
+
+#: package/contents/ui/ConfigGeneral.qml:143
+#, kde-format
+msgctxt "@item:inmenu Reset icon to default"
+msgid "Clear Icon"
+msgstr "アイコンをクリア"
+
+#: package/contents/ui/ConfigGeneral.qml:161
+#, kde-format
+msgid "Show applications as:"
+msgstr "アプリケーションの表示方法:"
+
+#: package/contents/ui/ConfigGeneral.qml:163
+#, kde-format
+msgid "Name only"
+msgstr "名前のみ"
+
+#: package/contents/ui/ConfigGeneral.qml:163
+#, kde-format
+msgid "Description only"
+msgstr "説明のみ"
+
+#: package/contents/ui/ConfigGeneral.qml:163
+#, kde-format
+msgid "Name (Description)"
+msgstr "名前 (説明)"
+
+#: package/contents/ui/ConfigGeneral.qml:163
+#, kde-format
+msgid "Description (Name)"
+msgstr "説明 (名前)"
+
+#: package/contents/ui/ConfigGeneral.qml:173
+#, kde-format
+msgid "Behavior:"
+msgstr "挙動:"
+
+#: package/contents/ui/ConfigGeneral.qml:175
+#, kde-format
+msgid "Sort applications alphabetically"
+msgstr "アプリケーションをアルファベット順にソート"
+
+#: package/contents/ui/ConfigGeneral.qml:183
+#, kde-format
+msgid "Flatten sub-menus to a single level"
+msgstr "サブメニューを単一階層にフラット化"
+
+#: package/contents/ui/ConfigGeneral.qml:194
+#, kde-format
+msgid "Show categories:"
+msgstr "表示するカテゴリ:"
+
+#: package/contents/ui/ConfigGeneral.qml:197
+#, kde-format
+msgid "Recent applications"
+msgstr "最近のアプリケーション"
+
+#: package/contents/ui/ConfigGeneral.qml:198
+#, kde-format
+msgid "Often used applications"
+msgstr "よく使用するアプリケーション"
+
+#: package/contents/ui/ConfigGeneral.qml:205
+#, kde-format
+msgid "Recent documents"
+msgstr "最近の文書"
+
+#: package/contents/ui/ConfigGeneral.qml:206
+#, kde-format
+msgid "Often used documents"
+msgstr "よく使用する文書"
+
+#: package/contents/ui/ConfigGeneral.qml:213
+#, kde-format
+msgid "Recent contacts"
+msgstr "最近の連絡先"
+
+#: package/contents/ui/ConfigGeneral.qml:214
+#, kde-format
+msgid "Often used contacts"
+msgstr "よく使用する連絡先"
+
+#: package/contents/ui/ConfigGeneral.qml:220
+#, kde-format
+msgid "Sort items in categories by:"
+msgstr "カテゴリ内のアイテムのソート方法:"
+
+#: package/contents/ui/ConfigGeneral.qml:221
+#, kde-format
+msgctxt ""
+"@item:inlistbox Sort items in categories by [Recently used | Often used]"
+msgid "Recently used"
+msgstr "最近使用したアイテム"
+
+#: package/contents/ui/ConfigGeneral.qml:221
+#, kde-format
+msgctxt ""
+"@item:inlistbox Sort items in categories by [Recently used | Ofetn used]"
+msgid "Often used"
+msgstr "よく使用するアイテム"
+
+#: package/contents/ui/ConfigGeneral.qml:231
+#, kde-format
+msgid "Search:"
+msgstr "検索:"
+
+#: package/contents/ui/ConfigGeneral.qml:233
+#, kde-format
+msgid "Expand search to bookmarks, files and emails"
+msgstr "検索対象をブックマークとファイル、メールに拡大する"
+
+#: package/contents/ui/ConfigGeneral.qml:241
+#, kde-format
+msgid "Align search results to bottom"
+msgstr "検索結果を下部に配置する"
+
+#: package/contents/ui/DashboardRepresentation.qml:305
+#, kde-format
+msgid "Searching for '%1'"
+msgstr ""
+
+#: package/contents/ui/DashboardRepresentation.qml:305
+#, fuzzy, kde-format
+#| msgid "Search..."
+msgid "Type to search..."
+msgstr "検索..."
+
+#: package/contents/ui/DashboardRepresentation.qml:405
+#: plugin/kastatsfavoritesmodel.cpp:494 plugin/simplefavoritesmodel.cpp:43
+#, fuzzy, kde-format
+#| msgid "Add to Favorites"
+msgid "Favorites"
+msgstr "お気に入りに追加"
+
+#: package/contents/ui/DashboardRepresentation.qml:622
+#: package/contents/ui/DashboardTabBar.qml:55
+#, kde-format
+msgid "Widgets"
+msgstr ""
+
+#: package/contents/ui/DashboardTabBar.qml:44
+#, kde-format
+msgid "Apps & Docs"
+msgstr ""
+
+#: package/contents/ui/main.qml:272
+#, kde-format
+msgid "Edit Applications..."
+msgstr "アプリケーションを編集..."
+
+#: package/contents/ui/MenuRepresentation.qml:319
+#, kde-format
+msgid "Search..."
+msgstr "検索..."
+
+#: plugin/actionlist.cpp:95
+#, kde-format
+msgid "Open with:"
+msgstr "以下のアプリケーションで開く:"
+
+#: plugin/actionlist.cpp:108
+#, kde-format
+msgid "Properties"
+msgstr "プロパティ"
+
+#: plugin/actionlist.cpp:153
+#, kde-format
+msgid "Add to Desktop"
+msgstr "デスクトップに追加"
+
+#: plugin/actionlist.cpp:157
+#, kde-format
+msgid "Add to Panel (Widget)"
+msgstr "パネル (ウィジェット) に追加"
+
+#: plugin/actionlist.cpp:161
+#, kde-format
+msgid "Pin to Task Manager"
+msgstr "タスクマネージャにピン留め"
+
+#: plugin/actionlist.cpp:270 plugin/rootmodel.cpp:390
+#, kde-format
+msgid "Recent Documents"
+msgstr "最近使用した文書"
+
+#: plugin/actionlist.cpp:280
+#, kde-format
+msgid "Forget Recent Documents"
+msgstr "最近使用した文書から削除する"
+
+#: plugin/actionlist.cpp:336
+#, kde-format
+msgid "Edit Application..."
+msgstr "アプリケーションを編集..."
+
+#: plugin/actionlist.cpp:383
+#, kde-format
+msgctxt "@action opens a software center with the application"
+msgid "Manage '%1'..."
+msgstr ""
+
+#: plugin/appentry.cpp:178
+#, kde-format
+msgid "Hide Application"
+msgstr "アプリケーションを隠す"
+
+#: plugin/appentry.cpp:237
+#, kde-format
+msgctxt "App name (Generic name)"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: plugin/appentry.cpp:239
+#, kde-format
+msgctxt "Generic name (App name)"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: plugin/appsmodel.cpp:45 plugin/appsmodel.cpp:69 plugin/computermodel.cpp:110
+#: plugin/computermodel.cpp:242 plugin/recentusagemodel.cpp:149
+#: plugin/recentusagemodel.cpp:209
+#, kde-format
+msgid "Applications"
+msgstr "アプリケーション"
+
+#: plugin/appsmodel.cpp:165
+#, kde-format
+msgid "Unhide Applications in this Submenu"
+msgstr "このサブメニューのアプリケーションを再表示"
+
+#: plugin/appsmodel.cpp:171
+#, kde-format
+msgid "Unhide Applications in '%1'"
+msgstr "'%1' のアプリケーションを再表示"
+
+#: plugin/computermodel.cpp:104
+#, kde-format
+msgid "Run Command..."
+msgstr "コマンドを実行..."
+
+#: plugin/computermodel.cpp:108
+#, kde-format
+msgid "Run a command or a search query"
+msgstr "コマンドか検索クエリを実行"
+
+#: plugin/computermodel.cpp:161
+#, kde-format
+msgid "Computer"
+msgstr ""
+
+#: plugin/contactentry.cpp:117 plugin/recentcontactsmodel.cpp:93
+#, kde-format
+msgid "Show Contact Information..."
+msgstr "連絡先情報を表示..."
+
+#: plugin/recentcontactsmodel.cpp:52
+#, fuzzy, kde-format
+#| msgid "Recent Contacts"
+msgid "Contacts"
+msgstr "最近使用したの連絡先"
+
+#: plugin/recentcontactsmodel.cpp:85
+#, kde-format
+msgid "Forget Contact"
+msgstr "連絡先を削除"
+
+#: plugin/recentcontactsmodel.cpp:88 plugin/recentcontactsmodel.cpp:165
+#, kde-format
+msgid "Forget All Contacts"
+msgstr "すべての連絡先を削除"
+
+#: plugin/recentusagemodel.cpp:147
+#, kde-format
+msgid "Recently Used"
+msgstr ""
+
+#: plugin/recentusagemodel.cpp:152 plugin/recentusagemodel.cpp:263
+#, kde-format
+msgid "Documents"
+msgstr "文書"
+
+#: plugin/recentusagemodel.cpp:227
+#, kde-format
+msgid "Forget Application"
+msgstr "アプリケーションを削除"
+
+#: plugin/recentusagemodel.cpp:275
+#, kde-format
+msgid "Forget Document"
+msgstr "文書を履歴から削除する"
+
+#: plugin/recentusagemodel.cpp:403
+#, kde-format
+msgid "Forget All"
+msgstr "すべて削除"
+
+#: plugin/recentusagemodel.cpp:405
+#, kde-format
+msgid "Forget All Applications"
+msgstr "すべてのアプリケーションを削除"
+
+#: plugin/recentusagemodel.cpp:408
+#, kde-format
+msgid "Forget All Documents"
+msgstr "すべての文書を履歴から削除する"
+
+#: plugin/rootmodel.cpp:106
+#, kde-format
+msgid "Hide %1"
+msgstr "%1 を隠す"
+
+#: plugin/rootmodel.cpp:376
+#, fuzzy, kde-format
+#| msgid "Forget All Applications"
+msgid "All Applications"
+msgstr "すべてのアプリケーションを削除"
+
+#: plugin/rootmodel.cpp:382
+#, kde-format
+msgid "Recent Contacts"
+msgstr "最近使用したの連絡先"
+
+#: plugin/rootmodel.cpp:391
+#, kde-format
+msgid "Often Used Documents"
+msgstr "よく使用する文書"
+
+#: plugin/rootmodel.cpp:401
+#, kde-format
+msgid "Recent Applications"
+msgstr "最近使用したアプリケーション"
+
+#: plugin/rootmodel.cpp:402
+#, kde-format
+msgid "Often Used Applications"
+msgstr "よく使用するアプリケーション"
+
+#: plugin/rootmodel.cpp:416
+#, kde-format
+msgid "Power / Session"
+msgstr "電源/セッション"
+
+#: plugin/runnermodel.cpp:238
+#, fuzzy, kde-format
+#| msgid "Search"
+msgid "Search results"
+msgstr "検索"
+
+#: plugin/systementry.cpp:166
+#, kde-format
+msgid "Lock"
+msgstr "ロック"
+
+#: plugin/systementry.cpp:169
+#, kde-format
+msgid "Log Out"
+msgstr "ログアウト"
+
+#: plugin/systementry.cpp:172 plugin/systementry.cpp:240
+#, kde-format
+msgid "Save Session"
+msgstr "セッションを保存"
+
+#: plugin/systementry.cpp:175
+#, kde-format
+msgid "Switch User"
+msgstr "ユーザの切り替え"
+
+#: plugin/systementry.cpp:178
+#, kde-format
+msgctxt "Suspend to RAM"
+msgid "Sleep"
+msgstr "スリープ"
+
+#: plugin/systementry.cpp:181
+#, kde-format
+msgid "Hibernate"
+msgstr "ハイバネート"
+
+#: plugin/systementry.cpp:184
+#, kde-format
+msgid "Restart"
+msgstr "再起動"
+
+#: plugin/systementry.cpp:187
+#, kde-format
+msgid "Shut Down"
+msgstr "シャットダウン"
+
+#: plugin/systementry.cpp:200 plugin/systementry.cpp:203
+#: plugin/systementry.cpp:206 plugin/systementry.cpp:209
+#, kde-format
+msgid "Session"
+msgstr "セッション"
+
+#: plugin/systementry.cpp:212 plugin/systementry.cpp:215
+#: plugin/systementry.cpp:218 plugin/systementry.cpp:221
+#, kde-format
+msgid "System"
+msgstr "システム"
+
+#: plugin/systementry.cpp:234
+#, kde-format
+msgid "Lock screen"
+msgstr "画面をロックする"
+
+#: plugin/systementry.cpp:237
+#, kde-format
+msgid "End session"
+msgstr "セッションを終了する"
+
+#: plugin/systementry.cpp:243
+#, kde-format
+msgid "Start a parallel session as a different user"
+msgstr "別のユーザとして並行するセッションを開始する"
+
+#: plugin/systementry.cpp:246
+#, kde-format
+msgid "Suspend to RAM"
+msgstr "状態をメモリに保持して待機する"
+
+#: plugin/systementry.cpp:249
+#, kde-format
+msgid "Suspend to disk"
+msgstr "状態をディスクに退避して待機する"
+
+#: plugin/systementry.cpp:252
+#, kde-format
+msgid "Restart computer"
+msgstr "コンピュータを再起動する"
+
+#: plugin/systementry.cpp:255
+#, kde-format
+msgid "Turn off computer"
+msgstr "コンピュータを停止する"
+
+#: plugin/systemmodel.cpp:75
+#, kde-format
+msgid "System actions"
+msgstr ""

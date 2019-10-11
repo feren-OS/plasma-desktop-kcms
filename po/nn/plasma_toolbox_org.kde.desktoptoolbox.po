@@ -1,0 +1,45 @@
+# Translation of plasma_toolbox_org.kde.desktoptoolbox to Norwegian Nynorsk
+#
+# Karl Ove Hufthammer <karl@huftis.org>, 2015, 2019.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"PO-Revision-Date: 2019-02-09 12:13+0100\n"
+"Last-Translator: Karl Ove Hufthammer <karl@huftis.org>\n"
+"Language-Team: Norwegian Nynorsk <i18n-nn@lister.ping.uio.no>\n"
+"Language: nn\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Environment: kde\n"
+"X-Accelerator-Marker: &\n"
+"X-Text-Markup: kde4\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 18.12.1\n"
+
+#: contents/ui/ToolBoxButton.qml:30
+#, kde-format
+msgid "Default"
+msgstr "Standard"
+
+#: contents/ui/ToolBoxButton.qml:30
+#, kde-format
+msgid "Desktop Toolbox"
+msgstr "Skrivebord-verktøykasse"
+
+#: contents/ui/ToolBoxButton.qml:30
+#, kde-format
+msgid "Desktop Toolbox — %1 Activity"
+msgstr "Skrivebord-verktøykasse – %1 aktivitet"
+
+#: contents/ui/ToolBoxItem.qml:89
+#, kde-format
+msgid "Lock Screen"
+msgstr "Lås skjermen"
+
+#: contents/ui/ToolBoxItem.qml:99
+#, kde-format
+msgid "Leave"
+msgstr "Avslutt"

@@ -1,0 +1,50 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Yasen Pramatarov <yasen@lindeas.com>, 2009, 2011.
+# Dimitar Popov <insane@fmi.uni-sofia.bg>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcm_standard_actions\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"PO-Revision-Date: 2011-07-11 11:30+0300\n"
+"Last-Translator: Yasen Pramatarov <yasen@lindeas.com>\n"
+"Language-Team: Bulgarian <dict@fsa-bg.org>\n"
+"Language: bg\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.2\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Димитър Попов,Ясен Праматаров"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "insane@fmi.uni-sofia.bg,yasen@lindeas.com"
+
+#: standard_actions_module.cpp:62 standard_actions_module.cpp:135
+#, kde-format
+msgid "Standard Shortcuts"
+msgstr "Стандартни бързи клавиши"
+
+#: standard_actions_module.cpp:154
+#, kde-format
+msgid "Standard Actions successfully saved"
+msgstr "Стандартните действия са записани."
+
+#: standard_actions_module.cpp:156
+#, kde-format
+msgid ""
+"The changes have been saved. Please note that:<ul><li>Applications need to "
+"be restarted to see the changes.</li>    <li>This change could introduce "
+"shortcut conflicts in some applications.</li></ul>"
+msgstr ""
+"Промените са записани. Имайте предвид, че: <ul><li>Програмите трябва да се "
+"презаредят, за да видите промените.</li>    <li>Тази промяна може да "
+"предизвика конфликти на препратките към някои програми.</li></ul>"

@@ -1,0 +1,541 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+# Markus Sunela <markus.sunela@tut.fi>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"PO-Revision-Date: 2009-10-25 12:14+0200\n"
+"Last-Translator: Markus Sunela <markus.sunela@tut.fi>\n"
+"Language-Team: eo <kde-i18n-doc@kde.org>\n"
+"Language: eo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 1.0\n"
+
+#: package/contents/config/config.qml:29
+msgid "Location"
+msgstr "Loko"
+
+#: package/contents/config/config.qml:36
+#: package/contents/ui/ConfigIcons.qml:220
+#: package/contents/ui/FolderViewLayer.qml:422
+msgid "Icons"
+msgstr "Piktogramoj"
+
+#: package/contents/config/config.qml:43
+#, fuzzy
+#| msgctxt ""
+#| "Title of the page that lets the user choose how to filter the folderview "
+#| "contents"
+#| msgid "Filter"
+msgid "Filter"
+msgstr "Filtri"
+
+#: package/contents/config/config.qml:50
+msgid "Tweaks"
+msgstr ""
+
+#: package/contents/ui/AppletHandle.qml:105
+msgid "Resize"
+msgstr ""
+
+#: package/contents/ui/AppletHandle.qml:127
+msgid "Rotate"
+msgstr ""
+
+#: package/contents/ui/AppletHandle.qml:284
+msgid "Remove"
+msgstr ""
+
+#: package/contents/ui/BackButtonItem.qml:116
+msgid "Back"
+msgstr ""
+
+#: package/contents/ui/ConfigFilter.qml:76
+#, fuzzy
+#| msgid "File types:"
+msgid "Files:"
+msgstr "Dosiertipoj:"
+
+#: package/contents/ui/ConfigFilter.qml:77
+#, fuzzy
+#| msgid "Show a place:"
+msgid "Show all"
+msgstr "Montri lokon:"
+
+#: package/contents/ui/ConfigFilter.qml:77
+#, fuzzy
+#| msgid "Show Files Matching"
+msgid "Show matching"
+msgstr "Montri kongruantajn dosierojn"
+
+#: package/contents/ui/ConfigFilter.qml:77
+#, fuzzy
+#| msgid "Hide Files Matching"
+msgid "Hide matching"
+msgstr "Kaŝi kongruantajn dosierojn"
+
+#: package/contents/ui/ConfigFilter.qml:82
+msgid "File name pattern:"
+msgstr "Dosiernoma ŝablono:"
+
+#: package/contents/ui/ConfigFilter.qml:88
+msgid "File types:"
+msgstr "Dosiertipoj:"
+
+#: package/contents/ui/ConfigFilter.qml:90
+#, fuzzy
+#| msgid "Search file type"
+msgid "Search..."
+msgstr "Serĉi dosiertipon"
+
+#: package/contents/ui/ConfigFilter.qml:188
+#, fuzzy
+#| msgid "File types:"
+msgid "File type"
+msgstr "Dosiertipoj:"
+
+#: package/contents/ui/ConfigFilter.qml:197
+msgid "Description"
+msgstr ""
+
+#: package/contents/ui/ConfigFilter.qml:211
+msgid "Select All"
+msgstr "Elekti ĉion"
+
+#: package/contents/ui/ConfigFilter.qml:222
+msgid "Deselect All"
+msgstr "Malelekti ĉion"
+
+#: package/contents/ui/ConfigIcons.qml:75
+msgid "Panel button:"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:81
+#, fuzzy
+#| msgctxt "Music"
+#| msgid "Title:"
+msgid "Use a custom icon"
+msgstr "Titolo:"
+
+#: package/contents/ui/ConfigIcons.qml:115
+msgctxt "@item:inmenu Open icon chooser dialog"
+msgid "Choose..."
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:121
+#, fuzzy
+#| msgid "Sort Icons"
+msgctxt "@item:inmenu Reset icon to default"
+msgid "Clear Icon"
+msgstr "Ordigi piktogramojn"
+
+#: package/contents/ui/ConfigIcons.qml:140
+#, fuzzy
+#| msgid "Icon Arrangement"
+msgid "Arrangement:"
+msgstr "Piktrogramaranĝado"
+
+#: package/contents/ui/ConfigIcons.qml:142
+#: plugins/folder/viewpropertiesmenu.cpp:34
+#, kde-format
+msgid "Rows"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:142
+#: plugins/folder/viewpropertiesmenu.cpp:38
+#, kde-format
+msgid "Columns"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:149
+#, fuzzy
+#| msgid "Align to Grid"
+msgid "Align left"
+msgstr "Alkradigi"
+
+#: package/contents/ui/ConfigIcons.qml:149
+#, fuzzy
+#| msgid "Align to Grid"
+msgid "Align right"
+msgstr "Alkradigi"
+
+#: package/contents/ui/ConfigIcons.qml:164
+#, fuzzy
+#| msgctxt "Icons on the desktop"
+#| msgid "Lock in Place"
+msgid "Lock in place"
+msgstr "Nemovebligi"
+
+#: package/contents/ui/ConfigIcons.qml:177
+#, fuzzy
+#| msgid "Sort icons:"
+msgid "Sorting:"
+msgstr "Ordigi piktogramojn:"
+
+#: package/contents/ui/ConfigIcons.qml:185
+msgid "Manual"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:185
+#: plugins/folder/viewpropertiesmenu.cpp:62
+#, fuzzy, kde-format
+#| msgctxt "Sort icons"
+#| msgid "By Name"
+msgid "Name"
+msgstr "Laŭ nomo"
+
+#: package/contents/ui/ConfigIcons.qml:185
+#: plugins/folder/viewpropertiesmenu.cpp:66
+#, fuzzy, kde-format
+#| msgid "Size:"
+msgid "Size"
+msgstr "Grandeco:"
+
+#: package/contents/ui/ConfigIcons.qml:185
+#: plugins/folder/viewpropertiesmenu.cpp:70
+#, fuzzy, kde-format
+#| msgctxt "Sort icons"
+#| msgid "By Type"
+msgid "Type"
+msgstr "Laŭ tipo"
+
+#: package/contents/ui/ConfigIcons.qml:185
+#: plugins/folder/viewpropertiesmenu.cpp:74
+#, fuzzy, kde-format
+#| msgctxt "Sort icons"
+#| msgid "By Date"
+msgid "Date"
+msgstr "Laŭ dato"
+
+#: package/contents/ui/ConfigIcons.qml:196
+#: plugins/folder/viewpropertiesmenu.cpp:79
+#, kde-format
+msgid "Descending"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:204
+#, fuzzy
+#| msgctxt "Sort icons"
+#| msgid "Folders First"
+msgid "Folders first"
+msgstr "Dosierujoj unue"
+
+#: package/contents/ui/ConfigIcons.qml:218
+msgctxt "whether to use icon or list view"
+msgid "View mode:"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:220
+msgid "List"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:231
+#, fuzzy
+#| msgid "Icon size:"
+msgid "Icon size:"
+msgstr "Piktogramgrandeco:"
+
+#: package/contents/ui/ConfigIcons.qml:246
+#: plugins/folder/viewpropertiesmenu.cpp:88
+#, kde-format
+msgid "Small"
+msgstr "Malgranda"
+
+#: package/contents/ui/ConfigIcons.qml:255
+#: plugins/folder/viewpropertiesmenu.cpp:88
+#, kde-format
+msgid "Large"
+msgstr "Granda"
+
+#: package/contents/ui/ConfigIcons.qml:263
+#, fuzzy
+#| msgid "Label:"
+msgid "Label width:"
+msgstr "Etikedo:"
+
+#: package/contents/ui/ConfigIcons.qml:266
+msgid "Narrow"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:267
+#: plugins/folder/viewpropertiesmenu.cpp:88
+#, kde-format
+msgid "Medium"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:268
+msgid "Wide"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:276
+#, fuzzy
+#| msgctxt "Inserted as %2 in the message below."
+#| msgid "1 file"
+#| msgid_plural "%1 files"
+msgid "Text lines:"
+msgstr "1 dosiero"
+
+#: package/contents/ui/ConfigIcons.qml:292
+#, fuzzy
+#| msgctxt "On a camera"
+#| msgid "Aperture:"
+msgid "Features:"
+msgstr "Aperturo:"
+
+#: package/contents/ui/ConfigIcons.qml:294
+msgid "Tooltips"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:301
+#, fuzzy
+#| msgid "Select All"
+msgid "Selection markers"
+msgstr "Elekti ĉion"
+
+#: package/contents/ui/ConfigIcons.qml:308
+msgid "Folder preview popups"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:314
+#, fuzzy
+#| msgid "Show previews"
+msgid "Preview thumbnails"
+msgstr "Montri antaŭrigardojn"
+
+#: package/contents/ui/ConfigIcons.qml:321
+#, fuzzy
+#| msgid "Show previews"
+msgid "Configure Preview Plugins..."
+msgstr "Montri antaŭrigardojn"
+
+#: package/contents/ui/ConfigLocation.qml:93
+msgid "Show:"
+msgstr ""
+
+#: package/contents/ui/ConfigLocation.qml:95
+#, fuzzy
+#| msgid "Show the Desktop folder"
+msgid "Desktop folder"
+msgstr "Montri la labortablan dosierujon"
+
+#: package/contents/ui/ConfigLocation.qml:102
+msgid "Files linked to the current activity"
+msgstr ""
+
+#: package/contents/ui/ConfigLocation.qml:109
+msgid "Places panel item:"
+msgstr ""
+
+#: package/contents/ui/ConfigLocation.qml:142
+#, fuzzy
+#| msgctxt "Music"
+#| msgid "Title:"
+msgid "Custom location:"
+msgstr "Titolo:"
+
+#: package/contents/ui/ConfigLocation.qml:150
+#, fuzzy
+#| msgid "Type a path or a URL here"
+msgid "Type path or URL..."
+msgstr "Entajpu vojon aŭ URL-on en tie ĉi"
+
+#: package/contents/ui/ConfigLocation.qml:191
+#, fuzzy
+#| msgctxt "Music"
+#| msgid "Title:"
+msgid "Title:"
+msgstr "Titolo:"
+
+#: package/contents/ui/ConfigLocation.qml:193
+msgid "None"
+msgstr ""
+
+#: package/contents/ui/ConfigLocation.qml:193
+msgid "Default"
+msgstr ""
+
+#: package/contents/ui/ConfigLocation.qml:193
+msgid "Full path"
+msgstr ""
+
+#: package/contents/ui/ConfigLocation.qml:193
+#, fuzzy
+#| msgctxt "Music"
+#| msgid "Title:"
+msgid "Custom title"
+msgstr "Titolo:"
+
+#: package/contents/ui/ConfigLocation.qml:208
+#, fuzzy
+#| msgctxt "Music"
+#| msgid "Title:"
+msgid "Enter custom title..."
+msgstr "Titolo:"
+
+#: package/contents/ui/ConfigTweaks.qml:43
+msgid ""
+"With the Desktop Toolbox hidden, right-click on the desktop and choose "
+"'Configure Desktop...' to access this configuration window in the future"
+msgstr ""
+
+#: package/contents/ui/ConfigTweaks.qml:54
+#, fuzzy
+#| msgid "Show the Desktop folder"
+msgid "Show the desktop toolbox"
+msgstr "Montri la labortablan dosierujon"
+
+#: package/contents/ui/ConfigTweaks.qml:72
+msgid "Press and hold widgets to move them and reveal their handles"
+msgstr ""
+
+#: package/contents/ui/FolderItemPreviewPluginsDialog.qml:36
+#, fuzzy
+#| msgid "Show previews"
+msgid "Preview Plugins"
+msgstr "Montri antaŭrigardojn"
+
+#: package/contents/ui/FolderItemPreviewPluginsDialog.qml:94
+msgid "OK"
+msgstr ""
+
+#: package/contents/ui/FolderItemPreviewPluginsDialog.qml:107
+msgid "Cancel"
+msgstr ""
+
+#: package/contents/ui/main.qml:382
+msgid "Widgets unlocked"
+msgstr ""
+
+#: package/contents/ui/main.qml:383
+msgid "You can press and hold widgets to move them and reveal their handles."
+msgstr ""
+
+#: package/contents/ui/main.qml:384
+msgid "Got it"
+msgstr ""
+
+#: package/contents/ui/main.qml:597
+#, fuzzy
+#| msgid "&Refresh Desktop"
+msgid "Configure Desktop..."
+msgstr "&Aktualigi labortablon"
+
+#: plugins/folder/directorypicker.cpp:45
+#, fuzzy, kde-format
+#| msgid "Select All"
+msgid "Select Folder"
+msgstr "Elekti ĉion"
+
+#: plugins/folder/foldermodel.cpp:402
+#, kde-format
+msgid "&Refresh Desktop"
+msgstr "&Aktualigi labortablon"
+
+#: plugins/folder/foldermodel.cpp:402 plugins/folder/foldermodel.cpp:1609
+#, kde-format
+msgid "&Refresh View"
+msgstr "&Aktualigi vidon"
+
+#: plugins/folder/foldermodel.cpp:1616
+#, fuzzy, kde-format
+#| msgid "&Empty Trash Bin"
+msgid "&Empty Trash"
+msgstr "Malpl&enigi la rubujon"
+
+#: plugins/folder/foldermodel.cpp:1619
+#, fuzzy, kde-format
+#| msgid "&Restore"
+msgctxt "Restore from trash"
+msgid "Restore"
+msgstr "&Restaŭri"
+
+#: plugins/folder/foldermodel.cpp:1624
+#, kde-format
+msgid "&Open"
+msgstr "&Malfermi"
+
+#: plugins/folder/foldermodel.cpp:1740
+#, kde-format
+msgid "&Paste"
+msgstr "&Alglui"
+
+#: plugins/folder/foldermodel.cpp:1848
+#, kde-format
+msgid "&Properties"
+msgstr "&Ecoj"
+
+#: plugins/folder/viewpropertiesmenu.cpp:31
+#, fuzzy, kde-format
+#| msgid "Arrange icons:"
+msgid "Arrange In"
+msgstr "Aranĝi piktogramojn:"
+
+#: plugins/folder/viewpropertiesmenu.cpp:43
+#, fuzzy, kde-format
+#| msgid "Align to Grid"
+msgid "Align"
+msgstr "Alkradigi"
+
+#: plugins/folder/viewpropertiesmenu.cpp:46
+#, kde-format
+msgid "Left"
+msgstr ""
+
+#: plugins/folder/viewpropertiesmenu.cpp:50
+#, kde-format
+msgid "Right"
+msgstr ""
+
+#: plugins/folder/viewpropertiesmenu.cpp:55
+#, fuzzy, kde-format
+#| msgid "Sort icons:"
+msgid "Sort By"
+msgstr "Ordigi piktogramojn:"
+
+#: plugins/folder/viewpropertiesmenu.cpp:58
+#, kde-format
+msgid "Unsorted"
+msgstr "Neordigita"
+
+#: plugins/folder/viewpropertiesmenu.cpp:81
+#, kde-format
+msgid "Folders First"
+msgstr "Dosierujoj unue"
+
+#: plugins/folder/viewpropertiesmenu.cpp:84
+#, fuzzy, kde-format
+#| msgid "Icon size:"
+msgid "Icon Size"
+msgstr "Piktogramgrandeco:"
+
+#: plugins/folder/viewpropertiesmenu.cpp:88
+#, kde-format
+msgid "Tiny"
+msgstr ""
+
+#: plugins/folder/viewpropertiesmenu.cpp:88
+#, kde-format
+msgid "Small Medium"
+msgstr ""
+
+#: plugins/folder/viewpropertiesmenu.cpp:88
+#, kde-format
+msgid "Huge"
+msgstr ""
+
+#: plugins/folder/viewpropertiesmenu.cpp:97
+#, fuzzy, kde-format
+#| msgid "Show previews"
+msgid "Show Previews"
+msgstr "Montri antaŭrigardojn"
+
+#: plugins/folder/viewpropertiesmenu.cpp:100
+#, kde-format
+msgid "Locked"
+msgstr ""

@@ -1,0 +1,260 @@
+# Translation of kcm5_phonon.po into Serbian.
+# Chusslove Illich <caslav.ilic@gmx.net>, 2007, 2008, 2009, 2010, 2011, 2012, 2017.
+# Dalibor Djuric <daliborddjuric@gmail.com>, 2009, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcm5_phonon\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2018-08-16 09:15+0200\n"
+"PO-Revision-Date: 2017-09-28 17:58+0200\n"
+"Last-Translator: Chusslove Illich <caslav.ilic@gmx.net>\n"
+"Language-Team: Serbian <kde-i18n-sr@kde.org>\n"
+"Language: sr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
+"%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Accelerator-Marker: &\n"
+"X-Text-Markup: kde4\n"
+"X-Environment: kde\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Часлав Илић"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "caslav.ilic@gmx.net"
+
+#: backendselection.cpp:74
+#, kde-format
+msgctxt "@info User changed Phonon backend"
+msgid "To apply the backend change you will have to log out and back in again."
+msgstr ""
+"Да би измена позадине ступила на снагу, мораћете да се одјавите и пријавите."
+
+#. i18n: ectx: property (toolTip), widget (QListWidget, m_select)
+#. i18n: ectx: property (whatsThis), widget (QListWidget, m_select)
+#: backendselection.ui:38 backendselection.ui:41
+#, kde-format
+msgid ""
+"A list of Phonon Backends found on your system.  The order here determines "
+"the order Phonon will use them in."
+msgstr ""
+"Списак позадина знаних Фонону на систему. Фонон ће покушати да их употреби "
+"овде наведеним редоследом."
+
+#. i18n: ectx: property (text), widget (QToolButton, m_up)
+#. i18n: ectx: property (text), widget (QToolButton, preferButton)
+#: backendselection.ui:57 devicepreference.ui:190
+#, kde-format
+msgid "Prefer"
+msgstr "Пожељан"
+
+#. i18n: ectx: property (text), widget (QToolButton, m_down)
+#. i18n: ectx: property (text), widget (QToolButton, deferButton)
+#: backendselection.ui:70 devicepreference.ui:206
+#, kde-format
+msgid "Defer"
+msgstr "Нежељен"
+
+#: devicepreference.cpp:92
+#, kde-format
+msgid "Audio Playback"
+msgstr "Аудио пуштање"
+
+#: devicepreference.cpp:106
+#, kde-format
+msgid "Audio Recording"
+msgstr "Аудио снимање"
+
+#: devicepreference.cpp:109
+#, kde-format
+msgid "Video Recording"
+msgstr "Видео снимање"
+
+#: devicepreference.cpp:112
+#, kde-format
+msgid "Invalid"
+msgstr "Лоше"
+
+#: devicepreference.cpp:152
+#, kde-format
+msgid "Test the selected device"
+msgstr "Испробај изабрани уређај"
+
+#: devicepreference.cpp:176 devicepreference.cpp:183 devicepreference.cpp:190
+#, kde-format
+msgid ""
+"Defines the default ordering of devices which can be overridden by "
+"individual categories."
+msgstr ""
+"Одређује подразумевани редослед уређаја, који се може потиснути по појединим "
+"категоријама."
+
+#: devicepreference.cpp:306
+#, kde-format
+msgid "Default Audio Playback Device Preference"
+msgstr "Пожељни подразумевани уређај за аудио пуштање"
+
+#: devicepreference.cpp:309
+#, kde-format
+msgid "Default Audio Recording Device Preference"
+msgstr "Пожељни подразумевани уређај за аудио снимање"
+
+#: devicepreference.cpp:312
+#, kde-format
+msgid "Default Video Recording Device Preference"
+msgstr "Пожељни подразумевани уређај за видео снимање"
+
+#: devicepreference.cpp:319
+#, kde-format
+msgid "Audio Playback Device Preference for the '%1' Category"
+msgstr "Пожељни уређај за аудио пуштање за категорију „%1“"
+
+#: devicepreference.cpp:323
+#, kde-format
+msgid "Audio Recording Device Preference for the '%1' Category"
+msgstr "Пожељни уређај за аудио снимање за категорију „%1“"
+
+#: devicepreference.cpp:327
+#, kde-format
+msgid "Video Recording Device Preference for the '%1' Category "
+msgstr "Пожељни уређај за видео снимање за категорију „%1“"
+
+#: devicepreference.cpp:752
+#, kde-format
+msgid ""
+"Apply the currently shown device preference list to the following other "
+"audio playback categories:"
+msgstr ""
+"Примени тренутно приказан списак пожељних уређаја на следеће друге "
+"категорије аудио пуштања:"
+
+# >> @item:inlistbox
+#: devicepreference.cpp:765 devicepreference.cpp:771
+#, kde-format
+msgid "Default/Unspecified Category"
+msgstr "подразумевана/неодређена категорија"
+
+#: devicepreference.cpp:869
+#, kde-format
+msgid "Failed to set the selected audio output device"
+msgstr "Неуспело постављање изабраног уређаја за аудио излаз"
+
+#: devicepreference.cpp:899
+#, kde-format
+msgid "Your backend may not support audio recording"
+msgstr "Позадина можда не подржава аудио снимање"
+
+#: devicepreference.cpp:920
+#, kde-format
+msgid "Your backend may not support video recording"
+msgstr "Позадина можда не подржава видео снимање"
+
+#: devicepreference.cpp:930
+#, kde-format
+msgid "Testing %1"
+msgstr "Испробавам %1"
+
+#. i18n: ectx: property (toolTip), widget (QTreeView, categoryTree)
+#. i18n: ectx: property (whatsThis), widget (QTreeView, categoryTree)
+#: devicepreference.ui:29 devicepreference.ui:32
+#, kde-format
+msgid ""
+"Various categories of media use cases.  For each category, you may choose "
+"what device you prefer to be used by the Phonon applications."
+msgstr ""
+"Разне категорије употребе медијума. За сваку од њих можете одабрати уређај "
+"који желите да користе програми над Фононом."
+
+#. i18n: ectx: property (text), widget (QCheckBox, showAdvancedDevicesCheckBox)
+#: devicepreference.ui:47
+#, kde-format
+msgid "Show advanced devices"
+msgstr "Напредни уређаји"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, applyPreferencesButton)
+#. i18n: ectx: property (whatsThis), widget (QPushButton, applyPreferencesButton)
+#: devicepreference.ui:77 devicepreference.ui:80
+#, kde-format
+msgid "Use the currently shown device list for more categories."
+msgstr "Примените тренутно приказани списак уређаја на више категорија."
+
+#. i18n: ectx: property (text), widget (QPushButton, applyPreferencesButton)
+#: devicepreference.ui:83
+#, kde-format
+msgid "Apply Device List To..."
+msgstr "Примени списак уређаја на..."
+
+#. i18n: ectx: property (toolTip), widget (QTreeView, deviceList)
+#: devicepreference.ui:113
+#, kde-format
+msgid ""
+"Devices found on your system, suitable for the selected category.  Choose "
+"the device that you wish to be used by the applications."
+msgstr ""
+"Уређаји нађени на систему који су подесни за изабрану категорију. Изаберите "
+"уређај који желите да користе програми."
+
+#. i18n: ectx: property (whatsThis), widget (QTreeView, deviceList)
+#: devicepreference.ui:116
+#, kde-format
+msgid ""
+"The order determines the preference of the devices. If for some reason the "
+"first device cannot be used Phonon will try to use the second, and so on."
+msgstr ""
+"Редослед одређује пожељност уређаја. Ако из неког разлог Фонон не може да "
+"употреби први, покушаће са другим, итд."
+
+#. i18n: ectx: property (text), widget (QToolButton, testPlaybackButton)
+#: devicepreference.ui:171
+#, kde-format
+msgid "Test"
+msgstr "Проба"
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, preferButton)
+#: devicepreference.ui:187
+#, kde-format
+msgid "prefer the selected device"
+msgstr "изабрани уређај је пожељан"
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, deferButton)
+#: devicepreference.ui:203
+#, kde-format
+msgid "no preference for the selected device"
+msgstr "изабрани уређај нема одређену пожељност"
+
+#: main.cpp:40
+#, kde-format
+msgid "Phonon Configuration Module"
+msgstr ""
+"Модул за подешавање Фонона|/|$[својства дат 'Модулу за подешавање Фонона']"
+
+#: main.cpp:42
+#, kde-format
+msgid "Copyright 2006 Matthias Kretz"
+msgstr "© 2006, Матијас Крец"
+
+#: main.cpp:43
+#, kde-format
+msgid "Matthias Kretz"
+msgstr "Матијас Крец"
+
+#: main.cpp:44
+#, kde-format
+msgid "Colin Guthrie"
+msgstr "Колин Гатри"
+
+#: main.cpp:55
+#, kde-format
+msgid "Device Preference"
+msgstr "Пожељни уређаји"
+
+#: main.cpp:57
+#, kde-format
+msgid "Backend"
+msgstr "Позадина"

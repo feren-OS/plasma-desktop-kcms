@@ -1,0 +1,235 @@
+# translation of kcmfonts.po to Spanish
+# Translation of kcmfonts to Spanish
+# Copyright (C) 2000-2002.
+#
+# Pablo de Vicente <vicente@oan.es>, 2000-2002.
+# Jaime Robles <jaime@kde.org>, 2003, 2005, 2007, 2008.
+# Miguel Revilla Rodríguez <yo@miguelrevilla.com>, 2003, 2004.
+# Pablo de Vicente <pablo.devicente@gmail.com>, 2006.
+# Pablo de Vicente <p.devicente@oan.es>, 2007.
+# Enrique Matias Sanchez (aka Quique) <cronopios@gmail.com>, 2007.
+# Eloy Cuadra <ecuadra@eloihr.net>, 2008, 2010, 2012, 2014, 2017, 2018, 2019.
+# Javier Vinal <fjvinal@gmail.com>, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmfonts\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-07-12 07:37+0200\n"
+"PO-Revision-Date: 2019-02-14 19:57+0100\n"
+"Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
+"Language-Team: Spanish <kde-l10n-es@kde.org>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"com>\n"
+"First-Translator: Valux (Manuel Soriano) <manu@valux.org>\n"
+"X-Generator: Lokalize 18.12.2\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Eloy Cuadra"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "ecuadra@eloihr.net"
+
+#: fonts.cpp:279
+#, kde-format
+msgid ""
+"<p>Some changes such as anti-aliasing or DPI will only affect newly started "
+"applications.</p>"
+msgstr ""
+"<p>Algunos cambios, como el suavizado de bordes o DPI, solo afectan a las "
+"aplicaciones que inicie en adelante.</p>"
+
+#: fonts.cpp:280 fonts.cpp:290
+#, kde-format
+msgid "Font Settings Changed"
+msgstr "Cambiadas las preferencias de tipos de letra"
+
+#: fonts.cpp:289
+#, kde-format
+msgid ""
+"<p>Some changes such as DPI will only affect newly started applications.</p>"
+msgstr ""
+"<p>Algunos cambios, como los puntos por pulgada, solo afectan a las "
+"aplicaciones que inicien en adelante.</p>"
+
+#: fonts.cpp:443
+#, kde-format
+msgid "Fonts"
+msgstr "Tipos de letra"
+
+#: fonts.cpp:445
+#, kde-format
+msgid "Antonis Tsiapaliokas"
+msgstr "Antonis Tsiapaliokas"
+
+#: kxftconfig.cpp:444
+#, kde-format
+msgctxt "use system subpixel setting"
+msgid "Vendor default"
+msgstr "Por omisión del vendedor"
+
+#: kxftconfig.cpp:446
+#, kde-format
+msgctxt "no subpixel rendering"
+msgid "None"
+msgstr "Ninguna"
+
+#: kxftconfig.cpp:448
+#, kde-format
+msgid "RGB"
+msgstr "RGB"
+
+#: kxftconfig.cpp:450
+#, kde-format
+msgid "BGR"
+msgstr "BGR"
+
+#: kxftconfig.cpp:452
+#, kde-format
+msgid "Vertical RGB"
+msgstr "RGB vertical"
+
+#: kxftconfig.cpp:454
+#, kde-format
+msgid "Vertical BGR"
+msgstr "BGR vertical"
+
+#: kxftconfig.cpp:482
+#, kde-format
+msgctxt "use system hinting settings"
+msgid "Vendor default"
+msgstr "Por omisión del vendedor"
+
+#: kxftconfig.cpp:484
+#, kde-format
+msgctxt "medium hinting"
+msgid "Medium"
+msgstr "Medio"
+
+#: kxftconfig.cpp:486
+#, kde-format
+msgctxt "no hinting"
+msgid "None"
+msgstr "Ninguno"
+
+#: kxftconfig.cpp:488
+#, kde-format
+msgctxt "slight hinting"
+msgid "Slight"
+msgstr "Suave"
+
+#: kxftconfig.cpp:490
+#, kde-format
+msgctxt "full hinting"
+msgid "Full"
+msgstr "Completo"
+
+#: package/contents/ui/FontWidget.qml:68
+#, kde-format
+msgid "Select %1 Font..."
+msgstr "Seleccionar el tipo de letra %1..."
+
+#: package/contents/ui/main.qml:30
+#, kde-format
+msgid "This module lets you configure the system fonts."
+msgstr "Este módulo le permite configurar los tipos de letra del sistema."
+
+#: package/contents/ui/main.qml:40
+#, kde-format
+msgid "&Adjust All Fonts..."
+msgstr "&Ajustar todos los tipos de letra..."
+
+#: package/contents/ui/main.qml:47
+#, kde-format
+msgid "General:"
+msgstr "General:"
+
+#: package/contents/ui/main.qml:52
+#, kde-format
+msgid "Fixed width:"
+msgstr "Anchura fija:"
+
+#: package/contents/ui/main.qml:57
+#, kde-format
+msgid "Small:"
+msgstr "Pequeña:"
+
+#: package/contents/ui/main.qml:62
+#, kde-format
+msgid "Toolbar:"
+msgstr "Barra de herramientas:"
+
+#: package/contents/ui/main.qml:67
+#, kde-format
+msgid "Menu:"
+msgstr "Menú:"
+
+#: package/contents/ui/main.qml:72
+#, kde-format
+msgid "Window title:"
+msgstr "Título de la ventana:"
+
+#: package/contents/ui/main.qml:84
+#, kde-format
+msgctxt "Used as a noun, and precedes a combobox full of options"
+msgid "Anti-aliasing:"
+msgstr "Suavizado de bordes:"
+
+#: package/contents/ui/main.qml:86
+#, kde-format
+msgid "Enabled"
+msgstr "Activado"
+
+#: package/contents/ui/main.qml:86
+#, kde-format
+msgid "Vendor default"
+msgstr "Por omisión del vendedor"
+
+#: package/contents/ui/main.qml:86
+#, kde-format
+msgid "Disabled"
+msgstr "Desactivado"
+
+#: package/contents/ui/main.qml:96
+#, kde-format
+msgid "Exclude range from anti-aliasing"
+msgstr "Intervalo a excluir del suavizado de bordes"
+
+#: package/contents/ui/main.qml:113 package/contents/ui/main.qml:128
+#, kde-format
+msgid "%1 pt"
+msgstr "%1 pt"
+
+#: package/contents/ui/main.qml:120
+#, kde-format
+msgid "to"
+msgstr "a"
+
+#: package/contents/ui/main.qml:141
+#, kde-format
+msgctxt "Used as a noun, and precedes a combobox full of options"
+msgid "Sub-pixel rendering:"
+msgstr "Representación con subpíxeles:"
+
+#: package/contents/ui/main.qml:178
+#, kde-format
+msgctxt "Used as a noun, and precedes a combobox full of options"
+msgid "Hinting:"
+msgstr "«Hinting»:"
+
+#: package/contents/ui/main.qml:216
+#, kde-format
+msgid "Force font DPI:"
+msgstr "Forzar PPP de los tipos de letra:"
+
+#: package/contents/ui/main.qml:234
+#, kde-format
+msgid "Select Font"
+msgstr "Seleccionar tipo de letra"

@@ -1,0 +1,173 @@
+# Translation of kcmkded.po to Slovenian
+# Copyright (C) 2002, 2003, 2004 Free Software Foundation, Inc.
+# $Id: kcm5_kded.po 1550639 2019-08-30 07:08:12Z scripty $
+# $Source$
+#
+# Gregor Rakar <gregor.rakar@kiss.si>, 2002, 2003, 2004.
+# Jure Repinc <jlp@holodeck1.com>, 2007, 2008.
+# Andrej Mernik <andrejm@ubuntu.si>, 2013, 2015, 2017.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmkded\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"PO-Revision-Date: 2017-03-31 21:19+0100\n"
+"Last-Translator: Andrej Mernik <andrejm@ubuntu.si>\n"
+"Language-Team: Slovenian <lugos-slo@lugos.si>\n"
+"Language: sl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 2.0\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n"
+"%100==4 ? 3 : 0);\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Gregor Rakar,Jure Repinc,Andrej Mernik"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "gregor.rakar@kiss.si,jlp@holodeck1.com,andrejm@ubuntu.si"
+
+#: kcmkded.cpp:79
+#, kde-format
+msgid "kcmkded"
+msgstr "kcmkded"
+
+#: kcmkded.cpp:79
+#, kde-format
+msgid "KDE Service Manager"
+msgstr "Upravljalnik storitev KDE"
+
+#: kcmkded.cpp:81
+#, kde-format
+msgid "(c) 2002 Daniel Molkentin"
+msgstr "© 2002 Daniel Molkentin"
+
+#: kcmkded.cpp:82
+#, kde-format
+msgid "Daniel Molkentin"
+msgstr "Daniel Molkentin"
+
+#: kcmkded.cpp:85
+#, kde-format
+msgid ""
+"<h1>Service Manager</h1><p>This module allows you to have an overview of all "
+"plugins of the KDE Daemon, also referred to as KDE Services. Generally, "
+"there are two types of service:</p><ul><li>Services invoked at startup</"
+"li><li>Services called on demand</li></ul><p>The latter are only listed for "
+"convenience. The startup services can be started and stopped. In "
+"Administrator mode, you can also define whether services should be loaded at "
+"startup.</p><p><b> Use this with care: some services are vital for Plasma; "
+"do not deactivate services if you do not know what you are doing.</b></p>"
+msgstr ""
+"<h1>Upravljalnik storitev</h1><p>Ta modul vam omogoča pregled nad vsemi "
+"vstavki ozadnjega programa KDE, imenovanih tudi kot storitve KDE. V splošnem "
+"sta dve vrsti storitev:</p><ul><li>Storitve, ki se zaženejo ob zagonu</"
+"li><li>Storitve, ki se zaženejo na zahtevo</li></ul><p>Slednje so navedene "
+"le zaradi lažjega ravnanja. Storitve ob zagonu so lahko zagnane ali "
+"zaustavljene. V skrbniškem načinu lahko tudi določite, ali naj se storitve "
+"naložijo ob zagonu.</p><p><b> To uporabljajte previdno. Nekatere storitve so "
+"ključnega pomena za Plasmo. Ne onemogočajte storitev, če ne veste, kaj "
+"počnete.</b></p>"
+
+#: kcmkded.cpp:93
+#, kde-format
+msgid "Running"
+msgstr "Teče"
+
+#: kcmkded.cpp:94
+#, kde-format
+msgid "Not running"
+msgstr "Ne teče"
+
+#: kcmkded.cpp:99
+#, kde-format
+msgid "Load-on-Demand Services"
+msgstr "Storitve na zahtevo"
+
+#: kcmkded.cpp:100
+#, kde-format
+msgid ""
+"This is a list of available KDE services which will be started on demand. "
+"They are only listed for convenience, as you cannot manipulate these "
+"services."
+msgstr ""
+"To je seznam razpoložljivih storitev KDE, ki se zaženejo na zahtevo. "
+"Navedene so samo zaradi lažjega ravnanja, ker ne morete vplivati nanje."
+
+#: kcmkded.cpp:109 kcmkded.cpp:131
+#, kde-format
+msgid "Service"
+msgstr "Storitev"
+
+#: kcmkded.cpp:110 kcmkded.cpp:132
+#, kde-format
+msgid "Status"
+msgstr "Stanje"
+
+#: kcmkded.cpp:111 kcmkded.cpp:133
+#, kde-format
+msgid "Description"
+msgstr "Opis"
+
+#: kcmkded.cpp:120
+#, kde-format
+msgid "Startup Services"
+msgstr "Storitve zagona"
+
+#: kcmkded.cpp:121
+#, kde-format
+msgid ""
+"This shows all KDE services that can be loaded on Plasma startup. Checked "
+"services will be invoked on next startup. Be careful with deactivation of "
+"unknown services."
+msgstr ""
+"To prikazuje vse storitve KDE, ki se zaženejo ob zagonu Plasme. Označene "
+"storitve bodo zagnane ob naslednjem zagonu. Bodite previdni pri onemogočanju "
+"neznanih storitev."
+
+#: kcmkded.cpp:130
+#, kde-format
+msgid "Use"
+msgstr "Uporaba"
+
+#: kcmkded.cpp:143
+#, kde-format
+msgid "Start"
+msgstr "Zaženi"
+
+#: kcmkded.cpp:144
+#, kde-format
+msgid "Stop"
+msgstr "Zaustavi"
+
+#: kcmkded.cpp:325
+#, kde-format
+msgid "Unable to contact KDED."
+msgstr "Ni bilo mogoče navezati stika s KDED."
+
+#: kcmkded.cpp:469
+#, kde-format
+msgid "Unable to start server <em>%1</em>."
+msgstr "Ni bilo mogoče zagnati strežnika <em>%1</em>."
+
+#: kcmkded.cpp:472
+#, kde-format
+msgid "Unable to start service <em>%1</em>.<br /><br /><i>Error: %2</i>"
+msgstr ""
+"Ni bilo mogoče zagnati storitve <em>%1</em>.<br /><br /><i>Napaka: %2</i>"
+
+#: kcmkded.cpp:489
+#, kde-format
+msgid "Unable to stop service <em>%1</em>."
+msgstr "Ni bilo mogoče zaustaviti storitve <em>%1</em>."
+
+#: kcmkded.cpp:492
+#, kde-format
+msgid "Unable to stop service <em>%1</em>.<br /><br /><i>Error: %2</i>"
+msgstr ""
+"Ni bilo mogoče zaustaviti storitve <em>%1</em>.<br /><br /><i>Napaka: %2</i>"

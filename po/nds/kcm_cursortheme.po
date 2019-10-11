@@ -1,0 +1,189 @@
+# translation of kcminput.po to Low Saxon
+# Translation of kcminput.po to Low Saxon
+# Copyright (C) 2004, 2005, 2006, 2007, 2008, 2009 Free Software Foundation, Inc.
+# Heiko Evermann <heiko@evermann.de>, 2004.
+# Sönke Dibbern <s_dibbern@web.de>, 2005, 2006, 2007, 2008, 2014.
+# Manfred Wiese <m.j.wiese@web.de>, 2009, 2010, 2011.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kcminput\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"PO-Revision-Date: 2014-09-18 15:57+0200\n"
+"Last-Translator: Sönke Dibbern <s_dibbern@web.de>\n"
+"Language-Team: Low Saxon <kde-i18n-nds@kde.org>\n"
+"Language: nds\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.4\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Sönke Dibbern, Manfred Wiese"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "s_dibbern@web.de, m.j.wiese@web.de"
+
+#: kcmcursortheme.cpp:74
+#, fuzzy, kde-format
+#| msgid "Cursor Theme"
+msgid "Cursors"
+msgstr "Wieserutsehn"
+
+#: kcmcursortheme.cpp:75
+#, kde-format
+msgid "(c) 2003-2007 Fredrik Höglund"
+msgstr "© 2003-2007: Fredrik Höglund"
+
+#: kcmcursortheme.cpp:76
+#, kde-format
+msgid "Fredrik Höglund"
+msgstr "Fredrik Höglund"
+
+#: kcmcursortheme.cpp:77
+#, kde-format
+msgid "Marco Martin"
+msgstr ""
+
+#: kcmcursortheme.cpp:244
+#, fuzzy, kde-format
+#| msgctxt "@item:inlistbox size"
+#| msgid "resolution dependent"
+msgctxt "@item:inlistbox size"
+msgid "Resolution dependent"
+msgstr "oplösenbaseert"
+
+#: kcmcursortheme.cpp:376
+#, fuzzy, kde-format
+#| msgid "You have to restart KDE for these changes to take effect."
+msgid ""
+"You have to restart the Plasma session for these changes to take effect."
+msgstr "De Ännern warrt eerst na en KDE-Niegstart warken."
+
+#: kcmcursortheme.cpp:511
+#, kde-format
+msgid "Unable to create a temporary file."
+msgstr ""
+
+#: kcmcursortheme.cpp:523
+#, fuzzy, kde-format
+#| msgid "Unable to find the cursor theme archive %1."
+msgid "Unable to download the icon theme archive: %1"
+msgstr "Dat Wiesermuster-Archiv \"%1\" lett sik nich finnen."
+
+#: kcmcursortheme.cpp:554
+#, fuzzy, kde-format
+#| msgid "The file %1 does not appear to be a valid cursor theme archive."
+msgid "The file is not a valid icon theme archive."
+msgstr "As dat lett gellt de Datei \"%1\" nich as Wiesermuster-Archiv."
+
+#: kcmcursortheme.cpp:561
+#, kde-format
+msgid "Failed to create 'icons' folder."
+msgstr ""
+
+#: kcmcursortheme.cpp:569
+#, kde-format
+msgid ""
+"A theme named %1 already exists in your icon theme folder. Do you want "
+"replace it with this one?"
+msgstr ""
+"Dat gifft al en Muster mit den Naam \"%1\" binnen Dien Lüttbildmuster-Orner. "
+"Wullt Du dat överschrieven?"
+
+#: kcmcursortheme.cpp:573
+#, kde-format
+msgid "Overwrite Theme?"
+msgstr "Muster överschrieven?"
+
+#: kcmcursortheme.cpp:599
+#, kde-format
+msgid "Theme installed successfully."
+msgstr ""
+
+#: kcmcursortheme.cpp:615
+#, kde-format
+msgid ""
+"<qt>You cannot delete the theme you are currently using.<br />You have to "
+"switch to another theme first.</qt>"
+msgstr ""
+"<qt>Du kannst dat Muster, wat Du opstunns bruukst, nich wegdoon.<br />Du "
+"muttst toeerst en anner Muster anmaken.</qt>"
+
+#: kcmcursortheme.cpp:621
+#, kde-format
+msgid ""
+"<qt>Are you sure you want to remove the <i>%1</i> cursor theme?<br />This "
+"will delete all the files installed by this theme.</qt>"
+msgstr ""
+"<qt>Büst Du seker, wat Du dat Wiesermuster <i>%1</i> wegdoon wullt?<br />Dat "
+"warrt all Dateien wegdoon, de dat Muster tohöört.</qt>"
+
+#: kcmcursortheme.cpp:627
+#, kde-format
+msgid "Confirmation"
+msgstr "Nafraag"
+
+#: package/contents/ui/Delegate.qml:57
+#, kde-format
+msgid "Remove Theme"
+msgstr "Muster wegmaken"
+
+#: package/contents/ui/main.qml:31
+#, kde-format
+msgid "This module lets you choose the mouse cursor theme."
+msgstr ""
+
+#: package/contents/ui/main.qml:98
+#, fuzzy, kde-format
+#| msgctxt "@label:listbox cursor size"
+#| msgid "Size:"
+msgid "Size:"
+msgstr "Grött:"
+
+#: package/contents/ui/main.qml:146
+#, fuzzy, kde-format
+#| msgid "Install From File..."
+msgid "&Install from File..."
+msgstr "Ut Datei installeren…"
+
+#: package/contents/ui/main.qml:152
+#, fuzzy, kde-format
+#| msgid "Get New Theme..."
+msgid "&Get New Cursors..."
+msgstr "Nieg Muster daalladen…"
+
+#: package/contents/ui/main.qml:174
+#, fuzzy, kde-format
+#| msgid "Remove Theme"
+msgid "Open Theme"
+msgstr "Muster wegmaken"
+
+#: package/contents/ui/main.qml:176
+#, kde-format
+msgid "Cursor Theme Files (*.tar.gz *.tar.bz2)"
+msgstr ""
+
+#: xcursor/thememodel.cpp:83
+#, kde-format
+msgid "Name"
+msgstr "Naam"
+
+#: xcursor/thememodel.cpp:86
+#, kde-format
+msgid "Description"
+msgstr "Beschrieven"
+
+#: xcursor/xcursortheme.cpp:74
+#, kde-format
+msgctxt ""
+"@info The argument is the list of available sizes (in pixel). Example: "
+"'Available sizes: 24' or 'Available sizes: 24, 36, 48'"
+msgid "(Available sizes: %1)"
+msgstr "(Verföögbor Grötten: %1)"

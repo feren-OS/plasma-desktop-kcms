@@ -1,0 +1,49 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+# Axel Rousseau <axel@esperanto-jeunes.org>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"PO-Revision-Date: 2009-11-03 21:29+0100\n"
+"Last-Translator: Axel Rousseau <axel@esperanto-jeunes.org>\n"
+"Language-Team: Esperanto <kde-i18n-doc@kde.org>\n"
+"Language: eo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.0\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
+
+#: standard_actions_module.cpp:62 standard_actions_module.cpp:135
+#, kde-format
+msgid "Standard Shortcuts"
+msgstr ""
+
+#: standard_actions_module.cpp:154
+#, kde-format
+msgid "Standard Actions successfully saved"
+msgstr "Normalaj agoj suksese konserviĝis"
+
+#: standard_actions_module.cpp:156
+#, kde-format
+msgid ""
+"The changes have been saved. Please note that:<ul><li>Applications need to "
+"be restarted to see the changes.</li>    <li>This change could introduce "
+"shortcut conflicts in some applications.</li></ul>"
+msgstr ""
+"La ŝanĝoj konserviĝis. Bonvolu noti ke <ul><li>Aplikaĵoj bezonas restarti "
+"por montri ŝanĝojn</li><li>Tiuj ŝanĝoj eble konfliktiĝos kun klavkombinoj en "
+"aliaj aplikaĵoj.</li></ul>"

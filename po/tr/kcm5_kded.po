@@ -1,0 +1,168 @@
+# translation of kcmkded.po to Turkish
+# Copyright (C) 2003, 2004, 2008 Free Software Foundation, Inc.
+#
+# Görkem Çetin <gorkem@kde.org>, 2002,2003, 2004.
+# Adil Yıldız <adil_yildiztr@yahoo.com>, 2004.
+# Serdar Soytetir <tulliana@gmail.com>, 2008.
+# Volkan Gezer <volkangezer@gmail.com>, 2015, 2017.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmkded\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"PO-Revision-Date: 2017-04-24 16:33+0100\n"
+"Last-Translator: Volkan Gezer <volkangezer@gmail.com>\n"
+"Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 2.0\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Görkem Çetin"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "gorkem@kde.org"
+
+#: kcmkded.cpp:79
+#, kde-format
+msgid "kcmkded"
+msgstr "kcmkded"
+
+#: kcmkded.cpp:79
+#, kde-format
+msgid "KDE Service Manager"
+msgstr "KDE Servis Yöneticisi"
+
+#: kcmkded.cpp:81
+#, kde-format
+msgid "(c) 2002 Daniel Molkentin"
+msgstr "(c) 2002 Daniel Molkentin"
+
+#: kcmkded.cpp:82
+#, kde-format
+msgid "Daniel Molkentin"
+msgstr "Daniel Molkentin"
+
+#: kcmkded.cpp:85
+#, kde-format
+msgid ""
+"<h1>Service Manager</h1><p>This module allows you to have an overview of all "
+"plugins of the KDE Daemon, also referred to as KDE Services. Generally, "
+"there are two types of service:</p><ul><li>Services invoked at startup</"
+"li><li>Services called on demand</li></ul><p>The latter are only listed for "
+"convenience. The startup services can be started and stopped. In "
+"Administrator mode, you can also define whether services should be loaded at "
+"startup.</p><p><b> Use this with care: some services are vital for Plasma; "
+"do not deactivate services if you do not know what you are doing.</b></p>"
+msgstr ""
+"<h1>Servis Yöneticisi</h1><p>Bu modül, KDE sistemi içindeki tüm modülleri "
+"görüntüler. Genel olarak iki tür servis vardır:</p><ul><li>Başlangıçta "
+"çalıştırılan servisler</li><li>İstek halinde çalıştırılan servisler</li></"
+"ul><p>İkinci seçenekteki servisleri sadece görüntüleyebilme imkanı vardır. "
+"İlk seçenekteki başlangıç servislerini ise çalıştırabilir ve "
+"durdurabilirsiniz.</p><p><b> Bu seçeneği dikkatli kullanın. Bazı servisler "
+"Plasma'nın düzgün çalışması için gereklidir.</b></p>"
+
+#: kcmkded.cpp:93
+#, kde-format
+msgid "Running"
+msgstr "Çalışıyor"
+
+#: kcmkded.cpp:94
+#, kde-format
+msgid "Not running"
+msgstr "Çalışmıyor"
+
+#: kcmkded.cpp:99
+#, kde-format
+msgid "Load-on-Demand Services"
+msgstr "İstek Anında Yüklenen Servisler"
+
+#: kcmkded.cpp:100
+#, kde-format
+msgid ""
+"This is a list of available KDE services which will be started on demand. "
+"They are only listed for convenience, as you cannot manipulate these "
+"services."
+msgstr ""
+"İstek halinde başlatılacak olan KDE servislerinin listesini burada "
+"görebilirsiniz."
+
+#: kcmkded.cpp:109 kcmkded.cpp:131
+#, kde-format
+msgid "Service"
+msgstr "Servis"
+
+#: kcmkded.cpp:110 kcmkded.cpp:132
+#, kde-format
+msgid "Status"
+msgstr "Durum"
+
+#: kcmkded.cpp:111 kcmkded.cpp:133
+#, kde-format
+msgid "Description"
+msgstr "Açıklama"
+
+#: kcmkded.cpp:120
+#, kde-format
+msgid "Startup Services"
+msgstr "Başlangıç Servisleri"
+
+#: kcmkded.cpp:121
+#, kde-format
+msgid ""
+"This shows all KDE services that can be loaded on Plasma startup. Checked "
+"services will be invoked on next startup. Be careful with deactivation of "
+"unknown services."
+msgstr ""
+"Bu ekranda KDE başlangıcında yüklenebilecek tüm servislerin bir listesi "
+"vardır. İşaretli simgeler, Plasma tekrar başladığı zaman çalıştırılacaktır. "
+"Bilinmeyen servislerin kapatılması konusunda iki kez dikkatli olmanızı "
+"öneririz."
+
+#: kcmkded.cpp:130
+#, kde-format
+msgid "Use"
+msgstr "Kullan"
+
+#: kcmkded.cpp:143
+#, kde-format
+msgid "Start"
+msgstr "Başlat"
+
+#: kcmkded.cpp:144
+#, kde-format
+msgid "Stop"
+msgstr "Durdur"
+
+#: kcmkded.cpp:325
+#, kde-format
+msgid "Unable to contact KDED."
+msgstr "KDED ile bağlantı kurulamadı."
+
+#: kcmkded.cpp:469
+#, kde-format
+msgid "Unable to start server <em>%1</em>."
+msgstr "Sunucu başlatılamadı <em>%1</em>."
+
+#: kcmkded.cpp:472
+#, kde-format
+msgid "Unable to start service <em>%1</em>.<br /><br /><i>Error: %2</i>"
+msgstr "Servis başlatılamadı <em>%1</em>.<br /><br /><i>Hata: %2</i>"
+
+#: kcmkded.cpp:489
+#, kde-format
+msgid "Unable to stop service <em>%1</em>."
+msgstr "Hizmet <em>%1</em> durdurulamadı."
+
+#: kcmkded.cpp:492
+#, kde-format
+msgid "Unable to stop service <em>%1</em>.<br /><br /><i>Error: %2</i>"
+msgstr "Servis durdurulamadı <em>%1</em>.<br /><br /><i>Hata: %2</i>"

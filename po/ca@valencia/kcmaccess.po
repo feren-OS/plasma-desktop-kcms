@@ -1,0 +1,541 @@
+# Translation of kcmaccess.po to Catalan (Valencian)
+# Copyright (C) 2000-2017 This_file_is_part_of_KDE
+# This file is distributed under the license LGPL version 2.1 or
+# version 3 or later versions approved by the membership of KDE e.V.
+#
+# Sebastià Pla i Sanz <sps@sastia.com>, 2000, 2001, 2004, 2005, 2006.
+# Antoni Bella Pérez <antonibella5@yahoo.com>, 2002, 2003, 2012, 2015, 2016.
+# Josep Ma. Ferrer <txemaq@gmail.com>, 2007, 2008, 2009, 2014, 2015, 2017.
+# Orestes Mas Casals <orestes@tsc.upc.edu>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmaccess\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"PO-Revision-Date: 2017-11-10 17:20+0100\n"
+"Last-Translator: Josep Ma. Ferrer <txemaq@gmail.com>\n"
+"Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
+"Language: ca@valencia\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 2.0\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Accelerator-Marker: &\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Sebastià Pla i Sanz,Antoni Bella"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "sps@sastia.com,antonibella5@yahoo.com"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tabBell)
+#: accessibility.ui:21
+#, kde-format
+msgid "&Bell"
+msgstr "&Timbre"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: accessibility.ui:27
+#, kde-format
+msgid "Audible Bell"
+msgstr "Timbre audible"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, systemBell)
+#. i18n: ectx: property (toolTip), widget (QCheckBox, gestures)
+#: accessibility.ui:33 accessibility.ui:576
+#, kde-format
+msgid ""
+"If this option is checked, the default system bell will be used. Usually, "
+"this is just a \"beep\"."
+msgstr ""
+"Si aquesta opció està activada, s'usarà el timbre del sistema per omissió. "
+"Normalment, només és un «biiip»."
+
+#. i18n: ectx: property (text), widget (QCheckBox, systemBell)
+#: accessibility.ui:36
+#, kde-format
+msgid "Use &system bell"
+msgstr "Usa el tim&bre del sistema"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, customBell)
+#. i18n: ectx: property (toolTip), widget (QCheckBox, accessxBeep)
+#: accessibility.ui:43 accessibility.ui:660
+#, kde-format
+msgid ""
+"Check this option if you want to use a customized bell, playing a sound "
+"file. If you do this, you will probably want to turn off the system bell."
+msgstr ""
+"Activeu aquesta opció si voleu usar un timbre personalitzat, reproduint un "
+"fitxer de so. Si ho feu, segurament voldreu apagar el timbre del sistema."
+
+#. i18n: ectx: property (text), widget (QCheckBox, customBell)
+#: accessibility.ui:46
+#, kde-format
+msgid "Us&e customized bell"
+msgstr "Usa un timbre p&ersonalitzat"
+
+#. i18n: ectx: property (toolTip), widget (QLabel, soundLabel)
+#. i18n: ectx: property (toolTip), widget (QLineEdit, soundEdit)
+#. i18n: ectx: property (toolTip), widget (QPushButton, soundButton)
+#: accessibility.ui:71 accessibility.ui:84 accessibility.ui:91
+#, kde-format
+msgid ""
+"If the option \"Use customized bell\" is enabled, you can choose a sound "
+"file here. Click \"Browse...\" to choose a sound file using the file dialog."
+msgstr ""
+"Si l'opció «Usar timbre a mida» està activada, ací podeu triar un fitxer de "
+"so. Cliqueu «Navega...» per triar un fitxer de so usant el diàleg de fitxers."
+
+#. i18n: ectx: property (text), widget (QLabel, soundLabel)
+#: accessibility.ui:74
+#, kde-format
+msgid "Sound &to play:"
+msgstr "So a &reproduir:"
+
+#. i18n: ectx: property (text), widget (QPushButton, soundButton)
+#: accessibility.ui:94
+#, kde-format
+msgid "Browse..."
+msgstr "Navega..."
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: accessibility.ui:106
+#, kde-format
+msgid "Visual Bell"
+msgstr "Timbre visual"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, visibleBell)
+#: accessibility.ui:112
+#, kde-format
+msgid ""
+"This option will turn on the \"visual bell\", i.e. a visual notification "
+"shown every time that normally just a bell would occur. This is especially "
+"useful for deaf people."
+msgstr ""
+"Aquesta opció activarà el «timbre visual», una notificació visual que es "
+"mostra cada cop que normalment sonaria el timbre. Això és especialment útil "
+"per a gent sorda."
+
+#. i18n: ectx: property (text), widget (QCheckBox, visibleBell)
+#: accessibility.ui:115
+#, kde-format
+msgid "&Use visual bell"
+msgstr "Usa el timbre &visual"
+
+#. i18n: ectx: property (toolTip), widget (QRadioButton, flashScreen)
+#: accessibility.ui:122
+#, kde-format
+msgid ""
+"The screen will turn to a custom color for the amount of time specified "
+"below."
+msgstr ""
+"La pantalla es posarà d'un color personalitzat durant el temps especificat a "
+"sota."
+
+#. i18n: ectx: property (text), widget (QRadioButton, flashScreen)
+#: accessibility.ui:125
+#, kde-format
+msgid "F&lash screen"
+msgstr "F&laix de la pantalla"
+
+#. i18n: ectx: property (toolTip), widget (QRadioButton, invertScreen)
+#: accessibility.ui:132
+#, kde-format
+msgid ""
+"All screen colors will be inverted for the amount of time specified below."
+msgstr ""
+"Tots els colors de la pantalla s'invertiran durant el temps especificat a "
+"sota."
+
+#. i18n: ectx: property (text), widget (QRadioButton, invertScreen)
+#: accessibility.ui:135
+#, kde-format
+msgid "I&nvert screen"
+msgstr "I&nverteix la pantalla"
+
+#. i18n: ectx: property (toolTip), widget (KColorButton, colorButton)
+#: accessibility.ui:158
+#, kde-format
+msgid ""
+"Click here to choose the color used for the \"flash screen\" visible bell."
+msgstr ""
+"Cliqueu ací per triar el color usat al timbre visible «flaix de la pantalla»."
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: accessibility.ui:165
+#, kde-format
+msgid "&Duration:"
+msgstr "&Durada:"
+
+#. i18n: ectx: property (toolTip), widget (QSpinBox, duration)
+#. i18n: ectx: property (toolTip), widget (QSpinBox, slowKeysDelay)
+#. i18n: ectx: property (toolTip), widget (QSpinBox, bounceKeysDelay)
+#. i18n: ectx: property (toolTip), widget (QSpinBox, timeoutDelay)
+#: accessibility.ui:178 accessibility.ui:389 accessibility.ui:486
+#: accessibility.ui:614
+#, kde-format
+msgid ""
+"Here you can customize the duration of the \"visible bell\" effect being "
+"shown."
+msgstr ""
+"Ací podeu personalitzar la durada de l'efecte mostrar al «timbre visible»."
+
+#. i18n: ectx: property (suffix), widget (QSpinBox, duration)
+#. i18n: ectx: property (suffix), widget (QSpinBox, slowKeysDelay)
+#. i18n: ectx: property (suffix), widget (QSpinBox, bounceKeysDelay)
+#: accessibility.ui:181 accessibility.ui:392 accessibility.ui:489
+#, kde-format
+msgid " msec"
+msgstr " ms"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tabModifier)
+#: accessibility.ui:224
+#, kde-format
+msgid "&Modifier Keys"
+msgstr "Tecles &modificadores"
+
+#. i18n: ectx: property (title), widget (QGroupBox, sticky)
+#: accessibility.ui:230
+#, kde-format
+msgid "Sticky Keys"
+msgstr "Tecles apegaloses"
+
+#. i18n: ectx: property (text), widget (QCheckBox, stickyKeys)
+#: accessibility.ui:236
+#, kde-format
+msgid "Use &sticky keys"
+msgstr "Usa tecles ape&galoses"
+
+#. i18n: ectx: property (text), widget (QCheckBox, stickyKeysLock)
+#: accessibility.ui:263
+#, kde-format
+msgid "&Lock sticky keys"
+msgstr "Blo&queja les tecles apegaloses"
+
+#. i18n: ectx: property (text), widget (QCheckBox, stickyKeysAutoOff)
+#: accessibility.ui:270
+#, kde-format
+msgid "Turn sticky keys off when two keys are pressed simultaneously"
+msgstr ""
+"Activa les tecles apegaloses sempre que es premen dues tecles simultàniament"
+
+#. i18n: ectx: property (text), widget (QCheckBox, stickyKeysBeep)
+#: accessibility.ui:277
+#, kde-format
+msgid "Use system bell whenever a modifier gets latched, locked or unlocked"
+msgstr ""
+"Usa el timbre del sistema sempre que un modificador s'active, es bloquegi o "
+"es desbloquegi"
+
+#. i18n: ectx: property (title), widget (QGroupBox, locking)
+#: accessibility.ui:291
+#, kde-format
+msgid "Locking Keys"
+msgstr "Tecles de bloqueig"
+
+#. i18n: ectx: property (text), widget (QCheckBox, toggleKeysBeep)
+#: accessibility.ui:297
+#, kde-format
+msgid "Use system bell whenever a locking key gets activated or deactivated"
+msgstr ""
+"Usa el timbre del sistema sempre que una tecla de bloqueig s'active o es "
+"desactive"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kNotifyModifiers)
+#: accessibility.ui:304
+#, kde-format
+msgid ""
+"Use Plasma's notification mechanism for modifier or locking key state changes"
+msgstr ""
+"Usa el mecanisme de notificació del Plasma per canvis d'estat del "
+"modificador o de la tecla de bloqueig"
+
+#. i18n: ectx: property (text), widget (QPushButton, kNotifyModifiersButton)
+#. i18n: ectx: property (text), widget (QPushButton, kNotifyAccessButton)
+#: accessibility.ui:329 accessibility.ui:706
+#, kde-format
+msgid "Configure &Notifications..."
+msgstr "Configura les &notificacions..."
+
+#. i18n: ectx: attribute (title), widget (QWidget, tabKeyFilters)
+#: accessibility.ui:368
+#, kde-format
+msgid "&Keyboard Filters"
+msgstr "Filtres de te&clat"
+
+#. i18n: ectx: property (title), widget (QGroupBox, slowkeys)
+#: accessibility.ui:374
+#, kde-format
+msgid "Slo&w Keys"
+msgstr "Tecles l&entes"
+
+#. i18n: ectx: property (text), widget (QCheckBox, slowKeys)
+#: accessibility.ui:382
+#, kde-format
+msgid "&Use slow keys"
+msgstr "Usa tecles &lentes"
+
+#. i18n: ectx: property (text), widget (QCheckBox, slowKeysPressBeep)
+#: accessibility.ui:443
+#, kde-format
+msgid "&Use system bell whenever a key is pressed"
+msgstr "&Usa el timbre del sistema sempre que es prema una tecla"
+
+#. i18n: ectx: property (text), widget (QCheckBox, slowKeysAcceptBeep)
+#: accessibility.ui:450
+#, kde-format
+msgid "&Use system bell whenever a key is accepted"
+msgstr "&Usa el timbre del sistema sempre que s'accepti una tecla"
+
+#. i18n: ectx: property (text), widget (QCheckBox, slowKeysRejectBeep)
+#: accessibility.ui:457
+#, kde-format
+msgid "&Use system bell whenever a key is rejected"
+msgstr "&Usa el timbre del sistema sempre que es rebutgi una tecla"
+
+#. i18n: ectx: property (title), widget (QGroupBox, bouncekeys)
+#: accessibility.ui:471
+#, kde-format
+msgid "Bounce Keys"
+msgstr "Tecles de repetició"
+
+#. i18n: ectx: property (text), widget (QCheckBox, bounceKeys)
+#: accessibility.ui:479
+#, kde-format
+msgid "Use bou&nce keys"
+msgstr "Usa &repetició de tecles"
+
+#. i18n: ectx: property (text), widget (QCheckBox, bounceKeysRejectBeep)
+#: accessibility.ui:538
+#, kde-format
+msgid "Use the system bell whenever a key is rejected"
+msgstr "Usa el timbre del sistema sempre que es rebutja una tecla"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tabActivationGestures)
+#: accessibility.ui:564
+#, kde-format
+msgid "Activation &Gestures"
+msgstr "&Gestos d'activació"
+
+#. i18n: ectx: property (title), widget (QGroupBox, activationgestures)
+#: accessibility.ui:570
+#, kde-format
+msgid "Activation Gestures"
+msgstr "Gestos d'activació"
+
+#. i18n: ectx: property (text), widget (QCheckBox, gestures)
+#: accessibility.ui:579
+#, kde-format
+msgid "Use gestures for activating sticky keys and slow keys"
+msgstr "Usa gestos per activar les tecles apegaloses i lentes"
+
+#. i18n: ectx: property (text), widget (QCheckBox, timeout)
+#: accessibility.ui:589
+#, kde-format
+msgid ""
+"Turn sticky keys and slow keys off after a certain period of inactivity."
+msgstr ""
+"Desactiva les tecles apegaloses i lentes després d'un cert període "
+"d'inactivitat."
+
+#. i18n: ectx: property (suffix), widget (QSpinBox, timeoutDelay)
+#: accessibility.ui:617
+#, kde-format
+msgid " min"
+msgstr " min"
+
+#. i18n: ectx: property (title), widget (QGroupBox, notification)
+#: accessibility.ui:654
+#, kde-format
+msgid "Notification"
+msgstr "Notificació"
+
+#. i18n: ectx: property (text), widget (QCheckBox, accessxBeep)
+#: accessibility.ui:663
+#, kde-format
+msgid ""
+"Use the system bell whenever a gesture is used to toggle an accessibility "
+"feature"
+msgstr ""
+"Usa el timbre del sistema quan s'usi un gest per commutar una característica "
+"d'accessibilitat"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, gestureConfirmation)
+#: accessibility.ui:671
+#, kde-format
+msgid ""
+"If this option is checked, KDE will show a confirmation dialog whenever a "
+"keyboard accessibility feature is turned on or off.\n"
+"Ensure you know what you are doing if you uncheck it, as the keyboard "
+"accessibility settings will then always be applied without confirmation."
+msgstr ""
+"Si es marca aquesta opció, el KDE mostrarà un diàleg de confirmació sempre "
+"que s'active o desactive una característica d'accessibilitat del teclat.\n"
+"Assegureu-vos que sabeu el que feu si ho desmarqueu, atés que llavors sempre "
+"s'aplicaran sense confirmació els valors d'accessibilitat del teclat."
+
+#. i18n: ectx: property (text), widget (QCheckBox, gestureConfirmation)
+#: accessibility.ui:674
+#, kde-format
+msgid ""
+"Show a confirmation dialog whenever a keyboard accessibility feature is "
+"toggled"
+msgstr ""
+"Mostra un diàleg de confirmació sempre que es commuti una característica "
+"d'accessibilitat del teclat"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kNotifyAccess)
+#: accessibility.ui:681
+#, kde-format
+msgid ""
+"Use Plasma's notification mechanism whenever a keyboard accessibility "
+"feature is toggled"
+msgstr ""
+"Usa el sistema de notificació del Plasma sempre que es commuti una "
+"característica d'accessibilitat del teclat"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tabScreenReader)
+#: accessibility.ui:745
+#, kde-format
+msgid "Screen Reader"
+msgstr "Lector de pantalla"
+
+#. i18n: ectx: property (text), widget (QCheckBox, screenReaderEnabled)
+#: accessibility.ui:751
+#, kde-format
+msgid "Screen reader enabled"
+msgstr "Lector de pantalla activat"
+
+#. i18n: ectx: property (text), widget (QPushButton, launchOrcaConfiguration)
+#: accessibility.ui:760
+#, kde-format
+msgid "&Launch Orca Configuration"
+msgstr "Configuració de &llançament de l'Orca"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: accessibility.ui:785
+#, kde-format
+msgid ""
+"Please note that you may have to log out once to allow the screen reader to "
+"work properly."
+msgstr ""
+"Recordeu que potser haureu d'eixir de la sessió per permetre que el lector "
+"de la pantalla funcione correctament."
+
+#: kcmaccess.cpp:121
+#, kde-format
+msgid "AltGraph"
+msgstr "AltGr"
+
+#: kcmaccess.cpp:123
+#, kde-format
+msgid "Hyper"
+msgstr "Hyper"
+
+#: kcmaccess.cpp:125
+#, kde-format
+msgid "Super"
+msgstr "Súper"
+
+#: kcmaccess.cpp:139
+#, kde-format
+msgid "Press %1 while NumLock, CapsLock and ScrollLock are active"
+msgstr "Premeu %1 mentre Bloq Núm, Bloq Maj i Bloq Despl estan actives"
+
+#: kcmaccess.cpp:141
+#, kde-format
+msgid "Press %1 while CapsLock and ScrollLock are active"
+msgstr "Premeu %1 mentre Bloq Maj i Bloq Despl estan actives"
+
+#: kcmaccess.cpp:143
+#, kde-format
+msgid "Press %1 while NumLock and ScrollLock are active"
+msgstr "Premeu %1 mentre Bloq Núm i Bloq Despl estan actives"
+
+#: kcmaccess.cpp:145
+#, kde-format
+msgid "Press %1 while ScrollLock is active"
+msgstr "Premeu %1 mentre Bloq Despl està activa"
+
+#: kcmaccess.cpp:148
+#, kde-format
+msgid "Press %1 while NumLock and CapsLock are active"
+msgstr "Premeu %1 mentre Bloq Núm i Bloq Maj estan actives"
+
+#: kcmaccess.cpp:150
+#, kde-format
+msgid "Press %1 while CapsLock is active"
+msgstr "Premeu %1 mentre Bloq Maj està activa"
+
+#: kcmaccess.cpp:152
+#, kde-format
+msgid "Press %1 while NumLock is active"
+msgstr "Premeu %1 mentre Bloq Núm està activa"
+
+#: kcmaccess.cpp:154
+#, kde-format
+msgid "Press %1"
+msgstr "Premeu %1"
+
+#: kcmaccess.cpp:163
+#, kde-format
+msgid "KDE Accessibility Tool"
+msgstr "Eina d'accessibilitat al KDE"
+
+#: kcmaccess.cpp:164
+#, kde-format
+msgid "(c) 2000, Matthias Hoelzer-Kluepfel"
+msgstr "(c) 2000, Matthias Hoelzer-Kluepfel"
+
+#: kcmaccess.cpp:166
+#, kde-format
+msgid "Matthias Hoelzer-Kluepfel"
+msgstr "Matthias Hoelzer-Kluepfel"
+
+#: kcmaccess.cpp:166
+#, kde-format
+msgid "Author"
+msgstr "Autor"
+
+#: kcmaccess.cpp:221
+#, kde-format
+msgid ""
+"Here you can activate keyboard gestures that turn on the following "
+"features: \n"
+"Sticky keys: Press Shift key 5 consecutive times\n"
+"Slow keys: Hold down Shift for 8 seconds"
+msgstr ""
+"Ací podeu activar els gestos del teclat que engeguen les característiques "
+"següents: \n"
+"Tecles apegaloses: Premeu 5 cops consecutius la tecla Maj\n"
+"Tecles lentes: Mantingueu premuda durant 8 segons la tecla Maj"
+
+#: kcmaccess.cpp:225
+#, kde-format
+msgid ""
+"Here you can activate keyboard gestures that turn on the following "
+"features: \n"
+"Mouse Keys: %1\n"
+"Sticky keys: Press Shift key 5 consecutive times\n"
+"Slow keys: Hold down Shift for 8 seconds"
+msgstr ""
+"Ací podeu activar els gestos del teclat que engeguen les característiques "
+"següents: \n"
+"Tecles de ratolí: %1\n"
+"Tecles apegaloses: Premeu 5 cops consecutius la tecla Maj\n"
+"Tecles lentes: Mantingueu premuda durant 8 segons la tecla Maj"
+
+#: kcmaccess.cpp:261
+#, kde-format
+msgid "Could not set gsettings for Orca: \"%1\" failed"
+msgstr "No s'han pogut definir els paràmetres de l'Orca: «%1» ha fallat"
+
+#: kcmaccess.cpp:268
+#, kde-format
+msgid "Error: Could not launch \"orca --setup\""
+msgstr "Error: No s'ha pogut llançar «orca --setup»"

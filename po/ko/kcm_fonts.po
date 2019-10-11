@@ -1,0 +1,224 @@
+# Translation of kcmfonts.po to Korean.
+# Copyright (C) 2001, 2007 Free Software Foundation, Inc.
+# Shinjo Park <kde@peremen.name>, 2007, 2010, 2012, 2015, 2017, 2018, 2019.
+#
+# Yu-Chan, Park, 2001.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmfonts\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-07-12 07:37+0200\n"
+"PO-Revision-Date: 2019-04-12 00:00+0100\n"
+"Last-Translator: Shinjo Park <kde@peremen.name>\n"
+"Language-Team: Korean <kde-kr@kde.org>\n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 18.12.3\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "박신조"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde@peremen.name"
+
+#: fonts.cpp:279
+#, kde-format
+msgid ""
+"<p>Some changes such as anti-aliasing or DPI will only affect newly started "
+"applications.</p>"
+msgstr ""
+"<p>앤티에일리어싱 및 DPI 같은 일부 설정은 새로 시작한 프로그램에만 적용됩니"
+"다.</p>"
+
+#: fonts.cpp:280 fonts.cpp:290
+#, kde-format
+msgid "Font Settings Changed"
+msgstr "글꼴 설정 변경됨"
+
+#: fonts.cpp:289
+#, kde-format
+msgid ""
+"<p>Some changes such as DPI will only affect newly started applications.</p>"
+msgstr "<p>DPI와 같은 일부 설정은 새로 시작한 프로그램에만 적용됩니다.</p>"
+
+#: fonts.cpp:443
+#, kde-format
+msgid "Fonts"
+msgstr "글꼴"
+
+#: fonts.cpp:445
+#, kde-format
+msgid "Antonis Tsiapaliokas"
+msgstr "Antonis Tsiapaliokas"
+
+#: kxftconfig.cpp:444
+#, kde-format
+msgctxt "use system subpixel setting"
+msgid "Vendor default"
+msgstr "제조사 기본값"
+
+#: kxftconfig.cpp:446
+#, kde-format
+msgctxt "no subpixel rendering"
+msgid "None"
+msgstr "없음"
+
+#: kxftconfig.cpp:448
+#, kde-format
+msgid "RGB"
+msgstr "RGB"
+
+#: kxftconfig.cpp:450
+#, kde-format
+msgid "BGR"
+msgstr "BGR"
+
+#: kxftconfig.cpp:452
+#, kde-format
+msgid "Vertical RGB"
+msgstr "수직 RGB"
+
+#: kxftconfig.cpp:454
+#, kde-format
+msgid "Vertical BGR"
+msgstr "수직 BGR"
+
+#: kxftconfig.cpp:482
+#, kde-format
+msgctxt "use system hinting settings"
+msgid "Vendor default"
+msgstr "제조사 기본값"
+
+#: kxftconfig.cpp:484
+#, kde-format
+msgctxt "medium hinting"
+msgid "Medium"
+msgstr "중간"
+
+#: kxftconfig.cpp:486
+#, kde-format
+msgctxt "no hinting"
+msgid "None"
+msgstr "없음"
+
+#: kxftconfig.cpp:488
+#, kde-format
+msgctxt "slight hinting"
+msgid "Slight"
+msgstr "살짝"
+
+#: kxftconfig.cpp:490
+#, kde-format
+msgctxt "full hinting"
+msgid "Full"
+msgstr "완전히"
+
+#: package/contents/ui/FontWidget.qml:68
+#, kde-format
+msgid "Select %1 Font..."
+msgstr "%1 글꼴 선택..."
+
+#: package/contents/ui/main.qml:30
+#, kde-format
+msgid "This module lets you configure the system fonts."
+msgstr "이 모듈에서 시스템 글꼴을 설정할 수 있습니다."
+
+#: package/contents/ui/main.qml:40
+#, kde-format
+msgid "&Adjust All Fonts..."
+msgstr "모든 글꼴 설정(&A)..."
+
+#: package/contents/ui/main.qml:47
+#, kde-format
+msgid "General:"
+msgstr "일반:"
+
+#: package/contents/ui/main.qml:52
+#, kde-format
+msgid "Fixed width:"
+msgstr "고정폭:"
+
+#: package/contents/ui/main.qml:57
+#, kde-format
+msgid "Small:"
+msgstr "작음:"
+
+#: package/contents/ui/main.qml:62
+#, kde-format
+msgid "Toolbar:"
+msgstr "도구 모음:"
+
+#: package/contents/ui/main.qml:67
+#, kde-format
+msgid "Menu:"
+msgstr "메뉴:"
+
+#: package/contents/ui/main.qml:72
+#, kde-format
+msgid "Window title:"
+msgstr "창 제목:"
+
+#: package/contents/ui/main.qml:84
+#, kde-format
+msgctxt "Used as a noun, and precedes a combobox full of options"
+msgid "Anti-aliasing:"
+msgstr "앤티에일리어싱:"
+
+#: package/contents/ui/main.qml:86
+#, kde-format
+msgid "Enabled"
+msgstr "사용함"
+
+#: package/contents/ui/main.qml:86
+#, kde-format
+msgid "Vendor default"
+msgstr "제조사 기본값"
+
+#: package/contents/ui/main.qml:86
+#, kde-format
+msgid "Disabled"
+msgstr "사용 안 함"
+
+#: package/contents/ui/main.qml:96
+#, kde-format
+msgid "Exclude range from anti-aliasing"
+msgstr "앤티에일리어싱 제외 범위"
+
+#: package/contents/ui/main.qml:113 package/contents/ui/main.qml:128
+#, kde-format
+msgid "%1 pt"
+msgstr "%1pt"
+
+#: package/contents/ui/main.qml:120
+#, kde-format
+msgid "to"
+msgstr " 부터 "
+
+#: package/contents/ui/main.qml:141
+#, kde-format
+msgctxt "Used as a noun, and precedes a combobox full of options"
+msgid "Sub-pixel rendering:"
+msgstr "서브픽셀 렌더링:"
+
+#: package/contents/ui/main.qml:178
+#, kde-format
+msgctxt "Used as a noun, and precedes a combobox full of options"
+msgid "Hinting:"
+msgstr "힌팅:"
+
+#: package/contents/ui/main.qml:216
+#, kde-format
+msgid "Force font DPI:"
+msgstr "글꼴 DPI 강제 지정:"
+
+#: package/contents/ui/main.qml:234
+#, kde-format
+msgid "Select Font"
+msgstr "글꼴 선택"

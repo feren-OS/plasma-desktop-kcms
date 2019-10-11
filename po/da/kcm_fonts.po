@@ -1,0 +1,232 @@
+# translation of kcmfonts.po to
+# Danish translation of kcmfonts
+# Copyright (C).
+#
+# Erik Kjær Pedersen <erik@binghamton.edu>, 2000, 2002, 2003, 2004, 2006.
+# Martin Schlander <mschlander@opensuse.org>, 2008, 2010, 2011, 2012, 2015, 2017, 2018, 2019.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmfonts\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-07-12 07:37+0200\n"
+"PO-Revision-Date: 2019-05-07 13:24+0100\n"
+"Last-Translator: Martin Schlander <mschlander@opensuse.org>\n"
+"Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
+"Language: da\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 2.0\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Martin Schlander"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "mschlander@opensuse.org"
+
+#: fonts.cpp:279
+#, kde-format
+msgid ""
+"<p>Some changes such as anti-aliasing or DPI will only affect newly started "
+"applications.</p>"
+msgstr ""
+"<p>Visse ændringer såsom anti-alias eller DPI kommer kun til at påvirke "
+"nystartede program.</p>"
+
+#: fonts.cpp:280 fonts.cpp:290
+#, kde-format
+msgid "Font Settings Changed"
+msgstr "Skrifttype-indstillingerne blev ændret"
+
+#: fonts.cpp:289
+#, kde-format
+msgid ""
+"<p>Some changes such as DPI will only affect newly started applications.</p>"
+msgstr ""
+"<p>Visse ændringer såsom DPI vil kun påvirke nystartede programmer.</p>"
+
+#: fonts.cpp:443
+#, kde-format
+msgid "Fonts"
+msgstr "Skrifttyper"
+
+#: fonts.cpp:445
+#, kde-format
+msgid "Antonis Tsiapaliokas"
+msgstr "Antonis Tsiapaliokas"
+
+#: kxftconfig.cpp:444
+#, fuzzy, kde-format
+#| msgctxt "use system subpixel setting"
+#| msgid "Vendor Default"
+msgctxt "use system subpixel setting"
+msgid "Vendor default"
+msgstr "Leverandørstandard"
+
+#: kxftconfig.cpp:446
+#, kde-format
+msgctxt "no subpixel rendering"
+msgid "None"
+msgstr "Ingen"
+
+#: kxftconfig.cpp:448
+#, kde-format
+msgid "RGB"
+msgstr "RGB"
+
+#: kxftconfig.cpp:450
+#, kde-format
+msgid "BGR"
+msgstr "BGR"
+
+#: kxftconfig.cpp:452
+#, kde-format
+msgid "Vertical RGB"
+msgstr "Lodret RGB"
+
+#: kxftconfig.cpp:454
+#, kde-format
+msgid "Vertical BGR"
+msgstr "Lodret BGR"
+
+#: kxftconfig.cpp:482
+#, fuzzy, kde-format
+#| msgctxt "use system hinting settings"
+#| msgid "Vendor Default"
+msgctxt "use system hinting settings"
+msgid "Vendor default"
+msgstr "Leverandørstandard"
+
+#: kxftconfig.cpp:484
+#, kde-format
+msgctxt "medium hinting"
+msgid "Medium"
+msgstr "Mellem"
+
+#: kxftconfig.cpp:486
+#, kde-format
+msgctxt "no hinting"
+msgid "None"
+msgstr "Ingen"
+
+#: kxftconfig.cpp:488
+#, kde-format
+msgctxt "slight hinting"
+msgid "Slight"
+msgstr "Lidt"
+
+#: kxftconfig.cpp:490
+#, kde-format
+msgctxt "full hinting"
+msgid "Full"
+msgstr "Fuld"
+
+#: package/contents/ui/FontWidget.qml:68
+#, kde-format
+msgid "Select %1 Font..."
+msgstr ""
+
+#: package/contents/ui/main.qml:30
+#, kde-format
+msgid "This module lets you configure the system fonts."
+msgstr ""
+
+#: package/contents/ui/main.qml:40
+#, kde-format
+msgid "&Adjust All Fonts..."
+msgstr "&Justér alle skrifttyper..."
+
+#: package/contents/ui/main.qml:47
+#, kde-format
+msgid "General:"
+msgstr "Generelt:"
+
+#: package/contents/ui/main.qml:52
+#, kde-format
+msgid "Fixed width:"
+msgstr "Fast bredde:"
+
+#: package/contents/ui/main.qml:57
+#, kde-format
+msgid "Small:"
+msgstr "Lille:"
+
+#: package/contents/ui/main.qml:62
+#, kde-format
+msgid "Toolbar:"
+msgstr "Værktøjslinje:"
+
+#: package/contents/ui/main.qml:67
+#, kde-format
+msgid "Menu:"
+msgstr "Menu:"
+
+#: package/contents/ui/main.qml:72
+#, kde-format
+msgid "Window title:"
+msgstr "Vinduestitel:"
+
+#: package/contents/ui/main.qml:84
+#, kde-format
+msgctxt "Used as a noun, and precedes a combobox full of options"
+msgid "Anti-aliasing:"
+msgstr "Anti-aliasing:"
+
+#: package/contents/ui/main.qml:86
+#, kde-format
+msgid "Enabled"
+msgstr "Aktiveret"
+
+#: package/contents/ui/main.qml:86
+#, fuzzy, kde-format
+#| msgid "Vendor Default"
+msgid "Vendor default"
+msgstr "Leverandørstandard"
+
+#: package/contents/ui/main.qml:86
+#, kde-format
+msgid "Disabled"
+msgstr "Deaktiveret"
+
+#: package/contents/ui/main.qml:96
+#, kde-format
+msgid "Exclude range from anti-aliasing"
+msgstr "Ekskludér område fra anti-aliasing"
+
+#: package/contents/ui/main.qml:113 package/contents/ui/main.qml:128
+#, kde-format
+msgid "%1 pt"
+msgstr "%1 pt"
+
+#: package/contents/ui/main.qml:120
+#, kde-format
+msgid "to"
+msgstr "til"
+
+#: package/contents/ui/main.qml:141
+#, kde-format
+msgctxt "Used as a noun, and precedes a combobox full of options"
+msgid "Sub-pixel rendering:"
+msgstr "Sub-pixel-rendering:"
+
+#: package/contents/ui/main.qml:178
+#, kde-format
+msgctxt "Used as a noun, and precedes a combobox full of options"
+msgid "Hinting:"
+msgstr "Hinting:"
+
+#: package/contents/ui/main.qml:216
+#, fuzzy, kde-format
+#| msgid "Force Fonts DPI:"
+msgid "Force font DPI:"
+msgstr "Gennemtving skrifttypens DPI:"
+
+#: package/contents/ui/main.qml:234
+#, kde-format
+msgid "Select Font"
+msgstr ""

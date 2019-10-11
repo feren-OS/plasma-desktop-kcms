@@ -1,0 +1,186 @@
+# translation of kcminput.po to Kannada
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Manu B <iammanu@gmail.com>, 2007.
+# Umesh Rudrapatna <umeshrs@gmail.com>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcminput\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"PO-Revision-Date: 2008-01-11 11:48+0530\n"
+"Last-Translator: Umesh Rudrapatna <umeshrs@gmail.com>\n"
+"Language-Team: Kannada <kde-l10n-kn@kde.org>\n"
+"Language: kn\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "ಮನು .ಬಿ"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "iammanu@gmail.com"
+
+#: kcmcursortheme.cpp:74
+#, fuzzy, kde-format
+#| msgid "&Cursor Theme"
+msgid "Cursors"
+msgstr "ಸ್ಥಳಸೂ&ಚಕ (ಕರ್ಸರ್) ಪರಿಸರವಿನ್ಯಾಸ (ಥೀಮ್)"
+
+#: kcmcursortheme.cpp:75
+#, kde-format
+msgid "(c) 2003-2007 Fredrik Höglund"
+msgstr ""
+
+#: kcmcursortheme.cpp:76
+#, kde-format
+msgid "Fredrik Höglund"
+msgstr ""
+
+#: kcmcursortheme.cpp:77
+#, kde-format
+msgid "Marco Martin"
+msgstr ""
+
+#: kcmcursortheme.cpp:244
+#, kde-format
+msgctxt "@item:inlistbox size"
+msgid "Resolution dependent"
+msgstr ""
+
+#: kcmcursortheme.cpp:376
+#, fuzzy, kde-format
+#| msgid "You have to restart KDE for these changes to take effect."
+msgid ""
+"You have to restart the Plasma session for these changes to take effect."
+msgstr ""
+"ಈ ಬದಲಾವಣೆಗಳು ಪರಿಣಾಮ ಬೀರಲು ನೀವು ಕೆಡಿಇಯನ್ನು ಪುನರಾರಂಭಿಸಬೇಕಾಗುತ್ತದೆ (ರಿಸ್ಟಾರ್ಟ್)."
+
+#: kcmcursortheme.cpp:511
+#, kde-format
+msgid "Unable to create a temporary file."
+msgstr ""
+
+#: kcmcursortheme.cpp:523
+#, fuzzy, kde-format
+#| msgid "Unable to find the cursor theme archive %1."
+msgid "Unable to download the icon theme archive: %1"
+msgstr "ಚಿಹ್ನೆ ಪರಿಸರವಿನ್ಯಾಸ (ಥೀಮ್) ಕಡತಾಗಾರ %1 ಲಭ್ಯವಿಲ್ಲ."
+
+#: kcmcursortheme.cpp:554
+#, fuzzy, kde-format
+#| msgid "The file %1 does not appear to be a valid cursor theme archive."
+msgid "The file is not a valid icon theme archive."
+msgstr "ಕಡತ %1 ಸರಿಯಾದ ಸ್ಥಳಸೂಚಕ (ಕರ್ಸರ್) ಪರಿಸರವಿನ್ಯಾಸ (ಥೀಮ್) ಕಡತಾಗಾರದಂತೆ ತೋರದು."
+
+#: kcmcursortheme.cpp:561
+#, kde-format
+msgid "Failed to create 'icons' folder."
+msgstr ""
+
+#: kcmcursortheme.cpp:569
+#, kde-format
+msgid ""
+"A theme named %1 already exists in your icon theme folder. Do you want "
+"replace it with this one?"
+msgstr ""
+"%1 ಹೆಸರಿನ ಪರಿಸರವಿನ್ಯಾಸವು (ಥೀಮ್) ಈಗಾಗಲೇ ನಿಮ್ಮ ಚಿಹ್ನೆ ಪರಿಸರವಿನ್ಯಾಸ (ಥೀಮ್) ಕಡತಕೋಶದಲ್ಲಿ "
+"ಅಸ್ತಿತ್ವದಲ್ಲಿದೆ. ನೀವು ಅದನ್ನು ಈ ಪರಿಸರವಿನ್ಯಾಸದಿಂದ (ಥೀಮ್) ಪ್ರತಿಸ್ಥಾಪಿಸಲು ಬಯಸುತ್ತೀರಾ?"
+
+#: kcmcursortheme.cpp:573
+#, kde-format
+msgid "Overwrite Theme?"
+msgstr "ಪರಿಸರವಿನ್ಯಾಸವನ್ನು ತಿದ್ದಿಬರೆಯಬೇಕೆ?"
+
+#: kcmcursortheme.cpp:599
+#, kde-format
+msgid "Theme installed successfully."
+msgstr ""
+
+#: kcmcursortheme.cpp:615
+#, kde-format
+msgid ""
+"<qt>You cannot delete the theme you are currently using.<br />You have to "
+"switch to another theme first.</qt>"
+msgstr ""
+"<qt>ನೀವು ಬಳಕೆಯಲ್ಲಿರುವ ನಿಮ್ಮ ಪ್ರಸ್ತುತ ಪರಿಸರವಿನ್ಯಾಸವನ್ನು (ಥೀಮ್) ಅಳಿಸಿಹಾಕಲಾಗದು<br /"
+">ನೀವು ಮೊದಲು ಬೇರೊಂದು ಪರಿಸರವಿನ್ಯಾಸಕ್ಕೆ (ಥೀಮ್) ಬದಲಾಯಿಸಬೇಕಾಗುತ್ತದೆ.</qt>"
+
+#: kcmcursortheme.cpp:621
+#, kde-format
+msgid ""
+"<qt>Are you sure you want to remove the <i>%1</i> cursor theme?<br />This "
+"will delete all the files installed by this theme.</qt>"
+msgstr ""
+"<qt>ನೀವು <i>%1</i> ಸ್ಥಳಸೂಚಕ (ಕರ್ಸರ್) ಪರಿಸರವಿನ್ಯಾಸವನ್ನು (ಥೀಮ್) ತೆಗೆದುಹಾಕಲು "
+"ಬಯಸಿದ್ದೀರಾ?<br />ಇದು ಈ ಪರಿಸರವಿನ್ಯಾಸವು (ಥೀಮ್) ಅನುಸ್ಥಾಪಿಸಿದ ಎಲ್ಲಾ ಕಡತಗಳನ್ನು "
+"ಅಳಿಸಿಹಾಕುವುದು.</qt>"
+
+#: kcmcursortheme.cpp:627
+#, kde-format
+msgid "Confirmation"
+msgstr "ಖಚಿತಪಡಿಸುವಿಕೆ"
+
+#: package/contents/ui/Delegate.qml:57
+#, kde-format
+msgid "Remove Theme"
+msgstr ""
+
+#: package/contents/ui/main.qml:31
+#, kde-format
+msgid "This module lets you choose the mouse cursor theme."
+msgstr ""
+
+#: package/contents/ui/main.qml:98
+#, kde-format
+msgid "Size:"
+msgstr ""
+
+#: package/contents/ui/main.qml:146
+#, kde-format
+msgid "&Install from File..."
+msgstr ""
+
+#: package/contents/ui/main.qml:152
+#, fuzzy, kde-format
+#| msgid "Overwrite Theme?"
+msgid "&Get New Cursors..."
+msgstr "ಪರಿಸರವಿನ್ಯಾಸವನ್ನು ತಿದ್ದಿಬರೆಯಬೇಕೆ?"
+
+#: package/contents/ui/main.qml:174
+#, fuzzy, kde-format
+#| msgid "Overwrite Theme?"
+msgid "Open Theme"
+msgstr "ಪರಿಸರವಿನ್ಯಾಸವನ್ನು ತಿದ್ದಿಬರೆಯಬೇಕೆ?"
+
+#: package/contents/ui/main.qml:176
+#, kde-format
+msgid "Cursor Theme Files (*.tar.gz *.tar.bz2)"
+msgstr ""
+
+#: xcursor/thememodel.cpp:83
+#, kde-format
+msgid "Name"
+msgstr "ಹೆಸರು"
+
+#: xcursor/thememodel.cpp:86
+#, kde-format
+msgid "Description"
+msgstr "ವಿವರಣೆ"
+
+#: xcursor/xcursortheme.cpp:74
+#, kde-format
+msgctxt ""
+"@info The argument is the list of available sizes (in pixel). Example: "
+"'Available sizes: 24' or 'Available sizes: 24, 36, 48'"
+msgid "(Available sizes: %1)"
+msgstr ""

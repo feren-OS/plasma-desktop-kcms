@@ -1,0 +1,254 @@
+# translation of kcmfonts.po to Kazakh
+#
+# Sairan Kikkarin <sairan@computer.org>, 2005, 2007, 2008, 2010, 2011, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmfonts\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-07-12 07:37+0200\n"
+"PO-Revision-Date: 2012-07-08 06:42+0600\n"
+"Last-Translator: Sairan Kikkarin <sairan@computer.org>\n"
+"Language-Team: Kazakh <kde-i18n-doc@kde.org>\n"
+"Language: kk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.2\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"\n"
+"\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
+
+#: fonts.cpp:279
+#, kde-format
+msgid ""
+"<p>Some changes such as anti-aliasing or DPI will only affect newly started "
+"applications.</p>"
+msgstr ""
+"<p>Тегістеу не айырымдылық баптаулары секілді параметрлері өзгертілді. Бұл "
+"өзгерістер тек жаңадан басталған қолданбалар үшін ғана күшіне енеді.</p>"
+
+#: fonts.cpp:280 fonts.cpp:290
+#, kde-format
+msgid "Font Settings Changed"
+msgstr "Қаріп баптаулары өзгертілді"
+
+#: fonts.cpp:289
+#, kde-format
+msgid ""
+"<p>Some changes such as DPI will only affect newly started applications.</p>"
+msgstr ""
+"<p>Айырымдылық баптаулары өзгертілді. Бұл өзгерістер тек жаңадан басталған "
+"қолданбалар үшін ғана күшіне енеді.</p>"
+
+#: fonts.cpp:443
+#, kde-format
+msgid "Fonts"
+msgstr ""
+
+#: fonts.cpp:445
+#, kde-format
+msgid "Antonis Tsiapaliokas"
+msgstr ""
+
+#: kxftconfig.cpp:444
+#, fuzzy, kde-format
+#| msgctxt "Use anti-aliasing"
+#| msgid "System Settings"
+msgctxt "use system subpixel setting"
+msgid "Vendor default"
+msgstr "Жүйелік параметрлер бойынша"
+
+#: kxftconfig.cpp:446
+#, kde-format
+msgctxt "no subpixel rendering"
+msgid "None"
+msgstr "Жоқ"
+
+#: kxftconfig.cpp:448
+#, kde-format
+msgid "RGB"
+msgstr "RGB"
+
+#: kxftconfig.cpp:450
+#, kde-format
+msgid "BGR"
+msgstr "BGR"
+
+#: kxftconfig.cpp:452
+#, kde-format
+msgid "Vertical RGB"
+msgstr "Тік RGB"
+
+#: kxftconfig.cpp:454
+#, kde-format
+msgid "Vertical BGR"
+msgstr "Тік BGR"
+
+#: kxftconfig.cpp:482
+#, fuzzy, kde-format
+#| msgctxt "Use anti-aliasing"
+#| msgid "System Settings"
+msgctxt "use system hinting settings"
+msgid "Vendor default"
+msgstr "Жүйелік параметрлер бойынша"
+
+#: kxftconfig.cpp:484
+#, kde-format
+msgctxt "medium hinting"
+msgid "Medium"
+msgstr "Орташа"
+
+#: kxftconfig.cpp:486
+#, kde-format
+msgctxt "no hinting"
+msgid "None"
+msgstr "Жоқ"
+
+#: kxftconfig.cpp:488
+#, kde-format
+msgctxt "slight hinting"
+msgid "Slight"
+msgstr "Шамалы"
+
+#: kxftconfig.cpp:490
+#, kde-format
+msgctxt "full hinting"
+msgid "Full"
+msgstr "Толық"
+
+#: package/contents/ui/FontWidget.qml:68
+#, kde-format
+msgid "Select %1 Font..."
+msgstr ""
+
+#: package/contents/ui/main.qml:30
+#, kde-format
+msgid "This module lets you configure the system fonts."
+msgstr ""
+
+#: package/contents/ui/main.qml:40
+#, fuzzy, kde-format
+#| msgid "Ad&just All Fonts..."
+msgid "&Adjust All Fonts..."
+msgstr "Барлық қаріптерді өз&герту..."
+
+#: package/contents/ui/main.qml:47
+#, fuzzy, kde-format
+#| msgctxt "font usage"
+#| msgid "General"
+msgid "General:"
+msgstr "Кәдімгі"
+
+#: package/contents/ui/main.qml:52
+#, fuzzy, kde-format
+#| msgctxt "font usage"
+#| msgid "Fixed width"
+msgid "Fixed width:"
+msgstr "Бірқадамды"
+
+#: package/contents/ui/main.qml:57
+#, fuzzy, kde-format
+#| msgctxt "font usage"
+#| msgid "Small"
+msgid "Small:"
+msgstr "Шағын"
+
+#: package/contents/ui/main.qml:62
+#, fuzzy, kde-format
+#| msgctxt "font usage"
+#| msgid "Toolbar"
+msgid "Toolbar:"
+msgstr "Құралдар панелінде"
+
+#: package/contents/ui/main.qml:67
+#, fuzzy, kde-format
+#| msgctxt "font usage"
+#| msgid "Menu"
+msgid "Menu:"
+msgstr "Мәзірде"
+
+#: package/contents/ui/main.qml:72
+#, fuzzy, kde-format
+#| msgctxt "font usage"
+#| msgid "Window title"
+msgid "Window title:"
+msgstr "Терезе айдарында"
+
+#: package/contents/ui/main.qml:84
+#, fuzzy, kde-format
+#| msgid "Use a&nti-aliasing:"
+msgctxt "Used as a noun, and precedes a combobox full of options"
+msgid "Anti-aliasing:"
+msgstr "&Тегістеуді қолдануы:"
+
+#: package/contents/ui/main.qml:86
+#, fuzzy, kde-format
+#| msgctxt "Use anti-aliasing"
+#| msgid "Enabled"
+msgid "Enabled"
+msgstr "Болсын"
+
+#: package/contents/ui/main.qml:86
+#, fuzzy, kde-format
+#| msgctxt "Use anti-aliasing"
+#| msgid "System Settings"
+msgid "Vendor default"
+msgstr "Жүйелік параметрлер бойынша"
+
+#: package/contents/ui/main.qml:86
+#, fuzzy, kde-format
+#| msgctxt "Use anti-aliasing"
+#| msgid "Disabled"
+msgid "Disabled"
+msgstr "Болмасын"
+
+#: package/contents/ui/main.qml:96
+#, kde-format
+msgid "Exclude range from anti-aliasing"
+msgstr ""
+
+#: package/contents/ui/main.qml:113 package/contents/ui/main.qml:128
+#, kde-format
+msgid "%1 pt"
+msgstr ""
+
+#: package/contents/ui/main.qml:120
+#, fuzzy, kde-format
+#| msgid " to "
+msgid "to"
+msgstr "- "
+
+#: package/contents/ui/main.qml:141
+#, fuzzy, kde-format
+#| msgid "&Use sub-pixel rendering:"
+msgctxt "Used as a noun, and precedes a combobox full of options"
+msgid "Sub-pixel rendering:"
+msgstr "&Субпикселдік кескіндеу:"
+
+#: package/contents/ui/main.qml:178
+#, fuzzy, kde-format
+#| msgid "Hinting style: "
+msgctxt "Used as a noun, and precedes a combobox full of options"
+msgid "Hinting:"
+msgstr "Хинтинг шамасы: "
+
+#: package/contents/ui/main.qml:216
+#, fuzzy, kde-format
+#| msgid "Force fonts DPI:"
+msgid "Force font DPI:"
+msgstr "Қаріп айырымдылығы:"
+
+#: package/contents/ui/main.qml:234
+#, kde-format
+msgid "Select Font"
+msgstr ""

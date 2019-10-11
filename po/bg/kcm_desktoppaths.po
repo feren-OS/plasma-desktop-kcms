@@ -1,0 +1,221 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Zlatko Popov <zlatkopopov@fsa-bg.org>, 2006, 2007, 2008.
+# Yasen Pramatarov <yasen@lindeas.com>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcm_desktoppaths\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"PO-Revision-Date: 2010-06-26 23:51+0300\n"
+"Last-Translator: Yasen Pramatarov <yasen@lindeas.com>\n"
+"Language-Team: Bulgarian <dict@fsa-bg.org>\n"
+"Language: bg\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: globalpaths.cpp:113
+#, kde-format
+msgid ""
+"<h1>Paths</h1>\n"
+"This module allows you to choose where in the filesystem the files on your "
+"desktop should be stored.\n"
+"Use the \"Whats This?\" (Shift+F1) to get help on specific options."
+msgstr ""
+"<h1>Пътища</h1>\n"
+"От тук може да настроите къде да се съхраняват файловете от работния плот.\n"
+"Използвайте \"Какво е това?\" (Shift+F1), за да видите помощта за отделните "
+"опции."
+
+#: globalpaths.cpp:118
+#, kde-format
+msgid "Desktop path:"
+msgstr "Директория за работния плот:"
+
+#: globalpaths.cpp:119
+#, kde-format
+msgid ""
+"This folder contains all the files which you see on your desktop. You can "
+"change the location of this folder if you want to, and the contents will "
+"move automatically to the new location as well."
+msgstr ""
+"<p>Тази директория съдържа всички файлове, които виждате на работния плот. </"
+"p><p>Може да промените местоположението на директорията по свое желание, при "
+"което съдържанието и автоматично ще се премести в новата директория.</p>"
+
+#: globalpaths.cpp:124
+#, kde-format
+msgid "Autostart path:"
+msgstr "Директория за автоматично стартиране:"
+
+#: globalpaths.cpp:125
+#, fuzzy, kde-format
+#| msgid ""
+#| "This folder contains applications or links to applications (shortcuts) "
+#| "that you want to have started automatically whenever KDE starts. You can "
+#| "change the location of this folder if you want to, and the contents will "
+#| "move automatically to the new location as well."
+msgid ""
+"This folder contains applications or links to applications (shortcuts) that "
+"you want to have started automatically whenever the session starts. You can "
+"change the location of this folder if you want to, and the contents will "
+"move automatically to the new location as well."
+msgstr ""
+"<p>Тази директория съдържа програми или символни връзки към програми, които "
+"се стартират автоматично при включване в системата. Ако искате някоя "
+"програма да се стартира автоматично всеки път когато влезете в KDE, трябва "
+"да я копирате в тази директория или да създадете връзка. </p><p>Може да "
+"промените местоположението на директорията по свое желание, при което "
+"съдържанието и автоматично ще се премести в новата директория.</p>"
+
+#: globalpaths.cpp:131
+#, kde-format
+msgid "Documents path:"
+msgstr "Директория за документи:"
+
+#: globalpaths.cpp:132
+#, kde-format
+msgid ""
+"This folder will be used by default to load or save documents from or to."
+msgstr ""
+"<p>Тази директория се използва за съхранение на вашите документи по "
+"подразбиране. Когато отваряте или записвате файл, ще бъде показвана тази "
+"директория по подразбиране. Разбира се, може да изберете друга директория, в "
+"която да запишете документа си. </p><p>Може да промените местоположението на "
+"директорията по свое желание, при което съдържанието и автоматично ще се "
+"премести в новата директория.</p>"
+
+#: globalpaths.cpp:135
+#, kde-format
+msgid "Downloads path:"
+msgstr "Директория за изтегляния:"
+
+#: globalpaths.cpp:136
+#, kde-format
+msgid "This folder will be used by default to save your downloaded items."
+msgstr ""
+"Тази директория се използва по подразбиране за съхранение на файловете, "
+"които изтегляте от мрежата."
+
+#: globalpaths.cpp:139
+#, kde-format
+msgid "Movies path:"
+msgstr "Директория за филми:"
+
+#: globalpaths.cpp:140
+#, kde-format
+msgid "This folder will be used by default to load or save movies from or to."
+msgstr ""
+"Тази директория се използва по подразбиране за съхранение и зареждане на "
+"филми."
+
+#: globalpaths.cpp:143
+#, kde-format
+msgid "Pictures path:"
+msgstr "Директория за снимки:"
+
+#: globalpaths.cpp:144
+#, kde-format
+msgid ""
+"This folder will be used by default to load or save pictures from or to."
+msgstr ""
+"Тази директория се използва по подразбиране за съхранение и зареждане на "
+"снимки."
+
+#: globalpaths.cpp:147
+#, kde-format
+msgid "Music path:"
+msgstr "Директория за музика:"
+
+#: globalpaths.cpp:148
+#, kde-format
+msgid "This folder will be used by default to load or save music from or to."
+msgstr ""
+"Тази директория се използва по подразбиране за съхранение и зареждане на "
+"музика."
+
+#: globalpaths.cpp:277 globalpaths.cpp:295
+#, kde-format
+msgid "Autostart"
+msgstr "Autostart"
+
+#: globalpaths.cpp:281
+#, kde-format
+msgid "Desktop"
+msgstr "Desktop"
+
+#: globalpaths.cpp:305
+#, kde-format
+msgid "Documents"
+msgstr "Документи"
+
+#: globalpaths.cpp:308
+#, kde-format
+msgid "Downloads"
+msgstr "Свалени"
+
+#: globalpaths.cpp:311
+#, kde-format
+msgid "Movies"
+msgstr "Видео"
+
+#: globalpaths.cpp:314
+#, kde-format
+msgid "Pictures"
+msgstr "Изображения"
+
+#: globalpaths.cpp:317
+#, kde-format
+msgid "Music"
+msgstr "Музика"
+
+#: globalpaths.cpp:376
+#, kde-format
+msgid ""
+"The path for '%1' has been changed.\n"
+"Do you want the files to be moved from '%2' to '%3'?"
+msgstr ""
+"Пътят за \"%1\" е променен.\n"
+"Искате ли файловете да бъдат преместени от \"%2\" в \"%3\"?"
+
+#: globalpaths.cpp:379
+#, kde-format
+msgctxt "Move files from old to new place"
+msgid "Move"
+msgstr "Преместване"
+
+#: globalpaths.cpp:380
+#, kde-format
+msgctxt "Use the new directory but do not move files"
+msgid "Do not Move"
+msgstr "Без преместване"
+
+#: globalpaths.cpp:382
+#, kde-format
+msgid ""
+"The path for '%1' has been changed.\n"
+"Do you want to move the directory '%2' to '%3'?"
+msgstr ""
+"Пътят за \"%1\" е променен.\n"
+"Искате ли директорията \"%2\" да бъде преместена в \"%3\"?"
+
+#: globalpaths.cpp:385
+#, kde-format
+msgctxt "Move the directory"
+msgid "Move"
+msgstr "Преместване"
+
+#: globalpaths.cpp:386
+#, kde-format
+msgctxt "Use the new directory but do not move anything"
+msgid "Do not Move"
+msgstr "Без преместване"
+
+#: globalpaths.cpp:390
+#, kde-format
+msgid "Confirmation Required"
+msgstr "Изисква се потвърждение"

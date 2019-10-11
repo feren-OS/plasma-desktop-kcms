@@ -1,0 +1,118 @@
+# translation of kcm_desktopthemedetails.po to Francais
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+# Mickael Sibelle <kimael@gmail.com>, 2008, 2009, 2010.
+# Mickaël Sibelle <kimael@gmail.com>, 2009.
+# Anne-Marie Mahfouf <annemarie.mahfouf@free.fr>, 2009.
+# xavier <xavier.besnard@neuf.fr>, 2012, 2013.
+# Sebastien Renard <renard@kde.org>, 2013, 2014, 2015.
+# Vincent Pinon <vpinon@kde.org>, 2016.
+# Simon Depiets <sdepiets@gmail.com>, 2018, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kcm_desktopthemedetails\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"PO-Revision-Date: 2019-08-10 15:04+0800\n"
+"Last-Translator: Simon Depiets <sdepiets@gmail.com>\n"
+"Language-Team: French <kde-francophone@kde.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 19.07.70\n"
+"X-Environment: kde\n"
+"X-Accelerator-Marker: &\n"
+"X-Text-Markup: kde4\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Mickaël Sibelle, Sébastien Renard, Vincent Pinon, Simon Depiets"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kimael@gmail.com, renard@kde.org, vpinon@kde.org, sdepiets@gmail.com"
+
+#: kcm.cpp:61
+#, kde-format
+msgid "Plasma Theme"
+msgstr "Thème Plasma"
+
+#: kcm.cpp:63
+#, kde-format
+msgid "David Rosca"
+msgstr "David Rosca"
+
+#: kcm.cpp:139
+#, kde-format
+msgid "Download New Plasma Themes"
+msgstr "Télécharger de nouveaux thèmes Plasma"
+
+#: kcm.cpp:165
+#, kde-format
+msgid "Unable to create a temporary file."
+msgstr "Impossible de créer un fichier temporaire."
+
+#: kcm.cpp:177
+#, kde-format
+msgid "Unable to download the theme: %1"
+msgstr "Impossible de télécharger le thème : %1"
+
+#: kcm.cpp:200
+#, kde-format
+msgid "Theme installed successfully."
+msgstr "Thème installé avec succès."
+
+#: kcm.cpp:203 kcm.cpp:211
+#, kde-format
+msgid "Theme installation failed."
+msgstr "L'installation du thème a échoué."
+
+#: kcm.cpp:360
+#, kde-format
+msgid "Removing theme failed: %1"
+msgstr "La suppression du thème a échoué : %1"
+
+#: package/contents/ui/main.qml:30
+#, kde-format
+msgid "This module lets you choose the Plasma theme."
+msgstr "Ce module vous permet de choisir votre thème Plasma."
+
+#: package/contents/ui/main.qml:68
+#, kde-format
+msgid "Edit Theme..."
+msgstr "Modifier le thème..."
+
+#: package/contents/ui/main.qml:75
+#, kde-format
+msgid "Remove Theme"
+msgstr "Supprimer le thème"
+
+#: package/contents/ui/main.qml:82
+#, kde-format
+msgid "Restore Theme"
+msgstr "Restaurer le thème"
+
+#: package/contents/ui/main.qml:120
+#, kde-format
+msgid "Install from File..."
+msgstr "Installer à partir d'un fichier..."
+
+#: package/contents/ui/main.qml:126
+#, kde-format
+msgid "Get New Plasma Themes..."
+msgstr "Télécharger de nouveaux thèmes Plasma..."
+
+#: package/contents/ui/main.qml:138
+#, kde-format
+msgid "Open Theme"
+msgstr "Ouvrir un thème"
+
+#: package/contents/ui/main.qml:140
+#, kde-format
+msgid "Theme Files (*.zip *.tar.gz *.tar.bz2)"
+msgstr "Fichiers de thème (*.zip *.tar.gz *.tar.bz2)"

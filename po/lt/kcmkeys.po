@@ -1,0 +1,220 @@
+# translation of kcmkeys.po to Lithuanian
+# Donatas Glodenis <dgvirtual@akl.lt>, 2004-2009.
+# Mindaugas Baranauskas <opensuse.lietuviu.kalba@gmail.com>, 2017.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmkeys\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"PO-Revision-Date: 2017-06-25 01:15+0200\n"
+"Last-Translator: Mindaugas Baranauskas <opensuse.lietuviu.kalba@gmail.com>\n"
+"Language-Team: Lithuanian <kde-i18n-lt@kde.org>\n"
+"Language: lt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : n%10>=2 && (n%100<10 || n"
+"%100>=20) ? 1 : n%10==0 || (n%100>10 && n%100<20) ? 2 : 3);\n"
+"X-Generator: Lokalize 2.0\n"
+
+#. i18n: ectx: property (text), widget (QLabel, components_label)
+#: export_scheme_dialog.ui:17
+#, kde-format
+msgid "Select the Components to Export"
+msgstr "Pažymėkite komponentą, kurį norite eksportuoti"
+
+#. i18n: ectx: property (title), widget (QGroupBox, components)
+#: export_scheme_dialog.ui:27
+#, kde-format
+msgid "Components"
+msgstr "Komponentai"
+
+#: globalshortcuts.cpp:67
+#, kde-format
+msgid "You are about to reset all shortcuts to their default values."
+msgstr "Visi sparčiųjų klavišų deriniai bus pakeisti į numatytąsias vertes."
+
+#: globalshortcuts.cpp:68
+#, kde-format
+msgid "Reset to defaults"
+msgstr "Atstatyti numatytuosius"
+
+#: globalshortcuts.cpp:69
+#, kde-format
+msgid "Current Component"
+msgstr "Dabartinis komponentas"
+
+#: globalshortcuts.cpp:70
+#, kde-format
+msgid "All Components"
+msgstr "Visi komponentai"
+
+#: kglobalshortcutseditor.cpp:231
+#, kde-format
+msgid "Import Scheme..."
+msgstr "Importuoti schemą..."
+
+#: kglobalshortcutseditor.cpp:232
+#, kde-format
+msgid "Export Scheme..."
+msgstr "Eksportuoti schemą..."
+
+#: kglobalshortcutseditor.cpp:233
+#, kde-format
+msgid "Set All Shortcuts to None"
+msgstr "Pakeisti visus sparčiuosius klavišų derinius į „Nenustatyta“"
+
+#: kglobalshortcutseditor.cpp:241
+#, kde-format
+msgid "Applications"
+msgstr "Programos"
+
+#: kglobalshortcutseditor.cpp:292
+#, kde-format
+msgid "Launch %1"
+msgstr "Paleisti %1"
+
+#: kglobalshortcutseditor.cpp:328
+#, kde-format
+msgid ""
+"Component '%1' is currently active. Only global shortcuts currently not "
+"active will be removed from the list.\n"
+"All global shortcuts will reregister themselves with their defaults when "
+"they are next started."
+msgstr ""
+"Komponentas „%1“ šiuo metu aktyvus. Tik globalieji spartieji klavišai, kurie "
+"šiuo metu nėra aktyvūs, bus pašalinti iš sąrašo.\n"
+"Visi globalieji spartieji klavišai klavišai persiregistruos numatytomis "
+"reikšmėmis kai programos bus paleistos kitą kartą."
+
+#: kglobalshortcutseditor.cpp:330 kglobalshortcutseditor.cpp:340
+#, kde-format
+msgid "Remove component"
+msgstr "Pašalinti komponentą"
+
+#: kglobalshortcutseditor.cpp:336
+#, kde-format
+msgid ""
+"Are you sure you want to remove the registered shortcuts for component '%1'? "
+"The component and shortcuts will reregister themselves with their default "
+"settings when they are next started."
+msgstr ""
+"Ar tikrai norite pašalinti registruotus „%1“ komponento sparčiųjų klavišų "
+"derinius? Komponentas ir sparčiųjų klavišų deriniai bus perregistruoti su jų "
+"numatytomis reikšmėmis kitą kartą juos paleidžiant."
+
+#: kglobalshortcutseditor.cpp:450
+#, kde-format
+msgid "Application Launchers"
+msgstr "Programų paleidikliai"
+
+#: kglobalshortcutseditor.cpp:453
+#, kde-format
+msgid "Other Shortcuts"
+msgstr "Kiti spartieji klavišai"
+
+#: kglobalshortcutseditor.cpp:558
+#, kde-format
+msgid ""
+"Your current changes will be lost if you load another scheme before saving "
+"this one"
+msgstr ""
+"Dabartiniai pakeitimai pradings, jei įkelsite kitą schemą prieš įrašydami "
+"dabartinę"
+
+#: kglobalshortcutseditor.cpp:559
+#, kde-format
+msgid "Load Shortcut Scheme"
+msgstr "Įkelti sparčiųjų klavišų schemą"
+
+#: kglobalshortcutseditor.cpp:560
+#, kde-format
+msgid "Load"
+msgstr "Įkelti"
+
+#: kglobalshortcutseditor.cpp:573
+#, kde-format
+msgid "This file (%1) does not exist. You can only select local files."
+msgstr "Failas (%1) neegzistuoja. Galite pasirinkti tik vietinius failus."
+
+#: kglobalshortcutseditor.cpp:601 kglobalshortcutseditor.cpp:624
+#, kde-format
+msgid ""
+"Message: %1\n"
+"Error: %2"
+msgstr ""
+"Pranešimas: %1\n"
+"Klaida: %2"
+
+#: kglobalshortcutseditor.cpp:606 kglobalshortcutseditor.cpp:629
+#, kde-format
+msgid "Failed to contact the KDE global shortcuts daemon\n"
+msgstr "Nepavyko susisiekti su KDE globaliųjų greitųjų klavišų tarnyba\n"
+
+#. i18n: ectx: property (text), widget (QLabel, componentLabel)
+#: kglobalshortcutseditor.ui:37
+#, kde-format
+msgid "Component:"
+msgstr "Komponentas:"
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, addButton)
+#: kglobalshortcutseditor.ui:77
+#, kde-format
+msgid "Add a new shortcut to an Application..."
+msgstr "Programai suteikti naują spartųjį klavišą..."
+
+#. i18n: ectx: property (text), widget (QToolButton, addButton)
+#. i18n: ectx: property (text), widget (QToolButton, removeButton)
+#: kglobalshortcutseditor.ui:80 kglobalshortcutseditor.ui:90
+#, kde-format
+msgid "..."
+msgstr "..."
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, removeButton)
+#: kglobalshortcutseditor.ui:87
+#, kde-format
+msgid "Remove the selected component"
+msgstr "Pašalinti pasirinktą komponentą"
+
+#. i18n: ectx: property (text), widget (QPushButton, menu_button)
+#: kglobalshortcutseditor.ui:110
+#, kde-format
+msgid "File"
+msgstr "Failas"
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, SelectApplicationDialog)
+#: select_application.ui:14
+#, kde-format
+msgid "Select Application"
+msgstr "Pasirinkite programą"
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, SelectSchemeDialog)
+#. i18n: ectx: property (placeholderText), widget (KUrlRequester, m_url)
+#: select_scheme_dialog.ui:15 select_scheme_dialog.ui:123
+#, kde-format
+msgid "Select Shortcut Scheme"
+msgstr "Pasirinkite sparčiųjų klavišų schemą"
+
+#. i18n: ectx: property (whatsThis), widget (QLabel, label)
+#: select_scheme_dialog.ui:39
+#, kde-format
+msgid "Select one of the standard KDE shortcut schemes"
+msgstr "Pasirinkite vieną iš standartinių KDE sparčiųjų klavišų schemų"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: select_scheme_dialog.ui:42
+#, kde-format
+msgid "&Standard scheme:"
+msgstr "&Standartinė schema:"
+
+#. i18n: ectx: property (whatsThis), widget (QLabel, label_2)
+#: select_scheme_dialog.ui:92
+#, kde-format
+msgid "Select a shortcut scheme file"
+msgstr "Pasirinkite sparčiųjų klavišų schemos failą"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: select_scheme_dialog.ui:95
+#, kde-format
+msgid "&Path:"
+msgstr "&Kelias:"

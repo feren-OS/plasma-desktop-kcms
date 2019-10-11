@@ -1,0 +1,104 @@
+# Translation of kcm5_baloofile.po to Euskara/Basque (eu).
+# Copyright (C) 2018, Free Software Foundation, Inc.
+# Copyright (C) 2019, This file is copyright:
+# This file is distributed under the same license as plasma-desktop package.
+# KDE euskaratzeko proiektuaren arduraduna <xalba@euskalnet.net>.
+#
+# Translators:
+# Iñigo Salvador Azurmendi <xalba@euskalnet.net>, 2018, 2019.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-desktop\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"PO-Revision-Date: 2019-05-31 23:20+0100\n"
+"Last-Translator: Iñigo Salvador Azurmendi <xalba@euskalnet.net>\n"
+"Language-Team: Basque <kde-i18n-eu@kde.org>\n"
+"Language: eu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 2.0\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Iñigo Salvador Azurmendi"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "xalba@euskalnet.net"
+
+#. i18n: ectx: property (text), widget (QLabel, m_mainLabel)
+#: configwidget.ui:26
+#, kde-format
+msgid ""
+"File Search helps you quickly locate all your files based on their content"
+msgstr ""
+"Fitxategi bilaketak zure fitxategi guztiak euren edukian oinarrituta azkar "
+"aurkitzen laguntzen dizute"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_enableCheckbox)
+#: configwidget.ui:38
+#, kde-format
+msgid "Enable File Search"
+msgstr "Gaitu fitxategi bilaketa"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_enableContentIndexing)
+#: configwidget.ui:45
+#, kde-format
+msgid "Also index file content"
+msgstr "Gainera indexatu fitxategien edukia"
+
+#. i18n: ectx: property (text), widget (QLabel, m_excludeLabel)
+#: configwidget.ui:76
+#, fuzzy, kde-format
+#| msgid "Do not search in these locations:"
+msgid "Do not search in these locations:"
+msgstr "Ez bilatu kokaleku honetan:"
+
+#: folderselectionwidget.cpp:202
+#, kde-format
+msgid "Select the folder which should be excluded"
+msgstr "Hautatu baztertu beharko litzatekeen karpeta"
+
+#: folderselectionwidget.cpp:212
+#, kde-format
+msgid ""
+"Not allowed to exclude root folder, please disable File Search if you do not "
+"want it"
+msgstr ""
+"Ez da onartzen erro karpeta baztertzea, desgaitu fitxategi bilaketa hura "
+"nahi ez baduzu"
+
+#: folderselectionwidget.cpp:226
+#, kde-format
+msgid "Folder %1 is already excluded"
+msgstr "%1 karpeta dagoeneko baztertuta dago"
+
+#: folderselectionwidget.cpp:247
+#, kde-format
+msgid "Folder's parent %1 is already excluded"
+msgstr "Karpetaren %1 gurasoa dagoeneko baztertua dago"
+
+#: kcm.cpp:60
+#, kde-format
+msgid "Configure File Search"
+msgstr "Konfiguratu fitxategi bilaketa"
+
+#: kcm.cpp:62
+#, kde-format
+msgid "Copyright 2007-2010 Sebastian Trüg"
+msgstr "Copyright 2007-2010 Sebastian Trüg"
+
+#: kcm.cpp:63
+#, kde-format
+msgid "Sebastian Trüg"
+msgstr "Sebastian Trüg"
+
+#: kcm.cpp:64
+#, kde-format
+msgid "Vishesh Handa"
+msgstr "Vishesh Handa"

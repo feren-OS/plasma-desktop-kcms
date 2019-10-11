@@ -1,0 +1,136 @@
+# Translation of kcm_lookandfeel.po to Euskara/Basque (eu).
+# Copyright (C) 2017-2018, Free Software Foundation.
+# Copyright (C) 2019, This file is copyright:
+# This file is distributed under the same license as the plasma-desktop package.
+# KDE Euskaratzeko proiektuaren arduraduna <xalba@euskalnet.net>.
+#
+# Translators:
+# Iñigo Salvador Azurmendi <xalba@euskalnet.net>, 2017, 2018, 2019.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-desktop\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"PO-Revision-Date: 2019-05-17 20:17+0100\n"
+"Last-Translator: Iñigo Salvador Azurmendi <xalba@euskalnet.net>\n"
+"Language-Team: Basque <kde-i18n-eu@kde.org>\n"
+"Language: eu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 2.0\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Iñigo Salvador Azurmendi"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "Xalba@euskalnet.net"
+
+#: kcm.cpp:76
+#, kde-format
+msgid "Look and Feel"
+msgstr "Itxura eta izaera"
+
+#: kcm.cpp:78 lnftool.cpp:43
+#, kde-format
+msgid "Marco Martin"
+msgstr "Marco Martin"
+
+#: kcm.cpp:112
+#, fuzzy, kde-format
+#| msgid "Download New Look and Feel Themes"
+msgid "Download New Look and Feel Themes"
+msgstr "Jaitsi Itxura eta izaera pakete berriak"
+
+#: kcm.cpp:572
+#, fuzzy, kde-format
+#| msgid ""
+#| "You have to restart the Plasma session for these changes to take effect."
+msgid ""
+"You have to restart the Plasma session for these changes to take effect."
+msgstr ""
+"Plasma saioa berrabiarazi behar duzu aldaketa hauek indarrean jartzeko."
+
+#: kcm.cpp:573
+#, kde-format
+msgid "Cursor Settings Changed"
+msgstr "Kurtsore-ezarpenak aldatuta"
+
+#: lnftool.cpp:42
+#, kde-format
+msgid "Look and feel tool"
+msgstr "Itxura eta izaera tresna"
+
+#: lnftool.cpp:42
+#, kde-format
+msgid "Command line tool to apply look and feel packages."
+msgstr "Itxura eta izaera ezartzeko komando-lerroko tresna"
+
+#: lnftool.cpp:42
+#, kde-format
+msgid "Copyright 2017, Marco Martin"
+msgstr "Copyright 2017, Marco Martin"
+
+#: lnftool.cpp:43
+#, kde-format
+msgid "Maintainer"
+msgstr "Arduraduna"
+
+#: lnftool.cpp:52
+#, kde-format
+msgid "List available Look and feel packages"
+msgstr "Zerrendatu itxura eta izaera pakete erabilgarriak"
+
+#: lnftool.cpp:54
+#, kde-format
+msgid "Apply a look and feel package"
+msgstr "Ezarri itxura eta izaera pakete berri bat"
+
+#: lnftool.cpp:54
+#, kde-format
+msgid "packagename"
+msgstr "pakete-izena"
+
+#: lnftool.cpp:56
+#, kde-format
+msgid "Reset the Plasma Desktop layout"
+msgstr "Berrezarri Plasma mahaigainaren antolamendua"
+
+#: package/contents/ui/main.qml:28
+#, kde-format
+msgid "This module lets you choose the Look and Feel theme."
+msgstr "Modulu honek Itxura eta izaera gaia aukeratzen uzten dizu."
+
+#: package/contents/ui/main.qml:49
+#, kde-format
+msgid "Preview Theme"
+msgstr "Aurreikusi gaia"
+
+#: package/contents/ui/main.qml:67
+#, fuzzy, kde-format
+#| msgid ""
+#| "Your desktop layout will be lost and reset to the default layout provided "
+#| "by the selected theme."
+msgid ""
+"Your desktop layout will be lost and reset to the default layout provided by "
+"the selected theme."
+msgstr ""
+"Zure mahaigainaren antolamendua galdu egingo da eta hautatutako gaiak "
+"dakarren antolamendu lehenetsira berrezarriko da."
+
+#: package/contents/ui/main.qml:77
+#, fuzzy, kde-format
+#| msgid "Use desktop layout from theme"
+msgid "Use desktop layout from theme"
+msgstr "Erabili gaiko mahaigain-antolamendua"
+
+#: package/contents/ui/main.qml:84
+#, fuzzy, kde-format
+#| msgid "Get New Looks..."
+msgid "Get New Look and Feel Themes..."
+msgstr "Eskuratu itxura berriak..."

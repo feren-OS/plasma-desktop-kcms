@@ -1,0 +1,193 @@
+# translation of kcm_autostart.po to British English
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Malcolm Hunter <malcolm.hunter@gmx.co.uk>, 2008.
+# Andrew Coles <andrew_coles@yahoo.co.uk>, 2009, 2010.
+# Steve Allewell <steve.allewell@gmail.com>, 2014, 2015, 2017.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcm_autostart\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"PO-Revision-Date: 2017-11-26 15:30+0000\n"
+"Last-Translator: Steve Allewell <steve.allewell@gmail.com>\n"
+"Language-Team: British English <kde-i18n-doc@kde.org>\n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 2.0\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Malcolm Hunter, Steve Allewell"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "malcolm.hunter@gmx.co.uk, steve.allewell@gmail.com"
+
+#: addscriptdialog.cpp:40
+#, kde-format
+msgid "Shell script path:"
+msgstr "Shell script path:"
+
+#: addscriptdialog.cpp:44
+#, kde-format
+msgid "Create as symlink"
+msgstr "Create as symlink"
+
+#: addscriptdialog.cpp:79
+#, kde-format
+msgid "\"%1\" is not an absolute path."
+msgstr "\"%1\" is not an absolute path."
+
+#: addscriptdialog.cpp:82
+#, kde-format
+msgid "\"%1\" does not exist."
+msgstr "\"%1\" does not exist."
+
+#: addscriptdialog.cpp:85
+#, kde-format
+msgid "\"%1\" is not a file."
+msgstr "\"%1\" is not a file."
+
+#: addscriptdialog.cpp:88
+#, kde-format
+msgid "\"%1\" is not readable."
+msgstr "\"%1\" is not readable."
+
+#: advanceddialog.cpp:32
+#, kde-format
+msgid "Autostart only in Plasma"
+msgstr "Autostart only in Plasma"
+
+#: autostart.cpp:53
+#, kde-format
+msgid "Name"
+msgstr "Name"
+
+#: autostart.cpp:54
+#, kde-format
+msgid "Command"
+msgstr "Command"
+
+#: autostart.cpp:55
+#, kde-format
+msgid "Status"
+msgstr "Status"
+
+#: autostart.cpp:56
+#, kde-format
+msgctxt ""
+"@title:column The name of the column that decides if the program is run on "
+"session startup, on session shutdown, etc"
+msgid "Run On"
+msgstr "Run On"
+
+#: autostart.cpp:75
+#, kde-format
+msgid "Session Autostart Manager"
+msgstr "Session Autostart Manager"
+
+#: autostart.cpp:77
+#, kde-format
+msgid "Session Autostart Manager Control Panel Module"
+msgstr "Session Autostart Manager Control Panel Module"
+
+#: autostart.cpp:79
+#, kde-format
+msgid "Copyright © 2006–2010 Autostart Manager team"
+msgstr "Copyright © 2006–2010 Autostart Manager team"
+
+#: autostart.cpp:80
+#, kde-format
+msgid "Stephen Leaf"
+msgstr "Stephen Leaf"
+
+#: autostart.cpp:81
+#, kde-format
+msgid "Montel Laurent"
+msgstr "Montel Laurent"
+
+#: autostart.cpp:81
+#, kde-format
+msgid "Maintainer"
+msgstr "Maintainer"
+
+#: autostart.cpp:108 autostart.cpp:122
+#, kde-format
+msgctxt "The program won't be run"
+msgid "Disabled"
+msgstr "Disabled"
+
+#: autostart.cpp:110 autostart.cpp:122 autostartitem.cpp:77
+#, kde-format
+msgctxt "The program will be run"
+msgid "Enabled"
+msgstr "Enabled"
+
+#: autostart.cpp:156
+#, kde-format
+msgid "Startup"
+msgstr "Startup"
+
+#: autostart.cpp:157
+#, kde-format
+msgid "Logout"
+msgstr "Logout"
+
+#: autostart.cpp:158
+#, kde-format
+msgid "Before session startup"
+msgstr "Before session start-up"
+
+#: autostart.cpp:163
+#, kde-format
+msgid "Desktop File"
+msgstr "Desktop File"
+
+#: autostart.cpp:171
+#, kde-format
+msgid "Script File"
+msgstr "Script File"
+
+#: autostart.cpp:447
+#, kde-format
+msgid ""
+"Only files with “.sh” extensions are allowed for setting up the environment."
+msgstr ""
+"Only files with “.sh” extensions are allowed for setting up the environment."
+
+#. i18n: ectx: property (text), widget (QPushButton, btnProperties)
+#: autostartconfig.ui:17
+#, kde-format
+msgid "&Properties..."
+msgstr "&Properties..."
+
+#. i18n: ectx: property (text), widget (QPushButton, btnAddScript)
+#: autostartconfig.ui:24
+#, kde-format
+msgid "Add Script..."
+msgstr "Add Script..."
+
+#. i18n: ectx: property (text), widget (QPushButton, btnRemove)
+#: autostartconfig.ui:46
+#, kde-format
+msgid "&Remove"
+msgstr "&Remove"
+
+#. i18n: ectx: property (text), widget (QPushButton, btnAdvanced)
+#: autostartconfig.ui:53
+#, kde-format
+msgid "Advanced..."
+msgstr "Advanced..."
+
+#. i18n: ectx: property (text), widget (QPushButton, btnAddProgram)
+#: autostartconfig.ui:60
+#, kde-format
+msgid "Add Program..."
+msgstr "Add Program..."

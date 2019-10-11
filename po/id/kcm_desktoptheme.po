@@ -1,0 +1,112 @@
+# Indonesian translations for kcm_desktopthemedetails package.
+# Copyright (C) 2010 This_file_is_part_of_KDE
+# This file is distributed under the same license as the kcm_desktopthemedetails package.
+# Andhika Padmawan <andhika.padmawan@gmail.com>, 2010-2014.
+# Wantoyo <wantoyek@gmail.com>, 2017, 2018, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kcm_desktopthemedetails\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"PO-Revision-Date: 2019-08-06 19:14+0700\n"
+"Last-Translator: Wantoyo <wantoyek@gmail.com>\n"
+"Language-Team: Indonesian <kde-i18n-doc@kde.org>\n"
+"Language: id\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 19.04.3\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Andhika Padmawan,Wantoyo"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "andhika.padmawan@gmail.com,wantoyek@gmail.com"
+
+#: kcm.cpp:61
+#, kde-format
+msgid "Plasma Theme"
+msgstr "Tema Plasma"
+
+#: kcm.cpp:63
+#, kde-format
+msgid "David Rosca"
+msgstr "David Rosca"
+
+#: kcm.cpp:139
+#, kde-format
+msgid "Download New Plasma Themes"
+msgstr "Unduh Tema Plasma Baru"
+
+#: kcm.cpp:165
+#, kde-format
+msgid "Unable to create a temporary file."
+msgstr "Tidak dapat menciptakan sebuah file temporer."
+
+#: kcm.cpp:177
+#, kde-format
+msgid "Unable to download the theme: %1"
+msgstr "Tidak dapat mengunduh tema: %1"
+
+#: kcm.cpp:200
+#, kde-format
+msgid "Theme installed successfully."
+msgstr "Tema behasil diinstal."
+
+#: kcm.cpp:203 kcm.cpp:211
+#, kde-format
+msgid "Theme installation failed."
+msgstr "Penginstalan tema, gagal."
+
+#: kcm.cpp:360
+#, kde-format
+msgid "Removing theme failed: %1"
+msgstr "Gagal menghapus tema: %1"
+
+#: package/contents/ui/main.qml:30
+#, fuzzy, kde-format
+#| msgid "This module lets you configure the desktop theme."
+msgid "This module lets you choose the Plasma theme."
+msgstr "Modul ini membiarkan kamu mengkonfigurasi tema desktop."
+
+#: package/contents/ui/main.qml:68
+#, kde-format
+msgid "Edit Theme..."
+msgstr "Edit Tema..."
+
+#: package/contents/ui/main.qml:75
+#, kde-format
+msgid "Remove Theme"
+msgstr "Hapus Tema"
+
+#: package/contents/ui/main.qml:82
+#, kde-format
+msgid "Restore Theme"
+msgstr "Pulihkan Tema"
+
+#: package/contents/ui/main.qml:120
+#, kde-format
+msgid "Install from File..."
+msgstr "Instal dari File..."
+
+#: package/contents/ui/main.qml:126
+#, fuzzy, kde-format
+#| msgid "Get New Themes..."
+msgid "Get New Plasma Themes..."
+msgstr "Dapatkan Tema Baru..."
+
+#: package/contents/ui/main.qml:138
+#, kde-format
+msgid "Open Theme"
+msgstr "Buka Tema"
+
+#: package/contents/ui/main.qml:140
+#, kde-format
+msgid "Theme Files (*.zip *.tar.gz *.tar.bz2)"
+msgstr "File Tema (*.zip *.tar.gz *.tar.bz2)"

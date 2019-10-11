@@ -1,0 +1,206 @@
+# Yoann Laissus <yoann.laissus@gmail.com>, 2019.
+# Simon Depiets <sdepiets@gmail.com>, 2019.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-desktop\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-05-30 07:24+0200\n"
+"PO-Revision-Date: 2019-06-29 14:40+0200\n"
+"Last-Translator: Yoann Laissus <yoann.laissus@gmail.com>\n"
+"Language-Team: French <kde-francophone@kde.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 19.07.70\n"
+"X-Environment: kde\n"
+"X-Accelerator-Marker: &\n"
+"X-Text-Markup: kde4\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Simon Depiets"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "vpinon@kde.org"
+
+#: kcm.cpp:62
+#, kde-format
+msgid "Notifications"
+msgstr "Notifications"
+
+#: kcm.cpp:64
+#, kde-format
+msgid "Kai Uwe Broulik"
+msgstr "Kai Uwe Broulik"
+
+#: kcm.cpp:161
+#, kde-format
+msgid "Configure Notifications"
+msgstr "Configurer les notifications"
+
+#: package/contents/ui/ApplicationConfiguration.qml:96
+#, kde-format
+msgid "Show popups"
+msgstr "Afficher des fenêtres contextuelles"
+
+#: package/contents/ui/ApplicationConfiguration.qml:105
+#: package/contents/ui/main.qml:51
+#, kde-format
+msgid "Show in do not disturb mode"
+msgstr "Afficher dans le mode « Ne pas déranger »"
+
+#: package/contents/ui/ApplicationConfiguration.qml:113
+#: package/contents/ui/main.qml:70
+#, kde-format
+msgid "Show in history"
+msgstr "Afficher dans l'historique"
+
+#: package/contents/ui/ApplicationConfiguration.qml:119
+#, kde-format
+msgid "Show notification badges"
+msgstr "Afficher les badges de notification"
+
+#: package/contents/ui/ApplicationConfiguration.qml:131
+#, kde-format
+msgid "Configure Events..."
+msgstr "Configurer les événements..."
+
+#: package/contents/ui/ApplicationConfiguration.qml:141
+#, kde-format
+msgid ""
+"This application does not support configuring notifications on a per-event "
+"basis."
+msgstr ""
+"Cette application ne permet pas de configurer les notifications selon le "
+"type d'événement."
+
+#: package/contents/ui/main.qml:31
+#, kde-format
+msgid "This module lets you manage application and system notifications."
+msgstr ""
+"Ce module permet de gérer les notifications du système et des applications."
+
+#: package/contents/ui/main.qml:50
+#, kde-format
+msgid "Critical notifications:"
+msgstr "Notifications importantes :"
+
+#: package/contents/ui/main.qml:57
+#, kde-format
+msgid "Always keep on top"
+msgstr "Maintenir au dessus"
+
+#: package/contents/ui/main.qml:63
+#, kde-format
+msgid "Low priority notifications:"
+msgstr "Notifications de faible priorité"
+
+#: package/contents/ui/main.qml:64
+#, kde-format
+msgid "Show popup"
+msgstr "Afficher des infobulles"
+
+# unreviewed-context
+#: package/contents/ui/main.qml:82
+#, kde-format
+msgid "Popup position:"
+msgstr "Position des infobulles :"
+
+#: package/contents/ui/main.qml:83
+#, kde-format
+msgctxt "Popup position near notification plasmoid"
+msgid "Near the notification icon"
+msgstr "A côté de l'icône de notification"
+
+#: package/contents/ui/main.qml:102
+#, kde-format
+msgid "Choose Custom Position..."
+msgstr "Choisir une position personnalisée..."
+
+#: package/contents/ui/main.qml:111 package/contents/ui/main.qml:127
+#, kde-format
+msgid "%1 second"
+msgid_plural "%1 seconds"
+msgstr[0] "%1 seconde"
+msgstr[1] "%1 secondes"
+
+#: package/contents/ui/main.qml:116
+#, kde-format
+msgid "Hide popup after:"
+msgstr "Cacher les infobulles après :"
+
+#: package/contents/ui/main.qml:137
+#, kde-format
+msgid "Application progress:"
+msgstr "Progression d'une tache dans une application"
+
+#: package/contents/ui/main.qml:138 package/contents/ui/main.qml:163
+#, kde-format
+msgid "Show in task manager"
+msgstr "Afficher dans le gestionnaire des tâches"
+
+#: package/contents/ui/main.qml:145
+#, kde-format
+msgctxt "Show application jobs in notification widget"
+msgid "Show in notifications"
+msgstr "Afficher dans les notifications"
+
+#: package/contents/ui/main.qml:154
+#, kde-format
+msgctxt "Keep application job popup open for entire duration of job"
+msgid "Keep popup open during progress"
+msgstr "Conserver les infobulles ouvertes pendant la progression"
+
+#: package/contents/ui/main.qml:162
+#, kde-format
+msgid "Notification badges:"
+msgstr "Badges de notifications :"
+
+#: package/contents/ui/main.qml:173
+#, kde-format
+msgid "Applications:"
+msgstr "Applications :"
+
+#: package/contents/ui/main.qml:174
+#, kde-format
+msgid "Configure..."
+msgstr "Configurer..."
+
+#: package/contents/ui/PopupPositionPage.qml:29
+#, kde-format
+msgid "Popup Position"
+msgstr "Position des infobulles"
+
+#: package/contents/ui/SourcesPage.qml:32
+#, kde-format
+msgid "Application Settings"
+msgstr "Configuration des applications"
+
+#: package/contents/ui/SourcesPage.qml:116
+#, kde-format
+msgid "Applications"
+msgstr "Applications"
+
+#: package/contents/ui/SourcesPage.qml:117
+#, kde-format
+msgid "System Services"
+msgstr "Services du système"
+
+#: package/contents/ui/SourcesPage.qml:189
+#, kde-format
+msgid "No application or event matches your search term."
+msgstr "Aucune application ou événement ne correspond à votre recherche."
+
+#: package/contents/ui/SourcesPage.qml:218
+#, kde-format
+msgid ""
+"Select an application from the list to configure its notification settings "
+"and behavior."
+msgstr ""
+"Sélectionner une application dans la liste pour configurer la façon dont "
+"elle affichera des notifications."

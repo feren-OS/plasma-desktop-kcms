@@ -1,0 +1,261 @@
+# translation of kcm_phonon.po to Turkish
+# translation of kcm_phonon.po to
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Serdar Soytetir <tulliana@gmail.com>, 2007, 2008.
+# Serdar SOYTETİR <tulliana@gmail.com>, 2010.
+# H. İbrahim Güngör <tulliana@gmail.com>, 2011, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcm_phonon\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"PO-Revision-Date: 2014-10-21 09:48+0000\n"
+"Last-Translator: Necdet <necdetyucel@gmail.com>\n"
+"Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 1.5\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Serdar Soytetir"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "tulliana@gmail.com"
+
+#: backendselection.cpp:74
+#, kde-format
+msgctxt "@info User changed Phonon backend"
+msgid "To apply the backend change you will have to log out and back in again."
+msgstr ""
+"Arka uç değişikliğinin etkinleştirilmesi için oturumu kapatıp yeniden giriş "
+"yapmalısınız."
+
+#. i18n: ectx: property (toolTip), widget (QListWidget, m_select)
+#. i18n: ectx: property (whatsThis), widget (QListWidget, m_select)
+#: backendselection.ui:38 backendselection.ui:41
+#, kde-format
+msgid ""
+"A list of Phonon Backends found on your system.  The order here determines "
+"the order Phonon will use them in."
+msgstr ""
+"Sisteminizde bulunan Phonon Arka Uçlarının bir listesidir.  Buradaki "
+"sıralama bu arka uçların Phonon içerisindeki kullanım sırasını belirler."
+
+#. i18n: ectx: property (text), widget (QToolButton, m_up)
+#. i18n: ectx: property (text), widget (QToolButton, preferButton)
+#: backendselection.ui:57 devicepreference.ui:190
+#, kde-format
+msgid "Prefer"
+msgstr "Tercih Et"
+
+#. i18n: ectx: property (text), widget (QToolButton, m_down)
+#. i18n: ectx: property (text), widget (QToolButton, deferButton)
+#: backendselection.ui:70 devicepreference.ui:206
+#, kde-format
+msgid "Defer"
+msgstr "Ertele"
+
+#: devicepreference.cpp:92
+#, kde-format
+msgid "Audio Playback"
+msgstr "Ses Çalma"
+
+#: devicepreference.cpp:106
+#, kde-format
+msgid "Audio Recording"
+msgstr "Ses Kaydı"
+
+#: devicepreference.cpp:109
+#, kde-format
+msgid "Video Recording"
+msgstr "Video Kaydı"
+
+#: devicepreference.cpp:112
+#, kde-format
+msgid "Invalid"
+msgstr "Geçersiz"
+
+#: devicepreference.cpp:152
+#, kde-format
+msgid "Test the selected device"
+msgstr "Seçili aygıtı test et"
+
+#: devicepreference.cpp:176 devicepreference.cpp:183 devicepreference.cpp:190
+#, kde-format
+msgid ""
+"Defines the default ordering of devices which can be overridden by "
+"individual categories."
+msgstr ""
+"Kategoriler tarafından gözardı edilecek olan öntanımlı aygıt sırlamasını "
+"tanımlar."
+
+#: devicepreference.cpp:306
+#, kde-format
+msgid "Default Audio Playback Device Preference"
+msgstr "Öntanımlı Ses Çalma Aygıtı Tercihi"
+
+#: devicepreference.cpp:309
+#, kde-format
+msgid "Default Audio Recording Device Preference"
+msgstr "Öntanımlı Ses Kaydetme Aygıtı Tercihi"
+
+#: devicepreference.cpp:312
+#, kde-format
+msgid "Default Video Recording Device Preference"
+msgstr "Öntanımlı Video Kaydetme Aygıtı Tercihi"
+
+#: devicepreference.cpp:319
+#, kde-format
+msgid "Audio Playback Device Preference for the '%1' Category"
+msgstr "'%1' Kategorisi için Ses Çalma Aygıtı Tercihi"
+
+#: devicepreference.cpp:323
+#, kde-format
+msgid "Audio Recording Device Preference for the '%1' Category"
+msgstr "'%1' Kategorisi için Ses Kaydetme Aygıtı Tercihi"
+
+#: devicepreference.cpp:327
+#, kde-format
+msgid "Video Recording Device Preference for the '%1' Category "
+msgstr "'%1' Kategorisi için Video Kaydetme Aygıtı Tercihi"
+
+#: devicepreference.cpp:752
+#, kde-format
+msgid ""
+"Apply the currently shown device preference list to the following other "
+"audio playback categories:"
+msgstr ""
+"Gösterilen aygıt tercihlerini aşağıdaki diğer ses çalma kategorilerine "
+"uygula:"
+
+#: devicepreference.cpp:765 devicepreference.cpp:771
+#, kde-format
+msgid "Default/Unspecified Category"
+msgstr "Öntanımlı/Belirtilmemiş Kategori"
+
+#: devicepreference.cpp:869
+#, kde-format
+msgid "Failed to set the selected audio output device"
+msgstr "Seçilen ses çıkışı aygıtı ayarlanamadı"
+
+#: devicepreference.cpp:899
+#, kde-format
+msgid "Your backend may not support audio recording"
+msgstr "Kullandığını arka uç ses kaydını desteklemeyebilir"
+
+#: devicepreference.cpp:920
+#, kde-format
+msgid "Your backend may not support video recording"
+msgstr "Kullandığını arka uç video kaydını desteklemeyebilir"
+
+#: devicepreference.cpp:930
+#, kde-format
+msgid "Testing %1"
+msgstr "%1 Test ediliyor"
+
+#. i18n: ectx: property (toolTip), widget (QTreeView, categoryTree)
+#. i18n: ectx: property (whatsThis), widget (QTreeView, categoryTree)
+#: devicepreference.ui:29 devicepreference.ui:32
+#, kde-format
+msgid ""
+"Various categories of media use cases.  For each category, you may choose "
+"what device you prefer to be used by the Phonon applications."
+msgstr ""
+"Çeşitli ortam kategorileri için kullanım durumları. Her kategori için Phonon "
+"tarafından hangi aygıtın kullanılacağını tercih edebilirsiniz."
+
+#. i18n: ectx: property (text), widget (QCheckBox, showAdvancedDevicesCheckBox)
+#: devicepreference.ui:47
+#, kde-format
+msgid "Show advanced devices"
+msgstr "Gelişmiş aygıtları göster"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, applyPreferencesButton)
+#. i18n: ectx: property (whatsThis), widget (QPushButton, applyPreferencesButton)
+#: devicepreference.ui:77 devicepreference.ui:80
+#, kde-format
+msgid "Use the currently shown device list for more categories."
+msgstr "Gösterilen aygıt listesini daha fazla kategori için kullan."
+
+#. i18n: ectx: property (text), widget (QPushButton, applyPreferencesButton)
+#: devicepreference.ui:83
+#, kde-format
+msgid "Apply Device List To..."
+msgstr "Aygıt Listesini Uygula..."
+
+#. i18n: ectx: property (toolTip), widget (QTreeView, deviceList)
+#: devicepreference.ui:113
+#, kde-format
+msgid ""
+"Devices found on your system, suitable for the selected category.  Choose "
+"the device that you wish to be used by the applications."
+msgstr ""
+"Sisteminizde bulunana aygıtlar seçilen kategori için uygun. Aygıtın hangi "
+"uygulamalar tarafından kullanılmasını istediğinizi seçin."
+
+#. i18n: ectx: property (whatsThis), widget (QTreeView, deviceList)
+#: devicepreference.ui:116
+#, kde-format
+msgid ""
+"The order determines the preference of the devices. If for some reason the "
+"first device cannot be used Phonon will try to use the second, and so on."
+msgstr ""
+"Sıralama aygıt tercihini belirler. Eğer bazı nedenlerle birinci aygıt "
+"kullanılamazsa Phonon ikinci aygıtı deneyecek ve bu böyle devam edecektir."
+
+#. i18n: ectx: property (text), widget (QToolButton, testPlaybackButton)
+#: devicepreference.ui:171
+#, kde-format
+msgid "Test"
+msgstr "Dene"
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, preferButton)
+#: devicepreference.ui:187
+#, kde-format
+msgid "prefer the selected device"
+msgstr "seçilen aygıtı tercih et"
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, deferButton)
+#: devicepreference.ui:203
+#, kde-format
+msgid "no preference for the selected device"
+msgstr "seçilen aygıt için tercih yok"
+
+#: main.cpp:40
+#, kde-format
+msgid "Phonon Configuration Module"
+msgstr "Phonon Yapılandırma Modülü"
+
+#: main.cpp:42
+#, kde-format
+msgid "Copyright 2006 Matthias Kretz"
+msgstr "Copyright 2006 Matthias Kretz"
+
+#: main.cpp:43
+#, kde-format
+msgid "Matthias Kretz"
+msgstr "Matthias Kretz"
+
+#: main.cpp:44
+#, kde-format
+msgid "Colin Guthrie"
+msgstr "Colin Guthrie"
+
+#: main.cpp:55
+#, kde-format
+msgid "Device Preference"
+msgstr "Aygıt Tercihi"
+
+#: main.cpp:57
+#, kde-format
+msgid "Backend"
+msgstr "Arka Uç"

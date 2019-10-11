@@ -1,0 +1,237 @@
+# Translation of kcmfonts.po to Finnish
+# Copyright © 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011 This_file_is_part_of_KDE
+# This file is distributed under the same license as the kde-workspace package.
+# Teemu Rytilahti <teemu.rytilahti@kde-fi.org>, 2003, 2008.
+# Tapio Kautto <eleknader@phnet.fi>, 2004.
+# Ilpo Kantonen <ilpo@iki.fi>, 2005.
+# Kim Enkovaara <kim.enkovaara@iki.fi>, 2006.
+# Mikko Piippo <piippo@cc.helsinki.fi>, 2007.
+# Jorma Karvonen <karvonen.jorma@gmail.com>, 2010.
+# Lasse Liehu <lasse.liehu@gmail.com>, 2011, 2012, 2013, 2014.
+# Tommi Nieminen <translator@legisign.org>, 2017, 2018, 2019.
+#
+# KDE Finnish translation sprint participants:
+# Author: Lliehu
+# Author: Niklas Laxström
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmfonts\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-07-12 07:37+0200\n"
+"PO-Revision-Date: 2019-02-21 19:41+0200\n"
+"Last-Translator: Tommi Nieminen <translator@legisign.org>\n"
+"Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-POT-Import-Date: 2012-12-01 22:22:21+0000\n"
+"X-Generator: Lokalize 2.0\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Tommi Nieminen"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "translator@legisign.org"
+
+#: fonts.cpp:279
+#, kde-format
+msgid ""
+"<p>Some changes such as anti-aliasing or DPI will only affect newly started "
+"applications.</p>"
+msgstr ""
+"<p>Olet valinnut pehmennykseen tai DPI:hin liittyvän asetuksen. Asetus tulee "
+"voimaan käynnistyvissä ohjelmissa. </p>"
+
+#: fonts.cpp:280 fonts.cpp:290
+#, kde-format
+msgid "Font Settings Changed"
+msgstr "Fonttiasetukset muuttuneet"
+
+#: fonts.cpp:289
+#, kde-format
+msgid ""
+"<p>Some changes such as DPI will only affect newly started applications.</p>"
+msgstr ""
+"<p>Jotkut muutokset, kuten DPI-asetus, vaikuttavat vain myöhemmin "
+"käynnistetyissä ohjelmissa.</p>"
+
+#: fonts.cpp:443
+#, kde-format
+msgid "Fonts"
+msgstr "Fontit"
+
+#: fonts.cpp:445
+#, kde-format
+msgid "Antonis Tsiapaliokas"
+msgstr "Antonis Tsiapaliokas"
+
+#: kxftconfig.cpp:444
+#, kde-format
+msgctxt "use system subpixel setting"
+msgid "Vendor default"
+msgstr "Valmistajan oletus"
+
+#: kxftconfig.cpp:446
+#, kde-format
+msgctxt "no subpixel rendering"
+msgid "None"
+msgstr "Ei mikään"
+
+#: kxftconfig.cpp:448
+#, kde-format
+msgid "RGB"
+msgstr "RGB"
+
+#: kxftconfig.cpp:450
+#, kde-format
+msgid "BGR"
+msgstr "BGR"
+
+#: kxftconfig.cpp:452
+#, kde-format
+msgid "Vertical RGB"
+msgstr "Pystysuuntainen RGB"
+
+#: kxftconfig.cpp:454
+#, kde-format
+msgid "Vertical BGR"
+msgstr "Pystysuuntainen BGR"
+
+#: kxftconfig.cpp:482
+#, kde-format
+msgctxt "use system hinting settings"
+msgid "Vendor default"
+msgstr "Valmistajan oletus"
+
+#: kxftconfig.cpp:484
+#, kde-format
+msgctxt "medium hinting"
+msgid "Medium"
+msgstr "Keskisuuri"
+
+#: kxftconfig.cpp:486
+#, kde-format
+msgctxt "no hinting"
+msgid "None"
+msgstr "Ei mikään"
+
+#: kxftconfig.cpp:488
+#, kde-format
+msgctxt "slight hinting"
+msgid "Slight"
+msgstr "Vähäinen"
+
+#: kxftconfig.cpp:490
+#, kde-format
+msgctxt "full hinting"
+msgid "Full"
+msgstr "Täysi"
+
+#: package/contents/ui/FontWidget.qml:68
+#, kde-format
+msgid "Select %1 Font..."
+msgstr "Valitse %1-fontti…"
+
+#: package/contents/ui/main.qml:30
+#, kde-format
+msgid "This module lets you configure the system fonts."
+msgstr "Tässä voit asettaa järjestelmän fontit."
+
+#: package/contents/ui/main.qml:40
+#, kde-format
+msgid "&Adjust All Fonts..."
+msgstr "&Säädä kaikkia fontteja…"
+
+#: package/contents/ui/main.qml:47
+#, kde-format
+msgid "General:"
+msgstr "Yleinen:"
+
+#: package/contents/ui/main.qml:52
+#, kde-format
+msgid "Fixed width:"
+msgstr "Tasavälinen:"
+
+#: package/contents/ui/main.qml:57
+#, kde-format
+msgid "Small:"
+msgstr "Pieni:"
+
+#: package/contents/ui/main.qml:62
+#, kde-format
+msgid "Toolbar:"
+msgstr "Työkalurivi:"
+
+#: package/contents/ui/main.qml:67
+#, kde-format
+msgid "Menu:"
+msgstr "Valikko:"
+
+#: package/contents/ui/main.qml:72
+#, kde-format
+msgid "Window title:"
+msgstr "Ikkunan otsikko:"
+
+#: package/contents/ui/main.qml:84
+#, kde-format
+msgctxt "Used as a noun, and precedes a combobox full of options"
+msgid "Anti-aliasing:"
+msgstr "Pehmennys:"
+
+#: package/contents/ui/main.qml:86
+#, kde-format
+msgid "Enabled"
+msgstr "Käytössä"
+
+#: package/contents/ui/main.qml:86
+#, kde-format
+msgid "Vendor default"
+msgstr "Valmistajan oletus"
+
+#: package/contents/ui/main.qml:86
+#, kde-format
+msgid "Disabled"
+msgstr "Ei käytössä"
+
+#: package/contents/ui/main.qml:96
+#, kde-format
+msgid "Exclude range from anti-aliasing"
+msgstr "Pehmentämättä jätettävä väli"
+
+#: package/contents/ui/main.qml:113 package/contents/ui/main.qml:128
+#, kde-format
+msgid "%1 pt"
+msgstr "%1 pt"
+
+#: package/contents/ui/main.qml:120
+#, kde-format
+msgid "to"
+msgstr "–"
+
+#: package/contents/ui/main.qml:141
+#, kde-format
+msgctxt "Used as a noun, and precedes a combobox full of options"
+msgid "Sub-pixel rendering:"
+msgstr "Alipikselihahmonnus:"
+
+#: package/contents/ui/main.qml:178
+#, kde-format
+msgctxt "Used as a noun, and precedes a combobox full of options"
+msgid "Hinting:"
+msgstr "Vihjeistys:"
+
+#: package/contents/ui/main.qml:216
+#, kde-format
+msgid "Force font DPI:"
+msgstr "Pakota fontin DPI:"
+
+#: package/contents/ui/main.qml:234
+#, kde-format
+msgid "Select Font"
+msgstr "Valitse fontti"

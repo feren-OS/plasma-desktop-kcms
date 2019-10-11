@@ -1,0 +1,1228 @@
+# Traducerea kcmlocale.po în Română
+# translation of kcmlocale.po to Romanian
+# translation of @PACKAGE.po to @LANGUAGE
+# Copyright (C) 2003, 2004, 2008 Free Software Foundation, Inc.
+#
+# Claudiu Costin <claudiuc@kde.org>, 2003, 2004.
+# Sergiu Bivol <sergiu-bivol@mail.md>, 2008.
+# Sergiu Bivol <sergiu@ase.md>, 2008, 2009.
+# Sergiu Bivol <sergiu.bivol@jurnaltv.md>, 2010, 2014.
+# Cristian Oneț <onet.cristian@gmail.com>, 2010, 2011, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmlocale\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"PO-Revision-Date: 2014-10-05 19:25+0300\n"
+"Last-Translator: Sergiu Bivol <sergiu@ase.md>\n"
+"Language-Team: Romanian <kde-i18n-ro@kde.org>\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"claudiuc@kde.org\n"
+"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
+"20)) ? 1 : 2;\n"
+"\n"
+
+#: kcmformats.cpp:45
+#, kde-format
+msgid ""
+"<h1>Formats</h1>You can configure the formats used for time, dates, money "
+"and other numbers here."
+msgstr ""
+
+#: kcmformats.cpp:102
+#, kde-format
+msgid "No change"
+msgstr "Nicio schimbare"
+
+#: kcmformats.cpp:139
+#, kde-format
+msgid "%1 - %2 (%3)"
+msgstr "%1 - %2 (%3)"
+
+#: kcmformats.cpp:141
+#, fuzzy, kde-format
+#| msgctxt "@item currency name and currency code"
+#| msgid "%1 (%2)"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: kcmformats.cpp:274
+#, kde-format
+msgid "Your changes will take effect the next time you log in."
+msgstr ""
+
+#: kcmformats.cpp:275
+#, kde-format
+msgid "Format Settings Changed"
+msgstr ""
+
+#: kcmformats.cpp:341
+#, fuzzy, kde-format
+#| msgid "Long date format:"
+msgid "%1 (long format)"
+msgstr "Format dată lungă:"
+
+#: kcmformats.cpp:342
+#, fuzzy, kde-format
+#| msgid "Short date format:"
+msgid "%1 (short format)"
+msgstr "Format dată scurtă:"
+
+#: kcmformats.cpp:347
+#, fuzzy, kde-format
+#| msgid "Imperial System"
+msgctxt "Measurement combobox"
+msgid "Imperial UK"
+msgstr "Sistem imperial"
+
+#: kcmformats.cpp:349
+#, fuzzy, kde-format
+#| msgid "Imperial System"
+msgctxt "Measurement combobox"
+msgid "Imperial US"
+msgstr "Sistem imperial"
+
+#: kcmformats.cpp:351
+#, kde-format
+msgctxt "Measurement combobox"
+msgid "Metric"
+msgstr "Metric"
+
+#. i18n: ectx: property (text), widget (QLabel, label_10)
+#: kcmformatswidget.ui:47
+#, kde-format
+msgid "Re&gion:"
+msgstr "Re&giune:"
+
+#. i18n: ectx: property (text), widget (QCheckBox, checkDetailed)
+#: kcmformatswidget.ui:76
+#, kde-format
+msgid "De&tailed Settings"
+msgstr "Configurări de&taliate"
+
+#. i18n: ectx: property (text), widget (QLabel, labelNumbers)
+#: kcmformatswidget.ui:83
+#, kde-format
+msgid "&Numbers:"
+msgstr "&Numere:"
+
+#. i18n: ectx: property (text), widget (QLabel, labelTime)
+#: kcmformatswidget.ui:112
+#, kde-format
+msgid "&Time:"
+msgstr "&Oră:"
+
+#. i18n: ectx: property (text), widget (QLabel, labelCurrency)
+#: kcmformatswidget.ui:141
+#, kde-format
+msgid "Currenc&y:"
+msgstr "&Monedă:"
+
+#. i18n: ectx: property (text), widget (QLabel, labelMeasurement)
+#: kcmformatswidget.ui:170
+#, kde-format
+msgid "Measurement &Units:"
+msgstr "&Unități de măsură:"
+
+#. i18n: ectx: property (text), widget (QLabel, labelCollate)
+#: kcmformatswidget.ui:199
+#, kde-format
+msgid "Co&llation and Sorting:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, labelMeasurement_2)
+#: kcmformatswidget.ui:238
+#, kde-format
+msgid "<b>Description</b>"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, lexNumbers)
+#: kcmformatswidget.ui:248
+#, kde-format
+msgid "Numbers:"
+msgstr "Numere:"
+
+#. i18n: ectx: property (text), widget (QLabel, lexTime)
+#: kcmformatswidget.ui:268
+#, kde-format
+msgid "Time:"
+msgstr "Oră:"
+
+#. i18n: ectx: property (text), widget (QLabel, lexCurrency)
+#: kcmformatswidget.ui:288
+#, kde-format
+msgid "Currency:"
+msgstr "Monedă:"
+
+#. i18n: ectx: property (text), widget (QLabel, lexMeasurement_2)
+#: kcmformatswidget.ui:308
+#, kde-format
+msgid "Measurement Units:"
+msgstr "Unități de măsură:"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# well-spelled: John, Layt
+
+
+
+# |, no-check-spell
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# well-spelled: MDL
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# well-spelled: AA
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# well-spelled: OO, oO, PO, pO, MM, SS, AMPM, AM, PM,
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# |, no-check-spell
+
+
+
+# |, no-check-spell
+
+
+
+# |, no-check-spell
+
+
+
+# |, no-check-spell
+
+
+
+
+
+
+
+# |, no-check-spell
+
+
+
+# |, no-check-spell
+
+
+
+# |, no-check-spell
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# well-spelled: PM
+
+
+
+# well-spelled: PM
+
+
+
+# well-spelled:AAAA, AA, LL, lL, LUNĂSCURTĂ, ZZ, zZ, ZISĂPTSCURTĂ, ZISĂPT, ANULEREI, NUMELESCURTALEREI, ANULDINERĂ, ZIAANULUI, SĂPTISO, ZISĂPTISO
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# |, no-check-spell
+
+
+
+# |, no-check-spell
+
+
+
+# |, no-check-spell
+
+
+
+# |, no-check-spell
+
+
+
+
+# |, no-check-spell
+
+
+
+
+
+
+# |, no-check-spell
+
+
+
+# |, no-check-spell
+
+
+
+# |, no-check-spell
+
+
+
+# |, no-check-spell
+
+
+
+# |, no-check-spell
+
+
+
+# |, no-check-spell
+
+
+
+# |, no-check-spell
+
+
+
+# |, no-check-spell
+
+
+
+# |, no-check-spell
+
+
+
+# |, no-check-spell
+
+
+
+# |, no-check-spell
+
+
+
+
+
+
+
+
+# well-spelled:AAAA, AA, LL, lL, LUNĂSCURTĂ, ZZ, zZ, ZISĂPTSCURTĂ, ZISĂPT, ANULEREI, NUMELESCURTALEREI, ANULDINERĂ, ZIAANULUI, SĂPTISO, ZISĂPTISO
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# |, no-check-spell
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# well-spelled: Letter
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# well-spelled: Common
+
+
+
+
+# well-spelled: DLE
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# well-spelled: JEDEC, kiloocteți
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# well-spelled: KiO, MiO
+
+
+
+
+# well-spelled: JEDEC
+
+
+
+
+# well-spelled: kO, MO

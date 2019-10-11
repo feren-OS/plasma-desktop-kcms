@@ -1,0 +1,178 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Volkan Gezer <volkangezer@gmail.com>, 2013, 2014, 2017.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"PO-Revision-Date: 2017-10-04 12:11+0000\n"
+"Last-Translator: Kaan <kaanozdincer@gmail.com>\n"
+"Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 2.0\n"
+
+#: package/contents/config/config.qml:25
+#, kde-format
+msgid "General"
+msgstr ""
+
+#: package/contents/ui/ApplicationsView.qml:121
+#, kde-format
+msgid "All Applications"
+msgstr "Tüm Uygulamalar"
+
+#: package/contents/ui/ApplicationsView.qml:270
+#, kde-format
+msgid "Applications updated."
+msgstr "Uygulamalar güncellendi."
+
+#: package/contents/ui/code/tools.js:55
+#, kde-format
+msgid "Remove from Favorites"
+msgstr "Yer İmlerinden Kaldır"
+
+#: package/contents/ui/code/tools.js:59
+#, kde-format
+msgid "Add to Favorites"
+msgstr "Beğenilenlere Ekle"
+
+#: package/contents/ui/code/tools.js:83
+#, kde-format
+msgid "On All Activities"
+msgstr "Tüm Etkinliklerde"
+
+#: package/contents/ui/code/tools.js:133
+#, kde-format
+msgid "On The Current Activity"
+msgstr "Sadece Geçerli Etkinlikte"
+
+#: package/contents/ui/code/tools.js:147
+#, kde-format
+msgid "Show In Favorites"
+msgstr "Sık Kullanılanlarda Göster"
+
+#: package/contents/ui/ConfigButtons.qml:36
+#: package/contents/ui/FullRepresentation.qml:754
+#, kde-format
+msgid "Favorites"
+msgstr "Yer İmleri"
+
+#: package/contents/ui/ConfigButtons.qml:37
+#: package/contents/ui/FullRepresentation.qml:756
+#, kde-format
+msgid "Applications"
+msgstr "Uygulamalar"
+
+#: package/contents/ui/ConfigButtons.qml:38
+#: package/contents/ui/FullRepresentation.qml:758
+#, kde-format
+msgid "Computer"
+msgstr "Bilgisayar"
+
+#: package/contents/ui/ConfigButtons.qml:39
+#: package/contents/ui/FullRepresentation.qml:760
+#, kde-format
+msgid "History"
+msgstr "Geçmiş"
+
+#: package/contents/ui/ConfigButtons.qml:40
+#: package/contents/ui/FullRepresentation.qml:762
+#, kde-format
+msgid "Often Used"
+msgstr "Sık Kullanılan"
+
+#: package/contents/ui/ConfigButtons.qml:41
+#: package/contents/ui/FullRepresentation.qml:764
+#, kde-format
+msgid "Leave"
+msgstr "Çık"
+
+#: package/contents/ui/ConfigButtons.qml:215
+#, fuzzy, kde-format
+#| msgid "Hidden Tabs"
+msgid "Active Tabs"
+msgstr "Gizli Sekmeler"
+
+#: package/contents/ui/ConfigButtons.qml:221
+#, kde-format
+msgid "Inactive Tabs"
+msgstr ""
+
+#: package/contents/ui/ConfigGeneral.qml:41
+#, kde-format
+msgid "Icon:"
+msgstr "Simge:"
+
+#: package/contents/ui/ConfigGeneral.qml:76
+#, kde-format
+msgctxt "@item:inmenu Open icon chooser dialog"
+msgid "Choose..."
+msgstr "Seçin..."
+
+#: package/contents/ui/ConfigGeneral.qml:81
+#, kde-format
+msgctxt "@item:inmenu Reset icon to default"
+msgid "Clear Icon"
+msgstr "Simgeyi Sil"
+
+#: package/contents/ui/ConfigGeneral.qml:95
+#, kde-format
+msgid "General:"
+msgstr ""
+
+#: package/contents/ui/ConfigGeneral.qml:97
+#, kde-format
+msgid "Switch tabs on hover"
+msgstr "Üzerine gelince sekmeyi değiştir"
+
+#: package/contents/ui/ConfigGeneral.qml:102
+#, kde-format
+msgid "Show applications by name"
+msgstr "Uygulamaları isme göre göster"
+
+#: package/contents/ui/ConfigGeneral.qml:107
+#, kde-format
+msgid "Expand search to bookmarks, files and emails"
+msgstr "Aramayı yer imlerine, dosyalara ve e-postalara genişlet"
+
+#: package/contents/ui/ConfigGeneral.qml:112
+#, kde-format
+msgid "Sort alphabetically"
+msgstr "Alfabetik Olarak Sırala"
+
+#: package/contents/ui/ConfigGeneral.qml:126
+#, kde-format
+msgid ""
+"Drag tabs between the boxes to show/hide them, or reorder the visible tabs "
+"by dragging."
+msgstr ""
+"Sekmeleri göstermek/gizlemek için kutular arasında sürükleyin ya da görünen "
+"sekmeleri sürükleyerek sıralamayın."
+
+#: package/contents/ui/Header.qml:136
+#, kde-format
+msgid "%2@%3 (%1)"
+msgstr "%2@%3 (%1)"
+
+#: package/contents/ui/Header.qml:136
+#, kde-format
+msgid "%1@%2"
+msgstr "%1@%2"
+
+#: package/contents/ui/Header.qml:167
+#, fuzzy, kde-format
+#| msgctxt "Search field placeholder text"
+#| msgid "Search"
+msgid "Search..."
+msgstr "Ara"
+
+#: package/contents/ui/Kickoff.qml:145
+#, kde-format
+msgid "Edit Applications..."
+msgstr "Uygulamaları Düzenle..."

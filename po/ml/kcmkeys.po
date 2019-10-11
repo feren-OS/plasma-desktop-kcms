@@ -1,0 +1,223 @@
+# Malayalam translation of kcmkeys.
+# Copyright (C) 2008 This_file_is_part_of_KDE
+# This file is distributed under the same license as the kcmkeys package.
+# Manu S Madhav <manusmad@gmail.com>, 2008.
+# Hari Vishnu <harivishnu@gmail.com>, 2008, 2009.
+# SANKARANARAYANAN <snalledam@dataone.in>, 2009.
+# Praveen Arimbrathodiyil <pravi.a@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmkeys trunk\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"PO-Revision-Date: 2019-08-11 14:09+0530\n"
+"Last-Translator: Subin Siby <mail@subinsb.com>\n"
+"Language-Team: Malayalam <smc-discuss@googlegroups.com>\n"
+"Language: ml\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 1.0\n"
+
+#. i18n: ectx: property (text), widget (QLabel, components_label)
+#: export_scheme_dialog.ui:17
+#, kde-format
+msgid "Select the Components to Export"
+msgstr "പുറത്തുവയ്ക്കാനുള്ള ഘടകങ്ങള്‍ തെരഞ്ഞെടുക്കുക"
+
+#. i18n: ectx: property (title), widget (QGroupBox, components)
+#: export_scheme_dialog.ui:27
+#, kde-format
+msgid "Components"
+msgstr "ഘടകങ്ങള്‍"
+
+#: globalshortcuts.cpp:67
+#, kde-format
+msgid "You are about to reset all shortcuts to their default values."
+msgstr ""
+"നിങ്ങളിപ്പോള്‍ എല്ലാ കുറുക്കുവഴികളും അതിന്റെ സഹജമായ മൂല്യങ്ങളിലേയ്ക്കു് തിരിച്ചു് ഉറപ്പിക്കുവാന്‍ "
+"പോകുകയാണു്."
+
+#: globalshortcuts.cpp:68
+#, kde-format
+msgid "Reset to defaults"
+msgstr "സഹജമായ മൂല്യങ്ങളായി തിരിച്ചുവയ്ക്കുന്നു"
+
+#: globalshortcuts.cpp:69
+#, kde-format
+msgid "Current Component"
+msgstr "ഇപ്പോഴുള്ള ഘടകം"
+
+#: globalshortcuts.cpp:70
+#, kde-format
+msgid "All Components"
+msgstr "എല്ലാ ഘടകങ്ങളും"
+
+#: kglobalshortcutseditor.cpp:231
+#, kde-format
+msgid "Import Scheme..."
+msgstr "പദ്ധതി അകത്തെടുക്കുക..."
+
+#: kglobalshortcutseditor.cpp:232
+#, kde-format
+msgid "Export Scheme..."
+msgstr "പദ്ധതി പുറത്തുവയ്ക്കുക..."
+
+#: kglobalshortcutseditor.cpp:233
+#, kde-format
+msgid "Set All Shortcuts to None"
+msgstr "എല്ലാ കുറുക്കുവഴികളും കളയുക"
+
+#: kglobalshortcutseditor.cpp:241
+#, kde-format
+msgid "Applications"
+msgstr ""
+
+#: kglobalshortcutseditor.cpp:292
+#, kde-format
+msgid "Launch %1"
+msgstr ""
+
+#: kglobalshortcutseditor.cpp:328
+#, kde-format
+msgid ""
+"Component '%1' is currently active. Only global shortcuts currently not "
+"active will be removed from the list.\n"
+"All global shortcuts will reregister themselves with their defaults when "
+"they are next started."
+msgstr ""
+"ഘടകം %1 ഇപ്പോള്‍ സജീവമാണ്. നിലവില്‍ സജീവമല്ലാത്ത ആഗോള കുറുക്കുവഴികള്‍ പട്ടികയില്‍ നിന്നു് നീക്കം "
+"ചെയ്യും.\n"
+"എല്ലാ ആഗോള കുറുക്കുവഴികളും അവ വീണ്ടും തുടങ്ങുമ്പോള്‍ സഹജമായ മൂല്യത്തില്‍ റജിസ്റ്റര്‍ ചെയ്യപ്പെടും."
+
+#: kglobalshortcutseditor.cpp:330 kglobalshortcutseditor.cpp:340
+#, kde-format
+msgid "Remove component"
+msgstr "ഘടകം നീക്കം ചെയ്യുക"
+
+#: kglobalshortcutseditor.cpp:336
+#, kde-format
+msgid ""
+"Are you sure you want to remove the registered shortcuts for component '%1'? "
+"The component and shortcuts will reregister themselves with their default "
+"settings when they are next started."
+msgstr ""
+"റജിസ്റ്റര്‍ ചെയ്തുകഴിഞ്ഞ '%1' ഘടകത്തിന്റെ കുറുക്കുവഴി നീക്കം ചെയ്യണമെന്ന് ഉറപ്പാണോ? ഘടകങ്ങളും "
+"അതിന്റെ കുറുക്കു വഴികളും അടുത്ത തവണ തുടങ്ങുമ്പോള്‍ അവയുടെ സഹജമായ മൂല്യത്തില്‍ സ്വയമേവ റജിസ്റ്റര്‍ "
+"ചെയ്തുകൊള്ളും ."
+
+#: kglobalshortcutseditor.cpp:450
+#, kde-format
+msgid "Application Launchers"
+msgstr ""
+
+#: kglobalshortcutseditor.cpp:453
+#, fuzzy, kde-format
+msgid "Other Shortcuts"
+msgstr "കുറുക്കുവഴികള്‍:"
+
+#: kglobalshortcutseditor.cpp:558
+#, kde-format
+msgid ""
+"Your current changes will be lost if you load another scheme before saving "
+"this one"
+msgstr ""
+"ഈ പദ്ധതി സൂക്ഷിയ്ക്കുന്നതിനു് മുമ്പു് വേറൊന്നു് ചേര്‍ത്താല്‍ നിങ്ങളുടെ നിലവിലുള്ള മാറ്റങ്ങള്‍ നഷ്ടപ്പെടും"
+
+#: kglobalshortcutseditor.cpp:559
+#, kde-format
+msgid "Load Shortcut Scheme"
+msgstr "കുറുക്കുവഴി പദ്ധതി ചേര്‍ക്കുക "
+
+#: kglobalshortcutseditor.cpp:560
+#, kde-format
+msgid "Load"
+msgstr "ചേര്‍ക്കുക"
+
+#: kglobalshortcutseditor.cpp:573
+#, kde-format
+msgid "This file (%1) does not exist. You can only select local files."
+msgstr "ഈ ഫയല്‍ (%1) നിലവിലില്ല. നിങ്ങള്‍ക്കു് പ്രാദേശിക ഫയലുകള്‍ മാത്രമേ തെരഞ്ഞെടുക്കാനാകൂ."
+
+#: kglobalshortcutseditor.cpp:601 kglobalshortcutseditor.cpp:624
+#, kde-format
+msgid ""
+"Message: %1\n"
+"Error: %2"
+msgstr ""
+"സന്ദേശം: %1\n"
+"തെറ്റ്: %2"
+
+#: kglobalshortcutseditor.cpp:606 kglobalshortcutseditor.cpp:629
+#, kde-format
+msgid "Failed to contact the KDE global shortcuts daemon\n"
+msgstr "കെഡിഇ ആഗോള കുറുക്കുവഴി നിരന്തരപ്രക്രിയയുമായി ബന്ധപ്പെടല്‍ പരാജയപ്പെട്ടു\n"
+
+#. i18n: ectx: property (text), widget (QLabel, componentLabel)
+#: kglobalshortcutseditor.ui:37
+#, fuzzy, kde-format
+msgid "Component:"
+msgstr "ഘടകങ്ങള്‍"
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, addButton)
+#: kglobalshortcutseditor.ui:77
+#, kde-format
+msgid "Add a new shortcut to an Application..."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QToolButton, addButton)
+#. i18n: ectx: property (text), widget (QToolButton, removeButton)
+#: kglobalshortcutseditor.ui:80 kglobalshortcutseditor.ui:90
+#, kde-format
+msgid "..."
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, removeButton)
+#: kglobalshortcutseditor.ui:87
+#, fuzzy, kde-format
+msgid "Remove the selected component"
+msgstr "ഘടകം നീക്കം ചെയ്യുക"
+
+#. i18n: ectx: property (text), widget (QPushButton, menu_button)
+#: kglobalshortcutseditor.ui:110
+#, kde-format
+msgid "File"
+msgstr "ഫയല്‍"
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, SelectApplicationDialog)
+#: select_application.ui:14
+#, kde-format
+msgid "Select Application"
+msgstr ""
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, SelectSchemeDialog)
+#. i18n: ectx: property (placeholderText), widget (KUrlRequester, m_url)
+#: select_scheme_dialog.ui:15 select_scheme_dialog.ui:123
+#, kde-format
+msgid "Select Shortcut Scheme"
+msgstr "കുറുക്കുവഴി പദ്ധതി തെരഞ്ഞെടുക്കുക "
+
+#. i18n: ectx: property (whatsThis), widget (QLabel, label)
+#: select_scheme_dialog.ui:39
+#, kde-format
+msgid "Select one of the standard KDE shortcut schemes"
+msgstr "സ്റ്റാന്‍ഡേര്‍ഡ് കെഡിഇ കുറുക്കുവഴി പദ്ധതികളിലൊന്നു് തെരഞ്ഞെടുക്കുക"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: select_scheme_dialog.ui:42
+#, kde-format
+msgid "&Standard scheme:"
+msgstr "&സ്റ്റാന്‍ഡേര്‍ഡ് പദ്ധതി:"
+
+#. i18n: ectx: property (whatsThis), widget (QLabel, label_2)
+#: select_scheme_dialog.ui:92
+#, kde-format
+msgid "Select a shortcut scheme file"
+msgstr "ഒരു കുറുക്കുവഴി പദ്ധതി ഫയല്‍ തെരഞ്ഞെടുക്കുക"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: select_scheme_dialog.ui:95
+#, kde-format
+msgid "&Path:"
+msgstr "&വഴി:"

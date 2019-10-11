@@ -1,0 +1,117 @@
+# translation of kcm_desktopthemedetails.po to Punjabi
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Amanpreet Singh <aalam@users.sf.net>, 2008.
+# A S Alam <aalam@users.sf.net>, 2008, 2010, 2018.
+# Amanpreet Singh Alam <aalam@users.sf.net>, 2009, 2012, 2014.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcm_desktopthemedetails\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"PO-Revision-Date: 2018-11-08 22:29-0800\n"
+"Last-Translator: A S Alam <alam.yellow@gmail.com>\n"
+"Language-Team: Punjabi <punjabi-users@lists.sf.net>\n"
+"Language: pa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 2.0\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "ਅਮਨਪਰੀਤ ਸਿੰਘ ਆਲਮ"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "aalam@users.sf.net"
+
+#: kcm.cpp:61
+#, fuzzy, kde-format
+#| msgid "Get New Themes..."
+msgid "Plasma Theme"
+msgstr "ਨਵੇਂ ਥੀਮ ਲਵੋ..."
+
+#: kcm.cpp:63
+#, kde-format
+msgid "David Rosca"
+msgstr ""
+
+#: kcm.cpp:139
+#, fuzzy, kde-format
+#| msgid "Download New Desktop Themes"
+msgid "Download New Plasma Themes"
+msgstr "ਨਵੇਂ ਡੈਸਕਟਾਪ ਥੀਮ ਡਾਊਨਲੋਡ ਕਰੋ"
+
+#: kcm.cpp:165
+#, fuzzy, kde-format
+#| msgid "Unable to save theme."
+msgid "Unable to create a temporary file."
+msgstr "ਥੀਮ ਸੰਭਾਲਣ ਲਈ ਅਸਮਰੱਥ ਹੈ।"
+
+#: kcm.cpp:177
+#, fuzzy, kde-format
+#| msgid "Unable to save theme."
+msgid "Unable to download the theme: %1"
+msgstr "ਥੀਮ ਸੰਭਾਲਣ ਲਈ ਅਸਮਰੱਥ ਹੈ।"
+
+#: kcm.cpp:200
+#, kde-format
+msgid "Theme installed successfully."
+msgstr "ਥੀਮ ਠੀਕ ਤਰ੍ਹਾਂ ਇੰਸਟਾਲ ਕੀਤਾ ਗਿਆ।"
+
+#: kcm.cpp:203 kcm.cpp:211
+#, kde-format
+msgid "Theme installation failed."
+msgstr "ਇੰਸਟਾਲੇਸ਼ਨ ਫੇਲ੍ਹ ਹੋਈ।"
+
+#: kcm.cpp:360
+#, kde-format
+msgid "Removing theme failed: %1"
+msgstr ""
+
+#: package/contents/ui/main.qml:30
+#, kde-format
+msgid "This module lets you choose the Plasma theme."
+msgstr ""
+
+#: package/contents/ui/main.qml:68
+#, fuzzy, kde-format
+#| msgid "Edit Theme"
+msgid "Edit Theme..."
+msgstr "ਥੀਮ ਸੋਧੋ"
+
+#: package/contents/ui/main.qml:75
+#, kde-format
+msgid "Remove Theme"
+msgstr "ਥੀਮ ਹਟਾਓ"
+
+#: package/contents/ui/main.qml:82
+#, kde-format
+msgid "Restore Theme"
+msgstr "ਥੀਮ ਬਹਾਲ"
+
+#: package/contents/ui/main.qml:120
+#, kde-format
+msgid "Install from File..."
+msgstr ""
+
+#: package/contents/ui/main.qml:126
+#, fuzzy, kde-format
+#| msgid "Get New Themes..."
+msgid "Get New Plasma Themes..."
+msgstr "ਨਵੇਂ ਥੀਮ ਲਵੋ..."
+
+#: package/contents/ui/main.qml:138
+#, kde-format
+msgid "Open Theme"
+msgstr "ਥੀਮ ਖੋਲ੍ਹੋ"
+
+#: package/contents/ui/main.qml:140
+#, kde-format
+msgid "Theme Files (*.zip *.tar.gz *.tar.bz2)"
+msgstr "ਥੀਮ ਫਾਈਲਾਂ (*.zip *.tar.gz *.tar.bz2)"

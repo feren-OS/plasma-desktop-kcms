@@ -1,0 +1,190 @@
+# translation of kcmicons.po to Punjabi
+# Amanpreet Singh Alam <aalam@redhat.com>, 2004, 2005.
+# Amanpreet Singh Brar <amanpreetalam@yahoo.com>, 2005.
+# A S Alam <aalam@users.sf.net>, 2007, 2008, 2010.
+# Amanpreet Singh Alam <aalam@users.sf.net>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmicons\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"PO-Revision-Date: 2010-12-22 07:41+0530\n"
+"Last-Translator: A S Alam <aalam@users.sf.net>\n"
+"Language-Team: Punjabi/Panjabi <punjab-l10n@list.sf.net>\n"
+"Language: pa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.1\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "ਅਮਨਪਰੀਤ ਸਿੰਘ ਆਲਮ"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "aalam@users.sf.net"
+
+#: main.cpp:85
+#, kde-format
+msgid "Icons"
+msgstr "ਆਈਕਾਨ"
+
+#: main.cpp:86
+#, kde-format
+msgid "Icons Control Panel Module"
+msgstr "ਆਈਕਾਨ ਕੰਟਰੋਲ ਪੈਨਲ ਮੋਡੀਊਲ"
+
+#: main.cpp:87
+#, kde-format
+msgid "(c) 2000-2003 Geert Jansen"
+msgstr "(c) ੨੦੦੦-੨੦੦੩ ਗੀਰਟ ਜਾਨਸੀਨ"
+
+#: main.cpp:88
+#, kde-format
+msgid "Geert Jansen"
+msgstr "Geert Jansen"
+
+#: main.cpp:89
+#, kde-format
+msgid "Antonio Larrosa Jimenez"
+msgstr "Antonio Larrosa Jimenez"
+
+#: main.cpp:90
+#, kde-format
+msgid "Torsten Rahn"
+msgstr "Torsten Rahn"
+
+#: main.cpp:91
+#, kde-format
+msgid "Jonathan Riddell"
+msgstr ""
+
+#: main.cpp:92
+#, kde-format
+msgid "Kai Uwe Broulik"
+msgstr ""
+
+#: main.cpp:284
+#, fuzzy, kde-format
+#| msgid "Remove Theme"
+msgid "Download New Icon Themes"
+msgstr "ਥੀਮ ਹਟਾਓ"
+
+#: main.cpp:320
+#, kde-format
+msgid "Unable to create a temporary file."
+msgstr ""
+
+#: main.cpp:332
+#, fuzzy, kde-format
+#| msgid "Unable to find the icon theme archive %1."
+msgid "Unable to download the icon theme archive: %1"
+msgstr "ਆਈਕਾਨ ਥੀਮ ਸੰਕੁਚਿਤ %1 ਲੱਭਣ ਤੋਂ ਅਸਮਰੱਥ ਹੈ।"
+
+#: main.cpp:346
+#, kde-format
+msgid "The file is not a valid icon theme archive."
+msgstr "ਇਹ ਫਾਇਲ਼ ਠੀਕ ਆਈਕਾਨ ਥੀਮ ਸੰਕੁਚਿਤ ਨਹੀਂ ਹੈ।"
+
+#: main.cpp:351
+#, kde-format
+msgid ""
+"A problem occurred during the installation process; however, most of the "
+"themes in the archive have been installed"
+msgstr "ਇੰਸਟਾਲੇਸ਼ਨ ਕਾਰਵਾਈ ਦੌਰਾਨ ਗਲਤੀ ਆਈ ਹੈ, ਹਾਲਾਂਕਿ ਬਹੁਤੇ ਥੀਮ ਇੰਸਟਾਲ ਹੋ ਚੁੱਕੇ ਹੋ।"
+
+#: main.cpp:355
+#, kde-format
+msgid "Theme installed successfully."
+msgstr ""
+
+#: main.cpp:465
+#, fuzzy, kde-format
+#| msgid "Installing icon themes"
+msgid "Installing icon themes..."
+msgstr "ਆਈਕਾਨ ਥੀਮ ਇੰਸਟਾਲ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ"
+
+#: main.cpp:475
+#, fuzzy, kde-format
+#| msgid "Installing icon themes"
+msgid "Installing %1 theme..."
+msgstr "ਆਈਕਾਨ ਥੀਮ ਇੰਸਟਾਲ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ"
+
+#: package/contents/ui/IconSizePopup.qml:91
+#, kde-format
+msgid "Desktop"
+msgstr "ਡੈਸਕਟਾਪ"
+
+#: package/contents/ui/IconSizePopup.qml:92
+#, kde-format
+msgid "Toolbar"
+msgstr "ਟੂਲਬਾਰ"
+
+#: package/contents/ui/IconSizePopup.qml:93
+#, kde-format
+msgid "Main Toolbar"
+msgstr "ਮੇਨ ਟੂਲਬਾਰ"
+
+#: package/contents/ui/IconSizePopup.qml:94
+#, kde-format
+msgid "Small Icons"
+msgstr "ਛੋਟੇ ਆਈਕਾਨ"
+
+#: package/contents/ui/IconSizePopup.qml:95
+#, kde-format
+msgid "Panel"
+msgstr "ਪੈਨਲ"
+
+#: package/contents/ui/IconSizePopup.qml:96
+#, kde-format
+msgid "Dialogs"
+msgstr "ਡਾਈਲਾਗ"
+
+#: package/contents/ui/main.qml:34
+#, kde-format
+msgid "This module allows you to choose the icons for your desktop."
+msgstr ""
+
+#: package/contents/ui/main.qml:155
+#, fuzzy, kde-format
+#| msgid "Remove Theme"
+msgid "Remove Icon Theme"
+msgstr "ਥੀਮ ਹਟਾਓ"
+
+#: package/contents/ui/main.qml:162
+#, fuzzy, kde-format
+#| msgid "Remove Theme"
+msgid "Restore Icon Theme"
+msgstr "ਥੀਮ ਹਟਾਓ"
+
+#: package/contents/ui/main.qml:231
+#, kde-format
+msgid "Configure Icon Sizes"
+msgstr ""
+
+#: package/contents/ui/main.qml:247
+#, fuzzy, kde-format
+#| msgid "Install Theme File..."
+msgid "Install from File..."
+msgstr "ਥੀਮ ਫਾਈਲ ਇੰਸਟਾਲ..."
+
+#: package/contents/ui/main.qml:253
+#, fuzzy, kde-format
+#| msgid "Get New Themes..."
+msgid "Get New Icons..."
+msgstr "ਨਵੇਂ ਥੀਮ ਲਵੋ..."
+
+#: package/contents/ui/main.qml:274
+#, fuzzy, kde-format
+#| msgid "Remove Theme"
+msgid "Open Theme"
+msgstr "ਥੀਮ ਹਟਾਓ"
+
+#: package/contents/ui/main.qml:276
+#, kde-format
+msgid "Theme Files (*.tar.gz *.tar.bz2)"
+msgstr ""

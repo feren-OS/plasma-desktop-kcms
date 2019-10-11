@@ -1,0 +1,190 @@
+# translation of kcmicons.po to Telugu
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Krishna Babu K <kkrothap@redhat.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmicons\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"PO-Revision-Date: 2009-01-16 22:16+0530\n"
+"Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
+"Language-Team: Telugu <en@li.org>\n"
+"Language: te\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "కృష్ణబాబు కె , విజయ్ కిరణ్ కముజు"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "k.meetme@gmail.com,infyquest@gmail.com"
+
+#: main.cpp:85
+#, kde-format
+msgid "Icons"
+msgstr "ప్రతిమలు"
+
+#: main.cpp:86
+#, kde-format
+msgid "Icons Control Panel Module"
+msgstr "ప్రతిమల నియంత్రణా ప్యానల్ మాడ్యూల్"
+
+#: main.cpp:87
+#, kde-format
+msgid "(c) 2000-2003 Geert Jansen"
+msgstr "(c) 2000-2003 గీర్ట్ జాన్సన్"
+
+#: main.cpp:88
+#, kde-format
+msgid "Geert Jansen"
+msgstr "గీర్ట్ జాన్సన్"
+
+#: main.cpp:89
+#, kde-format
+msgid "Antonio Larrosa Jimenez"
+msgstr "ఆంటోనియో లారోసా జిమెన్జ్"
+
+#: main.cpp:90
+#, kde-format
+msgid "Torsten Rahn"
+msgstr "టార్‌స్టెన్ రాన్"
+
+#: main.cpp:91
+#, kde-format
+msgid "Jonathan Riddell"
+msgstr ""
+
+#: main.cpp:92
+#, kde-format
+msgid "Kai Uwe Broulik"
+msgstr ""
+
+#: main.cpp:284
+#, fuzzy, kde-format
+#| msgid "Remove Theme"
+msgid "Download New Icon Themes"
+msgstr "థీమ్‌ను తీసివేయి"
+
+#: main.cpp:320
+#, kde-format
+msgid "Unable to create a temporary file."
+msgstr ""
+
+#: main.cpp:332
+#, fuzzy, kde-format
+#| msgid "Unable to find the icon theme archive %1."
+msgid "Unable to download the icon theme archive: %1"
+msgstr "ప్రతిమ థీమ్ ఆర్చివ్ %1ను కనుగొన లేకపోయింది."
+
+#: main.cpp:346
+#, kde-format
+msgid "The file is not a valid icon theme archive."
+msgstr "ఆ ఫైలు విలువైన ప్రతిమ థీమ్ ఆర్చివ్ కాదు."
+
+#: main.cpp:351
+#, kde-format
+msgid ""
+"A problem occurred during the installation process; however, most of the "
+"themes in the archive have been installed"
+msgstr ""
+
+#: main.cpp:355
+#, kde-format
+msgid "Theme installed successfully."
+msgstr ""
+
+#: main.cpp:465
+#, fuzzy, kde-format
+#| msgid "Installing icon themes"
+msgid "Installing icon themes..."
+msgstr "ప్రతిమ థీమ్‌లను సంస్థాపిస్తోంది"
+
+#: main.cpp:475
+#, fuzzy, kde-format
+#| msgid "Installing icon themes"
+msgid "Installing %1 theme..."
+msgstr "ప్రతిమ థీమ్‌లను సంస్థాపిస్తోంది"
+
+#: package/contents/ui/IconSizePopup.qml:91
+#, kde-format
+msgid "Desktop"
+msgstr "రంగస్ఠలం"
+
+#: package/contents/ui/IconSizePopup.qml:92
+#, kde-format
+msgid "Toolbar"
+msgstr "పనిముట్టుపట్టీ"
+
+#: package/contents/ui/IconSizePopup.qml:93
+#, kde-format
+msgid "Main Toolbar"
+msgstr "మెయిన్ పనిముట్లపట్టీ"
+
+#: package/contents/ui/IconSizePopup.qml:94
+#, kde-format
+msgid "Small Icons"
+msgstr "చిన్న ప్రతిమలు"
+
+#: package/contents/ui/IconSizePopup.qml:95
+#, kde-format
+msgid "Panel"
+msgstr "ప్యానల్"
+
+#: package/contents/ui/IconSizePopup.qml:96
+#, kde-format
+msgid "Dialogs"
+msgstr ""
+
+#: package/contents/ui/main.qml:34
+#, kde-format
+msgid "This module allows you to choose the icons for your desktop."
+msgstr ""
+
+#: package/contents/ui/main.qml:155
+#, fuzzy, kde-format
+#| msgid "Remove Theme"
+msgid "Remove Icon Theme"
+msgstr "థీమ్‌ను తీసివేయి"
+
+#: package/contents/ui/main.qml:162
+#, fuzzy, kde-format
+#| msgid "Remove Theme"
+msgid "Restore Icon Theme"
+msgstr "థీమ్‌ను తీసివేయి"
+
+#: package/contents/ui/main.qml:231
+#, kde-format
+msgid "Configure Icon Sizes"
+msgstr ""
+
+#: package/contents/ui/main.qml:247
+#, fuzzy, kde-format
+#| msgid "Install Theme File..."
+msgid "Install from File..."
+msgstr "థీమ్ పైలు సంస్థాపించుము..."
+
+#: package/contents/ui/main.qml:253
+#, fuzzy, kde-format
+#| msgid "Get New Themes..."
+msgid "Get New Icons..."
+msgstr "కొత్త థీమ్సును పొందుము..."
+
+#: package/contents/ui/main.qml:274
+#, fuzzy, kde-format
+#| msgid "Remove Theme"
+msgid "Open Theme"
+msgstr "థీమ్‌ను తీసివేయి"
+
+#: package/contents/ui/main.qml:276
+#, kde-format
+msgid "Theme Files (*.tar.gz *.tar.bz2)"
+msgstr ""

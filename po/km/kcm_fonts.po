@@ -1,0 +1,254 @@
+# translation of kcmfonts.po to Khmer
+# Khoem Sokhem <khoemsokhem@khmeros.info>, 2006, 2008, 2010, 2012.
+# Auk Piseth <piseth_dv@khmeros.info>, 2007, 2008.
+# Sokun <sokun_poch@khmeros.info>, 2007.
+# Eng Vannak <evannak@khmeros.info>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmfonts\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-07-12 07:37+0200\n"
+"PO-Revision-Date: 2012-06-14 14:01+0700\n"
+"Last-Translator: Khoem Sokhem <khoemsokhem@khmeros.info>\n"
+"Language-Team: Khmer\n"
+"Language: km\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
+
+#: fonts.cpp:279
+#, kde-format
+msgid ""
+"<p>Some changes such as anti-aliasing or DPI will only affect newly started "
+"applications.</p>"
+msgstr ""
+"<p>ការ​ផ្លាស់ប្ដូរ​មួយ​ចំនួន ដូច​ជា​ការ​ប្រឆាំង​រឆេតរឆូត​នឹង​មាន​ប្រសិទ្ធិភាព តែ​លើ​កម្មវិធី​ដែល​បាន​ចាប់ផ្ដើម​ថ្មីៗ​"
+"ប៉ុណ្ណោះ ។</p>"
+
+#: fonts.cpp:280 fonts.cpp:290
+#, kde-format
+msgid "Font Settings Changed"
+msgstr "បាន​ផ្លាស់ប្ដូរ​ការ​កំណត់​ពុម្ព​អក្សរ"
+
+#: fonts.cpp:289
+#, kde-format
+msgid ""
+"<p>Some changes such as DPI will only affect newly started applications.</p>"
+msgstr ""
+"<p>ការ​ផ្លាស់ប្តូរ​មួយ​ចំនួន​ដូចជា DPI នឹង​មាន​ឥទ្ធិពល​តែ​លើ​កម្មវិធី​ដែល​បាន​ចាប់​ផ្តើម​ថ្មី​ជាង​គេ​តែ​ប៉ុណ្ណោះ ។</"
+"p>"
+
+#: fonts.cpp:443
+#, kde-format
+msgid "Fonts"
+msgstr ""
+
+#: fonts.cpp:445
+#, kde-format
+msgid "Antonis Tsiapaliokas"
+msgstr ""
+
+#: kxftconfig.cpp:444
+#, fuzzy, kde-format
+#| msgctxt "Use anti-aliasing"
+#| msgid "System Settings"
+msgctxt "use system subpixel setting"
+msgid "Vendor default"
+msgstr "ការ​កំណត់​ប្រព័ន្ធ​"
+
+#: kxftconfig.cpp:446
+#, kde-format
+msgctxt "no subpixel rendering"
+msgid "None"
+msgstr "គ្មាន"
+
+#: kxftconfig.cpp:448
+#, kde-format
+msgid "RGB"
+msgstr "RGB"
+
+#: kxftconfig.cpp:450
+#, kde-format
+msgid "BGR"
+msgstr "BGR"
+
+#: kxftconfig.cpp:452
+#, kde-format
+msgid "Vertical RGB"
+msgstr "RGB បញ្ឈរ"
+
+#: kxftconfig.cpp:454
+#, kde-format
+msgid "Vertical BGR"
+msgstr "BGR បញ្ឈរ"
+
+#: kxftconfig.cpp:482
+#, fuzzy, kde-format
+#| msgctxt "Use anti-aliasing"
+#| msgid "System Settings"
+msgctxt "use system hinting settings"
+msgid "Vendor default"
+msgstr "ការ​កំណត់​ប្រព័ន្ធ​"
+
+#: kxftconfig.cpp:484
+#, kde-format
+msgctxt "medium hinting"
+msgid "Medium"
+msgstr "មធ្យម"
+
+#: kxftconfig.cpp:486
+#, kde-format
+msgctxt "no hinting"
+msgid "None"
+msgstr "គ្មាន"
+
+#: kxftconfig.cpp:488
+#, kde-format
+msgctxt "slight hinting"
+msgid "Slight"
+msgstr "ស្រាល"
+
+#: kxftconfig.cpp:490
+#, kde-format
+msgctxt "full hinting"
+msgid "Full"
+msgstr "ពេញ"
+
+#: package/contents/ui/FontWidget.qml:68
+#, kde-format
+msgid "Select %1 Font..."
+msgstr ""
+
+#: package/contents/ui/main.qml:30
+#, kde-format
+msgid "This module lets you configure the system fonts."
+msgstr ""
+
+#: package/contents/ui/main.qml:40
+#, fuzzy, kde-format
+#| msgid "Ad&just All Fonts..."
+msgid "&Adjust All Fonts..."
+msgstr "លៃ​តម្រូវ​ពុម្ព​អក្សរ​ទាំងអស់..."
+
+#: package/contents/ui/main.qml:47
+#, fuzzy, kde-format
+#| msgctxt "font usage"
+#| msgid "General"
+msgid "General:"
+msgstr "ទូទៅ"
+
+#: package/contents/ui/main.qml:52
+#, fuzzy, kde-format
+#| msgctxt "font usage"
+#| msgid "Fixed width"
+msgid "Fixed width:"
+msgstr "ទទឹង​ថេរ"
+
+#: package/contents/ui/main.qml:57
+#, fuzzy, kde-format
+#| msgctxt "font usage"
+#| msgid "Small"
+msgid "Small:"
+msgstr "តូច"
+
+#: package/contents/ui/main.qml:62
+#, fuzzy, kde-format
+#| msgctxt "font usage"
+#| msgid "Toolbar"
+msgid "Toolbar:"
+msgstr "របារ​ឧបករណ៍"
+
+#: package/contents/ui/main.qml:67
+#, fuzzy, kde-format
+#| msgctxt "font usage"
+#| msgid "Menu"
+msgid "Menu:"
+msgstr "ម៉ឺនុយ"
+
+#: package/contents/ui/main.qml:72
+#, fuzzy, kde-format
+#| msgctxt "font usage"
+#| msgid "Window title"
+msgid "Window title:"
+msgstr "ចំណង​ជើង​បង្អួច"
+
+#: package/contents/ui/main.qml:84
+#, fuzzy, kde-format
+#| msgid "Use a&nti-aliasing:"
+msgctxt "Used as a noun, and precedes a combobox full of options"
+msgid "Anti-aliasing:"
+msgstr "ប្រើ​ការ​ប្រឆាំង​រឆេតរឆូត​"
+
+#: package/contents/ui/main.qml:86
+#, fuzzy, kde-format
+#| msgctxt "Use anti-aliasing"
+#| msgid "Enabled"
+msgid "Enabled"
+msgstr "អនុញ្ញាត​"
+
+#: package/contents/ui/main.qml:86
+#, fuzzy, kde-format
+#| msgctxt "Use anti-aliasing"
+#| msgid "System Settings"
+msgid "Vendor default"
+msgstr "ការ​កំណត់​ប្រព័ន្ធ​"
+
+#: package/contents/ui/main.qml:86
+#, fuzzy, kde-format
+#| msgctxt "Use anti-aliasing"
+#| msgid "Disabled"
+msgid "Disabled"
+msgstr "មិន​អនុញ្ញាត​"
+
+#: package/contents/ui/main.qml:96
+#, kde-format
+msgid "Exclude range from anti-aliasing"
+msgstr ""
+
+#: package/contents/ui/main.qml:113 package/contents/ui/main.qml:128
+#, kde-format
+msgid "%1 pt"
+msgstr ""
+
+#: package/contents/ui/main.qml:120
+#, fuzzy, kde-format
+#| msgid " to "
+msgid "to"
+msgstr " ទៅ"
+
+#: package/contents/ui/main.qml:141
+#, fuzzy, kde-format
+#| msgid "&Use sub-pixel rendering:"
+msgctxt "Used as a noun, and precedes a combobox full of options"
+msgid "Sub-pixel rendering:"
+msgstr "ប្រើ​ការ​បង្ហាញ​ភីកសែល​រង​ ៖"
+
+#: package/contents/ui/main.qml:178
+#, fuzzy, kde-format
+#| msgid "Hinting style: "
+msgctxt "Used as a noun, and precedes a combobox full of options"
+msgid "Hinting:"
+msgstr "រចនា​ប័ទ្ម Hinting ៖ "
+
+#: package/contents/ui/main.qml:216
+#, fuzzy, kde-format
+#| msgid "Force fonts DPI:"
+msgid "Force font DPI:"
+msgstr "បង្ខំ​ពុម្ព​អក្សរ DPI ៖"
+
+#: package/contents/ui/main.qml:234
+#, kde-format
+msgid "Select Font"
+msgstr ""

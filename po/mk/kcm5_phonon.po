@@ -1,0 +1,273 @@
+# translation of kcm_phonon.po to Macedonian
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Bozidar Proevski <bobibobi@freemail.com.mk>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcm_phonon\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"PO-Revision-Date: 2007-11-14 10:23+0100\n"
+"Last-Translator: Bozidar Proevski <bobibobi@freemail.com.mk>\n"
+"Language-Team: Macedonian <mkde-l10n@lists.sourceforge.net>\n"
+"Language: mk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: Plural-Forms: nplurals=3; plural=n%10==1 ? 0 : n%10==2 ? 1 : "
+"2;\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Божидар Проевски"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "bobibobi@freemail.com.mk"
+
+#: backendselection.cpp:74
+#, kde-format
+msgctxt "@info User changed Phonon backend"
+msgid "To apply the backend change you will have to log out and back in again."
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QListWidget, m_select)
+#. i18n: ectx: property (whatsThis), widget (QListWidget, m_select)
+#: backendselection.ui:38 backendselection.ui:41
+#, kde-format
+msgid ""
+"A list of Phonon Backends found on your system.  The order here determines "
+"the order Phonon will use them in."
+msgstr ""
+"Листа на задни краеви за Фонон што се пронајдени на Вашиот систем. "
+"Редоследот тука одредува по кој редослед ќе ги користи Фонон."
+
+#. i18n: ectx: property (text), widget (QToolButton, m_up)
+#. i18n: ectx: property (text), widget (QToolButton, preferButton)
+#: backendselection.ui:57 devicepreference.ui:190
+#, kde-format
+msgid "Prefer"
+msgstr "Зголеми предност"
+
+#. i18n: ectx: property (text), widget (QToolButton, m_down)
+#. i18n: ectx: property (text), widget (QToolButton, deferButton)
+#: backendselection.ui:70 devicepreference.ui:206
+#, kde-format
+msgid "Defer"
+msgstr "Намали предност"
+
+#: devicepreference.cpp:92
+#, kde-format
+msgid "Audio Playback"
+msgstr ""
+
+#: devicepreference.cpp:106
+#, kde-format
+msgid "Audio Recording"
+msgstr ""
+
+#: devicepreference.cpp:109
+#, kde-format
+msgid "Video Recording"
+msgstr ""
+
+#: devicepreference.cpp:112
+#, kde-format
+msgid "Invalid"
+msgstr ""
+
+#: devicepreference.cpp:152
+#, fuzzy, kde-format
+#| msgid "prefer the selected device"
+msgid "Test the selected device"
+msgstr "дава предност на избраниот уред"
+
+#: devicepreference.cpp:176 devicepreference.cpp:183 devicepreference.cpp:190
+#, kde-format
+msgid ""
+"Defines the default ordering of devices which can be overridden by "
+"individual categories."
+msgstr ""
+
+#: devicepreference.cpp:306
+#, fuzzy, kde-format
+#| msgid "Device Preference"
+msgid "Default Audio Playback Device Preference"
+msgstr "Предност на уреди"
+
+#: devicepreference.cpp:309
+#, fuzzy, kde-format
+#| msgid "Device Preference"
+msgid "Default Audio Recording Device Preference"
+msgstr "Предност на уреди"
+
+#: devicepreference.cpp:312
+#, fuzzy, kde-format
+#| msgid "Device Preference"
+msgid "Default Video Recording Device Preference"
+msgstr "Предност на уреди"
+
+#: devicepreference.cpp:319
+#, fuzzy, kde-format
+#| msgid "Device Preference"
+msgid "Audio Playback Device Preference for the '%1' Category"
+msgstr "Предност на уреди"
+
+#: devicepreference.cpp:323
+#, fuzzy, kde-format
+#| msgid "Device Preference"
+msgid "Audio Recording Device Preference for the '%1' Category"
+msgstr "Предност на уреди"
+
+#: devicepreference.cpp:327
+#, fuzzy, kde-format
+#| msgid "Device Preference"
+msgid "Video Recording Device Preference for the '%1' Category "
+msgstr "Предност на уреди"
+
+#: devicepreference.cpp:752
+#, kde-format
+msgid ""
+"Apply the currently shown device preference list to the following other "
+"audio playback categories:"
+msgstr ""
+
+#: devicepreference.cpp:765 devicepreference.cpp:771
+#, kde-format
+msgid "Default/Unspecified Category"
+msgstr ""
+
+#: devicepreference.cpp:869
+#, fuzzy, kde-format
+#| msgid "prefer the selected device"
+msgid "Failed to set the selected audio output device"
+msgstr "дава предност на избраниот уред"
+
+#: devicepreference.cpp:899
+#, kde-format
+msgid "Your backend may not support audio recording"
+msgstr ""
+
+#: devicepreference.cpp:920
+#, kde-format
+msgid "Your backend may not support video recording"
+msgstr ""
+
+#: devicepreference.cpp:930
+#, kde-format
+msgid "Testing %1"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QTreeView, categoryTree)
+#. i18n: ectx: property (whatsThis), widget (QTreeView, categoryTree)
+#: devicepreference.ui:29 devicepreference.ui:32
+#, fuzzy, kde-format
+#| msgid ""
+#| "Various categories of outputs.  For each category you may choose what "
+#| "device you wish to output to."
+msgid ""
+"Various categories of media use cases.  For each category, you may choose "
+"what device you prefer to be used by the Phonon applications."
+msgstr ""
+"Разни категории на излези. За секоја категорија може да изберете на кој уред "
+"сакате да биде излезот."
+
+#. i18n: ectx: property (text), widget (QCheckBox, showAdvancedDevicesCheckBox)
+#: devicepreference.ui:47
+#, kde-format
+msgid "Show advanced devices"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, applyPreferencesButton)
+#. i18n: ectx: property (whatsThis), widget (QPushButton, applyPreferencesButton)
+#: devicepreference.ui:77 devicepreference.ui:80
+#, kde-format
+msgid "Use the currently shown device list for more categories."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, applyPreferencesButton)
+#: devicepreference.ui:83
+#, kde-format
+msgid "Apply Device List To..."
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QTreeView, deviceList)
+#: devicepreference.ui:113
+#, fuzzy, kde-format
+#| msgid ""
+#| "Audio Outputs found on your system.  Choose the device that you wish "
+#| "sound to come out of."
+msgid ""
+"Devices found on your system, suitable for the selected category.  Choose "
+"the device that you wish to be used by the applications."
+msgstr ""
+"Аудиоизлези што се пронајдени на Вашиот систем. Изберете го уредот од кој "
+"сакате да излегува звукот."
+
+#. i18n: ectx: property (whatsThis), widget (QTreeView, deviceList)
+#: devicepreference.ui:116
+#, fuzzy, kde-format
+#| msgid ""
+#| "The order determines the preference of the output devices. If for some "
+#| "reason the first device cannot be used Phonon will try to use the second, "
+#| "and\n"
+#| "so on."
+msgid ""
+"The order determines the preference of the devices. If for some reason the "
+"first device cannot be used Phonon will try to use the second, and so on."
+msgstr ""
+"Редоследот ја одредува предноста на излезните уреди. Ако, поради некоја "
+"причина, не може да се користи првиот уред, Фонон ќе се обиде да го користи "
+"вториот итн."
+
+#. i18n: ectx: property (text), widget (QToolButton, testPlaybackButton)
+#: devicepreference.ui:171
+#, kde-format
+msgid "Test"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, preferButton)
+#: devicepreference.ui:187
+#, kde-format
+msgid "prefer the selected device"
+msgstr "дава предност на избраниот уред"
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, deferButton)
+#: devicepreference.ui:203
+#, kde-format
+msgid "no preference for the selected device"
+msgstr "нема предност за избраниот уред"
+
+#: main.cpp:40
+#, kde-format
+msgid "Phonon Configuration Module"
+msgstr "Модул за конфигурација на Фонон"
+
+#: main.cpp:42
+#, kde-format
+msgid "Copyright 2006 Matthias Kretz"
+msgstr "Авторски права 2006 Matthias Kretz"
+
+#: main.cpp:43
+#, kde-format
+msgid "Matthias Kretz"
+msgstr "Matthias Kretz"
+
+#: main.cpp:44
+#, kde-format
+msgid "Colin Guthrie"
+msgstr ""
+
+#: main.cpp:55
+#, kde-format
+msgid "Device Preference"
+msgstr "Предност на уреди"
+
+#: main.cpp:57
+#, kde-format
+msgid "Backend"
+msgstr "Заден крај"

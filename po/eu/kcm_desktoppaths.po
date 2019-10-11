@@ -1,0 +1,212 @@
+# Translation of kcm_desktoppaths.po to Euskara/Basque (eu).
+# Copyright (C) 2002-2018, The Free Software Foundation, Inc.
+# This file is distributed under the same license as the kde-workspace package.
+# KDE Euskaratzeko proiektuaren arduraduna <xalba@euskalnet.net>.
+#
+# Translators:
+# Juan Irigoien <juanirigoien@irakasle.net>
+# Marcos  <marcos@euskalgnu.org>, 2002, 2004, 2005, 2006, 2007, 2010.
+# Asier Urio Larrea <asieriko@gmail.com>, 2008.
+# Iñigo Salvador Azurmendi <xalba@euskalnet.net>, 2010, 2018.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcm_desktoppaths\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"PO-Revision-Date: 2018-02-10 19:01+0100\n"
+"Last-Translator: Iñigo Salvador Azurmendi <xalba@euskalnet.net>\n"
+"Language-Team: Basque <kde-i18n-doc@kde.org>\n"
+"Language: eu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 2.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: globalpaths.cpp:113
+#, kde-format
+msgid ""
+"<h1>Paths</h1>\n"
+"This module allows you to choose where in the filesystem the files on your "
+"desktop should be stored.\n"
+"Use the \"Whats This?\" (Shift+F1) to get help on specific options."
+msgstr ""
+"<h1>Bide-izenak</h1> Modulu honek mahaigaineko fitxategiak fitxategi "
+"sisteman non gordeko diren hautatzen uzten dizu\n"
+"Erabili \"Zer da hau?\" (Maius+F1) laguntza lortzeko."
+
+#: globalpaths.cpp:118
+#, kde-format
+msgid "Desktop path:"
+msgstr "Mahaigaina-ren bidea:"
+
+#: globalpaths.cpp:119
+#, kde-format
+msgid ""
+"This folder contains all the files which you see on your desktop. You can "
+"change the location of this folder if you want to, and the contents will "
+"move automatically to the new location as well."
+msgstr ""
+"Karpeta honek zure mahaigainean ikusten dituzun fitxategi guztiak dauzka. "
+"Nahi izanez gero, karpeta honen helbidea aldatu dezakezu, eta barnean "
+"dituenak ere automatikoki mugituko dira helbide berrira."
+
+#: globalpaths.cpp:124
+#, kde-format
+msgid "Autostart path:"
+msgstr "Autoabioa-ren bidea:"
+
+#: globalpaths.cpp:125
+#, kde-format
+msgid ""
+"This folder contains applications or links to applications (shortcuts) that "
+"you want to have started automatically whenever the session starts. You can "
+"change the location of this folder if you want to, and the contents will "
+"move automatically to the new location as well."
+msgstr ""
+"Karpeta honek saioa abiatzen den bakoitzean automatikoki abiarazita "
+"nahidituzun aplikazioak edo aplikazioetarako estekak (lasterbideak) ditu. "
+"Karpeta honen kokapena alda dezakezu hala nahi baduzu, eta edukia ere "
+"automatikoki mugituko da kokapen berrira."
+
+#: globalpaths.cpp:131
+#, kde-format
+msgid "Documents path:"
+msgstr "Dokumentuak-en bidea:"
+
+#: globalpaths.cpp:132
+#, kde-format
+msgid ""
+"This folder will be used by default to load or save documents from or to."
+msgstr ""
+"Hau izango da dokumentuak bertatik kargatzeko edo bertara kopiatzeko "
+"erabiliko den karpeta lehenetsia."
+
+#: globalpaths.cpp:135
+#, kde-format
+msgid "Downloads path:"
+msgstr "Jaitsitakoak-en bidea:"
+
+#: globalpaths.cpp:136
+#, kde-format
+msgid "This folder will be used by default to save your downloaded items."
+msgstr ""
+"Hau izango da zuk jaitsitako elementuak gordetzeko erabiliko den karpeta "
+"lehenetsia."
+
+#: globalpaths.cpp:139
+#, kde-format
+msgid "Movies path:"
+msgstr "Filmak-en bidea:"
+
+#: globalpaths.cpp:140
+#, kde-format
+msgid "This folder will be used by default to load or save movies from or to."
+msgstr ""
+"Hau izango da filmak kargatu edo gordetzeko erabiliko den karpeta lehenetsia."
+
+#: globalpaths.cpp:143
+#, kde-format
+msgid "Pictures path:"
+msgstr "Irudiak-en bidea:"
+
+#: globalpaths.cpp:144
+#, kde-format
+msgid ""
+"This folder will be used by default to load or save pictures from or to."
+msgstr ""
+"Hau izango da irudiak kargatu edo gordetzeko erabiliko den karpeta "
+"lehenetsia."
+
+#: globalpaths.cpp:147
+#, kde-format
+msgid "Music path:"
+msgstr "Musika-ren bidea:"
+
+#: globalpaths.cpp:148
+#, kde-format
+msgid "This folder will be used by default to load or save music from or to."
+msgstr ""
+"Hau izango da musika kargatu edo gordetzeko erabiliko den karpeta lehenetsia."
+
+#: globalpaths.cpp:277 globalpaths.cpp:295
+#, kde-format
+msgid "Autostart"
+msgstr "Autoabiarazi"
+
+#: globalpaths.cpp:281
+#, kde-format
+msgid "Desktop"
+msgstr "Mahaigaina"
+
+#: globalpaths.cpp:305
+#, kde-format
+msgid "Documents"
+msgstr "Dokumentuak"
+
+#: globalpaths.cpp:308
+#, kde-format
+msgid "Downloads"
+msgstr "Jaitsitakoak"
+
+#: globalpaths.cpp:311
+#, kde-format
+msgid "Movies"
+msgstr "Filmak"
+
+#: globalpaths.cpp:314
+#, kde-format
+msgid "Pictures"
+msgstr "Irudiak"
+
+#: globalpaths.cpp:317
+#, kde-format
+msgid "Music"
+msgstr "Musika"
+
+#: globalpaths.cpp:376
+#, kde-format
+msgid ""
+"The path for '%1' has been changed.\n"
+"Do you want the files to be moved from '%2' to '%3'?"
+msgstr ""
+"'%1'(e)rako bide-izena aldatu egin da.\n"
+"Fitxategiak '%2'(e)tik '%3'(e)ra mugitu daitezen nahi duzu?"
+
+#: globalpaths.cpp:379
+#, kde-format
+msgctxt "Move files from old to new place"
+msgid "Move"
+msgstr "Mugitu"
+
+#: globalpaths.cpp:380
+#, kde-format
+msgctxt "Use the new directory but do not move files"
+msgid "Do not Move"
+msgstr "Ez mugitu"
+
+#: globalpaths.cpp:382
+#, kde-format
+msgid ""
+"The path for '%1' has been changed.\n"
+"Do you want to move the directory '%2' to '%3'?"
+msgstr ""
+"'%1'(e)rako bide-izena aldatu egin da.\n"
+"'%2' karpeta '%3'(e)ra mugitu nahi duzu?"
+
+#: globalpaths.cpp:385
+#, kde-format
+msgctxt "Move the directory"
+msgid "Move"
+msgstr "Mugitu"
+
+#: globalpaths.cpp:386
+#, kde-format
+msgctxt "Use the new directory but do not move anything"
+msgid "Do not Move"
+msgstr "Ez mugitu"
+
+#: globalpaths.cpp:390
+#, kde-format
+msgid "Confirmation Required"
+msgstr "Berrespena beharrezkoa"

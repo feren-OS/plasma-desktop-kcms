@@ -1,0 +1,85 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+# Anne-Marie Mahfouf <annemarie.mahfouf@free.fr>, 2009, 2010.
+# Anne-Marie Mahfouf <annma@kde.org>, 2010, 2011, 2012.
+# xavier <ktranslator31@yahoo.fr>, 2013.
+# Vincent Pinon <vpinon@kde.org>, 2017.
+# Simon Depiets <sdepiets@gmail.com>, 2018, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"PO-Revision-Date: 2018-06-04 17:30+0800\n"
+"Last-Translator: Simon Depiets <sdepiets@gmail.com>\n"
+"Language-Team: French <kde-francophone@kde.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 19.07.70\n"
+"X-Environment: kde\n"
+"X-Accelerator-Marker: &\n"
+"X-Text-Markup: kde4\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Xavier Besnard, Anne-Marie Mahfouf, Simon Depiets"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "xavier.besnard@neuf.fr, annma@kde.org, sdepiets@gmail.com"
+
+#: package/contents/ui/main.qml:37
+#, kde-format
+msgid "Visual behavior:"
+msgstr "Comportement visuel :"
+
+#: package/contents/ui/main.qml:38
+#, kde-format
+msgid "Display informational tooltips on mouse hover"
+msgstr "Affiche des infobulles lors du survol de la souris"
+
+#: package/contents/ui/main.qml:45
+#, kde-format
+msgid "Display visual feedback for status changes"
+msgstr "Affiche un retour visuel lors des changements d'état"
+
+#: package/contents/ui/main.qml:64
+#, kde-format
+msgid "Click behavior:"
+msgstr "Comportement des clics :"
+
+#: package/contents/ui/main.qml:65
+#, kde-format
+msgid "Single-click to open files and folders"
+msgstr "Cliquer une seule fois pour ouvrir les fichiers et les dossiers"
+
+#: package/contents/ui/main.qml:72
+#, kde-format
+msgid "Double-click to open files and folders (single click to select)"
+msgstr ""
+"Double cliquer pour ouvrir les fichiers et les dossiers (le simple clic "
+"permet de sélectionner les icônes)"
+
+#: workspaceoptions.cpp:40
+#, kde-format
+msgid "Plasma Workspace global options"
+msgstr "Options globales de l'espace de travail Plasma"
+
+#: workspaceoptions.cpp:42
+#, kde-format
+msgid ""
+"System Settings module for managing global options for the Plasma Workspace."
+msgstr ""
+"Module de configuration système pour la gestion des options globales de "
+"l'espace de travail Plasma"
+
+#: workspaceoptions.cpp:45
+#, kde-format
+msgid "Furkan Tokac"
+msgstr "Furkan Tokac"

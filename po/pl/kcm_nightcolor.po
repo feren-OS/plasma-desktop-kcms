@@ -1,0 +1,132 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>, 2017.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"PO-Revision-Date: 2017-12-25 07:54+0100\n"
+"Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
+"Language-Team: Polish <kde-i18n-doc@kde.org>\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 2.0\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Łukasz Wojniłowicz"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "lukasz.wojnilowicz@gmail.com"
+
+#: kcm.cpp:31
+#, kde-format
+msgid "Night Color"
+msgstr "Barwy nocne"
+
+#: kcm.cpp:33
+#, kde-format
+msgid "Roman Gilg"
+msgstr "Roman Gilg"
+
+#: package/contents/ui/LocationsAutoView.qml:34
+#: package/contents/ui/LocationsFixedView.qml:38
+#, kde-format
+msgid "Latitude"
+msgstr "Szerokość geograficzna"
+
+#: package/contents/ui/LocationsAutoView.qml:44
+#: package/contents/ui/LocationsFixedView.qml:53
+#, kde-format
+msgid "Longitude"
+msgstr "Długość geograficzna"
+
+#: package/contents/ui/LocationsFixedView.qml:69
+#, kde-format
+msgid "Detect location"
+msgstr "Wykryj położenie"
+
+#: package/contents/ui/main.qml:103
+#, kde-format
+msgid "Activate Night Color"
+msgstr "Włącz barwy nocne"
+
+#: package/contents/ui/main.qml:120
+#, kde-format
+msgid "Night Color Temperature: "
+msgstr "Nocna temperatura barw"
+
+#: package/contents/ui/main.qml:120
+#, kde-format
+msgid " K"
+msgstr " K"
+
+#: package/contents/ui/main.qml:141
+#, kde-format
+msgid "Operation mode:"
+msgstr "Tryb działania:"
+
+#: package/contents/ui/main.qml:146
+#, kde-format
+msgid "Automatic"
+msgstr "Samoczynnie"
+
+#: package/contents/ui/main.qml:147
+#, kde-format
+msgid "Location"
+msgstr "Położenie"
+
+#: package/contents/ui/main.qml:148
+#, kde-format
+msgid "Times"
+msgstr "Czasy"
+
+#: package/contents/ui/main.qml:251 package/contents/ui/TimingsView.qml:39
+#, kde-format
+msgid "Sunrise begins"
+msgstr "Wschód zaczyna się o"
+
+#: package/contents/ui/main.qml:263 package/contents/ui/main.qml:278
+#, kde-format
+msgid "(HH:MM)"
+msgstr "(HH:MM)"
+
+#: package/contents/ui/main.qml:266 package/contents/ui/TimingsView.qml:59
+#, kde-format
+msgid "Sunset begins"
+msgstr "Zachód zaczyna się o"
+
+#: package/contents/ui/main.qml:281
+#, kde-format
+msgid "Transition duration"
+msgstr "Czas przejścia"
+
+#: package/contents/ui/main.qml:296
+#, kde-format
+msgid "(In minutes - min. 1, max. 600)"
+msgstr "(W minutach - min. 1, maks. 600)"
+
+#: package/contents/ui/main.qml:305
+#, kde-format
+msgid "Error: Morning not before evening."
+msgstr "Błąd: Poranek nie jest przed wieczorem."
+
+#: package/contents/ui/main.qml:321
+#, kde-format
+msgid "Error: Transition time overlaps."
+msgstr "Błąd: Czas przejścia nachodzi."
+
+#: package/contents/ui/TimingsView.qml:49
+#: package/contents/ui/TimingsView.qml:69
+#, kde-format
+msgid "and ends"
+msgstr "i kończy się o"

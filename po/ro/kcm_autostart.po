@@ -1,0 +1,200 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Sergiu Bivol <sergiu@ase.md>, 2008, 2009, 2010, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcm_autostart\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"PO-Revision-Date: 2012-12-21 00:51+0200\n"
+"Last-Translator: Sergiu Bivol <sergiu.bivol@jurnaltv.md>\n"
+"Language-Team: Romanian <kde-i18n-ro@kde.org>\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
+"20)) ? 1 : 2;\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Sergiu Bivol"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "sergiu@ase.md"
+
+#: addscriptdialog.cpp:40
+#, kde-format
+msgid "Shell script path:"
+msgstr "Caleaa scriptului de consolă:"
+
+#: addscriptdialog.cpp:44
+#, kde-format
+msgid "Create as symlink"
+msgstr "Creează legătură simbolică"
+
+#: addscriptdialog.cpp:79
+#, kde-format
+msgid "\"%1\" is not an absolute path."
+msgstr "„%1” nu este o cale absolută."
+
+#: addscriptdialog.cpp:82
+#, kde-format
+msgid "\"%1\" does not exist."
+msgstr "„%1” nu există."
+
+#: addscriptdialog.cpp:85
+#, kde-format
+msgid "\"%1\" is not a file."
+msgstr "„%1” nu este un fișier."
+
+#: addscriptdialog.cpp:88
+#, kde-format
+msgid "\"%1\" is not readable."
+msgstr "„%1” nu poate fi citit."
+
+#: advanceddialog.cpp:32
+#, fuzzy, kde-format
+#| msgid "Autostart only in KDE"
+msgid "Autostart only in Plasma"
+msgstr "Pornește automat numai în KDE"
+
+#: autostart.cpp:53
+#, kde-format
+msgid "Name"
+msgstr "Denumire"
+
+#: autostart.cpp:54
+#, kde-format
+msgid "Command"
+msgstr "Comandă"
+
+#: autostart.cpp:55
+#, kde-format
+msgid "Status"
+msgstr "Stare"
+
+#: autostart.cpp:56
+#, fuzzy, kde-format
+#| msgctxt ""
+#| "@title:column The name of the column that decides if the program is run "
+#| "on kde startup, on kde shutdown, etc"
+#| msgid "Run On"
+msgctxt ""
+"@title:column The name of the column that decides if the program is run on "
+"session startup, on session shutdown, etc"
+msgid "Run On"
+msgstr "Rulează la"
+
+#: autostart.cpp:75
+#, fuzzy, kde-format
+#| msgid "KDE Autostart Manager"
+msgid "Session Autostart Manager"
+msgstr "Administratorul de pornire automată KDE"
+
+#: autostart.cpp:77
+#, fuzzy, kde-format
+#| msgid "KDE Autostart Manager Control Panel Module"
+msgid "Session Autostart Manager Control Panel Module"
+msgstr ""
+"Modul al Panoului de control pentru Administratorul de pornire automată KDE"
+
+#: autostart.cpp:79
+#, kde-format
+msgid "Copyright © 2006–2010 Autostart Manager team"
+msgstr ""
+"Drept de autor (c) 2006-2010 Echipa Administratorului de pornire automată"
+
+#: autostart.cpp:80
+#, kde-format
+msgid "Stephen Leaf"
+msgstr "Stephen Leaf"
+
+#: autostart.cpp:81
+#, kde-format
+msgid "Montel Laurent"
+msgstr "Montel Laurent"
+
+#: autostart.cpp:81
+#, kde-format
+msgid "Maintainer"
+msgstr "Responsabil"
+
+#: autostart.cpp:108 autostart.cpp:122
+#, kde-format
+msgctxt "The program won't be run"
+msgid "Disabled"
+msgstr "Dezactivat"
+
+#: autostart.cpp:110 autostart.cpp:122 autostartitem.cpp:77
+#, kde-format
+msgctxt "The program will be run"
+msgid "Enabled"
+msgstr "Activat"
+
+#: autostart.cpp:156
+#, kde-format
+msgid "Startup"
+msgstr "Demarare"
+
+#: autostart.cpp:157
+#, kde-format
+msgid "Logout"
+msgstr ""
+
+#: autostart.cpp:158
+#, kde-format
+msgid "Before session startup"
+msgstr ""
+
+#: autostart.cpp:163
+#, kde-format
+msgid "Desktop File"
+msgstr "Fișier de birou"
+
+#: autostart.cpp:171
+#, kde-format
+msgid "Script File"
+msgstr "Fișier-script"
+
+#: autostart.cpp:447
+#, kde-format
+msgid ""
+"Only files with “.sh” extensions are allowed for setting up the environment."
+msgstr ""
+"Sunt permise numai fișierele cu extensie „.sh” pentru a configura mediul."
+
+#. i18n: ectx: property (text), widget (QPushButton, btnProperties)
+#: autostartconfig.ui:17
+#, kde-format
+msgid "&Properties..."
+msgstr "&Proprietăți..."
+
+#. i18n: ectx: property (text), widget (QPushButton, btnAddScript)
+#: autostartconfig.ui:24
+#, kde-format
+msgid "Add Script..."
+msgstr "Adăugare script..."
+
+#. i18n: ectx: property (text), widget (QPushButton, btnRemove)
+#: autostartconfig.ui:46
+#, kde-format
+msgid "&Remove"
+msgstr "&Elimină"
+
+#. i18n: ectx: property (text), widget (QPushButton, btnAdvanced)
+#: autostartconfig.ui:53
+#, kde-format
+msgid "Advanced..."
+msgstr "Avansat..."
+
+#. i18n: ectx: property (text), widget (QPushButton, btnAddProgram)
+#: autostartconfig.ui:60
+#, kde-format
+msgid "Add Program..."
+msgstr "Adăugare program..."

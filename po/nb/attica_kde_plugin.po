@@ -1,0 +1,31 @@
+# Translation of attica_kde_plugin to Norwegian Bokmål
+#
+# Bjørn Steensrud <bjornst@skogkatt.homelinux.org>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"PO-Revision-Date: 2009-12-13 17:07+0100\n"
+"Last-Translator: Bjørn Steensrud <bjornst@skogkatt.homelinux.org>\n"
+"Language-Team: Norwegian Bokmål <i18n-nb@lister.ping.uio.no>\n"
+"Language: nb\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.0\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Environment: kde\n"
+"X-Accelerator-Marker: &\n"
+"X-Text-Markup: kde4\n"
+
+#: kdeplatformdependent.cpp:108
+#, kde-format
+msgid ""
+"Should the password be stored in the configuration file? This is unsafe."
+msgstr "Skal passordet lagres i oppsettsfila? Dette er utrygt."
+
+#: kdeplatformdependent.cpp:109
+#, kde-format
+msgid "Social Desktop Configuration"
+msgstr "Oppsett for sosialt skrivebord"

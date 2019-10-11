@@ -1,0 +1,49 @@
+# Copyright (C) 2008 This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Marek Laane <bald@smail.ee>, 2008-2009, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcm_standard_actions\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"PO-Revision-Date: 2011-04-18 17:54+0300\n"
+"Last-Translator: Marek Laane <bald@smail.ee>\n"
+"Language-Team: Estonian <kde-et@linux.ee>\n"
+"Language: et\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.2\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Marek Laane"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "bald@smail.ee"
+
+#: standard_actions_module.cpp:62 standard_actions_module.cpp:135
+#, kde-format
+msgid "Standard Shortcuts"
+msgstr "Standardsed kiirklahvid"
+
+#: standard_actions_module.cpp:154
+#, kde-format
+msgid "Standard Actions successfully saved"
+msgstr "Standardtoimingud on edukalt salvestatud"
+
+#: standard_actions_module.cpp:156
+#, kde-format
+msgid ""
+"The changes have been saved. Please note that:<ul><li>Applications need to "
+"be restarted to see the changes.</li>    <li>This change could introduce "
+"shortcut conflicts in some applications.</li></ul>"
+msgstr ""
+"Muudatused on salvestatud. Palun arvesta järgmist:<ul><li>Muudatuste "
+"rakendamiseks tuleb rakendused uuesti käivitada.</li> <li>See muudatus võib "
+"tuua mõnes rakenduses kaasa kiirklahvide konflikti.</li></ul>"

@@ -1,0 +1,177 @@
+# Spanish translations for plasma_applet_org.kde.plasma.kickoff.po package.
+# Copyright (C) 2014 This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Automatically generated, 2014.
+# Eloy Cuadra <ecuadra@eloihr.net>, 2014, 2015, 2016, 2017, 2018, 2019.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_applet_org\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"PO-Revision-Date: 2019-08-30 20:56+0200\n"
+"Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
+"Language-Team: Spanish <kde-l10n-es@kde.org>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 19.08.0\n"
+
+#: package/contents/config/config.qml:25
+#, kde-format
+msgid "General"
+msgstr "General"
+
+#: package/contents/ui/ApplicationsView.qml:121
+#, kde-format
+msgid "All Applications"
+msgstr "Todas las aplicaciones"
+
+#: package/contents/ui/ApplicationsView.qml:270
+#, kde-format
+msgid "Applications updated."
+msgstr "Aplicaciones actualizadas."
+
+#: package/contents/ui/code/tools.js:55
+#, kde-format
+msgid "Remove from Favorites"
+msgstr "Eliminar de favoritos"
+
+#: package/contents/ui/code/tools.js:59
+#, kde-format
+msgid "Add to Favorites"
+msgstr "Añadir a favoritos"
+
+#: package/contents/ui/code/tools.js:83
+#, kde-format
+msgid "On All Activities"
+msgstr "En todas las actividades"
+
+#: package/contents/ui/code/tools.js:133
+#, kde-format
+msgid "On The Current Activity"
+msgstr "En la actividad actual"
+
+#: package/contents/ui/code/tools.js:147
+#, kde-format
+msgid "Show In Favorites"
+msgstr "Mostrar en favoritos"
+
+#: package/contents/ui/ConfigButtons.qml:36
+#: package/contents/ui/FullRepresentation.qml:754
+#, kde-format
+msgid "Favorites"
+msgstr "Favoritos"
+
+#: package/contents/ui/ConfigButtons.qml:37
+#: package/contents/ui/FullRepresentation.qml:756
+#, kde-format
+msgid "Applications"
+msgstr "Aplicaciones"
+
+#: package/contents/ui/ConfigButtons.qml:38
+#: package/contents/ui/FullRepresentation.qml:758
+#, kde-format
+msgid "Computer"
+msgstr "Equipo"
+
+#: package/contents/ui/ConfigButtons.qml:39
+#: package/contents/ui/FullRepresentation.qml:760
+#, kde-format
+msgid "History"
+msgstr "Historial"
+
+#: package/contents/ui/ConfigButtons.qml:40
+#: package/contents/ui/FullRepresentation.qml:762
+#, kde-format
+msgid "Often Used"
+msgstr "Usadas con frecuencia"
+
+#: package/contents/ui/ConfigButtons.qml:41
+#: package/contents/ui/FullRepresentation.qml:764
+#, kde-format
+msgid "Leave"
+msgstr "Salir"
+
+#: package/contents/ui/ConfigButtons.qml:215
+#, kde-format
+msgid "Active Tabs"
+msgstr "Pestañas activas"
+
+#: package/contents/ui/ConfigButtons.qml:221
+#, kde-format
+msgid "Inactive Tabs"
+msgstr "Pestañas inactivas"
+
+#: package/contents/ui/ConfigGeneral.qml:41
+#, kde-format
+msgid "Icon:"
+msgstr "Icono:"
+
+#: package/contents/ui/ConfigGeneral.qml:76
+#, kde-format
+msgctxt "@item:inmenu Open icon chooser dialog"
+msgid "Choose..."
+msgstr "Escoger..."
+
+#: package/contents/ui/ConfigGeneral.qml:81
+#, kde-format
+msgctxt "@item:inmenu Reset icon to default"
+msgid "Clear Icon"
+msgstr "Borrar icono"
+
+#: package/contents/ui/ConfigGeneral.qml:95
+#, kde-format
+msgid "General:"
+msgstr "General:"
+
+#: package/contents/ui/ConfigGeneral.qml:97
+#, kde-format
+msgid "Switch tabs on hover"
+msgstr "Cambiar pestañas al pasar el ratón sobre ellas"
+
+#: package/contents/ui/ConfigGeneral.qml:102
+#, kde-format
+msgid "Show applications by name"
+msgstr "Mostrar aplicaciones por su nombre"
+
+#: package/contents/ui/ConfigGeneral.qml:107
+#, kde-format
+msgid "Expand search to bookmarks, files and emails"
+msgstr "Expandir la búsqueda a marcadores, archivos y correo electrónico"
+
+#: package/contents/ui/ConfigGeneral.qml:112
+#, kde-format
+msgid "Sort alphabetically"
+msgstr "Ordenar alfabéticamente"
+
+#: package/contents/ui/ConfigGeneral.qml:126
+#, kde-format
+msgid ""
+"Drag tabs between the boxes to show/hide them, or reorder the visible tabs "
+"by dragging."
+msgstr ""
+"Arrastre las pestañas entre los cuadros para mostrarlas u ocultarlas, o "
+"cambie el orden de las pestañas visibles arrastrándolas."
+
+#: package/contents/ui/Header.qml:136
+#, kde-format
+msgid "%2@%3 (%1)"
+msgstr "%2@%3 (%1)"
+
+#: package/contents/ui/Header.qml:136
+#, kde-format
+msgid "%1@%2"
+msgstr "%1@%2"
+
+#: package/contents/ui/Header.qml:167
+#, kde-format
+msgid "Search..."
+msgstr "Buscar..."
+
+#: package/contents/ui/Kickoff.qml:145
+#, kde-format
+msgid "Edit Applications..."
+msgstr "Editar aplicaciones..."

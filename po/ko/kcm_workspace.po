@@ -1,0 +1,74 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+# Shinjo Park <kde@peremen.name>, 2009, 2010, 2011, 2012, 2017, 2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"PO-Revision-Date: 2018-08-14 14:14+0100\n"
+"Last-Translator: Shinjo Park <kde@peremen.name>\n"
+"Language-Team: Korean <kde-kr@kde.org>\n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 2.0\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "박신조"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde@peremen.name"
+
+#: package/contents/ui/main.qml:37
+#, kde-format
+msgid "Visual behavior:"
+msgstr "시각 효과:"
+
+#: package/contents/ui/main.qml:38
+#, kde-format
+msgid "Display informational tooltips on mouse hover"
+msgstr "마우스가 지나갈 때 풍선 도움말 표시"
+
+#: package/contents/ui/main.qml:45
+#, kde-format
+msgid "Display visual feedback for status changes"
+msgstr "상태 변경을 화면에 표시"
+
+#: package/contents/ui/main.qml:64
+#, kde-format
+msgid "Click behavior:"
+msgstr "눌렀을 때 동작:"
+
+#: package/contents/ui/main.qml:65
+#, kde-format
+msgid "Single-click to open files and folders"
+msgstr "한 번 눌러서 파일과 폴더 열기"
+
+#: package/contents/ui/main.qml:72
+#, kde-format
+msgid "Double-click to open files and folders (single click to select)"
+msgstr "두 번 눌러서 파일과 폴더 열기(한 번 눌러서 선택)"
+
+#: workspaceoptions.cpp:40
+#, kde-format
+msgid "Plasma Workspace global options"
+msgstr "Plasma 작업 공간 전역 설정"
+
+#: workspaceoptions.cpp:42
+#, kde-format
+msgid ""
+"System Settings module for managing global options for the Plasma Workspace."
+msgstr "Plasma 작업 공간의 전역 설정을 관리하는 시스템 설정 모듈입니다."
+
+#: workspaceoptions.cpp:45
+#, kde-format
+msgid "Furkan Tokac"
+msgstr "Furkan Tokac"

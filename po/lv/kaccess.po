@@ -1,0 +1,507 @@
+# translation of kaccess.po to Latvian
+# translation of kaccess.po to
+# Copyright (C) 2007, 2008 Free Software Foundation, Inc.
+#
+#  Anita Reitere <nita@cc.lv>, 2007.
+# Viesturs Zarins <viesturs.zarins@mii.lu.lv>, 2007, 2008.
+# Viesturs Zariņš <viesturs.zarins@mii.lu.lv>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: kaccess\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"PO-Revision-Date: 2009-11-23 20:15+0200\n"
+"Last-Translator: Viesturs Zariņš <viesturs.zarins@mii.lu.lv>\n"
+"Language-Team: Latvian <locale@laka.lv>\n"
+"Language: lv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.0\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : "
+"2);\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Andris Maziks, Anita Reitere, Viesturs Zariņš"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "andris.m@delfi.lv, nita@cc.lv, viesturs.zarins@mii.lu.lv"
+
+#: kaccess.cpp:77
+#, kde-format
+msgid ""
+"The Shift key has been locked and is now active for all of the following "
+"keypresses."
+msgstr ""
+"Shift taustiņš ir fiksēts un būs aktīvs katru reizi, kad piespiež kādu "
+"taustiņu."
+
+#: kaccess.cpp:78
+#, kde-format
+msgid "The Shift key is now active."
+msgstr "Shift taustiņš tagad ir aktīvs."
+
+#: kaccess.cpp:79
+#, kde-format
+msgid "The Shift key is now inactive."
+msgstr "Shift taustiņš tagad ir neaktīvs."
+
+#: kaccess.cpp:83
+#, kde-format
+msgid ""
+"The Control key has been locked and is now active for all of the following "
+"keypresses."
+msgstr ""
+"Control taustiņš ir fiksēts un būs aktīvs katru reizi, kad piespiež kādu "
+"taustiņu."
+
+#: kaccess.cpp:84
+#, kde-format
+msgid "The Control key is now active."
+msgstr "Control taustiņš tagad ir aktīvs."
+
+#: kaccess.cpp:85
+#, kde-format
+msgid "The Control key is now inactive."
+msgstr "Control taustiņš tagad ir neaktīvs."
+
+#: kaccess.cpp:89
+#, kde-format
+msgid ""
+"The Alt key has been locked and is now active for all of the following "
+"keypresses."
+msgstr ""
+"Alt taustiņš ir fiksēts un būs aktīvs katru reizi, kad piespiež kādu "
+"taustiņu."
+
+#: kaccess.cpp:90
+#, kde-format
+msgid "The Alt key is now active."
+msgstr "Alt taustiņš tagad ir aktīvs."
+
+#: kaccess.cpp:91
+#, kde-format
+msgid "The Alt key is now inactive."
+msgstr "Alt taustiņš tagad ir neaktīvs."
+
+#: kaccess.cpp:95
+#, kde-format
+msgid ""
+"The Win key has been locked and is now active for all of the following "
+"keypresses."
+msgstr ""
+"Win taustiņš ir fiksēts un būs aktīvs katru reizi, kad piespiež kādu "
+"taustiņu."
+
+#: kaccess.cpp:96
+#, kde-format
+msgid "The Win key is now active."
+msgstr "Win taustiņš tagad ir aktīvs."
+
+#: kaccess.cpp:97
+#, kde-format
+msgid "The Win key is now inactive."
+msgstr "Win taustiņš tagad ir neaktīvs."
+
+#: kaccess.cpp:101
+#, kde-format
+msgid ""
+"The Meta key has been locked and is now active for all of the following "
+"keypresses."
+msgstr ""
+"Meta taustiņš ir fiksēts un būs aktīvs katru reizi, kad piespiež kādu "
+"taustiņu."
+
+#: kaccess.cpp:102
+#, kde-format
+msgid "The Meta key is now active."
+msgstr "Meta taustiņš tagad ir aktīvs."
+
+#: kaccess.cpp:103
+#, kde-format
+msgid "The Meta key is now inactive."
+msgstr "Meta taustiņš tagad ir neaktīvs."
+
+#: kaccess.cpp:107
+#, kde-format
+msgid ""
+"The Super key has been locked and is now active for all of the following "
+"keypresses."
+msgstr ""
+"Super taustiņš ir fiksēts un būs aktīvs katru reizi, kad piespiež kādu "
+"taustiņu."
+
+#: kaccess.cpp:108
+#, kde-format
+msgid "The Super key is now active."
+msgstr "Super taustiņš tagad ir aktīvs."
+
+#: kaccess.cpp:109
+#, kde-format
+msgid "The Super key is now inactive."
+msgstr "Super taustiņš tagad ir neaktīvs."
+
+#: kaccess.cpp:113
+#, kde-format
+msgid ""
+"The Hyper key has been locked and is now active for all of the following "
+"keypresses."
+msgstr ""
+"Hyper taustiņš ir fiksēts un būs aktīvs katru reizi, kad piespiež kādu "
+"taustiņu."
+
+#: kaccess.cpp:114
+#, kde-format
+msgid "The Hyper key is now active."
+msgstr "Hyper taustiņš tagad ir aktīvs."
+
+#: kaccess.cpp:115
+#, kde-format
+msgid "The Hyper key is now inactive."
+msgstr "Hyper taustiņš tagad ir neaktīvs."
+
+#: kaccess.cpp:119
+#, kde-format
+msgid ""
+"The Alt Graph key has been locked and is now active for all of the following "
+"keypresses."
+msgstr ""
+"Alt Graph taustiņš ir fiksēts un būs aktīvs katru reizi, kad piespiež kādu "
+"taustiņu."
+
+#: kaccess.cpp:120
+#, kde-format
+msgid "The Alt Graph key is now active."
+msgstr "Alt Graph taustiņš tagad ir aktīvs."
+
+#: kaccess.cpp:121
+#, kde-format
+msgid "The Alt Graph key is now inactive."
+msgstr "Alt Graph taustiņš tagad ir neaktīvs."
+
+#: kaccess.cpp:125
+#, kde-format
+msgid "The Num Lock key has been activated."
+msgstr "Num Lock taustiņš ir aktivizēts."
+
+#: kaccess.cpp:127
+#, kde-format
+msgid "The Num Lock key is now inactive."
+msgstr "Num Lock taustiņš tagad ir neaktīvs."
+
+#: kaccess.cpp:131
+#, kde-format
+msgid "The Caps Lock key has been activated."
+msgstr "Caps Lock taustiņš ir aktivizēts."
+
+#: kaccess.cpp:133
+#, kde-format
+msgid "The Caps Lock key is now inactive."
+msgstr "Caps Lock taustiņš tagad ir neaktīvs."
+
+#: kaccess.cpp:137
+#, kde-format
+msgid "The Scroll Lock key has been activated."
+msgstr "Scroll Lock taustiņš ir aktivizēts."
+
+#: kaccess.cpp:139
+#, kde-format
+msgid "The Scroll Lock key is now inactive."
+msgstr "Scroll Lock taustiņš tagad ir neaktīvs."
+
+#: kaccess.cpp:357
+#, kde-format
+msgid "Toggle Screen Reader On and Off"
+msgstr ""
+
+#: kaccess.cpp:359
+#, fuzzy, kde-format
+#| msgid "KDE Accessibility Tool"
+msgctxt "Name for kaccess shortcuts category"
+msgid "Accessibility"
+msgstr "KDE pieejamības rīks"
+
+#: kaccess.cpp:648
+#, kde-format
+msgid "AltGraph"
+msgstr "AltGraph"
+
+#: kaccess.cpp:650
+#, kde-format
+msgid "Hyper"
+msgstr "Hiper"
+
+#: kaccess.cpp:652
+#, kde-format
+msgid "Super"
+msgstr "Super"
+
+#: kaccess.cpp:654
+#, kde-format
+msgid "Meta"
+msgstr "Meta"
+
+#: kaccess.cpp:671
+#, kde-format
+msgid "Warning"
+msgstr "Brīdinājums"
+
+#: kaccess.cpp:699
+#, kde-format
+msgid "&When a gesture was used:"
+msgstr "&Kad izmantoja žestu:"
+
+#: kaccess.cpp:705
+#, kde-format
+msgid "Change Settings Without Asking"
+msgstr "Mainīt iestatījumus nejautājot."
+
+#: kaccess.cpp:706
+#, kde-format
+msgid "Show This Confirmation Dialog"
+msgstr "Rādīt šo apstiprināšanas dialogu"
+
+#: kaccess.cpp:707
+#, kde-format
+msgid "Deactivate All AccessX Features & Gestures"
+msgstr "Atslēgt visas AccessX iespējas un žestus"
+
+#: kaccess.cpp:753 kaccess.cpp:755
+#, kde-format
+msgid "Slow keys"
+msgstr "Lēnie taustiņi"
+
+#: kaccess.cpp:758 kaccess.cpp:760
+#, kde-format
+msgid "Bounce keys"
+msgstr "Atlecošie taustiņi"
+
+#: kaccess.cpp:763 kaccess.cpp:765
+#, kde-format
+msgid "Sticky keys"
+msgstr "Lipīgie taustiņi"
+
+#: kaccess.cpp:768 kaccess.cpp:770
+#, kde-format
+msgid "Mouse keys"
+msgstr "Peles taustiņi"
+
+#: kaccess.cpp:775
+#, kde-format
+msgid "Do you really want to deactivate \"%1\"?"
+msgstr "Vai tiešām vēlaties atslēgt \"%1\"?"
+
+#: kaccess.cpp:778
+#, kde-format
+msgid "Do you really want to deactivate \"%1\" and \"%2\"?"
+msgstr "Vai tiešām vēlaties atslēgt \"%1\" un \"%2\"?"
+
+#: kaccess.cpp:781
+#, kde-format
+msgid "Do you really want to deactivate \"%1\", \"%2\" and \"%3\"?"
+msgstr "Vai tiešām vēlaties atslēgt \"%1\", \"%2\" un \"%3\"?"
+
+#: kaccess.cpp:785
+#, kde-format
+msgid "Do you really want to deactivate \"%1\", \"%2\", \"%3\" and \"%4\"?"
+msgstr "Vai tiešām vēlaties atslēgt \"%1\", \"%2\", \"%3\" un \"%4\"?"
+
+#: kaccess.cpp:792
+#, kde-format
+msgid "Do you really want to activate \"%1\"?"
+msgstr "Vai tiešām vēlaties aktivizēt \"%1\"?"
+
+#: kaccess.cpp:795
+#, kde-format
+msgid "Do you really want to activate \"%1\" and to deactivate \"%2\"?"
+msgstr "Vai tiešām vēlaties aktivizēt \"%1\" un atslēgt \"%2\"?"
+
+#: kaccess.cpp:798
+#, kde-format
+msgid ""
+"Do you really want to activate \"%1\" and to deactivate \"%2\" and \"%3\"?"
+msgstr "Vai tiešām vēlaties aktivizēt \"%1\" un atslēgt \"%2\"un \"%3\"?"
+
+#: kaccess.cpp:802
+#, kde-format
+msgid ""
+"Do you really want to activate \"%1\" and to deactivate \"%2\", \"%3\" and "
+"\"%4\"?"
+msgstr ""
+"Vai tiešām vēlaties aktivizēt \"%1\" un atslēgt \"%2\", \"%3\" un \"%4\"?"
+
+#: kaccess.cpp:809
+#, kde-format
+msgid "Do you really want to activate \"%1\" and \"%2\"?"
+msgstr "Vai tiešām vēlaties aktivizēt \"%1\" un \"%2\"?"
+
+#: kaccess.cpp:812
+#, kde-format
+msgid ""
+"Do you really want to activate \"%1\" and \"%2\" and to deactivate \"%3\"?"
+msgstr "Vai tiešām vēlaties aktivizēt \"%1\" un \"%2\" un atslēgt \"%3\"?"
+
+#: kaccess.cpp:816
+#, kde-format
+msgid ""
+"Do you really want to activate \"%1\", and \"%2\" and to deactivate \"%3\" "
+"and \"%4\"?"
+msgstr ""
+"Vai tiešām vēlaties aktivizēt \"%1\" un \"%2\" un atslēgt \"%3\" un \"%4\"?"
+
+#: kaccess.cpp:823
+#, kde-format
+msgid "Do you really want to activate \"%1\", \"%2\" and \"%3\"?"
+msgstr "Vai tiešām vēlaties aktivizēt \"%1\", \"%2\" un \"%3\"?"
+
+#: kaccess.cpp:827
+#, kde-format
+msgid ""
+"Do you really want to activate \"%1\", \"%2\" and \"%3\" and to deactivate "
+"\"%4\"?"
+msgstr ""
+"Vai tiešām vēlaties aktivizēt \"%1\", \"%2\" un \"%3\" un atslēgt \"%4\"?"
+
+#: kaccess.cpp:833
+#, kde-format
+msgid "Do you really want to activate \"%1\", \"%2\", \"%3\" and \"%4\"?"
+msgstr "Vai tiešām vēlaties aktivizēt \"%1\", \"%2\", \"%3\" un \"%4\"?"
+
+#: kaccess.cpp:840
+#, kde-format
+msgid "An application has requested to change this setting."
+msgstr "Kāda programma prasa mainīt šo iestatījumu."
+
+#: kaccess.cpp:844
+#, kde-format
+msgid ""
+"You held down the Shift key for 8 seconds or an application has requested to "
+"change this setting."
+msgstr ""
+"Jūs turējāt Shift taustiņu nospiestu 8 sekundes, vai kāda programma prasa "
+"mainīt šo iestatījumu."
+
+#: kaccess.cpp:846
+#, kde-format
+msgid ""
+"You pressed the Shift key 5 consecutive times or an application has "
+"requested to change this setting."
+msgstr ""
+"Jūs nospiedāt Shift taustiņu 5 reizes pēc kārtas, vai kāda programma prasa "
+"mainīt šo iestatījumu."
+
+#: kaccess.cpp:850
+#, kde-format
+msgid "You pressed %1 or an application has requested to change this setting."
+msgstr "Jūs nospiedāt %1, vai kāda programma prasa mainīt šo iestatījumu."
+
+#: kaccess.cpp:855
+#, kde-format
+msgid ""
+"An application has requested to change these settings, or you used a "
+"combination of several keyboard gestures."
+msgstr ""
+"Kāda programma prasa mainīt šos iestatījumus, vai arī jūs izmantojāt vairāku "
+"tastatūras žestu kombināciju."
+
+#: kaccess.cpp:857
+#, kde-format
+msgid "An application has requested to change these settings."
+msgstr "Kāda programma prasa mainīt šos iestatījumus."
+
+#: kaccess.cpp:862
+#, kde-format
+msgid ""
+"These AccessX settings are needed for some users with motion impairments and "
+"can be configured in the KDE System Settings. You can also turn them on and "
+"off with standardized keyboard gestures.\n"
+"\n"
+"If you do not need them, you can select \"Deactivate all AccessX features "
+"and gestures\"."
+msgstr ""
+"Šie AccessX iestatījumi ir vajadzīgi dažiem lietotājiem ar kustību "
+"traucējumiem, un tos var konfigurēt KDE sistēmas iestatījumos. Tos var arī "
+"ieslēgt un izslēgt ar standarta tastatūras žestiem.\n"
+"\n"
+"Ja tie jums nav vajadzīgi, varat izvēlēties \"Atslēgt visas AccessX iespējas "
+"un žestus\"."
+
+#: kaccess.cpp:880
+#, kde-format
+msgid ""
+"Slow keys has been enabled. From now on, you need to press each key for a "
+"certain length of time before it gets accepted."
+msgstr ""
+"Lēnie taustiņi ir ieslēgti. Tagad katrs taustiņš jātur noteiktu laiku, pirms "
+"to reģistrē."
+
+#: kaccess.cpp:882
+#, kde-format
+msgid "Slow keys has been disabled."
+msgstr "Lēnie taustiņi ir atslēgti."
+
+#: kaccess.cpp:885
+#, kde-format
+msgid ""
+"Bounce keys has been enabled. From now on, each key will be blocked for a "
+"certain length of time after it was used."
+msgstr ""
+"Atlecošie taustiņi ir ieslēgti. Tagad katrs taustiņš tiks bloķēts uz "
+"noteiktu laiku pēc lietošanas."
+
+#: kaccess.cpp:887
+#, kde-format
+msgid "Bounce keys has been disabled."
+msgstr "Atlecošie taustiņi ir atslēgti."
+
+#: kaccess.cpp:890
+#, kde-format
+msgid ""
+"Sticky keys has been enabled. From now on, modifier keys will stay latched "
+"after you have released them."
+msgstr ""
+"Lipīgie taustiņi ir ieslēgti. Tagad modificējošie taustiņi paliks fiksēti "
+"pēc to atlaišanas."
+
+#: kaccess.cpp:892
+#, kde-format
+msgid "Sticky keys has been disabled."
+msgstr "Lipīgie taustiņi ir atslēgti."
+
+#: kaccess.cpp:895
+#, kde-format
+msgid ""
+"Mouse keys has been enabled. From now on, you can use the number pad of your "
+"keyboard in order to control the mouse."
+msgstr ""
+"Peles taustiņi ir ieslēgti. Tagad jūs varat izmantot savu cipartastatūru "
+"peles vadīšanai."
+
+#: kaccess.cpp:897
+#, kde-format
+msgid "Mouse keys has been disabled."
+msgstr "Peles taustiņi ir atslēgti"
+
+#: main.cpp:55
+#, kde-format
+msgid "KDE Accessibility Tool"
+msgstr "KDE pieejamības rīks"
+
+#: main.cpp:57
+#, kde-format
+msgid "(c) 2000, Matthias Hoelzer-Kluepfel"
+msgstr "(c) 2000, Matthias Hoelzer-Kluepfel"
+
+#: main.cpp:59
+#, kde-format
+msgid "Matthias Hoelzer-Kluepfel"
+msgstr "Matthias Hoelzer-Kluepfel"
+
+#: main.cpp:59
+#, kde-format
+msgid "Author"
+msgstr "Autors"

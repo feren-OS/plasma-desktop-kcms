@@ -1,0 +1,80 @@
+# Translation of kcm_workspace.po to Euskara/Basque (eu).
+# Copyright (C) 2018, Free Software Foundation.
+# Copyright (C) 2019, This file is copyright:
+# This file is distributed under the same license as plasma-desktop package.
+# KDE euskaratzeko proiektuaren arduraduna <xalba@euskalnet.net>.
+#
+# Translators:
+# Iñigo Salvador Azurmendi <xalba@euskalnet.net>, 2018.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcm_workspace\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"PO-Revision-Date: 2018-06-21 23:06+0100\n"
+"Last-Translator: Iñigo Salvador Azurmendi <xalba@euskalnet.net>\n"
+"Language-Team: Basque <kde-i18n-eu@kde.org>\n"
+"Language: eu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 2.0\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Iñigo Salvador Azurmendi"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "xalba@euskalnet.net"
+
+#: package/contents/ui/main.qml:37
+#, kde-format
+msgid "Visual behavior:"
+msgstr "Ikuste-jokabidea:"
+
+#: package/contents/ui/main.qml:38
+#, kde-format
+msgid "Display informational tooltips on mouse hover"
+msgstr "Bistaratu informatzeko argibideak sagua gainetik igarotzean"
+
+#: package/contents/ui/main.qml:45
+#, kde-format
+msgid "Display visual feedback for status changes"
+msgstr "Bistaratu egoera aldaketen ikuste-berrelikadura"
+
+#: package/contents/ui/main.qml:64
+#, kde-format
+msgid "Click behavior:"
+msgstr "Klik-jokabidea:"
+
+#: package/contents/ui/main.qml:65
+#, kde-format
+msgid "Single-click to open files and folders"
+msgstr "Klik bakuna fitxategiak eta karpetak irekitzeko"
+
+#: package/contents/ui/main.qml:72
+#, kde-format
+msgid "Double-click to open files and folders (single click to select)"
+msgstr ""
+"Klik bikoitza fitxategiak eta karpetak irekitzeko (klik bakuna hautatzeko)"
+
+#: workspaceoptions.cpp:40
+#, kde-format
+msgid "Plasma Workspace global options"
+msgstr "Plasma langunearen aukera orokorrak"
+
+#: workspaceoptions.cpp:42
+#, kde-format
+msgid ""
+"System Settings module for managing global options for the Plasma Workspace."
+msgstr ""
+"Sistemaren ezarpen modulua, Plasma langunearen aukera orokorrak kudeatzeko."
+
+#: workspaceoptions.cpp:45
+#, kde-format
+msgid "Furkan Tokac"
+msgstr "Furkan Tokac"

@@ -1,0 +1,259 @@
+# Translation of kcm5_phonon to Norwegian Bokmål
+#
+# Bjørn Steensrud <bjornst@skogkatt.homelinux.org>, 2007, 2008, 2010, 2011, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcm_phonon\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"PO-Revision-Date: 2012-03-10 17:00+0100\n"
+"Last-Translator: Bjørn Steensrud <bjornst@skogkatt.homelinux.org>\n"
+"Language-Team: Norwegian Bokmål <i18n-nb@lister.ping.uio.no>\n"
+"Language: nb\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.2\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Environment: kde\n"
+"X-Accelerator-Marker: &\n"
+"X-Text-Markup: kde4\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Bjørn Steensrud"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "bjornst@skogkatt.homelinux.org"
+
+#: backendselection.cpp:74
+#, kde-format
+msgctxt "@info User changed Phonon backend"
+msgid "To apply the backend change you will have to log out and back in again."
+msgstr ""
+"For å ta i bruk endring av bakgrunnsmotor må du logge ut og logge inn igjen."
+
+#. i18n: ectx: property (toolTip), widget (QListWidget, m_select)
+#. i18n: ectx: property (whatsThis), widget (QListWidget, m_select)
+#: backendselection.ui:38 backendselection.ui:41
+#, kde-format
+msgid ""
+"A list of Phonon Backends found on your system.  The order here determines "
+"the order Phonon will use them in."
+msgstr ""
+"En liste over bakstykker for Phonon som finnes på systemet. Rekkefølgen her "
+"viser rekkefølgen Phonon vil bruke dem."
+
+#. i18n: ectx: property (text), widget (QToolButton, m_up)
+#. i18n: ectx: property (text), widget (QToolButton, preferButton)
+#: backendselection.ui:57 devicepreference.ui:190
+#, kde-format
+msgid "Prefer"
+msgstr "Foretrekk"
+
+#. i18n: ectx: property (text), widget (QToolButton, m_down)
+#. i18n: ectx: property (text), widget (QToolButton, deferButton)
+#: backendselection.ui:70 devicepreference.ui:206
+#, kde-format
+msgid "Defer"
+msgstr "Utsett"
+
+#: devicepreference.cpp:92
+#, kde-format
+msgid "Audio Playback"
+msgstr "Lydavspilling"
+
+#: devicepreference.cpp:106
+#, kde-format
+msgid "Audio Recording"
+msgstr "Lydopptak"
+
+#: devicepreference.cpp:109
+#, kde-format
+msgid "Video Recording"
+msgstr "Videoopptak"
+
+#: devicepreference.cpp:112
+#, kde-format
+msgid "Invalid"
+msgstr "Ugyldig"
+
+#: devicepreference.cpp:152
+#, kde-format
+msgid "Test the selected device"
+msgstr "Test den valgte enheten"
+
+#: devicepreference.cpp:176 devicepreference.cpp:183 devicepreference.cpp:190
+#, kde-format
+msgid ""
+"Defines the default ordering of devices which can be overridden by "
+"individual categories."
+msgstr ""
+"Definerer standard rekkefølge for enheter som kan overstyres av individuelle "
+"kategorier."
+
+#: devicepreference.cpp:306
+#, kde-format
+msgid "Default Audio Playback Device Preference"
+msgstr "Innstilling for standard lydavspillingsenhet"
+
+#: devicepreference.cpp:309
+#, kde-format
+msgid "Default Audio Recording Device Preference"
+msgstr "Innstilling for standard lydopptaksenhet"
+
+#: devicepreference.cpp:312
+#, kde-format
+msgid "Default Video Recording Device Preference"
+msgstr "Innstilling for standard video-opptaksenhet"
+
+#: devicepreference.cpp:319
+#, kde-format
+msgid "Audio Playback Device Preference for the '%1' Category"
+msgstr "Foretrukket lydavspillingsenhet for kategori «%1»"
+
+#: devicepreference.cpp:323
+#, kde-format
+msgid "Audio Recording Device Preference for the '%1' Category"
+msgstr "Foretrukket lydopptaksenhet for kategori «%1»"
+
+#: devicepreference.cpp:327
+#, kde-format
+msgid "Video Recording Device Preference for the '%1' Category "
+msgstr "Foretrukket videoopptaksenhet for kategori «%1» "
+
+#: devicepreference.cpp:752
+#, kde-format
+msgid ""
+"Apply the currently shown device preference list to the following other "
+"audio playback categories:"
+msgstr ""
+"Bruk den preferanselista som vises nå på følgende andre "
+"lydavspillingskategorier:"
+
+#: devicepreference.cpp:765 devicepreference.cpp:771
+#, kde-format
+msgid "Default/Unspecified Category"
+msgstr "Standard/uspesifisert kategori"
+
+#: devicepreference.cpp:869
+#, kde-format
+msgid "Failed to set the selected audio output device"
+msgstr "Klarte ikke å angi den valgte lydutgangsenheten"
+
+#: devicepreference.cpp:899
+#, kde-format
+msgid "Your backend may not support audio recording"
+msgstr "Bakgrunnsmotoren din støtter kanskje ikke lydopptak"
+
+#: devicepreference.cpp:920
+#, kde-format
+msgid "Your backend may not support video recording"
+msgstr "Bakgrunnsmotoren din støtter kanskje ikke video-opptak"
+
+#: devicepreference.cpp:930
+#, kde-format
+msgid "Testing %1"
+msgstr "Tester %1"
+
+#. i18n: ectx: property (toolTip), widget (QTreeView, categoryTree)
+#. i18n: ectx: property (whatsThis), widget (QTreeView, categoryTree)
+#: devicepreference.ui:29 devicepreference.ui:32
+#, kde-format
+msgid ""
+"Various categories of media use cases.  For each category, you may choose "
+"what device you prefer to be used by the Phonon applications."
+msgstr ""
+"Forskjellige kategorier media-bruk. For hver kategori kan det velges hvilken "
+"enhet du foretrekker at Phonon-programmene bruker."
+
+#. i18n: ectx: property (text), widget (QCheckBox, showAdvancedDevicesCheckBox)
+#: devicepreference.ui:47
+#, kde-format
+msgid "Show advanced devices"
+msgstr "Vis avanserte enheter"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, applyPreferencesButton)
+#. i18n: ectx: property (whatsThis), widget (QPushButton, applyPreferencesButton)
+#: devicepreference.ui:77 devicepreference.ui:80
+#, kde-format
+msgid "Use the currently shown device list for more categories."
+msgstr "Bruk den enhetslista som vises nå for flere kategorier."
+
+#. i18n: ectx: property (text), widget (QPushButton, applyPreferencesButton)
+#: devicepreference.ui:83
+#, kde-format
+msgid "Apply Device List To..."
+msgstr "Bruk enhetslista på …"
+
+#. i18n: ectx: property (toolTip), widget (QTreeView, deviceList)
+#: devicepreference.ui:113
+#, kde-format
+msgid ""
+"Devices found on your system, suitable for the selected category.  Choose "
+"the device that you wish to be used by the applications."
+msgstr ""
+"Enheter som passer den valgte kategorien funnet på systemet ditt. Velg enhet "
+"som du vil at programmene skal bruke."
+
+#. i18n: ectx: property (whatsThis), widget (QTreeView, deviceList)
+#: devicepreference.ui:116
+#, kde-format
+msgid ""
+"The order determines the preference of the devices. If for some reason the "
+"first device cannot be used Phonon will try to use the second, and so on."
+msgstr ""
+"Rekkefølgen bestemmer innstillinga for enhetene. Hvis den første enheten av "
+"en eller annen grunn ikke kan brukes, så forsøker Phonon å bruke den neste, "
+"osv."
+
+#. i18n: ectx: property (text), widget (QToolButton, testPlaybackButton)
+#: devicepreference.ui:171
+#, kde-format
+msgid "Test"
+msgstr "Test"
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, preferButton)
+#: devicepreference.ui:187
+#, kde-format
+msgid "prefer the selected device"
+msgstr "foretrekk den valgte enheten"
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, deferButton)
+#: devicepreference.ui:203
+#, kde-format
+msgid "no preference for the selected device"
+msgstr "ingen innstilling for den valgte enheten"
+
+#: main.cpp:40
+#, kde-format
+msgid "Phonon Configuration Module"
+msgstr "Oppsettsmodul for Phonon"
+
+#: main.cpp:42
+#, kde-format
+msgid "Copyright 2006 Matthias Kretz"
+msgstr "Copyright 2006 Matthias Kretz"
+
+#: main.cpp:43
+#, kde-format
+msgid "Matthias Kretz"
+msgstr "Matthias Kretz"
+
+#: main.cpp:44
+#, kde-format
+msgid "Colin Guthrie"
+msgstr "Colin Guthrie"
+
+#: main.cpp:55
+#, kde-format
+msgid "Device Preference"
+msgstr "Enhetsinnstilling"
+
+#: main.cpp:57
+#, kde-format
+msgid "Backend"
+msgstr "Bakstykke"

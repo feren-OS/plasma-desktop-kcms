@@ -1,0 +1,225 @@
+# translation of kcmkeys.po to Arabic
+# translation of kcmkeys.po to
+# Copyright (C) 2001,2002, 2004, 2006, 2007, 2008 Free Software Foundation, Inc.
+# Isam Bayazidi <bayazidi@arabeyes.org>, 2001,2002.
+# Ammar Tabbaa <atabba@kacst.edu.sa>, 2004.
+# محمد سعد  Mohamed SAAD <metehyi@free.fr>, 2006.
+# AbdulAziz AlSharif <a.a-a.s@hotmail.com>, 2007.
+# Youssef Chahibi <chahibi@gmail.com>, 2007.
+# zayed <zayed.alsaidi@gmail.com>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmkeys\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"PO-Revision-Date: 2008-11-29 11:14+0400\n"
+"Last-Translator: zayed <zayed.alsaidi@gmail.com>\n"
+"Language-Team: Arabic <linuxac-kde-arabic-team@googlegroups.com>\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#. i18n: ectx: property (text), widget (QLabel, components_label)
+#: export_scheme_dialog.ui:17
+#, kde-format
+msgid "Select the Components to Export"
+msgstr "اختر المكون لتصديره"
+
+#. i18n: ectx: property (title), widget (QGroupBox, components)
+#: export_scheme_dialog.ui:27
+#, kde-format
+msgid "Components"
+msgstr "المكونات"
+
+#: globalshortcuts.cpp:67
+#, kde-format
+msgid "You are about to reset all shortcuts to their default values."
+msgstr "أنت على وشك استرجاع جميع الاختصارات إلى قيمها الافتراضية."
+
+#: globalshortcuts.cpp:68
+#, kde-format
+msgid "Reset to defaults"
+msgstr "استرجع للافتراضيات"
+
+#: globalshortcuts.cpp:69
+#, kde-format
+msgid "Current Component"
+msgstr "المكون الحالي"
+
+#: globalshortcuts.cpp:70
+#, kde-format
+msgid "All Components"
+msgstr "جميع المكونات"
+
+#: kglobalshortcutseditor.cpp:231
+#, kde-format
+msgid "Import Scheme..."
+msgstr "استورد مخطط..."
+
+#: kglobalshortcutseditor.cpp:232
+#, kde-format
+msgid "Export Scheme..."
+msgstr "صدر مخطط..."
+
+#: kglobalshortcutseditor.cpp:233
+#, kde-format
+msgid "Set All Shortcuts to None"
+msgstr "ضع جميع الاختصارت إلى بدون"
+
+#: kglobalshortcutseditor.cpp:241
+#, kde-format
+msgid "Applications"
+msgstr ""
+
+#: kglobalshortcutseditor.cpp:292
+#, kde-format
+msgid "Launch %1"
+msgstr ""
+
+#: kglobalshortcutseditor.cpp:328
+#, kde-format
+msgid ""
+"Component '%1' is currently active. Only global shortcuts currently not "
+"active will be removed from the list.\n"
+"All global shortcuts will reregister themselves with their defaults when "
+"they are next started."
+msgstr ""
+"المكون '%1' حاليا نشط ، فقط الاختصارات العامة غير نشطة ستزال من القائمة. \n"
+"جميع الاختصارات العامة ستسجل نفسها بقيمها الافتراضية عندما يبدأن في المرة "
+"القادمة ."
+
+#: kglobalshortcutseditor.cpp:330 kglobalshortcutseditor.cpp:340
+#, kde-format
+msgid "Remove component"
+msgstr "أزل مكون"
+
+#: kglobalshortcutseditor.cpp:336
+#, kde-format
+msgid ""
+"Are you sure you want to remove the registered shortcuts for component '%1'? "
+"The component and shortcuts will reregister themselves with their default "
+"settings when they are next started."
+msgstr ""
+"هل أنت متأكد أنك تريد إزالة الاختصارات المسجلة للمكون '%1' ؟ المكون و "
+"الاختصارات سيسجلن أنفسهن بقيمهن الافتراضية في المرة القادمة التي سيبدأن فيها."
+
+#: kglobalshortcutseditor.cpp:450
+#, kde-format
+msgid "Application Launchers"
+msgstr ""
+
+#: kglobalshortcutseditor.cpp:453
+#, fuzzy, kde-format
+#| msgid "Shortcuts:"
+msgid "Other Shortcuts"
+msgstr "الاختصارات:"
+
+#: kglobalshortcutseditor.cpp:558
+#, kde-format
+msgid ""
+"Your current changes will be lost if you load another scheme before saving "
+"this one"
+msgstr "تغييراتك ستفقد إذا قمت بتحميل مخطط آخر قبل حفظ هذا."
+
+#: kglobalshortcutseditor.cpp:559
+#, kde-format
+msgid "Load Shortcut Scheme"
+msgstr "حمل مخطط الاختصارات"
+
+#: kglobalshortcutseditor.cpp:560
+#, kde-format
+msgid "Load"
+msgstr "حمل"
+
+#: kglobalshortcutseditor.cpp:573
+#, kde-format
+msgid "This file (%1) does not exist. You can only select local files."
+msgstr "هذا الملف (%1) غير موجود. يمكنك اختراء ملفات محلية فقط."
+
+#: kglobalshortcutseditor.cpp:601 kglobalshortcutseditor.cpp:624
+#, kde-format
+msgid ""
+"Message: %1\n"
+"Error: %2"
+msgstr ""
+"الرسالة: %1\n"
+"الخطأ: %2"
+
+#: kglobalshortcutseditor.cpp:606 kglobalshortcutseditor.cpp:629
+#, kde-format
+msgid "Failed to contact the KDE global shortcuts daemon\n"
+msgstr "فشل الإتصال بمراقب الاختصارات العامة لكدي\n"
+
+#. i18n: ectx: property (text), widget (QLabel, componentLabel)
+#: kglobalshortcutseditor.ui:37
+#, fuzzy, kde-format
+#| msgid "Components"
+msgid "Component:"
+msgstr "المكونات"
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, addButton)
+#: kglobalshortcutseditor.ui:77
+#, kde-format
+msgid "Add a new shortcut to an Application..."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QToolButton, addButton)
+#. i18n: ectx: property (text), widget (QToolButton, removeButton)
+#: kglobalshortcutseditor.ui:80 kglobalshortcutseditor.ui:90
+#, kde-format
+msgid "..."
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, removeButton)
+#: kglobalshortcutseditor.ui:87
+#, fuzzy, kde-format
+#| msgid "Remove component"
+msgid "Remove the selected component"
+msgstr "أزل مكون"
+
+#. i18n: ectx: property (text), widget (QPushButton, menu_button)
+#: kglobalshortcutseditor.ui:110
+#, kde-format
+msgid "File"
+msgstr "ملف"
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, SelectApplicationDialog)
+#: select_application.ui:14
+#, kde-format
+msgid "Select Application"
+msgstr ""
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, SelectSchemeDialog)
+#. i18n: ectx: property (placeholderText), widget (KUrlRequester, m_url)
+#: select_scheme_dialog.ui:15 select_scheme_dialog.ui:123
+#, kde-format
+msgid "Select Shortcut Scheme"
+msgstr "اختر مخطط الاختصار"
+
+#. i18n: ectx: property (whatsThis), widget (QLabel, label)
+#: select_scheme_dialog.ui:39
+#, kde-format
+msgid "Select one of the standard KDE shortcut schemes"
+msgstr "اختر أحد مخططات اختصارات كدي القياسية"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: select_scheme_dialog.ui:42
+#, kde-format
+msgid "&Standard scheme:"
+msgstr "مخطط &قياسي:"
+
+#. i18n: ectx: property (whatsThis), widget (QLabel, label_2)
+#: select_scheme_dialog.ui:92
+#, kde-format
+msgid "Select a shortcut scheme file"
+msgstr "اختر ملف مخطط اختصارات"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: select_scheme_dialog.ui:95
+#, kde-format
+msgid "&Path:"
+msgstr "ال&مسار:"

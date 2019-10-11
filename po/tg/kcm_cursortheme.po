@@ -1,0 +1,189 @@
+# translation of kcminput.po to Tajik
+# translation of kcminput.po to Тоҷикӣ
+# Copyright (C) 2003,2004 Free Software Foundation, Inc.
+# 2004, infoDev, a World Bank organization
+# 2004, Khujand Computer Technologies, Inc.
+# 2004, KCT1, NGO
+# Akmal Salomov <youth_opportunities@tajik.net>, 2004
+# Victor Ibragimov <youth_opportunities@tajik.net>, 2004
+# Dilshod Marupov <dma165@hotmail.com>, 2003, 2004
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kcminput\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"PO-Revision-Date: 2010-01-29 22:17+0500\n"
+"Last-Translator: Victor Ibragimov <victor.ibragimov@gmail.com>\n"
+"Language-Team: Tajik\n"
+"Language: tg\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.0.1\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Victor Ibragimov"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "victor.ibragimov@gmail.com"
+
+#: kcmcursortheme.cpp:74
+#, fuzzy, kde-format
+#| msgid "&Cursor Theme"
+msgid "Cursors"
+msgstr "Мавзӯъи &Нишоннамо"
+
+#: kcmcursortheme.cpp:75
+#, kde-format
+msgid "(c) 2003-2007 Fredrik Höglund"
+msgstr ""
+
+#: kcmcursortheme.cpp:76
+#, kde-format
+msgid "Fredrik Höglund"
+msgstr ""
+
+#: kcmcursortheme.cpp:77
+#, kde-format
+msgid "Marco Martin"
+msgstr ""
+
+#: kcmcursortheme.cpp:244
+#, kde-format
+msgctxt "@item:inlistbox size"
+msgid "Resolution dependent"
+msgstr ""
+
+#: kcmcursortheme.cpp:376
+#, fuzzy, kde-format
+#| msgid "You have to restart KDE for these changes to take effect."
+msgid ""
+"You have to restart the Plasma session for these changes to take effect."
+msgstr ""
+"Барои он ки ин тағиротҳо натиҷа диҳанд, шумо баяд KDE-ро аз нав оғозёбед."
+
+#: kcmcursortheme.cpp:511
+#, kde-format
+msgid "Unable to create a temporary file."
+msgstr ""
+
+#: kcmcursortheme.cpp:523
+#, fuzzy, kde-format
+#| msgid "Unable to find the cursor theme archive %1."
+msgid "Unable to download the icon theme archive: %1"
+msgstr "Не удаётся найти архив темы курсоров %1."
+
+#: kcmcursortheme.cpp:554
+#, fuzzy, kde-format
+#| msgid "The file %1 does not appear to be a valid cursor theme archive."
+msgid "The file is not a valid icon theme archive."
+msgstr "Файли %1 ҳамчун нишоннамои дурусти бойгонии мавзӯъҳо наменамояд."
+
+#: kcmcursortheme.cpp:561
+#, kde-format
+msgid "Failed to create 'icons' folder."
+msgstr ""
+
+#: kcmcursortheme.cpp:569
+#, kde-format
+msgid ""
+"A theme named %1 already exists in your icon theme folder. Do you want "
+"replace it with this one?"
+msgstr ""
+"Файл бо номи %1 аллакай дар феҳристи мавзӯъҳои тасвирӣ мавҷуд аст. Оё "
+"мехоҳед, ки онро бо яке аз инҳо ҷойиваз кунед?"
+
+#: kcmcursortheme.cpp:573
+#, kde-format
+msgid "Overwrite Theme?"
+msgstr "Перезаписать тему?"
+
+#: kcmcursortheme.cpp:599
+#, kde-format
+msgid "Theme installed successfully."
+msgstr ""
+
+#: kcmcursortheme.cpp:615
+#, kde-format
+msgid ""
+"<qt>You cannot delete the theme you are currently using.<br />You have to "
+"switch to another theme first.</qt>"
+msgstr ""
+"<qt>Вы не можете удалить эту тему, потому что она сейчас используется.<br /"
+">Сначала необходимо переключиться на другую тему.</qt>"
+
+#: kcmcursortheme.cpp:621
+#, kde-format
+msgid ""
+"<qt>Are you sure you want to remove the <i>%1</i> cursor theme?<br />This "
+"will delete all the files installed by this theme.</qt>"
+msgstr ""
+"<qt>Вы действительно хотите удалить тему курсоров<i>%1</i>? <br />Все файлы, "
+"установленные этой темой, будут удалены.</qt>"
+
+#: kcmcursortheme.cpp:627
+#, kde-format
+msgid "Confirmation"
+msgstr "Мувофиқаткунӣ"
+
+#: package/contents/ui/Delegate.qml:57
+#, kde-format
+msgid "Remove Theme"
+msgstr "Хориҷкунии Мавзӯъ"
+
+#: package/contents/ui/main.qml:31
+#, kde-format
+msgid "This module lets you choose the mouse cursor theme."
+msgstr ""
+
+#: package/contents/ui/main.qml:98
+#, kde-format
+msgid "Size:"
+msgstr ""
+
+#: package/contents/ui/main.qml:146
+#, fuzzy, kde-format
+#| msgid "Install New Theme..."
+msgid "&Install from File..."
+msgstr "Коргузории Мавзӯи Нав..."
+
+#: package/contents/ui/main.qml:152
+#, fuzzy, kde-format
+#| msgid "Install New Theme..."
+msgid "&Get New Cursors..."
+msgstr "Коргузории Мавзӯи Нав..."
+
+#: package/contents/ui/main.qml:174
+#, fuzzy, kde-format
+#| msgid "Remove Theme"
+msgid "Open Theme"
+msgstr "Хориҷкунии Мавзӯъ"
+
+#: package/contents/ui/main.qml:176
+#, kde-format
+msgid "Cursor Theme Files (*.tar.gz *.tar.bz2)"
+msgstr ""
+
+#: xcursor/thememodel.cpp:83
+#, kde-format
+msgid "Name"
+msgstr "Ном"
+
+#: xcursor/thememodel.cpp:86
+#, kde-format
+msgid "Description"
+msgstr "Тасвир"
+
+#: xcursor/xcursortheme.cpp:74
+#, kde-format
+msgctxt ""
+"@info The argument is the list of available sizes (in pixel). Example: "
+"'Available sizes: 24' or 'Available sizes: 24, 36, 48'"
+msgid "(Available sizes: %1)"
+msgstr ""

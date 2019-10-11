@@ -1,0 +1,215 @@
+# translation of kcmkeys.po to Punjabi
+# Amanpreet Singh Alam <aalam@redhat.com>, 2004, 2005.
+# Amanpreet Singh Brar <aalam@redhat.com>, 2005.
+# A S Alam <aalam@users.sf.net>, 2007, 2008, 2009, 2010.
+# Amanpreet Singh Alam <aalam@users.sf.net>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmkeys\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"PO-Revision-Date: 2010-06-27 08:54+0530\n"
+"Last-Translator: A S Alam <aalam@users.sf.net>\n"
+"Language-Team: Punjabi/Panjabi <punjabi-users@lists.sf.net>\n"
+"Language: pa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.0\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#. i18n: ectx: property (text), widget (QLabel, components_label)
+#: export_scheme_dialog.ui:17
+#, kde-format
+msgid "Select the Components to Export"
+msgstr "ਐਕਸਪੋਰਟ ਕਰਨ ਲਈ ਭਾਗ ਚੁਣੋ"
+
+#. i18n: ectx: property (title), widget (QGroupBox, components)
+#: export_scheme_dialog.ui:27
+#, kde-format
+msgid "Components"
+msgstr "ਭਾਗ"
+
+#: globalshortcuts.cpp:67
+#, kde-format
+msgid "You are about to reset all shortcuts to their default values."
+msgstr "ਤੁਸੀਂ ਸਭ ਸ਼ਾਰਟਕੱਟ ਨੂੰ ਉਹਨਾਂ ਦੇ ਡਿਫਾਲਟ ਮੁੱਲ ਲਈ ਮੁੜ-ਸੈੱਟ ਕਰਨ ਜਾ ਰਹੇ ਹੈ।"
+
+#: globalshortcuts.cpp:68
+#, kde-format
+msgid "Reset to defaults"
+msgstr "ਡਿਫਾਲਟ ਲਈ ਰੀ-ਸੈੱਟ"
+
+#: globalshortcuts.cpp:69
+#, kde-format
+msgid "Current Component"
+msgstr "ਮੌਜੂਦਾ ਭਾਗ"
+
+#: globalshortcuts.cpp:70
+#, kde-format
+msgid "All Components"
+msgstr "ਸਭ ਭਾਗ"
+
+#: kglobalshortcutseditor.cpp:231
+#, kde-format
+msgid "Import Scheme..."
+msgstr "ਸਕੀਮ ਇੰਪੋਰਟ..."
+
+#: kglobalshortcutseditor.cpp:232
+#, kde-format
+msgid "Export Scheme..."
+msgstr "ਸਕੀਮ ਐਕਸਪੋਰਟ..."
+
+#: kglobalshortcutseditor.cpp:233
+#, kde-format
+msgid "Set All Shortcuts to None"
+msgstr "ਸਭ ਸ਼ਾਰਟਕੱਟ ਕੋਈ ਨਹੀਂ ਸੈੱਟ ਕਰੋ"
+
+#: kglobalshortcutseditor.cpp:241
+#, kde-format
+msgid "Applications"
+msgstr ""
+
+#: kglobalshortcutseditor.cpp:292
+#, kde-format
+msgid "Launch %1"
+msgstr ""
+
+#: kglobalshortcutseditor.cpp:328
+#, kde-format
+msgid ""
+"Component '%1' is currently active. Only global shortcuts currently not "
+"active will be removed from the list.\n"
+"All global shortcuts will reregister themselves with their defaults when "
+"they are next started."
+msgstr ""
+
+#: kglobalshortcutseditor.cpp:330 kglobalshortcutseditor.cpp:340
+#, kde-format
+msgid "Remove component"
+msgstr "ਭਾਗ ਹਟਾਓ"
+
+#: kglobalshortcutseditor.cpp:336
+#, kde-format
+msgid ""
+"Are you sure you want to remove the registered shortcuts for component '%1'? "
+"The component and shortcuts will reregister themselves with their default "
+"settings when they are next started."
+msgstr ""
+
+#: kglobalshortcutseditor.cpp:450
+#, kde-format
+msgid "Application Launchers"
+msgstr ""
+
+#: kglobalshortcutseditor.cpp:453
+#, fuzzy, kde-format
+#| msgid "Shortcuts:"
+msgid "Other Shortcuts"
+msgstr "ਸ਼ਾਰਟਕੱਟ:"
+
+#: kglobalshortcutseditor.cpp:558
+#, kde-format
+msgid ""
+"Your current changes will be lost if you load another scheme before saving "
+"this one"
+msgstr "ਤੁਹਾਡੀਆਂ ਮੌਜੂਦਾ ਸਕੀਮ ਗੁਆਚ ਜਾਵੇਗੀ, ਜੇਕਰ ਤੁਸੀਂ ਹੋਰ ਸਕੀਮ ਸੰਭਾਲਣ ਤੋਂ ਪਹਿਲਾਂ ਲੋਡ ਕਰ ਲਈ"
+
+#: kglobalshortcutseditor.cpp:559
+#, kde-format
+msgid "Load Shortcut Scheme"
+msgstr "ਸ਼ਾਰਟਕੱਟ ਸਕੀਮ ਲੋਡ ਕਰੋ"
+
+#: kglobalshortcutseditor.cpp:560
+#, kde-format
+msgid "Load"
+msgstr "ਲੋਡ ਕਰੋ"
+
+#: kglobalshortcutseditor.cpp:573
+#, kde-format
+msgid "This file (%1) does not exist. You can only select local files."
+msgstr "ਇਹ ਫਾਈਲ (%1) ਮੌਜੂਦ ਨਹੀਂ ਹੈ। ਤੁਸੀਂ ਕੇਵਲ ਲੋਕਲ ਫਾਈਲਾਂ ਹੀ ਚੁਣ ਸਕਦੇ ਹੋ।"
+
+#: kglobalshortcutseditor.cpp:601 kglobalshortcutseditor.cpp:624
+#, kde-format
+msgid ""
+"Message: %1\n"
+"Error: %2"
+msgstr ""
+"ਸੁਨੇਹਾ: %1\n"
+"ਗਲਤੀ: %2"
+
+#: kglobalshortcutseditor.cpp:606 kglobalshortcutseditor.cpp:629
+#, kde-format
+msgid "Failed to contact the KDE global shortcuts daemon\n"
+msgstr "KDE ਗਲੋਬਲ ਸ਼ਾਰਟਕੱਟ ਡੈਮਨ ਨਾਲ ਸੰਪਰਕ ਫੇਲ੍ਹ\n"
+
+#. i18n: ectx: property (text), widget (QLabel, componentLabel)
+#: kglobalshortcutseditor.ui:37
+#, fuzzy, kde-format
+#| msgid "Components"
+msgid "Component:"
+msgstr "ਭਾਗ"
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, addButton)
+#: kglobalshortcutseditor.ui:77
+#, kde-format
+msgid "Add a new shortcut to an Application..."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QToolButton, addButton)
+#. i18n: ectx: property (text), widget (QToolButton, removeButton)
+#: kglobalshortcutseditor.ui:80 kglobalshortcutseditor.ui:90
+#, kde-format
+msgid "..."
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, removeButton)
+#: kglobalshortcutseditor.ui:87
+#, fuzzy, kde-format
+#| msgid "Remove component"
+msgid "Remove the selected component"
+msgstr "ਭਾਗ ਹਟਾਓ"
+
+#. i18n: ectx: property (text), widget (QPushButton, menu_button)
+#: kglobalshortcutseditor.ui:110
+#, kde-format
+msgid "File"
+msgstr "ਫਾਈਲ"
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, SelectApplicationDialog)
+#: select_application.ui:14
+#, kde-format
+msgid "Select Application"
+msgstr ""
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, SelectSchemeDialog)
+#. i18n: ectx: property (placeholderText), widget (KUrlRequester, m_url)
+#: select_scheme_dialog.ui:15 select_scheme_dialog.ui:123
+#, kde-format
+msgid "Select Shortcut Scheme"
+msgstr "ਸ਼ਾਰਟਕੱਟ ਸਕੀਮ ਚੁਣੋ"
+
+#. i18n: ectx: property (whatsThis), widget (QLabel, label)
+#: select_scheme_dialog.ui:39
+#, kde-format
+msgid "Select one of the standard KDE shortcut schemes"
+msgstr "ਸਟੈਂਡਰਡ ਕੇਡੀਈ ਸ਼ਾਰਟਕੱਟ ਸਕੀਮ ਵਿੱਚੋਂ ਇੱਕ ਚੁਣੋ"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: select_scheme_dialog.ui:42
+#, kde-format
+msgid "&Standard scheme:"
+msgstr "ਸਟੈਂਡਰਡ ਸਕੀਮ (&S)"
+
+#. i18n: ectx: property (whatsThis), widget (QLabel, label_2)
+#: select_scheme_dialog.ui:92
+#, kde-format
+msgid "Select a shortcut scheme file"
+msgstr "ਇੱਕ ਸ਼ਾਰਟਕੱਟ ਸਕੀਮ ਫਾਈਲ ਚੁਣੋ"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: select_scheme_dialog.ui:95
+#, kde-format
+msgid "&Path:"
+msgstr "ਪਾਥ(&P):"

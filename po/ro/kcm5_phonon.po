@@ -1,0 +1,263 @@
+# Traducerea kcm_phonon.po în Română
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Sergiu Bivol <sergiu@ase.md>, 2008, 2009, 2010, 2011.
+# Sergiu Bivol <sergiu.bivol@jurnaltv.md>, 2010.
+# Cristian Oneț <onet.cristian@gmail.com>, 2011, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcm_phonon\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"PO-Revision-Date: 2012-04-09 19:27+0300\n"
+"Last-Translator: Cristian Oneț <onet.cristian@gmail.com>\n"
+"Language-Team: Romanian <kde-i18n-ro@kde.org>\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.4\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
+"20)) ? 1 : 2;\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Sergiu Bivol"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "sergiu@ase.md"
+
+#: backendselection.cpp:74
+#, kde-format
+msgctxt "@info User changed Phonon backend"
+msgid "To apply the backend change you will have to log out and back in again."
+msgstr ""
+"Pentru a aplica schimbarea suportului, va trebui să vă reautentificați în "
+"sistem."
+
+#. i18n: ectx: property (toolTip), widget (QListWidget, m_select)
+#. i18n: ectx: property (whatsThis), widget (QListWidget, m_select)
+#: backendselection.ui:38 backendselection.ui:41
+#, kde-format
+msgid ""
+"A list of Phonon Backends found on your system.  The order here determines "
+"the order Phonon will use them in."
+msgstr ""
+"O listă cu suporturi Phonon găsite în sistem. Aceasta este ordinea în care "
+"le va folosi Phonon."
+
+#. i18n: ectx: property (text), widget (QToolButton, m_up)
+#. i18n: ectx: property (text), widget (QToolButton, preferButton)
+#: backendselection.ui:57 devicepreference.ui:190
+#, kde-format
+msgid "Prefer"
+msgstr "Preferă"
+
+#. i18n: ectx: property (text), widget (QToolButton, m_down)
+#. i18n: ectx: property (text), widget (QToolButton, deferButton)
+#: backendselection.ui:70 devicepreference.ui:206
+#, kde-format
+msgid "Defer"
+msgstr "Amână"
+
+#: devicepreference.cpp:92
+#, kde-format
+msgid "Audio Playback"
+msgstr "Redare audio"
+
+#: devicepreference.cpp:106
+#, kde-format
+msgid "Audio Recording"
+msgstr "Înregistrare audio"
+
+#: devicepreference.cpp:109
+#, kde-format
+msgid "Video Recording"
+msgstr "Înregistrare video"
+
+#: devicepreference.cpp:112
+#, kde-format
+msgid "Invalid"
+msgstr "Nevalid"
+
+#: devicepreference.cpp:152
+#, kde-format
+msgid "Test the selected device"
+msgstr "Testează dispozitivul ales"
+
+#: devicepreference.cpp:176 devicepreference.cpp:183 devicepreference.cpp:190
+#, kde-format
+msgid ""
+"Defines the default ordering of devices which can be overridden by "
+"individual categories."
+msgstr ""
+"Definește ordinea implicită a dispozitivelor, ce poate fi înlocuită de "
+"categorii individuale."
+
+#: devicepreference.cpp:306
+#, kde-format
+msgid "Default Audio Playback Device Preference"
+msgstr "Configurare a dispozitivului de redare audio implicit"
+
+#: devicepreference.cpp:309
+#, kde-format
+msgid "Default Audio Recording Device Preference"
+msgstr "Configurare a dispozitivului de captură audio implicit"
+
+#: devicepreference.cpp:312
+#, kde-format
+msgid "Default Video Recording Device Preference"
+msgstr "Configurare a dispozitivului de captură video implicit"
+
+#: devicepreference.cpp:319
+#, kde-format
+msgid "Audio Playback Device Preference for the '%1' Category"
+msgstr "Configurare a dispozitivului de redare audio pentru categoria „%1”"
+
+#: devicepreference.cpp:323
+#, kde-format
+msgid "Audio Recording Device Preference for the '%1' Category"
+msgstr "Configurare a dispozitivului de captură audio pentru categoria „%1”"
+
+#: devicepreference.cpp:327
+#, kde-format
+msgid "Video Recording Device Preference for the '%1' Category "
+msgstr "Configurare a dispozitivului de captură video pentru categoria „%1” "
+
+#: devicepreference.cpp:752
+#, kde-format
+msgid ""
+"Apply the currently shown device preference list to the following other "
+"audio playback categories:"
+msgstr ""
+"Aplică lista afișată cu configurări de dispozitive la următoarele categorii "
+"de redare audio:"
+
+#: devicepreference.cpp:765 devicepreference.cpp:771
+#, kde-format
+msgid "Default/Unspecified Category"
+msgstr "Categorie imlicită/nespecificată"
+
+#: devicepreference.cpp:869
+#, kde-format
+msgid "Failed to set the selected audio output device"
+msgstr "Setarea dispozitivului de ieșire audio ales a eșuat"
+
+#: devicepreference.cpp:899
+#, kde-format
+msgid "Your backend may not support audio recording"
+msgstr "Platforma dumneavoastră poate să nu poată înregistra audio"
+
+#: devicepreference.cpp:920
+#, kde-format
+msgid "Your backend may not support video recording"
+msgstr "Platforma dumneavoastră poate să nu poată înregistra video"
+
+#: devicepreference.cpp:930
+#, kde-format
+msgid "Testing %1"
+msgstr "Se testează %1"
+
+#. i18n: ectx: property (toolTip), widget (QTreeView, categoryTree)
+#. i18n: ectx: property (whatsThis), widget (QTreeView, categoryTree)
+#: devicepreference.ui:29 devicepreference.ui:32
+#, kde-format
+msgid ""
+"Various categories of media use cases.  For each category, you may choose "
+"what device you prefer to be used by the Phonon applications."
+msgstr ""
+"Diverse categorii de utilizare multimedia. Pentru fiecare categorie, puteți "
+"alege ce dispozitiv preferați să fie utilizat de către aplicațiile Phonon."
+
+#. i18n: ectx: property (text), widget (QCheckBox, showAdvancedDevicesCheckBox)
+#: devicepreference.ui:47
+#, kde-format
+msgid "Show advanced devices"
+msgstr "Afișează dispozitive avansate"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, applyPreferencesButton)
+#. i18n: ectx: property (whatsThis), widget (QPushButton, applyPreferencesButton)
+#: devicepreference.ui:77 devicepreference.ui:80
+#, kde-format
+msgid "Use the currently shown device list for more categories."
+msgstr ""
+"Folosește lista de dispozitive afișată acum pentru mai multe categorii."
+
+#. i18n: ectx: property (text), widget (QPushButton, applyPreferencesButton)
+#: devicepreference.ui:83
+#, kde-format
+msgid "Apply Device List To..."
+msgstr "Aplică lista dispozitivelor la..."
+
+#. i18n: ectx: property (toolTip), widget (QTreeView, deviceList)
+#: devicepreference.ui:113
+#, kde-format
+msgid ""
+"Devices found on your system, suitable for the selected category.  Choose "
+"the device that you wish to be used by the applications."
+msgstr ""
+"Dispozitive găsite în sistem, potrivite pentru categoria aleasă. Alegeți "
+"dispozitivul care doriți să fie utilizat de către aplicații."
+
+#. i18n: ectx: property (whatsThis), widget (QTreeView, deviceList)
+#: devicepreference.ui:116
+#, kde-format
+msgid ""
+"The order determines the preference of the devices. If for some reason the "
+"first device cannot be used Phonon will try to use the second, and so on."
+msgstr ""
+"Ordinea determină preferința pentru dispozitive. Dacă cumva primul "
+"dispozitiv nu poate fi folosit, Phonon îl va încerca pe al doilea și așa mai "
+"departe."
+
+#. i18n: ectx: property (text), widget (QToolButton, testPlaybackButton)
+#: devicepreference.ui:171
+#, kde-format
+msgid "Test"
+msgstr "Testează"
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, preferButton)
+#: devicepreference.ui:187
+#, kde-format
+msgid "prefer the selected device"
+msgstr "preferă dispozitivul selectat"
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, deferButton)
+#: devicepreference.ui:203
+#, kde-format
+msgid "no preference for the selected device"
+msgstr "nici o preferință pentru dispozitivul ales"
+
+#: main.cpp:40
+#, kde-format
+msgid "Phonon Configuration Module"
+msgstr "Modul de configurare Phonon"
+
+#: main.cpp:42
+#, kde-format
+msgid "Copyright 2006 Matthias Kretz"
+msgstr "Copyright 2006 Matthias Kretz"
+
+#: main.cpp:43
+#, kde-format
+msgid "Matthias Kretz"
+msgstr "Matthias Kretz"
+
+#: main.cpp:44
+#, kde-format
+msgid "Colin Guthrie"
+msgstr "Colin Guthrie"
+
+#: main.cpp:55
+#, kde-format
+msgid "Device Preference"
+msgstr "Preferință dispozitiv"
+
+#: main.cpp:57
+#, kde-format
+msgid "Backend"
+msgstr "Suport"

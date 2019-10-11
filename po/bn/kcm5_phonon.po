@@ -1,0 +1,265 @@
+# ______________________________________________________________
+#
+# Preliminary translation of this file was done by "Anubadok",
+# A free (as in freedom) machine translator for Bengali (Bangla).
+# Visit "http://anubadok.sourceforge.net/"  to learn more.
+# ______________________________________________________________
+#
+# Bengali (Bangla) translation of kcm_phonon.
+# Copyright (C) 2012, Free Software Foundation, Inc.
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+#
+# Deepayan Sarkar <deepayan.sarkar@gmail.com>, 2012..
+msgid ""
+msgstr ""
+"Project-Id-Version: kcm_phonon\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"PO-Revision-Date: 2012-07-12 14:28+0530\n"
+"Last-Translator: Deepayan Sarkar <deepayan.sarkar@gmail.com>\n"
+"Language-Team: Bengali <kde-translation@bengalinux.org>\n"
+"Language: bn\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 1.4\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "দীপায়ন সরকার"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "deepayan.sarkar@gmail.com"
+
+#: backendselection.cpp:74
+#, kde-format
+msgctxt "@info User changed Phonon backend"
+msgid "To apply the backend change you will have to log out and back in again."
+msgstr "ব্যাক-এন্ড পরিবর্তন প্রয়োগ করতে হলে আপনাকে লগ-আউট করে আবার লগ-ইন করতে হবে।"
+
+#. i18n: ectx: property (toolTip), widget (QListWidget, m_select)
+#. i18n: ectx: property (whatsThis), widget (QListWidget, m_select)
+#: backendselection.ui:38 backendselection.ui:41
+#, fuzzy, kde-format
+msgid ""
+"A list of Phonon Backends found on your system.  The order here determines "
+"the order Phonon will use them in."
+msgstr ""
+"Phonon ব্যাক-এন্ডের একটি তালিকা আপনার পদ্ধতি খুঁজে পেয়েছিল। অর্ডার তে অর্ডার Phonon "
+"তাদেরকে এখানে নির্ধারণ করো ব্যবহার করো।"
+
+#. i18n: ectx: property (text), widget (QToolButton, m_up)
+#. i18n: ectx: property (text), widget (QToolButton, preferButton)
+#: backendselection.ui:57 devicepreference.ui:190
+#, kde-format
+msgid "Prefer"
+msgstr "বেশী পছন্দ"
+
+#. i18n: ectx: property (text), widget (QToolButton, m_down)
+#. i18n: ectx: property (text), widget (QToolButton, deferButton)
+#: backendselection.ui:70 devicepreference.ui:206
+#, kde-format
+msgid "Defer"
+msgstr "কম পছন্দ"
+
+#: devicepreference.cpp:92
+#, kde-format
+msgid "Audio Playback"
+msgstr "অডিও প্লে-ব্যাক"
+
+#: devicepreference.cpp:106
+#, kde-format
+msgid "Audio Recording"
+msgstr "অডিও রেকর্ডিং"
+
+#: devicepreference.cpp:109
+#, kde-format
+msgid "Video Recording"
+msgstr "ভিডিও রেকর্ডিং"
+
+#: devicepreference.cpp:112
+#, kde-format
+msgid "Invalid"
+msgstr "অবৈধ"
+
+#: devicepreference.cpp:152
+#, kde-format
+msgid "Test the selected device"
+msgstr "নির্বাচিত ডিভাইস পরীক্ষা করো"
+
+#: devicepreference.cpp:176 devicepreference.cpp:183 devicepreference.cpp:190
+#, fuzzy, kde-format
+msgid ""
+"Defines the default ordering of devices which can be overridden by "
+"individual categories."
+msgstr ""
+"ডিভাইসের Defines ডিফল্ট ordering যেটি স্বতন্ত্র শ্রেণীবিভাগের মধ্যে অগ্রাহ্য করা "
+"যাবে।"
+
+#: devicepreference.cpp:306
+#, kde-format
+msgid "Default Audio Playback Device Preference"
+msgstr "ডিফল্ট অডিও প্লে-ব্যাক ডিভাইস পছন্দ"
+
+#: devicepreference.cpp:309
+#, kde-format
+msgid "Default Audio Recording Device Preference"
+msgstr "ডিফল্ট অডিও রেকর্ডিং ডিভাইস পছন্দ"
+
+#: devicepreference.cpp:312
+#, kde-format
+msgid "Default Video Recording Device Preference"
+msgstr "ডিফল্ট ভিডিও রেকর্ডিং ডিভাইস পছন্দ"
+
+#: devicepreference.cpp:319
+#, kde-format
+msgid "Audio Playback Device Preference for the '%1' Category"
+msgstr "'%1' শ্রেণীর জন্য অডিও প্লে-ব্যাক ডিভাইস পছন্দ"
+
+#: devicepreference.cpp:323
+#, kde-format
+msgid "Audio Recording Device Preference for the '%1' Category"
+msgstr "'%1' শ্রেণীর জন্য অডিও রেকর্ডিং ডিভাইস পছন্দ"
+
+#: devicepreference.cpp:327
+#, kde-format
+msgid "Video Recording Device Preference for the '%1' Category "
+msgstr "'%1' শ্রেণীর জন্য ভিডিও রেকর্ডিং ডিভাইস পছন্দ"
+
+#: devicepreference.cpp:752
+#, kde-format
+msgid ""
+"Apply the currently shown device preference list to the following other "
+"audio playback categories:"
+msgstr ""
+"এই ডিভাইস পছন্দ তালিকা নিম্নলিখিত অন্যান্য অডিও প্লে-ব্যাক শ্রেণীগুলির জন্যও প্রয়োগ "
+"করো:"
+
+#: devicepreference.cpp:765 devicepreference.cpp:771
+#, fuzzy, kde-format
+msgid "Default/Unspecified Category"
+msgstr "ডিফল্ট/Unspecified শ্রেণী"
+
+#: devicepreference.cpp:869
+#, kde-format
+msgid "Failed to set the selected audio output device"
+msgstr "নির্বাচিত অডিও আউটপুট ডিভাইস নিযুক্ত করতে ব্যর্থ"
+
+#: devicepreference.cpp:899
+#, kde-format
+msgid "Your backend may not support audio recording"
+msgstr "আপনার ব্যাক-এন্ড অডিও রেকর্ডিং সমর্থন নাও করতে পারে"
+
+#: devicepreference.cpp:920
+#, kde-format
+msgid "Your backend may not support video recording"
+msgstr "আপনার ব্যাক-এন্ড ভিডিও রেকর্ডিং সমর্থন নাও করতে পারে"
+
+#: devicepreference.cpp:930
+#, kde-format
+msgid "Testing %1"
+msgstr "%1 পরীক্ষা করা হচ্ছে"
+
+#. i18n: ectx: property (toolTip), widget (QTreeView, categoryTree)
+#. i18n: ectx: property (whatsThis), widget (QTreeView, categoryTree)
+#: devicepreference.ui:29 devicepreference.ui:32
+#, fuzzy, kde-format
+msgid ""
+"Various categories of media use cases.  For each category, you may choose "
+"what device you prefer to be used by the Phonon applications."
+msgstr ""
+"মিডিয়ার বিভিন্ন শ্রেণীবিভাগ ঘটনা ব্যবহার করো। প্রত্যেক শ্রেণীর জন্য, আপনি বেছে নিতে "
+"পারে যার ডিভাইস আপনি Phonon অ্যাপলিকেশনের দ্বারা হ ব্যবহার করতে পছন্দ করো।"
+
+#. i18n: ectx: property (text), widget (QCheckBox, showAdvancedDevicesCheckBox)
+#: devicepreference.ui:47
+#, kde-format
+msgid "Show advanced devices"
+msgstr "অগ্রসর ডিভাইস দেখাও"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, applyPreferencesButton)
+#. i18n: ectx: property (whatsThis), widget (QPushButton, applyPreferencesButton)
+#: devicepreference.ui:77 devicepreference.ui:80
+#, fuzzy, kde-format
+msgid "Use the currently shown device list for more categories."
+msgstr "আরও বেশি শ্রেণীবিভাগের জন্য বর্তমানে প্রদর্শিত ডিভাইস তালিকা ব্যবহার করো।"
+
+#. i18n: ectx: property (text), widget (QPushButton, applyPreferencesButton)
+#: devicepreference.ui:83
+#, kde-format
+msgid "Apply Device List To..."
+msgstr "ডিভাইস তালিকা প্রয়োগ করো..."
+
+#. i18n: ectx: property (toolTip), widget (QTreeView, deviceList)
+#: devicepreference.ui:113
+#, fuzzy, kde-format
+msgid ""
+"Devices found on your system, suitable for the selected category.  Choose "
+"the device that you wish to be used by the applications."
+msgstr ""
+"ডিভাইস নির্বাচিত শ্রেণীর জন্য আপনার পদ্ধতি, উপযুক্তে খুঁজে পেয়েছিল। ডিভাইস বেছে নাও "
+"যে আপনি অ্যাপলিকেশনের দ্বারা হ ব্যবহার করতে ইচ্ছা করো।"
+
+#. i18n: ectx: property (whatsThis), widget (QTreeView, deviceList)
+#: devicepreference.ui:116
+#, fuzzy, kde-format
+msgid ""
+"The order determines the preference of the devices. If for some reason the "
+"first device cannot be used Phonon will try to use the second, and so on."
+msgstr ""
+"অর্ডার ডিভাইসের পছন্দ নির্ধারণ করো। কিছু কারণ প্রথম ডিভাইসের জন্য যদি দ্বিতীয় "
+"ব্যবহার করতে Phonon ব্যবহার করা যাবে চেষ্টা করা হবে না, এবংে সুতরাং।"
+
+#. i18n: ectx: property (text), widget (QToolButton, testPlaybackButton)
+#: devicepreference.ui:171
+#, kde-format
+msgid "Test"
+msgstr "পরীক্ষা করো"
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, preferButton)
+#: devicepreference.ui:187
+#, kde-format
+msgid "prefer the selected device"
+msgstr "নির্বাচিত ডিভাইস বেশী পছন্দ করো"
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, deferButton)
+#: devicepreference.ui:203
+#, kde-format
+msgid "no preference for the selected device"
+msgstr "নির্বাচিত ডিভাইসটির জন্য কোনও পছন্দ নেই"
+
+#: main.cpp:40
+#, kde-format
+msgid "Phonon Configuration Module"
+msgstr "ফোনন কনফিগারেশন মডিউল"
+
+#: main.cpp:42
+#, kde-format
+msgid "Copyright 2006 Matthias Kretz"
+msgstr "Copyright 2006 Matthias Kretz"
+
+#: main.cpp:43
+#, kde-format
+msgid "Matthias Kretz"
+msgstr "Matthias Kretz"
+
+#: main.cpp:44
+#, kde-format
+msgid "Colin Guthrie"
+msgstr "Colin Guthrie"
+
+#: main.cpp:55
+#, kde-format
+msgid "Device Preference"
+msgstr "ডিভাইস পছন্দ"
+
+#: main.cpp:57
+#, kde-format
+msgid "Backend"
+msgstr "ব্যাক-এন্ড"

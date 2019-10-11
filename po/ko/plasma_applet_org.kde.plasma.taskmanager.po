@@ -1,0 +1,458 @@
+# Translation of plasma_applet_tasks to Korean.
+# Copyright (C) 2008 This_file_is_part_of_KDE
+# This file is distributed under the same license as the kdebase package.
+# Shinjo Park <kde@peremen.name>, 2007, 2008, 2009, 2010, 2011, 2013, 2014, 2015, 2016, 2017, 2018, 2019.
+# JungHee Lee <daemul72@gmail.com>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_applet_tasks\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"PO-Revision-Date: 2019-05-11 16:03+0200\n"
+"Last-Translator: Shinjo Park <kde@peremen.name>\n"
+"Language-Team: Korean <kde-kr@kde.org>\n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 18.12.3\n"
+
+#: package/contents/config/config.qml:26
+#, kde-format
+msgid "Appearance"
+msgstr "모양"
+
+#: package/contents/config/config.qml:31
+#, kde-format
+msgid "Behavior"
+msgstr "행동"
+
+#: package/contents/ui/Badge.qml:48
+#, kde-format
+msgctxt "Invalid number of new messages, overlay, keep short"
+msgid "—"
+msgstr "—"
+
+#: package/contents/ui/Badge.qml:50
+#, kde-format
+msgctxt "Over 9999 new messages, overlay, keep short"
+msgid "9,999+"
+msgstr "9,999+"
+
+#: package/contents/ui/ConfigAppearance.qml:48
+#, fuzzy, kde-format
+#| msgid "General:"
+msgid "General:"
+msgstr "일반:"
+
+#: package/contents/ui/ConfigAppearance.qml:49
+#, kde-format
+msgid "Show tooltips"
+msgstr "풍선 도움말 보이기"
+
+#: package/contents/ui/ConfigAppearance.qml:54
+#, kde-format
+msgid "Highlight windows when hovering over tasks"
+msgstr "지나다닐 때 창 강조하기"
+
+#: package/contents/ui/ConfigAppearance.qml:59
+#, kde-format
+msgid "Mark applications that play audio"
+msgstr "오디오를 재생하는 프로그램 표시"
+
+#: package/contents/ui/ConfigAppearance.qml:73
+#, kde-format
+msgid "Icon size:"
+msgstr "아이콘 크기:"
+
+#: package/contents/ui/ConfigAppearance.qml:85
+#, kde-format
+msgid "Small"
+msgstr "작게"
+
+#: package/contents/ui/ConfigAppearance.qml:94
+#, kde-format
+msgid "Large"
+msgstr "크게"
+
+#: package/contents/ui/ConfigAppearance.qml:105
+#, kde-format
+msgid "Maximum columns:"
+msgstr "최대 행 개수:"
+
+#: package/contents/ui/ConfigAppearance.qml:105
+#, kde-format
+msgid "Maximum rows:"
+msgstr "최대 열 개수:"
+
+#: package/contents/ui/ConfigAppearance.qml:111
+#, kde-format
+msgid "Always arrange tasks in as many rows as columns"
+msgstr "창을 항상 행으로 정렬하기"
+
+#: package/contents/ui/ConfigAppearance.qml:111
+#, kde-format
+msgid "Always arrange tasks in as many columns as rows"
+msgstr "창을 항상 열로 정렬하기"
+
+#: package/contents/ui/ConfigBehavior.qml:52
+#, fuzzy, kde-format
+#| msgid "Group:"
+msgid "Group:"
+msgstr "그룹화:"
+
+#: package/contents/ui/ConfigBehavior.qml:54
+#, fuzzy, kde-format
+#| msgid "Do not group"
+msgid "Do not group"
+msgstr "그룹화하지 않음"
+
+#: package/contents/ui/ConfigBehavior.qml:54
+#, fuzzy, kde-format
+#| msgid "By program name"
+msgid "By program name"
+msgstr "프로그램 이름으로"
+
+#: package/contents/ui/ConfigBehavior.qml:60
+#, kde-format
+msgid "Open groups in popups"
+msgstr "팝업으로 그룹 열기"
+
+#: package/contents/ui/ConfigBehavior.qml:74
+#, fuzzy, kde-format
+#| msgid "Group only when the Task Manager is full"
+msgid "Group only when the Task Manager is full"
+msgstr "작업 표시줄이 가득 찼을 때만 묶기"
+
+#: package/contents/ui/ConfigBehavior.qml:88
+#, fuzzy, kde-format
+#| msgid "Sort:"
+msgid "Sort:"
+msgstr "정렬:"
+
+#: package/contents/ui/ConfigBehavior.qml:90
+#, kde-format
+msgid "Do not sort"
+msgstr "정렬하지 않기"
+
+#: package/contents/ui/ConfigBehavior.qml:90
+#, kde-format
+msgid "Manually"
+msgstr "수동으로"
+
+#: package/contents/ui/ConfigBehavior.qml:90
+#, kde-format
+msgid "Alphabetically"
+msgstr "가나다 순으로"
+
+#: package/contents/ui/ConfigBehavior.qml:90
+#, fuzzy, kde-format
+#| msgid "By desktop"
+msgid "By desktop"
+msgstr "데스크톱별로"
+
+#: package/contents/ui/ConfigBehavior.qml:90
+#, fuzzy, kde-format
+#| msgid "By activity"
+msgid "By activity"
+msgstr "활동별로"
+
+#: package/contents/ui/ConfigBehavior.qml:96
+#, kde-format
+msgid "Keep launchers separate"
+msgstr "실행기 분리하기"
+
+#: package/contents/ui/ConfigBehavior.qml:108
+#, kde-format
+msgid "On middle-click:"
+msgstr "가운데 단추 누름:"
+
+#: package/contents/ui/ConfigBehavior.qml:111
+#, kde-format
+msgctxt "The click action"
+msgid "None"
+msgstr "없음"
+
+#: package/contents/ui/ConfigBehavior.qml:112
+#, fuzzy, kde-format
+#| msgid "Close window or group"
+msgid "Close window or group"
+msgstr "창 또는 그룹 닫기"
+
+#: package/contents/ui/ConfigBehavior.qml:113
+#, fuzzy, kde-format
+#| msgid "New instance"
+msgid "New instance"
+msgstr "새 인스턴스"
+
+#: package/contents/ui/ConfigBehavior.qml:114
+#, fuzzy, kde-format
+#| msgid "Minimize/Restore window or group"
+msgid "Minimize/Restore window or group"
+msgstr "창이나 그룹 최소화/복원"
+
+#: package/contents/ui/ConfigBehavior.qml:115
+#, kde-format
+msgctxt "When clicking it would toggle grouping windows of a specific app"
+msgid "Group/Ungroup"
+msgstr "그룹화/그룹화 해제"
+
+#: package/contents/ui/ConfigBehavior.qml:116
+#, kde-format
+msgid "Bring to the current virtual desktop"
+msgstr "현재 가상 데스크톱으로 전환"
+
+#: package/contents/ui/ConfigBehavior.qml:122
+#, kde-format
+msgid "Cycle through tasks with mouse wheel"
+msgstr "마우스 휠로 작업 전환"
+
+#: package/contents/ui/ConfigBehavior.qml:131
+#, fuzzy, kde-format
+#| msgid "Filter:"
+msgid "Filter:"
+msgstr "필터:"
+
+#: package/contents/ui/ConfigBehavior.qml:132
+#, kde-format
+msgid "Show only tasks from the current screen"
+msgstr "현재 화면에 있는 작업만 보이기"
+
+#: package/contents/ui/ConfigBehavior.qml:137
+#, kde-format
+msgid "Show only tasks from the current desktop"
+msgstr "현재 데스크톱에 있는 작업만 보이기"
+
+#: package/contents/ui/ConfigBehavior.qml:142
+#, kde-format
+msgid "Show only tasks from the current activity"
+msgstr "현재 활동에 있는 작업만 보이기"
+
+#: package/contents/ui/ConfigBehavior.qml:148
+#, kde-format
+msgid "Show only tasks that are minimized"
+msgstr "최소화된 작업만 보이기"
+
+#: package/contents/ui/ContextMenu.qml:100
+#, kde-format
+msgid "Places"
+msgstr "위치"
+
+#: package/contents/ui/ContextMenu.qml:105
+#, kde-format
+msgid "Recent Documents"
+msgstr "최근 문서"
+
+#: package/contents/ui/ContextMenu.qml:110
+#, kde-format
+msgid "Actions"
+msgstr "동작"
+
+#: package/contents/ui/ContextMenu.qml:168
+#, kde-format
+msgctxt "Play previous track"
+msgid "Previous Track"
+msgstr "이전 트랙"
+
+#: package/contents/ui/ContextMenu.qml:182
+#, kde-format
+msgctxt "Pause playback"
+msgid "Pause"
+msgstr "일시 정지"
+
+#: package/contents/ui/ContextMenu.qml:182
+#, kde-format
+msgctxt "Start playback"
+msgid "Play"
+msgstr "재생"
+
+#: package/contents/ui/ContextMenu.qml:200
+#, kde-format
+msgctxt "Play next track"
+msgid "Next Track"
+msgstr "다음 트랙"
+
+#: package/contents/ui/ContextMenu.qml:211
+#, kde-format
+msgctxt "Stop playback"
+msgid "Stop"
+msgstr "정지"
+
+#: package/contents/ui/ContextMenu.qml:231
+#, kde-format
+msgctxt "Quit media player app"
+msgid "Quit"
+msgstr "끝내기"
+
+#: package/contents/ui/ContextMenu.qml:246
+#, kde-format
+msgctxt "Open or bring to the front window of media player app"
+msgid "Restore"
+msgstr "복원"
+
+#: package/contents/ui/ContextMenu.qml:272
+#, kde-format
+msgid "Mute"
+msgstr "음소거"
+
+#: package/contents/ui/ContextMenu.qml:286
+#, kde-format
+msgid "Start New Instance"
+msgstr "새 인스턴스 시작하기"
+
+#: package/contents/ui/ContextMenu.qml:302
+#, kde-format
+msgid "Move To &Desktop"
+msgstr "다음 데스크톱으로 이동(&D)"
+
+#: package/contents/ui/ContextMenu.qml:325
+#, kde-format
+msgid "Move &To Current Desktop"
+msgstr "현재 데스크톱으로 이동(&T)"
+
+#: package/contents/ui/ContextMenu.qml:334
+#, kde-format
+msgid "&All Desktops"
+msgstr "모든 데스크톱(&A)"
+
+#: package/contents/ui/ContextMenu.qml:348
+#, kde-format
+msgctxt "1 = number of desktop, 2 = desktop name"
+msgid "&%1 %2"
+msgstr "%1 %2(&%1)"
+
+#: package/contents/ui/ContextMenu.qml:362
+#, kde-format
+msgid "&New Desktop"
+msgstr "새 데스크톱(&N)"
+
+#: package/contents/ui/ContextMenu.qml:381
+#, kde-format
+msgid "Move To &Activity"
+msgstr "다음 활동으로 이동(&A)"
+
+#: package/contents/ui/ContextMenu.qml:402
+#, kde-format
+msgid "Add To Current Activity"
+msgstr "현재 활동에 추가하기"
+
+#: package/contents/ui/ContextMenu.qml:412
+#, kde-format
+msgid "All Activities"
+msgstr "모든 활동"
+
+#: package/contents/ui/ContextMenu.qml:471
+#, kde-format
+msgid "More Actions"
+msgstr "더 많은 동작"
+
+#: package/contents/ui/ContextMenu.qml:480
+#, kde-format
+msgid "&Move"
+msgstr "이동(&M)"
+
+#: package/contents/ui/ContextMenu.qml:489
+#, kde-format
+msgid "Re&size"
+msgstr "크기 조정(&S)"
+
+#: package/contents/ui/ContextMenu.qml:503
+#, kde-format
+msgid "Ma&ximize"
+msgstr "최대화(&X)"
+
+#: package/contents/ui/ContextMenu.qml:517
+#, kde-format
+msgid "Mi&nimize"
+msgstr "최소화(&N)"
+
+#: package/contents/ui/ContextMenu.qml:527
+#, kde-format
+msgid "Keep &Above Others"
+msgstr "항상 위(&A)"
+
+#: package/contents/ui/ContextMenu.qml:537
+#, kde-format
+msgid "Keep &Below Others"
+msgstr "항상 아래(&B)"
+
+#: package/contents/ui/ContextMenu.qml:549
+#, kde-format
+msgid "&Fullscreen"
+msgstr "전체 화면(&F)"
+
+#: package/contents/ui/ContextMenu.qml:561
+#, kde-format
+msgid "&Shade"
+msgstr "말아 올리기(&S)"
+
+#: package/contents/ui/ContextMenu.qml:577
+#, kde-format
+msgid "Allow this program to be grouped"
+msgstr "이 프로그램을 그룹으로 묶기"
+
+#: package/contents/ui/ContextMenu.qml:629
+#: package/contents/ui/ContextMenu.qml:644
+#, kde-format
+msgid "&Pin to Task Manager"
+msgstr "작업 관리자에 고정(&P)"
+
+#: package/contents/ui/ContextMenu.qml:697
+#, kde-format
+msgid "On All Activities"
+msgstr "모든 활동에"
+
+#: package/contents/ui/ContextMenu.qml:703
+#, kde-format
+msgid "On The Current Activity"
+msgstr "현재 활동에"
+
+#: package/contents/ui/ContextMenu.qml:724
+#, kde-format
+msgid "Unpin from Task Manager"
+msgstr "작업 관리자에서 고정 해제"
+
+#: package/contents/ui/ContextMenu.qml:738
+#, kde-format
+msgid "&Close"
+msgstr "닫기(&C)"
+
+#: package/contents/ui/ToolTipInstance.qml:469
+#, fuzzy, kde-format
+#| msgctxt "Comma-separated list of desktops"
+#| msgid "On %1"
+msgctxt "Comma-separated list of desktops"
+msgid "On %1"
+msgstr "%1에 있음"
+
+#: package/contents/ui/ToolTipInstance.qml:479
+#, kde-format
+msgctxt "Which virtual desktop a window is currently on"
+msgid "Available on all activities"
+msgstr "모든 활동에 있음"
+
+#: package/contents/ui/ToolTipInstance.qml:501
+#, kde-format
+msgctxt "Activities a window is currently on (apart from the current one)"
+msgid "Also available on %1"
+msgstr "활동 %1에도 있음"
+
+#: package/contents/ui/ToolTipInstance.qml:505
+#, kde-format
+msgctxt "Which activities a window is currently on"
+msgid "Available on %1"
+msgstr "%1에 있음"
+
+#: plugin/backend.cpp:278
+#, kde-format
+msgctxt "Show all user Places"
+msgid "%1 more Place"
+msgid_plural "%1 more Places"
+msgstr[0] "추가 위치 %1개"
+
+#: plugin/backend.cpp:351
+#, kde-format
+msgid "Forget Recent Documents"
+msgstr "최근 문서 비우기"

@@ -1,0 +1,41 @@
+# Translation of krdb.po to Brazilian Portuguese
+# Copyright (C) 2002, 2003, 2008, 2009 Free Software Foundation, Inc.
+#
+# Lisiane Sztoltz <lisiane@conectiva.com.br>, 2002.
+# Henrique Pinto <stampede@coltec.ufmg.br>, 2003.
+# André Marcelo Alvarenga <alvarenga@kde.org>, 2008, 2009, 2016.
+# Aracele Torres <aracele@kde.org>, 2017.
+msgid ""
+msgstr ""
+"Project-Id-Version: krdb\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"PO-Revision-Date: 2017-02-17 17:07-0300\n"
+"Last-Translator: Aracele Torres <aracele@kde.org>\n"
+"Language-Team: Portuguese <kde-i18n-pt_BR@kde.org>\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 2.0\n"
+
+#: krdb.cpp:270
+#, kde-format
+msgid ""
+"# created by KDE Plasma, %1\n"
+"#\n"
+"# If you do not want Plasma to override your GTK settings, select\n"
+"# Colors in the System Settings and disable the checkbox\n"
+"# \"Apply colors to non-Qt applications\"\n"
+"#\n"
+"#\n"
+msgstr ""
+"# criado pelo KDE Plasma, %1\n"
+"#\n"
+"# Se você não deseja que o Plasma substitua suas configurações GTK,  "
+"selecione\n"
+"# Cores nas Configurações do Sistema e desabilite a caixa de seleção\n"
+"#  \"Aplicar cores aos aplicativos não sejam Qt\"\n"
+"#\n"
+"#\n"

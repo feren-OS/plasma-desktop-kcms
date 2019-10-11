@@ -1,0 +1,192 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Zlatko Popov <zlatkopopov@fsa-bg.org>, 2007, 2008.
+# Yasen Pramatarov <yasen@lindeas.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmicons\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"PO-Revision-Date: 2009-08-22 22:33+0300\n"
+"Last-Translator: Yasen Pramatarov <yasen@lindeas.com>\n"
+"Language-Team: Bulgarian <dict@fsa-bg.org>\n"
+"Language: bg\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Радостин Раднев"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "radnev@yahoo.com"
+
+#: main.cpp:85
+#, kde-format
+msgid "Icons"
+msgstr "Икони"
+
+#: main.cpp:86
+#, kde-format
+msgid "Icons Control Panel Module"
+msgstr "Контролен модул за иконите"
+
+#: main.cpp:87
+#, kde-format
+msgid "(c) 2000-2003 Geert Jansen"
+msgstr "(c) 2000-2003 Geert Jansen"
+
+#: main.cpp:88
+#, kde-format
+msgid "Geert Jansen"
+msgstr "Geert Jansen"
+
+#: main.cpp:89
+#, kde-format
+msgid "Antonio Larrosa Jimenez"
+msgstr "Antonio Larrosa Jimenez"
+
+#: main.cpp:90
+#, kde-format
+msgid "Torsten Rahn"
+msgstr "Torsten Rahn"
+
+#: main.cpp:91
+#, kde-format
+msgid "Jonathan Riddell"
+msgstr ""
+
+#: main.cpp:92
+#, kde-format
+msgid "Kai Uwe Broulik"
+msgstr ""
+
+#: main.cpp:284
+#, fuzzy, kde-format
+#| msgid "Remove Theme"
+msgid "Download New Icon Themes"
+msgstr "Премахване на тема"
+
+#: main.cpp:320
+#, kde-format
+msgid "Unable to create a temporary file."
+msgstr ""
+
+#: main.cpp:332
+#, fuzzy, kde-format
+#| msgid "Unable to find the icon theme archive %1."
+msgid "Unable to download the icon theme archive: %1"
+msgstr "Не може да бъде намерена темата с икони \"%1\"."
+
+#: main.cpp:346
+#, kde-format
+msgid "The file is not a valid icon theme archive."
+msgstr "Файлът не е валиден архив на тема с икони."
+
+#: main.cpp:351
+#, kde-format
+msgid ""
+"A problem occurred during the installation process; however, most of the "
+"themes in the archive have been installed"
+msgstr ""
+"Появи се проблем по време на инсталацията, но повечето от темите в архива са "
+"инсталирани."
+
+#: main.cpp:355
+#, kde-format
+msgid "Theme installed successfully."
+msgstr ""
+
+#: main.cpp:465
+#, fuzzy, kde-format
+#| msgid "Installing icon themes"
+msgid "Installing icon themes..."
+msgstr "Инсталиране на теми с икони"
+
+#: main.cpp:475
+#, fuzzy, kde-format
+#| msgid "Installing icon themes"
+msgid "Installing %1 theme..."
+msgstr "Инсталиране на теми с икони"
+
+#: package/contents/ui/IconSizePopup.qml:91
+#, kde-format
+msgid "Desktop"
+msgstr "Работен плот"
+
+#: package/contents/ui/IconSizePopup.qml:92
+#, kde-format
+msgid "Toolbar"
+msgstr "Лента с инструменти"
+
+#: package/contents/ui/IconSizePopup.qml:93
+#, kde-format
+msgid "Main Toolbar"
+msgstr "Главна лента с инструменти"
+
+#: package/contents/ui/IconSizePopup.qml:94
+#, kde-format
+msgid "Small Icons"
+msgstr "Малки икони"
+
+#: package/contents/ui/IconSizePopup.qml:95
+#, kde-format
+msgid "Panel"
+msgstr "Системен панел"
+
+#: package/contents/ui/IconSizePopup.qml:96
+#, kde-format
+msgid "Dialogs"
+msgstr "Диалогови прозорци"
+
+#: package/contents/ui/main.qml:34
+#, kde-format
+msgid "This module allows you to choose the icons for your desktop."
+msgstr ""
+
+#: package/contents/ui/main.qml:155
+#, fuzzy, kde-format
+#| msgid "Remove Theme"
+msgid "Remove Icon Theme"
+msgstr "Премахване на тема"
+
+#: package/contents/ui/main.qml:162
+#, fuzzy, kde-format
+#| msgid "Remove Theme"
+msgid "Restore Icon Theme"
+msgstr "Премахване на тема"
+
+#: package/contents/ui/main.qml:231
+#, kde-format
+msgid "Configure Icon Sizes"
+msgstr ""
+
+#: package/contents/ui/main.qml:247
+#, fuzzy, kde-format
+#| msgid "Install Theme File..."
+msgid "Install from File..."
+msgstr "Инсталиране на тема от файл..."
+
+#: package/contents/ui/main.qml:253
+#, fuzzy, kde-format
+#| msgid "Get New Themes..."
+msgid "Get New Icons..."
+msgstr "Изтегляне на нови теми..."
+
+#: package/contents/ui/main.qml:274
+#, fuzzy, kde-format
+#| msgid "Remove Theme"
+msgid "Open Theme"
+msgstr "Премахване на тема"
+
+#: package/contents/ui/main.qml:276
+#, kde-format
+msgid "Theme Files (*.tar.gz *.tar.bz2)"
+msgstr ""

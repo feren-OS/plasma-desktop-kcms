@@ -1,0 +1,131 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Martin Schlander <mschlander@opensuse.org>, 2014, 2015, 2016, 2017, 2018, 2019.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"PO-Revision-Date: 2019-05-30 17:11+0100\n"
+"Last-Translator: Martin Schlander <mschlander@opensuse.org>\n"
+"Language-Team: Danish <kde-i18n-doc@kde.org>\n"
+"Language: da\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 2.0\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Martin Schlander"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "mschlander@opensuse.org"
+
+#: kcm.cpp:76
+#, kde-format
+msgid "Look and Feel"
+msgstr "Udseende og fremtoning"
+
+#: kcm.cpp:78 lnftool.cpp:43
+#, kde-format
+msgid "Marco Martin"
+msgstr "Marco Martin"
+
+#: kcm.cpp:112
+#, fuzzy, kde-format
+#| msgid "Download New Look and Feel Themes"
+msgid "Download New Look and Feel Themes"
+msgstr "Download nye udseende og fremtoning-temaer"
+
+#: kcm.cpp:572
+#, fuzzy, kde-format
+#| msgid ""
+#| "You have to restart the Plasma session for these changes to take effect."
+msgid ""
+"You have to restart the Plasma session for these changes to take effect."
+msgstr "Du skal genstarte Plasma-sessionen før disse ændringer træder i kraft."
+
+#: kcm.cpp:573
+#, kde-format
+msgid "Cursor Settings Changed"
+msgstr "Markørindstillinger ændret"
+
+#: lnftool.cpp:42
+#, kde-format
+msgid "Look and feel tool"
+msgstr "Værktøj til udseende og fremtoning"
+
+#: lnftool.cpp:42
+#, kde-format
+msgid "Command line tool to apply look and feel packages."
+msgstr "Kommandolinjeværktøj til at anvende udseende og fremtoning-pakker."
+
+#: lnftool.cpp:42
+#, kde-format
+msgid "Copyright 2017, Marco Martin"
+msgstr "Ophavsret 2017, Marco Martin"
+
+#: lnftool.cpp:43
+#, kde-format
+msgid "Maintainer"
+msgstr "Vedligeholder"
+
+#: lnftool.cpp:52
+#, kde-format
+msgid "List available Look and feel packages"
+msgstr "Oplist tilgængelige udseende og fremtoning-pakker"
+
+#: lnftool.cpp:54
+#, kde-format
+msgid "Apply a look and feel package"
+msgstr "Anvend en udseende og fremtoning-pakke"
+
+#: lnftool.cpp:54
+#, kde-format
+msgid "packagename"
+msgstr "pakkenavn"
+
+#: lnftool.cpp:56
+#, kde-format
+msgid "Reset the Plasma Desktop layout"
+msgstr "Nulstil Plasmas skrivebordslayout"
+
+#: package/contents/ui/main.qml:28
+#, kde-format
+msgid "This module lets you choose the Look and Feel theme."
+msgstr "Dette modul lader dig vælge tema for udseende og fremtoning."
+
+#: package/contents/ui/main.qml:49
+#, kde-format
+msgid "Preview Theme"
+msgstr "Forhåndsvis tema"
+
+#: package/contents/ui/main.qml:67
+#, fuzzy, kde-format
+#| msgid ""
+#| "Your desktop layout will be lost and reset to the default layout provided "
+#| "by the selected theme."
+msgid ""
+"Your desktop layout will be lost and reset to the default layout provided by "
+"the selected theme."
+msgstr ""
+"Layoutet af dit skrivebord vil gå tabt og blive nulstillet til "
+"standardlayoutet for det valgte tema."
+
+#: package/contents/ui/main.qml:77
+#, fuzzy, kde-format
+#| msgid "Use desktop layout from theme"
+msgid "Use desktop layout from theme"
+msgstr "Brug skrivebordslayout fra temaet"
+
+#: package/contents/ui/main.qml:84
+#, fuzzy, kde-format
+#| msgid "Get New Looks..."
+msgid "Get New Look and Feel Themes..."
+msgstr "Hent nyt udseende..."

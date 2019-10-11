@@ -1,0 +1,37 @@
+From: Thorsten Glaser <tg@mirbsd.de>
+Date: Wed, 6 Apr 2016 23:57:23 +0200
+Subject: Allow xterm/uxterm resources overrides
+
+Using the lower case instance refers to application name instead to the
+window class and has higher priority than setting the window class. This
+prohibits the use of different classes for the same application,
+something used by the xterm/uxterm users.
+
+This changes the resource mangling to just set the default classes
+allowing the users to override them.
+
+Bug-Debian: https://bugs.debian.org/797482
+Forwarded: no
+Reviewed-by: Maximiliano Curia
+Last-Update: 2015-09-15
+---
+ kcms/krdb/ad/XTerm.ad | 12 ++++++++----
+ 1 file changed, 8 insertions(+), 4 deletions(-)
+
+diff --git a/kcms/krdb/ad/XTerm.ad b/kcms/krdb/ad/XTerm.ad
+index cf0e41c..66cb29e 100644
+--- a/kcms/krdb/ad/XTerm.ad
++++ b/kcms/krdb/ad/XTerm.ad
+@@ -1,4 +1,8 @@
+-xterm*background: WINDOW_BACKGROUND
+-xterm*foreground: WINDOW_FOREGROUND
+-xterm.SimpleMenu*background: BACKGROUND
+-xterm.SimpleMenu*foreground: FOREGROUND
++Xterm*background: WINDOW_BACKGROUND
++Xterm*foreground: WINDOW_FOREGROUND
++Xterm.SimpleMenu*background: BACKGROUND
++Xterm.SimpleMenu*foreground: FOREGROUND
++UXterm*background: WINDOW_BACKGROUND
++UXterm*foreground: WINDOW_FOREGROUND
++UXterm.SimpleMenu*background: BACKGROUND
++UXterm.SimpleMenu*foreground: FOREGROUND

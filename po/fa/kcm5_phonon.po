@@ -1,0 +1,258 @@
+# translation of kcm_phonon.po to Persian
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Nazanin Kazemi <kazemi@itland.ir>, 2007.
+# Mohamad Reza Mirdamadi <mohi@linuxshop.ir>, 2011, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcm_phonon\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"PO-Revision-Date: 2012-06-22 10:12+0430\n"
+"Last-Translator: Mohammad Reza Mirdamadi <mohi@linuxshop.ir>\n"
+"Language-Team: Farsi (Persian) <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.4\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "محمدرضا میردامادی , نازنین کاظمی , وحید فضل الله زاده"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "mohi@linuxshop.ir , kazemi@itland.ir , vahid.fazl2000@gmail.com"
+
+#: backendselection.cpp:74
+#, kde-format
+msgctxt "@info User changed Phonon backend"
+msgid "To apply the backend change you will have to log out and back in again."
+msgstr ""
+"برای اعمال تغییرات پایانه پشتیبانی شما باید از این نشست خارج شده و دوباره "
+"وارد شوید."
+
+#. i18n: ectx: property (toolTip), widget (QListWidget, m_select)
+#. i18n: ectx: property (whatsThis), widget (QListWidget, m_select)
+#: backendselection.ui:38 backendselection.ui:41
+#, kde-format
+msgid ""
+"A list of Phonon Backends found on your system.  The order here determines "
+"the order Phonon will use them in."
+msgstr ""
+"فهرستی از پایانه‌های پشتیبانی  Phonon که روی سیستمتان یافت شد.  ترتیب اینجا "
+"تعیین می‌کند ترتیب Phonon آنها را استفاده می‌کند."
+
+#. i18n: ectx: property (text), widget (QToolButton, m_up)
+#. i18n: ectx: property (text), widget (QToolButton, preferButton)
+#: backendselection.ui:57 devicepreference.ui:190
+#, kde-format
+msgid "Prefer"
+msgstr "ترجیح"
+
+#. i18n: ectx: property (text), widget (QToolButton, m_down)
+#. i18n: ectx: property (text), widget (QToolButton, deferButton)
+#: backendselection.ui:70 devicepreference.ui:206
+#, kde-format
+msgid "Defer"
+msgstr "تعویق"
+
+#: devicepreference.cpp:92
+#, kde-format
+msgid "Audio Playback"
+msgstr "پخش صدا"
+
+#: devicepreference.cpp:106
+#, kde-format
+msgid "Audio Recording"
+msgstr "ضبط صدا"
+
+#: devicepreference.cpp:109
+#, kde-format
+msgid "Video Recording"
+msgstr "ضبط تصویر"
+
+#: devicepreference.cpp:112
+#, kde-format
+msgid "Invalid"
+msgstr "نامعتبر"
+
+#: devicepreference.cpp:152
+#, kde-format
+msgid "Test the selected device"
+msgstr "امتحان دستگاه برگزیده"
+
+#: devicepreference.cpp:176 devicepreference.cpp:183 devicepreference.cpp:190
+#, kde-format
+msgid ""
+"Defines the default ordering of devices which can be overridden by "
+"individual categories."
+msgstr ""
+"اولویت پیش‌فرض دستگاه‌ها را تعریف می‌کند که می‌تواند توسط بخش‌های جداگانه "
+"بازنویسی شود"
+
+#: devicepreference.cpp:306
+#, kde-format
+msgid "Default Audio Playback Device Preference"
+msgstr "تنظیم دستگاه پیش‌فرض پخش صدا"
+
+#: devicepreference.cpp:309
+#, kde-format
+msgid "Default Audio Recording Device Preference"
+msgstr "تنظیم دستگاه پیش‌فرض ضبط صدا"
+
+#: devicepreference.cpp:312
+#, kde-format
+msgid "Default Video Recording Device Preference"
+msgstr "تنظیم دستگاه پیش‌فرض ضبط تصویر"
+
+#: devicepreference.cpp:319
+#, kde-format
+msgid "Audio Playback Device Preference for the '%1' Category"
+msgstr "تنظیم دستگاه پخش صدا برای بخش «%1»"
+
+#: devicepreference.cpp:323
+#, kde-format
+msgid "Audio Recording Device Preference for the '%1' Category"
+msgstr "تنظیم دستگاه ضبط صدا برای بخش «%1»"
+
+#: devicepreference.cpp:327
+#, kde-format
+msgid "Video Recording Device Preference for the '%1' Category "
+msgstr "تنظیم دستگاه ضبط تصویر برای بخش «%1»"
+
+#: devicepreference.cpp:752
+#, kde-format
+msgid ""
+"Apply the currently shown device preference list to the following other "
+"audio playback categories:"
+msgstr "اعمال تنظیمات نشان داده شده‌ی جاری به بخش‌های پخش صدای دیگر در زیر:"
+
+#: devicepreference.cpp:765 devicepreference.cpp:771
+#, kde-format
+msgid "Default/Unspecified Category"
+msgstr "بخش پیش‌فرض/مشخص‌نشده"
+
+#: devicepreference.cpp:869
+#, kde-format
+msgid "Failed to set the selected audio output device"
+msgstr "تنتظیم دستگاه صدای انتخابی شکست خورد"
+
+#: devicepreference.cpp:899
+#, kde-format
+msgid "Your backend may not support audio recording"
+msgstr "پایانه‌ي پشتیبانی شما ممکن است از ضبط صدا پشتیبانی نکند."
+
+#: devicepreference.cpp:920
+#, kde-format
+msgid "Your backend may not support video recording"
+msgstr "پایانه‌ي پشتیبانی شما ممکن است از ضبط تصویر پشتیبانی نکند."
+
+#: devicepreference.cpp:930
+#, kde-format
+msgid "Testing %1"
+msgstr "در حال امتحان %1"
+
+#. i18n: ectx: property (toolTip), widget (QTreeView, categoryTree)
+#. i18n: ectx: property (whatsThis), widget (QTreeView, categoryTree)
+#: devicepreference.ui:29 devicepreference.ui:32
+#, kde-format
+msgid ""
+"Various categories of media use cases.  For each category, you may choose "
+"what device you prefer to be used by the Phonon applications."
+msgstr ""
+"دسته های گوناگون استفاده‌های رسانه. برای هر دسته ممکن است دستگاهی که می‌خواهید "
+"خروجی از آن باشد را انتخاب کنید."
+
+#. i18n: ectx: property (text), widget (QCheckBox, showAdvancedDevicesCheckBox)
+#: devicepreference.ui:47
+#, kde-format
+msgid "Show advanced devices"
+msgstr "نمایش دستگاه‌های پیشرفته"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, applyPreferencesButton)
+#. i18n: ectx: property (whatsThis), widget (QPushButton, applyPreferencesButton)
+#: devicepreference.ui:77 devicepreference.ui:80
+#, kde-format
+msgid "Use the currently shown device list for more categories."
+msgstr "از لیست دستگاه‌های نشان داده شده برای بخش‌های بیشتر استفاده کن."
+
+#. i18n: ectx: property (text), widget (QPushButton, applyPreferencesButton)
+#: devicepreference.ui:83
+#, kde-format
+msgid "Apply Device List To..."
+msgstr "اعمال لیست دستگاه‌ها به..."
+
+#. i18n: ectx: property (toolTip), widget (QTreeView, deviceList)
+#: devicepreference.ui:113
+#, kde-format
+msgid ""
+"Devices found on your system, suitable for the selected category.  Choose "
+"the device that you wish to be used by the applications."
+msgstr ""
+"دستگاه‌هایی متناسب برای بخش‌های انتخاب شده روی سیستمتان یافت شد.  دستگاهی را "
+"انتخاب کنید که می‌خواهید توسط نرم‌افزارها استفاده شود."
+
+#. i18n: ectx: property (whatsThis), widget (QTreeView, deviceList)
+#: devicepreference.ui:116
+#, kde-format
+msgid ""
+"The order determines the preference of the devices. If for some reason the "
+"first device cannot be used Phonon will try to use the second, and so on."
+msgstr ""
+"ترتیب، تنظیم دستگاههای خروجی را تعیین می‌کند. اگر به دلایلی دستگاه اول "
+"نتوانست استفاده شود، Phonon سعی در استفاده از دستگاه دوم می‌کند و به همین "
+"ترتیب."
+
+#. i18n: ectx: property (text), widget (QToolButton, testPlaybackButton)
+#: devicepreference.ui:171
+#, kde-format
+msgid "Test"
+msgstr "آزمون"
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, preferButton)
+#: devicepreference.ui:187
+#, kde-format
+msgid "prefer the selected device"
+msgstr "ترجیح دستگاه برگزیده"
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, deferButton)
+#: devicepreference.ui:203
+#, kde-format
+msgid "no preference for the selected device"
+msgstr "تنظیمی برای دستگاه برگزیده وجود ندارد"
+
+#: main.cpp:40
+#, kde-format
+msgid "Phonon Configuration Module"
+msgstr "پیمانه‌ی پیکربندی Phonon"
+
+#: main.cpp:42
+#, kde-format
+msgid "Copyright 2006 Matthias Kretz"
+msgstr "حق نشر ۲۰۰۶ Matthias Kretz"
+
+#: main.cpp:43
+#, kde-format
+msgid "Matthias Kretz"
+msgstr "Matthias Kretz"
+
+#: main.cpp:44
+#, kde-format
+msgid "Colin Guthrie"
+msgstr "Colin Guthrie"
+
+#: main.cpp:55
+#, kde-format
+msgid "Device Preference"
+msgstr "تنظیم دستگاه"
+
+#: main.cpp:57
+#, kde-format
+msgid "Backend"
+msgstr "پایانه‌ی پشتیبانی"

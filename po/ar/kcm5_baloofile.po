@@ -1,0 +1,98 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Abdalrahim G. Fakhouri <abdilra7eem@yahoo.com>, 2014.
+# Safa Alfulaij <safa1996alfulaij@gmail.com>, ٢٠١٥.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"PO-Revision-Date: ٢٠١٥-٠٨-١٨ ١٣:٤٩+0300\n"
+"Last-Translator: Safa Alfulaij <safa1996alfulaij@gmail.com>\n"
+"Language-Team: Arabic <doc@arabeyes.org>\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"X-Generator: Lokalize 2.0\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "عبدالرحيم الفاخوري"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "abdilra7eem@yahoo.com"
+
+#. i18n: ectx: property (text), widget (QLabel, m_mainLabel)
+#: configwidget.ui:26
+#, kde-format
+msgid ""
+"File Search helps you quickly locate all your files based on their content"
+msgstr "يسمح لك بحث الملفّات بإيجاد كلّ ملفّاتك بسرعة وذلك بناءً على محتواها"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_enableCheckbox)
+#: configwidget.ui:38
+#, kde-format
+msgid "Enable File Search"
+msgstr "فعّل بحث الملفّات"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_enableContentIndexing)
+#: configwidget.ui:45
+#, kde-format
+msgid "Also index file content"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, m_excludeLabel)
+#: configwidget.ui:76
+#, fuzzy, kde-format
+#| msgid "Do not search in these locations"
+msgid "Do not search in these locations:"
+msgstr "لا تبحث في هذه الأماكن"
+
+#: folderselectionwidget.cpp:202
+#, kde-format
+msgid "Select the folder which should be excluded"
+msgstr "حدّد المجلّدات التي يجب استثناؤها"
+
+#: folderselectionwidget.cpp:212
+#, kde-format
+msgid ""
+"Not allowed to exclude root folder, please disable File Search if you do not "
+"want it"
+msgstr ""
+
+#: folderselectionwidget.cpp:226
+#, kde-format
+msgid "Folder %1 is already excluded"
+msgstr "المجلّد %1 مُستثنى بالفعل"
+
+#: folderselectionwidget.cpp:247
+#, kde-format
+msgid "Folder's parent %1 is already excluded"
+msgstr "المجلّد الأبّ %1 مُستثنى بالفعل"
+
+#: kcm.cpp:60
+#, kde-format
+msgid "Configure File Search"
+msgstr "اضبط بحث الملفّات"
+
+#: kcm.cpp:62
+#, kde-format
+msgid "Copyright 2007-2010 Sebastian Trüg"
+msgstr "الحقوق محفوظة 2007-2010 Sebastian Trüg"
+
+#: kcm.cpp:63
+#, kde-format
+msgid "Sebastian Trüg"
+msgstr "Sebastian Trüg"
+
+#: kcm.cpp:64
+#, kde-format
+msgid "Vishesh Handa"
+msgstr "Vishesh Handa"

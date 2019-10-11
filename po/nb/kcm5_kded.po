@@ -1,0 +1,158 @@
+# Translation of kcm5_kded to Norwegian Bokmål
+#
+# Knut Yrvin <knut.yrvin@gmail.com>, 2004.
+# Axel Bojer <fri_programvare@bojer.no>, 2005.
+# Bjørn Steensrud <bjornst@skogkatt.homelinux.org>, 2008, 2015.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmkded\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"PO-Revision-Date: 2015-02-06 22:25+0100\n"
+"Last-Translator: Bjørn Steensrud <bjornst@skogkatt.homelinux.org>\n"
+"Language-Team: Norwegian Bokmål <i18n-nb@lister.ping.uio.no>\n"
+"Language: nb\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Environment: kde\n"
+"X-Accelerator-Marker: &\n"
+"X-Text-Markup: kde4\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Knut Yrvin"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "knut.yrvin@gmail.com"
+
+#: kcmkded.cpp:79
+#, kde-format
+msgid "kcmkded"
+msgstr "kcmkded"
+
+#: kcmkded.cpp:79
+#, kde-format
+msgid "KDE Service Manager"
+msgstr "KDE-tjenestehåndterer"
+
+#: kcmkded.cpp:81
+#, kde-format
+msgid "(c) 2002 Daniel Molkentin"
+msgstr "© 2002 Daniel Molkentin"
+
+#: kcmkded.cpp:82
+#, kde-format
+msgid "Daniel Molkentin"
+msgstr "Daniel Molkentin"
+
+#: kcmkded.cpp:85
+#, kde-format
+msgid ""
+"<h1>Service Manager</h1><p>This module allows you to have an overview of all "
+"plugins of the KDE Daemon, also referred to as KDE Services. Generally, "
+"there are two types of service:</p><ul><li>Services invoked at startup</"
+"li><li>Services called on demand</li></ul><p>The latter are only listed for "
+"convenience. The startup services can be started and stopped. In "
+"Administrator mode, you can also define whether services should be loaded at "
+"startup.</p><p><b> Use this with care: some services are vital for Plasma; "
+"do not deactivate services if you do not know what you are doing.</b></p>"
+msgstr ""
+
+#: kcmkded.cpp:93
+#, kde-format
+msgid "Running"
+msgstr "Kjører"
+
+#: kcmkded.cpp:94
+#, kde-format
+msgid "Not running"
+msgstr "Kjører ikke"
+
+#: kcmkded.cpp:99
+#, kde-format
+msgid "Load-on-Demand Services"
+msgstr "Når-det-trengs-tjenester"
+
+#: kcmkded.cpp:100
+#, kde-format
+msgid ""
+"This is a list of available KDE services which will be started on demand. "
+"They are only listed for convenience, as you cannot manipulate these "
+"services."
+msgstr ""
+"Dette er en liste over tilgjengelige KDE-tjenester som kan startes når de "
+"trengs. Denne lista er bare en oversikt, tjenestene kan ikke endres."
+
+#: kcmkded.cpp:109 kcmkded.cpp:131
+#, kde-format
+msgid "Service"
+msgstr "Tjeneste"
+
+#: kcmkded.cpp:110 kcmkded.cpp:132
+#, kde-format
+msgid "Status"
+msgstr "Status"
+
+#: kcmkded.cpp:111 kcmkded.cpp:133
+#, kde-format
+msgid "Description"
+msgstr "Beskrivelse"
+
+#: kcmkded.cpp:120
+#, kde-format
+msgid "Startup Services"
+msgstr "Oppstartstjenester"
+
+#: kcmkded.cpp:121
+#, kde-format
+msgid ""
+"This shows all KDE services that can be loaded on Plasma startup. Checked "
+"services will be invoked on next startup. Be careful with deactivation of "
+"unknown services."
+msgstr ""
+
+#: kcmkded.cpp:130
+#, kde-format
+msgid "Use"
+msgstr "Bruk"
+
+#: kcmkded.cpp:143
+#, kde-format
+msgid "Start"
+msgstr "Start"
+
+#: kcmkded.cpp:144
+#, kde-format
+msgid "Stop"
+msgstr "Stopp"
+
+#: kcmkded.cpp:325
+#, kde-format
+msgid "Unable to contact KDED."
+msgstr "Klarer ikke å kontakte KDED."
+
+#: kcmkded.cpp:469
+#, kde-format
+msgid "Unable to start server <em>%1</em>."
+msgstr "Klarer ikke å starte tjenesten <em>%1</em>."
+
+#: kcmkded.cpp:472
+#, kde-format
+msgid "Unable to start service <em>%1</em>.<br /><br /><i>Error: %2</i>"
+msgstr "Klarer ikke å starte tjenesten <em>%1</em>.<br /><br /><i>Feil: %2</i>"
+
+#: kcmkded.cpp:489
+#, kde-format
+msgid "Unable to stop service <em>%1</em>."
+msgstr "Klarer ikke å stanse tjenesten <em>%1</em>."
+
+#: kcmkded.cpp:492
+#, kde-format
+msgid "Unable to stop service <em>%1</em>.<br /><br /><i>Error: %2</i>"
+msgstr "Klarer ikke å stanse tjenesten <em>%1</em>.<br /><br /><i>Feil: %2</i>"

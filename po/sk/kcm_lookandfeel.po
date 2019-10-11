@@ -1,0 +1,122 @@
+# translation of kcm_lookandfeel.po to Slovak
+# Roman Paholík <wizzardsk@gmail.com>, 2014, 2015, 2016, 2017, 2018, 2019.
+# Mthw <jari_45@hotmail.com>, 2018, 2019.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcm_lookandfeel\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"PO-Revision-Date: 2019-08-30 20:18+0200\n"
+"Last-Translator: Roman Paholík <wizzardsk@gmail.com>\n"
+"Language-Team: Slovak <kde-sk@linux.sk>\n"
+"Language: sk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 18.12.3\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Roman Paholík"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "wizzardsk@gmail.com"
+
+#: kcm.cpp:76
+#, kde-format
+msgid "Look and Feel"
+msgstr "Podrobnosti vzhľadu"
+
+#: kcm.cpp:78 lnftool.cpp:43
+#, kde-format
+msgid "Marco Martin"
+msgstr "Marco Martin"
+
+#: kcm.cpp:112
+#, kde-format
+msgid "Download New Look and Feel Themes"
+msgstr "Stiahnuť nové balíky vzhľadu"
+
+#: kcm.cpp:572
+#, kde-format
+msgid ""
+"You have to restart the Plasma session for these changes to take effect."
+msgstr "Musíte reštartovať Plasmu, aby sa vlastné zmeny prejavili."
+
+#: kcm.cpp:573
+#, kde-format
+msgid "Cursor Settings Changed"
+msgstr "Nastavenie kurzora zmenené"
+
+#: lnftool.cpp:42
+#, kde-format
+msgid "Look and feel tool"
+msgstr "Nastaviť podrobnosti vzhľadu"
+
+#: lnftool.cpp:42
+#, kde-format
+msgid "Command line tool to apply look and feel packages."
+msgstr "Nástroj príkazového riadku na použitie balíkov vzhľadu."
+
+#: lnftool.cpp:42
+#, kde-format
+msgid "Copyright 2017, Marco Martin"
+msgstr "Copyright 2017, Marco Martin"
+
+#: lnftool.cpp:43
+#, kde-format
+msgid "Maintainer"
+msgstr "Správca"
+
+#: lnftool.cpp:52
+#, kde-format
+msgid "List available Look and feel packages"
+msgstr "Zoznam dostupných balíkov vzhľadu"
+
+#: lnftool.cpp:54
+#, kde-format
+msgid "Apply a look and feel package"
+msgstr "Použiť balík vzhľadu"
+
+#: lnftool.cpp:54
+#, kde-format
+msgid "packagename"
+msgstr "packagename"
+
+#: lnftool.cpp:56
+#, kde-format
+msgid "Reset the Plasma Desktop layout"
+msgstr "Vynulovať rozloženie plochy Plasma"
+
+#: package/contents/ui/main.qml:28
+#, kde-format
+msgid "This module lets you choose the Look and Feel theme."
+msgstr "Tento modul vám umožní nastaviť vzhľad pracovnej plochy."
+
+#: package/contents/ui/main.qml:49
+#, kde-format
+msgid "Preview Theme"
+msgstr "Náhlľad témy"
+
+#: package/contents/ui/main.qml:67
+#, kde-format
+msgid ""
+"Your desktop layout will be lost and reset to the default layout provided by "
+"the selected theme."
+msgstr ""
+"Vaše rozloženie plochy sa stratí a vynuluje na predvolený vzhľad pokytnutý "
+"vybranou témou."
+
+#: package/contents/ui/main.qml:77
+#, kde-format
+msgid "Use desktop layout from theme"
+msgstr "Použiť rozloženie plochy z témy"
+
+#: package/contents/ui/main.qml:84
+#, kde-format
+msgid "Get New Look and Feel Themes..."
+msgstr "Získať nové vzhľady..."

@@ -1,0 +1,262 @@
+# translation of kcm_phonon.po to Telugu
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Vijay Kiran Kamuju <infyquest@gmail.com>, 2008.
+# Krishna Babu K <kkrothap@redhat.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcm_phonon\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"PO-Revision-Date: 2009-01-16 22:16+0530\n"
+"Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
+"Language-Team: Telugu <en@li.org>\n"
+"Language: te\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "విజయ్ కిరణ్ కముజు"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "infyquest@gmail.com"
+
+#: backendselection.cpp:74
+#, kde-format
+msgctxt "@info User changed Phonon backend"
+msgid "To apply the backend change you will have to log out and back in again."
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QListWidget, m_select)
+#. i18n: ectx: property (whatsThis), widget (QListWidget, m_select)
+#: backendselection.ui:38 backendselection.ui:41
+#, kde-format
+msgid ""
+"A list of Phonon Backends found on your system.  The order here determines "
+"the order Phonon will use them in."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QToolButton, m_up)
+#. i18n: ectx: property (text), widget (QToolButton, preferButton)
+#: backendselection.ui:57 devicepreference.ui:190
+#, kde-format
+msgid "Prefer"
+msgstr "అభీష్ట"
+
+#. i18n: ectx: property (text), widget (QToolButton, m_down)
+#. i18n: ectx: property (text), widget (QToolButton, deferButton)
+#: backendselection.ui:70 devicepreference.ui:206
+#, kde-format
+msgid "Defer"
+msgstr "విభేదం"
+
+#: devicepreference.cpp:92
+#, kde-format
+msgid "Audio Playback"
+msgstr ""
+
+#: devicepreference.cpp:106
+#, kde-format
+msgid "Audio Recording"
+msgstr ""
+
+#: devicepreference.cpp:109
+#, kde-format
+msgid "Video Recording"
+msgstr ""
+
+#: devicepreference.cpp:112
+#, kde-format
+msgid "Invalid"
+msgstr ""
+
+#: devicepreference.cpp:152
+#, fuzzy, kde-format
+#| msgid "prefer the selected device"
+msgid "Test the selected device"
+msgstr "ఎంపికచేసిన పరికరమును అభీష్టముచేయుము"
+
+#: devicepreference.cpp:176 devicepreference.cpp:183 devicepreference.cpp:190
+#, kde-format
+msgid ""
+"Defines the default ordering of devices which can be overridden by "
+"individual categories."
+msgstr "స్వతంత్ర వర్గముల చేత ఓవర్‌రైడ్ కాగల పరికరముల యొక్క అప్రమేయ క్రమమును నిర్వచిస్తుంది."
+
+#: devicepreference.cpp:306
+#, fuzzy, kde-format
+#| msgid "Default Capture Device Preference"
+msgid "Default Audio Playback Device Preference"
+msgstr "అప్రమేయ కాప్చర్ పరికరము అభీష్టము"
+
+#: devicepreference.cpp:309
+#, fuzzy, kde-format
+#| msgid "Default Capture Device Preference"
+msgid "Default Audio Recording Device Preference"
+msgstr "అప్రమేయ కాప్చర్ పరికరము అభీష్టము"
+
+#: devicepreference.cpp:312
+#, fuzzy, kde-format
+#| msgid "Default Capture Device Preference"
+msgid "Default Video Recording Device Preference"
+msgstr "అప్రమేయ కాప్చర్ పరికరము అభీష్టము"
+
+#: devicepreference.cpp:319
+#, fuzzy, kde-format
+#| msgid "Capture Device Preference for the '%1' Category"
+msgid "Audio Playback Device Preference for the '%1' Category"
+msgstr "'%1' వర్గము కొరకు కాప్చర్ పరికరము అభీష్టము"
+
+#: devicepreference.cpp:323
+#, fuzzy, kde-format
+#| msgid "Capture Device Preference for the '%1' Category"
+msgid "Audio Recording Device Preference for the '%1' Category"
+msgstr "'%1' వర్గము కొరకు కాప్చర్ పరికరము అభీష్టము"
+
+#: devicepreference.cpp:327
+#, fuzzy, kde-format
+#| msgid "Capture Device Preference for the '%1' Category"
+msgid "Video Recording Device Preference for the '%1' Category "
+msgstr "'%1' వర్గము కొరకు కాప్చర్ పరికరము అభీష్టము"
+
+#: devicepreference.cpp:752
+#, fuzzy, kde-format
+#| msgid ""
+#| "Apply the currently shown device preference list to the following other "
+#| "audio output categories:"
+msgid ""
+"Apply the currently shown device preference list to the following other "
+"audio playback categories:"
+msgstr ""
+"క్రింది యితర ఆడియో అవట్‌పుట్ వర్గములకు ప్రస్తుతం చూపించబడుతున్న పరికరపు అభీష్ట జాబితాను ఆపాదించుము:"
+
+#: devicepreference.cpp:765 devicepreference.cpp:771
+#, kde-format
+msgid "Default/Unspecified Category"
+msgstr "అప్రమేయ/తెలుపని వర్గము"
+
+#: devicepreference.cpp:869
+#, fuzzy, kde-format
+#| msgid "prefer the selected device"
+msgid "Failed to set the selected audio output device"
+msgstr "ఎంపికచేసిన పరికరమును అభీష్టముచేయుము"
+
+#: devicepreference.cpp:899
+#, kde-format
+msgid "Your backend may not support audio recording"
+msgstr ""
+
+#: devicepreference.cpp:920
+#, kde-format
+msgid "Your backend may not support video recording"
+msgstr ""
+
+#: devicepreference.cpp:930
+#, kde-format
+msgid "Testing %1"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QTreeView, categoryTree)
+#. i18n: ectx: property (whatsThis), widget (QTreeView, categoryTree)
+#: devicepreference.ui:29 devicepreference.ui:32
+#, kde-format
+msgid ""
+"Various categories of media use cases.  For each category, you may choose "
+"what device you prefer to be used by the Phonon applications."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, showAdvancedDevicesCheckBox)
+#: devicepreference.ui:47
+#, fuzzy, kde-format
+#| msgid "Show Advanced Devices"
+msgid "Show advanced devices"
+msgstr "ఆధునిక పరికరాలు చూపు"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, applyPreferencesButton)
+#. i18n: ectx: property (whatsThis), widget (QPushButton, applyPreferencesButton)
+#: devicepreference.ui:77 devicepreference.ui:80
+#, fuzzy, kde-format
+#| msgid ""
+#| "Apply the currently shown device preference list to the following other "
+#| "audio output categories:"
+msgid "Use the currently shown device list for more categories."
+msgstr ""
+"క్రింది యితర ఆడియో అవట్‌పుట్ వర్గములకు ప్రస్తుతం చూపించబడుతున్న పరికరపు అభీష్ట జాబితాను ఆపాదించుము:"
+
+#. i18n: ectx: property (text), widget (QPushButton, applyPreferencesButton)
+#: devicepreference.ui:83
+#, kde-format
+msgid "Apply Device List To..."
+msgstr "పరికరము జాబితాను దీనికి ఆపాదించుము..."
+
+#. i18n: ectx: property (toolTip), widget (QTreeView, deviceList)
+#: devicepreference.ui:113
+#, kde-format
+msgid ""
+"Devices found on your system, suitable for the selected category.  Choose "
+"the device that you wish to be used by the applications."
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (QTreeView, deviceList)
+#: devicepreference.ui:116
+#, kde-format
+msgid ""
+"The order determines the preference of the devices. If for some reason the "
+"first device cannot be used Phonon will try to use the second, and so on."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QToolButton, testPlaybackButton)
+#: devicepreference.ui:171
+#, kde-format
+msgid "Test"
+msgstr "పరీక్ష"
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, preferButton)
+#: devicepreference.ui:187
+#, kde-format
+msgid "prefer the selected device"
+msgstr "ఎంపికచేసిన పరికరమును అభీష్టముచేయుము"
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, deferButton)
+#: devicepreference.ui:203
+#, kde-format
+msgid "no preference for the selected device"
+msgstr "ఎంపికచేసిన పరికరముకు యెటువంటి అభీష్టములేదు"
+
+#: main.cpp:40
+#, kde-format
+msgid "Phonon Configuration Module"
+msgstr "ఫోనాన్ ఆకృతీకరణ మాడ్యూల్"
+
+#: main.cpp:42
+#, kde-format
+msgid "Copyright 2006 Matthias Kretz"
+msgstr "కాపీ రైట్ 2006 మథైయాస్ క్రెట్జ్"
+
+#: main.cpp:43
+#, kde-format
+msgid "Matthias Kretz"
+msgstr "మథైయాస్ క్రెట్జ్"
+
+#: main.cpp:44
+#, kde-format
+msgid "Colin Guthrie"
+msgstr ""
+
+#: main.cpp:55
+#, kde-format
+msgid "Device Preference"
+msgstr "పరికరము పనితనము"
+
+#: main.cpp:57
+#, kde-format
+msgid "Backend"
+msgstr "బేక్ ఎండ్"

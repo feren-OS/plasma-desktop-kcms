@@ -1,0 +1,78 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Weng Xuetian <wengxt@gmail.com>, 2014.
+# Guo Yunhe <guoyunhebrave@gmail.com>, 2017.
+msgid ""
+msgstr ""
+"Project-Id-Version: kdeorg\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"PO-Revision-Date: 2019-08-16 17:06\n"
+"Last-Translator: Guo Yunhe (guoyunhe)\n"
+"Language-Team: Chinese Simplified\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: kdeorg\n"
+"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-File: /kf5-stable/messages/kde-workspace/kcm_workspace.pot\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "KDE China,Weng Xuetian,Guo Yunhe"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-china@kde.org,wengxt@gmail.com,i@guoyunhe.me"
+
+#: package/contents/ui/main.qml:37
+#, kde-format
+msgid "Visual behavior:"
+msgstr "视觉行为："
+
+#: package/contents/ui/main.qml:38
+#, kde-format
+msgid "Display informational tooltips on mouse hover"
+msgstr "在鼠标悬停时显示工具提示信息"
+
+#: package/contents/ui/main.qml:45
+#, kde-format
+msgid "Display visual feedback for status changes"
+msgstr "为状态更改显示视觉反馈"
+
+#: package/contents/ui/main.qml:64
+#, kde-format
+msgid "Click behavior:"
+msgstr "点击行为："
+
+#: package/contents/ui/main.qml:65
+#, kde-format
+msgid "Single-click to open files and folders"
+msgstr "单击打开文件和文件夹"
+
+#: package/contents/ui/main.qml:72
+#, kde-format
+msgid "Double-click to open files and folders (single click to select)"
+msgstr "双击打开文件和文件夹 (单击以选择)"
+
+#: workspaceoptions.cpp:40
+#, kde-format
+msgid "Plasma Workspace global options"
+msgstr "Plasma 工作空间全局选项"
+
+#: workspaceoptions.cpp:42
+#, kde-format
+msgid ""
+"System Settings module for managing global options for the Plasma Workspace."
+msgstr "用于管理 Plasma 工作空间的全局选项的系统设置模块。"
+
+#: workspaceoptions.cpp:45
+#, kde-format
+msgid "Furkan Tokac"
+msgstr "Furkan Tokac"

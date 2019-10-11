@@ -1,0 +1,241 @@
+# translation of kcmkonq.po to Kannada
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Shankar Prasad <svenkate@redhat.com>, 2007, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmkonq\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"PO-Revision-Date: 2008-12-28 23:57+0530\n"
+"Last-Translator: Shankar Prasad <svenkate@redhat.com>\n"
+"Language-Team: Kannada <en@li.org>\n"
+"Language: kn\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: globalpaths.cpp:113
+#, kde-format
+msgid ""
+"<h1>Paths</h1>\n"
+"This module allows you to choose where in the filesystem the files on your "
+"desktop should be stored.\n"
+"Use the \"Whats This?\" (Shift+F1) to get help on specific options."
+msgstr ""
+"<h1>ಮಾರ್ಗಗಳು</h1>\n"
+"ಯಾವಾಗಲೂ ನಿಮ್ಮ ಗಣಕತೆರೆಯಲ್ಲಿನ ಕಡತವ್ಯವಸ್ಥೆಯಲ್ಲಿ ಎಲ್ಲಿ ಕಡತವನ್ನು ಶೇಖರಿಸಡಬೇಕು ಎಂದು ನೀವು "
+"ನಿರ್ಧರಿಸಲು ಈ ಘಟಕವು ಅನುವು ಮಾಡಿಕೊಡುತ್ತದೆ.\n"
+"ನಿಗದಿತ ಆಯ್ಕೆಗಳ ಬಗ್ಗೆ ಸಹಾಯ ಪಡೆಯಲು \"ಏನಿದು?\" (ಶಿಫ್ಟ್+F1) ಅನ್ನು ಬಳಸಿ."
+
+#: globalpaths.cpp:118
+#, fuzzy, kde-format
+#| msgid "Des&ktop path:"
+msgid "Desktop path:"
+msgstr "ಗಣಕತೆರೆಯ ಪಥ(&k):"
+
+#: globalpaths.cpp:119
+#, kde-format
+msgid ""
+"This folder contains all the files which you see on your desktop. You can "
+"change the location of this folder if you want to, and the contents will "
+"move automatically to the new location as well."
+msgstr ""
+"ಈ ಕಡತಕೋಶವು ನೀವು ಗಣಕತೆರೆಯ ಮೇಲೆ ನೋಡುವ ಎಲ್ಲಾ ಕಡತಗಳನ್ನು ಹೊಂದಿರುತ್ತದೆ. ನೀವು ಬಯಸಿದಲ್ಲಿ "
+"ಈ ಕಡತಕೋಶದ ಸ್ಥಳವನ್ನು ಬದಲಾಯಿಸಬಹುದು, ಹಾಗು ಅದರಲ್ಲಿರುವದೆಲ್ಲಾ ತನ್ನಿಂದ ತಾನಾಗಿಯೆ ಹೊಸ "
+"ಸ್ಥಳಕ್ಕೆ ವರ್ಗಾಯಿಸಲ್ಪಡುತ್ತವೆ."
+
+#: globalpaths.cpp:124
+#, fuzzy, kde-format
+#| msgid "A&utostart path:"
+msgid "Autostart path:"
+msgstr "ಸ್ವಯಂ ಆರಂಭದ ಪಥ(&u):"
+
+#: globalpaths.cpp:125
+#, fuzzy, kde-format
+#| msgid ""
+#| "This folder contains applications or links to applications (shortcuts) "
+#| "that you want to have started automatically whenever KDE starts. You can "
+#| "change the location of this folder if you want to, and the contents will "
+#| "move automatically to the new location as well."
+msgid ""
+"This folder contains applications or links to applications (shortcuts) that "
+"you want to have started automatically whenever the session starts. You can "
+"change the location of this folder if you want to, and the contents will "
+"move automatically to the new location as well."
+msgstr ""
+"ಈ ಕಡತಕೋಶವು ಕೆಡಿಇ ಆರಂಭಗೊಂಡಾಗಲೆಲ್ಲಾ ತನ್ನಿಂದ ತಾನೆ ಆರಂಭಗೊಳ್ಳಲು ನೀವು ಬಯಸುವ ಅನ್ವಯಗಳ "
+"ಅಥವ ಅನ್ವಯಗಳಿಗಾಗಿನ ಕೊಂಡಿಗಳು (ಶಾರ್ಟ್-ಕಟ್‌ಗಳು). ನೀವು ಬಯಸಿದಲ್ಲಿ ಈ ಕಡತಕೋಶದ ಸ್ಥಳವನ್ನು "
+"ಬದಲಾಯಿಸಬಹುದು, ಹಾಗು ಅದರಲ್ಲಿರುವ ವಿಷಯಗಳು ತಾನಾಗಿಯೆ ಹೊಸ ಸ್ಥಳಕ್ಕೆ ವರ್ಗಾಯಿಸಲ್ಪಡುತ್ತವೆ."
+
+#: globalpaths.cpp:131
+#, fuzzy, kde-format
+#| msgid "D&ocuments path:"
+msgid "Documents path:"
+msgstr "ದಸ್ತಾವೇಜುಗಳ ಪಥ(&o):"
+
+#: globalpaths.cpp:132
+#, kde-format
+msgid ""
+"This folder will be used by default to load or save documents from or to."
+msgstr ""
+"ಈ ಕಡತಕೋಶಕ್ಕೆ ಕಡತಗಳನ್ನು ಉಳಿಸಲು ಹಾಗು ಈ ಕಡತಕೋಶದಿಂದ ಕಡತಗಳನ್ನು ಲೋಡ್ ಮಾಡಲು ಇದು "
+"ಪೂರ್ವನಿಯೋಜಿತವಾಗಿ ಬಳಸಲ್ಪಡುತ್ತದೆ."
+
+#: globalpaths.cpp:135
+#, fuzzy, kde-format
+#| msgid "D&ocuments path:"
+msgid "Downloads path:"
+msgstr "ದಸ್ತಾವೇಜುಗಳ ಪಥ(&o):"
+
+#: globalpaths.cpp:136
+#, fuzzy, kde-format
+#| msgid ""
+#| "This folder will be used by default to load or save documents from or to."
+msgid "This folder will be used by default to save your downloaded items."
+msgstr ""
+"ಈ ಕಡತಕೋಶಕ್ಕೆ ಕಡತಗಳನ್ನು ಉಳಿಸಲು ಹಾಗು ಈ ಕಡತಕೋಶದಿಂದ ಕಡತಗಳನ್ನು ಲೋಡ್ ಮಾಡಲು ಇದು "
+"ಪೂರ್ವನಿಯೋಜಿತವಾಗಿ ಬಳಸಲ್ಪಡುತ್ತದೆ."
+
+#: globalpaths.cpp:139
+#, fuzzy, kde-format
+#| msgid "D&ocuments path:"
+msgid "Movies path:"
+msgstr "ದಸ್ತಾವೇಜುಗಳ ಪಥ(&o):"
+
+#: globalpaths.cpp:140
+#, fuzzy, kde-format
+#| msgid ""
+#| "This folder will be used by default to load or save documents from or to."
+msgid "This folder will be used by default to load or save movies from or to."
+msgstr ""
+"ಈ ಕಡತಕೋಶಕ್ಕೆ ಕಡತಗಳನ್ನು ಉಳಿಸಲು ಹಾಗು ಈ ಕಡತಕೋಶದಿಂದ ಕಡತಗಳನ್ನು ಲೋಡ್ ಮಾಡಲು ಇದು "
+"ಪೂರ್ವನಿಯೋಜಿತವಾಗಿ ಬಳಸಲ್ಪಡುತ್ತದೆ."
+
+#: globalpaths.cpp:143
+#, fuzzy, kde-format
+#| msgid "D&ocuments path:"
+msgid "Pictures path:"
+msgstr "ದಸ್ತಾವೇಜುಗಳ ಪಥ(&o):"
+
+#: globalpaths.cpp:144
+#, fuzzy, kde-format
+#| msgid ""
+#| "This folder will be used by default to load or save documents from or to."
+msgid ""
+"This folder will be used by default to load or save pictures from or to."
+msgstr ""
+"ಈ ಕಡತಕೋಶಕ್ಕೆ ಕಡತಗಳನ್ನು ಉಳಿಸಲು ಹಾಗು ಈ ಕಡತಕೋಶದಿಂದ ಕಡತಗಳನ್ನು ಲೋಡ್ ಮಾಡಲು ಇದು "
+"ಪೂರ್ವನಿಯೋಜಿತವಾಗಿ ಬಳಸಲ್ಪಡುತ್ತದೆ."
+
+#: globalpaths.cpp:147
+#, fuzzy, kde-format
+#| msgid "D&ocuments path:"
+msgid "Music path:"
+msgstr "ದಸ್ತಾವೇಜುಗಳ ಪಥ(&o):"
+
+#: globalpaths.cpp:148
+#, fuzzy, kde-format
+#| msgid ""
+#| "This folder will be used by default to load or save documents from or to."
+msgid "This folder will be used by default to load or save music from or to."
+msgstr ""
+"ಈ ಕಡತಕೋಶಕ್ಕೆ ಕಡತಗಳನ್ನು ಉಳಿಸಲು ಹಾಗು ಈ ಕಡತಕೋಶದಿಂದ ಕಡತಗಳನ್ನು ಲೋಡ್ ಮಾಡಲು ಇದು "
+"ಪೂರ್ವನಿಯೋಜಿತವಾಗಿ ಬಳಸಲ್ಪಡುತ್ತದೆ."
+
+#: globalpaths.cpp:277 globalpaths.cpp:295
+#, kde-format
+msgid "Autostart"
+msgstr "ಸ್ವಯಂ ಆರಂಭ"
+
+#: globalpaths.cpp:281
+#, kde-format
+msgid "Desktop"
+msgstr "ಗಣಕತೆರೆ"
+
+#: globalpaths.cpp:305
+#, fuzzy, kde-format
+#| msgid "D&ocuments path:"
+msgid "Documents"
+msgstr "ದಸ್ತಾವೇಜುಗಳ ಪಥ(&o):"
+
+#: globalpaths.cpp:308
+#, fuzzy, kde-format
+#| msgid "D&ocuments path:"
+msgid "Downloads"
+msgstr "ದಸ್ತಾವೇಜುಗಳ ಪಥ(&o):"
+
+#: globalpaths.cpp:311
+#, fuzzy, kde-format
+#| msgctxt "Move desktop files from old to new place"
+#| msgid "Move"
+msgid "Movies"
+msgstr "ಸ್ಥಳಾಂತರಿಸು"
+
+#: globalpaths.cpp:314
+#, fuzzy, kde-format
+#| msgid "D&ocuments path:"
+msgid "Pictures"
+msgstr "ದಸ್ತಾವೇಜುಗಳ ಪಥ(&o):"
+
+#: globalpaths.cpp:317
+#, kde-format
+msgid "Music"
+msgstr ""
+
+#: globalpaths.cpp:376
+#, kde-format
+msgid ""
+"The path for '%1' has been changed.\n"
+"Do you want the files to be moved from '%2' to '%3'?"
+msgstr ""
+"'%1' ನ ಪಥವು ಬದಲಾಗಿದೆ.\n"
+"ಕಡತಗಳನ್ನು ನೀವು '%2' ನಿಂದ '%3' ಗೆ ಜರುಗಿಸಲು ಇಚ್ಛಿಸುತ್ತೀರ?"
+
+#: globalpaths.cpp:379
+#, fuzzy, kde-format
+#| msgctxt "Move desktop files from old to new place"
+#| msgid "Move"
+msgctxt "Move files from old to new place"
+msgid "Move"
+msgstr "ಸ್ಥಳಾಂತರಿಸು"
+
+#: globalpaths.cpp:380
+#, kde-format
+msgctxt "Use the new directory but do not move files"
+msgid "Do not Move"
+msgstr ""
+
+#: globalpaths.cpp:382
+#, fuzzy, kde-format
+#| msgid ""
+#| "The path for '%1' has been changed.\n"
+#| "Do you want the files to be moved from '%2' to '%3'?"
+msgid ""
+"The path for '%1' has been changed.\n"
+"Do you want to move the directory '%2' to '%3'?"
+msgstr ""
+"'%1' ನ ಪಥವು ಬದಲಾಗಿದೆ.\n"
+"ಕಡತಗಳನ್ನು ನೀವು '%2' ನಿಂದ '%3' ಗೆ ಜರುಗಿಸಲು ಇಚ್ಛಿಸುತ್ತೀರ?"
+
+#: globalpaths.cpp:385
+#, fuzzy, kde-format
+#| msgctxt "Move desktop files from old to new place"
+#| msgid "Move"
+msgctxt "Move the directory"
+msgid "Move"
+msgstr "ಸ್ಥಳಾಂತರಿಸು"
+
+#: globalpaths.cpp:386
+#, kde-format
+msgctxt "Use the new directory but do not move anything"
+msgid "Do not Move"
+msgstr ""
+
+#: globalpaths.cpp:390
+#, kde-format
+msgid "Confirmation Required"
+msgstr "ಖಚಿತಗೊಳಿಸುವ ಅಗತ್ಯವಿದೆ"

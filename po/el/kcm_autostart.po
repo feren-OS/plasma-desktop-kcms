@@ -1,0 +1,203 @@
+# translation of kcm_autostart.po to Greek
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Spiros Georgaras <sngeorgaras@otenet.gr>, 2008.
+# Toussis Manolis <manolis@koppermind.homelinux.org>, 2008.
+# Dimitrios Glentadakis <dglent@gmail.com>, 2011.
+# Stelios <sstavra@gmail.com>, 2012.
+# Dimitris Kardarakos <dimkard@gmail.com>, 2015, 2017.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcm_autostart\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"PO-Revision-Date: 2017-06-12 16:30+0200\n"
+"Last-Translator: Dimitris Kardarakos <dimkard@gmail.com>\n"
+"Language-Team: Greek <kde-i18n-el@kde.org>\n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 2.0\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Σπύρος Γεωργαράς, Τούσης Μανώλης"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "sng@hellug.gr, manolis@koppermind.homelinux.org"
+
+#: addscriptdialog.cpp:40
+#, kde-format
+msgid "Shell script path:"
+msgstr "Διαδρομή σεναρίου κελύφους:"
+
+#: addscriptdialog.cpp:44
+#, kde-format
+msgid "Create as symlink"
+msgstr "Να δημιουργηθεί ως συμβολικός σύνδεσμος"
+
+#: addscriptdialog.cpp:79
+#, kde-format
+msgid "\"%1\" is not an absolute path."
+msgstr "Το \"%1\" δεν είναι η πλήρης διαδρομή."
+
+#: addscriptdialog.cpp:82
+#, kde-format
+msgid "\"%1\" does not exist."
+msgstr "Το \"%1\" δεν υπάρχει."
+
+#: addscriptdialog.cpp:85
+#, kde-format
+msgid "\"%1\" is not a file."
+msgstr "Το \"%1\" δεν είναι αρχείο."
+
+#: addscriptdialog.cpp:88
+#, kde-format
+msgid "\"%1\" is not readable."
+msgstr "Το \"%1\" δεν είναι αναγνώσιμο."
+
+#: advanceddialog.cpp:32
+#, fuzzy, kde-format
+#| msgid "Autostart only in KDE"
+msgid "Autostart only in Plasma"
+msgstr "Αυτόματη εκκίνηση μόνο στο KDE"
+
+#: autostart.cpp:53
+#, kde-format
+msgid "Name"
+msgstr "Όνομα"
+
+#: autostart.cpp:54
+#, kde-format
+msgid "Command"
+msgstr "Εντολή"
+
+#: autostart.cpp:55
+#, kde-format
+msgid "Status"
+msgstr "Κατάσταση"
+
+#: autostart.cpp:56
+#, fuzzy, kde-format
+#| msgctxt ""
+#| "@title:column The name of the column that decides if the program is run "
+#| "on kde startup, on kde shutdown, etc"
+#| msgid "Run On"
+msgctxt ""
+"@title:column The name of the column that decides if the program is run on "
+"session startup, on session shutdown, etc"
+msgid "Run On"
+msgstr "Εκτέλεση σε"
+
+#: autostart.cpp:75
+#, fuzzy, kde-format
+#| msgid "KDE Autostart Manager"
+msgid "Session Autostart Manager"
+msgstr "Διαχειριστής αυτόματης εκκίνησης του KDE"
+
+#: autostart.cpp:77
+#, fuzzy, kde-format
+#| msgid "KDE Autostart Manager Control Panel Module"
+msgid "Session Autostart Manager Control Panel Module"
+msgstr "Άρθρωμα πίνακα ελέγχου διαχειριστή εκκίνησης του KDE"
+
+#: autostart.cpp:79
+#, kde-format
+msgid "Copyright © 2006–2010 Autostart Manager team"
+msgstr "Copyright © 2006–2010 ομάδα διαχειριστή αυτόματης εκκίνησης"
+
+#: autostart.cpp:80
+#, kde-format
+msgid "Stephen Leaf"
+msgstr "Stephen Leaf"
+
+#: autostart.cpp:81
+#, kde-format
+msgid "Montel Laurent"
+msgstr "Montel Laurent"
+
+#: autostart.cpp:81
+#, kde-format
+msgid "Maintainer"
+msgstr "Συντηρητής"
+
+#: autostart.cpp:108 autostart.cpp:122
+#, kde-format
+msgctxt "The program won't be run"
+msgid "Disabled"
+msgstr "Ανενεργό"
+
+#: autostart.cpp:110 autostart.cpp:122 autostartitem.cpp:77
+#, kde-format
+msgctxt "The program will be run"
+msgid "Enabled"
+msgstr "Ενεργό"
+
+#: autostart.cpp:156
+#, kde-format
+msgid "Startup"
+msgstr "Έναρξη"
+
+#: autostart.cpp:157
+#, kde-format
+msgid "Logout"
+msgstr "Αποσύνδεση"
+
+#: autostart.cpp:158
+#, kde-format
+msgid "Before session startup"
+msgstr "Πριν την εκκίνηση συνεδρίας"
+
+#: autostart.cpp:163
+#, kde-format
+msgid "Desktop File"
+msgstr "Αρχείο επιφάνειας εργασίας"
+
+#: autostart.cpp:171
+#, kde-format
+msgid "Script File"
+msgstr "Αρχείο σεναρίου"
+
+#: autostart.cpp:447
+#, kde-format
+msgid ""
+"Only files with “.sh” extensions are allowed for setting up the environment."
+msgstr ""
+"Μόνο αρχεία με επέκταση « .sh » επιτρέπονται για τον ορισμό του "
+"περιβάλλοντος."
+
+#. i18n: ectx: property (text), widget (QPushButton, btnProperties)
+#: autostartconfig.ui:17
+#, kde-format
+msgid "&Properties..."
+msgstr "&Ιδιότητες..."
+
+#. i18n: ectx: property (text), widget (QPushButton, btnAddScript)
+#: autostartconfig.ui:24
+#, kde-format
+msgid "Add Script..."
+msgstr "Προσθήκη σεναρίου..."
+
+#. i18n: ectx: property (text), widget (QPushButton, btnRemove)
+#: autostartconfig.ui:46
+#, kde-format
+msgid "&Remove"
+msgstr "Α&φαίρεση"
+
+#. i18n: ectx: property (text), widget (QPushButton, btnAdvanced)
+#: autostartconfig.ui:53
+#, kde-format
+msgid "Advanced..."
+msgstr "Προχωρημένα..."
+
+#. i18n: ectx: property (text), widget (QPushButton, btnAddProgram)
+#: autostartconfig.ui:60
+#, kde-format
+msgid "Add Program..."
+msgstr "Προσθήκη προγράμματος..."

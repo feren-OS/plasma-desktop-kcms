@@ -1,0 +1,259 @@
+# translation of kcm_phonon.po to marathi
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Sandeep Shedmake <sandeep.shedmake@gmail.com>, 2009.
+# Chetan Khona <chetan@kompkin.com>, 2012, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcm_phonon\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"PO-Revision-Date: 2013-03-28 15:41+0530\n"
+"Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
+"Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
+"Language: mr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+"संदिप शेडमाके, \n"
+"चेतन खोना"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
+"sandeep.shedmake@gmail.com, \n"
+"chetan@kompkin.com"
+
+#: backendselection.cpp:74
+#, kde-format
+msgctxt "@info User changed Phonon backend"
+msgid "To apply the backend change you will have to log out and back in again."
+msgstr "बॅकएन्ड बदल लागु होण्याकरिता तुम्हाला बाहेर पडुन परत प्रवेश करावा लागेल."
+
+#. i18n: ectx: property (toolTip), widget (QListWidget, m_select)
+#. i18n: ectx: property (whatsThis), widget (QListWidget, m_select)
+#: backendselection.ui:38 backendselection.ui:41
+#, kde-format
+msgid ""
+"A list of Phonon Backends found on your system.  The order here determines "
+"the order Phonon will use them in."
+msgstr ""
+"प्रणालीवरील आढळलेले फोनॉन बॅकएन्डची यादी. येथिल क्रमवारी फोनॉन द्वारे वापरलेली जाणारी "
+"क्रमवारी निश्चित केली जाते."
+
+#. i18n: ectx: property (text), widget (QToolButton, m_up)
+#. i18n: ectx: property (text), widget (QToolButton, preferButton)
+#: backendselection.ui:57 devicepreference.ui:190
+#, kde-format
+msgid "Prefer"
+msgstr "प्राधान्यता"
+
+#. i18n: ectx: property (text), widget (QToolButton, m_down)
+#. i18n: ectx: property (text), widget (QToolButton, deferButton)
+#: backendselection.ui:70 devicepreference.ui:206
+#, kde-format
+msgid "Defer"
+msgstr "विलंब करा"
+
+#: devicepreference.cpp:92
+#, kde-format
+msgid "Audio Playback"
+msgstr "आवाज प्लेबॅक"
+
+#: devicepreference.cpp:106
+#, kde-format
+msgid "Audio Recording"
+msgstr "आवाज रेकॉर्डिंग"
+
+#: devicepreference.cpp:109
+#, kde-format
+msgid "Video Recording"
+msgstr "व्हिडीओ रेकॉर्डिंग"
+
+#: devicepreference.cpp:112
+#, kde-format
+msgid "Invalid"
+msgstr "अवैध"
+
+#: devicepreference.cpp:152
+#, kde-format
+msgid "Test the selected device"
+msgstr "निवडलेल्या साधनाची चाचणी घ्या."
+
+#: devicepreference.cpp:176 devicepreference.cpp:183 devicepreference.cpp:190
+#, kde-format
+msgid ""
+"Defines the default ordering of devices which can be overridden by "
+"individual categories."
+msgstr ""
+"साधनाची मूलभूत क्रमवारी निश्चित करतो जे स्वतंत्र विभाग द्वारे खोडून पुन्हा लिहीले जाऊ "
+"शकतात."
+
+#: devicepreference.cpp:306
+#, kde-format
+msgid "Default Audio Playback Device Preference"
+msgstr "मूलभूत आवाजाच्या साधनाची प्राधान्यता"
+
+#: devicepreference.cpp:309
+#, kde-format
+msgid "Default Audio Recording Device Preference"
+msgstr "मूलभूत आवाज रेकॉर्ड करणाऱ्या साधनाची प्राधान्यता"
+
+#: devicepreference.cpp:312
+#, kde-format
+msgid "Default Video Recording Device Preference"
+msgstr "मूलभूत व्हिडीओ रेकॉर्ड करणाऱ्या साधनाची प्राधान्यता"
+
+#: devicepreference.cpp:319
+#, kde-format
+msgid "Audio Playback Device Preference for the '%1' Category"
+msgstr "'%1' विभागाकरिता आवाज प्लेबॅक साधन प्राधान्यता"
+
+#: devicepreference.cpp:323
+#, kde-format
+msgid "Audio Recording Device Preference for the '%1' Category"
+msgstr "'%1' विभागाकरिता आवाज  रेकॉर्डिंग साधन प्राधान्यता"
+
+#: devicepreference.cpp:327
+#, kde-format
+msgid "Video Recording Device Preference for the '%1' Category "
+msgstr "'%1' विभागाकरिता व्हिडीओ रेकॉर्डिंग साधन प्राधान्यता "
+
+#: devicepreference.cpp:752
+#, kde-format
+msgid ""
+"Apply the currently shown device preference list to the following other "
+"audio playback categories:"
+msgstr ""
+"खालील इतर आवाज प्लेबॅक विभागाकरिता दर्शविलेले वर्तमान साधन प्राधान्यता यादी लागू करा :"
+
+#: devicepreference.cpp:765 devicepreference.cpp:771
+#, kde-format
+msgid "Default/Unspecified Category"
+msgstr "मूलभूत/अनिश्चित विभाग"
+
+#: devicepreference.cpp:869
+#, kde-format
+msgid "Failed to set the selected audio output device"
+msgstr "निवडलेले आवाज आउटपुट देणारे साधन स्थापीत करण्यास अपयश"
+
+#: devicepreference.cpp:899
+#, kde-format
+msgid "Your backend may not support audio recording"
+msgstr "आवाज रेकॉर्डिंग करण्याकरिता तुमचे बॅकएन्ड कदाचित पाठिंबा देणार नाही."
+
+#: devicepreference.cpp:920
+#, kde-format
+msgid "Your backend may not support video recording"
+msgstr "व्हिडीओ रेकॉर्डिंग करण्याकरिता तुमचे बॅकएन्ड कदाचित पाठिंबा देणार नाही."
+
+#: devicepreference.cpp:930
+#, kde-format
+msgid "Testing %1"
+msgstr "%1 ची चाचणी घेत आहे"
+
+#. i18n: ectx: property (toolTip), widget (QTreeView, categoryTree)
+#. i18n: ectx: property (whatsThis), widget (QTreeView, categoryTree)
+#: devicepreference.ui:29 devicepreference.ui:32
+#, kde-format
+msgid ""
+"Various categories of media use cases.  For each category, you may choose "
+"what device you prefer to be used by the Phonon applications."
+msgstr ""
+"फोनॉन अनुप्रयोग प्रत्येक विभागाकरिता कोणते साधन वापरेल त्याची निवड तुम्ही करू शकता."
+
+#. i18n: ectx: property (text), widget (QCheckBox, showAdvancedDevicesCheckBox)
+#: devicepreference.ui:47
+#, kde-format
+msgid "Show advanced devices"
+msgstr "प्रगत साधन दर्शवा"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, applyPreferencesButton)
+#. i18n: ectx: property (whatsThis), widget (QPushButton, applyPreferencesButton)
+#: devicepreference.ui:77 devicepreference.ui:80
+#, kde-format
+msgid "Use the currently shown device list for more categories."
+msgstr "अधिक विभागांकरिता वर्तमान दर्शविलेली साधन यादी वापरा."
+
+#. i18n: ectx: property (text), widget (QPushButton, applyPreferencesButton)
+#: devicepreference.ui:83
+#, kde-format
+msgid "Apply Device List To..."
+msgstr "या करिता साधन यादी लागू करा..."
+
+#. i18n: ectx: property (toolTip), widget (QTreeView, deviceList)
+#: devicepreference.ui:113
+#, kde-format
+msgid ""
+"Devices found on your system, suitable for the selected category.  Choose "
+"the device that you wish to be used by the applications."
+msgstr ""
+"निवडलेल्या विभागाकरिता योग्य साधने तुमच्या प्रणालीवर आढळली. अनुप्रयोगांनी वापरण्याकरिता "
+"तुमची इच्छा असलेल्या साधनाची निवड करा."
+
+#. i18n: ectx: property (whatsThis), widget (QTreeView, deviceList)
+#: devicepreference.ui:116
+#, kde-format
+msgid ""
+"The order determines the preference of the devices. If for some reason the "
+"first device cannot be used Phonon will try to use the second, and so on."
+msgstr ""
+"हा क्रम साधनांची प्राधान्यता ठरवितो. जर काही कारणांमुळे पहिले साधन वापरता आले नाही तर "
+"फोनॉन पुढच्या साधनाचा प्रयत्न करेल."
+
+#. i18n: ectx: property (text), widget (QToolButton, testPlaybackButton)
+#: devicepreference.ui:171
+#, kde-format
+msgid "Test"
+msgstr "चाचणी"
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, preferButton)
+#: devicepreference.ui:187
+#, kde-format
+msgid "prefer the selected device"
+msgstr "निवडलेले साधन प्राधान्यकृत करा"
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, deferButton)
+#: devicepreference.ui:203
+#, kde-format
+msgid "no preference for the selected device"
+msgstr "निवडलेले साधन करिता प्राधान्यता निवडली नाही"
+
+#: main.cpp:40
+#, kde-format
+msgid "Phonon Configuration Module"
+msgstr "फोनॉन संयोजना विभाग"
+
+#: main.cpp:42
+#, kde-format
+msgid "Copyright 2006 Matthias Kretz"
+msgstr "Copyright 2006 मात्थिआस क्रेट्झ"
+
+#: main.cpp:43
+#, kde-format
+msgid "Matthias Kretz"
+msgstr "मात्थिआस क्रेट्झ"
+
+#: main.cpp:44
+#, kde-format
+msgid "Colin Guthrie"
+msgstr "कोलिन गुथ्री"
+
+#: main.cpp:55
+#, kde-format
+msgid "Device Preference"
+msgstr "साधन प्राधान्यता"
+
+#: main.cpp:57
+#, kde-format
+msgid "Backend"
+msgstr "बॅकएन्ड"

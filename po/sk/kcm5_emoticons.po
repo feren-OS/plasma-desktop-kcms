@@ -1,0 +1,222 @@
+# translation of kcm_emoticons.po to Slovak
+# Richard Fric <Richard.Fric@kdemail.net>, 2008, 2009.
+# sparc3 <sparc3@azet.sk>, 2008.
+# Michal Sulek <misurel@gmail.com>, 2010.
+# Roman Paholik <wizzardsk@gmail.com>, 2016, 2019.
+# Matej Mrenica <matejm98mthw@gmail.com>, 2018, 2019.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcm_emoticons\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"PO-Revision-Date: 2019-08-30 20:22+0200\n"
+"Last-Translator: Roman Paholík <wizzardsk@gmail.com>\n"
+"Language-Team: Slovak <kde-sk@linux.sk>\n"
+"Language: sk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 18.12.3\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "sparc3,Michal Šulek"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "sparc3@azet.sk,misurel@gmail.com"
+
+#: emoticonslist.cpp:70
+#, kde-format
+msgid ""
+"Insert the string for the emoticon.  If you want multiple strings, separate "
+"them by spaces."
+msgstr ""
+"Vložte reťazec pre emotikonu. Ak chcete zadať viac reťazcov, oddeľte ich "
+"medzerami."
+
+#: emoticonslist.cpp:110
+#, kde-format
+msgid "Emoticons"
+msgstr "Emotikony"
+
+#: emoticonslist.cpp:254
+#, kde-format
+msgid "Drag or Type Emoticon Theme URL"
+msgstr "Zadajte URL témy pre emotikony, alebo ho ťahajte myšou"
+
+#: emoticonslist.cpp:259
+#, kde-format
+msgid "Emoticon themes must be installed from local files."
+msgstr "Témy pre emotikony musia byť inštalované z lokálnych súborov."
+
+#: emoticonslist.cpp:260
+#, kde-format
+msgid "Could Not Install Emoticon Theme"
+msgstr "Nepodarilo sa nainštalovať tému pre emotikony"
+
+#: emoticonslist.cpp:278
+#, kde-format
+msgid "Do you want to remove %1 too?"
+msgstr "Chcete tiež odstrániť %1?"
+
+#: emoticonslist.cpp:278
+#, kde-format
+msgid "Delete emoticon"
+msgstr "Odstrániť emotikonu"
+
+#: emoticonslist.cpp:294
+#, kde-format
+msgid "Add Emoticon"
+msgstr "Pridať emotikonu"
+
+#: emoticonslist.cpp:318
+#, kde-format
+msgid "Edit Emoticon"
+msgstr "Upraviť emotikonu"
+
+#: emoticonslist.cpp:364 emoticonslist.cpp:388
+#, kde-format
+msgid "New Emoticon Theme"
+msgstr "Nová téma pre emotikony"
+
+#: emoticonslist.cpp:364
+#, kde-format
+msgid "Name of new emoticon theme:"
+msgstr "Názov novej témy emotikonov"
+
+#: emoticonslist.cpp:370
+#, kde-format
+msgid "%1 theme already exists"
+msgstr "Téma %1 už existuje"
+
+#: emoticonslist.cpp:388
+#, kde-format
+msgid "Choose the type of emoticon theme to create"
+msgstr "Vyberte typ témy pre emotikony, ktorá má byť vytvorená"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, EmoticonsManager)
+#: emoticonslist.ui:14
+#, kde-format
+msgid "Emoticons Manager"
+msgstr "Správca emotikon"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, btInstall)
+#: emoticonslist.ui:26
+#, kde-format
+msgid "Install a theme archive file you already have locally"
+msgstr "Inštalovať súbor s archívom témy, ktorý už máte lokálne"
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, btInstall)
+#: emoticonslist.ui:29
+#, kde-format
+msgid ""
+"If you already have an emoticon theme archive locally, this button will "
+"unpack it and make it available for KDE applications"
+msgstr ""
+"Ak už máte archív s témou emotikon na počítači, toto tlačidlo ho rozbalí a "
+"sprístupní KDE aplikáciám"
+
+#. i18n: ectx: property (text), widget (QPushButton, btInstall)
+#: emoticonslist.ui:32
+#, kde-format
+msgid "Install from File..."
+msgstr "Nainštalovať zo súboru..."
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, btNew)
+#: emoticonslist.ui:45
+#, kde-format
+msgid "Create New Theme..."
+msgstr "Vytvoriť novú tému..."
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, btNew)
+#: emoticonslist.ui:48
+#, kde-format
+msgid ""
+"Create a new theme by assigning it a name. Then use the Add button on the "
+"right to add emoticons to this theme."
+msgstr ""
+"Novú tému vytvoríte pridelením názvu. Potom použite tlačidlo Pridať na "
+"pravej strane, ak chcete pridať emotikony do tejto témy."
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, btRemoveTheme)
+#: emoticonslist.ui:99
+#, kde-format
+msgid "Remove Theme"
+msgstr "Odstrániť tému"
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, btRemoveTheme)
+#: emoticonslist.ui:102
+#, kde-format
+msgid "This will remove the selected theme from your disk."
+msgstr "Toto odstráni vybranú tému z disku."
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, btGetNew)
+#: emoticonslist.ui:115
+#, kde-format
+msgid "Get new emoticon icon themes from the Internet"
+msgstr "Získať nové témy ikon emotikonov z internetu"
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, btGetNew)
+#: emoticonslist.ui:118
+#, kde-format
+msgid ""
+"You need to be connected to the Internet to use this action. A dialog will "
+"display a list of emoticon themes from the https://store.kde.org website. "
+"Clicking the Install button associated with a theme will install this theme "
+"locally."
+msgstr ""
+"Ak chcete použiť túto akciu, musíte byť pripojený k internetu. Dialóg "
+"zobrazí zoznam tém emotikonov zo stránky http://www.kde-look.org. Kliknutím "
+"na tlačidlo Inštalovať asociavané s témou nainštalujete túto tému lokálne."
+
+#. i18n: ectx: property (text), widget (QPushButton, btGetNew)
+#: emoticonslist.ui:121
+#, kde-format
+msgid "Get New Emoticons..."
+msgstr "Získať nové emotikony"
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbStrict)
+#: emoticonslist.ui:138
+#, kde-format
+msgid "Require spaces around emoticons"
+msgstr "Vyžadovať medzery okolo emotikonov"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, btAdd)
+#: emoticonslist.ui:161
+#, kde-format
+msgid "Create New Emoticon..."
+msgstr "Vytvoriť nový emotikon..."
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, btAdd)
+#: emoticonslist.ui:164
+#, kde-format
+msgid "Create a new emoticon by assigning it an icon and some text"
+msgstr "Vytvoriť novú emotikonu pridelením ikony a textu"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, btRemoveEmoticon)
+#: emoticonslist.ui:177
+#, kde-format
+msgid "Remove Emoticon"
+msgstr "Odstrániť emotikon"
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, btRemoveEmoticon)
+#: emoticonslist.ui:180
+#, kde-format
+msgid "Remove the selected emoticon from your disk"
+msgstr "Odstrániť vybranú emotikonu z disku"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, btEdit)
+#: emoticonslist.ui:193
+#, kde-format
+msgid "Edit Emoticon..."
+msgstr "Upraviť emotikon..."
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, btEdit)
+#: emoticonslist.ui:196
+#, kde-format
+msgid "Edit the selected emoticon to change its icon or its text"
+msgstr "Zmeniť ikonu alebo text vybranej emotikony"

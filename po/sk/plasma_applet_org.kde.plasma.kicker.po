@@ -1,0 +1,494 @@
+# translation of plasma_applet_org.kde.plasma.kicker.po to Slovak
+# Roman Paholik <wizzardsk@gmail.com>, 2014, 2015, 2016, 2017, 2019.
+# Mthw <jari_45@hotmail.com>, 2019.
+# Matej Mrenica <matejm98mthw@gmail.com>, 2019.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_applet_org.kde.plasma.kicker\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"PO-Revision-Date: 2019-08-30 20:23+0200\n"
+"Last-Translator: Roman Paholík <wizzardsk@gmail.com>\n"
+"Language-Team: Slovak <kde-sk@linux.sk>\n"
+"Language: sk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Lokalize 18.12.3\n"
+
+#: package/contents/config/config.qml:26
+#, kde-format
+msgid "General"
+msgstr "Všeobecné"
+
+#: package/contents/ui/code/tools.js:55
+#, kde-format
+msgid "Remove from Favorites"
+msgstr "Odstrániť z obľúbených"
+
+#: package/contents/ui/code/tools.js:59
+#, kde-format
+msgid "Add to Favorites"
+msgstr "Pridať do obľúbených"
+
+#: package/contents/ui/code/tools.js:83
+#, kde-format
+msgid "On All Activities"
+msgstr "Na všetkých aktivitách"
+
+#: package/contents/ui/code/tools.js:133
+#, kde-format
+msgid "On The Current Activity"
+msgstr "Na aktuálnej aktivite"
+
+#: package/contents/ui/code/tools.js:147
+#, kde-format
+msgid "Show In Favorites"
+msgstr "Zobraziť v obľúbených"
+
+#: package/contents/ui/ConfigGeneral.qml:58
+#, kde-format
+msgid "Icon:"
+msgstr "Ikona:"
+
+#: package/contents/ui/ConfigGeneral.qml:138
+#, kde-format
+msgctxt "@item:inmenu Open icon chooser dialog"
+msgid "Choose..."
+msgstr "Vybrať..."
+
+#: package/contents/ui/ConfigGeneral.qml:143
+#, kde-format
+msgctxt "@item:inmenu Reset icon to default"
+msgid "Clear Icon"
+msgstr "Vymazať ikonu"
+
+#: package/contents/ui/ConfigGeneral.qml:161
+#, kde-format
+msgid "Show applications as:"
+msgstr "Zobraziť aplikáciu ako:"
+
+#: package/contents/ui/ConfigGeneral.qml:163
+#, kde-format
+msgid "Name only"
+msgstr "Iba názov"
+
+#: package/contents/ui/ConfigGeneral.qml:163
+#, kde-format
+msgid "Description only"
+msgstr "Len popis"
+
+#: package/contents/ui/ConfigGeneral.qml:163
+#, kde-format
+msgid "Name (Description)"
+msgstr "Názov (popis)"
+
+#: package/contents/ui/ConfigGeneral.qml:163
+#, kde-format
+msgid "Description (Name)"
+msgstr "Popis (názov)"
+
+#: package/contents/ui/ConfigGeneral.qml:173
+#, kde-format
+msgid "Behavior:"
+msgstr "Správanie:"
+
+#: package/contents/ui/ConfigGeneral.qml:175
+#, kde-format
+msgid "Sort applications alphabetically"
+msgstr "Zoradiť aplikácie podľa abecedy"
+
+#: package/contents/ui/ConfigGeneral.qml:183
+#, kde-format
+msgid "Flatten sub-menus to a single level"
+msgstr "Sploštiť menu na jednoduchú úroveň"
+
+#: package/contents/ui/ConfigGeneral.qml:194
+#, kde-format
+msgid "Show categories:"
+msgstr "Zobraziť kategórie:"
+
+#: package/contents/ui/ConfigGeneral.qml:197
+#, kde-format
+msgid "Recent applications"
+msgstr "Nedávne aplikácie"
+
+#: package/contents/ui/ConfigGeneral.qml:198
+#, kde-format
+msgid "Often used applications"
+msgstr "Často používané aplikácie"
+
+#: package/contents/ui/ConfigGeneral.qml:205
+#, kde-format
+msgid "Recent documents"
+msgstr "Nedávne dokumenty"
+
+#: package/contents/ui/ConfigGeneral.qml:206
+#, kde-format
+msgid "Often used documents"
+msgstr "Často používané dokumenty"
+
+#: package/contents/ui/ConfigGeneral.qml:213
+#, kde-format
+msgid "Recent contacts"
+msgstr "Nedávne kontakty"
+
+#: package/contents/ui/ConfigGeneral.qml:214
+#, kde-format
+msgid "Often used contacts"
+msgstr "Často používané kontakty"
+
+#: package/contents/ui/ConfigGeneral.qml:220
+#, kde-format
+msgid "Sort items in categories by:"
+msgstr "Zoradiť položky v kategóriách podľa:"
+
+#: package/contents/ui/ConfigGeneral.qml:221
+#, kde-format
+msgctxt ""
+"@item:inlistbox Sort items in categories by [Recently used | Often used]"
+msgid "Recently used"
+msgstr "Nedávno použité"
+
+#: package/contents/ui/ConfigGeneral.qml:221
+#, kde-format
+msgctxt ""
+"@item:inlistbox Sort items in categories by [Recently used | Ofetn used]"
+msgid "Often used"
+msgstr "Často použité"
+
+#: package/contents/ui/ConfigGeneral.qml:231
+#, kde-format
+msgid "Search:"
+msgstr "Hľadať:"
+
+#: package/contents/ui/ConfigGeneral.qml:233
+#, kde-format
+msgid "Expand search to bookmarks, files and emails"
+msgstr "Rozbaliť hľadanie na záložky, súbory a e-maily"
+
+#: package/contents/ui/ConfigGeneral.qml:241
+#, kde-format
+msgid "Align search results to bottom"
+msgstr "Zarovnať výsledky hľadania na spodok"
+
+#: package/contents/ui/DashboardRepresentation.qml:305
+#, kde-format
+msgid "Searching for '%1'"
+msgstr "Vyhľadáva sa '%1'"
+
+#: package/contents/ui/DashboardRepresentation.qml:305
+#, kde-format
+msgid "Type to search..."
+msgstr "Píšte na hľadanie..."
+
+#: package/contents/ui/DashboardRepresentation.qml:405
+#: plugin/kastatsfavoritesmodel.cpp:494 plugin/simplefavoritesmodel.cpp:43
+#, kde-format
+msgid "Favorites"
+msgstr "Obľúbené"
+
+#: package/contents/ui/DashboardRepresentation.qml:622
+#: package/contents/ui/DashboardTabBar.qml:55
+#, kde-format
+msgid "Widgets"
+msgstr "Widgety"
+
+#: package/contents/ui/DashboardTabBar.qml:44
+#, kde-format
+msgid "Apps & Docs"
+msgstr "Aplikácie a dokumenty"
+
+#: package/contents/ui/main.qml:272
+#, kde-format
+msgid "Edit Applications..."
+msgstr "Upraviť aplikácie..."
+
+#: package/contents/ui/MenuRepresentation.qml:319
+#, kde-format
+msgid "Search..."
+msgstr "Hľadať..."
+
+#: plugin/actionlist.cpp:95
+#, kde-format
+msgid "Open with:"
+msgstr "Otvoriť pomocou:"
+
+#: plugin/actionlist.cpp:108
+#, kde-format
+msgid "Properties"
+msgstr "Vlastnosti"
+
+#: plugin/actionlist.cpp:153
+#, kde-format
+msgid "Add to Desktop"
+msgstr "Pridať na pracovnú plochu"
+
+#: plugin/actionlist.cpp:157
+#, kde-format
+msgid "Add to Panel (Widget)"
+msgstr "Pridať do panelu (widget)"
+
+#: plugin/actionlist.cpp:161
+#, kde-format
+msgid "Pin to Task Manager"
+msgstr "Pripnúť k správcovi úloh"
+
+#: plugin/actionlist.cpp:270 plugin/rootmodel.cpp:390
+#, kde-format
+msgid "Recent Documents"
+msgstr "Nedávne dokumenty"
+
+#: plugin/actionlist.cpp:280
+#, kde-format
+msgid "Forget Recent Documents"
+msgstr "Zabudnúť nedávne dokumenty"
+
+#: plugin/actionlist.cpp:336
+#, kde-format
+msgid "Edit Application..."
+msgstr "Upraviť aplikáciu..."
+
+#: plugin/actionlist.cpp:383
+#, kde-format
+msgctxt "@action opens a software center with the application"
+msgid "Manage '%1'..."
+msgstr "Spravovať '%1'..."
+
+#: plugin/appentry.cpp:178
+#, kde-format
+msgid "Hide Application"
+msgstr "Skryť aplikáciu"
+
+#: plugin/appentry.cpp:237
+#, kde-format
+msgctxt "App name (Generic name)"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: plugin/appentry.cpp:239
+#, kde-format
+msgctxt "Generic name (App name)"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: plugin/appsmodel.cpp:45 plugin/appsmodel.cpp:69 plugin/computermodel.cpp:110
+#: plugin/computermodel.cpp:242 plugin/recentusagemodel.cpp:149
+#: plugin/recentusagemodel.cpp:209
+#, kde-format
+msgid "Applications"
+msgstr "Aplikácie"
+
+#: plugin/appsmodel.cpp:165
+#, kde-format
+msgid "Unhide Applications in this Submenu"
+msgstr "Odkryť aplikácie v tejto podponuke"
+
+#: plugin/appsmodel.cpp:171
+#, kde-format
+msgid "Unhide Applications in '%1'"
+msgstr "Odkryť aplikácie v '%1'"
+
+#: plugin/computermodel.cpp:104
+#, kde-format
+msgid "Run Command..."
+msgstr "Spustiť príkaz..."
+
+#: plugin/computermodel.cpp:108
+#, kde-format
+msgid "Run a command or a search query"
+msgstr "Spustiť príkaz alebo vyhľadávací dotaz"
+
+#: plugin/computermodel.cpp:161
+#, kde-format
+msgid "Computer"
+msgstr "Počítač"
+
+#: plugin/contactentry.cpp:117 plugin/recentcontactsmodel.cpp:93
+#, kde-format
+msgid "Show Contact Information..."
+msgstr "Zobraziť informácie o kontakte..."
+
+#: plugin/recentcontactsmodel.cpp:52
+#, kde-format
+msgid "Contacts"
+msgstr "Kontakty"
+
+#: plugin/recentcontactsmodel.cpp:85
+#, kde-format
+msgid "Forget Contact"
+msgstr "Zabudnúť kontakt"
+
+#: plugin/recentcontactsmodel.cpp:88 plugin/recentcontactsmodel.cpp:165
+#, kde-format
+msgid "Forget All Contacts"
+msgstr "Zabudnúť všetky kontakty"
+
+#: plugin/recentusagemodel.cpp:147
+#, kde-format
+msgid "Recently Used"
+msgstr "Nedávno použité"
+
+#: plugin/recentusagemodel.cpp:152 plugin/recentusagemodel.cpp:263
+#, kde-format
+msgid "Documents"
+msgstr "Dokumenty"
+
+#: plugin/recentusagemodel.cpp:227
+#, kde-format
+msgid "Forget Application"
+msgstr "Zabudnúť aplikáciu"
+
+#: plugin/recentusagemodel.cpp:275
+#, kde-format
+msgid "Forget Document"
+msgstr "Zabudnúť dokument"
+
+#: plugin/recentusagemodel.cpp:403
+#, kde-format
+msgid "Forget All"
+msgstr "Zabudnúť všetko"
+
+#: plugin/recentusagemodel.cpp:405
+#, kde-format
+msgid "Forget All Applications"
+msgstr "Zabudnúť všetky aplikácie"
+
+#: plugin/recentusagemodel.cpp:408
+#, kde-format
+msgid "Forget All Documents"
+msgstr "Zabudnúť všetky dokumenty"
+
+#: plugin/rootmodel.cpp:106
+#, kde-format
+msgid "Hide %1"
+msgstr "Skryť %1"
+
+#: plugin/rootmodel.cpp:376
+#, kde-format
+msgid "All Applications"
+msgstr "Všetky aplikácie"
+
+#: plugin/rootmodel.cpp:382
+#, kde-format
+msgid "Recent Contacts"
+msgstr "Nedávne kontakty"
+
+#: plugin/rootmodel.cpp:391
+#, kde-format
+msgid "Often Used Documents"
+msgstr "Často použité dokumenty"
+
+#: plugin/rootmodel.cpp:401
+#, kde-format
+msgid "Recent Applications"
+msgstr "Nedávne aplikácie"
+
+#: plugin/rootmodel.cpp:402
+#, kde-format
+msgid "Often Used Applications"
+msgstr "Často použité aplikácie"
+
+#: plugin/rootmodel.cpp:416
+#, kde-format
+msgid "Power / Session"
+msgstr "Napájanie / Sedenie"
+
+#: plugin/runnermodel.cpp:238
+#, kde-format
+msgid "Search results"
+msgstr "Výsledok hľadania"
+
+#: plugin/systementry.cpp:166
+#, kde-format
+msgid "Lock"
+msgstr "Zamknúť"
+
+#: plugin/systementry.cpp:169
+#, kde-format
+msgid "Log Out"
+msgstr "Odhlásiť sa"
+
+#: plugin/systementry.cpp:172 plugin/systementry.cpp:240
+#, kde-format
+msgid "Save Session"
+msgstr "Uložiť sedenie"
+
+#: plugin/systementry.cpp:175
+#, kde-format
+msgid "Switch User"
+msgstr "Prepnúť užívateľa"
+
+#: plugin/systementry.cpp:178
+#, kde-format
+msgctxt "Suspend to RAM"
+msgid "Sleep"
+msgstr "Uspať"
+
+#: plugin/systementry.cpp:181
+#, kde-format
+msgid "Hibernate"
+msgstr "Hibernovať"
+
+#: plugin/systementry.cpp:184
+#, kde-format
+msgid "Restart"
+msgstr "Reštart"
+
+#: plugin/systementry.cpp:187
+#, kde-format
+msgid "Shut Down"
+msgstr "Vypnúť"
+
+#: plugin/systementry.cpp:200 plugin/systementry.cpp:203
+#: plugin/systementry.cpp:206 plugin/systementry.cpp:209
+#, kde-format
+msgid "Session"
+msgstr "Sedenie"
+
+#: plugin/systementry.cpp:212 plugin/systementry.cpp:215
+#: plugin/systementry.cpp:218 plugin/systementry.cpp:221
+#, kde-format
+msgid "System"
+msgstr "Systém"
+
+#: plugin/systementry.cpp:234
+#, kde-format
+msgid "Lock screen"
+msgstr "Zamknúť obrazovku"
+
+#: plugin/systementry.cpp:237
+#, kde-format
+msgid "End session"
+msgstr "Ukončiť sedenie"
+
+#: plugin/systementry.cpp:243
+#, kde-format
+msgid "Start a parallel session as a different user"
+msgstr "Spustiť súbežné sedenie ako iný užívateľ"
+
+#: plugin/systementry.cpp:246
+#, kde-format
+msgid "Suspend to RAM"
+msgstr "Uspať do RAM"
+
+#: plugin/systementry.cpp:249
+#, kde-format
+msgid "Suspend to disk"
+msgstr "Uspať na disk"
+
+#: plugin/systementry.cpp:252
+#, kde-format
+msgid "Restart computer"
+msgstr "Reštartovať počítač"
+
+#: plugin/systementry.cpp:255
+#, kde-format
+msgid "Turn off computer"
+msgstr "Vypnúť počítač"
+
+#: plugin/systemmodel.cpp:75
+#, kde-format
+msgid "System actions"
+msgstr "Systémové akcie"

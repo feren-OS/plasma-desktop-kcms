@@ -1,0 +1,322 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Marek Laane <qiilaq69@gmail.com>, 2016.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"PO-Revision-Date: 2016-09-08 04:31+0300\n"
+"Last-Translator: Marek Laane <qiilaq69@gmail.com>\n"
+"Language-Team: Estonian <kde-i18n-doc@kde.org>\n"
+"Language: et\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 1.5\n"
+
+#: contents/activitymanager/ActivityItem.qml:206
+msgid "Currently being used"
+msgstr "Kasutatakse praegu"
+
+#: contents/activitymanager/ActivityItem.qml:284
+msgid "Configure"
+msgstr "Seadista"
+
+#: contents/activitymanager/ActivityItem.qml:300
+msgid "Stop activity"
+msgstr "Peata tegevus"
+
+#: contents/activitymanager/ActivityList.qml:155
+msgid "Stopped activities:"
+msgstr "Peatatud tegevused:"
+
+#: contents/activitymanager/ActivityManager.qml:140
+msgid "Create activity..."
+msgstr "Loo tegevus..."
+
+#: contents/activitymanager/Heading.qml:70
+msgid "Activities"
+msgstr "Tegevused"
+
+#: contents/activitymanager/Heading.qml:85
+#: contents/explorer/WidgetExplorer.qml:249
+msgid "Search..."
+msgstr "Otsi..."
+
+#: contents/activitymanager/StoppedActivityItem.qml:146
+msgid "Configure activity"
+msgstr "Seadista tegevust"
+
+#: contents/activitymanager/StoppedActivityItem.qml:161
+msgid "Delete"
+msgstr "Kustuta"
+
+#: contents/configuration/AppletConfiguration.qml:53
+#, fuzzy
+#| msgid "Keyboard shortcuts"
+msgid "Keyboard Shortcuts"
+msgstr "Kiirklahvid"
+
+#: contents/configuration/AppletConfiguration.qml:111
+msgid "Apply Settings"
+msgstr "Rakenda seadistused"
+
+#: contents/configuration/AppletConfiguration.qml:112
+msgid ""
+"The settings of the current module have changed. Do you want to apply the "
+"changes or discard them?"
+msgstr ""
+"Aktiivse mooduli seadistusi on muudetud. Kas muudatused rakendada või "
+"tühistada?"
+
+#: contents/configuration/AppletConfiguration.qml:407
+msgid "OK"
+msgstr "OK"
+
+#: contents/configuration/AppletConfiguration.qml:414
+msgid "Apply"
+msgstr "Rakenda"
+
+#: contents/configuration/AppletConfiguration.qml:420
+#: contents/explorer/AppletAlternatives.qml:185
+msgid "Cancel"
+msgstr "Loobu"
+
+#: contents/configuration/ConfigurationContainmentActions.qml:31
+msgid "Left-Button"
+msgstr "Vasak nupp"
+
+#: contents/configuration/ConfigurationContainmentActions.qml:32
+msgid "Right-Button"
+msgstr "Parem nupp"
+
+#: contents/configuration/ConfigurationContainmentActions.qml:33
+msgid "Middle-Button"
+msgstr "Keskmine nupp"
+
+#: contents/configuration/ConfigurationContainmentActions.qml:34
+msgid "Back-Button"
+msgstr "Tagasinupp"
+
+#: contents/configuration/ConfigurationContainmentActions.qml:35
+msgid "Forward-Button"
+msgstr "Edasinupp"
+
+#: contents/configuration/ConfigurationContainmentActions.qml:37
+msgid "Vertical-Scroll"
+msgstr "Püstsuunas kerimine"
+
+#: contents/configuration/ConfigurationContainmentActions.qml:38
+msgid "Horizontal-Scroll"
+msgstr "Rõhtsuunas kerimine"
+
+#: contents/configuration/ConfigurationContainmentActions.qml:40
+msgid "Shift"
+msgstr "Shift"
+
+#: contents/configuration/ConfigurationContainmentActions.qml:41
+msgid "Ctrl"
+msgstr "Ctrl"
+
+#: contents/configuration/ConfigurationContainmentActions.qml:42
+msgid "Alt"
+msgstr "Alt"
+
+#: contents/configuration/ConfigurationContainmentActions.qml:43
+msgid "Meta"
+msgstr "Meta"
+
+#: contents/configuration/ConfigurationContainmentActions.qml:83
+msgctxt "Concatenation sign for shortcuts, e.g. Ctrl+Shift"
+msgid "+"
+msgstr ""
+
+#: contents/configuration/ConfigurationContainmentActions.qml:163
+#: contents/configuration/MouseEventInputButton.qml:27
+msgid "Add Action"
+msgstr "Lisa toiming"
+
+#: contents/configuration/ConfigurationContainmentAppearance.qml:75
+#, fuzzy
+#| msgid "Layout cannot be changed whilst widgets are locked"
+msgid "Layout cannot be changed while widgets are locked"
+msgstr "Paigutust ei saa muuta, kui vidinad on lukustatud."
+
+#: contents/configuration/ConfigurationContainmentAppearance.qml:90
+msgid "Layout:"
+msgstr "Paigutus:"
+
+#: contents/configuration/ConfigurationContainmentAppearance.qml:105
+msgid "Wallpaper Type:"
+msgstr "Taustapildi tüüp:"
+
+#: contents/configuration/ConfigurationContainmentAppearance.qml:122
+msgid "Get New Plugins..."
+msgstr ""
+
+#: contents/configuration/ConfigurationContainmentAppearance.qml:140
+msgid "Layout changes must be applied before other changes can be made"
+msgstr ""
+
+#: contents/configuration/ConfigurationContainmentAppearance.qml:146
+#, fuzzy
+#| msgid "Apply"
+msgid "Apply now"
+msgstr "Rakenda"
+
+#: contents/configuration/ConfigurationShortcuts.qml:39
+msgid "This shortcut will activate the applet as though it had been clicked."
+msgstr ""
+
+#: contents/configuration/ContainmentConfiguration.qml:43
+msgid "Wallpaper"
+msgstr "Taustapilt"
+
+#: contents/configuration/ContainmentConfiguration.qml:48
+msgid "Mouse Actions"
+msgstr "Hiire toimingud"
+
+#: contents/configuration/MouseEventInputButton.qml:34
+msgid "Input Here"
+msgstr "Sisend"
+
+#: contents/configuration/panelconfiguration/EdgeHandle.qml:28
+msgid "Screen Edge"
+msgstr "Ekraani serv"
+
+#: contents/configuration/panelconfiguration/EdgeHandle.qml:40
+msgid "Click and drag the button to a screen edge to move the panel there."
+msgstr ""
+
+#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:43
+msgid "Panel Alignment"
+msgstr "Paneeli joondus"
+
+#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:53
+msgid "Top"
+msgstr "Ülal"
+
+#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:53
+msgid "Left"
+msgstr "Vasakul"
+
+#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:64
+msgid "Center"
+msgstr "Keskel"
+
+#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:75
+msgid "Bottom"
+msgstr "All"
+
+#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:75
+msgid "Right"
+msgstr "Paremal"
+
+#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:85
+msgid "Visibility"
+msgstr "Nähtavus"
+
+#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:93
+msgid "Always Visible"
+msgstr "Alati nähtav"
+
+#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:101
+msgid "Auto Hide"
+msgstr "Automaatne peitmine"
+
+#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:109
+msgid "Windows Can Cover"
+msgstr "Võib jääda akende alla"
+
+#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:117
+msgid "Windows Go Below"
+msgstr "Võib jääda akende peale"
+
+#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:126
+msgid "Maximize Panel"
+msgstr "Maksimeeri paneel"
+
+#: contents/configuration/panelconfiguration/SizeHandle.qml:28
+msgid "Width"
+msgstr "Laius"
+
+#: contents/configuration/panelconfiguration/SizeHandle.qml:28
+msgid "Height"
+msgstr "Kõrgus"
+
+#: contents/configuration/panelconfiguration/SizeHandle.qml:54
+msgid "Click and drag the button to resize the panel."
+msgstr ""
+
+#: contents/configuration/panelconfiguration/ToolBar.qml:33
+msgid "Lock Widgets"
+msgstr "Lukusta vidinad"
+
+#: contents/configuration/panelconfiguration/ToolBar.qml:34
+msgid "Remove Panel"
+msgstr "Eemalda paneel"
+
+#: contents/configuration/panelconfiguration/ToolBar.qml:35
+msgid "Add Widgets..."
+msgstr "Lisa vidinaid..."
+
+#: contents/configuration/panelconfiguration/ToolBar.qml:36
+msgid "Add Spacer"
+msgstr "Lisa eraldaja"
+
+#: contents/configuration/panelconfiguration/ToolBar.qml:37
+msgid "More Settings..."
+msgstr "Muud seadistused..."
+
+#: contents/configuration/panelconfiguration/ToolBar.qml:196
+msgid "Close"
+msgstr "Sulge"
+
+#: contents/explorer/AppletAlternatives.qml:83
+msgid "Alternative Widgets"
+msgstr "Alternatiivsed vidinad"
+
+#: contents/explorer/AppletAlternatives.qml:174
+msgid "Switch"
+msgstr "Vaheta"
+
+#: contents/explorer/AppletDelegate.qml:179
+msgid "Undo uninstall"
+msgstr "Tühista eemaldamine"
+
+#: contents/explorer/AppletDelegate.qml:180
+msgid "Uninstall widget"
+msgstr "Eemalda vidin"
+
+#: contents/explorer/Tooltip.qml:106
+msgid "License:"
+msgstr "Litsents:"
+
+#: contents/explorer/Tooltip.qml:115
+msgid "Author:"
+msgstr "Autor:"
+
+#: contents/explorer/Tooltip.qml:123
+msgid "Email:"
+msgstr "E-posti aadress:"
+
+#: contents/explorer/Tooltip.qml:142
+msgid "Uninstall"
+msgstr "Eemalda"
+
+#: contents/explorer/WidgetExplorer.qml:216
+msgid "Widgets"
+msgstr "Vidinad"
+
+#: contents/explorer/WidgetExplorer.qml:224
+msgid "Categories"
+msgstr "Kategooriad"
+
+#: contents/explorer/WidgetExplorer.qml:355
+#, fuzzy
+#| msgid "Get new widgets"
+msgid "Get New Widgets..."
+msgstr "Hangi uusi vidinaid"

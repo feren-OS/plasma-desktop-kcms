@@ -1,0 +1,122 @@
+# Tomohiro Hyakutake <tomhioo@outlook.jp>, 2019.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcm_lookandfeel\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"PO-Revision-Date: 2019-05-30 20:44+0900\n"
+"Last-Translator: Tomohiro Hyakutake <tomhioo@outlook.jp>\n"
+"Language-Team: Japanese <kde-jp@kde.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Accelerator-Marker: &\n"
+"X-Text-Markup: kde4\n"
+"X-Generator: Lokalize 19.04.1\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
+
+#: kcm.cpp:76
+#, kde-format
+msgid "Look and Feel"
+msgstr "外観"
+
+#: kcm.cpp:78 lnftool.cpp:43
+#, kde-format
+msgid "Marco Martin"
+msgstr ""
+
+#: kcm.cpp:112
+#, kde-format
+msgid "Download New Look and Feel Themes"
+msgstr "新しい外観テーマをダウンロード"
+
+#: kcm.cpp:572
+#, kde-format
+msgid ""
+"You have to restart the Plasma session for these changes to take effect."
+msgstr ""
+
+#: kcm.cpp:573
+#, kde-format
+msgid "Cursor Settings Changed"
+msgstr "カーソル設定が変更されました"
+
+#: lnftool.cpp:42
+#, kde-format
+msgid "Look and feel tool"
+msgstr ""
+
+#: lnftool.cpp:42
+#, kde-format
+msgid "Command line tool to apply look and feel packages."
+msgstr "外観パッケージを適用するためのコマンドラインツール。"
+
+#: lnftool.cpp:42
+#, kde-format
+msgid "Copyright 2017, Marco Martin"
+msgstr ""
+
+#: lnftool.cpp:43
+#, kde-format
+msgid "Maintainer"
+msgstr "メンテナ"
+
+#: lnftool.cpp:52
+#, kde-format
+msgid "List available Look and feel packages"
+msgstr ""
+
+#: lnftool.cpp:54
+#, kde-format
+msgid "Apply a look and feel package"
+msgstr ""
+
+#: lnftool.cpp:54
+#, kde-format
+msgid "packagename"
+msgstr ""
+
+#: lnftool.cpp:56
+#, kde-format
+msgid "Reset the Plasma Desktop layout"
+msgstr "Plasma のデスクトップレイアウトをリセット"
+
+#: package/contents/ui/main.qml:28
+#, kde-format
+msgid "This module lets you choose the Look and Feel theme."
+msgstr ""
+
+#: package/contents/ui/main.qml:49
+#, kde-format
+msgid "Preview Theme"
+msgstr "テーマをプレビュー"
+
+#: package/contents/ui/main.qml:67
+#, kde-format
+msgid ""
+"Your desktop layout will be lost and reset to the default layout provided by "
+"the selected theme."
+msgstr ""
+"現在のデスクトップレイアウトは失われ、選択されたテーマが提供する既定のテーマ"
+"にリセットされます。"
+
+#: package/contents/ui/main.qml:77
+#, kde-format
+msgid "Use desktop layout from theme"
+msgstr "テーマのデスクトップレイアウトを使用"
+
+#: package/contents/ui/main.qml:84
+#, kde-format
+msgid "Get New Look and Feel Themes..."
+msgstr "新しい外観テーマを取得..."

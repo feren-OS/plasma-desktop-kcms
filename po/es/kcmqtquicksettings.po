@@ -1,0 +1,109 @@
+# Spanish translations for kcmqtquicksettings.po package.
+# Copyright (C) 2018 This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Automatically generated, 2018.
+# Eloy Cuadra <ecuadra@eloihr.net>, 2018.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmqtquicksettings\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"PO-Revision-Date: 2018-05-07 14:38+0100\n"
+"Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
+"Language-Team: Spanish <kde-l10n-es@kde.org>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 2.0\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Eloy Cuadra"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "ecuadra@eloihr.net"
+
+#: kcmqtquicksettings.cpp:37
+#, kde-format
+msgid "Plasma QtQuick Settings"
+msgstr "Preferencias de QtQuick para Plasma"
+
+#: kcmqtquicksettings.cpp:39
+#, kde-format
+msgid "Configure Plasma QtQuick Settings"
+msgstr "Configurar las preferencias de QtQuick para Plasma"
+
+#: kcmqtquicksettings.cpp:41
+#, kde-format
+msgid "David Edmundson"
+msgstr "David Edmundson"
+
+#: kcmqtquicksettings.cpp:41
+#, kde-format
+msgid "Maintainer"
+msgstr "Responsable"
+
+#: kcmqtquicksettings.cpp:45 kcmqtquicksettings.cpp:49
+#, kde-format
+msgid "Automatic"
+msgstr "Automático"
+
+#: kcmqtquicksettings.cpp:46
+#, kde-format
+msgid "Open GL"
+msgstr "Open GL"
+
+#: kcmqtquicksettings.cpp:47
+#, kde-format
+msgid "Software"
+msgstr "Software"
+
+#: kcmqtquicksettings.cpp:50
+#, kde-format
+msgid "Basic"
+msgstr "Básico"
+
+#: kcmqtquicksettings.cpp:51
+#, kde-format
+msgid "Threaded"
+msgstr "Multihilo"
+
+#. i18n: ectx: property (text), widget (KMessageWidget, kmessagewidget)
+#: kcmqtquicksettingswidget.ui:23
+#, kde-format
+msgid ""
+"These settings adjust the QtQuick settings used by Plasma. Only adjust if "
+"you know what you are doing."
+msgstr ""
+"Estas preferencias ajustan QtQuick para usar en Plasma. Modifíquelas solo si "
+"sabe lo que está haciendo."
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: kcmqtquicksettingswidget.ui:38
+#, kde-format
+msgid "Rendering Backend:"
+msgstr "Motor de visualización:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: kcmqtquicksettingswidget.ui:48
+#, kde-format
+msgid "GL Core Profile:"
+msgstr "Perfil del núcleo de GL:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: kcmqtquicksettingswidget.ui:55
+#, kde-format
+msgid "Render Loop:"
+msgstr "Bucle de visualización:"
+
+#. i18n: ectx: property (text), widget (QCheckBox, glCoreProfileCheckbox)
+#: kcmqtquicksettingswidget.ui:65
+#, kde-format
+msgid "Force"
+msgstr "Forzar"

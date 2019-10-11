@@ -1,0 +1,513 @@
+# Translation of plasma_applet_org.kde.plasma.kicker.po into Serbian.
+# Chusslove Illich <caslav.ilic@gmx.net>, 2014, 2015, 2016, 2017.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_applet_org.kde.plasma.kicker\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2019-04-01 03:40+0200\n"
+"PO-Revision-Date: 2017-09-25 19:53+0200\n"
+"Last-Translator: Chusslove Illich <caslav.ilic@gmx.net>\n"
+"Language-Team: Serbian <kde-i18n-sr@kde.org>\n"
+"Language: sr@ijekavianlatin\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
+"%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Accelerator-Marker: &\n"
+"X-Text-Markup: kde4\n"
+"X-Environment: kde\n"
+
+#: package/contents/config/config.qml:26
+#, kde-format
+msgid "General"
+msgstr "Opšte"
+
+#: package/contents/ui/code/tools.js:55
+#, kde-format
+msgid "Remove from Favorites"
+msgstr "Ukloni iz omiljenih"
+
+#: package/contents/ui/code/tools.js:59
+#, kde-format
+msgid "Add to Favorites"
+msgstr "Dodaj u omiljene"
+
+#: package/contents/ui/code/tools.js:83
+#, kde-format
+msgid "On All Activities"
+msgstr "Na svim aktivnostima"
+
+#: package/contents/ui/code/tools.js:133
+#, kde-format
+msgid "On The Current Activity"
+msgstr "Na tekućoj aktivnosti"
+
+#: package/contents/ui/code/tools.js:147
+#, kde-format
+msgid "Show In Favorites"
+msgstr "Prikaži u omiljenima"
+
+#: package/contents/ui/ConfigGeneral.qml:64
+#, kde-format
+msgid "Icon:"
+msgstr "Ikonica:"
+
+#: package/contents/ui/ConfigGeneral.qml:151
+#, kde-format
+msgctxt "@item:inmenu Open icon chooser dialog"
+msgid "Choose..."
+msgstr "Izaberi..."
+
+#: package/contents/ui/ConfigGeneral.qml:156
+#, kde-format
+msgctxt "@item:inmenu Reset icon to default"
+msgid "Clear Icon"
+msgstr "Očisti ikonicu"
+
+# >> @title:group
+#: package/contents/ui/ConfigGeneral.qml:168
+#, kde-format
+msgid "Behavior"
+msgstr "Ponašanje"
+
+#: package/contents/ui/ConfigGeneral.qml:175
+#, kde-format
+msgid "Show applications as:"
+msgstr "Prikazuj programe kao:"
+
+# >> @item:inlistbox
+#: package/contents/ui/ConfigGeneral.qml:183
+#, kde-format
+msgid "Name only"
+msgstr "samo ime"
+
+# >> @item:inlistbox
+#: package/contents/ui/ConfigGeneral.qml:183
+#, kde-format
+msgid "Description only"
+msgstr "samo opis"
+
+# >> @item:inlistbox
+#: package/contents/ui/ConfigGeneral.qml:183
+#, kde-format
+msgid "Name (Description)"
+msgstr "ime (opis)"
+
+# >> @item:inlistbox
+#: package/contents/ui/ConfigGeneral.qml:183
+#, kde-format
+msgid "Description (Name)"
+msgstr "opis (ime)"
+
+# >> @option:check
+#: package/contents/ui/ConfigGeneral.qml:192
+#, kde-format
+msgid "Flatten menu to a single level"
+msgstr "Meni spljošten na jedan nivo"
+
+#: package/contents/ui/ConfigGeneral.qml:198
+#, kde-format
+msgid "Sort alphabetically"
+msgstr "Poređaj abecedno"
+
+#: package/contents/ui/ConfigGeneral.qml:206
+#, kde-format
+msgid "Categories"
+msgstr "Kategorije"
+
+#: package/contents/ui/ConfigGeneral.qml:213
+#, kde-format
+msgid "Show:"
+msgstr "Prikaži:"
+
+#: package/contents/ui/ConfigGeneral.qml:221
+#, kde-format
+msgid "Recently used"
+msgstr "Nedavno korišćeno"
+
+#: package/contents/ui/ConfigGeneral.qml:221
+#, kde-format
+msgid "Often used"
+msgstr "Često korišćeno"
+
+#: package/contents/ui/ConfigGeneral.qml:229
+#, kde-format
+msgid "Show recent applications"
+msgstr "Prikaži nedavne programe"
+
+#: package/contents/ui/ConfigGeneral.qml:230
+#, kde-format
+msgid "Show often used applications"
+msgstr "Prikaži često korišćene programe"
+
+#: package/contents/ui/ConfigGeneral.qml:237
+#, kde-format
+msgid "Show recent documents"
+msgstr "Prikaži nedavne dokumente"
+
+#: package/contents/ui/ConfigGeneral.qml:238
+#, kde-format
+msgid "Show often used documents"
+msgstr "Prikaži često korišćene dokumente"
+
+#: package/contents/ui/ConfigGeneral.qml:245
+#, kde-format
+msgid "Show recent contacts"
+msgstr "Prikaži nedavne kontakte"
+
+#: package/contents/ui/ConfigGeneral.qml:246
+#, kde-format
+msgid "Show often used contacts"
+msgstr "Prikaži često korišćene kontakte"
+
+# >> @title:group
+#: package/contents/ui/ConfigGeneral.qml:254
+#, kde-format
+msgid "Search"
+msgstr "Pretraga"
+
+# >> @option:check
+#: package/contents/ui/ConfigGeneral.qml:262
+#, kde-format
+msgid "Expand search to bookmarks, files and emails"
+msgstr "Pretražuj i obeleživače, fajlove i e‑poštu"
+
+# >> @option:check
+#: package/contents/ui/ConfigGeneral.qml:270
+#, kde-format
+msgid "Align search results to bottom"
+msgstr "Ravnaj rezultate pretrage uz dno"
+
+# >> @info:progress
+#: package/contents/ui/DashboardRepresentation.qml:305
+#, kde-format
+msgid "Searching for '%1'"
+msgstr "Tražim „%1“..."
+
+#: package/contents/ui/DashboardRepresentation.qml:305
+#, fuzzy, kde-format
+#| msgid "Type to search."
+msgid "Type to search..."
+msgstr "Unesite nešto za traženje."
+
+#: package/contents/ui/DashboardRepresentation.qml:405
+#: plugin/kastatsfavoritesmodel.cpp:494 plugin/simplefavoritesmodel.cpp:43
+#, kde-format
+msgid "Favorites"
+msgstr "Omiljeno"
+
+#: package/contents/ui/DashboardRepresentation.qml:622
+#: package/contents/ui/DashboardTabBar.qml:55
+#, kde-format
+msgid "Widgets"
+msgstr "Vidžeti"
+
+#: package/contents/ui/DashboardTabBar.qml:44
+#, kde-format
+msgid "Apps & Docs"
+msgstr "Programi i dokumentacija"
+
+#: package/contents/ui/main.qml:271
+#, kde-format
+msgid "Edit Applications..."
+msgstr "Uredi programe..."
+
+#: package/contents/ui/MenuRepresentation.qml:319
+#, kde-format
+msgid "Search..."
+msgstr "Traži..."
+
+#: plugin/actionlist.cpp:95
+#, kde-format
+msgid "Open with:"
+msgstr "Otvori pomoću:"
+
+#: plugin/actionlist.cpp:108
+#, kde-format
+msgid "Properties"
+msgstr "Svojstva"
+
+#: plugin/actionlist.cpp:153
+#, kde-format
+msgid "Add to Desktop"
+msgstr "Dodaj na površ"
+
+#: plugin/actionlist.cpp:157
+#, kde-format
+msgid "Add to Panel (Widget)"
+msgstr "Dodaj na panel (vidžet)"
+
+#: plugin/actionlist.cpp:161
+#, kde-format
+msgid "Pin to Task Manager"
+msgstr "Prikači na menadžer zadataka"
+
+#: plugin/actionlist.cpp:268 plugin/rootmodel.cpp:390
+#, kde-format
+msgid "Recent Documents"
+msgstr ""
+"Nedavni dokumenti|/|$[svojstva gen 'nedavnih dokumenata' aku 'nedavne "
+"dokumente']"
+
+#: plugin/actionlist.cpp:280
+#, kde-format
+msgid "Forget Recent Documents"
+msgstr "Zaboravi nedavne dokumente"
+
+#: plugin/actionlist.cpp:336
+#, kde-format
+msgid "Edit Application..."
+msgstr "Uredi program..."
+
+#: plugin/actionlist.cpp:383
+#, kde-format
+msgctxt "@action opens a software center with the application"
+msgid "Manage '%1'..."
+msgstr "Upravljaj „%1“...|/|Upravljaj „$[nom %1]“..."
+
+#: plugin/appentry.cpp:178
+#, kde-format
+msgid "Hide Application"
+msgstr "Sakrij program"
+
+#: plugin/appentry.cpp:237
+#, kde-format
+msgctxt "App name (Generic name)"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: plugin/appentry.cpp:239
+#, kde-format
+msgctxt "Generic name (App name)"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: plugin/appsmodel.cpp:45 plugin/appsmodel.cpp:69 plugin/computermodel.cpp:110
+#: plugin/computermodel.cpp:242 plugin/recentusagemodel.cpp:149
+#: plugin/recentusagemodel.cpp:209
+#, kde-format
+msgid "Applications"
+msgstr "Programi"
+
+#: plugin/appsmodel.cpp:165
+#, kde-format
+msgid "Unhide Applications in this Submenu"
+msgstr "Otkrij skrivene programe u ovom podmeniju"
+
+#: plugin/appsmodel.cpp:171
+#, kde-format
+msgid "Unhide Applications in '%1'"
+msgstr "Otkrij programe u „%1“|/|Otkrij programe u „$[lok %1]“"
+
+#: plugin/computermodel.cpp:104
+#, kde-format
+msgid "Run Command..."
+msgstr "Izvrši naredbu..."
+
+#: plugin/computermodel.cpp:108
+#, kde-format
+msgid "Run a command or a search query"
+msgstr "Izvrši naredbu ili upit pretrage"
+
+#: plugin/computermodel.cpp:161
+#, kde-format
+msgid "Computer"
+msgstr "Računar"
+
+#: plugin/contactentry.cpp:117 plugin/recentcontactsmodel.cpp:93
+#, kde-format
+msgid "Show Contact Information..."
+msgstr "Prikaži podatke kontakta..."
+
+#: plugin/recentcontactsmodel.cpp:52
+#, kde-format
+msgid "Contacts"
+msgstr "Kontakti"
+
+#: plugin/recentcontactsmodel.cpp:85
+#, kde-format
+msgid "Forget Contact"
+msgstr "Zaboravi kontakt"
+
+#: plugin/recentcontactsmodel.cpp:88 plugin/recentcontactsmodel.cpp:165
+#, kde-format
+msgid "Forget All Contacts"
+msgstr "Zaboravi sve kontakte"
+
+# Није неоходно „... коришћено“.
+#: plugin/recentusagemodel.cpp:147
+#, kde-format
+msgid "Recently Used"
+msgstr "Nedavno"
+
+#: plugin/recentusagemodel.cpp:152 plugin/recentusagemodel.cpp:263
+#, kde-format
+msgid "Documents"
+msgstr "Dokumenti"
+
+#: plugin/recentusagemodel.cpp:227
+#, kde-format
+msgid "Forget Application"
+msgstr "Zaboravi program"
+
+#: plugin/recentusagemodel.cpp:275
+#, kde-format
+msgid "Forget Document"
+msgstr "Zaboravi dokument"
+
+#: plugin/recentusagemodel.cpp:403
+#, kde-format
+msgid "Forget All"
+msgstr "Zaboravi sve"
+
+#: plugin/recentusagemodel.cpp:405
+#, kde-format
+msgid "Forget All Applications"
+msgstr "Zaboravi sve programe"
+
+#: plugin/recentusagemodel.cpp:408
+#, kde-format
+msgid "Forget All Documents"
+msgstr "Zaboravi sve dokumente"
+
+#: plugin/rootmodel.cpp:106
+#, kde-format
+msgid "Hide %1"
+msgstr "Sakrij %1|/|Sakrij $[aku %1]"
+
+#: plugin/rootmodel.cpp:376
+#, kde-format
+msgid "All Applications"
+msgstr "Svi programi"
+
+#: plugin/rootmodel.cpp:382
+#, kde-format
+msgid "Recent Contacts"
+msgstr ""
+"Nedavni kontakti|/|$[svojstva gen 'nedavnih kontakata' aku 'nedavne "
+"kontakte']"
+
+#: plugin/rootmodel.cpp:391
+#, kde-format
+msgid "Often Used Documents"
+msgstr ""
+"Često korišćeni dokumenti|/|$[svojstva gen 'često korišćenih dokumenata' aku "
+"'često korišćene dokumente']"
+
+#: plugin/rootmodel.cpp:401
+#, kde-format
+msgid "Recent Applications"
+msgstr ""
+"Nedavni programi|/|$[svojstva gen 'nedavnih programa' aku 'nedavne programe']"
+
+#: plugin/rootmodel.cpp:402
+#, kde-format
+msgid "Often Used Applications"
+msgstr ""
+"Često korišćeni programi|/|$[svojstva gen 'često korišćenih programa' aku "
+"'često korišćene programe']"
+
+#: plugin/rootmodel.cpp:416
+#, kde-format
+msgid "Power / Session"
+msgstr "Napajanje/sesija"
+
+#: plugin/runnermodel.cpp:238
+#, kde-format
+msgid "Search results"
+msgstr "Rezultati pretrage"
+
+#: plugin/systementry.cpp:166
+#, kde-format
+msgid "Lock"
+msgstr "Zaključaj"
+
+#: plugin/systementry.cpp:169
+#, kde-format
+msgid "Log Out"
+msgstr ""
+
+#: plugin/systementry.cpp:172 plugin/systementry.cpp:240
+#, kde-format
+msgid "Save Session"
+msgstr "Sačuvaj sesiju"
+
+#: plugin/systementry.cpp:175
+#, kde-format
+msgid "Switch User"
+msgstr "Prebaci korisnika"
+
+#: plugin/systementry.cpp:178
+#, kde-format
+msgctxt "Suspend to RAM"
+msgid "Sleep"
+msgstr ""
+
+#: plugin/systementry.cpp:181
+#, kde-format
+msgid "Hibernate"
+msgstr "U hibernaciju"
+
+#: plugin/systementry.cpp:184
+#, fuzzy, kde-format
+#| msgid "Restart computer"
+msgid "Restart"
+msgstr "Ponovo pokreni računar"
+
+#: plugin/systementry.cpp:187
+#, kde-format
+msgid "Shut Down"
+msgstr "Ugasi"
+
+#: plugin/systementry.cpp:200 plugin/systementry.cpp:203
+#: plugin/systementry.cpp:206 plugin/systementry.cpp:209
+#, kde-format
+msgid "Session"
+msgstr "Sesija"
+
+#: plugin/systementry.cpp:212 plugin/systementry.cpp:215
+#: plugin/systementry.cpp:218 plugin/systementry.cpp:221
+#, kde-format
+msgid "System"
+msgstr "Sistem"
+
+#: plugin/systementry.cpp:234
+#, kde-format
+msgid "Lock screen"
+msgstr "Zaključaj ekran"
+
+#: plugin/systementry.cpp:237
+#, kde-format
+msgid "End session"
+msgstr "Kraj sesije"
+
+#: plugin/systementry.cpp:243
+#, kde-format
+msgid "Start a parallel session as a different user"
+msgstr "Pokreni naporedu sesiju za drugog korisnika"
+
+#: plugin/systementry.cpp:246
+#, kde-format
+msgid "Suspend to RAM"
+msgstr "Suspenduj u memoriju"
+
+#: plugin/systementry.cpp:249
+#, kde-format
+msgid "Suspend to disk"
+msgstr "Suspenduj na disk"
+
+#: plugin/systementry.cpp:252
+#, kde-format
+msgid "Restart computer"
+msgstr "Ponovo pokreni računar"
+
+#: plugin/systementry.cpp:255
+#, kde-format
+msgid "Turn off computer"
+msgstr "Ugasi računar"
+
+#: plugin/systemmodel.cpp:75
+#, kde-format
+msgid "System actions"
+msgstr "Sistemske radnje"

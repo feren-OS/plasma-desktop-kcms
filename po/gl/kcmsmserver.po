@@ -1,0 +1,224 @@
+# translation of kcmsmserver.po to galician
+# Copyright (C) 2002, 2003, 2006, 2007, 2008, 2009 Free Software Foundation, Inc.
+#
+# Javier Jardón <javierjc@mundo-r.com>, 2002, 2003.
+# Xabi G. Feal <xabigf@gmx.net>, 2006.
+# mvillarino <mvillarino@users.sourceforge.net>, 2007, 2008, 2009.
+# marce villarino <mvillarino@users.sourceforge.net>, 2009.
+# Marce Villarino <mvillarino@gmail.com>, 2009, 2014.
+# Adrián Chaves (Gallaecio) <adrian@chaves.io>, 2017, 2019.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmsmserver\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"PO-Revision-Date: 2019-03-16 13:21+0100\n"
+"Last-Translator: Adrián Chaves (Gallaecio) <adrian@chaves.io>\n"
+"Language-Team: Galician <kde-i18n-doc@kde.org>\n"
+"Language: gl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: kcmsmserver.cpp:62
+#, kde-format
+msgid ""
+"<h1>Session Manager</h1> You can configure the session manager here. This "
+"includes options such as whether or not the session exit (logout) should be "
+"confirmed, whether the session should be restored again when logging in and "
+"whether the computer should be automatically shut down after session exit by "
+"default."
+msgstr ""
+"<h1>Xestor de sesións</h1> Aquí pode configurar o xestor de sesións. Isto "
+"inclúe opcións tales como se ao pechar a sesión (saír) débese solicitar "
+"confirmación, se a sesión previa debería ser restaurada ao acceder á conta, "
+"e se o computador debe apagarse de maneira predeterminada tras pechar "
+"automaticamente a sesión."
+
+#: kcmsmserver.cpp:82
+#, kde-format
+msgid "Restart Now"
+msgstr "Reiniciar agora"
+
+#: kcmsmserver.cpp:114
+#, kde-format
+msgid "Failed to request restart to firmware setup: %1"
+msgstr "Non se puido solicitar reiniciar á configuración do firmware: %1"
+
+#: kcmsmserver.cpp:126
+#, kde-format
+msgid ""
+"Next time the computer is restarted, it will enter the UEFI setup screen."
+msgstr ""
+"A próxima vez que se reinicie o computador, entrará na pantalla de "
+"configuración de UEFI."
+
+#: kcmsmserver.cpp:128
+#, kde-format
+msgid ""
+"Next time the computer is restarted, it will enter the firmware setup screen."
+msgstr ""
+"A próxima vez que se reinicie o computador entrará na pantalla de "
+"configuración do firmware."
+
+#: kcmsmserver.cpp:140
+#, kde-format
+msgid "UEFI Setup"
+msgstr "Configuración de UEFI"
+
+#: kcmsmserver.cpp:141
+#, kde-format
+msgid "Enter UEFI setup on next restart"
+msgstr "Entrar na configuración de UEFI no seguinte reinicio"
+
+#. i18n: ectx: property (title), widget (QGroupBox, topBox)
+#: smserverconfigdlg.ui:17
+#, kde-format
+msgid "General"
+msgstr "Xeral"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, confirmLogoutCheck)
+#: smserverconfigdlg.ui:23
+#, kde-format
+msgid ""
+"Check this option if you want the session manager to display a logout "
+"confirmation dialog box."
+msgstr ""
+"Marque esta opción se quere que o xestor de sesións mostre un cadro de "
+"diálogo de confirmación de saída."
+
+#. i18n: ectx: property (text), widget (QCheckBox, confirmLogoutCheck)
+#: smserverconfigdlg.ui:26
+#, kde-format
+msgid "Conf&irm logout"
+msgstr "Confirmar a &saída"
+
+#. i18n: ectx: property (text), widget (QCheckBox, offerShutdownCheck)
+#: smserverconfigdlg.ui:33
+#, kde-format
+msgid "O&ffer shutdown options"
+msgstr "O&frecer opcións de apagado"
+
+#. i18n: ectx: property (whatsThis), widget (QGroupBox, sdGroup)
+#: smserverconfigdlg.ui:43
+#, kde-format
+msgid ""
+"Here you can choose what should happen by default when you log out. This "
+"only has meaning, if you logged in through KDM."
+msgstr ""
+"Aquí pode escoller o que debería ocorrer de maneira predeterminada cando "
+"saia. Isto só ten sentido se accede a través de KDM."
+
+#. i18n: ectx: property (title), widget (QGroupBox, sdGroup)
+#: smserverconfigdlg.ui:46
+#, kde-format
+msgid "Default Leave Option"
+msgstr "Opción de saída predeterminada"
+
+#. i18n: ectx: property (text), widget (QRadioButton, logoutRadio)
+#: smserverconfigdlg.ui:52
+#, kde-format
+msgid "&End current session"
+msgstr "R&ematar a sesión actual"
+
+#. i18n: ectx: property (text), widget (QRadioButton, haltRadio)
+#: smserverconfigdlg.ui:59
+#, kde-format
+msgid "&Turn off computer"
+msgstr "A&pagar o computador"
+
+#. i18n: ectx: property (text), widget (QRadioButton, rebootRadio)
+#: smserverconfigdlg.ui:66
+#, kde-format
+msgid "&Restart computer"
+msgstr "&Reiniciar o computador"
+
+#. i18n: ectx: property (whatsThis), widget (QGroupBox, loginGroup)
+#: smserverconfigdlg.ui:80
+#, kde-format
+msgid ""
+"<ul>\n"
+"<li><b>Restore previous session:</b> Will save all applications running on "
+"exit and restore them when they next start up</li>\n"
+"<li><b>Restore manually saved session: </b> Allows the session to be saved "
+"at any time via \"Save Session\" in the K-Menu. This means the currently "
+"started applications will reappear when they next start up.</li>\n"
+"<li><b>Start with an empty session:</b> Do not save anything. Will come up "
+"with an empty desktop on next start.</li>\n"
+"</ul>"
+msgstr ""
+"<ul>\n"
+"<li><b>Restaurar a sesión anterior:</b> Gardará todos os aplicativos en "
+"execución ao saír e as restauraraos no próximo inicio.</li>\n"
+"<li><b>Restaurar a sesión gardada manualmente: </b> Permítelle gardar a "
+"sesión en calquera momento a través da opción «Gardar a sesión» no menú K. "
+"Isto significa que os aplicativos en execución nese momento reaparecerán no "
+"seu próximo inicio.</li>\n"
+"<li><b>Iniciar cunha sesión baleira:</b> Non garda nada. Arrincará cunha "
+"sesión baleira no próximo inicio.</li>\n"
+"</ul>"
+
+#. i18n: ectx: property (title), widget (QGroupBox, loginGroup)
+#: smserverconfigdlg.ui:83
+#, kde-format
+msgid "On Login"
+msgstr "Ao acceder"
+
+#. i18n: ectx: property (text), widget (QRadioButton, previousSessionRadio)
+#: smserverconfigdlg.ui:89
+#, kde-format
+msgid "Restore &previous session"
+msgstr "Restaurar a sesión &anterior"
+
+#. i18n: ectx: property (text), widget (QRadioButton, savedSessionRadio)
+#: smserverconfigdlg.ui:96
+#, kde-format
+msgid "Restore &manually saved session"
+msgstr "Restaurar a sesión &gardada manualmente"
+
+#. i18n: ectx: property (text), widget (QRadioButton, emptySessionRadio)
+#: smserverconfigdlg.ui:103
+#, kde-format
+msgid "Start with an empty &session"
+msgstr "Iniciar cunha sesión &baleira"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: smserverconfigdlg.ui:110
+#, kde-format
+msgid "Applications to be e&xcluded from sessions:"
+msgstr "Aplicativos a e&xcluír das sesións:"
+
+#. i18n: ectx: property (whatsThis), widget (QLineEdit, excludeLineedit)
+#: smserverconfigdlg.ui:123
+#, kde-format
+msgid ""
+"Here you can enter a colon or comma separated list of applications that "
+"should not be saved in sessions, and therefore will not be started when "
+"restoring a session. For example 'xterm:konsole' or 'xterm,konsole'."
+msgstr ""
+"Aquí pode inserir unha lista de aplicativos separados por comas ou dous "
+"puntos que non se gardarán nas sesións nin han ser iniciados cando se "
+"restaure a sesión. Por exemplo «xterm:kconsole» ou «xterm,konsole»."
+
+#. i18n: ectx: property (title), widget (QGroupBox, firmwareSetupBox)
+#: smserverconfigdlg.ui:133
+#, kde-format
+msgid "Firmware Setup"
+msgstr "Configuración do firmware"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, firmwareSetupCheck)
+#: smserverconfigdlg.ui:146
+#, kde-format
+msgid ""
+"When the computer is restarted the next time, enter firmware setup screen (e."
+"g. UEFI or BIOS setup)"
+msgstr ""
+"A próxima vez que se reinicie o computador entrar na pantalla de "
+"configuración do firmware (p. ex. a configuración de UEFI ou da BIOS)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, firmwareSetupCheck)
+#: smserverconfigdlg.ui:149
+#, kde-format
+msgid "Enter firmware setup on next restart"
+msgstr "Entrar na configuración do firmware no seguinte reinicio"

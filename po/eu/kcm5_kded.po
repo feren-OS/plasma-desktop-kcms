@@ -1,0 +1,176 @@
+# Translation of kcm5_kded.po to Euskara/Basque (eu).
+# Copyright (C) 2003-2018 Free Software Foundation.
+# This file is distributed under the same license as the kde-workspace package.
+# KDE euskaratzeko proiektuaren arduraduna <xalba@euskalnet.net>.
+#
+# Translators:
+# Marcos <marcos@euskalgnu.org>, 2003.
+# marcos <marcos@euskalgnu.org>, 2006, 2007, 2008, 2010.
+# Iñigo Salvador Azurmendi <xalba@euskalnet.net>, 2010, 2014, 2018.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcm5_kded\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"PO-Revision-Date: 2018-07-14 15:56+0100\n"
+"Last-Translator: Iñigo Salvador Azurmendi <xalba@euskalnet.net>\n"
+"Language-Team: Basque <kde-i18n-doc@kde.org>\n"
+"Language: eu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 2.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+"Alfredo Beaumont,Marcos Goyeneche,Ion Gaztañaga,Hizkuntza Politikarako "
+"Sailburuordetza"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
+"ziberpunk@ziberghetto.dhis.org,marcos@euskalgnu.org,igaztanaga@gmail.com,"
+"hizpol@ej-gv.es"
+
+#: kcmkded.cpp:79
+#, kde-format
+msgid "kcmkded"
+msgstr "kcmkded"
+
+#: kcmkded.cpp:79
+#, kde-format
+msgid "KDE Service Manager"
+msgstr "KDEren zerbitzu-kudeatzailea"
+
+#: kcmkded.cpp:81
+#, kde-format
+msgid "(c) 2002 Daniel Molkentin"
+msgstr "(c) 2002 Daniel Molkentin"
+
+#: kcmkded.cpp:82
+#, kde-format
+msgid "Daniel Molkentin"
+msgstr "Daniel Molkentin"
+
+#: kcmkded.cpp:85
+#, kde-format
+msgid ""
+"<h1>Service Manager</h1><p>This module allows you to have an overview of all "
+"plugins of the KDE Daemon, also referred to as KDE Services. Generally, "
+"there are two types of service:</p><ul><li>Services invoked at startup</"
+"li><li>Services called on demand</li></ul><p>The latter are only listed for "
+"convenience. The startup services can be started and stopped. In "
+"Administrator mode, you can also define whether services should be loaded at "
+"startup.</p><p><b> Use this with care: some services are vital for Plasma; "
+"do not deactivate services if you do not know what you are doing.</b></p>"
+msgstr ""
+"<h1>Zerbitzu-kudeatzailea</h1><p>Modulu honek KDE daimonaren plugin guztien, "
+"KDE zerbitzu ere esaten zaie, ikuspegi orokorra ematen dizu. Orokorrean, bi "
+"zerbitzu mota izaten dira:</p><ul><li>Abioan deitutako zerbitzuak</"
+"li><li>Eskatu ahalako zerbitzuak</li></ul><p>Azken horiek informazioa "
+"emateko baino ez dira zerrendatzen. Abioko zerbitzuak abiarazi eta gelditu "
+"egin daitezke. Administratzaile moduan, abiatzean zerbitzuak kargatu behar "
+"diren ere definitu dezakezu.</p><p><b> Aukera hau kontuz erabili: zerbitzu "
+"batzuk Plasmarentzako ezinbestekoak dira eta; ez desaktibatu zerbitzurik, "
+"zertan ari zaren ziur ez badakizu.</b></p>"
+
+#: kcmkded.cpp:93
+#, kde-format
+msgid "Running"
+msgstr "Exekutatzen"
+
+#: kcmkded.cpp:94
+#, kde-format
+msgid "Not running"
+msgstr "Ez da exekutatzen ari"
+
+#: kcmkded.cpp:99
+#, kde-format
+msgid "Load-on-Demand Services"
+msgstr "Eskatu ahala kargatzeko zerbitzuak"
+
+#: kcmkded.cpp:100
+#, kde-format
+msgid ""
+"This is a list of available KDE services which will be started on demand. "
+"They are only listed for convenience, as you cannot manipulate these "
+"services."
+msgstr ""
+"Eskatu ahala abiaraziko diren KDEren zerbitzu erabilgarrien zerrenda da hau. "
+"Informazioa emateko baino ez dira zerrendatzen zerbitzu horiek, ezin "
+"baitituzu manipulatu."
+
+#: kcmkded.cpp:109 kcmkded.cpp:131
+#, kde-format
+msgid "Service"
+msgstr "Zerbitzua"
+
+#: kcmkded.cpp:110 kcmkded.cpp:132
+#, kde-format
+msgid "Status"
+msgstr "Egoera"
+
+#: kcmkded.cpp:111 kcmkded.cpp:133
+#, kde-format
+msgid "Description"
+msgstr "Deskribapena"
+
+#: kcmkded.cpp:120
+#, kde-format
+msgid "Startup Services"
+msgstr "Abioko zerbitzuak"
+
+#: kcmkded.cpp:121
+#, kde-format
+msgid ""
+"This shows all KDE services that can be loaded on Plasma startup. Checked "
+"services will be invoked on next startup. Be careful with deactivation of "
+"unknown services."
+msgstr ""
+"Honek Plasma abiatzean zamatu daitezkeen zerbitzu guztiak erakusten ditu."
+"Markatutako zerbitzuak hurrengo abioan deituko dira. Kontuz ibili ezagutzen "
+"ez dituzun zerbitzuak desaktibatzearekin."
+
+#: kcmkded.cpp:130
+#, kde-format
+msgid "Use"
+msgstr "Erabili"
+
+#: kcmkded.cpp:143
+#, kde-format
+msgid "Start"
+msgstr "Abiarazi"
+
+#: kcmkded.cpp:144
+#, kde-format
+msgid "Stop"
+msgstr "Gelditu"
+
+#: kcmkded.cpp:325
+#, kde-format
+msgid "Unable to contact KDED."
+msgstr "Ezin da jarri harremanetan KDEDekin."
+
+#: kcmkded.cpp:469
+#, kde-format
+msgid "Unable to start server <em>%1</em>."
+msgstr "Ezin da abiarazi <em>%1</em> zerbitzaria."
+
+#: kcmkded.cpp:472
+#, kde-format
+msgid "Unable to start service <em>%1</em>.<br /><br /><i>Error: %2</i>"
+msgstr "Ezin da abiarazi <em>%1</em> zerbitzua.<br /><br /><i>Errorea: %2</i>"
+
+#: kcmkded.cpp:489
+#, kde-format
+msgid "Unable to stop service <em>%1</em>."
+msgstr "Ezin da gelditu <em>%1</em> zerbitzua."
+
+#: kcmkded.cpp:492
+#, kde-format
+msgid "Unable to stop service <em>%1</em>.<br /><br /><i>Error: %2</i>"
+msgstr "Ezin da gelditu <em>%1</em> zerbitzua.<br /><br /><i>Errorea: %2</i>"

@@ -1,0 +1,250 @@
+# translation of kcm_device_automounter.po to Français
+# translation of kcm_device_automounter.po to
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+# Joëlle Cornavin <jcorn@free.fr>, 2009, 2010, 2012.
+# xavier <ktranslator31@yahoo.fr>, 2013.
+# Maxime Corteel <mcorteel@gmail.com>, 2015.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kcm_device_automounter\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"PO-Revision-Date: 2015-08-24 18:04+0100\n"
+"Last-Translator: Maxime Corteel <mcorteel@gmail.com>\n"
+"Language-Team: French <kde-francophone@kde.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 2.0\n"
+"X-Environment: kde\n"
+"X-Accelerator-Marker: &\n"
+"X-Text-Markup: kde4\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Joëlle Cornavin, Maxime Corteel"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "jcorn@free.fr, mcorteel@gmail.com"
+
+#: DeviceAutomounterKCM.cpp:46
+#, kde-format
+msgid "Device Automounter"
+msgstr "Monteur automatique de périphériques"
+
+#: DeviceAutomounterKCM.cpp:50
+#, kde-format
+msgid "(c) 2009 Trever Fischer, (c) 2015 Kai Uwe Broulik"
+msgstr "(c) 2009 Trever Fischer, (c) 2015 Kai Uwe Broulik"
+
+#: DeviceAutomounterKCM.cpp:51
+#, kde-format
+msgid "Trever Fischer"
+msgstr "Trever Fischer"
+
+#: DeviceAutomounterKCM.cpp:51
+#, kde-format
+msgid "Original Author"
+msgstr "Auteur original"
+
+#: DeviceAutomounterKCM.cpp:52
+#, kde-format
+msgid "Kai Uwe Broulik"
+msgstr "Kai Uwe Broulik"
+
+#: DeviceAutomounterKCM.cpp:52
+#, kde-format
+msgid "Plasma 5 Port"
+msgstr "Port Plasma 5"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, automountEnabled)
+#: DeviceAutomounterKCM.ui:17
+#, kde-format
+msgid ""
+"When this is unchecked, no device automounting of any kind will happen, "
+"regardless of anything selected in the \"Device Overrides\" section."
+msgstr ""
+"Lorsque cette case est décochée, aucun montage automatique d'un type "
+"quelconque n'aura lieu, qu'il y ait ou non une section sélectionnée dans "
+"« Le périphérique est prioritaire »."
+
+#. i18n: ectx: property (text), widget (QCheckBox, automountEnabled)
+#: DeviceAutomounterKCM.ui:20
+#, kde-format
+msgid "Enable automatic mounting of removable media"
+msgstr "Autoriser le montage automatique des média amovibles"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, automountUnknownDevices)
+#: DeviceAutomounterKCM.ui:45
+#, kde-format
+msgid ""
+"When this is checked, only remembered devices will be automatically mounted. "
+"A device is 'remembered' if it has ever been mounted before. For instance, "
+"plugging in a USB media player to charge is not sufficient to 'remember' it "
+"- if the files are not accessed, it will not be automatically mounted the "
+"next time it is seen. Once they have been accessed, however, the device's "
+"contents will be automatically made available to the system."
+msgstr ""
+"Lorsque cette option est cochée, seuls les périphériques mémorisés seront "
+"automatiquement montés. Un périphérique est « mémorisé » s'il a déjà été "
+"monté auparavant. Par exemple, connecter à chaud un lecteur multimédia USB à "
+"charger n'est pas suffisant pour le « mémoriser » - si on accède pas aux "
+"fichiers, il ne sera pas automatiquement monté la prochaine fois qu'il sera "
+"détecté. Cependant, dès l'instant où on accède aux fichiers, le contenu du "
+"périphérique sera automatiquement mis à la disposition du système."
+
+#. i18n: ectx: property (text), widget (QCheckBox, automountUnknownDevices)
+#: DeviceAutomounterKCM.ui:48
+#, kde-format
+msgid ""
+"Only automatically mount removable media that has been manually mounted "
+"before"
+msgstr ""
+"Ne monter automatiquement que le média amovible ayant été monté manuellement "
+"auparavant"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, automountOnLogin)
+#: DeviceAutomounterKCM.ui:55
+#, kde-format
+msgid ""
+"If any removable storage devices are connected to your system when you login "
+"to your desktop, their contents will automatically be made available to your "
+"system for other programs to read."
+msgstr ""
+"Si un média de stockage amovible quelconque est raccordé à votre système "
+"lorsque vous vous connectez à votre environnement de bureau, son contenu "
+"sera automatiquement mis à la disposition de votre système pour que d'autres "
+"programmes puissent le lire."
+
+#. i18n: ectx: property (text), widget (QCheckBox, automountOnLogin)
+#: DeviceAutomounterKCM.ui:58
+#, kde-format
+msgid "Mount all removable media at login"
+msgstr "Monter tous les média amovibles lors de la connexion"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, automountOnPlugin)
+#: DeviceAutomounterKCM.ui:65
+#, kde-format
+msgid ""
+"When this is checked, the contents of any storage device will automatically "
+"be made available to the system when it is plugged in or attached."
+msgstr ""
+"Lorsque cette option est cochée, le contenu de tout périphérique de stockage "
+"sera automatiquement mis à la disposition du système quand il sera branché à "
+"chaud ou raccordé."
+
+#. i18n: ectx: property (text), widget (QCheckBox, automountOnPlugin)
+#: DeviceAutomounterKCM.ui:68
+#, kde-format
+msgid "Automatically mount removable media when attached"
+msgstr "Monter automatiquement le média amovible lorsqu'il est attaché"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: DeviceAutomounterKCM.ui:90
+#, kde-format
+msgid "Device Overrides"
+msgstr "Le périphérique est prioritaire"
+
+#. i18n: ectx: property (whatsThis), widget (QTreeView, deviceView)
+#: DeviceAutomounterKCM.ui:98
+#, kde-format
+msgid ""
+"This list contains the storage devices known to the system. If \"Automount "
+"on Login\" is checked, the device will be automatically mounted even though "
+"\"Mount all removable media at login\" is unchecked. The same applies for "
+"\"Automount on Attach\".\n"
+"\n"
+"If \"Enable automatic mounting of removable media\" is unchecked, the "
+"overrides do not apply and no devices will be automatically mounted."
+msgstr ""
+"Cette liste contient les périphériques de stockage connus du système. Si "
+"l'option « Montage automatique lors de la connexion » est cochée, le "
+"périphérique sera automatiquement monté, même si l'option « Monter tous les "
+"média amovibles lors de la connexion » est décoché. Il en va de même pour le "
+"paramètre « Montage automatique lors de la connexion ».\n"
+"\n"
+"Si l'option « Autoriser le montage automatique des média amovibles » est "
+"décochée, les priorités ne s'appliquent pas et aucun périphérique ne sera "
+"monté automatiquement."
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, forgetDevice)
+#: DeviceAutomounterKCM.ui:137
+#, kde-format
+msgid ""
+"Clicking this button causes the selected devices to be 'forgotten'. This is "
+"only useful if \"Only automatically mount removable media that has been "
+"manually mounted before\" is checked. Once a device is forgotten and the "
+"system is set to only automatically mount familiar devices, the device will "
+"not be automatically mounted."
+msgstr ""
+"Cliquer sur ce bouton amène les périphériques sélectionnés à être "
+"« oubliés ». Cette fonction n'est utile que si l'option « Ne monter "
+"automatiquement que le média amovible ayant été monté manuellement "
+"auparavant » est cochée. Dès lors qu'un périphérique est oublié et que le "
+"système est paramétré pour ne monter automatiquement que les périphériques "
+"habituels, le périphérique ne sera pas monté automatiquement."
+
+#. i18n: ectx: property (text), widget (QPushButton, forgetDevice)
+#: DeviceAutomounterKCM.ui:140
+#, kde-format
+msgid "Forget Device"
+msgstr "Oublier un périphérique"
+
+#: DeviceModel.cpp:62
+#, kde-format
+msgid "Device"
+msgstr "Périphérique"
+
+#: DeviceModel.cpp:63
+#, kde-format
+msgid "Automount on Login"
+msgstr "Montage automatique lors de la connexion"
+
+#: DeviceModel.cpp:64
+#, kde-format
+msgid "Automount on Attach"
+msgstr "Montage automatique lors du raccordement"
+
+#: DeviceModel.cpp:235 DeviceModel.cpp:274
+#, kde-format
+msgid "UDI: %1"
+msgstr "UDI : %1"
+
+#: DeviceModel.cpp:245 DeviceModel.cpp:284
+#, kde-format
+msgid "This device will be automatically mounted at login."
+msgstr "Ce périphérique sera monté automatiquement lors de la connexion."
+
+#: DeviceModel.cpp:246 DeviceModel.cpp:285
+#, kde-format
+msgid "This device will not be automatically mounted at login."
+msgstr ""
+"Ce périphérique ne sera pas monté automatiquement lors de la connexion."
+
+#: DeviceModel.cpp:254 DeviceModel.cpp:293
+#, kde-format
+msgid "This device will be automatically mounted when attached."
+msgstr "Ce périphérique sera monté automatiquement lors de son raccordement."
+
+#: DeviceModel.cpp:255 DeviceModel.cpp:294
+#, kde-format
+msgid "This device will not be automatically mounted when attached."
+msgstr ""
+"Ce périphérique ne sera pas monté automatiquement lors de son raccordement."
+
+#: DeviceModel.cpp:301
+#, kde-format
+msgid "Attached Devices"
+msgstr "Périphériques attachés"
+
+#: DeviceModel.cpp:303
+#, kde-format
+msgid "Disconnected Devices"
+msgstr "Périphériques déconnectés"

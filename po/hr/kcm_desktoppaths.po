@@ -1,0 +1,210 @@
+# Translation of kcm_desktoppaths to Croatian
+#
+# Translators: Anđelko Iharoš <>,Danko Butorac <danko@ipsis.hr>,Dario Lah <>,Denis Lackovic <delacko@fly.srk.fer.hr>,Mato Kutlić <mate@iskraemeco.hr>,Robert Pezer <rpezer@phy.hr>,Sasa Poznanovic <sasa.poznanovic@vuka.hr>,sime essert <sime2@nofrx.org>,Vedran Rodic <vedran@quark.fsb.hr>,Vlatko Kosturjak <kost@linux.hr>,
+# DoDo <DoDoEntertainment@gmail.com>, 2009.
+# Andrej Dundovic <adundovi@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmkonq 0\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"PO-Revision-Date: 2009-12-31 02:12+0100\n"
+"Last-Translator: Andrej Dundovic <adundovi@gmail.com>\n"
+"Language-Team: Croatian <kde-croatia-list@lists.sourceforge.net>\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 1.0\n"
+"X-Environment: kde\n"
+"X-Accelerator-Marker: &\n"
+"X-Text-Markup: kde4\n"
+
+#: globalpaths.cpp:113
+#, kde-format
+msgid ""
+"<h1>Paths</h1>\n"
+"This module allows you to choose where in the filesystem the files on your "
+"desktop should be stored.\n"
+"Use the \"Whats This?\" (Shift+F1) to get help on specific options."
+msgstr ""
+"<h1>Putanje</h1>\n"
+"Ovaj modul vam omogućava da odaberete gdje na datotečnom sustavu su "
+"smještene datoteke s vaše radne površine.\n"
+"Koristite 'Što je ovo?' (tipkama Shift+F1) za dodatne informacije."
+
+#: globalpaths.cpp:118
+#, kde-format
+msgid "Desktop path:"
+msgstr "Putanja radne površine:"
+
+#: globalpaths.cpp:119
+#, kde-format
+msgid ""
+"This folder contains all the files which you see on your desktop. You can "
+"change the location of this folder if you want to, and the contents will "
+"move automatically to the new location as well."
+msgstr ""
+"Ovaj direktorij sadrži sve datoteke koje vidite na radnoj površini. Možete "
+"promijeniti lokaciju ovog direktorija ako želite, i njegov sadržaj će se "
+"automatski premjestiti na  novu lokaciju."
+
+#: globalpaths.cpp:124
+#, kde-format
+msgid "Autostart path:"
+msgstr "Putanja programa koji će se automatski pokretati:"
+
+#: globalpaths.cpp:125
+#, fuzzy, kde-format
+#| msgid ""
+#| "This folder contains applications or links to applications (shortcuts) "
+#| "that you want to have started automatically whenever KDE starts. You can "
+#| "change the location of this folder if you want to, and the contents will "
+#| "move automatically to the new location as well."
+msgid ""
+"This folder contains applications or links to applications (shortcuts) that "
+"you want to have started automatically whenever the session starts. You can "
+"change the location of this folder if you want to, and the contents will "
+"move automatically to the new location as well."
+msgstr ""
+"Ovaj direktorij sadrži programe ili veze do njih (kratice) koje želite "
+"automatski pokrenuti kad god je KDE pokrenut. Ako to želite, možete "
+"promijeniti lokaciju ovog direktorija, i njegov sadržaj će se automatski "
+"premjestiti na novu lokaciju."
+
+#: globalpaths.cpp:131
+#, kde-format
+msgid "Documents path:"
+msgstr "Putanja dokumenata:"
+
+#: globalpaths.cpp:132
+#, kde-format
+msgid ""
+"This folder will be used by default to load or save documents from or to."
+msgstr "Ovaj direktorij će biti korišten kao uobičajeni za čuvanje dokumenata."
+
+#: globalpaths.cpp:135
+#, kde-format
+msgid "Downloads path:"
+msgstr "Putanja skinutih datoteka:"
+
+#: globalpaths.cpp:136
+#, kde-format
+msgid "This folder will be used by default to save your downloaded items."
+msgstr ""
+"Ovaj direktorij će biti korišten kao uobičajeni za čuvanje skinutih datoteka."
+
+#: globalpaths.cpp:139
+#, kde-format
+msgid "Movies path:"
+msgstr "Putanja filmova:"
+
+#: globalpaths.cpp:140
+#, kde-format
+msgid "This folder will be used by default to load or save movies from or to."
+msgstr "Ovaj direktorij će biti korišten kao uobičajeni za čuvanje filmova."
+
+#: globalpaths.cpp:143
+#, kde-format
+msgid "Pictures path:"
+msgstr "Putanja slika:"
+
+#: globalpaths.cpp:144
+#, kde-format
+msgid ""
+"This folder will be used by default to load or save pictures from or to."
+msgstr "Ovaj direktorij će biti korišten kao uobičajeni za čuvanje slika."
+
+#: globalpaths.cpp:147
+#, kde-format
+msgid "Music path:"
+msgstr "Putanja glazbe:"
+
+#: globalpaths.cpp:148
+#, kde-format
+msgid "This folder will be used by default to load or save music from or to."
+msgstr "Ovaj direktorij će biti korišten kao uobičajeni za čuvanje glazbe."
+
+#: globalpaths.cpp:277 globalpaths.cpp:295
+#, kde-format
+msgid "Autostart"
+msgstr "Automatsko pokretanje"
+
+#: globalpaths.cpp:281
+#, kde-format
+msgid "Desktop"
+msgstr "Radna površina"
+
+#: globalpaths.cpp:305
+#, kde-format
+msgid "Documents"
+msgstr "Dokumenti"
+
+#: globalpaths.cpp:308
+#, kde-format
+msgid "Downloads"
+msgstr "Skinute datoteke"
+
+#: globalpaths.cpp:311
+#, kde-format
+msgid "Movies"
+msgstr "Filmovi"
+
+#: globalpaths.cpp:314
+#, kde-format
+msgid "Pictures"
+msgstr "Slike"
+
+#: globalpaths.cpp:317
+#, kde-format
+msgid "Music"
+msgstr "Glazba"
+
+#: globalpaths.cpp:376
+#, kde-format
+msgid ""
+"The path for '%1' has been changed.\n"
+"Do you want the files to be moved from '%2' to '%3'?"
+msgstr ""
+"Putanja za '%1' je izmjenjena.\n"
+"Želite li da premjestim datoteke iz '%2' u '%3' ?"
+
+#: globalpaths.cpp:379
+#, kde-format
+msgctxt "Move files from old to new place"
+msgid "Move"
+msgstr "Pomakni"
+
+#: globalpaths.cpp:380
+#, kde-format
+msgctxt "Use the new directory but do not move files"
+msgid "Do not Move"
+msgstr "Nemoj pomicati"
+
+#: globalpaths.cpp:382
+#, kde-format
+msgid ""
+"The path for '%1' has been changed.\n"
+"Do you want to move the directory '%2' to '%3'?"
+msgstr ""
+"Putanja za '%1' je izmjenjena.\n"
+"Želite li premjestiti direktorij '%2' u '%3' ?"
+
+#: globalpaths.cpp:385
+#, kde-format
+msgctxt "Move the directory"
+msgid "Move"
+msgstr "Premjesti"
+
+#: globalpaths.cpp:386
+#, kde-format
+msgctxt "Use the new directory but do not move anything"
+msgid "Do not Move"
+msgstr "Nemoj pomicati"
+
+#: globalpaths.cpp:390
+#, kde-format
+msgid "Confirmation Required"
+msgstr "Potrebna je potvrda"

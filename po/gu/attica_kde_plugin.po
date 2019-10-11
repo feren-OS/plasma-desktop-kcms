@@ -1,0 +1,30 @@
+# translation of attica_kde.po to Gujarati
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Sweta Kothari <swkothar@redhat.com>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: attica_kde\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"PO-Revision-Date: 2010-06-17 12:25+0530\n"
+"Last-Translator: Hasit Bhatt <hasit.p.bhatt@gmail.com>\n"
+"Language-Team: Gujarati\n"
+"Language: gu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+#: kdeplatformdependent.cpp:108
+#, kde-format
+msgid ""
+"Should the password be stored in the configuration file? This is unsafe."
+msgstr "શું રૂપરેખાંકન ફાઇલમાં પાસવર્ડનો સંગ્રહ થવો જોઇએ? આ અસલામત છે."
+
+#: kdeplatformdependent.cpp:109
+#, kde-format
+msgid "Social Desktop Configuration"
+msgstr "સામાજિક ડેસ્કટોપ રૂપરેખાંકન"

@@ -1,0 +1,515 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Translators:
+# Mindaugas <embar@super.lt>, 2015.
+# Mindaugas Baranauskas <opensuse.lietuviu.kalba@gmail.com>, 2015, 2016, 2017.
+msgid ""
+msgstr ""
+"Project-Id-Version: KDE Frameworks 5 Applications\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"PO-Revision-Date: 2017-06-25 01:26+0200\n"
+"Last-Translator: Mindaugas Baranauskas <opensuse.lietuviu.kalba@gmail.com>\n"
+"Language-Team: Lithuanian <kde-i18n-lt@kde.org>\n"
+"Language: lt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"language/lt/)\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : n%10>=2 && (n%100<10 || n"
+"%100>=20) ? 1 : n%10==0 || (n%100>10 && n%100<20) ? 2 : 3);\n"
+"X-Generator: Lokalize 2.0\n"
+
+#: package/contents/config/config.qml:26
+#, kde-format
+msgid "General"
+msgstr "Bendra"
+
+#: package/contents/ui/code/tools.js:55
+#, kde-format
+msgid "Remove from Favorites"
+msgstr "Pašalinti iš žymelių"
+
+#: package/contents/ui/code/tools.js:59
+#, kde-format
+msgid "Add to Favorites"
+msgstr "Įtraukti į žymeles"
+
+#: package/contents/ui/code/tools.js:83
+#, kde-format
+msgid "On All Activities"
+msgstr ""
+
+#: package/contents/ui/code/tools.js:133
+#, kde-format
+msgid "On The Current Activity"
+msgstr ""
+
+#: package/contents/ui/code/tools.js:147
+#, fuzzy, kde-format
+#| msgid "Favorites"
+msgid "Show In Favorites"
+msgstr "Žymelės"
+
+#: package/contents/ui/ConfigGeneral.qml:58
+#, fuzzy, kde-format
+#| msgid "Icon"
+msgid "Icon:"
+msgstr "Ženkliukas"
+
+#: package/contents/ui/ConfigGeneral.qml:138
+#, kde-format
+msgctxt "@item:inmenu Open icon chooser dialog"
+msgid "Choose..."
+msgstr ""
+
+#: package/contents/ui/ConfigGeneral.qml:143
+#, kde-format
+msgctxt "@item:inmenu Reset icon to default"
+msgid "Clear Icon"
+msgstr ""
+
+#: package/contents/ui/ConfigGeneral.qml:161
+#, kde-format
+msgid "Show applications as:"
+msgstr "Programų rodymo būdas:"
+
+#: package/contents/ui/ConfigGeneral.qml:163
+#, kde-format
+msgid "Name only"
+msgstr "Tik pavadinimas"
+
+#: package/contents/ui/ConfigGeneral.qml:163
+#, kde-format
+msgid "Description only"
+msgstr "TIk aprašymas"
+
+#: package/contents/ui/ConfigGeneral.qml:163
+#, kde-format
+msgid "Name (Description)"
+msgstr "Pavadinimas (aprašymas)"
+
+#: package/contents/ui/ConfigGeneral.qml:163
+#, kde-format
+msgid "Description (Name)"
+msgstr "Aprašymas (pavadinimas)"
+
+#: package/contents/ui/ConfigGeneral.qml:173
+#, fuzzy, kde-format
+#| msgid "Behavior"
+msgid "Behavior:"
+msgstr "Elgesys"
+
+#: package/contents/ui/ConfigGeneral.qml:175
+#, fuzzy, kde-format
+#| msgid "Sort alphabetically"
+msgid "Sort applications alphabetically"
+msgstr "Rikiuoti pagal abėcėlę"
+
+#: package/contents/ui/ConfigGeneral.qml:183
+#, fuzzy, kde-format
+#| msgid "Flatten menu to a single level"
+msgid "Flatten sub-menus to a single level"
+msgstr "Sumažinti meniu iki vieno lygio"
+
+#: package/contents/ui/ConfigGeneral.qml:194
+#, fuzzy, kde-format
+#| msgid "Categories"
+msgid "Show categories:"
+msgstr "Kategorijos"
+
+#: package/contents/ui/ConfigGeneral.qml:197
+#, fuzzy, kde-format
+#| msgid "Recent Applications"
+msgid "Recent applications"
+msgstr "Paskiausios programos"
+
+#: package/contents/ui/ConfigGeneral.qml:198
+#, fuzzy, kde-format
+#| msgid "Often Used Applications"
+msgid "Often used applications"
+msgstr "Dažniausios programos"
+
+#: package/contents/ui/ConfigGeneral.qml:205
+#, fuzzy, kde-format
+#| msgid "Recent Documents"
+msgid "Recent documents"
+msgstr "Paskiausi dokumentai"
+
+#: package/contents/ui/ConfigGeneral.qml:206
+#, fuzzy, kde-format
+#| msgid "Often Used Documents"
+msgid "Often used documents"
+msgstr "Dažniausi dokumentai"
+
+#: package/contents/ui/ConfigGeneral.qml:213
+#, fuzzy, kde-format
+#| msgid "Recent Contacts"
+msgid "Recent contacts"
+msgstr "Paskiausi kontaktai"
+
+#: package/contents/ui/ConfigGeneral.qml:214
+#, fuzzy, kde-format
+#| msgid "Show often used contacts"
+msgid "Often used contacts"
+msgstr "Rodyti dažniausiai naudotus kontaktus"
+
+#: package/contents/ui/ConfigGeneral.qml:220
+#, kde-format
+msgid "Sort items in categories by:"
+msgstr ""
+
+#: package/contents/ui/ConfigGeneral.qml:221
+#, fuzzy, kde-format
+#| msgid "Recently used"
+msgctxt ""
+"@item:inlistbox Sort items in categories by [Recently used | Often used]"
+msgid "Recently used"
+msgstr "Paskiausiai naudota"
+
+#: package/contents/ui/ConfigGeneral.qml:221
+#, fuzzy, kde-format
+#| msgid "Often used"
+msgctxt ""
+"@item:inlistbox Sort items in categories by [Recently used | Ofetn used]"
+msgid "Often used"
+msgstr "Dažniausiai naudotus"
+
+#: package/contents/ui/ConfigGeneral.qml:231
+#, fuzzy, kde-format
+#| msgid "Search"
+msgid "Search:"
+msgstr "Paieška"
+
+#: package/contents/ui/ConfigGeneral.qml:233
+#, kde-format
+msgid "Expand search to bookmarks, files and emails"
+msgstr "Į paiešką įtraukti žymeles, failus ir el.paštą"
+
+#: package/contents/ui/ConfigGeneral.qml:241
+#, kde-format
+msgid "Align search results to bottom"
+msgstr "Paieškos rezultatus pateikti apačioje"
+
+#: package/contents/ui/DashboardRepresentation.qml:305
+#, kde-format
+msgid "Searching for '%1'"
+msgstr "Ieškoma „%1“"
+
+#: package/contents/ui/DashboardRepresentation.qml:305
+#, fuzzy, kde-format
+#| msgid "Type to search."
+msgid "Type to search..."
+msgstr "Paieškos tipas."
+
+#: package/contents/ui/DashboardRepresentation.qml:405
+#: plugin/kastatsfavoritesmodel.cpp:494 plugin/simplefavoritesmodel.cpp:43
+#, kde-format
+msgid "Favorites"
+msgstr "Žymelės"
+
+#: package/contents/ui/DashboardRepresentation.qml:622
+#: package/contents/ui/DashboardTabBar.qml:55
+#, kde-format
+msgid "Widgets"
+msgstr "Valdikliai"
+
+#: package/contents/ui/DashboardTabBar.qml:44
+#, kde-format
+msgid "Apps & Docs"
+msgstr "Programos ir dokumentai"
+
+#: package/contents/ui/main.qml:272
+#, kde-format
+msgid "Edit Applications..."
+msgstr "Keisti programas..."
+
+#: package/contents/ui/MenuRepresentation.qml:319
+#, kde-format
+msgid "Search..."
+msgstr "Ieškoti..."
+
+#: plugin/actionlist.cpp:95
+#, kde-format
+msgid "Open with:"
+msgstr "Atverti su:"
+
+#: plugin/actionlist.cpp:108
+#, kde-format
+msgid "Properties"
+msgstr "Savybės"
+
+#: plugin/actionlist.cpp:153
+#, kde-format
+msgid "Add to Desktop"
+msgstr "Įtraukti į darbalaukį"
+
+#: plugin/actionlist.cpp:157
+#, kde-format
+msgid "Add to Panel (Widget)"
+msgstr "Įtraukti į skydelį (valdiklį)"
+
+#: plugin/actionlist.cpp:161
+#, kde-format
+msgid "Pin to Task Manager"
+msgstr "Prisegti prie užduočių tvarkytuvės"
+
+#: plugin/actionlist.cpp:270 plugin/rootmodel.cpp:390
+#, kde-format
+msgid "Recent Documents"
+msgstr "Paskiausi dokumentai"
+
+#: plugin/actionlist.cpp:280
+#, kde-format
+msgid "Forget Recent Documents"
+msgstr "Išvalyti paskiausių dokumentų sąrašą"
+
+#: plugin/actionlist.cpp:336
+#, kde-format
+msgid "Edit Application..."
+msgstr "Keisti programą..."
+
+#: plugin/actionlist.cpp:383
+#, kde-format
+msgctxt "@action opens a software center with the application"
+msgid "Manage '%1'..."
+msgstr "Tvarkyti „%1“..."
+
+#: plugin/appentry.cpp:178
+#, kde-format
+msgid "Hide Application"
+msgstr "Slėpti programą"
+
+#: plugin/appentry.cpp:237
+#, kde-format
+msgctxt "App name (Generic name)"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: plugin/appentry.cpp:239
+#, kde-format
+msgctxt "Generic name (App name)"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: plugin/appsmodel.cpp:45 plugin/appsmodel.cpp:69 plugin/computermodel.cpp:110
+#: plugin/computermodel.cpp:242 plugin/recentusagemodel.cpp:149
+#: plugin/recentusagemodel.cpp:209
+#, kde-format
+msgid "Applications"
+msgstr "Programos"
+
+#: plugin/appsmodel.cpp:165
+#, kde-format
+msgid "Unhide Applications in this Submenu"
+msgstr "Rodyti visus kategorijos įrašus"
+
+#: plugin/appsmodel.cpp:171
+#, kde-format
+msgid "Unhide Applications in '%1'"
+msgstr "Nebeslėpti „%1“ kategorijos programų"
+
+#: plugin/computermodel.cpp:104
+#, kde-format
+msgid "Run Command..."
+msgstr "Vykdyti komandą..."
+
+#: plugin/computermodel.cpp:108
+#, kde-format
+msgid "Run a command or a search query"
+msgstr "Vykdyti komandą arba ieškoti užklausos"
+
+#: plugin/computermodel.cpp:161
+#, kde-format
+msgid "Computer"
+msgstr "Kompiuteris"
+
+#: plugin/contactentry.cpp:117 plugin/recentcontactsmodel.cpp:93
+#, kde-format
+msgid "Show Contact Information..."
+msgstr "Rodyti kontaktinę informaciją..."
+
+#: plugin/recentcontactsmodel.cpp:52
+#, kde-format
+msgid "Contacts"
+msgstr "Kontaktai"
+
+#: plugin/recentcontactsmodel.cpp:85
+#, kde-format
+msgid "Forget Contact"
+msgstr "Pamiršti kontaktą"
+
+#: plugin/recentcontactsmodel.cpp:88 plugin/recentcontactsmodel.cpp:165
+#, kde-format
+msgid "Forget All Contacts"
+msgstr "Pamiršti visus kontaktus"
+
+#: plugin/recentusagemodel.cpp:147
+#, kde-format
+msgid "Recently Used"
+msgstr "Paskiausiai naudota"
+
+#: plugin/recentusagemodel.cpp:152 plugin/recentusagemodel.cpp:263
+#, kde-format
+msgid "Documents"
+msgstr "Dokumentai"
+
+#: plugin/recentusagemodel.cpp:227
+#, kde-format
+msgid "Forget Application"
+msgstr "Pamiršti programą"
+
+#: plugin/recentusagemodel.cpp:275
+#, kde-format
+msgid "Forget Document"
+msgstr "Pamiršti dokumentą"
+
+#: plugin/recentusagemodel.cpp:403
+#, kde-format
+msgid "Forget All"
+msgstr "Viską pamiršti"
+
+#: plugin/recentusagemodel.cpp:405
+#, kde-format
+msgid "Forget All Applications"
+msgstr "Pamiršti visas programas"
+
+#: plugin/recentusagemodel.cpp:408
+#, kde-format
+msgid "Forget All Documents"
+msgstr "Pamiršti visus dokumentus"
+
+#: plugin/rootmodel.cpp:106
+#, kde-format
+msgid "Hide %1"
+msgstr "Slėpti: %1"
+
+#: plugin/rootmodel.cpp:376
+#, kde-format
+msgid "All Applications"
+msgstr "Visos programos"
+
+#: plugin/rootmodel.cpp:382
+#, kde-format
+msgid "Recent Contacts"
+msgstr "Paskiausi kontaktai"
+
+#: plugin/rootmodel.cpp:391
+#, kde-format
+msgid "Often Used Documents"
+msgstr "Dažniausi dokumentai"
+
+#: plugin/rootmodel.cpp:401
+#, kde-format
+msgid "Recent Applications"
+msgstr "Paskiausios programos"
+
+#: plugin/rootmodel.cpp:402
+#, kde-format
+msgid "Often Used Applications"
+msgstr "Dažniausios programos"
+
+#: plugin/rootmodel.cpp:416
+#, kde-format
+msgid "Power / Session"
+msgstr "Maitinimas / sesija"
+
+#: plugin/runnermodel.cpp:238
+#, kde-format
+msgid "Search results"
+msgstr "Radinys"
+
+#: plugin/systementry.cpp:166
+#, kde-format
+msgid "Lock"
+msgstr "Užrakinti"
+
+#: plugin/systementry.cpp:169
+#, kde-format
+msgid "Log Out"
+msgstr ""
+
+#: plugin/systementry.cpp:172 plugin/systementry.cpp:240
+#, kde-format
+msgid "Save Session"
+msgstr "Išsaugoti sesiją"
+
+#: plugin/systementry.cpp:175
+#, kde-format
+msgid "Switch User"
+msgstr "Pakeisti naudotoją"
+
+#: plugin/systementry.cpp:178
+#, kde-format
+msgctxt "Suspend to RAM"
+msgid "Sleep"
+msgstr ""
+
+#: plugin/systementry.cpp:181
+#, kde-format
+msgid "Hibernate"
+msgstr "Sustabdyti į diską"
+
+#: plugin/systementry.cpp:184
+#, fuzzy, kde-format
+#| msgid "Restart computer"
+msgid "Restart"
+msgstr "Iš naujo paleisti kompiuterį"
+
+#: plugin/systementry.cpp:187
+#, kde-format
+msgid "Shut Down"
+msgstr "Išjungti"
+
+#: plugin/systementry.cpp:200 plugin/systementry.cpp:203
+#: plugin/systementry.cpp:206 plugin/systementry.cpp:209
+#, kde-format
+msgid "Session"
+msgstr "Sesija"
+
+#: plugin/systementry.cpp:212 plugin/systementry.cpp:215
+#: plugin/systementry.cpp:218 plugin/systementry.cpp:221
+#, kde-format
+msgid "System"
+msgstr "Sistema"
+
+#: plugin/systementry.cpp:234
+#, kde-format
+msgid "Lock screen"
+msgstr "Užrakinti ekraną"
+
+#: plugin/systementry.cpp:237
+#, kde-format
+msgid "End session"
+msgstr "Baigti sesiją"
+
+#: plugin/systementry.cpp:243
+#, kde-format
+msgid "Start a parallel session as a different user"
+msgstr "Prisijungti kitu naudotoju lygiagrečioje sesijoje"
+
+#: plugin/systementry.cpp:246
+#, kde-format
+msgid "Suspend to RAM"
+msgstr "Sustabdyti į RAM"
+
+#: plugin/systementry.cpp:249
+#, kde-format
+msgid "Suspend to disk"
+msgstr "Sustabdyti į diską"
+
+#: plugin/systementry.cpp:252
+#, kde-format
+msgid "Restart computer"
+msgstr "Iš naujo paleisti kompiuterį"
+
+#: plugin/systementry.cpp:255
+#, kde-format
+msgid "Turn off computer"
+msgstr "Išjungti kompiuterį"
+
+#: plugin/systemmodel.cpp:75
+#, kde-format
+msgid "System actions"
+msgstr "Sistemos veiksmai"

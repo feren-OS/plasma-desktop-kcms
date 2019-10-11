@@ -1,0 +1,259 @@
+# Traducerea kcmfonts.po în Română
+# translation of kcmfonts.po to
+# translation of kcmfonts.po to Romanian
+# translation of @PACKAGE.po to @LANGUAGE
+# Claudiu Costin <claudiuc@kde.org>, 2003, 2004, 2005.
+# Sergiu Bivol <sergiu-bivol@mail.md>, 2008.
+# Sergiu Bivol <sergiu@ase.md>, 2008, 2009.
+# Sergiu Bivol <sergiu.bivol@jurnaltv.md>, 2010, 2011, 2012, 2013, 2014.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmfonts\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-07-12 07:37+0200\n"
+"PO-Revision-Date: 2014-10-03 11:31+0300\n"
+"Last-Translator: Sergiu Bivol <sergiu@ase.md>\n"
+"Language-Team: Romanian <kde-i18n-ro@kde.org>\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"claudiuc@kde.org\n"
+"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
+"20)) ? 1 : 2;\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
+
+#: fonts.cpp:279
+#, kde-format
+msgid ""
+"<p>Some changes such as anti-aliasing or DPI will only affect newly started "
+"applications.</p>"
+msgstr ""
+"<p>Unele configurări, cum ar fi anti-alierea sau DPI, vor avea efect numai "
+"pentru aplicațiile pornite din acest moment.</p>"
+
+#: fonts.cpp:280 fonts.cpp:290
+#, kde-format
+msgid "Font Settings Changed"
+msgstr "Configurări de fonturi modificate"
+
+#: fonts.cpp:289
+#, kde-format
+msgid ""
+"<p>Some changes such as DPI will only affect newly started applications.</p>"
+msgstr ""
+"<p>Unele modificări, cum ar fi valoarea PPȚ, vor avea efect numai pentru "
+"aplicațiile pornite din acest moment.</p>"
+
+#: fonts.cpp:443
+#, kde-format
+msgid "Fonts"
+msgstr ""
+
+#: fonts.cpp:445
+#, kde-format
+msgid "Antonis Tsiapaliokas"
+msgstr ""
+
+#: kxftconfig.cpp:444
+#, fuzzy, kde-format
+#| msgctxt "Use anti-aliasing"
+#| msgid "System Settings"
+msgctxt "use system subpixel setting"
+msgid "Vendor default"
+msgstr "Configurări de sistem"
+
+#: kxftconfig.cpp:446
+#, kde-format
+msgctxt "no subpixel rendering"
+msgid "None"
+msgstr "Niciuna"
+
+#: kxftconfig.cpp:448
+#, kde-format
+msgid "RGB"
+msgstr "RVA"
+
+#: kxftconfig.cpp:450
+#, kde-format
+msgid "BGR"
+msgstr "AVR"
+
+#: kxftconfig.cpp:452
+#, kde-format
+msgid "Vertical RGB"
+msgstr "RVA vertical"
+
+#: kxftconfig.cpp:454
+#, kde-format
+msgid "Vertical BGR"
+msgstr "AVR vertical"
+
+#: kxftconfig.cpp:482
+#, fuzzy, kde-format
+#| msgctxt "Use anti-aliasing"
+#| msgid "System Settings"
+msgctxt "use system hinting settings"
+msgid "Vendor default"
+msgstr "Configurări de sistem"
+
+#: kxftconfig.cpp:484
+#, kde-format
+msgctxt "medium hinting"
+msgid "Medium"
+msgstr "Medie"
+
+#: kxftconfig.cpp:486
+#, kde-format
+msgctxt "no hinting"
+msgid "None"
+msgstr "Niciuna"
+
+#: kxftconfig.cpp:488
+#, kde-format
+msgctxt "slight hinting"
+msgid "Slight"
+msgstr "Ușoară"
+
+#: kxftconfig.cpp:490
+#, kde-format
+msgctxt "full hinting"
+msgid "Full"
+msgstr "Deplină"
+
+#: package/contents/ui/FontWidget.qml:68
+#, kde-format
+msgid "Select %1 Font..."
+msgstr ""
+
+#: package/contents/ui/main.qml:30
+#, kde-format
+msgid "This module lets you configure the system fonts."
+msgstr ""
+
+#: package/contents/ui/main.qml:40
+#, fuzzy, kde-format
+#| msgid "Ad&just All Fonts..."
+msgid "&Adjust All Fonts..."
+msgstr "A&justează toate fonturile..."
+
+#: package/contents/ui/main.qml:47
+#, fuzzy, kde-format
+#| msgctxt "font usage"
+#| msgid "General"
+msgid "General:"
+msgstr "General"
+
+#: package/contents/ui/main.qml:52
+#, fuzzy, kde-format
+#| msgctxt "font usage"
+#| msgid "Fixed width"
+msgid "Fixed width:"
+msgstr "Lățime fixă"
+
+#: package/contents/ui/main.qml:57
+#, fuzzy, kde-format
+#| msgctxt "font usage"
+#| msgid "Small"
+msgid "Small:"
+msgstr "Mic"
+
+#: package/contents/ui/main.qml:62
+#, fuzzy, kde-format
+#| msgctxt "font usage"
+#| msgid "Toolbar"
+msgid "Toolbar:"
+msgstr "Bară de unelte"
+
+#: package/contents/ui/main.qml:67
+#, fuzzy, kde-format
+#| msgctxt "font usage"
+#| msgid "Menu"
+msgid "Menu:"
+msgstr "Meniu"
+
+#: package/contents/ui/main.qml:72
+#, fuzzy, kde-format
+#| msgctxt "font usage"
+#| msgid "Window title"
+msgid "Window title:"
+msgstr "Titlu fereastră"
+
+#: package/contents/ui/main.qml:84
+#, fuzzy, kde-format
+#| msgid "Use a&nti-aliasing:"
+msgctxt "Used as a noun, and precedes a combobox full of options"
+msgid "Anti-aliasing:"
+msgstr "Folosește a&ntialiere:"
+
+#: package/contents/ui/main.qml:86
+#, fuzzy, kde-format
+#| msgctxt "Use anti-aliasing"
+#| msgid "Enabled"
+msgid "Enabled"
+msgstr "Activată"
+
+#: package/contents/ui/main.qml:86
+#, fuzzy, kde-format
+#| msgctxt "Use anti-aliasing"
+#| msgid "System Settings"
+msgid "Vendor default"
+msgstr "Configurări de sistem"
+
+#: package/contents/ui/main.qml:86
+#, fuzzy, kde-format
+#| msgctxt "Use anti-aliasing"
+#| msgid "Disabled"
+msgid "Disabled"
+msgstr "Dezactivată"
+
+#: package/contents/ui/main.qml:96
+#, kde-format
+msgid "Exclude range from anti-aliasing"
+msgstr ""
+
+#: package/contents/ui/main.qml:113 package/contents/ui/main.qml:128
+#, kde-format
+msgid "%1 pt"
+msgstr ""
+
+#: package/contents/ui/main.qml:120
+#, fuzzy, kde-format
+#| msgid " to "
+msgid "to"
+msgstr " la "
+
+#: package/contents/ui/main.qml:141
+#, fuzzy, kde-format
+#| msgid "&Use sub-pixel rendering:"
+msgctxt "Used as a noun, and precedes a combobox full of options"
+msgid "Sub-pixel rendering:"
+msgstr "&Utilizează randare sub-pixel:"
+
+#: package/contents/ui/main.qml:178
+#, fuzzy, kde-format
+#| msgid "Hinting style: "
+msgctxt "Used as a noun, and precedes a combobox full of options"
+msgid "Hinting:"
+msgstr "Stil corecție:"
+
+#: package/contents/ui/main.qml:216
+#, fuzzy, kde-format
+#| msgid "Force fonts DPI:"
+msgid "Force font DPI:"
+msgstr "Forțează DPI-ul fonturilor:"
+
+#: package/contents/ui/main.qml:234
+#, kde-format
+msgid "Select Font"
+msgstr ""

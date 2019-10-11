@@ -1,0 +1,157 @@
+# Translation of plasma_applet_org.kde.plasma.pager to Norwegian Bokmål
+#
+# Bjørn Steensrud <bjornst@skogkatt.homelinux.org>, 2013, 2014.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"PO-Revision-Date: 2014-08-28 20:04+0200\n"
+"Last-Translator: Bjørn Steensrud <bjornst@skogkatt.homelinux.org>\n"
+"Language-Team: Norwegian Bokmål <i18n-nb@lister.ping.uio.no>\n"
+"Language: nb\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 1.5\n"
+"X-Environment: kde\n"
+"X-Accelerator-Marker: &\n"
+"X-Text-Markup: kde4\n"
+
+#: package/contents/config/config.qml:25
+#, kde-format
+msgid "General"
+msgstr "Generelt"
+
+#: package/contents/ui/configGeneral.qml:84
+#, kde-format
+msgid "General:"
+msgstr ""
+
+#: package/contents/ui/configGeneral.qml:86
+#, kde-format
+msgid "Show application icons on window outlines"
+msgstr ""
+
+#: package/contents/ui/configGeneral.qml:91
+#, kde-format
+msgid "Show only current screen"
+msgstr ""
+
+#: package/contents/ui/configGeneral.qml:96
+#, kde-format
+msgid "Navigation wraps around"
+msgstr ""
+
+#: package/contents/ui/configGeneral.qml:108
+#, kde-format
+msgid "Layout:"
+msgstr "Utforming:"
+
+#: package/contents/ui/configGeneral.qml:110
+#, kde-format
+msgctxt "The pager layout"
+msgid "Default"
+msgstr ""
+
+#: package/contents/ui/configGeneral.qml:110
+#, kde-format
+msgid "Horizontal"
+msgstr ""
+
+#: package/contents/ui/configGeneral.qml:110
+#, kde-format
+msgid "Vertical"
+msgstr "Loddrett"
+
+#: package/contents/ui/configGeneral.qml:124
+#, kde-format
+msgid "Text display:"
+msgstr ""
+
+#: package/contents/ui/configGeneral.qml:127
+#, kde-format
+msgid "No text"
+msgstr "Ingen tekst"
+
+#: package/contents/ui/configGeneral.qml:133
+#, kde-format
+msgid "Activity number"
+msgstr ""
+
+#: package/contents/ui/configGeneral.qml:133
+#, kde-format
+msgid "Desktop number"
+msgstr "Skrivebord nummer"
+
+#: package/contents/ui/configGeneral.qml:139
+#, kde-format
+msgid "Activity name"
+msgstr ""
+
+#: package/contents/ui/configGeneral.qml:139
+#, kde-format
+msgid "Desktop name"
+msgstr "Skrivebordets navn"
+
+#: package/contents/ui/configGeneral.qml:152
+#, kde-format
+msgid "Selecting current Activity:"
+msgstr ""
+
+#: package/contents/ui/configGeneral.qml:152
+#, kde-format
+msgid "Selecting current virtual desktop:"
+msgstr ""
+
+#: package/contents/ui/configGeneral.qml:155
+#, kde-format
+msgid "Does nothing"
+msgstr "Gjør ingenting"
+
+#: package/contents/ui/configGeneral.qml:161
+#, kde-format
+msgid "Shows the desktop"
+msgstr ""
+
+#: package/contents/ui/main.qml:329
+#, kde-format
+msgid "...and %1 other window"
+msgid_plural "...and %1 other windows"
+msgstr[0] ""
+msgstr[1] ""
+
+#: package/contents/ui/main.qml:353
+#, kde-format
+msgid "%1 Window:"
+msgid_plural "%1 Windows:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: package/contents/ui/main.qml:362
+#, kde-format
+msgid "%1 Minimized Window:"
+msgid_plural "%1 Minimized Windows:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: package/contents/ui/main.qml:537
+#, kde-format
+msgid "Show Activity Manager..."
+msgstr ""
+
+#: package/contents/ui/main.qml:540
+#, kde-format
+msgid "Add Virtual Desktop"
+msgstr "Legg til virtuelt skrivebort"
+
+#: package/contents/ui/main.qml:541
+#, kde-format
+msgid "Remove Virtual Desktop"
+msgstr "Fjern virtuelt skrivebord"
+
+#: package/contents/ui/main.qml:546
+#, kde-format
+msgid "Configure Virtual Desktops..."
+msgstr ""

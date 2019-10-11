@@ -1,0 +1,192 @@
+# kcmicons Bahasa Melayu (Malay) (ms)
+# Copyright (C) 2008, 2009 K Desktop Environment
+#
+# Muhammad Najmi bin Ahmad Zabidi <md_najmi@yahoo.com>, 2003.
+# Sharuzzaman Ahmat Raslan <sharuzzaman@myrealbox.com>, 2008, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmicons\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"PO-Revision-Date: 2009-08-05 21:58+0800\n"
+"Last-Translator: Sharuzzaman Ahmat Raslan <sharuzzaman@myrealbox.com>\n"
+"Language-Team: Malay <kedidiemas@yahoogroups.com>\n"
+"Language: ms\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=1;\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Muhammad Najmi bin Ahmad Zabidi"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "md_najmi@yahoo.com"
+
+#: main.cpp:85
+#, kde-format
+msgid "Icons"
+msgstr "Ikon"
+
+#: main.cpp:86
+#, kde-format
+msgid "Icons Control Panel Module"
+msgstr "Modul Panel Kawalan Ikon "
+
+#: main.cpp:87
+#, kde-format
+msgid "(c) 2000-2003 Geert Jansen"
+msgstr "(c) 2000-2003 Geert Jansen"
+
+#: main.cpp:88
+#, kde-format
+msgid "Geert Jansen"
+msgstr "Geert Jansen"
+
+#: main.cpp:89
+#, kde-format
+msgid "Antonio Larrosa Jimenez"
+msgstr "Antonio Larrosa Jimenez"
+
+#: main.cpp:90
+#, kde-format
+msgid "Torsten Rahn"
+msgstr "Torsten Rahn"
+
+#: main.cpp:91
+#, kde-format
+msgid "Jonathan Riddell"
+msgstr ""
+
+#: main.cpp:92
+#, kde-format
+msgid "Kai Uwe Broulik"
+msgstr ""
+
+#: main.cpp:284
+#, fuzzy, kde-format
+#| msgid "Remove Theme"
+msgid "Download New Icon Themes"
+msgstr "Buang Tema"
+
+#: main.cpp:320
+#, kde-format
+msgid "Unable to create a temporary file."
+msgstr ""
+
+#: main.cpp:332
+#, fuzzy, kde-format
+#| msgid "Unable to find the icon theme archive %1."
+msgid "Unable to download the icon theme archive: %1"
+msgstr "Gagal mencari arkib tema ikon %1."
+
+#: main.cpp:346
+#, kde-format
+msgid "The file is not a valid icon theme archive."
+msgstr "Fail bukan arkib tema ikon yang sah."
+
+#: main.cpp:351
+#, kde-format
+msgid ""
+"A problem occurred during the installation process; however, most of the "
+"themes in the archive have been installed"
+msgstr ""
+"Masalah berlaku semasa proses pemasangan; namun begitu, kebanyakan tema di "
+"dalam arkib telah dipasang"
+
+#: main.cpp:355
+#, kde-format
+msgid "Theme installed successfully."
+msgstr ""
+
+#: main.cpp:465
+#, fuzzy, kde-format
+#| msgid "Installing icon themes"
+msgid "Installing icon themes..."
+msgstr "Memasang tema ikon"
+
+#: main.cpp:475
+#, fuzzy, kde-format
+#| msgid "Installing icon themes"
+msgid "Installing %1 theme..."
+msgstr "Memasang tema ikon"
+
+#: package/contents/ui/IconSizePopup.qml:91
+#, kde-format
+msgid "Desktop"
+msgstr "Desktop"
+
+#: package/contents/ui/IconSizePopup.qml:92
+#, kde-format
+msgid "Toolbar"
+msgstr "Papan Alatan"
+
+#: package/contents/ui/IconSizePopup.qml:93
+#, kde-format
+msgid "Main Toolbar"
+msgstr "Bar Alatan Utama"
+
+#: package/contents/ui/IconSizePopup.qml:94
+#, kde-format
+msgid "Small Icons"
+msgstr "Ikon Kecil"
+
+#: package/contents/ui/IconSizePopup.qml:95
+#, kde-format
+msgid "Panel"
+msgstr "Panel"
+
+#: package/contents/ui/IconSizePopup.qml:96
+#, kde-format
+msgid "Dialogs"
+msgstr "Dialog"
+
+#: package/contents/ui/main.qml:34
+#, kde-format
+msgid "This module allows you to choose the icons for your desktop."
+msgstr ""
+
+#: package/contents/ui/main.qml:155
+#, fuzzy, kde-format
+#| msgid "Remove Theme"
+msgid "Remove Icon Theme"
+msgstr "Buang Tema"
+
+#: package/contents/ui/main.qml:162
+#, fuzzy, kde-format
+#| msgid "Remove Theme"
+msgid "Restore Icon Theme"
+msgstr "Buang Tema"
+
+#: package/contents/ui/main.qml:231
+#, kde-format
+msgid "Configure Icon Sizes"
+msgstr ""
+
+#: package/contents/ui/main.qml:247
+#, fuzzy, kde-format
+#| msgid "Install Theme File..."
+msgid "Install from File..."
+msgstr "Pasang Fail Tema..."
+
+#: package/contents/ui/main.qml:253
+#, fuzzy, kde-format
+#| msgid "Get New Themes..."
+msgid "Get New Icons..."
+msgstr "Dapatkan Tema Baru..."
+
+#: package/contents/ui/main.qml:274
+#, fuzzy, kde-format
+#| msgid "Remove Theme"
+msgid "Open Theme"
+msgstr "Buang Tema"
+
+#: package/contents/ui/main.qml:276
+#, kde-format
+msgid "Theme Files (*.tar.gz *.tar.bz2)"
+msgstr ""

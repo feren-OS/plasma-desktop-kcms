@@ -1,0 +1,152 @@
+# translation of kcmlocale.po to
+# Copyright (C) 2008 This_file_is_part_of_KDE
+# This file is distributed under the same license as the kdebase package.
+# Ani Peter <peter.ani@gmail.com>, 2008.
+# Manilal K M|മണിലാല്‍ കെ എം <libregeek@gmail.com>, 2009.
+# Praveen Arimbrathodiyil <pravi.a@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmlocale\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"PO-Revision-Date: 2019-08-11 14:09+0530\n"
+"Last-Translator: Subin Siby <mail@subinsb.com>\n"
+"Language-Team: Malayalam <smc-discuss@googlegroups.com>\n"
+"Language: ml\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 0.3\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: kcmformats.cpp:45
+#, kde-format
+msgid ""
+"<h1>Formats</h1>You can configure the formats used for time, dates, money "
+"and other numbers here."
+msgstr ""
+
+#: kcmformats.cpp:102
+#, kde-format
+msgid "No change"
+msgstr ""
+
+#: kcmformats.cpp:139
+#, kde-format
+msgid "%1 - %2 (%3)"
+msgstr ""
+
+#: kcmformats.cpp:141
+#, kde-format
+msgid "%1 (%2)"
+msgstr ""
+
+#: kcmformats.cpp:274
+#, kde-format
+msgid "Your changes will take effect the next time you log in."
+msgstr ""
+
+#: kcmformats.cpp:275
+#, kde-format
+msgid "Format Settings Changed"
+msgstr ""
+
+#: kcmformats.cpp:341
+#, fuzzy, kde-format
+msgid "%1 (long format)"
+msgstr "തീയതി ലഘു രീതിയില്‍:"
+
+#: kcmformats.cpp:342
+#, fuzzy, kde-format
+msgid "%1 (short format)"
+msgstr "തീയതി ലഘു രീതിയില്‍:"
+
+#: kcmformats.cpp:347
+#, fuzzy, kde-format
+msgctxt "Measurement combobox"
+msgid "Imperial UK"
+msgstr "ഇംപീരിയല്‍"
+
+#: kcmformats.cpp:349
+#, fuzzy, kde-format
+msgctxt "Measurement combobox"
+msgid "Imperial US"
+msgstr "ഇംപീരിയല്‍"
+
+#: kcmformats.cpp:351
+#, fuzzy, kde-format
+msgctxt "Measurement combobox"
+msgid "Metric"
+msgstr "മെട്രിക്"
+
+#. i18n: ectx: property (text), widget (QLabel, label_10)
+#: kcmformatswidget.ui:47
+#, kde-format
+msgid "Re&gion:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, checkDetailed)
+#: kcmformatswidget.ui:76
+#, fuzzy, kde-format
+msgid "De&tailed Settings"
+msgstr "പ്രാദേശിക ക്രമികരണങ്ങള്‍"
+
+#. i18n: ectx: property (text), widget (QLabel, labelNumbers)
+#: kcmformatswidget.ui:83
+#, fuzzy, kde-format
+msgid "&Numbers:"
+msgstr "അക്കങ്ങള്‍:"
+
+#. i18n: ectx: property (text), widget (QLabel, labelTime)
+#: kcmformatswidget.ui:112
+#, fuzzy, kde-format
+msgid "&Time:"
+msgstr "സമയം:"
+
+#. i18n: ectx: property (text), widget (QLabel, labelCurrency)
+#: kcmformatswidget.ui:141
+#, fuzzy, kde-format
+msgid "Currenc&y:"
+msgstr "നാണയത്തിന്റെ ചിഹ്നം:"
+
+#. i18n: ectx: property (text), widget (QLabel, labelMeasurement)
+#: kcmformatswidget.ui:170
+#, fuzzy, kde-format
+msgid "Measurement &Units:"
+msgstr "അളവു് സംവിധാനം:"
+
+#. i18n: ectx: property (text), widget (QLabel, labelCollate)
+#: kcmformatswidget.ui:199
+#, kde-format
+msgid "Co&llation and Sorting:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, labelMeasurement_2)
+#: kcmformatswidget.ui:238
+#, kde-format
+msgid "<b>Description</b>"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, lexNumbers)
+#: kcmformatswidget.ui:248
+#, kde-format
+msgid "Numbers:"
+msgstr "അക്കങ്ങള്‍:"
+
+#. i18n: ectx: property (text), widget (QLabel, lexTime)
+#: kcmformatswidget.ui:268
+#, kde-format
+msgid "Time:"
+msgstr "സമയം:"
+
+#. i18n: ectx: property (text), widget (QLabel, lexCurrency)
+#: kcmformatswidget.ui:288
+#, fuzzy, kde-format
+msgid "Currency:"
+msgstr "നാണയത്തിന്റെ ചിഹ്നം:"
+
+#. i18n: ectx: property (text), widget (QLabel, lexMeasurement_2)
+#: kcmformatswidget.ui:308
+#, fuzzy, kde-format
+msgid "Measurement Units:"
+msgstr "അളവു് സംവിധാനം:"

@@ -1,0 +1,180 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Elkana Bardugo <ttv200@gmail.com>, 2016.
+# Elkana Bardugo <ttv200@gmail.com>, 2017. #zanata
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_applet_org.kde.plasma.kickoff\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"PO-Revision-Date: 2017-05-22 05:18-0400\n"
+"Last-Translator: Elkana Bardugo <ttv200@gmail.com>\n"
+"Language-Team: Hebrew <kde-i18n-doc@kde.org>\n"
+"Language: he\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Zanata 3.9.6\n"
+
+#: package/contents/config/config.qml:25
+#, kde-format
+msgid "General"
+msgstr ""
+
+#: package/contents/ui/ApplicationsView.qml:121
+#, kde-format
+msgid "All Applications"
+msgstr "כל היישומים"
+
+#: package/contents/ui/ApplicationsView.qml:270
+#, kde-format
+msgid "Applications updated."
+msgstr "היישומים מעודכנים."
+
+#: package/contents/ui/code/tools.js:55
+#, kde-format
+msgid "Remove from Favorites"
+msgstr "הסר ממועדפים"
+
+#: package/contents/ui/code/tools.js:59
+#, kde-format
+msgid "Add to Favorites"
+msgstr "הוסף למועדפים"
+
+#: package/contents/ui/code/tools.js:83
+#, kde-format
+msgid "On All Activities"
+msgstr ""
+
+#: package/contents/ui/code/tools.js:133
+#, kde-format
+msgid "On The Current Activity"
+msgstr ""
+
+#: package/contents/ui/code/tools.js:147
+#, fuzzy, kde-format
+#| msgid "Favorites"
+msgid "Show In Favorites"
+msgstr "מועדפים"
+
+#: package/contents/ui/ConfigButtons.qml:36
+#: package/contents/ui/FullRepresentation.qml:754
+#, kde-format
+msgid "Favorites"
+msgstr "מועדפים"
+
+#: package/contents/ui/ConfigButtons.qml:37
+#: package/contents/ui/FullRepresentation.qml:756
+#, kde-format
+msgid "Applications"
+msgstr "יישומים"
+
+#: package/contents/ui/ConfigButtons.qml:38
+#: package/contents/ui/FullRepresentation.qml:758
+#, kde-format
+msgid "Computer"
+msgstr "מחשב"
+
+#: package/contents/ui/ConfigButtons.qml:39
+#: package/contents/ui/FullRepresentation.qml:760
+#, kde-format
+msgid "History"
+msgstr "היסטוריה"
+
+#: package/contents/ui/ConfigButtons.qml:40
+#: package/contents/ui/FullRepresentation.qml:762
+#, kde-format
+msgid "Often Used"
+msgstr "בשימוש לעיתים קרובות"
+
+#: package/contents/ui/ConfigButtons.qml:41
+#: package/contents/ui/FullRepresentation.qml:764
+#, kde-format
+msgid "Leave"
+msgstr "יציאה"
+
+#: package/contents/ui/ConfigButtons.qml:215
+#, fuzzy, kde-format
+#| msgid "Hidden Tabs"
+msgid "Active Tabs"
+msgstr "כרטיסיות נסתרות"
+
+#: package/contents/ui/ConfigButtons.qml:221
+#, kde-format
+msgid "Inactive Tabs"
+msgstr ""
+
+#: package/contents/ui/ConfigGeneral.qml:41
+#, kde-format
+msgid "Icon:"
+msgstr "סמל:"
+
+#: package/contents/ui/ConfigGeneral.qml:76
+#, kde-format
+msgctxt "@item:inmenu Open icon chooser dialog"
+msgid "Choose..."
+msgstr "בחר..."
+
+#: package/contents/ui/ConfigGeneral.qml:81
+#, kde-format
+msgctxt "@item:inmenu Reset icon to default"
+msgid "Clear Icon"
+msgstr "נקה סמל"
+
+#: package/contents/ui/ConfigGeneral.qml:95
+#, kde-format
+msgid "General:"
+msgstr ""
+
+#: package/contents/ui/ConfigGeneral.qml:97
+#, kde-format
+msgid "Switch tabs on hover"
+msgstr "החלף כרטיסיה בריחוף"
+
+#: package/contents/ui/ConfigGeneral.qml:102
+#, kde-format
+msgid "Show applications by name"
+msgstr "הראה יישומים על ידי שמות"
+
+#: package/contents/ui/ConfigGeneral.qml:107
+#, kde-format
+msgid "Expand search to bookmarks, files and emails"
+msgstr "הרחב חיפוש ל־סמניות, קבצים והודעות דואר אלקטרוני"
+
+#: package/contents/ui/ConfigGeneral.qml:112
+#, kde-format
+msgid "Sort alphabetically"
+msgstr "סדר לפי שם"
+
+#: package/contents/ui/ConfigGeneral.qml:126
+#, kde-format
+msgid ""
+"Drag tabs between the boxes to show/hide them, or reorder the visible tabs "
+"by dragging."
+msgstr ""
+"גרור כרטיסיות בין התיבות כדי להציג או להסתיר אותן, או סדר מחדש את הכרטיסיות "
+"הגלויות על ידי גרירה."
+
+#: package/contents/ui/Header.qml:136
+#, kde-format
+msgid "%2@%3 (%1)"
+msgstr "%2@%3 (%1)"
+
+#: package/contents/ui/Header.qml:136
+#, kde-format
+msgid "%1@%2"
+msgstr "%1@%2"
+
+#: package/contents/ui/Header.qml:167
+#, fuzzy, kde-format
+#| msgctxt "Type is a verb here, not a noun"
+#| msgid "Type to search..."
+msgid "Search..."
+msgstr "הקלד כדי לחפש..."
+
+#: package/contents/ui/Kickoff.qml:145
+#, kde-format
+msgid "Edit Applications..."
+msgstr "ערוך יישומים..."

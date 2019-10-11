@@ -1,0 +1,74 @@
+# Translation of kcm_splashscreen.po to Euskara/Basque (eu).
+# Copyright (C) 2018, Free Software Foundation, Inc.
+# Copyright (C) 2019, This file is copyright:
+# This file is distributed under the same license as the kde-workspace package.
+# KDE Euskaratzeko proiektuaren arduraduna <xalba@euskalnet.net>.
+#
+# Translators:
+# Iñigo Salvador Azurmendi <xalba@euskalnet.net>, 2018, 2019.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcm_splashscreen\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"PO-Revision-Date: 2019-05-17 21:31+0100\n"
+"Last-Translator: Iñigo Salvador Azurmendi <xalba@euskalnet.net>\n"
+"Language-Team: Basque <kde-i18n-eu@kde.org>\n"
+"Language: eu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 2.0\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Iñigo Salvador Azurmendi"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "xalba@euskalnet.net"
+
+#: kcm.cpp:49
+#, fuzzy, kde-format
+#| msgid "Preview Splash Screen"
+msgid "Splash Screen"
+msgstr "Aurreikusi Plast pantaila"
+
+#: kcm.cpp:51
+#, kde-format
+msgid "Marco Martin"
+msgstr "Marco Martin"
+
+#: kcm.cpp:136
+#, kde-format
+msgid "None"
+msgstr "Bat ere ez"
+
+#: kcm.cpp:138
+#, kde-format
+msgid "No splash screen will be shown"
+msgstr "Ez da Plast pantailarik erakutsiko"
+
+#: package/contents/ui/main.qml:28
+#, kde-format
+msgid "This module lets you choose the splash screen theme."
+msgstr "Modulu honek Plast pantailaren gaia aukeratzen uzten dizu."
+
+#: package/contents/ui/main.qml:43
+#, fuzzy, kde-format
+#| msgid "Failed to test the splash screen."
+msgid "Failed to test the splash screen."
+msgstr "Plast pantailaren probak huts egin du."
+
+#: package/contents/ui/main.qml:69
+#, kde-format
+msgid "Preview Splash Screen"
+msgstr "Aurreikusi Plast pantaila"
+
+#: package/contents/ui/main.qml:85
+#, kde-format
+msgid "&Get New Splash Screens..."
+msgstr "&Lortu Plast pantaila berriak..."

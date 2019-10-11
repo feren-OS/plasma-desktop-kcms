@@ -1,0 +1,46 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: kcm_standard_actions\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"PO-Revision-Date: 2011-04-14 10:10+0100\n"
+"Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
+"Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
+"Language: pt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-POFile-SpellExtra: ul\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "José Nuno Pires"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "zepires@gmail.com"
+
+#: standard_actions_module.cpp:62 standard_actions_module.cpp:135
+#, kde-format
+msgid "Standard Shortcuts"
+msgstr "Atalhos-Padrão"
+
+#: standard_actions_module.cpp:154
+#, kde-format
+msgid "Standard Actions successfully saved"
+msgstr "Acções-padrão gravadas com sucesso"
+
+#: standard_actions_module.cpp:156
+#, kde-format
+msgid ""
+"The changes have been saved. Please note that:<ul><li>Applications need to "
+"be restarted to see the changes.</li>    <li>This change could introduce "
+"shortcut conflicts in some applications.</li></ul>"
+msgstr ""
+"As alterações foram gravadas. Por favor, veja o seguinte:<ul><li>As "
+"aplicações terão de ser reiniciadas para ver as alterações.</li>    <li>Esta "
+"mudança poderá introduzir conflitos de atalhos em algumas aplicações.</li></"
+"ul>"

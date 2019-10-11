@@ -1,0 +1,175 @@
+<?xml version="1.0" ?>
+<!DOCTYPE article PUBLIC "-//KDE//DTD DocBook XML V4.5-Based Variant V1.1//EN"
+"dtd/kdedbx45.dtd" [
+  <!ENTITY % addindex "IGNORE">
+  <!ENTITY % German "INCLUDE">
+]>
+<article id="phonon" lang="&language;">
+<title
+>Audio- und Videoeinstellungen</title>
+<articleinfo>
+<authorgroup>
+<author
+><firstname
+>Matthias</firstname
+><surname
+>Kretz</surname
+></author>
+<othercredit role="translator"
+><firstname
+>Burkhard</firstname
+><surname
+>Lück</surname
+><affiliation
+><address
+><email
+>lueck@hube-lueck.de</email
+></address
+></affiliation
+><contrib
+>Übersetzung</contrib
+></othercredit
+> 
+</authorgroup>
+
+<date
+>2013-12-05</date>
+<releaseinfo
+>&kde; 4.12</releaseinfo>
+
+<keywordset>
+<keyword
+>KDE</keyword>
+<keyword
+>Systemeinstellungen</keyword>
+<keyword
+>Hardware</keyword>
+<keyword
+>Multimedia</keyword>
+<keyword
+>Sound</keyword>
+<keyword
+>Video</keyword>
+<keyword
+>Backend</keyword>
+</keywordset>
+</articleinfo>
+
+<para
+>In diesem Modul können die Einstellungen der Gerätepriorität für Audio und Video sowie die Backends für Phonon festgelegt werden. </para>
+
+<variablelist>
+<varlistentry
+><term
+>Die Karteikarte <guilabel
+>Gerätepriorität</guilabel
+></term>
+<listitem
+><para
+>Links wird eine Liste verschiedener Kategorien für Wiedergabe und Aufnahme angezeigt. Sie können für jede Kategorie ein Gerät festlegen.</para>
+<para
+>Die Einträge <guilabel
+>Audio-Wiedergabe</guilabel
+> und <guilabel
+>Audio-Aufnahme</guilabel
+> legen die Standardreihenfolge der Geräte fest, die von einzelnen untergeordneten Einträgen überschrieben werden kann.</para>
+<para
+>Mit Klicken auf den Knopf <guibutton
+>Geräteliste anwenden auf ...</guibutton
+> öffnen Sie einen Dialog, in dem Sie die Einstellung der ausgewählten Kategorie für andere Kategorien kopieren können. </para>
+<para
+>Wählen Sie eine Kategorie aus, dann werden alle dafür verfügbaren Geräte in der Liste rechts angezeigt. Die Reihenfolge der Geräte in der Liste legt die Priorität der von Phonon verwendeten Ausgabe- und Aufnahmegeräte fest. Ist aus irgend einem Grund das erste Gerät nicht verfügbar, versucht Phonon die Ausgabe über das zweite Gerät &etc;</para>
+<para
+>Mit den Knöpfen <guibutton
+>Vorziehen</guibutton
+> und <guibutton
+>Zurückstellen</guibutton
+> ändern Sie die Reihenfolge. Mit <guibutton
+>Test</guibutton
+> können Sie einen Test-Klang auf dem ausgewählten Gerät ausgeben. </para
+></listitem>
+</varlistentry>
+
+<varlistentry
+><term
+>Die Karteikarte <guilabel
+>Einrichtung der Audio-Hardware</guilabel
+></term>
+<listitem
+><para
+>Mit den verschiedenen Auswahlfeldern auf dieser Karteikarte können Sie alle Karten steuern, die an Ihrem System angeschlossen sind.</para>
+
+<variablelist>
+<varlistentry
+><term
+><guilabel
+>Hardware</guilabel
+></term>
+<listitem
+><para
+>Wählen Sie eine <guilabel
+>Soundkarte</guilabel
+> und ein verfügbares <guilabel
+>Profil</guilabel
+>, das benutzt werden soll.</para>
+</listitem
+></varlistentry>
+
+<varlistentry
+><term
+><guilabel
+>Geräteeinstellungen</guilabel
+></term>
+<listitem
+><para
+>Wählen Sie hier ein <guilabel
+>Audi-Gerät</guilabel
+> und einen <guilabel
+>Anschluss</guilabel
+> aus.</para>
+</listitem
+></varlistentry>
+
+<varlistentry
+><term
+><guilabel
+>Lautsprecheraufstellung und Probehören</guilabel
+> oder <guilabel
+>Eingangspegel</guilabel
+></term>
+<listitem>
+<para
+>Bei einem Wiedergabegerät können Sie mit den Knöpfen in diesem Bereich jeden Lautsprecher einzeln testen. </para>
+<para
+>Bei einem Aufnahmegerät wird der <guilabel
+>Eingangspegel</guilabel
+> des ausgewählten <guilabel
+>Anschluss</guilabel
+> angezeigt. </para>
+</listitem
+></varlistentry>
+</variablelist>
+
+
+
+</listitem>
+</varlistentry>
+
+<varlistentry
+><term
+>Die Karteikarte <guilabel
+>Backend</guilabel
+></term>
+<listitem
+><para
+>Auf der linken Seite dieses Moduls wird eine Liste der Phonon-Backends angezeigt, die auf Ihrem System gefunden wurden. Die hier angegebene Reihenfolge legt fest, in welcher Reihenfolge sie von Phonon benutzt werden. Mit den Knöpfen  <guibutton
+>Vorziehen</guibutton
+> und <guibutton
+>Zurückstellen</guibutton
+> kann diese Reihenfolge geändert werden.</para>
+</listitem>
+</varlistentry>
+
+</variablelist>
+
+</article>

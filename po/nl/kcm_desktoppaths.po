@@ -1,0 +1,223 @@
+# translation of kcmkonq.po to Dutch
+# translation of kcmkonq.po to
+# translation of kcmkonq.po to
+# translation of kcmkonq.po to
+# translation of kcmkonq.po to
+# translation of kcmkonq.po to
+# Nederlandse vertaling van kcmkonq.
+# Copyright (C) 2000 - 2002 KDE e.v..
+# Rinse de Vries <rinse@kde.nl>
+# Gelezen, Rinse
+# KDE-vertaalgroep Nederlands <i18n@kde.nl>, 2000 - 2002.
+# Rinse de Vries <rinse@kde.nl>, 2003, 2004.
+# Wilbert Berendsen <wbsoft@xs4all.nl>, 2003.
+# Rinse de Vries <rinsedevries@kde.nl>, 2004, 2005, 2006, 2007, 2008, 2009.
+# Tom Albers <tomalbers@kde.nl>, 2004.
+# Sander Koning <sanderkoning@kde.nl>, 2005.
+# Bram Schoenmakers <bramschoenmakers@kde.nl>, 2005, 2006.
+# Kristof Bal <kristof.bal@gmail.com>, 2008.
+# Freek de Kruijf <f.de.kruijf@hetnet.nl>, 2009.
+# Freek de Kruijf <freekdekruijf@kde.nl>, 2009, 2017.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmkonq\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"PO-Revision-Date: 2017-08-09 12:15+0100\n"
+"Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
+"Language-Team: Dutch <kde-i18n-nl@kde.org>\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 2.0\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: globalpaths.cpp:113
+#, kde-format
+msgid ""
+"<h1>Paths</h1>\n"
+"This module allows you to choose where in the filesystem the files on your "
+"desktop should be stored.\n"
+"Use the \"Whats This?\" (Shift+F1) to get help on specific options."
+msgstr ""
+"<h1>Paden</h1>\n"
+"In deze module kunt u bepalen waar de bestanden op uw bureaublad zullen "
+"worden opgeslagen.\n"
+"Gebruik de \"Wat is dit?\" (Shift+F1) om meer info over een specifieke optie "
+"te krijgen."
+
+#: globalpaths.cpp:118
+#, kde-format
+msgid "Desktop path:"
+msgstr "Bureaubladpad:"
+
+#: globalpaths.cpp:119
+#, kde-format
+msgid ""
+"This folder contains all the files which you see on your desktop. You can "
+"change the location of this folder if you want to, and the contents will "
+"move automatically to the new location as well."
+msgstr ""
+"Deze map bevat alle bestanden die zich op uw bureaublad bevinden. Als u wilt "
+"kunt u de locatie hiervan wijzigen. De inhoud van het bureaublad verhuist "
+"dan automatisch mee naar de nieuwe locatie."
+
+#: globalpaths.cpp:124
+#, kde-format
+msgid "Autostart path:"
+msgstr "Autostartpad:"
+
+#: globalpaths.cpp:125
+#, kde-format
+msgid ""
+"This folder contains applications or links to applications (shortcuts) that "
+"you want to have started automatically whenever the session starts. You can "
+"change the location of this folder if you want to, and the contents will "
+"move automatically to the new location as well."
+msgstr ""
+"Deze map bevat toepassingen of koppelingen naar toepassingen "
+"(snelkoppelingen) die u automatisch wilt laten opstarten wanneer u de "
+"sessies opstart. Als u dat wilt kunt u de locatie hiervan wijzigen. De "
+"inhoud van deze map verhuist dan automatisch mee naar de nieuwe locatie."
+
+#: globalpaths.cpp:131
+#, kde-format
+msgid "Documents path:"
+msgstr "Documentenpad:"
+
+#: globalpaths.cpp:132
+#, kde-format
+msgid ""
+"This folder will be used by default to load or save documents from or to."
+msgstr ""
+"Deze map wordt standaard gebruikt om documenten uit te laden of in op te "
+"slaan."
+
+#: globalpaths.cpp:135
+#, kde-format
+msgid "Downloads path:"
+msgstr "Downloadpad:"
+
+#: globalpaths.cpp:136
+#, kde-format
+msgid "This folder will be used by default to save your downloaded items."
+msgstr ""
+"Deze map wordt standaard gebruikt om gedownloade documenten in op te slaan."
+
+#: globalpaths.cpp:139
+#, kde-format
+msgid "Movies path:"
+msgstr "Pad naar films:"
+
+#: globalpaths.cpp:140
+#, kde-format
+msgid "This folder will be used by default to load or save movies from or to."
+msgstr ""
+"Deze map wordt standaard gebruikt om films uit te laden of in op te slaan."
+
+#: globalpaths.cpp:143
+#, kde-format
+msgid "Pictures path:"
+msgstr "Afbeeldingenpad:"
+
+#: globalpaths.cpp:144
+#, kde-format
+msgid ""
+"This folder will be used by default to load or save pictures from or to."
+msgstr ""
+"Deze map wordt standaard gebruikt om afbeeldingen uit te laden of in op te "
+"slaan."
+
+#: globalpaths.cpp:147
+#, kde-format
+msgid "Music path:"
+msgstr "Muziekpad:"
+
+#: globalpaths.cpp:148
+#, kde-format
+msgid "This folder will be used by default to load or save music from or to."
+msgstr ""
+"Deze map wordt standaard gebruikt om muziek uit te laden of in op te slaan."
+
+#: globalpaths.cpp:277 globalpaths.cpp:295
+#, kde-format
+msgid "Autostart"
+msgstr "Autostart"
+
+#: globalpaths.cpp:281
+#, kde-format
+msgid "Desktop"
+msgstr "Bureaublad"
+
+#: globalpaths.cpp:305
+#, kde-format
+msgid "Documents"
+msgstr "Documenten"
+
+#: globalpaths.cpp:308
+#, kde-format
+msgid "Downloads"
+msgstr "Downloads"
+
+#: globalpaths.cpp:311
+#, kde-format
+msgid "Movies"
+msgstr "Films"
+
+#: globalpaths.cpp:314
+#, kde-format
+msgid "Pictures"
+msgstr "Afbeeldingen"
+
+#: globalpaths.cpp:317
+#, kde-format
+msgid "Music"
+msgstr "Muziek"
+
+#: globalpaths.cpp:376
+#, kde-format
+msgid ""
+"The path for '%1' has been changed.\n"
+"Do you want the files to be moved from '%2' to '%3'?"
+msgstr ""
+"Het pad voor '%1' is gewijzigd.\n"
+"Wilt u dat de bestanden van '%2' naar '%3 verplaatst worden?"
+
+#: globalpaths.cpp:379
+#, kde-format
+msgctxt "Move files from old to new place"
+msgid "Move"
+msgstr "Verplaatsen"
+
+#: globalpaths.cpp:380
+#, kde-format
+msgctxt "Use the new directory but do not move files"
+msgid "Do not Move"
+msgstr "Niet verplaatsen"
+
+#: globalpaths.cpp:382
+#, kde-format
+msgid ""
+"The path for '%1' has been changed.\n"
+"Do you want to move the directory '%2' to '%3'?"
+msgstr ""
+"Het pad voor '%1' is gewijzigd.\n"
+"Wilt u de map '%2' naar '%3 verplaatsen?"
+
+#: globalpaths.cpp:385
+#, kde-format
+msgctxt "Move the directory"
+msgid "Move"
+msgstr "Verplaatsen"
+
+#: globalpaths.cpp:386
+#, kde-format
+msgctxt "Use the new directory but do not move anything"
+msgid "Do not Move"
+msgstr "Niet verplaatsen"
+
+#: globalpaths.cpp:390
+#, kde-format
+msgid "Confirmation Required"
+msgstr "Bevestiging vereist"

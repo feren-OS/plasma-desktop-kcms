@@ -1,0 +1,193 @@
+# translation of kcmicons.po to Thai
+# Copyright (C) 2003, 2005, 2007, 2008 Free Software Foundation, Inc.
+#
+# Thanomsub Noppaburana <donga_n@yahoo.com>, 2003.
+# Sahachart Anukulkitch <drrider@gmail.com>, 2005, 2007.
+# Thanomsub Noppaburana <donga.nb@gmail.com>, 2008, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmicons\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"PO-Revision-Date: 2010-02-27 10:15+0700\n"
+"Last-Translator: Thanomsub Noppaburana <donga.nb@gmail.com>\n"
+"Language-Team: Thai <thai-l10n@googlegroups.com>\n"
+"Language: th\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "ถนอมทรัพย์ นพบูรณ์, สหชาติ อนุกูลกิจ"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "donga.nb@gmail.com, drrider@gmail.com"
+
+#: main.cpp:85
+#, kde-format
+msgid "Icons"
+msgstr "ภาพไอคอน"
+
+#: main.cpp:86
+#, kde-format
+msgid "Icons Control Panel Module"
+msgstr "มอดูลควบคุมภาพไอคอน"
+
+#: main.cpp:87
+#, kde-format
+msgid "(c) 2000-2003 Geert Jansen"
+msgstr "สงวนลิขสิทธิ์ (c) 2000-2003 Geert Jansen"
+
+#: main.cpp:88
+#, kde-format
+msgid "Geert Jansen"
+msgstr "Geert Jansen"
+
+#: main.cpp:89
+#, kde-format
+msgid "Antonio Larrosa Jimenez"
+msgstr "Antonio Larrosa Jimenez"
+
+#: main.cpp:90
+#, kde-format
+msgid "Torsten Rahn"
+msgstr "Torsten Rahn"
+
+#: main.cpp:91
+#, kde-format
+msgid "Jonathan Riddell"
+msgstr ""
+
+#: main.cpp:92
+#, kde-format
+msgid "Kai Uwe Broulik"
+msgstr ""
+
+#: main.cpp:284
+#, fuzzy, kde-format
+#| msgid "Remove Theme"
+msgid "Download New Icon Themes"
+msgstr "ลบชุดตกแต่งออก"
+
+#: main.cpp:320
+#, kde-format
+msgid "Unable to create a temporary file."
+msgstr ""
+
+#: main.cpp:332
+#, fuzzy, kde-format
+#| msgid "Unable to find the icon theme archive %1."
+msgid "Unable to download the icon theme archive: %1"
+msgstr "หาแฟ้มจัดเก็บชุดภาพไอคอน %1 ไม่พบ"
+
+#: main.cpp:346
+#, kde-format
+msgid "The file is not a valid icon theme archive."
+msgstr "แฟ้มไม่ใช่แฟ้มจัดเก็บชุดภาพไอคอนที่ถูกต้อง"
+
+#: main.cpp:351
+#, kde-format
+msgid ""
+"A problem occurred during the installation process; however, most of the "
+"themes in the archive have been installed"
+msgstr ""
+"เกิดปัญหาขึ้นในระหว่างการติดตั้ง อย่างไรก็ตาม ส่วนใหญ่ของชุดภาพไอคอนในแฟ้มจัดเก็บ "
+"ได้ถูกติดตั้งไว้แล้ว"
+
+#: main.cpp:355
+#, kde-format
+msgid "Theme installed successfully."
+msgstr ""
+
+#: main.cpp:465
+#, fuzzy, kde-format
+#| msgid "Installing icon themes"
+msgid "Installing icon themes..."
+msgstr "กำลังติดตั้งชุดภาพไอคอน"
+
+#: main.cpp:475
+#, fuzzy, kde-format
+#| msgid "Installing icon themes"
+msgid "Installing %1 theme..."
+msgstr "กำลังติดตั้งชุดภาพไอคอน"
+
+#: package/contents/ui/IconSizePopup.qml:91
+#, kde-format
+msgid "Desktop"
+msgstr "พื้นที่ทำงาน"
+
+#: package/contents/ui/IconSizePopup.qml:92
+#, kde-format
+msgid "Toolbar"
+msgstr "แถบเครื่องมือ"
+
+#: package/contents/ui/IconSizePopup.qml:93
+#, kde-format
+msgid "Main Toolbar"
+msgstr "แถบเครื่องมือหลัก"
+
+#: package/contents/ui/IconSizePopup.qml:94
+#, kde-format
+msgid "Small Icons"
+msgstr "ภาพไอคอนขนาดเล็ก"
+
+#: package/contents/ui/IconSizePopup.qml:95
+#, kde-format
+msgid "Panel"
+msgstr "ถาดพาเนล"
+
+#: package/contents/ui/IconSizePopup.qml:96
+#, kde-format
+msgid "Dialogs"
+msgstr "กล่องโต้ตอบ"
+
+#: package/contents/ui/main.qml:34
+#, kde-format
+msgid "This module allows you to choose the icons for your desktop."
+msgstr ""
+
+#: package/contents/ui/main.qml:155
+#, fuzzy, kde-format
+#| msgid "Remove Theme"
+msgid "Remove Icon Theme"
+msgstr "ลบชุดตกแต่งออก"
+
+#: package/contents/ui/main.qml:162
+#, fuzzy, kde-format
+#| msgid "Remove Theme"
+msgid "Restore Icon Theme"
+msgstr "ลบชุดตกแต่งออก"
+
+#: package/contents/ui/main.qml:231
+#, kde-format
+msgid "Configure Icon Sizes"
+msgstr ""
+
+#: package/contents/ui/main.qml:247
+#, fuzzy, kde-format
+#| msgid "Install Theme File..."
+msgid "Install from File..."
+msgstr "ติดตั้งแฟ้มชุดตกแต่ง..."
+
+#: package/contents/ui/main.qml:253
+#, fuzzy, kde-format
+#| msgid "Get New Themes..."
+msgid "Get New Icons..."
+msgstr "หาชุดตกแต่งใหม่ ๆ ..."
+
+#: package/contents/ui/main.qml:274
+#, fuzzy, kde-format
+#| msgid "Remove Theme"
+msgid "Open Theme"
+msgstr "ลบชุดตกแต่งออก"
+
+#: package/contents/ui/main.qml:276
+#, kde-format
+msgid "Theme Files (*.tar.gz *.tar.bz2)"
+msgstr ""

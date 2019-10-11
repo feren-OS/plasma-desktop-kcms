@@ -1,0 +1,216 @@
+# translation of kcmkonq.po to Esperanto
+# e-aj mesaĝoj por kcmkonq
+# Copyright (C) 1999, 2007 Free Software Foundation, Inc.
+# Wolfram Diestel <wofram@steloj.de>, 1999.
+# Cindy McKee <cfmckee@gmail.com>, 2007.
+# Axel Rousseau <axel@esperanto-jeunes.org>, 2009.
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmkonq\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"PO-Revision-Date: 2009-12-11 15:41+0100\n"
+"Last-Translator: Axel Rousseau <axel@esperanto-jeunes.org>\n"
+"Language-Team: Esperanto <kde-i18n-doc@kde.org>\n"
+"Language: eo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.0\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: globalpaths.cpp:113
+#, kde-format
+msgid ""
+"<h1>Paths</h1>\n"
+"This module allows you to choose where in the filesystem the files on your "
+"desktop should be stored.\n"
+"Use the \"Whats This?\" (Shift+F1) to get help on specific options."
+msgstr ""
+"<h1>Vojoj</h1>\n"
+"Tiu modulo permesas al vi elekti la lokon kie la dosieroj sur via "
+"labortablo \n"
+"estas konservataj.\n"
+"Uzu la funkcion \"Kio estas tio?\" (Majuskl+F1) por informiĝi\n"
+"pri apartaj opcioj."
+
+#: globalpaths.cpp:118
+#, kde-format
+msgid "Desktop path:"
+msgstr "Labortabla vojo:"
+
+#: globalpaths.cpp:119
+#, kde-format
+msgid ""
+"This folder contains all the files which you see on your desktop. You can "
+"change the location of this folder if you want to, and the contents will "
+"move automatically to the new location as well."
+msgstr ""
+"Tiu dosierujo enhavas ĉiujn dosierojn, kiujn vi vidas sur via labortablo. Vi "
+"povas ŝanĝi la lokon de tiu dosierujo se vi volas. La enhavo moviĝos "
+"aŭtomate al la nova loko."
+
+#: globalpaths.cpp:124
+#, kde-format
+msgid "Autostart path:"
+msgstr "Aŭtolanĉa vojo:"
+
+#: globalpaths.cpp:125
+#, fuzzy, kde-format
+#| msgid ""
+#| "This folder contains applications or links to applications (shortcuts) "
+#| "that you want to have started automatically whenever KDE starts. You can "
+#| "change the location of this folder if you want to, and the contents will "
+#| "move automatically to the new location as well."
+msgid ""
+"This folder contains applications or links to applications (shortcuts) that "
+"you want to have started automatically whenever the session starts. You can "
+"change the location of this folder if you want to, and the contents will "
+"move automatically to the new location as well."
+msgstr ""
+"Tiu dosierujo enhavas aplikaĵojn aŭ ligilojn al aplikaĵoj kiuj aŭtomate "
+"lanĉiĝu ĉe la KDE-lanĉo. Vi povas ŝanĝi la lokon de tiu dosierujo se vi "
+"volas, kaj la enhavo moviĝos aŭtomate al la nova loko."
+
+#: globalpaths.cpp:131
+#, kde-format
+msgid "Documents path:"
+msgstr "Dokumenta vojo:"
+
+#: globalpaths.cpp:132
+#, kde-format
+msgid ""
+"This folder will be used by default to load or save documents from or to."
+msgstr ""
+"Tiu dosierujo estos la defaŭlta por la ŝargado kaj la konservado de "
+"dokumentoj."
+
+#: globalpaths.cpp:135
+#, kde-format
+msgid "Downloads path:"
+msgstr "Elŝuta vojo:"
+
+#: globalpaths.cpp:136
+#, kde-format
+msgid "This folder will be used by default to save your downloaded items."
+msgstr ""
+"Tiu dosierujo estos la defaŭlta por la ŝargado kaj la konservado de "
+"elŝutaĵoj."
+
+#: globalpaths.cpp:139
+#, kde-format
+msgid "Movies path:"
+msgstr "Filma vojo:"
+
+#: globalpaths.cpp:140
+#, kde-format
+msgid "This folder will be used by default to load or save movies from or to."
+msgstr ""
+"Tiu dosierujo estos la defaŭlta por la ŝargado kaj la konservado de filmoj."
+
+#: globalpaths.cpp:143
+#, kde-format
+msgid "Pictures path:"
+msgstr "Bilda vojo:"
+
+#: globalpaths.cpp:144
+#, kde-format
+msgid ""
+"This folder will be used by default to load or save pictures from or to."
+msgstr ""
+"Tiu dosierujo estos la defaŭlta por la ŝargado kaj la konservado de bildoj."
+
+#: globalpaths.cpp:147
+#, kde-format
+msgid "Music path:"
+msgstr "Muzika vojo:"
+
+#: globalpaths.cpp:148
+#, kde-format
+msgid "This folder will be used by default to load or save music from or to."
+msgstr ""
+"Tiu dosierujo estos la defaŭlta por la ŝargado kaj la konservado de muzikoj."
+
+#: globalpaths.cpp:277 globalpaths.cpp:295
+#, kde-format
+msgid "Autostart"
+msgstr "Aŭtolanĉo"
+
+#: globalpaths.cpp:281
+#, kde-format
+msgid "Desktop"
+msgstr "Labortablo"
+
+#: globalpaths.cpp:305
+#, kde-format
+msgid "Documents"
+msgstr "Dokumentoj"
+
+#: globalpaths.cpp:308
+#, kde-format
+msgid "Downloads"
+msgstr "Elŝutaĵoj"
+
+#: globalpaths.cpp:311
+#, kde-format
+msgid "Movies"
+msgstr "Filmoj"
+
+#: globalpaths.cpp:314
+#, kde-format
+msgid "Pictures"
+msgstr "Bildoj"
+
+#: globalpaths.cpp:317
+#, kde-format
+msgid "Music"
+msgstr "Muziko"
+
+#: globalpaths.cpp:376
+#, kde-format
+msgid ""
+"The path for '%1' has been changed.\n"
+"Do you want the files to be moved from '%2' to '%3'?"
+msgstr ""
+"La vojo por '%1' estas ŝanĝita.\n"
+"Ĉu vi volas movi la dosierojn de '%2' al '%3'?"
+
+#: globalpaths.cpp:379
+#, kde-format
+msgctxt "Move files from old to new place"
+msgid "Move"
+msgstr "Movi"
+
+#: globalpaths.cpp:380
+#, kde-format
+msgctxt "Use the new directory but do not move files"
+msgid "Do not Move"
+msgstr "Ne movi"
+
+#: globalpaths.cpp:382
+#, kde-format
+msgid ""
+"The path for '%1' has been changed.\n"
+"Do you want to move the directory '%2' to '%3'?"
+msgstr ""
+"La vojo por '%1' estas ŝanĝita.\n"
+"Ĉu vi volas movi la dosierojn de '%2' al '%3'?"
+
+#: globalpaths.cpp:385
+#, kde-format
+msgctxt "Move the directory"
+msgid "Move"
+msgstr "Movi"
+
+#: globalpaths.cpp:386
+#, kde-format
+msgctxt "Use the new directory but do not move anything"
+msgid "Do not Move"
+msgstr "Ne movi"
+
+#: globalpaths.cpp:390
+#, kde-format
+msgid "Confirmation Required"
+msgstr "Bezonas konfirmon"

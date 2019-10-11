@@ -1,0 +1,216 @@
+# translation of kcmkonq.po to Belarusian
+#
+# Ihar Hrachyshka <ihar.hrachyshka@gmail.com>, 2006.
+# Darafei Praliaskouski <komzpa@licei2.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmkonq\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"PO-Revision-Date: 2007-08-26 22:23+0300\n"
+"Last-Translator: Darafei Praliaskouski <komzpa@licei2.com>\n"
+"Language-Team: Belarusian <i18n@mova.org>\n"
+"Language: be\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: globalpaths.cpp:113
+#, kde-format
+msgid ""
+"<h1>Paths</h1>\n"
+"This module allows you to choose where in the filesystem the files on your "
+"desktop should be stored.\n"
+"Use the \"Whats This?\" (Shift+F1) to get help on specific options."
+msgstr ""
+
+#: globalpaths.cpp:118
+#, fuzzy, kde-format
+#| msgid "Des&ktop path:"
+msgid "Desktop path:"
+msgstr "Тэчка &працоўнага стала:"
+
+#: globalpaths.cpp:119
+#, kde-format
+msgid ""
+"This folder contains all the files which you see on your desktop. You can "
+"change the location of this folder if you want to, and the contents will "
+"move automatically to the new location as well."
+msgstr ""
+
+#: globalpaths.cpp:124
+#, fuzzy, kde-format
+#| msgid "A&utostart path:"
+msgid "Autostart path:"
+msgstr "Тэчка &аўтаматычнага запуску:"
+
+#: globalpaths.cpp:125
+#, kde-format
+msgid ""
+"This folder contains applications or links to applications (shortcuts) that "
+"you want to have started automatically whenever the session starts. You can "
+"change the location of this folder if you want to, and the contents will "
+"move automatically to the new location as well."
+msgstr ""
+
+#: globalpaths.cpp:131
+#, fuzzy, kde-format
+#| msgid "D&ocuments path:"
+msgid "Documents path:"
+msgstr "Тэчка &дакументаў:"
+
+#: globalpaths.cpp:132
+#, kde-format
+msgid ""
+"This folder will be used by default to load or save documents from or to."
+msgstr "Гэтая тэчка будзе выкарыстоўвацца для запісу і загрузкі дакументаў."
+
+#: globalpaths.cpp:135
+#, fuzzy, kde-format
+#| msgid "D&ocuments path:"
+msgid "Downloads path:"
+msgstr "Тэчка &дакументаў:"
+
+#: globalpaths.cpp:136
+#, fuzzy, kde-format
+#| msgid ""
+#| "This folder will be used by default to load or save documents from or to."
+msgid "This folder will be used by default to save your downloaded items."
+msgstr "Гэтая тэчка будзе выкарыстоўвацца для запісу і загрузкі дакументаў."
+
+#: globalpaths.cpp:139
+#, fuzzy, kde-format
+#| msgid "D&ocuments path:"
+msgid "Movies path:"
+msgstr "Тэчка &дакументаў:"
+
+#: globalpaths.cpp:140
+#, fuzzy, kde-format
+#| msgid ""
+#| "This folder will be used by default to load or save documents from or to."
+msgid "This folder will be used by default to load or save movies from or to."
+msgstr "Гэтая тэчка будзе выкарыстоўвацца для запісу і загрузкі дакументаў."
+
+#: globalpaths.cpp:143
+#, fuzzy, kde-format
+#| msgid "D&ocuments path:"
+msgid "Pictures path:"
+msgstr "Тэчка &дакументаў:"
+
+#: globalpaths.cpp:144
+#, fuzzy, kde-format
+#| msgid ""
+#| "This folder will be used by default to load or save documents from or to."
+msgid ""
+"This folder will be used by default to load or save pictures from or to."
+msgstr "Гэтая тэчка будзе выкарыстоўвацца для запісу і загрузкі дакументаў."
+
+#: globalpaths.cpp:147
+#, fuzzy, kde-format
+#| msgid "D&ocuments path:"
+msgid "Music path:"
+msgstr "Тэчка &дакументаў:"
+
+#: globalpaths.cpp:148
+#, fuzzy, kde-format
+#| msgid ""
+#| "This folder will be used by default to load or save documents from or to."
+msgid "This folder will be used by default to load or save music from or to."
+msgstr "Гэтая тэчка будзе выкарыстоўвацца для запісу і загрузкі дакументаў."
+
+#: globalpaths.cpp:277 globalpaths.cpp:295
+#, kde-format
+msgid "Autostart"
+msgstr "Аўтаматычны запуск"
+
+#: globalpaths.cpp:281
+#, kde-format
+msgid "Desktop"
+msgstr "Працоўны стол"
+
+#: globalpaths.cpp:305
+#, fuzzy, kde-format
+#| msgid "D&ocuments path:"
+msgid "Documents"
+msgstr "Тэчка &дакументаў:"
+
+#: globalpaths.cpp:308
+#, fuzzy, kde-format
+#| msgid "D&ocuments path:"
+msgid "Downloads"
+msgstr "Тэчка &дакументаў:"
+
+#: globalpaths.cpp:311
+#, fuzzy, kde-format
+#| msgid "Move"
+msgid "Movies"
+msgstr "Перанесці"
+
+#: globalpaths.cpp:314
+#, fuzzy, kde-format
+#| msgid "D&ocuments path:"
+msgid "Pictures"
+msgstr "Тэчка &дакументаў:"
+
+#: globalpaths.cpp:317
+#, kde-format
+msgid "Music"
+msgstr ""
+
+#: globalpaths.cpp:376
+#, fuzzy, kde-format
+#| msgid ""
+#| "The path for '%1' has been changed;\n"
+#| "do you want the files to be moved from '%2' to '%3'?"
+msgid ""
+"The path for '%1' has been changed.\n"
+"Do you want the files to be moved from '%2' to '%3'?"
+msgstr ""
+"Шлях для \"%1\" змяніўся;\n"
+"хочаце перанесці файлы з '%2' у '%3'?"
+
+#: globalpaths.cpp:379
+#, fuzzy, kde-format
+#| msgid "Move"
+msgctxt "Move files from old to new place"
+msgid "Move"
+msgstr "Перанесці"
+
+#: globalpaths.cpp:380
+#, kde-format
+msgctxt "Use the new directory but do not move files"
+msgid "Do not Move"
+msgstr ""
+
+#: globalpaths.cpp:382
+#, fuzzy, kde-format
+#| msgid ""
+#| "The path for '%1' has been changed;\n"
+#| "do you want the files to be moved from '%2' to '%3'?"
+msgid ""
+"The path for '%1' has been changed.\n"
+"Do you want to move the directory '%2' to '%3'?"
+msgstr ""
+"Шлях для \"%1\" змяніўся;\n"
+"хочаце перанесці файлы з '%2' у '%3'?"
+
+#: globalpaths.cpp:385
+#, fuzzy, kde-format
+#| msgid "Move"
+msgctxt "Move the directory"
+msgid "Move"
+msgstr "Перанесці"
+
+#: globalpaths.cpp:386
+#, kde-format
+msgctxt "Use the new directory but do not move anything"
+msgid "Do not Move"
+msgstr ""
+
+#: globalpaths.cpp:390
+#, kde-format
+msgid "Confirmation Required"
+msgstr "Патрабуецца пацверджанне"

@@ -1,0 +1,43 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+# Vincenzo Reale <smart2128@baslug.org>, 2014, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"PO-Revision-Date: 2019-01-27 08:42+0100\n"
+"Last-Translator: Vincenzo Reale <smart2128@baslug.org>\n"
+"Language-Team: Italian <kde-i18n-it@kde.org>\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 18.12.1\n"
+
+#: contents/ui/ToolBoxButton.qml:30
+#, kde-format
+msgid "Default"
+msgstr "Predefinito"
+
+#: contents/ui/ToolBoxButton.qml:30
+#, kde-format
+msgid "Desktop Toolbox"
+msgstr "Strumenti del desktop"
+
+#: contents/ui/ToolBoxButton.qml:30
+#, kde-format
+msgid "Desktop Toolbox — %1 Activity"
+msgstr "Strumenti del desktop — %1 attività"
+
+#: contents/ui/ToolBoxItem.qml:89
+#, kde-format
+msgid "Lock Screen"
+msgstr "Blocca schermo"
+
+#: contents/ui/ToolBoxItem.qml:99
+#, kde-format
+msgid "Leave"
+msgstr "Esci"

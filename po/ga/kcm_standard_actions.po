@@ -1,0 +1,50 @@
+# Irish translation of kcm_standard_actions
+# Copyright (C) 2009 This_file_is_part_of_KDE
+# This file is distributed under the same license as the kcm_standard_actions package.
+# Kevin Scannell <kscanne@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: kdebase/kcm_standard_actions.po\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"PO-Revision-Date: 2009-01-20 10:11-0500\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? "
+"3 : 4\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Kevin Scannell"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kscanne@gmail.com"
+
+#: standard_actions_module.cpp:62 standard_actions_module.cpp:135
+#, kde-format
+msgid "Standard Shortcuts"
+msgstr "Aicearraí Caighdeánacha"
+
+#: standard_actions_module.cpp:154
+#, kde-format
+msgid "Standard Actions successfully saved"
+msgstr "D'éirigh le sábháil na gníomhartha caighdeánacha"
+
+#: standard_actions_module.cpp:156
+#, kde-format
+msgid ""
+"The changes have been saved. Please note that:<ul><li>Applications need to "
+"be restarted to see the changes.</li>    <li>This change could introduce "
+"shortcut conflicts in some applications.</li></ul>"
+msgstr ""
+"Sábháladh na hathruithe. Tabhair faoi deara:<ul><li>Caithfidh tú "
+"feidhmchláir a atosú chun na hathruithe a fheiceáil.</li>    <li>Is féidir "
+"go mbeidh coinbhleachtaí idir aicearraí i bhfeidhmchláir áirithe de bharr an "
+"athraithe seo.</li></ul>"

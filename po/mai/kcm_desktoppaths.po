@@ -1,0 +1,191 @@
+# translation of kcmkonq.po to Maithili
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Sangeeta Kumari <sangeeta09@gmail.com>, 2009.
+# Rajesh Ranjan <rajesh672@gmail.com>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmkonq\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"PO-Revision-Date: 2010-01-29 13:18+0530\n"
+"Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
+"Language-Team: Maithili <maithili.sf.net>\n"
+"Language: mai\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"\n"
+"\n"
+"\n"
+
+#: globalpaths.cpp:113
+#, kde-format
+msgid ""
+"<h1>Paths</h1>\n"
+"This module allows you to choose where in the filesystem the files on your "
+"desktop should be stored.\n"
+"Use the \"Whats This?\" (Shift+F1) to get help on specific options."
+msgstr ""
+
+#: globalpaths.cpp:118
+#, kde-format
+msgid "Desktop path:"
+msgstr "डेस्कटाप पथ: "
+
+#: globalpaths.cpp:119
+#, kde-format
+msgid ""
+"This folder contains all the files which you see on your desktop. You can "
+"change the location of this folder if you want to, and the contents will "
+"move automatically to the new location as well."
+msgstr ""
+
+#: globalpaths.cpp:124
+#, kde-format
+msgid "Autostart path:"
+msgstr "स्वतः प्रारंभ पथः "
+
+#: globalpaths.cpp:125
+#, kde-format
+msgid ""
+"This folder contains applications or links to applications (shortcuts) that "
+"you want to have started automatically whenever the session starts. You can "
+"change the location of this folder if you want to, and the contents will "
+"move automatically to the new location as well."
+msgstr ""
+
+#: globalpaths.cpp:131
+#, kde-format
+msgid "Documents path:"
+msgstr "दस्ताबेज क' पथः "
+
+#: globalpaths.cpp:132
+#, kde-format
+msgid ""
+"This folder will be used by default to load or save documents from or to."
+msgstr "ई फोल्डर मूलभूत द्वारा दस्ताबेज केँ लोड करब अथवा सहेजबा मे उपयोग मे लेल जएताह."
+
+#: globalpaths.cpp:135
+#, kde-format
+msgid "Downloads path:"
+msgstr "दस्ताबेज क' पथः "
+
+#: globalpaths.cpp:136
+#, kde-format
+msgid "This folder will be used by default to save your downloaded items."
+msgstr "ई फोल्डर मूलभूत द्वारा दस्ताबेज केँ लोड करब अथवा सहेजबा मे उपयोग मे लेल जएताह."
+
+#: globalpaths.cpp:139
+#, kde-format
+msgid "Movies path:"
+msgstr "मूवी क' पथः "
+
+#: globalpaths.cpp:140
+#, kde-format
+msgid "This folder will be used by default to load or save movies from or to."
+msgstr "ई फोल्डर मूलभूत द्वारा मूवी केँ लोड करब अथवा सहेजबा मे उपयोग मे लेल जएताह."
+
+#: globalpaths.cpp:143
+#, kde-format
+msgid "Pictures path:"
+msgstr "चित्र क' पथः "
+
+#: globalpaths.cpp:144
+#, kde-format
+msgid ""
+"This folder will be used by default to load or save pictures from or to."
+msgstr "ई फोल्डर मूलभूत द्वारा चित्र केँ लोड करब अथवा सहेजबा मे उपयोग मे लेल जएताह."
+
+#: globalpaths.cpp:147
+#, kde-format
+msgid "Music path:"
+msgstr "संगीत पथ:"
+
+#: globalpaths.cpp:148
+#, kde-format
+msgid "This folder will be used by default to load or save music from or to."
+msgstr "ई फोल्डर मूलभूत द्वारा चित्र केँ लोड करब अथवा सहेजबा मे उपयोग मे लेल जएताह."
+
+#: globalpaths.cpp:277 globalpaths.cpp:295
+#, kde-format
+msgid "Autostart"
+msgstr "स्वतः चालू"
+
+#: globalpaths.cpp:281
+#, kde-format
+msgid "Desktop"
+msgstr "डेस्कटाप"
+
+#: globalpaths.cpp:305
+#, kde-format
+msgid "Documents"
+msgstr "दस्ताबेज"
+
+#: globalpaths.cpp:308
+#, kde-format
+msgid "Downloads"
+msgstr "डाउनलोड"
+
+#: globalpaths.cpp:311
+#, kde-format
+msgid "Movies"
+msgstr "मूवी"
+
+#: globalpaths.cpp:314
+#, kde-format
+msgid "Pictures"
+msgstr "छविसभ"
+
+#: globalpaths.cpp:317
+#, kde-format
+msgid "Music"
+msgstr "संगीत"
+
+#: globalpaths.cpp:376
+#, kde-format
+msgid ""
+"The path for '%1' has been changed.\n"
+"Do you want the files to be moved from '%2' to '%3'?"
+msgstr ""
+
+#: globalpaths.cpp:379
+#, kde-format
+msgctxt "Move files from old to new place"
+msgid "Move"
+msgstr "घसकाबू"
+
+#: globalpaths.cpp:380
+#, kde-format
+msgctxt "Use the new directory but do not move files"
+msgid "Do not Move"
+msgstr "नहि घसकाउ"
+
+#: globalpaths.cpp:382
+#, kde-format
+msgid ""
+"The path for '%1' has been changed.\n"
+"Do you want to move the directory '%2' to '%3'?"
+msgstr ""
+
+#: globalpaths.cpp:385
+#, kde-format
+msgctxt "Move the directory"
+msgid "Move"
+msgstr "घसकाबू"
+
+#: globalpaths.cpp:386
+#, fuzzy, kde-format
+#| msgctxt "Use the new directory but do not move files"
+#| msgid "Do not Move"
+msgctxt "Use the new directory but do not move anything"
+msgid "Do not Move"
+msgstr "नहि घसकाउ"
+
+#: globalpaths.cpp:390
+#, kde-format
+msgid "Confirmation Required"
+msgstr "पुष्टि आवश्यक"

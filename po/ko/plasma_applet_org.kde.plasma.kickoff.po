@@ -1,0 +1,176 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+# Shinjo Park <kde@peremen.name>, 2014, 2015, 2016, 2017, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"PO-Revision-Date: 2019-04-29 23:25+0200\n"
+"Last-Translator: Shinjo Park <kde@peremen.name>\n"
+"Language-Team: Korean <kde-kr@kde.org>\n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 18.12.3\n"
+
+#: package/contents/config/config.qml:25
+#, kde-format
+msgid "General"
+msgstr "일반"
+
+#: package/contents/ui/ApplicationsView.qml:121
+#, kde-format
+msgid "All Applications"
+msgstr "모든 프로그램"
+
+#: package/contents/ui/ApplicationsView.qml:270
+#, kde-format
+msgid "Applications updated."
+msgstr "프로그램 업데이트됨."
+
+#: package/contents/ui/code/tools.js:55
+#, kde-format
+msgid "Remove from Favorites"
+msgstr "책갈피에서 삭제"
+
+#: package/contents/ui/code/tools.js:59
+#, kde-format
+msgid "Add to Favorites"
+msgstr "책갈피에 추가"
+
+#: package/contents/ui/code/tools.js:83
+#, kde-format
+msgid "On All Activities"
+msgstr "모든 활동에"
+
+#: package/contents/ui/code/tools.js:133
+#, kde-format
+msgid "On The Current Activity"
+msgstr "현재 활동에만"
+
+#: package/contents/ui/code/tools.js:147
+#, kde-format
+msgid "Show In Favorites"
+msgstr "책갈피에 표시"
+
+#: package/contents/ui/ConfigButtons.qml:36
+#: package/contents/ui/FullRepresentation.qml:754
+#, kde-format
+msgid "Favorites"
+msgstr "책갈피"
+
+#: package/contents/ui/ConfigButtons.qml:37
+#: package/contents/ui/FullRepresentation.qml:756
+#, kde-format
+msgid "Applications"
+msgstr "프로그램"
+
+#: package/contents/ui/ConfigButtons.qml:38
+#: package/contents/ui/FullRepresentation.qml:758
+#, kde-format
+msgid "Computer"
+msgstr "컴퓨터"
+
+#: package/contents/ui/ConfigButtons.qml:39
+#: package/contents/ui/FullRepresentation.qml:760
+#, kde-format
+msgid "History"
+msgstr "과거 기록"
+
+#: package/contents/ui/ConfigButtons.qml:40
+#: package/contents/ui/FullRepresentation.qml:762
+#, kde-format
+msgid "Often Used"
+msgstr "자주 사용됨"
+
+#: package/contents/ui/ConfigButtons.qml:41
+#: package/contents/ui/FullRepresentation.qml:764
+#, kde-format
+msgid "Leave"
+msgstr "떠나기"
+
+#: package/contents/ui/ConfigButtons.qml:215
+#, fuzzy, kde-format
+#| msgid "Inactive Tabs"
+msgid "Active Tabs"
+msgstr "비활성 탭"
+
+#: package/contents/ui/ConfigButtons.qml:221
+#, kde-format
+msgid "Inactive Tabs"
+msgstr "비활성 탭"
+
+#: package/contents/ui/ConfigGeneral.qml:41
+#, kde-format
+msgid "Icon:"
+msgstr "아이콘:"
+
+#: package/contents/ui/ConfigGeneral.qml:76
+#, kde-format
+msgctxt "@item:inmenu Open icon chooser dialog"
+msgid "Choose..."
+msgstr "선택..."
+
+#: package/contents/ui/ConfigGeneral.qml:81
+#, kde-format
+msgctxt "@item:inmenu Reset icon to default"
+msgid "Clear Icon"
+msgstr "아이콘 초기화"
+
+#: package/contents/ui/ConfigGeneral.qml:95
+#, kde-format
+msgid "General:"
+msgstr "일반:"
+
+#: package/contents/ui/ConfigGeneral.qml:97
+#, kde-format
+msgid "Switch tabs on hover"
+msgstr "지나다닐 때 탭 전환"
+
+#: package/contents/ui/ConfigGeneral.qml:102
+#, kde-format
+msgid "Show applications by name"
+msgstr "프로그램 이름 순 정렬"
+
+#: package/contents/ui/ConfigGeneral.qml:107
+#, kde-format
+msgid "Expand search to bookmarks, files and emails"
+msgstr "책갈피, 파일, 이메일에서도 찾기"
+
+#: package/contents/ui/ConfigGeneral.qml:112
+#, kde-format
+msgid "Sort alphabetically"
+msgstr "가나다순으로 정렬"
+
+#: package/contents/ui/ConfigGeneral.qml:126
+#, kde-format
+msgid ""
+"Drag tabs between the boxes to show/hide them, or reorder the visible tabs "
+"by dragging."
+msgstr ""
+"상자에서 상자로 탭을 드래그해서 표시 및 숨김 상태를 변경하거나, 표시되는 탭"
+"의 순서를 조정하려면 드래그하십시오."
+
+#: package/contents/ui/Header.qml:136
+#, kde-format
+msgid "%2@%3 (%1)"
+msgstr "%2@%3 (%1)"
+
+#: package/contents/ui/Header.qml:136
+#, kde-format
+msgid "%1@%2"
+msgstr "%1@%2"
+
+#: package/contents/ui/Header.qml:167
+#, kde-format
+msgid "Search..."
+msgstr "찾기..."
+
+#: package/contents/ui/Kickoff.qml:145
+#, kde-format
+msgid "Edit Applications..."
+msgstr "프로그램 편집..."

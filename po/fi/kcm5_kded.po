@@ -1,0 +1,174 @@
+# translation of kcmkded.po to Finnish
+# translation of kcmkded.po to
+# Copyright (C) 2003, 2004, 2007, 2008 Free Software Foundation, Inc.
+# Tapio Kautto <eleknader@phnet.fi>, 2003, 2004.
+# Teemu Rytilahti <teemu.rytilahti@kde-fi.org>, 2003, 2008.
+# Mikko Piippo <piippo@cc.helsinki.fi>, 2007.
+# Lasse Liehu <lasse.liehu@gmail.com>, 2011, 2014, 2015.
+# Tommi Nieminen <translator@legisign.org>, 2017.
+#
+# KDE Finnish translation sprint participants:
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmkded\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"PO-Revision-Date: 2017-06-08 20:57+0200\n"
+"Last-Translator: Tommi Nieminen <translator@legisign.org>\n"
+"Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-POT-Import-Date: 2012-12-01 22:22:11+0000\n"
+"X-Generator: Lokalize 2.0\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Tapio Kautto, Tommi Nieminen"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "eleknader@phnet.fi, translator@legisign.org"
+
+#: kcmkded.cpp:79
+#, kde-format
+msgid "kcmkded"
+msgstr "kcmkded"
+
+#: kcmkded.cpp:79
+#, kde-format
+msgid "KDE Service Manager"
+msgstr "KDE:n palvelunhallinta"
+
+#: kcmkded.cpp:81
+#, kde-format
+msgid "(c) 2002 Daniel Molkentin"
+msgstr "© 2002 Daniel Molkentin"
+
+#: kcmkded.cpp:82
+#, kde-format
+msgid "Daniel Molkentin"
+msgstr "Daniel Molkentin"
+
+#: kcmkded.cpp:85
+#, kde-format
+msgid ""
+"<h1>Service Manager</h1><p>This module allows you to have an overview of all "
+"plugins of the KDE Daemon, also referred to as KDE Services. Generally, "
+"there are two types of service:</p><ul><li>Services invoked at startup</"
+"li><li>Services called on demand</li></ul><p>The latter are only listed for "
+"convenience. The startup services can be started and stopped. In "
+"Administrator mode, you can also define whether services should be loaded at "
+"startup.</p><p><b> Use this with care: some services are vital for Plasma; "
+"do not deactivate services if you do not know what you are doing.</b></p>"
+msgstr ""
+"<h1>Palvelunhallinta</h1><p>Tämä asetusohjelma esittää yleiskuvan KDE-"
+"palveluista. Palveluja on yleisesti ottaen kahdenlaisia:</"
+"p><ul><li>käynnistyksessä käynnistettävät palvelut</li><li>pyynnöstä "
+"käynnistettävät palvelut</li></ul> <p>Jälkimmäiset luetellaan vain tiedoksi. "
+"Käynnistyksessä käynnistettäviä palveluita voi pysäyttää ja käynnistää. "
+"Pääkäyttäjätilassa voi muokata, mitä palveluita käynnistyksen yhteydessä "
+"käynnistetään.</p><p><b> Muokkaa asetuksia varoen: jotkin palveluista ovat "
+"välttämättömiä Plasman toiminnalle. Älä poista palveluita käytöstä, ellet "
+"tiedä, mitä teet.</b></p>"
+
+#: kcmkded.cpp:93
+#, kde-format
+msgid "Running"
+msgstr "Käynnissä"
+
+#: kcmkded.cpp:94
+#, kde-format
+msgid "Not running"
+msgstr "Ei käynnissä"
+
+#: kcmkded.cpp:99
+#, kde-format
+msgid "Load-on-Demand Services"
+msgstr "Pyynnöstä ladattavat palvelut"
+
+#: kcmkded.cpp:100
+#, kde-format
+msgid ""
+"This is a list of available KDE services which will be started on demand. "
+"They are only listed for convenience, as you cannot manipulate these "
+"services."
+msgstr ""
+"Tässä näet luettelon pyynnöstä avattavista KDE:n palveluista. Näitä "
+"palveluita ei voida muokata."
+
+#: kcmkded.cpp:109 kcmkded.cpp:131
+#, kde-format
+msgid "Service"
+msgstr "Palvelu"
+
+#: kcmkded.cpp:110 kcmkded.cpp:132
+#, kde-format
+msgid "Status"
+msgstr "Tila"
+
+#: kcmkded.cpp:111 kcmkded.cpp:133
+#, kde-format
+msgid "Description"
+msgstr "Kuvaus"
+
+#: kcmkded.cpp:120
+#, kde-format
+msgid "Startup Services"
+msgstr "Käynnistettävät palvelut"
+
+#: kcmkded.cpp:121
+#, kde-format
+msgid ""
+"This shows all KDE services that can be loaded on Plasma startup. Checked "
+"services will be invoked on next startup. Be careful with deactivation of "
+"unknown services."
+msgstr ""
+"Näkymä esittää kaikki KDE-palvelut, jotka voidaan käynnistää Plasman "
+"käynnistyessä. Valitut palvelut käynnistetään seuraavalla "
+"käynnistyskerralla. Varo poistamasta käytöstä itsellesi tuntemattomia "
+"palveluja."
+
+#: kcmkded.cpp:130
+#, kde-format
+msgid "Use"
+msgstr "Käytä"
+
+#: kcmkded.cpp:143
+#, kde-format
+msgid "Start"
+msgstr "Käynnistä"
+
+#: kcmkded.cpp:144
+#, kde-format
+msgid "Stop"
+msgstr "Pysäytä"
+
+#: kcmkded.cpp:325
+#, kde-format
+msgid "Unable to contact KDED."
+msgstr "KDED-palvelimeen ei saatu yhteyttä."
+
+#: kcmkded.cpp:469
+#, kde-format
+msgid "Unable to start server <em>%1</em>."
+msgstr "Palvelinta <em>%1</em> ei voitu käynnistää."
+
+#: kcmkded.cpp:472
+#, kde-format
+msgid "Unable to start service <em>%1</em>.<br /><br /><i>Error: %2</i>"
+msgstr "Palvelua <em>%1</em> ei voitu käynnistää.<br /><br /><i>Virhe: %2</i>"
+
+#: kcmkded.cpp:489
+#, kde-format
+msgid "Unable to stop service <em>%1</em>."
+msgstr "Palvelua <em>%1</em> ei voitu pysäyttää."
+
+#: kcmkded.cpp:492
+#, kde-format
+msgid "Unable to stop service <em>%1</em>.<br /><br /><i>Error: %2</i>"
+msgstr "Palvelinta <em>%1</em> ei voitu pysäyttää.<br /><br /><i>Virhe: %2</i>"

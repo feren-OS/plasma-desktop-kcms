@@ -1,0 +1,127 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Freek de Kruijf <freekdekruijf@kde.nl>, 2014, 2015, 2016, 2017, 2018, 2019.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"PO-Revision-Date: 2019-09-01 23:33+0200\n"
+"Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
+"Language-Team: Dutch <kde-i18n-nl@kde.org>\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 19.08.0\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Freek de Kruijf - t/m 2019"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "freekdekruijf@kde.nl"
+
+#: kcm.cpp:76
+#, kde-format
+msgid "Look and Feel"
+msgstr "Uiterlijk en gedrag"
+
+#: kcm.cpp:78 lnftool.cpp:43
+#, kde-format
+msgid "Marco Martin"
+msgstr "Marco Martin"
+
+#: kcm.cpp:112
+#, kde-format
+msgid "Download New Look and Feel Themes"
+msgstr "Nieuwe thema's voor het uiterlijk en gedrag downloaden"
+
+#: kcm.cpp:572
+#, kde-format
+msgid ""
+"You have to restart the Plasma session for these changes to take effect."
+msgstr ""
+"Om deze wijzigingen te bekrachtigen dient u de Plasma sessie opnieuw op te "
+"starten."
+
+#: kcm.cpp:573
+#, kde-format
+msgid "Cursor Settings Changed"
+msgstr "Aanwijzerinstellingen aangepast"
+
+#: lnftool.cpp:42
+#, kde-format
+msgid "Look and feel tool"
+msgstr "Hulpmiddel voor uiterlijk en gedrag"
+
+#: lnftool.cpp:42
+#, kde-format
+msgid "Command line tool to apply look and feel packages."
+msgstr ""
+"Hulpmiddel op de opdrachtregel om pakketten voor uiterlijk en gedrag toe te "
+"passen."
+
+#: lnftool.cpp:42
+#, kde-format
+msgid "Copyright 2017, Marco Martin"
+msgstr "Copyright 2017, Marco Martin"
+
+#: lnftool.cpp:43
+#, kde-format
+msgid "Maintainer"
+msgstr "Onderhouder"
+
+#: lnftool.cpp:52
+#, kde-format
+msgid "List available Look and feel packages"
+msgstr "Lijst met beschikbare pakketten voor uiterlijk en gedrag"
+
+#: lnftool.cpp:54
+#, kde-format
+msgid "Apply a look and feel package"
+msgstr "Een pakket voor uiterlijk en gedrag toepassen"
+
+#: lnftool.cpp:54
+#, kde-format
+msgid "packagename"
+msgstr "pakketnaam"
+
+#: lnftool.cpp:56
+#, kde-format
+msgid "Reset the Plasma Desktop layout"
+msgstr "De indeling van het Plasma bureaublad resetten"
+
+#: package/contents/ui/main.qml:28
+#, kde-format
+msgid "This module lets you choose the Look and Feel theme."
+msgstr "Deze module laat u het thema voor uiterlijk en gedrag kiezen."
+
+#: package/contents/ui/main.qml:49
+#, kde-format
+msgid "Preview Theme"
+msgstr "Voorbeeldthema"
+
+#: package/contents/ui/main.qml:67
+#, kde-format
+msgid ""
+"Your desktop layout will be lost and reset to the default layout provided by "
+"the selected theme."
+msgstr ""
+"Uw indeling van het bureaublad zal verloren gaan en gereset worden naar de "
+"standaard indeling geleverd door het geselecteerde thema."
+
+#: package/contents/ui/main.qml:77
+#, kde-format
+msgid "Use desktop layout from theme"
+msgstr "Indeling van het bureaublad uit het thema gebruiken"
+
+#: package/contents/ui/main.qml:84
+#, kde-format
+msgid "Get New Look and Feel Themes..."
+msgstr "Nieuwe thema's voor het uiterlijk en gedrag ophalen..."

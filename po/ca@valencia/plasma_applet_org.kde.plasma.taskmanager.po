@@ -1,0 +1,461 @@
+# Translation of plasma_applet_org.kde.plasma.taskmanager.po to Catalan (Valencian)
+# Copyright (C) 2014-2019 This_file_is_part_of_KDE
+# This file is distributed under the license LGPL version 2.1 or
+# version 3 or later versions approved by the membership of KDE e.V.
+#
+# Antoni Bella Pérez <antonibella5@yahoo.com>, 2014, 2015.
+# Josep Ma. Ferrer <txemaq@gmail.com>, 2015, 2016, 2017, 2018, 2019.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_applet_org.kde.plasma.taskmanager\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"PO-Revision-Date: 2019-04-25 20:27+0100\n"
+"Last-Translator: Josep Ma. Ferrer <txemaq@gmail.com>\n"
+"Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
+"Language: ca@valencia\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Accelerator-Marker: &\n"
+"X-Generator: Lokalize 2.0\n"
+
+#: package/contents/config/config.qml:26
+#, kde-format
+msgid "Appearance"
+msgstr "Aparença"
+
+#: package/contents/config/config.qml:31
+#, kde-format
+msgid "Behavior"
+msgstr "Comportament"
+
+#: package/contents/ui/Badge.qml:48
+#, kde-format
+msgctxt "Invalid number of new messages, overlay, keep short"
+msgid "—"
+msgstr "—"
+
+#: package/contents/ui/Badge.qml:50
+#, kde-format
+msgctxt "Over 9999 new messages, overlay, keep short"
+msgid "9,999+"
+msgstr "9.999+"
+
+#: package/contents/ui/ConfigAppearance.qml:48
+#, fuzzy, kde-format
+#| msgid "General:"
+msgid "General:"
+msgstr "General:"
+
+#: package/contents/ui/ConfigAppearance.qml:49
+#, kde-format
+msgid "Show tooltips"
+msgstr "Mostra els consells"
+
+#: package/contents/ui/ConfigAppearance.qml:54
+#, kde-format
+msgid "Highlight windows when hovering over tasks"
+msgstr "Ressalta les finestres en passar-hi per sobre les tasques"
+
+#: package/contents/ui/ConfigAppearance.qml:59
+#, kde-format
+msgid "Mark applications that play audio"
+msgstr "Marca les aplicacions que reproduïsquen àudio"
+
+#: package/contents/ui/ConfigAppearance.qml:73
+#, kde-format
+msgid "Icon size:"
+msgstr "Mida de les icones:"
+
+#: package/contents/ui/ConfigAppearance.qml:85
+#, kde-format
+msgid "Small"
+msgstr "Petita"
+
+#: package/contents/ui/ConfigAppearance.qml:94
+#, kde-format
+msgid "Large"
+msgstr "Gran"
+
+#: package/contents/ui/ConfigAppearance.qml:105
+#, kde-format
+msgid "Maximum columns:"
+msgstr "Màxim de columnes:"
+
+#: package/contents/ui/ConfigAppearance.qml:105
+#, kde-format
+msgid "Maximum rows:"
+msgstr "Màxim de files:"
+
+#: package/contents/ui/ConfigAppearance.qml:111
+#, kde-format
+msgid "Always arrange tasks in as many rows as columns"
+msgstr "Organitza sempre les tasques en tantes files com columnes"
+
+#: package/contents/ui/ConfigAppearance.qml:111
+#, kde-format
+msgid "Always arrange tasks in as many columns as rows"
+msgstr "Organitza sempre les tasques en tantes columnes com files"
+
+#: package/contents/ui/ConfigBehavior.qml:52
+#, fuzzy, kde-format
+#| msgid "Group:"
+msgid "Group:"
+msgstr "Grup:"
+
+#: package/contents/ui/ConfigBehavior.qml:54
+#, fuzzy, kde-format
+#| msgid "Do not group"
+msgid "Do not group"
+msgstr "No agrupes"
+
+#: package/contents/ui/ConfigBehavior.qml:54
+#, fuzzy, kde-format
+#| msgid "By program name"
+msgid "By program name"
+msgstr "Per nom del programa"
+
+#: package/contents/ui/ConfigBehavior.qml:60
+#, kde-format
+msgid "Open groups in popups"
+msgstr "Obri els grups en finestres emergents"
+
+#: package/contents/ui/ConfigBehavior.qml:74
+#, fuzzy, kde-format
+#| msgid "Group only when the Task Manager is full"
+msgid "Group only when the Task Manager is full"
+msgstr "Agrupa només quan el gestor de tasques estiga ple"
+
+#: package/contents/ui/ConfigBehavior.qml:88
+#, fuzzy, kde-format
+#| msgid "Sort:"
+msgid "Sort:"
+msgstr "Ordenació:"
+
+#: package/contents/ui/ConfigBehavior.qml:90
+#, kde-format
+msgid "Do not sort"
+msgstr "No ordenis"
+
+#: package/contents/ui/ConfigBehavior.qml:90
+#, kde-format
+msgid "Manually"
+msgstr "Manualment"
+
+#: package/contents/ui/ConfigBehavior.qml:90
+#, kde-format
+msgid "Alphabetically"
+msgstr "Alfabèticament"
+
+#: package/contents/ui/ConfigBehavior.qml:90
+#, fuzzy, kde-format
+#| msgid "By desktop"
+msgid "By desktop"
+msgstr "Per escriptori"
+
+#: package/contents/ui/ConfigBehavior.qml:90
+#, fuzzy, kde-format
+#| msgid "By activity"
+msgid "By activity"
+msgstr "Per activitat"
+
+#: package/contents/ui/ConfigBehavior.qml:96
+#, kde-format
+msgid "Keep launchers separate"
+msgstr "Mantén els llançadors separats"
+
+#: package/contents/ui/ConfigBehavior.qml:108
+#, kde-format
+msgid "On middle-click:"
+msgstr "Clic del mig:"
+
+#: package/contents/ui/ConfigBehavior.qml:111
+#, kde-format
+msgctxt "The click action"
+msgid "None"
+msgstr "Res"
+
+#: package/contents/ui/ConfigBehavior.qml:112
+#, fuzzy, kde-format
+#| msgid "Close window or group"
+msgid "Close window or group"
+msgstr "Tanca la finestra o grup"
+
+#: package/contents/ui/ConfigBehavior.qml:113
+#, fuzzy, kde-format
+#| msgid "New instance"
+msgid "New instance"
+msgstr "Instància nova"
+
+#: package/contents/ui/ConfigBehavior.qml:114
+#, fuzzy, kde-format
+#| msgid "Minimize/Restore window or group"
+msgid "Minimize/Restore window or group"
+msgstr "Minimitza/restaura la finestra o grup"
+
+#: package/contents/ui/ConfigBehavior.qml:115
+#, kde-format
+msgctxt "When clicking it would toggle grouping windows of a specific app"
+msgid "Group/Ungroup"
+msgstr "Agrupa/Desagrupa"
+
+#: package/contents/ui/ConfigBehavior.qml:116
+#, kde-format
+msgid "Bring to the current virtual desktop"
+msgstr "Trasllada a l'escriptori virtual actual"
+
+#: package/contents/ui/ConfigBehavior.qml:122
+#, kde-format
+msgid "Cycle through tasks with mouse wheel"
+msgstr "Circula entre les tasques amb la roda del ratolí"
+
+#: package/contents/ui/ConfigBehavior.qml:131
+#, fuzzy, kde-format
+#| msgid "Filter:"
+msgid "Filter:"
+msgstr "Filtre:"
+
+#: package/contents/ui/ConfigBehavior.qml:132
+#, kde-format
+msgid "Show only tasks from the current screen"
+msgstr "Mostra només les tasques de la pantalla actual"
+
+#: package/contents/ui/ConfigBehavior.qml:137
+#, kde-format
+msgid "Show only tasks from the current desktop"
+msgstr "Mostra només les tasques de l'escriptori actual"
+
+#: package/contents/ui/ConfigBehavior.qml:142
+#, kde-format
+msgid "Show only tasks from the current activity"
+msgstr "Mostra només les tasques de l'activitat actual"
+
+#: package/contents/ui/ConfigBehavior.qml:148
+#, kde-format
+msgid "Show only tasks that are minimized"
+msgstr "Mostra només les tasques que estiguen minimitzades"
+
+#: package/contents/ui/ContextMenu.qml:100
+#, kde-format
+msgid "Places"
+msgstr "Llocs"
+
+#: package/contents/ui/ContextMenu.qml:105
+#, kde-format
+msgid "Recent Documents"
+msgstr "Documents recents"
+
+#: package/contents/ui/ContextMenu.qml:110
+#, kde-format
+msgid "Actions"
+msgstr "Accions"
+
+#: package/contents/ui/ContextMenu.qml:168
+#, kde-format
+msgctxt "Play previous track"
+msgid "Previous Track"
+msgstr "Peça anterior"
+
+#: package/contents/ui/ContextMenu.qml:182
+#, kde-format
+msgctxt "Pause playback"
+msgid "Pause"
+msgstr "Pausa"
+
+#: package/contents/ui/ContextMenu.qml:182
+#, kde-format
+msgctxt "Start playback"
+msgid "Play"
+msgstr "Reprodueix"
+
+#: package/contents/ui/ContextMenu.qml:200
+#, kde-format
+msgctxt "Play next track"
+msgid "Next Track"
+msgstr "Peça següent"
+
+#: package/contents/ui/ContextMenu.qml:211
+#, kde-format
+msgctxt "Stop playback"
+msgid "Stop"
+msgstr "Atura"
+
+#: package/contents/ui/ContextMenu.qml:231
+#, kde-format
+msgctxt "Quit media player app"
+msgid "Quit"
+msgstr "Ix"
+
+#: package/contents/ui/ContextMenu.qml:246
+#, kde-format
+msgctxt "Open or bring to the front window of media player app"
+msgid "Restore"
+msgstr "Restaura"
+
+#: package/contents/ui/ContextMenu.qml:272
+#, kde-format
+msgid "Mute"
+msgstr "Silenci"
+
+#: package/contents/ui/ContextMenu.qml:286
+#, kde-format
+msgid "Start New Instance"
+msgstr "Inicia una instància nova"
+
+#: package/contents/ui/ContextMenu.qml:302
+#, kde-format
+msgid "Move To &Desktop"
+msgstr "Mou a l'&escriptori"
+
+#: package/contents/ui/ContextMenu.qml:325
+#, kde-format
+msgid "Move &To Current Desktop"
+msgstr "Mou a l'escriptori ac&tual"
+
+#: package/contents/ui/ContextMenu.qml:334
+#, kde-format
+msgid "&All Desktops"
+msgstr "&Tots els escriptoris"
+
+#: package/contents/ui/ContextMenu.qml:348
+#, kde-format
+msgctxt "1 = number of desktop, 2 = desktop name"
+msgid "&%1 %2"
+msgstr "&%1 %2"
+
+#: package/contents/ui/ContextMenu.qml:362
+#, kde-format
+msgid "&New Desktop"
+msgstr "Escriptori &nou"
+
+#: package/contents/ui/ContextMenu.qml:381
+#, kde-format
+msgid "Move To &Activity"
+msgstr "Mou a una &activitat"
+
+#: package/contents/ui/ContextMenu.qml:402
+#, kde-format
+msgid "Add To Current Activity"
+msgstr "Afig a l'activitat actual"
+
+#: package/contents/ui/ContextMenu.qml:412
+#, kde-format
+msgid "All Activities"
+msgstr "Totes les activitats"
+
+#: package/contents/ui/ContextMenu.qml:471
+#, kde-format
+msgid "More Actions"
+msgstr "Més accions"
+
+#: package/contents/ui/ContextMenu.qml:480
+#, kde-format
+msgid "&Move"
+msgstr "&Mou"
+
+#: package/contents/ui/ContextMenu.qml:489
+#, kde-format
+msgid "Re&size"
+msgstr "Redimen&siona"
+
+#: package/contents/ui/ContextMenu.qml:503
+#, kde-format
+msgid "Ma&ximize"
+msgstr "Ma&ximitza"
+
+#: package/contents/ui/ContextMenu.qml:517
+#, kde-format
+msgid "Mi&nimize"
+msgstr "Mi&nimitza"
+
+#: package/contents/ui/ContextMenu.qml:527
+#, kde-format
+msgid "Keep &Above Others"
+msgstr "Mantén sobre les &altres"
+
+#: package/contents/ui/ContextMenu.qml:537
+#, kde-format
+msgid "Keep &Below Others"
+msgstr "Mantén &sota les altres"
+
+#: package/contents/ui/ContextMenu.qml:549
+#, kde-format
+msgid "&Fullscreen"
+msgstr "Pantalla &completa"
+
+#: package/contents/ui/ContextMenu.qml:561
+#, kde-format
+msgid "&Shade"
+msgstr "&Plega"
+
+#: package/contents/ui/ContextMenu.qml:577
+#, kde-format
+msgid "Allow this program to be grouped"
+msgstr "Permet que aquest programa s'agrupe"
+
+#: package/contents/ui/ContextMenu.qml:629
+#: package/contents/ui/ContextMenu.qml:644
+#, kde-format
+msgid "&Pin to Task Manager"
+msgstr "Fi&xa al gestor de tasques"
+
+#: package/contents/ui/ContextMenu.qml:697
+#, kde-format
+msgid "On All Activities"
+msgstr "A totes les activitats"
+
+#: package/contents/ui/ContextMenu.qml:703
+#, kde-format
+msgid "On The Current Activity"
+msgstr "A l'activitat actual"
+
+#: package/contents/ui/ContextMenu.qml:724
+#, kde-format
+msgid "Unpin from Task Manager"
+msgstr "Desfixa del gestor de tasques"
+
+#: package/contents/ui/ContextMenu.qml:738
+#, kde-format
+msgid "&Close"
+msgstr "Tan&ca"
+
+#: package/contents/ui/ToolTipInstance.qml:469
+#, fuzzy, kde-format
+#| msgctxt "Comma-separated list of desktops"
+#| msgid "On %1"
+msgctxt "Comma-separated list of desktops"
+msgid "On %1"
+msgstr "En %1"
+
+#: package/contents/ui/ToolTipInstance.qml:479
+#, kde-format
+msgctxt "Which virtual desktop a window is currently on"
+msgid "Available on all activities"
+msgstr "Disponible en totes les activitats"
+
+#: package/contents/ui/ToolTipInstance.qml:501
+#, kde-format
+msgctxt "Activities a window is currently on (apart from the current one)"
+msgid "Also available on %1"
+msgstr "També disponible en %1"
+
+#: package/contents/ui/ToolTipInstance.qml:505
+#, kde-format
+msgctxt "Which activities a window is currently on"
+msgid "Available on %1"
+msgstr "Disponible en %1"
+
+#: plugin/backend.cpp:278
+#, kde-format
+msgctxt "Show all user Places"
+msgid "%1 more Place"
+msgid_plural "%1 more Places"
+msgstr[0] "%1 lloc més"
+msgstr[1] "%1 llocs més"
+
+#: plugin/backend.cpp:351
+#, kde-format
+msgid "Forget Recent Documents"
+msgstr "Oblida els documents recents"

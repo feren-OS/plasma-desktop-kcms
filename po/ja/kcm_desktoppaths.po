@@ -1,0 +1,211 @@
+# Translation of kcmkonq into Japanese.
+# This file is distributed under the same license as the kdebase package.
+# Taiki Komoda <kom@kde.gr.jp>, 2003.
+# Shinsaku Nakagawa <shinsaku@users.sourceforge.jp>, 2004.
+# Kenshi Muto <kmuto@debian.org>, 2004.
+# Fumiaki Okushi <fumiaki@okushi.com>, 2005, 2006.
+# Shinichi Tsunoda <tsuno@ngy.1st.ne.jp>, 2005.
+# Yukiko Bando <ybando@k6.dion.ne.jp>, 2006, 2007, 2008, 2009, 2010.
+# Fumiaki Okushi <okushi@kde.gr.jp>, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmkonq\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"PO-Revision-Date: 2010-01-18 23:07+0900\n"
+"Last-Translator: Yukiko Bando <ybando@k6.dion.ne.jp>\n"
+"Language-Team: Japanese <kde-jp@kde.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.2\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Accelerator-Marker: &\n"
+"X-Text-Markup: kde4\n"
+
+#: globalpaths.cpp:113
+#, kde-format
+msgid ""
+"<h1>Paths</h1>\n"
+"This module allows you to choose where in the filesystem the files on your "
+"desktop should be stored.\n"
+"Use the \"Whats This?\" (Shift+F1) to get help on specific options."
+msgstr ""
+"<h1>パス</h1><p>このモジュールでは、デスクトップ上のファイルをファイルシステ"
+"ムのどこに保存するかを設定します。</p><p>各オプションのヘルプを見るには「これ"
+"は何？」(Shift+F1) を使ってください。</p>"
+
+#: globalpaths.cpp:118
+#, kde-format
+msgid "Desktop path:"
+msgstr "デスクトップパス:"
+
+#: globalpaths.cpp:119
+#, kde-format
+msgid ""
+"This folder contains all the files which you see on your desktop. You can "
+"change the location of this folder if you want to, and the contents will "
+"move automatically to the new location as well."
+msgstr ""
+"このフォルダにはデスクトップに表示するすべてのファイルが含まれています。この"
+"フォルダの場所は自由に変更できます。変更すると、その中身も自動的に新しい場所"
+"へ移動します。"
+
+#: globalpaths.cpp:124
+#, kde-format
+msgid "Autostart path:"
+msgstr "自動起動パス:"
+
+#: globalpaths.cpp:125
+#, fuzzy, kde-format
+#| msgid ""
+#| "This folder contains applications or links to applications (shortcuts) "
+#| "that you want to have started automatically whenever KDE starts. You can "
+#| "change the location of this folder if you want to, and the contents will "
+#| "move automatically to the new location as well."
+msgid ""
+"This folder contains applications or links to applications (shortcuts) that "
+"you want to have started automatically whenever the session starts. You can "
+"change the location of this folder if you want to, and the contents will "
+"move automatically to the new location as well."
+msgstr ""
+"このフォルダには KDE の起動時に自動的に起動するアプリケーションまたはアプリ"
+"ケーションへのリンク (ショートカット) が含まれています。このフォルダの場所は"
+"自由に変更できます。変更すると、その中身も自動的に新しい場所へ移動します。"
+
+#: globalpaths.cpp:131
+#, kde-format
+msgid "Documents path:"
+msgstr "文書パス:"
+
+#: globalpaths.cpp:132
+#, kde-format
+msgid ""
+"This folder will be used by default to load or save documents from or to."
+msgstr "このフォルダは文書のデフォルトの読み込み/保存先として使われます。"
+
+#: globalpaths.cpp:135
+#, kde-format
+msgid "Downloads path:"
+msgstr "ダウンロードパス:"
+
+#: globalpaths.cpp:136
+#, kde-format
+msgid "This folder will be used by default to save your downloaded items."
+msgstr ""
+"このフォルダはダウンロードしたアイテムのデフォルトの保存先として使われます。"
+
+#: globalpaths.cpp:139
+#, kde-format
+msgid "Movies path:"
+msgstr "動画パス:"
+
+#: globalpaths.cpp:140
+#, kde-format
+msgid "This folder will be used by default to load or save movies from or to."
+msgstr "このフォルダは動画のデフォルトの読み込み/保存先として使われます。"
+
+#: globalpaths.cpp:143
+#, kde-format
+msgid "Pictures path:"
+msgstr "画像パス:"
+
+#: globalpaths.cpp:144
+#, kde-format
+msgid ""
+"This folder will be used by default to load or save pictures from or to."
+msgstr "このフォルダは画像のデフォルトの読み込み/保存先として使われます。"
+
+#: globalpaths.cpp:147
+#, kde-format
+msgid "Music path:"
+msgstr "音楽パス:"
+
+#: globalpaths.cpp:148
+#, kde-format
+msgid "This folder will be used by default to load or save music from or to."
+msgstr "このフォルダは音楽のデフォルトの読み込み/保存先として使われます。"
+
+#: globalpaths.cpp:277 globalpaths.cpp:295
+#, kde-format
+msgid "Autostart"
+msgstr "自動起動"
+
+#: globalpaths.cpp:281
+#, kde-format
+msgid "Desktop"
+msgstr "デスクトップ"
+
+#: globalpaths.cpp:305
+#, kde-format
+msgid "Documents"
+msgstr "文書"
+
+#: globalpaths.cpp:308
+#, kde-format
+msgid "Downloads"
+msgstr "ダウンロード"
+
+#: globalpaths.cpp:311
+#, kde-format
+msgid "Movies"
+msgstr "動画"
+
+#: globalpaths.cpp:314
+#, kde-format
+msgid "Pictures"
+msgstr "画像"
+
+#: globalpaths.cpp:317
+#, kde-format
+msgid "Music"
+msgstr "音楽"
+
+#: globalpaths.cpp:376
+#, kde-format
+msgid ""
+"The path for '%1' has been changed.\n"
+"Do you want the files to be moved from '%2' to '%3'?"
+msgstr ""
+"「%1」のパスが変更されました。\n"
+"‘%2’ から ‘%3’ へファイルを移動しますか？"
+
+#: globalpaths.cpp:379
+#, kde-format
+msgctxt "Move files from old to new place"
+msgid "Move"
+msgstr "移動する"
+
+#: globalpaths.cpp:380
+#, kde-format
+msgctxt "Use the new directory but do not move files"
+msgid "Do not Move"
+msgstr "移動しない"
+
+#: globalpaths.cpp:382
+#, kde-format
+msgid ""
+"The path for '%1' has been changed.\n"
+"Do you want to move the directory '%2' to '%3'?"
+msgstr ""
+"「%1」のパスが変更されました。\n"
+"フォルダ ‘%2’ を ‘%3’ へ移動しますか？"
+
+#: globalpaths.cpp:385
+#, kde-format
+msgctxt "Move the directory"
+msgid "Move"
+msgstr "移動する"
+
+#: globalpaths.cpp:386
+#, kde-format
+msgctxt "Use the new directory but do not move anything"
+msgid "Do not Move"
+msgstr "移動しない"
+
+#: globalpaths.cpp:390
+#, kde-format
+msgid "Confirmation Required"
+msgstr "確認が必要です"

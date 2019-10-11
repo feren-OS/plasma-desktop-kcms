@@ -1,0 +1,276 @@
+# translation of kcmstyle.po to
+# Danish translation of kcmstyle
+# Copyright (C).
+#
+# Erik Kjær Pedersen <erik@binghamton.edu>, 2000, 2002, 2003, 2004, 2005.
+# Martin Schlander <mschlander@opensuse.org>, 2008, 2009, 2010, 2012, 2017, 2018.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmstyle\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"PO-Revision-Date: 2018-07-12 10:17+0100\n"
+"Last-Translator: Martin Schlander <mschlander@opensuse.org>\n"
+"Language-Team: Danish <kde-i18n-doc@kde.org>\n"
+"Language: da\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 2.0\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Erik Kjær Pedersen"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "erik@binghamton.edu"
+
+#: kcmstyle.cpp:173
+#, fuzzy, kde-format
+#| msgid ""
+#| "<h1>Style</h1>This module allows you to modify the visual appearance of "
+#| "user interface elements, such as the widget style and effects."
+msgid ""
+"This module allows you to modify the visual appearance of applications' user "
+"interface elements."
+msgstr ""
+"<h1>Stil</h1> Dette modul lader dig ændre det visuelle udseende af "
+"brugerfladeelementer, såsom kontrol-stilen og effekter."
+
+#: kcmstyle.cpp:183
+#, fuzzy, kde-format
+#| msgctxt "@title:tab"
+#| msgid "&Applications"
+msgid "Application Style"
+msgstr "&Programmer"
+
+#: kcmstyle.cpp:185
+#, kde-format
+msgid "(c) 2002 Karol Szwed, Daniel Molkentin"
+msgstr "(c) 2002 Karol Szwed, Daniel Molkentin"
+
+#: kcmstyle.cpp:187
+#, kde-format
+msgid "Karol Szwed"
+msgstr "Karol Szwed"
+
+#: kcmstyle.cpp:188
+#, kde-format
+msgid "Daniel Molkentin"
+msgstr "Daniel Molkentin"
+
+#: kcmstyle.cpp:198
+#, kde-format
+msgid "Preview"
+msgstr "Forhåndsvisning"
+
+#: kcmstyle.cpp:252 kcmstyle.cpp:263
+#, kde-format
+msgid "There was an error loading the configuration dialog for this style."
+msgstr ""
+"Der opstod en fejl ved indlæsning af indstillingsdialogen for denne stil."
+
+#: kcmstyle.cpp:254 kcmstyle.cpp:265
+#, kde-format
+msgid "Unable to Load Dialog"
+msgstr "Kan ikke indlæse dialog"
+
+#: kcmstyle.cpp:488
+#, kde-format
+msgid "No description available."
+msgstr "Ingen beskrivelse tilgængelig."
+
+#: kcmstyle.cpp:695
+#, kde-format
+msgid ""
+"This area shows a preview of the currently selected style without having to "
+"apply it to the whole desktop."
+msgstr ""
+"Dette område giver en forhåndsvisning af den valgte stil, uden at skulle "
+"anvende den på hele desktoppen."
+
+#: kcmstyle.cpp:697
+#, kde-format
+msgid ""
+"Here you can choose from a list of predefined widget styles (e.g. the way "
+"buttons are drawn) which may or may not be combined with a theme (additional "
+"information like a marble texture or a gradient)."
+msgstr ""
+"Her kan du vælge fra en liste af prædefinerede dimsstile (f.eks. den måde "
+"knapper er tegnet på) som også kan være kombineret med et tema (ekstra "
+"information som marmor-tekstur eller en overgang)."
+
+#: kcmstyle.cpp:701
+#, fuzzy, kde-format
+#| msgid ""
+#| "If you enable this option, KDE Applications will show small icons "
+#| "alongside some important buttons."
+msgid ""
+"If you enable this option, applications will show small icons alongside some "
+"important buttons."
+msgstr ""
+"Hvis du aktiverer dette, vil KDE-programmer vise små ikoner ved siden af "
+"nogle vigtige knapper."
+
+#: kcmstyle.cpp:703
+#, fuzzy, kde-format
+#| msgid ""
+#| "If you enable this option, KDE Applications will show small icons "
+#| "alongside most menu items."
+msgid ""
+"If you enable this option, applications will show small icons alongside most "
+"menu items."
+msgstr ""
+"Hvis du aktiverer dette, vil KDE-programmer vise små ikoner ved siden af de "
+"fleste menupunkter."
+
+#: kcmstyle.cpp:705
+#, fuzzy, kde-format
+#| msgid ""
+#| "<p><b>No Text:</b> Shows only icons on toolbar buttons. Best option for "
+#| "low resolutions.</p><p><b>Text Only: </b>Shows only text on toolbar "
+#| "buttons.</p><p><b>Text Beside Icons: </b> Shows icons and text on toolbar "
+#| "buttons. Text is aligned beside the icon.</p><b>Text Below Icons: </b> "
+#| "Shows icons and text on toolbar buttons. Text is aligned below the icon."
+msgid ""
+"<p><b>No text:</b> Shows only icons on toolbar buttons. Best option for low "
+"resolutions.</p><p><b>Text only: </b>Shows only text on toolbar buttons.</"
+"p><p><b>Text beside icons: </b> Shows icons and text on toolbar buttons. "
+"Text is aligned beside the icon.</p><b>Text below icons: </b> Shows icons "
+"and text on toolbar buttons. Text is aligned below the icon."
+msgstr ""
+"<p><b>Ingen tekst:</b> Viser kun ikoner på værktøjslinjeknapper. Bedste valg "
+"for lave opløsninger.</p><p><b>Kun tekst: </b>Viser kun tekst på "
+"værktøjslinjeknapper.</p><p><b>Tekst ved siden af ikoner: </b> Viser tekst "
+"og ikoner på værktøjslinjeknapper. Teksten er justeret langs med ikonet.</"
+"p><b>Tekst under ikoner: </b> Viser ikoner og tekst på værktøjslinjeknapper. "
+"Teksten er justeret under ikonet."
+
+#: styleconfdialog.cpp:29
+#, kde-format
+msgid "Configure %1"
+msgstr "Indstil %1"
+
+#. i18n: ectx: property (text), widget (QLabel, labelApplicationStyle)
+#: styleconfig.ui:20
+#, fuzzy, kde-format
+#| msgctxt "@title:tab"
+#| msgid "&Applications"
+msgid "Application style:"
+msgstr "&Programmer"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, pbConfigStyle)
+#: styleconfig.ui:45
+#, fuzzy, kde-format
+#| msgctxt "@title:tab"
+#| msgid "&Applications"
+msgid "Configure Application Style..."
+msgstr "&Programmer"
+
+#. i18n: ectx: property (text), widget (QLabel, labelShowIcons)
+#: styleconfig.ui:61
+#, fuzzy, kde-format
+#| msgid "Show icons in menus:"
+msgid "Show icons:"
+msgstr "Vis ikoner i menuer:"
+
+#. i18n: ectx: property (text), widget (QLabel, labelToolbarIcons)
+#: styleconfig.ui:68
+#, fuzzy, kde-format
+#| msgid "Main &toolbar text location:"
+msgid "Main toolbar label:"
+msgstr "Placering af tekst på hoved&værktøjslinje:"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, comboToolbarIcons)
+#. i18n: ectx: property (text), item, widget (QComboBox, comboSecondaryToolbarIcons)
+#: styleconfig.ui:79 styleconfig.ui:113
+#, kde-format
+msgid "None"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, comboToolbarIcons)
+#. i18n: ectx: property (text), item, widget (QComboBox, comboSecondaryToolbarIcons)
+#: styleconfig.ui:84 styleconfig.ui:118
+#, fuzzy, kde-format
+#| msgid "Text Only"
+msgid "Text only"
+msgstr "Kun tekst"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, comboToolbarIcons)
+#. i18n: ectx: property (text), item, widget (QComboBox, comboSecondaryToolbarIcons)
+#: styleconfig.ui:89 styleconfig.ui:123
+#, fuzzy, kde-format
+#| msgid "Text Beside Icons"
+msgid "Beside icons"
+msgstr "Tekst ved siden af ikoner"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, comboToolbarIcons)
+#. i18n: ectx: property (text), item, widget (QComboBox, comboSecondaryToolbarIcons)
+#: styleconfig.ui:94 styleconfig.ui:128
+#, fuzzy, kde-format
+#| msgid "Text Below Icons"
+msgid "Below icons"
+msgstr "Tekst under ikoner"
+
+#. i18n: ectx: property (text), widget (QLabel, labelSecondaryToolbarIcons)
+#: styleconfig.ui:102
+#, fuzzy, kde-format
+#| msgid "Secondary toolbar text &location:"
+msgid "Secondary toolbar label:"
+msgstr "&Placering af tekst på sekundær værktøjslinje:"
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbIconsOnButtons)
+#: styleconfig.ui:136
+#, fuzzy, kde-format
+#| msgid "Radio button"
+msgid "On buttons"
+msgstr "Radioknap"
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbIconsInMenus)
+#: styleconfig.ui:146
+#, kde-format
+msgid "In menus"
+msgstr ""
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_1)
+#: stylepreview.ui:33
+#, kde-format
+msgid "Tab 1"
+msgstr "Faneblad 1"
+
+#. i18n: ectx: property (text), widget (QPushButton, pushButton)
+#: stylepreview.ui:65
+#, fuzzy, kde-format
+#| msgid "Button"
+msgid "Push Button"
+msgstr "Knap"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, comboBox)
+#: stylepreview.ui:86
+#, fuzzy, kde-format
+#| msgid "Combobox"
+msgid "Combo box"
+msgstr "Kombinationsfelt:"
+
+#. i18n: ectx: property (text), widget (QCheckBox, checkBox)
+#: stylepreview.ui:96
+#, kde-format
+msgid "Checkbox"
+msgstr "Afkrydsningsfelt"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioButton_2)
+#. i18n: ectx: property (text), widget (QRadioButton, radioButton_1)
+#: stylepreview.ui:106 stylepreview.ui:116
+#, kde-format
+msgid "Radio button"
+msgstr "Radioknap"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_2)
+#: stylepreview.ui:133
+#, kde-format
+msgid "Tab 2"
+msgstr "Faneblad 2"

@@ -1,0 +1,298 @@
+# Vietnamese translation for kcmcomponentchooser.
+# Copyright © 2007 KDE i18n Project for Vietnamese.
+#
+# Phan Vĩnh Thịnh <teppi82@gmail.com>, 2006.
+# Lê Hoàng Phương <herophuong93@gmail.com>, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmcomponentchooser\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"PO-Revision-Date: 2012-01-10 12:57+0700\n"
+"Last-Translator: Lê Hoàng Phương <herophuong93@gmail.com>\n"
+"Language-Team: Vietnamese <kde-i18n-vi@kde.org>\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.4\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Phan Vĩnh Thịnh, Lê Hoàng Phương"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "teppi82@gmail.com, herophuong93@gmail.com"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: browserconfig_ui.ui:29
+#, kde-format
+msgid "<qt>Open <b>http</b> and <b>https</b> URLs</qt>"
+msgstr "<qt>Mở các địa chỉ URL <b>http</b> và <b>https</b></qt>"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioKIO)
+#: browserconfig_ui.ui:36
+#, kde-format
+msgid "in an application based on the contents of the URL"
+msgstr "trong một ứng dụng dựa trên nội dung của địa chỉ URL"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioService)
+#: browserconfig_ui.ui:46
+#, fuzzy, kde-format
+#| msgid "in the following browser:"
+msgid "in the following application:"
+msgstr "trong trình duyệt sau:"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioExec)
+#: browserconfig_ui.ui:80
+#, fuzzy, kde-format
+#| msgid "in the following browser:"
+msgid "with the following command:"
+msgstr "trong trình duyệt sau:"
+
+#. i18n: ectx: property (text), widget (QToolButton, btnSelectApplication)
+#. i18n: ectx: property (text), widget (QToolButton, btnSelectEmail)
+#. i18n: ectx: property (text), widget (QToolButton, btnSelectFileManager)
+#. i18n: ectx: property (text), widget (QToolButton, btnSelectTerminal)
+#: browserconfig_ui.ui:115 emailclientconfig_ui.ui:69
+#: filemanagerconfig_ui.ui:41 terminalemulatorconfig_ui.ui:60
+#, kde-format
+msgid "..."
+msgstr "..."
+
+#: componentchooser.cpp:134
+#, kde-format
+msgid "Unknown"
+msgstr "Không rõ"
+
+#: componentchooser.cpp:151
+#, kde-format
+msgid ""
+"Choose from the list below which component should be used by default for the "
+"%1 service."
+msgstr ""
+"Chọn từ danh sách phía dưới thành phần muốn dùng làm mặc định cho dịch vụ %1."
+
+#: componentchooser.cpp:183
+#, kde-format
+msgid ""
+"<qt>You changed the default component of your choice, do want to save that "
+"change now ?</qt>"
+msgstr ""
+"<qt>Bạn đã thay đổi thành phần mặc định theo lựa chọn. Ghi thay đổi ngay bây "
+"giờ?</qt>"
+
+#: componentchooser.cpp:188
+#, kde-format
+msgid "No description available"
+msgstr "Không có mô tả"
+
+#. i18n: ectx: property (whatsThis), widget (QGroupBox, GroupBox1)
+#: componentchooser_ui.ui:26
+#, kde-format
+msgid ""
+"Here you can change the component program. Components are programs that "
+"handle basic tasks, like the terminal emulator, the text editor and the "
+"email client. Different KDE applications sometimes need to invoke a console "
+"emulator, send a mail or display some text. To do so consistently, these "
+"applications always call the same components. You can choose here which "
+"programs these components are."
+msgstr ""
+"Ở đây bạn có thể thay đổi chương trình thành phần. Thành phần là các chương "
+"trình điều khiển các công việc cơ bản, như giả lập thiết bị cuối, soạn thảo "
+"và trình thư. Một số ứng dụng KDE đôi khi cần một trình lệnh, gửi một thư, "
+"hay hiển thị văn bản. Để đảm bảo tính ổn định, các ứng dụng luôn luôn gọi "
+"cùng một thành phần. Bạn có thể chọn những thành phần đó ở đây."
+
+#. i18n: ectx: property (title), widget (QGroupBox, GroupBox1)
+#: componentchooser_ui.ui:29
+#, kde-format
+msgid "Default Component"
+msgstr "Thành phần mặc định"
+
+#. i18n: ectx: property (whatsThis), widget (QListWidget, ServiceChooser)
+#: componentchooser_ui.ui:44
+#, kde-format
+msgid ""
+"<qt>\n"
+"<p>This list shows the configurable component types. Click the component you "
+"want to configure.</p>\n"
+"<p>In this dialog you can change KDE default components. Components are "
+"programs that handle basic tasks, like the terminal emulator, the text "
+"editor and the email client. Different KDE applications sometimes need to "
+"invoke a console emulator, send a mail or display some text. To do so "
+"consistently, these applications always call the same components. Here you "
+"can select which programs these components are.</p>\n"
+"</qt>"
+msgstr ""
+"<qt>\n"
+"<p>Danh sách này hiển thị những dạng thành phần có thể cấu hình. Nhấn vào "
+"thành phần bạn muốn cấu hình.</p>\n"
+"<p>Trong hộp thoại này bạn có thể thay đổi các thành phần mặc định của KDE. "
+"Thành phần là các chương trình điều khiển các công việc cơ bản, như giả "
+"trình lệnh, soạn thảo và trình thư. Một số ứng dụng KDE đôi khi cần một "
+"trình lệnh, gửi một thư, hay hiển thị văn bản. Để đảm bảo tính ổn định, các "
+"ứng dụng luôn luôn gọi cùng một thành phần. Bạn có thể chọn những thành phần "
+"đó ở đây.</p>\n"
+"</qt>"
+
+#: componentchooserbrowser.cpp:150
+#, kde-format
+msgid "Select preferred Web browser application:"
+msgstr "Chọn trình duyệt web yêu thích:"
+
+#: componentchooseremail.cpp:86
+#, kde-format
+msgid "Select preferred email client:"
+msgstr "Chọn trình thư yêu thích:"
+
+#: componentchooserterminal.cpp:104
+#, kde-format
+msgid "Select preferred terminal application:"
+msgstr "Chọn ứng dụng dòng lệnh yêu thích:"
+
+#. i18n: ectx: property (whatsThis), widget (QRadioButton, kmailCB)
+#: emailclientconfig_ui.ui:12
+#, fuzzy, kde-format
+#| msgid "Kmail is the standard Mail program for the KDE desktop."
+msgid "Kmail is the standard Mail program for the Plasma desktop."
+msgstr "Kmail là chương trình thư chuẩn cho môi trường KDE."
+
+#. i18n: ectx: property (text), widget (QRadioButton, kmailCB)
+#: emailclientconfig_ui.ui:15
+#, kde-format
+msgid "&Use KMail as preferred email client"
+msgstr "Dùng &KMail là trình thư yêu thích"
+
+#. i18n: ectx: property (whatsThis), widget (QRadioButton, otherCB)
+#: emailclientconfig_ui.ui:22
+#, kde-format
+msgid "Select this option if you want to use any other mail program."
+msgstr "Chọn tùy chọn này nếu muốn dùng một trình thư khác."
+
+#. i18n: ectx: property (text), widget (QRadioButton, otherCB)
+#: emailclientconfig_ui.ui:25
+#, kde-format
+msgid "Use a different &email client:"
+msgstr "Dùng trình &thư khác:"
+
+#. i18n: ectx: property (toolTip), widget (KLineEdit, txtEMailClient)
+#: emailclientconfig_ui.ui:53
+#, fuzzy, no-c-format, kde-format
+#| msgid ""
+#| "<ul> <li>%t: Recipient's address</li> <li>%s: Subject</li> <li>%c: Carbon "
+#| "Copy (CC)</li> <li>%b: Blind Carbon Copy (BCC)</li> <li>%B: Template body "
+#| "text</li> <li>%A: Attachment </li> <li>%u: Full mailto: URL </li></ul>"
+msgid ""
+"Optional placeholders: <ul> <li>%t: Recipient's address</li> <li>%s: "
+"Subject</li> <li>%c: Carbon Copy (CC)</li> <li>%b: Blind Carbon Copy (BCC)</"
+"li> <li>%B: Template body text</li> <li>%A: Attachment </li> <li>%u: Full "
+"mailto: URL </li></ul>"
+msgstr ""
+"<ul> <li>%t: Địa chỉ người nhận</li> <li>%s: Chủ đề</li> <li>%c: Chép Cho "
+"(CC)</li> <li>%b: Bí mật Chép Cho (BCC)</li> <li>%B: Văn bản thân mẫu</li> "
+"<li>%A: Đính kèm </li> <li>%u: URL mailto: đầy đủ </li></ul>"
+
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, txtEMailClient)
+#: emailclientconfig_ui.ui:56
+#, no-c-format, kde-format
+msgid ""
+"Press this button to select your favorite email client. Please note that the "
+"file you select has to have the executable attribute set in order to be "
+"accepted.<br/> You can also use several placeholders which will be replaced "
+"with the actual values when the email client is called:<ul> <li>%t: "
+"Recipient's address</li> <li>%s: Subject</li> <li>%c: Carbon Copy (CC)</li> "
+"<li>%b: Blind Carbon Copy (BCC)</li> <li>%B: Template body text</li> <li>%A: "
+"Attachment </li> </ul>"
+msgstr ""
+"Nhấn nút này để chọn trình thư yêu thích của bạn. Chú ý rằng tập tin bạn đã "
+"chọn phải có thuộc tính thực thi để có thể được chấp nhận.<br /> Bạn có thể "
+"dùng nhiều từ giữ chỗ sẽ được thay thế với giá trị thực khi trình thư được "
+"gọi:<ul> <li>%t: Địa chỉ người nhận</li> <li>%s: Chủ đề</li> <li>%c: Chép "
+"Cho (CC)</li> <li>%b: Bí mật Chép Cho (BCC)</li> <li>%B: Văn bản thân mẫu</"
+"li> <li>%A: Đính kèm </li> <li>%u: URL mailto: đầy đủ </li></ul>"
+
+#. i18n: ectx: property (whatsThis), widget (QToolButton, btnSelectEmail)
+#: emailclientconfig_ui.ui:66
+#, kde-format
+msgid "Click here to browse for the mail program file."
+msgstr "Nhấn vào đây để tìm tập tin chương trình thư."
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, chkRunTerminal)
+#: emailclientconfig_ui.ui:99
+#, kde-format
+msgid ""
+"Activate this option if you want the selected email client to be executed in "
+"a terminal (e.g. <em>Konsole</em>)."
+msgstr ""
+"Dùng tùy chọn này nếu muốn trình thư đã chọn sẽ chạy trong một trình lệnh "
+"(ví dụ <em>Konsole</em>)."
+
+#. i18n: ectx: property (text), widget (QCheckBox, chkRunTerminal)
+#: emailclientconfig_ui.ui:102
+#, kde-format
+msgid "&Run in terminal"
+msgstr "&Chạy trong trình lệnh"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: filemanagerconfig_ui.ui:12
+#, kde-format
+msgid "Browse directories using the following file manager:"
+msgstr "Duyệt thư mục sử dụng trình quản lý tập tin sau:"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioExec)
+#: filemanagerconfig_ui.ui:24
+#, kde-format
+msgid "Other: click Add... in the dialog shown here:"
+msgstr "Khác: nhấn Thêm... trong họp thoại hiện ở đây:"
+
+#: kcm_componentchooser.cpp:44
+#, kde-format
+msgid "Component Chooser"
+msgstr "Trình chọn thành phần"
+
+#: kcm_componentchooser.cpp:46
+#, kde-format
+msgid "(c), 2002 Joseph Wenninger"
+msgstr "Bản quyền © năm 2002 của Joseph Wenninger"
+
+#: kcm_componentchooser.cpp:48
+#, kde-format
+msgid "Joseph Wenninger"
+msgstr "Joseph Wenninger"
+
+#. i18n: ectx: property (text), widget (QRadioButton, terminalCB)
+#: terminalemulatorconfig_ui.ui:12
+#, kde-format
+msgid "&Use Konsole as terminal application"
+msgstr "&Dùng Konsole làm ứng dụng trình lệnh"
+
+#. i18n: ectx: property (text), widget (QRadioButton, otherCB)
+#: terminalemulatorconfig_ui.ui:19
+#, kde-format
+msgid "Use a different &terminal program:"
+msgstr "Dùng một trình &lệnh khác:"
+
+#. i18n: ectx: property (whatsThis), widget (QLineEdit, terminalLE)
+#: terminalemulatorconfig_ui.ui:47
+#, kde-format
+msgid ""
+"Press this button to select your favorite terminal client. Please note that "
+"the file you select has to have the executable attribute set in order to be "
+"accepted.<br/> Also note that some programs that utilize Terminal Emulator "
+"will not work if you add command line arguments (Example: konsole -ls)."
+msgstr ""
+"Nhấn nút này để chọn trình dòng lệnh yêu thích. Chú ý rằng tập tin bạn đã "
+"chọn phải có tính thực thi để có thể được chấp nhận.<br /> Cũng chú ý rằng "
+"một vài chương trình sử dụng Trình dòng lệnh sẽ không làm việc nếu bạn thêm "
+"tham số dòng lệnh (VD: konsole -ls)."
+
+#. i18n: ectx: property (whatsThis), widget (QToolButton, btnSelectTerminal)
+#: terminalemulatorconfig_ui.ui:57
+#, kde-format
+msgid "Click here to browse for terminal program."
+msgstr "Nhấn vào đây để tìm trình lệnh."

@@ -1,0 +1,390 @@
+# translation of kcmfonts.po to Persian
+# Nazanin Kazemi <kazemi@itland.ir>, 2006, 2007.
+# Tahereh Dadkhahfar <dadkhahfar@itland.ir>, 2006.
+# MaryamSadat Razavi <razavi@itland.ir>, 2006.
+# Nasim Daniarzadeh <daniarzadeh@itland.ir>, 2006.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmfonts\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-07-12 07:37+0200\n"
+"PO-Revision-Date: 2007-09-02 12:23+0330\n"
+"Last-Translator: Nazanin Kazemi <kazemi@itland.ir>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
+
+#: fonts.cpp:279
+#, fuzzy, kde-format
+#| msgid ""
+#| "<p>Some changes such as anti-aliasing will only affect newly started "
+#| "applications.</p>"
+msgid ""
+"<p>Some changes such as anti-aliasing or DPI will only affect newly started "
+"applications.</p>"
+msgstr ""
+"<p>برخی تغییرات مانند حذف لبه ناصاف، فقط بر کاربردهایی تأثیر دارند که جدیداً "
+"آغاز شده‌اند.</p>"
+
+#: fonts.cpp:280 fonts.cpp:290
+#, kde-format
+msgid "Font Settings Changed"
+msgstr "تنظیمات قلم، تغییر یافت"
+
+#: fonts.cpp:289
+#, kde-format
+msgid ""
+"<p>Some changes such as DPI will only affect newly started applications.</p>"
+msgstr ""
+"<p>برخی تغییرات مانند DPI، فقط بر کاربردهایی تأثیر دارند که جدیداً آغاز "
+"شده‌اند.</p>"
+
+#: fonts.cpp:443
+#, kde-format
+msgid "Fonts"
+msgstr ""
+
+#: fonts.cpp:445
+#, kde-format
+msgid "Antonis Tsiapaliokas"
+msgstr ""
+
+#: kxftconfig.cpp:444
+#, fuzzy, kde-format
+msgctxt "use system subpixel setting"
+msgid "Vendor default"
+msgstr "تنظیمات سیستم"
+
+#: kxftconfig.cpp:446
+#, fuzzy, kde-format
+#| msgid "None"
+msgctxt "no subpixel rendering"
+msgid "None"
+msgstr "هیچ‌کدام"
+
+#: kxftconfig.cpp:448
+#, kde-format
+msgid "RGB"
+msgstr "RGB"
+
+#: kxftconfig.cpp:450
+#, kde-format
+msgid "BGR"
+msgstr "BGR"
+
+#: kxftconfig.cpp:452
+#, kde-format
+msgid "Vertical RGB"
+msgstr "RGB عمودی"
+
+#: kxftconfig.cpp:454
+#, kde-format
+msgid "Vertical BGR"
+msgstr "BGR عمودی"
+
+#: kxftconfig.cpp:482
+#, fuzzy, kde-format
+msgctxt "use system hinting settings"
+msgid "Vendor default"
+msgstr "تنظیمات سیستم"
+
+#: kxftconfig.cpp:484
+#, fuzzy, kde-format
+#| msgid "Medium"
+msgctxt "medium hinting"
+msgid "Medium"
+msgstr "متوسط"
+
+#: kxftconfig.cpp:486
+#, fuzzy, kde-format
+#| msgid "None"
+msgctxt "no hinting"
+msgid "None"
+msgstr "هیچ‌کدام"
+
+#: kxftconfig.cpp:488
+#, fuzzy, kde-format
+#| msgid "Slight"
+msgctxt "slight hinting"
+msgid "Slight"
+msgstr "اندک"
+
+#: kxftconfig.cpp:490
+#, fuzzy, kde-format
+#| msgid "Full"
+msgctxt "full hinting"
+msgid "Full"
+msgstr "کامل"
+
+#: package/contents/ui/FontWidget.qml:68
+#, kde-format
+msgid "Select %1 Font..."
+msgstr ""
+
+#: package/contents/ui/main.qml:30
+#, kde-format
+msgid "This module lets you configure the system fonts."
+msgstr ""
+
+#: package/contents/ui/main.qml:40
+#, fuzzy, kde-format
+#| msgid "Ad&just All Fonts..."
+msgid "&Adjust All Fonts..."
+msgstr "&میزان کردن همه قلمها...‌"
+
+#: package/contents/ui/main.qml:47
+#, fuzzy, kde-format
+#| msgid "General"
+msgid "General:"
+msgstr "عمومی"
+
+#: package/contents/ui/main.qml:52
+#, fuzzy, kde-format
+#| msgid "Fixed width"
+msgid "Fixed width:"
+msgstr "عرض ثابت"
+
+#: package/contents/ui/main.qml:57
+#, fuzzy, kde-format
+#| msgid "Small"
+msgid "Small:"
+msgstr "کوچک"
+
+#: package/contents/ui/main.qml:62
+#, fuzzy, kde-format
+#| msgid "Toolbar"
+msgid "Toolbar:"
+msgstr "میله ابزار"
+
+#: package/contents/ui/main.qml:67
+#, fuzzy, kde-format
+#| msgid "Menu"
+msgid "Menu:"
+msgstr "گزینگان"
+
+#: package/contents/ui/main.qml:72
+#, fuzzy, kde-format
+#| msgid "Window title"
+msgid "Window title:"
+msgstr "عنوان پنجره"
+
+#: package/contents/ui/main.qml:84
+#, fuzzy, kde-format
+#| msgid "Use a&nti-aliasing:"
+msgctxt "Used as a noun, and precedes a combobox full of options"
+msgid "Anti-aliasing:"
+msgstr "استفاده از &حذف لبه ناصاف:"
+
+#  msgid "Enabled"
+#: package/contents/ui/main.qml:86
+#, fuzzy, kde-format
+#| msgctxt "Use anti-aliasing"
+#| msgid "Enabled"
+msgid "Enabled"
+msgstr "فعال"
+
+#: package/contents/ui/main.qml:86
+#, fuzzy, kde-format
+msgid "Vendor default"
+msgstr "تنظیمات سیستم"
+
+#: package/contents/ui/main.qml:86
+#, fuzzy, kde-format
+msgid "Disabled"
+msgstr "غیرفعال"
+
+#: package/contents/ui/main.qml:96
+#, kde-format
+msgid "Exclude range from anti-aliasing"
+msgstr ""
+
+#: package/contents/ui/main.qml:113 package/contents/ui/main.qml:128
+#, kde-format
+msgid "%1 pt"
+msgstr ""
+
+#: package/contents/ui/main.qml:120
+#, fuzzy, kde-format
+#| msgid " to "
+msgid "to"
+msgstr " به "
+
+#: package/contents/ui/main.qml:141
+#, fuzzy, kde-format
+#| msgid "&Use sub-pixel rendering:"
+msgctxt "Used as a noun, and precedes a combobox full of options"
+msgid "Sub-pixel rendering:"
+msgstr "&استفاده از پرداخت تصویردانه فرعی:‌"
+
+#: package/contents/ui/main.qml:178
+#, fuzzy, kde-format
+#| msgid "Hinting style: "
+msgctxt "Used as a noun, and precedes a combobox full of options"
+msgid "Hinting:"
+msgstr "سبک اشاره: "
+
+#: package/contents/ui/main.qml:216
+#, fuzzy, kde-format
+#| msgid "Force fonts DPI:"
+msgid "Force font DPI:"
+msgstr "قلمهای اجباری DPI"
+
+#: package/contents/ui/main.qml:234
+#, kde-format
+msgid "Select Font"
+msgstr ""
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#  msgid "Disabled"
+
+
+
+
+
+
+
+
+
+
+#  msgid "System settings"
+
+
+
+
+#  msgid "Disabled"

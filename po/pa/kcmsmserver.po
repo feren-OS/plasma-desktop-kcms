@@ -1,0 +1,198 @@
+# translation of kcmsmserver.po to Punjabi
+# Amanpreet Singh Alam <aalam@redhat.com>, 2004, 2005.
+# A S Alam <aalam@users.sf.net>, 2007, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmsmserver\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"PO-Revision-Date: 2009-12-13 14:20+0530\n"
+"Last-Translator: A S Alam <aalam@users.sf.net>\n"
+"Language-Team: Punjabi/Panjabi <punjabi-users@lists.sf.net>\n"
+"Language: pa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.0\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"\n"
+"\n"
+
+#: kcmsmserver.cpp:62
+#, kde-format
+msgid ""
+"<h1>Session Manager</h1> You can configure the session manager here. This "
+"includes options such as whether or not the session exit (logout) should be "
+"confirmed, whether the session should be restored again when logging in and "
+"whether the computer should be automatically shut down after session exit by "
+"default."
+msgstr ""
+"<h1>ਸ਼ੈਸ਼ਨ ਮੈਨੇਜਰ</h1> ਤੁਸੀਂ ਸ਼ੈਸ਼ਨ ਮੈਨੇਜਰ ਨੂੰ ਇੱਥੇ ਸੰਰਚਿਤ ਕਰ ਸਕਦੇ ਹੋ। ਇਸ ਵਿੱਚ ਇਹ ਵੀ ਸ਼ਾਮਿਲ ਹੈ ਕਿ "
+"ਸ਼ੈਸ਼ਨ ਲਾਗਆਉਟ ਦੀ ਪੁਸ਼ਟੀ ਕਰਵਾਈ ਜਾਵੇ, ਕੀ ਸ਼ੈਸ਼ਨ ਮੁੜ ਲੋਡ ਕੀਤਾ ਜਾਵੇ ਜਾਂ ਨਾ ਅਤੇ ਕੀ ਮੂਲ ਰੂਪ ਵਿੱਚ "
+"ਸ਼ੈਸ਼ਨ ਬੰਦ ਕਰਨ ਉੱਤੇ ਕੰਪਿਊਟਰ ਆਟੋਮੈਟਿਕ ਹੀ ਬੰਦ ਹੋ ਜਾਵੇ।"
+
+#: kcmsmserver.cpp:82
+#, fuzzy, kde-format
+#| msgid "&Restart computer"
+msgid "Restart Now"
+msgstr "ਕੰਪਿਊਟਰ ਮੁੜ ਚਾਲੂ ਕਰੋ(&R)"
+
+#: kcmsmserver.cpp:114
+#, kde-format
+msgid "Failed to request restart to firmware setup: %1"
+msgstr ""
+
+#: kcmsmserver.cpp:126
+#, kde-format
+msgid ""
+"Next time the computer is restarted, it will enter the UEFI setup screen."
+msgstr ""
+
+#: kcmsmserver.cpp:128
+#, kde-format
+msgid ""
+"Next time the computer is restarted, it will enter the firmware setup screen."
+msgstr ""
+
+#: kcmsmserver.cpp:140
+#, kde-format
+msgid "UEFI Setup"
+msgstr ""
+
+#: kcmsmserver.cpp:141
+#, kde-format
+msgid "Enter UEFI setup on next restart"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, topBox)
+#: smserverconfigdlg.ui:17
+#, kde-format
+msgid "General"
+msgstr "ਸਧਾਰਨ"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, confirmLogoutCheck)
+#: smserverconfigdlg.ui:23
+#, kde-format
+msgid ""
+"Check this option if you want the session manager to display a logout "
+"confirmation dialog box."
+msgstr ""
+"ਇਹ ਚੋਣ ਨੂੰ ਚੁਣੋ, ਜੇਕਰ ਤੁਸੀਂ ਚਾਹੁੰਦੇ ਕਿ ਸ਼ੈਸ਼ਨ ਮੈਨੇਜਰ ਲਾਗਆਉਟ ਕਰਨ ਸਮੇਂ ਇੱਕ ਪੁਸ਼ਟੀ ਡਾਈਲਾਗ ਬਕਸਾ ਵੇਖਾਏ।"
+
+#. i18n: ectx: property (text), widget (QCheckBox, confirmLogoutCheck)
+#: smserverconfigdlg.ui:26
+#, kde-format
+msgid "Conf&irm logout"
+msgstr "ਲਾਗਆਉਟ ਪੁਸ਼ਟੀ(&i)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, offerShutdownCheck)
+#: smserverconfigdlg.ui:33
+#, kde-format
+msgid "O&ffer shutdown options"
+msgstr "ਬੰਦ ਕਰਨ ਲਈ ਚੋਣ ਦਿਓ(&f)"
+
+#. i18n: ectx: property (whatsThis), widget (QGroupBox, sdGroup)
+#: smserverconfigdlg.ui:43
+#, kde-format
+msgid ""
+"Here you can choose what should happen by default when you log out. This "
+"only has meaning, if you logged in through KDM."
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, sdGroup)
+#: smserverconfigdlg.ui:46
+#, kde-format
+msgid "Default Leave Option"
+msgstr "ਡਿਫਾਲਟ ਛੱਡੋ ਚੋਣ"
+
+#. i18n: ectx: property (text), widget (QRadioButton, logoutRadio)
+#: smserverconfigdlg.ui:52
+#, kde-format
+msgid "&End current session"
+msgstr "ਮੌਜੂਦਾ ਸ਼ੈਸ਼ਨ ਬੰਦ ਕਰੋ(&E)"
+
+#. i18n: ectx: property (text), widget (QRadioButton, haltRadio)
+#: smserverconfigdlg.ui:59
+#, kde-format
+msgid "&Turn off computer"
+msgstr "ਕੰਪਿਊਟਰ ਬੰਦ ਕਰੋ(&T)"
+
+#. i18n: ectx: property (text), widget (QRadioButton, rebootRadio)
+#: smserverconfigdlg.ui:66
+#, kde-format
+msgid "&Restart computer"
+msgstr "ਕੰਪਿਊਟਰ ਮੁੜ ਚਾਲੂ ਕਰੋ(&R)"
+
+#. i18n: ectx: property (whatsThis), widget (QGroupBox, loginGroup)
+#: smserverconfigdlg.ui:80
+#, kde-format
+msgid ""
+"<ul>\n"
+"<li><b>Restore previous session:</b> Will save all applications running on "
+"exit and restore them when they next start up</li>\n"
+"<li><b>Restore manually saved session: </b> Allows the session to be saved "
+"at any time via \"Save Session\" in the K-Menu. This means the currently "
+"started applications will reappear when they next start up.</li>\n"
+"<li><b>Start with an empty session:</b> Do not save anything. Will come up "
+"with an empty desktop on next start.</li>\n"
+"</ul>"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, loginGroup)
+#: smserverconfigdlg.ui:83
+#, kde-format
+msgid "On Login"
+msgstr "ਲਾਗਇਨ ਸਮੇਂ"
+
+#. i18n: ectx: property (text), widget (QRadioButton, previousSessionRadio)
+#: smserverconfigdlg.ui:89
+#, kde-format
+msgid "Restore &previous session"
+msgstr "ਪਿਛਲਾ ਸ਼ੈਸ਼ਨ ਮੁੜ-ਸਟੋਰ ਕਰੋ(&p)"
+
+#. i18n: ectx: property (text), widget (QRadioButton, savedSessionRadio)
+#: smserverconfigdlg.ui:96
+#, kde-format
+msgid "Restore &manually saved session"
+msgstr "ਖੁਦ ਸੰਭਾਲਿਆ ਸ਼ੈਸ਼ਨ ਮੁੜ-ਸਟੋਰ ਕਰੋ(&m)"
+
+#. i18n: ectx: property (text), widget (QRadioButton, emptySessionRadio)
+#: smserverconfigdlg.ui:103
+#, kde-format
+msgid "Start with an empty &session"
+msgstr "ਇੱਕ ਖਾਲੀ ਸ਼ੈਸ਼ਨ ਨਾਲ ਸ਼ੁਰੂ ਕਰੋ(&s) "
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: smserverconfigdlg.ui:110
+#, kde-format
+msgid "Applications to be e&xcluded from sessions:"
+msgstr "ਸ਼ੈਸ਼ਨ ਵਿੱਚੋਂ ਕੱਢਣ ਵਾਲੇ ਐਪਲੀਕੇਸ਼ਨ(&x):"
+
+#. i18n: ectx: property (whatsThis), widget (QLineEdit, excludeLineedit)
+#: smserverconfigdlg.ui:123
+#, kde-format
+msgid ""
+"Here you can enter a colon or comma separated list of applications that "
+"should not be saved in sessions, and therefore will not be started when "
+"restoring a session. For example 'xterm:konsole' or 'xterm,konsole'."
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, firmwareSetupBox)
+#: smserverconfigdlg.ui:133
+#, kde-format
+msgid "Firmware Setup"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, firmwareSetupCheck)
+#: smserverconfigdlg.ui:146
+#, kde-format
+msgid ""
+"When the computer is restarted the next time, enter firmware setup screen (e."
+"g. UEFI or BIOS setup)"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, firmwareSetupCheck)
+#: smserverconfigdlg.ui:149
+#, kde-format
+msgid "Enter firmware setup on next restart"
+msgstr ""

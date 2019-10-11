@@ -1,0 +1,90 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# Tamas Szanto <tszanto@interware.hu>, 2001.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: KDE 4.1\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"PO-Revision-Date: 2008-06-03 11:11+0100\n"
+"Last-Translator: Tamas Szanto <tszanto@interware.hu>\n"
+"Language-Team: Hungarian <kde-lista@sophia.jpte.hu>\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
+
+#: launchfeedback.cpp:40
+#, kde-format
+msgid "Configure application launch feedback"
+msgstr ""
+
+#: package/contents/ui/main.qml:28
+#, kde-format
+msgid "Launch Feedback"
+msgstr ""
+
+#: package/contents/ui/main.qml:60
+#, fuzzy, kde-format
+#| msgid "Bus&y Cursor"
+msgid "Cursor:"
+msgstr "A 'homokóra' ik&on"
+
+#: package/contents/ui/main.qml:61
+#, kde-format
+msgid "No Feedback"
+msgstr ""
+
+#: package/contents/ui/main.qml:69
+#, kde-format
+msgid "Static"
+msgstr ""
+
+#: package/contents/ui/main.qml:77
+#, fuzzy, kde-format
+#| msgid "Blinking Cursor"
+msgid "Blinking"
+msgstr "Villogó egérmutató"
+
+#: package/contents/ui/main.qml:85
+#, fuzzy, kde-format
+#| msgid "Bouncing Cursor"
+msgid "Bouncing"
+msgstr "Ugráló egérmutató"
+
+#: package/contents/ui/main.qml:93
+#, kde-format
+msgid "Task Manager:"
+msgstr ""
+
+#: package/contents/ui/main.qml:95
+#, fuzzy, kde-format
+#| msgid "Enable &taskbar notification"
+msgid "Enable animation"
+msgstr "Visszajelzés a &feladatlistában"
+
+#: package/contents/ui/main.qml:104
+#, fuzzy, kde-format
+#| msgid "&Startup indication timeout:"
+msgid "Stop animation after:"
+msgstr "A v&isszajelzés maximális időtartama:"
+
+#: package/contents/ui/main.qml:113
+#, fuzzy, kde-format
+#| msgid " sec"
+msgid "%1 sec"
+msgid_plural "%1 secs"
+msgstr[0] " másodperc"
+msgstr[1] " másodperc"

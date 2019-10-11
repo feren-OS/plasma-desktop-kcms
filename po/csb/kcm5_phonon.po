@@ -1,0 +1,286 @@
+# translation of kcm_phonon.po to Kashubian
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Mark Kwidzińsczi <mark@linuxcsb.org>, 2007, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcm_phonon\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"PO-Revision-Date: 2008-12-10 21:35+0100\n"
+"Last-Translator: Mark Kwidzińsczi <mark@linuxcsb.org>\n"
+"Language-Team: Kashubian <i18n-csb@linuxcsb.org>\n"
+"Language: csb\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 0.2\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2)\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Mark Kwidzińsczi"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "mark@linuxcsb.org"
+
+#: backendselection.cpp:74
+#, kde-format
+msgctxt "@info User changed Phonon backend"
+msgid "To apply the backend change you will have to log out and back in again."
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QListWidget, m_select)
+#. i18n: ectx: property (whatsThis), widget (QListWidget, m_select)
+#: backendselection.ui:38 backendselection.ui:41
+#, kde-format
+msgid ""
+"A list of Phonon Backends found on your system.  The order here determines "
+"the order Phonon will use them in."
+msgstr ""
+"Lësta programów òbsłëgùjącëch ùżëwónëch przez Phonon.  Pòsobnica tuwò "
+"òdpòwiadô ti, w jaczi Phonon bãdze ji brëkòwôł."
+
+#. i18n: ectx: property (text), widget (QToolButton, m_up)
+#. i18n: ectx: property (text), widget (QToolButton, preferButton)
+#: backendselection.ui:57 devicepreference.ui:190
+#, kde-format
+msgid "Prefer"
+msgstr "W górã"
+
+#. i18n: ectx: property (text), widget (QToolButton, m_down)
+#. i18n: ectx: property (text), widget (QToolButton, deferButton)
+#: backendselection.ui:70 devicepreference.ui:206
+#, kde-format
+msgid "Defer"
+msgstr "W dół"
+
+#: devicepreference.cpp:92
+#, kde-format
+msgid "Audio Playback"
+msgstr ""
+
+#: devicepreference.cpp:106
+#, kde-format
+msgid "Audio Recording"
+msgstr ""
+
+#: devicepreference.cpp:109
+#, kde-format
+msgid "Video Recording"
+msgstr ""
+
+#: devicepreference.cpp:112
+#, kde-format
+msgid "Invalid"
+msgstr ""
+
+#: devicepreference.cpp:152
+#, fuzzy, kde-format
+#| msgid "prefer the selected device"
+msgid "Test the selected device"
+msgstr "wëbierzë naznaczoné ùrządzenié"
+
+#: devicepreference.cpp:176 devicepreference.cpp:183 devicepreference.cpp:190
+#, kde-format
+msgid ""
+"Defines the default ordering of devices which can be overridden by "
+"individual categories."
+msgstr ""
+"Definiëjë sztandardową pòsobnicã ùrządzeniów, jakô mòże òstac nadpisónô "
+"przez ze swòji kategòrëji."
+
+#: devicepreference.cpp:306
+#, fuzzy, kde-format
+#| msgid "Default Capture Device Preference"
+msgid "Default Audio Playback Device Preference"
+msgstr "Preferowóné ùrządzenié do nagrëwaniô"
+
+#: devicepreference.cpp:309
+#, fuzzy, kde-format
+#| msgid "Default Capture Device Preference"
+msgid "Default Audio Recording Device Preference"
+msgstr "Preferowóné ùrządzenié do nagrëwaniô"
+
+#: devicepreference.cpp:312
+#, fuzzy, kde-format
+#| msgid "Default Capture Device Preference"
+msgid "Default Video Recording Device Preference"
+msgstr "Preferowóné ùrządzenié do nagrëwaniô"
+
+#: devicepreference.cpp:319
+#, fuzzy, kde-format
+#| msgid "Capture Device Preference for the '%1' Category"
+msgid "Audio Playback Device Preference for the '%1' Category"
+msgstr "Preferowóné ùrządzenié nagrëwaniô dlô kategòrëji '%1'"
+
+#: devicepreference.cpp:323
+#, fuzzy, kde-format
+#| msgid "Capture Device Preference for the '%1' Category"
+msgid "Audio Recording Device Preference for the '%1' Category"
+msgstr "Preferowóné ùrządzenié nagrëwaniô dlô kategòrëji '%1'"
+
+#: devicepreference.cpp:327
+#, fuzzy, kde-format
+#| msgid "Capture Device Preference for the '%1' Category"
+msgid "Video Recording Device Preference for the '%1' Category "
+msgstr "Preferowóné ùrządzenié nagrëwaniô dlô kategòrëji '%1'"
+
+#: devicepreference.cpp:752
+#, fuzzy, kde-format
+#| msgid ""
+#| "Apply the currently shown device preference list to the following other "
+#| "audio output categories:"
+msgid ""
+"Apply the currently shown device preference list to the following other "
+"audio playback categories:"
+msgstr ""
+"Ùzëjë tã wëskrzrnioną lëstã preferencëji ùrządzeniów dlô nôslédnëch "
+"kategòrëjów wińdzeniô audio:"
+
+#: devicepreference.cpp:765 devicepreference.cpp:771
+#, kde-format
+msgid "Default/Unspecified Category"
+msgstr "Sztandardowé/Niésprecizowónô kategòrëjô"
+
+#: devicepreference.cpp:869
+#, fuzzy, kde-format
+#| msgid "prefer the selected device"
+msgid "Failed to set the selected audio output device"
+msgstr "wëbierzë naznaczoné ùrządzenié"
+
+#: devicepreference.cpp:899
+#, kde-format
+msgid "Your backend may not support audio recording"
+msgstr ""
+
+#: devicepreference.cpp:920
+#, kde-format
+msgid "Your backend may not support video recording"
+msgstr ""
+
+#: devicepreference.cpp:930
+#, kde-format
+msgid "Testing %1"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QTreeView, categoryTree)
+#. i18n: ectx: property (whatsThis), widget (QTreeView, categoryTree)
+#: devicepreference.ui:29 devicepreference.ui:32
+#, fuzzy, kde-format
+#| msgid ""
+#| "Various categories of outputs.  For each category you may choose what "
+#| "device you wish to output to."
+msgid ""
+"Various categories of media use cases.  For each category, you may choose "
+"what device you prefer to be used by the Phonon applications."
+msgstr ""
+"Wszelejaczé kategòrëje wińdzeniów.  W kòżdi kategòrëji mòże wëbrac "
+"ùrządzenié wińdzenia."
+
+#. i18n: ectx: property (text), widget (QCheckBox, showAdvancedDevicesCheckBox)
+#: devicepreference.ui:47
+#, kde-format
+msgid "Show advanced devices"
+msgstr "Wëskrzëni awansowóné ùrzadzenia"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, applyPreferencesButton)
+#. i18n: ectx: property (whatsThis), widget (QPushButton, applyPreferencesButton)
+#: devicepreference.ui:77 devicepreference.ui:80
+#, fuzzy, kde-format
+#| msgid ""
+#| "Apply the currently shown device preference list to the following other "
+#| "audio output categories:"
+msgid "Use the currently shown device list for more categories."
+msgstr ""
+"Ùzëjë tã wëskrzrnioną lëstã preferencëji ùrządzeniów dlô nôslédnëch "
+"kategòrëjów wińdzeniô audio:"
+
+#. i18n: ectx: property (text), widget (QPushButton, applyPreferencesButton)
+#: devicepreference.ui:83
+#, kde-format
+msgid "Apply Device List To..."
+msgstr "Ùżëjë lëstã ùrządzeniów na..."
+
+#. i18n: ectx: property (toolTip), widget (QTreeView, deviceList)
+#: devicepreference.ui:113
+#, fuzzy, kde-format
+#| msgid ""
+#| "Audio Outputs found on your system.  Choose the device that you wish "
+#| "sound to come out of."
+msgid ""
+"Devices found on your system, suitable for the selected category.  Choose "
+"the device that you wish to be used by the applications."
+msgstr ""
+"Wińdzenia aùdio nalazłé w systemie.  Wëbierzë ùrządzenié, z jaczégò mô "
+"wëchòdzëc zwãk."
+
+#. i18n: ectx: property (whatsThis), widget (QTreeView, deviceList)
+#: devicepreference.ui:116
+#, fuzzy, kde-format
+#| msgid ""
+#| "The order determines the preference of the output devices. If for some "
+#| "reason the first device cannot be used Phonon will try to use the second, "
+#| "and\n"
+#| "so on."
+msgid ""
+"The order determines the preference of the devices. If for some reason the "
+"first device cannot be used Phonon will try to use the second, and so on."
+msgstr ""
+"Pòsobnica òpisëje preferencëje tikające sã wińdzeniów aùdio. Jeżlë z "
+"jaczichs przëczënów ni mòże bëc brëkòwóné pierszé ùrządzenié na lësce, "
+"Phonon spróbùje drëdżegò, ë \n"
+"tak dali."
+
+#. i18n: ectx: property (text), widget (QToolButton, testPlaybackButton)
+#: devicepreference.ui:171
+#, kde-format
+msgid "Test"
+msgstr "Test"
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, preferButton)
+#: devicepreference.ui:187
+#, kde-format
+msgid "prefer the selected device"
+msgstr "wëbierzë naznaczoné ùrządzenié"
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, deferButton)
+#: devicepreference.ui:203
+#, kde-format
+msgid "no preference for the selected device"
+msgstr "felënk preferencëji wëbrónegò ùrządzeniô"
+
+#: main.cpp:40
+#, kde-format
+msgid "Phonon Configuration Module"
+msgstr "Phonon: kònfigùracëjny mòduł"
+
+#: main.cpp:42
+#, kde-format
+msgid "Copyright 2006 Matthias Kretz"
+msgstr "Copyright 2006 Matthias Kretz"
+
+#: main.cpp:43
+#, kde-format
+msgid "Matthias Kretz"
+msgstr "Matthias Kretz"
+
+#: main.cpp:44
+#, kde-format
+msgid "Colin Guthrie"
+msgstr ""
+
+#: main.cpp:55
+#, kde-format
+msgid "Device Preference"
+msgstr "Preferowóné ùrządzenia"
+
+#: main.cpp:57
+#, kde-format
+msgid "Backend"
+msgstr "Òbsłëga"

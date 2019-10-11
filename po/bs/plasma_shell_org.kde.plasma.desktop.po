@@ -1,0 +1,335 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"PO-Revision-Date: 2014-12-28 11:53+0000\n"
+"Last-Translator: Ajla Alic <aalic2@etf.unsa.ba>\n"
+"Language-Team: bosanski <bs@li.org>\n"
+"Language: bs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2014-12-29 06:15+0000\n"
+"X-Generator: Launchpad (build 17286)\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+
+#: contents/activitymanager/ActivityItem.qml:206
+msgid "Currently being used"
+msgstr ""
+
+#: contents/activitymanager/ActivityItem.qml:284
+msgid "Configure"
+msgstr ""
+
+#: contents/activitymanager/ActivityItem.qml:300
+#, fuzzy
+#| msgid "Stopped activities:"
+msgid "Stop activity"
+msgstr "Stopirane aktivnosti:"
+
+#: contents/activitymanager/ActivityList.qml:155
+msgid "Stopped activities:"
+msgstr "Stopirane aktivnosti:"
+
+#: contents/activitymanager/ActivityManager.qml:140
+msgid "Create activity..."
+msgstr "Kreiraj aktivnost..."
+
+#: contents/activitymanager/Heading.qml:70
+msgid "Activities"
+msgstr "Aktivnosti"
+
+#: contents/activitymanager/Heading.qml:85
+#: contents/explorer/WidgetExplorer.qml:249
+msgid "Search..."
+msgstr "Traži..."
+
+#: contents/activitymanager/StoppedActivityItem.qml:146
+#, fuzzy
+#| msgid "Create activity..."
+msgid "Configure activity"
+msgstr "Kreiraj aktivnost..."
+
+#: contents/activitymanager/StoppedActivityItem.qml:161
+msgid "Delete"
+msgstr "Obriši"
+
+#: contents/configuration/AppletConfiguration.qml:53
+#, fuzzy
+#| msgid "Keyboard shortcuts"
+msgid "Keyboard Shortcuts"
+msgstr "Prečice na tastaturi"
+
+#: contents/configuration/AppletConfiguration.qml:111
+msgid "Apply Settings"
+msgstr "Primijeni postavke"
+
+#: contents/configuration/AppletConfiguration.qml:112
+msgid ""
+"The settings of the current module have changed. Do you want to apply the "
+"changes or discard them?"
+msgstr ""
+"Postavke trenutnog modula su promijenjene. Da li želite da primjenite "
+"promjene ili da ih odbacite?"
+
+#: contents/configuration/AppletConfiguration.qml:407
+msgid "OK"
+msgstr "OK"
+
+#: contents/configuration/AppletConfiguration.qml:414
+msgid "Apply"
+msgstr "Primjeni"
+
+#: contents/configuration/AppletConfiguration.qml:420
+#: contents/explorer/AppletAlternatives.qml:185
+msgid "Cancel"
+msgstr "Otkaži"
+
+#: contents/configuration/ConfigurationContainmentActions.qml:31
+msgid "Left-Button"
+msgstr "Lijevo dugme"
+
+#: contents/configuration/ConfigurationContainmentActions.qml:32
+msgid "Right-Button"
+msgstr "Desno dugme"
+
+#: contents/configuration/ConfigurationContainmentActions.qml:33
+msgid "Middle-Button"
+msgstr "Srednje dugme"
+
+#: contents/configuration/ConfigurationContainmentActions.qml:34
+#, fuzzy
+#| msgid "Left-Button"
+msgid "Back-Button"
+msgstr "Lijevo dugme"
+
+#: contents/configuration/ConfigurationContainmentActions.qml:35
+msgid "Forward-Button"
+msgstr ""
+
+#: contents/configuration/ConfigurationContainmentActions.qml:37
+msgid "Vertical-Scroll"
+msgstr "Uspravno klizanje"
+
+#: contents/configuration/ConfigurationContainmentActions.qml:38
+msgid "Horizontal-Scroll"
+msgstr "Vodoravno klizanje"
+
+#: contents/configuration/ConfigurationContainmentActions.qml:40
+msgid "Shift"
+msgstr "Pomjeraj"
+
+#: contents/configuration/ConfigurationContainmentActions.qml:41
+msgid "Ctrl"
+msgstr "Ctrl"
+
+#: contents/configuration/ConfigurationContainmentActions.qml:42
+msgid "Alt"
+msgstr "Alt"
+
+#: contents/configuration/ConfigurationContainmentActions.qml:43
+msgid "Meta"
+msgstr "Meta"
+
+#: contents/configuration/ConfigurationContainmentActions.qml:83
+msgctxt "Concatenation sign for shortcuts, e.g. Ctrl+Shift"
+msgid "+"
+msgstr ""
+
+#: contents/configuration/ConfigurationContainmentActions.qml:163
+#: contents/configuration/MouseEventInputButton.qml:27
+msgid "Add Action"
+msgstr "Dodaj akciju"
+
+#: contents/configuration/ConfigurationContainmentAppearance.qml:75
+msgid "Layout cannot be changed while widgets are locked"
+msgstr ""
+
+#: contents/configuration/ConfigurationContainmentAppearance.qml:90
+msgid "Layout:"
+msgstr "Raspored:"
+
+#: contents/configuration/ConfigurationContainmentAppearance.qml:105
+msgid "Wallpaper Type:"
+msgstr "Tip pozadine:"
+
+#: contents/configuration/ConfigurationContainmentAppearance.qml:122
+msgid "Get New Plugins..."
+msgstr ""
+
+#: contents/configuration/ConfigurationContainmentAppearance.qml:140
+msgid "Layout changes must be applied before other changes can be made"
+msgstr ""
+
+#: contents/configuration/ConfigurationContainmentAppearance.qml:146
+#, fuzzy
+#| msgid "Apply"
+msgid "Apply now"
+msgstr "Primjeni"
+
+#: contents/configuration/ConfigurationShortcuts.qml:39
+msgid "This shortcut will activate the applet as though it had been clicked."
+msgstr ""
+
+#: contents/configuration/ContainmentConfiguration.qml:43
+msgid "Wallpaper"
+msgstr "Pozadina"
+
+#: contents/configuration/ContainmentConfiguration.qml:48
+msgid "Mouse Actions"
+msgstr "Radnje mišem"
+
+#: contents/configuration/MouseEventInputButton.qml:34
+msgid "Input Here"
+msgstr "Unesi ovdje"
+
+#: contents/configuration/panelconfiguration/EdgeHandle.qml:28
+msgid "Screen Edge"
+msgstr "Ivica ekrana"
+
+#: contents/configuration/panelconfiguration/EdgeHandle.qml:40
+msgid "Click and drag the button to a screen edge to move the panel there."
+msgstr ""
+
+#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:43
+msgid "Panel Alignment"
+msgstr "Ravnanje panela"
+
+#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:53
+msgid "Top"
+msgstr ""
+
+#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:53
+msgid "Left"
+msgstr "Lijevo"
+
+#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:64
+msgid "Center"
+msgstr "Centar"
+
+#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:75
+msgid "Bottom"
+msgstr ""
+
+#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:75
+msgid "Right"
+msgstr "Desno"
+
+#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:85
+msgid "Visibility"
+msgstr "Vidljivost"
+
+#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:93
+msgid "Always Visible"
+msgstr "Uvijek vidljivo"
+
+#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:101
+msgid "Auto Hide"
+msgstr "Automatsko sakrivanje"
+
+#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:109
+msgid "Windows Can Cover"
+msgstr "Prozor može pokriti"
+
+#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:117
+msgid "Windows Go Below"
+msgstr "Prozor ide ispod"
+
+#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:126
+msgid "Maximize Panel"
+msgstr "Uvećaj panel"
+
+#: contents/configuration/panelconfiguration/SizeHandle.qml:28
+msgid "Width"
+msgstr "Širina"
+
+#: contents/configuration/panelconfiguration/SizeHandle.qml:28
+msgid "Height"
+msgstr "Visina"
+
+#: contents/configuration/panelconfiguration/SizeHandle.qml:54
+msgid "Click and drag the button to resize the panel."
+msgstr ""
+
+#: contents/configuration/panelconfiguration/ToolBar.qml:33
+msgid "Lock Widgets"
+msgstr "Zaključaj grafičku kontrolu"
+
+#: contents/configuration/panelconfiguration/ToolBar.qml:34
+msgid "Remove Panel"
+msgstr "Ukloni panel"
+
+#: contents/configuration/panelconfiguration/ToolBar.qml:35
+msgid "Add Widgets..."
+msgstr "Dodaj grafičke kontrole..."
+
+#: contents/configuration/panelconfiguration/ToolBar.qml:36
+msgid "Add Spacer"
+msgstr "Dodaj razmaknicu"
+
+#: contents/configuration/panelconfiguration/ToolBar.qml:37
+msgid "More Settings..."
+msgstr "Više podešavanja..."
+
+#: contents/configuration/panelconfiguration/ToolBar.qml:196
+msgid "Close"
+msgstr "ZatvorI"
+
+#: contents/explorer/AppletAlternatives.qml:83
+#, fuzzy
+#| msgid "Alternatives"
+msgid "Alternative Widgets"
+msgstr "Alternative"
+
+#: contents/explorer/AppletAlternatives.qml:174
+msgid "Switch"
+msgstr "Prekidač"
+
+#: contents/explorer/AppletDelegate.qml:179
+#, fuzzy
+#| msgid "Uninstall"
+msgid "Undo uninstall"
+msgstr "Deinstaliraj"
+
+#: contents/explorer/AppletDelegate.qml:180
+#, fuzzy
+#| msgid "Uninstall"
+msgid "Uninstall widget"
+msgstr "Deinstaliraj"
+
+#: contents/explorer/Tooltip.qml:106
+msgid "License:"
+msgstr "Dozvola:"
+
+#: contents/explorer/Tooltip.qml:115
+msgid "Author:"
+msgstr "Autor:"
+
+#: contents/explorer/Tooltip.qml:123
+msgid "Email:"
+msgstr "Email:"
+
+#: contents/explorer/Tooltip.qml:142
+msgid "Uninstall"
+msgstr "Deinstaliraj"
+
+#: contents/explorer/WidgetExplorer.qml:216
+msgid "Widgets"
+msgstr "Grafičke kontrole"
+
+#: contents/explorer/WidgetExplorer.qml:224
+msgid "Categories"
+msgstr "Kategorije"
+
+#: contents/explorer/WidgetExplorer.qml:355
+#, fuzzy
+#| msgid "Get new widgets"
+msgid "Get New Widgets..."
+msgstr "Dobavi nove grafičke elemente"

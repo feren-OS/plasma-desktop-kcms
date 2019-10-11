@@ -1,0 +1,240 @@
+# Finnish messages for kcm_device_automounter.
+# Copyright © 2010 This_file_is_part_of_KDE
+# This file is distributed under the same license as the kdebase package.
+# Tommi Nieminen <translator@legisign.org>, 2009, 2010.
+# Jorma Karvonen <karvonen.jorma@gmail.com>, 2010.
+# Lasse Liehu <lasse.liehu@gmail.com>, 2011, 2015.
+#
+# KDE Finnish translation sprint participants:
+# Author: Artnay
+msgid ""
+msgstr ""
+"Project-Id-Version: kcm_device_automounter\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"PO-Revision-Date: 2015-08-22 10:48+0200\n"
+"Last-Translator: Lasse Liehu <lasse.liehu@gmail.com>\n"
+"Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-POT-Import-Date: 2012-12-01 22:22:10+0000\n"
+"X-Generator: Lokalize 2.0\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Tommi Nieminen,Jorma Karvonen"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "translator@legisign.org,karvonen.jorma@gmail.com"
+
+#: DeviceAutomounterKCM.cpp:46
+#, kde-format
+msgid "Device Automounter"
+msgstr "Laitteen automaattiliittäjä"
+
+#: DeviceAutomounterKCM.cpp:50
+#, kde-format
+msgid "(c) 2009 Trever Fischer, (c) 2015 Kai Uwe Broulik"
+msgstr "© 2009 Trever Fischer, © 2015 Kai Uwe Broulik"
+
+#: DeviceAutomounterKCM.cpp:51
+#, kde-format
+msgid "Trever Fischer"
+msgstr "Trever Fischer"
+
+#: DeviceAutomounterKCM.cpp:51
+#, kde-format
+msgid "Original Author"
+msgstr "Alkuperäinen tekijä"
+
+#: DeviceAutomounterKCM.cpp:52
+#, kde-format
+msgid "Kai Uwe Broulik"
+msgstr "Kai Uwe Broulik"
+
+#: DeviceAutomounterKCM.cpp:52
+#, kde-format
+msgid "Plasma 5 Port"
+msgstr "Plasma 5 -sovitus"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, automountEnabled)
+#: DeviceAutomounterKCM.ui:17
+#, kde-format
+msgid ""
+"When this is unchecked, no device automounting of any kind will happen, "
+"regardless of anything selected in the \"Device Overrides\" section."
+msgstr ""
+"Jos tästä poistetaan valinta, minkäänlaista laitteiden automaattiliittämistä "
+"ei tapahdu, riippumatta Laitteiden erityiskohtelu -osion määrityksistä."
+
+#. i18n: ectx: property (text), widget (QCheckBox, automountEnabled)
+#: DeviceAutomounterKCM.ui:20
+#, kde-format
+msgid "Enable automatic mounting of removable media"
+msgstr "Liitä siirrettäviä laitteita automaattisesti"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, automountUnknownDevices)
+#: DeviceAutomounterKCM.ui:45
+#, kde-format
+msgid ""
+"When this is checked, only remembered devices will be automatically mounted. "
+"A device is 'remembered' if it has ever been mounted before. For instance, "
+"plugging in a USB media player to charge is not sufficient to 'remember' it "
+"- if the files are not accessed, it will not be automatically mounted the "
+"next time it is seen. Once they have been accessed, however, the device's "
+"contents will be automatically made available to the system."
+msgstr ""
+"Kun tämä on valittu, vain muistetut laitteet liitetään automaattisesti. "
+"Laite ”muistetaan”, jos se on liitetty aiemmin. Esim. USB-mediasoittimen "
+"latautumaan kytkeminen ei riitä. Ellei laitteen tiedostoihin pääse käsiksi, "
+"KDE ei enää liitä soitinta seuraavalla kertaa automaattisesti. Jos taas "
+"tiedostoihin pääsee käsiksi, laitteen sisältö tuodaan käytettäväksi "
+"automaattisesti."
+
+#. i18n: ectx: property (text), widget (QCheckBox, automountUnknownDevices)
+#: DeviceAutomounterKCM.ui:48
+#, kde-format
+msgid ""
+"Only automatically mount removable media that has been manually mounted "
+"before"
+msgstr ""
+"Liitä automaattisesti vain aiemmin käsin liitetyt siirrettävät laitteet"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, automountOnLogin)
+#: DeviceAutomounterKCM.ui:55
+#, kde-format
+msgid ""
+"If any removable storage devices are connected to your system when you login "
+"to your desktop, their contents will automatically be made available to your "
+"system for other programs to read."
+msgstr ""
+"Jos siirrettävien tallennuslaitteita on kytkettynä järjestelmään "
+"kirjautuessasi sisään, laitteen sisältö tuodaan automaattisesti "
+"järjestelmäsi käyttöön ja muiden ohjelmien luettavaksi."
+
+#. i18n: ectx: property (text), widget (QCheckBox, automountOnLogin)
+#: DeviceAutomounterKCM.ui:58
+#, kde-format
+msgid "Mount all removable media at login"
+msgstr "Liitä kaikki siirrettävät laitteet kirjauduttaessa"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, automountOnPlugin)
+#: DeviceAutomounterKCM.ui:65
+#, kde-format
+msgid ""
+"When this is checked, the contents of any storage device will automatically "
+"be made available to the system when it is plugged in or attached."
+msgstr ""
+"Kun tämä on valittu, kaikkien tallennuslaitteiden sisällöt tuodaan "
+"automaattisesti järjestelmän käyttöön niitä kytkettäessä."
+
+#. i18n: ectx: property (text), widget (QCheckBox, automountOnPlugin)
+#: DeviceAutomounterKCM.ui:68
+#, kde-format
+msgid "Automatically mount removable media when attached"
+msgstr "Liitä automaattisesti siirrettävät laitteet kytkettäessä"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: DeviceAutomounterKCM.ui:90
+#, kde-format
+msgid "Device Overrides"
+msgstr "Laitteiden erityiskohtelu"
+
+#. i18n: ectx: property (whatsThis), widget (QTreeView, deviceView)
+#: DeviceAutomounterKCM.ui:98
+#, kde-format
+msgid ""
+"This list contains the storage devices known to the system. If \"Automount "
+"on Login\" is checked, the device will be automatically mounted even though "
+"\"Mount all removable media at login\" is unchecked. The same applies for "
+"\"Automount on Attach\".\n"
+"\n"
+"If \"Enable automatic mounting of removable media\" is unchecked, the "
+"overrides do not apply and no devices will be automatically mounted."
+msgstr ""
+"Tässä luetellaan järjestelmän tuntemat tallennuslaitteet. Jos ”Liitä "
+"automaattisesti kirjauduttaessa” on valittu, laite liitetään, vaikka ”Liitä "
+"kaikki siirrettävät laitteet kirjauduttaessa” oli valitsematta. Sama pätee "
+"kohtaan ”Liitä automaattisesti kytkettäessä”.\n"
+"\n"
+"Jos ”Liitä siirrettäviä laitteita automaattisesti” on valitsematta, "
+"erityiskohtelut eivät ole voimassa eikä laitteita koskaan liitetä "
+"automaattisesti."
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, forgetDevice)
+#: DeviceAutomounterKCM.ui:137
+#, kde-format
+msgid ""
+"Clicking this button causes the selected devices to be 'forgotten'. This is "
+"only useful if \"Only automatically mount removable media that has been "
+"manually mounted before\" is checked. Once a device is forgotten and the "
+"system is set to only automatically mount familiar devices, the device will "
+"not be automatically mounted."
+msgstr ""
+"Napsauttamalla tätä painiketta valitut laitteet ”unohdetaan”. Tästä on "
+"hyötyä vain, jos ”Liitä automaattisesti vain aiemmin käsin liitetyt "
+"siirrettävät laitteet” on valittu. Kun laite on unohdettu ja järjestelmä "
+"asetettu liittämään automaattisesti vain tuntemansa laitteet, tätä laitetta "
+"ei enää liitetä automaattisesti."
+
+#. i18n: ectx: property (text), widget (QPushButton, forgetDevice)
+#: DeviceAutomounterKCM.ui:140
+#, kde-format
+msgid "Forget Device"
+msgstr "Unohda laite"
+
+#: DeviceModel.cpp:62
+#, kde-format
+msgid "Device"
+msgstr "Laite"
+
+#: DeviceModel.cpp:63
+#, kde-format
+msgid "Automount on Login"
+msgstr "Liitä automaattisesti kirjauduttaessa"
+
+#: DeviceModel.cpp:64
+#, kde-format
+msgid "Automount on Attach"
+msgstr "Liitä automaattisesti kytkettäessä"
+
+#: DeviceModel.cpp:235 DeviceModel.cpp:274
+#, kde-format
+msgid "UDI: %1"
+msgstr "UDI: %1"
+
+#: DeviceModel.cpp:245 DeviceModel.cpp:284
+#, kde-format
+msgid "This device will be automatically mounted at login."
+msgstr "Laite liitetään automaattisesti sisäänkirjauduttaessa."
+
+#: DeviceModel.cpp:246 DeviceModel.cpp:285
+#, kde-format
+msgid "This device will not be automatically mounted at login."
+msgstr "Laitetta ei liitetä automaattisesti sisäänkirjauduttaessa."
+
+#: DeviceModel.cpp:254 DeviceModel.cpp:293
+#, kde-format
+msgid "This device will be automatically mounted when attached."
+msgstr "Laite liitetään automaattisesti kytkettäessä."
+
+#: DeviceModel.cpp:255 DeviceModel.cpp:294
+#, kde-format
+msgid "This device will not be automatically mounted when attached."
+msgstr "Laitetta ei liitetä automaattisesti kytkettäessä."
+
+#: DeviceModel.cpp:301
+#, kde-format
+msgid "Attached Devices"
+msgstr "Kytketyt laitteet"
+
+#: DeviceModel.cpp:303
+#, kde-format
+msgid "Disconnected Devices"
+msgstr "Poistetut laitteet"

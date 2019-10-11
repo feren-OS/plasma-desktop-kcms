@@ -1,0 +1,110 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+# Shinjo Park <kde@peremen.name>, 2008, 2009, 2010, 2011, 2014, 2016, 2017, 2018, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kcm_desktopthemedetails\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"PO-Revision-Date: 2019-05-18 15:49+0200\n"
+"Last-Translator: Shinjo Park <kde@peremen.name>\n"
+"Language-Team: Korean <kde-kr@kde.org>\n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 18.12.3\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "박신조"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde@peremen.name"
+
+#: kcm.cpp:61
+#, kde-format
+msgid "Plasma Theme"
+msgstr "Plasma 테마"
+
+#: kcm.cpp:63
+#, kde-format
+msgid "David Rosca"
+msgstr "David Rosca"
+
+#: kcm.cpp:139
+#, kde-format
+msgid "Download New Plasma Themes"
+msgstr "새 Plasma 테마 다운로드"
+
+#: kcm.cpp:165
+#, kde-format
+msgid "Unable to create a temporary file."
+msgstr "임시 파일을 만들 수 없습니다."
+
+#: kcm.cpp:177
+#, kde-format
+msgid "Unable to download the theme: %1"
+msgstr "테마를 다운로드할 수 없음: %1"
+
+#: kcm.cpp:200
+#, kde-format
+msgid "Theme installed successfully."
+msgstr "테마가 설치되었습니다."
+
+#: kcm.cpp:203 kcm.cpp:211
+#, kde-format
+msgid "Theme installation failed."
+msgstr "테마 설치가 실패했습니다."
+
+#: kcm.cpp:360
+#, kde-format
+msgid "Removing theme failed: %1"
+msgstr "테마를 삭제할 수 없음: %1"
+
+#: package/contents/ui/main.qml:30
+#, fuzzy, kde-format
+#| msgid "This module lets you choose the Plasma theme."
+msgid "This module lets you choose the Plasma theme."
+msgstr "이 모듈에서 데스크톱 테마를 선택할 수 있습니다."
+
+#: package/contents/ui/main.qml:68
+#, kde-format
+msgid "Edit Theme..."
+msgstr "테마 편집..."
+
+#: package/contents/ui/main.qml:75
+#, kde-format
+msgid "Remove Theme"
+msgstr "테마 삭제"
+
+#: package/contents/ui/main.qml:82
+#, kde-format
+msgid "Restore Theme"
+msgstr "테마 복원"
+
+#: package/contents/ui/main.qml:120
+#, kde-format
+msgid "Install from File..."
+msgstr "파일에서 설치..."
+
+#: package/contents/ui/main.qml:126
+#, fuzzy, kde-format
+#| msgid "Get New Plasma Themes..."
+msgid "Get New Plasma Themes..."
+msgstr "새 테마 가져오기..."
+
+#: package/contents/ui/main.qml:138
+#, kde-format
+msgid "Open Theme"
+msgstr "테마 열기"
+
+#: package/contents/ui/main.qml:140
+#, kde-format
+msgid "Theme Files (*.zip *.tar.gz *.tar.bz2)"
+msgstr "테마 파일 (*.zip *.tar.gz *.tar.bz2)"

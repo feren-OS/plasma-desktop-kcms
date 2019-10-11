@@ -1,0 +1,208 @@
+# translation of kcmkonq.po to Persian
+# Nazanin Kazemi <kazemi@itland.ir>, 2006, 2007.
+# Tahereh Dadkhahfar <dadkhahfar@itland.ir>, 2006.
+# MaryamSadat Razavi <razavi@itland.ir>, 2006.
+# Nasim Daniarzadeh <daniarzadeh@itland.ir>, 2006.
+# Mohamad Reza Mirdamadi <mohi@linuxshop.ir>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmkonq\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"PO-Revision-Date: 2011-08-22 13:08+0430\n"
+"Last-Translator: Mohamad Reza Mirdamadi <mohi@linuxshop.ir>\n"
+"Language-Team: Farsi (Persian) <kde-i18n-doc@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.2\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: globalpaths.cpp:113
+#, kde-format
+msgid ""
+"<h1>Paths</h1>\n"
+"This module allows you to choose where in the filesystem the files on your "
+"desktop should be stored.\n"
+"Use the \"Whats This?\" (Shift+F1) to get help on specific options."
+msgstr ""
+"<h1>مسیرها</h1>\n"
+"این پیمانه به شما اجازه انتخاب جایی در سیستم پرونده، که پرونده‌های رومیزی شما "
+"باید آنجا ذخیره شوند را می‌دهد.\n"
+"برای کمک گرفتن در مورد گزینه‌های مشخص از «این چیست» (کلید تبدیل+F1) استفاده "
+"کنید."
+
+#: globalpaths.cpp:118
+#, kde-format
+msgid "Desktop path:"
+msgstr "مسیر رومیزی:‌"
+
+#: globalpaths.cpp:119
+#, kde-format
+msgid ""
+"This folder contains all the files which you see on your desktop. You can "
+"change the location of this folder if you want to, and the contents will "
+"move automatically to the new location as well."
+msgstr ""
+"این پوشه شامل همه پرونده‌هاست که بر روی رومیزی خود می‌بینید. می‌توانید محل این "
+"پوشه را در صورت تمایل تغییر داده، و محتویات هم به طور خودکار به محل جدید "
+"حرکت می‌کنند."
+
+#: globalpaths.cpp:124
+#, kde-format
+msgid "Autostart path:"
+msgstr "مسیر خودآغاز:‌"
+
+#: globalpaths.cpp:125
+#, fuzzy, kde-format
+#| msgid ""
+#| "This folder contains applications or links to applications (shortcuts) "
+#| "that you want to have started automatically whenever KDE starts. You can "
+#| "change the location of this folder if you want to, and the contents will "
+#| "move automatically to the new location as well."
+msgid ""
+"This folder contains applications or links to applications (shortcuts) that "
+"you want to have started automatically whenever the session starts. You can "
+"change the location of this folder if you want to, and the contents will "
+"move automatically to the new location as well."
+msgstr ""
+"این پوشه شامل کاربردها یا پیوند به کاربردهایی است (میانبرها) که می‌خواهید به "
+"طور خودکار هنگام آغاز KDE آغاز شده باشد. در صورت تمایل می‌توانید مسیر این  "
+"پوشه را تغییر دهید، و محتویات نیز به طور خودکار به محل جدید حرکت می‌کنند."
+
+#: globalpaths.cpp:131
+#, kde-format
+msgid "Documents path:"
+msgstr "مسیر اسناد:‌"
+
+#: globalpaths.cpp:132
+#, kde-format
+msgid ""
+"This folder will be used by default to load or save documents from or to."
+msgstr "این گزینه به طور پیش‌فرض برای بارگذاری یا ذخیره اسناد استفاده می‌شود."
+
+#: globalpaths.cpp:135
+#, kde-format
+msgid "Downloads path:"
+msgstr "مسیر بارگیری‌ها:‌"
+
+#: globalpaths.cpp:136
+#, kde-format
+msgid "This folder will be used by default to save your downloaded items."
+msgstr ""
+"این پوشه به طور پیش‌فرض برای ذخیره مواردی که بارگیری کرده‌اید استفاده می‌شود."
+
+#: globalpaths.cpp:139
+#, kde-format
+msgid "Movies path:"
+msgstr "مسیر فیلمها:"
+
+#: globalpaths.cpp:140
+#, kde-format
+msgid "This folder will be used by default to load or save movies from or to."
+msgstr ""
+"این گزینه به طور پیش‌فرض برای بازخوانی یا ذخیره فیلمهای شما استفاده می‌شود."
+
+#: globalpaths.cpp:143
+#, kde-format
+msgid "Pictures path:"
+msgstr "مسیر عکسها:‌"
+
+#: globalpaths.cpp:144
+#, kde-format
+msgid ""
+"This folder will be used by default to load or save pictures from or to."
+msgstr "این گزینه به طور پیش‌فرض برای بازخوانی یا ذخیره عکسها استفاده می‌شود."
+
+#: globalpaths.cpp:147
+#, kde-format
+msgid "Music path:"
+msgstr "مسیر موسیقی‌ها:‌"
+
+#: globalpaths.cpp:148
+#, kde-format
+msgid "This folder will be used by default to load or save music from or to."
+msgstr "این گزینه به طور پیش‌فرض برای بازخوانی یا ذخیره موسیقی‌ها استفاده می‌شود."
+
+#: globalpaths.cpp:277 globalpaths.cpp:295
+#, kde-format
+msgid "Autostart"
+msgstr "آغاز خودکار"
+
+#: globalpaths.cpp:281
+#, kde-format
+msgid "Desktop"
+msgstr "رومیزی"
+
+#: globalpaths.cpp:305
+#, kde-format
+msgid "Documents"
+msgstr "اسناد"
+
+#: globalpaths.cpp:308
+#, kde-format
+msgid "Downloads"
+msgstr "بارگیری‌ها‌"
+
+#: globalpaths.cpp:311
+#, kde-format
+msgid "Movies"
+msgstr "فیلم‌ها"
+
+#: globalpaths.cpp:314
+#, kde-format
+msgid "Pictures"
+msgstr "عکس‌ها"
+
+#: globalpaths.cpp:317
+#, kde-format
+msgid "Music"
+msgstr "موسیقی"
+
+#: globalpaths.cpp:376
+#, kde-format
+msgid ""
+"The path for '%1' has been changed.\n"
+"Do you want the files to be moved from '%2' to '%3'?"
+msgstr ""
+"مسیر «%1» تغییر یافته است.\n"
+"آیا می‌خواهید پرونده‌ها از «%2» به «%3» انتقال داده شوند؟"
+
+#: globalpaths.cpp:379
+#, kde-format
+msgctxt "Move files from old to new place"
+msgid "Move"
+msgstr "انتقال"
+
+#: globalpaths.cpp:380
+#, kde-format
+msgctxt "Use the new directory but do not move files"
+msgid "Do not Move"
+msgstr "منقل نشود"
+
+#: globalpaths.cpp:382
+#, kde-format
+msgid ""
+"The path for '%1' has been changed.\n"
+"Do you want to move the directory '%2' to '%3'?"
+msgstr ""
+"مسیر «%1» تغییر یافته است؛\n"
+"آیا می‌خواهید پرونده‌ها از «%2» به «%3» حرکت داده شوند؟"
+
+#: globalpaths.cpp:385
+#, kde-format
+msgctxt "Move the directory"
+msgid "Move"
+msgstr "انتقال"
+
+#: globalpaths.cpp:386
+#, kde-format
+msgctxt "Use the new directory but do not move anything"
+msgid "Do not Move"
+msgstr "منتقل نشود"
+
+#: globalpaths.cpp:390
+#, kde-format
+msgid "Confirmation Required"
+msgstr "نیاز به تأیید"

@@ -1,0 +1,205 @@
+# translation of kcmkonq.po to Slovenian
+# Translation of kcmkonq.po to Slovenian
+# SLOVENIAN TRANSLATION OF KCMKONQ.
+# $Id: kcm_desktoppaths.po 1550639 2019-08-30 07:08:12Z scripty $
+# $Source$
+#
+# Copyright (C) 2001, 2003, 2004, 2005, 2006 Free Software Foundation, Inc.
+# Roman Maurer <roman.maurer@amis.net>, 2001.
+# Gregor Rakar <gregor.rakar@kiss.si>, 2003, 2004, 2005.
+# Jure Repinc <jlp@holodeck1.com>, 2006, 2007, 2008, 2009.
+# Andrej Mernik <andrejm@ubuntu.si>, 2013, 2018.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmkonq\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"PO-Revision-Date: 2018-01-11 20:43+0100\n"
+"Last-Translator: Andrej Mernik <andrejm@ubuntu.si>\n"
+"Language-Team: Slovenian <lugos-slo@lugos.si>\n"
+"Language: sl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 2.0\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n"
+"%100==4 ? 3 : 0);\n"
+
+#: globalpaths.cpp:113
+#, kde-format
+msgid ""
+"<h1>Paths</h1>\n"
+"This module allows you to choose where in the filesystem the files on your "
+"desktop should be stored.\n"
+"Use the \"Whats This?\" (Shift+F1) to get help on specific options."
+msgstr ""
+"<h1>Poti</h1>\n"
+"Ta modul vam omogoča izbrati, kje v vašem datotečnem sistemu so shranjene "
+"datoteke na vašem namizju.\n"
+"Uporabite »Kaj je to?« (Shift+F1) za pomoč pri posameznih možnostih."
+
+#: globalpaths.cpp:118
+#, kde-format
+msgid "Desktop path:"
+msgstr "Pot do namizja:"
+
+#: globalpaths.cpp:119
+#, kde-format
+msgid ""
+"This folder contains all the files which you see on your desktop. You can "
+"change the location of this folder if you want to, and the contents will "
+"move automatically to the new location as well."
+msgstr ""
+"V tej mapi so vse datoteke, ki jih vidite na namizju. Če želite, lahko "
+"spremenite njeno mesto in tja se bo samodejno prestavila tudi vsebina."
+
+#: globalpaths.cpp:124
+#, kde-format
+msgid "Autostart path:"
+msgstr "Pot do samodejnega zagona:"
+
+#: globalpaths.cpp:125
+#, kde-format
+msgid ""
+"This folder contains applications or links to applications (shortcuts) that "
+"you want to have started automatically whenever the session starts. You can "
+"change the location of this folder if you want to, and the contents will "
+"move automatically to the new location as well."
+msgstr ""
+"V tej mapi so programi ali povezave do njih (bližnjice), ki se samodejno "
+"zaženejo vsakič, ko se zažene seja. Če želite, lahko spremenite njeno mesto "
+"in tja se bo samodejno prestavila tudi vsebina."
+
+#: globalpaths.cpp:131
+#, kde-format
+msgid "Documents path:"
+msgstr "Pot do dokumentov:"
+
+#: globalpaths.cpp:132
+#, kde-format
+msgid ""
+"This folder will be used by default to load or save documents from or to."
+msgstr "To bo privzeta mapa za nalaganje in shranjevanje dokumentov."
+
+#: globalpaths.cpp:135
+#, kde-format
+msgid "Downloads path:"
+msgstr "Pot do prejemov:"
+
+#: globalpaths.cpp:136
+#, kde-format
+msgid "This folder will be used by default to save your downloaded items."
+msgstr "To bo privzeta mapa za shranjevanje prejetih datotek."
+
+#: globalpaths.cpp:139
+#, kde-format
+msgid "Movies path:"
+msgstr "Pot do filmov:"
+
+#: globalpaths.cpp:140
+#, kde-format
+msgid "This folder will be used by default to load or save movies from or to."
+msgstr "To bo privzeta mapa za nalaganje in shranjevanje filmov."
+
+#: globalpaths.cpp:143
+#, kde-format
+msgid "Pictures path:"
+msgstr "Pot do slik:"
+
+#: globalpaths.cpp:144
+#, kde-format
+msgid ""
+"This folder will be used by default to load or save pictures from or to."
+msgstr "To bo privzeta mapa za nalaganje in shranjevanje slik."
+
+#: globalpaths.cpp:147
+#, kde-format
+msgid "Music path:"
+msgstr "Pot do glasbe:"
+
+#: globalpaths.cpp:148
+#, kde-format
+msgid "This folder will be used by default to load or save music from or to."
+msgstr "To bo privzeta mapa za nalaganje in shranjevanje glasbe."
+
+#: globalpaths.cpp:277 globalpaths.cpp:295
+#, kde-format
+msgid "Autostart"
+msgstr "Samodejni zagon"
+
+#: globalpaths.cpp:281
+#, kde-format
+msgid "Desktop"
+msgstr "Namizje"
+
+#: globalpaths.cpp:305
+#, kde-format
+msgid "Documents"
+msgstr "Dokumenti"
+
+#: globalpaths.cpp:308
+#, kde-format
+msgid "Downloads"
+msgstr "Prejemi"
+
+#: globalpaths.cpp:311
+#, kde-format
+msgid "Movies"
+msgstr "Filmi"
+
+#: globalpaths.cpp:314
+#, kde-format
+msgid "Pictures"
+msgstr "Slike"
+
+#: globalpaths.cpp:317
+#, kde-format
+msgid "Music"
+msgstr "Glasba"
+
+#: globalpaths.cpp:376
+#, kde-format
+msgid ""
+"The path for '%1' has been changed.\n"
+"Do you want the files to be moved from '%2' to '%3'?"
+msgstr ""
+"Pot za »%1« je bila spremenjena.\n"
+"Ali želite, da se datoteke iz »%2« premaknejo v »%3«?"
+
+#: globalpaths.cpp:379
+#, kde-format
+msgctxt "Move files from old to new place"
+msgid "Move"
+msgstr "Premakni"
+
+#: globalpaths.cpp:380
+#, kde-format
+msgctxt "Use the new directory but do not move files"
+msgid "Do not Move"
+msgstr "Ne premakni"
+
+#: globalpaths.cpp:382
+#, kde-format
+msgid ""
+"The path for '%1' has been changed.\n"
+"Do you want to move the directory '%2' to '%3'?"
+msgstr ""
+"Pot za »%1« je bila spremenjena.\n"
+"Ali želite, da se mapo iz »%2« premakne v »%3«?"
+
+#: globalpaths.cpp:385
+#, kde-format
+msgctxt "Move the directory"
+msgid "Move"
+msgstr "Premakni"
+
+#: globalpaths.cpp:386
+#, kde-format
+msgctxt "Use the new directory but do not move anything"
+msgid "Do not Move"
+msgstr "Ne premakni"
+
+#: globalpaths.cpp:390
+#, kde-format
+msgid "Confirmation Required"
+msgstr "Zahtevana je potrditev"

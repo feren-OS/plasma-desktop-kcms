@@ -1,0 +1,101 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>, 2014, 2017, 2019.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"PO-Revision-Date: 2019-06-20 20:57+0200\n"
+"Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
+"Language-Team: Polish <kde-i18n-doc@kde.org>\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 19.07.70\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Łukasz Wojniłowicz"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "lukasz.wojnilowicz@gmail.com"
+
+#. i18n: ectx: property (text), widget (QLabel, m_mainLabel)
+#: configwidget.ui:26
+#, kde-format
+msgid ""
+"File Search helps you quickly locate all your files based on their content"
+msgstr ""
+"Wyszukiwanie plików umożliwia szybkie ustalenie położenia plików na "
+"podstawie ich zawartości"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_enableCheckbox)
+#: configwidget.ui:38
+#, kde-format
+msgid "Enable File Search"
+msgstr "Włącz wyszukiwanie plików"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_enableContentIndexing)
+#: configwidget.ui:45
+#, kde-format
+msgid "Also index file content"
+msgstr "Indeksuj także zawartość plików"
+
+#. i18n: ectx: property (text), widget (QLabel, m_excludeLabel)
+#: configwidget.ui:76
+#, fuzzy, kde-format
+#| msgid "Do not search in these locations:"
+msgid "Do not search in these locations:"
+msgstr "Nie szukaj w tych miejscach:"
+
+#: folderselectionwidget.cpp:202
+#, kde-format
+msgid "Select the folder which should be excluded"
+msgstr "Wybierz katalog, który ma zostać wykluczony"
+
+#: folderselectionwidget.cpp:212
+#, kde-format
+msgid ""
+"Not allowed to exclude root folder, please disable File Search if you do not "
+"want it"
+msgstr ""
+"Nie można wykluczyć głównego katalogu, wyłącz wyszukiwanie plików, jeśli go "
+"nie chcesz"
+
+#: folderselectionwidget.cpp:226
+#, kde-format
+msgid "Folder %1 is already excluded"
+msgstr "Katalog %1 już jest wykluczony"
+
+#: folderselectionwidget.cpp:247
+#, kde-format
+msgid "Folder's parent %1 is already excluded"
+msgstr "Katalog nadrzędny do %1 już jest wykluczony"
+
+#: kcm.cpp:60
+#, kde-format
+msgid "Configure File Search"
+msgstr "Ustawienia wyszukiwania plików"
+
+#: kcm.cpp:62
+#, kde-format
+msgid "Copyright 2007-2010 Sebastian Trüg"
+msgstr "Prawa autorskie 2007-2010 Sebastian Trüg"
+
+#: kcm.cpp:63
+#, kde-format
+msgid "Sebastian Trüg"
+msgstr "Sebastian Trüg"
+
+#: kcm.cpp:64
+#, kde-format
+msgid "Vishesh Handa"
+msgstr "Vishesh Handa"

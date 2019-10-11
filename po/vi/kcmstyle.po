@@ -1,0 +1,325 @@
+# Vietnamese translation for kcmstyle.
+# Copyright © 2007 KDE i18n Project for Vietnamese.
+# Clytie Siddall <clytie@riverland.net.au>, 2006-2007.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmstyle\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"PO-Revision-Date: 2007-06-23 21:08+0930\n"
+"Last-Translator: Clytie Siddall <clytie@riverland.net.au>\n"
+"Language-Team: Vietnamese <gnomevi-list@lists.sourceforge.net>\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: LocFactoryEditor 1.6.4a2\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Nhóm Việt hoá KDE"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-l10n-vi@kde.org"
+
+#: kcmstyle.cpp:173
+#, fuzzy, kde-format
+#| msgid ""
+#| "<h1>Style</h1>This module allows you to modify the visual appearance of "
+#| "user interface elements, such as the widget style and effects."
+msgid ""
+"This module allows you to modify the visual appearance of applications' user "
+"interface elements."
+msgstr ""
+"<h1>Kiểu dáng</h1>Mô-đun này cho bạn khả năng sửa đổi diện mạo của yếu tố "
+"của giao diện người dùng, như kiểu dáng và hiệu ứng của ô điều khiển."
+
+#: kcmstyle.cpp:183
+#, fuzzy, kde-format
+#| msgid "Application Level"
+msgid "Application Style"
+msgstr "Cấp ứng dụng:"
+
+#: kcmstyle.cpp:185
+#, kde-format
+msgid "(c) 2002 Karol Szwed, Daniel Molkentin"
+msgstr "Bản quyền © năm 2002 của Karol Szwed và Daniel Molkentin"
+
+#: kcmstyle.cpp:187
+#, kde-format
+msgid "Karol Szwed"
+msgstr ""
+
+#: kcmstyle.cpp:188
+#, kde-format
+msgid "Daniel Molkentin"
+msgstr ""
+
+#: kcmstyle.cpp:198
+#, kde-format
+msgid "Preview"
+msgstr "Xem thử"
+
+#: kcmstyle.cpp:252 kcmstyle.cpp:263
+#, kde-format
+msgid "There was an error loading the configuration dialog for this style."
+msgstr "Gặp lỗi khi tải hộp thoại cấu hình cho kiểu dáng này."
+
+#: kcmstyle.cpp:254 kcmstyle.cpp:265
+#, kde-format
+msgid "Unable to Load Dialog"
+msgstr "Không thể tải hộp thoại"
+
+#: kcmstyle.cpp:488
+#, kde-format
+msgid "No description available."
+msgstr "Không có mô tả."
+
+#: kcmstyle.cpp:695
+#, kde-format
+msgid ""
+"This area shows a preview of the currently selected style without having to "
+"apply it to the whole desktop."
+msgstr ""
+"Vùng này hiển thị ô xen thử kiểu dáng đã chọn hiện thời, không cần áp dụng "
+"nó vào toàn màn hình nền."
+
+#: kcmstyle.cpp:697
+#, kde-format
+msgid ""
+"Here you can choose from a list of predefined widget styles (e.g. the way "
+"buttons are drawn) which may or may not be combined with a theme (additional "
+"information like a marble texture or a gradient)."
+msgstr ""
+"Ở đây bạn có thể chọn trong danh sách các kiểu dáng ô điều khiển xác định "
+"sẵn (v.d. cách vẽ cái nút) mà có thể được tổ hợp với sắc thái (thông tin "
+"thêm như hoạ tiết cẩm thạch hay dốc)."
+
+#: kcmstyle.cpp:701
+#, fuzzy, kde-format
+#| msgid ""
+#| "If you enable this option, KDE Applications will show small icons "
+#| "alongside some important buttons."
+msgid ""
+"If you enable this option, applications will show small icons alongside some "
+"important buttons."
+msgstr ""
+"Nếu bạn bật tùy chọn này, ứng dụng KDE sẽ hiển thị biểu tượng nhỏ bên cạnh "
+"cái nút quan trọng."
+
+#: kcmstyle.cpp:703
+#, fuzzy, kde-format
+#| msgid ""
+#| "If you enable this option, KDE Applications will show small icons "
+#| "alongside some important buttons."
+msgid ""
+"If you enable this option, applications will show small icons alongside most "
+"menu items."
+msgstr ""
+"Nếu bạn bật tùy chọn này, ứng dụng KDE sẽ hiển thị biểu tượng nhỏ bên cạnh "
+"cái nút quan trọng."
+
+#: kcmstyle.cpp:705
+#, fuzzy, kde-format
+#| msgid ""
+#| "<p><b>Icons only:</b> Shows only icons on toolbar buttons. Best option "
+#| "for low resolutions.</p><p><b>Text only: </b>Shows only text on toolbar "
+#| "buttons.</p><p><b>Text alongside icons: </b> Shows icons and text on "
+#| "toolbar buttons. Text is aligned alongside the icon.</p><b>Text under "
+#| "icons: </b> Shows icons and text on toolbar buttons. Text is aligned "
+#| "below the icon."
+msgid ""
+"<p><b>No text:</b> Shows only icons on toolbar buttons. Best option for low "
+"resolutions.</p><p><b>Text only: </b>Shows only text on toolbar buttons.</"
+"p><p><b>Text beside icons: </b> Shows icons and text on toolbar buttons. "
+"Text is aligned beside the icon.</p><b>Text below icons: </b> Shows icons "
+"and text on toolbar buttons. Text is aligned below the icon."
+msgstr ""
+"<p><b>Chỉ hình:</b> Hiển thị chỉ biểu tượng trên cái nút nằm trên thanh công "
+"cụ. Đây là tùy chọn tốt nhất cho bộ trình bày có độ phân giải thấp.</"
+"p><p><b>Chỉ nhãn: </b>Hiển thị chỉ nhãn trên cái nút nằm trên thanh công cụ</"
+"p><p><b>Nhãn cạnh hình: </b> Nhãn được canh bên cạnh biểu tượng.</p><b>Nhãn "
+"dưới hình: </b> Hiển thị cả biểu tượng lẫn nhãn trên cái nút nằm trên thanh "
+"công cụ. Nhãn được canh dưới biểu tượng."
+
+#: styleconfdialog.cpp:29
+#, kde-format
+msgid "Configure %1"
+msgstr "Cấu hình %1"
+
+#. i18n: ectx: property (text), widget (QLabel, labelApplicationStyle)
+#: styleconfig.ui:20
+#, fuzzy, kde-format
+#| msgid "Application Level"
+msgid "Application style:"
+msgstr "Cấp ứng dụng:"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, pbConfigStyle)
+#: styleconfig.ui:45
+#, fuzzy, kde-format
+#| msgid "Application Level"
+msgid "Configure Application Style..."
+msgstr "Cấp ứng dụng:"
+
+#. i18n: ectx: property (text), widget (QLabel, labelShowIcons)
+#: styleconfig.ui:61
+#, fuzzy, kde-format
+#| msgid "Sho&w icons on buttons"
+msgid "Show icons:"
+msgstr "&Hiện hình trên nút"
+
+#. i18n: ectx: property (text), widget (QLabel, labelToolbarIcons)
+#: styleconfig.ui:68
+#, kde-format
+msgid "Main toolbar label:"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, comboToolbarIcons)
+#. i18n: ectx: property (text), item, widget (QComboBox, comboSecondaryToolbarIcons)
+#: styleconfig.ui:79 styleconfig.ui:113
+#, kde-format
+msgid "None"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, comboToolbarIcons)
+#. i18n: ectx: property (text), item, widget (QComboBox, comboSecondaryToolbarIcons)
+#: styleconfig.ui:84 styleconfig.ui:118
+#, fuzzy, kde-format
+#| msgid "Text Only"
+msgid "Text only"
+msgstr "Chỉ có nhãn"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, comboToolbarIcons)
+#. i18n: ectx: property (text), item, widget (QComboBox, comboSecondaryToolbarIcons)
+#: styleconfig.ui:89 styleconfig.ui:123
+#, fuzzy, kde-format
+#| msgid "Text Alongside Icons"
+msgid "Beside icons"
+msgstr "Nhãn cạnh hình"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, comboToolbarIcons)
+#. i18n: ectx: property (text), item, widget (QComboBox, comboSecondaryToolbarIcons)
+#: styleconfig.ui:94 styleconfig.ui:128
+#, fuzzy, kde-format
+#| msgid "Text Under Icons"
+msgid "Below icons"
+msgstr "Nhãn dưới hình"
+
+#. i18n: ectx: property (text), widget (QLabel, labelSecondaryToolbarIcons)
+#: styleconfig.ui:102
+#, kde-format
+msgid "Secondary toolbar label:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbIconsOnButtons)
+#: styleconfig.ui:136
+#, fuzzy, kde-format
+#| msgid "Radio button"
+msgid "On buttons"
+msgstr "Nút chọn một"
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbIconsInMenus)
+#: styleconfig.ui:146
+#, kde-format
+msgid "In menus"
+msgstr ""
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_1)
+#: stylepreview.ui:33
+#, kde-format
+msgid "Tab 1"
+msgstr "Thanh 1"
+
+#. i18n: ectx: property (text), widget (QPushButton, pushButton)
+#: stylepreview.ui:65
+#, fuzzy, kde-format
+#| msgid "Button"
+msgid "Push Button"
+msgstr "Nút"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, comboBox)
+#: stylepreview.ui:86
+#, fuzzy, kde-format
+#| msgid "Combobox"
+msgid "Combo box"
+msgstr "Hộp tổ hợp"
+
+#. i18n: ectx: property (text), widget (QCheckBox, checkBox)
+#: stylepreview.ui:96
+#, kde-format
+msgid "Checkbox"
+msgstr "Hộp kiểm tra"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioButton_2)
+#. i18n: ectx: property (text), widget (QRadioButton, radioButton_1)
+#: stylepreview.ui:106 stylepreview.ui:116
+#, kde-format
+msgid "Radio button"
+msgstr "Nút chọn một"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_2)
+#: stylepreview.ui:133
+#, kde-format
+msgid "Tab 2"
+msgstr "Thanh 2"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Name: don't translate / Tên: đừng dịch

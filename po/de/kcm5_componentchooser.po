@@ -1,0 +1,306 @@
+# Thomas Diehl <thd@kde.org>, 2002, 2003, 2004.
+# Stephan Johach <hunsum@gmx.de>, 2005.
+# Thomas Reitelbach <tr@erdfunkstelle.de>, 2005, 2006, 2007, 2008, 2009.
+# Panagiotis Papadopoulos <pano_90@gmx.net>, 2010.
+# Frederik Schwarzer <schwarzer@kde.org>, 2016.
+# Burkhard Lück <lueck@hube-lueck.de>, 2016, 2017.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmcomponentchooser\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"PO-Revision-Date: 2017-11-26 14:07+0100\n"
+"Last-Translator: Burkhard Lück <lueck@hube-lueck.de>\n"
+"Language-Team: German <kde-i18n-de@kde.org>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 2.0\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Thomas Diehl,Thomas Reitelbach"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "thd@kde.org,tr@erdfunkstelle.de"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: browserconfig_ui.ui:29
+#, kde-format
+msgid "<qt>Open <b>http</b> and <b>https</b> URLs</qt>"
+msgstr ""
+"<qt>Adressen öffnen, die mit <b>http</b> oder <b>https</b> beginnen</qt>"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioKIO)
+#: browserconfig_ui.ui:36
+#, kde-format
+msgid "in an application based on the contents of the URL"
+msgstr "in einem Programm, das auf Inhalten der Adresse basiert"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioService)
+#: browserconfig_ui.ui:46
+#, kde-format
+msgid "in the following application:"
+msgstr "in folgendem Programm:"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioExec)
+#: browserconfig_ui.ui:80
+#, kde-format
+msgid "with the following command:"
+msgstr "mit dem folgendem Befehl:"
+
+#. i18n: ectx: property (text), widget (QToolButton, btnSelectApplication)
+#. i18n: ectx: property (text), widget (QToolButton, btnSelectEmail)
+#. i18n: ectx: property (text), widget (QToolButton, btnSelectFileManager)
+#. i18n: ectx: property (text), widget (QToolButton, btnSelectTerminal)
+#: browserconfig_ui.ui:115 emailclientconfig_ui.ui:69
+#: filemanagerconfig_ui.ui:41 terminalemulatorconfig_ui.ui:60
+#, kde-format
+msgid "..."
+msgstr "..."
+
+#: componentchooser.cpp:134
+#, kde-format
+msgid "Unknown"
+msgstr "Unbekannt"
+
+#: componentchooser.cpp:151
+#, kde-format
+msgid ""
+"Choose from the list below which component should be used by default for the "
+"%1 service."
+msgstr ""
+"Wählen Sie aus der Liste unten die Standardkomponente für den Dienst %1."
+
+#: componentchooser.cpp:183
+#, kde-format
+msgid ""
+"<qt>You changed the default component of your choice, do want to save that "
+"change now ?</qt>"
+msgstr ""
+"<qt>Sie haben die Standardkomponente geändert. Soll die neue Einstellung "
+"gespeichert werden?</qt>"
+
+#: componentchooser.cpp:188
+#, kde-format
+msgid "No description available"
+msgstr "Keine Beschreibung verfügbar"
+
+#. i18n: ectx: property (whatsThis), widget (QGroupBox, GroupBox1)
+#: componentchooser_ui.ui:26
+#, kde-format
+msgid ""
+"Here you can change the component program. Components are programs that "
+"handle basic tasks, like the terminal emulator, the text editor and the "
+"email client. Different KDE applications sometimes need to invoke a console "
+"emulator, send a mail or display some text. To do so consistently, these "
+"applications always call the same components. You can choose here which "
+"programs these components are."
+msgstr ""
+"Hier können Sie das Komponentenprogramm wechseln. „Komponenten“ sind "
+"Programme, die elementare Aufgaben erledigen, so etwa der Terminal-Emulator, "
+"der Texteditor oder das E-Mail-Programm. KDE-Programme müssen gelegentlich "
+"einen Terminal-Emulator aufrufen, eine E-Mail verschicken oder Text "
+"darstellen. Um die Einheitlichkeit zu wahren, verwenden die Anwendungen "
+"dieselben Standardkomponenten. Hier können Sie die Programme für diese "
+"Komponenten auswählen."
+
+#. i18n: ectx: property (title), widget (QGroupBox, GroupBox1)
+#: componentchooser_ui.ui:29
+#, kde-format
+msgid "Default Component"
+msgstr "Standard-Komponente"
+
+#. i18n: ectx: property (whatsThis), widget (QListWidget, ServiceChooser)
+#: componentchooser_ui.ui:44
+#, kde-format
+msgid ""
+"<qt>\n"
+"<p>This list shows the configurable component types. Click the component you "
+"want to configure.</p>\n"
+"<p>In this dialog you can change KDE default components. Components are "
+"programs that handle basic tasks, like the terminal emulator, the text "
+"editor and the email client. Different KDE applications sometimes need to "
+"invoke a console emulator, send a mail or display some text. To do so "
+"consistently, these applications always call the same components. Here you "
+"can select which programs these components are.</p>\n"
+"</qt>"
+msgstr ""
+"<qt>\n"
+"<p>Diese Liste zeigt die einstellbaren Komponententypen an. Klicken Sie auf "
+"einen der Einträge, wenn Sie Festlegungen dazu treffen möchten.</p>\n"
+"<p>In diesem Dialog können Sie zu anderen KDE-Standardkomponenten wechseln. "
+"„Komponenten“ sind Programme, die elementare Aufgaben erledigen, so etwa der "
+"Terminal-Emulator, der Texteditor oder das E-Mail-Programm. Einige KDE-"
+"Programme müssen gelegentlich einen Terminal-Emulator aufrufen, eine E-Mail "
+"verschicken oder Text darstellen. Um die Einheitlichkeit zu wahren, "
+"verwenden die Anwendungen dieselben Standardkomponenten. Hier können Sie die "
+"Programme für diese Komponenten auswählen.</p>\n"
+"</qt>"
+
+#: componentchooserbrowser.cpp:150
+#, kde-format
+msgid "Select preferred Web browser application:"
+msgstr "Bevorzugten Webbrowser auswählen:"
+
+#: componentchooseremail.cpp:86
+#, kde-format
+msgid "Select preferred email client:"
+msgstr "Bevorzugtes E-Mail-Programm auswählen:"
+
+#: componentchooserterminal.cpp:104
+#, kde-format
+msgid "Select preferred terminal application:"
+msgstr "Bevorzugtes Terminalprogramm auswählen:"
+
+#. i18n: ectx: property (whatsThis), widget (QRadioButton, kmailCB)
+#: emailclientconfig_ui.ui:12
+#, kde-format
+msgid "Kmail is the standard Mail program for the Plasma desktop."
+msgstr "KMail ist das Standard-E-Mail-Programm für die Plasma-Arbeitsfläche."
+
+#. i18n: ectx: property (text), widget (QRadioButton, kmailCB)
+#: emailclientconfig_ui.ui:15
+#, kde-format
+msgid "&Use KMail as preferred email client"
+msgstr "&KMail als bevorzugtes E-Mail-Programm festlegen"
+
+#. i18n: ectx: property (whatsThis), widget (QRadioButton, otherCB)
+#: emailclientconfig_ui.ui:22
+#, kde-format
+msgid "Select this option if you want to use any other mail program."
+msgstr ""
+"Wählen Sie diese Einstellung, wenn Sie ein anderes E-Mail-Programm verwenden "
+"möchten."
+
+#. i18n: ectx: property (text), widget (QRadioButton, otherCB)
+#: emailclientconfig_ui.ui:25
+#, kde-format
+msgid "Use a different &email client:"
+msgstr "Anderes E-&Mail-Programm verwenden:"
+
+#. i18n: ectx: property (toolTip), widget (KLineEdit, txtEMailClient)
+#: emailclientconfig_ui.ui:53
+#, no-c-format, kde-format
+msgid ""
+"Optional placeholders: <ul> <li>%t: Recipient's address</li> <li>%s: "
+"Subject</li> <li>%c: Carbon Copy (CC)</li> <li>%b: Blind Carbon Copy (BCC)</"
+"li> <li>%B: Template body text</li> <li>%A: Attachment </li> <li>%u: Full "
+"mailto: URL </li></ul>"
+msgstr ""
+"Optionale Platzhalter: <ul> <li>%t: Empfängeradresse</li> <li>%s: Betreff</"
+"li> <li>%c: Kopie (CC)</li> <li>%b: Blindkopie (BCC)</li> <li>%B: "
+"Textvorlage</li> <li>%A: Dateianhang </li> <li>%u: Vollständige mailto:-"
+"Adresse</li></ul>"
+
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, txtEMailClient)
+#: emailclientconfig_ui.ui:56
+#, no-c-format, kde-format
+msgid ""
+"Press this button to select your favorite email client. Please note that the "
+"file you select has to have the executable attribute set in order to be "
+"accepted.<br/> You can also use several placeholders which will be replaced "
+"with the actual values when the email client is called:<ul> <li>%t: "
+"Recipient's address</li> <li>%s: Subject</li> <li>%c: Carbon Copy (CC)</li> "
+"<li>%b: Blind Carbon Copy (BCC)</li> <li>%B: Template body text</li> <li>%A: "
+"Attachment </li> </ul>"
+msgstr ""
+"Klicken Sie auf diesen Knopf, um Ihr bevorzugtes E-Mail-Programm "
+"auszuwählen. Bitte beachten Sie, dass es sich um eine ausführbare Datei "
+"handeln muss.<br/>Sie können außerdem verschiedene Variablen verwenden, die "
+"beim Start des E-Mail-Programms mit den übergebenen Werten ausgefüllt werden:"
+"<ul> <li>%t: Empfängeradresse</li> <li>%s: Betreff</li> <li>%c: Kopie (CC)</"
+"li> <li>%b: Blindkopie (BCC)</li> <li>%B: Textvorlage</li> <li>%A: "
+"Dateianhang </li> </ul>"
+
+#. i18n: ectx: property (whatsThis), widget (QToolButton, btnSelectEmail)
+#: emailclientconfig_ui.ui:66
+#, kde-format
+msgid "Click here to browse for the mail program file."
+msgstr ""
+"Klicken Sie hier, um nach der ausführbaren Datei des E-Mail-Programms zu "
+"suchen."
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, chkRunTerminal)
+#: emailclientconfig_ui.ui:99
+#, kde-format
+msgid ""
+"Activate this option if you want the selected email client to be executed in "
+"a terminal (e.g. <em>Konsole</em>)."
+msgstr ""
+"Aktivieren Sie diese Einstellung, wenn Sie möchten, dass das ausgewählte E-"
+"Mail-Programm in einem Befehlsfenster (also einem Terminalprogramm wie "
+"<em>Konsole</em>) ausgeführt wird."
+
+#. i18n: ectx: property (text), widget (QCheckBox, chkRunTerminal)
+#: emailclientconfig_ui.ui:102
+#, kde-format
+msgid "&Run in terminal"
+msgstr "In &Terminal ausführen"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: filemanagerconfig_ui.ui:12
+#, kde-format
+msgid "Browse directories using the following file manager:"
+msgstr "Ordner mit der folgenden Dateiverwaltung durchsehen:"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioExec)
+#: filemanagerconfig_ui.ui:24
+#, kde-format
+msgid "Other: click Add... in the dialog shown here:"
+msgstr "Anderer: Klicken Sie auf Hinzufügen in diesem Dialog:"
+
+#: kcm_componentchooser.cpp:44
+#, kde-format
+msgid "Component Chooser"
+msgstr "Komponentenauswahl"
+
+#: kcm_componentchooser.cpp:46
+#, kde-format
+msgid "(c), 2002 Joseph Wenninger"
+msgstr "© 2002, Joseph Wenninger"
+
+#: kcm_componentchooser.cpp:48
+#, kde-format
+msgid "Joseph Wenninger"
+msgstr "Joseph Wenninger"
+
+#. i18n: ectx: property (text), widget (QRadioButton, terminalCB)
+#: terminalemulatorconfig_ui.ui:12
+#, kde-format
+msgid "&Use Konsole as terminal application"
+msgstr "K&onsole als Terminalprogramm verwenden"
+
+#. i18n: ectx: property (text), widget (QRadioButton, otherCB)
+#: terminalemulatorconfig_ui.ui:19
+#, kde-format
+msgid "Use a different &terminal program:"
+msgstr "Anderes &Terminalprogramm verwenden:"
+
+#. i18n: ectx: property (whatsThis), widget (QLineEdit, terminalLE)
+#: terminalemulatorconfig_ui.ui:47
+#, kde-format
+msgid ""
+"Press this button to select your favorite terminal client. Please note that "
+"the file you select has to have the executable attribute set in order to be "
+"accepted.<br/> Also note that some programs that utilize Terminal Emulator "
+"will not work if you add command line arguments (Example: konsole -ls)."
+msgstr ""
+"Drücken Sie diesen Knopf, um Ihr bevorzugtes Terminalprogramm auszuwählen. "
+"Bitte beachten Sie, dass die ausgewählte Datei als ausführbar gekennzeichnet "
+"sein muss, um akzeptiert zu werden.<br/>Beachten Sie außerdem, dass manche "
+"Programme, die Terminalemulatoren verwenden, nicht korrekt funktionieren, "
+"wenn Sie Befehlszeilenargumente übergeben (wie z. B. konsole -ls)."
+
+#. i18n: ectx: property (whatsThis), widget (QToolButton, btnSelectTerminal)
+#: terminalemulatorconfig_ui.ui:57
+#, kde-format
+msgid "Click here to browse for terminal program."
+msgstr ""
+"Klicken Sie hier, um nach der ausführbaren Datei des Terminalprogramms zu "
+"suchen."

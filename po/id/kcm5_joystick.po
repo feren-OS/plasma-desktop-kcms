@@ -1,0 +1,322 @@
+# Indonesian translations for joystick package.
+# Copyright (C) 2010 This_file_is_part_of_KDE
+# This file is distributed under the same license as the joystick package.
+# Andhika Padmawan <andhika.padmawan@gmail.com>, 2010.
+# Wantoyo <wantoyek@gmail.com>, 2017, 2018, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: joystick\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"PO-Revision-Date: 2019-08-24 17:54+0700\n"
+"Last-Translator: Wantoyo <wantoyek@gmail.com>\n"
+"Language-Team: Indonesian <kde-i18n-doc@kde.org>\n"
+"Language: id\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 19.04.3\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Andhika Padmawan"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "andhika.padmawan@gmail.com"
+
+#: caldialog.cpp:41 joywidget.cpp:380
+#, kde-format
+msgid "Calibration"
+msgstr "Kalibrasi"
+
+#: caldialog.cpp:44
+#, kde-format
+msgid "Next"
+msgstr "Selanjutnya"
+
+#: caldialog.cpp:59
+#, kde-format
+msgid "Please wait a moment to calculate the precision"
+msgstr "Silakan tunggu beberapa saat untuk menghitung presisi"
+
+#: caldialog.cpp:90
+#, kde-format
+msgid "(usually X)"
+msgstr "(biasanya X)"
+
+#: caldialog.cpp:92
+#, kde-format
+msgid "(usually Y)"
+msgstr "(biasanya Y)"
+
+#: caldialog.cpp:97
+#, kde-format
+msgid ""
+"<qt>Calibration is about to check the value range your device delivers.<br /"
+"><br />Please move <b>axis %1 %2</b> on your device to the <b>minimum</b> "
+"position.<br /><br />Press any button on the device or click on the 'Next' "
+"button to continue with the next step.</qt>"
+msgstr ""
+"<qt>Kalibrasi akan memeriksa jangkauan nilai yang perangkat anda antarkan."
+"<br /><br />Silakan gerakkan <b>poros %1 %2</b> di perangkat anda ke posisi "
+"<b>minimum</b>.<br /><br />Tekan tombol apapun di perangkat atau klik tombol "
+"'Selanjutnya' untuk melanjutkan ke langkah selanjutnya.</qt>"
+
+#: caldialog.cpp:114
+#, kde-format
+msgid ""
+"<qt>Calibration is about to check the value range your device delivers.<br /"
+"><br />Please move <b>axis %1 %2</b> on your device to the <b>center</b> "
+"position.<br /><br />Press any button on the device or click on the 'Next' "
+"button to continue with the next step.</qt>"
+msgstr ""
+"<qt>Kalibrasi akan memeriksa jangkauan nilai yang perangkat anda antarkan."
+"<br /><br />Silakan gerakkan <b>poros %1 %2</b> di perangkat anda ke posisi "
+"<b>tengah</b>.<br /><br />Tekan tombol apapun di perangkat atau klik tombol "
+"'Selanjutnya' untuk melanjutkan ke langkah selanjutnya.</qt>"
+
+#: caldialog.cpp:131
+#, kde-format
+msgid ""
+"<qt>Calibration is about to check the value range your device delivers.<br /"
+"><br />Please move <b>axis %1 %2</b> on your device to the <b>maximum</b> "
+"position.<br /><br />Press any button on the device or click on the 'Next' "
+"button to continue with the next step.</qt>"
+msgstr ""
+"<qt>Kalibrasi akan memeriksa jangkauan nilai yang perangkat anda antarkan."
+"<br /><br />Silakan gerakkan <b>poros %1 %2</b> di perangkat anda ke posisi "
+"<b>maksimum</b>.<br /><br />Tekan tombol apapun di perangkat atau klik "
+"tombol 'Selanjutnya' untuk melanjutkan ke langkah selanjutnya.</qt>"
+
+#: caldialog.cpp:154 joywidget.cpp:371 joywidget.cpp:406
+#, kde-format
+msgid "Communication Error"
+msgstr "Error Komunikasi"
+
+#: caldialog.cpp:158
+#, kde-format
+msgid "You have successfully calibrated your device"
+msgstr "Anda telah sukses mengkalibrasi perangkat anda"
+
+#: caldialog.cpp:158 joywidget.cpp:412
+#, kde-format
+msgid "Calibration Success"
+msgstr "Kalibrasi Sukses"
+
+#: caldialog.cpp:182
+#, kde-format
+msgid "Value Axis %1: %2"
+msgstr "Nilai Poros %1: %2"
+
+#: joydevice.cpp:56
+#, kde-format
+msgid "The given device %1 could not be opened: %2"
+msgstr "Perangkat %1 yang diberikan tidak dapat dibuka: %2"
+
+#: joydevice.cpp:62
+#, kde-format
+msgid "The given device %1 is not a joystick."
+msgstr "Perangkat %1 yang diberikan bukan joystick."
+
+#: joydevice.cpp:67
+#, kde-format
+msgid "Could not get kernel driver version for joystick device %1: %2"
+msgstr ""
+"Tak bisa mendapatkan versi driver kernel untuk perangkat joystick %1: %2"
+
+#: joydevice.cpp:81
+#, kde-format
+msgid ""
+"The current running kernel driver version (%1.%2.%3) is not the one this "
+"module was compiled for (%4.%5.%6)."
+msgstr ""
+"Versi driver kernel yang saat ini berjalan (%1.%2.%3) bukan yang modul ini "
+"kompilasi (%4.%5.%6)."
+
+#: joydevice.cpp:93
+#, kde-format
+msgid "Could not get number of buttons for joystick device %1: %2"
+msgstr "Tak bisa mendapatkan jumlah tombol untuk perangkat joystick %1: %2"
+
+#: joydevice.cpp:99
+#, kde-format
+msgid "Could not get number of axes for joystick device %1: %2"
+msgstr "Tak bisa mendapatkan jumlah poros untuk perangkat joystick %1: %2"
+
+#: joydevice.cpp:105
+#, kde-format
+msgid "Could not get calibration values for joystick device %1: %2"
+msgstr "Tak bisa mendapatkan nilai kalibrasi untuk perangkat joystick %1: %2"
+
+#: joydevice.cpp:111
+#, kde-format
+msgid "Could not restore calibration values for joystick device %1: %2"
+msgstr "Tak bisa mengembalikan nilai kalibrasi untuk perangkat joystick %1: %2"
+
+#: joydevice.cpp:117
+#, kde-format
+msgid "Could not initialize calibration values for joystick device %1: %2"
+msgstr ""
+"Tak bisa menginisialisasi nilai kalibrasi untuk perangkat joystick %1: %2"
+
+#: joydevice.cpp:123
+#, kde-format
+msgid "Could not apply calibration values for joystick device %1: %2"
+msgstr "Tak bisa menerapkan nilai kalibrasi untuk perangkat joystick %1: %2"
+
+#: joydevice.cpp:127
+#, kde-format
+msgid "internal error - code %1 unknown"
+msgstr "error internal - kode %1 tak diketahui"
+
+#: joystick.cpp:47
+#, kde-format
+msgid "KDE Joystick Control Module"
+msgstr "Modul Kendali Joystick KDE"
+
+#: joystick.cpp:48
+#, kde-format
+msgid "KDE System Settings Module to test Joysticks"
+msgstr "Modul System Settings KDE untuk mencoba Joystick"
+
+#: joystick.cpp:49
+#, kde-format
+msgid "(c) 2004, Martin Koller"
+msgstr "(c) 2004, Martin Koller"
+
+#: joystick.cpp:52
+#, kde-format
+msgid ""
+"<h1>Joystick</h1>This module helps to check if your joystick is working "
+"correctly.<br />If it delivers wrong values for the axes, you can try to "
+"solve this with the calibration.<br />This module tries to find all "
+"available joystick devices by checking /dev/js[0-4] and /dev/input/"
+"js[0-4]<br />If you have another device file, enter it in the combobox.<br /"
+">The Buttons list shows the state of the buttons on your joystick, the Axes "
+"list shows the current value for all axes.<br />NOTE: the current Linux "
+"device driver (Kernel 2.4, 2.6) can only autodetect<ul><li>2-axis, 4-button "
+"joystick</li><li>3-axis, 4-button joystick</li><li>4-axis, 4-button "
+"joystick</li><li>Saitek Cyborg 'digital' joysticks</li></ul>(For details you "
+"can check your Linux source/Documentation/input/joystick.txt)"
+msgstr ""
+"<h1>Joystick</h1>Modul ini membantu untuk memeriksa apakah joystick bekerja "
+"secara benar.<br />Jika modul mengantarkan nilai yang salah untuk poros, "
+"anda dapat mencoba untuk memecahkan masalah ini dengan kalibrasi.<br /> "
+"Modul ini mencoba untuk mencari semua perangkat joystick yang tersedia "
+"dengan memeriksa /dev/js[0-4] dan /dev/input/js[0-4]<br />Jika anda memiliki "
+"file perangkat lainnya, masukkan di dalam kotak kombo.<br />Senarai Tombol "
+"menampilkan kondisi tombol di joystick anda, senarai Poros menampilkan nilai "
+"saat ini untuk semua poros.<br />CATATAN: driver perangkat Linux saat ini "
+"(Kernel 2.4, 2.6) hanya dapat mendeteksi secara otomatis joystick <ul><li>2-"
+"poros, 4-tombol</li><li>joystick 3-poros, 4-tombol</li><li>joystick 4-poros, "
+"4-tombol</li><li>Joystick 'digital' Saitek Cyborg</li></ul>(Untuk perincian "
+"anda dapat melihat source/Documentation/input/joystick.txt Linux anda)"
+
+#: joywidget.cpp:49
+#, kde-format
+msgid "PRESSED"
+msgstr "DITEKAN"
+
+#: joywidget.cpp:84
+#, kde-format
+msgid "Device:"
+msgstr "Perangkat:"
+
+#: joywidget.cpp:103
+#, kde-format
+msgctxt "Cue for deflection of the stick"
+msgid "Position:"
+msgstr "Posisi:"
+
+#: joywidget.cpp:106
+#, kde-format
+msgid "Show trace"
+msgstr "Tampilkan jejak"
+
+#: joywidget.cpp:119
+#, kde-format
+msgid "Buttons:"
+msgstr "Tombol:"
+
+#: joywidget.cpp:123
+#, kde-format
+msgid "State"
+msgstr "Kondisi"
+
+#: joywidget.cpp:131
+#, kde-format
+msgid "Axes:"
+msgstr "Poros:"
+
+#: joywidget.cpp:135
+#, kde-format
+msgid "Value"
+msgstr "Nilai"
+
+#: joywidget.cpp:148
+#, kde-format
+msgid "Calibrate"
+msgstr "Kalbrasi"
+
+#: joywidget.cpp:220
+#, kde-format
+msgid ""
+"No joystick device automatically found on this computer.<br />Checks were "
+"done in /dev/js[0-4] and /dev/input/js[0-4]<br />If you know that there is "
+"one attached, please enter the correct device file."
+msgstr ""
+"Tak ada perangkat yang secara otomatis ditemukan di komputer ini.<br />Cek "
+"dilakukan di /dev/js[0-4] dan /dev/input/js[0-4]<br />Jika anda tahu bahwa "
+"ada satu yang dilampirkan, tolong masukkan file perangkat yang benar."
+
+#: joywidget.cpp:265
+#, kde-format
+msgid ""
+"The given device name is invalid (does not contain /dev).\n"
+"Please select a device from the list or\n"
+"enter a device file, like /dev/js0."
+msgstr ""
+"Nama perangkat yang diberikan tidak absah (tidak berisi /dev).\n"
+"Silakan pilih sebuah perangkat dari senarai atau\n"
+"masukkan sebuah file perangkat, misalnya /dev/js0."
+
+#: joywidget.cpp:267
+#, kde-format
+msgid "Unknown Device"
+msgstr "Perangkat Tak Ditemukan"
+
+#: joywidget.cpp:285
+#, kde-format
+msgid "Device Error"
+msgstr "Error Perangkat"
+
+#: joywidget.cpp:306
+#, kde-format
+msgid "1(x)"
+msgstr "1(x)"
+
+#: joywidget.cpp:307
+#, kde-format
+msgid "2(y)"
+msgstr "2(y)"
+
+#: joywidget.cpp:376
+#, kde-format
+msgid ""
+"<qt>Calibration is about to check the precision.<br /><br /><b>Please move "
+"all axes to their center position and then do not touch the joystick anymore."
+"</b><br /><br />Click OK to start the calibration.</qt>"
+msgstr ""
+"<qt>Kalibrasi akan memeriksa presisi.<br /><br /><b>Silakan gerakkan semua "
+"poros ke posisi tengahnya lalu jangan sentuh joystick lagi.</b><br /><br /"
+">Klik OK untuk memulai kalibrasi.</qt>"
+
+#: joywidget.cpp:411
+#, kde-format
+msgid "Restored all calibration values for joystick device %1."
+msgstr "Kembalikan semua nilai kalibrasi untuk perangkat joystick %1."

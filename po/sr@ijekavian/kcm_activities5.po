@@ -1,0 +1,259 @@
+# Translation of kcm_activities.po into Serbian.
+# Chusslove Illich <caslav.ilic@gmx.net>, 2016.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcm_activities\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2018-08-16 09:15+0200\n"
+"PO-Revision-Date: 2016-04-03 12:10+0200\n"
+"Last-Translator: Chusslove Illich <caslav.ilic@gmx.net>\n"
+"Language-Team: Serbian <kde-i18n-sr@kde.org>\n"
+"Language: sr@ijekavian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
+"%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Accelerator-Marker: &\n"
+"X-Text-Markup: kde4\n"
+"X-Environment: kde\n"
+
+# >> @title:tab
+#: ExtraActivitiesInterface.cpp:46 MainConfigurationWidget.cpp:46
+#, kde-format
+msgid "Activities"
+msgstr "Активности"
+
+#: imports/activitysettings.cpp:63
+#, kde-format
+msgctxt "@title:window"
+msgid "Delete Activity"
+msgstr "Брисање активности"
+
+#: imports/activitysettings.cpp:64
+#, kde-format
+msgid "Are you sure you want to delete '%1'?"
+msgstr "Желите ли заиста да обришете „%1“?"
+
+#: imports/dialog.cpp:94
+#, kde-format
+msgid ""
+"Error loading the QML files. Check your installation.\n"
+"Missing %1"
+msgstr ""
+"Грешка при учитавању КуМЛ фајлова. Проверите инсталацију.\n"
+"Недостаје %1."
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: imports/dialog.cpp:158 ui/SwitchingTabBase.ui:17
+#, kde-format
+msgid "General"
+msgstr "Опште"
+
+# >> @title:tab
+#: imports/dialog.cpp:159
+#, kde-format
+msgid "Other"
+msgstr "Остало"
+
+#: imports/dialog.cpp:176
+#, kde-format
+msgctxt "@title:window"
+msgid "Create a New Activity"
+msgstr "Стварање нове активности"
+
+#: imports/dialog.cpp:177
+#, kde-format
+msgctxt "@title:window"
+msgid "Activity Settings"
+msgstr "Поставке активности"
+
+#: imports/dialog.cpp:180
+#, kde-format
+msgctxt "@action:button"
+msgid "Create"
+msgstr "Направи"
+
+#: imports/qml/activityDialog/components/DialogButtons.qml:44
+#, kde-format
+msgctxt "@action:button"
+msgid "Apply"
+msgstr "Примијени"
+
+#: imports/qml/activityDialog/components/DialogButtons.qml:53
+#, kde-format
+msgctxt "@action:button"
+msgid "Cancel"
+msgstr "Одустани"
+
+#: imports/qml/activityDialog/components/ShortcutChooser.qml:36
+#, kde-format
+msgid "Shortcut for switching to this activity:"
+msgstr "Пречица за пребацивање на ову активност:"
+
+#: imports/qml/activityDialog/GeneralTab.qml:58
+#, kde-format
+msgid "Activity information"
+msgstr "Подаци о активности"
+
+#: imports/qml/activityDialog/GeneralTab.qml:66
+#, kde-format
+msgid "Name:"
+msgstr "Име:"
+
+#: imports/qml/activityDialog/GeneralTab.qml:73
+#, kde-format
+msgid "Description:"
+msgstr "Опис:"
+
+#: imports/qml/activityDialog/GeneralTab.qml:99
+#, kde-format
+msgid "Wallpaper"
+msgstr "Тапет"
+
+#: imports/qml/activityDialog/GeneralTab.qml:105
+#, kde-format
+msgctxt "@action:button"
+msgid "Change..."
+msgstr "Измени..."
+
+#: imports/qml/activityDialog/GeneralTab.qml:138
+#, kde-format
+msgid "Icon"
+msgstr "Иконица"
+
+#: imports/qml/activityDialog/OtherTab.qml:44
+#, kde-format
+msgid "Private - do not track usage for this activity"
+msgstr "Приватна — не прати коришћење ове активности"
+
+# >> @title:tab
+#: MainConfigurationWidget.cpp:47
+#, kde-format
+msgid "Switching"
+msgstr "Мењање"
+
+# >> @title:tab
+#: MainConfigurationWidget.cpp:48
+#, kde-format
+msgid "Privacy"
+msgstr "Приватност"
+
+#: PrivacyTab.cpp:74
+#, kde-format
+msgctxt "unlimited number of months"
+msgid "forever"
+msgstr "заувијек"
+
+#: PrivacyTab.cpp:84
+#, kde-format
+msgid "Forget the last hour"
+msgstr "Заборави протекли сат"
+
+#: PrivacyTab.cpp:86
+#, kde-format
+msgid "Forget the last two hours"
+msgstr "Заборави протекла два сата"
+
+#: PrivacyTab.cpp:88
+#, kde-format
+msgid "Forget a day"
+msgstr "Заборави протекли дан"
+
+#: PrivacyTab.cpp:90
+#, kde-format
+msgid "Forget everything"
+msgstr "Заборави све"
+
+#: PrivacyTab.cpp:218
+#, kde-format
+msgctxt "unit of time. months to keep the history"
+msgid " month"
+msgid_plural " months"
+msgstr[0] " мјесец"
+msgstr[1] " мјесеца"
+msgstr[2] " мјесеци"
+msgstr[3] " мјесец"
+
+#: PrivacyTab.cpp:222
+#, kde-format
+msgctxt "for in 'keep history for 5 months'"
+msgid "for "
+msgstr " "
+
+#: qml/activitiesTab/ActivitiesView.qml:37
+#, kde-format
+msgid "Create activity..."
+msgstr "Направи активност..."
+
+#: SwitchingTab.cpp:65
+#, kde-format
+msgid "Activity switching"
+msgstr "Мењање активности"
+
+#: SwitchingTab.cpp:69
+#, kde-format
+msgctxt "@action"
+msgid "Walk through activities"
+msgstr "Шетај кроз активности"
+
+#: SwitchingTab.cpp:72
+#, kde-format
+msgctxt "@action"
+msgid "Walk through activities (Reverse)"
+msgstr "Шетај кроз активности (обрнуто)"
+
+#. i18n: ectx: property (text), widget (QLabel, labelRememberDocuments)
+#: ui/PrivacyTabBase.ui:17
+#, kde-format
+msgid "Remember opened documents:"
+msgstr "Памти отворене документе:"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioRememberAllApplications)
+#: ui/PrivacyTabBase.ui:28
+#, kde-format
+msgid "For a&ll applications"
+msgstr "у &свим програмима"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioDontRememberApplications)
+#: ui/PrivacyTabBase.ui:38
+#, kde-format
+msgid "&Do not remember"
+msgstr "&нигдје"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioRememberSpecificApplications)
+#: ui/PrivacyTabBase.ui:45
+#, kde-format
+msgid "O&nly for specific applications"
+msgstr "само у неким &програмима"
+
+#. i18n: ectx: property (text), widget (QLabel, labelKeepHistory)
+#: ui/PrivacyTabBase.ui:67
+#, kde-format
+msgid "Keep history"
+msgstr "Памти историјат"
+
+#. i18n: ectx: property (text), widget (QPushButton, buttonClearRecentHistory)
+#: ui/PrivacyTabBase.ui:93
+#, kde-format
+msgid "Clear recent history"
+msgstr "Очисти недавни историјат"
+
+#. i18n: ectx: property (text), widget (QCheckBox, checkBlacklistAllNotOnList)
+#: ui/PrivacyTabBase.ui:112
+#, kde-format
+msgid "Blacklist all applications not on this list"
+msgstr "Сви програме ван ове листе на црну листу"
+
+#. i18n: ectx: property (text), widget (QCheckBox, checkRememberVirtualDesktop)
+#: ui/SwitchingTabBase.ui:23
+#, kde-format
+msgid "Remember the current virtual desktop for each activity (needs restart)"
+msgstr ""
+"Запамти текућу виртуелну површ за сваку активност (захтева поновно покретање)"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: ui/SwitchingTabBase.ui:33
+#, kde-format
+msgid "Shortcuts"
+msgstr "Пречице"

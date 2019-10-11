@@ -1,0 +1,102 @@
+# Translation of kcm5_baloofile.po to Brazilian Portuguese
+# Copyright (C) 2014-2019 This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# André Marcelo Alvarenga <alvarenga@kde.org>, 2014, 2019.
+# Luiz Fernando Ranghetti <elchevive@opensuse.org>, 2017.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcm5_baloofile\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"PO-Revision-Date: 2019-06-01 09:24-0300\n"
+"Last-Translator: André Marcelo Alvarenga <alvarenga@kde.org>\n"
+"Language-Team: Brazilian Portuguese <kde-i18n-pt_BR@kde.org>\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 19.04.1\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "André Marcelo Alvarenga"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "alvarenga@kde.org"
+
+#. i18n: ectx: property (text), widget (QLabel, m_mainLabel)
+#: configwidget.ui:26
+#, kde-format
+msgid ""
+"File Search helps you quickly locate all your files based on their content"
+msgstr ""
+"A Pesquisa de Arquivos ajuda-lhe a encontrar todos os seus arquivos com base "
+"no conteúdo"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_enableCheckbox)
+#: configwidget.ui:38
+#, kde-format
+msgid "Enable File Search"
+msgstr "Ativar a Pesquisa de Arquivos"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_enableContentIndexing)
+#: configwidget.ui:45
+#, kde-format
+msgid "Also index file content"
+msgstr "Também indexar o conteúdo do arquivo"
+
+#. i18n: ectx: property (text), widget (QLabel, m_excludeLabel)
+#: configwidget.ui:76
+#, fuzzy, kde-format
+#| msgid "Do not search in these locations:"
+msgid "Do not search in these locations:"
+msgstr "Não pesquisar nestes locais:"
+
+#: folderselectionwidget.cpp:202
+#, kde-format
+msgid "Select the folder which should be excluded"
+msgstr "Selecione a pasta que deve ser excluída"
+
+#: folderselectionwidget.cpp:212
+#, kde-format
+msgid ""
+"Not allowed to exclude root folder, please disable File Search if you do not "
+"want it"
+msgstr ""
+"Não é permitido excluir a pasta raiz, desabilite a Pesquisa de arquivos se "
+"você não quiser."
+
+#: folderselectionwidget.cpp:226
+#, kde-format
+msgid "Folder %1 is already excluded"
+msgstr "A pasta %1 já está excluída"
+
+#: folderselectionwidget.cpp:247
+#, kde-format
+msgid "Folder's parent %1 is already excluded"
+msgstr "A pasta-mãe %1 já está excluída"
+
+#: kcm.cpp:60
+#, kde-format
+msgid "Configure File Search"
+msgstr "Configura a Pesquisa de Arquivos"
+
+#: kcm.cpp:62
+#, kde-format
+msgid "Copyright 2007-2010 Sebastian Trüg"
+msgstr "Copyright 2007-2010 de Sebastian Trüg"
+
+#: kcm.cpp:63
+#, kde-format
+msgid "Sebastian Trüg"
+msgstr "Sebastian Trüg"
+
+#: kcm.cpp:64
+#, kde-format
+msgid "Vishesh Handa"
+msgstr "Vishesh Handa"
