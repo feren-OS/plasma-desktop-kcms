@@ -148,3 +148,48 @@ if (X11_Xfixes_FOUND)
 endif ()
 
 install( TARGETS qtstyletool ${KDE_INSTALL_TARGETS_DEFAULT_ARGS} )
+
+
+set(themecolourisertool_SRCS
+    themecolourisertool.cpp
+    # TODO: load kcm plugin instead of using code copy
+    kcm.cpp
+    ../krdb/krdb.cpp
+    ../cursortheme/xcursor/cursortheme.cpp
+    ../cursortheme/xcursor/xcursortheme.cpp
+)
+
+qt5_add_dbus_interface(themecolourisertool_SRCS ${klauncher_xml} klauncher_iface)
+
+add_executable(themecolourisertool ${themecolourisertool_SRCS})
+
+target_link_libraries(themecolourisertool
+  KF5::KIOWidgets
+  KF5::CoreAddons
+  KF5::KCMUtils
+  KF5::I18n
+  #TODO:kpackage
+  KF5::Plasma
+  KF5::PlasmaQuick
+  KF5::KDELibs4Support
+  KF5::Declarative
+  KF5::QuickAddons
+  KF5::NewStuff
+
+  Qt5::DBus
+  Qt5::Widgets
+  Qt5::QuickWidgets
+  ${X11_LIBRARIES}
+)
+
+if(X11_FOUND)
+    target_link_libraries(themecolourisertool Qt5::X11Extras)
+endif()
+if (X11_Xcursor_FOUND)
+   target_link_libraries(themecolourisertool ${X11_Xcursor_LIB})
+endif ()
+if (X11_Xfixes_FOUND)
+   target_link_libraries(themecolourisertool ${X11_Xfixes_LIB})
+endif ()
+
+install( TARGETS themecolourisertool ${KDE_INSTALL_TARGETS_DEFAULT_ARGS} )

@@ -121,6 +121,7 @@ public Q_SLOTS:
     void load() override;
     void save() override;
     void defaults() override;
+    void saveThemeColouriser();
 
 Q_SIGNALS:
     void selectedPluginChanged();

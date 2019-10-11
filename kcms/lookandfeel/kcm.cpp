@@ -431,6 +431,8 @@ void KCMLookandFeel::save()
         cg = KConfigGroup(conf, "GTK");
         cg = KConfigGroup(&cg, "Settings");
         setGTK(cg.readEntry("gtk-theme-name", QString()));
+        
+        std::system("/usr/bin/feren-theme-tool-plasma triggerxsettingsd");
 
         //autostart
         if (m_resetDefaultLayout) {
@@ -483,6 +485,94 @@ void KCMLookandFeel::save()
 
     //TODO: option to enable/disable apply? they don't seem required by UI design
     setLockScreen(m_selectedPlugin);
+
+    m_configGroup.sync();
+    m_package.setPath(m_selectedPlugin);
+    runRdb(KRdbExportQtColors | KRdbExportGtkTheme | KRdbExportColors | KRdbExportQtSettings | KRdbExportXftSettings);
+}
+
+void KCMLookandFeel::saveThemeColouriser()
+{
+    Plasma::Package package = Plasma::PluginLoader::self()->loadPackage(QStringLiteral("Plasma/LookAndFeel"));
+    package.setPath(m_selectedPlugin);
+
+    if (!package.isValid()) {
+        return;
+    }
+    
+    if (!package.filePath("defaults").isEmpty()) {
+        KSharedConfigPtr conf = KSharedConfig::openConfig(package.filePath("defaults"));
+        KConfigGroup cg(conf, "kdeglobals");
+        cg = KConfigGroup(&cg, "KDE");
+        if (m_applyWidgetStyle) {
+            KConfigGroup cg2(conf, "kvantum.kvconfig");
+            cg2 = KConfigGroup(&cg2, "General");
+            setKvantum(cg2.readEntry("theme",QString()));
+            setWidgetStyle(cg.readEntry("widgetStyle", QString()));
+        }
+        
+        if (m_applyColors) {
+            QString colorsFile = package.filePath("colors");
+            KConfigGroup cg(conf, "kdeglobals");
+            cg = KConfigGroup(&cg, "General");
+            QString colorScheme = cg.readEntry("ColorScheme", QString());
+
+            if (!colorsFile.isEmpty()) {
+                if (!colorScheme.isEmpty()) {
+                    setColors(colorScheme, colorsFile);
+                } else {
+                    setColors(package.metadata().name(), colorsFile);
+                }
+            } else if (!colorScheme.isEmpty()) {
+                colorScheme.remove(QLatin1Char('\'')); // So Foo's does not become FooS
+                QRegExp fixer(QStringLiteral("[\\W,.-]+(.?)"));
+                int offset;
+                while ((offset = fixer.indexIn(colorScheme)) >= 0) {
+                    colorScheme.replace(offset, fixer.matchedLength(), fixer.cap(1).toUpper());
+                }
+                colorScheme.replace(0, 1, colorScheme.at(0).toUpper());
+
+                //NOTE: why this loop trough all the scheme files?
+                //the scheme theme name is an heuristic, there is no plugin metadata whatsoever.
+                //is based on the file name stripped from weird characters or the
+                //eventual id- prefix store.kde.org puts, so we can just find a
+                //theme that ends as the specified name
+                bool schemeFound = false;
+                const QStringList schemeDirs = QStandardPaths::locateAll(QStandardPaths::GenericDataLocation, QStringLiteral("color-schemes"), QStandardPaths::LocateDirectory);
+                for (const QString &dir : schemeDirs) {
+                    const QStringList fileNames = QDir(dir).entryList(QStringList()<<QStringLiteral("*.colors"));
+                    for (const QString &file : fileNames) {
+                        if (file.endsWith(colorScheme + QStringLiteral(".colors"))) {
+                            setColors(colorScheme, dir + QLatin1Char('/') + file);
+                            schemeFound = true;
+                            break;
+                        }
+                    }
+                    if (schemeFound) {
+                        break;
+                    }
+                }
+            }
+        }
+        
+        cg = KConfigGroup(conf, "GTK");
+        cg = KConfigGroup(&cg, "Settings");
+        setGTK(cg.readEntry("gtk-theme-name", QString()));
+        
+        std::system("/usr/bin/feren-theme-tool-plasma triggerxsettingsd");
+
+        if (m_applyIcons) {
+            cg = KConfigGroup(conf, "kdeglobals");
+            cg = KConfigGroup(&cg, "Icons");
+            setIcons(cg.readEntry("Theme", QString()));
+        }
+
+        if (m_applyPlasmaTheme) {
+            cg = KConfigGroup(conf, "plasmarc");
+            cg = KConfigGroup(&cg, "Theme");
+            setPlasmaTheme(cg.readEntry("name", QString()));
+        }
+    }
 
     m_configGroup.sync();
     m_package.setPath(m_selectedPlugin);
