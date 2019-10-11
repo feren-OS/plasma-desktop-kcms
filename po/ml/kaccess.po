@@ -8,9 +8,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaccess trunk\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
-"PO-Revision-Date: 2019-08-11 14:09+0530\n"
-"Last-Translator: Subin Siby <mail@subinsb.com>\n"
+"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"PO-Revision-Date: 2008-07-12 00:21+0530\n"
+"Last-Translator: Manu|മനു S|എസ് Madhav|മാധവ് <manusmad@gmail.com>\n"
 "Language-Team: Swathanthra|സ്വതന്ത്ര Malayalam|മലയാളം Computing|കമ്പ്യൂട്ടിങ്ങ് <smc-"
 "discuss@googlegroups.com>\n"
 "Language: ml\n"
@@ -202,6 +202,7 @@ msgstr ""
 
 #: kaccess.cpp:359
 #, fuzzy, kde-format
+#| msgid "KDE Accessibility Tool"
 msgctxt "Name for kaccess shortcuts category"
 msgid "Accessibility"
 msgstr "കെ.ഡി.ഇ സമീപ്യതാ ഉപകരണം"
@@ -403,6 +404,13 @@ msgstr "മറ്റൊരു പ്രവര്‍ത്തനം ഇതിന�
 
 #: kaccess.cpp:862
 #, fuzzy, kde-format
+#| msgid ""
+#| "These AccessX settings are needed for some users with motion impairments "
+#| "and can be configured in the KDE Control Center. You can also turn them "
+#| "on and off with standardized keyboard gestures.\n"
+#| "\n"
+#| "If you do not need them, you can select \"Deactivate all AccessX features "
+#| "and gestures\"."
 msgid ""
 "These AccessX settings are needed for some users with motion impairments and "
 "can be configured in the KDE System Settings. You can also turn them on and "

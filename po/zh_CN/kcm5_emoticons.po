@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
-"PO-Revision-Date: 2019-08-16 17:06\n"
+"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"PO-Revision-Date: 2019-07-18 15:08\n"
 "Last-Translator: Guo Yunhe (guoyunhe)\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -85,8 +85,7 @@ msgid "New Emoticon Theme"
 msgstr "新表情主题"
 
 #: emoticonslist.cpp:364
-#, fuzzy, kde-format
-#| msgid "Name of new emoticon theme:"
+#, kde-format
 msgid "Name of new emoticon theme:"
 msgstr "新表情主题的名称："
 
@@ -124,24 +123,19 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, btInstall)
 #: emoticonslist.ui:32
-#, fuzzy, kde-format
-#| msgid "Install from File..."
+#, kde-format
 msgid "Install from File..."
 msgstr "从文件安装..."
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, btNew)
 #: emoticonslist.ui:45
-#, fuzzy, kde-format
-#| msgid "Create New Theme..."
+#, kde-format
 msgid "Create New Theme..."
 msgstr "新建主题..."
 
 #. i18n: ectx: property (whatsThis), widget (QPushButton, btNew)
 #: emoticonslist.ui:48
-#, fuzzy, kde-format
-#| msgid ""
-#| "Create a new theme by assigning it a name. Then use the Add button on the "
-#| "right to add emoticons to this theme."
+#, kde-format
 msgid ""
 "Create a new theme by assigning it a name. Then use the Add button on the "
 "right to add emoticons to this theme."
@@ -161,19 +155,13 @@ msgstr "这将从磁盘上删除所选的主题。"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, btGetNew)
 #: emoticonslist.ui:115
-#, fuzzy, kde-format
-#| msgid "Get new emoticon icon themes from the Internet"
+#, kde-format
 msgid "Get new emoticon icon themes from the Internet"
 msgstr "从互联网上获取新表情主题"
 
 #. i18n: ectx: property (whatsThis), widget (QPushButton, btGetNew)
 #: emoticonslist.ui:118
-#, fuzzy, kde-format
-#| msgid ""
-#| "You need to be connected to the Internet to use this action. A dialog "
-#| "will display a list of emoticon themes from the https://store.kde.org "
-#| "website. Clicking the Install button associated with a theme will install "
-#| "this theme locally."
+#, kde-format
 msgid ""
 "You need to be connected to the Internet to use this action. A dialog will "
 "display a list of emoticon themes from the https://store.kde.org website. "
@@ -197,10 +185,9 @@ msgstr "在表情符两边需要空格"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, btAdd)
 #: emoticonslist.ui:161
-#, fuzzy, kde-format
-#| msgid "Get New Emoticons..."
+#, kde-format
 msgid "Create New Emoticon..."
-msgstr "获取新表情包..."
+msgstr "新建表情..."
 
 #. i18n: ectx: property (whatsThis), widget (QPushButton, btAdd)
 #: emoticonslist.ui:164
@@ -222,10 +209,9 @@ msgstr "从磁盘上删除所选的表情"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, btEdit)
 #: emoticonslist.ui:193
-#, fuzzy, kde-format
-#| msgid "Edit Emoticon"
+#, kde-format
 msgid "Edit Emoticon..."
-msgstr "编辑表情"
+msgstr "编辑表情..."
 
 #. i18n: ectx: property (whatsThis), widget (QPushButton, btEdit)
 #: emoticonslist.ui:196

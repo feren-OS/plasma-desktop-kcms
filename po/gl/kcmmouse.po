@@ -27,7 +27,11 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 18.12.2\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Environment: kde\n"
+"X-Accelerator-Marker: &\n"
+"X-Text-Markup: kde4\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -391,7 +395,7 @@ msgid ""
 msgstr ""
 "O intervalo de duplo-clic é o tempo máximo (en milisegundos) entre dúas "
 "pulsacións do rato no que se interpreta a acción como un duplo-clic. Se a "
-"segunda pulsación acontece despois do intervalo de tempo escollido, non se "
+"segunda pulsación ocorre despois do intervalo de tempo escollido, non se "
 "recoñece a acción como un duplo-clic, senón como pulsacións separadas."
 
 #. i18n: ectx: property (suffix), widget (QSpinBox, doubleClickInterval)
@@ -412,9 +416,9 @@ msgid ""
 "If you click with the mouse (e.g. in a multi-line editor) and begin to move "
 "the mouse within the drag start time, a drag operation will be initiated."
 msgstr ""
-"Se vostede preme co rato (p.ex. nun editor multi-liña) e comeza a mover o "
-"rato co botón premido dentro do tempo de inicio do arrastre, iniciarase unha "
-"operación de arrastre."
+"Se fai clic co rato (p. ex. nun editor de varias liñas) e comece a mover o "
+"rato dentro do tempo de inicio do arrastre, iniciarase unha operación de "
+"arrastre."
 
 #. i18n: ectx: property (whatsThis), widget (QSpinBox, dragStartDist)
 #: kcm/xlib/kcmmouse.ui:333
@@ -423,8 +427,8 @@ msgid ""
 "If you click with the mouse and begin to move the mouse at least the drag "
 "start distance, a drag operation will be initiated."
 msgstr ""
-"Se preme co rato e comeza a movelo sen soltar o botón, fará un arrastre se "
-"sobrepasa a distancia de comezo."
+"Se fai clic co rato e comeza a movelo polo menos a distancia de arrastre "
+"iniciarase a operación de arrastrar."
 
 #. i18n: ectx: property (whatsThis), widget (QSpinBox, wheelScrollLines)
 #: kcm/xlib/kcmmouse.ui:355

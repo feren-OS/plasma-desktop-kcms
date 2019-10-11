@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_org.kde.plasma.taskmanager\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"POT-Creation-Date: 2019-06-23 07:22+0200\n"
 "PO-Revision-Date: 2019-04-25 20:27+0100\n"
 "Last-Translator: Josep Ma. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
@@ -44,8 +44,7 @@ msgid "9,999+"
 msgstr "9.999+"
 
 #: package/contents/ui/ConfigAppearance.qml:48
-#, fuzzy, kde-format
-#| msgid "General:"
+#, kde-format
 msgid "General:"
 msgstr "General:"
 
@@ -100,20 +99,17 @@ msgid "Always arrange tasks in as many columns as rows"
 msgstr "Organitza sempre les tasques en tantes columnes com files"
 
 #: package/contents/ui/ConfigBehavior.qml:52
-#, fuzzy, kde-format
-#| msgid "Group:"
+#, kde-format
 msgid "Group:"
 msgstr "Grup:"
 
 #: package/contents/ui/ConfigBehavior.qml:54
-#, fuzzy, kde-format
-#| msgid "Do not group"
+#, kde-format
 msgid "Do not group"
 msgstr "No agrupes"
 
 #: package/contents/ui/ConfigBehavior.qml:54
-#, fuzzy, kde-format
-#| msgid "By program name"
+#, kde-format
 msgid "By program name"
 msgstr "Per nom del programa"
 
@@ -123,14 +119,12 @@ msgid "Open groups in popups"
 msgstr "Obri els grups en finestres emergents"
 
 #: package/contents/ui/ConfigBehavior.qml:74
-#, fuzzy, kde-format
-#| msgid "Group only when the Task Manager is full"
+#, kde-format
 msgid "Group only when the Task Manager is full"
 msgstr "Agrupa només quan el gestor de tasques estiga ple"
 
 #: package/contents/ui/ConfigBehavior.qml:88
-#, fuzzy, kde-format
-#| msgid "Sort:"
+#, kde-format
 msgid "Sort:"
 msgstr "Ordenació:"
 
@@ -150,14 +144,12 @@ msgid "Alphabetically"
 msgstr "Alfabèticament"
 
 #: package/contents/ui/ConfigBehavior.qml:90
-#, fuzzy, kde-format
-#| msgid "By desktop"
+#, kde-format
 msgid "By desktop"
 msgstr "Per escriptori"
 
 #: package/contents/ui/ConfigBehavior.qml:90
-#, fuzzy, kde-format
-#| msgid "By activity"
+#, kde-format
 msgid "By activity"
 msgstr "Per activitat"
 
@@ -178,20 +170,17 @@ msgid "None"
 msgstr "Res"
 
 #: package/contents/ui/ConfigBehavior.qml:112
-#, fuzzy, kde-format
-#| msgid "Close window or group"
+#, kde-format
 msgid "Close window or group"
 msgstr "Tanca la finestra o grup"
 
 #: package/contents/ui/ConfigBehavior.qml:113
-#, fuzzy, kde-format
-#| msgid "New instance"
+#, kde-format
 msgid "New instance"
 msgstr "Instància nova"
 
 #: package/contents/ui/ConfigBehavior.qml:114
-#, fuzzy, kde-format
-#| msgid "Minimize/Restore window or group"
+#, kde-format
 msgid "Minimize/Restore window or group"
 msgstr "Minimitza/restaura la finestra o grup"
 
@@ -212,8 +201,7 @@ msgid "Cycle through tasks with mouse wheel"
 msgstr "Circula entre les tasques amb la roda del ratolí"
 
 #: package/contents/ui/ConfigBehavior.qml:131
-#, fuzzy, kde-format
-#| msgid "Filter:"
+#, kde-format
 msgid "Filter:"
 msgstr "Filtre:"
 
@@ -422,9 +410,7 @@ msgid "&Close"
 msgstr "Tan&ca"
 
 #: package/contents/ui/ToolTipInstance.qml:469
-#, fuzzy, kde-format
-#| msgctxt "Comma-separated list of desktops"
-#| msgid "On %1"
+#, kde-format
 msgctxt "Comma-separated list of desktops"
 msgid "On %1"
 msgstr "En %1"

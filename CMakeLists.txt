@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.0)
 
 project(plasma-desktop)
 
-set(PROJECT_VERSION "5.16.5")
+set(PROJECT_VERSION "5.16.4")
 set(PROJECT_VERSION_MAJOR 5)
 
 set(QT_MIN_VERSION "5.11.0")
@@ -177,22 +177,8 @@ plasma_install_package(desktoppackage org.kde.plasma.desktop shells shell)
 
 add_definitions(-DQT_NO_URL_CAST_FROM_STRING)
 
-add_subdirectory(layout-templates)
-
-add_subdirectory(doc)
-add_subdirectory(runners)
-add_subdirectory(containments)
-add_subdirectory(toolboxes)
-add_subdirectory(applets)
-add_subdirectory(dataengines)
 add_subdirectory(kcms)
-add_subdirectory(knetattach)
-add_subdirectory(attica-kde)
-add_subdirectory(imports/activitymanager/)
-add_subdirectory(solid-device-automounter)
-if(X11_Xkb_FOUND AND XCB_XKB_FOUND)
-    add_subdirectory(kaccess)
-endif()
+
 install(FILES org.kde.plasmashell.metainfo.xml DESTINATION ${KDE_INSTALL_METAINFODIR})
 install(FILES plasma-desktop.categories DESTINATION ${KDE_INSTALL_CONFDIR})
 feature_summary(WHAT ALL INCLUDE_QUIET_PACKAGES FATAL_ON_MISSING_REQUIRED_PACKAGES)

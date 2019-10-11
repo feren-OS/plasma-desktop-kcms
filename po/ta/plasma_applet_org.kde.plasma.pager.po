@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_pager\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"POT-Creation-Date: 2019-05-20 07:46+0200\n"
 "PO-Revision-Date: 2008-03-19 09:25+0530\n"
 "Last-Translator: ஆமாச்சு <amachu@ubuntu.com>\n"
 "Language-Team: தமிழ் <https://lists.ubuntu.com/mailman/listinfo/ubuntu-l10n-"
@@ -98,10 +98,9 @@ msgid "Desktop name"
 msgstr "திரைமேசை பெயர்"
 
 #: package/contents/ui/configGeneral.qml:152
-#, fuzzy, kde-format
-#| msgid "&Configure Desktops..."
+#, kde-format
 msgid "Selecting current Activity:"
-msgstr "திரைமேசைகளை &வடிவமைக்க..."
+msgstr ""
 
 #: package/contents/ui/configGeneral.qml:152
 #, fuzzy, kde-format

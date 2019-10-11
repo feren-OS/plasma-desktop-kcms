@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmicons\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"POT-Creation-Date: 2019-05-20 07:46+0200\n"
 "PO-Revision-Date: 2019-01-14 16:58+0100\n"
 "Last-Translator: Vit Pelcak <vit@pelcak.org>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
@@ -66,12 +66,12 @@ msgstr "Jonathan Riddell"
 #: main.cpp:92
 #, kde-format
 msgid "Kai Uwe Broulik"
-msgstr ""
+msgstr "Kai Uwe Broulik"
 
 #: main.cpp:284
 #, kde-format
 msgid "Download New Icon Themes"
-msgstr ""
+msgstr "Stáhnout nové motivy ikon"
 
 #: main.cpp:320
 #, kde-format
@@ -79,10 +79,9 @@ msgid "Unable to create a temporary file."
 msgstr "Nelze vytvořit dočasný soubor."
 
 #: main.cpp:332
-#, fuzzy, kde-format
-#| msgid "Unable to find the icon theme archive %1."
+#, kde-format
 msgid "Unable to download the icon theme archive: %1"
-msgstr "Nelze najít archiv motivu s ikonami %1."
+msgstr "Nelze stáhnout archiv motivu s ikonami: %1"
 
 #: main.cpp:346
 #, kde-format
@@ -101,7 +100,7 @@ msgstr ""
 #: main.cpp:355
 #, kde-format
 msgid "Theme installed successfully."
-msgstr ""
+msgstr "Motiv byl úspěšně nainstalován."
 
 #: main.cpp:465
 #, kde-format
@@ -109,10 +108,9 @@ msgid "Installing icon themes..."
 msgstr "Instalace motivů ikon..."
 
 #: main.cpp:475
-#, fuzzy, kde-format
-#| msgid "Installing icon themes..."
+#, kde-format
 msgid "Installing %1 theme..."
-msgstr "Instalace motivů ikon..."
+msgstr "Probíhá instalace motivu %1..."
 
 #: package/contents/ui/IconSizePopup.qml:91
 #, kde-format
@@ -147,121 +145,39 @@ msgstr "Dialogy"
 #: package/contents/ui/main.qml:34
 #, kde-format
 msgid "This module allows you to choose the icons for your desktop."
-msgstr ""
+msgstr "Tento modul vám umožňuje vybrat ikony pro vaši pracovní plochu."
 
 #: package/contents/ui/main.qml:155
-#, fuzzy, kde-format
-#| msgid "Remove Theme"
+#, kde-format
 msgid "Remove Icon Theme"
-msgstr "Odstranit motiv"
+msgstr "Odstranit motiv Ikon"
 
 #: package/contents/ui/main.qml:162
-#, fuzzy, kde-format
-#| msgid "Remove Theme"
+#, kde-format
 msgid "Restore Icon Theme"
-msgstr "Odstranit motiv"
+msgstr "Obnovit motiv Ikon"
 
 #: package/contents/ui/main.qml:231
 #, kde-format
 msgid "Configure Icon Sizes"
-msgstr ""
+msgstr "Nastavit velikosti ikon"
 
 #: package/contents/ui/main.qml:247
-#, fuzzy, kde-format
-#| msgid "Install from File"
+#, kde-format
 msgid "Install from File..."
-msgstr "Instalovat ze souboru"
+msgstr "Instalovat ze souboru..."
 
 #: package/contents/ui/main.qml:253
-#, fuzzy, kde-format
-#| msgid "Get New Themes..."
+#, kde-format
 msgid "Get New Icons..."
-msgstr "Získat nové motivy..."
+msgstr "Získat nové ikony..."
 
 #: package/contents/ui/main.qml:274
-#, fuzzy, kde-format
-#| msgid "Remove Theme"
+#, kde-format
 msgid "Open Theme"
-msgstr "Odstranit motiv"
+msgstr "Otevřít motiv"
 
 #: package/contents/ui/main.qml:276
 #, kde-format
 msgid "Theme Files (*.tar.gz *.tar.bz2)"
-msgstr ""
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# Tohle vypadá na název vlastnosti. Jméno bycvh nechal pro lidi a zvířata.
+msgstr "Soubory motivů (*.tar.gz *.tar.bz2)"

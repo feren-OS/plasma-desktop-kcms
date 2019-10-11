@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_trash\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
-"PO-Revision-Date: 2019-08-11 14:09+0530\n"
-"Last-Translator: Subin Siby <mail@subinsb.com>\n"
+"POT-Creation-Date: 2019-06-03 07:49+0200\n"
+"PO-Revision-Date: 2008-07-05 09:26+0530\n"
+"Last-Translator: ANI PETER|അനി പീറ്റര്‍ <peter.ani@gmail.com>\n"
 "Language-Team: Swathanthra|സ്വതന്ത്ര Malayalam|മലയാളം Computing|കമ്പ്യൂട്ടിങ്ങ് <smc-"
 "discuss@googlegroups.com>\n"
 "Language: ml\n"
@@ -21,12 +21,15 @@ msgstr ""
 
 #: contents/ui/main.qml:100
 #, fuzzy, kde-format
+#| msgid "&Open"
 msgctxt "a verb"
 msgid "Open"
 msgstr "&തുറക്കുക"
 
 #: contents/ui/main.qml:101
 #, fuzzy, kde-format
+#| msgctxt "The trash is empty. This is not an action, but a state"
+#| msgid "Empty"
 msgctxt "a verb"
 msgid "Empty"
 msgstr "കാലി"
@@ -38,6 +41,7 @@ msgstr ""
 
 #: contents/ui/main.qml:155
 #, fuzzy, kde-format
+#| msgid "Trash"
 msgid ""
 "Trash\n"
 "Empty"
@@ -45,6 +49,8 @@ msgstr "ചവറ്റുകുട്ട"
 
 #: contents/ui/main.qml:155
 #, fuzzy, kde-format
+#| msgid "One item"
+#| msgid_plural "%1 items"
 msgid ""
 "Trash\n"
 "One item"
@@ -61,11 +67,15 @@ msgstr "ചവറ്റുകുട്ട"
 
 #: contents/ui/main.qml:165
 #, fuzzy, kde-format
+#| msgctxt "The trash is empty. This is not an action, but a state"
+#| msgid "Empty"
 msgid "Empty"
 msgstr "കാലി"
 
 #: contents/ui/main.qml:165
 #, fuzzy, kde-format
+#| msgid "One item"
+#| msgid_plural "%1 items"
 msgid "One item"
 msgid_plural "%1 items"
 msgstr[0] "ഒരു വസ്തു"

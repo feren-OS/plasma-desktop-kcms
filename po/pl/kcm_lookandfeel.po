@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"POT-Creation-Date: 2019-06-26 07:33+0200\n"
 "PO-Revision-Date: 2019-03-02 06:07+0100\n"
 "Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
 "Language-Team: Polish <kde-i18n-doc@kde.org>\n"
@@ -39,15 +39,12 @@ msgid "Marco Martin"
 msgstr "Marco Martin"
 
 #: kcm.cpp:112
-#, fuzzy, kde-format
-#| msgid "Download New Look and Feel Themes"
+#, kde-format
 msgid "Download New Look and Feel Themes"
 msgstr "Pobierz nowe pakiety wyglądu dla wrażeń wzrokowych i dotykowych"
 
 #: kcm.cpp:572
-#, fuzzy, kde-format
-#| msgid ""
-#| "You have to restart the Plasma session for these changes to take effect."
+#, kde-format
 msgid ""
 "You have to restart the Plasma session for these changes to take effect."
 msgstr "Zmiany zostaną zastosowane dopiero po ponownym uruchomieniu Plazmy."
@@ -108,10 +105,7 @@ msgid "Preview Theme"
 msgstr "Podgląd wyglądu"
 
 #: package/contents/ui/main.qml:67
-#, fuzzy, kde-format
-#| msgid ""
-#| "Your desktop layout will be lost and reset to the default layout provided "
-#| "by the selected theme."
+#, kde-format
 msgid ""
 "Your desktop layout will be lost and reset to the default layout provided by "
 "the selected theme."
@@ -120,13 +114,11 @@ msgstr ""
 "dostarczonego z wybranym wyglądem."
 
 #: package/contents/ui/main.qml:77
-#, fuzzy, kde-format
-#| msgid "Use desktop layout from theme"
+#, kde-format
 msgid "Use desktop layout from theme"
 msgstr "Użyj układu pulpitu z wyglądu"
 
 #: package/contents/ui/main.qml:84
-#, fuzzy, kde-format
-#| msgid "Choose the Look and Feel theme"
+#, kde-format
 msgid "Get New Look and Feel Themes..."
-msgstr "Wybierz jak będą wyglądać wrażenia wzrokowe i dotykowe"
+msgstr "Pobierz nowe pakiety wyglądu dla wrażeń wzrokowych i dotykowych..."

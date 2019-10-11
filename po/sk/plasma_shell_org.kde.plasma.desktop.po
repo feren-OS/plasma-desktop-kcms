@@ -1,20 +1,20 @@
 # translation of plasma_shell_org.kde.plasma.desktop.po to Slovak
-# Roman Paholik <wizzardsk@gmail.com>, 2014, 2015, 2016, 2017, 2019.
+# Roman Paholik <wizzardsk@gmail.com>, 2014, 2015, 2016, 2017.
 # Mthw <jari_45@hotmail.com>, 2018, 2019.
 # Matej Mrenica <matejm98mthw@gmail.com>, 2019.
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma_shell_org.kde.plasma.desktop\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
-"PO-Revision-Date: 2019-08-30 20:25+0200\n"
-"Last-Translator: Roman Paholík <wizzardsk@gmail.com>\n"
-"Language-Team: Slovak <kde-sk@linux.sk>\n"
+"POT-Creation-Date: 2019-06-15 07:36+0200\n"
+"PO-Revision-Date: 2019-05-06 15:25+0200\n"
+"Last-Translator: Matej Mrenica <matejm98mthw@gmail.com>\n"
+"Language-Team: Slovak <kde-i18n-doc@kde.org>\n"
 "Language: sk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 18.12.3\n"
+"X-Generator: Lokalize 19.04.0\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 
 #: contents/activitymanager/ActivityItem.qml:206

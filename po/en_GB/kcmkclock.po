@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkclock\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"POT-Creation-Date: 2019-05-20 07:46+0200\n"
 "PO-Revision-Date: 2019-03-24 19:30+0000\n"
 "Last-Translator: Steve Allewell <steve.allewell@gmail.com>\n"
 "Language-Team: British English <kde-i18n-doc@kde.org>\n"
@@ -74,8 +74,7 @@ msgstr "Current local time zone:"
 
 #. i18n: ectx: property (placeholderText), widget (KTreeWidgetSearchLine, tzonesearch)
 #: dateandtime.ui:161
-#, fuzzy, kde-format
-#| msgid "Search..."
+#, kde-format
 msgid "Search..."
 msgstr "Search..."
 

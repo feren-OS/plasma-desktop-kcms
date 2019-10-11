@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-desktop\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
-"PO-Revision-Date: 2019-08-28 16:32+0700\n"
+"POT-Creation-Date: 2019-06-23 07:22+0200\n"
+"PO-Revision-Date: 2019-05-18 07:45+0700\n"
 "Last-Translator: Wantoyo <wantoyek@gmail.com>\n"
 "Language-Team: Indonesian <kde-i18n-doc@kde.org>\n"
 "Language: id\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 19.04.3\n"
+"X-Generator: Lokalize 19.04.1\n"
 
 #: package/contents/config/config.qml:26
 #, kde-format
@@ -91,28 +91,24 @@ msgid "Description (Name)"
 msgstr "Deskripsi (nama)"
 
 #: package/contents/ui/ConfigGeneral.qml:173
-#, fuzzy, kde-format
-#| msgid "Behavior"
+#, kde-format
 msgid "Behavior:"
-msgstr "Perilaku"
+msgstr "Perilaku:"
 
 #: package/contents/ui/ConfigGeneral.qml:175
-#, fuzzy, kde-format
-#| msgid "Sort alphabetically"
+#, kde-format
 msgid "Sort applications alphabetically"
-msgstr "Urutkan secara alfabet"
+msgstr "Urutkan aplikasi secara alfabet"
 
 #: package/contents/ui/ConfigGeneral.qml:183
-#, fuzzy, kde-format
-#| msgid "Flatten menu to a single level"
+#, kde-format
 msgid "Flatten sub-menus to a single level"
-msgstr "Ratakan menu menjadi satu level"
+msgstr "Ratakan sub-menu ke satu level"
 
 #: package/contents/ui/ConfigGeneral.qml:194
-#, fuzzy, kde-format
-#| msgid "Categories"
+#, kde-format
 msgid "Show categories:"
-msgstr "Kategori"
+msgstr "Tampilkan kategori:"
 
 #: package/contents/ui/ConfigGeneral.qml:197
 #, kde-format
@@ -140,10 +136,9 @@ msgid "Recent contacts"
 msgstr "Kontak baru-baru ini"
 
 #: package/contents/ui/ConfigGeneral.qml:214
-#, fuzzy, kde-format
-#| msgid "Show often used contacts"
+#, kde-format
 msgid "Often used contacts"
-msgstr "Tampilkan kontak yang sering digunakan"
+msgstr "Kontak yang sering digunakan"
 
 #: package/contents/ui/ConfigGeneral.qml:220
 #, kde-format
@@ -151,26 +146,23 @@ msgid "Sort items in categories by:"
 msgstr "Urutkan item-item dalam kategori berdasarkan:"
 
 #: package/contents/ui/ConfigGeneral.qml:221
-#, fuzzy, kde-format
-#| msgid "Recently used"
+#, kde-format
 msgctxt ""
 "@item:inlistbox Sort items in categories by [Recently used | Often used]"
 msgid "Recently used"
 msgstr "Barusan digunakan"
 
 #: package/contents/ui/ConfigGeneral.qml:221
-#, fuzzy, kde-format
-#| msgid "Often used"
+#, kde-format
 msgctxt ""
 "@item:inlistbox Sort items in categories by [Recently used | Ofetn used]"
 msgid "Often used"
 msgstr "Sering  digunakan"
 
 #: package/contents/ui/ConfigGeneral.qml:231
-#, fuzzy, kde-format
-#| msgid "Search"
+#, kde-format
 msgid "Search:"
-msgstr "Cari"
+msgstr "Cari:"
 
 #: package/contents/ui/ConfigGeneral.qml:233
 #, kde-format
@@ -188,10 +180,9 @@ msgid "Searching for '%1'"
 msgstr "Mencari '%1'"
 
 #: package/contents/ui/DashboardRepresentation.qml:305
-#, fuzzy, kde-format
-#| msgid "Type to search."
+#, kde-format
 msgid "Type to search..."
-msgstr "Ketik untuk mencari."
+msgstr "Ketik untuk mencari..."
 
 #: package/contents/ui/DashboardRepresentation.qml:405
 #: plugin/kastatsfavoritesmodel.cpp:494 plugin/simplefavoritesmodel.cpp:43
@@ -491,7 +482,7 @@ msgstr "Suspensikan ke disk"
 #: plugin/systementry.cpp:252
 #, kde-format
 msgid "Restart computer"
-msgstr "Menyalakan-ulang komputer"
+msgstr "Menyalakan ulang komputer"
 
 #: plugin/systementry.cpp:255
 #, kde-format

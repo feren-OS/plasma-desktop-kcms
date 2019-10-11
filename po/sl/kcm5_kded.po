@@ -1,6 +1,6 @@
 # Translation of kcmkded.po to Slovenian
 # Copyright (C) 2002, 2003, 2004 Free Software Foundation, Inc.
-# $Id: kcm5_kded.po 1550639 2019-08-30 07:08:12Z scripty $
+# $Id: kcm5_kded.po 1542253 2019-05-20 06:55:29Z scripty $
 # $Source$
 #
 # Gregor Rakar <gregor.rakar@kiss.si>, 2002, 2003, 2004.
@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkded\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"POT-Creation-Date: 2019-05-20 07:46+0200\n"
 "PO-Revision-Date: 2017-03-31 21:19+0100\n"
 "Last-Translator: Andrej Mernik <andrejm@ubuntu.si>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"

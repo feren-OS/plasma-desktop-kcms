@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_folderview\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
-"PO-Revision-Date: 2019-08-06 18:31+0700\n"
+"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"PO-Revision-Date: 2019-07-11 23:09+0700\n"
 "Last-Translator: Wantoyo <wantoyek@gmail.com>\n"
 "Language-Team: Indonesian <kde-i18n-doc@kde.org>\n"
 "Language: id\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 19.04.3\n"
+"X-Generator: Lokalize 19.04.2\n"
 
 #: package/contents/config/config.qml:29
 msgid "Location"
@@ -58,22 +58,16 @@ msgid "Files:"
 msgstr "File-file:"
 
 #: package/contents/ui/ConfigFilter.qml:77
-#, fuzzy
-#| msgid "Show a place:"
 msgid "Show all"
-msgstr "Tampilkan sebuah tempat:"
+msgstr "Tampilkan semua"
 
 #: package/contents/ui/ConfigFilter.qml:77
-#, fuzzy
-#| msgid "Show Files Matching"
 msgid "Show matching"
-msgstr "Tampilkan File Yang Cocok"
+msgstr "Tampilkan yang cocok"
 
 #: package/contents/ui/ConfigFilter.qml:77
-#, fuzzy
-#| msgid "Hide Files Matching"
 msgid "Hide matching"
-msgstr "Sembunyikan File Yang Cocok"
+msgstr "Sembunyikan yang cocok"
 
 #: package/contents/ui/ConfigFilter.qml:82
 msgid "File name pattern:"
@@ -84,10 +78,8 @@ msgid "File types:"
 msgstr "Tipe file:"
 
 #: package/contents/ui/ConfigFilter.qml:90
-#, fuzzy
-#| msgid "Search file type..."
 msgid "Search..."
-msgstr "Cari tipe file ..."
+msgstr "Cari..."
 
 #: package/contents/ui/ConfigFilter.qml:188
 msgid "File type"
@@ -187,19 +179,16 @@ msgstr "Tanggal"
 #: plugins/folder/viewpropertiesmenu.cpp:79
 #, kde-format
 msgid "Descending"
-msgstr "Urut turun"
+msgstr "Turun"
 
 #: package/contents/ui/ConfigIcons.qml:204
 msgid "Folders first"
-msgstr "Folder dulu"
+msgstr "Folder pertama"
 
 #: package/contents/ui/ConfigIcons.qml:218
-#, fuzzy
-#| msgctxt "whether to use icon or list view"
-#| msgid "View mode"
 msgctxt "whether to use icon or list view"
 msgid "View mode:"
-msgstr "Mode tampilan"
+msgstr "Mode tampilan:"
 
 #: package/contents/ui/ConfigIcons.qml:220
 msgid "List"
@@ -240,18 +229,14 @@ msgid "Wide"
 msgstr "Luas"
 
 #: package/contents/ui/ConfigIcons.qml:276
-#, fuzzy
-#| msgid "Text lines"
 msgid "Text lines:"
-msgstr "Baris teks"
+msgstr "Baris teks:"
 
 #: package/contents/ui/ConfigIcons.qml:292
 msgid "Features:"
 msgstr "Fitur:"
 
 #: package/contents/ui/ConfigIcons.qml:294
-#, fuzzy
-#| msgid "Tool tips"
 msgid "Tooltips"
 msgstr "Tip alat"
 
@@ -268,10 +253,8 @@ msgid "Preview thumbnails"
 msgstr "Gambar-mini pratinjau"
 
 #: package/contents/ui/ConfigIcons.qml:321
-#, fuzzy
-#| msgid "More Preview Options..."
 msgid "Configure Preview Plugins..."
-msgstr "Opsi Pratinjau Selebihnya..."
+msgstr "Konfigurasikan Plugin Pratinjau..."
 
 #: package/contents/ui/ConfigLocation.qml:93
 msgid "Show:"
@@ -282,10 +265,8 @@ msgid "Desktop folder"
 msgstr "Folder desktop"
 
 #: package/contents/ui/ConfigLocation.qml:102
-#, fuzzy
-#| msgid "Show files linked to the current activity"
 msgid "Files linked to the current activity"
-msgstr "Tampilkan file yang ditautkan dengan aktivitas saat ini"
+msgstr "File-file yang ditautkan ke aktivitas saat ini"
 
 #: package/contents/ui/ConfigLocation.qml:109
 msgid "Places panel item:"
@@ -296,10 +277,8 @@ msgid "Custom location:"
 msgstr "Lokasi kustom:"
 
 #: package/contents/ui/ConfigLocation.qml:150
-#, fuzzy
-#| msgid "Type a path or a URL here"
 msgid "Type path or URL..."
-msgstr "Ketikkan sebuah alur atau URL di sini"
+msgstr "Ketik alur atau URL..."
 
 #: package/contents/ui/ConfigLocation.qml:191
 msgid "Title:"
@@ -322,10 +301,8 @@ msgid "Custom title"
 msgstr "Judul kustom"
 
 #: package/contents/ui/ConfigLocation.qml:208
-#, fuzzy
-#| msgid "Enter custom title here"
 msgid "Enter custom title..."
-msgstr "Masukkan judul kustom di sini"
+msgstr "Masukkan judul kustom..."
 
 #: package/contents/ui/ConfigTweaks.qml:43
 msgid ""
@@ -371,10 +348,8 @@ msgid "Got it"
 msgstr "Mengerti"
 
 #: package/contents/ui/main.qml:597
-#, fuzzy
-#| msgid "Configure Desktop"
 msgid "Configure Desktop..."
-msgstr "Konfigurasikan Desktop"
+msgstr "Konfigurasikan Desktop..."
 
 #: plugins/folder/directorypicker.cpp:45
 #, kde-format
@@ -392,10 +367,9 @@ msgid "&Refresh View"
 msgstr "&Segarkan Tampilan"
 
 #: plugins/folder/foldermodel.cpp:1616
-#, fuzzy, kde-format
-#| msgid "&Empty Trash Bin"
+#, kde-format
 msgid "&Empty Trash"
-msgstr "&Kosongkan Tempat Sampah"
+msgstr "&Bersihkan Sesampahan"
 
 #: plugins/folder/foldermodel.cpp:1619
 #, kde-format

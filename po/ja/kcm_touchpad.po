@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcm_touchpad\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"POT-Creation-Date: 2019-06-20 07:49+0200\n"
 "PO-Revision-Date: 2019-05-25 14:37-0700\n"
 "Last-Translator: Fumiaki Okushi <fumiaki.okushi@gmail.com>\n"
 "Language-Team: Japanese <kde-jp@kde.org>\n"
@@ -121,11 +121,9 @@ msgid "Pointer speed:"
 msgstr "ポインタの速度:"
 
 #: src/kcm/libinput/touchpad.qml:266
-#, fuzzy, kde-format
-#| msgctxt "Pointer acceleration"
-#| msgid "Acceleration:"
+#, kde-format
 msgid "Acceleration profile:"
-msgstr "アクセラレーション:"
+msgstr ""
 
 #: src/kcm/libinput/touchpad.qml:298
 #, kde-format
@@ -173,10 +171,9 @@ msgid "Sliding over touchpad directly after tap drags."
 msgstr ""
 
 #: src/kcm/libinput/touchpad.qml:395
-#, fuzzy, kde-format
-#| msgid "Tap-and-drag"
+#, kde-format
 msgid "Tap-and-drag lock"
-msgstr "タップしてドラッグ"
+msgstr ""
 
 #: src/kcm/libinput/touchpad.qml:399
 #, kde-format
@@ -302,10 +299,9 @@ msgid "Middle-click: "
 msgstr "中クリック:"
 
 #: src/kcm/libinput/touchpad.qml:704
-#, fuzzy, kde-format
-#| msgid "Press bottom-right corner"
+#, kde-format
 msgid "Press bottom-middle"
-msgstr "右下の角を押す"
+msgstr ""
 
 #: src/kcm/libinput/touchpad.qml:708
 #, kde-format

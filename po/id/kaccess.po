@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaccess\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"POT-Creation-Date: 2019-05-20 07:46+0200\n"
 "PO-Revision-Date: 2019-07-19 03:20+0700\n"
 "Last-Translator: Wantoyo <wantoyek@gmail.com>\n"
 "Language-Team: Indonesian <kde-i18n-doc@kde.org>\n"
@@ -327,11 +327,11 @@ msgstr ""
 #: kaccess.cpp:802
 #, kde-format
 msgid ""
-"Do you really want to activate \"%1\" and to deactivate \"%2\", \"%3\" and "
-"\"%4\"?"
+"Do you really want to activate \"%1\" and to deactivate \"%2\", \"%3\" and \""
+"%4\"?"
 msgstr ""
-"Anda yakin ingin mengaktifkan \"%1\" dan menonaktifkan \"%2\", \"%3\" dan "
-"\"%4\"?"
+"Anda yakin ingin mengaktifkan \"%1\" dan menonaktifkan \"%2\", \"%3\" dan \""
+"%4\"?"
 
 #: kaccess.cpp:809
 #, kde-format
@@ -362,8 +362,8 @@ msgstr "Anda yakin ingin mengaktifkan \"%1\", \"%2\" dan \"%3\"?"
 #: kaccess.cpp:827
 #, kde-format
 msgid ""
-"Do you really want to activate \"%1\", \"%2\" and \"%3\" and to deactivate "
-"\"%4\"?"
+"Do you really want to activate \"%1\", \"%2\" and \"%3\" and to deactivate \""
+"%4\"?"
 msgstr ""
 "Anda yakin ingin mengaktifkan \"%1\", \"%2\" dan \"%3\" serta menonaktifkan "
 "\"%4\"?"

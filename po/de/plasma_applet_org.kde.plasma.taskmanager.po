@@ -7,15 +7,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_tasks\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
-"PO-Revision-Date: 2019-09-03 06:22+0200\n"
+"POT-Creation-Date: 2019-06-23 07:22+0200\n"
+"PO-Revision-Date: 2019-03-22 09:00+0100\n"
 "Last-Translator: Burkhard Lück <lueck@hube-lueck.de>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 18.12.3\n"
+"X-Generator: Lokalize 2.0\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
 #: package/contents/config/config.qml:26
@@ -53,7 +53,7 @@ msgstr "Kurzinfos anzeigen"
 #: package/contents/ui/ConfigAppearance.qml:54
 #, kde-format
 msgid "Highlight windows when hovering over tasks"
-msgstr "Hervorheben von Fenstern beim Überfahren von Aufgaben"
+msgstr ""
 
 #: package/contents/ui/ConfigAppearance.qml:59
 #, kde-format
@@ -86,14 +86,16 @@ msgid "Maximum rows:"
 msgstr "Maximale Anzahl Zeilen:"
 
 #: package/contents/ui/ConfigAppearance.qml:111
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Always arrange tasks in rows of as many columns"
 msgid "Always arrange tasks in as many rows as columns"
-msgstr "Fenster immer in der gleichen Zeilenanzahl wie Spalten anordnen"
+msgstr "Fenster immer in Zeilen mit dieser Anzahl Spalten anordnen"
 
 #: package/contents/ui/ConfigAppearance.qml:111
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Always arrange tasks in rows of as many columns"
 msgid "Always arrange tasks in as many columns as rows"
-msgstr "Fenster immer in der gleichen Spaltenanzahl wie Zeilen anordnen"
+msgstr "Fenster immer in Zeilen mit dieser Anzahl Spalten anordnen"
 
 #: package/contents/ui/ConfigBehavior.qml:52
 #, kde-format
@@ -188,9 +190,10 @@ msgid "Group/Ungroup"
 msgstr "Gruppieren/Gruppierung aufheben"
 
 #: package/contents/ui/ConfigBehavior.qml:116
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Show only tasks from the current desktop"
 msgid "Bring to the current virtual desktop"
-msgstr "Zur aktuellen virtuellen Arbeitsfläche verschieben"
+msgstr "Nur Fenster der aktuellen Arbeitsfläche anzeigen"
 
 #: package/contents/ui/ConfigBehavior.qml:122
 #, kde-format
@@ -399,7 +402,7 @@ msgstr "Auf der aktuellen Aktivität"
 #: package/contents/ui/ContextMenu.qml:724
 #, kde-format
 msgid "Unpin from Task Manager"
-msgstr "Von Fensterleiste lösen"
+msgstr ""
 
 #: package/contents/ui/ContextMenu.qml:738
 #, kde-format

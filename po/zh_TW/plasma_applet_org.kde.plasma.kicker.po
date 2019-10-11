@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"POT-Creation-Date: 2019-06-23 07:22+0200\n"
 "PO-Revision-Date: 2019-04-24 00:37+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -92,62 +92,52 @@ msgid "Description (Name)"
 msgstr "描述（名稱）"
 
 #: package/contents/ui/ConfigGeneral.qml:173
-#, fuzzy, kde-format
-#| msgid "Behavior:"
+#, kde-format
 msgid "Behavior:"
 msgstr "行為："
 
 #: package/contents/ui/ConfigGeneral.qml:175
-#, fuzzy, kde-format
-#| msgid "Sort applications alphabetically"
+#, kde-format
 msgid "Sort applications alphabetically"
 msgstr "依應用程式字母排序"
 
 #: package/contents/ui/ConfigGeneral.qml:183
-#, fuzzy, kde-format
-#| msgid "Flatten sub-menus to a single level"
+#, kde-format
 msgid "Flatten sub-menus to a single level"
 msgstr "將子選單攤平成一個階級"
 
 #: package/contents/ui/ConfigGeneral.qml:194
-#, fuzzy, kde-format
-#| msgid "Show categories:"
+#, kde-format
 msgid "Show categories:"
 msgstr "顯示類別："
 
 #: package/contents/ui/ConfigGeneral.qml:197
-#, fuzzy, kde-format
-#| msgid "Recent Applications"
+#, kde-format
 msgid "Recent applications"
 msgstr "最近使用的應用程式"
 
 #: package/contents/ui/ConfigGeneral.qml:198
-#, fuzzy, kde-format
-#| msgid "Often Used Applications"
+#, kde-format
 msgid "Often used applications"
 msgstr "經常使用的應用程式"
 
 #: package/contents/ui/ConfigGeneral.qml:205
-#, fuzzy, kde-format
-#| msgid "Recent Documents"
+#, kde-format
 msgid "Recent documents"
 msgstr "最近使用的文件"
 
 #: package/contents/ui/ConfigGeneral.qml:206
-#, fuzzy, kde-format
-#| msgid "Often Used Documents"
+#, kde-format
 msgid "Often used documents"
 msgstr "經常使用的文件"
 
 #: package/contents/ui/ConfigGeneral.qml:213
-#, fuzzy, kde-format
-#| msgid "Recent Contacts"
+#, kde-format
 msgid "Recent contacts"
 msgstr "最近使用的聯絡人"
 
 #: package/contents/ui/ConfigGeneral.qml:214
-#, fuzzy, kde-format
-#| msgid "Often used contacts"
+#, kde-format
 msgid "Often used contacts"
 msgstr "經常使用的聯絡人"
 
@@ -157,28 +147,21 @@ msgid "Sort items in categories by:"
 msgstr "類別項目排序方式："
 
 #: package/contents/ui/ConfigGeneral.qml:221
-#, fuzzy, kde-format
-#| msgctxt ""
-#| "@item:inlistbox Sort items in categories by [Recently used | Often used]"
-#| msgid "Recently used"
+#, kde-format
 msgctxt ""
 "@item:inlistbox Sort items in categories by [Recently used | Often used]"
 msgid "Recently used"
 msgstr "最近使用"
 
 #: package/contents/ui/ConfigGeneral.qml:221
-#, fuzzy, kde-format
-#| msgctxt ""
-#| "@item:inlistbox Sort items in categories by [Recently used | Ofetn used]"
-#| msgid "Often used"
+#, kde-format
 msgctxt ""
 "@item:inlistbox Sort items in categories by [Recently used | Ofetn used]"
 msgid "Often used"
 msgstr "經常使用"
 
 #: package/contents/ui/ConfigGeneral.qml:231
-#, fuzzy, kde-format
-#| msgid "Search:"
+#, kde-format
 msgid "Search:"
 msgstr "搜尋："
 
@@ -198,8 +181,7 @@ msgid "Searching for '%1'"
 msgstr "正在搜尋「%1」"
 
 #: package/contents/ui/DashboardRepresentation.qml:305
-#, fuzzy, kde-format
-#| msgid "Type to search..."
+#, kde-format
 msgid "Type to search..."
 msgstr "輸入以搜尋…"
 

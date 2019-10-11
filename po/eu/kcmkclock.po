@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkclock\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"POT-Creation-Date: 2019-05-20 07:46+0200\n"
 "PO-Revision-Date: 2019-05-01 22:43+0100\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@euskalnet.net>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
@@ -81,8 +81,7 @@ msgstr "Uneko tokiko ordu-gunea:"
 
 #. i18n: ectx: property (placeholderText), widget (KTreeWidgetSearchLine, tzonesearch)
 #: dateandtime.ui:161
-#, fuzzy, kde-format
-#| msgid "Search..."
+#, kde-format
 msgid "Search..."
 msgstr "Bilatu..."
 

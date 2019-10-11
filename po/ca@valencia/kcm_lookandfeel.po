@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcm_lookandfeel\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"POT-Creation-Date: 2019-06-26 07:33+0200\n"
 "PO-Revision-Date: 2019-02-14 20:05+0100\n"
 "Last-Translator: Josep Ma. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
@@ -42,15 +42,12 @@ msgid "Marco Martin"
 msgstr "Marco Martin"
 
 #: kcm.cpp:112
-#, fuzzy, kde-format
-#| msgid "Download New Look and Feel Themes"
+#, kde-format
 msgid "Download New Look and Feel Themes"
 msgstr "Baixa temes nous d'aspecte i comportament"
 
 #: kcm.cpp:572
-#, fuzzy, kde-format
-#| msgid ""
-#| "You have to restart the Plasma session for these changes to take effect."
+#, kde-format
 msgid ""
 "You have to restart the Plasma session for these changes to take effect."
 msgstr ""
@@ -114,10 +111,7 @@ msgid "Preview Theme"
 msgstr "Previsualitza el tema"
 
 #: package/contents/ui/main.qml:67
-#, fuzzy, kde-format
-#| msgid ""
-#| "Your desktop layout will be lost and reset to the default layout provided "
-#| "by the selected theme."
+#, kde-format
 msgid ""
 "Your desktop layout will be lost and reset to the default layout provided by "
 "the selected theme."
@@ -126,13 +120,11 @@ msgstr ""
 "disposició predeterminada proporcionada pel tema seleccionat."
 
 #: package/contents/ui/main.qml:77
-#, fuzzy, kde-format
-#| msgid "Use desktop layout from theme"
+#, kde-format
 msgid "Use desktop layout from theme"
 msgstr "Usa la disposició de l'escriptori des del tema"
 
 #: package/contents/ui/main.qml:84
-#, fuzzy, kde-format
-#| msgid "Choose the Look and Feel theme"
+#, kde-format
 msgid "Get New Look and Feel Themes..."
-msgstr "Trieu el tema d'aspecte i comportament"
+msgstr "Obtén temes nous d'aspecte i comportament..."

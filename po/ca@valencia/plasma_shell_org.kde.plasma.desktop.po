@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_shell_org.kde.plasma.desktop\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"POT-Creation-Date: 2019-06-15 07:36+0200\n"
 "PO-Revision-Date: 2019-05-04 11:31+0100\n"
 "Last-Translator: Josep Ma. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
@@ -59,8 +59,6 @@ msgid "Delete"
 msgstr "Suprimeix"
 
 #: contents/configuration/AppletConfiguration.qml:53
-#, fuzzy
-#| msgid "Keyboard Shortcuts"
 msgid "Keyboard Shortcuts"
 msgstr "Dreceres del teclat"
 
@@ -144,8 +142,6 @@ msgid "Add Action"
 msgstr "Afig una acció"
 
 #: contents/configuration/ConfigurationContainmentAppearance.qml:75
-#, fuzzy
-#| msgid "Layout cannot be changed while widgets are locked"
 msgid "Layout cannot be changed while widgets are locked"
 msgstr "La disposició no es pot canviar mentre els estris estan bloquejats"
 
@@ -320,7 +316,5 @@ msgid "Categories"
 msgstr "Categories"
 
 #: contents/explorer/WidgetExplorer.qml:355
-#, fuzzy
-#| msgid "Get New Widgets..."
 msgid "Get New Widgets..."
 msgstr "Obtén estris nous..."

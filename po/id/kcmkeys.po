@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkeys\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
-"PO-Revision-Date: 2019-08-24 17:54+0700\n"
+"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"PO-Revision-Date: 2019-07-19 03:20+0700\n"
 "Last-Translator: Wantoyo <wantoyek@gmail.com>\n"
 "Language-Team: Indonesian <kde-i18n-doc@kde.org>\n"
 "Language: id\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 19.04.3\n"
+"X-Generator: Lokalize 19.04.2\n"
 
 #. i18n: ectx: property (text), widget (QLabel, components_label)
 #: export_scheme_dialog.ui:17
@@ -87,7 +87,7 @@ msgstr ""
 "Komponen '%1' saat ini aktif. Hanya pintasan global yang saat ini tidak "
 "aktif yang akan dihapus dari senarai.\n"
 "Semua pintasan global akan mendaftarkan ulang dirinya sendiri dengan baku "
-"masing-masing ketika dijalankan ulang selanjutnya."
+"masing-masing ketika dijalankan ulang berikutnya."
 
 #: kglobalshortcutseditor.cpp:330 kglobalshortcutseditor.cpp:340
 #, kde-format
@@ -103,7 +103,7 @@ msgid ""
 msgstr ""
 "Apakah anda yakin ingin menghapus pintasan terdaftar untuk komponen '%1'? "
 "Komponen dan pintasan akan mendaftarkan ulang dirinya sendiri dengan "
-"pengaturan baku masing-masing ketika dijalankan ulang selanjutnya."
+"pengaturan baku masing-masing ketika dijalankan ulang berikutnya."
 
 #: kglobalshortcutseditor.cpp:450
 #, kde-format

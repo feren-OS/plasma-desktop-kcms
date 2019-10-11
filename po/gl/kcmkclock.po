@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkclock\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"POT-Creation-Date: 2019-05-20 07:46+0200\n"
 "PO-Revision-Date: 2019-01-15 20:22+0100\n"
 "Last-Translator: Adrián Chaves (Gallaecio) <adrian@chaves.io>\n"
 "Language-Team: Galician <kde-i18n-doc@kde.org>\n"
@@ -24,7 +24,11 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 2.0\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Environment: kde\n"
+"X-Accelerator-Marker: &\n"
+"X-Text-Markup: kde4\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -129,7 +133,7 @@ msgstr ""
 #: dtime.cpp:288
 #, kde-format
 msgid "Unable to contact time server: %1."
-msgstr "Non foi posíbel contactar co servidor de datas: %1."
+msgstr "Non se pode contactar co servidor de datas: %1."
 
 #: dtime.cpp:292
 #, kde-format
@@ -139,7 +143,7 @@ msgstr "Non se pode modificar a data."
 #: dtime.cpp:295
 #, kde-format
 msgid "Error setting new time zone."
-msgstr "Aconteceu un erro ao estabelecer o novo fuso horario."
+msgstr "Ocorreu un erro ao estabelecer o novo fuso horario."
 
 #: dtime.cpp:296
 #, kde-format
@@ -190,7 +194,7 @@ msgstr "Paul Campbell"
 #: main.cpp:67
 #, kde-format
 msgid "Current Maintainer"
-msgstr "Mantenedor actual"
+msgstr "Mantedor actual"
 
 #: main.cpp:68
 #, kde-format
@@ -220,19 +224,19 @@ msgstr ""
 #: main.cpp:125
 #, kde-format
 msgid "Unable to authenticate/execute the action: %1, %2"
-msgstr "Non foi posíbel autenticar/executar a acción: %1, %2"
+msgstr "Non se pode autenticar/executar a acción: %1, %2"
 
 #: main.cpp:144
 #, kde-format
 msgid "Unable to change NTP settings"
-msgstr "Non é posíbel cambiar a configuración de NTP."
+msgstr "Non se pode cambiar a configuración de NTP."
 
 #: main.cpp:156
 #, kde-format
 msgid "Unable to set current time"
-msgstr "Non é posíbel definir a hora."
+msgstr "Non se pode definir a hora."
 
 #: main.cpp:166
 #, kde-format
 msgid "Unable to set timezone"
-msgstr "Non é posíbel definir o fuso horario."
+msgstr "Non se pode definir o fuso horario."

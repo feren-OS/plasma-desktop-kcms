@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_org.kde.homerun\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"POT-Creation-Date: 2019-06-23 07:22+0200\n"
 "PO-Revision-Date: 2012-09-21 16:01-0500\n"
 "Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
 "Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
@@ -126,10 +126,9 @@ msgid "Often used applications"
 msgstr "Feidhmchláir Shuiteáilte"
 
 #: package/contents/ui/ConfigGeneral.qml:205
-#, fuzzy, kde-format
-#| msgid "Applications"
+#, kde-format
 msgid "Recent documents"
-msgstr "Feidhmchláir"
+msgstr ""
 
 #: package/contents/ui/ConfigGeneral.qml:206
 #, fuzzy, kde-format
@@ -155,20 +154,18 @@ msgid "Sort items in categories by:"
 msgstr ""
 
 #: package/contents/ui/ConfigGeneral.qml:221
-#, fuzzy, kde-format
-#| msgid "Installed Applications"
+#, kde-format
 msgctxt ""
 "@item:inlistbox Sort items in categories by [Recently used | Often used]"
 msgid "Recently used"
-msgstr "Feidhmchláir Shuiteáilte"
+msgstr ""
 
 #: package/contents/ui/ConfigGeneral.qml:221
-#, fuzzy, kde-format
-#| msgid "Installed Applications"
+#, kde-format
 msgctxt ""
 "@item:inlistbox Sort items in categories by [Recently used | Ofetn used]"
 msgid "Often used"
-msgstr "Feidhmchláir Shuiteáilte"
+msgstr ""
 
 #: package/contents/ui/ConfigGeneral.qml:231
 #, kde-format

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmstyle\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"POT-Creation-Date: 2019-05-20 07:46+0200\n"
 "PO-Revision-Date: 2018-07-12 10:17+0100\n"
 "Last-Translator: Martin Schlander <mschlander@opensuse.org>\n"
 "Language-Team: Danish <kde-i18n-doc@kde.org>\n"
@@ -165,11 +165,9 @@ msgstr "&Programmer"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, pbConfigStyle)
 #: styleconfig.ui:45
-#, fuzzy, kde-format
-#| msgctxt "@title:tab"
-#| msgid "&Applications"
+#, kde-format
 msgid "Configure Application Style..."
-msgstr "&Programmer"
+msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, labelShowIcons)
 #: styleconfig.ui:61

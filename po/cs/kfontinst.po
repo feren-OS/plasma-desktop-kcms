@@ -3,22 +3,22 @@
 # Vít Pelčák <vit@pelcak.org>, 2011, 2012, 2013, 2014, 2016, 2017.
 # Lukáš Tinkl <lukas@kde.org>, 2012.
 # Tomáš Chvátal <tomas.chvatal@gmail.com>, 2012, 2013.
-# Vit Pelcak <vpelcak@suse.cz>, 2015, 2019.
+# Vit Pelcak <vpelcak@suse.cz>, 2015.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: kfontinst\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
-"PO-Revision-Date: 2019-08-28 17:05+0200\n"
-"Last-Translator: Vit Pelcak <vit@pelcak.org>\n"
+"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"PO-Revision-Date: 2017-09-12 13:51+0100\n"
+"Last-Translator: Vít Pelčák <vit@pelcak.org>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Lokalize 19.08.0\n"
+"X-Generator: Lokalize 2.0\n"
 "X-Language: cs_CZ\n"
 "X-Source-Language: en_US\n"
 
@@ -652,10 +652,9 @@ msgid "Unexpected error while processing: <i>%1</i>"
 msgstr "Neočekávaná chyba během zpracovávaní: <i>%1</i>"
 
 #: kcmfontinst/KCmFontInst.cpp:188
-#, fuzzy, kde-format
-#| msgid "KDE Font Manager"
+#, kde-format
 msgid "Font Management"
-msgstr "Správce písem pro KDE"
+msgstr ""
 
 #: kcmfontinst/KCmFontInst.cpp:189
 #, kde-format
@@ -678,28 +677,24 @@ msgid "Scan for Duplicate Fonts..."
 msgstr "Hledat duplicitní písma..."
 
 #: kcmfontinst/KCmFontInst.cpp:232
-#, fuzzy, kde-format
-#| msgid "Create New Group"
+#, kde-format
 msgid "Create New Group..."
-msgstr "Vytvořit novou skupinu"
+msgstr "Vytvořit novou skupinu..."
 
 #: kcmfontinst/KCmFontInst.cpp:236
-#, fuzzy, kde-format
-#| msgid "Remove Group"
+#, kde-format
 msgid "Remove Group..."
-msgstr "Odstranit skupinu"
+msgstr ""
 
 #: kcmfontinst/KCmFontInst.cpp:240
-#, fuzzy, kde-format
-#| msgid "Enable Fonts"
+#, kde-format
 msgid "Enable Fonts in Group..."
-msgstr "Povolit písma"
+msgstr ""
 
 #: kcmfontinst/KCmFontInst.cpp:244
-#, fuzzy, kde-format
-#| msgid "Disable Fonts"
+#, kde-format
 msgid "Disable Fonts in Group..."
-msgstr "Zakázat písma"
+msgstr ""
 
 #: kcmfontinst/KCmFontInst.cpp:271
 #, kde-format
@@ -707,10 +702,9 @@ msgid "This displays a preview of the selected font."
 msgstr "Toto zobrazí náhled vybraného písma."
 
 #: kcmfontinst/KCmFontInst.cpp:287
-#, fuzzy, kde-format
-#| msgid "Install..."
+#, kde-format
 msgid "Install from File..."
-msgstr "Instalovat..."
+msgstr "Instalovat ze souboru..."
 
 #: kcmfontinst/KCmFontInst.cpp:288
 #, kde-format
@@ -728,10 +722,9 @@ msgid "Download new fonts"
 msgstr ""
 
 #: kcmfontinst/KCmFontInst.cpp:295
-#, fuzzy, kde-format
-#| msgid "Delete all selected fonts"
+#, kde-format
 msgid "Delete Selected Fonts..."
-msgstr "Smazat vybraná písma"
+msgstr ""
 
 #: kcmfontinst/KCmFontInst.cpp:353
 #, kde-format
@@ -908,10 +901,9 @@ msgid "Create New Group"
 msgstr "Vytvořit novou skupinu"
 
 #: kcmfontinst/KCmFontInst.cpp:810
-#, fuzzy, kde-format
-#| msgid "Create a new group"
+#, kde-format
 msgid "Name of new group:"
-msgstr "Vytvořit novou skupinu"
+msgstr ""
 
 #: kcmfontinst/KCmFontInst.cpp:812
 #, kde-format

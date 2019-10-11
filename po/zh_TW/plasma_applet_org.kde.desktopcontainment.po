@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"POT-Creation-Date: 2019-05-20 07:46+0200\n"
 "PO-Revision-Date: 2019-05-01 20:53+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -58,20 +58,14 @@ msgid "Files:"
 msgstr "檔案："
 
 #: package/contents/ui/ConfigFilter.qml:77
-#, fuzzy
-#| msgid "Show all"
 msgid "Show all"
 msgstr "全部顯示"
 
 #: package/contents/ui/ConfigFilter.qml:77
-#, fuzzy
-#| msgid "Show matching"
 msgid "Show matching"
 msgstr "顯示符合項目"
 
 #: package/contents/ui/ConfigFilter.qml:77
-#, fuzzy
-#| msgid "Hide matching"
 msgid "Hide matching"
 msgstr "隱藏符合項目"
 
@@ -84,8 +78,6 @@ msgid "File types:"
 msgstr "檔案型態："
 
 #: package/contents/ui/ConfigFilter.qml:90
-#, fuzzy
-#| msgid "Search..."
 msgid "Search..."
 msgstr "搜尋…"
 
@@ -194,9 +186,6 @@ msgid "Folders first"
 msgstr "資料夾優先"
 
 #: package/contents/ui/ConfigIcons.qml:218
-#, fuzzy
-#| msgctxt "whether to use icon or list view"
-#| msgid "View mode:"
 msgctxt "whether to use icon or list view"
 msgid "View mode:"
 msgstr "檢視模式："
@@ -240,8 +229,6 @@ msgid "Wide"
 msgstr "寬"
 
 #: package/contents/ui/ConfigIcons.qml:276
-#, fuzzy
-#| msgid "Text lines:"
 msgid "Text lines:"
 msgstr "文字行位："
 
@@ -250,8 +237,6 @@ msgid "Features:"
 msgstr "功能："
 
 #: package/contents/ui/ConfigIcons.qml:294
-#, fuzzy
-#| msgid "Tooltips"
 msgid "Tooltips"
 msgstr "工具提示"
 
@@ -268,8 +253,6 @@ msgid "Preview thumbnails"
 msgstr "預覽縮圖"
 
 #: package/contents/ui/ConfigIcons.qml:321
-#, fuzzy
-#| msgid "Configure Preview Plugins..."
 msgid "Configure Preview Plugins..."
 msgstr "設定預覽外掛程式…"
 
@@ -278,14 +261,10 @@ msgid "Show:"
 msgstr "顯示："
 
 #: package/contents/ui/ConfigLocation.qml:95
-#, fuzzy
-#| msgid "Show the desktop toolbox"
 msgid "Desktop folder"
-msgstr "顯示桌面工具盒"
+msgstr "桌面資料夾"
 
 #: package/contents/ui/ConfigLocation.qml:102
-#, fuzzy
-#| msgid "Files linked to the current activity"
 msgid "Files linked to the current activity"
 msgstr "連結到目前活動的檔案"
 
@@ -298,8 +277,6 @@ msgid "Custom location:"
 msgstr "自訂位置："
 
 #: package/contents/ui/ConfigLocation.qml:150
-#, fuzzy
-#| msgid "Type path or URL..."
 msgid "Type path or URL..."
 msgstr "輸入路徑或網址…"
 
@@ -324,8 +301,6 @@ msgid "Custom title"
 msgstr "自訂標題"
 
 #: package/contents/ui/ConfigLocation.qml:208
-#, fuzzy
-#| msgid "Enter custom title..."
 msgid "Enter custom title..."
 msgstr "輸入自訂標題…"
 
@@ -370,8 +345,6 @@ msgid "Got it"
 msgstr "好了"
 
 #: package/contents/ui/main.qml:597
-#, fuzzy
-#| msgid "Configure Desktop..."
 msgid "Configure Desktop..."
 msgstr "設定桌面…"
 
@@ -391,8 +364,7 @@ msgid "&Refresh View"
 msgstr "更新檢視(&R)"
 
 #: plugins/folder/foldermodel.cpp:1616
-#, fuzzy, kde-format
-#| msgid "&Empty Trash"
+#, kde-format
 msgid "&Empty Trash"
 msgstr "清空垃圾桶(&E)"
 

@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
-"PO-Revision-Date: 2019-07-21 19:58+0800\n"
+"POT-Creation-Date: 2019-06-23 07:22+0200\n"
+"PO-Revision-Date: 2019-03-20 05:16+0800\n"
 "Last-Translator: Simon Depiets <sdepiets@gmail.com>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
@@ -98,78 +98,91 @@ msgid "Description (Name)"
 msgstr "Description (Nom)"
 
 #: package/contents/ui/ConfigGeneral.qml:173
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Behavior"
 msgid "Behavior:"
-msgstr "Comportement :"
+msgstr "Comportement"
 
 #: package/contents/ui/ConfigGeneral.qml:175
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Sort alphabetically"
 msgid "Sort applications alphabetically"
-msgstr "Trier les applications par ordre alphabétique"
+msgstr "Trier par ordre alphabétique"
 
 #: package/contents/ui/ConfigGeneral.qml:183
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Flatten menu to a single level"
 msgid "Flatten sub-menus to a single level"
-msgstr "Aplatir les sous-menus en un seul niveau"
+msgstr "Aplatir le menu en un seul niveau"
 
 #: package/contents/ui/ConfigGeneral.qml:194
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Categories"
 msgid "Show categories:"
-msgstr "Afficher les catégories :"
+msgstr "Catégories"
 
 #: package/contents/ui/ConfigGeneral.qml:197
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Recent Applications"
 msgid "Recent applications"
 msgstr "Applications récentes"
 
 #: package/contents/ui/ConfigGeneral.qml:198
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Often Used Applications"
 msgid "Often used applications"
-msgstr "Applications fréquemment utilisées"
+msgstr "Applications utilisées couramment"
 
 #: package/contents/ui/ConfigGeneral.qml:205
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Recent Documents"
 msgid "Recent documents"
 msgstr "Documents récents"
 
 #: package/contents/ui/ConfigGeneral.qml:206
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Often Used Documents"
 msgid "Often used documents"
-msgstr "Documents fréquemment utilisés"
+msgstr "Documents utilisés couramment"
 
 #: package/contents/ui/ConfigGeneral.qml:213
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Recent Contacts"
 msgid "Recent contacts"
 msgstr "Contacts récents"
 
 #: package/contents/ui/ConfigGeneral.qml:214
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Show often used contacts"
 msgid "Often used contacts"
-msgstr "Contacts fréquemment utilisés"
+msgstr "Afficher les contacts utilisés couramment"
 
 #: package/contents/ui/ConfigGeneral.qml:220
 #, kde-format
 msgid "Sort items in categories by:"
-msgstr "Trier les éléments dans les catégories par :"
+msgstr ""
 
 #: package/contents/ui/ConfigGeneral.qml:221
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Recently used"
 msgctxt ""
 "@item:inlistbox Sort items in categories by [Recently used | Often used]"
 msgid "Recently used"
 msgstr "Utilisés récemment"
 
 #: package/contents/ui/ConfigGeneral.qml:221
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Often used"
 msgctxt ""
 "@item:inlistbox Sort items in categories by [Recently used | Ofetn used]"
 msgid "Often used"
-msgstr "Utilisés fréquemment"
+msgstr "Utilisé couramment"
 
 #: package/contents/ui/ConfigGeneral.qml:231
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Search"
 msgid "Search:"
-msgstr "Rechercher :"
+msgstr "Chercher…"
 
 #: package/contents/ui/ConfigGeneral.qml:233
 #, kde-format

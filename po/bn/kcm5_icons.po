@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmicons\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"POT-Creation-Date: 2019-05-20 07:46+0200\n"
 "PO-Revision-Date: 2006-01-04 13:30-0600\n"
 "Last-Translator: KUSHAL DAS <programmerkd@yahoo.co.in>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -66,10 +66,9 @@ msgid "Kai Uwe Broulik"
 msgstr ""
 
 #: main.cpp:284
-#, fuzzy, kde-format
-#| msgid "Remove Theme"
+#, kde-format
 msgid "Download New Icon Themes"
-msgstr "থীম সরিয়ে ফেলো"
+msgstr ""
 
 #: main.cpp:320
 #, kde-format

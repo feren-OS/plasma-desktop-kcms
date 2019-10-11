@@ -12,16 +12,19 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcm_emoticons\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
-"PO-Revision-Date: 2019-07-28 12:44+0200\n"
+"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"PO-Revision-Date: 2019-03-24 09:39+0100\n"
 "Last-Translator: Adrián Chaves (Gallaecio) <adrian@chaves.io>\n"
-"Language-Team: Galician <proxecto@trasno.gal>\n"
+"Language-Team: Galician <kde-i18n-doc@kde.org>\n"
 "Language: gl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 18.12.2\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 19.04.1\n"
+"X-Environment: kde\n"
+"X-Accelerator-Marker: &\n"
+"X-Text-Markup: kde4\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -54,7 +57,7 @@ msgstr "Arrastre ou escriba o URL do tema de emoticonas"
 #: emoticonslist.cpp:259
 #, kde-format
 msgid "Emoticon themes must be installed from local files."
-msgstr "Os temas de emoticonas deben ser instalados de ficheiros locais."
+msgstr "Os temas de emoticonas deben instalarse de ficheiros locais."
 
 #: emoticonslist.cpp:260
 #, kde-format
@@ -111,7 +114,7 @@ msgstr "Xestor de emoticonas"
 #: emoticonslist.ui:26
 #, kde-format
 msgid "Install a theme archive file you already have locally"
-msgstr "Instala un ficheiro de arquivo de tema que xa teña en local"
+msgstr "Instalar un ficheiro de arquivo de tema que xa teña localmente"
 
 #. i18n: ectx: property (whatsThis), widget (QPushButton, btInstall)
 #: emoticonslist.ui:29
@@ -120,7 +123,7 @@ msgid ""
 "If you already have an emoticon theme archive locally, this button will "
 "unpack it and make it available for KDE applications"
 msgstr ""
-"Se xa ten em local un arquivo de tema de emoticonas, este botón "
+"Se xa ten localmente un arquivo de tema de emoticonas, este botón "
 "desempaquetarao e porao a disposición dos aplicativos de KDE."
 
 #. i18n: ectx: property (text), widget (QPushButton, btInstall)

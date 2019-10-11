@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmicons\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"POT-Creation-Date: 2019-05-20 07:46+0200\n"
 "PO-Revision-Date: 2006-12-16 15:28+0000\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -70,10 +70,9 @@ msgid "Kai Uwe Broulik"
 msgstr ""
 
 #: main.cpp:284
-#, fuzzy, kde-format
-#| msgid "Remove Theme"
+#, kde-format
 msgid "Download New Icon Themes"
-msgstr "Mavzuni olib tashlash"
+msgstr ""
 
 #: main.cpp:320
 #, kde-format
@@ -191,10 +190,6 @@ msgstr "Mavzuni olib tashlash"
 #, kde-format
 msgid "Theme Files (*.tar.gz *.tar.bz2)"
 msgstr ""
-
-
-
-
 
 
 

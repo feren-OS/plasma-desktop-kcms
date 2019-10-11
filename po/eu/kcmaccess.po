@@ -1,7 +1,6 @@
 # Translation of kcmaccess.po to Euskara/Basque (eu).
 # Copyright (C) 2002-2018, The Free Software Foundation, Inc.
-# Copyright (C) 2019, This file is copyright:
-# This file is distributed under the same license as the plasma-desktop package.
+# This file is distributed under the same license as the kde-workspace package.
 # KDE euskaratzeko proiektuaren arduraduna <xalba@euskalnet.net>.
 #
 # Translators:
@@ -12,12 +11,12 @@
 # Iñigo Salvador Azurmendi <xalba@euskalnet.net>, 2014, 2018.
 msgid ""
 msgstr ""
-"Project-Id-Version: plasma-desktop\n"
+"Project-Id-Version: kcmaccess\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"POT-Creation-Date: 2019-05-20 07:46+0200\n"
 "PO-Revision-Date: 2018-03-14 20:04+0100\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@euskalnet.net>\n"
-"Language-Team: Basque <kde-i18n-eu@kde.org>\n"
+"Language-Team: Basque <kde-i18n-doc@kde.org>\n"
 "Language: eu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"

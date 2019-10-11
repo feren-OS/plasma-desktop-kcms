@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmstyle\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"POT-Creation-Date: 2019-05-20 07:46+0200\n"
 "PO-Revision-Date: 2019-03-24 19:31+0000\n"
 "Last-Translator: Steve Allewell <steve.allewell@gmail.com>\n"
 "Language-Team: British English <kde-i18n-doc@kde.org>\n"
@@ -30,10 +30,7 @@ msgid "Your emails"
 msgstr "malcolm.hunter@gmx.co.uk, steve.allewell@gmail.com"
 
 #: kcmstyle.cpp:173
-#, fuzzy, kde-format
-#| msgid ""
-#| "This module allows you to modify the visual appearance of applications' "
-#| "user interface elements."
+#, kde-format
 msgid ""
 "This module allows you to modify the visual appearance of applications' user "
 "interface elements."
@@ -102,10 +99,7 @@ msgstr ""
 "information like a marble texture or a gradient)."
 
 #: kcmstyle.cpp:701
-#, fuzzy, kde-format
-#| msgid ""
-#| "If you enable this option, applications will show small icons alongside "
-#| "some important buttons."
+#, kde-format
 msgid ""
 "If you enable this option, applications will show small icons alongside some "
 "important buttons."
@@ -114,10 +108,7 @@ msgstr ""
 "important buttons."
 
 #: kcmstyle.cpp:703
-#, fuzzy, kde-format
-#| msgid ""
-#| "If you enable this option, applications will show small icons alongside "
-#| "most menu items."
+#, kde-format
 msgid ""
 "If you enable this option, applications will show small icons alongside most "
 "menu items."
@@ -126,13 +117,7 @@ msgstr ""
 "menu items."
 
 #: kcmstyle.cpp:705
-#, fuzzy, kde-format
-#| msgid ""
-#| "<p><b>No text:</b> Shows only icons on toolbar buttons. Best option for "
-#| "low resolutions.</p><p><b>Text only: </b>Shows only text on toolbar "
-#| "buttons.</p><p><b>Text beside icons: </b> Shows icons and text on toolbar "
-#| "buttons. Text is aligned beside the icon.</p><b>Text below icons: </b> "
-#| "Shows icons and text on toolbar buttons. Text is aligned below the icon."
+#, kde-format
 msgid ""
 "<p><b>No text:</b> Shows only icons on toolbar buttons. Best option for low "
 "resolutions.</p><p><b>Text only: </b>Shows only text on toolbar buttons.</"
@@ -153,10 +138,9 @@ msgstr "Configure %1"
 
 #. i18n: ectx: property (text), widget (QLabel, labelApplicationStyle)
 #: styleconfig.ui:20
-#, fuzzy, kde-format
-#| msgid "Application Style"
+#, kde-format
 msgid "Application style:"
-msgstr "Application Style"
+msgstr "Application style:"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, pbConfigStyle)
 #: styleconfig.ui:45
@@ -172,8 +156,7 @@ msgstr "Show icons:"
 
 #. i18n: ectx: property (text), widget (QLabel, labelToolbarIcons)
 #: styleconfig.ui:68
-#, fuzzy, kde-format
-#| msgid "Main toolbar label:"
+#, kde-format
 msgid "Main toolbar label:"
 msgstr "Main toolbar label:"
 
@@ -187,31 +170,27 @@ msgstr "None"
 #. i18n: ectx: property (text), item, widget (QComboBox, comboToolbarIcons)
 #. i18n: ectx: property (text), item, widget (QComboBox, comboSecondaryToolbarIcons)
 #: styleconfig.ui:84 styleconfig.ui:118
-#, fuzzy, kde-format
-#| msgid "Text only"
+#, kde-format
 msgid "Text only"
 msgstr "Text only"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, comboToolbarIcons)
 #. i18n: ectx: property (text), item, widget (QComboBox, comboSecondaryToolbarIcons)
 #: styleconfig.ui:89 styleconfig.ui:123
-#, fuzzy, kde-format
-#| msgid "Beside icons"
+#, kde-format
 msgid "Beside icons"
 msgstr "Beside icons"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, comboToolbarIcons)
 #. i18n: ectx: property (text), item, widget (QComboBox, comboSecondaryToolbarIcons)
 #: styleconfig.ui:94 styleconfig.ui:128
-#, fuzzy, kde-format
-#| msgid "Below icons"
+#, kde-format
 msgid "Below icons"
 msgstr "Below icons"
 
 #. i18n: ectx: property (text), widget (QLabel, labelSecondaryToolbarIcons)
 #: styleconfig.ui:102
-#, fuzzy, kde-format
-#| msgid "Secondary toolbar label:"
+#, kde-format
 msgid "Secondary toolbar label:"
 msgstr "Secondary toolbar label:"
 
@@ -235,15 +214,13 @@ msgstr "Tab 1"
 
 #. i18n: ectx: property (text), widget (QPushButton, pushButton)
 #: stylepreview.ui:65
-#, fuzzy, kde-format
-#| msgid "Push Button"
+#, kde-format
 msgid "Push Button"
 msgstr "Push Button"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBox)
 #: stylepreview.ui:86
-#, fuzzy, kde-format
-#| msgid "Combo box"
+#, kde-format
 msgid "Combo box"
 msgstr "Combo box"
 

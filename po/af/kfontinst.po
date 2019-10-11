@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kfontinst stable\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"POT-Creation-Date: 2019-05-20 07:46+0200\n"
 "PO-Revision-Date: 2005-11-25 21:56+0200\n"
 "Last-Translator: AFRIKAANS <translate-discuss-af@lists.sourceforge.net>\n"
 "Language-Team: Afrikaans <af@li.org>\n"
@@ -679,10 +679,9 @@ msgid "Install from File..."
 msgstr "Installeer..."
 
 #: kcmfontinst/KCmFontInst.cpp:288
-#, fuzzy, kde-format
-#| msgid "Install..."
+#, kde-format
 msgid "Install fonts from a local file"
-msgstr "Installeer..."
+msgstr ""
 
 #: kcmfontinst/KCmFontInst.cpp:290
 #, fuzzy, kde-format
@@ -879,10 +878,9 @@ msgid "Create New Group"
 msgstr ""
 
 #: kcmfontinst/KCmFontInst.cpp:810
-#, fuzzy, kde-format
-#| msgid "Delete Fonts"
+#, kde-format
 msgid "Name of new group:"
-msgstr "Skrap Lettertipes"
+msgstr ""
 
 #: kcmfontinst/KCmFontInst.cpp:812
 #, kde-format

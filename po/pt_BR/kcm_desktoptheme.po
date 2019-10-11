@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcm_desktoptheme\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"POT-Creation-Date: 2019-05-20 07:46+0200\n"
 "PO-Revision-Date: 2019-05-14 23:04-0300\n"
 "Last-Translator: André Marcelo Alvarenga <alvarenga@kde.org>\n"
 "Language-Team: Brazilian Portuguese <kde-i18n-pt_br@kde.org>\n"
@@ -70,8 +70,7 @@ msgid "Removing theme failed: %1"
 msgstr "Falha ao remover tema: %1"
 
 #: package/contents/ui/main.qml:30
-#, fuzzy, kde-format
-#| msgid "This module lets you choose the Plasma theme."
+#, kde-format
 msgid "This module lets you choose the Plasma theme."
 msgstr "Este módulo permite-lhe escolher o tema do Plasma."
 
@@ -96,8 +95,7 @@ msgid "Install from File..."
 msgstr "Instalar a partir do arquivo..."
 
 #: package/contents/ui/main.qml:126
-#, fuzzy, kde-format
-#| msgid "Get New Plasma Themes..."
+#, kde-format
 msgid "Get New Plasma Themes..."
 msgstr "Baixar novos temas do Plasma..."
 

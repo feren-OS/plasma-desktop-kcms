@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"POT-Creation-Date: 2019-06-23 07:22+0200\n"
 "PO-Revision-Date: 2019-04-24 00:08+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -96,10 +96,9 @@ msgid "Leave"
 msgstr "離開"
 
 #: package/contents/ui/ConfigButtons.qml:215
-#, fuzzy, kde-format
-#| msgid "Inactive Tabs"
+#, kde-format
 msgid "Active Tabs"
-msgstr "非使用中分頁"
+msgstr "使用中分頁"
 
 #: package/contents/ui/ConfigButtons.qml:221
 #, kde-format
@@ -166,8 +165,7 @@ msgid "%1@%2"
 msgstr "%1@%2"
 
 #: package/contents/ui/Header.qml:167
-#, fuzzy, kde-format
-#| msgid "Search..."
+#, kde-format
 msgid "Search..."
 msgstr "搜尋..."
 

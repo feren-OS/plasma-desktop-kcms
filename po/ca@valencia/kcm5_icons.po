@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcm5_icons\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"POT-Creation-Date: 2019-05-20 07:46+0200\n"
 "PO-Revision-Date: 2018-10-31 17:53+0100\n"
 "Last-Translator: Josep Ma. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
@@ -85,8 +85,7 @@ msgid "Unable to create a temporary file."
 msgstr "No s'ha pogut crear el fitxer temporal."
 
 #: main.cpp:332
-#, fuzzy, kde-format
-#| msgid "Unable to download the icon theme archive: %1"
+#, kde-format
 msgid "Unable to download the icon theme archive: %1"
 msgstr "No s'ha pogut baixar l'arxiu del tema d'icones: %1"
 
@@ -155,10 +154,9 @@ msgid "This module allows you to choose the icons for your desktop."
 msgstr "Aquest mòdul permet escollir les icones de l'escriptori."
 
 #: package/contents/ui/main.qml:155
-#, fuzzy, kde-format
-#| msgid "Restore Icon Theme"
+#, kde-format
 msgid "Remove Icon Theme"
-msgstr "Restaura el tema d'icones"
+msgstr "Elimina un tema d'icones"
 
 #: package/contents/ui/main.qml:162
 #, kde-format
@@ -171,14 +169,12 @@ msgid "Configure Icon Sizes"
 msgstr "Configura les mides de les icones"
 
 #: package/contents/ui/main.qml:247
-#, fuzzy, kde-format
-#| msgid "Install from File..."
+#, kde-format
 msgid "Install from File..."
 msgstr "Instal·la des d'un fitxer..."
 
 #: package/contents/ui/main.qml:253
-#, fuzzy, kde-format
-#| msgid "Get New Icons..."
+#, kde-format
 msgid "Get New Icons..."
 msgstr "Obtén icones noves..."
 

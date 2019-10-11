@@ -1,20 +1,20 @@
 # translation of plasma_applet_org.kde.desktopcontainment.po to Slovak
-# Roman Paholik <wizzardsk@gmail.com>, 2014, 2015, 2016, 2017, 2019.
+# Roman Paholik <wizzardsk@gmail.com>, 2014, 2015, 2016, 2017.
 # Mthw <jari_45@hotmail.com>, 2018, 2019.
 # Matej Mrenica <matejm98mthw@gmail.com>, 2019.
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_org.kde.desktopcontainment\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
-"PO-Revision-Date: 2019-08-30 20:22+0200\n"
-"Last-Translator: Roman Paholík <wizzardsk@gmail.com>\n"
-"Language-Team: Slovak <kde-sk@linux.sk>\n"
+"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"PO-Revision-Date: 2019-05-01 15:47+0200\n"
+"Last-Translator: Matej Mrenica <matejm98mthw@gmail.com>\n"
+"Language-Team: Slovak <kde-i18n-doc@kde.org>\n"
 "Language: sk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 18.12.3\n"
+"X-Generator: Lokalize 19.04.0\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 
 #: package/contents/config/config.qml:29
@@ -61,11 +61,11 @@ msgstr "Zobraziť všetko"
 
 #: package/contents/ui/ConfigFilter.qml:77
 msgid "Show matching"
-msgstr "Zobraziť zodpovedajúce"
+msgstr "Zobraziť súbory zodpovedajúce"
 
 #: package/contents/ui/ConfigFilter.qml:77
 msgid "Hide matching"
-msgstr "Skryť zodpovedajúce"
+msgstr "Skryť súbory zodpovedajúce"
 
 #: package/contents/ui/ConfigFilter.qml:82
 msgid "File name pattern:"
@@ -121,13 +121,13 @@ msgstr "Usporiadanie:"
 #: plugins/folder/viewpropertiesmenu.cpp:34
 #, kde-format
 msgid "Rows"
-msgstr "Riadkov"
+msgstr "Riadky"
 
 #: package/contents/ui/ConfigIcons.qml:142
 #: plugins/folder/viewpropertiesmenu.cpp:38
 #, kde-format
 msgid "Columns"
-msgstr "Stĺpcov"
+msgstr "Stĺpce"
 
 #: package/contents/ui/ConfigIcons.qml:149
 msgid "Align left"
@@ -153,25 +153,25 @@ msgstr "Řučné"
 #: plugins/folder/viewpropertiesmenu.cpp:62
 #, kde-format
 msgid "Name"
-msgstr "Názvu"
+msgstr "Názov"
 
 #: package/contents/ui/ConfigIcons.qml:185
 #: plugins/folder/viewpropertiesmenu.cpp:66
 #, kde-format
 msgid "Size"
-msgstr "Veľkosti"
+msgstr "Veľkosť"
 
 #: package/contents/ui/ConfigIcons.qml:185
 #: plugins/folder/viewpropertiesmenu.cpp:70
 #, kde-format
 msgid "Type"
-msgstr "Typu"
+msgstr "Typ"
 
 #: package/contents/ui/ConfigIcons.qml:185
 #: plugins/folder/viewpropertiesmenu.cpp:74
 #, kde-format
 msgid "Date"
-msgstr "Dátumu"
+msgstr "Dátum"
 
 #: package/contents/ui/ConfigIcons.qml:196
 #: plugins/folder/viewpropertiesmenu.cpp:79
@@ -200,13 +200,13 @@ msgstr "Veľkosť ikon:"
 #: plugins/folder/viewpropertiesmenu.cpp:88
 #, kde-format
 msgid "Small"
-msgstr "Malá"
+msgstr "Malé"
 
 #: package/contents/ui/ConfigIcons.qml:255
 #: plugins/folder/viewpropertiesmenu.cpp:88
 #, kde-format
 msgid "Large"
-msgstr "Veľká"
+msgstr "Veľké"
 
 #: package/contents/ui/ConfigIcons.qml:263
 msgid "Label width:"
@@ -220,7 +220,7 @@ msgstr "Úzke"
 #: plugins/folder/viewpropertiesmenu.cpp:88
 #, kde-format
 msgid "Medium"
-msgstr "Stredná"
+msgstr "Stredné"
 
 #: package/contents/ui/ConfigIcons.qml:268
 msgid "Wide"
@@ -410,12 +410,12 @@ msgstr "Vpravo"
 #: plugins/folder/viewpropertiesmenu.cpp:55
 #, kde-format
 msgid "Sort By"
-msgstr "Zoradiť podľa"
+msgstr "Triediť podľa"
 
 #: plugins/folder/viewpropertiesmenu.cpp:58
 #, kde-format
 msgid "Unsorted"
-msgstr "Nezoradiť"
+msgstr "Netriedené"
 
 #: plugins/folder/viewpropertiesmenu.cpp:81
 #, kde-format
@@ -430,17 +430,17 @@ msgstr "Veľkosť ikon"
 #: plugins/folder/viewpropertiesmenu.cpp:88
 #, kde-format
 msgid "Tiny"
-msgstr "Drobná"
+msgstr "Drobné"
 
 #: plugins/folder/viewpropertiesmenu.cpp:88
 #, kde-format
 msgid "Small Medium"
-msgstr "Stredne malá"
+msgstr "Stredne malé"
 
 #: plugins/folder/viewpropertiesmenu.cpp:88
 #, kde-format
 msgid "Huge"
-msgstr "Obrovská"
+msgstr "Obrovské"
 
 #: plugins/folder/viewpropertiesmenu.cpp:97
 #, kde-format

@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-desktop\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"POT-Creation-Date: 2019-05-20 07:46+0200\n"
 "PO-Revision-Date: 2019-06-01 08:55+0100\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@euskalnet.net>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
@@ -91,8 +91,7 @@ msgid "Unable to create a temporary file."
 msgstr "Ezin da aldi baterako fitxategi bat sortu."
 
 #: main.cpp:332
-#, fuzzy, kde-format
-#| msgid "Unable to download the icon theme archive: %1"
+#, kde-format
 msgid "Unable to download the icon theme archive: %1"
 msgstr "Ezin da jaitsi ikono-gai artxiboa: %1"
 
@@ -161,10 +160,9 @@ msgid "This module allows you to choose the icons for your desktop."
 msgstr "Modulu honek zure mahaigainerako ikonoak aukeratzen uzten dizu."
 
 #: package/contents/ui/main.qml:155
-#, fuzzy, kde-format
-#| msgid "Restore Icon Theme"
+#, kde-format
 msgid "Remove Icon Theme"
-msgstr "Lehengoratu ikono-gaia"
+msgstr "Kendu ikono-gaia"
 
 #: package/contents/ui/main.qml:162
 #, kde-format
@@ -177,14 +175,12 @@ msgid "Configure Icon Sizes"
 msgstr "Konfiguratu ikono-neurriak"
 
 #: package/contents/ui/main.qml:247
-#, fuzzy, kde-format
-#| msgid "Install from File..."
+#, kde-format
 msgid "Install from File..."
 msgstr "Instalatu fitxategitik..."
 
 #: package/contents/ui/main.qml:253
-#, fuzzy, kde-format
-#| msgid "Get New Icons..."
+#, kde-format
 msgid "Get New Icons..."
 msgstr "Lortu ikono berriak..."
 

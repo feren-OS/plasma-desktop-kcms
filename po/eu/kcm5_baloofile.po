@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-desktop\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"POT-Creation-Date: 2019-05-30 07:24+0200\n"
 "PO-Revision-Date: 2019-05-31 23:20+0100\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@euskalnet.net>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
@@ -54,8 +54,7 @@ msgstr "Gainera indexatu fitxategien edukia"
 
 #. i18n: ectx: property (text), widget (QLabel, m_excludeLabel)
 #: configwidget.ui:76
-#, fuzzy, kde-format
-#| msgid "Do not search in these locations:"
+#, kde-format
 msgid "Do not search in these locations:"
 msgstr "Ez bilatu kokaleku honetan:"
 

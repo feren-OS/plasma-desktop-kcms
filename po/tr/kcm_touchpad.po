@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: playground-utils-kde4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"POT-Creation-Date: 2019-06-20 07:49+0200\n"
 "PO-Revision-Date: 2017-10-23 11:23+0000\n"
 "Last-Translator: Kaan <kaanozdincer@gmail.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
@@ -321,11 +321,9 @@ msgid "Middle-click: "
 msgstr ""
 
 #: src/kcm/libinput/touchpad.qml:704
-#, fuzzy, kde-format
-#| msgctxt "Touchpad Edge"
-#| msgid "Bottom right corner"
+#, kde-format
 msgid "Press bottom-middle"
-msgstr "Sağ alt köşe"
+msgstr ""
 
 #: src/kcm/libinput/touchpad.qml:708
 #, kde-format

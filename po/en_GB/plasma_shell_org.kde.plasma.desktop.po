@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"POT-Creation-Date: 2019-06-15 07:36+0200\n"
 "PO-Revision-Date: 2019-05-19 13:15+0100\n"
 "Last-Translator: Steve Allewell <steve.allewell@gmail.com>\n"
 "Language-Team: British English <kde-i18n-doc@kde.org>\n"
@@ -55,8 +55,6 @@ msgid "Delete"
 msgstr "Delete"
 
 #: contents/configuration/AppletConfiguration.qml:53
-#, fuzzy
-#| msgid "Keyboard Shortcuts"
 msgid "Keyboard Shortcuts"
 msgstr "Keyboard Shortcuts"
 
@@ -140,8 +138,6 @@ msgid "Add Action"
 msgstr "Add Action"
 
 #: contents/configuration/ConfigurationContainmentAppearance.qml:75
-#, fuzzy
-#| msgid "Layout cannot be changed while widgets are locked"
 msgid "Layout cannot be changed while widgets are locked"
 msgstr "Layout cannot be changed while widgets are locked"
 
@@ -314,7 +310,5 @@ msgid "Categories"
 msgstr "Categories"
 
 #: contents/explorer/WidgetExplorer.qml:355
-#, fuzzy
-#| msgid "Get New Widgets..."
 msgid "Get New Widgets..."
 msgstr "Get New Widgets..."

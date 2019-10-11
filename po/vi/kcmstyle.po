@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmstyle\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"POT-Creation-Date: 2019-05-20 07:46+0200\n"
 "PO-Revision-Date: 2007-06-23 21:08+0930\n"
 "Last-Translator: Clytie Siddall <clytie@riverland.net.au>\n"
 "Language-Team: Vietnamese <gnomevi-list@lists.sourceforge.net>\n"
@@ -161,10 +161,9 @@ msgstr "Cấp ứng dụng:"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, pbConfigStyle)
 #: styleconfig.ui:45
-#, fuzzy, kde-format
-#| msgid "Application Level"
+#, kde-format
 msgid "Configure Application Style..."
-msgstr "Cấp ứng dụng:"
+msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, labelShowIcons)
 #: styleconfig.ui:61
@@ -267,15 +266,6 @@ msgstr "Nút chọn một"
 #, kde-format
 msgid "Tab 2"
 msgstr "Thanh 2"
-
-
-
-
-
-
-
-
-
 
 
 

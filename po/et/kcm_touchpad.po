@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"POT-Creation-Date: 2019-06-20 07:49+0200\n"
 "PO-Revision-Date: 2016-01-10 11:03+0200\n"
 "Last-Translator: Marek Laane <qiilaq69@gmail.com>\n"
 "Language-Team: Estonian <kde-i18n-doc@kde.org>\n"
@@ -318,11 +318,9 @@ msgid "Middle-click: "
 msgstr ""
 
 #: src/kcm/libinput/touchpad.qml:704
-#, fuzzy, kde-format
-#| msgctxt "Touchpad Edge"
-#| msgid "Bottom right corner"
+#, kde-format
 msgid "Press bottom-middle"
-msgstr "Alumine parem nurk"
+msgstr ""
 
 #: src/kcm/libinput/touchpad.qml:708
 #, kde-format

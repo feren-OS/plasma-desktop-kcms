@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmstyle\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"POT-Creation-Date: 2019-05-20 07:46+0200\n"
 "PO-Revision-Date: 2019-03-14 20:46+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -33,10 +33,7 @@ msgid "Your emails"
 msgstr "paladin@ms1.hinet.net,kenduest@i18n.linux.org.tw, s8321414@gmail.com"
 
 #: kcmstyle.cpp:173
-#, fuzzy, kde-format
-#| msgid ""
-#| "This module allows you to modify the visual appearance of applications' "
-#| "user interface elements."
+#, kde-format
 msgid ""
 "This module allows you to modify the visual appearance of applications' user "
 "interface elements."
@@ -101,33 +98,21 @@ msgstr ""
 "題中(額外的資訊如大理石紋等)。"
 
 #: kcmstyle.cpp:701
-#, fuzzy, kde-format
-#| msgid ""
-#| "If you enable this option, applications will show small icons alongside "
-#| "some important buttons."
+#, kde-format
 msgid ""
 "If you enable this option, applications will show small icons alongside some "
 "important buttons."
 msgstr "如果開啟此選項，應用程式將會在某些重要的按鍵旁顯示小圖示。"
 
 #: kcmstyle.cpp:703
-#, fuzzy, kde-format
-#| msgid ""
-#| "If you enable this option, applications will show small icons alongside "
-#| "most menu items."
+#, kde-format
 msgid ""
 "If you enable this option, applications will show small icons alongside most "
 "menu items."
 msgstr "如果開啟此選項，那麼應用程式將會在大部份選單項目旁顯示小圖示。"
 
 #: kcmstyle.cpp:705
-#, fuzzy, kde-format
-#| msgid ""
-#| "<p><b>No text:</b> Shows only icons on toolbar buttons. Best option for "
-#| "low resolutions.</p><p><b>Text only: </b>Shows only text on toolbar "
-#| "buttons.</p><p><b>Text beside icons: </b> Shows icons and text on toolbar "
-#| "buttons. Text is aligned beside the icon.</p><b>Text below icons: </b> "
-#| "Shows icons and text on toolbar buttons. Text is aligned below the icon."
+#, kde-format
 msgid ""
 "<p><b>No text:</b> Shows only icons on toolbar buttons. Best option for low "
 "resolutions.</p><p><b>Text only: </b>Shows only text on toolbar buttons.</"
@@ -148,10 +133,9 @@ msgstr "設定 %1"
 
 #. i18n: ectx: property (text), widget (QLabel, labelApplicationStyle)
 #: styleconfig.ui:20
-#, fuzzy, kde-format
-#| msgid "Application Style"
+#, kde-format
 msgid "Application style:"
-msgstr "應用程式樣式"
+msgstr "應用程式樣式："
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, pbConfigStyle)
 #: styleconfig.ui:45
@@ -161,15 +145,13 @@ msgstr "設定應用程式樣式…"
 
 #. i18n: ectx: property (text), widget (QLabel, labelShowIcons)
 #: styleconfig.ui:61
-#, fuzzy, kde-format
-#| msgid "Show icons:"
+#, kde-format
 msgid "Show icons:"
 msgstr "顯示圖示："
 
 #. i18n: ectx: property (text), widget (QLabel, labelToolbarIcons)
 #: styleconfig.ui:68
-#, fuzzy, kde-format
-#| msgid "Main toolbar label:"
+#, kde-format
 msgid "Main toolbar label:"
 msgstr "主工具列標籤："
 
@@ -183,31 +165,27 @@ msgstr "不顯示"
 #. i18n: ectx: property (text), item, widget (QComboBox, comboToolbarIcons)
 #. i18n: ectx: property (text), item, widget (QComboBox, comboSecondaryToolbarIcons)
 #: styleconfig.ui:84 styleconfig.ui:118
-#, fuzzy, kde-format
-#| msgid "Text only"
+#, kde-format
 msgid "Text only"
 msgstr "只顯示文字"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, comboToolbarIcons)
 #. i18n: ectx: property (text), item, widget (QComboBox, comboSecondaryToolbarIcons)
 #: styleconfig.ui:89 styleconfig.ui:123
-#, fuzzy, kde-format
-#| msgid "Beside icons"
+#, kde-format
 msgid "Beside icons"
 msgstr "文字在圖示旁顯示"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, comboToolbarIcons)
 #. i18n: ectx: property (text), item, widget (QComboBox, comboSecondaryToolbarIcons)
 #: styleconfig.ui:94 styleconfig.ui:128
-#, fuzzy, kde-format
-#| msgid "Below icons"
+#, kde-format
 msgid "Below icons"
 msgstr "文字在圖示下顯示"
 
 #. i18n: ectx: property (text), widget (QLabel, labelSecondaryToolbarIcons)
 #: styleconfig.ui:102
-#, fuzzy, kde-format
-#| msgid "Secondary toolbar label:"
+#, kde-format
 msgid "Secondary toolbar label:"
 msgstr "第二工具列標籤："
 
@@ -231,15 +209,13 @@ msgstr "分頁 1"
 
 #. i18n: ectx: property (text), widget (QPushButton, pushButton)
 #: stylepreview.ui:65
-#, fuzzy, kde-format
-#| msgid "Push Button"
+#, kde-format
 msgid "Push Button"
 msgstr "按鈕"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBox)
 #: stylepreview.ui:86
-#, fuzzy, kde-format
-#| msgid "Combo box"
+#, kde-format
 msgid "Combo box"
 msgstr "下拉式方塊"
 

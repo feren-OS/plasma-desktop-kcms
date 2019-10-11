@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: kcmcolors\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2019-06-21 07:50+0200\n"
-"PO-Revision-Date: 2019-08-11 14:09+0530\n"
-"Last-Translator: Subin Siby <mail@subinsb.com>\n"
+"PO-Revision-Date: 2008-12-09 17:15-0800\n"
+"Last-Translator: Praveen Arimbrathodiyil <pravi.a@gmail.com>\n"
 "Language-Team: Malayalam <smc-discuss@googlegroups.com>\n"
 "Language: ml\n"
 "MIME-Version: 1.0\n"
@@ -41,6 +41,7 @@ msgstr ""
 
 #: colors.cpp:110
 #, fuzzy, kde-format
+#| msgid "Get &New Schemes..."
 msgid "Download New Color Schemes"
 msgstr "&പുതിയ നിറക്കൂട്ടുകള്‍ ലഭ്യമാക്കുക..."
 
@@ -50,12 +51,14 @@ msgid "Unable to create a temporary file."
 msgstr ""
 
 #: colors.cpp:180
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "&Enter a name for the color scheme:"
 msgid "Unable to download the color scheme: %1"
-msgstr "നിറങ്ങളെ ഡൗണ്‍ലോഡ് ചെയ്യാന്‍ കഴിഞില്ല: %1"
+msgstr "നിറങ്ങളുടെ കൂട്ടിനു് ഒരു പേരു് &നല്‍കുക:"
 
 #: colors.cpp:198
 #, fuzzy, kde-format
+#| msgid "Import a color scheme from a file"
 msgid "This file is not a color scheme file."
 msgstr "ഒരു ഫയലില്‍ നിന്നും നിറക്കൂട്ടു് എടുക്കുക"
 
@@ -96,6 +99,7 @@ msgstr "തെരഞ്ഞെടുത്ത നിറക്കൂട്ടു�
 #. i18n: ectx: property (text), widget (QPushButton, schemeRemoveButton)
 #: editor/colorsettings.ui:55
 #, fuzzy, kde-format
+#| msgid "Remove Scheme"
 msgid "Remove"
 msgstr "നിറക്കൂട്ടു് നീക്കം ചെയ്യുക"
 
@@ -128,16 +132,19 @@ msgstr "&പുതിയ നിറക്കൂട്ടുകള്‍ ലഭ്
 #. i18n: ectx: property (text), widget (QCheckBox, applyToAlien)
 #: editor/colorsettings.ui:137
 #, fuzzy, kde-format
+#| msgid "Apply colors to &non-KDE4 applications"
 msgid "Apply colors to &non-Qt applications"
 msgstr "&കെഡിഇ4 അല്ലാത്ത പ്രയോഗങ്ങളിലും നിറങ്ങള്‍ പ്രയോഗിയ്ക്കുക"
 
 #: editor/kcolorschemeeditor.cpp:35
 #, fuzzy, kde-format
+#| msgid "Save Color Scheme"
 msgid "KColorSchemeEditor"
 msgstr "നിറക്കൂട്ടു് സൂക്ഷിക്കുക"
 
 #: editor/kcolorschemeeditor.cpp:37
 #, fuzzy, kde-format
+#| msgid "Save the current color scheme"
 msgid "Utility to edit and create color schemes"
 msgstr "നിലവിലുള്ള നിറക്കൂട്ടു് സൂക്ഷിക്കുക"
 
@@ -192,6 +199,7 @@ msgstr ""
 #. i18n: ectx: property (toolTip), widget (QLabel, label)
 #: editor/preview.ui:29
 #, fuzzy, kde-format
+#| msgid "Window Background"
 msgid "Window text on Window Background"
 msgstr "ജാലകത്തിന്റെ പശ്ചാത്തലം"
 
@@ -207,6 +215,7 @@ msgstr "ജാലകത്തിനുള്ള പദാവലി"
 #. i18n: ectx: property (toolTip), widget (QPushButton, pushButton)
 #: editor/preview.ui:39
 #, fuzzy, kde-format
+#| msgid "Button Background"
 msgid "Button text on Button Background"
 msgstr "ബട്ടണിന്റെ പശ്ചാത്തലം"
 
@@ -214,6 +223,7 @@ msgstr "ബട്ടണിന്റെ പശ്ചാത്തലം"
 #. i18n: ectx: property (text), widget (QPushButton, pushButton)
 #: editor/preview.ui:42
 #, fuzzy, kde-format
+#| msgid "Push Button"
 msgctxt "color-kcm-preview"
 msgid "Push Button"
 msgstr "പുഷ് ബട്ടണ്‍"
@@ -221,6 +231,7 @@ msgstr "പുഷ് ബട്ടണ്‍"
 #. i18n: ectx: property (toolTip), widget (QLabel, labelSelection0)
 #: editor/preview.ui:123
 #, fuzzy, kde-format
+#| msgid "Normal Background"
 msgid "Selection Normal Text against Selection Normal Background"
 msgstr "സാധാരണ പശ്ചാത്തലം"
 
@@ -228,6 +239,7 @@ msgstr "സാധാരണ പശ്ചാത്തലം"
 #. i18n: ectx: property (text), widget (QLabel, labelSelection0)
 #: editor/preview.ui:126
 #, fuzzy, kde-format
+#| msgid "Selected text"
 msgctxt "color-kcm-preview"
 msgid "Selected text"
 msgstr "തെരഞ്ഞെടുത്ത പദാവലി"
@@ -235,6 +247,7 @@ msgstr "തെരഞ്ഞെടുത്ത പദാവലി"
 #. i18n: ectx: property (toolTip), widget (QLabel, labelSelection3)
 #: editor/preview.ui:138
 #, fuzzy, kde-format
+#| msgid "Normal Background"
 msgid "Selection Link Text against Selection Normal Background"
 msgstr "സാധാരണ പശ്ചാത്തലം"
 
@@ -252,6 +265,7 @@ msgstr "കണ്ണി"
 #. i18n: ectx: property (toolTip), widget (QLabel, labelSelection4)
 #: editor/preview.ui:153
 #, fuzzy, kde-format
+#| msgid "Normal Background"
 msgid "Selection Visited Text against Selection Normal Background"
 msgstr "സാധാരണ പശ്ചാത്തലം"
 
@@ -269,6 +283,7 @@ msgstr "സന്ദര്‍ശിച്ചതു്"
 #. i18n: ectx: property (toolTip), widget (QLabel, labelSelection2)
 #: editor/preview.ui:163
 #, fuzzy, kde-format
+#| msgid "Normal Background"
 msgid "Selection Active Text against Selection Normal Background"
 msgstr "സാധാരണ പശ്ചാത്തലം"
 
@@ -278,6 +293,8 @@ msgstr "സാധാരണ പശ്ചാത്തലം"
 #. i18n: ectx: property (text), widget (QLabel, labelView2)
 #: editor/preview.ui:166 editor/preview.ui:290
 #, fuzzy, kde-format
+#| msgctxt "active (abbreviate)"
+#| msgid "a"
 msgctxt "color-kcm-preview"
 msgid "a"
 msgstr "a"
@@ -285,6 +302,7 @@ msgstr "a"
 #. i18n: ectx: property (toolTip), widget (QLabel, labelSelection1)
 #: editor/preview.ui:173
 #, fuzzy, kde-format
+#| msgid "Normal Background"
 msgid "Selection Inactive Text against Selection Normal Background"
 msgstr "സാധാരണ പശ്ചാത്തലം"
 
@@ -294,6 +312,8 @@ msgstr "സാധാരണ പശ്ചാത്തലം"
 #. i18n: ectx: property (text), widget (QLabel, labelView1)
 #: editor/preview.ui:176 editor/preview.ui:300
 #, fuzzy, kde-format
+#| msgctxt "inactive (abbreviate)"
+#| msgid "i"
 msgctxt "color-kcm-preview"
 msgid "i"
 msgstr "i"
@@ -301,6 +321,7 @@ msgstr "i"
 #. i18n: ectx: property (toolTip), widget (QLabel, labelSelection5)
 #: editor/preview.ui:183
 #, fuzzy, kde-format
+#| msgid "Normal Background"
 msgid "Selection Negative Text against Selection Normal Background"
 msgstr "സാധാരണ പശ്ചാത്തലം"
 
@@ -310,6 +331,7 @@ msgstr "സാധാരണ പശ്ചാത്തലം"
 #. i18n: ectx: property (text), widget (QLabel, labelView5)
 #: editor/preview.ui:186 editor/preview.ui:310
 #, fuzzy, kde-format
+#| msgid "!"
 msgctxt "color-kcm-preview"
 msgid "!"
 msgstr "!"
@@ -317,6 +339,7 @@ msgstr "!"
 #. i18n: ectx: property (toolTip), widget (QLabel, labelSelection6)
 #: editor/preview.ui:193
 #, fuzzy, kde-format
+#| msgid "Normal Background"
 msgid "Selection Neutral Text against Selection Normal Background"
 msgstr "സാധാരണ പശ്ചാത്തലം"
 
@@ -326,6 +349,7 @@ msgstr "സാധാരണ പശ്ചാത്തലം"
 #. i18n: ectx: property (text), widget (QLabel, labelView6)
 #: editor/preview.ui:196 editor/preview.ui:320
 #, fuzzy, kde-format
+#| msgid "="
 msgctxt "color-kcm-preview"
 msgid "="
 msgstr "="
@@ -333,6 +357,7 @@ msgstr "="
 #. i18n: ectx: property (toolTip), widget (QLabel, labelSelection7)
 #: editor/preview.ui:203
 #, fuzzy, kde-format
+#| msgid "Normal Background"
 msgid "Selection Positive Text against Selection Normal Background"
 msgstr "സാധാരണ പശ്ചാത്തലം"
 
@@ -342,6 +367,7 @@ msgstr "സാധാരണ പശ്ചാത്തലം"
 #. i18n: ectx: property (text), widget (QLabel, labelView7)
 #: editor/preview.ui:206 editor/preview.ui:330
 #, fuzzy, kde-format
+#| msgid "+"
 msgctxt "color-kcm-preview"
 msgid "+"
 msgstr "+"
@@ -349,6 +375,7 @@ msgstr "+"
 #. i18n: ectx: property (toolTip), widget (QLabel, labelView0)
 #: editor/preview.ui:247
 #, fuzzy, kde-format
+#| msgid "Normal Background"
 msgid "View Normal Text against View Normal Background"
 msgstr "സാധാരണ പശ്ചാത്തലം"
 
@@ -364,42 +391,49 @@ msgstr "സാധരണ പദാവലി"
 #. i18n: ectx: property (toolTip), widget (QLabel, labelView3)
 #: editor/preview.ui:262
 #, fuzzy, kde-format
+#| msgid "Normal Background"
 msgid "View Link Text against View Normal Background"
 msgstr "സാധാരണ പശ്ചാത്തലം"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, labelView4)
 #: editor/preview.ui:277
 #, fuzzy, kde-format
+#| msgid "Normal Background"
 msgid "View Visited Text against View Normal Background"
 msgstr "സാധാരണ പശ്ചാത്തലം"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, labelView2)
 #: editor/preview.ui:287
 #, fuzzy, kde-format
+#| msgid "Normal Background"
 msgid "View Active Text against View Normal Background"
 msgstr "സാധാരണ പശ്ചാത്തലം"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, labelView1)
 #: editor/preview.ui:297
 #, fuzzy, kde-format
+#| msgid "Normal Background"
 msgid "View Inactive Text against View Normal Background"
 msgstr "സാധാരണ പശ്ചാത്തലം"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, labelView5)
 #: editor/preview.ui:307
 #, fuzzy, kde-format
+#| msgid "Normal Background"
 msgid "View Negative Text against View Normal Background"
 msgstr "സാധാരണ പശ്ചാത്തലം"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, labelView6)
 #: editor/preview.ui:317
 #, fuzzy, kde-format
+#| msgid "Normal Background"
 msgid "View Neutral Text against View Normal Background"
 msgstr "സാധാരണ പശ്ചാത്തലം"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, labelView7)
 #: editor/preview.ui:327
 #, fuzzy, kde-format
+#| msgid "Normal Background"
 msgid "View Positive Text against View Normal Background"
 msgstr "സാധാരണ പശ്ചാത്തലം"
 
@@ -480,6 +514,7 @@ msgstr "മുകളി‍ല്‍ വരുമ്പോഴുള്ള അല�
 #. i18n: ectx: property (text), widget (QLabel, label_7)
 #: editor/scmeditorcolors.ui:23
 #, fuzzy, kde-format
+#| msgid "Color Set:"
 msgid "Color set:"
 msgstr "നിറക്കൂട്ടം:"
 
@@ -493,6 +528,7 @@ msgstr "കാണേണ്ട/മാറ്റേണ്ട നിറക്കൂ�
 #. i18n: ectx: property (text), item, widget (QComboBox, colorSet)
 #: editor/scmeditorcolors.ui:40
 #, fuzzy, kde-format
+#| msgid "Common Colors"
 msgctxt "color-sets"
 msgid "Common Colors"
 msgstr "സാധാരണ നിറങ്ങള്‍"
@@ -501,6 +537,7 @@ msgstr "സാധാരണ നിറങ്ങള്‍"
 #. i18n: ectx: property (text), item, widget (QComboBox, colorSet)
 #: editor/scmeditorcolors.ui:45
 #, fuzzy, kde-format
+#| msgid "View"
 msgctxt "color-sets"
 msgid "View"
 msgstr "കാഴ്ച"
@@ -509,6 +546,7 @@ msgstr "കാഴ്ച"
 #. i18n: ectx: property (text), item, widget (QComboBox, colorSet)
 #: editor/scmeditorcolors.ui:50
 #, fuzzy, kde-format
+#| msgid "Window"
 msgctxt "color-sets"
 msgid "Window"
 msgstr "ജാലകം"
@@ -526,6 +564,7 @@ msgstr "ബട്ടണ്‍"
 #. i18n: ectx: property (text), item, widget (QComboBox, colorSet)
 #: editor/scmeditorcolors.ui:60
 #, fuzzy, kde-format
+#| msgid "Selection"
 msgctxt "color-sets"
 msgid "Selection"
 msgstr "തെരഞ്ഞെടുത്തവ"
@@ -534,6 +573,7 @@ msgstr "തെരഞ്ഞെടുത്തവ"
 #. i18n: ectx: property (text), item, widget (QComboBox, colorSet)
 #: editor/scmeditorcolors.ui:65
 #, fuzzy, kde-format
+#| msgid "Tooltip"
 msgctxt "color-sets"
 msgid "Tooltip"
 msgstr "സൂചന"
@@ -657,6 +697,7 @@ msgstr "സജീവമായ തലകെട്ട് ബാര്‍ പദാ
 #. i18n: ectx: property (text), item, widget (QTableWidget, commonColorTable)
 #: editor/scmeditorcolors.ui:363
 #, fuzzy, kde-format
+#| msgid "Active Titlebar Text"
 msgid "Active Titlebar Secondary"
 msgstr "സജീവമായ തലകെട്ട് ബാര്‍ പദാവലി"
 
@@ -675,6 +716,7 @@ msgstr "സജീവമല്ലാത്ത തലകെട്ട് ബാര�
 #. i18n: ectx: property (text), item, widget (QTableWidget, commonColorTable)
 #: editor/scmeditorcolors.ui:378
 #, fuzzy, kde-format
+#| msgid "Inactive Titlebar Text"
 msgid "Inactive Titlebar Secondary"
 msgstr "സജീവമല്ലാത്ത തലകെട്ട് ബാര്‍ പദാവലി"
 
@@ -685,6 +727,7 @@ msgstr "ഐച്ഛികങ്ങള്‍"
 
 #: editor/scmeditordialog.cpp:81
 #, fuzzy, kde-format
+#| msgid "Disabled"
 msgid "Disabled"
 msgstr "പ്രവര്‍ത്തനരഹിതം"
 
@@ -739,12 +782,14 @@ msgstr "പിശകു്"
 
 #: editor/scmeditordialog.cpp:240
 #, fuzzy, kde-format
+#| msgid "Inactive"
 msgid "Inactive"
 msgstr "സജീവമല്ലാത്ത"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, schemeKnsUploadButton)
 #: editor/scmeditordialog.ui:42
 #, fuzzy, kde-format
+#| msgid "Get new color schemes from the Internet"
 msgid "Share the selected scheme on the Internet"
 msgstr "ഇന്റര്‍നെറ്റില്‍ നിന്നും നിറക്കൂട്ടു് ലഭ്യമാക്കുക"
 
@@ -776,6 +821,7 @@ msgstr "പ്രവര്‍ത്തനരഹിതമായവയുടെ �
 #. i18n: ectx: property (text), item, widget (QComboBox, colorBox)
 #: editor/scmeditoreffects.ui:41
 #, fuzzy, kde-format
+#| msgid "None"
 msgctxt "no disabled color effect"
 msgid "None"
 msgstr "ശൂന്യം"
@@ -783,6 +829,7 @@ msgstr "ശൂന്യം"
 #. i18n: ectx: property (text), item, widget (QComboBox, colorBox)
 #: editor/scmeditoreffects.ui:46
 #, fuzzy, kde-format
+#| msgid "Desaturate"
 msgctxt "disabled color effect"
 msgid "Desaturate"
 msgstr "ഡീസാച്ചുറേറ്റ് ചെയ്യുക"
@@ -790,6 +837,7 @@ msgstr "ഡീസാച്ചുറേറ്റ് ചെയ്യുക"
 #. i18n: ectx: property (text), item, widget (QComboBox, colorBox)
 #: editor/scmeditoreffects.ui:51
 #, fuzzy, kde-format
+#| msgid "Fade"
 msgctxt "disabled color effect"
 msgid "Fade"
 msgstr "മങ്ങുക"
@@ -797,6 +845,7 @@ msgstr "മങ്ങുക"
 #. i18n: ectx: property (text), item, widget (QComboBox, colorBox)
 #: editor/scmeditoreffects.ui:56
 #, fuzzy, kde-format
+#| msgid "Tint"
 msgctxt "disabled color effect"
 msgid "Tint"
 msgstr "ഇളംനിറം"
@@ -810,6 +859,7 @@ msgstr "പ്രവര്‍ത്തനരഹിതമായവയുടെ �
 #. i18n: ectx: property (text), item, widget (QComboBox, intensityBox)
 #: editor/scmeditoreffects.ui:68
 #, fuzzy, kde-format
+#| msgid "None"
 msgctxt "no disabled intensity effect"
 msgid "None"
 msgstr "ശൂന്യം"
@@ -817,6 +867,7 @@ msgstr "ശൂന്യം"
 #. i18n: ectx: property (text), item, widget (QComboBox, intensityBox)
 #: editor/scmeditoreffects.ui:73
 #, fuzzy, kde-format
+#| msgid "Shade"
 msgctxt "disabled intensity effect"
 msgid "Shade"
 msgstr "ചുരുക്കുക"
@@ -824,6 +875,7 @@ msgstr "ചുരുക്കുക"
 #. i18n: ectx: property (text), item, widget (QComboBox, intensityBox)
 #: editor/scmeditoreffects.ui:78
 #, fuzzy, kde-format
+#| msgid "Darken"
 msgctxt "disabled intensity effect"
 msgid "Darken"
 msgstr "പ്രകാശം കുറയ്ക്കുക"
@@ -831,6 +883,7 @@ msgstr "പ്രകാശം കുറയ്ക്കുക"
 #. i18n: ectx: property (text), item, widget (QComboBox, intensityBox)
 #: editor/scmeditoreffects.ui:83
 #, fuzzy, kde-format
+#| msgid "Lighten"
 msgctxt "disabled intensity effect"
 msgid "Lighten"
 msgstr "പ്രകാശിപ്പിക്കുക"
@@ -868,6 +921,7 @@ msgstr "പ്രവര്‍ത്തനരഹിതമായവയുടെ �
 #. i18n: ectx: property (text), item, widget (QComboBox, contrastBox)
 #: editor/scmeditoreffects.ui:185
 #, fuzzy, kde-format
+#| msgid "None"
 msgctxt "no disabled contrast"
 msgid "None"
 msgstr "ശൂന്യം"
@@ -875,6 +929,7 @@ msgstr "ശൂന്യം"
 #. i18n: ectx: property (text), item, widget (QComboBox, contrastBox)
 #: editor/scmeditoreffects.ui:190
 #, fuzzy, kde-format
+#| msgid "Fade"
 msgctxt "disabled contrast"
 msgid "Fade"
 msgstr "മങ്ങുക"
@@ -882,6 +937,7 @@ msgstr "മങ്ങുക"
 #. i18n: ectx: property (text), item, widget (QComboBox, contrastBox)
 #: editor/scmeditoreffects.ui:195
 #, fuzzy, kde-format
+#| msgid "Tint"
 msgctxt "disabled contrast"
 msgid "Tint"
 msgstr "ഇളംനിറം"
@@ -895,6 +951,7 @@ msgstr "പ്രവര്‍ത്തനരഹിതമായവയുടെ �
 #. i18n: ectx: property (text), widget (QCheckBox, useInactiveEffects)
 #: editor/scmeditoroptions.ui:17
 #, fuzzy, kde-format
+#| msgid "Apply inactive window color &effects"
 msgid "Apply &effects to inactive windows"
 msgstr "സജീവമല്ലാത്ത ജാലകത്തിനുള്ള നിറ &പ്രഭാവങ്ങള്‍ പ്രയോഗിയ്ക്കുക"
 
@@ -919,6 +976,7 @@ msgstr ""
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_5)
 #: editor/scmeditoroptions.ui:41
 #, fuzzy, kde-format
+#| msgid "Shade"
 msgid "Shading"
 msgstr "ചുരുക്കുക"
 
@@ -944,6 +1002,7 @@ msgstr "വ്യത്യയം (contrast)"
 #. i18n: ectx: property (toolTip), widget (QLabel, labelBack0)
 #: editor/setpreview.ui:35 editor/setpreview.ui:189
 #, fuzzy, kde-format
+#| msgid "Normal Background"
 msgid "Normal Text on Normal Background"
 msgstr "സാധാരണ പശ്ചാത്തലം"
 
@@ -953,6 +1012,7 @@ msgstr "സാധാരണ പശ്ചാത്തലം"
 #. i18n: ectx: property (text), widget (QLabel, labelBack0)
 #: editor/setpreview.ui:38 editor/setpreview.ui:192
 #, fuzzy, kde-format
+#| msgid "normal"
 msgctxt "color-kcm-set-preview"
 msgid "normal"
 msgstr "സാധാരണ"
@@ -960,6 +1020,7 @@ msgstr "സാധാരണ"
 #. i18n: ectx: property (toolTip), widget (QLabel, labelFore3)
 #: editor/setpreview.ui:56
 #, fuzzy, kde-format
+#| msgid "Normal Background"
 msgid "Link Text on Normal Background"
 msgstr "സാധാരണ പശ്ചാത്തലം"
 
@@ -969,6 +1030,7 @@ msgstr "സാധാരണ പശ്ചാത്തലം"
 #. i18n: ectx: property (text), widget (QLabel, labelBack3)
 #: editor/setpreview.ui:59 editor/setpreview.ui:214
 #, fuzzy, kde-format
+#| msgid "link"
 msgctxt "color-kcm-set-preview"
 msgid "link"
 msgstr "കണ്ണി"
@@ -976,6 +1038,7 @@ msgstr "കണ്ണി"
 #. i18n: ectx: property (toolTip), widget (QLabel, labelFore4)
 #: editor/setpreview.ui:77
 #, fuzzy, kde-format
+#| msgid "Normal Background"
 msgid "Visited Text on Normal Background"
 msgstr "സാധാരണ പശ്ചാത്തലം"
 
@@ -985,6 +1048,7 @@ msgstr "സാധാരണ പശ്ചാത്തലം"
 #. i18n: ectx: property (text), widget (QLabel, labelBack4)
 #: editor/setpreview.ui:80 editor/setpreview.ui:236
 #, fuzzy, kde-format
+#| msgid "visited"
 msgctxt "color-kcm-set-preview"
 msgid "visited"
 msgstr "സന്ദര്‍ശിച്ചതു്"
@@ -992,6 +1056,7 @@ msgstr "സന്ദര്‍ശിച്ചതു്"
 #. i18n: ectx: property (toolTip), widget (QWidget, widgetFore2)
 #: editor/setpreview.ui:90
 #, fuzzy, kde-format
+#| msgid "Normal Background"
 msgid "Active Text on Normal Background"
 msgstr "സാധാരണ പശ്ചാത്തലം"
 
@@ -1001,6 +1066,7 @@ msgstr "സാധാരണ പശ്ചാത്തലം"
 #. i18n: ectx: property (text), widget (QLabel, labelBack2)
 #: editor/setpreview.ui:96 editor/setpreview.ui:253
 #, fuzzy, kde-format
+#| msgid "active"
 msgctxt "color-kcm-set-preview"
 msgid "active"
 msgstr "സജീവം"
@@ -1008,6 +1074,7 @@ msgstr "സജീവം"
 #. i18n: ectx: property (toolTip), widget (QLabel, labelFore1)
 #: editor/setpreview.ui:109
 #, fuzzy, kde-format
+#| msgid "Normal Background"
 msgid "Inactive Text on Normal Background"
 msgstr "സാധാരണ പശ്ചാത്തലം"
 
@@ -1015,6 +1082,7 @@ msgstr "സാധാരണ പശ്ചാത്തലം"
 #. i18n: ectx: property (text), widget (QLabel, labelFore1)
 #: editor/setpreview.ui:112
 #, fuzzy, kde-format
+#| msgid "inactive"
 msgctxt "color-kcm-set-preview"
 msgid "inactive"
 msgstr "സജീവമല്ലാത്ത"
@@ -1022,6 +1090,7 @@ msgstr "സജീവമല്ലാത്ത"
 #. i18n: ectx: property (toolTip), widget (QLabel, labelFore5)
 #: editor/setpreview.ui:125
 #, fuzzy, kde-format
+#| msgid "Normal Background"
 msgid "Negative Text on Normal Background"
 msgstr "സാധാരണ പശ്ചാത്തലം"
 
@@ -1031,6 +1100,7 @@ msgstr "സാധാരണ പശ്ചാത്തലം"
 #. i18n: ectx: property (text), widget (QLabel, labelBack5)
 #: editor/setpreview.ui:128 editor/setpreview.ui:286
 #, fuzzy, kde-format
+#| msgid "negative"
 msgctxt "color-kcm-set-preview"
 msgid "negative"
 msgstr "നെഗറ്റിവ്"
@@ -1038,6 +1108,7 @@ msgstr "നെഗറ്റിവ്"
 #. i18n: ectx: property (toolTip), widget (QLabel, labelFore6)
 #: editor/setpreview.ui:141
 #, fuzzy, kde-format
+#| msgid "Normal Background"
 msgid "Neutral Text on Normal Background"
 msgstr "സാധാരണ പശ്ചാത്തലം"
 
@@ -1047,6 +1118,7 @@ msgstr "സാധാരണ പശ്ചാത്തലം"
 #. i18n: ectx: property (text), widget (QLabel, labelBack6)
 #: editor/setpreview.ui:144 editor/setpreview.ui:303
 #, fuzzy, kde-format
+#| msgid "neutral"
 msgctxt "color-kcm-set-preview"
 msgid "neutral"
 msgstr "ന്യൂട്രല്‍"
@@ -1054,6 +1126,7 @@ msgstr "ന്യൂട്രല്‍"
 #. i18n: ectx: property (toolTip), widget (QLabel, labelFore7)
 #: editor/setpreview.ui:157
 #, fuzzy, kde-format
+#| msgid "Normal Background"
 msgid "Positive Text on Normal Background"
 msgstr "സാധാരണ പശ്ചാത്തലം"
 
@@ -1063,6 +1136,7 @@ msgstr "സാധാരണ പശ്ചാത്തലം"
 #. i18n: ectx: property (text), widget (QLabel, labelBack7)
 #: editor/setpreview.ui:160 editor/setpreview.ui:320
 #, fuzzy, kde-format
+#| msgid "positive"
 msgctxt "color-kcm-set-preview"
 msgid "positive"
 msgstr "പോസിറ്റിവ്"
@@ -1070,6 +1144,7 @@ msgstr "പോസിറ്റിവ്"
 #. i18n: ectx: property (toolTip), widget (QWidget, widgetFore8)
 #: editor/setpreview.ui:170
 #, fuzzy, kde-format
+#| msgid "Normal Background"
 msgid "Hover on Normal Background"
 msgstr "സാധാരണ പശ്ചാത്തലം"
 
@@ -1077,6 +1152,7 @@ msgstr "സാധാരണ പശ്ചാത്തലം"
 #. i18n: ectx: property (text), widget (QLabel, labelFore8)
 #: editor/setpreview.ui:176
 #, fuzzy, kde-format
+#| msgid "hover"
 msgctxt "color-kcm-set-preview"
 msgid "hover"
 msgstr "മുകളില്‍ വരുന്ന"
@@ -1111,6 +1187,7 @@ msgstr ""
 #. i18n: ectx: property (toolTip), widget (QLabel, labelBack1)
 #: editor/setpreview.ui:266
 #, fuzzy, kde-format
+#| msgid "Alternate Background"
 msgid "Inactive Text on Alternate Background"
 msgstr "മറ്റൊരു പശ്ചാത്തലം"
 
@@ -1118,6 +1195,7 @@ msgstr "മറ്റൊരു പശ്ചാത്തലം"
 #. i18n: ectx: property (text), widget (QLabel, labelBack1)
 #: editor/setpreview.ui:269
 #, fuzzy, kde-format
+#| msgid "alternate"
 msgctxt "color-kcm-set-preview"
 msgid "alternate"
 msgstr "പകരമായി"
@@ -1152,6 +1230,7 @@ msgstr ""
 #. i18n: ectx: property (toolTip), widget (QLabel, labelFore9)
 #: editor/setpreview.ui:333
 #, fuzzy, kde-format
+#| msgid "Normal Background"
 msgid "Focus on Normal Background"
 msgstr "സാധാരണ പശ്ചാത്തലം"
 
@@ -1159,6 +1238,7 @@ msgstr "സാധാരണ പശ്ചാത്തലം"
 #. i18n: ectx: property (text), widget (QLabel, labelFore9)
 #: editor/setpreview.ui:336
 #, fuzzy, kde-format
+#| msgid "focus"
 msgctxt "color-kcm-set-preview"
 msgid "focus"
 msgstr "ദൃഷ്ടി കേന്ദ്രം"
@@ -1181,68 +1261,81 @@ msgstr ""
 
 #: package/contents/ui/main.qml:133
 #, fuzzy, kde-format
+#| msgid "Import Scheme..."
 msgid "All Schemes"
 msgstr "നിറക്കൂട്ടു് എടുക്കുക..."
 
 #: package/contents/ui/main.qml:134
 #, fuzzy, kde-format
+#| msgid "&Scheme"
 msgid "Light Schemes"
 msgstr "&നിറക്കൂട്ടു്"
 
 #: package/contents/ui/main.qml:135
 #, fuzzy, kde-format
+#| msgid "Save Scheme..."
 msgid "Dark Schemes"
 msgstr "നിറക്കൂട്ടു് സൂക്ഷിക്കുക..."
 
 #: package/contents/ui/main.qml:193
 #, fuzzy, kde-format
+#| msgid "Window text"
 msgid "Window text"
 msgstr "ജാലകത്തിനുള്ള പദാവലി"
 
 #: package/contents/ui/main.qml:200
 #, fuzzy, kde-format
+#| msgid "Button"
 msgid "Button"
 msgstr "ബട്ടണ്‍"
 
 #: package/contents/ui/main.qml:219
 #, fuzzy, kde-format
+#| msgid "link"
 msgctxt "Hyperlink"
 msgid "link"
 msgstr "കണ്ണി"
 
 #: package/contents/ui/main.qml:221
 #, fuzzy, kde-format
+#| msgid "visited"
 msgctxt "Visited hyperlink"
 msgid "visited"
 msgstr "സന്ദര്‍ശിച്ചതു്"
 
 #: package/contents/ui/main.qml:227
 #, fuzzy, kde-format
+#| msgid "Normal text"
 msgid "Normal text"
 msgstr "സാധരണ പദാവലി"
 
 #: package/contents/ui/main.qml:235
 #, fuzzy, kde-format
+#| msgid "Visited Text"
 msgid "Highlighted text"
 msgstr "സന്ദര്‍ശിച്ച പദാവലി"
 
 #: package/contents/ui/main.qml:242
 #, fuzzy, kde-format
+#| msgid "Disabled"
 msgid "Disabled text"
 msgstr "പ്രവര്‍ത്തനരഹിതം"
 
 #: package/contents/ui/main.qml:260
 #, fuzzy, kde-format
+#| msgid "Import Scheme..."
 msgid "Edit Color Scheme..."
 msgstr "നിറക്കൂട്ടു് എടുക്കുക..."
 
 #: package/contents/ui/main.qml:266
 #, fuzzy, kde-format
+#| msgid "Save Color Scheme"
 msgid "Remove Color Scheme"
 msgstr "നിറക്കൂട്ടു് സൂക്ഷിക്കുക"
 
 #: package/contents/ui/main.qml:273
 #, fuzzy, kde-format
+#| msgid "Import Color Scheme"
 msgid "Restore Color Scheme"
 msgstr "നിറക്കൂട്ടു് എടുക്കുക"
 
@@ -1253,11 +1346,13 @@ msgstr ""
 
 #: package/contents/ui/main.qml:322
 #, fuzzy, kde-format
+#| msgid "Get &New Schemes..."
 msgid "Get New Color Schemes..."
 msgstr "&പുതിയ നിറക്കൂട്ടുകള്‍ ലഭ്യമാക്കുക..."
 
 #: package/contents/ui/main.qml:334
 #, fuzzy, kde-format
+#| msgid "Save Color Scheme"
 msgid "Open Color Scheme"
 msgstr "നിറക്കൂട്ടു് സൂക്ഷിക്കുക"
 

@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmicons\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"POT-Creation-Date: 2019-05-20 07:46+0200\n"
 "PO-Revision-Date: 2013-02-09 14:12+0200\n"
 "Last-Translator: Cristian Oneț <onet.cristian@gmail.com>\n"
 "Language-Team: Romanian <kde-i18n-ro@kde.org>\n"
@@ -75,10 +75,9 @@ msgid "Kai Uwe Broulik"
 msgstr ""
 
 #: main.cpp:284
-#, fuzzy, kde-format
-#| msgid "Remove Theme"
+#, kde-format
 msgid "Download New Icon Themes"
-msgstr "Șterge tematica"
+msgstr ""
 
 #: main.cpp:320
 #, kde-format

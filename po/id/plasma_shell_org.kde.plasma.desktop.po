@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-desktop\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"POT-Creation-Date: 2019-06-15 07:36+0200\n"
 "PO-Revision-Date: 2019-07-15 07:32+0700\n"
 "Last-Translator: Wantoyo <wantoyek@gmail.com>\n"
 "Language-Team: Indonesian <kde-i18n-doc@kde.org>\n"
@@ -55,10 +55,8 @@ msgid "Delete"
 msgstr "Hapus"
 
 #: contents/configuration/AppletConfiguration.qml:53
-#, fuzzy
-#| msgid "Keyboard shortcuts"
 msgid "Keyboard Shortcuts"
-msgstr "Pintasan keyboard"
+msgstr "Pintasan Keyboard"
 
 #: contents/configuration/AppletConfiguration.qml:111
 msgid "Apply Settings"
@@ -140,8 +138,6 @@ msgid "Add Action"
 msgstr "Tambah Aksi"
 
 #: contents/configuration/ConfigurationContainmentAppearance.qml:75
-#, fuzzy
-#| msgid "Layout cannot be changed whilst widgets are locked"
 msgid "Layout cannot be changed while widgets are locked"
 msgstr "Tataletak tak bisa diubah saat widget terkunci"
 
@@ -315,7 +311,5 @@ msgid "Categories"
 msgstr "Kategori"
 
 #: contents/explorer/WidgetExplorer.qml:355
-#, fuzzy
-#| msgid "Get new widgets"
 msgid "Get New Widgets..."
-msgstr "Dapatkan widget baru"
+msgstr "Dapatkan Widget Baru..."

@@ -1,20 +1,20 @@
 #
 # Victor Ryzhykh <victorr2007@yandex.ru>, 2014, 2015.
-# Alexander Potashev <aspotashev@gmail.com>, 2015, 2017, 2018, 2019.
+# Alexander Potashev <aspotashev@gmail.com>, 2015, 2017, 2018.
 # Alexander Yavorsky <kekcuha@gmail.com>, 2018, 2019.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
-"PO-Revision-Date: 2019-09-02 00:32+0300\n"
-"Last-Translator: Alexander Potashev <aspotashev@gmail.com>\n"
+"POT-Creation-Date: 2019-06-20 07:49+0200\n"
+"PO-Revision-Date: 2019-07-24 21:37+0300\n"
+"Last-Translator: Alexander Yavorsky <kekcuha@gmail.com>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 19.07.70\n"
+"X-Generator: Lokalize 19.04.3\n"
 "Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
 "%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 
@@ -294,17 +294,17 @@ msgid "Right-click :"
 msgstr "Нажатие правой кнопки"
 
 #: src/kcm/libinput/touchpad.qml:641
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "Touchpad Edge"
+#| msgid "Bottom right corner"
 msgid "Press bottom-right corner"
-msgstr "Нажмите правый нижний угол"
+msgstr "Правый нижний угол"
 
 #: src/kcm/libinput/touchpad.qml:645
 #, kde-format
 msgid ""
 "Software enabled buttons will be added to bottom portion of your touchpad."
 msgstr ""
-"Виртуальные программные кнопки будут добавлены в нижней части сенсорной "
-"панели."
 
 #: src/kcm/libinput/touchpad.qml:653
 #, kde-format
@@ -312,7 +312,8 @@ msgid "Press anywhere with two fingers"
 msgstr "Нажмите двумя пальцами"
 
 #: src/kcm/libinput/touchpad.qml:657
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Tap with two fingers to right-click."
 msgid "Tap with two finger to enable right click."
 msgstr "Касание двумя пальцами обрабатывается как нажатие правой кнопки."
 
@@ -324,7 +325,7 @@ msgstr "Нажатие средней кнопки: "
 #: src/kcm/libinput/touchpad.qml:704
 #, kde-format
 msgid "Press bottom-middle"
-msgstr "Нажмите внизу посередине"
+msgstr ""
 
 #: src/kcm/libinput/touchpad.qml:708
 #, kde-format
@@ -332,13 +333,11 @@ msgid ""
 "Software enabled middle-button will be added to bottom portion of your "
 "touchpad."
 msgstr ""
-"Виртуальная программная средняя кнопка будут добавлена в нижней части "
-"сенсорной панели."
 
 #: src/kcm/libinput/touchpad.qml:716
 #, kde-format
 msgid "Press bottom left and bottom right corners simultaneously"
-msgstr "Нажмите одновременно внизу в правом и левом углах"
+msgstr ""
 
 #: src/kcm/libinput/touchpad.qml:729
 #, kde-format
@@ -456,7 +455,7 @@ msgstr "Средняя кнопка"
 #, kde-format
 msgctxt "Emulated mouse button"
 msgid "No action"
-msgstr "Не назначено"
+msgstr "Нет действия"
 
 #. i18n: ectx: label, entry ($(TapAction)Button), group (parameters)
 #: src/kcm/xlib/touchpad.kcfg:30

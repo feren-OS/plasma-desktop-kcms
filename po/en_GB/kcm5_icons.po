@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmicons\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"POT-Creation-Date: 2019-05-20 07:46+0200\n"
 "PO-Revision-Date: 2018-12-02 12:31+0000\n"
 "Last-Translator: Steve Allewell <steve.allewell@gmail.com>\n"
 "Language-Team: British English <kde-i18n-doc@kde.org>\n"
@@ -80,8 +80,7 @@ msgid "Unable to create a temporary file."
 msgstr "Unable to create a temporary file."
 
 #: main.cpp:332
-#, fuzzy, kde-format
-#| msgid "Unable to download the icon theme archive: %1"
+#, kde-format
 msgid "Unable to download the icon theme archive: %1"
 msgstr "Unable to download the icon theme archive: %1"
 
@@ -150,10 +149,9 @@ msgid "This module allows you to choose the icons for your desktop."
 msgstr "This module allows you to choose the icons for your desktop."
 
 #: package/contents/ui/main.qml:155
-#, fuzzy, kde-format
-#| msgid "Restore Icon Theme"
+#, kde-format
 msgid "Remove Icon Theme"
-msgstr "Restore Icon Theme"
+msgstr "Remove Icon Theme"
 
 #: package/contents/ui/main.qml:162
 #, kde-format
@@ -166,14 +164,12 @@ msgid "Configure Icon Sizes"
 msgstr "Configure Icon Sizes"
 
 #: package/contents/ui/main.qml:247
-#, fuzzy, kde-format
-#| msgid "Install from File..."
+#, kde-format
 msgid "Install from File..."
 msgstr "Install from File..."
 
 #: package/contents/ui/main.qml:253
-#, fuzzy, kde-format
-#| msgid "Get New Icons..."
+#, kde-format
 msgid "Get New Icons..."
 msgstr "Get New Icons..."
 

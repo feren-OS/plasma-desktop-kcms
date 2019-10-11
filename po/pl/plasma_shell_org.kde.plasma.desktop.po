@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
-"PO-Revision-Date: 2019-08-15 06:59+0200\n"
+"POT-Creation-Date: 2019-06-15 07:36+0200\n"
+"PO-Revision-Date: 2019-05-04 07:12+0200\n"
 "Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
 "Language-Team: Polish <kde-i18n-doc@kde.org>\n"
 "Language: pl\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 19.07.70\n"
+"X-Generator: Lokalize 19.03.70\n"
 
 #: contents/activitymanager/ActivityItem.qml:206
 msgid "Currently being used"
@@ -56,8 +56,6 @@ msgid "Delete"
 msgstr "Usuń"
 
 #: contents/configuration/AppletConfiguration.qml:53
-#, fuzzy
-#| msgid "Keyboard Shortcuts"
 msgid "Keyboard Shortcuts"
 msgstr "Skróty klawiszowe"
 
@@ -140,8 +138,6 @@ msgid "Add Action"
 msgstr "Dodaj działanie"
 
 #: contents/configuration/ConfigurationContainmentAppearance.qml:75
-#, fuzzy
-#| msgid "Layout cannot be changed while widgets are locked"
 msgid "Layout cannot be changed while widgets are locked"
 msgstr "Nie można zmienić układu, gdy elementy interfejsu są zablokowane"
 
@@ -155,7 +151,7 @@ msgstr "Rodzaj tapety:"
 
 #: contents/configuration/ConfigurationContainmentAppearance.qml:122
 msgid "Get New Plugins..."
-msgstr "Pobierz nową wtyczkę..."
+msgstr "Pobierz nowe wtyczki..."
 
 #: contents/configuration/ConfigurationContainmentAppearance.qml:140
 msgid "Layout changes must be applied before other changes can be made"
@@ -276,7 +272,7 @@ msgstr "Zamknij"
 
 #: contents/explorer/AppletAlternatives.qml:83
 msgid "Alternative Widgets"
-msgstr "Zamienne elementy interfejsu"
+msgstr "Alternatywne elementy interfejsu"
 
 #: contents/explorer/AppletAlternatives.qml:174
 msgid "Switch"
@@ -288,7 +284,7 @@ msgstr "Wycofaj odinstalowanie"
 
 #: contents/explorer/AppletDelegate.qml:180
 msgid "Uninstall widget"
-msgstr "Usuń element interfejsu"
+msgstr "Odinstaluj element interfejsu"
 
 #: contents/explorer/Tooltip.qml:106
 msgid "License:"
@@ -304,7 +300,7 @@ msgstr "Adres pocztowy:"
 
 #: contents/explorer/Tooltip.qml:142
 msgid "Uninstall"
-msgstr "Usuń "
+msgstr "Odinstaluj"
 
 #: contents/explorer/WidgetExplorer.qml:216
 msgid "Widgets"
@@ -315,7 +311,5 @@ msgid "Categories"
 msgstr "Kategorie"
 
 #: contents/explorer/WidgetExplorer.qml:355
-#, fuzzy
-#| msgid "Get New Widgets..."
 msgid "Get New Widgets..."
 msgstr "Pobierz nowe elementy interfejsu..."

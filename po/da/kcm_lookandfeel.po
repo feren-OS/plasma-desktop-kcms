@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"POT-Creation-Date: 2019-06-26 07:33+0200\n"
 "PO-Revision-Date: 2019-05-30 17:11+0100\n"
 "Last-Translator: Martin Schlander <mschlander@opensuse.org>\n"
 "Language-Team: Danish <kde-i18n-doc@kde.org>\n"
@@ -38,15 +38,12 @@ msgid "Marco Martin"
 msgstr "Marco Martin"
 
 #: kcm.cpp:112
-#, fuzzy, kde-format
-#| msgid "Download New Look and Feel Themes"
+#, kde-format
 msgid "Download New Look and Feel Themes"
 msgstr "Download nye udseende og fremtoning-temaer"
 
 #: kcm.cpp:572
-#, fuzzy, kde-format
-#| msgid ""
-#| "You have to restart the Plasma session for these changes to take effect."
+#, kde-format
 msgid ""
 "You have to restart the Plasma session for these changes to take effect."
 msgstr "Du skal genstarte Plasma-sessionen før disse ændringer træder i kraft."
@@ -107,10 +104,7 @@ msgid "Preview Theme"
 msgstr "Forhåndsvis tema"
 
 #: package/contents/ui/main.qml:67
-#, fuzzy, kde-format
-#| msgid ""
-#| "Your desktop layout will be lost and reset to the default layout provided "
-#| "by the selected theme."
+#, kde-format
 msgid ""
 "Your desktop layout will be lost and reset to the default layout provided by "
 "the selected theme."
@@ -119,13 +113,11 @@ msgstr ""
 "standardlayoutet for det valgte tema."
 
 #: package/contents/ui/main.qml:77
-#, fuzzy, kde-format
-#| msgid "Use desktop layout from theme"
+#, kde-format
 msgid "Use desktop layout from theme"
 msgstr "Brug skrivebordslayout fra temaet"
 
 #: package/contents/ui/main.qml:84
-#, fuzzy, kde-format
-#| msgid "Get New Looks..."
+#, kde-format
 msgid "Get New Look and Feel Themes..."
-msgstr "Hent nyt udseende..."
+msgstr "Hent nyt udseende og fremtoning-temaer..."

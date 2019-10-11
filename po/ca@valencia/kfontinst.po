@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kfontinst\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"POT-Creation-Date: 2019-05-20 07:46+0200\n"
 "PO-Revision-Date: 2019-02-19 19:38+0100\n"
 "Last-Translator: Josep Ma. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
@@ -657,8 +657,7 @@ msgid "Unexpected error while processing: <i>%1</i>"
 msgstr "Error inesperat en processar: <i>%1</i>"
 
 #: kcmfontinst/KCmFontInst.cpp:188
-#, fuzzy, kde-format
-#| msgid "Font Management"
+#, kde-format
 msgid "Font Management"
 msgstr "Gestió dels tipus de lletra"
 
@@ -728,8 +727,7 @@ msgid "Download new fonts"
 msgstr "Baixa els tipus de lletres nous"
 
 #: kcmfontinst/KCmFontInst.cpp:295
-#, fuzzy, kde-format
-#| msgid "Delete Selected Fonts..."
+#, kde-format
 msgid "Delete Selected Fonts..."
 msgstr "Suprimeix els tipus de lletra seleccionats..."
 

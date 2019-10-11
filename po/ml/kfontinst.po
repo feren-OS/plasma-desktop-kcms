@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kfontinst\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
-"PO-Revision-Date: 2019-08-11 14:09+0530\n"
-"Last-Translator: Subin Siby <mail@subinsb.com>\n"
+"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"PO-Revision-Date: 2008-12-18 05:38-0500\n"
+"Last-Translator: Manu S Madhav <manusmad@gmail.com>\n"
 "Language-Team:  <en@li.org>\n"
 "Language: ml\n"
 "MIME-Version: 1.0\n"
@@ -76,6 +76,7 @@ msgstr "അച്ചടിയ്ക്കുക"
 
 #: apps/Printer.cpp:417 kcmfontinst/DuplicatesDialog.cpp:257
 #, fuzzy, kde-format
+#| msgid "Cancel"
 msgid "Canceling..."
 msgstr "റദ്ദാക്കുക"
 
@@ -158,6 +159,7 @@ msgstr ""
 
 #: kcmfontinst/DuplicatesDialog.cpp:138
 #, fuzzy, kde-format
+#| msgid "%1 duplicate fonts found."
 msgid "%1 duplicate font found."
 msgid_plural "%1 duplicate fonts found."
 msgstr[0] "%1 ആവര്‍ത്തന അക്ഷരസഞ്ചയങ്ങള്‍ ലഭ്യമായില്ല."
@@ -179,6 +181,7 @@ msgstr "നിങ്ങള്‍ക്കിതു് വെട്ടിമാ�
 
 #: kcmfontinst/DuplicatesDialog.cpp:255
 #, fuzzy, kde-format
+#| msgid "Abort font scan?"
 msgid "Cancel font scan?"
 msgstr "അക്ഷരസഞ്ചയത്തിനുള്ള തെരച്ചില്‍ നിര്‍ത്തണമോ?"
 
@@ -224,6 +227,7 @@ msgstr "നീക്കം ചെയ്യാനായി അടയാളപ്�
 
 #: kcmfontinst/DuplicatesDialog.cpp:546
 #, fuzzy, kde-format
+#| msgid "Open all %1 fonts in font viewer?"
 msgid "Open font in font viewer?"
 msgid_plural "Open all %1 fonts in font viewer?"
 msgstr[0] "എല്ലാം %1 അക്ഷരസഞ്ചങ്ങളും അവ കാണുന്നതിനുള്ള പ്രയോഗത്തില്‍ തുറക്കണമോ?"
@@ -256,11 +260,13 @@ msgstr ""
 
 #: kcmfontinst/FontFilter.cpp:150
 #, fuzzy, kde-format
+#| msgid "File"
 msgid "File Type"
 msgstr "ഫയല്‍"
 
 #: kcmfontinst/FontFilter.cpp:178
 #, fuzzy, kde-format
+#| msgid "File"
 msgid "File Name"
 msgstr "ഫയല്‍"
 
@@ -442,6 +448,7 @@ msgstr "പേരു് മാറ്റുക..."
 
 #: kcmfontinst/GroupList.cpp:847
 #, fuzzy, kde-format
+#| msgid "Aborting..."
 msgid "Export..."
 msgstr "പിന്തിരിയുന്നു..."
 
@@ -452,6 +459,7 @@ msgstr ""
 
 #: kcmfontinst/GroupList.cpp:947
 #, fuzzy, kde-format
+#| msgid "Remove group"
 msgid "Remove from current group."
 msgstr "കൂട്ടം നീക്കം ചെയ്യുക"
 
@@ -477,6 +485,7 @@ msgstr "സ്വയം ഉപേക്ഷിക്കുക"
 
 #: kcmfontinst/JobRunner.cpp:199
 #, fuzzy, kde-format
+#| msgid "Are you sure you wish to cancel?"
 msgid "<h3>Cancel?</h3><p>Are you sure you wish to cancel?</p>"
 msgstr "നിങ്ങള്‍ക്കു് റദ്ദാക്കണമെന്നുറപ്പാണോ?"
 
@@ -519,6 +528,7 @@ msgstr "പുതുക്കുന്നു"
 
 #: kcmfontinst/JobRunner.cpp:356
 #, fuzzy, kde-format
+#| msgid "Remove"
 msgid "Removing"
 msgstr "നീക്കം ചെയ്യുക"
 
@@ -559,6 +569,9 @@ msgstr ""
 
 #: kcmfontinst/JobRunner.cpp:747
 #, fuzzy, kde-format
+#| msgid ""
+#| "You cannot install bitmap fonts, as these have been disabled on your "
+#| "system."
 msgid ""
 "<i>%1</i> is a bitmap font, and these have been disabled on your system."
 msgstr ""
@@ -567,6 +580,10 @@ msgstr ""
 
 #: kcmfontinst/JobRunner.cpp:749
 #, fuzzy, kde-format
+#| msgid ""
+#| "File %1 contains the font:\n"
+#| "%2\n"
+#| "A font with this name is already installed.\n"
 msgid ""
 "<i>%1</i> contains the font <b>%2</b>, which is already installed on your "
 "system."
@@ -582,6 +599,7 @@ msgstr ""
 
 #: kcmfontinst/JobRunner.cpp:754
 #, fuzzy, kde-format
+#| msgid "Looking for files associated with %1"
 msgid "Could not remove all files associated with <i>%1</i>"
 msgstr "%1-നോടനുബന്ധിച്ചുള്ള കൂടുതല്‍ ഫയലുകള്‍ തെരയുന്നു..."
 
@@ -592,6 +610,7 @@ msgstr ""
 
 #: kcmfontinst/JobRunner.cpp:761 kio/KioFonts.cpp:807
 #, fuzzy, kde-format
+#| msgid "<qt>A group named <b>'%1'</b> already exists.</qt>"
 msgid "<i>%1</i> already exists."
 msgstr "<qt><b>'%1'</b> എന്ന പേരില്‍ ഒരു കൂട്ടം നിലവിലുണ്ടു്.</qt>"
 
@@ -607,11 +626,13 @@ msgstr ""
 
 #: kcmfontinst/JobRunner.cpp:768
 #, fuzzy, kde-format
+#| msgid "Authentication failed."
 msgid "Unsupported action.<br><i>%1</i>"
 msgstr "ആധികാരികത ഉറപ്പാക്കുന്നതില്‍ പരാജയം"
 
 #: kcmfontinst/JobRunner.cpp:770
 #, fuzzy, kde-format
+#| msgid "Authentication failed."
 msgid "Authentication failed.<br><i>%1</i>"
 msgstr "ആധികാരികത ഉറപ്പാക്കുന്നതില്‍ പരാജയം"
 
@@ -622,11 +643,13 @@ msgstr ""
 
 #: kcmfontinst/KCmFontInst.cpp:188
 #, fuzzy, kde-format
+#| msgid "Font Management Mode"
 msgid "Font Management"
 msgstr "അക്ഷരസഞ്ചയം കൈകാര്യം ചെയ്യുന്ന മോഡ്"
 
 #: kcmfontinst/KCmFontInst.cpp:189
 #, fuzzy, kde-format
+#| msgid "(C) Craig Drummond, 2004-2007"
 msgid "(C) Craig Drummond, 2000 - 2009"
 msgstr "(C) ക്രെയിഗ് ഡ്രമണ്ട്, 2004-2007"
 
@@ -642,26 +665,31 @@ msgstr "രചയിതാവും പാലകനും"
 
 #: kcmfontinst/KCmFontInst.cpp:219
 #, fuzzy, kde-format
+#| msgid "Scan For Duplicate Fonts..."
 msgid "Scan for Duplicate Fonts..."
 msgstr "ആവര്‍ത്തന അക്ഷരസഞ്ചയങ്ങള്‍ക്കായി തെരയുന്നു..."
 
 #: kcmfontinst/KCmFontInst.cpp:232
 #, fuzzy, kde-format
+#| msgid "Create New Group"
 msgid "Create New Group..."
 msgstr "പുതിയ കൂട്ടമുണ്ടാക്കുക"
 
 #: kcmfontinst/KCmFontInst.cpp:236
 #, fuzzy, kde-format
+#| msgid "Remove Group"
 msgid "Remove Group..."
 msgstr "കൂട്ടം നീക്കം ചെയ്യുക"
 
 #: kcmfontinst/KCmFontInst.cpp:240
 #, fuzzy, kde-format
+#| msgid "Enable Fonts"
 msgid "Enable Fonts in Group..."
 msgstr "അക്ഷരസഞ്ചയം പ്രവര്‍ത്തന സജ്ജമാക്കുക"
 
 #: kcmfontinst/KCmFontInst.cpp:244
 #, fuzzy, kde-format
+#| msgid "Disable Fonts"
 msgid "Disable Fonts in Group..."
 msgstr "അക്ഷരസഞ്ചയം പ്രവര്‍ത്തന രഹിതമാക്കുക"
 
@@ -672,16 +700,18 @@ msgstr "തെരഞ്ഞെടുത്ത അക്ഷരസഞ്ചയം �
 
 #: kcmfontinst/KCmFontInst.cpp:287
 #, fuzzy, kde-format
+#| msgid "Install..."
 msgid "Install from File..."
 msgstr "ഇന്‍സ്റ്റോള്‍ ചെയ്യുക..."
 
 #: kcmfontinst/KCmFontInst.cpp:288
-#, fuzzy, kde-format
+#, kde-format
 msgid "Install fonts from a local file"
-msgstr "ഇന്‍സ്റ്റോള്‍ ചെയ്യുക..."
+msgstr ""
 
 #: kcmfontinst/KCmFontInst.cpp:290
 #, fuzzy, kde-format
+#| msgid "Delete Fonts"
 msgid "Get New Fonts..."
 msgstr "അക്ഷരസഞ്ചയങ്ങള്‍ വെട്ടിമാറ്റുക"
 
@@ -692,6 +722,7 @@ msgstr ""
 
 #: kcmfontinst/KCmFontInst.cpp:295
 #, fuzzy, kde-format
+#| msgid "Delete all selected fonts"
 msgid "Delete Selected Fonts..."
 msgstr "തെരഞ്ഞെടുത്ത എല്ലാ അക്ഷരസഞ്ചയങ്ങളും വെട്ടിമാറ്റുക"
 
@@ -796,6 +827,7 @@ msgstr "നീക്കുവാനൊന്നുമില്ല"
 
 #: kcmfontinst/KCmFontInst.cpp:723
 #, fuzzy, kde-format
+#| msgid "<p>Do you really want to move</p><p>'<b>%1</b>'?</p>"
 msgid ""
 "<p>Do you really want to move</p><p>'<b>%1</b>'</p><p>from <i>%2</i> to <i>"
 "%3</i>?</p>"
@@ -813,6 +845,7 @@ msgstr "നീക്കുക"
 
 #: kcmfontinst/KCmFontInst.cpp:732
 #, fuzzy, kde-format
+#| msgid "<p>Do you really want to move</p><p>'<b>%1</b>'?</p>"
 msgid ""
 "<p>Do you really want to move this font from <i>%2</i> to <i>%3</i>?</p>"
 msgid_plural ""
@@ -842,6 +875,7 @@ msgstr ""
 
 #: kcmfontinst/KCmFontInst.cpp:790
 #, fuzzy, kde-format
+#| msgid "Failed to locate font printer."
 msgid "Failed to open %1 for writing"
 msgstr "അക്ഷരസഞ്ചയ പ്രിന്റര്‍ ലഭ്യമാക്കുന്നതില്‍ പരാജയം."
 
@@ -852,6 +886,7 @@ msgstr "പുതിയ കൂട്ടമുണ്ടാക്കുക"
 
 #: kcmfontinst/KCmFontInst.cpp:810
 #, fuzzy, kde-format
+#| msgid "Create New Group"
 msgid "Name of new group:"
 msgstr "പുതിയ കൂട്ടമുണ്ടാക്കുക"
 
@@ -1095,11 +1130,13 @@ msgstr ""
 
 #: kio/KioFonts.cpp:476
 #, fuzzy, kde-format
+#| msgid "Copy Fonts"
 msgid "Cannot copy fonts"
 msgstr "അക്ഷരസഞ്ചയങ്ങള്‍ പകര്‍ത്തുക"
 
 #: kio/KioFonts.cpp:481
 #, fuzzy, kde-format
+#| msgid "Cannot Print"
 msgid "Cannot move fonts"
 msgstr "പ്രിന്റ് ചെയ്യുവാന്‍ സാധ്യമല്ല"
 
@@ -1110,6 +1147,7 @@ msgstr ""
 
 #: kio/KioFonts.cpp:495
 #, fuzzy, kde-format
+#| msgid "You cannot rename, move, copy, or delete either \"%1\" or \"%2\"."
 msgid "Can only remove fonts from either \"%1\" or \"%2\"."
 msgstr ""
 "പേരു് മാറ്റുക, നീക്കുക, പകര്‍ത്തുക, വെട്ടിമാറ്റുക എന്നിവ നിങ്ങള്‍ക്കു് \"%1\" അല്ലെങ്കില്‍ \"%2\"ല്‍ "
@@ -1132,6 +1170,7 @@ msgstr "അക്ഷരസഞ്ചയങ്ങള്‍"
 
 #: kio/KioFonts.cpp:783
 #, fuzzy, kde-format
+#| msgid "Failed to start font printer."
 msgid "Failed to start the system daemon"
 msgstr "അക്ഷരസഞ്ചയ പ്രിന്റര്‍ ആരംഭിക്കുവാനായില്ല."
 
@@ -1142,6 +1181,9 @@ msgstr ""
 
 #: kio/KioFonts.cpp:790
 #, fuzzy, kde-format
+#| msgid ""
+#| "You cannot install bitmap fonts, as these have been disabled on your "
+#| "system."
 msgid "%1 is a bitmap font, and these have been disabled on your system."
 msgstr ""
 "ബിറ്റ്മാപ് അക്ഷരസംഞ്ചയങ്ങള്‍ നിങ്ങളുടെ സിസ്റ്റത്തില്‍ പ്രവര്‍ത്തന രഹിതമാക്കിയിരിക്കുന്നു, അതിനാല്‍ അവ "
@@ -1149,6 +1191,10 @@ msgstr ""
 
 #: kio/KioFonts.cpp:794
 #, fuzzy, kde-format
+#| msgid ""
+#| "File %1 contains the font:\n"
+#| "%2\n"
+#| "A font with this name is already installed.\n"
 msgid ""
 "%1 contains the font <b>%2</b>, which is already installed on your system."
 msgstr ""
@@ -1158,11 +1204,13 @@ msgstr ""
 
 #: kio/KioFonts.cpp:798
 #, fuzzy, kde-format
+#| msgid "Could not read font."
 msgid "%1 is not a font."
 msgstr "അക്ഷരസഞ്ചയം ലഭ്യമാക്കുവാന്‍ സാധ്യമായില്ല."
 
 #: kio/KioFonts.cpp:801
 #, fuzzy, kde-format
+#| msgid "Looking for files associated with %1"
 msgid "Could not remove all files associated with %1"
 msgstr "%1-നോടനുബന്ധിച്ചുള്ള കൂടുതല്‍ ഫയലുകള്‍ തെരയുന്നു..."
 
@@ -1562,6 +1610,7 @@ msgstr ""
 
 #: viewpart/FontViewPart.cpp:114
 #, fuzzy, kde-format
+#| msgid "Font Viewer"
 msgid "FontViewPart"
 msgstr "അക്ഷരസഞ്ചയദര്‍ശിനി"
 

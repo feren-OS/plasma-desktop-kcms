@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmicons\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"POT-Creation-Date: 2019-05-20 07:46+0200\n"
 "PO-Revision-Date: 2008-11-13 22:19+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -71,10 +71,9 @@ msgid "Kai Uwe Broulik"
 msgstr ""
 
 #: main.cpp:284
-#, fuzzy, kde-format
-#| msgid "Remove Theme"
+#, kde-format
 msgid "Download New Icon Themes"
-msgstr "Temu wumaznyć"
+msgstr ""
 
 #: main.cpp:320
 #, kde-format

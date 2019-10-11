@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_org.kde.desktopcontainment\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"POT-Creation-Date: 2019-05-20 07:46+0200\n"
 "PO-Revision-Date: 2019-06-01 09:33-0300\n"
 "Last-Translator: André Marcelo Alvarenga <alvarenga@kde.org>\n"
 "Language-Team: Brazilian Portuguese <kde-i18n-pt_br@kde.org>\n"
@@ -58,20 +58,14 @@ msgid "Files:"
 msgstr "Arquivos:"
 
 #: package/contents/ui/ConfigFilter.qml:77
-#, fuzzy
-#| msgid "Show all"
 msgid "Show all"
 msgstr "Mostrar tudo"
 
 #: package/contents/ui/ConfigFilter.qml:77
-#, fuzzy
-#| msgid "Show matching"
 msgid "Show matching"
 msgstr "Mostrar os correspondentes"
 
 #: package/contents/ui/ConfigFilter.qml:77
-#, fuzzy
-#| msgid "Hide matching"
 msgid "Hide matching"
 msgstr "Ocultar os correspondentes"
 
@@ -84,8 +78,6 @@ msgid "File types:"
 msgstr "Tipos de arquivo:"
 
 #: package/contents/ui/ConfigFilter.qml:90
-#, fuzzy
-#| msgid "Search..."
 msgid "Search..."
 msgstr "Pesquisar..."
 
@@ -194,9 +186,6 @@ msgid "Folders first"
 msgstr "Primeiro as pastas"
 
 #: package/contents/ui/ConfigIcons.qml:218
-#, fuzzy
-#| msgctxt "whether to use icon or list view"
-#| msgid "View mode:"
 msgctxt "whether to use icon or list view"
 msgid "View mode:"
 msgstr "Modo de exibição:"
@@ -240,8 +229,6 @@ msgid "Wide"
 msgstr "Ampla"
 
 #: package/contents/ui/ConfigIcons.qml:276
-#, fuzzy
-#| msgid "Text lines:"
 msgid "Text lines:"
 msgstr "Linhas de texto:"
 
@@ -250,8 +237,6 @@ msgid "Features:"
 msgstr "Recursos:"
 
 #: package/contents/ui/ConfigIcons.qml:294
-#, fuzzy
-#| msgid "Tooltips"
 msgid "Tooltips"
 msgstr "Dicas"
 
@@ -268,8 +253,6 @@ msgid "Preview thumbnails"
 msgstr "Miniaturas de visualização"
 
 #: package/contents/ui/ConfigIcons.qml:321
-#, fuzzy
-#| msgid "Configure Preview Plugins..."
 msgid "Configure Preview Plugins..."
 msgstr "Configurar os plugins de visualização..."
 
@@ -278,14 +261,10 @@ msgid "Show:"
 msgstr "Exibir:"
 
 #: package/contents/ui/ConfigLocation.qml:95
-#, fuzzy
-#| msgid "Show the desktop toolbox"
 msgid "Desktop folder"
-msgstr "Mostrar a caixa de ferramentas da área de trabalho"
+msgstr "Pasta da área de trabalho"
 
 #: package/contents/ui/ConfigLocation.qml:102
-#, fuzzy
-#| msgid "Files linked to the current activity"
 msgid "Files linked to the current activity"
 msgstr "Arquivos associados a atividade atual"
 
@@ -298,8 +277,6 @@ msgid "Custom location:"
 msgstr "Localização personalizada:"
 
 #: package/contents/ui/ConfigLocation.qml:150
-#, fuzzy
-#| msgid "Type path or URL..."
 msgid "Type path or URL..."
 msgstr "Digite o caminho ou URL..."
 
@@ -325,8 +302,6 @@ msgid "Custom title"
 msgstr "Título personalizado"
 
 #: package/contents/ui/ConfigLocation.qml:208
-#, fuzzy
-#| msgid "Enter custom title..."
 msgid "Enter custom title..."
 msgstr "Digite o título personalizado..."
 
@@ -375,8 +350,6 @@ msgid "Got it"
 msgstr "Entendi"
 
 #: package/contents/ui/main.qml:597
-#, fuzzy
-#| msgid "Configure Desktop..."
 msgid "Configure Desktop..."
 msgstr "Configurar área de trabalho"
 
@@ -396,8 +369,7 @@ msgid "&Refresh View"
 msgstr "Atualiza&r exibição"
 
 #: plugins/folder/foldermodel.cpp:1616
-#, fuzzy, kde-format
-#| msgid "&Empty Trash"
+#, kde-format
 msgid "&Empty Trash"
 msgstr "&Esvaziar Lixeira"
 

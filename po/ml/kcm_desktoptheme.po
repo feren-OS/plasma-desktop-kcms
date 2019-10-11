@@ -9,9 +9,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcm_desktopthemedetails trunk\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
-"PO-Revision-Date: 2019-08-11 14:09+0530\n"
-"Last-Translator: Subin Siby <mail@subinsb.com>\n"
+"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"PO-Revision-Date: 2008-12-16 01:08+0730\n"
+"Last-Translator: Hari|ഹരി  Vishnu | വിഷ്ണു <harivishnu@gmail.com>\n"
 "Language-Team: Malayalam <smc-discuss@googlegroups.com>\n"
 "Language: ml\n"
 "MIME-Version: 1.0\n"
@@ -32,6 +32,7 @@ msgstr "snalledam@dataone.in, pravi.a@gmail.com, harivishnu@gmail.com"
 
 #: kcm.cpp:61
 #, fuzzy, kde-format
+#| msgid "Get New Theme..."
 msgid "Plasma Theme"
 msgstr "പുതിയ പ്രമേയം എടുക്കുക..."
 
@@ -42,16 +43,19 @@ msgstr ""
 
 #: kcm.cpp:139
 #, fuzzy, kde-format
+#| msgid "How to Change Desktop Theme"
 msgid "Download New Plasma Themes"
 msgstr "പണിയിടത്തിന്റെ പ്രമേയം മാറ്റുന്നതെങ്ങനെ"
 
 #: kcm.cpp:165
 #, fuzzy, kde-format
+#| msgid "Unable to save theme."
 msgid "Unable to create a temporary file."
 msgstr "പ്രമേയം സൂക്ഷിക്കാന്‍ കഴിയില്ല."
 
 #: kcm.cpp:177
 #, fuzzy, kde-format
+#| msgid "Unable to save theme."
 msgid "Unable to download the theme: %1"
 msgstr "പ്രമേയം സൂക്ഷിക്കാന്‍ കഴിയില്ല."
 
@@ -77,6 +81,7 @@ msgstr ""
 
 #: package/contents/ui/main.qml:68
 #, fuzzy, kde-format
+#| msgid "Theme Item"
 msgid "Edit Theme..."
 msgstr "പ്രമേയത്തിന്റെ ഇനം"
 
@@ -87,6 +92,7 @@ msgstr "പ്രമേയം നീക്കം ചെയ്യുക"
 
 #: package/contents/ui/main.qml:82
 #, fuzzy, kde-format
+#| msgid "Remove Theme"
 msgid "Restore Theme"
 msgstr "പ്രമേയം നീക്കം ചെയ്യുക"
 
@@ -97,11 +103,13 @@ msgstr ""
 
 #: package/contents/ui/main.qml:126
 #, fuzzy, kde-format
+#| msgid "Get New Theme..."
 msgid "Get New Plasma Themes..."
 msgstr "പുതിയ പ്രമേയം എടുക്കുക..."
 
 #: package/contents/ui/main.qml:138
 #, fuzzy, kde-format
+#| msgid "Theme Item"
 msgid "Open Theme"
 msgstr "പ്രമേയത്തിന്റെ ഇനം"
 

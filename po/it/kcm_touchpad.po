@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcm_touchpad\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"POT-Creation-Date: 2019-06-20 07:49+0200\n"
 "PO-Revision-Date: 2019-07-28 13:07+0200\n"
 "Last-Translator: Luigi Toscano <luigi.toscano@tiscali.it>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
@@ -250,10 +250,9 @@ msgid "Two fingers"
 msgstr "Due dita"
 
 #: src/kcm/libinput/touchpad.qml:529
-#, fuzzy, kde-format
-#| msgid "Tap with two fingers to middle-click."
+#, kde-format
 msgid "Slide with two fingers scrolls."
-msgstr "Tocco con due dita per il clic centrale."
+msgstr ""
 
 #: src/kcm/libinput/touchpad.qml:537
 #, kde-format

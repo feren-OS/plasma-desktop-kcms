@@ -18,7 +18,7 @@ msgstr ""
 "Project-Id-Version: kcmcolors\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2019-06-21 07:50+0200\n"
-"PO-Revision-Date: 2019-08-08 19:35+0200\n"
+"PO-Revision-Date: 2019-05-12 18:27+0200\n"
 "Last-Translator: Tommi Nieminen <translator@legisign.org>\n"
 "Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
 "Language: fi\n"
@@ -189,8 +189,7 @@ msgid ""
 "button)"
 msgstr ""
 "Näytä ”Käytä”-painike, joka tallentaa muutokset kysymättä (toisin kuin "
-"”Tallenna nimellä”)Näytä ”Käytä”-painike, joka tallentaa muutokset kysymättä "
-"(toisin kuin ”Tallenna nimellä”)"
+"”Tallenna nimellä”)"
 
 # *** TARKISTA: Mikä on sanan ”transient” merkitys tässä – liikkuva? tilapäinen? Ja mitä tässä ylipäänsä tehdään?
 #: editor/kcolorschemeeditor.cpp:55

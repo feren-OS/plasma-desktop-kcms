@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop files\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"POT-Creation-Date: 2019-05-20 07:46+0200\n"
 "PO-Revision-Date: 2019-05-07 13:37+0100\n"
 "Last-Translator: Martin Schlander <mschlander@opensuse.org>\n"
 "Language-Team: Danish <kde-i18n-doc@kde.org>\n"
@@ -198,9 +198,6 @@ msgid "Folders first"
 msgstr "Mapper først"
 
 #: package/contents/ui/ConfigIcons.qml:218
-#, fuzzy
-#| msgctxt "whether to use icon or list view"
-#| msgid "View mode:"
 msgctxt "whether to use icon or list view"
 msgid "View mode:"
 msgstr "Visningstilstand:"
@@ -246,8 +243,6 @@ msgid "Wide"
 msgstr ""
 
 #: package/contents/ui/ConfigIcons.qml:276
-#, fuzzy
-#| msgid "Text lines:"
 msgid "Text lines:"
 msgstr "Tekstlinjer:"
 
@@ -256,8 +251,6 @@ msgid "Features:"
 msgstr "Funktioner:"
 
 #: package/contents/ui/ConfigIcons.qml:294
-#, fuzzy
-#| msgid "Tooltips"
 msgid "Tooltips"
 msgstr "Værktøjstip"
 
@@ -288,8 +281,6 @@ msgid "Desktop folder"
 msgstr "Desktop-mappen"
 
 #: package/contents/ui/ConfigLocation.qml:102
-#, fuzzy
-#| msgid "Files linked to the current activity"
 msgid "Files linked to the current activity"
 msgstr "Filer som er linket til den aktuelle aktivitet"
 
@@ -394,8 +385,7 @@ msgid "&Refresh View"
 msgstr "&Genopfrisk visning"
 
 #: plugins/folder/foldermodel.cpp:1616
-#, fuzzy, kde-format
-#| msgid "&Empty Trash"
+#, kde-format
 msgid "&Empty Trash"
 msgstr "&Tøm papirkurv"
 

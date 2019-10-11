@@ -13,16 +13,19 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kfontinst\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
-"PO-Revision-Date: 2019-08-11 17:09+0200\n"
+"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"PO-Revision-Date: 2019-03-16 13:20+0100\n"
 "Last-Translator: Adrián Chaves (Gallaecio) <adrian@chaves.io>\n"
-"Language-Team: Galician <proxecto@trasno.gal>\n"
+"Language-Team: Galician <kde-i18n-doc@kde.org>\n"
 "Language: gl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 18.12.2\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 19.04.1\n"
+"X-Environment: kde\n"
+"X-Accelerator-Marker: &\n"
+"X-Text-Markup: kde4\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -572,7 +575,7 @@ msgstr "Estase a actualizar a configuración do tipo de letra. Agarde…"
 #: kcmfontinst/JobRunner.cpp:481
 #, kde-format
 msgid "Unable to start backend."
-msgstr "Non foi posíbel iniciar a infraestrutura."
+msgstr "Non se pode iniciar a infraestrutura."
 
 #: kcmfontinst/JobRunner.cpp:491
 #, kde-format
@@ -599,7 +602,8 @@ msgstr "A infraestrutura do sistema morreu. Inténteo de novo.<br><i>%1</i>"
 msgid ""
 "<i>%1</i> is a bitmap font, and these have been disabled on your system."
 msgstr ""
-"<i>%1</i> é un tipo de letra bitmap, e estas desactiváronse no sistema."
+"<i>%1</i> é un tipo de letra de mapa de bits, e estas desactiváronse no "
+"sistema."
 
 #: kcmfontinst/JobRunner.cpp:749
 #, kde-format
@@ -672,7 +676,7 @@ msgstr "Craig Drummond"
 #: kcmfontinst/KCmFontInst.cpp:190
 #, kde-format
 msgid "Developer and maintainer"
-msgstr "Desenvolvedor e mantenedor"
+msgstr "Desenvolvedor e mantedor"
 
 #: kcmfontinst/KCmFontInst.cpp:219
 #, kde-format
@@ -743,8 +747,8 @@ msgid ""
 "installed fonts. To install a font, simply copy one into the folder.</p>"
 msgstr ""
 "<h1>Instalador de tipos de letra</h1><p>Este módulo permítelle instalar "
-"tipos de letra TrueType, Type1 e Bitmap.</p><p>Poderá tamén instalar tipos "
-"de letra empregando Konqueror: escriba fonts:/ na barra de enderezos de "
+"tipos de letra TrueType, Type1 e mapa de bits.</p><p>Poderá tamén instalar "
+"tipos de letra empregando Konqueror: escriba fonts:/ na barra de lugares de "
 "Konqueror e mostraranse os tipos de letra instalados. Para instalar un tipo "
 "de letra, simplemente cópieo no cartafol.</p>"
 
@@ -759,8 +763,8 @@ msgid ""
 "wide fonts (available to all).</p>"
 msgstr ""
 "<h1>Instalador de tipos de letra</h1><p>Este módulo permítelle instalar "
-"tipos de letra TrueType, Type1 e Bitmap.</p><p>Poderá tamén instalar tipos "
-"de letra empregando Konqueror: escriba fonts:/ na barra de enderezos de "
+"tipos de letra TrueType, Type1 e mapa de bits.</p><p>Poderá tamén instalar "
+"tipos de letra empregando Konqueror: escriba fonts:/ na barra de lugares de "
 "Konqueror e mostraranse os tipos de letra instalados. Para instalar un tipo "
 "de letra, simplemente cópieo no cartafol axeitado: «%1» para os seus tipos "
 "de letra, ou «%2» para os tipos de letra do sistema (dispoñíbeis para todos "
@@ -788,7 +792,8 @@ msgid ""
 "You can only print non-bitmap and enabled fonts."
 msgstr ""
 "Non hai tipos de letra imprimíbeis.\n"
-"Só pode imprimir os tipos de letra non bitmap e os tipos de letra activados."
+"Só pode imprimir os tipos de letra non mapa de bits e os tipos de letra "
+"activados."
 
 #: kcmfontinst/KCmFontInst.cpp:651
 #, kde-format
@@ -1210,7 +1215,8 @@ msgstr "Morreu a infraestrutura"
 #: kio/KioFonts.cpp:790
 #, kde-format
 msgid "%1 is a bitmap font, and these have been disabled on your system."
-msgstr "%1 é un tipo de letra bitmap, e estas desactiváronse no sistema."
+msgstr ""
+"%1 é un tipo de letra de mapa de bits, e estas desactiváronse no sistema."
 
 #: kio/KioFonts.cpp:794
 #, kde-format
@@ -1667,7 +1673,7 @@ msgstr "<p>Sen información</p>"
 #: viewpart/kfontviewpart.rc:4
 #, kde-format
 msgid "&Main Toolbar"
-msgstr "Barra de ferra&mentas principal"
+msgstr "Barra de ferramentas &Principal"
 
 #: viewpart/PreviewSelectAction.cpp:32
 #, kde-format
@@ -1797,12 +1803,12 @@ msgstr "Gurmukhi"
 #: viewpart/UnicodeBlocks.h:41 viewpart/UnicodeScripts.h:36
 #, kde-format
 msgid "Gujarati"
-msgstr "Guxaratí"
+msgstr "Gujarati"
 
 #: viewpart/UnicodeBlocks.h:42 viewpart/UnicodeScripts.h:60
 #, kde-format
 msgid "Oriya"
-msgstr "Orixa"
+msgstr "Oriya"
 
 #: viewpart/UnicodeBlocks.h:43 viewpart/UnicodeScripts.h:72
 #, kde-format
@@ -1827,7 +1833,7 @@ msgstr "Malayalam"
 #: viewpart/UnicodeBlocks.h:47 viewpart/UnicodeScripts.h:66
 #, kde-format
 msgid "Sinhala"
-msgstr "Sinhala"
+msgstr "Cingalés"
 
 #: viewpart/UnicodeBlocks.h:48 viewpart/UnicodeScripts.h:75
 #, kde-format
@@ -1892,7 +1898,7 @@ msgstr "Runas"
 #: viewpart/UnicodeBlocks.h:60 viewpart/UnicodeScripts.h:69
 #, kde-format
 msgid "Tagalog"
-msgstr "Tagalog"
+msgstr "Tagalo"
 
 #: viewpart/UnicodeBlocks.h:61 viewpart/UnicodeScripts.h:40
 #, kde-format
@@ -2032,7 +2038,7 @@ msgstr "Recoñecemento óptico de caracteres"
 #: viewpart/UnicodeBlocks.h:88
 #, kde-format
 msgid "Enclosed Alphanumerics"
-msgstr "Símbolos alfanuméricos contidos"
+msgstr "Alfanuméricos envoltos"
 
 #: viewpart/UnicodeBlocks.h:89
 #, kde-format
@@ -2192,7 +2198,7 @@ msgstr "Extensións fonéticas katakana"
 #: viewpart/UnicodeBlocks.h:120
 #, kde-format
 msgid "Enclosed CJK Letters and Months"
-msgstr "Letras e meses contidos CJK"
+msgstr "Letras e meses anexados CJK"
 
 #: viewpart/UnicodeBlocks.h:121
 #, kde-format
@@ -2327,12 +2333,12 @@ msgstr "Especiais"
 #: viewpart/UnicodeBlocks.h:147
 #, kde-format
 msgid "Linear B Syllabary"
-msgstr "Silabario linear B"
+msgstr "Silabario lineal B"
 
 #: viewpart/UnicodeBlocks.h:148
 #, kde-format
 msgid "Linear B Ideograms"
-msgstr "Ideogramas lineares B"
+msgstr "Ideogramas lineais B"
 
 #: viewpart/UnicodeBlocks.h:149
 #, kde-format
@@ -2512,7 +2518,7 @@ msgstr "Latino"
 #: viewpart/UnicodeScripts.h:51
 #, kde-format
 msgid "Linear B"
-msgstr "Linear B"
+msgstr "Lineal B"
 
 #: viewpart/UnicodeScripts.h:56
 #, kde-format

@@ -8,9 +8,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcm_phonon\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
-"PO-Revision-Date: 2019-08-11 14:09+0530\n"
-"Last-Translator: Subin Siby <mail@subinsb.com>\n"
+"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"PO-Revision-Date: 2008-12-17 00:46-0800\n"
+"Last-Translator: Praveen Arimbrathodiyil <pravi.a@gmail.com>\n"
 "Language-Team: Malayalam <smc-discuss@googlegroups.com>\n"
 "Language: ml\n"
 "MIME-Version: 1.0\n"
@@ -62,12 +62,12 @@ msgstr "വൈകിയ്ക്കുക"
 #: devicepreference.cpp:92
 #, kde-format
 msgid "Audio Playback"
-msgstr "ഓഡിയോ പ്ലേബാക്ക്"
+msgstr ""
 
 #: devicepreference.cpp:106
 #, kde-format
 msgid "Audio Recording"
-msgstr "ഓഡിയോ റിക്കോർഡിംഗ്"
+msgstr ""
 
 #: devicepreference.cpp:109
 #, kde-format
@@ -80,9 +80,10 @@ msgid "Invalid"
 msgstr ""
 
 #: devicepreference.cpp:152
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "prefer the selected device"
 msgid "Test the selected device"
-msgstr "തിരഞ്ഞെടുത്ത ഉപകരണം പരിശോധിക്കുക"
+msgstr "തെരഞ്ഞെടുത്ത ഉപകരണത്തിനു് മുന്‍ഗണന നല്‍കുക"
 
 #: devicepreference.cpp:176 devicepreference.cpp:183 devicepreference.cpp:190
 #, kde-format
@@ -93,36 +94,45 @@ msgstr "ഉപകരണങ്ങളുടെ സഹജമായ ക്രമം 
 
 #: devicepreference.cpp:306
 #, fuzzy, kde-format
+#| msgid "Default Capture Device Preference"
 msgid "Default Audio Playback Device Preference"
 msgstr "സഹജമായ രേഖപ്പെടുത്തലിനുള്ള ഉപകരണത്തിന്റെ മുന്‍ഗണനകള്‍:"
 
 #: devicepreference.cpp:309
 #, fuzzy, kde-format
+#| msgid "Default Capture Device Preference"
 msgid "Default Audio Recording Device Preference"
 msgstr "സഹജമായ രേഖപ്പെടുത്തലിനുള്ള ഉപകരണത്തിന്റെ മുന്‍ഗണനകള്‍:"
 
 #: devicepreference.cpp:312
 #, fuzzy, kde-format
+#| msgid "Default Capture Device Preference"
 msgid "Default Video Recording Device Preference"
 msgstr "സഹജമായ രേഖപ്പെടുത്തലിനുള്ള ഉപകരണത്തിന്റെ മുന്‍ഗണനകള്‍:"
 
 #: devicepreference.cpp:319
 #, fuzzy, kde-format
+#| msgid "Capture Device Preference for the '%1' Category"
 msgid "Audio Playback Device Preference for the '%1' Category"
 msgstr "'%1' വിഭാഗത്തിലേക്കുള്ള രേഖപ്പെടുത്തതിനുള്ള ഉപകരണത്തിന്റെ മുന്‍ഗണനകള്‍:"
 
 #: devicepreference.cpp:323
 #, fuzzy, kde-format
+#| msgid "Capture Device Preference for the '%1' Category"
 msgid "Audio Recording Device Preference for the '%1' Category"
 msgstr "'%1' വിഭാഗത്തിലേക്കുള്ള രേഖപ്പെടുത്തതിനുള്ള ഉപകരണത്തിന്റെ മുന്‍ഗണനകള്‍:"
 
 #: devicepreference.cpp:327
 #, fuzzy, kde-format
+#| msgid "Capture Device Preference for the '%1' Category"
 msgid "Video Recording Device Preference for the '%1' Category "
 msgstr "'%1' വിഭാഗത്തിലേക്കുള്ള രേഖപ്പെടുത്തതിനുള്ള ഉപകരണത്തിന്റെ മുന്‍ഗണനകള്‍:"
 
 #: devicepreference.cpp:752
 #, fuzzy, kde-format
+#| msgid ""
+#| "Apply the currently shown device preference list to the following other "
+#| "audio output categories:"
 msgid ""
 "Apply the currently shown device preference list to the following other "
 "audio playback categories:"
@@ -135,6 +145,7 @@ msgstr "സഹജമായ/വ്യക്തമല്ലാത്ത വിഭ�
 
 #: devicepreference.cpp:869
 #, fuzzy, kde-format
+#| msgid "prefer the selected device"
 msgid "Failed to set the selected audio output device"
 msgstr "തെരഞ്ഞെടുത്ത ഉപകരണത്തിനു് മുന്‍ഗണന നല്‍കുക"
 
@@ -157,6 +168,9 @@ msgstr ""
 #. i18n: ectx: property (whatsThis), widget (QTreeView, categoryTree)
 #: devicepreference.ui:29 devicepreference.ui:32
 #, fuzzy, kde-format
+#| msgid ""
+#| "Various categories of outputs.  For each category you may choose what "
+#| "device you wish to output to."
 msgid ""
 "Various categories of media use cases.  For each category, you may choose "
 "what device you prefer to be used by the Phonon applications."
@@ -174,6 +188,9 @@ msgstr "സങ്കീര്‍ണ്ണമായ ഉപകരണങ്ങള�
 #. i18n: ectx: property (whatsThis), widget (QPushButton, applyPreferencesButton)
 #: devicepreference.ui:77 devicepreference.ui:80
 #, fuzzy, kde-format
+#| msgid ""
+#| "Apply the currently shown device preference list to the following other "
+#| "audio output categories:"
 msgid "Use the currently shown device list for more categories."
 msgstr "മറ്റുള്ള ശബ്ദ ഔട്ട്പുട്ട് വിഭാഗങ്ങള്‍ക്കും നിലവിലുള്ള ഈ ഉപകരണത്തിന്റെ മുന്‍ഗണനകള്‍ നല്‍കുക:"
 
@@ -186,6 +203,9 @@ msgstr "ഉപകരണ പട്ടിക സൂക്ഷിക്കേണ്�
 #. i18n: ectx: property (toolTip), widget (QTreeView, deviceList)
 #: devicepreference.ui:113
 #, fuzzy, kde-format
+#| msgid ""
+#| "Audio Outputs found on your system.  Choose the device that you wish "
+#| "sound to come out of."
 msgid ""
 "Devices found on your system, suitable for the selected category.  Choose "
 "the device that you wish to be used by the applications."
@@ -194,13 +214,18 @@ msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (QTreeView, deviceList)
 #: devicepreference.ui:116
-#, kde-format
+#, fuzzy, kde-format
+#| msgid ""
+#| "The order determines the preference of the output devices. If for some "
+#| "reason the first device cannot be used Phonon will try to use the second, "
+#| "and\n"
+#| "so on."
 msgid ""
 "The order determines the preference of the devices. If for some reason the "
 "first device cannot be used Phonon will try to use the second, and so on."
 msgstr ""
-"ഔട്ട്പുട്ട് ഉപകരണങ്ങളുടെ മുന്‍ഗണനയാണ് ഈ ക്രമം വ്യക്തമാക്കുന്നത്. എന്തെങ്കിലും കാരണത്താല്‍ ഫോണോണിന് "
-"ആദ്യത്തെ ഉപകരണം ഉപയോഗിക്കുവാന്‍ സാധ്യമല്ലെങ്കില്‍, അതു് രണ്ടാമത്തെ ഉപകരണം ശ്രമിക്കുന്നതാണു്, "
+"ഔട്ട്പുട്ട് ഉപകരണങ്ങളുടെ മുന്‍ഗണനയാണു് ഈ ക്രമം വ്യക്തമാക്കുന്നതു്. എന്തെങ്കിലും കാരണത്താല്‍ ഫോണണിനു് "
+"ആദ്യത്തെ ഉപകരണം ഉപയോഗിക്കുവാന്‍ സാധ്യമല്ലെങ്കില്‍, അതു് രണ്ടാമത്തെ ഉപകരണം ശ്രമിക്കുന്നതാണു്,\n"
 "അല്ലെങ്കില്‍ അതിനടുത്തതു്."
 
 #. i18n: ectx: property (text), widget (QToolButton, testPlaybackButton)
@@ -239,7 +264,7 @@ msgstr "മത്തിയാസ് ക്രെറ്റ്സ്"
 #: main.cpp:44
 #, kde-format
 msgid "Colin Guthrie"
-msgstr "കോളിൻ"
+msgstr ""
 
 #: main.cpp:55
 #, kde-format

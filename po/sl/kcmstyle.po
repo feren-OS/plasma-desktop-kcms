@@ -2,7 +2,7 @@
 # translation of kcmstyle.po to Slovenian
 # KDEBASE TRANSLATION TO SLOVENIAN LANGUAGE.
 # Copyright (C) 2001,2002, 2003, 2004 Free Software Foundation, Inc.
-# $Id: kcmstyle.po 1550639 2019-08-30 07:08:12Z scripty $
+# $Id: kcmstyle.po 1542253 2019-05-20 06:55:29Z scripty $
 # $Source$
 #
 # Roman Maurer <roman.maurer@amis.net>, 2000.
@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmstyle\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"POT-Creation-Date: 2019-05-20 07:46+0200\n"
 "PO-Revision-Date: 2018-01-11 21:02+0100\n"
 "Last-Translator: Andrej Mernik <andrejm@ubuntu.si>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
@@ -173,11 +173,9 @@ msgstr "Progr&ami"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, pbConfigStyle)
 #: styleconfig.ui:45
-#, fuzzy, kde-format
-#| msgctxt "@title:tab"
-#| msgid "&Applications"
+#, kde-format
 msgid "Configure Application Style..."
-msgstr "Progr&ami"
+msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, labelShowIcons)
 #: styleconfig.ui:61

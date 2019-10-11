@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-desktop\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"POT-Creation-Date: 2019-06-15 07:36+0200\n"
 "PO-Revision-Date: 2019-06-10 19:40+0100\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@euskalnet.net>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
@@ -59,8 +59,6 @@ msgid "Delete"
 msgstr "Ezabatu"
 
 #: contents/configuration/AppletConfiguration.qml:53
-#, fuzzy
-#| msgid "Keyboard Shortcuts"
 msgid "Keyboard Shortcuts"
 msgstr "Teklatuko lasterbideak"
 
@@ -144,8 +142,6 @@ msgid "Add Action"
 msgstr "Gehitu ekintza"
 
 #: contents/configuration/ConfigurationContainmentAppearance.qml:75
-#, fuzzy
-#| msgid "Layout cannot be changed while widgets are locked"
 msgid "Layout cannot be changed while widgets are locked"
 msgstr "Antolamendua ezin da aldatu trepetak giltzatuta dauden bitartean"
 
@@ -321,7 +317,5 @@ msgid "Categories"
 msgstr "Kategoriak"
 
 #: contents/explorer/WidgetExplorer.qml:355
-#, fuzzy
-#| msgid "Get New Widgets..."
 msgid "Get New Widgets..."
 msgstr "Lortu trepeta berriak..."

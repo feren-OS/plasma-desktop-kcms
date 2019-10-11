@@ -1,6 +1,7 @@
 # translation of kcmaccess.po to galician
 # Galician translation of kcmacces.
 # Copyright (C) 2002, 2003, 2006, 2007, 2008, 2009 Free Software Foundation, Inc.
+#
 # Xabi García <xabigf@gmx.net>, 2002, 2003.
 # <xabigf@gmx.net>, 2002.
 # Xabi G. Feal <xabigf@gmx.net>, 2006.
@@ -9,22 +10,24 @@
 # marce villarino <mvillarino@users.sourceforge.net>, 2009.
 # Marce Villarino <mvillarino@gmail.com>, 2009, 2011, 2014.
 # Adrián Chaves Fernández <adriyetichaves@gmail.com>, 2015.
-# Adrián Chaves (Gallaecio) <adrian@chaves.io>, 2017, 2018, 2019.
-#
+# Adrián Chaves (Gallaecio) <adrian@chaves.io>, 2017, 2018.
 msgid ""
 msgstr ""
 "Project-Id-Version: kcmaccess\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"POT-Creation-Date: 2019-05-20 07:46+0200\n"
 "PO-Revision-Date: 2018-04-24 21:09+0100\n"
 "Last-Translator: Adrian Chaves <adrian@chaves.io>\n"
-"Language-Team: Galician <proxecto@trasno.gal>\n"
+"Language-Team: Galician <kde-i18n-doc@kde.org>\n"
 "Language: gl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 2.0\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 19.04.3\n"
+"X-Environment: kde\n"
+"X-Accelerator-Marker: &\n"
+"X-Text-Markup: kde4\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -123,8 +126,8 @@ msgid ""
 "useful for deaf people."
 msgstr ""
 "Esta opción activará a «badalada visual», é dicir, mostrarase unha "
-"notificación visual cando normalmente debera ouvirse a badalada. Isto é moi "
-"útil para os xordos."
+"notificación visual cando normalmente debera producirse unha badalada. Isto "
+"é moi útil para os xordos."
 
 #. i18n: ectx: property (text), widget (QCheckBox, visibleBell)
 #: accessibility.ui:115
@@ -139,7 +142,7 @@ msgid ""
 "The screen will turn to a custom color for the amount of time specified "
 "below."
 msgstr ""
-"A pantalla pasará a unha determinada cor durante o período de tempo "
+"A pantalla pasará a unha cor personalizada durante o período de tempo "
 "especificado en baixo."
 
 #. i18n: ectx: property (text), widget (QRadioButton, flashScreen)

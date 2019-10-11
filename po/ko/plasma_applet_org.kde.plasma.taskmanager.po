@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_tasks\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"POT-Creation-Date: 2019-06-23 07:22+0200\n"
 "PO-Revision-Date: 2019-05-11 16:03+0200\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
 "Language-Team: Korean <kde-kr@kde.org>\n"
@@ -42,8 +42,7 @@ msgid "9,999+"
 msgstr "9,999+"
 
 #: package/contents/ui/ConfigAppearance.qml:48
-#, fuzzy, kde-format
-#| msgid "General:"
+#, kde-format
 msgid "General:"
 msgstr "일반:"
 
@@ -98,20 +97,17 @@ msgid "Always arrange tasks in as many columns as rows"
 msgstr "창을 항상 열로 정렬하기"
 
 #: package/contents/ui/ConfigBehavior.qml:52
-#, fuzzy, kde-format
-#| msgid "Group:"
+#, kde-format
 msgid "Group:"
 msgstr "그룹화:"
 
 #: package/contents/ui/ConfigBehavior.qml:54
-#, fuzzy, kde-format
-#| msgid "Do not group"
+#, kde-format
 msgid "Do not group"
 msgstr "그룹화하지 않음"
 
 #: package/contents/ui/ConfigBehavior.qml:54
-#, fuzzy, kde-format
-#| msgid "By program name"
+#, kde-format
 msgid "By program name"
 msgstr "프로그램 이름으로"
 
@@ -121,14 +117,12 @@ msgid "Open groups in popups"
 msgstr "팝업으로 그룹 열기"
 
 #: package/contents/ui/ConfigBehavior.qml:74
-#, fuzzy, kde-format
-#| msgid "Group only when the Task Manager is full"
+#, kde-format
 msgid "Group only when the Task Manager is full"
 msgstr "작업 표시줄이 가득 찼을 때만 묶기"
 
 #: package/contents/ui/ConfigBehavior.qml:88
-#, fuzzy, kde-format
-#| msgid "Sort:"
+#, kde-format
 msgid "Sort:"
 msgstr "정렬:"
 
@@ -148,14 +142,12 @@ msgid "Alphabetically"
 msgstr "가나다 순으로"
 
 #: package/contents/ui/ConfigBehavior.qml:90
-#, fuzzy, kde-format
-#| msgid "By desktop"
+#, kde-format
 msgid "By desktop"
 msgstr "데스크톱별로"
 
 #: package/contents/ui/ConfigBehavior.qml:90
-#, fuzzy, kde-format
-#| msgid "By activity"
+#, kde-format
 msgid "By activity"
 msgstr "활동별로"
 
@@ -176,20 +168,17 @@ msgid "None"
 msgstr "없음"
 
 #: package/contents/ui/ConfigBehavior.qml:112
-#, fuzzy, kde-format
-#| msgid "Close window or group"
+#, kde-format
 msgid "Close window or group"
 msgstr "창 또는 그룹 닫기"
 
 #: package/contents/ui/ConfigBehavior.qml:113
-#, fuzzy, kde-format
-#| msgid "New instance"
+#, kde-format
 msgid "New instance"
 msgstr "새 인스턴스"
 
 #: package/contents/ui/ConfigBehavior.qml:114
-#, fuzzy, kde-format
-#| msgid "Minimize/Restore window or group"
+#, kde-format
 msgid "Minimize/Restore window or group"
 msgstr "창이나 그룹 최소화/복원"
 
@@ -210,8 +199,7 @@ msgid "Cycle through tasks with mouse wheel"
 msgstr "마우스 휠로 작업 전환"
 
 #: package/contents/ui/ConfigBehavior.qml:131
-#, fuzzy, kde-format
-#| msgid "Filter:"
+#, kde-format
 msgid "Filter:"
 msgstr "필터:"
 
@@ -420,9 +408,7 @@ msgid "&Close"
 msgstr "닫기(&C)"
 
 #: package/contents/ui/ToolTipInstance.qml:469
-#, fuzzy, kde-format
-#| msgctxt "Comma-separated list of desktops"
-#| msgid "On %1"
+#, kde-format
 msgctxt "Comma-separated list of desktops"
 msgid "On %1"
 msgstr "%1에 있음"

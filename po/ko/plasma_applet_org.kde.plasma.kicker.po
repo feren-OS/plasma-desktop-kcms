@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"POT-Creation-Date: 2019-06-23 07:22+0200\n"
 "PO-Revision-Date: 2019-04-29 23:25+0200\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
 "Language-Team: Korean <kde-kr@kde.org>\n"
@@ -90,26 +90,22 @@ msgid "Description (Name)"
 msgstr "설명 (이름)"
 
 #: package/contents/ui/ConfigGeneral.qml:173
-#, fuzzy, kde-format
-#| msgid "Behavior:"
+#, kde-format
 msgid "Behavior:"
 msgstr "행동:"
 
 #: package/contents/ui/ConfigGeneral.qml:175
-#, fuzzy, kde-format
-#| msgid "Sort applications alphabetically"
+#, kde-format
 msgid "Sort applications alphabetically"
 msgstr "가나다순으로 프로그램 정렬"
 
 #: package/contents/ui/ConfigGeneral.qml:183
-#, fuzzy, kde-format
-#| msgid "Flatten sub-menus to a single level"
+#, kde-format
 msgid "Flatten sub-menus to a single level"
 msgstr "단일 단계로 하위 메뉴 축소"
 
 #: package/contents/ui/ConfigGeneral.qml:194
-#, fuzzy, kde-format
-#| msgid "Show categories:"
+#, kde-format
 msgid "Show categories:"
 msgstr "분류 표시:"
 
@@ -139,8 +135,7 @@ msgid "Recent contacts"
 msgstr "최근 연락처"
 
 #: package/contents/ui/ConfigGeneral.qml:214
-#, fuzzy, kde-format
-#| msgid "Often used contacts"
+#, kde-format
 msgid "Often used contacts"
 msgstr "자주 사용한 연락처"
 
@@ -150,28 +145,21 @@ msgid "Sort items in categories by:"
 msgstr "분류별 항목 정렬 기준:"
 
 #: package/contents/ui/ConfigGeneral.qml:221
-#, fuzzy, kde-format
-#| msgctxt ""
-#| "@item:inlistbox Sort items in categories by [Recently used | Often used]"
-#| msgid "Recently used"
+#, kde-format
 msgctxt ""
 "@item:inlistbox Sort items in categories by [Recently used | Often used]"
 msgid "Recently used"
 msgstr "최근 사용"
 
 #: package/contents/ui/ConfigGeneral.qml:221
-#, fuzzy, kde-format
-#| msgctxt ""
-#| "@item:inlistbox Sort items in categories by [Recently used | Ofetn used]"
-#| msgid "Often used"
+#, kde-format
 msgctxt ""
 "@item:inlistbox Sort items in categories by [Recently used | Ofetn used]"
 msgid "Often used"
 msgstr "자주 사용"
 
 #: package/contents/ui/ConfigGeneral.qml:231
-#, fuzzy, kde-format
-#| msgid "Search:"
+#, kde-format
 msgid "Search:"
 msgstr "검색:"
 
@@ -191,8 +179,7 @@ msgid "Searching for '%1'"
 msgstr "'%1' 검색 중"
 
 #: package/contents/ui/DashboardRepresentation.qml:305
-#, fuzzy, kde-format
-#| msgid "Type to search..."
+#, kde-format
 msgid "Type to search..."
 msgstr "입력하여 찾기..."
 

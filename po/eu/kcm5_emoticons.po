@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-desktop\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"POT-Creation-Date: 2019-05-20 07:46+0200\n"
 "PO-Revision-Date: 2019-05-31 23:35+0100\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@euskalnet.net>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
@@ -90,8 +90,7 @@ msgid "New Emoticon Theme"
 msgstr "Aurpegiera-gai berria"
 
 #: emoticonslist.cpp:364
-#, fuzzy, kde-format
-#| msgid "Name of new emoticon theme:"
+#, kde-format
 msgid "Name of new emoticon theme:"
 msgstr "Aurpegiera gai berriaren izena:"
 
@@ -130,8 +129,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, btInstall)
 #: emoticonslist.ui:32
-#, fuzzy, kde-format
-#| msgid "Install from File..."
+#, kde-format
 msgid "Install from File..."
 msgstr "Instalatu fitxategitik..."
 
@@ -143,10 +141,7 @@ msgstr "Sortu gai berria..."
 
 #. i18n: ectx: property (whatsThis), widget (QPushButton, btNew)
 #: emoticonslist.ui:48
-#, fuzzy, kde-format
-#| msgid ""
-#| "Create a new theme by assigning it a name. Then use the Add button on the "
-#| "right to add emoticons to this theme."
+#, kde-format
 msgid ""
 "Create a new theme by assigning it a name. Then use the Add button on the "
 "right to add emoticons to this theme."
@@ -168,19 +163,13 @@ msgstr "Hautatutako gaia ezabatu egingo da diskotik."
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, btGetNew)
 #: emoticonslist.ui:115
-#, fuzzy, kde-format
-#| msgid "Get new emoticon icon themes from the Internet"
+#, kde-format
 msgid "Get new emoticon icon themes from the Internet"
 msgstr "Lortu aurpegiera ikono gai berriak Internetetik"
 
 #. i18n: ectx: property (whatsThis), widget (QPushButton, btGetNew)
 #: emoticonslist.ui:118
-#, fuzzy, kde-format
-#| msgid ""
-#| "You need to be connected to the Internet to use this action. A dialog "
-#| "will display a list of emoticon themes from the https://store.kde.org "
-#| "website. Clicking the Install button associated with a theme will install "
-#| "this theme locally."
+#, kde-format
 msgid ""
 "You need to be connected to the Internet to use this action. A dialog will "
 "display a list of emoticon themes from the https://store.kde.org website. "

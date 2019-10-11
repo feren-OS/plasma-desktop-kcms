@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kappfinder\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
-"PO-Revision-Date: 2019-08-11 14:09+0530\n"
-"Last-Translator: Subin Siby <mail@subinsb.com>\n"
+"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"PO-Revision-Date: 2008-07-04 11:50+0530\n"
+"Last-Translator: ANI PETER|അനി പീറ്റര്‍ <peter.ani@gmail.com>\n"
 "Language-Team: Swathanthra|സ്വതന്ത്ര Malayalam|മലയാളം Computing|കമ്പ്യൂട്ടിങ്ങ് <smc-"
 "discuss@googlegroups.com>\n"
 "Language: ml\n"
@@ -34,6 +34,7 @@ msgstr ""
 
 #: kcmsmserver.cpp:82
 #, fuzzy, kde-format
+#| msgid "&Restart computer"
 msgid "Restart Now"
 msgstr "കമ്പ്യൂട്ടര്‍ &വീണ്ടും ആരംഭിക്കുക"
 
@@ -105,6 +106,7 @@ msgstr ""
 #. i18n: ectx: property (title), widget (QGroupBox, sdGroup)
 #: smserverconfigdlg.ui:46
 #, fuzzy, kde-format
+#| msgid "Default Shutdown Option"
 msgid "Default Leave Option"
 msgstr "അടച്ചു പൂട്ടുന്നതിനു് സ്വതവേയുള്ള ഉപാധി"
 
@@ -183,6 +185,10 @@ msgstr "സെഷനുകളില്‍ നിന്നും &മാറ്റ
 #. i18n: ectx: property (whatsThis), widget (QLineEdit, excludeLineedit)
 #: smserverconfigdlg.ui:123
 #, fuzzy, kde-format
+#| msgid ""
+#| "Here you can enter a comma-separated list of applications that should not "
+#| "be saved in sessions, and therefore will not be started when restoring a "
+#| "session. For example 'xterm,xconsole'."
 msgid ""
 "Here you can enter a colon or comma separated list of applications that "
 "should not be saved in sessions, and therefore will not be started when "

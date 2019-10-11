@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_tasks\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"POT-Creation-Date: 2019-06-23 07:22+0200\n"
 "PO-Revision-Date: 2019-04-27 17:44+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -46,8 +46,7 @@ msgid "9,999+"
 msgstr "9,999+"
 
 #: package/contents/ui/ConfigAppearance.qml:48
-#, fuzzy, kde-format
-#| msgid "General:"
+#, kde-format
 msgid "General:"
 msgstr "一般："
 
@@ -97,26 +96,22 @@ msgid "Always arrange tasks in as many rows as columns"
 msgstr "總是將任務安排在與列數一樣多的欄中"
 
 #: package/contents/ui/ConfigAppearance.qml:111
-#, fuzzy, kde-format
-#| msgid "Always arrange tasks in as many rows as columns"
+#, kde-format
 msgid "Always arrange tasks in as many columns as rows"
-msgstr "總是將任務安排在與列數一樣多的欄中"
+msgstr "總是將任務安排在與欄數一樣多的列中"
 
 #: package/contents/ui/ConfigBehavior.qml:52
-#, fuzzy, kde-format
-#| msgid "Group:"
+#, kde-format
 msgid "Group:"
 msgstr "群組："
 
 #: package/contents/ui/ConfigBehavior.qml:54
-#, fuzzy, kde-format
-#| msgid "Do not group"
+#, kde-format
 msgid "Do not group"
 msgstr "不要分組"
 
 #: package/contents/ui/ConfigBehavior.qml:54
-#, fuzzy, kde-format
-#| msgid "By program name"
+#, kde-format
 msgid "By program name"
 msgstr "依程式名稱"
 
@@ -126,14 +121,12 @@ msgid "Open groups in popups"
 msgstr "在彈出式視窗中開啟群組"
 
 #: package/contents/ui/ConfigBehavior.qml:74
-#, fuzzy, kde-format
-#| msgid "Group only when the Task Manager is full"
+#, kde-format
 msgid "Group only when the Task Manager is full"
 msgstr "只在工作管理員空間不足時分組"
 
 #: package/contents/ui/ConfigBehavior.qml:88
-#, fuzzy, kde-format
-#| msgid "Sort:"
+#, kde-format
 msgid "Sort:"
 msgstr "排序："
 
@@ -153,14 +146,12 @@ msgid "Alphabetically"
 msgstr "依字母順序"
 
 #: package/contents/ui/ConfigBehavior.qml:90
-#, fuzzy, kde-format
-#| msgid "By desktop"
+#, kde-format
 msgid "By desktop"
 msgstr "依桌面"
 
 #: package/contents/ui/ConfigBehavior.qml:90
-#, fuzzy, kde-format
-#| msgid "By activity"
+#, kde-format
 msgid "By activity"
 msgstr "依活動"
 
@@ -181,20 +172,17 @@ msgid "None"
 msgstr "無"
 
 #: package/contents/ui/ConfigBehavior.qml:112
-#, fuzzy, kde-format
-#| msgid "Close window or group"
+#, kde-format
 msgid "Close window or group"
 msgstr "關閉視窗或群組"
 
 #: package/contents/ui/ConfigBehavior.qml:113
-#, fuzzy, kde-format
-#| msgid "New instance"
+#, kde-format
 msgid "New instance"
 msgstr "新的實體"
 
 #: package/contents/ui/ConfigBehavior.qml:114
-#, fuzzy, kde-format
-#| msgid "Minimize/Restore window or group"
+#, kde-format
 msgid "Minimize/Restore window or group"
 msgstr "最小化/復原視窗"
 
@@ -215,8 +203,7 @@ msgid "Cycle through tasks with mouse wheel"
 msgstr "使用滑鼠滾輪循環切換工作"
 
 #: package/contents/ui/ConfigBehavior.qml:131
-#, fuzzy, kde-format
-#| msgid "Filter:"
+#, kde-format
 msgid "Filter:"
 msgstr "過濾器："
 
@@ -425,9 +412,7 @@ msgid "&Close"
 msgstr "關閉(&C)"
 
 #: package/contents/ui/ToolTipInstance.qml:469
-#, fuzzy, kde-format
-#| msgctxt "Comma-separated list of desktops"
-#| msgid "On %1"
+#, kde-format
 msgctxt "Comma-separated list of desktops"
 msgid "On %1"
 msgstr "於 %1"

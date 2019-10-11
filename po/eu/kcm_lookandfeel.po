@@ -1,16 +1,16 @@
 # Translation of kcm_lookandfeel.po to Euskara/Basque (eu).
 # Copyright (C) 2017-2018, Free Software Foundation.
 # Copyright (C) 2019, This file is copyright:
-# This file is distributed under the same license as the plasma-desktop package.
+# This file is distributed under the same license as the kde-workspace package.
 # KDE Euskaratzeko proiektuaren arduraduna <xalba@euskalnet.net>.
 #
 # Translators:
 # Iñigo Salvador Azurmendi <xalba@euskalnet.net>, 2017, 2018, 2019.
 msgid ""
 msgstr ""
-"Project-Id-Version: plasma-desktop\n"
+"Project-Id-Version: kcm_lookandfeel\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"POT-Creation-Date: 2019-06-26 07:33+0200\n"
 "PO-Revision-Date: 2019-05-17 20:17+0100\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@euskalnet.net>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
@@ -42,15 +42,12 @@ msgid "Marco Martin"
 msgstr "Marco Martin"
 
 #: kcm.cpp:112
-#, fuzzy, kde-format
-#| msgid "Download New Look and Feel Themes"
+#, kde-format
 msgid "Download New Look and Feel Themes"
 msgstr "Jaitsi Itxura eta izaera pakete berriak"
 
 #: kcm.cpp:572
-#, fuzzy, kde-format
-#| msgid ""
-#| "You have to restart the Plasma session for these changes to take effect."
+#, kde-format
 msgid ""
 "You have to restart the Plasma session for these changes to take effect."
 msgstr ""
@@ -112,10 +109,7 @@ msgid "Preview Theme"
 msgstr "Aurreikusi gaia"
 
 #: package/contents/ui/main.qml:67
-#, fuzzy, kde-format
-#| msgid ""
-#| "Your desktop layout will be lost and reset to the default layout provided "
-#| "by the selected theme."
+#, kde-format
 msgid ""
 "Your desktop layout will be lost and reset to the default layout provided by "
 "the selected theme."
@@ -124,13 +118,11 @@ msgstr ""
 "dakarren antolamendu lehenetsira berrezarriko da."
 
 #: package/contents/ui/main.qml:77
-#, fuzzy, kde-format
-#| msgid "Use desktop layout from theme"
+#, kde-format
 msgid "Use desktop layout from theme"
 msgstr "Erabili gaiko mahaigain-antolamendua"
 
 #: package/contents/ui/main.qml:84
-#, fuzzy, kde-format
-#| msgid "Get New Looks..."
+#, kde-format
 msgid "Get New Look and Feel Themes..."
-msgstr "Eskuratu itxura berriak..."
+msgstr "Lortu Itxura eta izaera gai berriak..."

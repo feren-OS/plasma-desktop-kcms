@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
-"PO-Revision-Date: 2019-08-16 17:05\n"
+"POT-Creation-Date: 2019-06-26 07:33+0200\n"
+"PO-Revision-Date: 2019-07-18 15:07\n"
 "Last-Translator: Guo Yunhe (guoyunhe)\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -43,15 +43,12 @@ msgid "Marco Martin"
 msgstr "Marco Martin"
 
 #: kcm.cpp:112
-#, fuzzy, kde-format
-#| msgid "Download New Look and Feel Themes"
+#, kde-format
 msgid "Download New Look and Feel Themes"
 msgstr "下载新的观感主题"
 
 #: kcm.cpp:572
-#, fuzzy, kde-format
-#| msgid ""
-#| "You have to restart the Plasma session for these changes to take effect."
+#, kde-format
 msgid ""
 "You have to restart the Plasma session for these changes to take effect."
 msgstr "要让这些更改生效，您必须重新启动 Plasma 会话。"
@@ -112,23 +109,18 @@ msgid "Preview Theme"
 msgstr "预览主题"
 
 #: package/contents/ui/main.qml:67
-#, fuzzy, kde-format
-#| msgid ""
-#| "Your desktop layout will be lost and reset to the default layout provided "
-#| "by the selected theme."
+#, kde-format
 msgid ""
 "Your desktop layout will be lost and reset to the default layout provided by "
 "the selected theme."
 msgstr "桌面布局将丢失并重置为所选主题提供的默认布局。"
 
 #: package/contents/ui/main.qml:77
-#, fuzzy, kde-format
-#| msgid "Use desktop layout from theme"
+#, kde-format
 msgid "Use desktop layout from theme"
 msgstr "使用来自主题的桌面布局"
 
 #: package/contents/ui/main.qml:84
-#, fuzzy, kde-format
-#| msgid "Get New Look and Feel Themes..."
+#, kde-format
 msgid "Get New Look and Feel Themes..."
 msgstr "获取新观感主题..."

@@ -1,19 +1,20 @@
 # translation of plasma_applet_org.kde.plasma.taskmanager.po to Slovak
-# Roman Paholik <wizzardsk@gmail.com>, 2014, 2015, 2016, 2017, 2019.
-# Matej Mrenica <matejm98mthw@gmail.com>, 2018, 2019.
+# Roman Paholik <wizzardsk@gmail.com>, 2014, 2015, 2016, 2017.
+# Mthw <jari_45@hotmail.com>, 2018, 2019.
+# Matej Mrenica <matejm98mthw@gmail.com>, 2019.
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_org.kde.plasma.taskmanager\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
-"PO-Revision-Date: 2019-08-30 20:21+0200\n"
-"Last-Translator: Roman Paholík <wizzardsk@gmail.com>\n"
-"Language-Team: Slovak <kde-sk@linux.sk>\n"
+"POT-Creation-Date: 2019-06-23 07:22+0200\n"
+"PO-Revision-Date: 2019-05-01 15:57+0200\n"
+"Last-Translator: Matej Mrenica <matejm98mthw@gmail.com>\n"
+"Language-Team: Slovak <kde-i18n-doc@kde.org>\n"
 "Language: sk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 18.12.3\n"
+"X-Generator: Lokalize 19.04.0\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 
 #: package/contents/config/config.qml:26
@@ -96,7 +97,7 @@ msgstr "Vždy usporiadať úlohy do rovnakého stĺpcov ako riadkov"
 #: package/contents/ui/ConfigBehavior.qml:52
 #, kde-format
 msgid "Group:"
-msgstr "Skupina:"
+msgstr "Zoskupovanie:"
 
 #: package/contents/ui/ConfigBehavior.qml:54
 #, kde-format
@@ -121,7 +122,7 @@ msgstr "Zoskupiť iba, ak je správca úloh plný"
 #: package/contents/ui/ConfigBehavior.qml:88
 #, kde-format
 msgid "Sort:"
-msgstr "Zoradiť:"
+msgstr "Triedenie:"
 
 #: package/contents/ui/ConfigBehavior.qml:90
 #, kde-format
@@ -198,7 +199,7 @@ msgstr "Cyklovať cez úlohy kolieskom myši"
 #: package/contents/ui/ConfigBehavior.qml:131
 #, kde-format
 msgid "Filter:"
-msgstr "Filter:"
+msgstr "Filtre:"
 
 #: package/contents/ui/ConfigBehavior.qml:132
 #, kde-format
@@ -382,7 +383,7 @@ msgstr "Povoliť programu zoskupovanie"
 #: package/contents/ui/ContextMenu.qml:644
 #, kde-format
 msgid "&Pin to Task Manager"
-msgstr "Pripnúť na Správcu úloh"
+msgstr "Pripnúť na Správcu Úloh"
 
 #: package/contents/ui/ContextMenu.qml:697
 #, kde-format
@@ -397,7 +398,7 @@ msgstr "Na aktuálnej aktivite"
 #: package/contents/ui/ContextMenu.qml:724
 #, kde-format
 msgid "Unpin from Task Manager"
-msgstr "Odopnúť od Správcu úloh"
+msgstr "Odopnúť od Správcu Úloh"
 
 #: package/contents/ui/ContextMenu.qml:738
 #, kde-format

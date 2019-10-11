@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kfontinst\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"POT-Creation-Date: 2019-05-20 07:46+0200\n"
 "PO-Revision-Date: 2010-10-25 17:15+0700\n"
 "Last-Translator: Phuwanat Sakornsakolpat <narachai@gmail.com>\n"
 "Language-Team: Thai <thai-l10n@googlegroups.com>\n"
@@ -694,10 +694,9 @@ msgid "Install from File..."
 msgstr "ติดตั้ง..."
 
 #: kcmfontinst/KCmFontInst.cpp:288
-#, fuzzy, kde-format
-#| msgid "Install..."
+#, kde-format
 msgid "Install fonts from a local file"
-msgstr "ติดตั้ง..."
+msgstr ""
 
 #: kcmfontinst/KCmFontInst.cpp:290
 #, fuzzy, kde-format

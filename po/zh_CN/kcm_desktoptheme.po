@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
-"PO-Revision-Date: 2019-08-16 17:05\n"
+"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"PO-Revision-Date: 2019-07-18 15:08\n"
 "Last-Translator: Guo Yunhe (guoyunhe)\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -76,8 +76,7 @@ msgid "Removing theme failed: %1"
 msgstr "删除主题失败：%1"
 
 #: package/contents/ui/main.qml:30
-#, fuzzy, kde-format
-#| msgid "This module lets you choose the Plasma theme."
+#, kde-format
 msgid "This module lets you choose the Plasma theme."
 msgstr "此模块允许您选择 Plasma 主题。"
 
@@ -102,8 +101,7 @@ msgid "Install from File..."
 msgstr "从文件安装..."
 
 #: package/contents/ui/main.qml:126
-#, fuzzy, kde-format
-#| msgid "Get New Plasma Themes..."
+#, kde-format
 msgid "Get New Plasma Themes..."
 msgstr "获得新 Plasma 主题..."
 

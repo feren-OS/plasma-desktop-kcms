@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: plasma-desktop\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2019-05-30 07:24+0200\n"
-"PO-Revision-Date: 2019-08-22 21:03+0200\n"
+"PO-Revision-Date: 2019-07-17 17:59+0200\n"
 "Last-Translator: Burkhard Lück <lueck@hube-lueck.de>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
 "Language: de\n"
@@ -45,7 +45,7 @@ msgstr "Benachrichtigungen einrichten"
 #: package/contents/ui/ApplicationConfiguration.qml:96
 #, kde-format
 msgid "Show popups"
-msgstr "Aufklappfenster anzeigen"
+msgstr ""
 
 #: package/contents/ui/ApplicationConfiguration.qml:105
 #: package/contents/ui/main.qml:51
@@ -80,8 +80,6 @@ msgstr ""
 #, kde-format
 msgid "This module lets you manage application and system notifications."
 msgstr ""
-"In diesem Modul können Sie Benachrichtigungen für Anwendungen und das System "
-"einrichten."
 
 #: package/contents/ui/main.qml:50
 #, kde-format
@@ -96,28 +94,28 @@ msgstr "Immer im Vordergrund"
 #: package/contents/ui/main.qml:63
 #, kde-format
 msgid "Low priority notifications:"
-msgstr "Benachrichtigungen mit niedriger Priorität:"
+msgstr ""
 
 #: package/contents/ui/main.qml:64
 #, kde-format
 msgid "Show popup"
-msgstr "Aufklappfenster anzeigen"
+msgstr "Meldungsfenster anzeigen"
 
 #: package/contents/ui/main.qml:82
 #, kde-format
 msgid "Popup position:"
-msgstr "Position des Aufklappfensters:"
+msgstr ""
 
 #: package/contents/ui/main.qml:83
 #, kde-format
 msgctxt "Popup position near notification plasmoid"
 msgid "Near the notification icon"
-msgstr "Neben dem Benachrichtigungssymbol"
+msgstr ""
 
 #: package/contents/ui/main.qml:102
 #, kde-format
 msgid "Choose Custom Position..."
-msgstr "Benutzerdefinierte Position auswählen ..."
+msgstr ""
 
 #: package/contents/ui/main.qml:111 package/contents/ui/main.qml:127
 #, kde-format
@@ -129,12 +127,12 @@ msgstr[1] "%1 Sekunden"
 #: package/contents/ui/main.qml:116
 #, kde-format
 msgid "Hide popup after:"
-msgstr "Aufklappfenster ausblenden nach:"
+msgstr ""
 
 #: package/contents/ui/main.qml:137
 #, kde-format
 msgid "Application progress:"
-msgstr "Fortschritt der Anwendung:"
+msgstr ""
 
 #: package/contents/ui/main.qml:138 package/contents/ui/main.qml:163
 #, kde-format
@@ -171,7 +169,7 @@ msgstr "Einrichten ..."
 #: package/contents/ui/PopupPositionPage.qml:29
 #, kde-format
 msgid "Popup Position"
-msgstr "Position des Aufklappfensters"
+msgstr ""
 
 #: package/contents/ui/SourcesPage.qml:32
 #, kde-format

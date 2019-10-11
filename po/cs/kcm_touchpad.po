@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
-"PO-Revision-Date: 2019-08-29 15:31+0200\n"
+"POT-Creation-Date: 2019-06-20 07:49+0200\n"
+"PO-Revision-Date: 2019-01-14 17:02+0100\n"
 "Last-Translator: Vit Pelcak <vit@pelcak.org>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
 "Language: cs\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Lokalize 19.08.0\n"
+"X-Generator: Lokalize 18.12.0\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -46,7 +46,7 @@ msgstr "Nelze se připojit k  X serveru"
 #: src/backends/x11/xlibbackend.cpp:102
 #, kde-format
 msgid "No touchpad found"
-msgstr ""
+msgstr "Nebyl nalezen žádný touchpad"
 
 #: src/backends/x11/xlibbackend.cpp:150 src/backends/x11/xlibbackend.cpp:164
 #, kde-format
@@ -59,25 +59,24 @@ msgid "Cannot read touchpad configuration"
 msgstr "Nelze přečíst nastavení touchpadu"
 
 #: src/backends/x11/xlibbackend.cpp:204
-#, fuzzy, kde-format
-#| msgid "Cannot read touchpad configuration"
+#, kde-format
 msgid "Cannot read default touchpad configuration"
-msgstr "Nelze přečíst nastavení touchpadu"
+msgstr ""
 
 #: src/kcm/libinput/touchpad.qml:89
 #, kde-format
 msgid "Device:"
-msgstr ""
+msgstr "Zařízení:"
 
 #: src/kcm/libinput/touchpad.qml:116
 #, kde-format
 msgid "General:"
-msgstr ""
+msgstr "Obecné:"
 
 #: src/kcm/libinput/touchpad.qml:118
 #, kde-format
 msgid "Device enabled"
-msgstr ""
+msgstr "Zařízení je povolené"
 
 #: src/kcm/libinput/touchpad.qml:122
 #, kde-format
@@ -85,23 +84,19 @@ msgid "Accept input through this device."
 msgstr ""
 
 #: src/kcm/libinput/touchpad.qml:146
-#, fuzzy, kde-format
-#| msgid "Disable touchpad when typing"
+#, kde-format
 msgid "Disable while typing"
-msgstr "Zakázat touchpad při psaní"
+msgstr ""
 
 #: src/kcm/libinput/touchpad.qml:150
-#, fuzzy, kde-format
-#| msgid "Disable touchpad when typing"
+#, kde-format
 msgid "Disable touchpad while typing to prevent accidental inputs."
-msgstr "Zakázat touchpad při psaní"
+msgstr ""
 
 #: src/kcm/libinput/touchpad.qml:174
-#, fuzzy, kde-format
-#| msgctxt "Touchpad Edge"
-#| msgid "Left edge"
+#, kde-format
 msgid "Left handed mode"
-msgstr "Levý okraj"
+msgstr "Režim pro leváka"
 
 #: src/kcm/libinput/touchpad.qml:178
 #, kde-format
@@ -120,22 +115,19 @@ msgid ""
 msgstr ""
 
 #: src/kcm/libinput/touchpad.qml:237
-#, fuzzy, kde-format
-#| msgid "Minimum pointer speed"
+#, kde-format
 msgid "Pointer speed:"
-msgstr "Minimální rychlost ukazatele"
+msgstr "Rychlost ukazatele:"
 
 #: src/kcm/libinput/touchpad.qml:266
-#, fuzzy, kde-format
-#| msgctxt "Pointer acceleration"
-#| msgid "Acceleration:"
+#, kde-format
 msgid "Acceleration profile:"
-msgstr "Zrychlení:"
+msgstr "Profil zrychlování:"
 
 #: src/kcm/libinput/touchpad.qml:298
 #, kde-format
 msgid "Flat"
-msgstr ""
+msgstr "Ploché"
 
 #: src/kcm/libinput/touchpad.qml:302
 #, kde-format
@@ -145,7 +137,7 @@ msgstr ""
 #: src/kcm/libinput/touchpad.qml:311
 #, kde-format
 msgid "Adaptive"
-msgstr ""
+msgstr "Adaptivní"
 
 #: src/kcm/libinput/touchpad.qml:315
 #, kde-format
@@ -188,11 +180,9 @@ msgid "Dragging continues after a short finger lift."
 msgstr ""
 
 #: src/kcm/libinput/touchpad.qml:418
-#, fuzzy, kde-format
-#| msgctxt "Tapping"
-#| msgid "Two fingers:"
+#, kde-format
 msgid "Two-finger tap:"
-msgstr "Dva prsty"
+msgstr ""
 
 #: src/kcm/libinput/touchpad.qml:427
 #, kde-format
@@ -219,7 +209,7 @@ msgstr ""
 #: src/kcm/libinput/touchpad.qml:433
 #, kde-format
 msgid "Right-click"
-msgstr ""
+msgstr "Kliknutí pravým tlačítkem myši"
 
 #: src/kcm/libinput/touchpad.qml:434
 #, kde-format
@@ -229,7 +219,7 @@ msgstr ""
 #: src/kcm/libinput/touchpad.qml:436
 #, kde-format
 msgid "Middle-click"
-msgstr ""
+msgstr "Kliknutí prostředním tlačítkem myši"
 
 #: src/kcm/libinput/touchpad.qml:437
 #, kde-format
@@ -237,15 +227,12 @@ msgid "Tap with two fingers to middle-click."
 msgstr ""
 
 #: src/kcm/libinput/touchpad.qml:495
-#, fuzzy, kde-format
-#| msgid "Scrolling"
+#, kde-format
 msgid "Scrolling:"
-msgstr "Rolování"
+msgstr "Rolování:"
 
 #: src/kcm/libinput/touchpad.qml:525
-#, fuzzy, kde-format
-#| msgctxt "Tapping"
-#| msgid "Two fingers:"
+#, kde-format
 msgid "Two fingers"
 msgstr "Dva prsty"
 
@@ -255,11 +242,9 @@ msgid "Slide with two fingers scrolls."
 msgstr ""
 
 #: src/kcm/libinput/touchpad.qml:537
-#, fuzzy, kde-format
-#| msgctxt "Touchpad Edge"
-#| msgid "Top edge"
+#, kde-format
 msgid "Touchpad edges"
-msgstr "Horní okraj"
+msgstr ""
 
 #: src/kcm/libinput/touchpad.qml:541
 #, kde-format
@@ -267,10 +252,9 @@ msgid "Slide on the touchpad edges scrolls."
 msgstr ""
 
 #: src/kcm/libinput/touchpad.qml:551
-#, fuzzy, kde-format
-#| msgid "Reverse horizontal scrolling"
+#, kde-format
 msgid "Invert scroll direction (Natural scrolling)"
-msgstr "Obrácené vodorovné rolování"
+msgstr ""
 
 #: src/kcm/libinput/touchpad.qml:567
 #, kde-format
@@ -278,10 +262,9 @@ msgid "Touchscreen like scrolling."
 msgstr ""
 
 #: src/kcm/libinput/touchpad.qml:575 src/kcm/libinput/touchpad.qml:592
-#, fuzzy, kde-format
-#| msgid "Reverse horizontal scrolling"
+#, kde-format
 msgid "Disable horizontal scrolling"
-msgstr "Obrácené vodorovné rolování"
+msgstr ""
 
 #: src/kcm/libinput/touchpad.qml:603
 #, kde-format
@@ -289,11 +272,9 @@ msgid "Right-click :"
 msgstr ""
 
 #: src/kcm/libinput/touchpad.qml:641
-#, fuzzy, kde-format
-#| msgctxt "Touchpad Edge"
-#| msgid "Bottom right corner"
+#, kde-format
 msgid "Press bottom-right corner"
-msgstr "Pravý dolní roh"
+msgstr ""
 
 #: src/kcm/libinput/touchpad.qml:645
 #, kde-format
@@ -371,16 +352,13 @@ msgid "Developer"
 msgstr "Vývojář"
 
 #: src/kcm/libinput/touchpadconfiglibinput.cpp:115
-#, fuzzy, kde-format
-#| msgid ""
-#| "Error while loading default values. Failed to set some options to their "
-#| "default values."
+#, kde-format
 msgid ""
 "Error while loading values. See logs for more information. Please restart "
 "this configuration module."
 msgstr ""
-"Chyba při načítání výchozích hodnot. Nastavení některých voleb na výchozí "
-"hodnotu selhalo."
+"Chyba při načítání hodnot.Více informací naleznete v záznamech činnosti. "
+"Prosím restartujte tento nastavovací modul."
 
 #: src/kcm/libinput/touchpadconfiglibinput.cpp:120
 #, kde-format

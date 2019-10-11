@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-desktop\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"POT-Creation-Date: 2019-06-23 07:22+0200\n"
 "PO-Revision-Date: 2019-06-09 23:27+0100\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@euskalnet.net>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
@@ -98,10 +98,9 @@ msgid "Leave"
 msgstr "Irten"
 
 #: package/contents/ui/ConfigButtons.qml:215
-#, fuzzy, kde-format
-#| msgid "Inactive Tabs"
+#, kde-format
 msgid "Active Tabs"
-msgstr "Fitxa ez-aktiboak"
+msgstr "Fitxa aktiboak"
 
 #: package/contents/ui/ConfigButtons.qml:221
 #, kde-format
@@ -171,8 +170,7 @@ msgid "%1@%2"
 msgstr "%1@%2"
 
 #: package/contents/ui/Header.qml:167
-#, fuzzy, kde-format
-#| msgid "Search..."
+#, kde-format
 msgid "Search..."
 msgstr "Bilatu..."
 

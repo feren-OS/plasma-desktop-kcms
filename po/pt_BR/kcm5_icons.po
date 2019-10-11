@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmicons\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"POT-Creation-Date: 2019-05-20 07:46+0200\n"
 "PO-Revision-Date: 2018-11-13 18:23-0300\n"
 "Last-Translator: Luiz Fernando Ranghetti <elchevive@opensuse.org>\n"
 "Language-Team: Portuguese <kde-i18n-pt_BR@kde.org>\n"
@@ -86,8 +86,7 @@ msgid "Unable to create a temporary file."
 msgstr "Não foi possível criar um arquivo temporário."
 
 #: main.cpp:332
-#, fuzzy, kde-format
-#| msgid "Unable to download the icon theme archive: %1"
+#, kde-format
 msgid "Unable to download the icon theme archive: %1"
 msgstr "Não foi possível baixar o arquivo do tema de ícones: %1"
 
@@ -157,10 +156,9 @@ msgstr ""
 "Este módulo permite a você escolher os ícones para sua área de trabalho."
 
 #: package/contents/ui/main.qml:155
-#, fuzzy, kde-format
-#| msgid "Restore Icon Theme"
+#, kde-format
 msgid "Remove Icon Theme"
-msgstr "Restaurar tema de ícones"
+msgstr "Remover tema de ícones"
 
 #: package/contents/ui/main.qml:162
 #, kde-format
@@ -173,14 +171,12 @@ msgid "Configure Icon Sizes"
 msgstr "Configurar tamanho dos ícones"
 
 #: package/contents/ui/main.qml:247
-#, fuzzy, kde-format
-#| msgid "Install from File..."
+#, kde-format
 msgid "Install from File..."
 msgstr "Instalar a partir do arquivo..."
 
 #: package/contents/ui/main.qml:253
-#, fuzzy, kde-format
-#| msgid "Get New Icons..."
+#, kde-format
 msgid "Get New Icons..."
 msgstr "Baixar novos ícones..."
 
@@ -193,10 +189,6 @@ msgstr "Abrir tema"
 #, kde-format
 msgid "Theme Files (*.tar.gz *.tar.bz2)"
 msgstr "Arquivos de temas (*.tar.gz *.tar.bz2)"
-
-
-
-
 
 
 

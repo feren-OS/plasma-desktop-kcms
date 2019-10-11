@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"POT-Creation-Date: 2019-05-30 07:24+0200\n"
 "PO-Revision-Date: 2019-06-20 20:57+0200\n"
 "Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
 "Language-Team: Polish <kde-i18n-doc@kde.org>\n"
@@ -51,8 +51,7 @@ msgstr "Indeksuj także zawartość plików"
 
 #. i18n: ectx: property (text), widget (QLabel, m_excludeLabel)
 #: configwidget.ui:76
-#, fuzzy, kde-format
-#| msgid "Do not search in these locations:"
+#, kde-format
 msgid "Do not search in these locations:"
 msgstr "Nie szukaj w tych miejscach:"
 

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_shell_org.kde.plasma.desktop\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"POT-Creation-Date: 2019-06-15 07:36+0200\n"
 "PO-Revision-Date: 2019-05-17 10:15-0300\n"
 "Last-Translator: Luiz Fernando Ranghetti <elchevive@opensuse.org>\n"
 "Language-Team: Portuguese <kde-i18n-pt_BR@kde.org>\n"
@@ -57,8 +57,6 @@ msgid "Delete"
 msgstr "Excluir"
 
 #: contents/configuration/AppletConfiguration.qml:53
-#, fuzzy
-#| msgid "Keyboard Shortcuts"
 msgid "Keyboard Shortcuts"
 msgstr "Atalhos de teclado"
 
@@ -142,8 +140,6 @@ msgid "Add Action"
 msgstr "Adicionar ação"
 
 #: contents/configuration/ConfigurationContainmentAppearance.qml:75
-#, fuzzy
-#| msgid "Layout cannot be changed while widgets are locked"
 msgid "Layout cannot be changed while widgets are locked"
 msgstr "O layout não pode ser alterado enquanto os widgets estão bloqueados"
 
@@ -319,7 +315,5 @@ msgid "Categories"
 msgstr "Categorias"
 
 #: contents/explorer/WidgetExplorer.qml:355
-#, fuzzy
-#| msgid "Get New Widgets..."
 msgid "Get New Widgets..."
 msgstr "Baixar novos widgets..."

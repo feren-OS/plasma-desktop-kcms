@@ -1,7 +1,7 @@
 # translation of kaccess.po to Slovenian
 # Translation of kaccess.po to Slovenian
 # SLOVENIAN TRANSLATION OF KACCESS.
-# $Id: kaccess.po 1550639 2019-08-30 07:08:12Z scripty $
+# $Id: kaccess.po 1542253 2019-05-20 06:55:29Z scripty $
 # $Source$
 #
 # Copyright (C) 2000, 2003, 2005, 2006 Free Software Foundation, Inc.
@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaccess\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"POT-Creation-Date: 2019-05-20 07:46+0200\n"
 "PO-Revision-Date: 2016-11-02 20:39+0100\n"
 "Last-Translator: Andrej Mernik <andrejm@ubuntu.si>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"

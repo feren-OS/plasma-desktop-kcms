@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcm_emoticons\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"POT-Creation-Date: 2019-05-20 07:46+0200\n"
 "PO-Revision-Date: 2019-07-06 23:36+0700\n"
 "Last-Translator: Wantoyo <wantoyek@gmail.com>\n"
 "Language-Team: Indonesian <kde-i18n-doc@kde.org>\n"
@@ -84,10 +84,9 @@ msgid "New Emoticon Theme"
 msgstr "Tema Emoticon Baru"
 
 #: emoticonslist.cpp:364
-#, fuzzy, kde-format
-#| msgid "Design a new emoticon theme"
+#, kde-format
 msgid "Name of new emoticon theme:"
-msgstr "Gambar tema emoticon baru"
+msgstr "Nama tema emoticon baru:"
 
 #: emoticonslist.cpp:370
 #, kde-format
@@ -123,10 +122,9 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, btInstall)
 #: emoticonslist.ui:32
-#, fuzzy, kde-format
-#| msgid "Install from File"
+#, kde-format
 msgid "Install from File..."
-msgstr "Instal dari File"
+msgstr "Instal dari File..."
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, btNew)
 #: emoticonslist.ui:45
@@ -136,16 +134,14 @@ msgstr "Ciptakan Tema Baru.."
 
 #. i18n: ectx: property (whatsThis), widget (QPushButton, btNew)
 #: emoticonslist.ui:48
-#, fuzzy, kde-format
-#| msgid ""
-#| "Start a new theme by assigning it a name. Then use the Add button on the "
-#| "right to add emoticons to this theme."
+#, kde-format
 msgid ""
 "Create a new theme by assigning it a name. Then use the Add button on the "
 "right to add emoticons to this theme."
 msgstr ""
-"Jalankan tema baru dengan menyertakan nama. Lalu gunakan tombol Tambah di "
-"sebelah kanan untuk menambah emoticon ke tema ini."
+"Ciptakan sebuah tema baru dengan menandatanganinya sebuah nama. Kemudian "
+"gunakan tombol Tambah di sebelah kanan untuk menambahkan emoticon ke tema "
+"ini."
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, btRemoveTheme)
 #: emoticonslist.ui:99
@@ -161,29 +157,23 @@ msgstr "Ini akan menghapus tema terpilih dari cakram anda."
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, btGetNew)
 #: emoticonslist.ui:115
-#, fuzzy, kde-format
-#| msgid "Get new icon themes from the Internet"
+#, kde-format
 msgid "Get new emoticon icon themes from the Internet"
-msgstr "Dapatkan tema ikon baru dari Internet"
+msgstr "Dapatkan tema ikon emoticon baru dari Internet"
 
 #. i18n: ectx: property (whatsThis), widget (QPushButton, btGetNew)
 #: emoticonslist.ui:118
-#, fuzzy, kde-format
-#| msgid ""
-#| "You need to be connected to the Internet to use this action. A dialog "
-#| "will display a list of emoticon themes from the http://www.kde-look.org "
-#| "website. Clicking the Install button associated with a theme will install "
-#| "this theme locally."
+#, kde-format
 msgid ""
 "You need to be connected to the Internet to use this action. A dialog will "
 "display a list of emoticon themes from the https://store.kde.org website. "
 "Clicking the Install button associated with a theme will install this theme "
 "locally."
 msgstr ""
-"Anda harus terkoneksi ke Internet untuk menggunakan aksi ini. Sebuah dialog "
-"akan menampilkan daftar tema emoticon dari situs web http://www.kde-look."
-"org. Klik tombol Instal yang diasosiasikakn dengan tema akan menginstal tema "
-"ini secara lokal."
+"Kamu harus terkoneksi ke Internet untuk menggunakan aksi ini. Sebuah dialog "
+"akan menampilkan daftar tema emoticon dari situs https://store.kde.org. "
+"Mengeklik tombol Instal yang terkait dengan tema akan menginstal tema ini "
+"secara lokal."
 
 #. i18n: ectx: property (text), widget (QPushButton, btGetNew)
 #: emoticonslist.ui:121

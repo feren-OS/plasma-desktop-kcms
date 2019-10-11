@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_showdesktop\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"POT-Creation-Date: 2019-05-20 07:46+0200\n"
 "PO-Revision-Date: 2018-04-23 00:57+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -31,9 +31,7 @@ msgid "Show the Plasma desktop"
 msgstr "顯示 Plasma 桌面"
 
 #: package/contents/ui/main.qml:43
-#, fuzzy, kde-format
-#| msgctxt "@action"
-#| msgid "Minimize All Windows"
+#, kde-format
 msgctxt "@action"
 msgid "Minimize All Windows"
 msgstr "最小化所有視窗"

@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: kcminput\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2019-05-20 07:46+0200\n"
-"PO-Revision-Date: 2019-08-11 14:09+0530\n"
-"Last-Translator: Subin Siby <mail@subinsb.com>\n"
+"PO-Revision-Date: 2008-11-12 12:27+0530\n"
+"Last-Translator: മണിലാല്‍ കെ.എം|Manilal K M <libregeek@gmail.com>\n"
 "Language-Team:  Swathanthra|സ്വതന്ത്ര Malayalam|മലയാളം Computing|കമ്പ്യൂട്ടിങ്ങ് <smc-"
 "discuss@googlegroups.com>\n"
 "Language: ml\n"
@@ -32,6 +32,7 @@ msgstr "shijualexonline@gmail.com"
 
 #: kcmcursortheme.cpp:74
 #, fuzzy, kde-format
+#| msgid "&Cursor Theme"
 msgid "Cursors"
 msgstr "&കര്‍സര്‍ പ്രമേയം"
 
@@ -58,6 +59,7 @@ msgstr ""
 
 #: kcmcursortheme.cpp:376
 #, fuzzy, kde-format
+#| msgid "You have to restart KDE for these changes to take effect."
 msgid ""
 "You have to restart the Plasma session for these changes to take effect."
 msgstr "ഈ മാറ്റങ്ങള്‍ പ്രയോഗത്തില്‍ വരുവാന്‍ കെഡി‌ഇ വീണ്ടും തുടങ്ങണം."
@@ -69,13 +71,15 @@ msgstr ""
 
 #: kcmcursortheme.cpp:523
 #, fuzzy, kde-format
+#| msgid "Unable to find the cursor theme archive %1."
 msgid "Unable to download the icon theme archive: %1"
 msgstr "%1 എന്ന കര്‍സര്‍ പ്രമേയം കണ്ടെത്താന്‍ കഴിഞ്ഞില്ല."
 
 #: kcmcursortheme.cpp:554
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "The file %1 does not appear to be a valid cursor theme archive."
 msgid "The file is not a valid icon theme archive."
-msgstr "ഫയല്‍ സാധുതയുള്ള ഒരു ചിഹ്ന പ്രമേയ ആര്‍ക്കൈവ് അല്ല."
+msgstr "%1 എന്ന പ്രമാണം സാധുവായ ഒരു കര്‍സര്‍ പ്രമേയം ആണെന്നു തോന്നുന്നില്ല."
 
 #: kcmcursortheme.cpp:561
 #, kde-format
@@ -141,16 +145,19 @@ msgstr ""
 
 #: package/contents/ui/main.qml:146
 #, fuzzy, kde-format
+#| msgid "Install New Theme..."
 msgid "&Install from File..."
 msgstr "പുതിയ പ്രമേയം ഇന്‍സ്റ്റോള്‍ ചെയ്യുക..."
 
 #: package/contents/ui/main.qml:152
 #, fuzzy, kde-format
+#| msgid "Install New Theme..."
 msgid "&Get New Cursors..."
 msgstr "പുതിയ പ്രമേയം ഇന്‍സ്റ്റോള്‍ ചെയ്യുക..."
 
 #: package/contents/ui/main.qml:174
 #, fuzzy, kde-format
+#| msgid "Remove Theme"
 msgid "Open Theme"
 msgstr "പ്രമേയം കളയുക"
 

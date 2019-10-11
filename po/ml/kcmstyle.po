@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmstyle\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
-"PO-Revision-Date: 2019-08-11 14:09+0530\n"
-"Last-Translator: Subin Siby <mail@subinsb.com>\n"
+"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"PO-Revision-Date: 2008-07-10 01:54+0530\n"
+"Last-Translator: ANI PETER|അനി പീറ്റര്‍ <peter.ani@gmail.com>\n"
 "Language-Team: Swathanthra|സ്വതന്ത്ര Malayalam|മലയാളം Computing|കമ്പ്യൂട്ടിങ്ങ് <smc-"
 "discuss@googlegroups.com>\n"
 "Language: ml\n"
@@ -135,6 +135,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, labelShowIcons)
 #: styleconfig.ui:61
 #, fuzzy, kde-format
+#| msgid "Sho&w icons on buttons"
 msgid "Show icons:"
 msgstr "ബട്ടണുകളില്‍ ചിത്രം കാ&ണിക്കുക"
 
@@ -155,6 +156,7 @@ msgstr ""
 #. i18n: ectx: property (text), item, widget (QComboBox, comboSecondaryToolbarIcons)
 #: styleconfig.ui:84 styleconfig.ui:118
 #, fuzzy, kde-format
+#| msgid "Text Only"
 msgid "Text only"
 msgstr "വാചകം മാത്രം"
 
@@ -162,6 +164,7 @@ msgstr "വാചകം മാത്രം"
 #. i18n: ectx: property (text), item, widget (QComboBox, comboSecondaryToolbarIcons)
 #: styleconfig.ui:89 styleconfig.ui:123
 #, fuzzy, kde-format
+#| msgid "Text Alongside Icons"
 msgid "Beside icons"
 msgstr "വാചകത്തിനൊപ്പമുള്ള ചിത്രങ്ങള്‍"
 
@@ -169,6 +172,7 @@ msgstr "വാചകത്തിനൊപ്പമുള്ള ചിത്ര�
 #. i18n: ectx: property (text), item, widget (QComboBox, comboSecondaryToolbarIcons)
 #: styleconfig.ui:94 styleconfig.ui:128
 #, fuzzy, kde-format
+#| msgid "Text Under Icons"
 msgid "Below icons"
 msgstr "ചിത്രങ്ങളുടെ കീഴിലുള്ള വാചകം"
 
@@ -181,6 +185,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, cbIconsOnButtons)
 #: styleconfig.ui:136
 #, fuzzy, kde-format
+#| msgid "Radio button"
 msgid "On buttons"
 msgstr "റേഡിയോ ബട്ടണ്‍"
 
@@ -199,12 +204,14 @@ msgstr "ടാബ് 1"
 #. i18n: ectx: property (text), widget (QPushButton, pushButton)
 #: stylepreview.ui:65
 #, fuzzy, kde-format
+#| msgid "Button"
 msgid "Push Button"
 msgstr "ബട്ടണ്‍"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBox)
 #: stylepreview.ui:86
 #, fuzzy, kde-format
+#| msgid "Combobox"
 msgid "Combo box"
 msgstr "കോമ്പോബോക്സ്"
 

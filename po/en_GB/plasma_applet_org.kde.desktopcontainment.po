@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"POT-Creation-Date: 2019-05-20 07:46+0200\n"
 "PO-Revision-Date: 2019-05-19 13:13+0100\n"
 "Last-Translator: Steve Allewell <steve.allewell@gmail.com>\n"
 "Language-Team: British English <kde-i18n-doc@kde.org>\n"
@@ -56,20 +56,14 @@ msgid "Files:"
 msgstr "Files:"
 
 #: package/contents/ui/ConfigFilter.qml:77
-#, fuzzy
-#| msgid "Show all"
 msgid "Show all"
 msgstr "Show all"
 
 #: package/contents/ui/ConfigFilter.qml:77
-#, fuzzy
-#| msgid "Show matching"
 msgid "Show matching"
 msgstr "Show matching"
 
 #: package/contents/ui/ConfigFilter.qml:77
-#, fuzzy
-#| msgid "Hide matching"
 msgid "Hide matching"
 msgstr "Hide matching"
 
@@ -82,8 +76,6 @@ msgid "File types:"
 msgstr "File types:"
 
 #: package/contents/ui/ConfigFilter.qml:90
-#, fuzzy
-#| msgid "Search..."
 msgid "Search..."
 msgstr "Search..."
 
@@ -192,9 +184,6 @@ msgid "Folders first"
 msgstr "Folders first"
 
 #: package/contents/ui/ConfigIcons.qml:218
-#, fuzzy
-#| msgctxt "whether to use icon or list view"
-#| msgid "View mode:"
 msgctxt "whether to use icon or list view"
 msgid "View mode:"
 msgstr "View mode:"
@@ -238,8 +227,6 @@ msgid "Wide"
 msgstr "Wide"
 
 #: package/contents/ui/ConfigIcons.qml:276
-#, fuzzy
-#| msgid "Text lines:"
 msgid "Text lines:"
 msgstr "Text lines:"
 
@@ -248,8 +235,6 @@ msgid "Features:"
 msgstr "Features:"
 
 #: package/contents/ui/ConfigIcons.qml:294
-#, fuzzy
-#| msgid "Tooltips"
 msgid "Tooltips"
 msgstr "Tooltips"
 
@@ -266,8 +251,6 @@ msgid "Preview thumbnails"
 msgstr "Preview thumbnails"
 
 #: package/contents/ui/ConfigIcons.qml:321
-#, fuzzy
-#| msgid "Configure Preview Plugins..."
 msgid "Configure Preview Plugins..."
 msgstr "Configure Preview Plugins..."
 
@@ -280,8 +263,6 @@ msgid "Desktop folder"
 msgstr "Desktop folder"
 
 #: package/contents/ui/ConfigLocation.qml:102
-#, fuzzy
-#| msgid "Files linked to the current activity"
 msgid "Files linked to the current activity"
 msgstr "Files linked to the current activity"
 
@@ -294,8 +275,6 @@ msgid "Custom location:"
 msgstr "Custom location:"
 
 #: package/contents/ui/ConfigLocation.qml:150
-#, fuzzy
-#| msgid "Type path or URL..."
 msgid "Type path or URL..."
 msgstr "Type path or URL..."
 
@@ -320,8 +299,6 @@ msgid "Custom title"
 msgstr "Custom title"
 
 #: package/contents/ui/ConfigLocation.qml:208
-#, fuzzy
-#| msgid "Enter custom title..."
 msgid "Enter custom title..."
 msgstr "Enter custom title..."
 
@@ -366,8 +343,6 @@ msgid "Got it"
 msgstr "Got it"
 
 #: package/contents/ui/main.qml:597
-#, fuzzy
-#| msgid "Configure Desktop..."
 msgid "Configure Desktop..."
 msgstr "Configure Desktop..."
 
@@ -387,8 +362,7 @@ msgid "&Refresh View"
 msgstr "&Refresh View"
 
 #: plugins/folder/foldermodel.cpp:1616
-#, fuzzy, kde-format
-#| msgid "&Empty Trash"
+#, kde-format
 msgid "&Empty Trash"
 msgstr "&Empty Wastebin"
 

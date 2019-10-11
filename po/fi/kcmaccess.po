@@ -7,14 +7,14 @@
 # Kim Enkovaara <kim.enkovaara@iki.fi>, 2006.
 # Teemu Rytilahti <tpr@d5k.net>, 2008.
 # Lasse Liehu <lasse.liehu@gmail.com>, 2010, 2011, 2012, 2013, 2014, 2015.
-# Tommi Nieminen <translator@legisign.org>, 2017, 2019.
+# Tommi Nieminen <translator@legisign.org>, 2017.
 #
 # KDE Finnish translation sprint participants:
 msgid ""
 msgstr ""
 "Project-Id-Version: kcmaccess\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"POT-Creation-Date: 2019-05-20 07:46+0200\n"
 "PO-Revision-Date: 2017-12-08 16:01+0200\n"
 "Last-Translator: Tommi Nieminen <translator@legisign.org>\n"
 "Language-Team: Finnish <kde-i18n-doc@kde.org>\n"

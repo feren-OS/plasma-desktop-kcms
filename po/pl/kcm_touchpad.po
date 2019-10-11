@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"POT-Creation-Date: 2019-06-20 07:49+0200\n"
 "PO-Revision-Date: 2019-06-20 20:57+0200\n"
 "Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
 "Language-Team: Polish <kde-i18n-doc@kde.org>\n"
@@ -361,10 +361,7 @@ msgid "Developer"
 msgstr "Programista"
 
 #: src/kcm/libinput/touchpadconfiglibinput.cpp:115
-#, fuzzy, kde-format
-#| msgid ""
-#| "Error while loading values. See logs for more information. Please restart "
-#| "this configuration module."
+#, kde-format
 msgid ""
 "Error while loading values. See logs for more information. Please restart "
 "this configuration module."
@@ -378,10 +375,7 @@ msgid "No touchpad found. Connect touchpad now."
 msgstr "Nie znaleziono gładzika, więc podłącz go teraz."
 
 #: src/kcm/libinput/touchpadconfiglibinput.cpp:131
-#, fuzzy, kde-format
-#| msgid ""
-#| "Not able to save all changes. See logs for more information. Please "
-#| "restart this configuration module and try again."
+#, kde-format
 msgid ""
 "Not able to save all changes. See logs for more information. Please restart "
 "this configuration module and try again."

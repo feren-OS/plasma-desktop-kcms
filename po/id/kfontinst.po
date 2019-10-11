@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kfontinst\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
-"PO-Revision-Date: 2019-08-17 07:54+0700\n"
+"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"PO-Revision-Date: 2019-07-22 20:42+0700\n"
 "Last-Translator: Wantoyo <wantoyek@gmail.com>\n"
 "Language-Team: Indonesian <kde-i18n-doc@kde.org>\n"
 "Language: id\n"
@@ -644,10 +644,9 @@ msgid "Unexpected error while processing: <i>%1</i>"
 msgstr "Galat tak diharapkan ketika memproses: <i>%1</i>"
 
 #: kcmfontinst/KCmFontInst.cpp:188
-#, fuzzy, kde-format
-#| msgid "KDE Font Manager"
+#, kde-format
 msgid "Font Management"
-msgstr "Pengelola Font KDE"
+msgstr "Pengelolaan Font"
 
 #: kcmfontinst/KCmFontInst.cpp:189
 #, kde-format
@@ -715,10 +714,9 @@ msgid "Download new fonts"
 msgstr "Unduh font baru"
 
 #: kcmfontinst/KCmFontInst.cpp:295
-#, fuzzy, kde-format
-#| msgid "Delete all selected fonts"
+#, kde-format
 msgid "Delete Selected Fonts..."
-msgstr "Hapus semua font terpilih"
+msgstr "Hapus Font Terpilih..."
 
 #: kcmfontinst/KCmFontInst.cpp:353
 #, kde-format
@@ -932,26 +930,26 @@ msgstr[1] "%1 Font"
 #: kcmfontinst/KCmFontInst.cpp:981
 #, kde-format
 msgid ""
-"<table><tr><td align=\"right\">Enabled:</td><td>%1</td></tr><tr><td align="
-"\"right\">Disabled:</td><td>%2</td></tr><tr><td align=\"right\">Partially "
-"enabled:</td><td>%3</td></tr><tr><td align=\"right\">Total:</td><td>%4</td></"
-"tr></table>"
+"<table><tr><td align=\"right\">Enabled:</td><td>%1</td></tr><tr><td "
+"align=\"right\">Disabled:</td><td>%2</td></tr><tr><td "
+"align=\"right\">Partially enabled:</td><td>%3</td></tr><tr><td "
+"align=\"right\">Total:</td><td>%4</td></tr></table>"
 msgstr ""
 "<table><tr><td align=\"right\">Difungsikan:</td><td>%1</td></tr><tr><td "
-"align=\"right\">Dinonfungsikan:</td><td>%2</td></tr><tr><td align=\"right"
-"\">Sebagian difungsikan:</td><td>%3</td></tr><tr><td align=\"right\">Total:</"
-"td><td>%4</td></tr></table>"
+"align=\"right\">Dinonfungsikan:</td><td>%2</td></tr><tr><td "
+"align=\"right\">Sebagian difungsikan:</td><td>%3</td></tr><tr><td "
+"align=\"right\">Total:</td><td>%4</td></tr></table>"
 
 #: kcmfontinst/KCmFontInst.cpp:987
 #, kde-format
 msgid ""
-"<table><tr><td align=\"right\">Enabled:</td><td>%1</td></tr><tr><td align="
-"\"right\">Disabled:</td><td>%2</td></tr><tr><td align=\"right\">Total:</"
-"td><td>%3</td></tr></table>"
+"<table><tr><td align=\"right\">Enabled:</td><td>%1</td></tr><tr><td "
+"align=\"right\">Disabled:</td><td>%2</td></tr><tr><td "
+"align=\"right\">Total:</td><td>%3</td></tr></table>"
 msgstr ""
 "<table><tr><td align=\"right\">Difungsikan:</td><td>%1</td></tr><tr><td "
-"align=\"right\">Dinonfungsikan:</td><td>%2</td></tr><tr><td align=\"right"
-"\">Total:</td><td>%3</td></tr></table>"
+"align=\"right\">Dinonfungsikan:</td><td>%2</td></tr><tr><td "
+"align=\"right\">Total:</td><td>%3</td></tr></table>"
 
 #: kcmfontinst/KCmFontInst.cpp:1063
 #, kde-format
@@ -1053,8 +1051,8 @@ msgstr[1] "Anda yakin ingin menonfungsikan %1 font tersebut?"
 #: kcmfontinst/KCmFontInst.cpp:1222
 #, kde-format
 msgid ""
-"<p>Do you really want to enable this font contained within group '<b>%2</b>'?"
-"</p>"
+"<p>Do you really want to enable this font contained within group '<b>%2</"
+"b>'?</p>"
 msgid_plural ""
 "<p>Do you really want to enable these %1 fonts contained within group '<b>"
 "%2</b>'?</p>"

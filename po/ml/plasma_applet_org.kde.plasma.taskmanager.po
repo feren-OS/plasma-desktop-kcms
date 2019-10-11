@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_tasks trunk\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
-"PO-Revision-Date: 2019-08-11 14:09+0530\n"
-"Last-Translator: Subin Siby <mail@subinsb.com>\n"
+"POT-Creation-Date: 2019-06-23 07:22+0200\n"
+"PO-Revision-Date: 2008-11-25 02:43-0800\n"
+"Last-Translator: Praveen Arimbrathodiyil <pravi.a@gmail.com>\n"
 "Language-Team: Malayalam <smc-discuss@googlegroups.com>\n"
 "Language: ml\n"
 "MIME-Version: 1.0\n"
@@ -43,11 +43,13 @@ msgstr ""
 
 #: package/contents/ui/ConfigAppearance.qml:48
 #, fuzzy, kde-format
+#| msgid "General"
 msgid "General:"
 msgstr "പൊതുവായ"
 
 #: package/contents/ui/ConfigAppearance.qml:49
 #, fuzzy, kde-format
+#| msgid "Show tooltips:"
 msgid "Show tooltips"
 msgstr "സൂചനകള്‍ കാണിയ്ക്കുക:"
 
@@ -78,6 +80,7 @@ msgstr ""
 
 #: package/contents/ui/ConfigAppearance.qml:105
 #, fuzzy, kde-format
+#| msgid "Maximum rows:"
 msgid "Maximum columns:"
 msgstr "ഏറ്റവും കൂടുതല്‍ ആകാവുന്ന വരികള്‍:"
 
@@ -98,16 +101,19 @@ msgstr ""
 
 #: package/contents/ui/ConfigBehavior.qml:52
 #, fuzzy, kde-format
+#| msgid "Grouping:"
 msgid "Group:"
 msgstr "ഒരുമിച്ചു് കാണിയ്ക്കല്‍:"
 
 #: package/contents/ui/ConfigBehavior.qml:54
 #, fuzzy, kde-format
+#| msgid "Do Not Group"
 msgid "Do not group"
 msgstr "ഒരുമിച്ചു് കാണിയ്ക്കരുതു്"
 
 #: package/contents/ui/ConfigBehavior.qml:54
 #, fuzzy, kde-format
+#| msgid "By Program Name"
 msgid "By program name"
 msgstr "പ്രയോഗത്തിന്റെ പേരനുസരിച്ചു്"
 
@@ -118,11 +124,13 @@ msgstr ""
 
 #: package/contents/ui/ConfigBehavior.qml:74
 #, fuzzy, kde-format
+#| msgid "Only when the taskbar is full"
 msgid "Group only when the Task Manager is full"
 msgstr "ജോലികള്‍ കാണിയ്ക്കുന്ന പട്ട നിറയുമ്പോള്‍ മാത്രം"
 
 #: package/contents/ui/ConfigBehavior.qml:88
 #, fuzzy, kde-format
+#| msgid "Sorting:"
 msgid "Sort:"
 msgstr "തരംതിരിയ്ക്കല്‍:"
 
@@ -143,6 +151,7 @@ msgstr "അകാരാദിക്രമത്തില്‍"
 
 #: package/contents/ui/ConfigBehavior.qml:90
 #, fuzzy, kde-format
+#| msgid "By Desktop"
 msgid "By desktop"
 msgstr "പണിയിടം അനുസരിച്ച്"
 
@@ -184,12 +193,14 @@ msgstr ""
 
 #: package/contents/ui/ConfigBehavior.qml:115
 #, fuzzy, kde-format
+#| msgid "Grouping:"
 msgctxt "When clicking it would toggle grouping windows of a specific app"
 msgid "Group/Ungroup"
 msgstr "ഒരുമിച്ചു് കാണിയ്ക്കല്‍:"
 
 #: package/contents/ui/ConfigBehavior.qml:116
 #, fuzzy, kde-format
+#| msgid "Only show tasks from the current desktop"
 msgid "Bring to the current virtual desktop"
 msgstr "ഇപ്പോഴത്തെ പണിയിടത്തിലെ ജോലികള്‍ മാത്രം കാണിയ്ക്കുക"
 
@@ -200,26 +211,31 @@ msgstr ""
 
 #: package/contents/ui/ConfigBehavior.qml:131
 #, fuzzy, kde-format
+#| msgid "Filters"
 msgid "Filter:"
 msgstr "ഫില്‍ടറുകള്‍"
 
 #: package/contents/ui/ConfigBehavior.qml:132
 #, fuzzy, kde-format
+#| msgid "Only show tasks from the current screen"
 msgid "Show only tasks from the current screen"
 msgstr "ഇപ്പോഴത്തെ സ്ക്രീനിലെ ജോലികള്‍ മാത്രം കാണിയ്ക്കുക"
 
 #: package/contents/ui/ConfigBehavior.qml:137
 #, fuzzy, kde-format
+#| msgid "Only show tasks from the current desktop"
 msgid "Show only tasks from the current desktop"
 msgstr "ഇപ്പോഴത്തെ പണിയിടത്തിലെ ജോലികള്‍ മാത്രം കാണിയ്ക്കുക"
 
 #: package/contents/ui/ConfigBehavior.qml:142
 #, fuzzy, kde-format
+#| msgid "Only show tasks from the current screen"
 msgid "Show only tasks from the current activity"
 msgstr "ഇപ്പോഴത്തെ സ്ക്രീനിലെ ജോലികള്‍ മാത്രം കാണിയ്ക്കുക"
 
 #: package/contents/ui/ConfigBehavior.qml:148
 #, fuzzy, kde-format
+#| msgid "Only show tasks that are minimized"
 msgid "Show only tasks that are minimized"
 msgstr "ഇപ്പോള്‍ മിനിമൈസ് ചെയ്തിരിക്കുന്ന ജോലികള്‍ മാത്രം കാണിയ്ക്കുക"
 
@@ -292,27 +308,32 @@ msgstr ""
 
 #: package/contents/ui/ContextMenu.qml:302
 #, fuzzy, kde-format
+#| msgid "By Desktop"
 msgid "Move To &Desktop"
 msgstr "പണിയിടം അനുസരിച്ച്"
 
 #: package/contents/ui/ContextMenu.qml:325
 #, fuzzy, kde-format
+#| msgid "By Desktop"
 msgid "Move &To Current Desktop"
 msgstr "പണിയിടം അനുസരിച്ച്"
 
 #: package/contents/ui/ContextMenu.qml:334
 #, fuzzy, kde-format
+#| msgid "By Desktop"
 msgid "&All Desktops"
 msgstr "പണിയിടം അനുസരിച്ച്"
 
 #: package/contents/ui/ContextMenu.qml:348
 #, fuzzy, kde-format
+#| msgid "By Desktop"
 msgctxt "1 = number of desktop, 2 = desktop name"
 msgid "&%1 %2"
 msgstr "പണിയിടം അനുസരിച്ച്"
 
 #: package/contents/ui/ContextMenu.qml:362
 #, fuzzy, kde-format
+#| msgid "By Desktop"
 msgid "&New Desktop"
 msgstr "പണിയിടം അനുസരിച്ച്"
 
@@ -409,6 +430,8 @@ msgstr ""
 
 #: package/contents/ui/ToolTipInstance.qml:469
 #, fuzzy, kde-format
+#| msgctxt "Which virtual desktop a window is currently on"
+#| msgid "On %1"
 msgctxt "Comma-separated list of desktops"
 msgid "On %1"
 msgstr "%1 എന്നതില്‍"

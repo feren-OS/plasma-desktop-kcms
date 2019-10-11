@@ -9,7 +9,7 @@
 <article id="workspaceoptions" lang="&language;">
 <articleinfo>
 <title
->Verhalten des Arbeitsbereichs</title>
+>Verhalten der Arbeitsfläche</title>
 <authorgroup>
 <author
 >&Burkhard.Lueck; &Burkhard.Lueck.mail;</author>
@@ -48,7 +48,7 @@
 </articleinfo>
 
 <para
->Mit diesem Modul können Sie globale Einstellungen für den &plasma;-Arbeitsbereich einrichten. </para>
+>Mit diesem Modul können Sie globale Einstellungen für die &plasma;-Arbeitsfläche einrichten. </para>
 
 <variablelist>
 

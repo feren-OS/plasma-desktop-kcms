@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
-"PO-Revision-Date: 2019-08-16 17:05\n"
+"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"PO-Revision-Date: 2019-07-18 15:07\n"
 "Last-Translator: Guo Yunhe (guoyunhe)\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -62,20 +62,14 @@ msgid "Files:"
 msgstr "文件："
 
 #: package/contents/ui/ConfigFilter.qml:77
-#, fuzzy
-#| msgid "Show all"
 msgid "Show all"
 msgstr "全部显示"
 
 #: package/contents/ui/ConfigFilter.qml:77
-#, fuzzy
-#| msgid "Show matching"
 msgid "Show matching"
 msgstr "显示匹配"
 
 #: package/contents/ui/ConfigFilter.qml:77
-#, fuzzy
-#| msgid "Hide matching"
 msgid "Hide matching"
 msgstr "隐藏匹配"
 
@@ -88,8 +82,6 @@ msgid "File types:"
 msgstr "文件类型："
 
 #: package/contents/ui/ConfigFilter.qml:90
-#, fuzzy
-#| msgid "Search..."
 msgid "Search..."
 msgstr "搜索..."
 
@@ -198,9 +190,6 @@ msgid "Folders first"
 msgstr "文件夹在前"
 
 #: package/contents/ui/ConfigIcons.qml:218
-#, fuzzy
-#| msgctxt "whether to use icon or list view"
-#| msgid "View mode:"
 msgctxt "whether to use icon or list view"
 msgid "View mode:"
 msgstr "视图模式："
@@ -244,8 +233,6 @@ msgid "Wide"
 msgstr "宽"
 
 #: package/contents/ui/ConfigIcons.qml:276
-#, fuzzy
-#| msgid "Text lines:"
 msgid "Text lines:"
 msgstr "文本行数："
 
@@ -254,8 +241,6 @@ msgid "Features:"
 msgstr "功能："
 
 #: package/contents/ui/ConfigIcons.qml:294
-#, fuzzy
-#| msgid "Tooltips"
 msgid "Tooltips"
 msgstr "工具提示"
 
@@ -272,8 +257,6 @@ msgid "Preview thumbnails"
 msgstr "预览缩略图"
 
 #: package/contents/ui/ConfigIcons.qml:321
-#, fuzzy
-#| msgid "Configure Preview Plugins..."
 msgid "Configure Preview Plugins..."
 msgstr "配置预览插件..."
 
@@ -282,14 +265,10 @@ msgid "Show:"
 msgstr "显示："
 
 #: package/contents/ui/ConfigLocation.qml:95
-#, fuzzy
-#| msgid "Show the desktop toolbox"
 msgid "Desktop folder"
-msgstr "显示桌面工具栏"
+msgstr "桌面文件夹"
 
 #: package/contents/ui/ConfigLocation.qml:102
-#, fuzzy
-#| msgid "Files linked to the current activity"
 msgid "Files linked to the current activity"
 msgstr "链接到当前活动的文件"
 
@@ -302,8 +281,6 @@ msgid "Custom location:"
 msgstr "自定义位置："
 
 #: package/contents/ui/ConfigLocation.qml:150
-#, fuzzy
-#| msgid "Type path or URL..."
 msgid "Type path or URL..."
 msgstr "输入路径或 URL..."
 
@@ -328,8 +305,6 @@ msgid "Custom title"
 msgstr "自定义标题"
 
 #: package/contents/ui/ConfigLocation.qml:208
-#, fuzzy
-#| msgid "Enter custom title..."
 msgid "Enter custom title..."
 msgstr "输入自定义标题..."
 
@@ -372,8 +347,6 @@ msgid "Got it"
 msgstr "知道了"
 
 #: package/contents/ui/main.qml:597
-#, fuzzy
-#| msgid "Configure Desktop..."
 msgid "Configure Desktop..."
 msgstr "配置桌面..."
 
@@ -393,8 +366,7 @@ msgid "&Refresh View"
 msgstr "刷新视图(&R)"
 
 #: plugins/folder/foldermodel.cpp:1616
-#, fuzzy, kde-format
-#| msgid "&Empty Trash"
+#, kde-format
 msgid "&Empty Trash"
 msgstr "清空回收站(&E)"
 

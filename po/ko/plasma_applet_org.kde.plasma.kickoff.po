@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"POT-Creation-Date: 2019-06-23 07:22+0200\n"
 "PO-Revision-Date: 2019-04-29 23:25+0200\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
 "Language-Team: Korean <kde-kr@kde.org>\n"
@@ -94,10 +94,9 @@ msgid "Leave"
 msgstr "떠나기"
 
 #: package/contents/ui/ConfigButtons.qml:215
-#, fuzzy, kde-format
-#| msgid "Inactive Tabs"
+#, kde-format
 msgid "Active Tabs"
-msgstr "비활성 탭"
+msgstr "활성 탭"
 
 #: package/contents/ui/ConfigButtons.qml:221
 #, kde-format

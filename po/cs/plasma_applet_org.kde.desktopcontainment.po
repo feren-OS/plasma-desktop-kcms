@@ -1,13 +1,13 @@
 # Copyright (C) YEAR This_file_is_part_of_KDE
 # This file is distributed under the same license as the PACKAGE package.
-# Vít Pelčák <vit@pelcak.org>, 2014, 2015, 2016, 2017, 2019.
+# Vít Pelčák <vit@pelcak.org>, 2014, 2015, 2016, 2017.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
-"PO-Revision-Date: 2019-08-29 15:47+0200\n"
+"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"PO-Revision-Date: 2017-11-02 13:07+0100\n"
 "Last-Translator: Vit Pelcak <vit@pelcak.org>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
 "Language: cs\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Lokalize 19.08.0\n"
+"X-Generator: Lokalize 2.0\n"
 "X-Language: cs_CZ\n"
 "X-Source-Language: en_US\n"
 
@@ -54,28 +54,20 @@ msgid "Back"
 msgstr "Zpět"
 
 #: package/contents/ui/ConfigFilter.qml:76
-#, fuzzy
-#| msgid "File types:"
 msgid "Files:"
-msgstr "Typy souborů:"
+msgstr "Soubory:"
 
 #: package/contents/ui/ConfigFilter.qml:77
-#, fuzzy
-#| msgid "Show a place:"
 msgid "Show all"
-msgstr "Zobrazit místo:"
+msgstr "Ukázat vše"
 
 #: package/contents/ui/ConfigFilter.qml:77
-#, fuzzy
-#| msgid "Show Files Matching"
 msgid "Show matching"
-msgstr "Zobrazovat soubory odpovídající"
+msgstr ""
 
 #: package/contents/ui/ConfigFilter.qml:77
-#, fuzzy
-#| msgid "Hide Files Matching"
 msgid "Hide matching"
-msgstr "Skrýt soubory odpovídající"
+msgstr ""
 
 #: package/contents/ui/ConfigFilter.qml:82
 msgid "File name pattern:"
@@ -86,10 +78,8 @@ msgid "File types:"
 msgstr "Typy souborů:"
 
 #: package/contents/ui/ConfigFilter.qml:90
-#, fuzzy
-#| msgid "Search file type..."
 msgid "Search..."
-msgstr "Hledat typ souboru..."
+msgstr "Hledat..."
 
 #: package/contents/ui/ConfigFilter.qml:188
 msgid "File type"
@@ -142,16 +132,12 @@ msgid "Columns"
 msgstr "Sloupce"
 
 #: package/contents/ui/ConfigIcons.qml:149
-#, fuzzy
-#| msgid "Align"
 msgid "Align left"
-msgstr "Zarovnat"
+msgstr "Zarovnat vlevo"
 
 #: package/contents/ui/ConfigIcons.qml:149
-#, fuzzy
-#| msgid "Align"
 msgid "Align right"
-msgstr "Zarovnat"
+msgstr "Zarovnat vpravo"
 
 #: package/contents/ui/ConfigIcons.qml:164
 msgid "Lock in place"
@@ -163,7 +149,7 @@ msgstr "Řazení:"
 
 #: package/contents/ui/ConfigIcons.qml:185
 msgid "Manual"
-msgstr ""
+msgstr "Ručně"
 
 #: package/contents/ui/ConfigIcons.qml:185
 #: plugins/folder/viewpropertiesmenu.cpp:62
@@ -200,22 +186,17 @@ msgid "Folders first"
 msgstr "Složky první"
 
 #: package/contents/ui/ConfigIcons.qml:218
-#, fuzzy
-#| msgctxt "whether to use icon or list view"
-#| msgid "View mode"
 msgctxt "whether to use icon or list view"
 msgid "View mode:"
-msgstr "Režim zobrazení"
+msgstr ""
 
 #: package/contents/ui/ConfigIcons.qml:220
 msgid "List"
 msgstr "Seznam"
 
 #: package/contents/ui/ConfigIcons.qml:231
-#, fuzzy
-#| msgid "Icon Size"
 msgid "Icon size:"
-msgstr "Velikost ikon"
+msgstr "Velikost ikony:"
 
 #: package/contents/ui/ConfigIcons.qml:246
 #: plugins/folder/viewpropertiesmenu.cpp:88
@@ -248,18 +229,14 @@ msgid "Wide"
 msgstr ""
 
 #: package/contents/ui/ConfigIcons.qml:276
-#, fuzzy
-#| msgid "Text lines"
 msgid "Text lines:"
-msgstr "Řádky textu"
+msgstr "Řádky textu:"
 
 #: package/contents/ui/ConfigIcons.qml:292
 msgid "Features:"
 msgstr "Vlastnosti:"
 
 #: package/contents/ui/ConfigIcons.qml:294
-#, fuzzy
-#| msgid "Tool tips"
 msgid "Tooltips"
 msgstr "Nástrojové tipy"
 
@@ -276,42 +253,32 @@ msgid "Preview thumbnails"
 msgstr "Náhled miniatur"
 
 #: package/contents/ui/ConfigIcons.qml:321
-#, fuzzy
-#| msgid "More Preview Options..."
 msgid "Configure Preview Plugins..."
-msgstr "Více možností náhledů..."
+msgstr ""
 
 #: package/contents/ui/ConfigLocation.qml:93
 msgid "Show:"
-msgstr ""
+msgstr "Zobrazit:"
 
 #: package/contents/ui/ConfigLocation.qml:95
-#, fuzzy
-#| msgid "Show the Desktop folder"
 msgid "Desktop folder"
-msgstr "Zobrazit složku plochy"
+msgstr ""
 
 #: package/contents/ui/ConfigLocation.qml:102
-#, fuzzy
-#| msgid "Show files linked to the current activity"
 msgid "Files linked to the current activity"
-msgstr "Zobrazit soubory spojené s aktuální aktivitou"
+msgstr ""
 
 #: package/contents/ui/ConfigLocation.qml:109
 msgid "Places panel item:"
 msgstr ""
 
 #: package/contents/ui/ConfigLocation.qml:142
-#, fuzzy
-#| msgid "Custom title"
 msgid "Custom location:"
-msgstr "Vlastní titulek"
+msgstr "Vlastní umístění:"
 
 #: package/contents/ui/ConfigLocation.qml:150
-#, fuzzy
-#| msgid "Type a path or a URL here"
 msgid "Type path or URL..."
-msgstr "Zde zadejte cestu nebo URL"
+msgstr ""
 
 #: package/contents/ui/ConfigLocation.qml:191
 msgid "Title:"
@@ -334,10 +301,8 @@ msgid "Custom title"
 msgstr "Vlastní titulek"
 
 #: package/contents/ui/ConfigLocation.qml:208
-#, fuzzy
-#| msgid "Enter custom title here"
 msgid "Enter custom title..."
-msgstr "Zde zadejte vlastní titulek"
+msgstr ""
 
 #: package/contents/ui/ConfigTweaks.qml:43
 msgid ""
@@ -378,10 +343,8 @@ msgid "Got it"
 msgstr "Jasně"
 
 #: package/contents/ui/main.qml:597
-#, fuzzy
-#| msgid "Configure Desktop"
 msgid "Configure Desktop..."
-msgstr "Nastavte pracovní plochu"
+msgstr ""
 
 #: plugins/folder/directorypicker.cpp:45
 #, kde-format
@@ -399,10 +362,9 @@ msgid "&Refresh View"
 msgstr "Ob&novit pohled"
 
 #: plugins/folder/foldermodel.cpp:1616
-#, fuzzy, kde-format
-#| msgid "&Empty Trash Bin"
+#, kde-format
 msgid "&Empty Trash"
-msgstr "V&yprázdnit koš"
+msgstr ""
 
 #: plugins/folder/foldermodel.cpp:1619
 #, kde-format
@@ -483,7 +445,7 @@ msgstr "Obrovská"
 #: plugins/folder/viewpropertiesmenu.cpp:97
 #, kde-format
 msgid "Show Previews"
-msgstr ""
+msgstr "Náhled"
 
 #: plugins/folder/viewpropertiesmenu.cpp:100
 #, kde-format

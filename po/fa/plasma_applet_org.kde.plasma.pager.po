@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_pager\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"POT-Creation-Date: 2019-05-20 07:46+0200\n"
 "PO-Revision-Date: 2008-04-18 14:31+0330\n"
 "Last-Translator: Saied Taghavi <s.taghavi@gmail.com>\n"
 "Language-Team: Persian <kde-i18n-fa@kde.org>\n"
@@ -93,10 +93,9 @@ msgid "Desktop name"
 msgstr "نمایش &شمارهٔ رومیزی"
 
 #: package/contents/ui/configGeneral.qml:152
-#, fuzzy, kde-format
-#| msgid "&Configure Desktops..."
+#, kde-format
 msgid "Selecting current Activity:"
-msgstr "&پیکربندی رومیزی‌ها..."
+msgstr ""
 
 #: package/contents/ui/configGeneral.qml:152
 #, fuzzy, kde-format

@@ -3,13 +3,12 @@
 #
 # Yuri Efremov <yur.arh@gmail.com>, 2013.
 # Alexander Potashev <aspotashev@gmail.com>, 2014, 2015, 2016, 2017, 2019.
-# Alexander Yavorsky <kekcuha@gmail.com>, 2019.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
-"PO-Revision-Date: 2019-09-02 00:25+0300\n"
+"POT-Creation-Date: 2019-06-23 07:22+0200\n"
+"PO-Revision-Date: 2019-06-30 15:24+0300\n"
 "Last-Translator: Alexander Potashev <aspotashev@gmail.com>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
 "Language: ru\n"
@@ -93,79 +92,92 @@ msgid "Description (Name)"
 msgstr "Описание (Название)"
 
 #: package/contents/ui/ConfigGeneral.qml:173
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Behavior"
 msgid "Behavior:"
-msgstr "Поведение:"
+msgstr "Поведение"
 
 #: package/contents/ui/ConfigGeneral.qml:175
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Sort alphabetically"
 msgid "Sort applications alphabetically"
-msgstr "Сортировать приложения по алфавиту"
+msgstr "Сортировать пункты меню по алфавиту"
 
 #: package/contents/ui/ConfigGeneral.qml:183
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Flatten menu to a single level"
 msgid "Flatten sub-menus to a single level"
-msgstr "Упростить вложенные меню до одного уровня"
+msgstr "Упростить меню до одноуровневого"
 
 #: package/contents/ui/ConfigGeneral.qml:194
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Categories"
 msgid "Show categories:"
-msgstr "Показывать категории:"
+msgstr "Категории"
 
 #: package/contents/ui/ConfigGeneral.qml:197
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Recent Applications"
 msgid "Recent applications"
 msgstr "Последние приложения"
 
 #: package/contents/ui/ConfigGeneral.qml:198
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Often Used Applications"
 msgid "Often used applications"
 msgstr "Часто используемые приложения"
 
 #: package/contents/ui/ConfigGeneral.qml:205
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Recent documents:"
 msgid "Recent documents"
-msgstr "Последние документы"
+msgstr "Последние документы:"
 
 #: package/contents/ui/ConfigGeneral.qml:206
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Often Used Documents"
 msgid "Often used documents"
 msgstr "Часто используемые документы"
 
 #: package/contents/ui/ConfigGeneral.qml:213
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Recent Contacts"
 msgid "Recent contacts"
 msgstr "Последние контакты"
 
 #: package/contents/ui/ConfigGeneral.qml:214
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Show often used contacts"
 msgid "Often used contacts"
-msgstr "Часто используемые контакты"
+msgstr "Показывать часто используемые контакты"
 
 #: package/contents/ui/ConfigGeneral.qml:220
 #, kde-format
 msgid "Sort items in categories by:"
-msgstr "Сортировка объектов:"
+msgstr ""
 
 # BUGME: where is this visible in UI? --aspotashev
 #: package/contents/ui/ConfigGeneral.qml:221
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Recently used"
 msgctxt ""
 "@item:inlistbox Sort items in categories by [Recently used | Often used]"
 msgid "Recently used"
-msgstr "По времени последнего использования"
+msgstr "Последние использованные"
 
 #: package/contents/ui/ConfigGeneral.qml:221
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Often used"
 msgctxt ""
 "@item:inlistbox Sort items in categories by [Recently used | Ofetn used]"
 msgid "Often used"
-msgstr "По частоте использования"
+msgstr "Популярные (часто используемые)"
 
 #: package/contents/ui/ConfigGeneral.qml:231
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Search"
 msgid "Search:"
-msgstr "Поиск:"
+msgstr "Поиск"
 
 #: package/contents/ui/ConfigGeneral.qml:233
 #, kde-format
@@ -504,12 +516,6 @@ msgstr "Выключить компьютер"
 #, kde-format
 msgid "System actions"
 msgstr "Системные действия"
-
-
-
-
-
-
 
 
 

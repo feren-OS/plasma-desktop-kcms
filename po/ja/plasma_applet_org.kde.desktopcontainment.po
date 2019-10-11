@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_org.kde.desktopcontainment\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"POT-Creation-Date: 2019-05-20 07:46+0200\n"
 "PO-Revision-Date: 2019-05-21 17:38+0900\n"
 "Last-Translator: Tomohiro Hyakutake <tomhioo@outlook.jp>\n"
 "Language-Team: Japanese <kde-jp@kde.org>\n"
@@ -293,6 +293,7 @@ msgstr ""
 
 #: package/contents/ui/ConfigLocation.qml:95
 #, fuzzy
+#| msgid "Show the Desktop folder"
 msgid "Desktop folder"
 msgstr "デスクトップフォルダを表示"
 

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_pager\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"POT-Creation-Date: 2019-05-20 07:46+0200\n"
 "PO-Revision-Date: 2008-08-05 22:26+0200\n"
 "Last-Translator: Yannig Marchegay (Kokoyaya) <yannig@marchegay.org>\n"
 "Language-Team: Occitan (lengadocian) <ubuntu-l10n-oci@lists.ubuntu.com>\n"
@@ -95,10 +95,9 @@ msgid "Desktop name"
 msgstr ""
 
 #: package/contents/ui/configGeneral.qml:152
-#, fuzzy, kde-format
-#| msgid "Configure Pager"
+#, kde-format
 msgid "Selecting current Activity:"
-msgstr "Configurar Pager"
+msgstr ""
 
 #: package/contents/ui/configGeneral.qml:152
 #, fuzzy, kde-format

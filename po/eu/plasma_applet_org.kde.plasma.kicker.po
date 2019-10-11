@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-desktop\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
-"PO-Revision-Date: 2019-09-02 21:52+0200\n"
+"POT-Creation-Date: 2019-06-23 07:22+0200\n"
+"PO-Revision-Date: 2019-07-08 21:28+0200\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@euskalnet.net>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
 "Language: eu\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 19.08.0\n"
+"X-Generator: Lokalize 19.04.2\n"
 
 #: package/contents/config/config.qml:26
 #, kde-format
@@ -106,7 +106,7 @@ msgstr "Sailkatu aplikazioak alfabetikoki"
 #: package/contents/ui/ConfigGeneral.qml:183
 #, kde-format
 msgid "Flatten sub-menus to a single level"
-msgstr "Lautu azpi-menuak maila bakarrera"
+msgstr "Lautu azpi-menua maila bakarrera"
 
 #: package/contents/ui/ConfigGeneral.qml:194
 #, kde-format
@@ -412,7 +412,7 @@ msgstr "Giltzatu"
 #: plugin/systementry.cpp:169
 #, kde-format
 msgid "Log Out"
-msgstr "Itxi saioa"
+msgstr "Saioa itxi"
 
 #: plugin/systementry.cpp:172 plugin/systementry.cpp:240
 #, kde-format

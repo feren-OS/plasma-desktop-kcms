@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kfontinst\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"POT-Creation-Date: 2019-05-20 07:46+0200\n"
 "PO-Revision-Date: 2019-02-19 18:15-0300\n"
 "Last-Translator: Luiz Fernando Ranghetti <elchevive@opensuse.org>\n"
 "Language-Team: Portuguese <kde-i18n-pt_BR@kde.org>\n"
@@ -655,8 +655,7 @@ msgid "Unexpected error while processing: <i>%1</i>"
 msgstr "Ocorreu um erro inesperado durante o processamento: <i>%1</i>"
 
 #: kcmfontinst/KCmFontInst.cpp:188
-#, fuzzy, kde-format
-#| msgid "Font Management"
+#, kde-format
 msgid "Font Management"
 msgstr "Gerenciamento de fontes"
 
@@ -726,8 +725,7 @@ msgid "Download new fonts"
 msgstr "Baixar novas fontes"
 
 #: kcmfontinst/KCmFontInst.cpp:295
-#, fuzzy, kde-format
-#| msgid "Delete Selected Fonts..."
+#, kde-format
 msgid "Delete Selected Fonts..."
 msgstr "Excluir fontes selecionadas..."
 

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"POT-Creation-Date: 2019-06-20 07:49+0200\n"
 "PO-Revision-Date: 2015-04-20 13:41+0300\n"
 "Last-Translator: Sergiu Bivol <sergiu@cip.md>\n"
 "Language-Team: Romanian <kde-i18n-ro@kde.org>\n"
@@ -317,11 +317,9 @@ msgid "Middle-click: "
 msgstr ""
 
 #: src/kcm/libinput/touchpad.qml:704
-#, fuzzy, kde-format
-#| msgctxt "Touchpad Edge"
-#| msgid "Bottom right corner"
+#, kde-format
 msgid "Press bottom-middle"
-msgstr "Colțul din dreapta-jos"
+msgstr ""
 
 #: src/kcm/libinput/touchpad.qml:708
 #, kde-format

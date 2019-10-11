@@ -16,8 +16,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kfontinst\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
-"PO-Revision-Date: 2019-08-08 15:57+0200\n"
+"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"PO-Revision-Date: 2019-01-23 12:11+0200\n"
 "Last-Translator: Tommi Nieminen <translator@legisign.org>\n"
 "Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
 "Language: fi\n"
@@ -659,9 +659,10 @@ msgid "Unexpected error while processing: <i>%1</i>"
 msgstr "Odottamaton virhe käsiteltäessä kohdetta: <i>%1</i>"
 
 #: kcmfontinst/KCmFontInst.cpp:188
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Font Management Mode"
 msgid "Font Management"
-msgstr "Fonttienhallinta"
+msgstr "Kirjasinten hallinta"
 
 #: kcmfontinst/KCmFontInst.cpp:189
 #, kde-format
@@ -684,24 +685,28 @@ msgid "Scan for Duplicate Fonts..."
 msgstr "Etsi fonttien kaksoiskappaleita…"
 
 #: kcmfontinst/KCmFontInst.cpp:232
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Create New Group"
 msgid "Create New Group..."
-msgstr "Luo uusi ryhmä…"
+msgstr "Luo uusi ryhmä"
 
 #: kcmfontinst/KCmFontInst.cpp:236
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Remove Group"
 msgid "Remove Group..."
-msgstr "Poista ryhmä…"
+msgstr "Poista ryhmä"
 
 #: kcmfontinst/KCmFontInst.cpp:240
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Enable Fonts"
 msgid "Enable Fonts in Group..."
-msgstr "Ota ryhmän fontit käyttöön…"
+msgstr "Ota fontit käyttöön"
 
 #: kcmfontinst/KCmFontInst.cpp:244
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Disable Fonts"
 msgid "Disable Fonts in Group..."
-msgstr "Poista ryhmän fontit käytöstä…"
+msgstr "Poista fontit käytöstä"
 
 #: kcmfontinst/KCmFontInst.cpp:271
 #, kde-format
@@ -729,9 +734,10 @@ msgid "Download new fonts"
 msgstr "Lataa uusia fontteja"
 
 #: kcmfontinst/KCmFontInst.cpp:295
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Delete all selected fonts"
 msgid "Delete Selected Fonts..."
-msgstr "Poista valitut fontit…"
+msgstr "Poista kaikki valitut fontit"
 
 #: kcmfontinst/KCmFontInst.cpp:353
 #, kde-format
@@ -910,9 +916,10 @@ msgid "Create New Group"
 msgstr "Luo uusi ryhmä"
 
 #: kcmfontinst/KCmFontInst.cpp:810
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Create New Group"
 msgid "Name of new group:"
-msgstr "Uuden ryhmän nimi:"
+msgstr "Luo uusi ryhmä"
 
 #: kcmfontinst/KCmFontInst.cpp:812
 #, kde-format

@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
-"PO-Revision-Date: 2019-08-15 06:55+0200\n"
+"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"PO-Revision-Date: 2019-05-04 06:52+0200\n"
 "Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
 "Language-Team: Polish <kde-i18n-doc@kde.org>\n"
 "Language: pl\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 19.07.70\n"
+"X-Generator: Lokalize 19.03.70\n"
 
 #: package/contents/config/config.qml:29
 msgid "Location"
@@ -57,20 +57,14 @@ msgid "Files:"
 msgstr "Pliki:"
 
 #: package/contents/ui/ConfigFilter.qml:77
-#, fuzzy
-#| msgid "Show all"
 msgid "Show all"
 msgstr "Pokaż wszystkie"
 
 #: package/contents/ui/ConfigFilter.qml:77
-#, fuzzy
-#| msgid "Show matching"
 msgid "Show matching"
 msgstr "Pokaż pasujące"
 
 #: package/contents/ui/ConfigFilter.qml:77
-#, fuzzy
-#| msgid "Hide matching"
 msgid "Hide matching"
 msgstr "Ukryj pasujące"
 
@@ -83,8 +77,6 @@ msgid "File types:"
 msgstr "Rodzaje plików:"
 
 #: package/contents/ui/ConfigFilter.qml:90
-#, fuzzy
-#| msgid "Search..."
 msgid "Search..."
 msgstr "Szukaj..."
 
@@ -124,7 +116,7 @@ msgstr "Wyczyść ikonę"
 
 #: package/contents/ui/ConfigIcons.qml:140
 msgid "Arrangement:"
-msgstr "Rozmieszczenie w:"
+msgstr "Rozmieszczenie:"
 
 #: package/contents/ui/ConfigIcons.qml:142
 #: plugins/folder/viewpropertiesmenu.cpp:34
@@ -148,11 +140,11 @@ msgstr "Wyrównaj do prawej"
 
 #: package/contents/ui/ConfigIcons.qml:164
 msgid "Lock in place"
-msgstr "Unieruchom na miejscu"
+msgstr "Zablokuj na miejscu"
 
 #: package/contents/ui/ConfigIcons.qml:177
 msgid "Sorting:"
-msgstr "Uszereguj wg:"
+msgstr "Uszereguj wg.:"
 
 #: package/contents/ui/ConfigIcons.qml:185
 msgid "Manual"
@@ -193,9 +185,6 @@ msgid "Folders first"
 msgstr "Najpierw katalogi"
 
 #: package/contents/ui/ConfigIcons.qml:218
-#, fuzzy
-#| msgctxt "whether to use icon or list view"
-#| msgid "View mode:"
 msgctxt "whether to use icon or list view"
 msgid "View mode:"
 msgstr "Tryb widoku:"
@@ -239,20 +228,16 @@ msgid "Wide"
 msgstr "Szeroka"
 
 #: package/contents/ui/ConfigIcons.qml:276
-#, fuzzy
-#| msgid "Text lines:"
 msgid "Text lines:"
-msgstr "Liczba wierszy tekstu:"
+msgstr "Wiersze tekstu:"
 
 #: package/contents/ui/ConfigIcons.qml:292
 msgid "Features:"
 msgstr "Możliwości"
 
 #: package/contents/ui/ConfigIcons.qml:294
-#, fuzzy
-#| msgid "Tooltips"
 msgid "Tooltips"
-msgstr "Okno szczegółów po najechaniu"
+msgstr "Podpowiedzi"
 
 #: package/contents/ui/ConfigIcons.qml:301
 msgid "Selection markers"
@@ -260,15 +245,13 @@ msgstr "Znaczniki wyboru"
 
 #: package/contents/ui/ConfigIcons.qml:308
 msgid "Folder preview popups"
-msgstr "Okno katalogu po kliknięciu w narożnik"
+msgstr "Okna wysuwne podglądu katalogu"
 
 #: package/contents/ui/ConfigIcons.qml:314
 msgid "Preview thumbnails"
-msgstr "Podgląd zawartości na ikonie"
+msgstr "Miniatury podglądu"
 
 #: package/contents/ui/ConfigIcons.qml:321
-#, fuzzy
-#| msgid "Configure Preview Plugins..."
 msgid "Configure Preview Plugins..."
 msgstr "Ustawienia wtyczek podglądu..."
 
@@ -281,8 +264,6 @@ msgid "Desktop folder"
 msgstr "Katalog pulpitu"
 
 #: package/contents/ui/ConfigLocation.qml:102
-#, fuzzy
-#| msgid "Files linked to the current activity"
 msgid "Files linked to the current activity"
 msgstr "Pokaż pliki dowiązane do bieżącego działania"
 
@@ -295,8 +276,6 @@ msgid "Custom location:"
 msgstr "Własne miejsce:"
 
 #: package/contents/ui/ConfigLocation.qml:150
-#, fuzzy
-#| msgid "Type path or URL..."
 msgid "Type path or URL..."
 msgstr "Podaj ścieżkę lub adres URL..."
 
@@ -321,8 +300,6 @@ msgid "Custom title"
 msgstr "Własny tytuł"
 
 #: package/contents/ui/ConfigLocation.qml:208
-#, fuzzy
-#| msgid "Enter custom title..."
 msgid "Enter custom title..."
 msgstr "Wpisz własny tytuł..."
 
@@ -371,8 +348,6 @@ msgid "Got it"
 msgstr "Rozumiem"
 
 #: package/contents/ui/main.qml:597
-#, fuzzy
-#| msgid "Configure Desktop..."
 msgid "Configure Desktop..."
 msgstr "Ustawienia pulpitu..."
 
@@ -392,8 +367,7 @@ msgid "&Refresh View"
 msgstr "&Odśwież widok"
 
 #: plugins/folder/foldermodel.cpp:1616
-#, fuzzy, kde-format
-#| msgid "&Empty Trash"
+#, kde-format
 msgid "&Empty Trash"
 msgstr "O&próżnij kosz"
 
@@ -426,22 +400,22 @@ msgstr "Rozmieść w"
 #: plugins/folder/viewpropertiesmenu.cpp:43
 #, kde-format
 msgid "Align"
-msgstr "Wyrównaj do"
+msgstr "Wyrównaj"
 
 #: plugins/folder/viewpropertiesmenu.cpp:46
 #, kde-format
 msgid "Left"
-msgstr "Lewej"
+msgstr "Do lewej"
 
 #: plugins/folder/viewpropertiesmenu.cpp:50
 #, kde-format
 msgid "Right"
-msgstr "Prawej"
+msgstr "Do prawej"
 
 #: plugins/folder/viewpropertiesmenu.cpp:55
 #, kde-format
 msgid "Sort By"
-msgstr "Uszereguj wg"
+msgstr "Uszereguj według"
 
 #: plugins/folder/viewpropertiesmenu.cpp:58
 #, kde-format
@@ -461,24 +435,24 @@ msgstr "Rozmiar ikon"
 #: plugins/folder/viewpropertiesmenu.cpp:88
 #, kde-format
 msgid "Tiny"
-msgstr "Drobne"
+msgstr "Mały"
 
 #: plugins/folder/viewpropertiesmenu.cpp:88
 #, kde-format
 msgid "Small Medium"
-msgstr "Średnio-małe"
+msgstr "Średni mały"
 
 #: plugins/folder/viewpropertiesmenu.cpp:88
 #, kde-format
 msgid "Huge"
-msgstr "Wielkie"
+msgstr "Wielki"
 
 #: plugins/folder/viewpropertiesmenu.cpp:97
 #, kde-format
 msgid "Show Previews"
-msgstr "Z podglądem"
+msgstr "Pokaż podglądy"
 
 #: plugins/folder/viewpropertiesmenu.cpp:100
 #, kde-format
 msgid "Locked"
-msgstr "Unieruchomione"
+msgstr "Zablokowane"

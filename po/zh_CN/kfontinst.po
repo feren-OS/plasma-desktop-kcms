@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
-"PO-Revision-Date: 2019-08-16 17:05\n"
+"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"PO-Revision-Date: 2019-07-18 15:08\n"
 "Last-Translator: Guo Yunhe (guoyunhe)\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -635,8 +635,7 @@ msgid "Unexpected error while processing: <i>%1</i>"
 msgstr "处理时发生不可预料的错误：<i>%1</i>"
 
 #: kcmfontinst/KCmFontInst.cpp:188
-#, fuzzy, kde-format
-#| msgid "Font Management"
+#, kde-format
 msgid "Font Management"
 msgstr "字体管理"
 
@@ -706,8 +705,7 @@ msgid "Download new fonts"
 msgstr "下载新字体"
 
 #: kcmfontinst/KCmFontInst.cpp:295
-#, fuzzy, kde-format
-#| msgid "Delete Selected Fonts..."
+#, kde-format
 msgid "Delete Selected Fonts..."
 msgstr "删除选中的字体..."
 

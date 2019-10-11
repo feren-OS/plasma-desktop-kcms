@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"POT-Creation-Date: 2019-06-23 07:22+0200\n"
 "PO-Revision-Date: 2019-05-04 07:07+0200\n"
 "Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
 "Language-Team: Polish <kde-i18n-doc@kde.org>\n"
@@ -41,8 +41,7 @@ msgid "9,999+"
 msgstr "9,999+"
 
 #: package/contents/ui/ConfigAppearance.qml:48
-#, fuzzy, kde-format
-#| msgid "General:"
+#, kde-format
 msgid "General:"
 msgstr "Ogólne:"
 
@@ -97,20 +96,17 @@ msgid "Always arrange tasks in as many columns as rows"
 msgstr "Zawsze układaj zadania w tylu kolumnach ile wierszy"
 
 #: package/contents/ui/ConfigBehavior.qml:52
-#, fuzzy, kde-format
-#| msgid "Group:"
+#, kde-format
 msgid "Group:"
 msgstr "Grupowanie:"
 
 #: package/contents/ui/ConfigBehavior.qml:54
-#, fuzzy, kde-format
-#| msgid "Do not group"
+#, kde-format
 msgid "Do not group"
 msgstr "Nie grupuj"
 
 #: package/contents/ui/ConfigBehavior.qml:54
-#, fuzzy, kde-format
-#| msgid "By program name"
+#, kde-format
 msgid "By program name"
 msgstr "Wg nazwy programu"
 
@@ -120,14 +116,12 @@ msgid "Open groups in popups"
 msgstr "Otwieraj grupy w oknach wysuwnych"
 
 #: package/contents/ui/ConfigBehavior.qml:74
-#, fuzzy, kde-format
-#| msgid "Group only when the Task Manager is full"
+#, kde-format
 msgid "Group only when the Task Manager is full"
 msgstr "Grupuj tylko wtedy, gdy pasek zadań jest pełny"
 
 #: package/contents/ui/ConfigBehavior.qml:88
-#, fuzzy, kde-format
-#| msgid "Sort:"
+#, kde-format
 msgid "Sort:"
 msgstr "Szereguj:"
 
@@ -147,14 +141,12 @@ msgid "Alphabetically"
 msgstr "Alfabetycznie"
 
 #: package/contents/ui/ConfigBehavior.qml:90
-#, fuzzy, kde-format
-#| msgid "By desktop"
+#, kde-format
 msgid "By desktop"
 msgstr "Wg pulpitów"
 
 #: package/contents/ui/ConfigBehavior.qml:90
-#, fuzzy, kde-format
-#| msgid "By activity"
+#, kde-format
 msgid "By activity"
 msgstr "Wg aktywności"
 
@@ -175,20 +167,17 @@ msgid "None"
 msgstr "Nic"
 
 #: package/contents/ui/ConfigBehavior.qml:112
-#, fuzzy, kde-format
-#| msgid "Close window or group"
+#, kde-format
 msgid "Close window or group"
 msgstr "Zamknij okno lub grupę"
 
 #: package/contents/ui/ConfigBehavior.qml:113
-#, fuzzy, kde-format
-#| msgid "New instance"
+#, kde-format
 msgid "New instance"
 msgstr "Nowe wystąpienie"
 
 #: package/contents/ui/ConfigBehavior.qml:114
-#, fuzzy, kde-format
-#| msgid "Minimize/Restore window or group"
+#, kde-format
 msgid "Minimize/Restore window or group"
 msgstr "Minimalizuj/Przywróć okno lub grupę"
 
@@ -209,8 +198,7 @@ msgid "Cycle through tasks with mouse wheel"
 msgstr "Przełączaj zadania kółkiem myszy"
 
 #: package/contents/ui/ConfigBehavior.qml:131
-#, fuzzy, kde-format
-#| msgid "Filter:"
+#, kde-format
 msgid "Filter:"
 msgstr "Filtr:"
 
@@ -419,9 +407,7 @@ msgid "&Close"
 msgstr "&Zamknij"
 
 #: package/contents/ui/ToolTipInstance.qml:469
-#, fuzzy, kde-format
-#| msgctxt "Comma-separated list of desktops"
-#| msgid "On %1"
+#, kde-format
 msgctxt "Comma-separated list of desktops"
 msgid "On %1"
 msgstr "Na %1"

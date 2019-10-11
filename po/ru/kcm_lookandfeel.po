@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
-"PO-Revision-Date: 2019-09-02 00:33+0300\n"
+"POT-Creation-Date: 2019-06-26 07:33+0200\n"
+"PO-Revision-Date: 2019-06-13 04:03+0300\n"
 "Last-Translator: Alexander Potashev <aspotashev@gmail.com>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
 "Language: ru\n"
@@ -40,8 +40,7 @@ msgid "Marco Martin"
 msgstr "Marco Martin"
 
 #: kcm.cpp:112
-#, fuzzy, kde-format
-#| msgid "Download New Look and Feel Themes"
+#, kde-format
 msgid "Download New Look and Feel Themes"
 msgstr "Загрузка новых пакетов оформлений Plasma"
 
@@ -123,7 +122,6 @@ msgid "Use desktop layout from theme"
 msgstr "Применить расположение виджетов из оформления"
 
 #: package/contents/ui/main.qml:84
-#, fuzzy, kde-format
-#| msgid "Choose the Look and Feel theme"
+#, kde-format
 msgid "Get New Look and Feel Themes..."
-msgstr "Выбор темы оформления рабочего стола"
+msgstr "Загрузить оформления..."

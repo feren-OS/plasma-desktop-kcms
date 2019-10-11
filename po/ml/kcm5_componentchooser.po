@@ -9,9 +9,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmcomponentchooser\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
-"PO-Revision-Date: 2019-08-11 14:09+0530\n"
-"Last-Translator: Subin Siby <mail@subinsb.com>\n"
+"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"PO-Revision-Date: 2010-01-20 10:37+0530\n"
+"Last-Translator: seshagiri prabhu <seshagiriprabhu@gmail.com>\n"
 "Language-Team: Swathanthra|സ്വതന്ത്ര Malayalam|മലയാളം Computing|കമ്പ്യൂട്ടിങ്ങ് <smc-"
 "discuss@googlegroups.com>\n"
 "Language: ml\n"
@@ -48,12 +48,14 @@ msgstr "ഇവയുടെ ഉള്ളടക്കമനുസരിച്ച�
 #. i18n: ectx: property (text), widget (QRadioButton, radioService)
 #: browserconfig_ui.ui:46
 #, fuzzy, kde-format
+#| msgid "in the following browser:"
 msgid "in the following application:"
 msgstr "പറയുന്ന ബ്രൌസറില്‍ തുറക്കുക:"
 
 #. i18n: ectx: property (text), widget (QRadioButton, radioExec)
 #: browserconfig_ui.ui:80
 #, fuzzy, kde-format
+#| msgid "in the following browser:"
 msgid "with the following command:"
 msgstr "പറയുന്ന ബ്രൌസറില്‍ തുറക്കുക:"
 
@@ -161,6 +163,7 @@ msgstr "നിങ്ങള്‍ക്കിഷ്ടമായ ടെര്‍�
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, kmailCB)
 #: emailclientconfig_ui.ui:12
 #, fuzzy, kde-format
+#| msgid "Kmail is the standard Mail program for the KDE desktop."
 msgid "Kmail is the standard Mail program for the Plasma desktop."
 msgstr "കെഡിഇ പണിയിടത്തില്‍ സാധാരണ ഉപയോഗിക്കുന്ന മെയില്‍ പ്രോഗ്രാമാണു് കെമെയില്‍."
 
@@ -185,6 +188,10 @@ msgstr "മറ്റൊരു &ഈമെയില്‍ ക്ലയന്റ്
 #. i18n: ectx: property (toolTip), widget (KLineEdit, txtEMailClient)
 #: emailclientconfig_ui.ui:53
 #, fuzzy, no-c-format, kde-format
+#| msgid ""
+#| "<ul> <li>%t: Recipient's address</li> <li>%s: Subject</li> <li>%c: Carbon "
+#| "Copy (CC)</li> <li>%b: Blind Carbon Copy (BCC)</li> <li>%B: Template body "
+#| "text</li> <li>%A: Attachment </li> <li>%u: Full mailto: URL </li></ul>"
 msgid ""
 "Optional placeholders: <ul> <li>%t: Recipient's address</li> <li>%s: "
 "Subject</li> <li>%c: Carbon Copy (CC)</li> <li>%b: Blind Carbon Copy (BCC)</"

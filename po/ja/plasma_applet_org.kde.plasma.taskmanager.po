@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_tasks\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"POT-Creation-Date: 2019-06-23 07:22+0200\n"
 "PO-Revision-Date: 2019-05-31 21:27+0900\n"
 "Last-Translator: Tomohiro Hyakutake <tomhioo@outlook.jp>\n"
 "Language-Team: Japanese <kde-jp@kde.org>\n"
@@ -409,10 +409,9 @@ msgid "On The Current Activity"
 msgstr "現在のアクティビティで"
 
 #: package/contents/ui/ContextMenu.qml:724
-#, fuzzy, kde-format
-#| msgid "&Pin to Task Manager"
+#, kde-format
 msgid "Unpin from Task Manager"
-msgstr "タスクマネージャにピン留め(&P)"
+msgstr ""
 
 #: package/contents/ui/ContextMenu.qml:738
 #, kde-format

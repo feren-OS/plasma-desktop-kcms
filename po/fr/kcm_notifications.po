@@ -1,5 +1,4 @@
 # Yoann Laissus <yoann.laissus@gmail.com>, 2019.
-# Simon Depiets <sdepiets@gmail.com>, 2019.
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma-desktop\n"
@@ -13,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 19.07.70\n"
+"X-Generator: Lokalize 19.04.2\n"
 "X-Environment: kde\n"
 "X-Accelerator-Marker: &\n"
 "X-Text-Markup: kde4\n"

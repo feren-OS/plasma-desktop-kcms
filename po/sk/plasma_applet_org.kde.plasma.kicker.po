@@ -1,21 +1,21 @@
 # translation of plasma_applet_org.kde.plasma.kicker.po to Slovak
-# Roman Paholik <wizzardsk@gmail.com>, 2014, 2015, 2016, 2017, 2019.
+# Roman Paholik <wizzardsk@gmail.com>, 2014, 2015, 2016, 2017.
 # Mthw <jari_45@hotmail.com>, 2019.
 # Matej Mrenica <matejm98mthw@gmail.com>, 2019.
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_org.kde.plasma.kicker\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
-"PO-Revision-Date: 2019-08-30 20:23+0200\n"
-"Last-Translator: Roman Paholík <wizzardsk@gmail.com>\n"
-"Language-Team: Slovak <kde-sk@linux.sk>\n"
+"POT-Creation-Date: 2019-06-23 07:22+0200\n"
+"PO-Revision-Date: 2019-05-07 11:49+0200\n"
+"Last-Translator: Matej Mrenica <matejm98mthw@gmail.com>\n"
+"Language-Team: Slovak <kde-i18n-doc@kde.org>\n"
 "Language: sk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Lokalize 18.12.3\n"
+"X-Generator: Lokalize 19.04.0\n"
 
 #: package/contents/config/config.qml:26
 #, kde-format
@@ -97,7 +97,7 @@ msgstr "Správanie:"
 #: package/contents/ui/ConfigGeneral.qml:175
 #, kde-format
 msgid "Sort applications alphabetically"
-msgstr "Zoradiť aplikácie podľa abecedy"
+msgstr "Zoradiť podľa abecedy"
 
 #: package/contents/ui/ConfigGeneral.qml:183
 #, kde-format
@@ -142,7 +142,7 @@ msgstr "Často používané kontakty"
 #: package/contents/ui/ConfigGeneral.qml:220
 #, kde-format
 msgid "Sort items in categories by:"
-msgstr "Zoradiť položky v kategóriách podľa:"
+msgstr "Triediť položky v kategóriách podľa:"
 
 #: package/contents/ui/ConfigGeneral.qml:221
 #, kde-format
@@ -156,7 +156,7 @@ msgstr "Nedávno použité"
 msgctxt ""
 "@item:inlistbox Sort items in categories by [Recently used | Ofetn used]"
 msgid "Often used"
-msgstr "Často použité"
+msgstr "Často používané"
 
 #: package/contents/ui/ConfigGeneral.qml:231
 #, kde-format
@@ -181,7 +181,7 @@ msgstr "Vyhľadáva sa '%1'"
 #: package/contents/ui/DashboardRepresentation.qml:305
 #, kde-format
 msgid "Type to search..."
-msgstr "Píšte na hľadanie..."
+msgstr "Zadajte text na vyhľadanie...."
 
 #: package/contents/ui/DashboardRepresentation.qml:405
 #: plugin/kastatsfavoritesmodel.cpp:494 plugin/simplefavoritesmodel.cpp:43

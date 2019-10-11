@@ -13,16 +13,19 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_tasks\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
-"PO-Revision-Date: 2019-07-28 12:30+0200\n"
+"POT-Creation-Date: 2019-06-23 07:22+0200\n"
+"PO-Revision-Date: 2019-05-28 21:29+0200\n"
 "Last-Translator: Adrián Chaves (Gallaecio) <adrian@chaves.io>\n"
-"Language-Team: Galician <proxecto@trasno.gal>\n"
+"Language-Team: Galician <kde-i18n-doc@kde.org>\n"
 "Language: gl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Lokalize 19.04.1\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Environment: kde\n"
+"X-Accelerator-Marker: &\n"
+"X-Text-Markup: kde4\n"
 
 #: package/contents/config/config.qml:26
 #, kde-format
@@ -164,7 +167,7 @@ msgstr "Manter os iniciadores separados"
 #: package/contents/ui/ConfigBehavior.qml:108
 #, kde-format
 msgid "On middle-click:"
-msgstr "Botón central:"
+msgstr "Clic central:"
 
 #: package/contents/ui/ConfigBehavior.qml:111
 #, kde-format
@@ -201,7 +204,7 @@ msgstr "Traer ao escritorio virtual actual"
 #: package/contents/ui/ConfigBehavior.qml:122
 #, kde-format
 msgid "Cycle through tasks with mouse wheel"
-msgstr "Pasar polas tarefas coa roda do rato"
+msgstr "Rotar polas tarefas coa roda do rato"
 
 #: package/contents/ui/ConfigBehavior.qml:131
 #, kde-format

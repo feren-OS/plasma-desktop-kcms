@@ -3,20 +3,20 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Marta Rybczyńska <kde-i18n@rybczynska.net>, 2007, 2008, 2009.
-# Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>, 2011, 2012, 2013, 2014, 2019.
+# Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>, 2011, 2012, 2013, 2014.
 msgid ""
 msgstr ""
 "Project-Id-Version: kcm_phonon\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
-"PO-Revision-Date: 2019-08-03 07:12+0200\n"
+"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"PO-Revision-Date: 2014-11-09 08:28+0100\n"
 "Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
 "Language-Team: Polish <kde-i18n-doc@kde.org>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 19.07.70\n"
+"X-Generator: Lokalize 1.5\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2);\n"
 
@@ -86,7 +86,7 @@ msgstr "Nieprawidłowe"
 #: devicepreference.cpp:152
 #, kde-format
 msgid "Test the selected device"
-msgstr "Wypróbuj wybrane urządzenie"
+msgstr "Przetestuj wybrane urządzenie"
 
 #: devicepreference.cpp:176 devicepreference.cpp:183 devicepreference.cpp:190
 #, kde-format
@@ -100,27 +100,27 @@ msgstr ""
 #: devicepreference.cpp:306
 #, kde-format
 msgid "Default Audio Playback Device Preference"
-msgstr "Domyślnie urządzenie odtwarzające dźwięk"
+msgstr "Domyślnie preferowane urządzenie odtwarzające dźwięk"
 
 #: devicepreference.cpp:309
 #, kde-format
 msgid "Default Audio Recording Device Preference"
-msgstr "Domyślnie urządzenie nagrywające dźwięk"
+msgstr "Domyślnie preferowane urządzenie nagrywające dźwięk"
 
 #: devicepreference.cpp:312
 #, kde-format
 msgid "Default Video Recording Device Preference"
-msgstr "Domyślnie urządzenie nagrywające obraz"
+msgstr "Domyślnie preferowane urządzenie nagrywające obraz"
 
 #: devicepreference.cpp:319
 #, kde-format
 msgid "Audio Playback Device Preference for the '%1' Category"
-msgstr "Kolejność urządzeń odtwarzających dźwięk dla kategorii '%1'"
+msgstr "Preferowane urządzenie odtwarzające dźwięk dla kategorii '%1'"
 
 #: devicepreference.cpp:323
 #, kde-format
 msgid "Audio Recording Device Preference for the '%1' Category"
-msgstr "Kolejność urządzeń nagrywających dźwięk dla kategorii '%1'"
+msgstr "Preferowane urządzenie nagrywające dźwięk dla kategorii '%1'"
 
 #: devicepreference.cpp:327
 #, kde-format
@@ -159,7 +159,7 @@ msgstr "Twój sprzęt może nie obsługiwać nagrywania obrazu"
 #: devicepreference.cpp:930
 #, kde-format
 msgid "Testing %1"
-msgstr "Próba %1"
+msgstr "Testowanie %1"
 
 #. i18n: ectx: property (toolTip), widget (QTreeView, categoryTree)
 #. i18n: ectx: property (whatsThis), widget (QTreeView, categoryTree)
@@ -169,9 +169,8 @@ msgid ""
 "Various categories of media use cases.  For each category, you may choose "
 "what device you prefer to be used by the Phonon applications."
 msgstr ""
-"Różne kategorie przypadków użycia mediów. Dla każdej kategorii, można "
-"określić w jakiej kolejności mają być używane urządzenia przez programy "
-"Phonon."
+"Różne kategorie przypadków użycia mediów. Dla każdej kategorii, możesz "
+"wybrać jakie urządzenie preferujesz do użytku przez programy Phonon."
 
 #. i18n: ectx: property (text), widget (QCheckBox, showAdvancedDevicesCheckBox)
 #: devicepreference.ui:47
@@ -209,9 +208,8 @@ msgid ""
 "The order determines the preference of the devices. If for some reason the "
 "first device cannot be used Phonon will try to use the second, and so on."
 msgstr ""
-"Kolejność określa, które urządzenie będzie użyte najpierw. Jeżeli z jakiejś "
-"przyczyny nie można użyć pierwszego urządzenia, Phonon spróbuje użyć "
-"drugiego i tak dalej."
+"Kolejność określa preferencje urządzeń. Jeżeli z jakiejś przyczyny nie można "
+"użyć pierwszego urządzenia, Phonon spróbuje użyć drugiego i tak dalej."
 
 #. i18n: ectx: property (text), widget (QToolButton, testPlaybackButton)
 #: devicepreference.ui:171
@@ -223,13 +221,13 @@ msgstr "Test"
 #: devicepreference.ui:187
 #, kde-format
 msgid "prefer the selected device"
-msgstr "wybieraj zaznaczone urządzenie"
+msgstr "preferuj wybrane urządzenie"
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, deferButton)
 #: devicepreference.ui:203
 #, kde-format
 msgid "no preference for the selected device"
-msgstr "brak kolejności dla wybranego urządzenia"
+msgstr "brak preferencji dla wybranego urządzenia"
 
 #: main.cpp:40
 #, kde-format
@@ -254,7 +252,7 @@ msgstr "Colin Guthrie"
 #: main.cpp:55
 #, kde-format
 msgid "Device Preference"
-msgstr "Kolejność urządzeń"
+msgstr "Preferowane urządzenia"
 
 #: main.cpp:57
 #, kde-format

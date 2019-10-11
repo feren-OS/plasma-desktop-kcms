@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: plasma-desktop\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2019-05-30 07:24+0200\n"
-"PO-Revision-Date: 2019-08-29 15:46+0200\n"
+"PO-Revision-Date: 2019-05-16 15:09+0200\n"
 "Last-Translator: Vit Pelcak <vit@pelcak.org>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
 "Language: cs\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Lokalize 19.08.0\n"
+"X-Generator: Lokalize 19.04.0\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -57,7 +57,7 @@ msgstr ""
 #: package/contents/ui/main.qml:70
 #, kde-format
 msgid "Show in history"
-msgstr "Zobrazit v historii"
+msgstr ""
 
 #: package/contents/ui/ApplicationConfiguration.qml:119
 #, kde-format
@@ -67,7 +67,7 @@ msgstr ""
 #: package/contents/ui/ApplicationConfiguration.qml:131
 #, kde-format
 msgid "Configure Events..."
-msgstr "Nastavit události..."
+msgstr ""
 
 #: package/contents/ui/ApplicationConfiguration.qml:141
 #, kde-format

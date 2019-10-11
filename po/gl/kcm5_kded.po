@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkded\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"POT-Creation-Date: 2019-05-20 07:46+0200\n"
 "PO-Revision-Date: 2018-04-21 15:23+0100\n"
 "Last-Translator: Adrian Chaves <adrian@chaves.io>\n"
 "Language-Team: Galician <kde-i18n-doc@kde.org>\n"
@@ -22,7 +22,11 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 2.0\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Environment: kde\n"
+"X-Accelerator-Marker: &\n"
+"X-Text-Markup: kde4\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -71,7 +75,7 @@ msgstr ""
 "xeral, hai dous tipos de servizo:</p><ul><li>Os que se invocan no inicio</"
 "li> <li>Servizos iniciados segundo a demanda</li></ul><p>Estes últimos só se "
 "listan por conveniencia. Os servizos de inicio pode iniciarse e pararse. No "
-"modo Administrador, pode tamén decidir cales servizos deberían cargarse no "
+"modo Administrador, pode tamén definir cales servizos deberían cargarse no "
 "inicio.</p> <p><b> Empregue isto con coidado. Algúns servizos son vitais "
 "para Plasma. Non desactive ningún servizo se non coñece a súa finalidade.</"
 "b></p>"
@@ -151,25 +155,24 @@ msgstr "Deter"
 #: kcmkded.cpp:325
 #, kde-format
 msgid "Unable to contact KDED."
-msgstr "Non foi posíbel contactar con KDED."
+msgstr "Non se pode contactar con KDED."
 
 #: kcmkded.cpp:469
 #, kde-format
 msgid "Unable to start server <em>%1</em>."
-msgstr "Non foi posíbel iniciar o servidor <em>%1</em>."
+msgstr "Non se pode iniciar o servidor <em>%1</em>."
 
 #: kcmkded.cpp:472
 #, kde-format
 msgid "Unable to start service <em>%1</em>.<br /><br /><i>Error: %2</i>"
-msgstr ""
-"Non foi posíbel iniciar o servizo <em>%1</em>.<br/><br/><i>Erro: %2</i>"
+msgstr "Non se pode iniciar o servizo <em>%1</em>.<br/><br/><i>Erro: %2</i>"
 
 #: kcmkded.cpp:489
 #, kde-format
 msgid "Unable to stop service <em>%1</em>."
-msgstr "Non foi posíbel deter o servizo <em>%1</em>."
+msgstr "Non se pode deter o servizo <em>%1</em>."
 
 #: kcmkded.cpp:492
 #, kde-format
 msgid "Unable to stop service <em>%1</em>.<br /><br /><i>Error: %2</i>"
-msgstr "Non foi posíbel deter o servizo <em>%1</em>.<br/><br/><i>Erro: %2</i>"
+msgstr "Non se pode deter o servizo <em>%1</em>.<br/><br/><i>Erro: %2</i>"

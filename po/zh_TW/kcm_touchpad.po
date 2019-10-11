@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"POT-Creation-Date: 2019-06-20 07:49+0200\n"
 "PO-Revision-Date: 2019-05-21 00:03+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -353,10 +353,7 @@ msgid "Developer"
 msgstr "開發者"
 
 #: src/kcm/libinput/touchpadconfiglibinput.cpp:115
-#, fuzzy, kde-format
-#| msgid ""
-#| "Error while loading values. See logs for more information. Please restart "
-#| "this configuration module."
+#, kde-format
 msgid ""
 "Error while loading values. See logs for more information. Please restart "
 "this configuration module."
@@ -368,10 +365,7 @@ msgid "No touchpad found. Connect touchpad now."
 msgstr "找不到觸控板。現在連線觸控板。"
 
 #: src/kcm/libinput/touchpadconfiglibinput.cpp:131
-#, fuzzy, kde-format
-#| msgid ""
-#| "Not able to save all changes. See logs for more information. Please "
-#| "restart this configuration module and try again."
+#, kde-format
 msgid ""
 "Not able to save all changes. See logs for more information. Please restart "
 "this configuration module and try again."

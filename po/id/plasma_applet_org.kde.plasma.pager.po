@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_pager\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"POT-Creation-Date: 2019-05-20 07:46+0200\n"
 "PO-Revision-Date: 2019-05-18 08:16+0700\n"
 "Last-Translator: Wantoyo <wantoyek@gmail.com>\n"
 "Language-Team: Indonesian <kde-i18n-doc@kde.org>\n"
@@ -35,10 +35,9 @@ msgid "Show application icons on window outlines"
 msgstr "Tampilkan ikon aplikasi pada garisluar window"
 
 #: package/contents/ui/configGeneral.qml:91
-#, fuzzy, kde-format
-#| msgid "Only the current screen"
+#, kde-format
 msgid "Show only current screen"
-msgstr "Hanya layar saat ini"
+msgstr "Tampilkan layar saat ini saja"
 
 #: package/contents/ui/configGeneral.qml:96
 #, kde-format
@@ -102,10 +101,9 @@ msgid "Selecting current Activity:"
 msgstr "Memilih Aktivitas saat ini:"
 
 #: package/contents/ui/configGeneral.qml:152
-#, fuzzy, kde-format
-#| msgid "Selecting current desktop:"
+#, kde-format
 msgid "Selecting current virtual desktop:"
-msgstr "Memilih desktop saat ini:"
+msgstr "Memilih desktop virtual saat ini:"
 
 #: package/contents/ui/configGeneral.qml:155
 #, kde-format
@@ -113,8 +111,7 @@ msgid "Does nothing"
 msgstr "Jangan lakukan apa-apa"
 
 #: package/contents/ui/configGeneral.qml:161
-#, fuzzy, kde-format
-#| msgid "Shows desktop"
+#, kde-format
 msgid "Shows the desktop"
 msgstr "Tampilkan desktop"
 

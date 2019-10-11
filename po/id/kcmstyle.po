@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmstyle\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"POT-Creation-Date: 2019-05-20 07:46+0200\n"
 "PO-Revision-Date: 2019-04-10 20:32+0700\n"
 "Last-Translator: Wantoyo <wantoyek@gmail.com>\n"
 "Language-Team: Indonesian <kde-i18n-doc@kde.org>\n"
@@ -30,16 +30,13 @@ msgid "Your emails"
 msgstr "andhika.padmawan@gmail.com,wantoyek@gmail.com"
 
 #: kcmstyle.cpp:173
-#, fuzzy, kde-format
-#| msgid ""
-#| "<h1>Style</h1>This module allows you to modify the visual appearance of "
-#| "user interface elements, such as the widget style and effects."
+#, kde-format
 msgid ""
 "This module allows you to modify the visual appearance of applications' user "
 "interface elements."
 msgstr ""
-"<h1>Gaya</h1>Modul ini memungkinkan anda untuk memodifikasi tampilan visual "
-"dari elemen antarmuka pengguna, seperti gaya widget dan efek."
+"Modul ini memungkinkanmu untuk memodifikasi penampilan visual dari elemen "
+"antarmuka-pengguna aplikasi."
 
 #: kcmstyle.cpp:183
 #, kde-format
@@ -103,37 +100,25 @@ msgstr ""
 "gradasi)."
 
 #: kcmstyle.cpp:701
-#, fuzzy, kde-format
-#| msgid ""
-#| "If you enable this option, KDE Applications will show small icons "
-#| "alongside some important buttons."
+#, kde-format
 msgid ""
 "If you enable this option, applications will show small icons alongside some "
 "important buttons."
 msgstr ""
-"Jika kamu memfungsikan opsi ini, KDE Applications akan menampilkan ikon "
-"kecil di samping tombol-tombol yang penting."
+"Jika kamu memfungsikan opsi ini, aplikasi akan menampilkan ikon kecil di "
+"samping tombol-tombol yang penting."
 
 #: kcmstyle.cpp:703
-#, fuzzy, kde-format
-#| msgid ""
-#| "If you enable this option, KDE Applications will show small icons "
-#| "alongside most menu items."
+#, kde-format
 msgid ""
 "If you enable this option, applications will show small icons alongside most "
 "menu items."
 msgstr ""
-"Jika kamu memfungsikan opsi ini, KDE Applications akan menampilkan ikon-ikon "
-"kecil di samping sebagian besar item-item menu."
+"Jika kamu memfungsikan opsi ini, aplikasi akan menampilkan ikon kecil di "
+"samping sebagian besar item-item menu."
 
 #: kcmstyle.cpp:705
-#, fuzzy, kde-format
-#| msgid ""
-#| "<p><b>No Text:</b> Shows only icons on toolbar buttons. Best option for "
-#| "low resolutions.</p><p><b>Text Only: </b>Shows only text on toolbar "
-#| "buttons.</p><p><b>Text Beside Icons: </b> Shows icons and text on toolbar "
-#| "buttons. Text is aligned beside the icon.</p><b>Text Below Icons: </b> "
-#| "Shows icons and text on toolbar buttons. Text is aligned below the icon."
+#, kde-format
 msgid ""
 "<p><b>No text:</b> Shows only icons on toolbar buttons. Best option for low "
 "resolutions.</p><p><b>Text only: </b>Shows only text on toolbar buttons.</"
@@ -141,11 +126,11 @@ msgid ""
 "Text is aligned beside the icon.</p><b>Text below icons: </b> Shows icons "
 "and text on toolbar buttons. Text is aligned below the icon."
 msgstr ""
-"<p><b>Tanpa Teks:</b> Hanya menampilkan ikon di tombol bilah alat. Opsi "
-"terbaik untuk resolusi rendah.</p><p><b>Hanya Teks: </b>Hanya tampilkan teks "
+"<p><b>Tanpa teks:</b> Hanya menampilkan ikon di tombol bilah alat. Opsi "
+"terbaik untuk resolusi rendah.</p><p><b>Hanya teks: </b>Hanya tampilkan teks "
 "di tombol bilah alat.</p><p><b>Teks di Samping Ikon: </b> Menampilkan ikon "
 "dan teks di tombol bilah alat. Teks diletakkan di samping ikon.</p><b>Teks "
-"di Bawah Ikon: </b> Menampilkan ikon dan teks di tombol bilah alat. Teks "
+"di bawah ikon: </b> Menampilkan ikon dan teks di tombol bilah alat. Teks "
 "diletakkan di bawah ikon."
 
 #: styleconfdialog.cpp:29
@@ -155,10 +140,9 @@ msgstr "Konfigurasikan %1"
 
 #. i18n: ectx: property (text), widget (QLabel, labelApplicationStyle)
 #: styleconfig.ui:20
-#, fuzzy, kde-format
-#| msgid "Application Style"
+#, kde-format
 msgid "Application style:"
-msgstr "Gaya Aplikasi"
+msgstr "Gaya aplikasi:"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, pbConfigStyle)
 #: styleconfig.ui:45
@@ -174,10 +158,9 @@ msgstr "Tampilkan ikon:"
 
 #. i18n: ectx: property (text), widget (QLabel, labelToolbarIcons)
 #: styleconfig.ui:68
-#, fuzzy, kde-format
-#| msgid "Main &toolbar text location:"
+#, kde-format
 msgid "Main toolbar label:"
-msgstr "Lokasi teks bilah-ala&t utama:"
+msgstr "Label bilah-alat utama:"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, comboToolbarIcons)
 #. i18n: ectx: property (text), item, widget (QComboBox, comboSecondaryToolbarIcons)
@@ -189,33 +172,29 @@ msgstr "Nihil"
 #. i18n: ectx: property (text), item, widget (QComboBox, comboToolbarIcons)
 #. i18n: ectx: property (text), item, widget (QComboBox, comboSecondaryToolbarIcons)
 #: styleconfig.ui:84 styleconfig.ui:118
-#, fuzzy, kde-format
-#| msgid "Text Only"
+#, kde-format
 msgid "Text only"
-msgstr "Hanya Teks"
+msgstr "Hanya teks"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, comboToolbarIcons)
 #. i18n: ectx: property (text), item, widget (QComboBox, comboSecondaryToolbarIcons)
 #: styleconfig.ui:89 styleconfig.ui:123
-#, fuzzy, kde-format
-#| msgid "Text Beside Icons"
+#, kde-format
 msgid "Beside icons"
-msgstr "Teks di Samping Ikon"
+msgstr "Ikon di samping"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, comboToolbarIcons)
 #. i18n: ectx: property (text), item, widget (QComboBox, comboSecondaryToolbarIcons)
 #: styleconfig.ui:94 styleconfig.ui:128
-#, fuzzy, kde-format
-#| msgid "Text Below Icons"
+#, kde-format
 msgid "Below icons"
-msgstr "Teks di Bawah Ikon"
+msgstr "Ikon di bawah"
 
 #. i18n: ectx: property (text), widget (QLabel, labelSecondaryToolbarIcons)
 #: styleconfig.ui:102
-#, fuzzy, kde-format
-#| msgid "Secondary toolbar text &location:"
+#, kde-format
 msgid "Secondary toolbar label:"
-msgstr "&Lokasi teks bilah-alat sekunder:"
+msgstr "Label bilah-alat sekunder:"
 
 #. i18n: ectx: property (text), widget (QCheckBox, cbIconsOnButtons)
 #: styleconfig.ui:136
@@ -237,15 +216,13 @@ msgstr "Tab 1"
 
 #. i18n: ectx: property (text), widget (QPushButton, pushButton)
 #: stylepreview.ui:65
-#, fuzzy, kde-format
-#| msgid "Button"
+#, kde-format
 msgid "Push Button"
-msgstr "Tombol"
+msgstr "Tombol Dorong"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBox)
 #: stylepreview.ui:86
-#, fuzzy, kde-format
-#| msgid "Combobox"
+#, kde-format
 msgid "Combo box"
 msgstr "Kotak kombo"
 

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"POT-Creation-Date: 2019-06-23 07:22+0200\n"
 "PO-Revision-Date: 2019-05-04 07:03+0200\n"
 "Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
 "Language-Team: Polish <kde-i18n-doc@kde.org>\n"
@@ -95,10 +95,9 @@ msgid "Leave"
 msgstr "Wyjdź"
 
 #: package/contents/ui/ConfigButtons.qml:215
-#, fuzzy, kde-format
-#| msgid "Inactive Tabs"
+#, kde-format
 msgid "Active Tabs"
-msgstr "Wyłączone karty"
+msgstr "Włączone karty"
 
 #: package/contents/ui/ConfigButtons.qml:221
 #, kde-format
@@ -167,8 +166,7 @@ msgid "%1@%2"
 msgstr "%1@%2"
 
 #: package/contents/ui/Header.qml:167
-#, fuzzy, kde-format
-#| msgid "Search..."
+#, kde-format
 msgid "Search..."
 msgstr "Znajdź..."
 

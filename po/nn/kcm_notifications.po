@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: plasma-desktop\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2019-05-30 07:24+0200\n"
-"PO-Revision-Date: 2019-07-31 22:47+0200\n"
+"PO-Revision-Date: 2019-06-26 22:12+0200\n"
 "Last-Translator: Karl Ove Hufthammer <karl@huftis.org>\n"
 "Language-Team: Norwegian Nynorsk <i18n-nn@lister.ping.uio.no>\n"
 "Language: nn\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 19.08.0\n"
+"X-Generator: Lokalize 19.04.2\n"
 "X-Environment: kde\n"
 "X-Accelerator-Marker: &\n"
 "X-Text-Markup: kde4\n"
@@ -96,7 +96,7 @@ msgstr "Legg alltid øvst"
 #: package/contents/ui/main.qml:63
 #, kde-format
 msgid "Low priority notifications:"
-msgstr "Lågprioritets-varslingar:"
+msgstr "Lågprioritets-varlsingar:"
 
 #: package/contents/ui/main.qml:64
 #, kde-format

@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kfontinst\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"POT-Creation-Date: 2019-05-20 07:46+0200\n"
 "PO-Revision-Date: 2004-07-08 23:28+0200\n"
 "Last-Translator: Thierry Vignaud <tvignaud.com>\n"
 "Language-Team: Brezhoneg <Suav.Icb.fr>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -154,7 +154,6 @@ msgstr ""
 msgid "%1 duplicate font found."
 msgid_plural "%1 duplicate fonts found."
 msgstr[0] "Distruj an nodrezh"
-msgstr[1] ""
 
 #: kcmfontinst/DuplicatesDialog.cpp:229
 #, kde-format
@@ -221,7 +220,6 @@ msgstr ""
 msgid "Open font in font viewer?"
 msgid_plural "Open all %1 fonts in font viewer?"
 msgstr[0] "Digeriñ er gweler nodrezhoù ..."
-msgstr[1] ""
 
 #: kcmfontinst/FontFilter.cpp:125
 #, kde-format
@@ -678,10 +676,9 @@ msgid "Install from File..."
 msgstr "Staliañ ..."
 
 #: kcmfontinst/KCmFontInst.cpp:288
-#, fuzzy, kde-format
-#| msgid "Install..."
+#, kde-format
 msgid "Install fonts from a local file"
-msgstr "Staliañ ..."
+msgstr ""
 
 #: kcmfontinst/KCmFontInst.cpp:290
 #, fuzzy, kde-format
@@ -775,11 +772,10 @@ msgid "Delete Font"
 msgstr "Distruj an nodrezh"
 
 #: kcmfontinst/KCmFontInst.cpp:688
-#, fuzzy, kde-format
+#, kde-format
 msgid "Do you really want to delete this font?"
 msgid_plural "Do you really want to delete these %1 fonts?"
 msgstr[0] "Ha fellout a ra deoc'h da vat lemel an %1 nodrezh dibabet ?"
-msgstr[1] ""
 
 #: kcmfontinst/KCmFontInst.cpp:691
 #, kde-format
@@ -827,7 +823,6 @@ msgid ""
 msgid_plural ""
 "<p>Do you really want to move these %1 fonts from <i>%2</i> to <i>%3</i>?</p>"
 msgstr[0] "<p>Ha fellout a ra deoc'h da vat fiñval</p><p>« <b>%1</b> » ?</p>"
-msgstr[1] ""
 
 #: kcmfontinst/KCmFontInst.cpp:737
 #, fuzzy, kde-format
@@ -894,11 +889,10 @@ msgid "No fonts"
 msgstr "Nodrezh ebet"
 
 #: kcmfontinst/KCmFontInst.cpp:971
-#, fuzzy, kde-format
+#, kde-format
 msgid "1 Font"
 msgid_plural "%1 Fonts"
 msgstr[0] "%1 nodrezh"
-msgstr[1] ""
 
 #: kcmfontinst/KCmFontInst.cpp:981
 #, kde-format
@@ -1001,18 +995,16 @@ msgid "Disable Font"
 msgstr "Marvaat ar font"
 
 #: kcmfontinst/KCmFontInst.cpp:1216
-#, fuzzy, kde-format
+#, kde-format
 msgid "Do you really want to enable this font?"
 msgid_plural "Do you really want to enable these %1 fonts?"
 msgstr[0] "Ha fellout a ra deoc'h da vat lemel an %1 nodrezh dibabet ?"
-msgstr[1] ""
 
 #: kcmfontinst/KCmFontInst.cpp:1219
-#, fuzzy, kde-format
+#, kde-format
 msgid "Do you really want to disable this font?"
 msgid_plural "Do you really want to disable these %1 fonts?"
 msgstr[0] "Ha fellout a ra deoc'h da vat lemel an %1 nodrezh dibabet ?"
-msgstr[1] ""
 
 #: kcmfontinst/KCmFontInst.cpp:1222
 #, fuzzy, kde-format
@@ -1025,7 +1017,6 @@ msgid_plural ""
 msgstr[0] ""
 "<qt>Ha fellout a ra deoc'h da vat lemel\n"
 " <b>'%1'</b> ?</qt>"
-msgstr[1] ""
 
 #: kcmfontinst/KCmFontInst.cpp:1227
 #, fuzzy, kde-format
@@ -1038,7 +1029,6 @@ msgid_plural ""
 msgstr[0] ""
 "<qt>Ha fellout a ra deoc'h da vat lemel\n"
 " <b>'%1'</b> ?</qt>"
-msgstr[1] ""
 
 #: kcmfontinst/KCmFontInst.cpp:1233 kcmfontinst/KCmFontInst.cpp:1234
 #, fuzzy, kde-format
@@ -1233,11 +1223,10 @@ msgid "ERROR: Could not determine font's name."
 msgstr ""
 
 #: lib/FcEngine.cpp:1533
-#, fuzzy, kde-format
+#, kde-format
 msgid "%2 [1 pixel]"
 msgid_plural "%2 [%1 pixels]"
 msgstr[0] "%2 [%1 piksel]"
-msgstr[1] ""
 
 #: lib/KfiConstants.h:40
 #, kde-format

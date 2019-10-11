@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcm_desktopthemedetails\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
-"PO-Revision-Date: 2019-08-30 17:29+0100\n"
+"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"PO-Revision-Date: 2019-04-29 18:09+0100\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -72,7 +72,7 @@ msgstr "Borttagning av tema misslyckades: %1"
 #: package/contents/ui/main.qml:30
 #, kde-format
 msgid "This module lets you choose the Plasma theme."
-msgstr "Modulen låter dig välja Plasmatemat."
+msgstr "Den här modulen låter dig välja Plasmatemat."
 
 #: package/contents/ui/main.qml:68
 #, kde-format

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_org.kde.plasma.kicker\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"POT-Creation-Date: 2019-06-23 07:22+0200\n"
 "PO-Revision-Date: 2019-04-23 18:42+0100\n"
 "Last-Translator: Josep Ma. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
@@ -94,26 +94,22 @@ msgid "Description (Name)"
 msgstr "Descripció (Nom)"
 
 #: package/contents/ui/ConfigGeneral.qml:173
-#, fuzzy, kde-format
-#| msgid "Behavior:"
+#, kde-format
 msgid "Behavior:"
 msgstr "Comportament:"
 
 #: package/contents/ui/ConfigGeneral.qml:175
-#, fuzzy, kde-format
-#| msgid "Sort applications alphabetically"
+#, kde-format
 msgid "Sort applications alphabetically"
 msgstr "Ordena alfabèticament les aplicacions"
 
 #: package/contents/ui/ConfigGeneral.qml:183
-#, fuzzy, kde-format
-#| msgid "Flatten sub-menus to a single level"
+#, kde-format
 msgid "Flatten sub-menus to a single level"
 msgstr "Aplana els submenús a un únic nivell"
 
 #: package/contents/ui/ConfigGeneral.qml:194
-#, fuzzy, kde-format
-#| msgid "Show categories:"
+#, kde-format
 msgid "Show categories:"
 msgstr "Mostra les categories:"
 
@@ -143,8 +139,7 @@ msgid "Recent contacts"
 msgstr "Contactes recents"
 
 #: package/contents/ui/ConfigGeneral.qml:214
-#, fuzzy, kde-format
-#| msgid "Often used contacts"
+#, kde-format
 msgid "Often used contacts"
 msgstr "Contactes usats sovint"
 
@@ -154,28 +149,21 @@ msgid "Sort items in categories by:"
 msgstr "Ordena els elements en categories per:"
 
 #: package/contents/ui/ConfigGeneral.qml:221
-#, fuzzy, kde-format
-#| msgctxt ""
-#| "@item:inlistbox Sort items in categories by [Recently used | Often used]"
-#| msgid "Recently used"
+#, kde-format
 msgctxt ""
 "@item:inlistbox Sort items in categories by [Recently used | Often used]"
 msgid "Recently used"
 msgstr "Usats recentment"
 
 #: package/contents/ui/ConfigGeneral.qml:221
-#, fuzzy, kde-format
-#| msgctxt ""
-#| "@item:inlistbox Sort items in categories by [Recently used | Ofetn used]"
-#| msgid "Often used"
+#, kde-format
 msgctxt ""
 "@item:inlistbox Sort items in categories by [Recently used | Ofetn used]"
 msgid "Often used"
 msgstr "Usats sovint"
 
 #: package/contents/ui/ConfigGeneral.qml:231
-#, fuzzy, kde-format
-#| msgid "Search:"
+#, kde-format
 msgid "Search:"
 msgstr "Cerca:"
 
@@ -195,8 +183,7 @@ msgid "Searching for '%1'"
 msgstr "S'està cercant «%1»"
 
 #: package/contents/ui/DashboardRepresentation.qml:305
-#, fuzzy, kde-format
-#| msgid "Type to search..."
+#, kde-format
 msgid "Type to search..."
 msgstr "Teclegeu per cercar..."
 

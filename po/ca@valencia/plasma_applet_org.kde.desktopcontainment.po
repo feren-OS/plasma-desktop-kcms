@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_org.kde.desktopcontainment\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"POT-Creation-Date: 2019-05-20 07:46+0200\n"
 "PO-Revision-Date: 2019-04-30 17:43+0100\n"
 "Last-Translator: Josep Ma. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
@@ -60,20 +60,14 @@ msgid "Files:"
 msgstr "Fitxers:"
 
 #: package/contents/ui/ConfigFilter.qml:77
-#, fuzzy
-#| msgid "Show all"
 msgid "Show all"
 msgstr "Mostra-ho tot"
 
 #: package/contents/ui/ConfigFilter.qml:77
-#, fuzzy
-#| msgid "Show matching"
 msgid "Show matching"
 msgstr "Mostra els coincidents"
 
 #: package/contents/ui/ConfigFilter.qml:77
-#, fuzzy
-#| msgid "Hide matching"
 msgid "Hide matching"
 msgstr "Oculta els coincidents"
 
@@ -86,8 +80,6 @@ msgid "File types:"
 msgstr "Tipus de fitxers:"
 
 #: package/contents/ui/ConfigFilter.qml:90
-#, fuzzy
-#| msgid "Search..."
 msgid "Search..."
 msgstr "Cerca..."
 
@@ -196,9 +188,6 @@ msgid "Folders first"
 msgstr "Primer les carpetes"
 
 #: package/contents/ui/ConfigIcons.qml:218
-#, fuzzy
-#| msgctxt "whether to use icon or list view"
-#| msgid "View mode:"
 msgctxt "whether to use icon or list view"
 msgid "View mode:"
 msgstr "Mode de vista:"
@@ -242,8 +231,6 @@ msgid "Wide"
 msgstr "Ampla"
 
 #: package/contents/ui/ConfigIcons.qml:276
-#, fuzzy
-#| msgid "Text lines:"
 msgid "Text lines:"
 msgstr "Línies de text:"
 
@@ -252,8 +239,6 @@ msgid "Features:"
 msgstr "Característiques:"
 
 #: package/contents/ui/ConfigIcons.qml:294
-#, fuzzy
-#| msgid "Tooltips"
 msgid "Tooltips"
 msgstr "Consells d'eina"
 
@@ -270,8 +255,6 @@ msgid "Preview thumbnails"
 msgstr "Miniatures per a la vista prèvia"
 
 #: package/contents/ui/ConfigIcons.qml:321
-#, fuzzy
-#| msgid "Configure Preview Plugins..."
 msgid "Configure Preview Plugins..."
 msgstr "Configura els connectors de vista prèvia..."
 
@@ -284,8 +267,6 @@ msgid "Desktop folder"
 msgstr "Carpeta d'escriptori"
 
 #: package/contents/ui/ConfigLocation.qml:102
-#, fuzzy
-#| msgid "Files linked to the current activity"
 msgid "Files linked to the current activity"
 msgstr "Fitxers enllaçats amb l'activitat actual"
 
@@ -298,8 +279,6 @@ msgid "Custom location:"
 msgstr "Ubicació personalitzada:"
 
 #: package/contents/ui/ConfigLocation.qml:150
-#, fuzzy
-#| msgid "Type path or URL..."
 msgid "Type path or URL..."
 msgstr "Teclegeu un camí o un URL..."
 
@@ -324,8 +303,6 @@ msgid "Custom title"
 msgstr "Títol personalitzat"
 
 #: package/contents/ui/ConfigLocation.qml:208
-#, fuzzy
-#| msgid "Enter custom title..."
 msgid "Enter custom title..."
 msgstr "Introduïu un títol personalitzat..."
 
@@ -374,8 +351,6 @@ msgid "Got it"
 msgstr "Ho heu fet"
 
 #: package/contents/ui/main.qml:597
-#, fuzzy
-#| msgid "Configure Desktop..."
 msgid "Configure Desktop..."
 msgstr "Configura l'escriptori..."
 
@@ -395,8 +370,7 @@ msgid "&Refresh View"
 msgstr "&Refresca la vista"
 
 #: plugins/folder/foldermodel.cpp:1616
-#, fuzzy, kde-format
-#| msgid "&Empty Trash"
+#, kde-format
 msgid "&Empty Trash"
 msgstr "&Buida la paperera"
 

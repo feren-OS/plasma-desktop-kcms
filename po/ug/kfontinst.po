@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kfontinst\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"POT-Creation-Date: 2019-05-20 07:46+0200\n"
 "PO-Revision-Date: 2013-09-08 07:05+0900\n"
 "Last-Translator: Gheyret Kenji <gheyret@gmail.com>\n"
 "Language-Team: Uyghur Computer Science Association <UKIJ@yahoogroups.com>\n"
@@ -648,10 +648,9 @@ msgid "Unexpected error while processing: <i>%1</i>"
 msgstr "بىر تەرەپ قىلىۋاتقاندا ئويلاشمىغان خاتالىق كۆرۈلدى: <i>%1</i>"
 
 #: kcmfontinst/KCmFontInst.cpp:188
-#, fuzzy, kde-format
-#| msgid "Font Installer"
+#, kde-format
 msgid "Font Management"
-msgstr "خەت نۇسخا ئورناتقۇچ"
+msgstr ""
 
 #: kcmfontinst/KCmFontInst.cpp:189
 #, kde-format
@@ -709,10 +708,9 @@ msgid "Install from File..."
 msgstr "ئورنات…"
 
 #: kcmfontinst/KCmFontInst.cpp:288
-#, fuzzy, kde-format
-#| msgid "Install..."
+#, kde-format
 msgid "Install fonts from a local file"
-msgstr "ئورنات…"
+msgstr ""
 
 #: kcmfontinst/KCmFontInst.cpp:290
 #, kde-format

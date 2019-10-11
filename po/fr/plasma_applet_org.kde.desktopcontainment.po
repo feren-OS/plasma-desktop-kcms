@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
-"PO-Revision-Date: 2019-07-21 19:56+0800\n"
+"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"PO-Revision-Date: 2019-04-25 18:18+0800\n"
 "Last-Translator: Simon Depiets <sdepiets@gmail.com>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
@@ -58,20 +58,28 @@ msgid "Back"
 msgstr "Retour"
 
 #: package/contents/ui/ConfigFilter.qml:76
+#, fuzzy
+#| msgid "File types:"
 msgid "Files:"
-msgstr "Fichiers :"
+msgstr "Types de fichiers :"
 
 #: package/contents/ui/ConfigFilter.qml:77
+#, fuzzy
+#| msgid "Show a place:"
 msgid "Show all"
-msgstr "Tout afficher"
+msgstr "Afficher un emplacement :"
 
 #: package/contents/ui/ConfigFilter.qml:77
+#, fuzzy
+#| msgid "Show Files Matching"
 msgid "Show matching"
-msgstr "Afficher les correspondances"
+msgstr "Afficher les fichiers correspondants"
 
 #: package/contents/ui/ConfigFilter.qml:77
+#, fuzzy
+#| msgid "Hide Files Matching"
 msgid "Hide matching"
-msgstr "Cacher les correspondances"
+msgstr "cacher les fichiers correspondants"
 
 #: package/contents/ui/ConfigFilter.qml:82
 msgid "File name pattern:"
@@ -82,8 +90,10 @@ msgid "File types:"
 msgstr "Types de fichiers :"
 
 #: package/contents/ui/ConfigFilter.qml:90
+#, fuzzy
+#| msgid "Search file type..."
 msgid "Search..."
-msgstr "Chercher…"
+msgstr "Rechercher le type de fichier…"
 
 #: package/contents/ui/ConfigFilter.qml:188
 msgid "File type"
@@ -137,10 +147,14 @@ msgid "Columns"
 msgstr "Colonnes"
 
 #: package/contents/ui/ConfigIcons.qml:149
+#, fuzzy
+#| msgid "Align Left"
 msgid "Align left"
 msgstr "Aligner à gauche"
 
 #: package/contents/ui/ConfigIcons.qml:149
+#, fuzzy
+#| msgid "Align Right"
 msgid "Align right"
 msgstr "Aligner à droite"
 
@@ -257,10 +271,11 @@ msgstr "Aperçus flottants des dossiers"
 msgid "Preview thumbnails"
 msgstr "Vignettes d'aperçu"
 
-# unreviewed-context
 #: package/contents/ui/ConfigIcons.qml:321
+#, fuzzy
+#| msgid "More Preview Options..."
 msgid "Configure Preview Plugins..."
-msgstr "Configurer les modules externes d'aperçu..."
+msgstr "Plus d'options d'aperçu…"
 
 #: package/contents/ui/ConfigLocation.qml:93
 msgid "Show:"
@@ -283,8 +298,10 @@ msgid "Custom location:"
 msgstr "Emplacement personnalisée :"
 
 #: package/contents/ui/ConfigLocation.qml:150
+#, fuzzy
+#| msgid "Type a path or a URL here"
 msgid "Type path or URL..."
-msgstr "Saisissez un emplacement ou une URL..."
+msgstr "Saisissez un emplacement ou une URL ici"
 
 #: package/contents/ui/ConfigLocation.qml:191
 msgid "Title:"
@@ -307,8 +324,10 @@ msgid "Custom title"
 msgstr "Titre personnalisé"
 
 #: package/contents/ui/ConfigLocation.qml:208
+#, fuzzy
+#| msgid "Enter custom title here"
 msgid "Enter custom title..."
-msgstr "Saisissez un titre personnalisé..."
+msgstr "Saisissez un titre personnalisé ici"
 
 #: package/contents/ui/ConfigTweaks.qml:43
 msgid ""

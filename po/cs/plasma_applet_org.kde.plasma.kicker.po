@@ -1,22 +1,22 @@
 # Copyright (C) YEAR This_file_is_part_of_KDE
 # This file is distributed under the same license as the PACKAGE package.
 # Vít Pelčák <vit@pelcak.org>, 2014, 2015, 2016, 2017.
-# Vit Pelcak <vpelcak@suse.cz>, 2015, 2019.
+# Vit Pelcak <vpelcak@suse.cz>, 2015.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
-"PO-Revision-Date: 2019-08-23 09:48+0200\n"
-"Last-Translator: Vit Pelcak <vit@pelcak.org>\n"
+"POT-Creation-Date: 2019-06-23 07:22+0200\n"
+"PO-Revision-Date: 2017-09-11 13:22+0100\n"
+"Last-Translator: Vít Pelčák <vit@pelcak.org>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Lokalize 19.04.3\n"
+"X-Generator: Lokalize 2.0\n"
 "X-Language: cs_CZ\n"
 "X-Source-Language: en_US\n"
 
@@ -93,64 +93,54 @@ msgid "Description (Name)"
 msgstr "Popis (název)"
 
 #: package/contents/ui/ConfigGeneral.qml:173
-#, fuzzy, kde-format
-#| msgid "Behavior"
+#, kde-format
 msgid "Behavior:"
-msgstr "Chování"
+msgstr ""
 
 #: package/contents/ui/ConfigGeneral.qml:175
-#, fuzzy, kde-format
-#| msgid "Sort alphabetically"
+#, kde-format
 msgid "Sort applications alphabetically"
-msgstr "Seřadit podle abecedy"
+msgstr ""
 
 #: package/contents/ui/ConfigGeneral.qml:183
-#, fuzzy, kde-format
-#| msgid "Flatten menu to a single level"
+#, kde-format
 msgid "Flatten sub-menus to a single level"
-msgstr "Zploštit nabídku na jedinou úroveň"
+msgstr ""
 
 #: package/contents/ui/ConfigGeneral.qml:194
-#, fuzzy, kde-format
-#| msgid "Categories"
+#, kde-format
 msgid "Show categories:"
-msgstr "Kategorie"
+msgstr ""
 
 #: package/contents/ui/ConfigGeneral.qml:197
-#, fuzzy, kde-format
-#| msgid "Recent Applications"
+#, kde-format
 msgid "Recent applications"
-msgstr "Nedávné aplikace"
+msgstr ""
 
 #: package/contents/ui/ConfigGeneral.qml:198
-#, fuzzy, kde-format
-#| msgid "Often Used Applications"
+#, kde-format
 msgid "Often used applications"
-msgstr "Často používané aplikace"
+msgstr ""
 
 #: package/contents/ui/ConfigGeneral.qml:205
-#, fuzzy, kde-format
-#| msgid "Recent Documents"
+#, kde-format
 msgid "Recent documents"
 msgstr "Nedávné dokumenty"
 
 #: package/contents/ui/ConfigGeneral.qml:206
-#, fuzzy, kde-format
-#| msgid "Often Used Documents"
+#, kde-format
 msgid "Often used documents"
-msgstr "Často používané dokumenty"
+msgstr ""
 
 #: package/contents/ui/ConfigGeneral.qml:213
-#, fuzzy, kde-format
-#| msgid "Recent Contacts"
+#, kde-format
 msgid "Recent contacts"
-msgstr "Nedávné kontakty"
+msgstr ""
 
 #: package/contents/ui/ConfigGeneral.qml:214
-#, fuzzy, kde-format
-#| msgid "Show often used contacts"
+#, kde-format
 msgid "Often used contacts"
-msgstr "Zobrazit často používané kontakty"
+msgstr ""
 
 #: package/contents/ui/ConfigGeneral.qml:220
 #, kde-format
@@ -158,26 +148,23 @@ msgid "Sort items in categories by:"
 msgstr ""
 
 #: package/contents/ui/ConfigGeneral.qml:221
-#, fuzzy, kde-format
-#| msgid "Recently used"
+#, kde-format
 msgctxt ""
 "@item:inlistbox Sort items in categories by [Recently used | Often used]"
 msgid "Recently used"
-msgstr "Nedávno použité"
+msgstr ""
 
 #: package/contents/ui/ConfigGeneral.qml:221
-#, fuzzy, kde-format
-#| msgid "Often used"
+#, kde-format
 msgctxt ""
 "@item:inlistbox Sort items in categories by [Recently used | Ofetn used]"
 msgid "Often used"
-msgstr "Často používané"
+msgstr ""
 
 #: package/contents/ui/ConfigGeneral.qml:231
-#, fuzzy, kde-format
-#| msgid "Search"
+#, kde-format
 msgid "Search:"
-msgstr "Hledat"
+msgstr "Hledat:"
 
 #: package/contents/ui/ConfigGeneral.qml:233
 #, kde-format
@@ -195,10 +182,9 @@ msgid "Searching for '%1'"
 msgstr "Vyhledávám %1'"
 
 #: package/contents/ui/DashboardRepresentation.qml:305
-#, fuzzy, kde-format
-#| msgid "Type to search."
+#, kde-format
 msgid "Type to search..."
-msgstr "Text k vyhledání."
+msgstr "Text k vyhledání..."
 
 #: package/contents/ui/DashboardRepresentation.qml:405
 #: plugin/kastatsfavoritesmodel.cpp:494 plugin/simplefavoritesmodel.cpp:43
@@ -425,7 +411,7 @@ msgstr "Uzamknout"
 #: plugin/systementry.cpp:169
 #, kde-format
 msgid "Log Out"
-msgstr ""
+msgstr "Odhlásit se"
 
 #: plugin/systementry.cpp:172 plugin/systementry.cpp:240
 #, kde-format
@@ -449,10 +435,9 @@ msgid "Hibernate"
 msgstr "Hibernovat"
 
 #: plugin/systementry.cpp:184
-#, fuzzy, kde-format
-#| msgid "Restart computer"
+#, kde-format
 msgid "Restart"
-msgstr "Restartovat počítač"
+msgstr "Restartovat"
 
 #: plugin/systementry.cpp:187
 #, kde-format

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_pager\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"POT-Creation-Date: 2019-05-20 07:46+0200\n"
 "PO-Revision-Date: 2019-05-04 07:06+0200\n"
 "Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
 "Language-Team: Polish <kde-i18n-doc@kde.org>\n"
@@ -36,8 +36,7 @@ msgid "Show application icons on window outlines"
 msgstr "Pokaż ikony aplikacji na zarysie okien"
 
 #: package/contents/ui/configGeneral.qml:91
-#, fuzzy, kde-format
-#| msgid "Show only current screen"
+#, kde-format
 msgid "Show only current screen"
 msgstr "Pokaż tylko bieżący ekran"
 
@@ -103,8 +102,7 @@ msgid "Selecting current Activity:"
 msgstr "Wybierz bieżącą aktywność:"
 
 #: package/contents/ui/configGeneral.qml:152
-#, fuzzy, kde-format
-#| msgid "Selecting current virtual desktop:"
+#, kde-format
 msgid "Selecting current virtual desktop:"
 msgstr "Wybierz bieżący pulpit wirtualny:"
 
@@ -114,8 +112,7 @@ msgid "Does nothing"
 msgstr "Nic nie robi"
 
 #: package/contents/ui/configGeneral.qml:161
-#, fuzzy, kde-format
-#| msgid "Shows the desktop"
+#, kde-format
 msgid "Shows the desktop"
 msgstr "Pokazuje pulpit"
 

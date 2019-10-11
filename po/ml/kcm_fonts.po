@@ -10,8 +10,8 @@ msgstr ""
 "Project-Id-Version: kcmfonts\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2019-07-12 07:37+0200\n"
-"PO-Revision-Date: 2019-08-11 14:09+0530\n"
-"Last-Translator: Subin Siby <mail@subinsb.com>\n"
+"PO-Revision-Date: 2010-02-01 01:02+0530\n"
+"Last-Translator: seshagiri prabhu <seshagiriprabhu@gmail.com>\n"
 "Language-Team: Malayalam <smc-discuss@googlegroups.com>\n"
 "Language: ml\n"
 "MIME-Version: 1.0\n"
@@ -32,6 +32,9 @@ msgstr ""
 
 #: fonts.cpp:279
 #, fuzzy, kde-format
+#| msgid ""
+#| "<p>Some changes such as anti-aliasing will only affect newly started "
+#| "applications.</p>"
 msgid ""
 "<p>Some changes such as anti-aliasing or DPI will only affect newly started "
 "applications.</p>"
@@ -63,12 +66,15 @@ msgstr ""
 
 #: kxftconfig.cpp:444
 #, fuzzy, kde-format
+#| msgctxt "Use anti-aliasing"
+#| msgid "System Settings"
 msgctxt "use system subpixel setting"
 msgid "Vendor default"
 msgstr "സിസ്റ്റം ക്രമീകരണങ്ങള്‍"
 
 #: kxftconfig.cpp:446
 #, fuzzy, kde-format
+#| msgid "None"
 msgctxt "no subpixel rendering"
 msgid "None"
 msgstr "ഒന്നുമല്ല"
@@ -95,30 +101,36 @@ msgstr "വെര്‍ട്ടിക്കല്‍ ബിജിആര്‍"
 
 #: kxftconfig.cpp:482
 #, fuzzy, kde-format
+#| msgctxt "Use anti-aliasing"
+#| msgid "System Settings"
 msgctxt "use system hinting settings"
 msgid "Vendor default"
 msgstr "സിസ്റ്റം ക്രമീകരണങ്ങള്‍"
 
 #: kxftconfig.cpp:484
 #, fuzzy, kde-format
+#| msgid "Medium"
 msgctxt "medium hinting"
 msgid "Medium"
 msgstr "മദ്ധ്യം"
 
 #: kxftconfig.cpp:486
 #, fuzzy, kde-format
+#| msgid "None"
 msgctxt "no hinting"
 msgid "None"
 msgstr "ഒന്നുമല്ല"
 
 #: kxftconfig.cpp:488
 #, fuzzy, kde-format
+#| msgid "Slight"
 msgctxt "slight hinting"
 msgid "Slight"
 msgstr "ചെറുതായി"
 
 #: kxftconfig.cpp:490
 #, fuzzy, kde-format
+#| msgid "Full"
 msgctxt "full hinting"
 msgid "Full"
 msgstr "പൂര്‍ണ്ണം"
@@ -135,57 +147,71 @@ msgstr ""
 
 #: package/contents/ui/main.qml:40
 #, fuzzy, kde-format
+#| msgid "Ad&just All Fonts..."
 msgid "&Adjust All Fonts..."
 msgstr "എല്ലാ അക്ഷരസഞ്ചയങ്ങളും ആ&വശ്യാനുസൃതമാക്കുക..."
 
 #: package/contents/ui/main.qml:47
 #, fuzzy, kde-format
+#| msgid "General"
 msgid "General:"
 msgstr "സാധാരണ"
 
 #: package/contents/ui/main.qml:52
 #, fuzzy, kde-format
+#| msgid "Fixed width"
 msgid "Fixed width:"
 msgstr "തുല്ല്യ വീതി"
 
 #: package/contents/ui/main.qml:57
 #, fuzzy, kde-format
+#| msgid "Small"
 msgid "Small:"
 msgstr "ചെറിയ"
 
 #: package/contents/ui/main.qml:62
 #, fuzzy, kde-format
+#| msgid "Toolbar"
 msgid "Toolbar:"
 msgstr "ഉപകരണപട്ട"
 
 #: package/contents/ui/main.qml:67
 #, fuzzy, kde-format
+#| msgid "Menu"
 msgid "Menu:"
 msgstr "മെനു"
 
 #: package/contents/ui/main.qml:72
 #, fuzzy, kde-format
+#| msgid "Window title"
 msgid "Window title:"
 msgstr "ജാലകത്തിനുള്ള തലക്കെട്ടു്"
 
 #: package/contents/ui/main.qml:84
 #, fuzzy, kde-format
+#| msgid "Use a&nti-aliasing:"
 msgctxt "Used as a noun, and precedes a combobox full of options"
 msgid "Anti-aliasing:"
 msgstr "&ആന്റി-അലിയാസിങ് ഉപയോഗിക്കുക:"
 
 #: package/contents/ui/main.qml:86
 #, fuzzy, kde-format
+#| msgctxt "Use anti-aliasing"
+#| msgid "Enabled"
 msgid "Enabled"
 msgstr "പ്രവര്‍ത്തന സജ്ജം"
 
 #: package/contents/ui/main.qml:86
 #, fuzzy, kde-format
+#| msgctxt "Use anti-aliasing"
+#| msgid "System Settings"
 msgid "Vendor default"
 msgstr "സിസ്റ്റം ക്രമീകരണങ്ങള്‍"
 
 #: package/contents/ui/main.qml:86
 #, fuzzy, kde-format
+#| msgctxt "Use anti-aliasing"
+#| msgid "Disabled"
 msgid "Disabled"
 msgstr "പ്രവര്‍ത്തന രഹിതം"
 
@@ -201,23 +227,27 @@ msgstr ""
 
 #: package/contents/ui/main.qml:120
 #, fuzzy, kde-format
+#| msgid " to "
 msgid "to"
 msgstr "ടു"
 
 #: package/contents/ui/main.qml:141
 #, fuzzy, kde-format
+#| msgid "&Use sub-pixel rendering:"
 msgctxt "Used as a noun, and precedes a combobox full of options"
 msgid "Sub-pixel rendering:"
 msgstr "സബ്-പിക്സല്‍ റെണ്ടറിങ് &ഉപയോഗിക്കുക:"
 
 #: package/contents/ui/main.qml:178
 #, fuzzy, kde-format
+#| msgid "Hinting style: "
 msgctxt "Used as a noun, and precedes a combobox full of options"
 msgid "Hinting:"
 msgstr "ഹിന്റിങ് രീതി: "
 
 #: package/contents/ui/main.qml:216
 #, fuzzy, kde-format
+#| msgid "Force fonts DPI:"
 msgid "Force font DPI:"
 msgstr "അക്ഷരസഞ്ചയങ്ങളുടെ ഡിപിഐ നിര്‍ബന്ധമായാക്കേണ്ടതു്:"
 

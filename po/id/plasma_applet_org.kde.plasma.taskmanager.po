@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_tasks\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"POT-Creation-Date: 2019-06-23 07:22+0200\n"
 "PO-Revision-Date: 2019-07-17 06:43+0700\n"
 "Last-Translator: Wantoyo <wantoyek@gmail.com>\n"
 "Language-Team: Indonesian <kde-i18n-doc@kde.org>\n"
@@ -42,10 +42,9 @@ msgid "9,999+"
 msgstr "9,999+"
 
 #: package/contents/ui/ConfigAppearance.qml:48
-#, fuzzy, kde-format
-#| msgid "General"
+#, kde-format
 msgid "General:"
-msgstr "Umum"
+msgstr "Umum:"
 
 #: package/contents/ui/ConfigAppearance.qml:49
 #, kde-format
@@ -98,22 +97,19 @@ msgid "Always arrange tasks in as many columns as rows"
 msgstr "Selalu tata tugas-tugas dalam banyak kolom sebagai baris"
 
 #: package/contents/ui/ConfigBehavior.qml:52
-#, fuzzy, kde-format
-#| msgid "Grouping:"
+#, kde-format
 msgid "Group:"
-msgstr "Pengelompokan:"
+msgstr "Kelompok:"
 
 #: package/contents/ui/ConfigBehavior.qml:54
-#, fuzzy, kde-format
-#| msgid "Do Not Group"
+#, kde-format
 msgid "Do not group"
-msgstr "Jangan Kelompokkan"
+msgstr "Jangan kelompokkan"
 
 #: package/contents/ui/ConfigBehavior.qml:54
-#, fuzzy, kde-format
-#| msgid "By Program Name"
+#, kde-format
 msgid "By program name"
-msgstr "Menurut Nama Program"
+msgstr "Berdasarkan nama program"
 
 #: package/contents/ui/ConfigBehavior.qml:60
 #, kde-format
@@ -121,16 +117,14 @@ msgid "Open groups in popups"
 msgstr "Buka kelompok dalam sembulan"
 
 #: package/contents/ui/ConfigBehavior.qml:74
-#, fuzzy, kde-format
-#| msgid "Only group when the task manager is full"
+#, kde-format
 msgid "Group only when the Task Manager is full"
-msgstr "Hanya kelompokkan ketika pengelola tugas telah penuh"
+msgstr "Kelompokkan hanya ketika Pengelola Tugas telah penuh"
 
 #: package/contents/ui/ConfigBehavior.qml:88
-#, fuzzy, kde-format
-#| msgid "Sorting:"
+#, kde-format
 msgid "Sort:"
-msgstr "Pengurutan:"
+msgstr "Urutkan:"
 
 #: package/contents/ui/ConfigBehavior.qml:90
 #, kde-format
@@ -148,16 +142,14 @@ msgid "Alphabetically"
 msgstr "Secara Alfabet"
 
 #: package/contents/ui/ConfigBehavior.qml:90
-#, fuzzy, kde-format
-#| msgid "By Desktop"
+#, kde-format
 msgid "By desktop"
-msgstr "Menurut Desktop"
+msgstr "Berdasarkan desktop"
 
 #: package/contents/ui/ConfigBehavior.qml:90
-#, fuzzy, kde-format
-#| msgid "By Activity"
+#, kde-format
 msgid "By activity"
-msgstr "Menurut Aktivitas"
+msgstr "Berdasarkan aktivitas"
 
 #: package/contents/ui/ConfigBehavior.qml:96
 #, kde-format
@@ -176,22 +168,19 @@ msgid "None"
 msgstr "Nihil"
 
 #: package/contents/ui/ConfigBehavior.qml:112
-#, fuzzy, kde-format
-#| msgid "Close Window or Group"
+#, kde-format
 msgid "Close window or group"
-msgstr "Tutup Window atau Kelompok"
+msgstr "Tutup window atau kelompok"
 
 #: package/contents/ui/ConfigBehavior.qml:113
-#, fuzzy, kde-format
-#| msgid "New Instance"
+#, kde-format
 msgid "New instance"
-msgstr "Instansi Baru"
+msgstr "Instansi baru"
 
 #: package/contents/ui/ConfigBehavior.qml:114
-#, fuzzy, kde-format
-#| msgid "Minimize/Restore Window or Group"
+#, kde-format
 msgid "Minimize/Restore window or group"
-msgstr "Minimalkan/Pulihkan Window atau Kelompok"
+msgstr "Minimalkan/Pulihkan window atau kelompok"
 
 #: package/contents/ui/ConfigBehavior.qml:115
 #, kde-format
@@ -210,10 +199,9 @@ msgid "Cycle through tasks with mouse wheel"
 msgstr "Siklus melalui tugas dengan roda mouse"
 
 #: package/contents/ui/ConfigBehavior.qml:131
-#, fuzzy, kde-format
-#| msgid "Filters"
+#, kde-format
 msgid "Filter:"
-msgstr "Filter"
+msgstr "Filter:"
 
 #: package/contents/ui/ConfigBehavior.qml:132
 #, kde-format
@@ -420,8 +408,7 @@ msgid "&Close"
 msgstr "&Tutup"
 
 #: package/contents/ui/ToolTipInstance.qml:469
-#, fuzzy, kde-format
-#| msgid "On %1"
+#, kde-format
 msgctxt "Comma-separated list of desktops"
 msgid "On %1"
 msgstr "Di %1"

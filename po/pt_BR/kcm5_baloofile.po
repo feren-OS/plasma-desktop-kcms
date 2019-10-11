@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcm5_baloofile\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"POT-Creation-Date: 2019-05-30 07:24+0200\n"
 "PO-Revision-Date: 2019-06-01 09:24-0300\n"
 "Last-Translator: André Marcelo Alvarenga <alvarenga@kde.org>\n"
 "Language-Team: Brazilian Portuguese <kde-i18n-pt_BR@kde.org>\n"
@@ -52,8 +52,7 @@ msgstr "Também indexar o conteúdo do arquivo"
 
 #. i18n: ectx: property (text), widget (QLabel, m_excludeLabel)
 #: configwidget.ui:76
-#, fuzzy, kde-format
-#| msgid "Do not search in these locations:"
+#, kde-format
 msgid "Do not search in these locations:"
 msgstr "Não pesquisar nestes locais:"
 

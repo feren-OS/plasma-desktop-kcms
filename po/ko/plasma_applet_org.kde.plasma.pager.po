@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_pager\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"POT-Creation-Date: 2019-05-20 07:46+0200\n"
 "PO-Revision-Date: 2019-05-18 15:54+0200\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
 "Language-Team: Korean <kde-kr@kde.org>\n"
@@ -34,8 +34,7 @@ msgid "Show application icons on window outlines"
 msgstr "창 외곽선에 프로그램 아이콘 보이기"
 
 #: package/contents/ui/configGeneral.qml:91
-#, fuzzy, kde-format
-#| msgid "Show only current screen"
+#, kde-format
 msgid "Show only current screen"
 msgstr "현재 화면만 보이기"
 
@@ -101,8 +100,7 @@ msgid "Selecting current Activity:"
 msgstr "현재 활동 선택 시:"
 
 #: package/contents/ui/configGeneral.qml:152
-#, fuzzy, kde-format
-#| msgid "Selecting current virtual desktop:"
+#, kde-format
 msgid "Selecting current virtual desktop:"
 msgstr "현재 가상 데스크톱 선택 시:"
 
@@ -112,8 +110,7 @@ msgid "Does nothing"
 msgstr "아무것도 하지 않음"
 
 #: package/contents/ui/configGeneral.qml:161
-#, fuzzy, kde-format
-#| msgid "Shows the desktop"
+#, kde-format
 msgid "Shows the desktop"
 msgstr "데스크톱 보이기"
 
@@ -151,7 +148,6 @@ msgid "Remove Virtual Desktop"
 msgstr "마지막 가상 데스크톱 삭제"
 
 #: package/contents/ui/main.qml:546
-#, fuzzy, kde-format
-#| msgid "Configure Virtual Desktops..."
+#, kde-format
 msgid "Configure Virtual Desktops..."
 msgstr "가상 데스크톱 설정..."

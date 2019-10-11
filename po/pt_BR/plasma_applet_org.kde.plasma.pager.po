@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_org.kde.plasma.pager\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"POT-Creation-Date: 2019-05-20 07:46+0200\n"
 "PO-Revision-Date: 2019-06-11 10:11-0300\n"
 "Last-Translator: Luiz Fernando Ranghetti <elchevive@opensuse.org>\n"
 "Language-Team: Portuguese <kde-i18n-pt_BR@kde.org>\n"
@@ -35,8 +35,7 @@ msgid "Show application icons on window outlines"
 msgstr "Mostrar os ícones do aplicativo nos contornos das janelas"
 
 #: package/contents/ui/configGeneral.qml:91
-#, fuzzy, kde-format
-#| msgid "Show only current screen"
+#, kde-format
 msgid "Show only current screen"
 msgstr "Mostrar apenas na tela atual"
 
@@ -67,8 +66,7 @@ msgid "Vertical"
 msgstr "Vertical"
 
 #: package/contents/ui/configGeneral.qml:124
-#, fuzzy, kde-format
-#| msgid "Text display:"
+#, kde-format
 msgid "Text display:"
 msgstr "Exibição do texto:"
 
@@ -103,8 +101,7 @@ msgid "Selecting current Activity:"
 msgstr "Ao selecionar a atividade atual:"
 
 #: package/contents/ui/configGeneral.qml:152
-#, fuzzy, kde-format
-#| msgid "Selecting current virtual desktop:"
+#, kde-format
 msgid "Selecting current virtual desktop:"
 msgstr "Ao selecionar a área de trabalho virtual atual:"
 
@@ -114,8 +111,7 @@ msgid "Does nothing"
 msgstr "Não fazer nada"
 
 #: package/contents/ui/configGeneral.qml:161
-#, fuzzy, kde-format
-#| msgid "Shows the desktop"
+#, kde-format
 msgid "Shows the desktop"
 msgstr "Mostra a área de trabalho"
 
@@ -156,7 +152,6 @@ msgid "Remove Virtual Desktop"
 msgstr "Remover a área de trabalho virtual"
 
 #: package/contents/ui/main.qml:546
-#, fuzzy, kde-format
-#| msgid "Configure Virtual Desktops..."
+#, kde-format
 msgid "Configure Virtual Desktops..."
 msgstr "Configurar áreas de trabalho virtuais..."

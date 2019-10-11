@@ -15,7 +15,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -470,15 +470,13 @@ msgid "Brad Hards"
 msgstr ""
 
 #: kcm/xlib/xlib_config.cpp:302 kcm/xlib/xlib_config.cpp:307
-#, fuzzy, kde-format
+#, kde-format
 msgid " pixel"
 msgid_plural " pixels"
 msgstr[0] " pikseloù"
-msgstr[1] ""
 
 #: kcm/xlib/xlib_config.cpp:312
-#, fuzzy, kde-format
+#, kde-format
 msgid " line"
 msgid_plural " lines"
 msgstr[0] " linennoù"
-msgstr[1] ""

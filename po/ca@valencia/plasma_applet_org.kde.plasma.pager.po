@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_org.kde.plasma.pager\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"POT-Creation-Date: 2019-05-20 07:46+0200\n"
 "PO-Revision-Date: 2019-04-26 19:26+0100\n"
 "Last-Translator: Josep Ma. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
@@ -37,8 +37,7 @@ msgid "Show application icons on window outlines"
 msgstr "Mostra les icones d'aplicació als contorns deu la finestra"
 
 #: package/contents/ui/configGeneral.qml:91
-#, fuzzy, kde-format
-#| msgid "Show only current screen"
+#, kde-format
 msgid "Show only current screen"
 msgstr "Mostra només la pantalla actual"
 
@@ -104,8 +103,7 @@ msgid "Selecting current Activity:"
 msgstr "En seleccionar l'activitat actual:"
 
 #: package/contents/ui/configGeneral.qml:152
-#, fuzzy, kde-format
-#| msgid "Selecting current virtual desktop:"
+#, kde-format
 msgid "Selecting current virtual desktop:"
 msgstr "En seleccionar l'escriptori virtual actual:"
 
@@ -115,8 +113,7 @@ msgid "Does nothing"
 msgstr "No fa res"
 
 #: package/contents/ui/configGeneral.qml:161
-#, fuzzy, kde-format
-#| msgid "Shows the desktop"
+#, kde-format
 msgid "Shows the desktop"
 msgstr "Mostra l'escriptori"
 
@@ -157,7 +154,6 @@ msgid "Remove Virtual Desktop"
 msgstr "Elimina un escriptori virtual"
 
 #: package/contents/ui/main.qml:546
-#, fuzzy, kde-format
-#| msgid "Configure Virtual Desktops..."
+#, kde-format
 msgid "Configure Virtual Desktops..."
 msgstr "Configuració dels escriptoris virtuals..."

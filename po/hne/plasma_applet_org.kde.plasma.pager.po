@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_pager\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"POT-Creation-Date: 2019-05-20 07:46+0200\n"
 "PO-Revision-Date: 2009-01-27 17:31+0530\n"
 "Last-Translator: Ravishankar Shrivastava <raviratlami@aol.in>\n"
 "Language-Team: Hindi <kde-i18n-doc@lists.kde.org>\n"
@@ -97,10 +97,9 @@ msgid "Desktop name"
 msgstr "डेस्कटाप नाम"
 
 #: package/contents/ui/configGeneral.qml:152
-#, fuzzy, kde-format
-#| msgid "&Configure Desktops..."
+#, kde-format
 msgid "Selecting current Activity:"
-msgstr "डेस्कटाप कान्फिगर करव... (&C)"
+msgstr ""
 
 #: package/contents/ui/configGeneral.qml:152
 #, fuzzy, kde-format

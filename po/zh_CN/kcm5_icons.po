@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
-"PO-Revision-Date: 2019-08-16 17:06\n"
+"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"PO-Revision-Date: 2019-07-18 15:08\n"
 "Last-Translator: Guo Yunhe (guoyunhe)\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -83,8 +83,7 @@ msgid "Unable to create a temporary file."
 msgstr "无法创建临时文件。"
 
 #: main.cpp:332
-#, fuzzy, kde-format
-#| msgid "Unable to download the icon theme archive: %1"
+#, kde-format
 msgid "Unable to download the icon theme archive: %1"
 msgstr "无法下载图标主题存档：%1"
 
@@ -151,10 +150,9 @@ msgid "This module allows you to choose the icons for your desktop."
 msgstr "此模块允许您为桌面选择图标。"
 
 #: package/contents/ui/main.qml:155
-#, fuzzy, kde-format
-#| msgid "Restore Icon Theme"
+#, kde-format
 msgid "Remove Icon Theme"
-msgstr "还原图标主题"
+msgstr "移除图标主题"
 
 #: package/contents/ui/main.qml:162
 #, kde-format
@@ -167,22 +165,19 @@ msgid "Configure Icon Sizes"
 msgstr "配置图标大小"
 
 #: package/contents/ui/main.qml:247
-#, fuzzy, kde-format
-#| msgid "Install from File..."
+#, kde-format
 msgid "Install from File..."
 msgstr "从文件安装..."
 
 #: package/contents/ui/main.qml:253
-#, fuzzy, kde-format
-#| msgid "Get New Icons..."
+#, kde-format
 msgid "Get New Icons..."
 msgstr "获取新图标主题..."
 
 #: package/contents/ui/main.qml:274
-#, fuzzy, kde-format
-#| msgid "Remove Icon Theme"
+#, kde-format
 msgid "Open Theme"
-msgstr "移除图标主题"
+msgstr "打开主题"
 
 #: package/contents/ui/main.qml:276
 #, kde-format

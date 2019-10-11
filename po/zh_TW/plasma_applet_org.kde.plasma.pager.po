@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_pager\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"POT-Creation-Date: 2019-05-20 07:46+0200\n"
 "PO-Revision-Date: 2019-04-27 17:40+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -39,8 +39,7 @@ msgid "Show application icons on window outlines"
 msgstr "在視窗外框顯示應用程式圖示"
 
 #: package/contents/ui/configGeneral.qml:91
-#, fuzzy, kde-format
-#| msgid "Show only current screen"
+#, kde-format
 msgid "Show only current screen"
 msgstr "僅在目前螢幕顯示"
 
@@ -71,8 +70,7 @@ msgid "Vertical"
 msgstr "垂直"
 
 #: package/contents/ui/configGeneral.qml:124
-#, fuzzy, kde-format
-#| msgid "Text display:"
+#, kde-format
 msgid "Text display:"
 msgstr "文字顯示："
 
@@ -107,8 +105,7 @@ msgid "Selecting current Activity:"
 msgstr "選取目前活動："
 
 #: package/contents/ui/configGeneral.qml:152
-#, fuzzy, kde-format
-#| msgid "Selecting current virtual desktop:"
+#, kde-format
 msgid "Selecting current virtual desktop:"
 msgstr "選取目前虛擬桌面："
 
@@ -118,8 +115,7 @@ msgid "Does nothing"
 msgstr "不做任何事"
 
 #: package/contents/ui/configGeneral.qml:161
-#, fuzzy, kde-format
-#| msgid "Shows the desktop"
+#, kde-format
 msgid "Shows the desktop"
 msgstr "顯示桌面"
 
@@ -157,7 +153,6 @@ msgid "Remove Virtual Desktop"
 msgstr "移除虛擬桌面"
 
 #: package/contents/ui/main.qml:546
-#, fuzzy, kde-format
-#| msgid "Configure Virtual Desktops..."
+#, kde-format
 msgid "Configure Virtual Desktops..."
 msgstr "設定虛擬桌面…"

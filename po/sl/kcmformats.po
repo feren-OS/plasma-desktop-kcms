@@ -1,7 +1,7 @@
 # translation of kcmlocale.po to Slovenian
 # Translation of kcmlocale.po to Slovenian
 # KDEBASE translation to Slovenian language.
-# $Id: kcmformats.po 1550639 2019-08-30 07:08:12Z scripty $
+# $Id: kcmformats.po 1542253 2019-05-20 06:55:29Z scripty $
 # $Source$
 #
 # Copyright (C) 2001, 2003, 2004, 2005, 2006, 2007 Free Software Foundation, Inc.
@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmlocale\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
+"POT-Creation-Date: 2019-05-20 07:46+0200\n"
 "PO-Revision-Date: 2018-01-11 20:56+0100\n"
 "Last-Translator: Andrej Mernik <andrejm@ubuntu.si>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"

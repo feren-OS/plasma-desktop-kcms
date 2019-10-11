@@ -8,9 +8,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmlocale\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-08-30 07:52+0200\n"
-"PO-Revision-Date: 2019-08-11 14:09+0530\n"
-"Last-Translator: Subin Siby <mail@subinsb.com>\n"
+"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"PO-Revision-Date: 2009-07-17 10:44-0700\n"
+"Last-Translator: Praveen Arimbrathodiyil <pravi.a@gmail.com>\n"
 "Language-Team: Malayalam <smc-discuss@googlegroups.com>\n"
 "Language: ml\n"
 "MIME-Version: 1.0\n"
@@ -53,28 +53,36 @@ msgstr ""
 
 #: kcmformats.cpp:341
 #, fuzzy, kde-format
+#| msgid "Short date format:"
 msgid "%1 (long format)"
 msgstr "തീയതി ലഘു രീതിയില്‍:"
 
 #: kcmformats.cpp:342
 #, fuzzy, kde-format
+#| msgid "Short date format:"
 msgid "%1 (short format)"
 msgstr "തീയതി ലഘു രീതിയില്‍:"
 
 #: kcmformats.cpp:347
 #, fuzzy, kde-format
+#| msgctxt "The Imperial System"
+#| msgid "Imperial"
 msgctxt "Measurement combobox"
 msgid "Imperial UK"
 msgstr "ഇംപീരിയല്‍"
 
 #: kcmformats.cpp:349
 #, fuzzy, kde-format
+#| msgctxt "The Imperial System"
+#| msgid "Imperial"
 msgctxt "Measurement combobox"
 msgid "Imperial US"
 msgstr "ഇംപീരിയല്‍"
 
 #: kcmformats.cpp:351
 #, fuzzy, kde-format
+#| msgctxt "The Metric System"
+#| msgid "Metric"
 msgctxt "Measurement combobox"
 msgid "Metric"
 msgstr "മെട്രിക്"
@@ -88,30 +96,35 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, checkDetailed)
 #: kcmformatswidget.ui:76
 #, fuzzy, kde-format
+#| msgid "Regional settings"
 msgid "De&tailed Settings"
 msgstr "പ്രാദേശിക ക്രമികരണങ്ങള്‍"
 
 #. i18n: ectx: property (text), widget (QLabel, labelNumbers)
 #: kcmformatswidget.ui:83
 #, fuzzy, kde-format
+#| msgid "Numbers:"
 msgid "&Numbers:"
 msgstr "അക്കങ്ങള്‍:"
 
 #. i18n: ectx: property (text), widget (QLabel, labelTime)
 #: kcmformatswidget.ui:112
 #, fuzzy, kde-format
+#| msgid "Time:"
 msgid "&Time:"
 msgstr "സമയം:"
 
 #. i18n: ectx: property (text), widget (QLabel, labelCurrency)
 #: kcmformatswidget.ui:141
 #, fuzzy, kde-format
+#| msgid "Currency symbol:"
 msgid "Currenc&y:"
 msgstr "നാണയത്തിന്റെ ചിഹ്നം:"
 
 #. i18n: ectx: property (text), widget (QLabel, labelMeasurement)
 #: kcmformatswidget.ui:170
 #, fuzzy, kde-format
+#| msgid "Measure system:"
 msgid "Measurement &Units:"
 msgstr "അളവു് സംവിധാനം:"
 
@@ -142,11 +155,13 @@ msgstr "സമയം:"
 #. i18n: ectx: property (text), widget (QLabel, lexCurrency)
 #: kcmformatswidget.ui:288
 #, fuzzy, kde-format
+#| msgid "Currency symbol:"
 msgid "Currency:"
 msgstr "നാണയത്തിന്റെ ചിഹ്നം:"
 
 #. i18n: ectx: property (text), widget (QLabel, lexMeasurement_2)
 #: kcmformatswidget.ui:308
 #, fuzzy, kde-format
+#| msgid "Measure system:"
 msgid "Measurement Units:"
 msgstr "അളവു് സംവിധാനം:"
