@@ -284,20 +284,24 @@ void KCMLookandFeel::save()
             KSharedConfigPtr conf = KSharedConfig::openConfig(package.filePath("defaults"));
             KConfigGroup cg(conf, "FerenThemer");
             cg = KConfigGroup(&cg, "Options");
+            std::system("/usr/bin/feren-theme-tool-plasma latteoff");
             if (cg.readEntry("MetaType", QString()) == "Latte") {
                 std::system("/usr/bin/feren-theme-tool-plasma lattemeta");
             } else {
                 std::system("/usr/bin/feren-theme-tool-plasma revertmeta");
             }
         }
-        QDBusMessage message = QDBusMessage::createMethodCall(QStringLiteral("org.kde.plasmashell"), QStringLiteral("/PlasmaShell"),
-                                                   QStringLiteral("org.kde.PlasmaShell"), QStringLiteral("loadLookAndFeelDefaultLayout"));
-
-        QList<QVariant> args;
-        args << m_selectedPlugin;
-        message.setArguments(args);
-
-        QDBusConnection::sessionBus().call(message, QDBus::NoBlock);
+        // Disabled because it didn't seem to want to change the desktop type used reliably when switching to Ubuntu Unity Layout
+//         QDBusMessage message = QDBusMessage::createMethodCall(QStringLiteral("org.kde.plasmashell"), QStringLiteral("/PlasmaShell"),
+//                                                    QStringLiteral("org.kde.PlasmaShell"), QStringLiteral("loadLookAndFeelDefaultLayout"));
+// 
+//         QList<QVariant> args;
+//         args << m_selectedPlugin;
+//         message.setArguments(args);
+// 
+//         QDBusConnection::sessionBus().call(message, QDBus::NoBlock);
+        //...so here's the substitute
+        std::system("/usr/bin/feren-theme-tool-plasma resetlayout");
     }
     
     if (!package.filePath("defaults").isEmpty()) {
