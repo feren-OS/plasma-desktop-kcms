@@ -1,5 +1,7 @@
 #!/bin/bash
 
+cd
+
 if [ "$1" = "--kill-plasma" ]; then
     while true; do
         killall latte-dock plasmashell feren-latte-launch >/dev/null 2>&1
@@ -230,7 +232,8 @@ elif [ "$1" = "latteoff" ]; then
 elif [ "$1" = "resetlayout" ]; then
     killall plasmashell
     /bin/rm "$HOME/.config/plasma-org.kde.plasma.desktop-appletsrc"
-    /usr/bin/plasmashell >/dev/null 2>&1 &
+    sleep 0.2
+    /usr/bin/plasmashell --replace >/dev/null 2>&1 &
 elif [ "$1" = "triggerxsettingsd" ]; then
     killall change-xsettingsd-theme feren-xsettings-daemon feren-xsettings-daemon-start
     rm -f /tmp/xsettings-lock-$(whoami)
