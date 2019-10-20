@@ -436,23 +436,16 @@ void KCMColors::saveColors()
     KConfig kdeglobalsconfig(QString("kdeglobals"));
     KConfigGroup cg(&kdeglobalsconfig, "KDE");
     std::string schemenamestd = schemename.toUtf8().constData();
-    std::string schemenamestd2 = schemename.toUtf8().constData();
     // Check if the colour scheme mentions a Kvantum theme, if so the Kvantum theme is that, otherwise we'll check if a Kvantum theme of the colour scheme's name exists and if not then Breeze style it is
-    KConfigGroup cg2(config, "kvantum.kvconfig");
-    if (!cg2.readEntry("theme", QString()).isEmpty()) {
-        schemenamestd2 = cg2.readEntry("theme", QString()).toUtf8().constData();
-    } else {
-        schemenamestd2 = schemenamestd;
-    }
     std::string homepath(getenv("HOME"));
-    std::string path1 = "/usr/share/Kvantum/"+schemenamestd2+"/"+schemenamestd2+".kvconfig";
-    std::string path2 = homepath+"/.config/Kvantum/"+schemenamestd2+"/"+schemenamestd2+".kvconfig";
+    std::string path1 = "/usr/share/Kvantum/"+schemenamestd+"/"+schemenamestd+".kvconfig";
+    std::string path2 = homepath+"/.config/Kvantum/"+schemenamestd+"/"+schemenamestd+".kvconfig";
     std::ifstream file1(path1.c_str());
     std::ifstream file2(path2.c_str());
     if (file1.good() || file2.good()) {
         KConfig kvantumconfig(QString("Kvantum/kvantum.kvconfig"));
         KConfigGroup cg3(&kvantumconfig, "General");
-        cg3.writeEntry("theme", QString::fromStdString(schemenamestd2));
+        cg3.writeEntry("theme", QString::fromStdString(schemenamestd));
         cg3.sync();
     }
     if (cg.readEntry("widgetStyle", QString()) == "kvantum" || cg.readEntry("widgetStyle", QString()) == "kvantum-dark") {
