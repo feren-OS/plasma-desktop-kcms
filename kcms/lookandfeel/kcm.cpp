@@ -284,7 +284,10 @@ void KCMLookandFeel::save()
             KSharedConfigPtr conf = KSharedConfig::openConfig(package.filePath("defaults"));
             KConfigGroup cg(conf, "FerenThemer");
             cg = KConfigGroup(&cg, "Options");
-            std::system("/usr/bin/feren-theme-tool-plasma latteoff");
+            // Cleanly quit Latte Dock
+            QDBusMessage message = QDBusMessage::createMethodCall(QStringLiteral("org.kde.lattedock"), QStringLiteral("/MainApplication"),
+                                                    QStringLiteral("org.qtproject.Qt.QCoreApplication"), QStringLiteral("quit"));
+            QDBusConnection::sessionBus().call(message, QDBus::NoBlock);
             if (cg.readEntry("MetaType", QString()) == "Latte") {
                 std::system("/usr/bin/feren-theme-tool-plasma lattemeta");
             } else {
@@ -689,7 +692,6 @@ void KCMLookandFeel::setGTK(const QString &theme)
 
 void KCMLookandFeel::setLatteLayout(const QString &theme)
 {
-    std::system("/usr/bin/feren-theme-tool-plasma latteoff");
     
     if (theme.isEmpty()) {
         return;
@@ -698,10 +700,26 @@ void KCMLookandFeel::setLatteLayout(const QString &theme)
     if (QString(theme) != "None") {
         KConfig config(QString("lattedockrc"));
         KConfigGroup cg(&config, "UniversalSettings");
+        //lastNonAssignedLayout also needs to be changed as otherwise Latte switches back to the layout that lastNonAssignedLayout is currently set to when loading up
         cg.writeEntry("currentLayout", theme);
         cg.writeEntry("lastNonAssignedLayout", theme);
         cg.sync();
-        std::system("/usr/bin/feren-theme-tool-plasma latteon");
+        QDBusMessage message = QDBusMessage::createMethodCall(QStringLiteral("org.kde.lattedock"), QStringLiteral("/Latte"),
+                                                    QStringLiteral("org.kde.LatteDock"), QStringLiteral("switchToLayout"));
+ 
+         QList<QVariant> args;
+         args << theme;
+         message.setArguments(args);
+ 
+         QDBusConnection::sessionBus().call(message, QDBus::NoBlock);
+    } else {
+        // Disable Latte Dock's autostarting
+        KAutostart as("org.kde.latte-dock");
+        as.setAutostarts(false);
+        // Cleanly quit Latte Dock
+        QDBusMessage message = QDBusMessage::createMethodCall(QStringLiteral("org.kde.lattedock"), QStringLiteral("/MainApplication"),
+                                                    QStringLiteral("org.qtproject.Qt.QCoreApplication"), QStringLiteral("quit"));
+        QDBusConnection::sessionBus().call(message, QDBus::NoBlock);
     }
 }
 
