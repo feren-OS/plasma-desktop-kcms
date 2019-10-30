@@ -3,13 +3,12 @@
 # sparc3 <sparc3@azet.sk>, 2008.
 # Michal Sulek <misurel@gmail.com>, 2010.
 # Roman Paholik <wizzardsk@gmail.com>, 2016.
-# Mthw <jari_45@hotmail.com>, 2018, 2019.
-# Matej Mrenica <matejm98mthw@gmail.com>, 2019.
+# Matej Mrenica <matejm98mthw@gmail.com>, 2018, 2019.
 msgid ""
 msgstr ""
 "Project-Id-Version: kcm_emoticons\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"POT-Creation-Date: 2019-05-20 03:25+0200\n"
 "PO-Revision-Date: 2019-05-18 09:55+0200\n"
 "Last-Translator: Matej Mrenica <matejm98mthw@gmail.com>\n"
 "Language-Team: Slovak <kde-i18n-doc@kde.org>\n"

@@ -7,7 +7,7 @@
 <article id="desktopthemedetails" lang="&language;">
 <articleinfo>
 <title
->Tema di Plasma</title>
+>Stile di Plasma</title>
 <authorgroup>
 <author
 ><firstname
@@ -121,7 +121,7 @@
   <varlistentry>
     <term
 ><guilabel
->Scarica nuovi temi di Plasma...</guilabel
+>Scarica nuovi stili di Plasma...</guilabel
 ></term>
     <listitem>
     <para
@@ -133,14 +133,14 @@
     <para>
     <screenshot>
     <screeninfo
->Scarica nuovi temi di Plasma...</screeninfo>
+>Scarica nuovi stili di Plasma...</screeninfo>
       <mediaobject>
         <imageobject>
           <imagedata fileref="get-new-theme.png" format="PNG"/>
         </imageobject>
         <textobject>
           <phrase
->Scarica nuovi temi di Plasma...</phrase>
+>Scarica nuovi stili di Plasma...</phrase>
         </textobject>
       </mediaobject>
     </screenshot>

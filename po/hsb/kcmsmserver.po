@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"POT-Creation-Date: 2019-07-11 03:14+0200\n"
 "PO-Revision-Date: 2008-12-19 23:36+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
 "%100==4 ? 2 : 3;\n"
 
-#: kcmsmserver.cpp:62
+#: kcmsmserver.cpp:63
 #, kde-format
 msgid ""
 "<h1>Session Manager</h1> You can configure the session manager here. This "
@@ -32,35 +32,35 @@ msgstr ""
 "sej KDE posedźenje spomjatkować a při přichodnym přizjewjenju znowić a hač "
 "ma so kompjuter po zakónčenju posedźenja awtomatisce hasnyć."
 
-#: kcmsmserver.cpp:82
+#: kcmsmserver.cpp:83
 #, fuzzy, kde-format
 #| msgid "&Restart computer"
 msgid "Restart Now"
 msgstr "Kompjuter &znowa startować"
 
-#: kcmsmserver.cpp:114
+#: kcmsmserver.cpp:124
 #, kde-format
 msgid "Failed to request restart to firmware setup: %1"
 msgstr ""
 
-#: kcmsmserver.cpp:126
+#: kcmsmserver.cpp:136
 #, kde-format
 msgid ""
 "Next time the computer is restarted, it will enter the UEFI setup screen."
 msgstr ""
 
-#: kcmsmserver.cpp:128
+#: kcmsmserver.cpp:138
 #, kde-format
 msgid ""
 "Next time the computer is restarted, it will enter the firmware setup screen."
 msgstr ""
 
-#: kcmsmserver.cpp:140
+#: kcmsmserver.cpp:150
 #, kde-format
 msgid "UEFI Setup"
 msgstr ""
 
-#: kcmsmserver.cpp:141
+#: kcmsmserver.cpp:151
 #, kde-format
 msgid "Enter UEFI setup on next restart"
 msgstr ""

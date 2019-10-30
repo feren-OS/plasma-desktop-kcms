@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmcomponentchooser\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"POT-Creation-Date: 2019-09-18 03:38+0200\n"
 "PO-Revision-Date: 2011-06-22 05:44+0200\n"
 "Last-Translator: Manfred Wiese <m.j.wiese@web.de>\n"
 "Language-Team: Low Saxon <kde-i18n-nds@kde.org>\n"
@@ -65,12 +65,12 @@ msgstr "mit dissen Nettkieker:"
 msgid "..."
 msgstr "..."
 
-#: componentchooser.cpp:134
+#: componentchooser.cpp:133
 #, kde-format
 msgid "Unknown"
 msgstr "Nich begäng"
 
-#: componentchooser.cpp:151
+#: componentchooser.cpp:150
 #, kde-format
 msgid ""
 "Choose from the list below which component should be used by default for the "
@@ -79,7 +79,7 @@ msgstr ""
 "Söök ut de List ut, welk Komponent standardwies för den Deenst \"%1\" bruukt "
 "warrt."
 
-#: componentchooser.cpp:183
+#: componentchooser.cpp:182
 #, kde-format
 msgid ""
 "<qt>You changed the default component of your choice, do want to save that "
@@ -88,7 +88,7 @@ msgstr ""
 "<qt>Du hest Dien Standardkomponent ännert. Wullt Du disse Ännern nu sekern?</"
 "qt>"
 
-#: componentchooser.cpp:188
+#: componentchooser.cpp:187
 #, kde-format
 msgid "No description available"
 msgstr "Keen Beschrieven verföögbor"
@@ -154,7 +154,7 @@ msgstr "Vörtrocken Nettkieker utsöken:"
 msgid "Select preferred email client:"
 msgstr "Vörtrocken Nettpostprogramm utsöken:"
 
-#: componentchooserterminal.cpp:104
+#: componentchooserterminal.cpp:102
 #, kde-format
 msgid "Select preferred terminal application:"
 msgstr "Vörtrocken Terminalprogramm utsöken:"

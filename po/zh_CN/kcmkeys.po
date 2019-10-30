@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
-"PO-Revision-Date: 2019-07-18 15:08\n"
+"POT-Creation-Date: 2019-09-12 03:25+0200\n"
+"PO-Revision-Date: 2019-10-09 10:02\n"
 "Last-Translator: Guo Yunhe (guoyunhe)\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -37,52 +37,52 @@ msgstr "选择要导出的组件"
 msgid "Components"
 msgstr "组件"
 
-#: globalshortcuts.cpp:67
+#: globalshortcuts.cpp:65
 #, kde-format
 msgid "You are about to reset all shortcuts to their default values."
 msgstr "您正要将所有快捷键重置为默认。"
 
-#: globalshortcuts.cpp:68
+#: globalshortcuts.cpp:66
 #, kde-format
 msgid "Reset to defaults"
 msgstr "重置为默认"
 
-#: globalshortcuts.cpp:69
+#: globalshortcuts.cpp:67
 #, kde-format
 msgid "Current Component"
 msgstr "当前组件"
 
-#: globalshortcuts.cpp:70
+#: globalshortcuts.cpp:68
 #, kde-format
 msgid "All Components"
 msgstr "全部组件"
 
-#: kglobalshortcutseditor.cpp:231
+#: kglobalshortcutseditor.cpp:233
 #, kde-format
 msgid "Import Scheme..."
 msgstr "导入方案..."
 
-#: kglobalshortcutseditor.cpp:232
+#: kglobalshortcutseditor.cpp:234
 #, kde-format
 msgid "Export Scheme..."
 msgstr "导出方案..."
 
-#: kglobalshortcutseditor.cpp:233
+#: kglobalshortcutseditor.cpp:235
 #, kde-format
 msgid "Set All Shortcuts to None"
 msgstr "将所有快捷键设为无"
 
-#: kglobalshortcutseditor.cpp:241
+#: kglobalshortcutseditor.cpp:243
 #, kde-format
 msgid "Applications"
 msgstr "应用程序"
 
-#: kglobalshortcutseditor.cpp:292
+#: kglobalshortcutseditor.cpp:294
 #, kde-format
 msgid "Launch %1"
 msgstr "启动 %1"
 
-#: kglobalshortcutseditor.cpp:328
+#: kglobalshortcutseditor.cpp:330
 #, kde-format
 msgid ""
 "Component '%1' is currently active. Only global shortcuts currently not "
@@ -93,12 +93,12 @@ msgstr ""
 "组件“%1”已被激活。只有目前未被激活的全局快捷键可以被从列表中删除。\n"
 "当您下次启动组件时，所有全局快捷键的值都将会重新注册为默认设置。"
 
-#: kglobalshortcutseditor.cpp:330 kglobalshortcutseditor.cpp:340
+#: kglobalshortcutseditor.cpp:332 kglobalshortcutseditor.cpp:342
 #, kde-format
 msgid "Remove component"
 msgstr "删除组件"
 
-#: kglobalshortcutseditor.cpp:336
+#: kglobalshortcutseditor.cpp:338
 #, kde-format
 msgid ""
 "Are you sure you want to remove the registered shortcuts for component '%1'? "
@@ -108,29 +108,29 @@ msgstr ""
 "您确认要删除注册到组件“%1”上的快捷键吗？当您下次启动组件时，组件和所有全局快"
 "捷键的值都将会重新注册为默认设置。"
 
-#: kglobalshortcutseditor.cpp:450
+#: kglobalshortcutseditor.cpp:452
 #, kde-format
 msgid "Application Launchers"
 msgstr "应用程序启动器"
 
-#: kglobalshortcutseditor.cpp:453
+#: kglobalshortcutseditor.cpp:455
 #, kde-format
 msgid "Other Shortcuts"
 msgstr "其他快捷键"
 
-#: kglobalshortcutseditor.cpp:558
+#: kglobalshortcutseditor.cpp:560
 #, kde-format
 msgid ""
 "Your current changes will be lost if you load another scheme before saving "
 "this one"
 msgstr "如果您在保存之前装入另外一个方案的话，您当前的改变将丢失。"
 
-#: kglobalshortcutseditor.cpp:559
+#: kglobalshortcutseditor.cpp:561
 #, kde-format
 msgid "Load Shortcut Scheme"
 msgstr "装入快捷键方案"
 
-#: kglobalshortcutseditor.cpp:560
+#: kglobalshortcutseditor.cpp:562
 #, kde-format
 msgid "Load"
 msgstr "装载"
@@ -140,7 +140,7 @@ msgstr "装载"
 msgid "This file (%1) does not exist. You can only select local files."
 msgstr "文件(%1)不存在。您只能选择本地文件。"
 
-#: kglobalshortcutseditor.cpp:601 kglobalshortcutseditor.cpp:624
+#: kglobalshortcutseditor.cpp:602 kglobalshortcutseditor.cpp:625
 #, kde-format
 msgid ""
 "Message: %1\n"
@@ -149,7 +149,7 @@ msgstr ""
 "消息：%1\n"
 "错误：%2"
 
-#: kglobalshortcutseditor.cpp:606 kglobalshortcutseditor.cpp:629
+#: kglobalshortcutseditor.cpp:607 kglobalshortcutseditor.cpp:630
 #, kde-format
 msgid "Failed to contact the KDE global shortcuts daemon\n"
 msgstr "和 KDE 全局快捷键守护进程连接失败\n"

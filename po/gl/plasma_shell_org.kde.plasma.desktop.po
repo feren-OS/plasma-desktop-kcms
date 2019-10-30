@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-06-15 07:36+0200\n"
-"PO-Revision-Date: 2019-05-28 21:37+0200\n"
+"POT-Creation-Date: 2019-07-26 03:18+0200\n"
+"PO-Revision-Date: 2019-02-26 18:41+0100\n"
 "Last-Translator: Adrián Chaves (Gallaecio) <adrian@chaves.io>\n"
 "Language-Team: Galician <kde-i18n-doc@kde.org>\n"
 "Language: gl\n"
@@ -17,10 +17,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 19.04.1\n"
-"X-Environment: kde\n"
-"X-Accelerator-Marker: &\n"
-"X-Text-Markup: kde4\n"
 
 #: contents/activitymanager/ActivityItem.qml:206
 msgid "Currently being used"
@@ -63,11 +59,11 @@ msgstr "Eliminar"
 msgid "Keyboard Shortcuts"
 msgstr "Atallos de teclado"
 
-#: contents/configuration/AppletConfiguration.qml:111
+#: contents/configuration/AppletConfiguration.qml:133
 msgid "Apply Settings"
 msgstr "Aplicar a configuración"
 
-#: contents/configuration/AppletConfiguration.qml:112
+#: contents/configuration/AppletConfiguration.qml:134
 msgid ""
 "The settings of the current module have changed. Do you want to apply the "
 "changes or discard them?"
@@ -75,15 +71,15 @@ msgstr ""
 "Cambiouse a configuración do módulo activo. Quere aplicar os cambios ou "
 "descartalos?"
 
-#: contents/configuration/AppletConfiguration.qml:407
+#: contents/configuration/AppletConfiguration.qml:418
 msgid "OK"
 msgstr "Aceptar"
 
-#: contents/configuration/AppletConfiguration.qml:414
+#: contents/configuration/AppletConfiguration.qml:425
 msgid "Apply"
 msgstr "Aplicar"
 
-#: contents/configuration/AppletConfiguration.qml:420
+#: contents/configuration/AppletConfiguration.qml:431
 #: contents/explorer/AppletAlternatives.qml:185
 msgid "Cancel"
 msgstr "Cancelar"

@@ -697,12 +697,10 @@
 <para
 >Utilizzare il pulsante <inlinemediaobject
 ><imageobject
-> <imagedata fileref="krunner-configure.png" format="PNG"
-></imagedata
-> </imageobject
+><imagedata fileref="krunner-configure.png" format="PNG"/> </imageobject
 ></inlinemediaobject
 > per aprire il modulo <guilabel
->Ricerca di Plasma</guilabel
+>KRunner</guilabel
 > di &systemsettings; e configurare dove e cosa cercare con &krunner; </para>
 
 <para
@@ -1074,8 +1072,7 @@
 >Traduzione di Federico Zenith<email
 >federico.zenith@member.fsf.org</email
 ></para
-> 
-&underFDL; </chapter>
+> &underFDL; </chapter>
 
 &documentation.index;
 </book>

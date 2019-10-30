@@ -12,8 +12,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmstyle\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
-"PO-Revision-Date: 2019-05-18 09:59+0200\n"
+"POT-Creation-Date: 2019-10-19 08:02+0200\n"
+"PO-Revision-Date: 2019-05-18 10:00+0200\n"
 "Last-Translator: Matej Mrenica <matejm98mthw@gmail.com>\n"
 "Language-Team: Slovak <kde-i18n-doc@kde.org>\n"
 "Language: sk\n"
@@ -33,54 +33,54 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "visnovsky@nenya.ms.mff.cuni.cz,misurel@gmail.com"
 
-#: kcmstyle.cpp:173
+#: kcmstyle.cpp:171
 #, kde-format
 msgid ""
 "This module allows you to modify the visual appearance of applications' user "
 "interface elements."
 msgstr "Tento modul umožňuje upraviť vzhľad prvkov užívateľského rozhrania."
 
-#: kcmstyle.cpp:183
+#: kcmstyle.cpp:181
 #, kde-format
 msgid "Application Style"
 msgstr "Štýl aplikácií"
 
-#: kcmstyle.cpp:185
+#: kcmstyle.cpp:183
 #, kde-format
 msgid "(c) 2002 Karol Szwed, Daniel Molkentin"
 msgstr "(C) 2002 Karol Szwed, Daniel Molkentin"
 
-#: kcmstyle.cpp:187
+#: kcmstyle.cpp:185
 #, kde-format
 msgid "Karol Szwed"
 msgstr "Karol Szwed"
 
-#: kcmstyle.cpp:188
+#: kcmstyle.cpp:186
 #, kde-format
 msgid "Daniel Molkentin"
 msgstr "Daniel Molkentin"
 
-#: kcmstyle.cpp:198
+#: kcmstyle.cpp:196
 #, kde-format
 msgid "Preview"
 msgstr "Náhľad"
 
-#: kcmstyle.cpp:252 kcmstyle.cpp:263
+#: kcmstyle.cpp:250 kcmstyle.cpp:261
 #, kde-format
 msgid "There was an error loading the configuration dialog for this style."
 msgstr "Nastala chyba počas načítavania dialógu nastavenia pre tento štýl."
 
-#: kcmstyle.cpp:254 kcmstyle.cpp:265
+#: kcmstyle.cpp:252 kcmstyle.cpp:263
 #, kde-format
 msgid "Unable to Load Dialog"
 msgstr "Nepodarilo sa načítať dialóg"
 
-#: kcmstyle.cpp:488
+#: kcmstyle.cpp:479
 #, kde-format
 msgid "No description available."
 msgstr "Nie je dostupný žiadny popis."
 
-#: kcmstyle.cpp:695
+#: kcmstyle.cpp:686
 #, kde-format
 msgid ""
 "This area shows a preview of the currently selected style without having to "
@@ -89,7 +89,7 @@ msgstr ""
 "Táto oblasť zobrazuje náhľad na momentálne vybraný štýl bez jeho použitia na "
 "celé prostredie."
 
-#: kcmstyle.cpp:697
+#: kcmstyle.cpp:688
 #, kde-format
 msgid ""
 "Here you can choose from a list of predefined widget styles (e.g. the way "
@@ -100,7 +100,7 @@ msgstr ""
 "tlačidlá), ktoré môžu alebo nesmú byť kombinované s témami (doplnková "
 "informácia ako mramorová textúra alebo prechod)."
 
-#: kcmstyle.cpp:701
+#: kcmstyle.cpp:692
 #, kde-format
 msgid ""
 "If you enable this option, applications will show small icons alongside some "
@@ -109,7 +109,7 @@ msgstr ""
 "Ak zapnete túto voľbu, aplikácie budú zobrazovať malé ikony vedľa "
 "niektorýchdôležitých tlačidiel."
 
-#: kcmstyle.cpp:703
+#: kcmstyle.cpp:694
 #, kde-format
 msgid ""
 "If you enable this option, applications will show small icons alongside most "
@@ -118,7 +118,7 @@ msgstr ""
 "Ak zapnete túto voľbu, aplikácie budú zobrazovať malé ikony vedľa väčšiny "
 "položiek menu."
 
-#: kcmstyle.cpp:705
+#: kcmstyle.cpp:696
 #, kde-format
 msgid ""
 "<p><b>No text:</b> Shows only icons on toolbar buttons. Best option for low "
@@ -133,7 +133,7 @@ msgstr ""
 "vedľa ikony.</p><b>Text pod ikonami:</b> Zobrazí na tlačidlách text aj "
 "ikony. Text bude zarovnaný pod ikonou."
 
-#: styleconfdialog.cpp:29
+#: styleconfdialog.cpp:33
 #, kde-format
 msgid "Configure %1"
 msgstr "Nastaviť %1"

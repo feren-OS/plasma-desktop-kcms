@@ -25,7 +25,7 @@
 #include <QDBusPendingReply>
 #include <QCheckBox>
 #include <QFileInfo>
-//Added by qt3to4:
+
 #include <QVBoxLayout>
 
 #include <kconfig.h>
@@ -47,6 +47,7 @@
 #include <KLocalizedString>
 
 #include "kworkspace.h"
+#include <sessionmanagement.h>
 
 #include "login1_manager.h"
 
@@ -80,8 +81,17 @@ SMServerConfig::SMServerConfig(QWidget *parent, const QVariantList &args)
 void SMServerConfig::initFirmwareSetup()
 {
     m_rebootNowAction = new QAction(QIcon::fromTheme(QStringLiteral("system-reboot")), i18n("Restart Now"));
-    connect(m_rebootNowAction, &QAction::triggered, this, [] {
-        KWorkSpace::requestShutDown(KWorkSpace::ShutdownConfirmNo, KWorkSpace::ShutdownTypeReboot);
+    connect(m_rebootNowAction, &QAction::triggered, this, [this] {
+        auto sm = new SessionManagement(this);
+        auto doShutdown=[sm]() {
+            sm->requestReboot();
+            delete sm;
+        };
+        if (sm->state() == SessionManagement::State::Loading) {
+            connect(sm, &SessionManagement::stateChanged, this, doShutdown);
+        } else {
+            doShutdown();
+        }
     });
 
     connect(dialog->firmwareSetupCheck, &QCheckBox::clicked, this, [this](bool enable) {
@@ -160,9 +170,9 @@ void SMServerConfig::load()
   dialog->sdGroup->setEnabled(en);
 
   QString s = c.readEntry( "loginMode" );
-  if ( s == QStringLiteral("default") )
+  if ( s == QLatin1String("default") )
       dialog->emptySessionRadio->setChecked(true);
-  else if ( s == QStringLiteral("restoreSavedSession") )
+  else if ( s == QLatin1String("restoreSavedSession") )
       dialog->savedSessionRadio->setChecked(true);
   else // "restorePreviousLogout"
       dialog->previousSessionRadio->setChecked(true);

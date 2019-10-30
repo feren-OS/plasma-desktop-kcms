@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KDE 4.1\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"POT-Creation-Date: 2019-05-29 03:32+0200\n"
 "PO-Revision-Date: 2017-02-03 15:31+0100\n"
 "Last-Translator: Kiszel Kristóf <kiszel.kristof@gmail.com>\n"
 "Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
@@ -472,22 +472,22 @@ msgstr ""
 msgid "Mouse keys has been disabled."
 msgstr "Egérmozgatás billentyűkkel kikapcsolva."
 
-#: main.cpp:55
+#: main.cpp:54
 #, kde-format
 msgid "KDE Accessibility Tool"
 msgstr "KDE segédeszköz fogyatékosoknak"
 
-#: main.cpp:57
+#: main.cpp:56
 #, kde-format
 msgid "(c) 2000, Matthias Hoelzer-Kluepfel"
 msgstr "(C) Matthias Hoelzer-Kluepfel, 2000."
 
-#: main.cpp:59
+#: main.cpp:58
 #, kde-format
 msgid "Matthias Hoelzer-Kluepfel"
 msgstr "Matthias Hoelzer-Kluepfel"
 
-#: main.cpp:59
+#: main.cpp:58
 #, kde-format
 msgid "Author"
 msgstr "Szerző"

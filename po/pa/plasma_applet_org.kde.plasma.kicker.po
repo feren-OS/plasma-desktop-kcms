@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-06-23 07:22+0200\n"
+"POT-Creation-Date: 2019-09-17 03:28+0200\n"
 "PO-Revision-Date: 2016-08-08 15:20-0600\n"
 "Last-Translator: A S Alam <aalam@users.sf.net>\n"
 "Language-Team: Punjabi <punjabi-users@lists.sf.net>\n"
@@ -39,124 +39,129 @@ msgstr ""
 
 #: package/contents/ui/code/tools.js:133
 #, kde-format
-msgid "On The Current Activity"
+msgid "On the Current Activity"
 msgstr ""
 
 #: package/contents/ui/code/tools.js:147
 #, fuzzy, kde-format
 #| msgid "Favorites"
-msgid "Show In Favorites"
+msgid "Show in Favorites"
 msgstr "ਪਸੰਦੀਦਾ"
 
-#: package/contents/ui/ConfigGeneral.qml:58
+#: package/contents/ui/ConfigGeneral.qml:59
 #, fuzzy, kde-format
 #| msgid "Icon"
 msgid "Icon:"
 msgstr "ਆਈਕਾਨ"
 
-#: package/contents/ui/ConfigGeneral.qml:138
+#: package/contents/ui/ConfigGeneral.qml:139
 #, kde-format
 msgctxt "@item:inmenu Open icon chooser dialog"
 msgid "Choose..."
 msgstr ""
 
-#: package/contents/ui/ConfigGeneral.qml:143
+#: package/contents/ui/ConfigGeneral.qml:144
 #, kde-format
 msgctxt "@item:inmenu Reset icon to default"
 msgid "Clear Icon"
 msgstr ""
 
-#: package/contents/ui/ConfigGeneral.qml:161
+#: package/contents/ui/ConfigGeneral.qml:162
 #, kde-format
 msgid "Show applications as:"
 msgstr "ਐਪਲੀਕੇਸ਼ਨ ਵਜੋਂ ਵੇਖਾਓ:"
 
-#: package/contents/ui/ConfigGeneral.qml:163
+#: package/contents/ui/ConfigGeneral.qml:164
 #, kde-format
 msgid "Name only"
 msgstr "ਕੇਵਲ ਨਾਂ"
 
-#: package/contents/ui/ConfigGeneral.qml:163
+#: package/contents/ui/ConfigGeneral.qml:164
 #, kde-format
 msgid "Description only"
 msgstr "ਕੇਵਲ ਵੇਰਵਾ"
 
-#: package/contents/ui/ConfigGeneral.qml:163
+#: package/contents/ui/ConfigGeneral.qml:164
 #, kde-format
 msgid "Name (Description)"
 msgstr "ਨਾਂ (ਵੇਰਵਾ)"
 
-#: package/contents/ui/ConfigGeneral.qml:163
+#: package/contents/ui/ConfigGeneral.qml:164
 #, kde-format
 msgid "Description (Name)"
 msgstr "ਵੇਰਵਾ (ਨਾਂ)"
 
-#: package/contents/ui/ConfigGeneral.qml:173
+#: package/contents/ui/ConfigGeneral.qml:174
 #, fuzzy, kde-format
 #| msgid "Behavior"
 msgid "Behavior:"
 msgstr "ਰਵੱਈਆ"
 
-#: package/contents/ui/ConfigGeneral.qml:175
+#: package/contents/ui/ConfigGeneral.qml:176
 #, fuzzy, kde-format
 #| msgid "Show applications as:"
 msgid "Sort applications alphabetically"
 msgstr "ਐਪਲੀਕੇਸ਼ਨ ਵਜੋਂ ਵੇਖਾਓ:"
 
-#: package/contents/ui/ConfigGeneral.qml:183
+#: package/contents/ui/ConfigGeneral.qml:184
 #, fuzzy, kde-format
 #| msgid "Flatten menu to a single level"
 msgid "Flatten sub-menus to a single level"
 msgstr "ਇੱਕ ਪੱਧਰ ਲਈ ਸਮਤਲ ਮੀਨੂ"
 
-#: package/contents/ui/ConfigGeneral.qml:194
+#: package/contents/ui/ConfigGeneral.qml:192
+#, kde-format
+msgid "Show icons on the root level of the menu"
+msgstr ""
+
+#: package/contents/ui/ConfigGeneral.qml:202
 #, fuzzy, kde-format
 #| msgid "Categories"
 msgid "Show categories:"
 msgstr "ਕੈਟਾਗਰੀਆਂ"
 
-#: package/contents/ui/ConfigGeneral.qml:197
+#: package/contents/ui/ConfigGeneral.qml:205
 #, fuzzy, kde-format
 #| msgid "Recent Applications"
 msgid "Recent applications"
 msgstr "ਤਾਜ਼ਾ ਐਪਲੀਕੇਸ਼ਨ"
 
-#: package/contents/ui/ConfigGeneral.qml:198
+#: package/contents/ui/ConfigGeneral.qml:206
 #, fuzzy, kde-format
 #| msgid "Recent Applications"
 msgid "Often used applications"
 msgstr "ਤਾਜ਼ਾ ਐਪਲੀਕੇਸ਼ਨ"
 
-#: package/contents/ui/ConfigGeneral.qml:205
+#: package/contents/ui/ConfigGeneral.qml:213
 #, fuzzy, kde-format
 #| msgid "Recent Documents"
 msgid "Recent documents"
 msgstr "ਤਾਜ਼ਾ ਦਸਤਾਵੇਜ਼"
 
-#: package/contents/ui/ConfigGeneral.qml:206
+#: package/contents/ui/ConfigGeneral.qml:214
 #, fuzzy, kde-format
 #| msgid "Recent Documents"
 msgid "Often used documents"
 msgstr "ਤਾਜ਼ਾ ਦਸਤਾਵੇਜ਼"
 
-#: package/contents/ui/ConfigGeneral.qml:213
+#: package/contents/ui/ConfigGeneral.qml:221
 #, fuzzy, kde-format
 #| msgid "Recent Contacts"
 msgid "Recent contacts"
 msgstr "ਤਾਜ਼ਾ ਸੰਪਰਕ"
 
-#: package/contents/ui/ConfigGeneral.qml:214
+#: package/contents/ui/ConfigGeneral.qml:222
 #, fuzzy, kde-format
 #| msgid "Show recent contacts"
 msgid "Often used contacts"
 msgstr "ਤਾਜ਼ਾ ਸੰਪਰਕਾਂ ਨੂੰ ਵੇਖਾਓ"
 
-#: package/contents/ui/ConfigGeneral.qml:220
+#: package/contents/ui/ConfigGeneral.qml:228
 #, kde-format
 msgid "Sort items in categories by:"
 msgstr ""
 
-#: package/contents/ui/ConfigGeneral.qml:221
+#: package/contents/ui/ConfigGeneral.qml:229
 #, fuzzy, kde-format
 #| msgid "Recently Used"
 msgctxt ""
@@ -164,7 +169,7 @@ msgctxt ""
 msgid "Recently used"
 msgstr "ਤਾਜ਼ਾ ਵਰਤੇ"
 
-#: package/contents/ui/ConfigGeneral.qml:221
+#: package/contents/ui/ConfigGeneral.qml:229
 #, fuzzy, kde-format
 #| msgid "Recently Used"
 msgctxt ""
@@ -172,18 +177,18 @@ msgctxt ""
 msgid "Often used"
 msgstr "ਤਾਜ਼ਾ ਵਰਤੇ"
 
-#: package/contents/ui/ConfigGeneral.qml:231
+#: package/contents/ui/ConfigGeneral.qml:239
 #, fuzzy, kde-format
 #| msgid "Search"
 msgid "Search:"
 msgstr "ਖੋਜ"
 
-#: package/contents/ui/ConfigGeneral.qml:233
+#: package/contents/ui/ConfigGeneral.qml:241
 #, kde-format
 msgid "Expand search to bookmarks, files and emails"
 msgstr "ਬੁੱਕਮਾਰਕ, ਫਾਇਲਾਂ ਅਤੇ ਈਮੇਲਾਂ ਲਈ ਖੋਜ ਕਰੋ"
 
-#: package/contents/ui/ConfigGeneral.qml:241
+#: package/contents/ui/ConfigGeneral.qml:249
 #, kde-format
 msgid "Align search results to bottom"
 msgstr "ਖੋਜ ਨਤੀਜਿਆਂ ਨੂੰ ਤਲ ਉੱਤੇ ਇਕਸਾਰ ਕਰੋ"
@@ -200,7 +205,6 @@ msgid "Type to search..."
 msgstr "ਖੋਜਣ ਲਈ ਲਿਖੋ।"
 
 #: package/contents/ui/DashboardRepresentation.qml:405
-#: plugin/kastatsfavoritesmodel.cpp:494 plugin/simplefavoritesmodel.cpp:43
 #, kde-format
 msgid "Favorites"
 msgstr "ਪਸੰਦੀਦਾ"
@@ -216,7 +220,7 @@ msgstr ""
 msgid "Apps & Docs"
 msgstr ""
 
-#: package/contents/ui/main.qml:272
+#: package/contents/ui/main.qml:273
 #, kde-format
 msgid "Edit Applications..."
 msgstr "...ਐਪਲੀਕੇਸ਼ਨ ਨੂੰ ਸੋਧੋ"
@@ -225,290 +229,3 @@ msgstr "...ਐਪਲੀਕੇਸ਼ਨ ਨੂੰ ਸੋਧੋ"
 #, kde-format
 msgid "Search..."
 msgstr "...ਖੋਜ"
-
-#: plugin/actionlist.cpp:95
-#, kde-format
-msgid "Open with:"
-msgstr "ਇਸ ਨਾਲ ਖੋਲ੍ਹੋ:"
-
-#: plugin/actionlist.cpp:108
-#, kde-format
-msgid "Properties"
-msgstr "ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ"
-
-#: plugin/actionlist.cpp:153
-#, kde-format
-msgid "Add to Desktop"
-msgstr "ਡੈਸਕਟਾਪ ਵਿੱਚ ਜੋੜੋ"
-
-#: plugin/actionlist.cpp:157
-#, fuzzy, kde-format
-#| msgid "Add to Panel"
-msgid "Add to Panel (Widget)"
-msgstr "ਪੈਨਲ ਵਿੱਚ ਜੋੜੋ"
-
-#: plugin/actionlist.cpp:161
-#, kde-format
-msgid "Pin to Task Manager"
-msgstr ""
-
-#: plugin/actionlist.cpp:270 plugin/rootmodel.cpp:390
-#, kde-format
-msgid "Recent Documents"
-msgstr "ਤਾਜ਼ਾ ਦਸਤਾਵੇਜ਼"
-
-#: plugin/actionlist.cpp:280
-#, kde-format
-msgid "Forget Recent Documents"
-msgstr "ਤਾਜ਼ਾ ਦਸਤਾਵੇਜ਼ਾਂ ਨੂੰ ਭੁਲਾਓ"
-
-#: plugin/actionlist.cpp:336
-#, kde-format
-msgid "Edit Application..."
-msgstr "...ਐਪਲੀਕੇਸ਼ਨ ਨੂੰ ਸੋਧੋ"
-
-#: plugin/actionlist.cpp:383
-#, fuzzy, kde-format
-#| msgid "Remove '%1'..."
-msgctxt "@action opens a software center with the application"
-msgid "Manage '%1'..."
-msgstr "...'%1' ਹਟਾਓ"
-
-#: plugin/appentry.cpp:178
-#, kde-format
-msgid "Hide Application"
-msgstr "ਐਪਲੀਕੇਸ਼ਨ ਓਹਲੇ ਕਰੋ"
-
-#: plugin/appentry.cpp:237
-#, kde-format
-msgctxt "App name (Generic name)"
-msgid "%1 (%2)"
-msgstr "%1 (%2)"
-
-#: plugin/appentry.cpp:239
-#, kde-format
-msgctxt "Generic name (App name)"
-msgid "%1 (%2)"
-msgstr "%1 (%2)"
-
-#: plugin/appsmodel.cpp:45 plugin/appsmodel.cpp:69 plugin/computermodel.cpp:110
-#: plugin/computermodel.cpp:242 plugin/recentusagemodel.cpp:149
-#: plugin/recentusagemodel.cpp:209
-#, kde-format
-msgid "Applications"
-msgstr "ਐਪਲੀਕੇਸ਼ਨਾਂ"
-
-#: plugin/appsmodel.cpp:165
-#, kde-format
-msgid "Unhide Applications in this Submenu"
-msgstr "ਇਸ ਅਧੀਨ-ਮੇਨੂ ਵਿੱਚ ਐਪਲੀਕੇਸ਼ਨਾਂ ਨੂੰ ਲੁਕਾਓ"
-
-#: plugin/appsmodel.cpp:171
-#, kde-format
-msgid "Unhide Applications in '%1'"
-msgstr "'%1' ਵਿੱਚ ਐਪਲੀਕੇਸਨਾਂ ਨੂੰ ਨਾ-ਲੁਕਾਓ"
-
-#: plugin/computermodel.cpp:104
-#, kde-format
-msgid "Run Command..."
-msgstr "...ਕਮਾਂਡ ਨੂੰ ਚਲਾਓ"
-
-#: plugin/computermodel.cpp:108
-#, kde-format
-msgid "Run a command or a search query"
-msgstr "ਕਮਾਂਡ ਜਾਂ ਖੋਜ ਕਿਊਰੀ ਨੂੰ ਚਲਾਓ"
-
-#: plugin/computermodel.cpp:161
-#, kde-format
-msgid "Computer"
-msgstr "ਕੰਪਿਊਟਰ"
-
-#: plugin/contactentry.cpp:117 plugin/recentcontactsmodel.cpp:93
-#, kde-format
-msgid "Show Contact Information..."
-msgstr "...ਸੰਪਰਕ ਜਾਣਕਾਰੀ ਨੂੰ ਵੇਖਾਓ"
-
-#: plugin/recentcontactsmodel.cpp:52
-#, kde-format
-msgid "Contacts"
-msgstr "ਸੰਪਰਕ"
-
-#: plugin/recentcontactsmodel.cpp:85
-#, kde-format
-msgid "Forget Contact"
-msgstr "ਸੰਪਰਕ ਨੂੰ ਭੁਲਾਓ"
-
-#: plugin/recentcontactsmodel.cpp:88 plugin/recentcontactsmodel.cpp:165
-#, kde-format
-msgid "Forget All Contacts"
-msgstr "ਸਾਰੇ ਸੰਪਰਕਾਂ ਨੂੰ ਭੁਲਾਓ"
-
-#: plugin/recentusagemodel.cpp:147
-#, kde-format
-msgid "Recently Used"
-msgstr "ਤਾਜ਼ਾ ਵਰਤੇ"
-
-#: plugin/recentusagemodel.cpp:152 plugin/recentusagemodel.cpp:263
-#, kde-format
-msgid "Documents"
-msgstr "ਦਸਤਾਵੇਜ਼"
-
-#: plugin/recentusagemodel.cpp:227
-#, kde-format
-msgid "Forget Application"
-msgstr "ਐਪਲੀਕੇਸ਼ਨ ਨੂੰ ਭੁਲਾਓ"
-
-#: plugin/recentusagemodel.cpp:275
-#, kde-format
-msgid "Forget Document"
-msgstr "ਦਸਤਾਵੇਜ਼ ਨੂੰ ਭੁਲਾਓ"
-
-#: plugin/recentusagemodel.cpp:403
-#, kde-format
-msgid "Forget All"
-msgstr "ਸਭ ਨੂੰ ਭੁਲਾਓ"
-
-#: plugin/recentusagemodel.cpp:405
-#, kde-format
-msgid "Forget All Applications"
-msgstr "ਸਾਰੀਆਂ ਐਪਲੀਕੇਸ਼ਨਾਂ ਨੂੰ ਭੁਲਾਓ"
-
-#: plugin/recentusagemodel.cpp:408
-#, kde-format
-msgid "Forget All Documents"
-msgstr "ਤਾਜ਼ਾ ਦਸਤਾਵੇਜ਼ਾਂ ਨੂੰ ਭੁਲਾਓ"
-
-#: plugin/rootmodel.cpp:106
-#, kde-format
-msgid "Hide %1"
-msgstr "%1 ਨੂੰ ਲੁਕਾਓ"
-
-#: plugin/rootmodel.cpp:376
-#, kde-format
-msgid "All Applications"
-msgstr "ਸਭ ਐਪਲੀਕੇਸ਼ਨ"
-
-#: plugin/rootmodel.cpp:382
-#, kde-format
-msgid "Recent Contacts"
-msgstr "ਤਾਜ਼ਾ ਸੰਪਰਕ"
-
-#: plugin/rootmodel.cpp:391
-#, fuzzy, kde-format
-#| msgid "Recent Documents"
-msgid "Often Used Documents"
-msgstr "ਤਾਜ਼ਾ ਦਸਤਾਵੇਜ਼"
-
-#: plugin/rootmodel.cpp:401
-#, kde-format
-msgid "Recent Applications"
-msgstr "ਤਾਜ਼ਾ ਐਪਲੀਕੇਸ਼ਨ"
-
-#: plugin/rootmodel.cpp:402
-#, fuzzy, kde-format
-#| msgid "Recent Applications"
-msgid "Often Used Applications"
-msgstr "ਤਾਜ਼ਾ ਐਪਲੀਕੇਸ਼ਨ"
-
-#: plugin/rootmodel.cpp:416
-#, kde-format
-msgid "Power / Session"
-msgstr "ਪਾਵਰ / ਸ਼ੈਸ਼ਨ"
-
-#: plugin/runnermodel.cpp:238
-#, kde-format
-msgid "Search results"
-msgstr "ਖੋਜ ਦੇ ਨਤੀਜੇ"
-
-#: plugin/systementry.cpp:166
-#, kde-format
-msgid "Lock"
-msgstr "ਲਾਕ"
-
-#: plugin/systementry.cpp:169
-#, kde-format
-msgid "Log Out"
-msgstr ""
-
-#: plugin/systementry.cpp:172 plugin/systementry.cpp:240
-#, kde-format
-msgid "Save Session"
-msgstr "ਸ਼ੈਸ਼ਨ ਸੰਭਾਲੋ"
-
-#: plugin/systementry.cpp:175
-#, kde-format
-msgid "Switch User"
-msgstr "ਵਰਤੋਂਕਾਰ ਨੂੰ ਬਦਲੋ"
-
-#: plugin/systementry.cpp:178
-#, kde-format
-msgctxt "Suspend to RAM"
-msgid "Sleep"
-msgstr ""
-
-#: plugin/systementry.cpp:181
-#, kde-format
-msgid "Hibernate"
-msgstr "ਹਾਈਬਰਨੇਟ ਕਰੋ"
-
-#: plugin/systementry.cpp:184
-#, kde-format
-msgid "Restart"
-msgstr "ਮੁੜ-ਚਾਲੂ ਕਰੋ"
-
-#: plugin/systementry.cpp:187
-#, kde-format
-msgid "Shut Down"
-msgstr "ਬੰਦ ਕਰੋ"
-
-#: plugin/systementry.cpp:200 plugin/systementry.cpp:203
-#: plugin/systementry.cpp:206 plugin/systementry.cpp:209
-#, kde-format
-msgid "Session"
-msgstr "ਸ਼ੈਸ਼ਨ"
-
-#: plugin/systementry.cpp:212 plugin/systementry.cpp:215
-#: plugin/systementry.cpp:218 plugin/systementry.cpp:221
-#, kde-format
-msgid "System"
-msgstr "ਸਿਸਟਮ"
-
-#: plugin/systementry.cpp:234
-#, kde-format
-msgid "Lock screen"
-msgstr "ਸਕਰੀਨ ਨੂੰ ਲਾਕ ਕਰੋ"
-
-#: plugin/systementry.cpp:237
-#, kde-format
-msgid "End session"
-msgstr "ਸ਼ੈਸ਼ਨ ਖਤਮ ਕਰੋ"
-
-#: plugin/systementry.cpp:243
-#, kde-format
-msgid "Start a parallel session as a different user"
-msgstr "ਵੱਖਰੇ ਵਰਤੋਂਕਾਰ ਵਜੋਂ ਸਮਾਂਤਰ ਸ਼ੈਸ਼ਨ ਸ਼ੁਰੂ ਕਰੋ"
-
-#: plugin/systementry.cpp:246
-#, kde-format
-msgid "Suspend to RAM"
-msgstr "ਰੈਮ ਉੱਤੇ ਸਸਪੈਂਡ ਕਰੋ"
-
-#: plugin/systementry.cpp:249
-#, kde-format
-msgid "Suspend to disk"
-msgstr "ਡਿਸਕ ਉੱਤੇ ਸਸਪੈਂਡ ਕਰੋ"
-
-#: plugin/systementry.cpp:252
-#, kde-format
-msgid "Restart computer"
-msgstr "ਕੰਪਿਊਟਰ ਨੂੰ ਮੁੜ ਚਾਲੂ ਕਰੋ"
-
-#: plugin/systementry.cpp:255
-#, kde-format
-msgid "Turn off computer"
-msgstr "ਕੰਪਿਊਟਰ ਨੂੰ ਬੰਦ ਕਰੋ"
-
-#: plugin/systemmodel.cpp:75
-#, kde-format
-msgid "System actions"
-msgstr "ਸਿਸਟਮ ਕਾਰਵਾਈਆਂ"

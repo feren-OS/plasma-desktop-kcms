@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"POT-Creation-Date: 2019-08-11 03:10+0200\n"
 "PO-Revision-Date: 2014-07-25 15:04+0200\n"
 "Last-Translator: Giovanni Sora <g.sora@tiscali.it>\n"
 "Language-Team: Interlingua <kde-i18n-doc@kde.org>\n"
@@ -59,7 +59,7 @@ msgstr "%1 - %2"
 msgid "Any language"
 msgstr "Omne linguage"
 
-#: kcm_add_layout_dialog.cpp:141 kcm_view_models.cpp:319
+#: kcm_add_layout_dialog.cpp:141 kcm_view_models.cpp:311
 #, kde-format
 msgctxt "variant"
 msgid "Default"
@@ -403,28 +403,28 @@ msgid_plural "%1 shortcuts"
 msgstr[0] "%1 via breve"
 msgstr[1] "%1 Vias breve:"
 
-#: kcm_view_models.cpp:226
+#: kcm_view_models.cpp:220
 #, kde-format
 msgctxt "layout map name"
 msgid "Map"
 msgstr "Mappa"
 
-#: kcm_view_models.cpp:226
+#: kcm_view_models.cpp:220
 #, kde-format
 msgid "Layout"
 msgstr "Disposition"
 
-#: kcm_view_models.cpp:226
+#: kcm_view_models.cpp:220
 #, kde-format
 msgid "Variant"
 msgstr "Variante"
 
-#: kcm_view_models.cpp:226
+#: kcm_view_models.cpp:220
 #, kde-format
 msgid "Label"
 msgstr "Etiquetta"
 
-#: kcm_view_models.cpp:226
+#: kcm_view_models.cpp:220
 #, kde-format
 msgid "Shortcut"
 msgstr "Via Breve"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkonq\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"POT-Creation-Date: 2019-09-12 03:25+0200\n"
 "PO-Revision-Date: 2005-02-14 04:22-0800\n"
 "Last-Translator: Tamil PC <tamilpc@ambalam.com>\n"
 "Language-Team: Tamil <en@li.org>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
-#: globalpaths.cpp:113
+#: globalpaths.cpp:115
 #, fuzzy, kde-format
 msgid ""
 "<h1>Paths</h1>\n"
@@ -29,13 +29,13 @@ msgstr ""
 "கோப்பு அமைப்பில் உள்ள  கோப்புகளை வைத்திருப்பதற்கு இந்த கூறு உதவுகறது.\n"
 "குறிப்பிட்ட தேர்வுகளில் உதவியை பெறுவதற்கு \"Whats This?\" (Shift+F1) பயன்படுத்தவும்."
 
-#: globalpaths.cpp:118
+#: globalpaths.cpp:120
 #, fuzzy, kde-format
 #| msgid "Des&ktop path:"
 msgid "Desktop path:"
 msgstr "மேசைப் பாதை:"
 
-#: globalpaths.cpp:119
+#: globalpaths.cpp:121
 #, kde-format
 msgid ""
 "This folder contains all the files which you see on your desktop. You can "
@@ -45,13 +45,13 @@ msgstr ""
 "மேல்மேசைகளில் உள்ள எல்லா கோப்புகளும் இந்த அடைவில் உள்ளது.  இந்த அடைவின் இடத்தை மாற்றினால் "
 "அதில் உள்ள உள்ளடக்கங்களும் தானாகவே புது இடத்திற்கு மாறும்."
 
-#: globalpaths.cpp:124
+#: globalpaths.cpp:126
 #, fuzzy, kde-format
 #| msgid "A&utostart path:"
 msgid "Autostart path:"
 msgstr "தன்னாரம்பப் பாதை:"
 
-#: globalpaths.cpp:125
+#: globalpaths.cpp:127
 #, fuzzy, kde-format
 #| msgid ""
 #| "This folder contains applications or links to applications (shortcuts) "
@@ -68,51 +68,51 @@ msgstr ""
 "அடைவில் உள்ளது. இந்த அடைவின் இடத்தை மாற்றினால் அதில் உள்ள உள்ளடக்கங்களும் தானாகவே புது "
 "இடத்திற்கு மாறும்."
 
-#: globalpaths.cpp:131
+#: globalpaths.cpp:133
 #, fuzzy, kde-format
 #| msgid "D&ocuments path:"
 msgid "Documents path:"
 msgstr "ஆவணப் பாதை:"
 
-#: globalpaths.cpp:132
+#: globalpaths.cpp:134
 #, kde-format
 msgid ""
 "This folder will be used by default to load or save documents from or to."
 msgstr "ஆவணங்களை ஏற்றும்/சேமிக்கும் கொடாநிலை அடைவாக இவ்வடைவு புழங்கும்."
 
-#: globalpaths.cpp:135
+#: globalpaths.cpp:137
 #, fuzzy, kde-format
 #| msgid "D&ocuments path:"
 msgid "Downloads path:"
 msgstr "ஆவணப் பாதை:"
 
-#: globalpaths.cpp:136
+#: globalpaths.cpp:138
 #, fuzzy, kde-format
 #| msgid ""
 #| "This folder will be used by default to load or save documents from or to."
 msgid "This folder will be used by default to save your downloaded items."
 msgstr "ஆவணங்களை ஏற்றும்/சேமிக்கும் கொடாநிலை அடைவாக இவ்வடைவு புழங்கும்."
 
-#: globalpaths.cpp:139
+#: globalpaths.cpp:141
 #, fuzzy, kde-format
 #| msgid "D&ocuments path:"
 msgid "Movies path:"
 msgstr "ஆவணப் பாதை:"
 
-#: globalpaths.cpp:140
+#: globalpaths.cpp:142
 #, fuzzy, kde-format
 #| msgid ""
 #| "This folder will be used by default to load or save documents from or to."
 msgid "This folder will be used by default to load or save movies from or to."
 msgstr "ஆவணங்களை ஏற்றும்/சேமிக்கும் கொடாநிலை அடைவாக இவ்வடைவு புழங்கும்."
 
-#: globalpaths.cpp:143
+#: globalpaths.cpp:145
 #, fuzzy, kde-format
 #| msgid "D&ocuments path:"
 msgid "Pictures path:"
 msgstr "ஆவணப் பாதை:"
 
-#: globalpaths.cpp:144
+#: globalpaths.cpp:146
 #, fuzzy, kde-format
 #| msgid ""
 #| "This folder will be used by default to load or save documents from or to."
@@ -120,59 +120,59 @@ msgid ""
 "This folder will be used by default to load or save pictures from or to."
 msgstr "ஆவணங்களை ஏற்றும்/சேமிக்கும் கொடாநிலை அடைவாக இவ்வடைவு புழங்கும்."
 
-#: globalpaths.cpp:147
+#: globalpaths.cpp:149
 #, fuzzy, kde-format
 #| msgid "D&ocuments path:"
 msgid "Music path:"
 msgstr "ஆவணப் பாதை:"
 
-#: globalpaths.cpp:148
+#: globalpaths.cpp:150
 #, fuzzy, kde-format
 #| msgid ""
 #| "This folder will be used by default to load or save documents from or to."
 msgid "This folder will be used by default to load or save music from or to."
 msgstr "ஆவணங்களை ஏற்றும்/சேமிக்கும் கொடாநிலை அடைவாக இவ்வடைவு புழங்கும்."
 
-#: globalpaths.cpp:277 globalpaths.cpp:295
+#: globalpaths.cpp:279 globalpaths.cpp:297
 #, kde-format
 msgid "Autostart"
 msgstr "தானே துவங்கும்"
 
-#: globalpaths.cpp:281
+#: globalpaths.cpp:283
 #, kde-format
 msgid "Desktop"
 msgstr "மேல்மேசை"
 
-#: globalpaths.cpp:305
+#: globalpaths.cpp:307
 #, fuzzy, kde-format
 #| msgid "D&ocuments path:"
 msgid "Documents"
 msgstr "ஆவணப் பாதை:"
 
-#: globalpaths.cpp:308
+#: globalpaths.cpp:310
 #, fuzzy, kde-format
 #| msgid "D&ocuments path:"
 msgid "Downloads"
 msgstr "ஆவணப் பாதை:"
 
-#: globalpaths.cpp:311
+#: globalpaths.cpp:313
 #, fuzzy, kde-format
 #| msgid "D&ocuments path:"
 msgid "Movies"
 msgstr "ஆவணப் பாதை:"
 
-#: globalpaths.cpp:314
+#: globalpaths.cpp:316
 #, fuzzy, kde-format
 #| msgid "D&ocuments path:"
 msgid "Pictures"
 msgstr "ஆவணப் பாதை:"
 
-#: globalpaths.cpp:317
+#: globalpaths.cpp:319
 #, kde-format
 msgid "Music"
 msgstr ""
 
-#: globalpaths.cpp:376
+#: globalpaths.cpp:378
 #, fuzzy, kde-format
 #| msgid ""
 #| "The path for '%1' has been changed;\n"
@@ -184,19 +184,19 @@ msgstr ""
 "'%1' இன் பாதை மாற்றப்பட்டுள்ளது:\n"
 "கோப்புக்களை '%2' இலிருந்து '%3' இற்கு நகர்த்தவா?"
 
-#: globalpaths.cpp:379
+#: globalpaths.cpp:381
 #, kde-format
 msgctxt "Move files from old to new place"
 msgid "Move"
 msgstr ""
 
-#: globalpaths.cpp:380
+#: globalpaths.cpp:382
 #, kde-format
 msgctxt "Use the new directory but do not move files"
 msgid "Do not Move"
 msgstr ""
 
-#: globalpaths.cpp:382
+#: globalpaths.cpp:384
 #, fuzzy, kde-format
 #| msgid ""
 #| "The path for '%1' has been changed;\n"
@@ -208,19 +208,19 @@ msgstr ""
 "'%1' இன் பாதை மாற்றப்பட்டுள்ளது:\n"
 "கோப்புக்களை '%2' இலிருந்து '%3' இற்கு நகர்த்தவா?"
 
-#: globalpaths.cpp:385
+#: globalpaths.cpp:387
 #, kde-format
 msgctxt "Move the directory"
 msgid "Move"
 msgstr ""
 
-#: globalpaths.cpp:386
+#: globalpaths.cpp:388
 #, kde-format
 msgctxt "Use the new directory but do not move anything"
 msgid "Do not Move"
 msgstr ""
 
-#: globalpaths.cpp:390
+#: globalpaths.cpp:392
 #, kde-format
 msgid "Confirmation Required"
 msgstr "உறுதிப்படுத்தல் தேவைப்படுகிறது"

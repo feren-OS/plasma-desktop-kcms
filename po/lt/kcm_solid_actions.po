@@ -9,9 +9,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcm_solid_actions\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
-"PO-Revision-Date: 2015-01-25 12:15+0200\n"
-"Last-Translator: Liudas Ališauskas <liudas@akmc.lt>\n"
+"POT-Creation-Date: 2019-05-20 03:25+0200\n"
+"PO-Revision-Date: 2019-07-31 12:06+0300\n"
+"Last-Translator: Moo\n"
 "Language-Team: Lithuanian <kde-i18n-lt@kde.org>\n"
 "Language: lt\n"
 "MIME-Version: 1.0\n"
@@ -19,22 +19,22 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : n%10>=2 && (n%100<10 || n"
 "%100>=20) ? 1 : n%10==0 || (n%100>10 && n%100<20) ? 2 : 3);\n"
-"X-Generator: Lokalize 1.5\n"
+"X-Generator: Poedit 2.0.6\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "Andrius Štikonas, Liudas Ališauskas"
+msgstr "Andrius Štikonas, Liudas Ališauskas, Moo"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "andrius@stikonas.eu, liudas@akmc.lt"
+msgstr "andrius@stikonas.eu, liudas@akmc.lt, <>"
 
 #: ActionEditor.cpp:72
 #, kde-format
 msgid "Editing Action '%1'"
-msgstr "Keičiamas veiksmas „%1“"
+msgstr "Taisomas veiksmas „%1“"
 
 #: ActionEditor.cpp:173
 #, kde-format
@@ -42,9 +42,9 @@ msgid ""
 "It appears that the action name, command, icon or condition are not valid.\n"
 "Therefore, changes will not be applied."
 msgstr ""
-"Panašu, kad nekorektiškas veiksmo pavadinimas, komanda, ženkliukas arba "
-"sąlyga.\n"
-"Taigi pakeitimai nebus pritaikyti."
+"Panašu, kad veiksmo pavadinimas, komanda, piktograma ar sąlyga yra "
+"netinkami.\n"
+"Taigi, pakeitimai nebus pritaikyti."
 
 #: ActionEditor.cpp:173
 #, kde-format
@@ -55,7 +55,7 @@ msgstr "Netinkamas veiksmas"
 #: ActionEditor.ui:17
 #, kde-format
 msgid "Edit Parameter"
-msgstr "Keisti parametrą"
+msgstr "Taisyti parametrą"
 
 #. i18n: ectx: property (text), widget (QLabel, LblParameterType)
 #: ActionEditor.ui:43
@@ -97,7 +97,7 @@ msgstr "Įrenginio tipas:"
 #: ActionEditor.ui:135
 #, kde-format
 msgid "Value name:"
-msgstr "Vertės pavadinimas:"
+msgstr "Reikšmės pavadinimas:"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, CbValueMatch)
 #: ActionEditor.ui:175
@@ -127,7 +127,7 @@ msgstr "Įrašyti parametrų pakeitimus"
 #: ActionEditor.ui:247
 #, kde-format
 msgid "Action icon, click to change it"
-msgstr "Veiksmo ženkliukas, spragtelėkite, kad pakeistumėte"
+msgstr "Veiksmo piktograma, spustelėkite, norėdami pakeisti"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, LeActionFriendlyName)
 #: ActionEditor.ui:254
@@ -153,7 +153,7 @@ msgid ""
 "%i: The identifier of the device"
 msgstr ""
 "Komanda, kuri paleis veiksmą\n"
-"Tai gali būti vienas arba visi iš žemiau pateikiamų plėtinių (raidžių dydis "
+"Tai gali būti vienas arba visi iš žemiau pateikiamų išplėtimų (raidžių dydis "
 "nesvarbus):\n"
 "\n"
 "%f: Įrenginio prijungimo vieta - tik kaupikliams\n"
@@ -164,7 +164,7 @@ msgstr ""
 #: ActionEditor.ui:300
 #, kde-format
 msgid "Devices must match the following parameters for this action:"
-msgstr "Įrenginys veiksmui turi atitikti sekančius parametrus:"
+msgstr "Įrenginys šiam veiksmui privalo atitikti šiuos parametrus:"
 
 #. i18n: ectx: property (text), widget (QLabel, LblActionName)
 #: AddAction.ui:19
@@ -189,8 +189,8 @@ msgid ""
 "Tool to automatically generate Desktop Files from Solid DeviceInterface "
 "classes for translation"
 msgstr ""
-"Įrankinis automatiškam darbalaukio failų vertimui generavimui pagal solid "
-"įrenginių interfeiso klases"
+"Įrankis, skirtas automatiniam darbalaukio failų vertimui generavimui pagal "
+"Solid įrenginių sąsajos klases"
 
 #: DesktopFileGenerator.cpp:40
 #, kde-format
@@ -210,27 +210,27 @@ msgstr "Prižiūrėtojas"
 #: PredicateItem.cpp:132
 #, kde-format
 msgid "The device must be of the type %1"
-msgstr "Įrenginys turi būti tipo %1"
+msgstr "Įrenginys privalo būti tipo %1"
 
 #: PredicateItem.cpp:135
 #, kde-format
 msgid "Any of the contained properties must match"
-msgstr "Bet kuri iš turimų savybių turi sutapti"
+msgstr "Bet kuri iš turimų savybių privalo sutapti"
 
 #: PredicateItem.cpp:138
 #, kde-format
 msgid "All of the contained properties must match"
-msgstr "Visos iš turimų savybių turi sutapti"
+msgstr "Visos iš turimų savybių privalo sutapti"
 
 #: PredicateItem.cpp:147
 #, kde-format
 msgid "The device property %1 must equal %2"
-msgstr "Įrenginio savybė %1 turi būti lygi %2"
+msgstr "Įrenginio savybė %1 privalo būti lygi %2"
 
 #: PredicateItem.cpp:150
 #, kde-format
 msgid "The device property %1 must contain %2"
-msgstr "Įrenginio savybė %1 turi turėti %2"
+msgstr "Įrenginio savybė %1 privalo turėti %2"
 
 #: SolidActions.cpp:45
 #, kde-format
@@ -255,7 +255,7 @@ msgstr "Perkėlimas į Plasma 5"
 #: SolidActions.cpp:163
 #, kde-format
 msgid "It appears that the predicate for this action is not valid."
-msgstr "Panašu, kad šio veiksmo predikatas yra nekorektiškas."
+msgstr "Panašu, kad šio veiksmo predikatas yra neteisingas."
 
 #: SolidActions.cpp:163
 #, kde-format
@@ -276,13 +276,13 @@ msgstr "Negali būti ištrintas"
 #: SolidActions.ui:22
 #, kde-format
 msgid "Remove"
-msgstr "Pašalinti"
+msgstr "Šalinti"
 
 #. i18n: ectx: property (text), widget (QPushButton, PbEditAction)
 #: SolidActions.ui:29
 #, kde-format
 msgid "Edit..."
-msgstr "Keisti..."
+msgstr "Taisyti..."
 
 #. i18n: ectx: property (text), widget (QPushButton, PbAddAction)
 #: SolidActions.ui:36

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkeys\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"POT-Creation-Date: 2019-09-12 03:25+0200\n"
 "PO-Revision-Date: 2008-04-22 19:09+0530\n"
 "Last-Translator: ஆமாச்சு <amachu@ubuntu.com>\n"
 "Language-Team: en_US <ubuntu-l10n-tam@lists.ubuntu.com>\n"
@@ -33,57 +33,57 @@ msgstr ""
 msgid "Components"
 msgstr "கேபசூ பாகம்:"
 
-#: globalshortcuts.cpp:67
+#: globalshortcuts.cpp:65
 #, kde-format
 msgid "You are about to reset all shortcuts to their default values."
 msgstr ""
 
-#: globalshortcuts.cpp:68
+#: globalshortcuts.cpp:66
 #, kde-format
 msgid "Reset to defaults"
 msgstr ""
 
-#: globalshortcuts.cpp:69
+#: globalshortcuts.cpp:67
 #, fuzzy, kde-format
 #| msgid "KDE component:"
 msgid "Current Component"
 msgstr "கேபசூ பாகம்:"
 
-#: globalshortcuts.cpp:70
+#: globalshortcuts.cpp:68
 #, fuzzy, kde-format
 #| msgid "KDE component:"
 msgid "All Components"
 msgstr "கேபசூ பாகம்:"
 
-#: kglobalshortcutseditor.cpp:231
+#: kglobalshortcutseditor.cpp:233
 #, fuzzy, kde-format
 #| msgid "Import scheme..."
 msgid "Import Scheme..."
 msgstr "முறைமையை இறக்குக..."
 
-#: kglobalshortcutseditor.cpp:232
+#: kglobalshortcutseditor.cpp:234
 #, fuzzy, kde-format
 #| msgid "Export scheme..."
 msgid "Export Scheme..."
 msgstr "முறைமையை ஏற்றுக..."
 
-#: kglobalshortcutseditor.cpp:233
+#: kglobalshortcutseditor.cpp:235
 #, kde-format
 msgid "Set All Shortcuts to None"
 msgstr ""
 
-#: kglobalshortcutseditor.cpp:241
+#: kglobalshortcutseditor.cpp:243
 #, fuzzy, kde-format
 #| msgid "Application Missing"
 msgid "Applications"
 msgstr "இல்லாத பயன்பாட்டு "
 
-#: kglobalshortcutseditor.cpp:292
+#: kglobalshortcutseditor.cpp:294
 #, kde-format
 msgid "Launch %1"
 msgstr ""
 
-#: kglobalshortcutseditor.cpp:328
+#: kglobalshortcutseditor.cpp:330
 #, kde-format
 msgid ""
 "Component '%1' is currently active. Only global shortcuts currently not "
@@ -92,13 +92,13 @@ msgid ""
 "they are next started."
 msgstr ""
 
-#: kglobalshortcutseditor.cpp:330 kglobalshortcutseditor.cpp:340
+#: kglobalshortcutseditor.cpp:332 kglobalshortcutseditor.cpp:342
 #, fuzzy, kde-format
 #| msgid "KDE component:"
 msgid "Remove component"
 msgstr "கேபசூ பாகம்:"
 
-#: kglobalshortcutseditor.cpp:336
+#: kglobalshortcutseditor.cpp:338
 #, kde-format
 msgid ""
 "Are you sure you want to remove the registered shortcuts for component '%1'? "
@@ -106,32 +106,32 @@ msgid ""
 "settings when they are next started."
 msgstr ""
 
-#: kglobalshortcutseditor.cpp:450
+#: kglobalshortcutseditor.cpp:452
 #, fuzzy, kde-format
 #| msgid "App&lication Shortcuts"
 msgid "Application Launchers"
 msgstr "பயன்பாட்டு குறுக்குவழிகள்"
 
-#: kglobalshortcutseditor.cpp:453
+#: kglobalshortcutseditor.cpp:455
 #, fuzzy, kde-format
 #| msgid "Shortcuts:"
 msgid "Other Shortcuts"
 msgstr "சுருக்குவழிகள்:"
 
-#: kglobalshortcutseditor.cpp:558
+#: kglobalshortcutseditor.cpp:560
 #, kde-format
 msgid ""
 "Your current changes will be lost if you load another scheme before saving "
 "this one"
 msgstr "இதனை காக்கும் முன் வேறு முறைமையை ஏற்றினால் தங்களது தற்போதைய மாற்றங்கள் இழக்கப்படும்"
 
-#: kglobalshortcutseditor.cpp:559
+#: kglobalshortcutseditor.cpp:561
 #, fuzzy, kde-format
 #| msgid "Load shortcurt scheme"
 msgid "Load Shortcut Scheme"
 msgstr "சுருக்கு முறைமைகளை ஏற்றுக"
 
-#: kglobalshortcutseditor.cpp:560
+#: kglobalshortcutseditor.cpp:562
 #, kde-format
 msgid "Load"
 msgstr "ஏற்றுக"
@@ -141,7 +141,7 @@ msgstr "ஏற்றுக"
 msgid "This file (%1) does not exist. You can only select local files."
 msgstr "(%1) கோப்பு இல்லை. அகக் கோப்புகளை தாங்கள் தேர்வு செய்யலாம்."
 
-#: kglobalshortcutseditor.cpp:601 kglobalshortcutseditor.cpp:624
+#: kglobalshortcutseditor.cpp:602 kglobalshortcutseditor.cpp:625
 #, kde-format
 msgid ""
 "Message: %1\n"
@@ -150,7 +150,7 @@ msgstr ""
 "தகவல்: %1\n"
 "வழு: %2"
 
-#: kglobalshortcutseditor.cpp:606 kglobalshortcutseditor.cpp:629
+#: kglobalshortcutseditor.cpp:607 kglobalshortcutseditor.cpp:630
 #, kde-format
 msgid "Failed to contact the KDE global shortcuts daemon\n"
 msgstr "கேபசூ பொதுவான சுருக்கு மறைநிரலை தொடர்புகொள்ள இயலவில்லை\n"

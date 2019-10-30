@@ -9,9 +9,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcm_autostart\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
-"PO-Revision-Date: 2017-06-25 00:57+0200\n"
-"Last-Translator: Mindaugas Baranauskas <opensuse.lietuviu.kalba@gmail.com>\n"
+"POT-Creation-Date: 2019-05-20 03:25+0200\n"
+"PO-Revision-Date: 2019-06-01 19:23+0000\n"
+"Last-Translator: Moo\n"
 "Language-Team: Lithuanian <kde-i18n-lt@kde.org>\n"
 "Language: lt\n"
 "MIME-Version: 1.0\n"
@@ -19,22 +19,22 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : n%10>=2 && (n%100<10 || n"
 "%100>=20) ? 1 : n%10==0 || (n%100>10 && n%100<20) ? 2 : 3);\n"
-"X-Generator: Lokalize 2.0\n"
+"X-Generator: Poedit 2.0.6\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "Matas Brazdeikis, Antanas Uršulis"
+msgstr "Matas Brazdeikis, Antanas Uršulis, Moo"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "matasbbb@gmail.com, antanas.ursulis@gmail.com"
+msgstr "matasbbb@gmail.com, antanas.ursulis@gmail.com, <>"
 
 #: addscriptdialog.cpp:40
 #, kde-format
 msgid "Shell script path:"
-msgstr "Apvalkalo scenarijus kelias:"
+msgstr "Apvalkalo scenarijaus kelias:"
 
 #: addscriptdialog.cpp:44
 #, kde-format
@@ -44,12 +44,12 @@ msgstr "Sukurti simbolinę nuorodą"
 #: addscriptdialog.cpp:79
 #, kde-format
 msgid "\"%1\" is not an absolute path."
-msgstr "„%1“ nėra absoliutus kelias."
+msgstr "„%1“ nėra absoliutusis kelias."
 
 #: addscriptdialog.cpp:82
 #, kde-format
 msgid "\"%1\" does not exist."
-msgstr "„%1“ neegzistuoja."
+msgstr "„%1“ nėra."
 
 #: addscriptdialog.cpp:85
 #, kde-format
@@ -62,15 +62,14 @@ msgid "\"%1\" is not readable."
 msgstr "„%1“ yra neskaitomas."
 
 #: advanceddialog.cpp:32
-#, fuzzy, kde-format
-#| msgid "Autostart only in KDE"
+#, kde-format
 msgid "Autostart only in Plasma"
-msgstr "Automatiškai startuoti tik su KDE"
+msgstr "Automatiškai paleisti tik Plasma seanse"
 
 #: autostart.cpp:53
 #, kde-format
 msgid "Name"
-msgstr "Vardas"
+msgstr "Pavadinimas"
 
 #: autostart.cpp:54
 #, kde-format
@@ -83,33 +82,27 @@ msgid "Status"
 msgstr "Būsena"
 
 #: autostart.cpp:56
-#, fuzzy, kde-format
-#| msgctxt ""
-#| "@title:column The name of the column that decides if the program is run "
-#| "on kde startup, on kde shutdown, etc"
-#| msgid "Run On"
+#, kde-format
 msgctxt ""
 "@title:column The name of the column that decides if the program is run on "
 "session startup, on session shutdown, etc"
 msgid "Run On"
-msgstr "Vykdymo momentas"
+msgstr "Kada paleisti"
 
 #: autostart.cpp:75
-#, fuzzy, kde-format
-#| msgid "KDE Autostart Manager"
+#, kde-format
 msgid "Session Autostart Manager"
-msgstr "KDE automatinio paleidimo tvarkyklė"
+msgstr "Seanso automatinio paleidimo tvarkytuvė"
 
 #: autostart.cpp:77
-#, fuzzy, kde-format
-#| msgid "KDE Autostart Manager Control Panel Module"
+#, kde-format
 msgid "Session Autostart Manager Control Panel Module"
-msgstr "KDE automatinio paleidimo tvarkyklės valdymo pulto modulis"
+msgstr "Seanso automatinio paleidimo tvarkytuvės valdymo skydelio modulis"
 
 #: autostart.cpp:79
 #, kde-format
 msgid "Copyright © 2006–2010 Autostart Manager team"
-msgstr "(c) 2006-2008 Automatinio paleidimo tvarkyklės komanda"
+msgstr "Autorių teisės © 2006–2010 Automatinio paleidimo tvarkytuvės komanda"
 
 #: autostart.cpp:80
 #, kde-format
@@ -130,13 +123,13 @@ msgstr "Prižiūrėtojas"
 #, kde-format
 msgctxt "The program won't be run"
 msgid "Disabled"
-msgstr "Išjungtas"
+msgstr "Išjungta"
 
 #: autostart.cpp:110 autostart.cpp:122 autostartitem.cpp:77
 #, kde-format
 msgctxt "The program will be run"
 msgid "Enabled"
-msgstr "Įjungtas"
+msgstr "Įjungta"
 
 #: autostart.cpp:156
 #, kde-format
@@ -146,17 +139,17 @@ msgstr "Paleidimo metu"
 #: autostart.cpp:157
 #, kde-format
 msgid "Logout"
-msgstr "Atsijungiant"
+msgstr "Atsijungimo metu"
 
 #: autostart.cpp:158
 #, kde-format
 msgid "Before session startup"
-msgstr "Prieš pradedant seansą"
+msgstr "Prieš seanso paleidimą"
 
 #: autostart.cpp:163
 #, kde-format
 msgid "Desktop File"
-msgstr "*.desktop failas"
+msgstr "Darbalaukio failas"
 
 #: autostart.cpp:171
 #, kde-format
@@ -167,9 +160,7 @@ msgstr "Scenarijaus failas"
 #, kde-format
 msgid ""
 "Only files with “.sh” extensions are allowed for setting up the environment."
-msgstr ""
-"Nustatydama sistemos aplinkos pasirinkimus KDE skaito tiktai failus su „.sh“ "
-"plėtiniais."
+msgstr "Aplinkos nustatymui yra leidžiami tik failai su „.sh“ plėtiniais."
 
 #. i18n: ectx: property (text), widget (QPushButton, btnProperties)
 #: autostartconfig.ui:17
@@ -187,7 +178,7 @@ msgstr "Pridėti scenarijų..."
 #: autostartconfig.ui:46
 #, kde-format
 msgid "&Remove"
-msgstr "&Pašalinti"
+msgstr "Ša&linti"
 
 #. i18n: ectx: property (text), widget (QPushButton, btnAdvanced)
 #: autostartconfig.ui:53

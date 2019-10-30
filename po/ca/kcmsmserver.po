@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmsmserver\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"POT-Creation-Date: 2019-07-11 03:14+0200\n"
 "PO-Revision-Date: 2019-03-15 21:01+0100\n"
 "Last-Translator: Josep Ma. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
@@ -23,7 +23,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Accelerator-Marker: &\n"
 
-#: kcmsmserver.cpp:62
+#: kcmsmserver.cpp:63
 #, kde-format
 msgid ""
 "<h1>Session Manager</h1> You can configure the session manager here. This "
@@ -37,18 +37,18 @@ msgstr ""
 "s'ha de tornar a restaurar la sessió en tornar-se a connectar i si "
 "l'ordinador s'ha d'apagar automàticament en sortir de la sessió."
 
-#: kcmsmserver.cpp:82
+#: kcmsmserver.cpp:83
 #, kde-format
 msgid "Restart Now"
 msgstr "Reinicia ara"
 
-#: kcmsmserver.cpp:114
+#: kcmsmserver.cpp:124
 #, kde-format
 msgid "Failed to request restart to firmware setup: %1"
 msgstr ""
 "Ha fallat en sol·licitar un reinici a la configuració del microprogramari: %1"
 
-#: kcmsmserver.cpp:126
+#: kcmsmserver.cpp:136
 #, kde-format
 msgid ""
 "Next time the computer is restarted, it will enter the UEFI setup screen."
@@ -56,7 +56,7 @@ msgstr ""
 "La propera vegada que es reiniciï l'ordinador, presentarà la configuració de "
 "la UEFI."
 
-#: kcmsmserver.cpp:128
+#: kcmsmserver.cpp:138
 #, kde-format
 msgid ""
 "Next time the computer is restarted, it will enter the firmware setup screen."
@@ -64,12 +64,12 @@ msgstr ""
 "La propera vegada que es reiniciï l'ordinador, presentarà la configuració "
 "del microprogramari."
 
-#: kcmsmserver.cpp:140
+#: kcmsmserver.cpp:150
 #, kde-format
 msgid "UEFI Setup"
 msgstr "Configuració de la UEFI"
 
-#: kcmsmserver.cpp:141
+#: kcmsmserver.cpp:151
 #, kde-format
 msgid "Enter UEFI setup on next restart"
 msgstr "Entra a la configuració de la UEFI en el proper reinici"

@@ -38,7 +38,7 @@
 >Gestor de l'inici automàtic</title>
 
 <para
->Aquest mòdul és una eina de configuració per a la gestió dels programes que s'inicien amb el vostre &plasma; personal. Permet afegir programes o scripts perquè s'iniciïn automàticament durant l'inici de la vostra sessió del &plasma; i per a gestionar-los.</para>
+>Aquest mòdul és una eina de configuració per a la gestió dels programes que s'inicien amb el vostre &plasma; personal. Permet afegir programes o scripts perquè s'executin automàticament durant l'inici o sortida de la vostra sessió del &plasma; i per a gestionar-los.</para>
 
 <note
 ><para
@@ -198,7 +198,7 @@
 > i seran executats automàticament durant l'aturada del &plasma;, una vegada l'usuari hagi tancat la sessió. </para>
 <para
 >Els scripts establerts a ser executats durant l'<guilabel
->Inici previ al &kde;</guilabel
+>Inici previ al &plasma;</guilabel
 > són copiats o es crea un enllaç simbòlic en <filename class="directory"
 >$HOME/.config/plasma-workspace/env</filename
 > i seran inclosos durant l'inici del &plasma; (és a on l'script <filename

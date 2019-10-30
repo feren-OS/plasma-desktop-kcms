@@ -1,12 +1,6 @@
 # translation of kaccess.po to galician
 # Galician translation of kaccess.
 # Copyright (C) 2000 Jesús Bravo Álvarez.
-#
-# Proxecto Trasno - Adaptación do software libre á lingua galega:  Se desexas
-# colaborar connosco, podes atopar máis información en http://trasno.gpul.org
-#
-# First Version: 2000-09-25 21:38+0200
-#
 # Jesús Bravo Álvarez <jba@pobox.com>, 2000.
 # Xabi García <xabigf@gmx.net>, 2003.
 # Xabi G. Feal <xabigf@gmx.net>, 2006.
@@ -14,24 +8,27 @@
 # marce villarino <mvillarino@users.sourceforge.net>, 2009.
 # Marce Villarino <mvillarino@gmail.com>, 2009, 2014.
 # Adrián Chaves Fernández <adriyetichaves@gmail.com>, 2015, 2017.
-# Adrián Chaves (Gallaecio) <adrian@chaves.io>, 2017, 2018.
+# Adrián Chaves (Gallaecio) <adrian@chaves.io>, 2017, 2018, 2019.
+#
+# Proxecto Trasno - Adaptación do software libre á lingua galega:  Se desexas
+# colaborar connosco, podes atopar máis información en http://trasno.gpul.org
+#
+# First Version: 2000-09-25 21:38+0200
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: kaccess\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
-"PO-Revision-Date: 2018-04-28 21:24+0100\n"
-"Last-Translator: Adrian Chaves <adrian@chaves.io>\n"
-"Language-Team: Galician <kde-i18n-doc@kde.org>\n"
+"POT-Creation-Date: 2019-05-29 03:32+0200\n"
+"PO-Revision-Date: 2019-10-19 22:15+0200\n"
+"Last-Translator: Adrián Chaves (Gallaecio) <adrian@chaves.io>\n"
+"Language-Team: Galician <proxecto@trasno.gal>\n"
 "Language: gl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 2.0\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Environment: kde\n"
-"X-Accelerator-Marker: &\n"
-"X-Text-Markup: kde4\n"
+"X-Generator: Lokalize 19.11.70\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -372,7 +369,7 @@ msgstr "Seguro que quere activar «%1», «%2», «%3» e «%4»?"
 #: kaccess.cpp:840
 #, kde-format
 msgid "An application has requested to change this setting."
-msgstr "Un aplicativo pediu cambiar esta opción."
+msgstr "Unha aplicación pediu cambiar esta opción."
 
 #: kaccess.cpp:844
 #, kde-format
@@ -380,7 +377,7 @@ msgid ""
 "You held down the Shift key for 8 seconds or an application has requested to "
 "change this setting."
 msgstr ""
-"Premeu a tecla Maiús durante 8 segundos ou un aplicativo solicitou cambiar "
+"Premeu a tecla Maiús durante 8 segundos ou unha aplicación solicitou cambiar "
 "esta opción."
 
 #: kaccess.cpp:846
@@ -389,13 +386,13 @@ msgid ""
 "You pressed the Shift key 5 consecutive times or an application has "
 "requested to change this setting."
 msgstr ""
-"Premeu a tecla Maiús 5 veces consecutivas ou un aplicativo pediu cambiar "
+"Premeu a tecla Maiús 5 veces consecutivas ou unha aplicación pediu cambiar "
 "esta opción."
 
 #: kaccess.cpp:850
 #, kde-format
 msgid "You pressed %1 or an application has requested to change this setting."
-msgstr "Premeu %1 ou un aplicativo pediu cambiar esta opción."
+msgstr "Premeu %1 ou unha aplicación pediu cambiar esta opción."
 
 #: kaccess.cpp:855
 #, kde-format
@@ -403,13 +400,13 @@ msgid ""
 "An application has requested to change these settings, or you used a "
 "combination of several keyboard gestures."
 msgstr ""
-"Un aplicativo pediu cambiar estas opcións, ou empregou unha combinación de "
+"Unha aplicación pediu cambiar estas opcións, ou empregou unha combinación de "
 "varios acenos de teclado."
 
 #: kaccess.cpp:857
 #, kde-format
 msgid "An application has requested to change these settings."
-msgstr "Un aplicativo pediu cambiar estas opcións."
+msgstr "Unha aplicación pediu cambiar estas opcións."
 
 #: kaccess.cpp:862
 #, kde-format
@@ -484,22 +481,22 @@ msgstr ""
 msgid "Mouse keys has been disabled."
 msgstr "Desactiváronse as teclas de rato."
 
-#: main.cpp:55
+#: main.cpp:54
 #, kde-format
 msgid "KDE Accessibility Tool"
 msgstr "Utilidade de accesibilidade de KDE"
 
-#: main.cpp:57
+#: main.cpp:56
 #, kde-format
 msgid "(c) 2000, Matthias Hoelzer-Kluepfel"
 msgstr "© 2000, Matthias Hoelzer-Kluepfel"
 
-#: main.cpp:59
+#: main.cpp:58
 #, kde-format
 msgid "Matthias Hoelzer-Kluepfel"
 msgstr "Matthias Hoelzer-Kluepfel"
 
-#: main.cpp:59
+#: main.cpp:58
 #, kde-format
 msgid "Author"
 msgstr "Autor"

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-desktop\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-06-15 07:36+0200\n"
+"POT-Creation-Date: 2019-07-26 03:18+0200\n"
 "PO-Revision-Date: 2019-07-15 07:32+0700\n"
 "Last-Translator: Wantoyo <wantoyek@gmail.com>\n"
 "Language-Team: Indonesian <kde-i18n-doc@kde.org>\n"
@@ -15,7 +15,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 19.04.2\n"
 
 #: contents/activitymanager/ActivityItem.qml:206
 msgid "Currently being used"
@@ -58,11 +57,11 @@ msgstr "Hapus"
 msgid "Keyboard Shortcuts"
 msgstr "Pintasan Keyboard"
 
-#: contents/configuration/AppletConfiguration.qml:111
+#: contents/configuration/AppletConfiguration.qml:133
 msgid "Apply Settings"
 msgstr "Terapkan Pengaturan"
 
-#: contents/configuration/AppletConfiguration.qml:112
+#: contents/configuration/AppletConfiguration.qml:134
 msgid ""
 "The settings of the current module have changed. Do you want to apply the "
 "changes or discard them?"
@@ -70,15 +69,15 @@ msgstr ""
 "Pengesetan modul saat ini telah diubah. Apakah kamu ingin menerapkan "
 "perubahan atau membuangnya?"
 
-#: contents/configuration/AppletConfiguration.qml:407
+#: contents/configuration/AppletConfiguration.qml:418
 msgid "OK"
 msgstr "Oke"
 
-#: contents/configuration/AppletConfiguration.qml:414
+#: contents/configuration/AppletConfiguration.qml:425
 msgid "Apply"
 msgstr "Terapkan"
 
-#: contents/configuration/AppletConfiguration.qml:420
+#: contents/configuration/AppletConfiguration.qml:431
 #: contents/explorer/AppletAlternatives.qml:185
 msgid "Cancel"
 msgstr "Batal"

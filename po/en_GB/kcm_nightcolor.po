@@ -1,13 +1,13 @@
 # Copyright (C) YEAR This_file_is_part_of_KDE
 # This file is distributed under the same license as the PACKAGE package.
 #
-# Steve Allewell <steve.allewell@gmail.com>, 2017.
+# Steve Allewell <steve.allewell@gmail.com>, 2017, 2019.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
-"PO-Revision-Date: 2017-12-22 16:00+0000\n"
+"POT-Creation-Date: 2019-08-07 03:21+0200\n"
+"PO-Revision-Date: 2019-08-11 14:52+0100\n"
 "Last-Translator: Steve Allewell <steve.allewell@gmail.com>\n"
 "Language-Team: British English <kde-i18n-doc@kde.org>\n"
 "Language: en_GB\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 2.0\n"
+"X-Generator: Lokalize 19.07.70\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -37,39 +37,39 @@ msgstr "Night Colour"
 msgid "Roman Gilg"
 msgstr "Roman Gilg"
 
-#: package/contents/ui/LocationsAutoView.qml:34
-#: package/contents/ui/LocationsFixedView.qml:38
+#: package/contents/ui/LocationsAutoView.qml:32
+#: package/contents/ui/LocationsFixedView.qml:37
 #, kde-format
-msgid "Latitude"
-msgstr "Latitude"
+msgid "Latitude:"
+msgstr "Latitude:"
 
-#: package/contents/ui/LocationsAutoView.qml:44
-#: package/contents/ui/LocationsFixedView.qml:53
+#: package/contents/ui/LocationsAutoView.qml:39
+#: package/contents/ui/LocationsFixedView.qml:49
 #, kde-format
-msgid "Longitude"
-msgstr "Longitude"
+msgid "Longitude:"
+msgstr "Longitude:"
 
-#: package/contents/ui/LocationsFixedView.qml:69
+#: package/contents/ui/LocationsFixedView.qml:60
 #, kde-format
-msgid "Detect location"
-msgstr "Detect location"
+msgid "Detect Location"
+msgstr "Detect Location"
 
-#: package/contents/ui/main.qml:103
+#: package/contents/ui/main.qml:107
 #, kde-format
 msgid "Activate Night Color"
 msgstr "Activate Night Colour"
 
-#: package/contents/ui/main.qml:120
+#: package/contents/ui/main.qml:118
 #, kde-format
-msgid "Night Color Temperature: "
-msgstr "Night Colour Temperature: "
+msgid "Night Color temperature:"
+msgstr "Night Colour temperature:"
 
-#: package/contents/ui/main.qml:120
+#: package/contents/ui/main.qml:137
 #, kde-format
 msgid " K"
 msgstr " K"
 
-#: package/contents/ui/main.qml:141
+#: package/contents/ui/main.qml:143
 #, kde-format
 msgid "Operation mode:"
 msgstr "Operation mode:"
@@ -89,43 +89,53 @@ msgstr "Location"
 msgid "Times"
 msgstr "Times"
 
-#: package/contents/ui/main.qml:251 package/contents/ui/TimingsView.qml:39
+#: package/contents/ui/main.qml:149
 #, kde-format
-msgid "Sunrise begins"
-msgstr "Sunrise begins"
+msgid "Constant"
+msgstr "Constant"
 
-#: package/contents/ui/main.qml:263 package/contents/ui/main.qml:278
+#: package/contents/ui/main.qml:263 package/contents/ui/TimingsView.qml:38
 #, kde-format
-msgid "(HH:MM)"
-msgstr "(HH:MM)"
+msgid "Sunrise begins:"
+msgstr "Sunrise begins:"
 
-#: package/contents/ui/main.qml:266 package/contents/ui/TimingsView.qml:59
+#: package/contents/ui/main.qml:270
 #, kde-format
-msgid "Sunset begins"
-msgstr "Sunset begins"
+msgid "(Input format: HH:MM)"
+msgstr "(Input format: HH:MM)"
 
-#: package/contents/ui/main.qml:281
+#: package/contents/ui/main.qml:276 package/contents/ui/TimingsView.qml:52
 #, kde-format
-msgid "Transition duration"
-msgstr "Transition duration"
+msgid "Sunset begins:"
+msgstr "Sunset begins:"
 
-#: package/contents/ui/main.qml:296
+#: package/contents/ui/main.qml:283
 #, kde-format
-msgid "(In minutes - min. 1, max. 600)"
-msgstr "(In minutes - min. 1, max. 600)"
+msgid "Input format: HH:MM"
+msgstr "Input format: HH:MM"
 
-#: package/contents/ui/main.qml:305
+#: package/contents/ui/main.qml:289
 #, kde-format
-msgid "Error: Morning not before evening."
-msgstr "Error: Morning not before evening."
+msgid "Transition duration:"
+msgstr "Transition duration:"
 
-#: package/contents/ui/main.qml:321
+#: package/contents/ui/main.qml:299
+#, kde-format
+msgid "Input minutes - min. 1, max. 600"
+msgstr "Input minutes - min. 1, max. 600"
+
+#: package/contents/ui/main.qml:307
+#, kde-format
+msgid "Error: Morning is before evening."
+msgstr "Error: Morning is before evening."
+
+#: package/contents/ui/main.qml:323
 #, kde-format
 msgid "Error: Transition time overlaps."
 msgstr "Error: Transition time overlaps."
 
-#: package/contents/ui/TimingsView.qml:49
-#: package/contents/ui/TimingsView.qml:69
+#: package/contents/ui/TimingsView.qml:45
+#: package/contents/ui/TimingsView.qml:59
 #, kde-format
-msgid "and ends"
-msgstr "and ends"
+msgid "...and ends:"
+msgstr "...and ends:"

@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmfonts\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-07-12 07:37+0200\n"
-"PO-Revision-Date: 2019-07-07 18:06+0200\n"
+"POT-Creation-Date: 2019-10-22 07:36+0200\n"
+"PO-Revision-Date: 2019-07-28 10:26+0200\n"
 "Last-Translator: Karl Ove Hufthammer <karl@huftis.org>\n"
 "Language-Team: Norwegian Nynorsk <i18n-nn@lister.ping.uio.no>\n"
 "Language: nn\n"
@@ -32,94 +32,73 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "karl@huftis.org"
 
-#: fonts.cpp:279
-#, kde-format
-msgid ""
-"<p>Some changes such as anti-aliasing or DPI will only affect newly started "
-"applications.</p>"
-msgstr ""
-"<p>Nokre skriftinnstillingar, som for eksempel vala for kantutjamning og "
-"PPT, vil berre tre i kraft for nystarta program.</p>"
-
-#: fonts.cpp:280 fonts.cpp:290
-#, kde-format
-msgid "Font Settings Changed"
-msgstr "Skriftinnstillingar er endra"
-
-#: fonts.cpp:289
-#, kde-format
-msgid ""
-"<p>Some changes such as DPI will only affect newly started applications.</p>"
-msgstr ""
-"<p>Nokre endringar slik som PPT vil berre påverka nystarta program.</p>"
-
-#: fonts.cpp:443
+#: fonts.cpp:472
 #, kde-format
 msgid "Fonts"
 msgstr "Skrifter"
 
-#: fonts.cpp:445
+#: fonts.cpp:474
 #, kde-format
 msgid "Antonis Tsiapaliokas"
 msgstr "Antonis Tsiapaliokas"
 
-#: kxftconfig.cpp:444
+#: kxftconfig.cpp:480
 #, kde-format
 msgctxt "use system subpixel setting"
 msgid "Vendor default"
 msgstr "Leverandørstandard"
 
-#: kxftconfig.cpp:446
+#: kxftconfig.cpp:482
 #, kde-format
 msgctxt "no subpixel rendering"
 msgid "None"
 msgstr "Ingen"
 
-#: kxftconfig.cpp:448
+#: kxftconfig.cpp:484
 #, kde-format
 msgid "RGB"
 msgstr "RGB"
 
-#: kxftconfig.cpp:450
+#: kxftconfig.cpp:486
 #, kde-format
 msgid "BGR"
 msgstr "BGR"
 
-#: kxftconfig.cpp:452
+#: kxftconfig.cpp:488
 #, kde-format
 msgid "Vertical RGB"
 msgstr "Vertikal RGB"
 
-#: kxftconfig.cpp:454
+#: kxftconfig.cpp:490
 #, kde-format
 msgid "Vertical BGR"
 msgstr "Vertikal BGR"
 
-#: kxftconfig.cpp:482
+#: kxftconfig.cpp:518
 #, kde-format
 msgctxt "use system hinting settings"
 msgid "Vendor default"
 msgstr "Leverandørstandard"
 
-#: kxftconfig.cpp:484
+#: kxftconfig.cpp:520
 #, kde-format
 msgctxt "medium hinting"
 msgid "Medium"
 msgstr "Middels"
 
-#: kxftconfig.cpp:486
+#: kxftconfig.cpp:522
 #, kde-format
 msgctxt "no hinting"
 msgid "None"
 msgstr "Ingen"
 
-#: kxftconfig.cpp:488
+#: kxftconfig.cpp:524
 #, kde-format
 msgctxt "slight hinting"
 msgid "Slight"
 msgstr "Forsiktig"
 
-#: kxftconfig.cpp:490
+#: kxftconfig.cpp:526
 #, kde-format
 msgctxt "full hinting"
 msgid "Full"
@@ -135,95 +114,93 @@ msgstr "Vel «%1»-skrift …"
 msgid "This module lets you configure the system fonts."
 msgstr "Med denne modulen kan du setja opp systemskrifter."
 
-#: package/contents/ui/main.qml:40
+#: package/contents/ui/main.qml:38
+#, kde-format
+msgid ""
+"Some changes such as anti-aliasing or DPI will only affect newly started "
+"applications."
+msgstr ""
+"Nokre skriftinnstillingar, som for eksempel vala for kantutjamning og PPT, "
+"vil berre tre i kraft for nystarta program."
+
+#: package/contents/ui/main.qml:54
 #, kde-format
 msgid "&Adjust All Fonts..."
 msgstr "&Tilpass alle skrifter …"
 
-#: package/contents/ui/main.qml:47
+#: package/contents/ui/main.qml:61
 #, kde-format
 msgid "General:"
 msgstr "Generelt:"
 
-#: package/contents/ui/main.qml:52
+#: package/contents/ui/main.qml:66
 #, kde-format
 msgid "Fixed width:"
 msgstr "Fast breidd:"
 
-#: package/contents/ui/main.qml:57
+#: package/contents/ui/main.qml:71
 #, kde-format
 msgid "Small:"
 msgstr "Lita skrift:"
 
-#: package/contents/ui/main.qml:62
+#: package/contents/ui/main.qml:76
 #, kde-format
 msgid "Toolbar:"
 msgstr "Verktøylinje:"
 
-#: package/contents/ui/main.qml:67
+#: package/contents/ui/main.qml:81
 #, kde-format
 msgid "Menu:"
 msgstr "Menyar:"
 
-#: package/contents/ui/main.qml:72
+#: package/contents/ui/main.qml:86
 #, kde-format
 msgid "Window title:"
 msgstr "Vindaugstittel:"
 
-#: package/contents/ui/main.qml:84
+#: package/contents/ui/main.qml:99
 #, kde-format
-msgctxt "Used as a noun, and precedes a combobox full of options"
-msgid "Anti-aliasing:"
+msgid "Anti-Aliasing:"
 msgstr "Kantutjamning:"
 
-#: package/contents/ui/main.qml:86
+#: package/contents/ui/main.qml:100
 #, kde-format
-msgid "Enabled"
-msgstr "På"
+msgid "Enable"
+msgstr "Slå på"
 
-#: package/contents/ui/main.qml:86
-#, kde-format
-msgid "Vendor default"
-msgstr "Leverandørstandard"
-
-#: package/contents/ui/main.qml:86
-#, kde-format
-msgid "Disabled"
-msgstr "Av"
-
-#: package/contents/ui/main.qml:96
+#: package/contents/ui/main.qml:108
 #, kde-format
 msgid "Exclude range from anti-aliasing"
 msgstr "Ekskluder område frå kantutjamning"
 
-#: package/contents/ui/main.qml:113 package/contents/ui/main.qml:128
+#: package/contents/ui/main.qml:121 package/contents/ui/main.qml:138
 #, kde-format
 msgid "%1 pt"
 msgstr "%1 punkt"
 
-#: package/contents/ui/main.qml:120
+#: package/contents/ui/main.qml:130
 #, kde-format
 msgid "to"
 msgstr "til"
 
-#: package/contents/ui/main.qml:141
+#: package/contents/ui/main.qml:153
 #, kde-format
 msgctxt "Used as a noun, and precedes a combobox full of options"
 msgid "Sub-pixel rendering:"
 msgstr "Delpikselvising:"
 
-#: package/contents/ui/main.qml:178
+#: package/contents/ui/main.qml:190
 #, kde-format
 msgctxt "Used as a noun, and precedes a combobox full of options"
 msgid "Hinting:"
 msgstr "Hintstil:"
 
-#: package/contents/ui/main.qml:216
+#: package/contents/ui/main.qml:228
 #, kde-format
 msgid "Force font DPI:"
 msgstr "Tving skrift-PPT:"
 
-#: package/contents/ui/main.qml:234
+#: package/contents/ui/main.qml:246
 #, kde-format
 msgid "Select Font"
 msgstr "Vel skrift"

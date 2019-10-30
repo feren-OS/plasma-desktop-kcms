@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"POT-Creation-Date: 2019-09-18 03:38+0200\n"
 "PO-Revision-Date: 2012-11-21 13:25+0100\n"
 "Last-Translator: Giovanni Sora <g.sora@tiscali.it>\n"
 "Language-Team: Interlingua <kde-i18n-ia@kde.org>\n"
@@ -27,28 +27,28 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "g.sora@tiscali.it"
 
-#: kcmcursortheme.cpp:74
+#: kcmcursortheme.cpp:73
 #, fuzzy, kde-format
 #| msgid "Cursor Theme"
 msgid "Cursors"
 msgstr "Thema de cursor"
 
-#: kcmcursortheme.cpp:75
+#: kcmcursortheme.cpp:74
 #, kde-format
 msgid "(c) 2003-2007 Fredrik Höglund"
 msgstr "(c) 2003-2007 Fredrik Hoglund"
 
-#: kcmcursortheme.cpp:76
+#: kcmcursortheme.cpp:75
 #, kde-format
 msgid "Fredrik Höglund"
 msgstr "Fredrik Hoglund"
 
-#: kcmcursortheme.cpp:77
+#: kcmcursortheme.cpp:76
 #, kde-format
 msgid "Marco Martin"
 msgstr ""
 
-#: kcmcursortheme.cpp:244
+#: kcmcursortheme.cpp:243
 #, fuzzy, kde-format
 #| msgctxt "@item:inlistbox size"
 #| msgid "resolution dependent"
@@ -56,36 +56,36 @@ msgctxt "@item:inlistbox size"
 msgid "Resolution dependent"
 msgstr "dependente del resolution"
 
-#: kcmcursortheme.cpp:376
+#: kcmcursortheme.cpp:375
 #, fuzzy, kde-format
 #| msgid "You have to restart KDE for these changes to take effect."
 msgid ""
 "You have to restart the Plasma session for these changes to take effect."
 msgstr "Tu debe re-initiar KDE pro applicar iste modificationes."
 
-#: kcmcursortheme.cpp:511
+#: kcmcursortheme.cpp:510
 #, kde-format
 msgid "Unable to create a temporary file."
 msgstr ""
 
-#: kcmcursortheme.cpp:523
+#: kcmcursortheme.cpp:522
 #, fuzzy, kde-format
 #| msgid "Unable to find the cursor theme archive %1."
 msgid "Unable to download the icon theme archive: %1"
 msgstr "Il non pote trovar le archivo de thema de cursor %1."
 
-#: kcmcursortheme.cpp:554
+#: kcmcursortheme.cpp:553
 #, fuzzy, kde-format
 #| msgid "The file %1 does not appear to be a valid cursor theme archive."
 msgid "The file is not a valid icon theme archive."
 msgstr "Le file %1 non sembla esser un valid archivo de thema de cursor."
 
-#: kcmcursortheme.cpp:561
+#: kcmcursortheme.cpp:560
 #, kde-format
 msgid "Failed to create 'icons' folder."
 msgstr ""
 
-#: kcmcursortheme.cpp:569
+#: kcmcursortheme.cpp:568
 #, kde-format
 msgid ""
 "A theme named %1 already exists in your icon theme folder. Do you want "
@@ -94,17 +94,17 @@ msgstr ""
 "Un thema appellate %1 ja existe in tu dossier de thema de icone. Tu vole "
 "reimplaciar lo con isto?"
 
-#: kcmcursortheme.cpp:573
+#: kcmcursortheme.cpp:572
 #, kde-format
 msgid "Overwrite Theme?"
 msgstr "Super scriber le thema?"
 
-#: kcmcursortheme.cpp:599
+#: kcmcursortheme.cpp:598
 #, kde-format
 msgid "Theme installed successfully."
 msgstr ""
 
-#: kcmcursortheme.cpp:615
+#: kcmcursortheme.cpp:614
 #, kde-format
 msgid ""
 "<qt>You cannot delete the theme you are currently using.<br />You have to "
@@ -113,7 +113,7 @@ msgstr ""
 "<qt>Tu non pote cancellar le thema que tu es usante currentemente.<br /"
 ">Prime tu debe passar a altere thema.</qt>"
 
-#: kcmcursortheme.cpp:621
+#: kcmcursortheme.cpp:620
 #, kde-format
 msgid ""
 "<qt>Are you sure you want to remove the <i>%1</i> cursor theme?<br />This "
@@ -122,7 +122,7 @@ msgstr ""
 "<qt>Tu es secur que tu vole remover le thema de cursor <i>%1</i> ?<br />Isto "
 "cancellara omne files installate per iste thema.</qt>"
 
-#: kcmcursortheme.cpp:627
+#: kcmcursortheme.cpp:626
 #, kde-format
 msgid "Confirmation"
 msgstr "Confirmation"

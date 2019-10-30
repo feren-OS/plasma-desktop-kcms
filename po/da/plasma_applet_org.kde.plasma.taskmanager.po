@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_tasks\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-06-23 07:22+0200\n"
+"POT-Creation-Date: 2019-10-21 07:47+0200\n"
 "PO-Revision-Date: 2019-05-07 12:55+0100\n"
 "Last-Translator: Martin Schlander <mschlander@opensuse.org>\n"
 "Language-Team: Danish <kde-i18n-doc@kde.org>\n"
@@ -88,15 +88,14 @@ msgstr "Maks. rækker:"
 
 #: package/contents/ui/ConfigAppearance.qml:111
 #, fuzzy, kde-format
-#| msgid "Always arrange tasks in rows of as many columns"
-msgid "Always arrange tasks in as many rows as columns"
-msgstr "Opstil altid opgaver i rækker af så mange kolonner"
+#| msgid "Always arrange tasks in columns of as many rows"
+msgid "Always arrange tasks in rows of as many columns"
+msgstr "Opstil altid opgaver i kolonner af så mange rækker"
 
 #: package/contents/ui/ConfigAppearance.qml:111
-#, fuzzy, kde-format
-#| msgid "Always arrange tasks in rows of as many columns"
-msgid "Always arrange tasks in as many columns as rows"
-msgstr "Opstil altid opgaver i rækker af så mange kolonner"
+#, kde-format
+msgid "Always arrange tasks in columns of as many rows"
+msgstr "Opstil altid opgaver i kolonner af så mange rækker"
 
 #: package/contents/ui/ConfigBehavior.qml:52
 #, fuzzy, kde-format
@@ -237,77 +236,78 @@ msgstr "Vis kun opgaver fra den aktuelle aktivitet"
 msgid "Show only tasks that are minimized"
 msgstr "Vis kun opgaver som er minimerede"
 
-#: package/contents/ui/ContextMenu.qml:100
+#: package/contents/ui/ContextMenu.qml:99
 #, kde-format
 msgid "Places"
 msgstr ""
 
-#: package/contents/ui/ContextMenu.qml:105
+#: package/contents/ui/ContextMenu.qml:104
 #, kde-format
 msgid "Recent Documents"
 msgstr "Nylige dokumenter"
 
-#: package/contents/ui/ContextMenu.qml:110
+#: package/contents/ui/ContextMenu.qml:109
 #, fuzzy, kde-format
 #| msgid "More Actions"
 msgid "Actions"
 msgstr "Flere handlinger"
 
-#: package/contents/ui/ContextMenu.qml:168
+#: package/contents/ui/ContextMenu.qml:167
 #, kde-format
 msgctxt "Play previous track"
 msgid "Previous Track"
 msgstr "Forrige spor"
 
-#: package/contents/ui/ContextMenu.qml:182
+#: package/contents/ui/ContextMenu.qml:181
 #, kde-format
 msgctxt "Pause playback"
 msgid "Pause"
 msgstr "Pause"
 
-#: package/contents/ui/ContextMenu.qml:182
+#: package/contents/ui/ContextMenu.qml:181
 #, kde-format
 msgctxt "Start playback"
 msgid "Play"
 msgstr "Afspil"
 
-#: package/contents/ui/ContextMenu.qml:200
+#: package/contents/ui/ContextMenu.qml:199
 #, kde-format
 msgctxt "Play next track"
 msgid "Next Track"
 msgstr "Næste spor"
 
-#: package/contents/ui/ContextMenu.qml:211
+#: package/contents/ui/ContextMenu.qml:210
 #, kde-format
 msgctxt "Stop playback"
 msgid "Stop"
 msgstr "Stop"
 
-#: package/contents/ui/ContextMenu.qml:231
+#: package/contents/ui/ContextMenu.qml:230
 #, kde-format
 msgctxt "Quit media player app"
 msgid "Quit"
 msgstr "Afslut"
 
-#: package/contents/ui/ContextMenu.qml:246
+#: package/contents/ui/ContextMenu.qml:245
 #, kde-format
 msgctxt "Open or bring to the front window of media player app"
 msgid "Restore"
 msgstr "Genskab"
 
-#: package/contents/ui/ContextMenu.qml:272
+#: package/contents/ui/ContextMenu.qml:271
 #, kde-format
 msgid "Mute"
 msgstr "Lydløs"
 
-#: package/contents/ui/ContextMenu.qml:286
+#: package/contents/ui/ContextMenu.qml:285
 #, kde-format
 msgid "Start New Instance"
 msgstr "Start ny instans"
 
-#: package/contents/ui/ContextMenu.qml:302
-#, kde-format
-msgid "Move To &Desktop"
+#: package/contents/ui/ContextMenu.qml:301
+#, fuzzy, kde-format
+#| msgid "Move To &Desktop"
+msgid "Move to &Desktop"
 msgstr "Flyt til skrivebor&d"
 
 #: package/contents/ui/ContextMenu.qml:325
@@ -332,115 +332,116 @@ msgid "&New Desktop"
 msgstr "&Nyt skrivebord"
 
 #: package/contents/ui/ContextMenu.qml:381
-#, kde-format
-msgid "Move To &Activity"
-msgstr "Flyt til &aktivitet"
+#, fuzzy, kde-format
+#| msgid "All Activities"
+msgid "Show in &Activities"
+msgstr "Alle aktiviteter"
 
-#: package/contents/ui/ContextMenu.qml:402
+#: package/contents/ui/ContextMenu.qml:403
 #, kde-format
 msgid "Add To Current Activity"
 msgstr "Føj til nuværende aktivitet"
 
-#: package/contents/ui/ContextMenu.qml:412
+#: package/contents/ui/ContextMenu.qml:413
 #, kde-format
 msgid "All Activities"
 msgstr "Alle aktiviteter"
 
-#: package/contents/ui/ContextMenu.qml:471
+#: package/contents/ui/ContextMenu.qml:472
 #, kde-format
 msgid "More Actions"
 msgstr "Flere handlinger"
 
-#: package/contents/ui/ContextMenu.qml:480
+#: package/contents/ui/ContextMenu.qml:481
 #, kde-format
 msgid "&Move"
 msgstr "&Flyt"
 
-#: package/contents/ui/ContextMenu.qml:489
+#: package/contents/ui/ContextMenu.qml:490
 #, kde-format
 msgid "Re&size"
 msgstr "Ændr &størrelse"
 
-#: package/contents/ui/ContextMenu.qml:503
+#: package/contents/ui/ContextMenu.qml:504
 #, kde-format
 msgid "Ma&ximize"
 msgstr "Ma&ksimér"
 
-#: package/contents/ui/ContextMenu.qml:517
+#: package/contents/ui/ContextMenu.qml:518
 #, kde-format
 msgid "Mi&nimize"
 msgstr "Mi&nimér"
 
-#: package/contents/ui/ContextMenu.qml:527
+#: package/contents/ui/ContextMenu.qml:528
 #, kde-format
 msgid "Keep &Above Others"
 msgstr "Hold over &andre"
 
-#: package/contents/ui/ContextMenu.qml:537
+#: package/contents/ui/ContextMenu.qml:538
 #, kde-format
 msgid "Keep &Below Others"
 msgstr "Hold &under andre"
 
-#: package/contents/ui/ContextMenu.qml:549
+#: package/contents/ui/ContextMenu.qml:550
 #, kde-format
 msgid "&Fullscreen"
 msgstr "&Fuldskærm"
 
-#: package/contents/ui/ContextMenu.qml:561
+#: package/contents/ui/ContextMenu.qml:562
 #, kde-format
 msgid "&Shade"
 msgstr "&Skyg"
 
-#: package/contents/ui/ContextMenu.qml:577
+#: package/contents/ui/ContextMenu.qml:578
 #, kde-format
 msgid "Allow this program to be grouped"
 msgstr "Tillad dette program at blive grupperet"
 
-#: package/contents/ui/ContextMenu.qml:629
-#: package/contents/ui/ContextMenu.qml:644
+#: package/contents/ui/ContextMenu.qml:630
+#: package/contents/ui/ContextMenu.qml:645
 #, kde-format
 msgid "&Pin to Task Manager"
 msgstr ""
 
-#: package/contents/ui/ContextMenu.qml:697
+#: package/contents/ui/ContextMenu.qml:698
 #, kde-format
 msgid "On All Activities"
 msgstr "På alle aktiviteter"
 
-#: package/contents/ui/ContextMenu.qml:703
+#: package/contents/ui/ContextMenu.qml:704
 #, kde-format
 msgid "On The Current Activity"
 msgstr "På den aktuelle aktivitet"
 
-#: package/contents/ui/ContextMenu.qml:724
+#: package/contents/ui/ContextMenu.qml:728
 #, kde-format
 msgid "Unpin from Task Manager"
 msgstr ""
 
-#: package/contents/ui/ContextMenu.qml:738
+#: package/contents/ui/ContextMenu.qml:742
 #, kde-format
 msgid "&Close"
 msgstr "&Luk"
 
-#: package/contents/ui/ToolTipInstance.qml:469
+#: package/contents/ui/ToolTipInstance.qml:414
 #, kde-format
 msgctxt "Comma-separated list of desktops"
 msgid "On %1"
 msgstr "På %1"
 
-#: package/contents/ui/ToolTipInstance.qml:479
+#: package/contents/ui/ToolTipInstance.qml:424
 #, kde-format
 msgctxt "Which virtual desktop a window is currently on"
 msgid "Available on all activities"
 msgstr "Tilgængelig på alle aktiviteter"
 
-#: package/contents/ui/ToolTipInstance.qml:501
+#: package/contents/ui/ToolTipInstance.qml:446
 #, kde-format
 msgctxt "Activities a window is currently on (apart from the current one)"
 msgid "Also available on %1"
 msgstr "Også tilgængelig på %1"
 
-#: package/contents/ui/ToolTipInstance.qml:505
+#: package/contents/ui/ToolTipInstance.qml:450
 #, kde-format
 msgctxt "Which activities a window is currently on"
 msgid "Available on %1"

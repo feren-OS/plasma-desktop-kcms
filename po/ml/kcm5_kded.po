@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkded\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"POT-Creation-Date: 2019-05-20 03:25+0200\n"
 "PO-Revision-Date: 2008-11-12 12:16+0530\n"
 "Last-Translator: മണിലാല്‍ കെ.എം|Manilal K M <libregeek@gmail.com>\n"
 "Language-Team: Swathanthra|സ്വതന്ത്ര Malayalam|മലയാളം Computing|കമ്പ്യൂട്ടിങ്ങ് <smc-"
@@ -51,16 +51,6 @@ msgstr "ഡാനിയേല്‍ മോല്‍കെന്റിന്‍"
 
 #: kcmkded.cpp:85
 #, fuzzy, kde-format
-#| msgid ""
-#| "<h1>Service Manager</h1><p>This module allows you to have an overview of "
-#| "all plugins of the KDE Daemon, also referred to as KDE Services. "
-#| "Generally, there are two types of service:</p><ul><li>Services invoked at "
-#| "startup</li><li>Services called on demand</li></ul><p>The latter are only "
-#| "listed for convenience. The startup services can be started and stopped. "
-#| "In Administrator mode, you can also define whether services should be "
-#| "loaded at startup.</p><p><b> Use this with care: some services are vital "
-#| "for KDE; do not deactivate services if you do not know what you are doing."
-#| "</b></p>"
 msgid ""
 "<h1>Service Manager</h1><p>This module allows you to have an overview of all "
 "plugins of the KDE Daemon, also referred to as KDE Services. Generally, "
@@ -127,10 +117,6 @@ msgstr "പ്രാരംഭ സേവനങ്ങള്‍"
 
 #: kcmkded.cpp:121
 #, fuzzy, kde-format
-#| msgid ""
-#| "This shows all KDE services that can be loaded on KDE startup. Checked "
-#| "services will be invoked on next startup. Be careful with deactivation of "
-#| "unknown services."
 msgid ""
 "This shows all KDE services that can be loaded on Plasma startup. Checked "
 "services will be invoked on next startup. Be careful with deactivation of "
@@ -173,7 +159,6 @@ msgstr ""
 
 #: kcmkded.cpp:489
 #, fuzzy, kde-format
-#| msgid "Unable to stop server <em>%1</em>."
 msgid "Unable to stop service <em>%1</em>."
 msgstr "സെര്‍വര്‍  <em>%1</em> നിര്‍ത്തുവാന്‍ സാധ്യമായില്ല."
 

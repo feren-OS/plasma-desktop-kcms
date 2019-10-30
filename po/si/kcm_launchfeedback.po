@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmlaunch\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"POT-Creation-Date: 2019-10-22 07:36+0200\n"
 "PO-Revision-Date: 2009-11-12 00:13+0530\n"
 "Last-Translator: Danishka Navin <danishka@gmail.com>\n"
 "Language-Team: American English <danishka@gmail.com>\n"
@@ -82,7 +82,7 @@ msgstr "ටාස්ක්බාර් දැන්වීම් සක්‍ර�
 msgid "Stop animation after:"
 msgstr "ආරම්භක දැක්වීමේ වේලාව ඉක්මයාම (&S)"
 
-#: package/contents/ui/main.qml:113
+#: package/contents/ui/main.qml:114
 #, fuzzy, kde-format
 #| msgid " sec"
 msgid "%1 sec"

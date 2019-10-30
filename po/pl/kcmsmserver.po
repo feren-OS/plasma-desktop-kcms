@@ -2,7 +2,7 @@
 # translation of kcmsmserver.po to
 # translation of kcmsmserver.po to
 # translation of kcmsmserver.po to Polish
-# Version: $Revision: 1542253 $
+# Version: $Revision: 1546170 $
 # Michal Rudolf <mrudolf@kdewebdev.org>, 2004, 2005, 2008, 2009.
 # Krzysztof Lichota <lichota@mimuw.edu.pl>, 2005.
 # Marta Rybczyńska <kde-i18n@rybczynska.net>, 2009.
@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmsmserver\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"POT-Creation-Date: 2019-07-11 03:14+0200\n"
 "PO-Revision-Date: 2019-05-04 06:40+0200\n"
 "Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
 "Language-Team: Polish <kde-i18n-doc@kde.org>\n"
@@ -23,7 +23,7 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2);\n"
 
-#: kcmsmserver.cpp:62
+#: kcmsmserver.cpp:63
 #, kde-format
 msgid ""
 "<h1>Session Manager</h1> You can configure the session manager here. This "
@@ -36,26 +36,26 @@ msgstr ""
 "czy potwierdzać wylogowanie, czy odtwarzać poprzednią sesję przy zalogowaniu "
 "i czy wyłączać komputer przy zakończeniu pracy."
 
-#: kcmsmserver.cpp:82
+#: kcmsmserver.cpp:83
 #, kde-format
 msgid "Restart Now"
 msgstr "Uruchom ponownie teraz"
 
-#: kcmsmserver.cpp:114
+#: kcmsmserver.cpp:124
 #, kde-format
 msgid "Failed to request restart to firmware setup: %1"
 msgstr ""
 "Nie udało się wymusić ponownego uruchomienia do ustawienia oprogramowania "
 "układowego: %1"
 
-#: kcmsmserver.cpp:126
+#: kcmsmserver.cpp:136
 #, kde-format
 msgid ""
 "Next time the computer is restarted, it will enter the UEFI setup screen."
 msgstr ""
 "Przy następnym uruchomieniu komputera, przejdzie on do ekranu ustawień UEFI."
 
-#: kcmsmserver.cpp:128
+#: kcmsmserver.cpp:138
 #, kde-format
 msgid ""
 "Next time the computer is restarted, it will enter the firmware setup screen."
@@ -63,12 +63,12 @@ msgstr ""
 "Przy następnym uruchomieniu komputera, przejdzie on do ekranu ustawień "
 "oprogramowania układowego."
 
-#: kcmsmserver.cpp:140
+#: kcmsmserver.cpp:150
 #, kde-format
 msgid "UEFI Setup"
 msgstr "Ustawienia UEFI"
 
-#: kcmsmserver.cpp:141
+#: kcmsmserver.cpp:151
 #, kde-format
 msgid "Enter UEFI setup on next restart"
 msgstr "Przejdź do ustawień UEFI przy następnym uruchomieniu"

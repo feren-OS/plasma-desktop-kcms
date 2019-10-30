@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-06-23 07:22+0200\n"
-"PO-Revision-Date: 2019-04-23 09:57+0200\n"
+"POT-Creation-Date: 2019-09-17 03:28+0200\n"
+"PO-Revision-Date: 2019-09-10 21:21+0200\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: Dutch <kde-i18n-nl@kde.org>\n"
 "Language: nl\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 18.12.3\n"
+"X-Generator: Lokalize 19.08.0\n"
 
 #: package/contents/config/config.qml:26
 #, kde-format
@@ -39,136 +39,141 @@ msgstr "Op alle activiteiten"
 
 #: package/contents/ui/code/tools.js:133
 #, kde-format
-msgid "On The Current Activity"
+msgid "On the Current Activity"
 msgstr "Op de huidige activiteit"
 
 #: package/contents/ui/code/tools.js:147
 #, kde-format
-msgid "Show In Favorites"
+msgid "Show in Favorites"
 msgstr "In Favorieten tonen"
 
-#: package/contents/ui/ConfigGeneral.qml:58
+#: package/contents/ui/ConfigGeneral.qml:59
 #, kde-format
 msgid "Icon:"
 msgstr "Pictogram:"
 
-#: package/contents/ui/ConfigGeneral.qml:138
+#: package/contents/ui/ConfigGeneral.qml:139
 #, kde-format
 msgctxt "@item:inmenu Open icon chooser dialog"
 msgid "Choose..."
 msgstr "Kiezen..."
 
-#: package/contents/ui/ConfigGeneral.qml:143
+#: package/contents/ui/ConfigGeneral.qml:144
 #, kde-format
 msgctxt "@item:inmenu Reset icon to default"
 msgid "Clear Icon"
 msgstr "Pictogram wissen"
 
-#: package/contents/ui/ConfigGeneral.qml:161
+#: package/contents/ui/ConfigGeneral.qml:162
 #, kde-format
 msgid "Show applications as:"
 msgstr "Toepassing tonen als:"
 
-#: package/contents/ui/ConfigGeneral.qml:163
+#: package/contents/ui/ConfigGeneral.qml:164
 #, kde-format
 msgid "Name only"
 msgstr "Alleen naam"
 
-#: package/contents/ui/ConfigGeneral.qml:163
+#: package/contents/ui/ConfigGeneral.qml:164
 #, kde-format
 msgid "Description only"
 msgstr "Alleen beschrijving"
 
-#: package/contents/ui/ConfigGeneral.qml:163
+#: package/contents/ui/ConfigGeneral.qml:164
 #, kde-format
 msgid "Name (Description)"
 msgstr "Naam (beschrijving)"
 
-#: package/contents/ui/ConfigGeneral.qml:163
+#: package/contents/ui/ConfigGeneral.qml:164
 #, kde-format
 msgid "Description (Name)"
 msgstr "Beschrijving (Naam)"
 
-#: package/contents/ui/ConfigGeneral.qml:173
+#: package/contents/ui/ConfigGeneral.qml:174
 #, kde-format
 msgid "Behavior:"
 msgstr "Gedrag:"
 
-#: package/contents/ui/ConfigGeneral.qml:175
+#: package/contents/ui/ConfigGeneral.qml:176
 #, kde-format
 msgid "Sort applications alphabetically"
 msgstr "Toepassingen alfabetisch sorteren"
 
-#: package/contents/ui/ConfigGeneral.qml:183
+#: package/contents/ui/ConfigGeneral.qml:184
 #, kde-format
 msgid "Flatten sub-menus to a single level"
 msgstr "Submenu's afvlakken tot een enkel niveau"
 
-#: package/contents/ui/ConfigGeneral.qml:194
+#: package/contents/ui/ConfigGeneral.qml:192
+#, kde-format
+msgid "Show icons on the root level of the menu"
+msgstr "Pictogrammen tonen op het hoogste niveau van het menu"
+
+#: package/contents/ui/ConfigGeneral.qml:202
 #, kde-format
 msgid "Show categories:"
 msgstr "Categorieën tonen:"
 
-#: package/contents/ui/ConfigGeneral.qml:197
+#: package/contents/ui/ConfigGeneral.qml:205
 #, kde-format
 msgid "Recent applications"
 msgstr "Recente toepassingen"
 
-#: package/contents/ui/ConfigGeneral.qml:198
+#: package/contents/ui/ConfigGeneral.qml:206
 #, kde-format
 msgid "Often used applications"
 msgstr "Vaak gebruikte toepassingen"
 
-#: package/contents/ui/ConfigGeneral.qml:205
+#: package/contents/ui/ConfigGeneral.qml:213
 #, kde-format
 msgid "Recent documents"
 msgstr "Recente documenten"
 
-#: package/contents/ui/ConfigGeneral.qml:206
+#: package/contents/ui/ConfigGeneral.qml:214
 #, kde-format
 msgid "Often used documents"
 msgstr "Vaak gebruikte documenten"
 
-#: package/contents/ui/ConfigGeneral.qml:213
+#: package/contents/ui/ConfigGeneral.qml:221
 #, kde-format
 msgid "Recent contacts"
 msgstr "Recente contactpersonen"
 
-#: package/contents/ui/ConfigGeneral.qml:214
+#: package/contents/ui/ConfigGeneral.qml:222
 #, kde-format
 msgid "Often used contacts"
 msgstr "Vaak gebruikte contactpersonen"
 
-#: package/contents/ui/ConfigGeneral.qml:220
+#: package/contents/ui/ConfigGeneral.qml:228
 #, kde-format
 msgid "Sort items in categories by:"
 msgstr "Items in categorieën sorteren op:"
 
-#: package/contents/ui/ConfigGeneral.qml:221
+#: package/contents/ui/ConfigGeneral.qml:229
 #, kde-format
 msgctxt ""
 "@item:inlistbox Sort items in categories by [Recently used | Often used]"
 msgid "Recently used"
 msgstr "Recent gebruikt"
 
-#: package/contents/ui/ConfigGeneral.qml:221
+#: package/contents/ui/ConfigGeneral.qml:229
 #, kde-format
 msgctxt ""
 "@item:inlistbox Sort items in categories by [Recently used | Ofetn used]"
 msgid "Often used"
 msgstr "Vaak gebruikt"
 
-#: package/contents/ui/ConfigGeneral.qml:231
+#: package/contents/ui/ConfigGeneral.qml:239
 #, kde-format
 msgid "Search:"
 msgstr "Zoeken:"
 
-#: package/contents/ui/ConfigGeneral.qml:233
+#: package/contents/ui/ConfigGeneral.qml:241
 #, kde-format
 msgid "Expand search to bookmarks, files and emails"
 msgstr "Zoeken uitbreiden naar bladwijzers, bestanden en e-mailberichten"
 
-#: package/contents/ui/ConfigGeneral.qml:241
+#: package/contents/ui/ConfigGeneral.qml:249
 #, kde-format
 msgid "Align search results to bottom"
 msgstr "Zoekresultaten uitlijnen naar onderen"
@@ -184,7 +189,6 @@ msgid "Type to search..."
 msgstr "Typen om te zoeken..."
 
 #: package/contents/ui/DashboardRepresentation.qml:405
-#: plugin/kastatsfavoritesmodel.cpp:494 plugin/simplefavoritesmodel.cpp:43
 #, kde-format
 msgid "Favorites"
 msgstr "Favorieten"
@@ -200,7 +204,7 @@ msgstr "Widgets"
 msgid "Apps & Docs"
 msgstr "Apps & Docs"
 
-#: package/contents/ui/main.qml:272
+#: package/contents/ui/main.qml:273
 #, kde-format
 msgid "Edit Applications..."
 msgstr "Toepassingen bewerken..."
@@ -209,286 +213,3 @@ msgstr "Toepassingen bewerken..."
 #, kde-format
 msgid "Search..."
 msgstr "Zoeken..."
-
-#: plugin/actionlist.cpp:95
-#, kde-format
-msgid "Open with:"
-msgstr "Openen met:"
-
-#: plugin/actionlist.cpp:108
-#, kde-format
-msgid "Properties"
-msgstr "Eigenschappen"
-
-#: plugin/actionlist.cpp:153
-#, kde-format
-msgid "Add to Desktop"
-msgstr "Aan bureaublad toevoegen"
-
-#: plugin/actionlist.cpp:157
-#, kde-format
-msgid "Add to Panel (Widget)"
-msgstr "Aan paneel toevoegen (widget)"
-
-#: plugin/actionlist.cpp:161
-#, kde-format
-msgid "Pin to Task Manager"
-msgstr "Pin naar takenbeheerder"
-
-#: plugin/actionlist.cpp:270 plugin/rootmodel.cpp:390
-#, kde-format
-msgid "Recent Documents"
-msgstr "Recente documenten"
-
-#: plugin/actionlist.cpp:280
-#, kde-format
-msgid "Forget Recent Documents"
-msgstr "Recente documenten vergeten"
-
-#: plugin/actionlist.cpp:336
-#, kde-format
-msgid "Edit Application..."
-msgstr "Toepassing bewerken..."
-
-#: plugin/actionlist.cpp:383
-#, kde-format
-msgctxt "@action opens a software center with the application"
-msgid "Manage '%1'..."
-msgstr "'%1' beheren..."
-
-#: plugin/appentry.cpp:178
-#, kde-format
-msgid "Hide Application"
-msgstr "Toepassing verbergen"
-
-#: plugin/appentry.cpp:237
-#, kde-format
-msgctxt "App name (Generic name)"
-msgid "%1 (%2)"
-msgstr "%1 (%2)"
-
-#: plugin/appentry.cpp:239
-#, kde-format
-msgctxt "Generic name (App name)"
-msgid "%1 (%2)"
-msgstr "%1 (%2)"
-
-#: plugin/appsmodel.cpp:45 plugin/appsmodel.cpp:69 plugin/computermodel.cpp:110
-#: plugin/computermodel.cpp:242 plugin/recentusagemodel.cpp:149
-#: plugin/recentusagemodel.cpp:209
-#, kde-format
-msgid "Applications"
-msgstr "Toepassingen"
-
-#: plugin/appsmodel.cpp:165
-#, kde-format
-msgid "Unhide Applications in this Submenu"
-msgstr "Het verbergen van toepassingen in dit submenu ongedaan maken"
-
-#: plugin/appsmodel.cpp:171
-#, kde-format
-msgid "Unhide Applications in '%1'"
-msgstr "Het verbergen van toepassingen in '%1' ongedaan maken"
-
-#: plugin/computermodel.cpp:104
-#, kde-format
-msgid "Run Command..."
-msgstr "Commando uitvoeren..."
-
-#: plugin/computermodel.cpp:108
-#, kde-format
-msgid "Run a command or a search query"
-msgstr "Een commando uitvoeren of een zoekvraag"
-
-#: plugin/computermodel.cpp:161
-#, kde-format
-msgid "Computer"
-msgstr "Computer"
-
-#: plugin/contactentry.cpp:117 plugin/recentcontactsmodel.cpp:93
-#, kde-format
-msgid "Show Contact Information..."
-msgstr "Contactpersooninformatie tonen..."
-
-#: plugin/recentcontactsmodel.cpp:52
-#, kde-format
-msgid "Contacts"
-msgstr "Contactpersonen"
-
-#: plugin/recentcontactsmodel.cpp:85
-#, kde-format
-msgid "Forget Contact"
-msgstr "Contactpersoon vergeten"
-
-#: plugin/recentcontactsmodel.cpp:88 plugin/recentcontactsmodel.cpp:165
-#, kde-format
-msgid "Forget All Contacts"
-msgstr "Alle contactpersonen vergeten"
-
-#: plugin/recentusagemodel.cpp:147
-#, kde-format
-msgid "Recently Used"
-msgstr "Recent gebruikt"
-
-#: plugin/recentusagemodel.cpp:152 plugin/recentusagemodel.cpp:263
-#, kde-format
-msgid "Documents"
-msgstr "Documenten"
-
-#: plugin/recentusagemodel.cpp:227
-#, kde-format
-msgid "Forget Application"
-msgstr "Toepassing vergeten"
-
-#: plugin/recentusagemodel.cpp:275
-#, kde-format
-msgid "Forget Document"
-msgstr "Document vergeten"
-
-#: plugin/recentusagemodel.cpp:403
-#, kde-format
-msgid "Forget All"
-msgstr "Alles vergeten"
-
-#: plugin/recentusagemodel.cpp:405
-#, kde-format
-msgid "Forget All Applications"
-msgstr "Alle toepassingen vergeten"
-
-#: plugin/recentusagemodel.cpp:408
-#, kde-format
-msgid "Forget All Documents"
-msgstr "Alle documenten vergeten"
-
-#: plugin/rootmodel.cpp:106
-#, kde-format
-msgid "Hide %1"
-msgstr "%1 verbergen"
-
-#: plugin/rootmodel.cpp:376
-#, kde-format
-msgid "All Applications"
-msgstr "Alle toepassingen"
-
-#: plugin/rootmodel.cpp:382
-#, kde-format
-msgid "Recent Contacts"
-msgstr "Recente contactpersonen"
-
-#: plugin/rootmodel.cpp:391
-#, kde-format
-msgid "Often Used Documents"
-msgstr "Vaak gebruikte documenten"
-
-#: plugin/rootmodel.cpp:401
-#, kde-format
-msgid "Recent Applications"
-msgstr "Recente programma's"
-
-#: plugin/rootmodel.cpp:402
-#, kde-format
-msgid "Often Used Applications"
-msgstr "Vaak gebruikte toepassingen"
-
-#: plugin/rootmodel.cpp:416
-#, kde-format
-msgid "Power / Session"
-msgstr "Energieverbruik / sessie"
-
-#: plugin/runnermodel.cpp:238
-#, kde-format
-msgid "Search results"
-msgstr "Zoekresultaten"
-
-#: plugin/systementry.cpp:166
-#, kde-format
-msgid "Lock"
-msgstr "Vergrendelen"
-
-#: plugin/systementry.cpp:169
-#, kde-format
-msgid "Log Out"
-msgstr "Afmelden"
-
-#: plugin/systementry.cpp:172 plugin/systementry.cpp:240
-#, kde-format
-msgid "Save Session"
-msgstr "Sessie opslaan"
-
-#: plugin/systementry.cpp:175
-#, kde-format
-msgid "Switch User"
-msgstr "Gebruiker wisselen"
-
-#: plugin/systementry.cpp:178
-#, kde-format
-msgctxt "Suspend to RAM"
-msgid "Sleep"
-msgstr "Slaapstand naar RAM"
-
-#: plugin/systementry.cpp:181
-#, kde-format
-msgid "Hibernate"
-msgstr "Slaapstand naar schijf"
-
-#: plugin/systementry.cpp:184
-#, kde-format
-msgid "Restart"
-msgstr "Herstarten"
-
-#: plugin/systementry.cpp:187
-#, kde-format
-msgid "Shut Down"
-msgstr "Afsluiten"
-
-#: plugin/systementry.cpp:200 plugin/systementry.cpp:203
-#: plugin/systementry.cpp:206 plugin/systementry.cpp:209
-#, kde-format
-msgid "Session"
-msgstr "Sessie"
-
-#: plugin/systementry.cpp:212 plugin/systementry.cpp:215
-#: plugin/systementry.cpp:218 plugin/systementry.cpp:221
-#, kde-format
-msgid "System"
-msgstr "Systeem"
-
-#: plugin/systementry.cpp:234
-#, kde-format
-msgid "Lock screen"
-msgstr "Scherm vergrendelen"
-
-#: plugin/systementry.cpp:237
-#, kde-format
-msgid "End session"
-msgstr "Sessie beëindigen"
-
-#: plugin/systementry.cpp:243
-#, kde-format
-msgid "Start a parallel session as a different user"
-msgstr "Start een parallelle sessie onder een andere gebruikersnaam"
-
-#: plugin/systementry.cpp:246
-#, kde-format
-msgid "Suspend to RAM"
-msgstr "Slaapstand naar RAM"
-
-#: plugin/systementry.cpp:249
-#, kde-format
-msgid "Suspend to disk"
-msgstr "Schijf-slaapstand"
-
-#: plugin/systementry.cpp:252
-#, kde-format
-msgid "Restart computer"
-msgstr "Computer herstarten"
-
-#: plugin/systementry.cpp:255
-#, kde-format
-msgid "Turn off computer"
-msgstr "Computer uitschakelen"
-
-#: plugin/systemmodel.cpp:75
-#, kde-format
-msgid "System actions"
-msgstr "Systeemacties"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaccess\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"POT-Creation-Date: 2019-05-29 03:32+0200\n"
 "PO-Revision-Date: 2007-08-21 06:56+0000\n"
 "Last-Translator: Darafei Praliaskouski <komzpa@licei2.com>\n"
 "Language-Team: Belarusian <i18n@mova.org>\n"
@@ -498,22 +498,22 @@ msgstr ""
 msgid "Mouse keys has been disabled."
 msgstr "Кнопкі мышы выключаныя."
 
-#: main.cpp:55
+#: main.cpp:54
 #, kde-format
 msgid "KDE Accessibility Tool"
 msgstr "Даступнасць KDE"
 
-#: main.cpp:57
+#: main.cpp:56
 #, kde-format
 msgid "(c) 2000, Matthias Hoelzer-Kluepfel"
 msgstr "(c) 2000, Matthias Hoelzer-Kluepfel"
 
-#: main.cpp:59
+#: main.cpp:58
 #, kde-format
 msgid "Matthias Hoelzer-Kluepfel"
 msgstr "Матыяс Хёльцэр-Клюпфэл"
 
-#: main.cpp:59
+#: main.cpp:58
 #, kde-format
 msgid "Author"
 msgstr "Аўтар"

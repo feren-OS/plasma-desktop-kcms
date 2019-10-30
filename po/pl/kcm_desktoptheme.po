@@ -12,15 +12,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcm_desktopthemedetails\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
-"PO-Revision-Date: 2019-05-04 06:32+0200\n"
+"POT-Creation-Date: 2019-08-16 03:26+0200\n"
+"PO-Revision-Date: 2019-08-15 06:43+0200\n"
 "Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
 "Language-Team: Polish <kde-i18n-doc@kde.org>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 19.03.70\n"
+"X-Generator: Lokalize 19.07.70\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2);\n"
 
@@ -34,49 +34,49 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "eugenewolfe@o2.pl, maciej.wiklo@wp.pl, lukasz.wojnilowicz@gmail.com"
 
-#: kcm.cpp:61
+#: kcm.cpp:57
 #, kde-format
-msgid "Plasma Theme"
+msgid "Plasma Style"
 msgstr "Wygląd Plazmy"
 
-#: kcm.cpp:63
+#: kcm.cpp:59
 #, kde-format
 msgid "David Rosca"
 msgstr "David Rosca"
 
-#: kcm.cpp:139
+#: kcm.cpp:135
 #, kde-format
-msgid "Download New Plasma Themes"
-msgstr "Pobierz nowe wyglądy Plazmy"
+msgid "Download New Plasma Styles"
+msgstr "Pobierz nowe wyglądy dla Plazmy"
 
-#: kcm.cpp:165
+#: kcm.cpp:161
 #, kde-format
 msgid "Unable to create a temporary file."
 msgstr "Nie można utworzyć pliku tymczasowego."
 
-#: kcm.cpp:177
+#: kcm.cpp:173
 #, kde-format
 msgid "Unable to download the theme: %1"
 msgstr "Nie można pobrać wyglądu: %1"
 
-#: kcm.cpp:200
+#: kcm.cpp:196
 #, kde-format
 msgid "Theme installed successfully."
 msgstr "Pomyślnie wgrano wygląd."
 
-#: kcm.cpp:203 kcm.cpp:211
+#: kcm.cpp:199 kcm.cpp:207
 #, kde-format
 msgid "Theme installation failed."
 msgstr "Nie udało się wgrać wyglądu."
 
-#: kcm.cpp:360
+#: kcm.cpp:356
 #, kde-format
 msgid "Removing theme failed: %1"
 msgstr "Nie udało się usunięcie wyglądu: %1"
 
 #: package/contents/ui/main.qml:30
 #, kde-format
-msgid "This module lets you choose the Plasma theme."
+msgid "This module lets you choose the Plasma style."
 msgstr "Ten moduł umożliwia wybranie wyglądu Plazmy."
 
 #: package/contents/ui/main.qml:68
@@ -101,8 +101,8 @@ msgstr "Wgraj z pliku..."
 
 #: package/contents/ui/main.qml:126
 #, kde-format
-msgid "Get New Plasma Themes..."
-msgstr "Pobierz nowy wygląd Plazmy..."
+msgid "Get New Plasma Styles..."
+msgstr "Pobierz nowy wygląd dla Plazmy..."
 
 #: package/contents/ui/main.qml:138
 #, kde-format

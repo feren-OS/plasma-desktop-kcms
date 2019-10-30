@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmstyle\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"POT-Creation-Date: 2019-10-19 08:02+0200\n"
 "PO-Revision-Date: 2009-12-14 10:10+0530\n"
 "Last-Translator: Danishka Navin <danishka@gmail.com>\n"
 "Language-Team: Sinhala <danishka@gmail.com>\n"
@@ -27,7 +27,7 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "danishka@gmail.com"
 
-#: kcmstyle.cpp:173
+#: kcmstyle.cpp:171
 #, fuzzy, kde-format
 #| msgid ""
 #| "<h1>Style</h1>This module allows you to modify the visual appearance of "
@@ -39,56 +39,56 @@ msgstr ""
 "<h1>රටා</h1> මෙම මොඩියුලය පරිශීලක අතුරුමුහුණත් මූලයන් හී දෘශ්‍ය පෙනුම වෙනස් කිරීමට ඉඩදෙයි, "
 "විජෙට්ටු රටා හා සැරසිලි වැනි."
 
-#: kcmstyle.cpp:183
+#: kcmstyle.cpp:181
 #, fuzzy, kde-format
 #| msgctxt "@title:tab"
 #| msgid "&Applications"
 msgid "Application Style"
 msgstr "භාවිත යෙදවුම් (&A)"
 
-#: kcmstyle.cpp:185
+#: kcmstyle.cpp:183
 #, kde-format
 msgid "(c) 2002 Karol Szwed, Daniel Molkentin"
 msgstr "(c) 2002 Karol Szwed, Daniel Molkentin"
 
-#: kcmstyle.cpp:187
+#: kcmstyle.cpp:185
 #, kde-format
 msgid "Karol Szwed"
 msgstr "Karol Szwed"
 
-#: kcmstyle.cpp:188
+#: kcmstyle.cpp:186
 #, kde-format
 msgid "Daniel Molkentin"
 msgstr "Daniel Molkentin"
 
-#: kcmstyle.cpp:198
+#: kcmstyle.cpp:196
 #, kde-format
 msgid "Preview"
 msgstr "පෙරදැක්ම"
 
-#: kcmstyle.cpp:252 kcmstyle.cpp:263
+#: kcmstyle.cpp:250 kcmstyle.cpp:261
 #, kde-format
 msgid "There was an error loading the configuration dialog for this style."
 msgstr "මෙම රටාව සඳහා සැකසුම් සංවාදය පූර්ණය කිරීමේ වරදක් හට ගැණිනි."
 
-#: kcmstyle.cpp:254 kcmstyle.cpp:265
+#: kcmstyle.cpp:252 kcmstyle.cpp:263
 #, kde-format
 msgid "Unable to Load Dialog"
 msgstr "සංවාදය පූරණය කල නොහැකි විය"
 
-#: kcmstyle.cpp:488
+#: kcmstyle.cpp:479
 #, kde-format
 msgid "No description available."
 msgstr "විස්තර කිරීමක් නොමැත"
 
-#: kcmstyle.cpp:695
+#: kcmstyle.cpp:686
 #, kde-format
 msgid ""
 "This area shows a preview of the currently selected style without having to "
 "apply it to the whole desktop."
 msgstr "මම ප්‍රදේශය දැනට තෝරාඇති රටාව මුළු වැඩතලයට ඇතුළු කිරීමෙන් තොරව පෙරදැක්මකින් පෙන්වයි."
 
-#: kcmstyle.cpp:697
+#: kcmstyle.cpp:688
 #, kde-format
 msgid ""
 "Here you can choose from a list of predefined widget styles (e.g. the way "
@@ -98,7 +98,7 @@ msgstr ""
 "මෙහිදී ඔබට කලින් නිවේශනය කල විජෙට්ටු රටා ලැයිස්තුවකින් තෝරාගත හැක (උදා. බොත්තම් ඇඳෙන ආකාරය) "
 "මේවා තේමාව සමග සංයුක්ත හෝ අසංයුක්ත විය හැක (මාබල රටා හා අනුක්‍රමික වැනි අමතර තොරතුරු)."
 
-#: kcmstyle.cpp:701
+#: kcmstyle.cpp:692
 #, fuzzy, kde-format
 #| msgid ""
 #| "If you enable this option, KDE Applications will show small icons "
@@ -109,7 +109,7 @@ msgid ""
 msgstr ""
 "මෙම වික්ල්පය සක්‍රීය විට, KDE භාවිතයෙදවුම් වල වැදගත් බොත්තම් පසෙකින් කුඩා අයිකන පෙන්වනු ඇත."
 
-#: kcmstyle.cpp:703
+#: kcmstyle.cpp:694
 #, fuzzy, kde-format
 #| msgid ""
 #| "If you enable this option, KDE Applications will show small icons "
@@ -120,7 +120,7 @@ msgid ""
 msgstr ""
 "මෙම වික්ල්පය සක්‍රීය විට, KDE භාවිතයෙදවුම් වල වැදගත් බොත්තම් පසෙකින් කුඩා අයිකන පෙන්වනු ඇත."
 
-#: kcmstyle.cpp:705
+#: kcmstyle.cpp:696
 #, fuzzy, kde-format
 #| msgid ""
 #| "<p><b>Icons only:</b> Shows only icons on toolbar buttons. Best option "
@@ -142,7 +142,7 @@ msgstr ""
 "පිහිටයි</p><b>අයිකනයට පහළින් පෙළ: </b> ටූල් බාර් බොත්තම් වල අයිකන හා පෙළ පෙන්වයි. පෙළ "
 "අයිකනයන්ට පහළින් පිහිටයි."
 
-#: styleconfdialog.cpp:29
+#: styleconfdialog.cpp:33
 #, kde-format
 msgid "Configure %1"
 msgstr "%1 සකසන්න"

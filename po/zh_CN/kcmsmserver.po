@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
-"PO-Revision-Date: 2019-07-18 15:08\n"
+"POT-Creation-Date: 2019-07-11 03:14+0200\n"
+"PO-Revision-Date: 2019-10-09 10:02\n"
 "Last-Translator: Guo Yunhe (guoyunhe)\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -20,7 +20,7 @@ msgstr ""
 "X-Crowdin-Language: zh-CN\n"
 "X-Crowdin-File: /kf5-stable/messages/kde-workspace/kcmsmserver.pot\n"
 
-#: kcmsmserver.cpp:62
+#: kcmsmserver.cpp:63
 #, kde-format
 msgid ""
 "<h1>Session Manager</h1> You can configure the session manager here. This "
@@ -32,34 +32,34 @@ msgstr ""
 "<h1>会话管理器</h1> 您可以在这里配置会话管理器。这包括注销会话时是否需要确"
 "认、是否在登录时恢复上次的会话以及是否在退出会话后自动关机等选项。"
 
-#: kcmsmserver.cpp:82
+#: kcmsmserver.cpp:83
 #, kde-format
 msgid "Restart Now"
 msgstr "立即重新启动"
 
-#: kcmsmserver.cpp:114
+#: kcmsmserver.cpp:124
 #, kde-format
 msgid "Failed to request restart to firmware setup: %1"
 msgstr "请求重新启动到固件设置失败：%1"
 
-#: kcmsmserver.cpp:126
+#: kcmsmserver.cpp:136
 #, kde-format
 msgid ""
 "Next time the computer is restarted, it will enter the UEFI setup screen."
 msgstr "下次重新启动计算机时，它将进入 UEFI 设置。"
 
-#: kcmsmserver.cpp:128
+#: kcmsmserver.cpp:138
 #, kde-format
 msgid ""
 "Next time the computer is restarted, it will enter the firmware setup screen."
 msgstr "下次重新启动计算机时，它将进入固件设置。"
 
-#: kcmsmserver.cpp:140
+#: kcmsmserver.cpp:150
 #, kde-format
 msgid "UEFI Setup"
 msgstr "UEFI 设置"
 
-#: kcmsmserver.cpp:141
+#: kcmsmserver.cpp:151
 #, kde-format
 msgid "Enter UEFI setup on next restart"
 msgstr "在下次重启时进入 UEFI 设置"

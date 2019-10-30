@@ -9,7 +9,7 @@
 <article id="workspaceoptions" lang="&language;">
 <articleinfo>
 <title
->Verhalten der Arbeitsfläche</title>
+>Allgemeines Verhalten</title>
 <authorgroup>
 <author
 >&Burkhard.Lueck; &Burkhard.Lueck.mail;</author>
@@ -31,10 +31,10 @@
 </authorgroup>
 
 <date
->2018-05-21</date>
+>2019-08-01</date>
 
 <releaseinfo
->&plasma; 5.13</releaseinfo>
+>&plasma; 5.16</releaseinfo>
 
 <keywordset>
 <keyword
@@ -48,7 +48,7 @@
 </articleinfo>
 
 <para
->Mit diesem Modul können Sie globale Einstellungen für die &plasma;-Arbeitsfläche einrichten. </para>
+>Mit diesem Modul können Sie das allgemeine Verhalten des Arbeitsbereichs einrichten. </para>
 
 <variablelist>
 

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkeys\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"POT-Creation-Date: 2019-09-12 03:25+0200\n"
 "PO-Revision-Date: 2009-05-27 21:14+0100\n"
 "Last-Translator: Jean Cayron <jean.cayron@gmail.com>\n"
 "Language-Team: Walloon <linux@walon.org>\n"
@@ -31,55 +31,55 @@ msgstr "Tchoezi les componints a ebaguer"
 msgid "Components"
 msgstr "Componints"
 
-#: globalshortcuts.cpp:67
+#: globalshortcuts.cpp:65
 #, kde-format
 msgid "You are about to reset all shortcuts to their default values."
 msgstr ""
 "Vos aloz bén rade rimete a zero tos les rascourtis a leus valixhances "
 "prémetowes."
 
-#: globalshortcuts.cpp:68
+#: globalshortcuts.cpp:66
 #, kde-format
 msgid "Reset to defaults"
 msgstr "Rimete come prémetous"
 
-#: globalshortcuts.cpp:69
+#: globalshortcuts.cpp:67
 #, kde-format
 msgid "Current Component"
 msgstr "Componint do moumint"
 
-#: globalshortcuts.cpp:70
+#: globalshortcuts.cpp:68
 #, kde-format
 msgid "All Components"
 msgstr "Tos les componints"
 
-#: kglobalshortcutseditor.cpp:231
+#: kglobalshortcutseditor.cpp:233
 #, kde-format
 msgid "Import Scheme..."
 msgstr "Abaguer djeu..."
 
-#: kglobalshortcutseditor.cpp:232
+#: kglobalshortcutseditor.cpp:234
 #, kde-format
 msgid "Export Scheme..."
 msgstr "Ebaguer djeu..."
 
-#: kglobalshortcutseditor.cpp:233
+#: kglobalshortcutseditor.cpp:235
 #, kde-format
 msgid "Set All Shortcuts to None"
 msgstr "Defini tos les rascourtis a nous"
 
-#: kglobalshortcutseditor.cpp:241
+#: kglobalshortcutseditor.cpp:243
 #, fuzzy, kde-format
 #| msgid "App&lication Shortcuts"
 msgid "Applications"
 msgstr "Rascourtis des &programes"
 
-#: kglobalshortcutseditor.cpp:292
+#: kglobalshortcutseditor.cpp:294
 #, kde-format
 msgid "Launch %1"
 msgstr ""
 
-#: kglobalshortcutseditor.cpp:328
+#: kglobalshortcutseditor.cpp:330
 #, kde-format
 msgid ""
 "Component '%1' is currently active. Only global shortcuts currently not "
@@ -92,12 +92,12 @@ msgstr ""
 "Tos les rascourtis globås si reredjistront zels minmes avou come prémetous "
 "li côp shuvant ki sront enondés."
 
-#: kglobalshortcutseditor.cpp:330 kglobalshortcutseditor.cpp:340
+#: kglobalshortcutseditor.cpp:332 kglobalshortcutseditor.cpp:342
 #, kde-format
 msgid "Remove component"
 msgstr "Oister componint"
 
-#: kglobalshortcutseditor.cpp:336
+#: kglobalshortcutseditor.cpp:338
 #, kde-format
 msgid ""
 "Are you sure you want to remove the registered shortcuts for component '%1'? "
@@ -108,19 +108,19 @@ msgstr ""
 "componint eyet les rascourtis si reredjistront zels minme avou leus "
 "apontiaedjes prémetous li côp shuvant k' i sront renondés."
 
-#: kglobalshortcutseditor.cpp:450
+#: kglobalshortcutseditor.cpp:452
 #, fuzzy, kde-format
 #| msgid "App&lication Shortcuts"
 msgid "Application Launchers"
 msgstr "Rascourtis des &programes"
 
-#: kglobalshortcutseditor.cpp:453
+#: kglobalshortcutseditor.cpp:455
 #, fuzzy, kde-format
 #| msgid "Shortcuts:"
 msgid "Other Shortcuts"
 msgstr "Rascourtis:"
 
-#: kglobalshortcutseditor.cpp:558
+#: kglobalshortcutseditor.cpp:560
 #, kde-format
 msgid ""
 "Your current changes will be lost if you load another scheme before saving "
@@ -129,12 +129,12 @@ msgstr ""
 "Vos candjmints si vont piede si vos tcherdjîz èn ôte djeu d' tapes rascourti "
 "sins schaper ci chal"
 
-#: kglobalshortcutseditor.cpp:559
+#: kglobalshortcutseditor.cpp:561
 #, kde-format
 msgid "Load Shortcut Scheme"
 msgstr "Tcherdjî djeu d' tapes rascourti"
 
-#: kglobalshortcutseditor.cpp:560
+#: kglobalshortcutseditor.cpp:562
 #, kde-format
 msgid "Load"
 msgstr "Tcherdjî"
@@ -145,7 +145,7 @@ msgid "This file (%1) does not exist. You can only select local files."
 msgstr ""
 "Ci fitchî (%1) n' egzistêye nén. Vos n' poloz tchoezi k' des locås fitchîs."
 
-#: kglobalshortcutseditor.cpp:601 kglobalshortcutseditor.cpp:624
+#: kglobalshortcutseditor.cpp:602 kglobalshortcutseditor.cpp:625
 #, kde-format
 msgid ""
 "Message: %1\n"
@@ -154,7 +154,7 @@ msgstr ""
 "Messaedje: %1\n"
 "Aroke: %2"
 
-#: kglobalshortcutseditor.cpp:606 kglobalshortcutseditor.cpp:629
+#: kglobalshortcutseditor.cpp:607 kglobalshortcutseditor.cpp:630
 #, kde-format
 msgid "Failed to contact the KDE global shortcuts daemon\n"
 msgstr ""

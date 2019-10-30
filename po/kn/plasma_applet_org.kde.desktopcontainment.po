@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"POT-Creation-Date: 2019-08-03 03:23+0200\n"
 "PO-Revision-Date: 2010-01-12 21:50+0530\n"
 "Last-Translator: Shankar Prasad <svenkate@redhat.com>\n"
 "Language-Team: Kannada <kde-l10n-kn@kde.org>\n"
@@ -44,18 +44,6 @@ msgstr "ಸೋಸುಗ(ಫಿಲ್ಟರ್)"
 
 #: package/contents/config/config.qml:50
 msgid "Tweaks"
-msgstr ""
-
-#: package/contents/ui/AppletHandle.qml:105
-msgid "Resize"
-msgstr ""
-
-#: package/contents/ui/AppletHandle.qml:127
-msgid "Rotate"
-msgstr ""
-
-#: package/contents/ui/AppletHandle.qml:284
-msgid "Remove"
 msgstr ""
 
 #: package/contents/ui/BackButtonItem.qml:116
@@ -254,58 +242,58 @@ msgstr "ಚಿಕ್ಕದಾದ"
 msgid "Large"
 msgstr "ದೊಡ್ಡದಾದ"
 
-#: package/contents/ui/ConfigIcons.qml:263
+#: package/contents/ui/ConfigIcons.qml:264
 msgid "Label width:"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:266
+#: package/contents/ui/ConfigIcons.qml:267
 msgid "Narrow"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:267
+#: package/contents/ui/ConfigIcons.qml:268
 #: plugins/folder/viewpropertiesmenu.cpp:88
 #, kde-format
 msgid "Medium"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:268
+#: package/contents/ui/ConfigIcons.qml:269
 msgid "Wide"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:276
+#: package/contents/ui/ConfigIcons.qml:277
 #, fuzzy
 #| msgid " lines"
 msgid "Text lines:"
 msgstr " ಸಾಲುಗಳು"
 
-#: package/contents/ui/ConfigIcons.qml:292
+#: package/contents/ui/ConfigIcons.qml:293
 #, fuzzy
 #| msgctxt "On a camera"
 #| msgid "Aperture:"
 msgid "Features:"
 msgstr "ಬೆಳಕಿಂಡಿ:"
 
-#: package/contents/ui/ConfigIcons.qml:294
+#: package/contents/ui/ConfigIcons.qml:295
 msgid "Tooltips"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:301
+#: package/contents/ui/ConfigIcons.qml:302
 #, fuzzy
 #| msgid "Select All"
 msgid "Selection markers"
 msgstr "ಎಲ್ಲವನ್ನೂ ಆರಿಸು"
 
-#: package/contents/ui/ConfigIcons.qml:308
+#: package/contents/ui/ConfigIcons.qml:309
 msgid "Folder preview popups"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:314
+#: package/contents/ui/ConfigIcons.qml:315
 #, fuzzy
 #| msgid "Previews:"
 msgid "Preview thumbnails"
 msgstr "ಮುನ್ನೋಟಗಳು:"
 
-#: package/contents/ui/ConfigIcons.qml:321
+#: package/contents/ui/ConfigIcons.qml:323
 #, fuzzy
 #| msgid "More Preview Options..."
 msgid "Configure Preview Plugins..."
@@ -372,6 +360,14 @@ msgstr "ನಿಮ್ಮಿಚ್ಚೆಯ ಶೀರ್ಷಿಕೆ:"
 msgid "Enter custom title..."
 msgstr "ನಿಮ್ಮಿಚ್ಚೆಯ ಶೀರ್ಷಿಕೆಯನ್ನು ನಮೂದಿಸು"
 
+#: package/contents/ui/ConfigOverlay.qml:101
+msgid "Rotate"
+msgstr ""
+
+#: package/contents/ui/ConfigOverlay.qml:224
+msgid "Remove"
+msgstr ""
+
 #: package/contents/ui/ConfigTweaks.qml:43
 msgid ""
 "With the Desktop Toolbox hidden, right-click on the desktop and choose "
@@ -402,19 +398,19 @@ msgstr ""
 msgid "Cancel"
 msgstr ""
 
-#: package/contents/ui/main.qml:382
+#: package/contents/ui/main.qml:277
 msgid "Widgets unlocked"
 msgstr ""
 
-#: package/contents/ui/main.qml:383
+#: package/contents/ui/main.qml:278
 msgid "You can press and hold widgets to move them and reveal their handles."
 msgstr ""
 
-#: package/contents/ui/main.qml:384
+#: package/contents/ui/main.qml:279
 msgid "Got it"
 msgstr ""
 
-#: package/contents/ui/main.qml:597
+#: package/contents/ui/main.qml:403
 #, fuzzy
 #| msgid "&Refresh Desktop"
 msgid "Configure Desktop..."

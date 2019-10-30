@@ -10,9 +10,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcm_desktopthemedetails\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
-"PO-Revision-Date: 2017-06-25 00:59+0200\n"
-"Last-Translator: Mindaugas Baranauskas <opensuse.lietuviu.kalba@gmail.com>\n"
+"POT-Creation-Date: 2019-08-16 03:26+0200\n"
+"PO-Revision-Date: 2019-08-03 19:30+0300\n"
+"Last-Translator: Moo\n"
 "Language-Team: Lithuanian <kde-i18n-lt@kde.org>\n"
 "Language: lt\n"
 "MIME-Version: 1.0\n"
@@ -20,94 +20,87 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : n%10>=2 && (n%100<10 || n"
 "%100>=20) ? 1 : n%10==0 || (n%100>10 && n%100<20) ? 2 : 3);\n"
-"X-Generator: Lokalize 2.0\n"
+"X-Generator: Poedit 2.0.6\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "Andrius Štikonas, Liudas Ališauskas"
+msgstr "Andrius Štikonas, Liudas Ališauskas, Moo"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "andrius@stikonas.eu, liudas@akmc.lt"
+msgstr "andrius@stikonas.eu, liudas@akmc.lt, <>"
 
-#: kcm.cpp:61
-#, fuzzy, kde-format
-#| msgid "Get new Theme"
-msgid "Plasma Theme"
-msgstr "Parsisiųsti naują apipavidalinimą"
+#: kcm.cpp:57
+#, kde-format
+msgid "Plasma Style"
+msgstr "Plasma stilius"
 
-#: kcm.cpp:63
+#: kcm.cpp:59
 #, kde-format
 msgid "David Rosca"
 msgstr "David Rosca"
 
-#: kcm.cpp:139
-#, fuzzy, kde-format
-#| msgid "Configure Desktop Theme"
-msgid "Download New Plasma Themes"
-msgstr "Konfigūruoti darbalaukio apipavidalinimą"
+#: kcm.cpp:135
+#, kde-format
+msgid "Download New Plasma Styles"
+msgstr "Atsisiųsti naujus Plasma stilius"
 
-#: kcm.cpp:165
+#: kcm.cpp:161
 #, kde-format
 msgid "Unable to create a temporary file."
-msgstr ""
+msgstr "Nepavyko sukurti laikinojo failo."
 
-#: kcm.cpp:177
+#: kcm.cpp:173
 #, kde-format
 msgid "Unable to download the theme: %1"
-msgstr ""
+msgstr "Nepavyko atsisiųsti apipavidalinimo: %1"
 
-#: kcm.cpp:200
+#: kcm.cpp:196
 #, kde-format
 msgid "Theme installed successfully."
-msgstr "Apipavidalinimas įdiegtas sėkmingai."
+msgstr "Apipavidalinimas sėkmingai įdiegtas."
 
-#: kcm.cpp:203 kcm.cpp:211
+#: kcm.cpp:199 kcm.cpp:207
 #, kde-format
 msgid "Theme installation failed."
 msgstr "Apipavidalinimo įdiegimas nepavyko."
 
-#: kcm.cpp:360
+#: kcm.cpp:356
 #, kde-format
 msgid "Removing theme failed: %1"
-msgstr ""
+msgstr "Apipavidalinimo šalinimas nepavyko: %1"
 
 #: package/contents/ui/main.qml:30
-#, fuzzy, kde-format
-#| msgid "This module lets you configure the desktop theme."
-msgid "This module lets you choose the Plasma theme."
-msgstr "Šis modulis leidžia konfigūruoti darbalaukio apipavidalinimą."
+#, kde-format
+msgid "This module lets you choose the Plasma style."
+msgstr "Šis modulis leidžia jums pasirinkti Plasma stilių."
 
 #: package/contents/ui/main.qml:68
-#, fuzzy, kde-format
-#| msgid "Theme"
+#, kde-format
 msgid "Edit Theme..."
-msgstr "Apipavidalinimas"
+msgstr "Taisyti apipavidalinimą..."
 
 #: package/contents/ui/main.qml:75
 #, kde-format
 msgid "Remove Theme"
-msgstr "Pašalinti apipavidalinimą"
+msgstr "Šalinti apipavidalinimą"
 
 #: package/contents/ui/main.qml:82
-#, fuzzy, kde-format
-#| msgid "Remove Theme"
+#, kde-format
 msgid "Restore Theme"
-msgstr "Pašalinti apipavidalinimą"
+msgstr "Atkurti apipavidalinimą"
 
 #: package/contents/ui/main.qml:120
-#, fuzzy, kde-format
-#| msgid "Install from File"
+#, kde-format
 msgid "Install from File..."
-msgstr "Įdiegti iš failo"
+msgstr "Įdiegti iš failo..."
 
 #: package/contents/ui/main.qml:126
-#, fuzzy, kde-format
-#| msgid "Get new Theme"
-msgid "Get New Plasma Themes..."
-msgstr "Parsisiųsti naują apipavidalinimą"
+#, kde-format
+msgid "Get New Plasma Styles..."
+msgstr "Gauti naujus Plasma stilius..."
 
 #: package/contents/ui/main.qml:138
 #, kde-format

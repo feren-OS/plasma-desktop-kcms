@@ -7,15 +7,15 @@
 # Kim Enkovaara <kim.enkovaara@iki.fi>, 2006.
 # Teemu Rytilahti <tpr@d5k.net>, 2008.
 # Lasse Liehu <lasse.liehu@gmail.com>, 2010, 2011, 2012, 2013, 2014, 2015.
-# Tommi Nieminen <translator@legisign.org>, 2017.
+# Tommi Nieminen <translator@legisign.org>, 2017, 2019.
 #
 # KDE Finnish translation sprint participants:
 msgid ""
 msgstr ""
 "Project-Id-Version: kcmaccess\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
-"PO-Revision-Date: 2017-12-08 16:01+0200\n"
+"POT-Creation-Date: 2019-08-01 03:13+0200\n"
+"PO-Revision-Date: 2019-08-08 15:56+0200\n"
 "Last-Translator: Tommi Nieminen <translator@legisign.org>\n"
 "Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
 "Language: fi\n"
@@ -190,7 +190,11 @@ msgstr "Tässä voit määritellä \"Näkyvä äänimerkki\"-tehosteen keston."
 #. i18n: ectx: property (suffix), widget (QSpinBox, duration)
 #. i18n: ectx: property (suffix), widget (QSpinBox, slowKeysDelay)
 #. i18n: ectx: property (suffix), widget (QSpinBox, bounceKeysDelay)
+#. i18n: ectx: property (suffix), widget (QSpinBox, mk_delay)
+#. i18n: ectx: property (suffix), widget (QSpinBox, mk_interval)
+#. i18n: ectx: property (suffix), widget (QSpinBox, mk_time_to_max)
 #: accessibility.ui:181 accessibility.ui:392 accessibility.ui:489
+#: accessibility.ui:766 accessibility.ui:808 accessibility.ui:840
 #, kde-format
 msgid " msec"
 msgstr " ms"
@@ -401,26 +405,74 @@ msgstr ""
 "Käytä Plasman ilmoitusmekanismia aina kun toimintatapaa muutetaan päälle tai "
 "pois"
 
-#. i18n: ectx: attribute (title), widget (QWidget, tabScreenReader)
+#. i18n: ectx: attribute (title), widget (QWidget, tabMouseKeys)
 #: accessibility.ui:745
+#, kde-format
+msgid "Mouse Navigation"
+msgstr "Hiirinavigointi"
+
+#. i18n: ectx: property (text), widget (QCheckBox, mouseKeys)
+#: accessibility.ui:753
+#, kde-format
+msgid "&Move pointer with keyboard (using the num pad)"
+msgstr "&Siirrä osoitinta näppäimistöllä (numeronäppäimin)"
+
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: accessibility.ui:782
+#, kde-format
+msgid "&Acceleration delay:"
+msgstr "Kiihdytys&viive:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_8)
+#: accessibility.ui:792
+#, kde-format
+msgid "R&epeat interval:"
+msgstr "&Toistoväli:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_9)
+#: accessibility.ui:824
+#, kde-format
+msgid "Acceleration &time:"
+msgstr "K&iihdytysaika:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_10)
+#: accessibility.ui:856
+#, kde-format
+msgid "Ma&ximum speed:"
+msgstr "&Enimmäisnopeus:"
+
+#. i18n: ectx: property (suffix), widget (QSpinBox, mk_max_speed)
+#: accessibility.ui:872
+#, kde-format
+msgid " pixel/sec"
+msgstr " kuvapistettä sekunnissa"
+
+#. i18n: ectx: property (text), widget (QLabel, label_11)
+#: accessibility.ui:888
+#, kde-format
+msgid "Acceleration &profile:"
+msgstr "Kiihdytys&profiili:"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tabScreenReader)
+#: accessibility.ui:933
 #, kde-format
 msgid "Screen Reader"
 msgstr "Näyttölukija"
 
 #. i18n: ectx: property (text), widget (QCheckBox, screenReaderEnabled)
-#: accessibility.ui:751
+#: accessibility.ui:939
 #, kde-format
 msgid "Screen reader enabled"
 msgstr "Näyttölukija käytössä"
 
 #. i18n: ectx: property (text), widget (QPushButton, launchOrcaConfiguration)
-#: accessibility.ui:760
+#: accessibility.ui:948
 #, kde-format
 msgid "&Launch Orca Configuration"
 msgstr "Käynnistä &Orcan määritys"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: accessibility.ui:785
+#: accessibility.ui:973
 #, kde-format
 msgid ""
 "Please note that you may have to log out once to allow the screen reader to "
@@ -533,12 +585,12 @@ msgstr ""
 "Alas jäävät näppäimet: Paina vaihtonäppäintä 5 kertaa\n"
 "Hitaat näppäimet: Pidä vaihtonäppäintä alhaalla 8 sekuntia"
 
-#: kcmaccess.cpp:261
+#: kcmaccess.cpp:269
 #, kde-format
 msgid "Could not set gsettings for Orca: \"%1\" failed"
 msgstr "Ei voitu asettaa Orcan gsettings-asetusta: ”%1” epäonnistui"
 
-#: kcmaccess.cpp:268
+#: kcmaccess.cpp:276
 #, kde-format
 msgid "Error: Could not launch \"orca --setup\""
 msgstr "Virhe: Ei voitu käynnistää ”orca --setup”"

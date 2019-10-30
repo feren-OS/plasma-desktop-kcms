@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcm_nightcolor\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
-"PO-Revision-Date: 2017-12-12 10:27+0000\n"
+"POT-Creation-Date: 2019-08-07 03:21+0200\n"
+"PO-Revision-Date: 2019-08-02 19:13+0100\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -38,39 +38,39 @@ msgstr "Cor Nocturna"
 msgid "Roman Gilg"
 msgstr "Roman Gilg"
 
-#: package/contents/ui/LocationsAutoView.qml:34
-#: package/contents/ui/LocationsFixedView.qml:38
+#: package/contents/ui/LocationsAutoView.qml:32
+#: package/contents/ui/LocationsFixedView.qml:37
 #, kde-format
-msgid "Latitude"
-msgstr "Latitude"
+msgid "Latitude:"
+msgstr "Latitude:"
 
-#: package/contents/ui/LocationsAutoView.qml:44
-#: package/contents/ui/LocationsFixedView.qml:53
+#: package/contents/ui/LocationsAutoView.qml:39
+#: package/contents/ui/LocationsFixedView.qml:49
 #, kde-format
-msgid "Longitude"
-msgstr "Longitude"
+msgid "Longitude:"
+msgstr "Longitude:"
 
-#: package/contents/ui/LocationsFixedView.qml:69
+#: package/contents/ui/LocationsFixedView.qml:60
 #, kde-format
-msgid "Detect location"
-msgstr "Detectar a localização"
+msgid "Detect Location"
+msgstr "Detectar a Localização"
 
-#: package/contents/ui/main.qml:103
+#: package/contents/ui/main.qml:107
 #, kde-format
 msgid "Activate Night Color"
 msgstr "Activar a Cor Nocturna"
 
-#: package/contents/ui/main.qml:120
+#: package/contents/ui/main.qml:118
 #, kde-format
-msgid "Night Color Temperature: "
-msgstr "Temperatura da Cor Nocturna: "
+msgid "Night Color temperature:"
+msgstr "Temperatura da Cor Nocturna:"
 
-#: package/contents/ui/main.qml:120
+#: package/contents/ui/main.qml:137
 #, kde-format
 msgid " K"
 msgstr " K"
 
-#: package/contents/ui/main.qml:141
+#: package/contents/ui/main.qml:143
 #, kde-format
 msgid "Operation mode:"
 msgstr "Modo de operação:"
@@ -90,43 +90,53 @@ msgstr "Localização"
 msgid "Times"
 msgstr "Vezes"
 
-#: package/contents/ui/main.qml:251 package/contents/ui/TimingsView.qml:39
+#: package/contents/ui/main.qml:149
 #, kde-format
-msgid "Sunrise begins"
-msgstr "O Sol nasce às"
+msgid "Constant"
+msgstr "Constante"
 
-#: package/contents/ui/main.qml:263 package/contents/ui/main.qml:278
+#: package/contents/ui/main.qml:263 package/contents/ui/TimingsView.qml:38
 #, kde-format
-msgid "(HH:MM)"
-msgstr "(HH:MM)"
+msgid "Sunrise begins:"
+msgstr "O Sol nasce às:"
 
-#: package/contents/ui/main.qml:266 package/contents/ui/TimingsView.qml:59
+#: package/contents/ui/main.qml:270
 #, kde-format
-msgid "Sunset begins"
-msgstr "O Sol põe-se às"
+msgid "(Input format: HH:MM)"
+msgstr "(Formato de entrada: HH:MM)"
 
-#: package/contents/ui/main.qml:281
+#: package/contents/ui/main.qml:276 package/contents/ui/TimingsView.qml:52
 #, kde-format
-msgid "Transition duration"
-msgstr "Duração da transição"
+msgid "Sunset begins:"
+msgstr "O Sol põe-se às:"
 
-#: package/contents/ui/main.qml:296
+#: package/contents/ui/main.qml:283
 #, kde-format
-msgid "(In minutes - min. 1, max. 600)"
-msgstr "(Em minutos - mín. 1, máx. 600)"
+msgid "Input format: HH:MM"
+msgstr "Formato de entrada: HH:MM"
 
-#: package/contents/ui/main.qml:305
+#: package/contents/ui/main.qml:289
 #, kde-format
-msgid "Error: Morning not before evening."
+msgid "Transition duration:"
+msgstr "Duração da transição:"
+
+#: package/contents/ui/main.qml:299
+#, kde-format
+msgid "Input minutes - min. 1, max. 600"
+msgstr "Minutos de entrada - mín. 1, máx. 600"
+
+#: package/contents/ui/main.qml:307
+#, kde-format
+msgid "Error: Morning is before evening."
 msgstr "Erro: A manhã não é anterior à noite."
 
-#: package/contents/ui/main.qml:321
+#: package/contents/ui/main.qml:323
 #, kde-format
 msgid "Error: Transition time overlaps."
 msgstr "Erro: O tempo de transição sobrepõe-se."
 
-#: package/contents/ui/TimingsView.qml:49
-#: package/contents/ui/TimingsView.qml:69
+#: package/contents/ui/TimingsView.qml:45
+#: package/contents/ui/TimingsView.qml:59
 #, kde-format
-msgid "and ends"
-msgstr "e termina às"
+msgid "...and ends:"
+msgstr "...e termina às:"

@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkeys\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"POT-Creation-Date: 2019-09-12 03:25+0200\n"
 "PO-Revision-Date: 2009-06-24 10:26+0300\n"
 "Last-Translator: Sergiu Bivol <sergiu@ase.md>\n"
 "Language-Team: Romanian <kde-i18n-ro@lists.kde.org>\n"
@@ -36,54 +36,54 @@ msgstr "Alegeți componentele de exportat"
 msgid "Components"
 msgstr "Componente"
 
-#: globalshortcuts.cpp:67
+#: globalshortcuts.cpp:65
 #, kde-format
 msgid "You are about to reset all shortcuts to their default values."
 msgstr ""
 "Sunteți pe cale de a reinițializa toate scurtăturile la valorile lor "
 "implicite."
 
-#: globalshortcuts.cpp:68
+#: globalshortcuts.cpp:66
 #, kde-format
 msgid "Reset to defaults"
 msgstr "Restabilește la implicite"
 
-#: globalshortcuts.cpp:69
+#: globalshortcuts.cpp:67
 #, kde-format
 msgid "Current Component"
 msgstr "Componenta actuală"
 
-#: globalshortcuts.cpp:70
+#: globalshortcuts.cpp:68
 #, kde-format
 msgid "All Components"
 msgstr "Toate componentele"
 
-#: kglobalshortcutseditor.cpp:231
+#: kglobalshortcutseditor.cpp:233
 #, kde-format
 msgid "Import Scheme..."
 msgstr "Import schemă..."
 
-#: kglobalshortcutseditor.cpp:232
+#: kglobalshortcutseditor.cpp:234
 #, kde-format
 msgid "Export Scheme..."
 msgstr "Export schemă..."
 
-#: kglobalshortcutseditor.cpp:233
+#: kglobalshortcutseditor.cpp:235
 #, kde-format
 msgid "Set All Shortcuts to None"
 msgstr "Stabilește toate scurtăturile la niciuna"
 
-#: kglobalshortcutseditor.cpp:241
+#: kglobalshortcutseditor.cpp:243
 #, kde-format
 msgid "Applications"
 msgstr ""
 
-#: kglobalshortcutseditor.cpp:292
+#: kglobalshortcutseditor.cpp:294
 #, kde-format
 msgid "Launch %1"
 msgstr ""
 
-#: kglobalshortcutseditor.cpp:328
+#: kglobalshortcutseditor.cpp:330
 #, kde-format
 msgid ""
 "Component '%1' is currently active. Only global shortcuts currently not "
@@ -96,12 +96,12 @@ msgstr ""
 "Toți acceleratorii globali se vor reînregistra cu valorile lor implicite la "
 "următoarea pornire a acestora."
 
-#: kglobalshortcutseditor.cpp:330 kglobalshortcutseditor.cpp:340
+#: kglobalshortcutseditor.cpp:332 kglobalshortcutseditor.cpp:342
 #, kde-format
 msgid "Remove component"
 msgstr "Elimină componenta"
 
-#: kglobalshortcutseditor.cpp:336
+#: kglobalshortcutseditor.cpp:338
 #, kde-format
 msgid ""
 "Are you sure you want to remove the registered shortcuts for component '%1'? "
@@ -112,18 +112,18 @@ msgstr ""
 "Componenta și acceleratorii se vor reînregistra cu configurările lor "
 "implicite la următoarea pornire a acestora."
 
-#: kglobalshortcutseditor.cpp:450
+#: kglobalshortcutseditor.cpp:452
 #, kde-format
 msgid "Application Launchers"
 msgstr ""
 
-#: kglobalshortcutseditor.cpp:453
+#: kglobalshortcutseditor.cpp:455
 #, fuzzy, kde-format
 #| msgid "Shortcuts:"
 msgid "Other Shortcuts"
 msgstr "Acceleratori:"
 
-#: kglobalshortcutseditor.cpp:558
+#: kglobalshortcutseditor.cpp:560
 #, kde-format
 msgid ""
 "Your current changes will be lost if you load another scheme before saving "
@@ -132,12 +132,12 @@ msgstr ""
 "Modificările dumneavoastră vor fi pierdute dacă încărcați altă schemă "
 "înainte să o salvați pe aceasta."
 
-#: kglobalshortcutseditor.cpp:559
+#: kglobalshortcutseditor.cpp:561
 #, kde-format
 msgid "Load Shortcut Scheme"
 msgstr "Încarcă schema de acceleratori"
 
-#: kglobalshortcutseditor.cpp:560
+#: kglobalshortcutseditor.cpp:562
 #, kde-format
 msgid "Load"
 msgstr "Încarcă"
@@ -147,7 +147,7 @@ msgstr "Încarcă"
 msgid "This file (%1) does not exist. You can only select local files."
 msgstr "Acest fișier (%1) nu există. Puteți alege numai fișiere locale."
 
-#: kglobalshortcutseditor.cpp:601 kglobalshortcutseditor.cpp:624
+#: kglobalshortcutseditor.cpp:602 kglobalshortcutseditor.cpp:625
 #, kde-format
 msgid ""
 "Message: %1\n"
@@ -156,7 +156,7 @@ msgstr ""
 "Mesaj: %1\n"
 "Eroare: %2"
 
-#: kglobalshortcutseditor.cpp:606 kglobalshortcutseditor.cpp:629
+#: kglobalshortcutseditor.cpp:607 kglobalshortcutseditor.cpp:630
 #, kde-format
 msgid "Failed to contact the KDE global shortcuts daemon\n"
 msgstr "Eșec la contactarea demonului KDE de scurtături globale\n"

@@ -8,9 +8,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_showdesktop\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
-"PO-Revision-Date: 2017-06-25 01:30+0200\n"
-"Last-Translator: Mindaugas Baranauskas <opensuse.lietuviu.kalba@gmail.com>\n"
+"POT-Creation-Date: 2019-05-20 03:25+0200\n"
+"PO-Revision-Date: 2019-07-31 00:31+0300\n"
+"Last-Translator: Moo\n"
 "Language-Team: Lithuanian <kde-i18n-lt@kde.org>\n"
 "Language: lt\n"
 "MIME-Version: 1.0\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : n%10>=2 && (n%100<10 || n"
 "%100>=20) ? 1 : n%10==0 || (n%100>10 && n%100<20) ? 2 : 3);\n"
-"X-Generator: Lokalize 2.0\n"
+"X-Generator: Poedit 2.0.6\n"
 
 #: package/contents/ui/main.qml:36
 #, kde-format
@@ -28,11 +28,10 @@ msgstr "Rodyti darbalaukį"
 #: package/contents/ui/main.qml:37
 #, kde-format
 msgid "Show the Plasma desktop"
-msgstr "Rodo Plasma darbalaukį"
+msgstr "Rodyti Plasma darbalaukį"
 
 #: package/contents/ui/main.qml:43
-#, fuzzy, kde-format
-#| msgid "Minimize All Windows"
+#, kde-format
 msgctxt "@action"
 msgid "Minimize All Windows"
 msgstr "Suskleisti visus langus"

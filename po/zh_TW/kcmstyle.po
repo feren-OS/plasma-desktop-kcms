@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmstyle\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"POT-Creation-Date: 2019-10-19 08:02+0200\n"
 "PO-Revision-Date: 2019-03-14 20:46+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -32,54 +32,54 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "paladin@ms1.hinet.net,kenduest@i18n.linux.org.tw, s8321414@gmail.com"
 
-#: kcmstyle.cpp:173
+#: kcmstyle.cpp:171
 #, kde-format
 msgid ""
 "This module allows you to modify the visual appearance of applications' user "
 "interface elements."
 msgstr "此模組讓您能修改應用程式中使用者介面元件的視覺外觀。"
 
-#: kcmstyle.cpp:183
+#: kcmstyle.cpp:181
 #, kde-format
 msgid "Application Style"
 msgstr "應用程式樣式"
 
-#: kcmstyle.cpp:185
+#: kcmstyle.cpp:183
 #, kde-format
 msgid "(c) 2002 Karol Szwed, Daniel Molkentin"
 msgstr "(c) 2002 Karol Szwed, Daniel Molkentin"
 
-#: kcmstyle.cpp:187
+#: kcmstyle.cpp:185
 #, kde-format
 msgid "Karol Szwed"
 msgstr "Karol Szwed"
 
-#: kcmstyle.cpp:188
+#: kcmstyle.cpp:186
 #, kde-format
 msgid "Daniel Molkentin"
 msgstr "Daniel Molkentin"
 
-#: kcmstyle.cpp:198
+#: kcmstyle.cpp:196
 #, kde-format
 msgid "Preview"
 msgstr "預視"
 
-#: kcmstyle.cpp:252 kcmstyle.cpp:263
+#: kcmstyle.cpp:250 kcmstyle.cpp:261
 #, kde-format
 msgid "There was an error loading the configuration dialog for this style."
 msgstr "載入此風格的組態對話盒時發生錯誤。"
 
-#: kcmstyle.cpp:254 kcmstyle.cpp:265
+#: kcmstyle.cpp:252 kcmstyle.cpp:263
 #, kde-format
 msgid "Unable to Load Dialog"
 msgstr "無法載入對話盒"
 
-#: kcmstyle.cpp:488
+#: kcmstyle.cpp:479
 #, kde-format
 msgid "No description available."
 msgstr "沒有描述存在"
 
-#: kcmstyle.cpp:695
+#: kcmstyle.cpp:686
 #, kde-format
 msgid ""
 "This area shows a preview of the currently selected style without having to "
@@ -87,7 +87,7 @@ msgid ""
 msgstr ""
 "這個區域讓您可以預視您所選擇的風格，而不需要將它 套用到到整個桌面才能夠檢視。"
 
-#: kcmstyle.cpp:697
+#: kcmstyle.cpp:688
 #, kde-format
 msgid ""
 "Here you can choose from a list of predefined widget styles (e.g. the way "
@@ -97,21 +97,21 @@ msgstr ""
 "您可以在這邊選擇一系列預先定義的介面工具樣式 (例如扭曲的按鈕). 這可能合併於主"
 "題中(額外的資訊如大理石紋等)。"
 
-#: kcmstyle.cpp:701
+#: kcmstyle.cpp:692
 #, kde-format
 msgid ""
 "If you enable this option, applications will show small icons alongside some "
 "important buttons."
 msgstr "如果開啟此選項，應用程式將會在某些重要的按鍵旁顯示小圖示。"
 
-#: kcmstyle.cpp:703
+#: kcmstyle.cpp:694
 #, kde-format
 msgid ""
 "If you enable this option, applications will show small icons alongside most "
 "menu items."
 msgstr "如果開啟此選項，那麼應用程式將會在大部份選單項目旁顯示小圖示。"
 
-#: kcmstyle.cpp:705
+#: kcmstyle.cpp:696
 #, kde-format
 msgid ""
 "<p><b>No text:</b> Shows only icons on toolbar buttons. Best option for low "
@@ -126,7 +126,7 @@ msgstr ""
 "</p><p><b>文字顯示在圖示上：</b>在工具列上同時顯示文字和圖示，而文字就顯示在"
 "圖示之上。</p>"
 
-#: styleconfdialog.cpp:29
+#: styleconfdialog.cpp:33
 #, kde-format
 msgid "Configure %1"
 msgstr "設定 %1"

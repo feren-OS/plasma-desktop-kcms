@@ -1,20 +1,20 @@
 # Copyright (C) YEAR This_file_is_part_of_KDE
 # This file is distributed under the same license as the PACKAGE package.
 #
-# Victor Ibragimov <victor.ibragimov@gmail.com>, 2009.
+# Victor Ibragimov <victor.ibragimov@gmail.com>, 2009, 2019.
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_tasks\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-06-23 07:22+0200\n"
-"PO-Revision-Date: 2009-01-14 15:19+0500\n"
+"POT-Creation-Date: 2019-10-21 07:47+0200\n"
+"PO-Revision-Date: 2019-09-16 13:32+0500\n"
 "Last-Translator: Victor Ibragimov <victor.ibragimov@gmail.com>\n"
-"Language-Team: Tajik <>\n"
+"Language-Team: Tajik <kde-i18n-doc@kde.org>\n"
 "Language: tg\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 0.2\n"
+"X-Generator: Lokalize 19.04.3\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
 #: package/contents/config/config.qml:26
@@ -40,16 +40,14 @@ msgid "9,999+"
 msgstr ""
 
 #: package/contents/ui/ConfigAppearance.qml:48
-#, fuzzy, kde-format
-#| msgid "General"
+#, kde-format
 msgid "General:"
 msgstr "Умумӣ"
 
 #: package/contents/ui/ConfigAppearance.qml:49
-#, fuzzy, kde-format
-#| msgid "Show tooltips:"
+#, kde-format
 msgid "Show tooltips"
-msgstr "Намоиши дастур:"
+msgstr ""
 
 #: package/contents/ui/ConfigAppearance.qml:54
 #, kde-format
@@ -77,43 +75,39 @@ msgid "Large"
 msgstr ""
 
 #: package/contents/ui/ConfigAppearance.qml:105
-#, fuzzy, kde-format
-#| msgid "Maximum rows:"
+#, kde-format
 msgid "Maximum columns:"
-msgstr "&Миқдори зиёди қаторҳо:"
+msgstr ""
 
 #: package/contents/ui/ConfigAppearance.qml:105
 #, kde-format
 msgid "Maximum rows:"
-msgstr "&Миқдори зиёди қаторҳо:"
-
-#: package/contents/ui/ConfigAppearance.qml:111
-#, kde-format
-msgid "Always arrange tasks in as many rows as columns"
 msgstr ""
 
 #: package/contents/ui/ConfigAppearance.qml:111
 #, kde-format
-msgid "Always arrange tasks in as many columns as rows"
+msgid "Always arrange tasks in rows of as many columns"
+msgstr ""
+
+#: package/contents/ui/ConfigAppearance.qml:111
+#, kde-format
+msgid "Always arrange tasks in columns of as many rows"
 msgstr ""
 
 #: package/contents/ui/ConfigBehavior.qml:52
-#, fuzzy, kde-format
-#| msgid "Expand Group"
+#, kde-format
 msgid "Group:"
-msgstr "Кушодкунии гурӯҳ"
+msgstr ""
 
 #: package/contents/ui/ConfigBehavior.qml:54
-#, fuzzy, kde-format
-#| msgid "Do Not Group"
+#, kde-format
 msgid "Do not group"
-msgstr "Рад кардан"
+msgstr ""
 
 #: package/contents/ui/ConfigBehavior.qml:54
-#, fuzzy, kde-format
-#| msgid "By Program Name"
+#, kde-format
 msgid "By program name"
-msgstr "Бо номҳои барнома"
+msgstr ""
 
 #: package/contents/ui/ConfigBehavior.qml:60
 #, kde-format
@@ -146,10 +140,9 @@ msgid "Alphabetically"
 msgstr "Аз рӯи алифбо"
 
 #: package/contents/ui/ConfigBehavior.qml:90
-#, fuzzy, kde-format
-#| msgid "By Desktop"
+#, kde-format
 msgid "By desktop"
-msgstr "Бо мизи корӣ"
+msgstr ""
 
 #: package/contents/ui/ConfigBehavior.qml:90
 #, kde-format
@@ -204,10 +197,9 @@ msgid "Cycle through tasks with mouse wheel"
 msgstr ""
 
 #: package/contents/ui/ConfigBehavior.qml:131
-#, fuzzy, kde-format
-#| msgid "Filters"
+#, kde-format
 msgid "Filter:"
-msgstr "Филтрҳо"
+msgstr ""
 
 #: package/contents/ui/ConfigBehavior.qml:132
 #, kde-format
@@ -229,216 +221,209 @@ msgstr ""
 msgid "Show only tasks that are minimized"
 msgstr ""
 
-#: package/contents/ui/ContextMenu.qml:100
+#: package/contents/ui/ContextMenu.qml:99
 #, kde-format
 msgid "Places"
 msgstr ""
 
-#: package/contents/ui/ContextMenu.qml:105
+#: package/contents/ui/ContextMenu.qml:104
 #, kde-format
 msgid "Recent Documents"
 msgstr ""
 
-#: package/contents/ui/ContextMenu.qml:110
+#: package/contents/ui/ContextMenu.qml:109
 #, kde-format
 msgid "Actions"
 msgstr ""
 
-#: package/contents/ui/ContextMenu.qml:168
+#: package/contents/ui/ContextMenu.qml:167
 #, kde-format
 msgctxt "Play previous track"
 msgid "Previous Track"
 msgstr ""
 
-#: package/contents/ui/ContextMenu.qml:182
+#: package/contents/ui/ContextMenu.qml:181
 #, kde-format
 msgctxt "Pause playback"
 msgid "Pause"
 msgstr ""
 
-#: package/contents/ui/ContextMenu.qml:182
+#: package/contents/ui/ContextMenu.qml:181
 #, kde-format
 msgctxt "Start playback"
 msgid "Play"
 msgstr ""
 
-#: package/contents/ui/ContextMenu.qml:200
+#: package/contents/ui/ContextMenu.qml:199
 #, kde-format
 msgctxt "Play next track"
 msgid "Next Track"
 msgstr ""
 
-#: package/contents/ui/ContextMenu.qml:211
+#: package/contents/ui/ContextMenu.qml:210
 #, kde-format
 msgctxt "Stop playback"
 msgid "Stop"
 msgstr ""
 
-#: package/contents/ui/ContextMenu.qml:231
+#: package/contents/ui/ContextMenu.qml:230
 #, kde-format
 msgctxt "Quit media player app"
 msgid "Quit"
 msgstr ""
 
-#: package/contents/ui/ContextMenu.qml:246
+#: package/contents/ui/ContextMenu.qml:245
 #, kde-format
 msgctxt "Open or bring to the front window of media player app"
 msgid "Restore"
 msgstr ""
 
-#: package/contents/ui/ContextMenu.qml:272
+#: package/contents/ui/ContextMenu.qml:271
 #, kde-format
 msgid "Mute"
 msgstr ""
 
-#: package/contents/ui/ContextMenu.qml:286
+#: package/contents/ui/ContextMenu.qml:285
 #, kde-format
 msgid "Start New Instance"
 msgstr ""
 
-#: package/contents/ui/ContextMenu.qml:302
-#, fuzzy, kde-format
-#| msgid "By Desktop"
-msgid "Move To &Desktop"
-msgstr "Бо мизи корӣ"
+#: package/contents/ui/ContextMenu.qml:301
+#, kde-format
+msgid "Move to &Desktop"
+msgstr ""
 
 #: package/contents/ui/ContextMenu.qml:325
-#, fuzzy, kde-format
-#| msgid "By Desktop"
+#, kde-format
 msgid "Move &To Current Desktop"
-msgstr "Бо мизи корӣ"
+msgstr ""
 
 #: package/contents/ui/ContextMenu.qml:334
-#, fuzzy, kde-format
-#| msgid "By Desktop"
+#, kde-format
 msgid "&All Desktops"
-msgstr "Бо мизи корӣ"
+msgstr ""
 
 #: package/contents/ui/ContextMenu.qml:348
-#, fuzzy, kde-format
-#| msgid "By Desktop"
+#, kde-format
 msgctxt "1 = number of desktop, 2 = desktop name"
 msgid "&%1 %2"
-msgstr "Бо мизи корӣ"
+msgstr ""
 
 #: package/contents/ui/ContextMenu.qml:362
-#, fuzzy, kde-format
-#| msgid "By Desktop"
+#, kde-format
 msgid "&New Desktop"
-msgstr "Бо мизи корӣ"
+msgstr ""
 
 #: package/contents/ui/ContextMenu.qml:381
 #, kde-format
-msgid "Move To &Activity"
+msgid "Show in &Activities"
 msgstr ""
 
-#: package/contents/ui/ContextMenu.qml:402
+#: package/contents/ui/ContextMenu.qml:403
 #, kde-format
 msgid "Add To Current Activity"
 msgstr ""
 
-#: package/contents/ui/ContextMenu.qml:412
+#: package/contents/ui/ContextMenu.qml:413
 #, kde-format
 msgid "All Activities"
 msgstr ""
 
-#: package/contents/ui/ContextMenu.qml:471
+#: package/contents/ui/ContextMenu.qml:472
 #, kde-format
 msgid "More Actions"
 msgstr ""
 
-#: package/contents/ui/ContextMenu.qml:480
+#: package/contents/ui/ContextMenu.qml:481
 #, kde-format
 msgid "&Move"
 msgstr ""
 
-#: package/contents/ui/ContextMenu.qml:489
+#: package/contents/ui/ContextMenu.qml:490
 #, kde-format
 msgid "Re&size"
 msgstr ""
 
-#: package/contents/ui/ContextMenu.qml:503
+#: package/contents/ui/ContextMenu.qml:504
 #, kde-format
 msgid "Ma&ximize"
 msgstr ""
 
-#: package/contents/ui/ContextMenu.qml:517
+#: package/contents/ui/ContextMenu.qml:518
 #, kde-format
 msgid "Mi&nimize"
 msgstr ""
 
-#: package/contents/ui/ContextMenu.qml:527
+#: package/contents/ui/ContextMenu.qml:528
 #, kde-format
 msgid "Keep &Above Others"
 msgstr ""
 
-#: package/contents/ui/ContextMenu.qml:537
+#: package/contents/ui/ContextMenu.qml:538
 #, kde-format
 msgid "Keep &Below Others"
 msgstr ""
 
-#: package/contents/ui/ContextMenu.qml:549
+#: package/contents/ui/ContextMenu.qml:550
 #, kde-format
 msgid "&Fullscreen"
 msgstr ""
 
-#: package/contents/ui/ContextMenu.qml:561
+#: package/contents/ui/ContextMenu.qml:562
 #, kde-format
 msgid "&Shade"
 msgstr ""
 
-#: package/contents/ui/ContextMenu.qml:577
+#: package/contents/ui/ContextMenu.qml:578
 #, kde-format
 msgid "Allow this program to be grouped"
 msgstr ""
 
-#: package/contents/ui/ContextMenu.qml:629
-#: package/contents/ui/ContextMenu.qml:644
+#: package/contents/ui/ContextMenu.qml:630
+#: package/contents/ui/ContextMenu.qml:645
 #, kde-format
 msgid "&Pin to Task Manager"
 msgstr ""
 
-#: package/contents/ui/ContextMenu.qml:697
+#: package/contents/ui/ContextMenu.qml:698
 #, kde-format
 msgid "On All Activities"
 msgstr ""
 
-#: package/contents/ui/ContextMenu.qml:703
+#: package/contents/ui/ContextMenu.qml:704
 #, kde-format
 msgid "On The Current Activity"
 msgstr ""
 
-#: package/contents/ui/ContextMenu.qml:724
+#: package/contents/ui/ContextMenu.qml:728
 #, kde-format
 msgid "Unpin from Task Manager"
 msgstr ""
 
-#: package/contents/ui/ContextMenu.qml:738
+#: package/contents/ui/ContextMenu.qml:742
 #, kde-format
 msgid "&Close"
 msgstr ""
 
-#: package/contents/ui/ToolTipInstance.qml:469
-#, fuzzy, kde-format
-#| msgctxt "Which virtual desktop a window is currently on"
-#| msgid "On %1"
+#: package/contents/ui/ToolTipInstance.qml:414
+#, kde-format
 msgctxt "Comma-separated list of desktops"
 msgid "On %1"
 msgstr "Дар %1"
 
-#: package/contents/ui/ToolTipInstance.qml:479
+#: package/contents/ui/ToolTipInstance.qml:424
 #, kde-format
 msgctxt "Which virtual desktop a window is currently on"
 msgid "Available on all activities"
 msgstr ""
 
-#: package/contents/ui/ToolTipInstance.qml:501
+#: package/contents/ui/ToolTipInstance.qml:446
 #, kde-format
 msgctxt "Activities a window is currently on (apart from the current one)"
 msgid "Also available on %1"
 msgstr ""
 
-#: package/contents/ui/ToolTipInstance.qml:505
+#: package/contents/ui/ToolTipInstance.qml:450
 #, kde-format
 msgctxt "Which activities a window is currently on"
 msgid "Available on %1"

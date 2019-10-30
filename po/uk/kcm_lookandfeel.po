@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcm_lookandfeel\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-06-26 07:33+0200\n"
-"PO-Revision-Date: 2019-02-20 19:54+0200\n"
+"POT-Creation-Date: 2019-08-16 03:26+0200\n"
+"PO-Revision-Date: 2019-08-10 08:50+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
 "%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Lokalize 19.03.70\n"
+"X-Generator: Lokalize 19.11.70\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -30,42 +30,46 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "yurchor@ukr.net"
 
-#: kcm.cpp:76
+#: kcm.cpp:72
 #, kde-format
-msgid "Look and Feel"
-msgstr "Вигляд і поведінка"
+msgid "Global Theme"
+msgstr "Загальна тема"
 
-#: kcm.cpp:78 lnftool.cpp:43
+#: kcm.cpp:74 lnftool.cpp:43
 #, kde-format
 msgid "Marco Martin"
 msgstr "Marco Martin"
 
-#: kcm.cpp:112
+#: kcm.cpp:108
 #, kde-format
-msgid "Download New Look and Feel Themes"
-msgstr "Отримати нові теми вигляду і поведінки"
+msgid "Download New Global Themes"
+msgstr "Отримати нові загальні теми"
 
-#: kcm.cpp:572
+#: kcm.cpp:569
 #, kde-format
 msgid ""
 "You have to restart the Plasma session for these changes to take effect."
 msgstr ""
 "Вам потрібно перезапустити сеанс Плазми, щоб внесені зміни набули чинності."
 
-#: kcm.cpp:573
+#: kcm.cpp:570
 #, kde-format
 msgid "Cursor Settings Changed"
 msgstr "Параметри курсора змінено"
 
 #: lnftool.cpp:42
 #, kde-format
-msgid "Look and feel tool"
-msgstr "Засіб вигляду і поведінки"
+msgid "Global Theme Tool"
+msgstr "Засіб роботи із загальними темами"
 
 #: lnftool.cpp:42
 #, kde-format
-msgid "Command line tool to apply look and feel packages."
-msgstr "Засіб командного рядка для застосування пакунків вигляду і поведінки."
+msgid ""
+"Command line tool to apply global theme packages for changing the look and "
+"feel."
+msgstr ""
+"Засіб командного рядка для застосування пакунків загальних тем для зміни "
+"вигляду і поведінки робочого простору."
 
 #: lnftool.cpp:42
 #, kde-format
@@ -79,13 +83,13 @@ msgstr "Супровідник"
 
 #: lnftool.cpp:52
 #, kde-format
-msgid "List available Look and feel packages"
-msgstr "Показати список доступних пакунків вигляду і поведінки"
+msgid "List available global theme packages"
+msgstr "Показати список доступних пакунків загальних тем"
 
 #: lnftool.cpp:54
 #, kde-format
-msgid "Apply a look and feel package"
-msgstr "Застосувати пакунок вигляду і поведінки"
+msgid "Apply a global theme package"
+msgstr "Застосувати пакунок загальної теми"
 
 #: lnftool.cpp:54
 #, kde-format
@@ -99,9 +103,9 @@ msgstr "Повернутися до компонування стільниці 
 
 #: package/contents/ui/main.qml:28
 #, kde-format
-msgid "This module lets you choose the Look and Feel theme."
+msgid "This module lets you choose the global look and feel."
 msgstr ""
-"За допомогою цього модуля ви можете вибрати тему вигляду і поведінки усього "
+"За допомогою цього модуля ви можете вибрати загальний вигляд і поведінку "
 "робочого простору."
 
 #: package/contents/ui/main.qml:49
@@ -125,5 +129,5 @@ msgstr "Компонування стільниці з теми"
 
 #: package/contents/ui/main.qml:84
 #, kde-format
-msgid "Get New Look and Feel Themes..."
-msgstr "Отримати нові теми вигляду і поведінки…"
+msgid "Get New Global Themes..."
+msgstr "Отримати нові загальні теми…"

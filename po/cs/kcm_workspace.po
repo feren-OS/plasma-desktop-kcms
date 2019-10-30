@@ -1,15 +1,15 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # Lukáš Tinkl <ltinkl@redhat.com>, 2010.
-# Vít Pelčák <vit@pelcak.org>, 2010, 2011, 2017, 2018.
+# Vít Pelčák <vit@pelcak.org>, 2010, 2011, 2017, 2018, 2019.
 # Tomáš Chvátal <tomas.chvatal@gmail.com>, 2012.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
-"PO-Revision-Date: 2018-05-31 16:16+0100\n"
+"POT-Creation-Date: 2019-08-02 03:11+0200\n"
+"PO-Revision-Date: 2019-08-22 12:36+0200\n"
 "Last-Translator: Vit Pelcak <vit@pelcak.org>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
 "Language: cs\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Lokalize 2.0\n"
+"X-Generator: Lokalize 19.08.1\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -61,16 +61,14 @@ msgstr "Dvojité kliknutí otevírá soubory a adresáře (jedno kliknutí vybí
 
 #: workspaceoptions.cpp:40
 #, kde-format
-msgid "Plasma Workspace global options"
-msgstr "Globální nastavení pracovní plochy Plasma"
+msgid "General Behavior"
+msgstr "Obecné chování"
 
 #: workspaceoptions.cpp:42
 #, kde-format
-msgid ""
-"System Settings module for managing global options for the Plasma Workspace."
+msgid "System Settings module for configuring general workspace behavior."
 msgstr ""
-"Modul pro nastavení systému pro správu globálních nastavení pracovní plochy "
-"Plasma."
+"Modul pro nastavení systému pro správu obecného chování pracovního prostředí."
 
 #: workspaceoptions.cpp:45
 #, kde-format

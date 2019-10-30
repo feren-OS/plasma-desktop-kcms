@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_org.kde.panel\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"POT-Creation-Date: 2019-06-23 03:18+0200\n"
 "PO-Revision-Date: 2019-05-01 15:47+0200\n"
 "Last-Translator: Matej Mrenica <matejm98mthw@gmail.com>\n"
 "Language-Team: Slovak <kde-i18n-doc@kde.org>\n"
@@ -16,17 +16,17 @@ msgstr ""
 "X-Generator: Lokalize 19.04.0\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 
-#: contents/ui/ConfigOverlay.qml:383
+#: contents/ui/ConfigOverlay.qml:385
 #, kde-format
 msgid "Configure..."
 msgstr "Nastaviť..."
 
-#: contents/ui/ConfigOverlay.qml:393
+#: contents/ui/ConfigOverlay.qml:395
 #, kde-format
 msgid "Show Alternatives..."
 msgstr "Zobraziť alternatívy..."
 
-#: contents/ui/ConfigOverlay.qml:403
+#: contents/ui/ConfigOverlay.qml:405
 #, kde-format
 msgid "Remove"
 msgstr "Odstrániť"

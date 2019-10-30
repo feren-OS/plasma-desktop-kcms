@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
-"PO-Revision-Date: 2019-07-18 15:09\n"
+"POT-Creation-Date: 2019-08-07 03:21+0200\n"
+"PO-Revision-Date: 2019-10-09 10:03\n"
 "Last-Translator: Guo Yunhe (guoyunhe)\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -24,12 +24,12 @@ msgstr ""
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "KDE 中国"
+msgstr "KDE China,Guo Yunhe"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "kde-china@kde.org"
+msgstr "kde-china@kde.org,i@guoyunhe.me"
 
 #: kcm.cpp:31
 #, kde-format
@@ -41,39 +41,39 @@ msgstr "夜晚颜色"
 msgid "Roman Gilg"
 msgstr "Roman Gilg"
 
-#: package/contents/ui/LocationsAutoView.qml:34
-#: package/contents/ui/LocationsFixedView.qml:38
+#: package/contents/ui/LocationsAutoView.qml:32
+#: package/contents/ui/LocationsFixedView.qml:37
 #, kde-format
-msgid "Latitude"
-msgstr "纬度"
+msgid "Latitude:"
+msgstr "纬度："
 
-#: package/contents/ui/LocationsAutoView.qml:44
-#: package/contents/ui/LocationsFixedView.qml:53
+#: package/contents/ui/LocationsAutoView.qml:39
+#: package/contents/ui/LocationsFixedView.qml:49
 #, kde-format
-msgid "Longitude"
-msgstr "经度"
+msgid "Longitude:"
+msgstr "经度："
 
-#: package/contents/ui/LocationsFixedView.qml:69
+#: package/contents/ui/LocationsFixedView.qml:60
 #, kde-format
-msgid "Detect location"
-msgstr "删除位置"
+msgid "Detect Location"
+msgstr "检测位置"
 
-#: package/contents/ui/main.qml:103
+#: package/contents/ui/main.qml:107
 #, kde-format
 msgid "Activate Night Color"
 msgstr "激活夜色"
 
-#: package/contents/ui/main.qml:120
+#: package/contents/ui/main.qml:118
 #, kde-format
-msgid "Night Color Temperature: "
+msgid "Night Color temperature:"
 msgstr "夜间色温："
 
-#: package/contents/ui/main.qml:120
+#: package/contents/ui/main.qml:137
 #, kde-format
 msgid " K"
 msgstr " K"
 
-#: package/contents/ui/main.qml:141
+#: package/contents/ui/main.qml:143
 #, kde-format
 msgid "Operation mode:"
 msgstr "操作模式："
@@ -93,43 +93,53 @@ msgstr "位置"
 msgid "Times"
 msgstr "次数"
 
-#: package/contents/ui/main.qml:251 package/contents/ui/TimingsView.qml:39
+#: package/contents/ui/main.qml:149
 #, kde-format
-msgid "Sunrise begins"
-msgstr "日出开始于"
+msgid "Constant"
+msgstr "常数"
 
-#: package/contents/ui/main.qml:263 package/contents/ui/main.qml:278
+#: package/contents/ui/main.qml:263 package/contents/ui/TimingsView.qml:38
 #, kde-format
-msgid "(HH:MM)"
-msgstr "(HH:MM)"
+msgid "Sunrise begins:"
+msgstr "日出开始于："
 
-#: package/contents/ui/main.qml:266 package/contents/ui/TimingsView.qml:59
+#: package/contents/ui/main.qml:270
 #, kde-format
-msgid "Sunset begins"
-msgstr "日落开始于"
+msgid "(Input format: HH:MM)"
+msgstr "(输入格式：HH:MM)"
 
-#: package/contents/ui/main.qml:281
+#: package/contents/ui/main.qml:276 package/contents/ui/TimingsView.qml:52
 #, kde-format
-msgid "Transition duration"
-msgstr "运动时长"
+msgid "Sunset begins:"
+msgstr "日落开始于："
 
-#: package/contents/ui/main.qml:296
+#: package/contents/ui/main.qml:283
 #, kde-format
-msgid "(In minutes - min. 1, max. 600)"
-msgstr "(以分钟为单位，最小 1 最大 600)"
+msgid "Input format: HH:MM"
+msgstr "输入格式：HH:MM"
 
-#: package/contents/ui/main.qml:305
+#: package/contents/ui/main.qml:289
 #, kde-format
-msgid "Error: Morning not before evening."
-msgstr "错误：早晨不可以早于晚上。"
+msgid "Transition duration:"
+msgstr "过渡时长："
 
-#: package/contents/ui/main.qml:321
+#: package/contents/ui/main.qml:299
+#, kde-format
+msgid "Input minutes - min. 1, max. 600"
+msgstr "输入分钟，最小为 1，最大为 600"
+
+#: package/contents/ui/main.qml:307
+#, kde-format
+msgid "Error: Morning is before evening."
+msgstr "错误：早晨的时刻应早于晚上的时刻。"
+
+#: package/contents/ui/main.qml:323
 #, kde-format
 msgid "Error: Transition time overlaps."
-msgstr "错误：运动时间重合。"
+msgstr "错误：过渡时间重合。"
 
-#: package/contents/ui/TimingsView.qml:49
-#: package/contents/ui/TimingsView.qml:69
+#: package/contents/ui/TimingsView.qml:45
+#: package/contents/ui/TimingsView.qml:59
 #, kde-format
-msgid "and ends"
-msgstr "并结束于"
+msgid "...and ends:"
+msgstr "...并结束于："

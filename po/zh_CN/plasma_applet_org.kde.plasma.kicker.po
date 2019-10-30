@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-06-23 07:22+0200\n"
-"PO-Revision-Date: 2019-07-18 15:07\n"
+"POT-Creation-Date: 2019-09-17 03:28+0200\n"
+"PO-Revision-Date: 2019-10-09 10:01\n"
 "Last-Translator: Guo Yunhe (guoyunhe)\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -46,136 +46,141 @@ msgstr "在全部活动"
 
 #: package/contents/ui/code/tools.js:133
 #, kde-format
-msgid "On The Current Activity"
-msgstr "在当前活动"
+msgid "On the Current Activity"
+msgstr "在当前活动中"
 
 #: package/contents/ui/code/tools.js:147
 #, kde-format
-msgid "Show In Favorites"
+msgid "Show in Favorites"
 msgstr "在收藏夹中显示"
 
-#: package/contents/ui/ConfigGeneral.qml:58
+#: package/contents/ui/ConfigGeneral.qml:59
 #, kde-format
 msgid "Icon:"
 msgstr "图标："
 
-#: package/contents/ui/ConfigGeneral.qml:138
+#: package/contents/ui/ConfigGeneral.qml:139
 #, kde-format
 msgctxt "@item:inmenu Open icon chooser dialog"
 msgid "Choose..."
 msgstr "选择..."
 
-#: package/contents/ui/ConfigGeneral.qml:143
+#: package/contents/ui/ConfigGeneral.qml:144
 #, kde-format
 msgctxt "@item:inmenu Reset icon to default"
 msgid "Clear Icon"
 msgstr "清除图标"
 
-#: package/contents/ui/ConfigGeneral.qml:161
+#: package/contents/ui/ConfigGeneral.qml:162
 #, kde-format
 msgid "Show applications as:"
 msgstr "显示应用程序为："
 
-#: package/contents/ui/ConfigGeneral.qml:163
+#: package/contents/ui/ConfigGeneral.qml:164
 #, kde-format
 msgid "Name only"
 msgstr "只显示名称"
 
-#: package/contents/ui/ConfigGeneral.qml:163
+#: package/contents/ui/ConfigGeneral.qml:164
 #, kde-format
 msgid "Description only"
 msgstr "只显示描述"
 
-#: package/contents/ui/ConfigGeneral.qml:163
+#: package/contents/ui/ConfigGeneral.qml:164
 #, kde-format
 msgid "Name (Description)"
 msgstr "名称  (描述)"
 
-#: package/contents/ui/ConfigGeneral.qml:163
+#: package/contents/ui/ConfigGeneral.qml:164
 #, kde-format
 msgid "Description (Name)"
 msgstr "描述 (名称)"
 
-#: package/contents/ui/ConfigGeneral.qml:173
+#: package/contents/ui/ConfigGeneral.qml:174
 #, kde-format
 msgid "Behavior:"
 msgstr "行为："
 
-#: package/contents/ui/ConfigGeneral.qml:175
+#: package/contents/ui/ConfigGeneral.qml:176
 #, kde-format
 msgid "Sort applications alphabetically"
 msgstr "按字母顺序排列应用程序"
 
-#: package/contents/ui/ConfigGeneral.qml:183
+#: package/contents/ui/ConfigGeneral.qml:184
 #, kde-format
 msgid "Flatten sub-menus to a single level"
 msgstr "扁平化子菜单到一级"
 
-#: package/contents/ui/ConfigGeneral.qml:194
+#: package/contents/ui/ConfigGeneral.qml:192
+#, kde-format
+msgid "Show icons on the root level of the menu"
+msgstr "在顶级菜单显示图标"
+
+#: package/contents/ui/ConfigGeneral.qml:202
 #, kde-format
 msgid "Show categories:"
 msgstr "显示分类："
 
-#: package/contents/ui/ConfigGeneral.qml:197
+#: package/contents/ui/ConfigGeneral.qml:205
 #, kde-format
 msgid "Recent applications"
 msgstr "最近应用"
 
-#: package/contents/ui/ConfigGeneral.qml:198
+#: package/contents/ui/ConfigGeneral.qml:206
 #, kde-format
 msgid "Often used applications"
 msgstr "经常使用的应用程序"
 
-#: package/contents/ui/ConfigGeneral.qml:205
+#: package/contents/ui/ConfigGeneral.qml:213
 #, kde-format
 msgid "Recent documents"
 msgstr "最近文档"
 
-#: package/contents/ui/ConfigGeneral.qml:206
+#: package/contents/ui/ConfigGeneral.qml:214
 #, kde-format
 msgid "Often used documents"
 msgstr "经常使用的文档"
 
-#: package/contents/ui/ConfigGeneral.qml:213
+#: package/contents/ui/ConfigGeneral.qml:221
 #, kde-format
 msgid "Recent contacts"
 msgstr "最近联系人"
 
-#: package/contents/ui/ConfigGeneral.qml:214
+#: package/contents/ui/ConfigGeneral.qml:222
 #, kde-format
 msgid "Often used contacts"
 msgstr "经常使用的联系人"
 
-#: package/contents/ui/ConfigGeneral.qml:220
+#: package/contents/ui/ConfigGeneral.qml:228
 #, kde-format
 msgid "Sort items in categories by:"
 msgstr "类别内排序方式："
 
-#: package/contents/ui/ConfigGeneral.qml:221
+#: package/contents/ui/ConfigGeneral.qml:229
 #, kde-format
 msgctxt ""
 "@item:inlistbox Sort items in categories by [Recently used | Often used]"
 msgid "Recently used"
 msgstr "最近使用"
 
-#: package/contents/ui/ConfigGeneral.qml:221
+#: package/contents/ui/ConfigGeneral.qml:229
 #, kde-format
 msgctxt ""
 "@item:inlistbox Sort items in categories by [Recently used | Ofetn used]"
 msgid "Often used"
 msgstr "常用"
 
-#: package/contents/ui/ConfigGeneral.qml:231
+#: package/contents/ui/ConfigGeneral.qml:239
 #, kde-format
 msgid "Search:"
 msgstr "搜索："
 
-#: package/contents/ui/ConfigGeneral.qml:233
+#: package/contents/ui/ConfigGeneral.qml:241
 #, kde-format
 msgid "Expand search to bookmarks, files and emails"
 msgstr "扩展搜索范围至书签，文件和电子邮件"
 
-#: package/contents/ui/ConfigGeneral.qml:241
+#: package/contents/ui/ConfigGeneral.qml:249
 #, kde-format
 msgid "Align search results to bottom"
 msgstr "搜索结果和底部对齐"
@@ -191,7 +196,6 @@ msgid "Type to search..."
 msgstr "键入以搜索..."
 
 #: package/contents/ui/DashboardRepresentation.qml:405
-#: plugin/kastatsfavoritesmodel.cpp:494 plugin/simplefavoritesmodel.cpp:43
 #, kde-format
 msgid "Favorites"
 msgstr "收藏夹"
@@ -207,7 +211,7 @@ msgstr "部件"
 msgid "Apps & Docs"
 msgstr "应用程序 & 文档"
 
-#: package/contents/ui/main.qml:272
+#: package/contents/ui/main.qml:273
 #, kde-format
 msgid "Edit Applications..."
 msgstr "编辑应用程序..."
@@ -216,286 +220,3 @@ msgstr "编辑应用程序..."
 #, kde-format
 msgid "Search..."
 msgstr "搜索..."
-
-#: plugin/actionlist.cpp:95
-#, kde-format
-msgid "Open with:"
-msgstr "打开方式："
-
-#: plugin/actionlist.cpp:108
-#, kde-format
-msgid "Properties"
-msgstr "属性"
-
-#: plugin/actionlist.cpp:153
-#, kde-format
-msgid "Add to Desktop"
-msgstr "添加到桌面"
-
-#: plugin/actionlist.cpp:157
-#, kde-format
-msgid "Add to Panel (Widget)"
-msgstr "添加到面板 (部件)"
-
-#: plugin/actionlist.cpp:161
-#, kde-format
-msgid "Pin to Task Manager"
-msgstr "固定到任务管理器"
-
-#: plugin/actionlist.cpp:270 plugin/rootmodel.cpp:390
-#, kde-format
-msgid "Recent Documents"
-msgstr "最近的文档"
-
-#: plugin/actionlist.cpp:280
-#, kde-format
-msgid "Forget Recent Documents"
-msgstr "忘记最近的文档"
-
-#: plugin/actionlist.cpp:336
-#, kde-format
-msgid "Edit Application..."
-msgstr "编辑应用程序..."
-
-#: plugin/actionlist.cpp:383
-#, kde-format
-msgctxt "@action opens a software center with the application"
-msgid "Manage '%1'..."
-msgstr "管理“%1”..."
-
-#: plugin/appentry.cpp:178
-#, kde-format
-msgid "Hide Application"
-msgstr "隐藏应用程序"
-
-#: plugin/appentry.cpp:237
-#, kde-format
-msgctxt "App name (Generic name)"
-msgid "%1 (%2)"
-msgstr "%1 (%2)"
-
-#: plugin/appentry.cpp:239
-#, kde-format
-msgctxt "Generic name (App name)"
-msgid "%1 (%2)"
-msgstr "%1 (%2)"
-
-#: plugin/appsmodel.cpp:45 plugin/appsmodel.cpp:69 plugin/computermodel.cpp:110
-#: plugin/computermodel.cpp:242 plugin/recentusagemodel.cpp:149
-#: plugin/recentusagemodel.cpp:209
-#, kde-format
-msgid "Applications"
-msgstr "应用程序"
-
-#: plugin/appsmodel.cpp:165
-#, kde-format
-msgid "Unhide Applications in this Submenu"
-msgstr "取消隐藏此子菜单的应用程序"
-
-#: plugin/appsmodel.cpp:171
-#, kde-format
-msgid "Unhide Applications in '%1'"
-msgstr "取消隐藏“%1”中的应用程序"
-
-#: plugin/computermodel.cpp:104
-#, kde-format
-msgid "Run Command..."
-msgstr "运行命令..."
-
-#: plugin/computermodel.cpp:108
-#, kde-format
-msgid "Run a command or a search query"
-msgstr "运行命令或搜索查询"
-
-#: plugin/computermodel.cpp:161
-#, kde-format
-msgid "Computer"
-msgstr "计算机"
-
-#: plugin/contactentry.cpp:117 plugin/recentcontactsmodel.cpp:93
-#, kde-format
-msgid "Show Contact Information..."
-msgstr "显示联系人信息..."
-
-#: plugin/recentcontactsmodel.cpp:52
-#, kde-format
-msgid "Contacts"
-msgstr "联系人"
-
-#: plugin/recentcontactsmodel.cpp:85
-#, kde-format
-msgid "Forget Contact"
-msgstr "忘记联系人"
-
-#: plugin/recentcontactsmodel.cpp:88 plugin/recentcontactsmodel.cpp:165
-#, kde-format
-msgid "Forget All Contacts"
-msgstr "忘记所有联系人"
-
-#: plugin/recentusagemodel.cpp:147
-#, kde-format
-msgid "Recently Used"
-msgstr "最近使用"
-
-#: plugin/recentusagemodel.cpp:152 plugin/recentusagemodel.cpp:263
-#, kde-format
-msgid "Documents"
-msgstr "文档"
-
-#: plugin/recentusagemodel.cpp:227
-#, kde-format
-msgid "Forget Application"
-msgstr "清除最近应用程序"
-
-#: plugin/recentusagemodel.cpp:275
-#, kde-format
-msgid "Forget Document"
-msgstr "清除最近的文档"
-
-#: plugin/recentusagemodel.cpp:403
-#, kde-format
-msgid "Forget All"
-msgstr "清除全部"
-
-#: plugin/recentusagemodel.cpp:405
-#, kde-format
-msgid "Forget All Applications"
-msgstr "清除所有最近应用程序"
-
-#: plugin/recentusagemodel.cpp:408
-#, kde-format
-msgid "Forget All Documents"
-msgstr "清除所有最近文档"
-
-#: plugin/rootmodel.cpp:106
-#, kde-format
-msgid "Hide %1"
-msgstr "隐藏 %1"
-
-#: plugin/rootmodel.cpp:376
-#, kde-format
-msgid "All Applications"
-msgstr "全部应用程序"
-
-#: plugin/rootmodel.cpp:382
-#, kde-format
-msgid "Recent Contacts"
-msgstr "最近联系人"
-
-#: plugin/rootmodel.cpp:391
-#, kde-format
-msgid "Often Used Documents"
-msgstr "常用文档"
-
-#: plugin/rootmodel.cpp:401
-#, kde-format
-msgid "Recent Applications"
-msgstr "最近使用的程序"
-
-#: plugin/rootmodel.cpp:402
-#, kde-format
-msgid "Often Used Applications"
-msgstr "常用应用"
-
-#: plugin/rootmodel.cpp:416
-#, kde-format
-msgid "Power / Session"
-msgstr "电源 / 会话"
-
-#: plugin/runnermodel.cpp:238
-#, kde-format
-msgid "Search results"
-msgstr "搜索结果"
-
-#: plugin/systementry.cpp:166
-#, kde-format
-msgid "Lock"
-msgstr "锁定"
-
-#: plugin/systementry.cpp:169
-#, kde-format
-msgid "Log Out"
-msgstr "注销"
-
-#: plugin/systementry.cpp:172 plugin/systementry.cpp:240
-#, kde-format
-msgid "Save Session"
-msgstr "保存会话"
-
-#: plugin/systementry.cpp:175
-#, kde-format
-msgid "Switch User"
-msgstr "切换用户"
-
-#: plugin/systementry.cpp:178
-#, kde-format
-msgctxt "Suspend to RAM"
-msgid "Sleep"
-msgstr "睡眠"
-
-#: plugin/systementry.cpp:181
-#, kde-format
-msgid "Hibernate"
-msgstr "休眠"
-
-#: plugin/systementry.cpp:184
-#, kde-format
-msgid "Restart"
-msgstr "重启"
-
-#: plugin/systementry.cpp:187
-#, kde-format
-msgid "Shut Down"
-msgstr "关机"
-
-#: plugin/systementry.cpp:200 plugin/systementry.cpp:203
-#: plugin/systementry.cpp:206 plugin/systementry.cpp:209
-#, kde-format
-msgid "Session"
-msgstr "会话"
-
-#: plugin/systementry.cpp:212 plugin/systementry.cpp:215
-#: plugin/systementry.cpp:218 plugin/systementry.cpp:221
-#, kde-format
-msgid "System"
-msgstr "系统"
-
-#: plugin/systementry.cpp:234
-#, kde-format
-msgid "Lock screen"
-msgstr "锁定屏幕"
-
-#: plugin/systementry.cpp:237
-#, kde-format
-msgid "End session"
-msgstr "结束会话"
-
-#: plugin/systementry.cpp:243
-#, kde-format
-msgid "Start a parallel session as a different user"
-msgstr "以不同的用户启动并行会话"
-
-#: plugin/systementry.cpp:246
-#, kde-format
-msgid "Suspend to RAM"
-msgstr "挂起到内存"
-
-#: plugin/systementry.cpp:249
-#, kde-format
-msgid "Suspend to disk"
-msgstr "挂起到磁盘"
-
-#: plugin/systementry.cpp:252
-#, kde-format
-msgid "Restart computer"
-msgstr "重启计算机"
-
-#: plugin/systementry.cpp:255
-#, kde-format
-msgid "Turn off computer"
-msgstr "关闭计算机"
-
-#: plugin/systemmodel.cpp:75
-#, kde-format
-msgid "System actions"
-msgstr "系统动作"

@@ -7,7 +7,7 @@
 <article id="joystick" lang="&language;">
 <articleinfo>
 <title
->Joystick</title>
+>Gamecontroller</title>
 <authorgroup>
 <author
 ><firstname
@@ -51,28 +51,32 @@
 <keyword
 >Joystick</keyword>
 <keyword
+>Controller</keyword>
+<keyword
+>Gamepad</keyword>
+<keyword
 >Einstellen/Kalibrieren</keyword>
 </keywordset>
 </articleinfo>
 
 <sect1 id="kcm_joystick">
 <title
->Joystick-Einrichtungsmodul</title>
+>Gamecontroller kalibrieren</title>
 
 <para
->Mit diesem Einstellungsmodul können Sie Ihren Joystick kalibrieren und ermitteln, welche Funktionen Ihres Joysticks welchen logischen Knöpfen und Achsen zugeordnet sind.</para>
+>Mit diesem Einstellungsmodul können Sie Ihren Gamecontroller kalibrieren und ermitteln, welche Funktionen Ihres Gamecontrollers welchen logischen Knöpfen und Achsen zugeordnet sind.</para>
 
 <para>
 <screenshot>
 <screeninfo
->Bildschirmfoto des Joystick-Einrichtungsmoduls</screeninfo>
+>Bildschirmfoto des Gamecontroller-Einrichtungsmoduls</screeninfo>
   <mediaobject>
     <imageobject>
       <imagedata fileref="joystick-main.png" format="PNG"/>
     </imageobject>
     <textobject>
       <phrase
->Das Joystick-Einrichtungsmodul</phrase>
+>Das Modul Gamecontroller</phrase>
     </textobject>
   </mediaobject>
 </screenshot>
@@ -86,9 +90,9 @@
 ></term>
 <listitem>
 <para
->Hier sehen Sie den logischen Anschluss Ihres Joysticks. Wenn Sie mehrere Joysticks angeschlossen haben, können Sie auswählen, welches Gerät Sie einrichten möchten. </para>
+>Hier sehen Sie den logischen Anschluss Ihres Joysticks. Wenn Sie mehrere Gamecontroller angeschlossen haben, können Sie auswählen, welches Gerät Sie einrichten möchten. </para>
 <para
->Wenn kein Joystick automatisch an Ihrem Rechner gefunden wird und Sie aber sicher sind, dass ein entsprechendes Gerät angeschlossen ist, geben Sie bitte hier die korrekte Gerätedatei an. </para>
+>Wenn kein Gamecontroller automatisch an Ihrem Rechner gefunden wird und Sie aber sicher sind, dass ein entsprechendes Gerät angeschlossen ist, geben Sie bitte hier die korrekte Gerätedatei an. </para>
 </listitem>
 </varlistentry>
 
@@ -99,7 +103,7 @@
 ></term>
 <listitem>
 <para
->Hier wird die Position der X- und Y-Achsen Ihres Joysticks dargestellt. Aktivieren Sie die Schaltfläche <guibutton
+>Hier wird die Position der X- und Y-Achsen Ihres Gamecontrollers dargestellt. Aktivieren Sie die Schaltfläche <guibutton
 >Spur anzeigen</guibutton
 >, um den Joystick-Pfad von einem Punkt zum anderen aufzuzeichnen. </para>
 <tip
@@ -117,7 +121,7 @@
 ></term>
 <listitem>
 <para
->Hier sehen Sie den Status der Knöpfe auf Ihrem Joystick und ob diese den korrekten logischen Funktionen zugeordnet sind. Wenn ein Joystick-Knopf gedrückt wird, sollte der Text <guilabel
+>Hier sehen Sie den Status der Knöpfe auf Ihrem Gamecontroller und ob diese den korrekten logischen Funktionen zugeordnet sind. Wenn ein Knopf gedrückt wird, sollte der Text <guilabel
 >Gedrückt</guilabel
 > neben der Knopf-Nummer erscheinen. </para>
 </listitem>
@@ -130,7 +134,7 @@
 ></term>
 <listitem>
 <para
->Hier werden die Zahlenwerte der Achsenpositionen angezeigt. 0 bedeutet zentriert; die Minimal- und Maximalwerte sind von Joystick zu Joystick unterschiedlich sowie von der Achse abhängig. </para>
+>Hier werden die Zahlenwerte der Achsenpositionen angezeigt. 0 bedeutet zentriert; die Minimal- und Maximalwerte sind von Gamecontroller zu Gamecontroller unterschiedlich sowie von der Achse abhängig. </para>
 </listitem>
 </varlistentry>
 
@@ -143,19 +147,19 @@
 <para
 >Ein Klick auf den Knopf <guibutton
 >Kalibrieren</guibutton
-> öffnet die Kalibierungsdialog, mit dessen Hilfe Sie die Achsen und Ihres Joysticks neu einstellen können. </para>
+> öffnet die Kalibierungsdialog, mit dessen Hilfe Sie die Achsen und Ihres Gamecontrollers neu einstellen können. </para>
 
 <para>
 <screenshot>
 <screeninfo
->Kalibrierung des Joysticks</screeninfo>
+>Kalibrierung des Gamecontrollers</screeninfo>
   <mediaobject>
     <imageobject>
       <imagedata fileref="joystick-calibration.png" format="PNG"/>
     </imageobject>
     <textobject>
       <phrase
->Kalibrierung des Joysticks</phrase>
+>Kalibrierung des Gamecontrollers</phrase>
     </textobject>
   </mediaobject>
 </screenshot>

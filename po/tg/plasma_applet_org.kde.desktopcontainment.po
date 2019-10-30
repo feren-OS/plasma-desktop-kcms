@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_folderview\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
-"PO-Revision-Date: 2012-01-05 14:55+0500\n"
+"POT-Creation-Date: 2019-08-03 03:23+0200\n"
+"PO-Revision-Date: 2019-08-08 15:46+0500\n"
 "Last-Translator: Victor Ibragimov <victor.ibragimov@gmail.com>\n"
 "Language-Team: Tajik <>\n"
 "Language: tg\n"
@@ -15,14 +15,9 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 0.2\n"
+"X-Generator: Poedit 2.2.1\n"
 
 #: package/contents/config/config.qml:29
-#, fuzzy
-#| msgctxt ""
-#| "Title of the page that lets the user choose which location should the "
-#| "folderview show"
-#| msgid "Location"
 msgid "Location"
 msgstr "Ҷойгиршавӣ"
 
@@ -33,189 +28,136 @@ msgid "Icons"
 msgstr "Нишонаҳо"
 
 #: package/contents/config/config.qml:43
-#, fuzzy
-#| msgctxt ""
-#| "Title of the page that lets the user choose how to filter the folderview "
-#| "contents"
-#| msgid "Filter"
 msgid "Filter"
-msgstr "Филтр"
+msgstr "Полоиш"
 
 #: package/contents/config/config.qml:50
 msgid "Tweaks"
-msgstr ""
-
-#: package/contents/ui/AppletHandle.qml:105
-msgid "Resize"
-msgstr ""
-
-#: package/contents/ui/AppletHandle.qml:127
-msgid "Rotate"
-msgstr ""
-
-#: package/contents/ui/AppletHandle.qml:284
-msgid "Remove"
-msgstr ""
+msgstr "Беҳтаркунӣ"
 
 #: package/contents/ui/BackButtonItem.qml:116
 msgid "Back"
-msgstr ""
+msgstr "Ба қафо"
 
 #: package/contents/ui/ConfigFilter.qml:76
-#, fuzzy
-#| msgid "File types:"
 msgid "Files:"
-msgstr "Намудҳои файл:"
+msgstr "Файлҳо:"
 
 #: package/contents/ui/ConfigFilter.qml:77
-#, fuzzy
-#| msgid "Show a place:"
 msgid "Show all"
-msgstr "Намоиши макон:"
+msgstr "Ҳамаро намоиш додан"
 
 #: package/contents/ui/ConfigFilter.qml:77
-#, fuzzy
-#| msgid "Show Files Matching"
 msgid "Show matching"
-msgstr "Показать только файлы по шаблону"
+msgstr "Намоиш додани мувофиқатҳо"
 
 #: package/contents/ui/ConfigFilter.qml:77
-#, fuzzy
-#| msgid "Hide Files Matching"
 msgid "Hide matching"
-msgstr "Скрыть файлы по шаблону"
+msgstr "Пинҳон кардани мувофиқатҳо"
 
 #: package/contents/ui/ConfigFilter.qml:82
 msgid "File name pattern:"
-msgstr "Шаблон имён файлов:"
+msgstr "Қолаби номи файл:"
 
 #: package/contents/ui/ConfigFilter.qml:88
 msgid "File types:"
-msgstr "Намудҳои файл:"
+msgstr "Навъҳои файл:"
 
 #: package/contents/ui/ConfigFilter.qml:90
-#, fuzzy
-#| msgid "Search file type"
 msgid "Search..."
-msgstr "Ҷустуҷӯи намуди файл"
+msgstr "Ҷустуҷӯ..."
 
 #: package/contents/ui/ConfigFilter.qml:188
-#, fuzzy
-#| msgid "File types:"
 msgid "File type"
-msgstr "Намудҳои файл:"
+msgstr "Навъи файл"
 
 #: package/contents/ui/ConfigFilter.qml:197
 msgid "Description"
-msgstr ""
+msgstr "Тавсиф"
 
 #: package/contents/ui/ConfigFilter.qml:211
 msgid "Select All"
-msgstr "Интихоби ҳама"
+msgstr "Ҳамаро интихоб кардан"
 
 #: package/contents/ui/ConfigFilter.qml:222
 msgid "Deselect All"
-msgstr "&Аз қайдгирии ҳама"
+msgstr "Интихобро бекор кардан"
 
 #: package/contents/ui/ConfigIcons.qml:75
 msgid "Panel button:"
-msgstr ""
+msgstr "Тугмаи навор:"
 
 #: package/contents/ui/ConfigIcons.qml:81
-#, fuzzy
-#| msgid "Custom title:"
 msgid "Use a custom icon"
-msgstr "Сарлавҳаи шахсӣ:"
+msgstr "Истифодаи нишонаи шахсӣ"
 
 #: package/contents/ui/ConfigIcons.qml:115
-#, fuzzy
-#| msgctxt "@title:menu in Copy To or Move To submenu"
-#| msgid "Browse..."
 msgctxt "@item:inmenu Open icon chooser dialog"
 msgid "Choose..."
-msgstr "Кушодан..."
+msgstr "Интихоб кардан..."
 
 #: package/contents/ui/ConfigIcons.qml:121
-#, fuzzy
-#| msgid "Sort Icons"
 msgctxt "@item:inmenu Reset icon to default"
 msgid "Clear Icon"
-msgstr "Тартиби нишонаҳо"
+msgstr "Тоза кардани нишона"
 
 #: package/contents/ui/ConfigIcons.qml:140
-#, fuzzy
-#| msgid "Arrangement:"
 msgid "Arrangement:"
-msgstr "Расположение:"
+msgstr "Мураттабсозӣ:"
 
 #: package/contents/ui/ConfigIcons.qml:142
 #: plugins/folder/viewpropertiesmenu.cpp:34
 #, kde-format
 msgid "Rows"
-msgstr ""
+msgstr "Қаторҳо"
 
 #: package/contents/ui/ConfigIcons.qml:142
 #: plugins/folder/viewpropertiesmenu.cpp:38
 #, kde-format
 msgid "Columns"
-msgstr ""
+msgstr "Сутунҳо"
 
 #: package/contents/ui/ConfigIcons.qml:149
-#, fuzzy
-#| msgid "Align to grid:"
 msgid "Align left"
-msgstr "Выровнять по сетке:"
+msgstr "Аз тарафи чап мос кардан"
 
 #: package/contents/ui/ConfigIcons.qml:149
-#, fuzzy
-#| msgid "Align to grid:"
 msgid "Align right"
-msgstr "Выровнять по сетке:"
+msgstr "Аз тарафи рост мос кардан"
 
 #: package/contents/ui/ConfigIcons.qml:164
-#, fuzzy
-#| msgid "Lock in place:"
 msgid "Lock in place"
-msgstr "Зафиксировать значки:"
+msgstr "Дар ин ҷо бастан"
 
 #: package/contents/ui/ConfigIcons.qml:177
-#, fuzzy
-#| msgid "Sorting:"
 msgid "Sorting:"
 msgstr "Тартибдиҳӣ:"
 
 #: package/contents/ui/ConfigIcons.qml:185
 msgid "Manual"
-msgstr ""
+msgstr "Ба таври дастӣ"
 
 #: package/contents/ui/ConfigIcons.qml:185
 #: plugins/folder/viewpropertiesmenu.cpp:62
-#, fuzzy, kde-format
-#| msgctxt "Sort icons"
-#| msgid "By Name"
+#, kde-format
 msgid "Name"
 msgstr "Аз рӯи ном"
 
 #: package/contents/ui/ConfigIcons.qml:185
 #: plugins/folder/viewpropertiesmenu.cpp:66
-#, fuzzy, kde-format
-#| msgid "Size:"
+#, kde-format
 msgid "Size"
-msgstr "Андоза:"
+msgstr "Аз рӯи андоза"
 
 #: package/contents/ui/ConfigIcons.qml:185
 #: plugins/folder/viewpropertiesmenu.cpp:70
-#, fuzzy, kde-format
-#| msgctxt "Sort icons"
-#| msgid "By Type"
+#, kde-format
 msgid "Type"
 msgstr "Аз рӯи навъ"
 
 #: package/contents/ui/ConfigIcons.qml:185
 #: plugins/folder/viewpropertiesmenu.cpp:74
-#, fuzzy, kde-format
-#| msgctxt "Sort icons"
-#| msgid "By Date"
+#, kde-format
 msgid "Date"
 msgstr "Аз рӯи сана"
 
@@ -223,27 +165,22 @@ msgstr "Аз рӯи сана"
 #: plugins/folder/viewpropertiesmenu.cpp:79
 #, kde-format
 msgid "Descending"
-msgstr ""
+msgstr "Пастшаванда"
 
 #: package/contents/ui/ConfigIcons.qml:204
-#, fuzzy
-#| msgctxt "Sort icons"
-#| msgid "Folders First"
 msgid "Folders first"
-msgstr "Аввал ҷузвадонҳо"
+msgstr "Аввал ҷузвдонҳо"
 
 #: package/contents/ui/ConfigIcons.qml:218
 msgctxt "whether to use icon or list view"
 msgid "View mode:"
-msgstr ""
+msgstr "Реҷаи намуд:"
 
 #: package/contents/ui/ConfigIcons.qml:220
 msgid "List"
-msgstr ""
+msgstr "Рӯйхат"
 
 #: package/contents/ui/ConfigIcons.qml:231
-#, fuzzy
-#| msgid "Icon size:"
 msgid "Icon size:"
 msgstr "Андозаи нишона:"
 
@@ -259,179 +196,161 @@ msgstr "Хурд"
 msgid "Large"
 msgstr "Калон"
 
-#: package/contents/ui/ConfigIcons.qml:263
-#, fuzzy
-#| msgid "Label:"
+#: package/contents/ui/ConfigIcons.qml:264
 msgid "Label width:"
-msgstr "Тамға:"
-
-#: package/contents/ui/ConfigIcons.qml:266
-msgid "Narrow"
-msgstr ""
+msgstr "Бари тамға:"
 
 #: package/contents/ui/ConfigIcons.qml:267
+msgid "Narrow"
+msgstr "Танг"
+
+#: package/contents/ui/ConfigIcons.qml:268
 #: plugins/folder/viewpropertiesmenu.cpp:88
 #, kde-format
 msgid "Medium"
-msgstr ""
+msgstr "Миёна"
 
-#: package/contents/ui/ConfigIcons.qml:268
+#: package/contents/ui/ConfigIcons.qml:269
 msgid "Wide"
-msgstr ""
+msgstr "Васеъ"
 
-#: package/contents/ui/ConfigIcons.qml:276
-#, fuzzy
-#| msgid " lines"
+#: package/contents/ui/ConfigIcons.qml:277
 msgid "Text lines:"
-msgstr " хат"
+msgstr "Сатрҳои матн:"
 
-#: package/contents/ui/ConfigIcons.qml:292
-#, fuzzy
-#| msgctxt "On a camera"
-#| msgid "Aperture:"
+#: package/contents/ui/ConfigIcons.qml:293
 msgid "Features:"
-msgstr "Диафрагма:"
+msgstr "Хосиятҳо:"
 
-#: package/contents/ui/ConfigIcons.qml:294
+#: package/contents/ui/ConfigIcons.qml:295
 msgid "Tooltips"
-msgstr ""
+msgstr "Маслиҳатҳо"
 
-#: package/contents/ui/ConfigIcons.qml:301
-#, fuzzy
-#| msgid "Select All"
+#: package/contents/ui/ConfigIcons.qml:302
 msgid "Selection markers"
-msgstr "Интихоби ҳама"
+msgstr "Нишонагузори интихоб"
 
-#: package/contents/ui/ConfigIcons.qml:308
+#: package/contents/ui/ConfigIcons.qml:309
 msgid "Folder preview popups"
-msgstr ""
+msgstr "Пешнамоиши пайдошавандаи ҷузвдон"
 
-#: package/contents/ui/ConfigIcons.qml:314
-#, fuzzy
-#| msgid "Previews:"
+#: package/contents/ui/ConfigIcons.qml:315
 msgid "Preview thumbnails"
-msgstr "Пешнамоиш:"
+msgstr "Аксҳои пешнамоиш"
 
-#: package/contents/ui/ConfigIcons.qml:321
-#, fuzzy
-#| msgid "More Preview Options..."
+#: package/contents/ui/ConfigIcons.qml:323
 msgid "Configure Preview Plugins..."
-msgstr "Бештар имконоти пешнамоиш..."
+msgstr "Танзимоти плагинҳои пешнамоиш..."
 
 #: package/contents/ui/ConfigLocation.qml:93
 msgid "Show:"
-msgstr ""
+msgstr "Намоиши:"
 
 #: package/contents/ui/ConfigLocation.qml:95
-#, fuzzy
-#| msgid "Show the Desktop folder"
 msgid "Desktop folder"
-msgstr "Намоиши ҷузвдони мизи корӣ"
+msgstr "Ҷузвдони мизи корӣ"
 
 #: package/contents/ui/ConfigLocation.qml:102
 msgid "Files linked to the current activity"
-msgstr ""
+msgstr "Файлҳои пайвастшуда ба фаъолияти ҷорӣ"
 
 #: package/contents/ui/ConfigLocation.qml:109
 msgid "Places panel item:"
-msgstr ""
+msgstr "Маводи навори маконҳо:"
 
 #: package/contents/ui/ConfigLocation.qml:142
-#, fuzzy
-#| msgid "Custom title:"
 msgid "Custom location:"
-msgstr "Сарлавҳаи шахсӣ:"
+msgstr "Ҷойгиршавии шахсӣ:"
 
 #: package/contents/ui/ConfigLocation.qml:150
-#, fuzzy
-#| msgid "Type a path or a URL here"
 msgid "Type path or URL..."
-msgstr "Путь к папке или URL"
+msgstr "Масир ё URL-ро ворид намоед..."
 
 #: package/contents/ui/ConfigLocation.qml:191
-#, fuzzy
-#| msgctxt "Music"
-#| msgid "Title:"
 msgid "Title:"
 msgstr "Сарлавҳа:"
 
 #: package/contents/ui/ConfigLocation.qml:193
 msgid "None"
-msgstr "Нест"
+msgstr "Ҳеҷ чиз"
 
 #: package/contents/ui/ConfigLocation.qml:193
 msgid "Default"
-msgstr ""
+msgstr "Пешфарз"
 
 #: package/contents/ui/ConfigLocation.qml:193
 msgid "Full path"
-msgstr ""
+msgstr "Масири пурра"
 
 #: package/contents/ui/ConfigLocation.qml:193
-#, fuzzy
-#| msgid "Custom title:"
 msgid "Custom title"
-msgstr "Сарлавҳаи шахсӣ:"
+msgstr "Сарлавҳаи шахсӣ"
 
 #: package/contents/ui/ConfigLocation.qml:208
-#, fuzzy
-#| msgid "Enter a customized title"
 msgid "Enter custom title..."
-msgstr "Укажите заголовок графика."
+msgstr "Сарлавҳаи шахсиро ворид намоед..."
+
+#: package/contents/ui/ConfigOverlay.qml:101
+msgid "Rotate"
+msgstr "Даврзанӣ"
+
+#: package/contents/ui/ConfigOverlay.qml:224
+msgid "Remove"
+msgstr "Тоза кардан"
 
 #: package/contents/ui/ConfigTweaks.qml:43
 msgid ""
 "With the Desktop Toolbox hidden, right-click on the desktop and choose "
 "'Configure Desktop...' to access this configuration window in the future"
 msgstr ""
+"Вақте ки қуттии абзорҳо пинҳон карда шудааст, бо тугмаи рости муш ба мизи "
+"корӣ зер кунед ва \"Танзимоти мизи корӣ...\"-ро интихоб кунед, то тавонед ба "
+"равзанаи танзимоти ин хосият дасрасӣ пайдо намоед"
 
 #: package/contents/ui/ConfigTweaks.qml:54
-#, fuzzy
-#| msgid "Show the Desktop folder"
 msgid "Show the desktop toolbox"
-msgstr "Намоиши ҷузвдони мизи корӣ"
+msgstr "Намоиши қуттии абзорҳои мизи корӣ"
 
 #: package/contents/ui/ConfigTweaks.qml:72
 msgid "Press and hold widgets to move them and reveal their handles"
 msgstr ""
+"Виҷетҳоро зер карда, доред то тавонед онҳоро ҳаракат кунед ва дастакҳоро "
+"кушоед"
 
 #: package/contents/ui/FolderItemPreviewPluginsDialog.qml:36
-#, fuzzy
-#| msgid "Previews:"
 msgid "Preview Plugins"
-msgstr "Пешнамоиш:"
+msgstr "Пешнамоиши плагинҳо"
 
 #: package/contents/ui/FolderItemPreviewPluginsDialog.qml:94
 msgid "OK"
-msgstr ""
+msgstr "ХУБ"
 
 #: package/contents/ui/FolderItemPreviewPluginsDialog.qml:107
 msgid "Cancel"
-msgstr ""
+msgstr "Бекор кардан"
 
-#: package/contents/ui/main.qml:382
+#: package/contents/ui/main.qml:277
 msgid "Widgets unlocked"
-msgstr ""
+msgstr "Виҷетҳо кушода шуданд"
 
-#: package/contents/ui/main.qml:383
+#: package/contents/ui/main.qml:278
 msgid "You can press and hold widgets to move them and reveal their handles."
 msgstr ""
+"Шумо метавонед виҷетҳоро зер карда, доред то ки тавонед онҳоро ҳаракат кунед "
+"ва дастакҳоро кушоед."
 
-#: package/contents/ui/main.qml:384
+#: package/contents/ui/main.qml:279
 msgid "Got it"
-msgstr ""
+msgstr "Фаҳмидам"
 
-#: package/contents/ui/main.qml:597
-#, fuzzy
-#| msgid "&Refresh Desktop"
+#: package/contents/ui/main.qml:403
 msgid "Configure Desktop..."
-msgstr "&Бозсозии мизи корӣ"
+msgstr "Танзимоти мизи корӣ..."
 
 #: plugins/folder/directorypicker.cpp:45
-#, fuzzy, kde-format
-#| msgid "Select All"
+#, kde-format
 msgid "Select Folder"
-msgstr "Интихоби ҳама"
+msgstr "Интихоби ҷузвдон"
 
 #: plugins/folder/foldermodel.cpp:402
 #, kde-format
@@ -444,17 +363,15 @@ msgid "&Refresh View"
 msgstr "&Бозсозии намоиш"
 
 #: plugins/folder/foldermodel.cpp:1616
-#, fuzzy, kde-format
-#| msgid "&Empty Trash Bin"
+#, kde-format
 msgid "&Empty Trash"
-msgstr "&Сабадро холӣ кунед"
+msgstr "&Сабадро холӣ кардан"
 
 #: plugins/folder/foldermodel.cpp:1619
-#, fuzzy, kde-format
-#| msgid "&Restore"
+#, kde-format
 msgctxt "Restore from trash"
 msgid "Restore"
-msgstr "&Барқарорсозӣ"
+msgstr "Барқарорсозӣ"
 
 #: plugins/folder/foldermodel.cpp:1624
 #, kde-format
@@ -472,75 +389,66 @@ msgid "&Properties"
 msgstr "&Хусусиятҳо"
 
 #: plugins/folder/viewpropertiesmenu.cpp:31
-#, fuzzy, kde-format
-#| msgid "Arrangement:"
+#, kde-format
 msgid "Arrange In"
-msgstr "Расположение:"
+msgstr "Мураттабсозӣ дар"
 
 #: plugins/folder/viewpropertiesmenu.cpp:43
-#, fuzzy, kde-format
-#| msgid "Align to grid:"
+#, kde-format
 msgid "Align"
-msgstr "Выровнять по сетке:"
+msgstr "Москунӣ"
 
 #: plugins/folder/viewpropertiesmenu.cpp:46
 #, kde-format
 msgid "Left"
-msgstr ""
+msgstr "Чап"
 
 #: plugins/folder/viewpropertiesmenu.cpp:50
 #, kde-format
 msgid "Right"
-msgstr ""
+msgstr "Рост"
 
 #: plugins/folder/viewpropertiesmenu.cpp:55
-#, fuzzy, kde-format
-#| msgid "Sorting:"
+#, kde-format
 msgid "Sort By"
-msgstr "Тартибдиҳӣ:"
+msgstr "Тартибдиҳӣ аз рӯи"
 
 #: plugins/folder/viewpropertiesmenu.cpp:58
-#, fuzzy, kde-format
-#| msgctxt "Sort Icons"
-#| msgid "Unsorted"
+#, kde-format
 msgid "Unsorted"
-msgstr "Без сортировки"
+msgstr "Бе тартиб"
 
 #: plugins/folder/viewpropertiesmenu.cpp:81
-#, fuzzy, kde-format
-#| msgctxt "Sort icons"
-#| msgid "Folders First"
+#, kde-format
 msgid "Folders First"
-msgstr "Аввал ҷузвадонҳо"
+msgstr "Аввал ҷузвдонҳо"
 
 #: plugins/folder/viewpropertiesmenu.cpp:84
-#, fuzzy, kde-format
-#| msgid "Icon size:"
+#, kde-format
 msgid "Icon Size"
-msgstr "Андозаи нишона:"
+msgstr "Андозаи нишона"
 
 #: plugins/folder/viewpropertiesmenu.cpp:88
 #, kde-format
 msgid "Tiny"
-msgstr ""
+msgstr "Хурдакак"
 
 #: plugins/folder/viewpropertiesmenu.cpp:88
 #, kde-format
 msgid "Small Medium"
-msgstr ""
+msgstr "Миёнаи хурд"
 
 #: plugins/folder/viewpropertiesmenu.cpp:88
 #, kde-format
 msgid "Huge"
-msgstr ""
+msgstr "Калон"
 
 #: plugins/folder/viewpropertiesmenu.cpp:97
-#, fuzzy, kde-format
-#| msgid "Previews:"
+#, kde-format
 msgid "Show Previews"
-msgstr "Пешнамоиш:"
+msgstr "Пешнамоиш"
 
 #: plugins/folder/viewpropertiesmenu.cpp:100
 #, kde-format
 msgid "Locked"
-msgstr ""
+msgstr "Қулфшуда"

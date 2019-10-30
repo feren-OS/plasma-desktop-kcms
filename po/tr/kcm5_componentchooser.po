@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmcomponentchooser\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"POT-Creation-Date: 2019-09-18 03:38+0200\n"
 "PO-Revision-Date: 2017-10-04 12:31+0000\n"
 "Last-Translator: Kaan <kaanozdincer@gmail.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
@@ -67,12 +67,12 @@ msgstr "aşağıdaki komut ile birlikte:"
 msgid "..."
 msgstr "..."
 
-#: componentchooser.cpp:134
+#: componentchooser.cpp:133
 #, kde-format
 msgid "Unknown"
 msgstr "Bilinmeyen"
 
-#: componentchooser.cpp:151
+#: componentchooser.cpp:150
 #, kde-format
 msgid ""
 "Choose from the list below which component should be used by default for the "
@@ -81,7 +81,7 @@ msgstr ""
 "%1 servisi için aşağıdaki bileşenlerin hangisinin öntanımlı olarak "
 "kullanılacağını belirleyin."
 
-#: componentchooser.cpp:183
+#: componentchooser.cpp:182
 #, kde-format
 msgid ""
 "<qt>You changed the default component of your choice, do want to save that "
@@ -90,7 +90,7 @@ msgstr ""
 "<qt>Seçiminiz olan öntanımlı bileşeni değiştirdiniz, değişikliği kaydetmek "
 "istiyor musunuz ?</qt>"
 
-#: componentchooser.cpp:188
+#: componentchooser.cpp:187
 #, kde-format
 msgid "No description available"
 msgstr "Açıklama yok"
@@ -155,7 +155,7 @@ msgstr "Tercih edilen Web tarayıcı uygulamasını seçin:"
 msgid "Select preferred email client:"
 msgstr "Tercih edilen e-posta istemcisini seçin:"
 
-#: componentchooserterminal.cpp:104
+#: componentchooserterminal.cpp:102
 #, kde-format
 msgid "Select preferred terminal application:"
 msgstr "Tercih edilen uçbirim uygulamasını seçin:"

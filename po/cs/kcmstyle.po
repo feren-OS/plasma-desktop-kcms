@@ -1,6 +1,6 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# Vít Pelčák <vit@pelcak.org>, 2010, 2012, 2014, 2017, 2018.
+# Vít Pelčák <vit@pelcak.org>, 2010, 2012, 2014, 2017, 2018, 2019.
 # Tomáš Chvátal <tomas.chvatal@gmail.com>, 2013.
 # Lukáš Tinkl <lukas@kde.org>, 2013.
 #
@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmstyle\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
-"PO-Revision-Date: 2018-04-03 17:08+0100\n"
+"POT-Creation-Date: 2019-10-19 08:02+0200\n"
+"PO-Revision-Date: 2019-08-21 13:27+0200\n"
 "Last-Translator: Vit Pelcak <vit@pelcak.org>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
 "Language: en_US\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Lokalize 2.0\n"
+"X-Generator: Lokalize 19.08.1\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -29,54 +29,56 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "lukas@kde.org, flidr@kky.zcu.cz"
 
-#: kcmstyle.cpp:173
+#: kcmstyle.cpp:171
 #, kde-format
 msgid ""
 "This module allows you to modify the visual appearance of applications' user "
 "interface elements."
 msgstr ""
+"Tento modul vám umožňuje změnit vizuální vzhled prvků uživatelského rozhraní "
+"a efektů."
 
-#: kcmstyle.cpp:183
+#: kcmstyle.cpp:181
 #, kde-format
 msgid "Application Style"
-msgstr ""
+msgstr "Styl aplikací"
 
-#: kcmstyle.cpp:185
+#: kcmstyle.cpp:183
 #, kde-format
 msgid "(c) 2002 Karol Szwed, Daniel Molkentin"
 msgstr "(c) 2002 Karol Szwed, Daniel Molkentin"
 
-#: kcmstyle.cpp:187
+#: kcmstyle.cpp:185
 #, kde-format
 msgid "Karol Szwed"
 msgstr "Karol Szwed"
 
-#: kcmstyle.cpp:188
+#: kcmstyle.cpp:186
 #, kde-format
 msgid "Daniel Molkentin"
 msgstr "Daniel Molkentin"
 
-#: kcmstyle.cpp:198
+#: kcmstyle.cpp:196
 #, kde-format
 msgid "Preview"
 msgstr "Náhled"
 
-#: kcmstyle.cpp:252 kcmstyle.cpp:263
+#: kcmstyle.cpp:250 kcmstyle.cpp:261
 #, kde-format
 msgid "There was an error loading the configuration dialog for this style."
 msgstr "Nastala chyba při načítání konfiguračního dialogu tohoto stylu."
 
-#: kcmstyle.cpp:254 kcmstyle.cpp:265
+#: kcmstyle.cpp:252 kcmstyle.cpp:263
 #, kde-format
 msgid "Unable to Load Dialog"
 msgstr "Nelze načíst dialog"
 
-#: kcmstyle.cpp:488
+#: kcmstyle.cpp:479
 #, kde-format
 msgid "No description available."
 msgstr "Popis není dostupný."
 
-#: kcmstyle.cpp:695
+#: kcmstyle.cpp:686
 #, kde-format
 msgid ""
 "This area shows a preview of the currently selected style without having to "
@@ -85,7 +87,7 @@ msgstr ""
 "Tato oblast zobrazuje náhled právě vybraného styly bez jeho použití na celé "
 "prostředí."
 
-#: kcmstyle.cpp:697
+#: kcmstyle.cpp:688
 #, kde-format
 msgid ""
 "Here you can choose from a list of predefined widget styles (e.g. the way "
@@ -96,21 +98,25 @@ msgstr ""
 "způsobu jak se vykreslují tlačítka), které mohou nebo nesmí být kombinovány "
 "s motivy (doplňková informace jako mramorová textura nebo gradient)."
 
-#: kcmstyle.cpp:701
+#: kcmstyle.cpp:692
 #, kde-format
 msgid ""
 "If you enable this option, applications will show small icons alongside some "
 "important buttons."
 msgstr ""
+"Je-li zaškrtnuta tato volba, pak aplikace budou zobrazovat malé ikonky vedle "
+"důležitých tlačítek."
 
-#: kcmstyle.cpp:703
+#: kcmstyle.cpp:694
 #, kde-format
 msgid ""
 "If you enable this option, applications will show small icons alongside most "
 "menu items."
 msgstr ""
+"Je-li zaškrtnuta tato volba, pak aplikace budou zobrazovat malé ikonky vedle "
+"většiny položek nabídek."
 
-#: kcmstyle.cpp:705
+#: kcmstyle.cpp:696
 #, kde-format
 msgid ""
 "<p><b>No text:</b> Shows only icons on toolbar buttons. Best option for low "
@@ -119,8 +125,13 @@ msgid ""
 "Text is aligned beside the icon.</p><b>Text below icons: </b> Shows icons "
 "and text on toolbar buttons. Text is aligned below the icon."
 msgstr ""
+"<p><b>Pouze ikony:</b> Zobrazit v tlačítkách pouze ikony. Nejvýhodnější pro "
+"nízká rozlišení.</p><p><b>Pouze text:</b> Zobrazit v tlačítkách pouze text.</"
+"p><p><b>Text vedle ikon: </b>Zobrazit v tlačítkách jak text tak i ikony. "
+"Text je zarovnán vedle ikony</p><b>Text pod ikonami:</b> Zobrazí v "
+"tlačítkách jak text tak i ikony. Text bude pod ikonami."
 
-#: styleconfdialog.cpp:29
+#: styleconfdialog.cpp:33
 #, kde-format
 msgid "Configure %1"
 msgstr "Nastavit '%1'"
@@ -129,25 +140,25 @@ msgstr "Nastavit '%1'"
 #: styleconfig.ui:20
 #, kde-format
 msgid "Application style:"
-msgstr ""
+msgstr "Styl aplikací:"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, pbConfigStyle)
 #: styleconfig.ui:45
 #, kde-format
 msgid "Configure Application Style..."
-msgstr ""
+msgstr "Nastavit styl aplikací..."
 
 #. i18n: ectx: property (text), widget (QLabel, labelShowIcons)
 #: styleconfig.ui:61
 #, kde-format
 msgid "Show icons:"
-msgstr ""
+msgstr "Zobrazovat ikony:"
 
 #. i18n: ectx: property (text), widget (QLabel, labelToolbarIcons)
 #: styleconfig.ui:68
 #, kde-format
 msgid "Main toolbar label:"
-msgstr ""
+msgstr "Hlavní text nástrojové lišty:"
 
 # žádné parametry funkce v inspektoru funkcí
 #. i18n: ectx: property (text), item, widget (QComboBox, comboToolbarIcons)
@@ -169,32 +180,32 @@ msgstr "Pouze text"
 #: styleconfig.ui:89 styleconfig.ui:123
 #, kde-format
 msgid "Beside icons"
-msgstr ""
+msgstr "Vedle ikon"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, comboToolbarIcons)
 #. i18n: ectx: property (text), item, widget (QComboBox, comboSecondaryToolbarIcons)
 #: styleconfig.ui:94 styleconfig.ui:128
 #, kde-format
 msgid "Below icons"
-msgstr ""
+msgstr "Pod ikonami"
 
 #. i18n: ectx: property (text), widget (QLabel, labelSecondaryToolbarIcons)
 #: styleconfig.ui:102
 #, kde-format
 msgid "Secondary toolbar label:"
-msgstr ""
+msgstr "Pomocný text nástrojové lišty:"
 
 #. i18n: ectx: property (text), widget (QCheckBox, cbIconsOnButtons)
 #: styleconfig.ui:136
 #, kde-format
 msgid "On buttons"
-msgstr ""
+msgstr "Na tlačítkách"
 
 #. i18n: ectx: property (text), widget (QCheckBox, cbIconsInMenus)
 #: styleconfig.ui:146
 #, kde-format
 msgid "In menus"
-msgstr ""
+msgstr "V nabídce"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_1)
 #: stylepreview.ui:33
@@ -212,7 +223,7 @@ msgstr "Tlačítko"
 #: stylepreview.ui:86
 #, kde-format
 msgid "Combo box"
-msgstr ""
+msgstr "Kombinovaný seznam"
 
 #. i18n: ectx: property (text), widget (QCheckBox, checkBox)
 #: stylepreview.ui:96

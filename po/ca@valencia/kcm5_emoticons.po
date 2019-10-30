@@ -2,6 +2,7 @@
 # Copyright (C) 2008-2019 This_file_is_part_of_KDE
 # This file is distributed under the license LGPL version 2.1 or
 # version 3 or later versions approved by the membership of KDE e.V.
+# or the same license as the source of its messages in English.
 #
 # Josep Ma. Ferrer <txemaq@gmail.com>, 2008, 2009, 2010, 2011, 2014, 2015, 2016, 2018, 2019.
 # Manuel Tortosa Moreno <manutortosa@chakra-project.org>, 2009.
@@ -10,15 +11,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcm5_emoticons\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
-"PO-Revision-Date: 2019-03-24 17:44+0100\n"
+"POT-Creation-Date: 2019-05-20 03:25+0200\n"
+"PO-Revision-Date: 2019-06-28 09:09+0200\n"
 "Last-Translator: Josep Ma. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca@valencia\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 2.0\n"
+"X-Generator: Poedit 2.0.6\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Accelerator-Marker: &\n"
 
@@ -99,7 +100,7 @@ msgstr "El tema %1 ja existeix"
 #: emoticonslist.cpp:388
 #, kde-format
 msgid "Choose the type of emoticon theme to create"
-msgstr "Seleccioneu el tipus del tema d'emoticones a crear"
+msgstr "Seleccioneu el tipus del tema d'emoticones que s'ha de crear"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, EmoticonsManager)
 #: emoticonslist.ui:14
@@ -121,7 +122,7 @@ msgid ""
 "unpack it and make it available for KDE applications"
 msgstr ""
 "Si ja teniu localment un arxiu de tema d'emoticones, aquest botó el "
-"desempaquetarà i el deixarà disponible per a les aplicacions del KDE"
+"desempaquetarà i el deixarà disponible per a les aplicacions de KDE"
 
 #. i18n: ectx: property (text), widget (QPushButton, btInstall)
 #: emoticonslist.ui:32
@@ -142,8 +143,8 @@ msgid ""
 "Create a new theme by assigning it a name. Then use the Add button on the "
 "right to add emoticons to this theme."
 msgstr ""
-"Crea un tema nou assignant-li un nom. Després useu el botó Afig de la dreta "
-"per a afegir emoticones a aquest tema."
+"Creeu un tema nou assignant-li un nom. Després utilitzeu el botó Afig de la "
+"dreta per a afegir emoticones a aquest tema."
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, btRemoveTheme)
 #: emoticonslist.ui:99
@@ -155,13 +156,13 @@ msgstr "Elimina el tema"
 #: emoticonslist.ui:102
 #, kde-format
 msgid "This will remove the selected theme from your disk."
-msgstr "Això eliminarà el tema seleccionat del disc."
+msgstr "Açò eliminarà el tema seleccionat del disc."
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, btGetNew)
 #: emoticonslist.ui:115
 #, kde-format
 msgid "Get new emoticon icon themes from the Internet"
-msgstr "Obtén temes nous d'icones d'emoticones des d'Internet"
+msgstr "Obtín temes nous d'icones d'emoticones des d'Internet"
 
 #. i18n: ectx: property (whatsThis), widget (QPushButton, btGetNew)
 #: emoticonslist.ui:118
@@ -172,16 +173,16 @@ msgid ""
 "Clicking the Install button associated with a theme will install this theme "
 "locally."
 msgstr ""
-"Cal estar connectat a Internet per usar aquesta acció. Es mostrarà un diàleg "
-"d'una llista de temes d'emoticones des del lloc web https://store.kde.org. "
-"Clicant el botó Instal·la associat amb un tema, aquest s'instal·larà "
+"Cal estar connectat a Internet per a utilitzar aquesta acció. Es mostrarà un "
+"diàleg d'una llista de temes d'emoticones des del lloc web https://store.kde."
+"org. Si cliqueu el botó Instal·la associat amb un tema, aquest s'instal·larà "
 "localment."
 
 #. i18n: ectx: property (text), widget (QPushButton, btGetNew)
 #: emoticonslist.ui:121
 #, kde-format
 msgid "Get New Emoticons..."
-msgstr "Obtén emoticones noves..."
+msgstr "Obtín emoticones noves..."
 
 #. i18n: ectx: property (text), widget (QCheckBox, cbStrict)
 #: emoticonslist.ui:138
@@ -199,7 +200,7 @@ msgstr "Crea una emoticona nova..."
 #: emoticonslist.ui:164
 #, kde-format
 msgid "Create a new emoticon by assigning it an icon and some text"
-msgstr "Crea una emoticona nova assignant-hi una icona i un text"
+msgstr "Crea una emoticona nova assignant-li una icona i un text"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, btRemoveEmoticon)
 #: emoticonslist.ui:177

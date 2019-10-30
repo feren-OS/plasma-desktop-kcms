@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcm_touchpad\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-06-20 07:49+0200\n"
-"PO-Revision-Date: 2019-05-18 01:17+0200\n"
+"POT-Creation-Date: 2019-06-20 03:22+0200\n"
+"PO-Revision-Date: 2019-06-03 13:11+0200\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
@@ -114,7 +114,7 @@ msgstr "Intercambiar los botones derecho e izquierdo."
 msgid "Press left and right buttons for middle click"
 msgstr "Pulse los botones izquierdo y derecho para clic central"
 
-#: src/kcm/libinput/touchpad.qml:206 src/kcm/libinput/touchpad.qml:720
+#: src/kcm/libinput/touchpad.qml:206 src/kcm/libinput/touchpad.qml:721
 #, kde-format
 msgid ""
 "Clicking left and right button simultaneously sends middle button click."
@@ -282,15 +282,15 @@ msgstr "Desactivar el desplazamiento horizontal"
 
 #: src/kcm/libinput/touchpad.qml:603
 #, kde-format
-msgid "Right-click :"
+msgid "Right-click:"
 msgstr "Clic derecho:"
 
-#: src/kcm/libinput/touchpad.qml:641
+#: src/kcm/libinput/touchpad.qml:642
 #, kde-format
 msgid "Press bottom-right corner"
 msgstr "Pulsar la esquina inferior derecha"
 
-#: src/kcm/libinput/touchpad.qml:645
+#: src/kcm/libinput/touchpad.qml:646
 #, kde-format
 msgid ""
 "Software enabled buttons will be added to bottom portion of your touchpad."
@@ -298,27 +298,27 @@ msgstr ""
 "Los botones activados por software se añadirán a la parte inferior del panel "
 "táctil."
 
-#: src/kcm/libinput/touchpad.qml:653
+#: src/kcm/libinput/touchpad.qml:654
 #, kde-format
 msgid "Press anywhere with two fingers"
 msgstr "Pulsar en cualquier lugar con dos dedos"
 
-#: src/kcm/libinput/touchpad.qml:657
+#: src/kcm/libinput/touchpad.qml:658
 #, kde-format
 msgid "Tap with two finger to enable right click."
 msgstr "Toque con dos dedos para activar el clic derecho."
 
-#: src/kcm/libinput/touchpad.qml:670
+#: src/kcm/libinput/touchpad.qml:671
 #, kde-format
 msgid "Middle-click: "
 msgstr "Clic central:"
 
-#: src/kcm/libinput/touchpad.qml:704
+#: src/kcm/libinput/touchpad.qml:705
 #, kde-format
 msgid "Press bottom-middle"
 msgstr "Pulsar la parte inferior central"
 
-#: src/kcm/libinput/touchpad.qml:708
+#: src/kcm/libinput/touchpad.qml:709
 #, kde-format
 msgid ""
 "Software enabled middle-button will be added to bottom portion of your "
@@ -327,18 +327,18 @@ msgstr ""
 "El botón central activado por software se añadirá a la parte inferior del "
 "panel táctil."
 
-#: src/kcm/libinput/touchpad.qml:716
+#: src/kcm/libinput/touchpad.qml:717
 #, kde-format
 msgid "Press bottom left and bottom right corners simultaneously"
 msgstr ""
 "Pulsar de forma simultánea las esquinas inferior izquierda e inferior derecha"
 
-#: src/kcm/libinput/touchpad.qml:729
+#: src/kcm/libinput/touchpad.qml:730
 #, kde-format
 msgid "Press anywhere with three fingers"
 msgstr "Pulsar en cualquier lugar con tres dedos"
 
-#: src/kcm/libinput/touchpad.qml:735
+#: src/kcm/libinput/touchpad.qml:736
 #, kde-format
 msgid "Press anywhere with three fingers."
 msgstr "Pulsar en cualquier lugar con tres dedos."

@@ -1,21 +1,20 @@
 # translation of kcmkeys.po to Тоҷикӣ
 # Copyright (C) 2003,2004 Free Software Foundation, Inc.
-# Roger Kovacs <rkovacs@khujand.org>, 2003,2004.
-# Victor Ibragimov <youth_opportunities@tajik.net>, 2004
 #
+# Victor Ibragimov <victor.ibragimov@gmail.com>, 2004, 2019.
 msgid ""
 msgstr ""
 "Project-Id-Version: kcmkeys\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
-"PO-Revision-Date: 2009-08-04 00:37+0500\n"
+"POT-Creation-Date: 2019-09-12 03:25+0200\n"
+"PO-Revision-Date: 2019-09-16 18:43+0500\n"
 "Last-Translator: Victor Ibragimov <victor.ibragimov@gmail.com>\n"
-"Language-Team: Тоҷикӣ\n"
+"Language-Team: English <kde-i18n-doc@kde.org>\n"
 "Language: tg\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.0.1\n"
+"X-Generator: Lokalize 19.04.3\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
 #. i18n: ectx: property (text), widget (QLabel, components_label)
@@ -28,55 +27,54 @@ msgstr ""
 #: export_scheme_dialog.ui:27
 #, kde-format
 msgid "Components"
-msgstr "Қисмҳо"
+msgstr "Унсурҳо"
 
-#: globalshortcuts.cpp:67
+#: globalshortcuts.cpp:65
 #, kde-format
 msgid "You are about to reset all shortcuts to their default values."
 msgstr ""
 
-#: globalshortcuts.cpp:68
+#: globalshortcuts.cpp:66
 #, kde-format
 msgid "Reset to defaults"
-msgstr "Бозсозӣ ба стандартӣ"
+msgstr ""
 
-#: globalshortcuts.cpp:69
+#: globalshortcuts.cpp:67
 #, kde-format
 msgid "Current Component"
-msgstr "Қисми ҷорӣ"
+msgstr ""
 
-#: globalshortcuts.cpp:70
+#: globalshortcuts.cpp:68
 #, kde-format
 msgid "All Components"
-msgstr "Ҳамаи қисмҳо"
-
-#: kglobalshortcutseditor.cpp:231
-#, kde-format
-msgid "Import Scheme..."
-msgstr "Воридоти нақша..."
-
-#: kglobalshortcutseditor.cpp:232
-#, kde-format
-msgid "Export Scheme..."
-msgstr "Содироти нақша..."
+msgstr "Ҳамаи унсурҳо"
 
 #: kglobalshortcutseditor.cpp:233
 #, kde-format
+msgid "Import Scheme..."
+msgstr ""
+
+#: kglobalshortcutseditor.cpp:234
+#, kde-format
+msgid "Export Scheme..."
+msgstr ""
+
+#: kglobalshortcutseditor.cpp:235
+#, kde-format
 msgid "Set All Shortcuts to None"
-msgstr "Ҳамаи тугмаҳо ба ҳеҷ чиз насб кунед"
+msgstr ""
 
-#: kglobalshortcutseditor.cpp:241
-#, fuzzy, kde-format
-#| msgid "Application Missing"
+#: kglobalshortcutseditor.cpp:243
+#, kde-format
 msgid "Applications"
-msgstr "Барнома ками карда истодааст. "
+msgstr "Барномаҳо"
 
-#: kglobalshortcutseditor.cpp:292
+#: kglobalshortcutseditor.cpp:294
 #, kde-format
 msgid "Launch %1"
 msgstr ""
 
-#: kglobalshortcutseditor.cpp:328
+#: kglobalshortcutseditor.cpp:330
 #, kde-format
 msgid ""
 "Component '%1' is currently active. Only global shortcuts currently not "
@@ -85,12 +83,12 @@ msgid ""
 "they are next started."
 msgstr ""
 
-#: kglobalshortcutseditor.cpp:330 kglobalshortcutseditor.cpp:340
+#: kglobalshortcutseditor.cpp:332 kglobalshortcutseditor.cpp:342
 #, kde-format
 msgid "Remove component"
-msgstr "Нест кардани қисм"
+msgstr ""
 
-#: kglobalshortcutseditor.cpp:336
+#: kglobalshortcutseditor.cpp:338
 #, kde-format
 msgid ""
 "Are you sure you want to remove the registered shortcuts for component '%1'? "
@@ -98,63 +96,55 @@ msgid ""
 "settings when they are next started."
 msgstr ""
 
-#: kglobalshortcutseditor.cpp:450
-#, fuzzy, kde-format
-#| msgid "App&lication Shortcuts"
+#: kglobalshortcutseditor.cpp:452
+#, kde-format
 msgid "Application Launchers"
-msgstr "Барномаи &кнопкаҳои тез"
+msgstr ""
 
-#: kglobalshortcutseditor.cpp:453
-#, fuzzy, kde-format
-#| msgid "Shortcuts:"
+#: kglobalshortcutseditor.cpp:455
+#, kde-format
 msgid "Other Shortcuts"
-msgstr "Тугмаҳои тез:"
+msgstr ""
 
-#: kglobalshortcutseditor.cpp:558
+#: kglobalshortcutseditor.cpp:560
 #, kde-format
 msgid ""
 "Your current changes will be lost if you load another scheme before saving "
 "this one"
 msgstr ""
-"Агар шумо нақшаи навро бе захиракунии нақшаи ҷорӣ бор кунед, танзимотҳои "
-"ҳозира нест карда мешаванд"
 
-#: kglobalshortcutseditor.cpp:559
+#: kglobalshortcutseditor.cpp:561
 #, kde-format
 msgid "Load Shortcut Scheme"
-msgstr "Боркунии нақшаи тугмаҳои тез"
+msgstr ""
 
-#: kglobalshortcutseditor.cpp:560
+#: kglobalshortcutseditor.cpp:562
 #, kde-format
 msgid "Load"
-msgstr "Боркунӣ"
+msgstr ""
 
 #: kglobalshortcutseditor.cpp:573
 #, kde-format
 msgid "This file (%1) does not exist. You can only select local files."
 msgstr ""
-"Файли (%1) мавҷуд нест. Шумо метавонед танҳо фалҳои локалиро интихоб кунед."
 
-#: kglobalshortcutseditor.cpp:601 kglobalshortcutseditor.cpp:624
+#: kglobalshortcutseditor.cpp:602 kglobalshortcutseditor.cpp:625
 #, kde-format
 msgid ""
 "Message: %1\n"
 "Error: %2"
 msgstr ""
-"Паём: %1\n"
-"Хато: %2"
 
-#: kglobalshortcutseditor.cpp:606 kglobalshortcutseditor.cpp:629
+#: kglobalshortcutseditor.cpp:607 kglobalshortcutseditor.cpp:630
 #, kde-format
 msgid "Failed to contact the KDE global shortcuts daemon\n"
-msgstr "Пайвастшавӣ бо модули глобалии тугмаҳои тези KDE қатъ карда шуд\n"
+msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, componentLabel)
 #: kglobalshortcutseditor.ui:37
-#, fuzzy, kde-format
-#| msgid "Components"
+#, kde-format
 msgid "Component:"
-msgstr "Қисмҳо"
+msgstr "Унсур:"
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, addButton)
 #: kglobalshortcutseditor.ui:77
@@ -171,10 +161,9 @@ msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, removeButton)
 #: kglobalshortcutseditor.ui:87
-#, fuzzy, kde-format
-#| msgid "Remove component"
+#, kde-format
 msgid "Remove the selected component"
-msgstr "Нест кардани қисм"
+msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, menu_button)
 #: kglobalshortcutseditor.ui:110
@@ -193,28 +182,28 @@ msgstr ""
 #: select_scheme_dialog.ui:15 select_scheme_dialog.ui:123
 #, kde-format
 msgid "Select Shortcut Scheme"
-msgstr "Интихоби нақшаи тугмаҳои тез"
+msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (QLabel, label)
 #: select_scheme_dialog.ui:39
 #, kde-format
 msgid "Select one of the standard KDE shortcut schemes"
-msgstr "Як аз нақшаҳои стандартии тугмаҳои тези KDEро интихоб кунед"
+msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: select_scheme_dialog.ui:42
 #, kde-format
 msgid "&Standard scheme:"
-msgstr "&Нақшаи стандартӣ:"
+msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (QLabel, label_2)
 #: select_scheme_dialog.ui:92
 #, kde-format
 msgid "Select a shortcut scheme file"
-msgstr "Интихоби файли тугмаҳои тез"
+msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: select_scheme_dialog.ui:95
 #, kde-format
 msgid "&Path:"
-msgstr "&Роҳча:"
+msgstr "&Масир:"

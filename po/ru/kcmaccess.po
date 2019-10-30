@@ -7,19 +7,20 @@
 # Nick Shaforostoff <shafff@ukr.net>, 2006, 2016.
 # Andrey Cherepanov <skull@kde.ru>, 2009.
 # Alexander Potashev <aspotashev@gmail.com>, 2011, 2015, 2016, 2017, 2018.
+# Alexander Yavorsky <kekcuha@gmail.com>, 2019.
 msgid ""
 msgstr ""
 "Project-Id-Version: kcmaccess\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
-"PO-Revision-Date: 2018-01-31 05:42+0300\n"
-"Last-Translator: Alexander Potashev <aspotashev@gmail.com>\n"
+"POT-Creation-Date: 2019-08-01 03:13+0200\n"
+"PO-Revision-Date: 2019-08-31 13:50+0300\n"
+"Last-Translator: Alexander Yavorsky <kekcuha@gmail.com>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 2.0\n"
+"X-Generator: Lokalize 19.08.0\n"
 "Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
 "%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Environment: kde\n"
@@ -191,7 +192,11 @@ msgstr "Здесь вы сможете настроить длительност
 #. i18n: ectx: property (suffix), widget (QSpinBox, duration)
 #. i18n: ectx: property (suffix), widget (QSpinBox, slowKeysDelay)
 #. i18n: ectx: property (suffix), widget (QSpinBox, bounceKeysDelay)
+#. i18n: ectx: property (suffix), widget (QSpinBox, mk_delay)
+#. i18n: ectx: property (suffix), widget (QSpinBox, mk_interval)
+#. i18n: ectx: property (suffix), widget (QSpinBox, mk_time_to_max)
 #: accessibility.ui:181 accessibility.ui:392 accessibility.ui:489
+#: accessibility.ui:766 accessibility.ui:808 accessibility.ui:840
 #, kde-format
 msgid " msec"
 msgstr " мс"
@@ -400,26 +405,74 @@ msgstr ""
 "Показывать уведомление Plasma при включении и отключении специальных "
 "возможностей клавиатуры"
 
-#. i18n: ectx: attribute (title), widget (QWidget, tabScreenReader)
+#. i18n: ectx: attribute (title), widget (QWidget, tabMouseKeys)
 #: accessibility.ui:745
+#, kde-format
+msgid "Mouse Navigation"
+msgstr "Управление мышью"
+
+#. i18n: ectx: property (text), widget (QCheckBox, mouseKeys)
+#: accessibility.ui:753
+#, kde-format
+msgid "&Move pointer with keyboard (using the num pad)"
+msgstr "Управлять курсором мыши с цифрового блока &клавиатуры"
+
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: accessibility.ui:782
+#, kde-format
+msgid "&Acceleration delay:"
+msgstr "Задержка &ускорения:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_8)
+#: accessibility.ui:792
+#, kde-format
+msgid "R&epeat interval:"
+msgstr "Интервал &повтора:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_9)
+#: accessibility.ui:824
+#, kde-format
+msgid "Acceleration &time:"
+msgstr "Время &ускорения курсора:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_10)
+#: accessibility.ui:856
+#, kde-format
+msgid "Ma&ximum speed:"
+msgstr "&Максимальная скорость:"
+
+#. i18n: ectx: property (suffix), widget (QSpinBox, mk_max_speed)
+#: accessibility.ui:872
+#, kde-format
+msgid " pixel/sec"
+msgstr " пикселов/с"
+
+#. i18n: ectx: property (text), widget (QLabel, label_11)
+#: accessibility.ui:888
+#, kde-format
+msgid "Acceleration &profile:"
+msgstr "Режим у&скорения:"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tabScreenReader)
+#: accessibility.ui:933
 #, kde-format
 msgid "Screen Reader"
 msgstr "Зачитывание с экрана"
 
 #. i18n: ectx: property (text), widget (QCheckBox, screenReaderEnabled)
-#: accessibility.ui:751
+#: accessibility.ui:939
 #, kde-format
 msgid "Screen reader enabled"
 msgstr "Включить зачитывание текста с экрана"
 
 #. i18n: ectx: property (text), widget (QPushButton, launchOrcaConfiguration)
-#: accessibility.ui:760
+#: accessibility.ui:948
 #, kde-format
 msgid "&Launch Orca Configuration"
 msgstr "&Настроить Orca..."
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: accessibility.ui:785
+#: accessibility.ui:973
 #, kde-format
 msgid ""
 "Please note that you may have to log out once to allow the screen reader to "
@@ -531,12 +584,12 @@ msgstr ""
 "Залипающие клавиши: Нажатие клавиши Shift 5 раз подряд\n"
 "Медленные клавиши: Удерживание клавиши Shift нажатой 8 секунд"
 
-#: kcmaccess.cpp:261
+#: kcmaccess.cpp:269
 #, kde-format
 msgid "Could not set gsettings for Orca: \"%1\" failed"
 msgstr "Не удалось изменить конфигурацию Orca при помощи команды «%1»."
 
-#: kcmaccess.cpp:268
+#: kcmaccess.cpp:276
 #, kde-format
 msgid "Error: Could not launch \"orca --setup\""
 msgstr "Не удалось запустить «orca --setup»."

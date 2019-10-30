@@ -15,19 +15,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmcomponentchooser\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
-"PO-Revision-Date: 2019-03-15 23:06+0100\n"
+"POT-Creation-Date: 2019-09-18 03:38+0200\n"
+"PO-Revision-Date: 2019-10-19 22:14+0200\n"
 "Last-Translator: Adrián Chaves (Gallaecio) <adrian@chaves.io>\n"
-"Language-Team: Galician <kde-i18n-doc@kde.org>\n"
+"Language-Team: Galician <proxecto@trasno.gal>\n"
 "Language: gl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 18.12.2\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Environment: kde\n"
-"X-Accelerator-Marker: &\n"
-"X-Text-Markup: kde4\n"
+"X-Generator: Lokalize 19.11.70\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -49,13 +46,13 @@ msgstr "<qt>Abrir URL <b>http</b> e <b>https</b></qt>"
 #: browserconfig_ui.ui:36
 #, kde-format
 msgid "in an application based on the contents of the URL"
-msgstr "nun aplicativo baseado no contido do URL"
+msgstr "unha aplicación baseada no contido do URL"
 
 #. i18n: ectx: property (text), widget (QRadioButton, radioService)
 #: browserconfig_ui.ui:46
 #, kde-format
 msgid "in the following application:"
-msgstr "no seguinte aplicativo:"
+msgstr "na seguinte aplicación:"
 
 #. i18n: ectx: property (text), widget (QRadioButton, radioExec)
 #: browserconfig_ui.ui:80
@@ -73,12 +70,12 @@ msgstr "coa seguinte orde:"
 msgid "..."
 msgstr "…"
 
-#: componentchooser.cpp:134
+#: componentchooser.cpp:133
 #, kde-format
 msgid "Unknown"
 msgstr "Descoñecido"
 
-#: componentchooser.cpp:151
+#: componentchooser.cpp:150
 #, kde-format
 msgid ""
 "Choose from the list below which component should be used by default for the "
@@ -87,7 +84,7 @@ msgstr ""
 "Escolla na lista de baixo a compoñente que se debe empregar de maneira "
 "predeterminada para o servizo %1."
 
-#: componentchooser.cpp:183
+#: componentchooser.cpp:182
 #, kde-format
 msgid ""
 "<qt>You changed the default component of your choice, do want to save that "
@@ -96,7 +93,7 @@ msgstr ""
 "<qt>Cambiou a compoñente predeterminada da súa escolla, quere gardar o "
 "cambio agora?</qt>"
 
-#: componentchooser.cpp:188
+#: componentchooser.cpp:187
 #, kde-format
 msgid "No description available"
 msgstr "Non hai ningunha descrición dispoñíbel"
@@ -113,11 +110,12 @@ msgid ""
 "programs these components are."
 msgstr ""
 "Aquí pode cambiar o programa compoñente. As compoñentes son programas que "
-"xestionan tarefas básicas, como o emulador de terminal, o editor de textos e "
-"o cliente de correo electrónico. Algúns aplicativos de KDE ás veces precisan "
-"invocar unha terminal, enviar un correo ou mostrar algún texto. Para facer "
-"isto con consistencia, estes programas sempre chaman ás mesmas compoñentes. "
-"Pode escoller aquí os programas que funcionarán como compoñentes básicas."
+"xestionan tarefas básicas, como a emulación de terminal, as edicións de "
+"textos e a xestión do correo electrónico. Algunhas aplicacións de KDE ás "
+"veces precisan invocar unha terminal, enviar un correo ou mostrar algún "
+"texto. Para facer isto con consistencia, estes programas sempre chaman ás "
+"mesmas compoñentes. Pode escoller aquí os programas que funcionarán como "
+"compoñentes básicas."
 
 #. i18n: ectx: property (title), widget (QGroupBox, GroupBox1)
 #: componentchooser_ui.ui:29
@@ -144,9 +142,9 @@ msgstr ""
 "<p>Esta lista mostra os tipos de compoñentes configurábeis. Prema a "
 "compoñente que queira configurar.</p>\n"
 "<p>Neste diálogo pode cambiar os compoñentes predeterminados de KDE. As "
-"compoñentes son programas que xestionan tarefas básicas, como o emulador de "
-"terminal, o editor de textos e o cliente de correo electrónico. Algúns "
-"aplicativos de KDE ás veces precisan invocar unha terminal, enviar un correo "
+"compoñentes son programas que xestionan tarefas básicas, como a emulación da "
+"terminal, as edicións de textos e a xestión de correo electrónico. Algunhas "
+"aplicacións de KDE ás veces precisan invocar unha terminal, enviar un correo "
 "ou mostrar algún texto. Para facer isto con consistencia, estes programas "
 "sempre chaman ás mesmas compoñentes. Pode escoller aquí os programas que "
 "funcionarán como compoñentes básicos.</p>\n"
@@ -155,17 +153,17 @@ msgstr ""
 #: componentchooserbrowser.cpp:150
 #, kde-format
 msgid "Select preferred Web browser application:"
-msgstr "Seleccione o seu aplicativo de navegador web preferido:"
+msgstr "Seleccione a súa aplicación de navegador web preferida:"
 
 #: componentchooseremail.cpp:86
 #, kde-format
 msgid "Select preferred email client:"
-msgstr "Seleccione un cliente de correo electrónico preferido:"
+msgstr "Escolla o seu xestor de correo electrónico preferido:"
 
-#: componentchooserterminal.cpp:104
+#: componentchooserterminal.cpp:102
 #, kde-format
 msgid "Select preferred terminal application:"
-msgstr "Escolla o seu aplicativo de terminal preferido:"
+msgstr "Seleccione a súa aplicación de terminal preferida:"
 
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, kmailCB)
 #: emailclientconfig_ui.ui:12
@@ -177,7 +175,7 @@ msgstr "Kmail é o programa estándar para o escritorio de Plasma."
 #: emailclientconfig_ui.ui:15
 #, kde-format
 msgid "&Use KMail as preferred email client"
-msgstr "&Usar KMail como cliente de correo electrónico preferido"
+msgstr "&Empregar KMail como xestor de correo electrónico preferido"
 
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, otherCB)
 #: emailclientconfig_ui.ui:22
@@ -190,7 +188,7 @@ msgstr ""
 #: emailclientconfig_ui.ui:25
 #, kde-format
 msgid "Use a different &email client:"
-msgstr "Usar outro cliente de correo &electrónico:"
+msgstr "Empregar outro xestor de correo &electrónico:"
 
 #. i18n: ectx: property (toolTip), widget (KLineEdit, txtEMailClient)
 #: emailclientconfig_ui.ui:53
@@ -204,7 +202,7 @@ msgstr ""
 "Marcas de posición opcionais: <ul> <li>%t: Enderezo do destinatario </li> "
 "<li>%s: Asunto</li> <li>%c: Copia ao carbón (CC)</li> <li>%b: Copia ao "
 "carbón agochada (BCC)</li> <li>%B: Modelo de corpo do texto</li> <li>%A: "
-"Anexo </li> <li>%u: URL completo do mailto:</li></ul>"
+"Anexo </li> <li>%u: Url completo do mailto:</li></ul>"
 
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, txtEMailClient)
 #: emailclientconfig_ui.ui:56
@@ -218,7 +216,7 @@ msgid ""
 "<li>%b: Blind Carbon Copy (BCC)</li> <li>%B: Template body text</li> <li>%A: "
 "Attachment </li> </ul>"
 msgstr ""
-"Prema este botón para escoller o seu cliente de correo electrónico favorito. "
+"Prema este botón para escoller o seu xestor de correo electrónico favorito. "
 "Por favor lembre que o ficheiro que escolla ten que ter o atributo de "
 "executábel para que se poida aceptar.<br/>Pode tamén empregar varios "
 "argumentos que se substituirán cos valores actuais cando o xestor de correo "
@@ -239,8 +237,8 @@ msgid ""
 "Activate this option if you want the selected email client to be executed in "
 "a terminal (e.g. <em>Konsole</em>)."
 msgstr ""
-"Active esta opción se quere seleccionar que o cliente de correo se execute "
-"nun terminal (p. ex. <em>Konsole</em>)."
+"Sinale esta opción se quere executar nunha terminal o xestor de correo "
+"escollido (p.ex. <em>Konsole</em>)."
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkRunTerminal)
 #: emailclientconfig_ui.ui:102
@@ -279,7 +277,7 @@ msgstr "Joseph Wenninger"
 #: terminalemulatorconfig_ui.ui:12
 #, kde-format
 msgid "&Use Konsole as terminal application"
-msgstr "Em&pregar Konsole como aplicativo de terminal"
+msgstr "&Usar Konsole como aplicación de terminal"
 
 #. i18n: ectx: property (text), widget (QRadioButton, otherCB)
 #: terminalemulatorconfig_ui.ui:19
@@ -297,10 +295,10 @@ msgid ""
 "will not work if you add command line arguments (Example: konsole -ls)."
 msgstr ""
 "Prema este botón para escoller o seu cliente de terminal favorito. Por "
-"favor, lembre que o ficheiro que escolla ten que ter o atributo de "
-"executábel para poder aceptarse.<br/>Lembre tamén que algúns programas que "
-"empregan o emulador de terminal non funcionarán se non engade argumentos á "
-"liña de ordes (Por exemplo: konsole -ls)."
+"favor, lembre que o ficheiro que escolla ten que ser executábel para poder "
+"ser aceptado.<br/>Lembre tamén que algúns programas que empregan o emulador "
+"de terminal non funcionarán se non engade argumentos á liña de ordes (Por "
+"exemplo: konsole -ls)."
 
 #. i18n: ectx: property (whatsThis), widget (QToolButton, btnSelectTerminal)
 #: terminalemulatorconfig_ui.ui:57

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"POT-Creation-Date: 2019-06-23 03:18+0200\n"
 "PO-Revision-Date: 2019-05-17 21:27+0700\n"
 "Last-Translator: Wantoyo <wantoyek@gmail.com>\n"
 "Language-Team: Indonesian <kde-i18n-doc@kde.org>\n"
@@ -15,19 +15,18 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 18.12.3\n"
 
-#: contents/ui/ConfigOverlay.qml:383
+#: contents/ui/ConfigOverlay.qml:385
 #, kde-format
 msgid "Configure..."
 msgstr "Konfigurasikan..."
 
-#: contents/ui/ConfigOverlay.qml:393
+#: contents/ui/ConfigOverlay.qml:395
 #, kde-format
 msgid "Show Alternatives..."
 msgstr "Tampilkan Alternatif..."
 
-#: contents/ui/ConfigOverlay.qml:403
+#: contents/ui/ConfigOverlay.qml:405
 #, kde-format
 msgid "Remove"
 msgstr "Hapus"

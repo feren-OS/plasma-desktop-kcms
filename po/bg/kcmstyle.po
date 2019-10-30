@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmstyle\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"POT-Creation-Date: 2019-10-19 08:02+0200\n"
 "PO-Revision-Date: 2011-07-23 14:20+0300\n"
 "Last-Translator: Yasen Pramatarov <yasen@lindeas.com>\n"
 "Language-Team: Bulgarian <dict@fsa-bg.org>\n"
@@ -28,7 +28,7 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "radnev@yahoo.com"
 
-#: kcmstyle.cpp:173
+#: kcmstyle.cpp:171
 #, fuzzy, kde-format
 #| msgid ""
 #| "<h1>Style</h1>This module allows you to modify the visual appearance of "
@@ -40,56 +40,56 @@ msgstr ""
 "<h1>Настройки на стил</h1> От тук може да настроите визуалния изглед на "
 "графичните елементи и ефектите при дадена операция."
 
-#: kcmstyle.cpp:183
+#: kcmstyle.cpp:181
 #, fuzzy, kde-format
 #| msgctxt "@title:tab"
 #| msgid "&Applications"
 msgid "Application Style"
 msgstr "&Приложения"
 
-#: kcmstyle.cpp:185
+#: kcmstyle.cpp:183
 #, kde-format
 msgid "(c) 2002 Karol Szwed, Daniel Molkentin"
 msgstr "(c) 2002 Karol Szwed, Daniel Molkentin"
 
-#: kcmstyle.cpp:187
+#: kcmstyle.cpp:185
 #, kde-format
 msgid "Karol Szwed"
 msgstr "Karol Szwed"
 
-#: kcmstyle.cpp:188
+#: kcmstyle.cpp:186
 #, kde-format
 msgid "Daniel Molkentin"
 msgstr "Daniel Molkentin"
 
-#: kcmstyle.cpp:198
+#: kcmstyle.cpp:196
 #, kde-format
 msgid "Preview"
 msgstr "Предварителен преглед"
 
-#: kcmstyle.cpp:252 kcmstyle.cpp:263
+#: kcmstyle.cpp:250 kcmstyle.cpp:261
 #, kde-format
 msgid "There was an error loading the configuration dialog for this style."
 msgstr "Грешка по време на зареждане диалога за настройка на избрания стил."
 
-#: kcmstyle.cpp:254 kcmstyle.cpp:265
+#: kcmstyle.cpp:252 kcmstyle.cpp:263
 #, kde-format
 msgid "Unable to Load Dialog"
 msgstr "Грешка при зареждане"
 
-#: kcmstyle.cpp:488
+#: kcmstyle.cpp:479
 #, kde-format
 msgid "No description available."
 msgstr "Няма налично описание."
 
-#: kcmstyle.cpp:695
+#: kcmstyle.cpp:686
 #, kde-format
 msgid ""
 "This area shows a preview of the currently selected style without having to "
 "apply it to the whole desktop."
 msgstr "Предварителен преглед на избрания стил."
 
-#: kcmstyle.cpp:697
+#: kcmstyle.cpp:688
 #, kde-format
 msgid ""
 "Here you can choose from a list of predefined widget styles (e.g. the way "
@@ -97,7 +97,7 @@ msgid ""
 "information like a marble texture or a gradient)."
 msgstr "Списък с предварително дефинирани стилове."
 
-#: kcmstyle.cpp:701
+#: kcmstyle.cpp:692
 #, fuzzy, kde-format
 #| msgid ""
 #| "If you enable this option, KDE Applications will show small icons "
@@ -107,7 +107,7 @@ msgid ""
 "important buttons."
 msgstr "Ако включите това, KDE ще показва малки икони в някои важни бутони."
 
-#: kcmstyle.cpp:703
+#: kcmstyle.cpp:694
 #, fuzzy, kde-format
 #| msgid ""
 #| "If you enable this option, KDE Applications will show small icons "
@@ -118,7 +118,7 @@ msgid ""
 msgstr ""
 "Ако включите това, KDE ще показва малки икони в повечето записи в менютата."
 
-#: kcmstyle.cpp:705
+#: kcmstyle.cpp:696
 #, fuzzy, kde-format
 #| msgid ""
 #| "<p><b>Icons only:</b> Shows only icons on toolbar buttons. Best option "
@@ -138,7 +138,7 @@ msgstr ""
 "се показват само иконите. Но може да изберете да се показва само текст или "
 "икони и текст, разположени по различен начин.</p>"
 
-#: styleconfdialog.cpp:29
+#: styleconfdialog.cpp:33
 #, kde-format
 msgid "Configure %1"
 msgstr "Настройки на %1"

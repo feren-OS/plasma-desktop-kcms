@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkeys\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"POT-Creation-Date: 2019-09-12 03:25+0200\n"
 "PO-Revision-Date: 2009-11-13 10:50+0530\n"
 "Last-Translator: \n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -29,52 +29,52 @@ msgstr "අපනයනයට සංරචක තෝරන්න"
 msgid "Components"
 msgstr "සංරචක"
 
-#: globalshortcuts.cpp:67
+#: globalshortcuts.cpp:65
 #, kde-format
 msgid "You are about to reset all shortcuts to their default values."
 msgstr "ඔබ සියළුම කෙටි මං නැවත පෙරනිමි අගයන්ට සකසයි"
 
-#: globalshortcuts.cpp:68
+#: globalshortcuts.cpp:66
 #, kde-format
 msgid "Reset to defaults"
 msgstr "පෙරනිමි අගයන්ට සකසන්න"
 
-#: globalshortcuts.cpp:69
+#: globalshortcuts.cpp:67
 #, kde-format
 msgid "Current Component"
 msgstr "වත්මන් සංරචකය"
 
-#: globalshortcuts.cpp:70
+#: globalshortcuts.cpp:68
 #, kde-format
 msgid "All Components"
 msgstr "සියළු සංරචක"
 
-#: kglobalshortcutseditor.cpp:231
+#: kglobalshortcutseditor.cpp:233
 #, kde-format
 msgid "Import Scheme..."
 msgstr "යෙදුමක් ආනයනය කරන්න..."
 
-#: kglobalshortcutseditor.cpp:232
+#: kglobalshortcutseditor.cpp:234
 #, kde-format
 msgid "Export Scheme..."
 msgstr "යෙදුමක් අපනයනය කරන්න.."
 
-#: kglobalshortcutseditor.cpp:233
+#: kglobalshortcutseditor.cpp:235
 #, kde-format
 msgid "Set All Shortcuts to None"
 msgstr "සියළුම කෙටිමං අක්‍රීය තත්වයට ගෙන එන්න"
 
-#: kglobalshortcutseditor.cpp:241
+#: kglobalshortcutseditor.cpp:243
 #, kde-format
 msgid "Applications"
 msgstr ""
 
-#: kglobalshortcutseditor.cpp:292
+#: kglobalshortcutseditor.cpp:294
 #, kde-format
 msgid "Launch %1"
 msgstr ""
 
-#: kglobalshortcutseditor.cpp:328
+#: kglobalshortcutseditor.cpp:330
 #, kde-format
 msgid ""
 "Component '%1' is currently active. Only global shortcuts currently not "
@@ -85,12 +85,12 @@ msgstr ""
 "'%1' සංරචකය දැනටමත් සක්‍රීයයි. අක්‍රීය කෙටිමං පමණක් ලැයිස්තුවෙන් ඉවත් වනු ඇත.\n"
 "සියළුම කෙටිමං ඒවා නැවත ආරම්භකල විට ඒවායේ පෙරනිමි ආකාරයට නැවත ලියාපදිංචි වනු ඇත."
 
-#: kglobalshortcutseditor.cpp:330 kglobalshortcutseditor.cpp:340
+#: kglobalshortcutseditor.cpp:332 kglobalshortcutseditor.cpp:342
 #, kde-format
 msgid "Remove component"
 msgstr "සංරචකයක් ඉවත් කරන්න"
 
-#: kglobalshortcutseditor.cpp:336
+#: kglobalshortcutseditor.cpp:338
 #, kde-format
 msgid ""
 "Are you sure you want to remove the registered shortcuts for component '%1'? "
@@ -100,29 +100,29 @@ msgstr ""
 "ඔබට මෙම '%1' සංරචකය සඳහා ලියාපදිංචි කල කෙටිමං ඉවත් කිරීමට අවශ්‍යද? ඊලඟ වාරයේදී  සංරචක "
 "හා කෙටිමං  විසින් ඒවායේ පෙරනිමි අගයන්ට අනුව සැකසෙනු ඇත."
 
-#: kglobalshortcutseditor.cpp:450
+#: kglobalshortcutseditor.cpp:452
 #, kde-format
 msgid "Application Launchers"
 msgstr ""
 
-#: kglobalshortcutseditor.cpp:453
+#: kglobalshortcutseditor.cpp:455
 #, kde-format
 msgid "Other Shortcuts"
 msgstr ""
 
-#: kglobalshortcutseditor.cpp:558
+#: kglobalshortcutseditor.cpp:560
 #, kde-format
 msgid ""
 "Your current changes will be lost if you load another scheme before saving "
 "this one"
 msgstr "මෙය සුරැකීමට පෙර වෙනත් යෙදුමක් පූරණය කලහොත් ඔබේ වත්මන් සැකසුම් අහිමි වනු ඇත"
 
-#: kglobalshortcutseditor.cpp:559
+#: kglobalshortcutseditor.cpp:561
 #, kde-format
 msgid "Load Shortcut Scheme"
 msgstr "කෙටිමං යෙදුම පූර්ණය කරන්න"
 
-#: kglobalshortcutseditor.cpp:560
+#: kglobalshortcutseditor.cpp:562
 #, kde-format
 msgid "Load"
 msgstr "පූර්ණක කරන්න"
@@ -132,7 +132,7 @@ msgstr "පූර්ණක කරන්න"
 msgid "This file (%1) does not exist. You can only select local files."
 msgstr " (%1)  ගොණුව නොපවතී, ඔබට තෝරාගත හැක්කේ ප්‍රාදේශීය ගොණූ පමණයි"
 
-#: kglobalshortcutseditor.cpp:601 kglobalshortcutseditor.cpp:624
+#: kglobalshortcutseditor.cpp:602 kglobalshortcutseditor.cpp:625
 #, kde-format
 msgid ""
 "Message: %1\n"
@@ -141,7 +141,7 @@ msgstr ""
 "පණීවිඩය: %1\n"
 "වරද: %2"
 
-#: kglobalshortcutseditor.cpp:606 kglobalshortcutseditor.cpp:629
+#: kglobalshortcutseditor.cpp:607 kglobalshortcutseditor.cpp:630
 #, kde-format
 msgid "Failed to contact the KDE global shortcuts daemon\n"
 msgstr "KDE කෙටිමං ඩීමනය සම්බන්ඳ කරගත නොහැකි විය\n"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmfonts\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-07-12 07:37+0200\n"
+"POT-Creation-Date: 2019-10-29 07:53+0100\n"
 "PO-Revision-Date: 2013-02-23 17:39+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -29,38 +29,17 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr ""
 
-#: fonts.cpp:279
-#, kde-format
-msgid ""
-"<p>Some changes such as anti-aliasing or DPI will only affect newly started "
-"applications.</p>"
-msgstr ""
-"<p>काहिक बदल जसे की ऍन्टी-अलायजींग किंवा DPI फक्त नवीनरित्या प्रारंभ केलेले अनुप्रयोगांवरच "
-"प्रभावी ठरतो.</p>"
-
-#: fonts.cpp:280 fonts.cpp:290
-#, kde-format
-msgid "Font Settings Changed"
-msgstr "फॉन्ट संयजोना बदलविले गेले"
-
-#: fonts.cpp:289
-#, kde-format
-msgid ""
-"<p>Some changes such as DPI will only affect newly started applications.</p>"
-msgstr ""
-"<p>काहिक बदल जसे की DPI बदल फक्त नवीन प्रारंभ केलेल्या अनुप्रयोगांवरच प्रभावी ठरतो.</p>"
-
-#: fonts.cpp:443
+#: fonts.cpp:472
 #, kde-format
 msgid "Fonts"
 msgstr ""
 
-#: fonts.cpp:445
+#: fonts.cpp:474
 #, kde-format
 msgid "Antonis Tsiapaliokas"
 msgstr ""
 
-#: kxftconfig.cpp:444
+#: kxftconfig.cpp:480
 #, fuzzy, kde-format
 #| msgctxt "Use anti-aliasing"
 #| msgid "System Settings"
@@ -68,33 +47,33 @@ msgctxt "use system subpixel setting"
 msgid "Vendor default"
 msgstr "प्रणाली संयोजना"
 
-#: kxftconfig.cpp:446
+#: kxftconfig.cpp:482
 #, kde-format
 msgctxt "no subpixel rendering"
 msgid "None"
 msgstr "काही नाही"
 
-#: kxftconfig.cpp:448
+#: kxftconfig.cpp:484
 #, kde-format
 msgid "RGB"
 msgstr "RGB"
 
-#: kxftconfig.cpp:450
+#: kxftconfig.cpp:486
 #, kde-format
 msgid "BGR"
 msgstr "BGR"
 
-#: kxftconfig.cpp:452
+#: kxftconfig.cpp:488
 #, kde-format
 msgid "Vertical RGB"
 msgstr "उभे RGB"
 
-#: kxftconfig.cpp:454
+#: kxftconfig.cpp:490
 #, kde-format
 msgid "Vertical BGR"
 msgstr "उभे BGR"
 
-#: kxftconfig.cpp:482
+#: kxftconfig.cpp:518
 #, fuzzy, kde-format
 #| msgctxt "Use anti-aliasing"
 #| msgid "System Settings"
@@ -102,25 +81,25 @@ msgctxt "use system hinting settings"
 msgid "Vendor default"
 msgstr "प्रणाली संयोजना"
 
-#: kxftconfig.cpp:484
+#: kxftconfig.cpp:520
 #, kde-format
 msgctxt "medium hinting"
 msgid "Medium"
 msgstr "मध्यम"
 
-#: kxftconfig.cpp:486
+#: kxftconfig.cpp:522
 #, kde-format
 msgctxt "no hinting"
 msgid "None"
 msgstr "काही नाही"
 
-#: kxftconfig.cpp:488
+#: kxftconfig.cpp:524
 #, kde-format
 msgctxt "slight hinting"
 msgid "Slight"
 msgstr "थोडेसे"
 
-#: kxftconfig.cpp:490
+#: kxftconfig.cpp:526
 #, kde-format
 msgctxt "full hinting"
 msgid "Full"
@@ -136,119 +115,116 @@ msgstr ""
 msgid "This module lets you configure the system fonts."
 msgstr ""
 
-#: package/contents/ui/main.qml:40
+#: package/contents/ui/main.qml:38
+#, fuzzy, kde-format
+#| msgid ""
+#| "<p>Some changes such as anti-aliasing or DPI will only affect newly "
+#| "started applications.</p>"
+msgid ""
+"Some changes such as anti-aliasing or DPI will only affect newly started "
+"applications."
+msgstr ""
+"<p>काहिक बदल जसे की ऍन्टी-अलायजींग किंवा DPI फक्त नवीनरित्या प्रारंभ केलेले अनुप्रयोगांवरच "
+"प्रभावी ठरतो.</p>"
+
+#: package/contents/ui/main.qml:54
 #, fuzzy, kde-format
 #| msgid "Ad&just All Fonts..."
 msgid "&Adjust All Fonts..."
 msgstr "सर्व फॉन्ट सुस्थित करा (&J)..."
 
-#: package/contents/ui/main.qml:47
+#: package/contents/ui/main.qml:61
 #, fuzzy, kde-format
 #| msgctxt "font usage"
 #| msgid "General"
 msgid "General:"
 msgstr "सामान्य"
 
-#: package/contents/ui/main.qml:52
+#: package/contents/ui/main.qml:66
 #, fuzzy, kde-format
 #| msgctxt "font usage"
 #| msgid "Fixed width"
 msgid "Fixed width:"
 msgstr "ठराविक रूंदी"
 
-#: package/contents/ui/main.qml:57
+#: package/contents/ui/main.qml:71
 #, fuzzy, kde-format
 #| msgctxt "font usage"
 #| msgid "Small"
 msgid "Small:"
 msgstr "लहान"
 
-#: package/contents/ui/main.qml:62
+#: package/contents/ui/main.qml:76
 #, fuzzy, kde-format
 #| msgctxt "font usage"
 #| msgid "Toolbar"
 msgid "Toolbar:"
 msgstr "साधनपट्टी"
 
-#: package/contents/ui/main.qml:67
+#: package/contents/ui/main.qml:81
 #, fuzzy, kde-format
 #| msgctxt "font usage"
 #| msgid "Menu"
 msgid "Menu:"
 msgstr "मेन्यू"
 
-#: package/contents/ui/main.qml:72
+#: package/contents/ui/main.qml:86
 #, fuzzy, kde-format
 #| msgctxt "font usage"
 #| msgid "Window title"
 msgid "Window title:"
 msgstr "चौकट शिर्षक"
 
-#: package/contents/ui/main.qml:84
+#: package/contents/ui/main.qml:99
 #, fuzzy, kde-format
 #| msgid "Use a&nti-aliasing:"
-msgctxt "Used as a noun, and precedes a combobox full of options"
-msgid "Anti-aliasing:"
+msgid "Anti-Aliasing:"
 msgstr "एन्टी-अलायजींगचा वापर करा (&N):"
 
-#: package/contents/ui/main.qml:86
+#: package/contents/ui/main.qml:100
 #, fuzzy, kde-format
 #| msgctxt "Use anti-aliasing"
 #| msgid "Enabled"
-msgid "Enabled"
+msgid "Enable"
 msgstr "कार्यान्वित"
 
-#: package/contents/ui/main.qml:86
-#, fuzzy, kde-format
-#| msgctxt "Use anti-aliasing"
-#| msgid "System Settings"
-msgid "Vendor default"
-msgstr "प्रणाली संयोजना"
-
-#: package/contents/ui/main.qml:86
-#, fuzzy, kde-format
-#| msgctxt "Use anti-aliasing"
-#| msgid "Disabled"
-msgid "Disabled"
-msgstr "अकार्यान्वित"
-
-#: package/contents/ui/main.qml:96
+#: package/contents/ui/main.qml:108
 #, kde-format
 msgid "Exclude range from anti-aliasing"
 msgstr ""
 
-#: package/contents/ui/main.qml:113 package/contents/ui/main.qml:128
+#: package/contents/ui/main.qml:121 package/contents/ui/main.qml:138
 #, kde-format
 msgid "%1 pt"
 msgstr ""
 
-#: package/contents/ui/main.qml:120
+#: package/contents/ui/main.qml:130
 #, fuzzy, kde-format
 #| msgid " to "
 msgid "to"
 msgstr " प्रति"
 
-#: package/contents/ui/main.qml:141
+#: package/contents/ui/main.qml:153
 #, fuzzy, kde-format
 #| msgid "&Use sub-pixel rendering:"
 msgctxt "Used as a noun, and precedes a combobox full of options"
 msgid "Sub-pixel rendering:"
 msgstr "उप-पिक्सेल रेन्डरींगचा वापर करा (&U):"
 
-#: package/contents/ui/main.qml:178
+#: package/contents/ui/main.qml:190
 #, fuzzy, kde-format
 #| msgid "Hinting style: "
 msgctxt "Used as a noun, and precedes a combobox full of options"
 msgid "Hinting:"
 msgstr "हिन्टींग शैली: "
 
-#: package/contents/ui/main.qml:216
+#: package/contents/ui/main.qml:228
 #, fuzzy, kde-format
 #| msgid "Force fonts DPI:"
 msgid "Force font DPI:"
 msgstr "फॉन्ट DPI बळपूर्वक लागु करा :"
 
-#: package/contents/ui/main.qml:234
+#: package/contents/ui/main.qml:248
 #, kde-format
 msgid "Select Font"
 msgstr ""

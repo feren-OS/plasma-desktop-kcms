@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmlaunch\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"POT-Creation-Date: 2019-10-22 07:36+0200\n"
 "PO-Revision-Date: 2007-10-23 11:04+0530\n"
 "Last-Translator: Ravishankar Shrivastava <raviratlami@yahoo.com>\n"
 "Language-Team: Hindi <indlinux-hindi@lists.sourceforge.net>\n"
@@ -83,7 +83,7 @@ msgstr "कार्य पट्टी सक्षम करें"
 msgid "Stop animation after:"
 msgstr "स्टार्टअप इंडीकेशन टाइमआउटः"
 
-#: package/contents/ui/main.qml:113
+#: package/contents/ui/main.qml:114
 #, fuzzy, kde-format
 #| msgid " sec"
 msgid "%1 sec"

@@ -1,14 +1,14 @@
 # Translation of kcmaccess to Korean.
 # Copyright (C) 2001, 2007 Free Software Foundation, Inc.
-# Shinjo Park <kde@peremen.name>, 2007, 2008, 2015, 2017.
+# Shinjo Park <kde@peremen.name>, 2007, 2008, 2015, 2017, 2019.
 #
 # Yu-Chan, Park, 2001.
 msgid ""
 msgstr ""
 "Project-Id-Version: kcmaccess\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
-"PO-Revision-Date: 2017-12-02 23:19+0100\n"
+"POT-Creation-Date: 2019-08-01 03:13+0200\n"
+"PO-Revision-Date: 2019-09-25 00:41+0200\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
 "Language-Team: Korean <kde-kr@kde.org>\n"
 "Language: ko\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Lokalize 2.0\n"
+"X-Generator: Lokalize 18.12.3\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -179,7 +179,11 @@ msgstr "\"시각적인 종소리\"를 나타낼 시간을 설정합니다."
 #. i18n: ectx: property (suffix), widget (QSpinBox, duration)
 #. i18n: ectx: property (suffix), widget (QSpinBox, slowKeysDelay)
 #. i18n: ectx: property (suffix), widget (QSpinBox, bounceKeysDelay)
+#. i18n: ectx: property (suffix), widget (QSpinBox, mk_delay)
+#. i18n: ectx: property (suffix), widget (QSpinBox, mk_interval)
+#. i18n: ectx: property (suffix), widget (QSpinBox, mk_time_to_max)
 #: accessibility.ui:181 accessibility.ui:392 accessibility.ui:489
+#: accessibility.ui:766 accessibility.ui:808 accessibility.ui:840
 #, kde-format
 msgid " msec"
 msgstr "밀리초"
@@ -376,26 +380,74 @@ msgid ""
 "feature is toggled"
 msgstr "키보드 접근성 기능이 켜졌거나 꺼졌을 때 Plasma 알림 사용하기"
 
-#. i18n: ectx: attribute (title), widget (QWidget, tabScreenReader)
+#. i18n: ectx: attribute (title), widget (QWidget, tabMouseKeys)
 #: accessibility.ui:745
+#, kde-format
+msgid "Mouse Navigation"
+msgstr "마우스 탐색"
+
+#. i18n: ectx: property (text), widget (QCheckBox, mouseKeys)
+#: accessibility.ui:753
+#, kde-format
+msgid "&Move pointer with keyboard (using the num pad)"
+msgstr "키보드 숫자 패드로 마우스 움직이기(&M)"
+
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: accessibility.ui:782
+#, kde-format
+msgid "&Acceleration delay:"
+msgstr "가속 지연 시간(&A):"
+
+#. i18n: ectx: property (text), widget (QLabel, label_8)
+#: accessibility.ui:792
+#, kde-format
+msgid "R&epeat interval:"
+msgstr "반복 주기(&E):"
+
+#. i18n: ectx: property (text), widget (QLabel, label_9)
+#: accessibility.ui:824
+#, kde-format
+msgid "Acceleration &time:"
+msgstr "가속 시간(&T):"
+
+#. i18n: ectx: property (text), widget (QLabel, label_10)
+#: accessibility.ui:856
+#, kde-format
+msgid "Ma&ximum speed:"
+msgstr "최대 속도(&X):"
+
+#. i18n: ectx: property (suffix), widget (QSpinBox, mk_max_speed)
+#: accessibility.ui:872
+#, kde-format
+msgid " pixel/sec"
+msgstr "픽셀/초"
+
+#. i18n: ectx: property (text), widget (QLabel, label_11)
+#: accessibility.ui:888
+#, kde-format
+msgid "Acceleration &profile:"
+msgstr "가속 프로필(&P):"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tabScreenReader)
+#: accessibility.ui:933
 #, kde-format
 msgid "Screen Reader"
 msgstr "스크린 리더"
 
 #. i18n: ectx: property (text), widget (QCheckBox, screenReaderEnabled)
-#: accessibility.ui:751
+#: accessibility.ui:939
 #, kde-format
 msgid "Screen reader enabled"
 msgstr "스크린 리더 활성화됨"
 
 #. i18n: ectx: property (text), widget (QPushButton, launchOrcaConfiguration)
-#: accessibility.ui:760
+#: accessibility.ui:948
 #, kde-format
 msgid "&Launch Orca Configuration"
 msgstr "Orca 설정 실행(&L)"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: accessibility.ui:785
+#: accessibility.ui:973
 #, kde-format
 msgid ""
 "Please note that you may have to log out once to allow the screen reader to "
@@ -503,12 +555,12 @@ msgstr ""
 "고정 키: Shift 키를 연속 5회 누르기\n"
 "느린 키: Shift 키를 8초간 누르기"
 
-#: kcmaccess.cpp:261
+#: kcmaccess.cpp:269
 #, kde-format
 msgid "Could not set gsettings for Orca: \"%1\" failed"
 msgstr "Orca의 gsettings를 설정할 수 없음: \"%1\" 실패함"
 
-#: kcmaccess.cpp:268
+#: kcmaccess.cpp:276
 #, kde-format
 msgid "Error: Could not launch \"orca --setup\""
 msgstr "오류: \"orca --setup\"을 실행할 수 없음"

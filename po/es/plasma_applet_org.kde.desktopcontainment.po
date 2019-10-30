@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_org\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"POT-Creation-Date: 2019-08-03 03:23+0200\n"
 "PO-Revision-Date: 2019-04-30 19:59+0200\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
@@ -36,18 +36,6 @@ msgstr "Filtro"
 #: package/contents/config/config.qml:50
 msgid "Tweaks"
 msgstr "Microajustes"
-
-#: package/contents/ui/AppletHandle.qml:105
-msgid "Resize"
-msgstr "Cambiar tamaño"
-
-#: package/contents/ui/AppletHandle.qml:127
-msgid "Rotate"
-msgstr "Rotar"
-
-#: package/contents/ui/AppletHandle.qml:284
-msgid "Remove"
-msgstr "Eliminar"
 
 #: package/contents/ui/BackButtonItem.qml:116
 msgid "Back"
@@ -210,49 +198,49 @@ msgstr "Pequeño"
 msgid "Large"
 msgstr "Grande"
 
-#: package/contents/ui/ConfigIcons.qml:263
+#: package/contents/ui/ConfigIcons.qml:264
 msgid "Label width:"
 msgstr "Anchura de la etiqueta:"
 
-#: package/contents/ui/ConfigIcons.qml:266
+#: package/contents/ui/ConfigIcons.qml:267
 msgid "Narrow"
 msgstr "Estrecha"
 
-#: package/contents/ui/ConfigIcons.qml:267
+#: package/contents/ui/ConfigIcons.qml:268
 #: plugins/folder/viewpropertiesmenu.cpp:88
 #, kde-format
 msgid "Medium"
 msgstr "Medio"
 
-#: package/contents/ui/ConfigIcons.qml:268
+#: package/contents/ui/ConfigIcons.qml:269
 msgid "Wide"
 msgstr "Ancha"
 
-#: package/contents/ui/ConfigIcons.qml:276
+#: package/contents/ui/ConfigIcons.qml:277
 msgid "Text lines:"
 msgstr "Líneas de texto:"
 
-#: package/contents/ui/ConfigIcons.qml:292
+#: package/contents/ui/ConfigIcons.qml:293
 msgid "Features:"
 msgstr "Funcionalidades:"
 
-#: package/contents/ui/ConfigIcons.qml:294
+#: package/contents/ui/ConfigIcons.qml:295
 msgid "Tooltips"
 msgstr "Ayudas emergentes"
 
-#: package/contents/ui/ConfigIcons.qml:301
+#: package/contents/ui/ConfigIcons.qml:302
 msgid "Selection markers"
 msgstr "Marcadores de selección"
 
-#: package/contents/ui/ConfigIcons.qml:308
+#: package/contents/ui/ConfigIcons.qml:309
 msgid "Folder preview popups"
 msgstr "Ventanas emergentes de vista previa de carpetas"
 
-#: package/contents/ui/ConfigIcons.qml:314
+#: package/contents/ui/ConfigIcons.qml:315
 msgid "Preview thumbnails"
 msgstr "Miniaturas de vista previa"
 
-#: package/contents/ui/ConfigIcons.qml:321
+#: package/contents/ui/ConfigIcons.qml:323
 msgid "Configure Preview Plugins..."
 msgstr "Configurar complementos de vista previa..."
 
@@ -304,6 +292,14 @@ msgstr "Título personalizado"
 msgid "Enter custom title..."
 msgstr "Introduzca un título personalizado..."
 
+#: package/contents/ui/ConfigOverlay.qml:101
+msgid "Rotate"
+msgstr "Rotar"
+
+#: package/contents/ui/ConfigOverlay.qml:224
+msgid "Remove"
+msgstr "Eliminar"
+
 #: package/contents/ui/ConfigTweaks.qml:43
 msgid ""
 "With the Desktop Toolbox hidden, right-click on the desktop and choose "
@@ -334,21 +330,21 @@ msgstr "Aceptar"
 msgid "Cancel"
 msgstr "Cancelar"
 
-#: package/contents/ui/main.qml:382
+#: package/contents/ui/main.qml:277
 msgid "Widgets unlocked"
 msgstr "Elementos gráficos desbloqueados"
 
-#: package/contents/ui/main.qml:383
+#: package/contents/ui/main.qml:278
 msgid "You can press and hold widgets to move them and reveal their handles."
 msgstr ""
 "Puede mantener pulsados los elementos gráficos para moverlos y revelar sus "
 "asas."
 
-#: package/contents/ui/main.qml:384
+#: package/contents/ui/main.qml:279
 msgid "Got it"
 msgstr "Entendido"
 
-#: package/contents/ui/main.qml:597
+#: package/contents/ui/main.qml:403
 msgid "Configure Desktop..."
 msgstr "Configurar escritorio..."
 

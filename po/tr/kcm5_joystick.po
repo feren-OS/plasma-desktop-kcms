@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: joystick\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"POT-Creation-Date: 2019-09-12 03:25+0200\n"
 "PO-Revision-Date: 2014-10-21 09:49+0000\n"
 "Last-Translator: Necdet <necdetyucel@gmail.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
@@ -116,22 +116,22 @@ msgstr "Kalibrasyon Başarıyla Tamamlandı"
 msgid "Value Axis %1: %2"
 msgstr "%1 Eksen Değeri:%2"
 
-#: joydevice.cpp:56
+#: joydevice.cpp:55
 #, kde-format
 msgid "The given device %1 could not be opened: %2"
 msgstr "%1 aygıtı açılamadı:%2"
 
-#: joydevice.cpp:62
+#: joydevice.cpp:61
 #, kde-format
 msgid "The given device %1 is not a joystick."
 msgstr "Seçilen %1 aygıtı bir oyun kumandası değil."
 
-#: joydevice.cpp:67
+#: joydevice.cpp:66
 #, kde-format
 msgid "Could not get kernel driver version for joystick device %1: %2"
 msgstr "%1 oyun kumandası için çekirdek sürücü sürümü alınamadı:%2"
 
-#: joydevice.cpp:81
+#: joydevice.cpp:80
 #, kde-format
 msgid ""
 "The current running kernel driver version (%1.%2.%3) is not the one this "
@@ -140,37 +140,37 @@ msgstr ""
 "Şu anki çekirdek sürümünüz (%1.%2.%3) , bu modülün derlendiği çekirdek "
 "sürümü (%4.%5.%6) ile uyumlu değil."
 
-#: joydevice.cpp:93
+#: joydevice.cpp:92
 #, kde-format
 msgid "Could not get number of buttons for joystick device %1: %2"
 msgstr "Oyun kumandası %1 deki düğme sayısı alınamadı:%2"
 
-#: joydevice.cpp:99
+#: joydevice.cpp:98
 #, kde-format
 msgid "Could not get number of axes for joystick device %1: %2"
 msgstr "Oyun kumandası %1 deki eksen sayısı alınamadı:%2"
 
-#: joydevice.cpp:105
+#: joydevice.cpp:104
 #, kde-format
 msgid "Could not get calibration values for joystick device %1: %2"
 msgstr "Oyun kumandası %1 deki kalibrasyon değerleri alınamadı:%2"
 
-#: joydevice.cpp:111
+#: joydevice.cpp:110
 #, kde-format
 msgid "Could not restore calibration values for joystick device %1: %2"
 msgstr "Oyun kumandası %1 'in kalibrasyon değerleri geri yüklenemiyor:%2"
 
-#: joydevice.cpp:117
+#: joydevice.cpp:116
 #, kde-format
 msgid "Could not initialize calibration values for joystick device %1: %2"
 msgstr "Oyun kumandası %1 'in kalibrasyon değerleri yüklenemiyor:%2"
 
-#: joydevice.cpp:123
+#: joydevice.cpp:122
 #, kde-format
 msgid "Could not apply calibration values for joystick device %1: %2"
 msgstr "Oyun kumandası %1 'in kalibrasyon değerlerini uygulayamıyor:%2"
 
-#: joydevice.cpp:127
+#: joydevice.cpp:126
 #, kde-format
 msgid "internal error - code %1 unknown"
 msgstr "İç hata - kod %1 bilinmiyor"

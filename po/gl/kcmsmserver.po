@@ -11,21 +11,18 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmsmserver\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
-"PO-Revision-Date: 2019-03-16 13:21+0100\n"
+"POT-Creation-Date: 2019-07-11 03:14+0200\n"
+"PO-Revision-Date: 2019-10-19 22:02+0200\n"
 "Last-Translator: Adrián Chaves (Gallaecio) <adrian@chaves.io>\n"
-"Language-Team: Galician <kde-i18n-doc@kde.org>\n"
+"Language-Team: Galician <proxecto@trasno.gal>\n"
 "Language: gl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 18.12.2\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Environment: kde\n"
-"X-Accelerator-Marker: &\n"
-"X-Text-Markup: kde4\n"
+"X-Generator: Lokalize 19.11.70\n"
 
-#: kcmsmserver.cpp:62
+#: kcmsmserver.cpp:63
 #, kde-format
 msgid ""
 "<h1>Session Manager</h1> You can configure the session manager here. This "
@@ -35,22 +32,22 @@ msgid ""
 "default."
 msgstr ""
 "<h1>Xestor de sesións</h1> Aquí pode configurar o xestor de sesións. Isto "
-"inclúe opcións tales como se ao saír da sesión (saír) débese solicitar "
-"confirmación, se a sesión previa debería restaurarse ao iniciar sesión, e se "
-"o computador debe apagarse de maneira predeterminada tras saír "
-"automaticamente da sesión."
+"inclúe opcións tales como se ao pechar a sesión (saír) débese solicitar "
+"confirmación, se a sesión previa debería ser restaurada ao acceder á conta, "
+"e se o computador debe apagarse de maneira predeterminada tras pechar "
+"automaticamente a sesión."
 
-#: kcmsmserver.cpp:82
+#: kcmsmserver.cpp:83
 #, kde-format
 msgid "Restart Now"
 msgstr "Reiniciar agora"
 
-#: kcmsmserver.cpp:114
+#: kcmsmserver.cpp:124
 #, kde-format
 msgid "Failed to request restart to firmware setup: %1"
 msgstr "Non se puido solicitar reiniciar á configuración do firmware: %1"
 
-#: kcmsmserver.cpp:126
+#: kcmsmserver.cpp:136
 #, kde-format
 msgid ""
 "Next time the computer is restarted, it will enter the UEFI setup screen."
@@ -58,7 +55,7 @@ msgstr ""
 "A próxima vez que se reinicie o computador, entrará na pantalla de "
 "configuración de UEFI."
 
-#: kcmsmserver.cpp:128
+#: kcmsmserver.cpp:138
 #, kde-format
 msgid ""
 "Next time the computer is restarted, it will enter the firmware setup screen."
@@ -66,12 +63,12 @@ msgstr ""
 "A próxima vez que se reinicie o computador entrará na pantalla de "
 "configuración do firmware."
 
-#: kcmsmserver.cpp:140
+#: kcmsmserver.cpp:150
 #, kde-format
 msgid "UEFI Setup"
 msgstr "Configuración de UEFI"
 
-#: kcmsmserver.cpp:141
+#: kcmsmserver.cpp:151
 #, kde-format
 msgid "Enter UEFI setup on next restart"
 msgstr "Entrar na configuración de UEFI no seguinte reinicio"
@@ -153,11 +150,11 @@ msgid ""
 "</ul>"
 msgstr ""
 "<ul>\n"
-"<li><b>Restaurar a sesión anterior:</b> Gardará todos os aplicativos en "
-"execución ao saír e as restauraraos no próximo inicio.</li>\n"
+"<li><b>Restaurar a sesión anterior:</b> Gardará todas as aplicacións en "
+"execución ao saír e as restaurará no próximo inicio.</li>\n"
 "<li><b>Restaurar a sesión gardada manualmente: </b> Permítelle gardar a "
 "sesión en calquera momento a través da opción «Gardar a sesión» no menú K. "
-"Isto significa que os aplicativos en execución nese momento reaparecerán no "
+"Isto significa que as aplicacións en execución nese momento reaparecerán no "
 "seu próximo inicio.</li>\n"
 "<li><b>Iniciar cunha sesión baleira:</b> Non garda nada. Arrincará cunha "
 "sesión baleira no próximo inicio.</li>\n"
@@ -191,7 +188,7 @@ msgstr "Iniciar cunha sesión &baleira"
 #: smserverconfigdlg.ui:110
 #, kde-format
 msgid "Applications to be e&xcluded from sessions:"
-msgstr "Aplicativos a e&xcluír das sesións:"
+msgstr "Aplicacións a e&xcluír das sesións:"
 
 #. i18n: ectx: property (whatsThis), widget (QLineEdit, excludeLineedit)
 #: smserverconfigdlg.ui:123
@@ -201,9 +198,9 @@ msgid ""
 "should not be saved in sessions, and therefore will not be started when "
 "restoring a session. For example 'xterm:konsole' or 'xterm,konsole'."
 msgstr ""
-"Aquí pode inserir unha lista de aplicativos separados por comas ou dous "
-"puntos que non se gardarán nas sesións nin han iniciarse cando se restaure a "
-"sesión. Por exemplo «xterm:kconsole» ou «xterm,konsole»."
+"Aquí pode inserir unha lista de aplicacións separadas por comas ou dous "
+"puntos que non se gardarán nas sesións nin han ser iniciadas cando se "
+"restaure a sesión. Por exemplo «xterm:kconsole» ou «xterm,konsole»."
 
 #. i18n: ectx: property (title), widget (QGroupBox, firmwareSetupBox)
 #: smserverconfigdlg.ui:133

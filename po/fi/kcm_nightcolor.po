@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
-"PO-Revision-Date: 2019-06-23 22:59+0300\n"
+"POT-Creation-Date: 2019-08-07 03:21+0200\n"
+"PO-Revision-Date: 2019-08-19 18:10+0300\n"
 "Last-Translator: Tommi Nieminen <translator@legisign.org>\n"
 "Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
 "Language: fi\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 2.0\n"
+"X-Generator: Lokalize 18.12.3\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -37,39 +37,39 @@ msgstr "Yöväri"
 msgid "Roman Gilg"
 msgstr "Roman Gilg"
 
-#: package/contents/ui/LocationsAutoView.qml:34
-#: package/contents/ui/LocationsFixedView.qml:38
+#: package/contents/ui/LocationsAutoView.qml:32
+#: package/contents/ui/LocationsFixedView.qml:37
 #, kde-format
-msgid "Latitude"
-msgstr "Leveysaste"
+msgid "Latitude:"
+msgstr "Leveysaste:"
 
-#: package/contents/ui/LocationsAutoView.qml:44
-#: package/contents/ui/LocationsFixedView.qml:53
+#: package/contents/ui/LocationsAutoView.qml:39
+#: package/contents/ui/LocationsFixedView.qml:49
 #, kde-format
-msgid "Longitude"
-msgstr "Pituusaste"
+msgid "Longitude:"
+msgstr "Pituusaste:"
 
-#: package/contents/ui/LocationsFixedView.qml:69
+#: package/contents/ui/LocationsFixedView.qml:60
 #, kde-format
-msgid "Detect location"
+msgid "Detect Location"
 msgstr "Tunnista sijainti"
 
-#: package/contents/ui/main.qml:103
+#: package/contents/ui/main.qml:107
 #, kde-format
 msgid "Activate Night Color"
 msgstr "Aktivoi yöväri"
 
-#: package/contents/ui/main.qml:120
+#: package/contents/ui/main.qml:118
 #, kde-format
-msgid "Night Color Temperature: "
+msgid "Night Color temperature:"
 msgstr "Yövärin lämpötila:"
 
-#: package/contents/ui/main.qml:120
+#: package/contents/ui/main.qml:137
 #, kde-format
 msgid " K"
 msgstr " K"
 
-#: package/contents/ui/main.qml:141
+#: package/contents/ui/main.qml:143
 #, kde-format
 msgid "Operation mode:"
 msgstr "Toimintatila:"
@@ -89,44 +89,54 @@ msgstr "Sijainti"
 msgid "Times"
 msgstr "Ajat"
 
-#: package/contents/ui/main.qml:251 package/contents/ui/TimingsView.qml:39
+#: package/contents/ui/main.qml:149
 #, kde-format
-msgid "Sunrise begins"
-msgstr "Auringonnousu alkaa"
+msgid "Constant"
+msgstr "Vakio"
 
-#: package/contents/ui/main.qml:263 package/contents/ui/main.qml:278
+#: package/contents/ui/main.qml:263 package/contents/ui/TimingsView.qml:38
 #, kde-format
-msgid "(HH:MM)"
-msgstr "(TT:MM)"
+msgid "Sunrise begins:"
+msgstr "Auringonnousu alkaa:"
 
-#: package/contents/ui/main.qml:266 package/contents/ui/TimingsView.qml:59
+#: package/contents/ui/main.qml:270
 #, kde-format
-msgid "Sunset begins"
-msgstr "Auringonnousu alkaa"
+msgid "(Input format: HH:MM)"
+msgstr "(Syötemuoto: TT:MM)"
+
+#: package/contents/ui/main.qml:276 package/contents/ui/TimingsView.qml:52
+#, kde-format
+msgid "Sunset begins:"
+msgstr "Auringonlasku alkaa:"
+
+#: package/contents/ui/main.qml:283
+#, kde-format
+msgid "Input format: HH:MM"
+msgstr "Syötemuoto: TT:MM"
 
 # Ellei transition ole astronomisessa kielessä vakiintunut muuksi kuin ”siirtymäksi”?
-#: package/contents/ui/main.qml:281
+#: package/contents/ui/main.qml:289
 #, kde-format
-msgid "Transition duration"
-msgstr "Siirtymän kesto"
+msgid "Transition duration:"
+msgstr "Siirtymän kesto:"
 
-#: package/contents/ui/main.qml:296
+#: package/contents/ui/main.qml:299
 #, kde-format
-msgid "(In minutes - min. 1, max. 600)"
-msgstr "(minuutteina – väh. 1, enint. 600)"
+msgid "Input minutes - min. 1, max. 600"
+msgstr "Syöte minuutteina – väh. 1, enint. 600"
 
-#: package/contents/ui/main.qml:305
+#: package/contents/ui/main.qml:307
 #, kde-format
-msgid "Error: Morning not before evening."
-msgstr "Virhe: Aamu ei ole ennen iltaa."
+msgid "Error: Morning is before evening."
+msgstr "Virhe: Aamu on ennen iltaa."
 
-#: package/contents/ui/main.qml:321
+#: package/contents/ui/main.qml:323
 #, kde-format
 msgid "Error: Transition time overlaps."
 msgstr "Virhe: Siirtymäajat lomittuvat."
 
-#: package/contents/ui/TimingsView.qml:49
-#: package/contents/ui/TimingsView.qml:69
+#: package/contents/ui/TimingsView.qml:45
+#: package/contents/ui/TimingsView.qml:59
 #, kde-format
-msgid "and ends"
-msgstr "ja päättyy"
+msgid "...and ends:"
+msgstr "…ja päättyy:"

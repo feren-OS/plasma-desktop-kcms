@@ -2,6 +2,7 @@
 # Copyright (C) 2004-2015 This_file_is_part_of_KDE
 # This file is distributed under the license LGPL version 2.1 or
 # version 3 or later versions approved by the membership of KDE e.V.
+# or the same license as the source of its messages in English.
 #
 # Albert Astals Cid <aacid@kde.org>, 2004, 2005.
 # Sebastià Pla i Sanz <sps@sastia.com>, 2005.
@@ -11,15 +12,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: knetattach5\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
-"PO-Revision-Date: 2015-05-29 20:14+0200\n"
+"POT-Creation-Date: 2019-05-20 03:25+0200\n"
+"PO-Revision-Date: 2019-06-28 12:17+0200\n"
 "Last-Translator: Josep Ma. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca@valencia\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 1.5\n"
+"X-Generator: Poedit 2.0.6\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Accelerator-Marker: &\n"
 
@@ -40,8 +41,8 @@ msgid ""
 "folder path to use and press the <b>Save & Connect</b> button."
 msgstr ""
 "Introduïu un nom per a aquesta <i>carpeta de xarxa</i> així com l'adreça del "
-"servidor, el port i el camí de la carpeta a usar i premeu el botó <b>Guarda "
-"i connecta</b>."
+"servidor, el port i el camí de la carpeta que cal usar i premeu el botó "
+"<b>Guarda i connecta</b>."
 
 #: knetattach.cpp:96
 #, kde-format
@@ -51,8 +52,8 @@ msgid ""
 "button."
 msgstr ""
 "Introduïu un nom per a aquesta <i>connexió «shell» segura</i> així com "
-"l'adreça del servidor, el port i el camí de la carpeta a usar i premeu el "
-"botó <b>Guarda i connecta</b>."
+"l'adreça del servidor, el port i el camí de la carpeta que cal usar i premeu "
+"el botó <b>Guarda i connecta</b>."
 
 #: knetattach.cpp:98
 #, kde-format
@@ -62,7 +63,7 @@ msgid ""
 "button."
 msgstr ""
 "Introduïu un nom per a aquesta <i>connexió FTP</i> així com l'adreça del "
-"servidor i el camí de la carpeta a usar i premeu el botó <b>Guarda i "
+"servidor i el camí de la carpeta que cal usar i premeu el botó <b>Guarda i "
 "connecta</b>."
 
 #: knetattach.cpp:100
@@ -73,15 +74,15 @@ msgid ""
 "button."
 msgstr ""
 "Introduïu un nom per a aquesta <i>unitat de xarxa Microsoft Windows</i> així "
-"com l'adreça del servidor i el camí de la carpeta a usar i premeu el botó "
-"<b>Guarda i connecta</b>."
+"com l'adreça del servidor i el camí de la carpeta que cal usar i premeu el "
+"botó <b>Guarda i connecta</b>."
 
 #: knetattach.cpp:220
 #, kde-format
 msgid "Unable to connect to server.  Please check your settings and try again."
 msgstr ""
-"No s'ha pogut connectar amb el servidor. Comproveu l'arranjament i torneu-ho "
-"a provar."
+"No s'ha pogut connectar amb el servidor. Comproveu la configuració i torneu-"
+"ho a provar."
 
 #: knetattach.cpp:354
 #, kde-format
@@ -203,12 +204,12 @@ msgstr "C&rea una icona per a aquesta carpeta remota"
 #: knetattach.ui:361
 #, kde-format
 msgid "&Use encryption"
-msgstr "&Usa encriptatge"
+msgstr "&Utilitza l'encriptació"
 
 #: main.cpp:33
 #, kde-format
 msgid "KDE Network Wizard"
-msgstr "Assistent de xarxa pel KDE"
+msgstr "Assistent de xarxa per a KDE"
 
 #: main.cpp:33
 #, kde-format

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-06-15 07:36+0200\n"
+"POT-Creation-Date: 2019-07-26 03:18+0200\n"
 "PO-Revision-Date: 2016-09-08 04:31+0300\n"
 "Last-Translator: Marek Laane <qiilaq69@gmail.com>\n"
 "Language-Team: Estonian <kde-i18n-doc@kde.org>\n"
@@ -60,11 +60,11 @@ msgstr "Kustuta"
 msgid "Keyboard Shortcuts"
 msgstr "Kiirklahvid"
 
-#: contents/configuration/AppletConfiguration.qml:111
+#: contents/configuration/AppletConfiguration.qml:133
 msgid "Apply Settings"
 msgstr "Rakenda seadistused"
 
-#: contents/configuration/AppletConfiguration.qml:112
+#: contents/configuration/AppletConfiguration.qml:134
 msgid ""
 "The settings of the current module have changed. Do you want to apply the "
 "changes or discard them?"
@@ -72,15 +72,15 @@ msgstr ""
 "Aktiivse mooduli seadistusi on muudetud. Kas muudatused rakendada või "
 "tühistada?"
 
-#: contents/configuration/AppletConfiguration.qml:407
+#: contents/configuration/AppletConfiguration.qml:418
 msgid "OK"
 msgstr "OK"
 
-#: contents/configuration/AppletConfiguration.qml:414
+#: contents/configuration/AppletConfiguration.qml:425
 msgid "Apply"
 msgstr "Rakenda"
 
-#: contents/configuration/AppletConfiguration.qml:420
+#: contents/configuration/AppletConfiguration.qml:431
 #: contents/explorer/AppletAlternatives.qml:185
 msgid "Cancel"
 msgstr "Loobu"

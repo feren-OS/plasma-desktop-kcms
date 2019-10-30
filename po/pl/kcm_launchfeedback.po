@@ -1,6 +1,6 @@
 # translation of kcmlaunch.po to
 # translation of kcmlaunch.po to Polish
-# Version: $Revision: 1542253 $
+# Version: $Revision: 1554198 $
 # translation of kcmlaunch.po to
 #
 # Copyright (C) 2002, 2003, 2004, 2005 Free Software Foundation, Inc.
@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmlaunch\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"POT-Creation-Date: 2019-10-22 07:36+0200\n"
 "PO-Revision-Date: 2018-02-24 07:02+0100\n"
 "Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
 "Language-Team: Polish <kde-i18n-doc@kde.org>\n"
@@ -83,7 +83,7 @@ msgstr "Włącz animacje"
 msgid "Stop animation after:"
 msgstr "Zatrzymaj animację po:"
 
-#: package/contents/ui/main.qml:113
+#: package/contents/ui/main.qml:114
 #, kde-format
 msgid "%1 sec"
 msgid_plural "%1 secs"

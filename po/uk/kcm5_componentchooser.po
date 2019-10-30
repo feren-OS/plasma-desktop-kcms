@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcm5_componentchooser\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"POT-Creation-Date: 2019-09-18 03:38+0200\n"
 "PO-Revision-Date: 2017-08-09 10:35+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
@@ -67,19 +67,19 @@ msgstr "за допомогою такої команди:"
 msgid "..."
 msgstr "..."
 
-#: componentchooser.cpp:134
+#: componentchooser.cpp:133
 #, kde-format
 msgid "Unknown"
 msgstr "Невідомо"
 
-#: componentchooser.cpp:151
+#: componentchooser.cpp:150
 #, kde-format
 msgid ""
 "Choose from the list below which component should be used by default for the "
 "%1 service."
 msgstr "Виберіть зі списку внизу, який компонент буде типовим для служби %1."
 
-#: componentchooser.cpp:183
+#: componentchooser.cpp:182
 #, kde-format
 msgid ""
 "<qt>You changed the default component of your choice, do want to save that "
@@ -88,7 +88,7 @@ msgstr ""
 "<qt>Ви змінили типовий компонент вашого вибору. Хочете зберегти цю зміну?</"
 "qt>"
 
-#: componentchooser.cpp:188
+#: componentchooser.cpp:187
 #, kde-format
 msgid "No description available"
 msgstr "Немає опису"
@@ -154,7 +154,7 @@ msgstr "Виберіть основний навігатор інтернето�
 msgid "Select preferred email client:"
 msgstr "Виберіть основний клієнт пошти:"
 
-#: componentchooserterminal.cpp:104
+#: componentchooserterminal.cpp:102
 #, kde-format
 msgid "Select preferred terminal application:"
 msgstr "Виберіть основну програму термінала:"

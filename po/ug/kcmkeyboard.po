@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkeyboard\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"POT-Creation-Date: 2019-08-11 03:10+0200\n"
 "PO-Revision-Date: 2013-09-08 07:05+0900\n"
 "Last-Translator: Gheyret Kenji <gheyret@gmail.com>\n"
 "Language-Team: Uyghur Computer Science Association <UKIJ@yahoogroups.com>\n"
@@ -59,7 +59,7 @@ msgstr "%1 - %2"
 msgid "Any language"
 msgstr "خالىغان تىل"
 
-#: kcm_add_layout_dialog.cpp:141 kcm_view_models.cpp:319
+#: kcm_add_layout_dialog.cpp:141 kcm_view_models.cpp:311
 #, kde-format
 msgctxt "variant"
 msgid "Default"
@@ -389,31 +389,31 @@ msgid "%1 shortcut"
 msgid_plural "%1 shortcuts"
 msgstr[0] "تېزلەتمە:"
 
-#: kcm_view_models.cpp:226
+#: kcm_view_models.cpp:220
 #, kde-format
 msgctxt "layout map name"
 msgid "Map"
 msgstr "خەرىتە"
 
-#: kcm_view_models.cpp:226
+#: kcm_view_models.cpp:220
 #, fuzzy, kde-format
 #| msgid "Layout:"
 msgid "Layout"
 msgstr "جايلاشتۇرۇش:"
 
-#: kcm_view_models.cpp:226
+#: kcm_view_models.cpp:220
 #, fuzzy, kde-format
 #| msgid "Variant:"
 msgid "Variant"
 msgstr "ۋارىيانتى:"
 
-#: kcm_view_models.cpp:226
+#: kcm_view_models.cpp:220
 #, fuzzy, kde-format
 #| msgid "Label:"
 msgid "Label"
 msgstr "ئەن:"
 
-#: kcm_view_models.cpp:226
+#: kcm_view_models.cpp:220
 #, fuzzy, kde-format
 #| msgid "Shortcut:"
 msgid "Shortcut"

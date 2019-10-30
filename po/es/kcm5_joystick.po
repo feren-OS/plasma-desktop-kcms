@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: joystick\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"POT-Creation-Date: 2019-09-12 03:25+0200\n"
 "PO-Revision-Date: 2014-03-26 14:21+0100\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
@@ -117,22 +117,22 @@ msgstr "Calibración correcta"
 msgid "Value Axis %1: %2"
 msgstr "Valor eje %1: %2"
 
-#: joydevice.cpp:56
+#: joydevice.cpp:55
 #, kde-format
 msgid "The given device %1 could not be opened: %2"
 msgstr "El dispositivo %1 no se puede abrir: %2"
 
-#: joydevice.cpp:62
+#: joydevice.cpp:61
 #, kde-format
 msgid "The given device %1 is not a joystick."
 msgstr "El dispositivo %1 no es un joystick."
 
-#: joydevice.cpp:67
+#: joydevice.cpp:66
 #, kde-format
 msgid "Could not get kernel driver version for joystick device %1: %2"
 msgstr "No se puede obtener la versión del controlador del joystick %1: %2"
 
-#: joydevice.cpp:81
+#: joydevice.cpp:80
 #, kde-format
 msgid ""
 "The current running kernel driver version (%1.%2.%3) is not the one this "
@@ -141,38 +141,38 @@ msgstr ""
 "La versión actual del controlador del kernel (%1.%2.%3) no corresponde con "
 "la que se utilizó para compilar el módulo (%4.%5.%6)."
 
-#: joydevice.cpp:93
+#: joydevice.cpp:92
 #, kde-format
 msgid "Could not get number of buttons for joystick device %1: %2"
 msgstr "No se puede obtener el número de botones del joystick %1: %2"
 
-#: joydevice.cpp:99
+#: joydevice.cpp:98
 #, kde-format
 msgid "Could not get number of axes for joystick device %1: %2"
 msgstr "No se puede obtener el número de ejes del joystick %1: %2"
 
-#: joydevice.cpp:105
+#: joydevice.cpp:104
 #, kde-format
 msgid "Could not get calibration values for joystick device %1: %2"
 msgstr "No se pueden obtener valores de calibración del joystick %1: %2"
 
-#: joydevice.cpp:111
+#: joydevice.cpp:110
 #, kde-format
 msgid "Could not restore calibration values for joystick device %1: %2"
 msgstr "No se pueden recuperar los valores de calibración del joystick %1: %2"
 
-#: joydevice.cpp:117
+#: joydevice.cpp:116
 #, kde-format
 msgid "Could not initialize calibration values for joystick device %1: %2"
 msgstr ""
 "No se pueden inicializar los valores de calibración del joystick %1: %2"
 
-#: joydevice.cpp:123
+#: joydevice.cpp:122
 #, kde-format
 msgid "Could not apply calibration values for joystick device %1: %2"
 msgstr "No se pueden aplicar los valores de calibración del joystick %1: %2"
 
-#: joydevice.cpp:127
+#: joydevice.cpp:126
 #, kde-format
 msgid "internal error - code %1 unknown"
 msgstr "error interno - código %1 desconocido"

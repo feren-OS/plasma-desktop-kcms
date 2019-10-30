@@ -2,6 +2,7 @@
 # Copyright (C) 1998-2019 This_file_is_part_of_KDE
 # This file is distributed under the license LGPL version 2.1 or
 # version 3 or later versions approved by the membership of KDE e.V.
+# or the same license as the source of its messages in English.
 #
 # Sebastià Pla i Sanz <sps@sastia.com>, 1998, 1999, 2000, 2001, 2002, 2004, 2005, 2006.
 # Antoni Bella Pérez <antonibella5@yahoo.com>, 2002, 2003, 2015, 2016.
@@ -12,15 +13,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcm_colors\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-06-21 07:50+0200\n"
-"PO-Revision-Date: 2019-05-31 18:44+0100\n"
+"POT-Creation-Date: 2019-08-05 03:06+0200\n"
+"PO-Revision-Date: 2019-06-27 12:10+0200\n"
 "Last-Translator: Josep Ma. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca@valencia\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 2.0\n"
+"X-Generator: Poedit 2.0.6\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Accelerator-Marker: &\n"
 
@@ -34,105 +35,52 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "aacid@kde.org"
 
-#: colors.cpp:69 editor/scmeditordialog.cpp:80
+#: colors.cpp:70 editor/scmeditordialog.cpp:80
 #, kde-format
 msgid "Colors"
 msgstr "Colors"
 
-#: colors.cpp:71
+#: colors.cpp:72
 #, kde-format
 msgid "Kai Uwe Broulik"
 msgstr "Kai Uwe Broulik"
 
-#: colors.cpp:110
+#: colors.cpp:111
 #, kde-format
 msgid "Download New Color Schemes"
 msgstr "Baixa esquemes nous de colors"
 
-#: colors.cpp:166
+#: colors.cpp:167
 #, kde-format
 msgid "Unable to create a temporary file."
 msgstr "No s'ha pogut crear el fitxer temporal."
 
-#: colors.cpp:180
+#: colors.cpp:181
 #, kde-format
 msgid "Unable to download the color scheme: %1"
 msgstr "No s'ha pogut baixar l'esquema de colors: %1"
 
-#: colors.cpp:198
+#: colors.cpp:199
 #, kde-format
 msgid "This file is not a color scheme file."
 msgstr "Aquest fitxer no és un esquema de colors."
 
-#: colors.cpp:218
+#: colors.cpp:219
 #, kde-format
 msgid "Failed to create 'color-scheme' data folder."
-msgstr "Ha fallat en crear la carpeta de dades «color-scheme»."
+msgstr "No s'ha pogut crear la carpeta de dades «color-scheme»."
 
-#: colors.cpp:225
+#: colors.cpp:226
 #, kde-format
 msgid "Failed to copy color scheme into 'color-scheme' data folder."
 msgstr ""
-"Ha fallat en copiar l'esquema de colors a la carpeta de dades «color-scheme»."
+"No s'ha pogut copiar l'esquema de colors en la carpeta de dades «color-"
+"scheme»."
 
-#: colors.cpp:242
+#: colors.cpp:243
 #, kde-format
 msgid "Color scheme installed successfully."
 msgstr "L'esquema de colors s'ha instal·lat correctament."
-
-#. i18n: ectx: property (toolTip), widget (QPushButton, schemeEditButton)
-#: editor/colorsettings.ui:31
-#, kde-format
-msgid "Configure the current color scheme"
-msgstr "Configura l'esquema de color actual"
-
-#. i18n: ectx: property (text), widget (QPushButton, schemeEditButton)
-#: editor/colorsettings.ui:34
-#, kde-format
-msgid "Edit..."
-msgstr "Edita..."
-
-#. i18n: ectx: property (toolTip), widget (QPushButton, schemeRemoveButton)
-#: editor/colorsettings.ui:52
-#, kde-format
-msgid "Remove the selected scheme"
-msgstr "Elimina l'esquema seleccionat"
-
-#. i18n: ectx: property (text), widget (QPushButton, schemeRemoveButton)
-#: editor/colorsettings.ui:55
-#, kde-format
-msgid "Remove"
-msgstr "Elimina"
-
-#. i18n: ectx: property (toolTip), widget (QPushButton, schemeImportButton)
-#: editor/colorsettings.ui:83
-#, kde-format
-msgid "Import a color scheme from a file"
-msgstr "Importa un esquema de color des d'un fitxer"
-
-#. i18n: ectx: property (text), widget (QPushButton, schemeImportButton)
-#: editor/colorsettings.ui:86
-#, kde-format
-msgid "&Install from File..."
-msgstr "&Instal·la des d'un fitxer..."
-
-#. i18n: ectx: property (toolTip), widget (QPushButton, schemeKnsButton)
-#: editor/colorsettings.ui:98
-#, kde-format
-msgid "Get new color schemes from the Internet"
-msgstr "Obtén esquemes de color nous des d'Internet"
-
-#. i18n: ectx: property (text), widget (QPushButton, schemeKnsButton)
-#: editor/colorsettings.ui:101
-#, kde-format
-msgid "Get &New Color Schemes..."
-msgstr "Obtén esquemes &nous de colors..."
-
-#. i18n: ectx: property (text), widget (QCheckBox, applyToAlien)
-#: editor/colorsettings.ui:137
-#, kde-format
-msgid "Apply colors to &non-Qt applications"
-msgstr "Aplica els colors a les aplicacions &no-Qt"
 
 #: editor/kcolorschemeeditor.cpp:35
 #, kde-format
@@ -142,7 +90,7 @@ msgstr "KColorSchemeEditor"
 #: editor/kcolorschemeeditor.cpp:37
 #, kde-format
 msgid "Utility to edit and create color schemes"
-msgstr "Utilitat per editar i crear esquemes de color"
+msgstr "Utilitat per a editar i crear esquemes de color"
 
 #: editor/kcolorschemeeditor.cpp:40
 #, kde-format
@@ -172,7 +120,7 @@ msgstr "Matthew Woehlke"
 #: editor/kcolorschemeeditor.cpp:49
 #, kde-format
 msgid "Scheme to edit or to use as a base."
-msgstr "Esquema per editar o fer servir com a base."
+msgstr "Esquema per a editar o utilitzar com a base."
 
 #: editor/kcolorschemeeditor.cpp:52
 #, kde-format
@@ -181,20 +129,20 @@ msgid ""
 "button)"
 msgstr ""
 "Mostra el botó «Aplica» que guarda els canvis sense preguntar (a diferència "
-"del botó «Guarda com a»)"
+"del botó «Anomena i guarda»)"
 
 #: editor/kcolorschemeeditor.cpp:55
 #, kde-format
 msgid ""
 "Makes the dialog transient for another application window specified by handle"
 msgstr ""
-"Fa transitori el diàleg per una altra finestra d'aplicació especificada pel "
-"gestor"
+"Fa transitori el diàleg per a una altra finestra d'aplicació especificada "
+"pel gestor"
 
 #: editor/kcolorschemeeditor.cpp:73
 #, kde-format
 msgid "Scheme not found, falling back to current one.\n"
-msgstr "No s'ha trobat l'esquema, es torna de nou a l'actual.\n"
+msgstr "No s'ha trobat l'esquema, s'està tornant de nou a l'actual.\n"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, label)
 #: editor/preview.ui:29
@@ -478,7 +426,7 @@ msgstr "Decoració del focus"
 #: editor/scmeditorcolors.cpp:128 editor/scmeditorcolors.ui:338
 #, kde-format
 msgid "Hover Decoration"
-msgstr "Decoració en passar per sobre"
+msgstr "Decoració en passar per damunt"
 
 #. i18n: ectx: property (text), widget (QLabel, label_7)
 #: editor/scmeditorcolors.ui:23
@@ -490,7 +438,7 @@ msgstr "Joc de colors:"
 #: editor/scmeditorcolors.ui:36
 #, kde-format
 msgid "Colorset to view/modify"
-msgstr "Joc de colors a veure/modificar"
+msgstr "Joc de colors que s'han de veure/modificar"
 
 #. i18n: 'Common' here means &quot;frequent/not rare&quot;, not &quot;shared&quot;
 #. i18n: ectx: property (text), item, widget (QComboBox, colorSet)
@@ -693,17 +641,17 @@ msgstr "Desactivat"
 #: editor/scmeditordialog.cpp:103
 #, kde-format
 msgid "This colour scheme was not saved. Continue?"
-msgstr "Aquest esquema de color no s'ha guardat. Continuo?"
+msgstr "Aquest esquema de color no s'ha guardat. Voleu continuar?"
 
 #: editor/scmeditordialog.cpp:104
 #, kde-format
 msgid "Do you really want to upload?"
-msgstr "De veres voleu pujar-lo?"
+msgstr "Segur que voleu pujar-lo?"
 
 #: editor/scmeditordialog.cpp:137
 #, kde-format
 msgid "You have unsaved changes. Do you really want to quit?"
-msgstr "Hi ha canvis sense guardar. De veres voleu eixir?"
+msgstr "Hi ha canvis sense guardar. Segur que voleu eixir?"
 
 #: editor/scmeditordialog.cpp:138
 #, kde-format
@@ -732,7 +680,7 @@ msgstr ""
 #: editor/scmeditordialog.cpp:224
 #, kde-format
 msgid "You do not have permission to overwrite that scheme"
-msgstr "No teniu permís per sobreescriure aquest esquema"
+msgstr "No teniu permís per a sobreescriure aquest esquema"
 
 #: editor/scmeditordialog.cpp:224
 #, kde-format
@@ -779,7 +727,7 @@ msgstr "Tipus de l'efecte de color per a desactivada"
 #, kde-format
 msgctxt "no disabled color effect"
 msgid "None"
-msgstr "Sense"
+msgstr "Cap"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, colorBox)
 #: editor/scmeditoreffects.ui:46
@@ -813,7 +761,7 @@ msgstr "Tipus de l'efecte d'intensitat per a desactivada"
 #, kde-format
 msgctxt "no disabled intensity effect"
 msgid "None"
-msgstr "Sense"
+msgstr "Cap"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, intensityBox)
 #: editor/scmeditoreffects.ui:73
@@ -827,14 +775,14 @@ msgstr "Ombra"
 #, kde-format
 msgctxt "disabled intensity effect"
 msgid "Darken"
-msgstr "Enfosquit"
+msgstr "Enfosqueix"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, intensityBox)
 #: editor/scmeditoreffects.ui:83
 #, kde-format
 msgctxt "disabled intensity effect"
 msgid "Lighten"
-msgstr "Aclarit"
+msgstr "Aclareix"
 
 #. i18n: ectx: property (text), widget (QLabel, label_6)
 #: editor/scmeditoreffects.ui:107
@@ -871,7 +819,7 @@ msgstr "Tipus de contrast per a desactivada"
 #, kde-format
 msgctxt "no disabled contrast"
 msgid "None"
-msgstr "Sense"
+msgstr "Cap"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, contrastBox)
 #: editor/scmeditoreffects.ui:190
@@ -1072,7 +1020,7 @@ msgstr "positiu"
 #: editor/setpreview.ui:170
 #, kde-format
 msgid "Hover on Normal Background"
-msgstr "En passar per sobre del fons normal"
+msgstr "En passar per damunt del fons normal"
 
 #. i18n: see kdebase/workspace/kcontrol/colors/README.i18n
 #. i18n: ectx: property (text), widget (QLabel, labelFore8)
@@ -1080,7 +1028,7 @@ msgstr "En passar per sobre del fons normal"
 #, kde-format
 msgctxt "color-kcm-set-preview"
 msgid "hover"
-msgstr "en passar"
+msgstr "en passar per damunt"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, labelBack3)
 #: editor/setpreview.ui:211
@@ -1187,7 +1135,7 @@ msgstr "focus"
 msgid "This module lets you choose the color scheme."
 msgstr "Aquest mòdul permet triar l'esquema de colors."
 
-#: package/contents/ui/main.qml:83
+#: package/contents/ui/main.qml:84
 #, kde-format
 msgid ""
 "The color scheme '%1' is not installed. Selecting the default theme instead."
@@ -1195,94 +1143,99 @@ msgstr ""
 "L'esquema de colors «%1» no està instal·lat. En el seu lloc se selecciona el "
 "tema predeterminat."
 
-#: package/contents/ui/main.qml:95
+#: package/contents/ui/main.qml:96
 #, kde-format
 msgid "Search..."
-msgstr "Cerca..."
+msgstr "Busca..."
 
-#: package/contents/ui/main.qml:133
+#: package/contents/ui/main.qml:134
 #, kde-format
 msgid "All Schemes"
 msgstr "Tots els esquemes"
 
-#: package/contents/ui/main.qml:134
+#: package/contents/ui/main.qml:135
 #, kde-format
 msgid "Light Schemes"
 msgstr "Esquemes clars"
 
-#: package/contents/ui/main.qml:135
+#: package/contents/ui/main.qml:136
 #, kde-format
 msgid "Dark Schemes"
 msgstr "Esquemes foscos"
 
-#: package/contents/ui/main.qml:193
+#: package/contents/ui/main.qml:202
+#, kde-format
+msgid "Window Title"
+msgstr "Text de la finestra"
+
+#: package/contents/ui/main.qml:223
 #, kde-format
 msgid "Window text"
 msgstr "Text de la finestra"
 
-#: package/contents/ui/main.qml:200
+#: package/contents/ui/main.qml:230
 #, kde-format
 msgid "Button"
 msgstr "Botó"
 
-#: package/contents/ui/main.qml:219
+#: package/contents/ui/main.qml:249
 #, kde-format
 msgctxt "Hyperlink"
 msgid "link"
 msgstr "enllaç"
 
-#: package/contents/ui/main.qml:221
+#: package/contents/ui/main.qml:251
 #, kde-format
 msgctxt "Visited hyperlink"
 msgid "visited"
 msgstr "visitat"
 
-#: package/contents/ui/main.qml:227
+#: package/contents/ui/main.qml:257
 #, kde-format
 msgid "Normal text"
 msgstr "Text normal"
 
-#: package/contents/ui/main.qml:235
+#: package/contents/ui/main.qml:265
 #, kde-format
 msgid "Highlighted text"
 msgstr "Text ressaltat"
 
-#: package/contents/ui/main.qml:242
+#: package/contents/ui/main.qml:272
 #, kde-format
 msgid "Disabled text"
 msgstr "Text desactivat"
 
-#: package/contents/ui/main.qml:260
+#: package/contents/ui/main.qml:290
 #, kde-format
 msgid "Edit Color Scheme..."
 msgstr "Edició de l'esquema de color..."
 
-#: package/contents/ui/main.qml:266
+#: package/contents/ui/main.qml:296
 #, kde-format
 msgid "Remove Color Scheme"
 msgstr "Elimina l'esquema de colors"
 
-#: package/contents/ui/main.qml:273
+#: package/contents/ui/main.qml:303
 #, kde-format
 msgid "Restore Color Scheme"
 msgstr "Restaura l'esquema de colors"
 
-#: package/contents/ui/main.qml:316
+#: package/contents/ui/main.qml:346
 #, kde-format
 msgid "Install from File..."
 msgstr "Instal·la des d'un fitxer..."
 
-#: package/contents/ui/main.qml:322
+#: package/contents/ui/main.qml:352
 #, kde-format
 msgid "Get New Color Schemes..."
-msgstr "Obtén esquemes &nous de colors..."
+msgstr "Obtín esquemes &nous de colors..."
 
-#: package/contents/ui/main.qml:334
+#: package/contents/ui/main.qml:364
 #, kde-format
 msgid "Open Color Scheme"
 msgstr "Obri un esquema de colors"
 
-#: package/contents/ui/main.qml:336
+#: package/contents/ui/main.qml:366
 #, kde-format
 msgid "Color Scheme Files (*.colors)"
 msgstr "Fitxers d'esquema de colors (*.colors)"

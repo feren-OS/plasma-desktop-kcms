@@ -3,19 +3,16 @@ add_definitions(-DTRANSLATION_DOMAIN=\"kcm_cursortheme\")
 
 include_directories( ${LIBUSB_INCLUDE_DIR} )
 
-if(X11_Xcursor_FOUND)
-  set( libnoinst_SRCS
-    xcursor/thememodel.cpp
-    xcursor/cursortheme.cpp
-    xcursor/xcursortheme.cpp
-    xcursor/previewwidget.cpp
-    xcursor/sortproxymodel.cpp
-    ../krdb/krdb.cpp )
-  include_directories( ${CMAKE_CURRENT_SOURCE_DIR}/xcursor/ )
-else()
-  set( libnoinst_SRCS core/themepage.cpp )
-  include_directories( ${CMAKE_CURRENT_SOURCE_DIR}/core/ )
-endif()
+
+set( libnoinst_SRCS
+xcursor/thememodel.cpp
+xcursor/cursortheme.cpp
+xcursor/xcursortheme.cpp
+xcursor/previewwidget.cpp
+xcursor/sortproxymodel.cpp
+../krdb/krdb.cpp )
+include_directories( ${CMAKE_CURRENT_SOURCE_DIR}/xcursor/ )
+
 
 set(klauncher_xml ${KINIT_DBUS_INTERFACES_DIR}/kf5_org.kde.KLauncher.xml)
 qt5_add_dbus_interface(libnoinst_SRCS ${klauncher_xml} klauncher_iface)
@@ -34,6 +31,8 @@ target_link_libraries(kcm_cursortheme
     KF5::Archive
     KF5::KCMUtils
     KF5::I18n
+    KF5::GuiAddons
+    KF5::WindowSystem
     KF5::KIOCore
     KF5::KIOWidgets
     KF5::KDELibs4Support

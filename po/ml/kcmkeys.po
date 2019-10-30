@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkeys trunk\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"POT-Creation-Date: 2019-09-12 03:25+0200\n"
 "PO-Revision-Date: 2009-05-25 16:42-0700\n"
 "Last-Translator: Praveen Arimbrathodiyil <pravi.a@gmail.com>\n"
 "Language-Team: Malayalam <smc-discuss@googlegroups.com>\n"
@@ -32,54 +32,54 @@ msgstr "പുറത്തുവയ്ക്കാനുള്ള ഘടകങ�
 msgid "Components"
 msgstr "ഘടകങ്ങള്‍"
 
-#: globalshortcuts.cpp:67
+#: globalshortcuts.cpp:65
 #, kde-format
 msgid "You are about to reset all shortcuts to their default values."
 msgstr ""
 "നിങ്ങളിപ്പോള്‍ എല്ലാ കുറുക്കുവഴികളും അതിന്റെ സഹജമായ മൂല്യങ്ങളിലേയ്ക്കു് തിരിച്ചു് ഉറപ്പിക്കുവാന്‍ "
 "പോകുകയാണു്."
 
-#: globalshortcuts.cpp:68
+#: globalshortcuts.cpp:66
 #, kde-format
 msgid "Reset to defaults"
 msgstr "സഹജമായ മൂല്യങ്ങളായി തിരിച്ചുവയ്ക്കുന്നു"
 
-#: globalshortcuts.cpp:69
+#: globalshortcuts.cpp:67
 #, kde-format
 msgid "Current Component"
 msgstr "ഇപ്പോഴുള്ള ഘടകം"
 
-#: globalshortcuts.cpp:70
+#: globalshortcuts.cpp:68
 #, kde-format
 msgid "All Components"
 msgstr "എല്ലാ ഘടകങ്ങളും"
 
-#: kglobalshortcutseditor.cpp:231
+#: kglobalshortcutseditor.cpp:233
 #, kde-format
 msgid "Import Scheme..."
 msgstr "പദ്ധതി അകത്തെടുക്കുക..."
 
-#: kglobalshortcutseditor.cpp:232
+#: kglobalshortcutseditor.cpp:234
 #, kde-format
 msgid "Export Scheme..."
 msgstr "പദ്ധതി പുറത്തുവയ്ക്കുക..."
 
-#: kglobalshortcutseditor.cpp:233
+#: kglobalshortcutseditor.cpp:235
 #, kde-format
 msgid "Set All Shortcuts to None"
 msgstr "എല്ലാ കുറുക്കുവഴികളും കളയുക"
 
-#: kglobalshortcutseditor.cpp:241
+#: kglobalshortcutseditor.cpp:243
 #, kde-format
 msgid "Applications"
 msgstr ""
 
-#: kglobalshortcutseditor.cpp:292
+#: kglobalshortcutseditor.cpp:294
 #, kde-format
 msgid "Launch %1"
 msgstr ""
 
-#: kglobalshortcutseditor.cpp:328
+#: kglobalshortcutseditor.cpp:330
 #, kde-format
 msgid ""
 "Component '%1' is currently active. Only global shortcuts currently not "
@@ -91,12 +91,12 @@ msgstr ""
 "ചെയ്യും.\n"
 "എല്ലാ ആഗോള കുറുക്കുവഴികളും അവ വീണ്ടും തുടങ്ങുമ്പോള്‍ സഹജമായ മൂല്യത്തില്‍ റജിസ്റ്റര്‍ ചെയ്യപ്പെടും."
 
-#: kglobalshortcutseditor.cpp:330 kglobalshortcutseditor.cpp:340
+#: kglobalshortcutseditor.cpp:332 kglobalshortcutseditor.cpp:342
 #, kde-format
 msgid "Remove component"
 msgstr "ഘടകം നീക്കം ചെയ്യുക"
 
-#: kglobalshortcutseditor.cpp:336
+#: kglobalshortcutseditor.cpp:338
 #, kde-format
 msgid ""
 "Are you sure you want to remove the registered shortcuts for component '%1'? "
@@ -107,18 +107,17 @@ msgstr ""
 "അതിന്റെ കുറുക്കു വഴികളും അടുത്ത തവണ തുടങ്ങുമ്പോള്‍ അവയുടെ സഹജമായ മൂല്യത്തില്‍ സ്വയമേവ റജിസ്റ്റര്‍ "
 "ചെയ്തുകൊള്ളും ."
 
-#: kglobalshortcutseditor.cpp:450
+#: kglobalshortcutseditor.cpp:452
 #, kde-format
 msgid "Application Launchers"
 msgstr ""
 
-#: kglobalshortcutseditor.cpp:453
+#: kglobalshortcutseditor.cpp:455
 #, fuzzy, kde-format
-#| msgid "Shortcuts:"
 msgid "Other Shortcuts"
 msgstr "കുറുക്കുവഴികള്‍:"
 
-#: kglobalshortcutseditor.cpp:558
+#: kglobalshortcutseditor.cpp:560
 #, kde-format
 msgid ""
 "Your current changes will be lost if you load another scheme before saving "
@@ -126,12 +125,12 @@ msgid ""
 msgstr ""
 "ഈ പദ്ധതി സൂക്ഷിയ്ക്കുന്നതിനു് മുമ്പു് വേറൊന്നു് ചേര്‍ത്താല്‍ നിങ്ങളുടെ നിലവിലുള്ള മാറ്റങ്ങള്‍ നഷ്ടപ്പെടും"
 
-#: kglobalshortcutseditor.cpp:559
+#: kglobalshortcutseditor.cpp:561
 #, kde-format
 msgid "Load Shortcut Scheme"
 msgstr "കുറുക്കുവഴി പദ്ധതി ചേര്‍ക്കുക "
 
-#: kglobalshortcutseditor.cpp:560
+#: kglobalshortcutseditor.cpp:562
 #, kde-format
 msgid "Load"
 msgstr "ചേര്‍ക്കുക"
@@ -141,7 +140,7 @@ msgstr "ചേര്‍ക്കുക"
 msgid "This file (%1) does not exist. You can only select local files."
 msgstr "ഈ ഫയല്‍ (%1) നിലവിലില്ല. നിങ്ങള്‍ക്കു് പ്രാദേശിക ഫയലുകള്‍ മാത്രമേ തെരഞ്ഞെടുക്കാനാകൂ."
 
-#: kglobalshortcutseditor.cpp:601 kglobalshortcutseditor.cpp:624
+#: kglobalshortcutseditor.cpp:602 kglobalshortcutseditor.cpp:625
 #, kde-format
 msgid ""
 "Message: %1\n"
@@ -150,7 +149,7 @@ msgstr ""
 "സന്ദേശം: %1\n"
 "തെറ്റ്: %2"
 
-#: kglobalshortcutseditor.cpp:606 kglobalshortcutseditor.cpp:629
+#: kglobalshortcutseditor.cpp:607 kglobalshortcutseditor.cpp:630
 #, kde-format
 msgid "Failed to contact the KDE global shortcuts daemon\n"
 msgstr "കെഡിഇ ആഗോള കുറുക്കുവഴി നിരന്തരപ്രക്രിയയുമായി ബന്ധപ്പെടല്‍ പരാജയപ്പെട്ടു\n"
@@ -158,7 +157,6 @@ msgstr "കെഡിഇ ആഗോള കുറുക്കുവഴി നിര
 #. i18n: ectx: property (text), widget (QLabel, componentLabel)
 #: kglobalshortcutseditor.ui:37
 #, fuzzy, kde-format
-#| msgid "Components"
 msgid "Component:"
 msgstr "ഘടകങ്ങള്‍"
 
@@ -178,7 +176,6 @@ msgstr ""
 #. i18n: ectx: property (toolTip), widget (QToolButton, removeButton)
 #: kglobalshortcutseditor.ui:87
 #, fuzzy, kde-format
-#| msgid "Remove component"
 msgid "Remove the selected component"
 msgstr "ഘടകം നീക്കം ചെയ്യുക"
 

@@ -9,9 +9,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcminput\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
-"PO-Revision-Date: 2015-12-29 21:29+0200\n"
-"Last-Translator: Mindaugas Baranauskas <opensuse.lietuviu.kalba@gmail.com>\n"
+"POT-Creation-Date: 2019-05-20 03:25+0200\n"
+"PO-Revision-Date: 2019-07-26 15:07+0300\n"
+"Last-Translator: Moo\n"
 "Language-Team: lt <kde-i18n-lt@kde.org>\n"
 "Language: lt\n"
 "MIME-Version: 1.0\n"
@@ -19,52 +19,56 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : n%10>=2 && (n%100<10 || n"
 "%100>=20) ? 1 : n%10==0 || (n%100>10 && n%100<20) ? 2 : 3);\n"
-"X-Generator: Lokalize 1.5\n"
+"X-Generator: Poedit 2.0.6\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "Donatas Glodenis,Liudas Ališauskas"
+msgstr "Donatas Glodenis,Liudas Ališauskas, Moo"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "dgvirtual@akl.lt,liudas@akmc.lt"
+msgstr "dgvirtual@akl.lt,liudas@akmc.lt, <>"
 
 #: backends/kwin_wl/kwin_wl_backend.cpp:76
 #, kde-format
 msgid "Querying input devices failed. Please reopen this settings module."
 msgstr ""
+"Įvesties įrenginių užklausimas patyrė nesėkmę. Atverkite šį nuostatų modulį "
+"iš naujo."
 
 #: backends/kwin_wl/kwin_wl_backend.cpp:96
 #, kde-format
 msgid "Critical error on reading fundamental device infos of %1."
-msgstr ""
+msgstr "Kritinė klaida skaitant svarbiausią %1 įrenginio informaciją."
 
 #: kcm/libinput/libinput_config.cpp:47
 #, kde-format
 msgid "Pointer device KCM"
-msgstr ""
+msgstr "Rodomųjų įrenginių KCM"
 
 #: kcm/libinput/libinput_config.cpp:49
 #, kde-format
 msgid "System Settings module for managing mice and trackballs."
 msgstr ""
+"Sistemos nuostatų modulis, skirtas pelių ir rutulinių manipuliatorių "
+"tvarkymui."
 
 #: kcm/libinput/libinput_config.cpp:51
 #, kde-format
 msgid "Copyright 2018 Roman Gilg"
-msgstr ""
+msgstr "Autorių teisės 2018 Roman Gilg"
 
 #: kcm/libinput/libinput_config.cpp:54 kcm/xlib/xlib_config.cpp:106
 #, kde-format
 msgid "Roman Gilg"
-msgstr ""
+msgstr "Roman Gilg"
 
 #: kcm/libinput/libinput_config.cpp:55
 #, kde-format
 msgid "Developer"
-msgstr ""
+msgstr "Kūrėjas"
 
 #: kcm/libinput/libinput_config.cpp:125
 #, kde-format
@@ -72,11 +76,13 @@ msgid ""
 "Error while loading values. See logs for more information. Please restart "
 "this configuration module."
 msgstr ""
+"Klaida įkeliant reikšmes. Išsamesnei informacijai, žiūrėkite žurnalus. "
+"Paleiskite šį konfigūracijos modulį iš naujo."
 
 #: kcm/libinput/libinput_config.cpp:130
 #, kde-format
 msgid "No pointer device found. Connect now."
-msgstr ""
+msgstr "Nerasta jokio rodomojo įrenginio. Prijunkite jį dabar."
 
 #: kcm/libinput/libinput_config.cpp:141
 #, kde-format
@@ -84,6 +90,9 @@ msgid ""
 "Not able to save all changes. See logs for more information. Please restart "
 "this configuration module and try again."
 msgstr ""
+"Nepavyksta įrašyti visų pakeitimų. Išsamesnei informacijai, žiūrėkite "
+"žurnalus. Paleiskite šį konfigūracijos modulį iš naujo ir bandykite dar "
+"kartą."
 
 #: kcm/libinput/libinput_config.cpp:161
 #, kde-format
@@ -91,6 +100,8 @@ msgid ""
 "Error while loading default values. Failed to set some options to their "
 "default values."
 msgstr ""
+"Klaida įkeliant numatytąsias reikšmes. Nepavyko nustatyti kai kurių "
+"parinkčių į jų numatytąsias reikšmes."
 
 #: kcm/libinput/libinput_config.cpp:183
 #, kde-format
@@ -98,107 +109,108 @@ msgid ""
 "Error while adding newly connected device. Please reconnect it and restart "
 "this configuration module."
 msgstr ""
+"Klaida pridedant naujai prijungtą įrenginį. Prijunkite jį iš naujo ir "
+"paleiskite šį konfigūracijos modulį iš naujo."
 
 #: kcm/libinput/libinput_config.cpp:207
 #, kde-format
 msgid "Pointer device disconnected. Closed its setting dialog."
-msgstr ""
+msgstr "Rodomasis įrenginys atsijungė. Užvėrė savo nuostatos dialogą."
 
 #: kcm/libinput/libinput_config.cpp:209
 #, kde-format
 msgid "Pointer device disconnected. No other devices found."
-msgstr ""
+msgstr "Rodomasis įrenginys atsijungė. Jokių kitų įrenginių nerasta."
 
 #: kcm/libinput/main.qml:84
 #, kde-format
 msgid "Device:"
-msgstr ""
+msgstr "Įrenginys:"
 
 #: kcm/libinput/main.qml:110 kcm/libinput/main_deviceless.qml:65
-#, fuzzy, kde-format
-#| msgid "&General"
+#, kde-format
 msgid "General:"
-msgstr "&Bendri"
+msgstr "Bendri:"
 
 #: kcm/libinput/main.qml:112
 #, kde-format
 msgid "Device enabled"
-msgstr ""
+msgstr "Įrenginys įjungtas"
 
 #: kcm/libinput/main.qml:131
 #, kde-format
 msgid "Accept input through this device."
-msgstr ""
+msgstr "Priimti įvestį per šį įrenginį."
 
 #: kcm/libinput/main.qml:137 kcm/libinput/main_deviceless.qml:67
-#, fuzzy, kde-format
-#| msgid "Le&ft handed"
+#, kde-format
 msgid "Left handed mode"
-msgstr "&Kairės rankos"
+msgstr "Kairės rankos veiksena"
 
 #: kcm/libinput/main.qml:156 kcm/libinput/main_deviceless.qml:86
 #, kde-format
 msgid "Swap left and right buttons."
-msgstr ""
+msgstr "Apkeisti kairįjį ir dešinįjį mygtuką vietomis."
 
 #: kcm/libinput/main.qml:162 kcm/libinput/main_deviceless.qml:92
 #, kde-format
 msgid "Press left and right buttons for middle-click"
 msgstr ""
+"Vidurinio mygtuko spustelėjimo inicijavimui paspausti dešinįjį ir kairįjį "
+"mygtukus kartu"
 
 #: kcm/libinput/main.qml:181 kcm/libinput/main_deviceless.qml:111
 #, kde-format
 msgid ""
 "Clicking left and right button simultaneously sends middle button click."
 msgstr ""
+"Spustelėjus vienu metu kairįjį ir dešinįjį mygtuką, bus siunčiamas "
+"viduriniojo mygtuko spustelėjimas."
 
 #: kcm/libinput/main.qml:191 kcm/libinput/main_deviceless.qml:121
-#, fuzzy, kde-format
-#| msgid "Pointer threshold:"
+#, kde-format
 msgid "Pointer speed:"
-msgstr "Žymiklio žingsnis:"
+msgstr "Rodyklės greitis:"
 
 #: kcm/libinput/main.qml:223 kcm/libinput/main_deviceless.qml:153
-#, fuzzy, kde-format
-#| msgid "Acceleration &profile:"
+#, kde-format
 msgid "Acceleration profile:"
-msgstr "Pagreičio &profilis:"
+msgstr "Pagreičio profilis:"
 
 #: kcm/libinput/main.qml:254 kcm/libinput/main_deviceless.qml:184
 #, kde-format
 msgid "Flat"
-msgstr ""
+msgstr "Plokščias"
 
 #: kcm/libinput/main.qml:257 kcm/libinput/main_deviceless.qml:187
 #, kde-format
 msgid "Cursor moves the same distance as the mouse movement."
-msgstr ""
+msgstr "Žymeklis persikelia tokiu pačiu atstumu kaip ir pelės judesys."
 
 #: kcm/libinput/main.qml:264 kcm/libinput/main_deviceless.qml:194
 #, kde-format
 msgid "Adaptive"
-msgstr ""
+msgstr "Prisitaikantis"
 
 #: kcm/libinput/main.qml:267 kcm/libinput/main_deviceless.qml:197
 #, kde-format
 msgid "Cursor travel distance depends on the mouse movement speed."
-msgstr ""
+msgstr "Žymeklio kelio atstumas priklauso nuo pelės judesio greičio."
 
 #: kcm/libinput/main.qml:279 kcm/libinput/main_deviceless.qml:209
 #, kde-format
 msgid "Scrolling:"
-msgstr ""
+msgstr "Slinkimas:"
 
 #: kcm/libinput/main.qml:281 kcm/libinput/main_deviceless.qml:211
-#, fuzzy, kde-format
-#| msgid "Re&verse scroll direction"
+#, kde-format
 msgid "Invert scroll direction"
-msgstr "At&virkštinė ratuko veikimo kryptis"
+msgstr "Atvirkštinė slinkimo kryptis"
 
 #: kcm/libinput/main.qml:296 kcm/libinput/main_deviceless.qml:226
 #, kde-format
 msgid "Touchscreen like scrolling."
-msgstr ""
+msgstr "Jutiklinio ekrano tipo slinkimas."
 
 #. i18n: ectx: property (whatsThis), widget (QWidget, KCMMouse)
 #: kcm/xlib/kcmmouse.ui:14
@@ -209,7 +221,8 @@ msgid ""
 "trackball, or some other hardware that performs a similar function."
 msgstr ""
 "<h1>Pelė</h1> Šis modulis leidžia jums pasirinkti įvairias manipuliatoriaus "
-"darbo parinktis. Manipuliatorius gali būti pelė, trekbolas arba koks nors "
+"darbo parinktis nulemiančias jūsų atvaizdavimo įrenginio darbą. Jūsų "
+"atvaizdavimo įrenginys būti pelė, rutulinis manipuliatorius arba koks nors "
 "kitas įtaisas, atliekantis panašią funkciją."
 
 #. i18n: ectx: attribute (title), widget (QWidget, generalTab)
@@ -228,11 +241,11 @@ msgid ""
 "as the left and right buttons are affected. For example, if you have a three-"
 "button mouse, the middle button is unaffected."
 msgstr ""
-"Jeigu esate kairiarankis, galite sukeisti savo manipuliatoriaus kairį ir "
-"dešinį klavišus, pasirinkdami 'kairės “rankos' parinktį. Jeigu Jūsų "
-"manipuliatorius turi daugiau kaip du klavišus, bus įtakojamas tik kairio ir "
-"dešinio klavišų funkcionalumas. Pavyzdžiui, jeigu Jūsų pelė yra trijų "
-"klavišų, šio klavišo funkcija nepasikeis."
+"Jeigu esate kairiarankis, galite sukeisti savo atvaizdavimo įrenginio "
+"kairiojo ir dešiniojo mygtukų funkcijas, pasirinkdami \"kairės rankos\" "
+"parinktį. Jeigu jūsų atvaizdavimo įrenginys turi daugiau nei du mygtukus, "
+"bus įtakojamas tik kairio ir dešinio mygtukų funkcionalumas. Pavyzdžiui, "
+"jeigu jūsų pelė turi tris mygtukus, viduriniojo mygtuko funkcija nepasikeis."
 
 #. i18n: ectx: property (title), widget (QGroupBox, handedBox)
 #: kcm/xlib/kcmmouse.ui:55
@@ -265,7 +278,7 @@ msgstr ""
 #: kcm/xlib/kcmmouse.ui:109
 #, kde-format
 msgid "Re&verse scroll direction"
-msgstr "At&virkštinė ratuko veikimo kryptis"
+msgstr "At&virkštinė ratuko slinkimo kryptis"
 
 #. i18n: ectx: attribute (title), widget (QWidget, advancedTab)
 #: kcm/xlib/kcmmouse.ui:156
@@ -277,19 +290,19 @@ msgstr "Sudėtingesni"
 #: kcm/xlib/kcmmouse.ui:164
 #, kde-format
 msgid "Pointer acceleration:"
-msgstr "Žymiklio pagreitis:"
+msgstr "Rodyklės pagreitis:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: kcm/xlib/kcmmouse.ui:174
 #, kde-format
 msgid "Pointer threshold:"
-msgstr "Žymiklio žingsnis:"
+msgstr "Rodyklės slenkstis:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: kcm/xlib/kcmmouse.ui:184
 #, kde-format
 msgid "Double click interval:"
-msgstr "Dvigubo spragtelėjimo intervalas:"
+msgstr "Dvikarčio spustelėjimo intervalas:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: kcm/xlib/kcmmouse.ui:194
@@ -301,13 +314,13 @@ msgstr "Tempimo pradžios laikas:"
 #: kcm/xlib/kcmmouse.ui:204
 #, kde-format
 msgid "Drag start distance:"
-msgstr "Tempimo pradžios distancija:"
+msgstr "Tempimo pradžios atstumas:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_6)
 #: kcm/xlib/kcmmouse.ui:214
 #, kde-format
 msgid "Mouse wheel scrolls by:"
-msgstr "Pelės ratukas pastumia per:"
+msgstr "Pelės ratukas paslenka per:"
 
 #. i18n: ectx: property (whatsThis), widget (QDoubleSpinBox, accel)
 #: kcm/xlib/kcmmouse.ui:230
@@ -322,13 +335,13 @@ msgid ""
 "result in the mouse pointer flying across the screen, making it hard to "
 "control.</p>"
 msgstr ""
-"<p>Ši parinktis leidžia pakeisti sąryšį tarp pelės žymeklio judėjimo "
-"distancijos ekrane ir reliatyvaus paties fizinio įtaiso judėjimo (tai gali "
-"būti pelė, trekbolas arba kitoks manipuliatorius).</p><p> Didelė pagreičio "
-"reikšmė gali sukelti didelius pelės žymeklio judesius ekrane, nors Jūs tik "
-"truputį pajudinsite fizinį įtaisą. Pasirinkus labai dideles reikšmes galite "
-"pasiekti to, kad pelės žymeklis tiesiog skraidys ekrane, labai apsunkindamas "
-"jo kontrolę.</p>"
+"<p>Ši parinktis leidžia pakeisti sąryšį tarp atstumo, kurį pelės žymeklis "
+"nukeliauja ekrane ir santykinio fizinio įrenginio (pelės, rutulinio "
+"manipuliatoriaus arba kitokio atvaizdavimo įrenginio) judesio.</p><p> Didelė "
+"pagreičio reikšmė gali sukelti didelius pelės žymeklio judesius ekrane, nors "
+"jūs tik truputį pajudinsite fizinį įrenginį. Pasirinkus labai dideles "
+"reikšmes galite pasiekti to, kad pelės žymeklis tiesiog skraidys ekrane, "
+"labai apsunkindamas jo valdymą.</p>"
 
 #. i18n: ectx: property (suffix), widget (QDoubleSpinBox, accel)
 #: kcm/xlib/kcmmouse.ui:233
@@ -348,12 +361,12 @@ msgid ""
 "the mouse pointer. With larger movements of the physical device, you can "
 "move the mouse pointer rapidly to different areas on the screen.</p>"
 msgstr ""
-"<p>Žingsnis yra mažiausias atstumas, kurį ekrane turi nueiti pelės žymeklis, "
-"kol pagreitis turės efektą. Jeigu judesys yra mažesnis už žingsnį, pelės "
-"žymeklis judės lyg būtų nustatytas viengubas pagreitis.</p><p> Tokiu būdu, "
-"kai Jūs atliekate savo fiziniu įtaisu mažus judesius, nebus jokio pagreičio. "
-"Tai jums suteikia didesnes galimybes kontroliuojant pelės žymeklį. "
-"Didesniais fizinio įrenginio judesiais, Jūs galite sparčiau perkelti pelės "
+"<p>Slenkstis yra mažiausias atstumas, kurį ekrane turi nukeliauti pelės "
+"rodyklė, kol pagreitis įgaus efektą. Jeigu judesys yra mažesnis už slenkstį, "
+"pelės žymeklis judės lyg būtų nustatytas viengubas pagreitis.</p><p> Tokiu "
+"būdu, kai jūs atliekate savo fiziniu įrenginiu mažus judesius, nebus jokio "
+"pagreičio. Tai jums suteikia didesnes galimybes valdant pelės rodyklę. "
+"Didesniais fizinio įrenginio judesiais, galite sparčiau perkelti pelės "
 "žymeklį į įvairias ekrano sritis.</p>"
 
 #. i18n: ectx: property (whatsThis), widget (QSpinBox, doubleClickInterval)
@@ -365,10 +378,11 @@ msgid ""
 "happens later than this time interval after the first click, they are "
 "recognized as two separate clicks."
 msgstr ""
-"Dvigubo spragtelėjimo intervalas yra didžiausias laikas (milisekundėmis) "
-"tarp dviejų pelės klavišo paspaudimų, kurio metu jis laikomas dvigubu "
-"spragtelėjimu. Jeigu antrasis paspaudimas atliekamas vėliau, nei nustatyta "
-"šiuo laiko intervalu, tai bus traktuojama kaip du atskiri spragtelėjimai."
+"Dvikarčio spustelėjimo intervalas yra didžiausias laikas (milisekundėmis) "
+"tarp dviejų pelės mygtuko spustelėjimų, kas savo ruožtu paverčia juos į "
+"dvikartį spustelėjimą. Jeigu antrasis spustelėjimas įvyksta vėliau, nei "
+"nustatyta šiuo laiko intervalu, tai bus traktuojama kaip du atskiri "
+"spustelėjimai."
 
 #. i18n: ectx: property (suffix), widget (QSpinBox, doubleClickInterval)
 #. i18n: ectx: property (suffix), widget (QSpinBox, dragStartTime)
@@ -379,7 +393,7 @@ msgstr ""
 #: kcm/xlib/kcmmouse.ui:450 kcm/xlib/kcmmouse.ui:482
 #, kde-format
 msgid " msec"
-msgstr " msec"
+msgstr " milisek."
 
 #. i18n: ectx: property (whatsThis), widget (QSpinBox, dragStartTime)
 #: kcm/xlib/kcmmouse.ui:308
@@ -388,8 +402,8 @@ msgid ""
 "If you click with the mouse (e.g. in a multi-line editor) and begin to move "
 "the mouse within the drag start time, a drag operation will be initiated."
 msgstr ""
-"Jeigu Jūs spragtelėjate pele (pvz., tekstų redaktoriuje) ir pradedate "
-"judinti pelę tempimo pradžios laiko intervale, bus pradėta tempimo operacija."
+"Jeigu jūs spustelėjate pele (pvz., tekstų redaktoriuje) ir pradedate judinti "
+"pelę tempimo pradžios laiko intervale, tuomet bus pradėta tempimo operacija."
 
 #. i18n: ectx: property (whatsThis), widget (QSpinBox, dragStartDist)
 #: kcm/xlib/kcmmouse.ui:333
@@ -398,8 +412,8 @@ msgid ""
 "If you click with the mouse and begin to move the mouse at least the drag "
 "start distance, a drag operation will be initiated."
 msgstr ""
-"Jeigu Jūs spragtelėjate pele ir pradedate judinti pelę mažesniu atstumu nei "
-"tempimo distancija, bus pradėta tempimo operacija."
+"Jeigu jūs spustelėjate pele ir pradedate judinti pelę bent tempimo pradžios "
+"atstumu, tuomet bus pradėta tempimo operacija."
 
 #. i18n: ectx: property (whatsThis), widget (QSpinBox, wheelScrollLines)
 #: kcm/xlib/kcmmouse.ui:355
@@ -410,23 +424,22 @@ msgid ""
 "number of visible lines, it will be ignored and the wheel movement will be "
 "handled as a page up/down movement."
 msgstr ""
-"Jeigu naudojate pelę su ratuku, šita reikšmė nustato pastumiamų eilučių "
-"skaičių, kiekvienu ratuko pasukimu. Atminkite, kad, jeigu šis skaičius "
-"viršija matomų eilučių skaičių, eilučių prasukimas bus ignoruojamas, o "
-"ratuko judesys perstums puslapį aukštyn arba žemyn."
+"Jeigu naudojate pelės ratuką, ši reikšmė nustato kiekvieno ratuko pasukimo "
+"slenkamų eilučių skaičių. Atminkite, kad, jeigu šis skaičius viršija matomų "
+"eilučių skaičių, tuomet eilučių slinkimo bus nepaisoma, o ratuko judesys bus "
+"traktuojamas kaip puslapio perstūmimas aukštyn ar žemyn."
 
 #. i18n: ectx: attribute (title), widget (QWidget, MouseNavigation)
 #: kcm/xlib/kcmmouse.ui:387
-#, fuzzy, kde-format
-#| msgid "Mouse Navigation"
+#, kde-format
 msgid "Keyboard Navigation"
-msgstr "Pelės navigacija"
+msgstr "Naršymas klaviatūra"
 
 #. i18n: ectx: property (text), widget (QCheckBox, mouseKeys)
 #: kcm/xlib/kcmmouse.ui:395
 #, kde-format
 msgid "&Move pointer with keyboard (using the num pad)"
-msgstr "&Judinti pelę klaviatūra (su skaitine klaviatūra)"
+msgstr "&Judinti pelę naudojant klaviatūrą (naudojant skaitmeninę klaviatūrą)"
 
 #. i18n: ectx: property (text), widget (QLabel, label_7)
 #: kcm/xlib/kcmmouse.ui:424
@@ -470,10 +483,9 @@ msgid "Mouse"
 msgstr "Pelė"
 
 #: kcm/xlib/xlib_config.cpp:98
-#, fuzzy, kde-format
-#| msgid "(c) 1997 - 2005 Mouse developers"
+#, kde-format
 msgid "(c) 1997 - 2018 Mouse developers"
-msgstr "(c) 1997 - 2005 Pelės programuotojai"
+msgstr "(c) 1997 - 2018 Pelės plėtotojai"
 
 #: kcm/xlib/xlib_config.cpp:99
 #, kde-format

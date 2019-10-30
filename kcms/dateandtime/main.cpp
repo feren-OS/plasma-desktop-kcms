@@ -24,7 +24,7 @@
 #include <unistd.h>
 #include <time.h>
 
-//Added by qt3to4:
+
 #include <QVBoxLayout>
 
 #include <QDBusConnection>
@@ -54,7 +54,7 @@ KclockModule::KclockModule(QWidget *parent, const QVariantList &)
                                                                                 QStringLiteral("org.freedesktop.DBus"),
                                                                                 QStringLiteral("ListActivatableNames")));
 
-  if (!reply.arguments().isEmpty() &&  reply.arguments().first().value<QStringList>().contains(QStringLiteral("org.freedesktop.timedate1"))) {
+  if (!reply.arguments().isEmpty() &&  reply.arguments().first().value<QStringList>().contains(QLatin1String("org.freedesktop.timedate1"))) {
       m_haveTimedated = true;
   }
 

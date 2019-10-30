@@ -36,12 +36,11 @@
 #include "ui_styleconfig.h"
 
 #include <kaboutdata.h>
-#include <kapplication.h>
+//#include <kapplication.h>
 #include <kcombobox.h>
 #include <kmessagebox.h>
-#include <kstandarddirs.h>
 #include <kautostart.h>
-#include <KDebug>
+#include <KLocalizedString>
 #include <KLibrary>
 #include <KColorScheme>
 #include <KStandardDirs>
@@ -86,7 +85,6 @@
 
 #include <kpluginfactory.h>
 #include <kpluginloader.h>
-#include <kdemacros.h>
 
 K_PLUGIN_FACTORY(KCMStyleFactory, registerPlugin<KCMStyle>();)
 K_EXPORT_PLUGIN(KCMStyleFactory("kcmstyle"))
@@ -96,7 +94,7 @@ extern "C"
 {
     Q_DECL_EXPORT void kcminit_style()
     {
-        uint flags = KRdbExportQtSettings | KRdbExportQtColors | KRdbExportXftSettings | KRdbExportGtkTheme;
+        uint flags = KRdbExportQtSettings | KRdbExportGtkColors | KRdbExportQtColors | KRdbExportXftSettings | KRdbExportGtkTheme;
         KConfig _config( QStringLiteral("kcmdisplayrc"), KConfig::NoGlobals  );
         KConfigGroup config(&_config, "X11");
 
@@ -371,13 +369,6 @@ void KCMStyle::save()
         // ##### FIXME - Doesn't apply all settings correctly due to bugs in
         // KApplication/KToolbar
         KGlobalSettings::self()->emitChange(KGlobalSettings::ToolbarStyleChanged);
-
-#if defined(Q_OS_UNIX) && !defined(Q_OS_MAC)
-        // Send signal to all kwin instances
-        QDBusMessage message =
-        QDBusMessage::createSignal(QStringLiteral("/KWin"), QStringLiteral("org.kde.KWin"), QStringLiteral("reloadConfig"));
-        QDBusConnection::sessionBus().send(message);
-#endif
     }
 
     // Clean up

@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-desktop\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"POT-Creation-Date: 2019-07-11 03:14+0200\n"
 "PO-Revision-Date: 2019-06-03 00:21+0100\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@euskalnet.net>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
@@ -25,7 +25,7 @@ msgstr ""
 "X-Generator: Lokalize 2.0\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: kcmsmserver.cpp:62
+#: kcmsmserver.cpp:63
 #, kde-format
 msgid ""
 "<h1>Session Manager</h1> You can configure the session manager here. This "
@@ -39,17 +39,17 @@ msgstr ""
 "duzun edo ez, saioa berezarri nahi duzun sartzen zaren hurrengo aldian edo "
 "konputagailua automatikoki itzaliko den saiotik ateratzean."
 
-#: kcmsmserver.cpp:82
+#: kcmsmserver.cpp:83
 #, kde-format
 msgid "Restart Now"
 msgstr "Berrabiarazi orain"
 
-#: kcmsmserver.cpp:114
+#: kcmsmserver.cpp:124
 #, kde-format
 msgid "Failed to request restart to firmware setup: %1"
 msgstr "Huts egin du firmware ezarpenera berrabiatzeko eskaerak: %1"
 
-#: kcmsmserver.cpp:126
+#: kcmsmserver.cpp:136
 #, kde-format
 msgid ""
 "Next time the computer is restarted, it will enter the UEFI setup screen."
@@ -57,7 +57,7 @@ msgstr ""
 "Ordenagailua berrabiatzen den hurrengo aldian, UEFI ezarpen pantailan "
 "sartuko da."
 
-#: kcmsmserver.cpp:128
+#: kcmsmserver.cpp:138
 #, kde-format
 msgid ""
 "Next time the computer is restarted, it will enter the firmware setup screen."
@@ -65,12 +65,12 @@ msgstr ""
 "Ordenagailua berrabiatzen den hurrengo aldian, firmware ezarpen pantailan "
 "sartuko da."
 
-#: kcmsmserver.cpp:140
+#: kcmsmserver.cpp:150
 #, kde-format
 msgid "UEFI Setup"
 msgstr "UEFI ezarpena"
 
-#: kcmsmserver.cpp:141
+#: kcmsmserver.cpp:151
 #, kde-format
 msgid "Enter UEFI setup on next restart"
 msgstr "Sartu UEFI ezarpenera hurrengo berrabioan"

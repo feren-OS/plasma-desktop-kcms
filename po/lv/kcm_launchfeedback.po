@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmlaunch\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"POT-Creation-Date: 2019-10-22 07:36+0200\n"
 "PO-Revision-Date: 2008-07-04 16:06+0300\n"
 "Last-Translator: Viesturs Zarins <viesturs.zarins@mii.lu.lv>\n"
 "Language-Team: Latvian <locale@laka.lv>\n"
@@ -84,7 +84,7 @@ msgstr "Ieslēgt paziņojumu &uzdevumjoslā"
 msgid "Stop animation after:"
 msgstr "&Palaišanas paziņošanas noildze:"
 
-#: package/contents/ui/main.qml:113
+#: package/contents/ui/main.qml:114
 #, fuzzy, kde-format
 #| msgid " sec"
 msgid "%1 sec"

@@ -38,7 +38,7 @@
 >Autostartbeheerder</title>
 
 <para
->Deze module is een configuratiehulpmiddel voor het beheren van welke programma's opstarten samen met uw persoonlijke &plasma;. Het stelt u in staat om programma's of scripts toe te voegen zodat deze automatisch opstarten tijdens het opstarten van uw &plasma;-sessie en om ze te beheren.</para>
+>Deze module is een configuratiehulpmiddel voor het beheren van welke programma's opstarten samen met uw persoonlijke &plasma;. Het stelt u in staat om programma's of scripts toe te voegen zodat deze automatisch draaien tijdens opstarten van uw &plasma;-sessie en om ze te beheren.</para>
 
 <note
 ><para
@@ -198,7 +198,7 @@
 > en zullen automatisch worden uitgevoerd bij het afsluiten van &plasma; nadat de gebruiker zich heeft afgemeld. </para>
 <para
 >Scripts ingesteld om te worden uitgevoerd bij <guilabel
->Pre-&kde; opstart</guilabel
+>Pre-&plasma; opstart</guilabel
 > worden gekopieerd of krijgen een symbolische koppeling in <filename class="directory"
 >$HOME/.config/env</filename
 > en worden uitgevoerd bij het opstarten van &plasma; (het <filename
@@ -254,7 +254,7 @@
 <para
 >Deze knop opent een dialoog die u vraagt om de locatie van het script dat u wilt toevoegen. Als u <guilabel
 >Als symbolische koppeling aanmaken</guilabel
-> geactiveerd laat (standaard) dan zal het script worden toegevoegd als een symbolische koppeling. Als u deze optie de-activeert dan zal het script worden gekopieerd in de overeenkomstige lokale map. </para>
+> geactiveerd laat (standaard) dan zal het script worden toegevoegd als een symbolische koppeling. Als u deze optie de-activeert dan zal het script worden gekopieerd naar de overeenkomstige lokale map. </para>
 </listitem>
 </varlistentry>
 <varlistentry
@@ -286,7 +286,7 @@
 ></term>
 <listitem>
 <para
->Deze knop is alleen van toepassing op programma's (&ie; bureaubladbestanden). Een dialoog vraagt u of u wilt dat het programma alleen in &plasma; automatisch opstart (en niet in andere bureaubladomgevingen die u zou kunnen gebruiken). Standaard, zal het programma automatisch opstarten in alle bureaubladomgevingen die u zou kunnen gebruiken. Activeren van <guilabel
+>Deze knop is alleen van toepassing op programma's (&ie; bureaubladbestanden). Een dialoog vraagt u of u wilt dat het programma in &plasma; automatisch opstart (en niet in andere bureaubladomgevingen die u zou kunnen gebruiken). Standaard, zal het programma automatisch opstarten in alle bureaubladomgevingen die u zou kunnen gebruiken. Activeren van <guilabel
 >Alleen in Plasma opstarten</guilabel
 > zorgt dat het programma alleen opstart als u de &plasma; bureaubladomgeving opstart. </para>
 <para

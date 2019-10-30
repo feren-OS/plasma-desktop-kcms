@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: joystick\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"POT-Creation-Date: 2019-09-12 03:25+0200\n"
 "PO-Revision-Date: 2009-11-22 14:45+0800\n"
 "Last-Translator: Frank Weng (a.k.a. Franklin) <franklin at goodhorse dot idv "
 "dot tw>\n"
@@ -108,59 +108,59 @@ msgstr "調校完成"
 msgid "Value Axis %1: %2"
 msgstr "x座標 %1: %2"
 
-#: joydevice.cpp:56
+#: joydevice.cpp:55
 #, kde-format
 msgid "The given device %1 could not be opened: %2"
 msgstr "無法開啟裝置:%1(%2)"
 
-#: joydevice.cpp:62
+#: joydevice.cpp:61
 #, kde-format
 msgid "The given device %1 is not a joystick."
 msgstr "裝置 %1 不是搖桿"
 
-#: joydevice.cpp:67
+#: joydevice.cpp:66
 #, kde-format
 msgid "Could not get kernel driver version for joystick device %1: %2"
 msgstr "無法取得搖桿 %1 的核心驅動程式版本: %2"
 
-#: joydevice.cpp:81
+#: joydevice.cpp:80
 #, kde-format
 msgid ""
 "The current running kernel driver version (%1.%2.%3) is not the one this "
 "module was compiled for (%4.%5.%6)."
 msgstr "該模組所編譯的核心(%4.%5.%6)與正執行中的核心驅動程式版本(%1.%2.%3)不符"
 
-#: joydevice.cpp:93
+#: joydevice.cpp:92
 #, kde-format
 msgid "Could not get number of buttons for joystick device %1: %2"
 msgstr "無法取得搖桿 %1 按鍵數目: %2"
 
-#: joydevice.cpp:99
+#: joydevice.cpp:98
 #, kde-format
 msgid "Could not get number of axes for joystick device %1: %2"
 msgstr "無法取得搖桿 %1 座標: %2"
 
-#: joydevice.cpp:105
+#: joydevice.cpp:104
 #, kde-format
 msgid "Could not get calibration values for joystick device %1: %2"
 msgstr "無法取得搖桿 %1 校正值: %2"
 
-#: joydevice.cpp:111
+#: joydevice.cpp:110
 #, kde-format
 msgid "Could not restore calibration values for joystick device %1: %2"
 msgstr "無法還原校正值到搖桿 %1: %2"
 
-#: joydevice.cpp:117
+#: joydevice.cpp:116
 #, kde-format
 msgid "Could not initialize calibration values for joystick device %1: %2"
 msgstr "無法初始校正值到搖桿 %1: %2"
 
-#: joydevice.cpp:123
+#: joydevice.cpp:122
 #, kde-format
 msgid "Could not apply calibration values for joystick device %1: %2"
 msgstr "無法套用校正值到搖桿 %1: %2"
 
-#: joydevice.cpp:127
+#: joydevice.cpp:126
 #, kde-format
 msgid "internal error - code %1 unknown"
 msgstr "內部錯誤 - 代碼 %1 不明"

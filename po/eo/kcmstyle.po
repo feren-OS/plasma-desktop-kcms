@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmstyle\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"POT-Creation-Date: 2019-10-19 08:02+0200\n"
 "PO-Revision-Date: 2007-12-18 10:07-0600\n"
 "Last-Translator: Cindy McKee <cfmckee@gmail.com>\n"
 "Language-Team: Esperanto <kde-i18n-eo@kde.org>\n"
@@ -30,7 +30,7 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "wolfram@steloj.de,Steffen.Pietsch@BerlinOnline.de,cfmckee@gmail.com"
 
-#: kcmstyle.cpp:173
+#: kcmstyle.cpp:171
 #, fuzzy, kde-format
 #| msgid ""
 #| "<h1>Style</h1>This module allows you to modify the visual appearance of "
@@ -42,48 +42,48 @@ msgstr ""
 "<h1>Stilagordo</h1>Tiu modulo permesas ŝanĝi la aperon de la grafikaj "
 "elementoj, fenestraĵostiloj kaj efektoj."
 
-#: kcmstyle.cpp:183
+#: kcmstyle.cpp:181
 #, fuzzy, kde-format
 #| msgid "Application Level"
 msgid "Application Style"
 msgstr "Aplikaĵa nivelo"
 
-#: kcmstyle.cpp:185
+#: kcmstyle.cpp:183
 #, kde-format
 msgid "(c) 2002 Karol Szwed, Daniel Molkentin"
 msgstr "(C) 2002 ĉe Karol Szwed, Daniel Molkentin"
 
-#: kcmstyle.cpp:187
+#: kcmstyle.cpp:185
 #, kde-format
 msgid "Karol Szwed"
 msgstr "Karol Szwed"
 
-#: kcmstyle.cpp:188
+#: kcmstyle.cpp:186
 #, kde-format
 msgid "Daniel Molkentin"
 msgstr "Daniel Molkentin"
 
-#: kcmstyle.cpp:198
+#: kcmstyle.cpp:196
 #, kde-format
 msgid "Preview"
 msgstr "Antaŭrigardo"
 
-#: kcmstyle.cpp:252 kcmstyle.cpp:263
+#: kcmstyle.cpp:250 kcmstyle.cpp:261
 #, kde-format
 msgid "There was an error loading the configuration dialog for this style."
 msgstr "Eraro okazis dum ŝargo de la agorda dialogo por ĉi tiu stilo."
 
-#: kcmstyle.cpp:254 kcmstyle.cpp:265
+#: kcmstyle.cpp:252 kcmstyle.cpp:263
 #, kde-format
 msgid "Unable to Load Dialog"
 msgstr "Ne povis ŝargi dialogon"
 
-#: kcmstyle.cpp:488
+#: kcmstyle.cpp:479
 #, kde-format
 msgid "No description available."
 msgstr "Neniu priskribo troviĝis."
 
-#: kcmstyle.cpp:695
+#: kcmstyle.cpp:686
 #, kde-format
 msgid ""
 "This area shows a preview of the currently selected style without having to "
@@ -92,7 +92,7 @@ msgstr ""
 "Tiu areo montras antaŭrigardon de la elektita stilo. Tiel vi povas prijuĝi "
 "ĝin sen apliki ĝin al la tuta labortablo."
 
-#: kcmstyle.cpp:697
+#: kcmstyle.cpp:688
 #, kde-format
 msgid ""
 "Here you can choose from a list of predefined widget styles (e.g. the way "
@@ -104,7 +104,7 @@ msgstr ""
 "kun etosoj, kiuj donas aldonajn aspekterojn, kiel marmoran teksturon aŭ "
 "kolortransirojn k.s."
 
-#: kcmstyle.cpp:701
+#: kcmstyle.cpp:692
 #, fuzzy, kde-format
 #| msgid ""
 #| "If you enable this option, KDE Applications will show small icons "
@@ -116,7 +116,7 @@ msgstr ""
 "Se elektita, KDE-aplikaĵoj montras malgrandajn piktogramojn apud kelkaj "
 "gravaj butonoj."
 
-#: kcmstyle.cpp:703
+#: kcmstyle.cpp:694
 #, fuzzy, kde-format
 #| msgid ""
 #| "If you enable this option, KDE Applications will show small icons "
@@ -128,7 +128,7 @@ msgstr ""
 "Se elektita, KDE-aplikaĵoj montras malgrandajn piktogramojn apud kelkaj "
 "gravaj butonoj."
 
-#: kcmstyle.cpp:705
+#: kcmstyle.cpp:696
 #, fuzzy, kde-format
 #| msgid ""
 #| "<p><b>Icons only:</b> Shows only icons on toolbar buttons. Best option "
@@ -152,7 +152,7 @@ msgstr ""
 "piktogramojn kaj tekston sur butonoj de ilobretoj. La teksto aperas sube de "
 "la piktogramo."
 
-#: styleconfdialog.cpp:29
+#: styleconfdialog.cpp:33
 #, kde-format
 msgid "Configure %1"
 msgstr "Agordi %1"

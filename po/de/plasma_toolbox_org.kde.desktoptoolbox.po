@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"POT-Creation-Date: 2019-10-23 07:53+0200\n"
 "PO-Revision-Date: 2019-03-22 09:02+0100\n"
 "Last-Translator: Burkhard Lück <lueck@hube-lueck.de>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
@@ -20,12 +20,12 @@ msgstr ""
 msgid "Default"
 msgstr "Standard"
 
-#: contents/ui/ToolBoxButton.qml:30
+#: contents/ui/ToolBoxButton.qml:31
 #, kde-format
 msgid "Desktop Toolbox"
 msgstr "Werkzeugkasten der Arbeitsfläche"
 
-#: contents/ui/ToolBoxButton.qml:30
+#: contents/ui/ToolBoxButton.qml:32
 #, kde-format
 msgid "Desktop Toolbox — %1 Activity"
 msgstr "Werkzeugkasten der Arbeitsfläche — Aktivität %1"

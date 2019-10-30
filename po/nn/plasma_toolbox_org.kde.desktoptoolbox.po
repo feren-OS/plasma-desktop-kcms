@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"POT-Creation-Date: 2019-10-23 07:53+0200\n"
 "PO-Revision-Date: 2019-02-09 12:13+0100\n"
 "Last-Translator: Karl Ove Hufthammer <karl@huftis.org>\n"
 "Language-Team: Norwegian Nynorsk <i18n-nn@lister.ping.uio.no>\n"
@@ -17,19 +17,19 @@ msgstr ""
 "X-Accelerator-Marker: &\n"
 "X-Text-Markup: kde4\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 18.12.1\n"
+"X-Generator: Lokalize 19.11.70\n"
 
 #: contents/ui/ToolBoxButton.qml:30
 #, kde-format
 msgid "Default"
 msgstr "Standard"
 
-#: contents/ui/ToolBoxButton.qml:30
+#: contents/ui/ToolBoxButton.qml:31
 #, kde-format
 msgid "Desktop Toolbox"
 msgstr "Skrivebord-verktøykasse"
 
-#: contents/ui/ToolBoxButton.qml:30
+#: contents/ui/ToolBoxButton.qml:32
 #, kde-format
 msgid "Desktop Toolbox — %1 Activity"
 msgstr "Skrivebord-verktøykasse – %1 aktivitet"

@@ -1,13 +1,13 @@
 # Copyright (C) YEAR This_file_is_part_of_KDE
 # This file is distributed under the same license as the PACKAGE package.
 #
-# Steve Allewell <steve.allewell@gmail.com>, 2014, 2017, 2018.
+# Steve Allewell <steve.allewell@gmail.com>, 2014, 2017, 2018, 2019.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
-"PO-Revision-Date: 2018-05-27 12:17+0000\n"
+"POT-Creation-Date: 2019-08-02 03:11+0200\n"
+"PO-Revision-Date: 2019-08-03 16:17+0100\n"
 "Last-Translator: Steve Allewell <steve.allewell@gmail.com>\n"
 "Language-Team: British English <kde-i18n-doc@kde.org>\n"
 "Language: en_GB\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 2.0\n"
+"X-Generator: Lokalize 19.07.70\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -59,15 +59,13 @@ msgstr "Double-click to open files and folders (single click to select)"
 
 #: workspaceoptions.cpp:40
 #, kde-format
-msgid "Plasma Workspace global options"
-msgstr "Plasma Workspace global options"
+msgid "General Behavior"
+msgstr "General Behaviour"
 
 #: workspaceoptions.cpp:42
 #, kde-format
-msgid ""
-"System Settings module for managing global options for the Plasma Workspace."
-msgstr ""
-"System Settings module for managing global options for the Plasma Workspace."
+msgid "System Settings module for configuring general workspace behavior."
+msgstr "System Settings module for configuring general workspace behaviour."
 
 #: workspaceoptions.cpp:45
 #, kde-format

@@ -212,7 +212,7 @@
 > e sono eseguiti automaticamente durante l'arresto di &plasma; dopo che l'utente ha terminato la propria sessione. </para>
 <para
 >Gli script impostati per essere eseguiti all'<guilabel
->avvio pre-&kde;</guilabel
+>avvio pre-&plasma;</guilabel
 > sono copiati o collegati simbolicamente in <filename class="directory"
 >$HOME/.config/plasma-workspace/env</filename
 > e sono ricavati durante l'avvio di &plasma; (lo script <filename

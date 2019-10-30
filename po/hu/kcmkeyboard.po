@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KDE 4.1\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"POT-Creation-Date: 2019-08-11 03:10+0200\n"
 "PO-Revision-Date: 2017-12-13 17:26-0500\n"
 "Last-Translator: Kiszel Kristóf <kiszel.kristof@gmail.com>\n"
 "Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
@@ -62,7 +62,7 @@ msgstr "%1 - %2"
 msgid "Any language"
 msgstr "Bármely nyelv"
 
-#: kcm_add_layout_dialog.cpp:141 kcm_view_models.cpp:319
+#: kcm_add_layout_dialog.cpp:141 kcm_view_models.cpp:311
 #, kde-format
 msgctxt "variant"
 msgid "Default"
@@ -400,28 +400,28 @@ msgid_plural "%1 shortcuts"
 msgstr[0] "%1 gyorsbillentyű"
 msgstr[1] "%1 gyorsbillentyű"
 
-#: kcm_view_models.cpp:226
+#: kcm_view_models.cpp:220
 #, kde-format
 msgctxt "layout map name"
 msgid "Map"
 msgstr "Kód"
 
-#: kcm_view_models.cpp:226
+#: kcm_view_models.cpp:220
 #, kde-format
 msgid "Layout"
 msgstr "Kiosztás"
 
-#: kcm_view_models.cpp:226
+#: kcm_view_models.cpp:220
 #, kde-format
 msgid "Variant"
 msgstr "Variáns"
 
-#: kcm_view_models.cpp:226
+#: kcm_view_models.cpp:220
 #, kde-format
 msgid "Label"
 msgstr "Címke"
 
-#: kcm_view_models.cpp:226
+#: kcm_view_models.cpp:220
 #, kde-format
 msgid "Shortcut"
 msgstr "Gyorsbillentyű"

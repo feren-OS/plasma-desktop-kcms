@@ -2,16 +2,18 @@
 # Copyright (C) 2013-2019 This_file_is_part_of_KDE
 # This file is distributed under the license LGPL version 2.1 or
 # version 3 or later versions approved by the membership of KDE e.V.
+# or the same license as the source of its messages in English.
 #
 # Josep Ma. Ferrer <txemaq@gmail.com>, 2013, 2014, 2015, 2016, 2017, 2018, 2019.
 # Antoni Bella Pérez <antonibella5@yahoo.com>, 2014, 2015, 2016.
+# Alfredo vicente <alviboi@gmail.com>, 2019.
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma_shell_org.kde.plasma.desktop\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-06-15 07:36+0200\n"
-"PO-Revision-Date: 2019-05-04 11:31+0100\n"
-"Last-Translator: Josep Ma. Ferrer <txemaq@gmail.com>\n"
+"POT-Creation-Date: 2019-07-26 03:18+0200\n"
+"PO-Revision-Date: 2019-07-05 11:43+0200\n"
+"Last-Translator: Alfredo vicente <alviboi@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca@valencia\n"
 "MIME-Version: 1.0\n"
@@ -19,7 +21,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Accelerator-Marker: &\n"
-"X-Generator: Lokalize 2.0\n"
+"X-Generator: Lokalize 19.04.2\n"
 
 #: contents/activitymanager/ActivityItem.qml:206
 msgid "Currently being used"
@@ -31,11 +33,11 @@ msgstr "Configura"
 
 #: contents/activitymanager/ActivityItem.qml:300
 msgid "Stop activity"
-msgstr "Atura l'activitat"
+msgstr "Para l'activitat"
 
 #: contents/activitymanager/ActivityList.qml:155
 msgid "Stopped activities:"
-msgstr "Activitats aturades:"
+msgstr "Activitats parades:"
 
 #: contents/activitymanager/ActivityManager.qml:140
 msgid "Create activity..."
@@ -48,7 +50,7 @@ msgstr "Activitats"
 #: contents/activitymanager/Heading.qml:85
 #: contents/explorer/WidgetExplorer.qml:249
 msgid "Search..."
-msgstr "Cerca..."
+msgstr "Busca..."
 
 #: contents/activitymanager/StoppedActivityItem.qml:146
 msgid "Configure activity"
@@ -62,27 +64,27 @@ msgstr "Suprimeix"
 msgid "Keyboard Shortcuts"
 msgstr "Dreceres del teclat"
 
-#: contents/configuration/AppletConfiguration.qml:111
+#: contents/configuration/AppletConfiguration.qml:133
 msgid "Apply Settings"
-msgstr "Aplica l'arranjament"
+msgstr "Aplica la configuració"
 
-#: contents/configuration/AppletConfiguration.qml:112
+#: contents/configuration/AppletConfiguration.qml:134
 msgid ""
 "The settings of the current module have changed. Do you want to apply the "
 "changes or discard them?"
 msgstr ""
-"L'arranjament del mòdul actual ha canviat. Voleu aplicar els canvis o "
+"La configuració del mòdul actual ha canviat. Voleu aplicar-hi els canvis o "
 "descartar-los?"
 
-#: contents/configuration/AppletConfiguration.qml:407
+#: contents/configuration/AppletConfiguration.qml:418
 msgid "OK"
 msgstr "D'acord"
 
-#: contents/configuration/AppletConfiguration.qml:414
+#: contents/configuration/AppletConfiguration.qml:425
 msgid "Apply"
 msgstr "Aplica"
 
-#: contents/configuration/AppletConfiguration.qml:420
+#: contents/configuration/AppletConfiguration.qml:431
 #: contents/explorer/AppletAlternatives.qml:185
 msgid "Cancel"
 msgstr "Cancel·la"
@@ -143,7 +145,9 @@ msgstr "Afig una acció"
 
 #: contents/configuration/ConfigurationContainmentAppearance.qml:75
 msgid "Layout cannot be changed while widgets are locked"
-msgstr "La disposició no es pot canviar mentre els estris estan bloquejats"
+msgstr ""
+"La disposició no es pot canviar mentre que els ginys («widgets») estiguen "
+"bloquejats"
 
 #: contents/configuration/ConfigurationContainmentAppearance.qml:90
 msgid "Layout:"
@@ -155,7 +159,7 @@ msgstr "Tipus de fons de pantalla:"
 
 #: contents/configuration/ConfigurationContainmentAppearance.qml:122
 msgid "Get New Plugins..."
-msgstr "Obtén connectors nous..."
+msgstr "Obtín connectors nous..."
 
 #: contents/configuration/ConfigurationContainmentAppearance.qml:140
 msgid "Layout changes must be applied before other changes can be made"
@@ -167,7 +171,7 @@ msgstr "Aplica ara"
 
 #: contents/configuration/ConfigurationShortcuts.qml:39
 msgid "This shortcut will activate the applet as though it had been clicked."
-msgstr "Aquesta drecera activarà la miniaplicació com si s'haguera clicat."
+msgstr "Aquesta drecera activarà la miniaplicació com si s'hi haguera clicat."
 
 #: contents/configuration/ContainmentConfiguration.qml:43
 msgid "Wallpaper"
@@ -225,7 +229,7 @@ msgstr "Sempre visible"
 
 #: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:101
 msgid "Auto Hide"
-msgstr "Oculta automàticament"
+msgstr "Amaga automàticament"
 
 #: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:109
 msgid "Windows Can Cover"
@@ -233,7 +237,7 @@ msgstr "Les finestres el poden tapar"
 
 #: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:117
 msgid "Windows Go Below"
-msgstr "Les finestres van a sota"
+msgstr "Les finestres van baix"
 
 #: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:126
 msgid "Maximize Panel"
@@ -249,11 +253,11 @@ msgstr "Alçària"
 
 #: contents/configuration/panelconfiguration/SizeHandle.qml:54
 msgid "Click and drag the button to resize the panel."
-msgstr "Cliqueu i arrossegueu el botó per redimensionar el plafó."
+msgstr "Cliqueu i arrossegueu el botó per a canviar la mida del plafó."
 
 #: contents/configuration/panelconfiguration/ToolBar.qml:33
 msgid "Lock Widgets"
-msgstr "Bloqueja els estris"
+msgstr "Bloqueja els ginys («widgets»)"
 
 #: contents/configuration/panelconfiguration/ToolBar.qml:34
 msgid "Remove Panel"
@@ -261,7 +265,7 @@ msgstr "Elimina el plafó"
 
 #: contents/configuration/panelconfiguration/ToolBar.qml:35
 msgid "Add Widgets..."
-msgstr "Afig estris..."
+msgstr "Afig ginys («widgets»)..."
 
 #: contents/configuration/panelconfiguration/ToolBar.qml:36
 msgid "Add Spacer"
@@ -277,7 +281,7 @@ msgstr "Tanca"
 
 #: contents/explorer/AppletAlternatives.qml:83
 msgid "Alternative Widgets"
-msgstr "Estris alternatius"
+msgstr "Ginys («widgets») alternatius"
 
 #: contents/explorer/AppletAlternatives.qml:174
 msgid "Switch"
@@ -289,7 +293,7 @@ msgstr "Desfés la desinstal·lació"
 
 #: contents/explorer/AppletDelegate.qml:180
 msgid "Uninstall widget"
-msgstr "Desinstal·la l'estri"
+msgstr "Desinstal·la el giny («widget»)"
 
 #: contents/explorer/Tooltip.qml:106
 msgid "License:"
@@ -309,7 +313,7 @@ msgstr "Desinstal·la"
 
 #: contents/explorer/WidgetExplorer.qml:216
 msgid "Widgets"
-msgstr "Estris"
+msgstr "Ginys («widgets»)"
 
 #: contents/explorer/WidgetExplorer.qml:224
 msgid "Categories"
@@ -317,4 +321,4 @@ msgstr "Categories"
 
 #: contents/explorer/WidgetExplorer.qml:355
 msgid "Get New Widgets..."
-msgstr "Obtén estris nous..."
+msgstr "Obtín ginys («widgets») nous..."

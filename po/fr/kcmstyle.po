@@ -11,13 +11,13 @@
 # Amine Say <aminesay@yahoo.fr>, 2008, 2009, 2010.
 # xavier <ktranslator31@yahoo.fr>, 2013.
 # Vincent Pinon <vpinon@kde.org>, 2017.
-# Simon Depiets <sdepiets@gmail.com>, 2018.
+# Simon Depiets <sdepiets@gmail.com>, 2018, 2019.
 msgid ""
 msgstr ""
 "Project-Id-Version: kcmstyle\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
-"PO-Revision-Date: 2018-01-06 20:44+0800\n"
+"POT-Creation-Date: 2019-10-19 08:02+0200\n"
+"PO-Revision-Date: 2019-08-10 20:46+0800\n"
 "Last-Translator: Simon Depiets <sdepiets@gmail.com>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
@@ -25,7 +25,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 2.0\n"
+"X-Generator: Lokalize 19.07.70\n"
 "X-Environment: kde\n"
 "X-Accelerator-Marker: &\n"
 "X-Text-Markup: kde4\n"
@@ -40,64 +40,58 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "cousin@kde.org, aminesay@yahoo.fr, sdepiets@gmail.com"
 
-#: kcmstyle.cpp:173
-#, fuzzy, kde-format
-#| msgid ""
-#| "<h1>Style</h1>This module allows you to modify the visual appearance of "
-#| "user interface elements, such as the widget style and effects."
+#: kcmstyle.cpp:171
+#, kde-format
 msgid ""
 "This module allows you to modify the visual appearance of applications' user "
 "interface elements."
 msgstr ""
-"<h1>Style</h1> Ce module vous permet de configurer l'aspect visuel des "
-"éléments de l'interface utilisateur, comme le style des composants "
-"graphiques et les effets."
+"Ce module vous permet de configurer l'aspect visuel des éléments de "
+"l'interface utilisateur des applications."
+
+#: kcmstyle.cpp:181
+#, kde-format
+msgid "Application Style"
+msgstr "Style de l'application"
 
 #: kcmstyle.cpp:183
-#, fuzzy, kde-format
-#| msgctxt "@title:tab"
-#| msgid "&Applications"
-msgid "Application Style"
-msgstr "&Applications"
-
-#: kcmstyle.cpp:185
 #, kde-format
 msgid "(c) 2002 Karol Szwed, Daniel Molkentin"
 msgstr "(c) 2002 Karol Szwed, Daniel Molkentin"
 
-#: kcmstyle.cpp:187
+#: kcmstyle.cpp:185
 #, kde-format
 msgid "Karol Szwed"
 msgstr "Karol Szwed"
 
-#: kcmstyle.cpp:188
+#: kcmstyle.cpp:186
 #, kde-format
 msgid "Daniel Molkentin"
 msgstr "Daniel Molkentin"
 
-#: kcmstyle.cpp:198
+#: kcmstyle.cpp:196
 #, kde-format
 msgid "Preview"
 msgstr "Aperçu"
 
-#: kcmstyle.cpp:252 kcmstyle.cpp:263
+#: kcmstyle.cpp:250 kcmstyle.cpp:261
 #, kde-format
 msgid "There was an error loading the configuration dialog for this style."
 msgstr ""
 "Une erreur s'est produite lors du chargement de la boîte de dialogue de "
 "configuration de ce style."
 
-#: kcmstyle.cpp:254 kcmstyle.cpp:265
+#: kcmstyle.cpp:252 kcmstyle.cpp:263
 #, kde-format
 msgid "Unable to Load Dialog"
 msgstr "Impossible de charger la boîte de dialogue"
 
-#: kcmstyle.cpp:488
+#: kcmstyle.cpp:479
 #, kde-format
 msgid "No description available."
 msgstr "Aucune description disponible."
 
-#: kcmstyle.cpp:695
+#: kcmstyle.cpp:686
 #, kde-format
 msgid ""
 "This area shows a preview of the currently selected style without having to "
@@ -106,7 +100,7 @@ msgstr ""
 "Cette fenêtre affiche un aperçu du style graphique actuellement sélectionné "
 "sans avoir à l'appliquer sur la totalité du bureau."
 
-#: kcmstyle.cpp:697
+#: kcmstyle.cpp:688
 #, kde-format
 msgid ""
 "Here you can choose from a list of predefined widget styles (e.g. the way "
@@ -118,38 +112,26 @@ msgstr ""
 "Celui-ci peut être ou non combiné avec un thème (informations "
 "complémentaires comme une texture marbrée ou un dégradé)."
 
-#: kcmstyle.cpp:701
-#, fuzzy, kde-format
-#| msgid ""
-#| "If you enable this option, KDE Applications will show small icons "
-#| "alongside some important buttons."
+#: kcmstyle.cpp:692
+#, kde-format
 msgid ""
 "If you enable this option, applications will show small icons alongside some "
 "important buttons."
 msgstr ""
-"Si vous cochez cette option, les applications KDE afficheront de petites "
-"icônes à côté de certains boutons importants."
+"Si vous cochez cette option, les applications afficheront de petites icônes "
+"à côté de certains boutons importants."
 
-#: kcmstyle.cpp:703
-#, fuzzy, kde-format
-#| msgid ""
-#| "If you enable this option, KDE Applications will show small icons "
-#| "alongside most menu items."
+#: kcmstyle.cpp:694
+#, kde-format
 msgid ""
 "If you enable this option, applications will show small icons alongside most "
 "menu items."
 msgstr ""
-"Si vous cochez cette option, les applications KDE afficheront de petites "
-"icônes à côté de la plupart des entrées de menus."
+"Si vous cochez cette option, les applications afficheront de petites icônes "
+"à côté de la plupart des entrées de menus."
 
-#: kcmstyle.cpp:705
-#, fuzzy, kde-format
-#| msgid ""
-#| "<p><b>No Text:</b> Shows only icons on toolbar buttons. Best option for "
-#| "low resolutions.</p><p><b>Text Only: </b>Shows only text on toolbar "
-#| "buttons.</p><p><b>Text Beside Icons: </b> Shows icons and text on toolbar "
-#| "buttons. Text is aligned beside the icon.</p><b>Text Below Icons: </b> "
-#| "Shows icons and text on toolbar buttons. Text is aligned below the icon."
+#: kcmstyle.cpp:696
+#, kde-format
 msgid ""
 "<p><b>No text:</b> Shows only icons on toolbar buttons. Best option for low "
 "resolutions.</p><p><b>Text only: </b>Shows only text on toolbar buttons.</"
@@ -165,89 +147,80 @@ msgstr ""
 "icônes : </b>affiche les icônes et le texte dans les boutons de barres "
 "d'outils. Le texte est placé sous l'icône."
 
-#: styleconfdialog.cpp:29
+#: styleconfdialog.cpp:33
 #, kde-format
 msgid "Configure %1"
 msgstr "Configurer %1"
 
 #. i18n: ectx: property (text), widget (QLabel, labelApplicationStyle)
 #: styleconfig.ui:20
-#, fuzzy, kde-format
-#| msgctxt "@title:tab"
-#| msgid "&Applications"
+#, kde-format
 msgid "Application style:"
-msgstr "&Applications"
+msgstr "Style des applications :"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, pbConfigStyle)
 #: styleconfig.ui:45
 #, kde-format
 msgid "Configure Application Style..."
-msgstr ""
+msgstr "Configurer le style des applications..."
 
 #. i18n: ectx: property (text), widget (QLabel, labelShowIcons)
 #: styleconfig.ui:61
-#, fuzzy, kde-format
-#| msgid "Show icons in menus:"
+#, kde-format
 msgid "Show icons:"
-msgstr "Afficher les icônes dans les menus :"
+msgstr "Afficher les icônes :"
 
 #. i18n: ectx: property (text), widget (QLabel, labelToolbarIcons)
 #: styleconfig.ui:68
-#, fuzzy, kde-format
-#| msgid "Main &toolbar text location:"
+#, kde-format
 msgid "Main toolbar label:"
-msgstr "Emplacement du &texte de la barre d'outils principale :"
+msgstr "Texte de la barre d'outils principale :"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, comboToolbarIcons)
 #. i18n: ectx: property (text), item, widget (QComboBox, comboSecondaryToolbarIcons)
 #: styleconfig.ui:79 styleconfig.ui:113
 #, kde-format
 msgid "None"
-msgstr ""
+msgstr "Aucun"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, comboToolbarIcons)
 #. i18n: ectx: property (text), item, widget (QComboBox, comboSecondaryToolbarIcons)
 #: styleconfig.ui:84 styleconfig.ui:118
-#, fuzzy, kde-format
-#| msgid "Text Only"
+#, kde-format
 msgid "Text only"
 msgstr "Texte seul"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, comboToolbarIcons)
 #. i18n: ectx: property (text), item, widget (QComboBox, comboSecondaryToolbarIcons)
 #: styleconfig.ui:89 styleconfig.ui:123
-#, fuzzy, kde-format
-#| msgid "Text Beside Icons"
+#, kde-format
 msgid "Beside icons"
-msgstr "Texte à coté des icônes"
+msgstr "À côté des icônes"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, comboToolbarIcons)
 #. i18n: ectx: property (text), item, widget (QComboBox, comboSecondaryToolbarIcons)
 #: styleconfig.ui:94 styleconfig.ui:128
-#, fuzzy, kde-format
-#| msgid "Text Below Icons"
+#, kde-format
 msgid "Below icons"
-msgstr "Texte sous les icônes"
+msgstr "En dessous des icônes"
 
 #. i18n: ectx: property (text), widget (QLabel, labelSecondaryToolbarIcons)
 #: styleconfig.ui:102
-#, fuzzy, kde-format
-#| msgid "Secondary toolbar text &location:"
+#, kde-format
 msgid "Secondary toolbar label:"
-msgstr "Emp&lacement du texte de la barre d'outils secondaire :"
+msgstr "Texte de la barre d'outils secondaire :"
 
 #. i18n: ectx: property (text), widget (QCheckBox, cbIconsOnButtons)
 #: styleconfig.ui:136
-#, fuzzy, kde-format
-#| msgid "Radio button"
+#, kde-format
 msgid "On buttons"
-msgstr "Bouton radio"
+msgstr "Sur les boutons"
 
 #. i18n: ectx: property (text), widget (QCheckBox, cbIconsInMenus)
 #: styleconfig.ui:146
 #, kde-format
 msgid "In menus"
-msgstr ""
+msgstr "Dans les menus"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_1)
 #: stylepreview.ui:33
@@ -263,8 +236,7 @@ msgstr "Bouton à pousser"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBox)
 #: stylepreview.ui:86
-#, fuzzy, kde-format
-#| msgid "Combobox"
+#, kde-format
 msgid "Combo box"
 msgstr "Liste déroulante"
 

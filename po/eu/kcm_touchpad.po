@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcm_touchpad\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-06-20 07:49+0200\n"
-"PO-Revision-Date: 2019-05-17 23:24+0100\n"
+"POT-Creation-Date: 2019-06-20 03:22+0200\n"
+"PO-Revision-Date: 2019-06-09 13:04+0100\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@euskalnet.net>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
 "Language: eu\n"
@@ -116,7 +116,7 @@ msgstr "Trukatu ezker eta eskuin botoiak"
 msgid "Press left and right buttons for middle click"
 msgstr "Sakatu ezker eta eskuin botoiak erdiko-klik egiteko"
 
-#: src/kcm/libinput/touchpad.qml:206 src/kcm/libinput/touchpad.qml:720
+#: src/kcm/libinput/touchpad.qml:206 src/kcm/libinput/touchpad.qml:721
 #, kde-format
 msgid ""
 "Clicking left and right button simultaneously sends middle button click."
@@ -284,15 +284,15 @@ msgstr "Ezgaitu labaintze horizontala"
 
 #: src/kcm/libinput/touchpad.qml:603
 #, kde-format
-msgid "Right-click :"
-msgstr "Eskuineko klik :"
+msgid "Right-click:"
+msgstr "Eskuineko klik:"
 
-#: src/kcm/libinput/touchpad.qml:641
+#: src/kcm/libinput/touchpad.qml:642
 #, kde-format
 msgid "Press bottom-right corner"
 msgstr "Sakatu beheko eskuineko izkina"
 
-#: src/kcm/libinput/touchpad.qml:645
+#: src/kcm/libinput/touchpad.qml:646
 #, kde-format
 msgid ""
 "Software enabled buttons will be added to bottom portion of your touchpad."
@@ -300,27 +300,27 @@ msgstr ""
 "Software bidez gaitutako botoiak gehituko dira zure ukimen-saguaren beheko "
 "atalera."
 
-#: src/kcm/libinput/touchpad.qml:653
+#: src/kcm/libinput/touchpad.qml:654
 #, kde-format
 msgid "Press anywhere with two fingers"
 msgstr "Sakatu edonon bi hatzekin"
 
-#: src/kcm/libinput/touchpad.qml:657
+#: src/kcm/libinput/touchpad.qml:658
 #, kde-format
 msgid "Tap with two finger to enable right click."
 msgstr "Tak bi hatzekin eskuineko klik egiteko."
 
-#: src/kcm/libinput/touchpad.qml:670
+#: src/kcm/libinput/touchpad.qml:671
 #, kde-format
 msgid "Middle-click: "
 msgstr "Erdiko klik: "
 
-#: src/kcm/libinput/touchpad.qml:704
+#: src/kcm/libinput/touchpad.qml:705
 #, kde-format
 msgid "Press bottom-middle"
 msgstr "Sakatu beheko erdialdea"
 
-#: src/kcm/libinput/touchpad.qml:708
+#: src/kcm/libinput/touchpad.qml:709
 #, kde-format
 msgid ""
 "Software enabled middle-button will be added to bottom portion of your "
@@ -329,17 +329,17 @@ msgstr ""
 "Software bidez gaitutako erdiko botoia gehitu da zure ukimen-saguaren beheko "
 "atalera."
 
-#: src/kcm/libinput/touchpad.qml:716
+#: src/kcm/libinput/touchpad.qml:717
 #, kde-format
 msgid "Press bottom left and bottom right corners simultaneously"
 msgstr "Sakatu beheko ezkerreko eta beheko eskuinek izkinak batera"
 
-#: src/kcm/libinput/touchpad.qml:729
+#: src/kcm/libinput/touchpad.qml:730
 #, kde-format
 msgid "Press anywhere with three fingers"
 msgstr "Sakatu edonon hiru hatzekin"
 
-#: src/kcm/libinput/touchpad.qml:735
+#: src/kcm/libinput/touchpad.qml:736
 #, kde-format
 msgid "Press anywhere with three fingers."
 msgstr "Sakatu edonon hiru hatzekin."

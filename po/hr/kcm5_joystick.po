@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: joystick.po\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"POT-Creation-Date: 2019-09-12 03:25+0200\n"
 "PO-Revision-Date: 2009-11-30 00:03+0100\n"
 "Last-Translator: Andrej Dundović <adundovi@gmail.com>\n"
 "Language-Team: Croatian <kde-croatia-list@lists.sourceforge.net>\n"
@@ -114,24 +114,24 @@ msgstr "Uštimavanje je uspješno"
 msgid "Value Axis %1: %2"
 msgstr "Vrijednost osi %1: %2"
 
-#: joydevice.cpp:56
+#: joydevice.cpp:55
 #, kde-format
 msgid "The given device %1 could not be opened: %2"
 msgstr "Odabranom uređaju %1 nije moguće pristupiti: %2"
 
-#: joydevice.cpp:62
+#: joydevice.cpp:61
 #, kde-format
 msgid "The given device %1 is not a joystick."
 msgstr "Odabrani uređaj %1 nije igraća palica."
 
-#: joydevice.cpp:67
+#: joydevice.cpp:66
 #, kde-format
 msgid "Could not get kernel driver version for joystick device %1: %2"
 msgstr ""
 "Kernel verziju upravljačkog programa za igraću palicu %1 nije moguće "
 "dohvatiti: %2"
 
-#: joydevice.cpp:81
+#: joydevice.cpp:80
 #, kde-format
 msgid ""
 "The current running kernel driver version (%1.%2.%3) is not the one this "
@@ -140,38 +140,38 @@ msgstr ""
 "Trenutno pokrenuta kernel verzija upravljačkog programa (%1.%2.%3) nije ona "
 "za koju je ovaj modul sastavljen (%4.%5.%6)."
 
-#: joydevice.cpp:93
+#: joydevice.cpp:92
 #, kde-format
 msgid "Could not get number of buttons for joystick device %1: %2"
 msgstr "Broj tipki igraće palice %1 nije moguće dohvatiti: %2"
 
-#: joydevice.cpp:99
+#: joydevice.cpp:98
 #, kde-format
 msgid "Could not get number of axes for joystick device %1: %2"
 msgstr "Broj osi igraće palice %1 nije moguće dohvatiti: %2"
 
-#: joydevice.cpp:105
+#: joydevice.cpp:104
 #, kde-format
 msgid "Could not get calibration values for joystick device %1: %2"
 msgstr "Uštimavačke vrijednosti igraće palice %1 nije moguće dohvatiti: %2"
 
-#: joydevice.cpp:111
+#: joydevice.cpp:110
 #, kde-format
 msgid "Could not restore calibration values for joystick device %1: %2"
 msgstr "Uštimavačke vrijednosti igraće palice %1 nije moguće obnoviti: %2"
 
-#: joydevice.cpp:117
+#: joydevice.cpp:116
 #, kde-format
 msgid "Could not initialize calibration values for joystick device %1: %2"
 msgstr ""
 "Uštimavačke vrijednosti igraće palice %1 nije moguće inicijalizirati: %2"
 
-#: joydevice.cpp:123
+#: joydevice.cpp:122
 #, kde-format
 msgid "Could not apply calibration values for joystick device %1: %2"
 msgstr "Uštimavačke vrijednosti igraće palice %1 nije moguće primijeniti: %2"
 
-#: joydevice.cpp:127
+#: joydevice.cpp:126
 #, kde-format
 msgid "internal error - code %1 unknown"
 msgstr "interna pogreška – kôd %1 je nepoznat"

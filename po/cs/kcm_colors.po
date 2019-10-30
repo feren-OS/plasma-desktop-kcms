@@ -2,14 +2,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 # Lukáš Tinkl <ltinkl@redhat.com>, 2010.
 # Tomáš Chvátal <tomas.chvatal@gmail.com>, 2010.
-# Vít Pelčák <vit@pelcak.org>, 2010, 2011, 2012, 2014, 2015, 2016, 2017.
+# Vít Pelčák <vit@pelcak.org>, 2010, 2011, 2012, 2014, 2015, 2016, 2017, 2019.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: kcmcolors\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-06-21 07:50+0200\n"
-"PO-Revision-Date: 2017-11-13 14:28+0100\n"
+"POT-Creation-Date: 2019-08-05 03:06+0200\n"
+"PO-Revision-Date: 2019-08-22 12:35+0200\n"
 "Last-Translator: Vit Pelcak <vit@pelcak.org>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
 "Language: cs\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Lokalize 2.0\n"
+"X-Generator: Lokalize 19.04.3\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -29,104 +29,50 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "lukas@kde.org, vit@pelcak.org, tomas.chvatal@gmail.com,mkyral@email.cz"
 
-#: colors.cpp:69 editor/scmeditordialog.cpp:80
+#: colors.cpp:70 editor/scmeditordialog.cpp:80
 #, kde-format
 msgid "Colors"
 msgstr "Barvy"
 
-#: colors.cpp:71
+#: colors.cpp:72
 #, kde-format
 msgid "Kai Uwe Broulik"
 msgstr "Kai Uwe Broulik"
 
-#: colors.cpp:110
+#: colors.cpp:111
 #, kde-format
 msgid "Download New Color Schemes"
-msgstr ""
+msgstr "Stáhnout nová barevná schémata"
 
-#: colors.cpp:166
+#: colors.cpp:167
 #, kde-format
 msgid "Unable to create a temporary file."
 msgstr "Nelze vytvořit dočasný soubor."
 
-#: colors.cpp:180
+#: colors.cpp:181
 #, kde-format
 msgid "Unable to download the color scheme: %1"
-msgstr ""
+msgstr "Nelze stáhnout barevné schéma: %1"
 
-#: colors.cpp:198
+#: colors.cpp:199
 #, kde-format
 msgid "This file is not a color scheme file."
-msgstr ""
+msgstr "Soubor není soubor barevného schématu."
 
-#: colors.cpp:218
+#: colors.cpp:219
 #, kde-format
 msgid "Failed to create 'color-scheme' data folder."
-msgstr ""
+msgstr "Nelze vytvořit složku s daty 'color-scheme'."
 
-#: colors.cpp:225
+#: colors.cpp:226
 #, kde-format
 msgid "Failed to copy color scheme into 'color-scheme' data folder."
-msgstr ""
+msgstr "Selhalo kopírování barevného schématu do složky 'color-scheme'."
 
-#: colors.cpp:242
+#: colors.cpp:243
 #, kde-format
 msgid "Color scheme installed successfully."
-msgstr ""
-
-#. i18n: ectx: property (toolTip), widget (QPushButton, schemeEditButton)
-#: editor/colorsettings.ui:31
-#, kde-format
-msgid "Configure the current color scheme"
-msgstr "Nastavit aktuální barevné schéma"
-
-#. i18n: ectx: property (text), widget (QPushButton, schemeEditButton)
-#: editor/colorsettings.ui:34
-#, kde-format
-msgid "Edit..."
-msgstr "Upravit..."
-
-#. i18n: ectx: property (toolTip), widget (QPushButton, schemeRemoveButton)
-#: editor/colorsettings.ui:52
-#, kde-format
-msgid "Remove the selected scheme"
-msgstr "Odstranit vybrané barevné schéma"
-
-#. i18n: ectx: property (text), widget (QPushButton, schemeRemoveButton)
-#: editor/colorsettings.ui:55
-#, kde-format
-msgid "Remove"
-msgstr "Odstranit"
-
-#. i18n: ectx: property (toolTip), widget (QPushButton, schemeImportButton)
-#: editor/colorsettings.ui:83
-#, kde-format
-msgid "Import a color scheme from a file"
-msgstr "Importovat barevné schéma ze souboru"
-
-#. i18n: ectx: property (text), widget (QPushButton, schemeImportButton)
-#: editor/colorsettings.ui:86
-#, kde-format
-msgid "&Install from File..."
-msgstr ""
-
-#. i18n: ectx: property (toolTip), widget (QPushButton, schemeKnsButton)
-#: editor/colorsettings.ui:98
-#, kde-format
-msgid "Get new color schemes from the Internet"
-msgstr "Získat nová barevná schémata z internetu"
-
-#. i18n: ectx: property (text), widget (QPushButton, schemeKnsButton)
-#: editor/colorsettings.ui:101
-#, kde-format
-msgid "Get &New Color Schemes..."
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, applyToAlien)
-#: editor/colorsettings.ui:137
-#, kde-format
-msgid "Apply colors to &non-Qt applications"
-msgstr "Aplikovat barvy na aplikace &nenapsané ve Qt"
+msgstr "Barevné schéma bylo úspěšně nainstalováno."
 
 #: editor/kcolorschemeeditor.cpp:35
 #, kde-format
@@ -184,7 +130,7 @@ msgstr ""
 #: editor/kcolorschemeeditor.cpp:73
 #, kde-format
 msgid "Scheme not found, falling back to current one.\n"
-msgstr ""
+msgstr "Schéma nebylo nalezeno. Vracím se k současnému.\n"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, label)
 #: editor/preview.ui:29
@@ -1175,102 +1121,107 @@ msgstr "zaměření"
 #: package/contents/ui/main.qml:33
 #, kde-format
 msgid "This module lets you choose the color scheme."
-msgstr ""
+msgstr "Tento modul vám umožní vybrat barevné schéma."
 
-#: package/contents/ui/main.qml:83
+#: package/contents/ui/main.qml:84
 #, kde-format
 msgid ""
 "The color scheme '%1' is not installed. Selecting the default theme instead."
 msgstr ""
 
-#: package/contents/ui/main.qml:95
+#: package/contents/ui/main.qml:96
 #, kde-format
 msgid "Search..."
 msgstr "Hledat..."
 
-#: package/contents/ui/main.qml:133
-#, kde-format
-msgid "All Schemes"
-msgstr ""
-
 #: package/contents/ui/main.qml:134
 #, kde-format
-msgid "Light Schemes"
-msgstr ""
+msgid "All Schemes"
+msgstr "Všechna schémata"
 
 #: package/contents/ui/main.qml:135
 #, kde-format
-msgid "Dark Schemes"
-msgstr ""
+msgid "Light Schemes"
+msgstr "Tmavá schémata"
 
-#: package/contents/ui/main.qml:193
+#: package/contents/ui/main.qml:136
+#, kde-format
+msgid "Dark Schemes"
+msgstr "Tmav7á schémata"
+
+#: package/contents/ui/main.qml:202
+#, kde-format
+msgid "Window Title"
+msgstr "Titulek okna"
+
+#: package/contents/ui/main.qml:223
 #, kde-format
 msgid "Window text"
-msgstr ""
+msgstr "Text okna"
 
-#: package/contents/ui/main.qml:200
+#: package/contents/ui/main.qml:230
 #, kde-format
 msgid "Button"
 msgstr "Tlačítko"
 
-#: package/contents/ui/main.qml:219
+#: package/contents/ui/main.qml:249
 #, kde-format
 msgctxt "Hyperlink"
 msgid "link"
-msgstr ""
+msgstr "odkaz"
 
-#: package/contents/ui/main.qml:221
+#: package/contents/ui/main.qml:251
 #, kde-format
 msgctxt "Visited hyperlink"
 msgid "visited"
-msgstr ""
+msgstr "navštíveno"
 
-#: package/contents/ui/main.qml:227
+#: package/contents/ui/main.qml:257
 #, kde-format
 msgid "Normal text"
 msgstr "Normální text"
 
-#: package/contents/ui/main.qml:235
+#: package/contents/ui/main.qml:265
 #, kde-format
 msgid "Highlighted text"
-msgstr ""
+msgstr "Zvýrazněný text"
 
-#: package/contents/ui/main.qml:242
+#: package/contents/ui/main.qml:272
 #, kde-format
 msgid "Disabled text"
-msgstr ""
+msgstr "Vypnutý text"
 
-#: package/contents/ui/main.qml:260
+#: package/contents/ui/main.qml:290
 #, kde-format
 msgid "Edit Color Scheme..."
-msgstr ""
+msgstr "Upravit barevné schéma..."
 
-#: package/contents/ui/main.qml:266
+#: package/contents/ui/main.qml:296
 #, kde-format
 msgid "Remove Color Scheme"
 msgstr "Odstranit barevné schéma"
 
-#: package/contents/ui/main.qml:273
+#: package/contents/ui/main.qml:303
 #, kde-format
 msgid "Restore Color Scheme"
-msgstr ""
+msgstr "Obnovit barevné schéma"
 
-#: package/contents/ui/main.qml:316
+#: package/contents/ui/main.qml:346
 #, kde-format
 msgid "Install from File..."
 msgstr "Instalovat ze souboru..."
 
-#: package/contents/ui/main.qml:322
+#: package/contents/ui/main.qml:352
 #, kde-format
 msgid "Get New Color Schemes..."
-msgstr ""
+msgstr "Získat nová barevná schémata..."
 
-#: package/contents/ui/main.qml:334
+#: package/contents/ui/main.qml:364
 #, kde-format
 msgid "Open Color Scheme"
-msgstr ""
+msgstr "Otevřít barevné schéma"
 
-#: package/contents/ui/main.qml:336
+#: package/contents/ui/main.qml:366
 #, kde-format
 msgid "Color Scheme Files (*.colors)"
-msgstr ""
+msgstr "Soubory barevných schémat (*.colors)"

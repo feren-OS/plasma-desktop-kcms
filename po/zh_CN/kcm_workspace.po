@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
-"PO-Revision-Date: 2019-07-18 15:09\n"
+"POT-Creation-Date: 2019-08-02 03:11+0200\n"
+"PO-Revision-Date: 2019-10-09 10:03\n"
 "Last-Translator: Guo Yunhe (guoyunhe)\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -24,12 +24,12 @@ msgstr ""
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "KDE 中国"
+msgstr "KDE China,Weng Xuetian,Guo Yunhe"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "kde-china@kde.org"
+msgstr "kde-china@kde.org,wengxt@gmail.com,i@guoyunhe.me"
 
 #: package/contents/ui/main.qml:37
 #, kde-format
@@ -63,14 +63,13 @@ msgstr "双击打开文件和文件夹 (单击以选择)"
 
 #: workspaceoptions.cpp:40
 #, kde-format
-msgid "Plasma Workspace global options"
-msgstr "Plasma 工作空间全局选项"
+msgid "General Behavior"
+msgstr "常规行为"
 
 #: workspaceoptions.cpp:42
 #, kde-format
-msgid ""
-"System Settings module for managing global options for the Plasma Workspace."
-msgstr "用于管理 Plasma 工作空间的全局选项的系统设置模块。"
+msgid "System Settings module for configuring general workspace behavior."
+msgstr "配置常规工作空间行为的系统设置模块。"
 
 #: workspaceoptions.cpp:45
 #, kde-format

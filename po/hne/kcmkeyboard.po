@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkeyboard\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"POT-Creation-Date: 2019-08-11 03:10+0200\n"
 "PO-Revision-Date: 2009-01-23 15:19+0530\n"
 "Last-Translator: Ravishankar Shrivastava <raviratlami@aol.in>\n"
 "Language-Team: Hindi <kde-i18n-doc@lists.kde.org>\n"
@@ -63,7 +63,7 @@ msgstr ""
 msgid "Any language"
 msgstr ""
 
-#: kcm_add_layout_dialog.cpp:141 kcm_view_models.cpp:319
+#: kcm_add_layout_dialog.cpp:141 kcm_view_models.cpp:311
 #, fuzzy, kde-format
 #| msgctxt "Default variant"
 #| msgid "Default"
@@ -400,29 +400,29 @@ msgid_plural "%1 shortcuts"
 msgstr[0] ""
 msgstr[1] ""
 
-#: kcm_view_models.cpp:226
+#: kcm_view_models.cpp:220
 #, fuzzy, kde-format
 #| msgid "Map"
 msgctxt "layout map name"
 msgid "Map"
 msgstr "मैप"
 
-#: kcm_view_models.cpp:226
+#: kcm_view_models.cpp:220
 #, kde-format
 msgid "Layout"
 msgstr "खाका"
 
-#: kcm_view_models.cpp:226
+#: kcm_view_models.cpp:220
 #, kde-format
 msgid "Variant"
 msgstr "वेरियंट"
 
-#: kcm_view_models.cpp:226
+#: kcm_view_models.cpp:220
 #, fuzzy, kde-format
 msgid "Label"
 msgstr "लेबल:"
 
-#: kcm_view_models.cpp:226
+#: kcm_view_models.cpp:220
 #, fuzzy, kde-format
 #| msgid "Main shortcuts:"
 msgid "Shortcut"

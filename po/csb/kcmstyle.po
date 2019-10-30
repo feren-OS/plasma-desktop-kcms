@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmstyle\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"POT-Creation-Date: 2019-10-19 08:02+0200\n"
 "PO-Revision-Date: 2009-12-20 19:19+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -28,7 +28,7 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "mark@linuxcsb.org, michol@linuxcsb.org"
 
-#: kcmstyle.cpp:173
+#: kcmstyle.cpp:171
 #, fuzzy, kde-format
 #| msgid ""
 #| "<h1>Style</h1>This module allows you to modify the visual appearance of "
@@ -40,49 +40,49 @@ msgstr ""
 "<h1>Sztél</h1> Mòduł nen pòzwôlô zmienic wëzdrzatk elementów interfejsa "
 "brëkòwnika a téż skònfigùrowac dodôwné widzawné efektë."
 
-#: kcmstyle.cpp:183
+#: kcmstyle.cpp:181
 #, fuzzy, kde-format
 #| msgctxt "@title:tab"
 #| msgid "&Applications"
 msgid "Application Style"
 msgstr "&Aplikacëje"
 
-#: kcmstyle.cpp:185
+#: kcmstyle.cpp:183
 #, kde-format
 msgid "(c) 2002 Karol Szwed, Daniel Molkentin"
 msgstr "(c) 2002 Karol Szwed, Daniel Molkentin"
 
-#: kcmstyle.cpp:187
+#: kcmstyle.cpp:185
 #, kde-format
 msgid "Karol Szwed"
 msgstr "Karol Szwed"
 
-#: kcmstyle.cpp:188
+#: kcmstyle.cpp:186
 #, kde-format
 msgid "Daniel Molkentin"
 msgstr "Daniel Molkentin"
 
-#: kcmstyle.cpp:198
+#: kcmstyle.cpp:196
 #, kde-format
 msgid "Preview"
 msgstr "Pòdzérk"
 
-#: kcmstyle.cpp:252 kcmstyle.cpp:263
+#: kcmstyle.cpp:250 kcmstyle.cpp:261
 #, kde-format
 msgid "There was an error loading the configuration dialog for this style."
 msgstr "Felô òbczas ladowaniô òkna kònfigùracëji tegò sztéla."
 
-#: kcmstyle.cpp:254 kcmstyle.cpp:265
+#: kcmstyle.cpp:252 kcmstyle.cpp:263
 #, kde-format
 msgid "Unable to Load Dialog"
 msgstr "Nie mòże wladowac dialogòwégò òkna"
 
-#: kcmstyle.cpp:488
+#: kcmstyle.cpp:479
 #, kde-format
 msgid "No description available."
 msgstr "Felënk òpisënkù."
 
-#: kcmstyle.cpp:695
+#: kcmstyle.cpp:686
 #, kde-format
 msgid ""
 "This area shows a preview of the currently selected style without having to "
@@ -91,7 +91,7 @@ msgstr ""
 "W tim òknie mòże òbaczëc wëzdrzatk biéżnô wëbrónégò sztélu, bez mùszu wzãcô "
 "gò do całégò òkrãżégò."
 
-#: kcmstyle.cpp:697
+#: kcmstyle.cpp:688
 #, kde-format
 msgid ""
 "Here you can choose from a list of predefined widget styles (e.g. the way "
@@ -102,7 +102,7 @@ msgstr ""
 "wëzdrzatk knąpów). Niechtërné sztélë mògą bëc sparłãczoné z témą (dodôwną "
 "informacëją ò wëzdrzatkù, taką jakno np. marmùrowé spòdlé abò gradient)."
 
-#: kcmstyle.cpp:701
+#: kcmstyle.cpp:692
 #, fuzzy, kde-format
 #| msgid ""
 #| "If you enable this option, KDE Applications will show small icons "
@@ -114,7 +114,7 @@ msgstr ""
 "Jeżlë na òptacëjô je wëłączonô, na wôżniészëch knąpach wëskrzëniwóné mdą "
 "môłi ikònë."
 
-#: kcmstyle.cpp:703
+#: kcmstyle.cpp:694
 #, fuzzy, kde-format
 #| msgid ""
 #| "If you enable this option, KDE Applications will show small icons "
@@ -126,7 +126,7 @@ msgstr ""
 "Jeżlë na òptacëjô je wëłączonô, na wôżniészëch knąpach wëskrzëniwóné mdą "
 "môłi ikònë."
 
-#: kcmstyle.cpp:705
+#: kcmstyle.cpp:696
 #, fuzzy, kde-format
 #| msgid ""
 #| "<p><b>No Text:</b> Shows only icons on toolbar buttons. Best option for "
@@ -148,7 +148,7 @@ msgstr ""
 "kòle se tekst ë ikòna.</p> <b>Tekst pòd ikònama:</b> na knąpach lëstwów "
 "nôrzãdzów wëskrzëniwóné mdą blós ikònë, a pòd nima tekst."
 
-#: styleconfdialog.cpp:29
+#: styleconfdialog.cpp:33
 #, kde-format
 msgid "Configure %1"
 msgstr "Kònfigùracëjô: %1"

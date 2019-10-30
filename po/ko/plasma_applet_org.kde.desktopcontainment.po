@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"POT-Creation-Date: 2019-08-03 03:23+0200\n"
 "PO-Revision-Date: 2019-05-18 15:51+0200\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
 "Language-Team: Korean <kde-kr@kde.org>\n"
@@ -34,18 +34,6 @@ msgstr "필터"
 #: package/contents/config/config.qml:50
 msgid "Tweaks"
 msgstr "미세 조정"
-
-#: package/contents/ui/AppletHandle.qml:105
-msgid "Resize"
-msgstr "크기 조정"
-
-#: package/contents/ui/AppletHandle.qml:127
-msgid "Rotate"
-msgstr "회전"
-
-#: package/contents/ui/AppletHandle.qml:284
-msgid "Remove"
-msgstr "삭제"
 
 #: package/contents/ui/BackButtonItem.qml:116
 msgid "Back"
@@ -208,49 +196,49 @@ msgstr "작게"
 msgid "Large"
 msgstr "크게"
 
-#: package/contents/ui/ConfigIcons.qml:263
+#: package/contents/ui/ConfigIcons.qml:264
 msgid "Label width:"
 msgstr "이름표 너비:"
 
-#: package/contents/ui/ConfigIcons.qml:266
+#: package/contents/ui/ConfigIcons.qml:267
 msgid "Narrow"
 msgstr "좁게"
 
-#: package/contents/ui/ConfigIcons.qml:267
+#: package/contents/ui/ConfigIcons.qml:268
 #: plugins/folder/viewpropertiesmenu.cpp:88
 #, kde-format
 msgid "Medium"
 msgstr "중간"
 
-#: package/contents/ui/ConfigIcons.qml:268
+#: package/contents/ui/ConfigIcons.qml:269
 msgid "Wide"
 msgstr "넓게"
 
-#: package/contents/ui/ConfigIcons.qml:276
+#: package/contents/ui/ConfigIcons.qml:277
 msgid "Text lines:"
 msgstr "텍스트 줄 수:"
 
-#: package/contents/ui/ConfigIcons.qml:292
+#: package/contents/ui/ConfigIcons.qml:293
 msgid "Features:"
 msgstr "기능:"
 
-#: package/contents/ui/ConfigIcons.qml:294
+#: package/contents/ui/ConfigIcons.qml:295
 msgid "Tooltips"
 msgstr "풍선 도움말"
 
-#: package/contents/ui/ConfigIcons.qml:301
+#: package/contents/ui/ConfigIcons.qml:302
 msgid "Selection markers"
 msgstr "선택 표시기"
 
-#: package/contents/ui/ConfigIcons.qml:308
+#: package/contents/ui/ConfigIcons.qml:309
 msgid "Folder preview popups"
 msgstr "폴더 미리 보기 팝업"
 
-#: package/contents/ui/ConfigIcons.qml:314
+#: package/contents/ui/ConfigIcons.qml:315
 msgid "Preview thumbnails"
 msgstr "미리 보기 그림"
 
-#: package/contents/ui/ConfigIcons.qml:321
+#: package/contents/ui/ConfigIcons.qml:323
 msgid "Configure Preview Plugins..."
 msgstr "미리 보기 플러그인 설정..."
 
@@ -302,6 +290,14 @@ msgstr "사용자 정의 제목"
 msgid "Enter custom title..."
 msgstr "사용자 정의 제목 입력..."
 
+#: package/contents/ui/ConfigOverlay.qml:101
+msgid "Rotate"
+msgstr "회전"
+
+#: package/contents/ui/ConfigOverlay.qml:224
+msgid "Remove"
+msgstr "삭제"
+
 #: package/contents/ui/ConfigTweaks.qml:43
 msgid ""
 "With the Desktop Toolbox hidden, right-click on the desktop and choose "
@@ -330,19 +326,19 @@ msgstr "확인"
 msgid "Cancel"
 msgstr "취소"
 
-#: package/contents/ui/main.qml:382
+#: package/contents/ui/main.qml:277
 msgid "Widgets unlocked"
 msgstr "위젯 잠금 해제됨"
 
-#: package/contents/ui/main.qml:383
+#: package/contents/ui/main.qml:278
 msgid "You can press and hold widgets to move them and reveal their handles."
 msgstr "위젯을 누르고 있으면 이동시킬 수 있으며 핸들이 표시됩니다."
 
-#: package/contents/ui/main.qml:384
+#: package/contents/ui/main.qml:279
 msgid "Got it"
 msgstr "알겠습니다"
 
-#: package/contents/ui/main.qml:597
+#: package/contents/ui/main.qml:403
 msgid "Configure Desktop..."
 msgstr "데스크톱 설정..."
 

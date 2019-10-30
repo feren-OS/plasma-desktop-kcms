@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmcolors\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-06-21 07:50+0200\n"
-"PO-Revision-Date: 2013-04-25 13:35+0300\n"
-"Last-Translator: Liudas Alisauskas <liudas@akmc.lt>\n"
+"POT-Creation-Date: 2019-08-05 03:06+0200\n"
+"PO-Revision-Date: 2019-06-26 21:19+0300\n"
+"Last-Translator: Moo\n"
 "Language-Team: Lithuanian <kde-i18n-lt@kde.org>\n"
 "Language: lt\n"
 "MIME-Version: 1.0\n"
@@ -17,146 +17,82 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : n%10>=2 && (n%100<10 || n"
 "%100>=20) ? 1 : n%10==0 || (n%100>10 && n%100<20) ? 2 : 3);\n"
-"X-Generator: Lokalize 1.5\n"
+"X-Generator: Poedit 2.2.1\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "Donatas Glodenis"
+msgstr "Donatas Glodenis, Moo"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "dgvirtual@akl.lt"
+msgstr "dgvirtual@akl.lt, <>"
 
-#: colors.cpp:69 editor/scmeditordialog.cpp:80
+#: colors.cpp:70 editor/scmeditordialog.cpp:80
 #, kde-format
 msgid "Colors"
 msgstr "Spalvos"
 
-#: colors.cpp:71
+#: colors.cpp:72
 #, kde-format
 msgid "Kai Uwe Broulik"
-msgstr ""
+msgstr "Kai Uwe Broulik"
 
-#: colors.cpp:110
-#, fuzzy, kde-format
-#| msgid "Get &New Schemes..."
+#: colors.cpp:111
+#, kde-format
 msgid "Download New Color Schemes"
-msgstr "Gauti &naujų schemų..."
+msgstr "Atsisiųsti naujus spalvos rinkinius"
 
-#: colors.cpp:166
+#: colors.cpp:167
 #, kde-format
 msgid "Unable to create a temporary file."
-msgstr ""
+msgstr "Nepavyko sukurti laikinojo failo."
 
-#: colors.cpp:180
-#, fuzzy, kde-format
-#| msgid "&Enter a name for the color scheme:"
+#: colors.cpp:181
+#, kde-format
 msgid "Unable to download the color scheme: %1"
-msgstr "Į&rašykite spalvų schemos pavadinimą:"
+msgstr "Nepavyko atsisiųsti spalvų rinkinio: %1"
 
-#: colors.cpp:198
-#, fuzzy, kde-format
-#| msgid "Import a color scheme from a file"
+#: colors.cpp:199
+#, kde-format
 msgid "This file is not a color scheme file."
-msgstr "Importuoti spalvų schemą iš failo"
+msgstr "Šis failas nėra spalvų rinkinys."
 
-#: colors.cpp:218
+#: colors.cpp:219
 #, kde-format
 msgid "Failed to create 'color-scheme' data folder."
-msgstr ""
+msgstr "Nepavyko sukurti 'color-scheme' duomenų aplanko."
 
-#: colors.cpp:225
+#: colors.cpp:226
 #, kde-format
 msgid "Failed to copy color scheme into 'color-scheme' data folder."
-msgstr ""
+msgstr "Nepavyko nukopijuoti spalvų rinkinio į 'color-scheme' duomenų aplanką."
 
-#: colors.cpp:242
+#: colors.cpp:243
 #, kde-format
 msgid "Color scheme installed successfully."
-msgstr ""
-
-#. i18n: ectx: property (toolTip), widget (QPushButton, schemeEditButton)
-#: editor/colorsettings.ui:31
-#, fuzzy, kde-format
-#| msgid "Save the current color scheme"
-msgid "Configure the current color scheme"
-msgstr "Įrašyti šią spalvų schemą"
-
-#. i18n: ectx: property (text), widget (QPushButton, schemeEditButton)
-#: editor/colorsettings.ui:34
-#, kde-format
-msgid "Edit..."
-msgstr ""
-
-#. i18n: ectx: property (toolTip), widget (QPushButton, schemeRemoveButton)
-#: editor/colorsettings.ui:52
-#, kde-format
-msgid "Remove the selected scheme"
-msgstr "Pašalinti pažymėtą schemą"
-
-#. i18n: ectx: property (text), widget (QPushButton, schemeRemoveButton)
-#: editor/colorsettings.ui:55
-#, fuzzy, kde-format
-#| msgid "Remove Scheme"
-msgid "Remove"
-msgstr "Pašalinti schemą"
-
-#. i18n: ectx: property (toolTip), widget (QPushButton, schemeImportButton)
-#: editor/colorsettings.ui:83
-#, fuzzy, kde-format
-#| msgid "Get new color schemes from the Internet"
-msgid "Import a color scheme from a file"
-msgstr "Gaukite naujų spalvų schemų iš interneto"
-
-#. i18n: ectx: property (text), widget (QPushButton, schemeImportButton)
-#: editor/colorsettings.ui:86
-#, kde-format
-msgid "&Install from File..."
-msgstr ""
-
-#. i18n: ectx: property (toolTip), widget (QPushButton, schemeKnsButton)
-#: editor/colorsettings.ui:98
-#, kde-format
-msgid "Get new color schemes from the Internet"
-msgstr "Gaukite naujų spalvų schemų iš interneto"
-
-#. i18n: ectx: property (text), widget (QPushButton, schemeKnsButton)
-#: editor/colorsettings.ui:101
-#, fuzzy, kde-format
-#| msgid "Get &New Schemes..."
-msgid "Get &New Color Schemes..."
-msgstr "Gauti &naujų schemų..."
-
-#. i18n: ectx: property (text), widget (QCheckBox, applyToAlien)
-#: editor/colorsettings.ui:137
-#, fuzzy, kde-format
-#| msgid "Apply colors to &non-KDE4 applications"
-msgid "Apply colors to &non-Qt applications"
-msgstr "Pritaikyti spalvas &ne KDE 4 programoms"
+msgstr "Spalvų rinkinys sėkmingai įdiegtas."
 
 #: editor/kcolorschemeeditor.cpp:35
-#, fuzzy, kde-format
-#| msgid "Save Color Scheme"
+#, kde-format
 msgid "KColorSchemeEditor"
-msgstr "Įrašyti spalvų schemą"
+msgstr "KColorSchemeEditor"
 
 #: editor/kcolorschemeeditor.cpp:37
-#, fuzzy, kde-format
-#| msgid "Save the current color scheme"
+#, kde-format
 msgid "Utility to edit and create color schemes"
-msgstr "Įrašyti šią spalvų schemą"
+msgstr "Paslaugų programa, skirta taisyti ir kurti spalvų rinkinius"
 
 #: editor/kcolorschemeeditor.cpp:40
 #, kde-format
 msgid "Olivier Churlaud"
-msgstr ""
+msgstr "Olivier Churlaud"
 
 #: editor/kcolorschemeeditor.cpp:40
 #, kde-format
 msgid "Utility creation"
-msgstr ""
+msgstr "Paslaugų programos kūrimas"
 
 #: editor/kcolorschemeeditor.cpp:42
 #, kde-format
@@ -166,7 +102,7 @@ msgstr "Jeremy Whiting"
 #: editor/kcolorschemeeditor.cpp:42 editor/kcolorschemeeditor.cpp:44
 #, kde-format
 msgid "KCM code (reused in here)"
-msgstr ""
+msgstr "KCM kodas (čia panaudotas iš naujo)"
 
 #: editor/kcolorschemeeditor.cpp:44
 #, kde-format
@@ -176,7 +112,7 @@ msgstr "Matthew Woehlke"
 #: editor/kcolorschemeeditor.cpp:49
 #, kde-format
 msgid "Scheme to edit or to use as a base."
-msgstr ""
+msgstr "Rinkinys, kurį taisyti ar naudoti kaip pagrindą."
 
 #: editor/kcolorschemeeditor.cpp:52
 #, kde-format
@@ -184,17 +120,19 @@ msgid ""
 "Show 'Apply' button that saves changes without asking (unlike 'Save As' "
 "button)"
 msgstr ""
+"Rodyti mygtuką \"Taikyti\", kuris neklausiant įrašo pakeitimus (kitaip nei "
+"mygtukas \"Įrašyti kaip\")"
 
 #: editor/kcolorschemeeditor.cpp:55
 #, kde-format
 msgid ""
 "Makes the dialog transient for another application window specified by handle"
-msgstr ""
+msgstr "Padaro dialogą laikiną kitam programos langui, nurodytam pagal rankeną"
 
 #: editor/kcolorschemeeditor.cpp:73
 #, kde-format
 msgid "Scheme not found, falling back to current one.\n"
-msgstr ""
+msgstr "Rinkinys nerastas, grįžtama prie esamo.\n"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, label)
 #: editor/preview.ui:29
@@ -205,9 +143,7 @@ msgstr "Lango tekstas ant lango fono"
 #. i18n: see kdebase/workspace/kcontrol/colors/README.i18n
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: editor/preview.ui:32
-#, fuzzy, kde-format
-#| msgctxt "color-kcm-preview"
-#| msgid "Window text"
+#, kde-format
 msgctxt "color-kcm-preview"
 msgid "Window text"
 msgstr "Lango tekstas"
@@ -251,9 +187,7 @@ msgstr "Pažymėtas nuorodos tekstas ant pažymėto normalaus fono"
 #. i18n: ectx: property (text), widget (QLabel, labelSelection3)
 #. i18n: ectx: property (text), widget (QLabel, labelView3)
 #: editor/preview.ui:141 editor/preview.ui:265
-#, fuzzy, kde-format
-#| msgctxt "color-kcm-preview"
-#| msgid "link"
+#, kde-format
 msgctxt "color-kcm-preview"
 msgid "link"
 msgstr "nuoroda"
@@ -269,9 +203,7 @@ msgstr "Pažymėta aplankyta nuoroda ant pažymėto normalaus fono"
 #. i18n: ectx: property (text), widget (QLabel, labelSelection4)
 #. i18n: ectx: property (text), widget (QLabel, labelView4)
 #: editor/preview.ui:156 editor/preview.ui:280
-#, fuzzy, kde-format
-#| msgctxt "color-kcm-preview"
-#| msgid "visited"
+#, kde-format
 msgctxt "color-kcm-preview"
 msgid "visited"
 msgstr "aplankyta"
@@ -365,9 +297,7 @@ msgstr "Normalus tekstas ant normalaus fono"
 #. i18n: see kdebase/workspace/kcontrol/colors/README.i18n
 #. i18n: ectx: property (text), widget (QLabel, labelView0)
 #: editor/preview.ui:250
-#, fuzzy, kde-format
-#| msgctxt "color-kcm-preview"
-#| msgid "Normal text"
+#, kde-format
 msgctxt "color-kcm-preview"
 msgid "Normal text"
 msgstr "Normalus tekstas"
@@ -527,9 +457,7 @@ msgstr "Langas"
 #. i18n: see kdebase/workspace/kcontrol/colors/README.i18n
 #. i18n: ectx: property (text), item, widget (QComboBox, colorSet)
 #: editor/scmeditorcolors.ui:55
-#, fuzzy, kde-format
-#| msgctxt "color-sets"
-#| msgid "Button"
+#, kde-format
 msgctxt "color-sets"
 msgid "Button"
 msgstr "Mygtukas"
@@ -556,7 +484,7 @@ msgstr "Paaiškinimas"
 #, kde-format
 msgctxt "color-sets"
 msgid "Complementary"
-msgstr ""
+msgstr "Papildantis"
 
 #. i18n: ectx: property (text), widget (QTableWidget, commonColorTable)
 #: editor/scmeditorcolors.ui:113 editor/scmeditorcolors.ui:118
@@ -696,41 +624,39 @@ msgid "Options"
 msgstr "Parinktys"
 
 #: editor/scmeditordialog.cpp:81
-#, fuzzy, kde-format
-#| msgctxt "@title:tab color transformations on disabled elements"
-#| msgid "Disabled"
+#, kde-format
 msgid "Disabled"
-msgstr "Išjungtas"
+msgstr "Išjungta"
 
 #: editor/scmeditordialog.cpp:103
 #, kde-format
 msgid "This colour scheme was not saved. Continue?"
-msgstr ""
+msgstr "Šis spalvų rinkinys nebuvo įrašytas. Tęsti?"
 
 #: editor/scmeditordialog.cpp:104
 #, kde-format
 msgid "Do you really want to upload?"
-msgstr ""
+msgstr "Ar tikrai norite įkelti?"
 
 #: editor/scmeditordialog.cpp:137
 #, kde-format
 msgid "You have unsaved changes. Do you really want to quit?"
-msgstr ""
+msgstr "Yra neįrašytų pakeitimų. Ar tikrai norite išeiti?"
 
 #: editor/scmeditordialog.cpp:138
 #, kde-format
 msgid "Unsaved changes"
-msgstr ""
+msgstr "Neįrašyti pakeitimai"
 
 #: editor/scmeditordialog.cpp:157 editor/scmeditordialog.cpp:185
 #, kde-format
 msgid "Save Color Scheme"
-msgstr "Įrašyti spalvų schemą"
+msgstr "Įrašyti spalvų rinkinį"
 
 #: editor/scmeditordialog.cpp:158
 #, kde-format
 msgid "&Enter a name for the color scheme:"
-msgstr "Į&rašykite spalvų schemos pavadinimą:"
+msgstr "Į&rašykite spalvų rinkinio pavadinimą:"
 
 #: editor/scmeditordialog.cpp:184
 #, kde-format
@@ -738,13 +664,13 @@ msgid ""
 "A color scheme with that name already exists.\n"
 "Do you want to overwrite it?"
 msgstr ""
-"Taip pavadinta spalvų schema jau yra.\n"
-"Ar norite ją perrašyti?"
+"Spalvų rinkinys tokiu pavadinimu jau yra.\n"
+"Ar norite jį perrašyti?"
 
 #: editor/scmeditordialog.cpp:224
 #, kde-format
 msgid "You do not have permission to overwrite that scheme"
-msgstr "Neturite leidimų perrašyti tos schemos"
+msgstr "Neturite leidimo perrašyti to rinkinio"
 
 #: editor/scmeditordialog.cpp:224
 #, kde-format
@@ -752,9 +678,7 @@ msgid "Error"
 msgstr "Klaida"
 
 #: editor/scmeditordialog.cpp:240
-#, fuzzy, kde-format
-#| msgctxt "@title:tab color transformations on inactive elements"
-#| msgid "Inactive"
+#, kde-format
 msgid "Inactive"
 msgstr "Neaktyvus"
 
@@ -766,10 +690,9 @@ msgstr "Dalintis pažymėta tema su kitais naudotojais internetu."
 
 #. i18n: ectx: property (text), widget (QPushButton, schemeKnsUploadButton)
 #: editor/scmeditordialog.ui:45
-#, fuzzy, kde-format
-#| msgid "&Upload Scheme..."
+#, kde-format
 msgid "Upload Scheme"
-msgstr "&Nusiųsti schemą..."
+msgstr "Įkelti rinkinį"
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: editor/scmeditoreffects.ui:17
@@ -910,16 +833,15 @@ msgstr "Išjungtų elementų kontrasto kiekis"
 
 #. i18n: ectx: property (text), widget (QCheckBox, useInactiveEffects)
 #: editor/scmeditoroptions.ui:17
-#, fuzzy, kde-format
-#| msgid "Apply inactive window color &effects"
+#, kde-format
 msgid "Apply &effects to inactive windows"
-msgstr "Taikyti neaktyvių langų spalvų &efektus"
+msgstr "Taikyti &efektus neaktyviems langams"
 
 #. i18n: ectx: property (text), widget (QCheckBox, inactiveSelectionEffect)
 #: editor/scmeditoroptions.ui:24
 #, kde-format
 msgid "Use different colors for in&active selections"
-msgstr ""
+msgstr "Neaktyviems žymėjimams n&audoti kitokias spalvas"
 
 #. i18n: ectx: property (text), widget (QCheckBox, shadeSortedColumn)
 #: editor/scmeditoroptions.ui:31
@@ -1201,123 +1123,109 @@ msgstr "fokusas"
 #: package/contents/ui/main.qml:33
 #, kde-format
 msgid "This module lets you choose the color scheme."
-msgstr ""
+msgstr "Šis modulis jums leidžia pasirinkti spalvų rinkinį."
 
-#: package/contents/ui/main.qml:83
+#: package/contents/ui/main.qml:84
 #, kde-format
 msgid ""
 "The color scheme '%1' is not installed. Selecting the default theme instead."
 msgstr ""
+"Spalvų rinkinys \"%1\" nėra įdiegtas. Vietoj jo, pasirenkamas numatytasis "
+"apipavidalinimas."
 
-#: package/contents/ui/main.qml:95
+#: package/contents/ui/main.qml:96
 #, kde-format
 msgid "Search..."
-msgstr ""
-
-#: package/contents/ui/main.qml:133
-#, fuzzy, kde-format
-#| msgid "&Upload Scheme..."
-msgid "All Schemes"
-msgstr "&Nusiųsti schemą..."
+msgstr "Ieškoti..."
 
 #: package/contents/ui/main.qml:134
-#, fuzzy, kde-format
-#| msgid "&Scheme"
-msgid "Light Schemes"
-msgstr "&Schema"
+#, kde-format
+msgid "All Schemes"
+msgstr "Visi rinkiniai"
 
 #: package/contents/ui/main.qml:135
-#, fuzzy, kde-format
-#| msgid "Save Scheme..."
-msgid "Dark Schemes"
-msgstr "Išsaugoti schemą..."
+#, kde-format
+msgid "Light Schemes"
+msgstr "&Šviesūs rinkiniai"
 
-#: package/contents/ui/main.qml:193
-#, fuzzy, kde-format
-#| msgctxt "color-kcm-preview"
-#| msgid "Window text"
+#: package/contents/ui/main.qml:136
+#, kde-format
+msgid "Dark Schemes"
+msgstr "Tamsūs rinkiniai"
+
+#: package/contents/ui/main.qml:202
+#, kde-format
+msgid "Window Title"
+msgstr "Lango pavadinimas"
+
+#: package/contents/ui/main.qml:223
+#, kde-format
 msgid "Window text"
 msgstr "Lango tekstas"
 
-#: package/contents/ui/main.qml:200
-#, fuzzy, kde-format
-#| msgctxt "color-sets"
-#| msgid "Button"
+#: package/contents/ui/main.qml:230
+#, kde-format
 msgid "Button"
 msgstr "Mygtukas"
 
-#: package/contents/ui/main.qml:219
-#, fuzzy, kde-format
-#| msgctxt "color-kcm-preview"
-#| msgid "link"
+#: package/contents/ui/main.qml:249
+#, kde-format
 msgctxt "Hyperlink"
 msgid "link"
 msgstr "nuoroda"
 
-#: package/contents/ui/main.qml:221
-#, fuzzy, kde-format
-#| msgctxt "color-kcm-preview"
-#| msgid "visited"
+#: package/contents/ui/main.qml:251
+#, kde-format
 msgctxt "Visited hyperlink"
 msgid "visited"
 msgstr "aplankyta"
 
-#: package/contents/ui/main.qml:227
-#, fuzzy, kde-format
-#| msgctxt "color-kcm-preview"
-#| msgid "Normal text"
+#: package/contents/ui/main.qml:257
+#, kde-format
 msgid "Normal text"
 msgstr "Normalus tekstas"
 
-#: package/contents/ui/main.qml:235
-#, fuzzy, kde-format
-#| msgid "Visited Text"
+#: package/contents/ui/main.qml:265
+#, kde-format
 msgid "Highlighted text"
-msgstr "Aplankytos nuorodos tekstas"
+msgstr "Paryškintas tekstas"
 
-#: package/contents/ui/main.qml:242
-#, fuzzy, kde-format
-#| msgctxt "@title:tab color transformations on disabled elements"
-#| msgid "Disabled"
+#: package/contents/ui/main.qml:272
+#, kde-format
 msgid "Disabled text"
-msgstr "Išjungtas"
+msgstr "Išjungtas tekstas"
 
-#: package/contents/ui/main.qml:260
-#, fuzzy, kde-format
-#| msgid "&Upload Scheme..."
+#: package/contents/ui/main.qml:290
+#, kde-format
 msgid "Edit Color Scheme..."
-msgstr "&Nusiųsti schemą..."
+msgstr "Taisyti spalvų rinkinį..."
 
-#: package/contents/ui/main.qml:266
-#, fuzzy, kde-format
-#| msgid "Save Color Scheme"
+#: package/contents/ui/main.qml:296
+#, kde-format
 msgid "Remove Color Scheme"
-msgstr "Įrašyti spalvų schemą"
+msgstr "Šalinti spalvų rinkinį"
 
-#: package/contents/ui/main.qml:273
-#, fuzzy, kde-format
-#| msgid "Import Color Scheme"
+#: package/contents/ui/main.qml:303
+#, kde-format
 msgid "Restore Color Scheme"
-msgstr "Importuoti spalvų schemą"
+msgstr "Atkurti spalvų rinkinį"
 
-#: package/contents/ui/main.qml:316
+#: package/contents/ui/main.qml:346
 #, kde-format
 msgid "Install from File..."
-msgstr ""
+msgstr "Įdiegti iš failo..."
 
-#: package/contents/ui/main.qml:322
-#, fuzzy, kde-format
-#| msgid "Get &New Schemes..."
+#: package/contents/ui/main.qml:352
+#, kde-format
 msgid "Get New Color Schemes..."
-msgstr "Gauti &naujų schemų..."
+msgstr "Gauti naujus spalvų rinkinius..."
 
-#: package/contents/ui/main.qml:334
-#, fuzzy, kde-format
-#| msgid "Save Color Scheme"
+#: package/contents/ui/main.qml:364
+#, kde-format
 msgid "Open Color Scheme"
-msgstr "Įrašyti spalvų schemą"
+msgstr "Atverti spalvų rinkinį"
 
-#: package/contents/ui/main.qml:336
+#: package/contents/ui/main.qml:366
 #, kde-format
 msgid "Color Scheme Files (*.colors)"
-msgstr ""
+msgstr "Spalvų rinkinio failai (*.colors)"

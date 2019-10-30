@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-06-23 07:22+0200\n"
+"POT-Creation-Date: 2019-09-17 03:28+0200\n"
 "PO-Revision-Date: 2016-07-27 17:52+0300\n"
 "Last-Translator: Marek Laane <qiilaq69@gmail.com>\n"
 "Language-Team: Estonian <kde-et@linux.ee>\n"
@@ -39,125 +39,130 @@ msgstr ""
 
 #: package/contents/ui/code/tools.js:133
 #, kde-format
-msgid "On The Current Activity"
+msgid "On the Current Activity"
 msgstr ""
 
 #: package/contents/ui/code/tools.js:147
 #, fuzzy, kde-format
 #| msgid "Favorites"
-msgid "Show In Favorites"
+msgid "Show in Favorites"
 msgstr "Lemmikud"
 
-#: package/contents/ui/ConfigGeneral.qml:58
+#: package/contents/ui/ConfigGeneral.qml:59
 #, fuzzy, kde-format
 #| msgid "Icon"
 msgid "Icon:"
 msgstr "Lisa lemmikute sekka"
 
-#: package/contents/ui/ConfigGeneral.qml:138
+#: package/contents/ui/ConfigGeneral.qml:139
 #, kde-format
 msgctxt "@item:inmenu Open icon chooser dialog"
 msgid "Choose..."
 msgstr ""
 
-#: package/contents/ui/ConfigGeneral.qml:143
+#: package/contents/ui/ConfigGeneral.qml:144
 #, fuzzy, kde-format
 #| msgid "Tab Icon:"
 msgctxt "@item:inmenu Reset icon to default"
 msgid "Clear Icon"
 msgstr "Kaardi ikoon:"
 
-#: package/contents/ui/ConfigGeneral.qml:161
+#: package/contents/ui/ConfigGeneral.qml:162
 #, kde-format
 msgid "Show applications as:"
 msgstr "Rakenduste kuvamine:"
 
-#: package/contents/ui/ConfigGeneral.qml:163
+#: package/contents/ui/ConfigGeneral.qml:164
 #, kde-format
 msgid "Name only"
 msgstr "Ainult nimi"
 
-#: package/contents/ui/ConfigGeneral.qml:163
+#: package/contents/ui/ConfigGeneral.qml:164
 #, kde-format
 msgid "Description only"
 msgstr "Ainult kirjeldus"
 
-#: package/contents/ui/ConfigGeneral.qml:163
+#: package/contents/ui/ConfigGeneral.qml:164
 #, kde-format
 msgid "Name (Description)"
 msgstr "Nimi (kirjeldus)"
 
-#: package/contents/ui/ConfigGeneral.qml:163
+#: package/contents/ui/ConfigGeneral.qml:164
 #, kde-format
 msgid "Description (Name)"
 msgstr "Kirjeldus (nimi)"
 
-#: package/contents/ui/ConfigGeneral.qml:173
+#: package/contents/ui/ConfigGeneral.qml:174
 #, fuzzy, kde-format
 #| msgid "Behavior"
 msgid "Behavior:"
 msgstr "Käitumine"
 
-#: package/contents/ui/ConfigGeneral.qml:175
+#: package/contents/ui/ConfigGeneral.qml:176
 #, fuzzy, kde-format
 #| msgid "Show applications as:"
 msgid "Sort applications alphabetically"
 msgstr "Rakenduste kuvamine:"
 
-#: package/contents/ui/ConfigGeneral.qml:183
+#: package/contents/ui/ConfigGeneral.qml:184
 #, fuzzy, kde-format
 #| msgid "Flatten menu to a single level"
 msgid "Flatten sub-menus to a single level"
 msgstr "Menüü ahendamine ühele tasandile"
 
-#: package/contents/ui/ConfigGeneral.qml:194
+#: package/contents/ui/ConfigGeneral.qml:192
+#, kde-format
+msgid "Show icons on the root level of the menu"
+msgstr ""
+
+#: package/contents/ui/ConfigGeneral.qml:202
 #, fuzzy, kde-format
 #| msgid "Categories"
 msgid "Show categories:"
 msgstr "Kategooriad"
 
-#: package/contents/ui/ConfigGeneral.qml:197
+#: package/contents/ui/ConfigGeneral.qml:205
 #, fuzzy, kde-format
 #| msgid "Recent Applications"
 msgid "Recent applications"
 msgstr "Viimati kasutatud rakendused"
 
-#: package/contents/ui/ConfigGeneral.qml:198
+#: package/contents/ui/ConfigGeneral.qml:206
 #, fuzzy, kde-format
 #| msgid "Installed Applications"
 msgid "Often used applications"
 msgstr "Paigaldatud rakendused"
 
-#: package/contents/ui/ConfigGeneral.qml:205
+#: package/contents/ui/ConfigGeneral.qml:213
 #, fuzzy, kde-format
 #| msgid "Recent Documents"
 msgid "Recent documents"
 msgstr "Viimati kasutatud dokumendid"
 
-#: package/contents/ui/ConfigGeneral.qml:206
+#: package/contents/ui/ConfigGeneral.qml:214
 #, fuzzy, kde-format
 #| msgid "Recent Documents"
 msgid "Often used documents"
 msgstr "Viimati kasutatud dokumendid"
 
-#: package/contents/ui/ConfigGeneral.qml:213
+#: package/contents/ui/ConfigGeneral.qml:221
 #, fuzzy, kde-format
 #| msgid "Recent Contacts"
 msgid "Recent contacts"
 msgstr "Viimati kasutatud kontaktid"
 
-#: package/contents/ui/ConfigGeneral.qml:214
+#: package/contents/ui/ConfigGeneral.qml:222
 #, fuzzy, kde-format
 #| msgid "Show recent contacts"
 msgid "Often used contacts"
 msgstr "Viimati kasutatud kontaktide näitamine"
 
-#: package/contents/ui/ConfigGeneral.qml:220
+#: package/contents/ui/ConfigGeneral.qml:228
 #, kde-format
 msgid "Sort items in categories by:"
 msgstr ""
 
-#: package/contents/ui/ConfigGeneral.qml:221
+#: package/contents/ui/ConfigGeneral.qml:229
 #, fuzzy, kde-format
 #| msgid "Recently Used"
 msgctxt ""
@@ -165,7 +170,7 @@ msgctxt ""
 msgid "Recently used"
 msgstr "Viimati kasutatud"
 
-#: package/contents/ui/ConfigGeneral.qml:221
+#: package/contents/ui/ConfigGeneral.qml:229
 #, fuzzy, kde-format
 #| msgid "Recently Used"
 msgctxt ""
@@ -173,18 +178,18 @@ msgctxt ""
 msgid "Often used"
 msgstr "Viimati kasutatud"
 
-#: package/contents/ui/ConfigGeneral.qml:231
+#: package/contents/ui/ConfigGeneral.qml:239
 #, fuzzy, kde-format
 #| msgid "Search"
 msgid "Search:"
 msgstr "Otsing"
 
-#: package/contents/ui/ConfigGeneral.qml:233
+#: package/contents/ui/ConfigGeneral.qml:241
 #, kde-format
 msgid "Expand search to bookmarks, files and emails"
 msgstr "Otsingu laiendamine järjehoidjatele, failidele ja kirjadele"
 
-#: package/contents/ui/ConfigGeneral.qml:241
+#: package/contents/ui/ConfigGeneral.qml:249
 #, kde-format
 msgid "Align search results to bottom"
 msgstr "Otsingutulemuste joondamine alla"
@@ -201,7 +206,6 @@ msgid "Type to search..."
 msgstr "Kirjuta otsimiseks."
 
 #: package/contents/ui/DashboardRepresentation.qml:405
-#: plugin/kastatsfavoritesmodel.cpp:494 plugin/simplefavoritesmodel.cpp:43
 #, kde-format
 msgid "Favorites"
 msgstr "Lemmikud"
@@ -217,7 +221,7 @@ msgstr ""
 msgid "Apps & Docs"
 msgstr ""
 
-#: package/contents/ui/main.qml:272
+#: package/contents/ui/main.qml:273
 #, kde-format
 msgid "Edit Applications..."
 msgstr "Muuda rakendusi..."
@@ -226,290 +230,3 @@ msgstr "Muuda rakendusi..."
 #, kde-format
 msgid "Search..."
 msgstr "Otsing..."
-
-#: plugin/actionlist.cpp:95
-#, kde-format
-msgid "Open with:"
-msgstr "Avamine rakendusega:"
-
-#: plugin/actionlist.cpp:108
-#, kde-format
-msgid "Properties"
-msgstr "Omadused"
-
-#: plugin/actionlist.cpp:153
-#, kde-format
-msgid "Add to Desktop"
-msgstr "Lisa töölauale"
-
-#: plugin/actionlist.cpp:157
-#, fuzzy, kde-format
-#| msgid "Add to Panel"
-msgid "Add to Panel (Widget)"
-msgstr "Lisa paneelile"
-
-#: plugin/actionlist.cpp:161
-#, kde-format
-msgid "Pin to Task Manager"
-msgstr ""
-
-#: plugin/actionlist.cpp:270 plugin/rootmodel.cpp:390
-#, kde-format
-msgid "Recent Documents"
-msgstr "Viimati kasutatud dokumendid"
-
-#: plugin/actionlist.cpp:280
-#, kde-format
-msgid "Forget Recent Documents"
-msgstr "Unusta viimati kasutatud dokumendid"
-
-#: plugin/actionlist.cpp:336
-#, kde-format
-msgid "Edit Application..."
-msgstr "Muuda rakendust..."
-
-#: plugin/actionlist.cpp:383
-#, fuzzy, kde-format
-#| msgid "Remove '%1'..."
-msgctxt "@action opens a software center with the application"
-msgid "Manage '%1'..."
-msgstr "Eemalda '%1'..."
-
-#: plugin/appentry.cpp:178
-#, kde-format
-msgid "Hide Application"
-msgstr "Peida rakendus"
-
-#: plugin/appentry.cpp:237
-#, kde-format
-msgctxt "App name (Generic name)"
-msgid "%1 (%2)"
-msgstr "%1 (%2)"
-
-#: plugin/appentry.cpp:239
-#, kde-format
-msgctxt "Generic name (App name)"
-msgid "%1 (%2)"
-msgstr "%1 (%2)"
-
-#: plugin/appsmodel.cpp:45 plugin/appsmodel.cpp:69 plugin/computermodel.cpp:110
-#: plugin/computermodel.cpp:242 plugin/recentusagemodel.cpp:149
-#: plugin/recentusagemodel.cpp:209
-#, kde-format
-msgid "Applications"
-msgstr "Rakendused"
-
-#: plugin/appsmodel.cpp:165
-#, kde-format
-msgid "Unhide Applications in this Submenu"
-msgstr "Näita taas alammenüü peidetud rakendusi"
-
-#: plugin/appsmodel.cpp:171
-#, kde-format
-msgid "Unhide Applications in '%1'"
-msgstr "Näita taas \"%1\" peidetud rakendusi"
-
-#: plugin/computermodel.cpp:104
-#, kde-format
-msgid "Run Command..."
-msgstr "Käivita käsk..."
-
-#: plugin/computermodel.cpp:108
-#, kde-format
-msgid "Run a command or a search query"
-msgstr "Käsu või otsingupäringu käivitamine"
-
-#: plugin/computermodel.cpp:161
-#, kde-format
-msgid "Computer"
-msgstr "Arvuti"
-
-#: plugin/contactentry.cpp:117 plugin/recentcontactsmodel.cpp:93
-#, kde-format
-msgid "Show Contact Information..."
-msgstr "Näita kontaktiteavet..."
-
-#: plugin/recentcontactsmodel.cpp:52
-#, kde-format
-msgid "Contacts"
-msgstr "Kontaktid"
-
-#: plugin/recentcontactsmodel.cpp:85
-#, kde-format
-msgid "Forget Contact"
-msgstr "Unusta kontakt"
-
-#: plugin/recentcontactsmodel.cpp:88 plugin/recentcontactsmodel.cpp:165
-#, kde-format
-msgid "Forget All Contacts"
-msgstr "Unusta kõik kontaktid"
-
-#: plugin/recentusagemodel.cpp:147
-#, kde-format
-msgid "Recently Used"
-msgstr "Viimati kasutatud"
-
-#: plugin/recentusagemodel.cpp:152 plugin/recentusagemodel.cpp:263
-#, kde-format
-msgid "Documents"
-msgstr "Dokumendid"
-
-#: plugin/recentusagemodel.cpp:227
-#, kde-format
-msgid "Forget Application"
-msgstr "Unusta rakendus"
-
-#: plugin/recentusagemodel.cpp:275
-#, kde-format
-msgid "Forget Document"
-msgstr "Unusta dokument"
-
-#: plugin/recentusagemodel.cpp:403
-#, kde-format
-msgid "Forget All"
-msgstr "Unusta kõik"
-
-#: plugin/recentusagemodel.cpp:405
-#, kde-format
-msgid "Forget All Applications"
-msgstr "Unusta kõik rakendused"
-
-#: plugin/recentusagemodel.cpp:408
-#, kde-format
-msgid "Forget All Documents"
-msgstr "Unusta kõik dokumendid"
-
-#: plugin/rootmodel.cpp:106
-#, kde-format
-msgid "Hide %1"
-msgstr "Peida %1"
-
-#: plugin/rootmodel.cpp:376
-#, kde-format
-msgid "All Applications"
-msgstr "Kõik rakendused"
-
-#: plugin/rootmodel.cpp:382
-#, kde-format
-msgid "Recent Contacts"
-msgstr "Viimati kasutatud kontaktid"
-
-#: plugin/rootmodel.cpp:391
-#, fuzzy, kde-format
-#| msgid "Recent Documents"
-msgid "Often Used Documents"
-msgstr "Viimati kasutatud dokumendid"
-
-#: plugin/rootmodel.cpp:401
-#, kde-format
-msgid "Recent Applications"
-msgstr "Viimati kasutatud rakendused"
-
-#: plugin/rootmodel.cpp:402
-#, fuzzy, kde-format
-#| msgid "Installed Applications"
-msgid "Often Used Applications"
-msgstr "Paigaldatud rakendused"
-
-#: plugin/rootmodel.cpp:416
-#, kde-format
-msgid "Power / Session"
-msgstr "Toide / Seanss"
-
-#: plugin/runnermodel.cpp:238
-#, kde-format
-msgid "Search results"
-msgstr "Otsingutulemused"
-
-#: plugin/systementry.cpp:166
-#, kde-format
-msgid "Lock"
-msgstr "Lukusta"
-
-#: plugin/systementry.cpp:169
-#, kde-format
-msgid "Log Out"
-msgstr ""
-
-#: plugin/systementry.cpp:172 plugin/systementry.cpp:240
-#, kde-format
-msgid "Save Session"
-msgstr "Salvesta seanss"
-
-#: plugin/systementry.cpp:175
-#, kde-format
-msgid "Switch User"
-msgstr "Vaheta kasutaja"
-
-#: plugin/systementry.cpp:178
-#, kde-format
-msgctxt "Suspend to RAM"
-msgid "Sleep"
-msgstr ""
-
-#: plugin/systementry.cpp:181
-#, kde-format
-msgid "Hibernate"
-msgstr "Talveunne"
-
-#: plugin/systementry.cpp:184
-#, kde-format
-msgid "Restart"
-msgstr "Taaskäivita"
-
-#: plugin/systementry.cpp:187
-#, kde-format
-msgid "Shut Down"
-msgstr "Seiska"
-
-#: plugin/systementry.cpp:200 plugin/systementry.cpp:203
-#: plugin/systementry.cpp:206 plugin/systementry.cpp:209
-#, kde-format
-msgid "Session"
-msgstr "Seanss"
-
-#: plugin/systementry.cpp:212 plugin/systementry.cpp:215
-#: plugin/systementry.cpp:218 plugin/systementry.cpp:221
-#, kde-format
-msgid "System"
-msgstr "Süsteem"
-
-#: plugin/systementry.cpp:234
-#, kde-format
-msgid "Lock screen"
-msgstr "Lukusta ekraan"
-
-#: plugin/systementry.cpp:237
-#, kde-format
-msgid "End session"
-msgstr "Lõpeta seanss"
-
-#: plugin/systementry.cpp:243
-#, kde-format
-msgid "Start a parallel session as a different user"
-msgstr "Käivita paralleelne seanss teise kasutaja õigustes"
-
-#: plugin/systementry.cpp:246
-#, kde-format
-msgid "Suspend to RAM"
-msgstr "Passiivseisundisse mälus"
-
-#: plugin/systementry.cpp:249
-#, kde-format
-msgid "Suspend to disk"
-msgstr "Passiivseisundisse kettal"
-
-#: plugin/systementry.cpp:252
-#, kde-format
-msgid "Restart computer"
-msgstr "Taaskäivita arvuti"
-
-#: plugin/systementry.cpp:255
-#, kde-format
-msgid "Turn off computer"
-msgstr "Lülita arvuti välja"
-
-#: plugin/systemmodel.cpp:75
-#, kde-format
-msgid "System actions"
-msgstr "Süsteemi toimingud"

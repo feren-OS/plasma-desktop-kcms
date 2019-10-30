@@ -20,19 +20,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmstyle\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
-"PO-Revision-Date: 2019-03-15 18:21+0100\n"
+"POT-Creation-Date: 2019-10-19 08:02+0200\n"
+"PO-Revision-Date: 2019-10-19 22:01+0200\n"
 "Last-Translator: Adrián Chaves (Gallaecio) <adrian@chaves.io>\n"
-"Language-Team: Galician <kde-i18n-doc@kde.org>\n"
+"Language-Team: Galician <proxecto@trasno.gal>\n"
 "Language: gl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 18.12.2\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Environment: kde\n"
-"X-Accelerator-Marker: &\n"
-"X-Text-Markup: kde4\n"
+"X-Generator: Lokalize 19.11.70\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -44,57 +41,57 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "xabigf@gmx.net, jba@pobox.com, mvillarino@users.sourceforge.net"
 
-#: kcmstyle.cpp:173
+#: kcmstyle.cpp:171
 #, kde-format
 msgid ""
 "This module allows you to modify the visual appearance of applications' user "
 "interface elements."
 msgstr ""
 "Este módulo permítelle modificar a aparencia visual dos elementos da "
-"interface de usuario dos aplicativos."
+"interface de usuario das aplicacións."
 
-#: kcmstyle.cpp:183
+#: kcmstyle.cpp:181
 #, kde-format
 msgid "Application Style"
-msgstr "Estilo do aplicativo"
+msgstr "Estilo das aplicacións"
 
-#: kcmstyle.cpp:185
+#: kcmstyle.cpp:183
 #, kde-format
 msgid "(c) 2002 Karol Szwed, Daniel Molkentin"
 msgstr "© 2002 Karol Szwed, Daniel Molkentin"
 
-#: kcmstyle.cpp:187
+#: kcmstyle.cpp:185
 #, kde-format
 msgid "Karol Szwed"
 msgstr "Karol Szwed"
 
-#: kcmstyle.cpp:188
+#: kcmstyle.cpp:186
 #, kde-format
 msgid "Daniel Molkentin"
 msgstr "Daniel Molkentin"
 
-#: kcmstyle.cpp:198
+#: kcmstyle.cpp:196
 #, kde-format
 msgid "Preview"
 msgstr "Previsualizar"
 
-#: kcmstyle.cpp:252 kcmstyle.cpp:263
+#: kcmstyle.cpp:250 kcmstyle.cpp:261
 #, kde-format
 msgid "There was an error loading the configuration dialog for this style."
 msgstr ""
 "Produciuse un erro ao cargar o diálogo de configuración para este estilo."
 
-#: kcmstyle.cpp:254 kcmstyle.cpp:265
+#: kcmstyle.cpp:252 kcmstyle.cpp:263
 #, kde-format
 msgid "Unable to Load Dialog"
-msgstr "Non se pode cargar o diálogo"
+msgstr "Non foi posíbel cargar o diálogo"
 
-#: kcmstyle.cpp:488
+#: kcmstyle.cpp:479
 #, kde-format
 msgid "No description available."
 msgstr "Non hai ningunha descrición dispoñíbel."
 
-#: kcmstyle.cpp:695
+#: kcmstyle.cpp:686
 #, kde-format
 msgid ""
 "This area shows a preview of the currently selected style without having to "
@@ -103,7 +100,7 @@ msgstr ""
 "Este área móstralle unha vista previa do estilo actualmente escollido sen "
 "ter que aplicalo ao escritorio enteiro."
 
-#: kcmstyle.cpp:697
+#: kcmstyle.cpp:688
 #, kde-format
 msgid ""
 "Here you can choose from a list of predefined widget styles (e.g. the way "
@@ -114,25 +111,25 @@ msgstr ""
 "do que p.ex. se debuxan os botóns) que poden ou non estar combinados cun "
 "tema (información adicional como unha textura de mármore ou unha gradación)."
 
-#: kcmstyle.cpp:701
+#: kcmstyle.cpp:692
 #, kde-format
 msgid ""
 "If you enable this option, applications will show small icons alongside some "
 "important buttons."
 msgstr ""
-"Se activa esta opción, os aplicativos mostrarán pequenas iconas nalgúns "
+"Se activa esta opción, as aplicacións mostrarán pequenas iconas nalgúns "
 "botóns importantes."
 
-#: kcmstyle.cpp:703
+#: kcmstyle.cpp:694
 #, kde-format
 msgid ""
 "If you enable this option, applications will show small icons alongside most "
 "menu items."
 msgstr ""
-"Se activa esta opción, os aplicativos mostrarán pequenas iconas xunto á "
+"Se activa esta opción, as aplicacións mostrarán pequenas iconas xunto á "
 "maioría dos elementos do menú."
 
-#: kcmstyle.cpp:705
+#: kcmstyle.cpp:696
 #, kde-format
 msgid ""
 "<p><b>No text:</b> Shows only icons on toolbar buttons. Best option for low "
@@ -149,7 +146,7 @@ msgstr ""
 "iconas e texto nos botóns da barra de ferramentas. O texto alíñase baixo a "
 "icona."
 
-#: styleconfdialog.cpp:29
+#: styleconfdialog.cpp:33
 #, kde-format
 msgid "Configure %1"
 msgstr "Configurar %1"
@@ -158,13 +155,13 @@ msgstr "Configurar %1"
 #: styleconfig.ui:20
 #, kde-format
 msgid "Application style:"
-msgstr "Estilo do aplicativo:"
+msgstr "Estilo das aplicacións:"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, pbConfigStyle)
 #: styleconfig.ui:45
 #, kde-format
 msgid "Configure Application Style..."
-msgstr "Configurar o estilo dos aplicativos…"
+msgstr "Configurar o estilo das aplicacións…"
 
 #. i18n: ectx: property (text), widget (QLabel, labelShowIcons)
 #: styleconfig.ui:61
@@ -253,7 +250,7 @@ msgstr "Caixa para marcar"
 #: stylepreview.ui:106 stylepreview.ui:116
 #, kde-format
 msgid "Radio button"
-msgstr "Botón de opción"
+msgstr "Alternativa"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_2)
 #: stylepreview.ui:133

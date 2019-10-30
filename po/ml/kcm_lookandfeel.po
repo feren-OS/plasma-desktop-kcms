@@ -1,0 +1,126 @@
+# Malayalam translations for plasma-desktop package.
+# Copyright (C) 2019 This file is copyright:
+# This file is distributed under the same license as the plasma-desktop package.
+# Automatically generated, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-desktop\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-08-16 03:26+0200\n"
+"PO-Revision-Date: 2019-05-22 01:57+0530\n"
+"Last-Translator: Subin Siby <subins2000@gmai.com>\n"
+"Language-Team: Swathanthra|സ്വതന്ത്ര Malayalam|മലയാളം Computing|കമ്പ്യൂട്ടിങ്ങ് <smc."
+"org.in>\n"
+"Language: ml\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
+
+#: kcm.cpp:72
+#, kde-format
+msgid "Global Theme"
+msgstr ""
+
+#: kcm.cpp:74 lnftool.cpp:43
+#, kde-format
+msgid "Marco Martin"
+msgstr ""
+
+#: kcm.cpp:108
+#, kde-format
+msgid "Download New Global Themes"
+msgstr ""
+
+#: kcm.cpp:569
+#, kde-format
+msgid ""
+"You have to restart the Plasma session for these changes to take effect."
+msgstr ""
+
+#: kcm.cpp:570
+#, kde-format
+msgid "Cursor Settings Changed"
+msgstr ""
+
+#: lnftool.cpp:42
+#, kde-format
+msgid "Global Theme Tool"
+msgstr ""
+
+#: lnftool.cpp:42
+#, kde-format
+msgid ""
+"Command line tool to apply global theme packages for changing the look and "
+"feel."
+msgstr ""
+
+#: lnftool.cpp:42
+#, kde-format
+msgid "Copyright 2017, Marco Martin"
+msgstr ""
+
+#: lnftool.cpp:43
+#, kde-format
+msgid "Maintainer"
+msgstr ""
+
+#: lnftool.cpp:52
+#, kde-format
+msgid "List available global theme packages"
+msgstr ""
+
+#: lnftool.cpp:54
+#, kde-format
+msgid "Apply a global theme package"
+msgstr ""
+
+#: lnftool.cpp:54
+#, kde-format
+msgid "packagename"
+msgstr ""
+
+#: lnftool.cpp:56
+#, kde-format
+msgid "Reset the Plasma Desktop layout"
+msgstr ""
+
+#: package/contents/ui/main.qml:28
+#, kde-format
+msgid "This module lets you choose the global look and feel."
+msgstr ""
+
+#: package/contents/ui/main.qml:49
+#, kde-format
+msgid "Preview Theme"
+msgstr ""
+
+#: package/contents/ui/main.qml:67
+#, kde-format
+msgid ""
+"Your desktop layout will be lost and reset to the default layout provided by "
+"the selected theme."
+msgstr ""
+"നിങ്ങളുടെ ഡെസ്ക്ടോപ്പ് ലേഔട്ട് നഷ്ടപ്പെടുകയും തിരഞ്ഞെടുത്ത തീം നൽകിയ സ്ഥിരസ്ഥിതി ലേഔട്ടിലേക്ക് "
+"പുനഃസജ്ജമാക്കുകയും ചെയ്യും."
+
+#: package/contents/ui/main.qml:77
+#, kde-format
+msgid "Use desktop layout from theme"
+msgstr ""
+
+#: package/contents/ui/main.qml:84
+#, kde-format
+msgid "Get New Global Themes..."
+msgstr ""

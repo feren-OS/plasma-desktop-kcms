@@ -107,12 +107,17 @@ void KeyboardConfig::load()
 //    	layoutStrings.append(DEFAULT_LAYOUT);
 //    }
     layouts.clear();
-    foreach(const QString& layoutString, layoutStrings) {
-    	layouts.append(LayoutUnit(layoutString));
+    if (layoutStrings.isEmpty()) {
+        QList<LayoutUnit> x11layouts = X11Helper::getLayoutsList();
+        for (const LayoutUnit& layoutUnit : x11layouts) {
+            layouts.append(layoutUnit);
+        }
+    } else {
+        for (const QString& layoutString : layoutStrings) {
+            layouts.append(LayoutUnit(layoutString));
+        }
     }
-    if( layouts.isEmpty() ) {
-    	configureLayouts = false;
-    }
+    configureLayouts = !layouts.isEmpty();
 
     layoutLoopCount = config.readEntry("LayoutLoopCount", NO_LOOPING);
 
@@ -130,7 +135,7 @@ void KeyboardConfig::load()
     QString labelsStr = config.readEntry("DisplayNames", "");
     QStringList labels = labelsStr.split(LIST_SEPARATOR, QString::KeepEmptyParts);
     for(int i=0; i<labels.count() && i<layouts.count(); i++) {
-    	if( !labels[i].isEmpty() && labels[i] != layouts[i].layout ) {
+        if( !labels[i].isEmpty() && labels[i] != layouts[i].layout() ) {
     		layouts[i].setDisplayName(labels[i]);
     	}
     }

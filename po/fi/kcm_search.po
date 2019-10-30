@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"POT-Creation-Date: 2019-05-23 03:23+0200\n"
 "PO-Revision-Date: 2019-06-23 23:00+0300\n"
 "Last-Translator: Tommi Nieminen <translator@legisign.org>\n"
 "Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
@@ -41,8 +41,8 @@ msgstr "Vishesh Handa"
 
 #: kcm.cpp:59
 #, kde-format
-msgid "Select the search plugins:"
-msgstr "Valitse hakuliitännäiset:"
+msgid "Enable or disable KRunner plugins:"
+msgstr "Ota käyttöön tai poista käytöstä KRunner-liitännäiset:"
 
 #: kcm.cpp:61
 #, kde-format

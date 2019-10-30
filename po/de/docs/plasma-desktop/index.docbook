@@ -668,7 +668,7 @@
 ><imagedata fileref="krunner-configure.png" format="PNG"/> </imageobject
 ></inlinemediaobject
 >, um in den &systemsettings; das Modul <guilabel
->Plasma-Suche</guilabel
+>KRunner</guilabel
 > zu öffnen, in dem Sie einstellen können, welche Art der Suche in &krunner; benutzt wird. </para>
 
 <para

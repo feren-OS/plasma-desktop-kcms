@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"POT-Creation-Date: 2019-08-03 03:23+0200\n"
 "PO-Revision-Date: 2017-01-15 17:57+0200\n"
 "Last-Translator: Dimitris Kardarakos <dimkard@gmail.com>\n"
 "Language-Team: Greek <kde-i18n-el@kde.org>\n"
@@ -34,18 +34,6 @@ msgstr "Φίλτρο"
 #: package/contents/config/config.qml:50
 msgid "Tweaks"
 msgstr "Μικροδιορθώσεις"
-
-#: package/contents/ui/AppletHandle.qml:105
-msgid "Resize"
-msgstr "Αλλαγή μεγέθους"
-
-#: package/contents/ui/AppletHandle.qml:127
-msgid "Rotate"
-msgstr "Περιστροφή"
-
-#: package/contents/ui/AppletHandle.qml:284
-msgid "Remove"
-msgstr "Αφαίρεση"
 
 #: package/contents/ui/BackButtonItem.qml:116
 msgid "Back"
@@ -235,55 +223,55 @@ msgstr "Μικρό"
 msgid "Large"
 msgstr "Μεγάλο"
 
-#: package/contents/ui/ConfigIcons.qml:263
+#: package/contents/ui/ConfigIcons.qml:264
 msgid "Label width:"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:266
+#: package/contents/ui/ConfigIcons.qml:267
 msgid "Narrow"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:267
+#: package/contents/ui/ConfigIcons.qml:268
 #: plugins/folder/viewpropertiesmenu.cpp:88
 #, kde-format
 msgid "Medium"
 msgstr "Μεσαίο"
 
-#: package/contents/ui/ConfigIcons.qml:268
+#: package/contents/ui/ConfigIcons.qml:269
 msgid "Wide"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:276
+#: package/contents/ui/ConfigIcons.qml:277
 #, fuzzy
 #| msgid "Text lines:"
 msgid "Text lines:"
 msgstr "Γραμμές κειμένου:"
 
-#: package/contents/ui/ConfigIcons.qml:292
+#: package/contents/ui/ConfigIcons.qml:293
 #, fuzzy
 #| msgid "Features"
 msgid "Features:"
 msgstr "Χαρακτηριστικά"
 
-#: package/contents/ui/ConfigIcons.qml:294
+#: package/contents/ui/ConfigIcons.qml:295
 #, fuzzy
 #| msgid "Tooltips"
 msgid "Tooltips"
 msgstr "Υποδείξεις"
 
-#: package/contents/ui/ConfigIcons.qml:301
+#: package/contents/ui/ConfigIcons.qml:302
 msgid "Selection markers"
 msgstr "Σημεία επιλογής"
 
-#: package/contents/ui/ConfigIcons.qml:308
+#: package/contents/ui/ConfigIcons.qml:309
 msgid "Folder preview popups"
 msgstr "Αναδυόμενα παράθυρα προεπισκόπησης φακέλων"
 
-#: package/contents/ui/ConfigIcons.qml:314
+#: package/contents/ui/ConfigIcons.qml:315
 msgid "Preview thumbnails"
 msgstr "Εικόνες προεπισκόπησης"
 
-#: package/contents/ui/ConfigIcons.qml:321
+#: package/contents/ui/ConfigIcons.qml:323
 #, fuzzy
 #| msgid "More Preview Options..."
 msgid "Configure Preview Plugins..."
@@ -349,6 +337,14 @@ msgstr "Προσαρμοσμένος τίτλος"
 msgid "Enter custom title..."
 msgstr "Εισαγωγή ενός προσαρμοσμένου τίτλου εδώ"
 
+#: package/contents/ui/ConfigOverlay.qml:101
+msgid "Rotate"
+msgstr "Περιστροφή"
+
+#: package/contents/ui/ConfigOverlay.qml:224
+msgid "Remove"
+msgstr "Αφαίρεση"
+
 #: package/contents/ui/ConfigTweaks.qml:43
 msgid ""
 "With the Desktop Toolbox hidden, right-click on the desktop and choose "
@@ -377,21 +373,21 @@ msgstr "Εντάξει"
 msgid "Cancel"
 msgstr "Ακύρωση"
 
-#: package/contents/ui/main.qml:382
+#: package/contents/ui/main.qml:277
 msgid "Widgets unlocked"
 msgstr "Τα γραφικά συστατικά ξεκλειδώθηκαν"
 
-#: package/contents/ui/main.qml:383
+#: package/contents/ui/main.qml:278
 msgid "You can press and hold widgets to move them and reveal their handles."
 msgstr ""
 "Μπορείτε να πιέσετε και κρατήστε πατημένα τα γραφικά συστατικά για να τα "
 "μετακινήσετε και να εμφανίσετε τα σημεία χειρισμού."
 
-#: package/contents/ui/main.qml:384
+#: package/contents/ui/main.qml:279
 msgid "Got it"
 msgstr "Το 'πιασα"
 
-#: package/contents/ui/main.qml:597
+#: package/contents/ui/main.qml:403
 #, fuzzy
 #| msgid "Configure Desktop"
 msgid "Configure Desktop..."

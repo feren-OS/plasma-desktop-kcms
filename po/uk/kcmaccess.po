@@ -1,25 +1,25 @@
 # Translation of kcmaccess.po to Ukrainian
-# Copyright (C) 2002-2017 This_file_is_part_of_KDE
+# Copyright (C) 2002-2019 This_file_is_part_of_KDE
 # This file is distributed under the license LGPL version 2.1 or
 # version 3 or later versions approved by the membership of KDE e.V.
 #
 # Eugene Onischenko <oneugene@ukr.net>, 2002.
 # Andriy Rysin <rysin@kde.org>, 2002, 2006.
 # Ivan Petrouchtchak <fr.ivan@ukrainian-orthodox.org>, 2005, 2006, 2007, 2008.
-# Yuri Chornoivan <yurchor@ukr.net>, 2009, 2010, 2014, 2015, 2017.
+# Yuri Chornoivan <yurchor@ukr.net>, 2009, 2010, 2014, 2015, 2017, 2019.
 msgid ""
 msgstr ""
 "Project-Id-Version: kcmaccess\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
-"PO-Revision-Date: 2017-11-10 07:22+0200\n"
+"POT-Creation-Date: 2019-08-01 03:13+0200\n"
+"PO-Revision-Date: 2019-08-01 08:19+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 2.0\n"
+"X-Generator: Lokalize 19.04.0\n"
 "Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
 "%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 
@@ -185,7 +185,11 @@ msgstr "Тут ви можете налаштувати тривалість е�
 #. i18n: ectx: property (suffix), widget (QSpinBox, duration)
 #. i18n: ectx: property (suffix), widget (QSpinBox, slowKeysDelay)
 #. i18n: ectx: property (suffix), widget (QSpinBox, bounceKeysDelay)
+#. i18n: ectx: property (suffix), widget (QSpinBox, mk_delay)
+#. i18n: ectx: property (suffix), widget (QSpinBox, mk_interval)
+#. i18n: ectx: property (suffix), widget (QSpinBox, mk_time_to_max)
 #: accessibility.ui:181 accessibility.ui:392 accessibility.ui:489
+#: accessibility.ui:766 accessibility.ui:808 accessibility.ui:840
 #, kde-format
 msgid " msec"
 msgstr " мс"
@@ -393,26 +397,74 @@ msgstr ""
 "Використовувати механізм сповіщень Плазми під час перемикання функцій "
 "доступності на клавіатурі"
 
-#. i18n: ectx: attribute (title), widget (QWidget, tabScreenReader)
+#. i18n: ectx: attribute (title), widget (QWidget, tabMouseKeys)
 #: accessibility.ui:745
+#, kde-format
+msgid "Mouse Navigation"
+msgstr "Навігація мишкою"
+
+#. i18n: ectx: property (text), widget (QCheckBox, mouseKeys)
+#: accessibility.ui:753
+#, kde-format
+msgid "&Move pointer with keyboard (using the num pad)"
+msgstr "&Пересувати мишку цифровою частиною клавіатури"
+
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: accessibility.ui:782
+#, kde-format
+msgid "&Acceleration delay:"
+msgstr "Затримка &прискорення:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_8)
+#: accessibility.ui:792
+#, kde-format
+msgid "R&epeat interval:"
+msgstr "Інтервал &повторення:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_9)
+#: accessibility.ui:824
+#, kde-format
+msgid "Acceleration &time:"
+msgstr "&Час прискорення:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_10)
+#: accessibility.ui:856
+#, kde-format
+msgid "Ma&ximum speed:"
+msgstr "&Максимальна швидкість:"
+
+#. i18n: ectx: property (suffix), widget (QSpinBox, mk_max_speed)
+#: accessibility.ui:872
+#, kde-format
+msgid " pixel/sec"
+msgstr " пікселів/сек"
+
+#. i18n: ectx: property (text), widget (QLabel, label_11)
+#: accessibility.ui:888
+#, kde-format
+msgid "Acceleration &profile:"
+msgstr "П&рофіль прискорення:"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tabScreenReader)
+#: accessibility.ui:933
 #, kde-format
 msgid "Screen Reader"
 msgstr "Засіб читання з екрана"
 
 #. i18n: ectx: property (text), widget (QCheckBox, screenReaderEnabled)
-#: accessibility.ui:751
+#: accessibility.ui:939
 #, kde-format
 msgid "Screen reader enabled"
 msgstr "Засіб читання з екрана увімкнено"
 
 #. i18n: ectx: property (text), widget (QPushButton, launchOrcaConfiguration)
-#: accessibility.ui:760
+#: accessibility.ui:948
 #, kde-format
 msgid "&Launch Orca Configuration"
 msgstr "&Налаштувати Orca"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: accessibility.ui:785
+#: accessibility.ui:973
 #, kde-format
 msgid ""
 "Please note that you may have to log out once to allow the screen reader to "
@@ -524,12 +576,12 @@ msgstr ""
 "Липкі клавіші: Натисніть клавішу Shift 5 разів \n"
 "Повільні клавіші: Натисніть і потримайте Shift 8 секунд"
 
-#: kcmaccess.cpp:261
+#: kcmaccess.cpp:269
 #, kde-format
 msgid "Could not set gsettings for Orca: \"%1\" failed"
 msgstr "Не вдалося встановити налаштування для Orca: помилка «%1»"
 
-#: kcmaccess.cpp:268
+#: kcmaccess.cpp:276
 #, kde-format
 msgid "Error: Could not launch \"orca --setup\""
 msgstr "Помилка: не вдалося запустити «orca --setup»"

@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcm_touchpad\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-06-20 07:49+0200\n"
-"PO-Revision-Date: 2019-05-15 07:56+0300\n"
+"POT-Creation-Date: 2019-06-20 03:22+0200\n"
+"PO-Revision-Date: 2019-06-03 07:25+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -116,7 +116,7 @@ msgstr "Поміняти місцями ліву і праву кнопки."
 msgid "Press left and right buttons for middle click"
 msgstr "Натискати ліву і праву кнопки для клацання середньою"
 
-#: src/kcm/libinput/touchpad.qml:206 src/kcm/libinput/touchpad.qml:720
+#: src/kcm/libinput/touchpad.qml:206 src/kcm/libinput/touchpad.qml:721
 #, kde-format
 msgid ""
 "Clicking left and right button simultaneously sends middle button click."
@@ -284,41 +284,41 @@ msgstr "Вимкнути горизонтальне гортання"
 
 #: src/kcm/libinput/touchpad.qml:603
 #, kde-format
-msgid "Right-click :"
+msgid "Right-click:"
 msgstr "Клацання правою:"
 
-#: src/kcm/libinput/touchpad.qml:641
+#: src/kcm/libinput/touchpad.qml:642
 #, kde-format
 msgid "Press bottom-right corner"
 msgstr "Натискання у нижньому правому куті"
 
-#: src/kcm/libinput/touchpad.qml:645
+#: src/kcm/libinput/touchpad.qml:646
 #, kde-format
 msgid ""
 "Software enabled buttons will be added to bottom portion of your touchpad."
 msgstr "Програмні кнопки буде додано у нижній частині сенсорної панелі."
 
-#: src/kcm/libinput/touchpad.qml:653
+#: src/kcm/libinput/touchpad.qml:654
 #, kde-format
 msgid "Press anywhere with two fingers"
 msgstr "Натискання будь-де двома пальцями"
 
-#: src/kcm/libinput/touchpad.qml:657
+#: src/kcm/libinput/touchpad.qml:658
 #, kde-format
 msgid "Tap with two finger to enable right click."
 msgstr "Дотик двома пальцями — клацання правою."
 
-#: src/kcm/libinput/touchpad.qml:670
+#: src/kcm/libinput/touchpad.qml:671
 #, kde-format
 msgid "Middle-click: "
 msgstr "Клацання середньою:"
 
-#: src/kcm/libinput/touchpad.qml:704
+#: src/kcm/libinput/touchpad.qml:705
 #, kde-format
 msgid "Press bottom-middle"
 msgstr "Натискання внизу посередині"
 
-#: src/kcm/libinput/touchpad.qml:708
+#: src/kcm/libinput/touchpad.qml:709
 #, kde-format
 msgid ""
 "Software enabled middle-button will be added to bottom portion of your "
@@ -327,17 +327,17 @@ msgstr ""
 "Програмну кнопку середньої кнопки миші буде додано у нижній частині "
 "сенсорної панелі."
 
-#: src/kcm/libinput/touchpad.qml:716
+#: src/kcm/libinput/touchpad.qml:717
 #, kde-format
 msgid "Press bottom left and bottom right corners simultaneously"
 msgstr "Натискання у нижньому лівому і нижньому правому куті одночасно"
 
-#: src/kcm/libinput/touchpad.qml:729
+#: src/kcm/libinput/touchpad.qml:730
 #, kde-format
 msgid "Press anywhere with three fingers"
 msgstr "Натискання будь-де трьома пальцями"
 
-#: src/kcm/libinput/touchpad.qml:735
+#: src/kcm/libinput/touchpad.qml:736
 #, kde-format
 msgid "Press anywhere with three fingers."
 msgstr "Натискання будь-де трьома пальцями."

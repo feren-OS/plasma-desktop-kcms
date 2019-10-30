@@ -1,0 +1,106 @@
+# Malayalam translations for plasma-desktop package.
+# Copyright (C) 2019 This file is copyright:
+# This file is distributed under the same license as the plasma-desktop package.
+# Automatically generated, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-desktop\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-05-20 03:25+0200\n"
+"PO-Revision-Date: 2018-08-16 09:15+0200\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: Swathanthra|സ്വതന്ത്ര Malayalam|മലയാളം Computing|കമ്പ്യൂട്ടിങ്ങ് <smc."
+"org.in>\n"
+"Language: ml\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
+
+#: kcmqtquicksettings.cpp:37
+#, kde-format
+msgid "Plasma QtQuick Settings"
+msgstr ""
+
+#: kcmqtquicksettings.cpp:39
+#, kde-format
+msgid "Configure Plasma QtQuick Settings"
+msgstr ""
+
+#: kcmqtquicksettings.cpp:41
+#, kde-format
+msgid "David Edmundson"
+msgstr ""
+
+#: kcmqtquicksettings.cpp:41
+#, kde-format
+msgid "Maintainer"
+msgstr ""
+
+#: kcmqtquicksettings.cpp:45 kcmqtquicksettings.cpp:49
+#, kde-format
+msgid "Automatic"
+msgstr ""
+
+#: kcmqtquicksettings.cpp:46
+#, kde-format
+msgid "Open GL"
+msgstr ""
+
+#: kcmqtquicksettings.cpp:47
+#, kde-format
+msgid "Software"
+msgstr ""
+
+#: kcmqtquicksettings.cpp:50
+#, kde-format
+msgid "Basic"
+msgstr ""
+
+#: kcmqtquicksettings.cpp:51
+#, kde-format
+msgid "Threaded"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (KMessageWidget, kmessagewidget)
+#: kcmqtquicksettingswidget.ui:23
+#, kde-format
+msgid ""
+"These settings adjust the QtQuick settings used by Plasma. Only adjust if "
+"you know what you are doing."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: kcmqtquicksettingswidget.ui:38
+#, kde-format
+msgid "Rendering Backend:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: kcmqtquicksettingswidget.ui:48
+#, kde-format
+msgid "GL Core Profile:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: kcmqtquicksettingswidget.ui:55
+#, kde-format
+msgid "Render Loop:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, glCoreProfileCheckbox)
+#: kcmqtquicksettingswidget.ui:65
+#, kde-format
+msgid "Force"
+msgstr ""

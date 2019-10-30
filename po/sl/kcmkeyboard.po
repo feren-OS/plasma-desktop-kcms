@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkeyboard\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"POT-Creation-Date: 2019-08-11 03:10+0200\n"
 "PO-Revision-Date: 2018-01-11 20:57+0100\n"
 "Last-Translator: Andrej Mernik <andrejm@ubuntu.si>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
@@ -63,7 +63,7 @@ msgstr "%1 - %2"
 msgid "Any language"
 msgstr "Katerikoli jezik"
 
-#: kcm_add_layout_dialog.cpp:141 kcm_view_models.cpp:319
+#: kcm_add_layout_dialog.cpp:141 kcm_view_models.cpp:311
 #, kde-format
 msgctxt "variant"
 msgid "Default"
@@ -404,28 +404,28 @@ msgstr[1] "%1 bližnjica"
 msgstr[2] "%1 bližnjici"
 msgstr[3] "%1 bližnjice"
 
-#: kcm_view_models.cpp:226
+#: kcm_view_models.cpp:220
 #, kde-format
 msgctxt "layout map name"
 msgid "Map"
 msgstr "Preslikava"
 
-#: kcm_view_models.cpp:226
+#: kcm_view_models.cpp:220
 #, kde-format
 msgid "Layout"
 msgstr "Razporeditev"
 
-#: kcm_view_models.cpp:226
+#: kcm_view_models.cpp:220
 #, kde-format
 msgid "Variant"
 msgstr "Različica"
 
-#: kcm_view_models.cpp:226
+#: kcm_view_models.cpp:220
 #, kde-format
 msgid "Label"
 msgstr "Oznaka"
 
-#: kcm_view_models.cpp:226
+#: kcm_view_models.cpp:220
 #, kde-format
 msgid "Shortcut"
 msgstr "Bližnjica"

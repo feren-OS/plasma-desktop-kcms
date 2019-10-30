@@ -13,8 +13,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
-"PO-Revision-Date: 2019-07-18 15:07\n"
+"POT-Creation-Date: 2019-10-19 08:02+0200\n"
+"PO-Revision-Date: 2019-10-09 10:01\n"
 "Last-Translator: Guo Yunhe (guoyunhe)\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -37,54 +37,54 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "kde-china@kde.org"
 
-#: kcmstyle.cpp:173
+#: kcmstyle.cpp:171
 #, kde-format
 msgid ""
 "This module allows you to modify the visual appearance of applications' user "
 "interface elements."
 msgstr "此模块允许您修改用户界面元素的视觉外观。"
 
-#: kcmstyle.cpp:183
+#: kcmstyle.cpp:181
 #, kde-format
 msgid "Application Style"
 msgstr "应用程序风格"
 
-#: kcmstyle.cpp:185
+#: kcmstyle.cpp:183
 #, kde-format
 msgid "(c) 2002 Karol Szwed, Daniel Molkentin"
 msgstr "(c) 2002 Karol Szwed、Daniel Molkentin"
 
-#: kcmstyle.cpp:187
+#: kcmstyle.cpp:185
 #, kde-format
 msgid "Karol Szwed"
 msgstr "Karol Szwed"
 
-#: kcmstyle.cpp:188
+#: kcmstyle.cpp:186
 #, kde-format
 msgid "Daniel Molkentin"
 msgstr "Daniel Molkentin"
 
-#: kcmstyle.cpp:198
+#: kcmstyle.cpp:196
 #, kde-format
 msgid "Preview"
 msgstr "预览"
 
-#: kcmstyle.cpp:252 kcmstyle.cpp:263
+#: kcmstyle.cpp:250 kcmstyle.cpp:261
 #, kde-format
 msgid "There was an error loading the configuration dialog for this style."
 msgstr "装入此样式的配置对话框出错。"
 
-#: kcmstyle.cpp:254 kcmstyle.cpp:265
+#: kcmstyle.cpp:252 kcmstyle.cpp:263
 #, kde-format
 msgid "Unable to Load Dialog"
 msgstr "无法装入对话框"
 
-#: kcmstyle.cpp:488
+#: kcmstyle.cpp:479
 #, kde-format
 msgid "No description available."
 msgstr "无可用描述。"
 
-#: kcmstyle.cpp:695
+#: kcmstyle.cpp:686
 #, kde-format
 msgid ""
 "This area shows a preview of the currently selected style without having to "
@@ -93,7 +93,7 @@ msgstr ""
 "此区域所显示的预览能够使得您无需将所选样式应用到整个桌面即可观看该样式的效"
 "果。"
 
-#: kcmstyle.cpp:697
+#: kcmstyle.cpp:688
 #, kde-format
 msgid ""
 "Here you can choose from a list of predefined widget styles (e.g. the way "
@@ -103,21 +103,21 @@ msgstr ""
 "您可以从预定义部件样式(如按钮的绘制方式)列表中选择哪些可以(或不可以)与主题组"
 "合(如大理石贴图或颜色梯度等附加信息)。"
 
-#: kcmstyle.cpp:701
+#: kcmstyle.cpp:692
 #, kde-format
 msgid ""
 "If you enable this option, applications will show small icons alongside some "
 "important buttons."
 msgstr "如果您启用此选项，应用程序将会在某些重要按钮旁边显示小图标。"
 
-#: kcmstyle.cpp:703
+#: kcmstyle.cpp:694
 #, kde-format
 msgid ""
 "If you enable this option, applications will show small icons alongside most "
 "menu items."
 msgstr "如果您启用此选项，应用程序将会在大部分按钮旁边显示小图标。"
 
-#: kcmstyle.cpp:705
+#: kcmstyle.cpp:696
 #, kde-format
 msgid ""
 "<p><b>No text:</b> Shows only icons on toolbar buttons. Best option for low "
@@ -131,7 +131,7 @@ msgstr ""
 "钮上同时显示图标和文字。文字排列于图标旁边。</p><b>文字在图标下：</b>在工具栏"
 "按钮上同时显示图标和文字。文本排列于图标下。"
 
-#: styleconfdialog.cpp:29
+#: styleconfdialog.cpp:33
 #, kde-format
 msgid "Configure %1"
 msgstr "配置 %1"

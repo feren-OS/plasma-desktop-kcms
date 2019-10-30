@@ -1,22 +1,22 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# Vít Pelčák <vit@pelcak.org>, 2010, 2011, 2012, 2014, 2015.
+# Vít Pelčák <vit@pelcak.org>, 2010, 2011, 2012, 2014, 2015, 2019.
 # Lukáš Tinkl <lukas@kde.org>, 2012.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
-"PO-Revision-Date: 2015-02-02 10:33+0100\n"
-"Last-Translator: Vít Pelčák <vit@pelcak.org>\n"
+"POT-Creation-Date: 2019-05-20 03:25+0200\n"
+"PO-Revision-Date: 2019-08-22 12:45+0200\n"
+"Last-Translator: Vit Pelcak <vit@pelcak.org>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Lokalize 2.0\n"
+"X-Generator: Lokalize 19.08.1\n"
 
 #: package/contents/config/config.qml:26
 #, kde-format
@@ -31,7 +31,7 @@ msgstr "(Prázdné)"
 #: package/contents/ui/ConfigAppearance.qml:38
 #, kde-format
 msgid "Input method list:"
-msgstr ""
+msgstr "Seznam vstupních metod:"
 
 #: package/contents/ui/ConfigAppearance.qml:39
 #, kde-format
@@ -46,13 +46,13 @@ msgstr "Písmo:"
 #: package/contents/ui/ConfigAppearance.qml:49
 #, kde-format
 msgid "Use custom:"
-msgstr ""
+msgstr "Použít vlastní:"
 
 #: package/contents/ui/ConfigAppearance.qml:55
 #, kde-format
 msgctxt "The selected font family and font size"
 msgid " "
-msgstr ""
+msgstr " "
 
 #: package/contents/ui/ConfigAppearance.qml:67
 #, kde-format

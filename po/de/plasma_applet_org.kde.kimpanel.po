@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
-"PO-Revision-Date: 2019-05-22 07:37+0200\n"
+"POT-Creation-Date: 2019-05-20 03:25+0200\n"
+"PO-Revision-Date: 2019-08-06 21:05+0200\n"
 "Last-Translator: Burkhard Lück <lueck@hube-lueck.de>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
 "Language: de\n"
@@ -25,10 +25,9 @@ msgid "(Empty)"
 msgstr "(Leer)"
 
 #: package/contents/ui/ConfigAppearance.qml:38
-#, fuzzy, kde-format
-#| msgid "Exit Input Method"
+#, kde-format
 msgid "Input method list:"
-msgstr "Eingabemethode beenden"
+msgstr "Eingabemethodenliste:"
 
 #: package/contents/ui/ConfigAppearance.qml:39
 #, kde-format
@@ -43,7 +42,7 @@ msgstr "Schriftart:"
 #: package/contents/ui/ConfigAppearance.qml:49
 #, kde-format
 msgid "Use custom:"
-msgstr ""
+msgstr "Benutzerdefinierte Schriftart verwenden:"
 
 #: package/contents/ui/ConfigAppearance.qml:55
 #, kde-format

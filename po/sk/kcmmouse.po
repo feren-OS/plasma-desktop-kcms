@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcminput\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"POT-Creation-Date: 2019-05-20 03:25+0200\n"
 "PO-Revision-Date: 2018-09-14 11:41+0100\n"
 "Last-Translator: Mthw <jari_45@hotmail.com>\n"
 "Language-Team: Slovak <kde-i18n-doc@kde.org>\n"
@@ -154,7 +154,7 @@ msgstr "Vymeniť ľavé a pravé tlačidlo."
 #: kcm/libinput/main.qml:162 kcm/libinput/main_deviceless.qml:92
 #, kde-format
 msgid "Press left and right buttons for middle-click"
-msgstr "Stlačte ľavé a pravé tlačidlo na akciu stredného tlačidla"
+msgstr "Stlačte naraz ľavé a pravé tlačidlo na akciu stredného tlačidla"
 
 #: kcm/libinput/main.qml:181 kcm/libinput/main_deviceless.qml:111
 #, kde-format

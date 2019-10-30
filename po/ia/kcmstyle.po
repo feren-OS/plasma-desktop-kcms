@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"POT-Creation-Date: 2019-10-19 08:02+0200\n"
 "PO-Revision-Date: 2012-11-14 11:15+0100\n"
 "Last-Translator: Giovanni Sora <g.sora@tiscali.it>\n"
 "Language-Team: Interlingua <kde-i18n-ia@kde.org>\n"
@@ -27,7 +27,7 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "g.sora@tiscali.it"
 
-#: kcmstyle.cpp:173
+#: kcmstyle.cpp:171
 #, fuzzy, kde-format
 #| msgid ""
 #| "<h1>Style</h1>This module allows you to modify the visual appearance of "
@@ -40,51 +40,51 @@ msgstr ""
 "elementos de interfacie de usator, tal como le stilo de widget (elemento "
 "graphic de fenestra) e effectos."
 
-#: kcmstyle.cpp:183
+#: kcmstyle.cpp:181
 #, fuzzy, kde-format
 #| msgctxt "@title:tab"
 #| msgid "&Applications"
 msgid "Application Style"
 msgstr "&Applicationes"
 
-#: kcmstyle.cpp:185
+#: kcmstyle.cpp:183
 #, kde-format
 msgid "(c) 2002 Karol Szwed, Daniel Molkentin"
 msgstr "(c) 2002 Karol Szwed, Daniel Molkentin"
 
-#: kcmstyle.cpp:187
+#: kcmstyle.cpp:185
 #, kde-format
 msgid "Karol Szwed"
 msgstr "Karol Szwed"
 
-#: kcmstyle.cpp:188
+#: kcmstyle.cpp:186
 #, kde-format
 msgid "Daniel Molkentin"
 msgstr "Daniel Molkentin"
 
-#: kcmstyle.cpp:198
+#: kcmstyle.cpp:196
 #, kde-format
 msgid "Preview"
 msgstr "Vista preliminar"
 
-#: kcmstyle.cpp:252 kcmstyle.cpp:263
+#: kcmstyle.cpp:250 kcmstyle.cpp:261
 #, kde-format
 msgid "There was an error loading the configuration dialog for this style."
 msgstr ""
 "Il ha occurrite un error durante que on cargava le dialogo de configuration "
 "pro iste stilo."
 
-#: kcmstyle.cpp:254 kcmstyle.cpp:265
+#: kcmstyle.cpp:252 kcmstyle.cpp:263
 #, kde-format
 msgid "Unable to Load Dialog"
 msgstr "Il non pote cargar dialogo"
 
-#: kcmstyle.cpp:488
+#: kcmstyle.cpp:479
 #, kde-format
 msgid "No description available."
 msgstr "Nulle description disponibile."
 
-#: kcmstyle.cpp:695
+#: kcmstyle.cpp:686
 #, kde-format
 msgid ""
 "This area shows a preview of the currently selected style without having to "
@@ -93,7 +93,7 @@ msgstr ""
 "Iste area monstra un vista preliminar del stilo currentemente seligite sin "
 "ja haber lo applicate a le scriptorio integre."
 
-#: kcmstyle.cpp:697
+#: kcmstyle.cpp:688
 #, kde-format
 msgid ""
 "Here you can choose from a list of predefined widget styles (e.g. the way "
@@ -105,7 +105,7 @@ msgstr ""
 "esser combinate con un thema (informationes additional como un texture "
 "marmore o un gradiente)."
 
-#: kcmstyle.cpp:701
+#: kcmstyle.cpp:692
 #, fuzzy, kde-format
 #| msgid ""
 #| "If you enable this option, KDE Applications will show small icons "
@@ -117,7 +117,7 @@ msgstr ""
 "Si tu habilita iste option, Applicationes de KDE monstrara parve icones "
 "insimul alicun buttones importante."
 
-#: kcmstyle.cpp:703
+#: kcmstyle.cpp:694
 #, fuzzy, kde-format
 #| msgid ""
 #| "If you enable this option, KDE Applications will show small icons "
@@ -129,7 +129,7 @@ msgstr ""
 "Si tu habilita iste option, Applicationes de KDE monstrara parve icones "
 "insimul plure elementos de menu."
 
-#: kcmstyle.cpp:705
+#: kcmstyle.cpp:696
 #, fuzzy, kde-format
 #| msgid ""
 #| "<p><b>No Text:</b> Shows only icons on toolbar buttons. Best option for "
@@ -152,7 +152,7 @@ msgstr ""
 "Icones: </b> Il Monstra icones e texto sur buttones de barra de "
 "instrumentos. Texto es alineate infra le icone."
 
-#: styleconfdialog.cpp:29
+#: styleconfdialog.cpp:33
 #, kde-format
 msgid "Configure %1"
 msgstr "Con&figura %1"

@@ -52,7 +52,7 @@
 >Autostart-Verwaltung</title>
 
 <para
->Dieses Einrichtungsmodul ermöglicht Ihnen die Verwaltung von Programmen, die mit Ihrer&plasma;-Sitzung gestartet werden. Sie können Programme oder Skripte hinzufügen und ändern, die zusammen mit Ihrer &plasma;-Sitzung starten oder beim Abmelden ausgeführt werden sollen.</para>
+>Dieses Einrichtungsmodul ermöglicht Ihnen die Verwaltung von Programmen, die mit Ihrer &plasma;-Sitzung gestartet werden. Sie können Programme oder Skripte hinzufügen und ändern, die zusammen mit Ihrer &plasma;-Sitzung starten oder beim Abmelden ausgeführt werden sollen.</para>
 
 <note
 ><para
@@ -216,7 +216,7 @@
 > kopiert. Nach der &plasma;-Abmeldung des Benutzers werden sie ausgeführt. </para>
 <para
 >Skripte, die <guilabel
->Vor der KDE-Anmeldung</guilabel
+>Vor der &plasma;-Anmeldung</guilabel
 > zum Start eingeplant sind, erhalten eine symbolische Verknüpfung oder werden in den Ordner <filename class="directory"
 >$HOME/.config/plasma-workspace/env</filename
 > kopiert und dort während des &plasma;-Starts eingelesen (sourced). Das Skript <filename

@@ -16,19 +16,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmcolors\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-06-21 07:50+0200\n"
-"PO-Revision-Date: 2019-06-20 14:01+0200\n"
+"POT-Creation-Date: 2019-08-05 03:06+0200\n"
+"PO-Revision-Date: 2019-10-19 22:08+0200\n"
 "Last-Translator: Adrián Chaves (Gallaecio) <adrian@chaves.io>\n"
-"Language-Team: Galician <kde-i18n-doc@kde.org>\n"
+"Language-Team: Galician <proxecto@trasno.gal>\n"
 "Language: gl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 19.07.70\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Environment: kde\n"
-"X-Accelerator-Marker: &\n"
-"X-Text-Markup: kde4\n"
+"X-Generator: Lokalize 19.11.70\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -40,106 +37,52 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "xabigf@gmx.net, mvillarino@users.sourceforge.net"
 
-#: colors.cpp:69 editor/scmeditordialog.cpp:80
+#: colors.cpp:70 editor/scmeditordialog.cpp:80
 #, kde-format
 msgid "Colors"
 msgstr "Cores"
 
-#: colors.cpp:71
+#: colors.cpp:72
 #, kde-format
 msgid "Kai Uwe Broulik"
 msgstr "Kai Uwe Broulik"
 
-#: colors.cpp:110
+#: colors.cpp:111
 #, kde-format
 msgid "Download New Color Schemes"
 msgstr "Descargar novos esquemas de cores"
 
-#: colors.cpp:166
+#: colors.cpp:167
 #, kde-format
 msgid "Unable to create a temporary file."
 msgstr "Non se pode crear un ficheiro temporal."
 
-#: colors.cpp:180
+#: colors.cpp:181
 #, kde-format
 msgid "Unable to download the color scheme: %1"
 msgstr "Non se pode descargar o esquema de cores: %1"
 
-#: colors.cpp:198
+#: colors.cpp:199
 #, kde-format
 msgid "This file is not a color scheme file."
 msgstr "Este ficheiro non é un ficheiro de esquema de cores."
 
 # skip-rule: PT-2012_colour
-#: colors.cpp:218
+#: colors.cpp:219
 #, kde-format
 msgid "Failed to create 'color-scheme' data folder."
 msgstr "Non se puido crear o cartafol de datos «color-scheme»."
 
-#: colors.cpp:225
+#: colors.cpp:226
 #, kde-format
 msgid "Failed to copy color scheme into 'color-scheme' data folder."
 msgstr ""
 "Non se puido copiar o esquema de cores no cartafol de datos «color-scheme»."
 
-#: colors.cpp:242
+#: colors.cpp:243
 #, kde-format
 msgid "Color scheme installed successfully."
 msgstr "O esquema de cores instalouse correctamente."
-
-#. i18n: ectx: property (toolTip), widget (QPushButton, schemeEditButton)
-#: editor/colorsettings.ui:31
-#, kde-format
-msgid "Configure the current color scheme"
-msgstr "Configurar o esquema de cores actual"
-
-#. i18n: ectx: property (text), widget (QPushButton, schemeEditButton)
-#: editor/colorsettings.ui:34
-#, kde-format
-msgid "Edit..."
-msgstr "Editar…"
-
-#. i18n: ectx: property (toolTip), widget (QPushButton, schemeRemoveButton)
-#: editor/colorsettings.ui:52
-#, kde-format
-msgid "Remove the selected scheme"
-msgstr "Retira o esquema escollido"
-
-#. i18n: ectx: property (text), widget (QPushButton, schemeRemoveButton)
-#: editor/colorsettings.ui:55
-#, kde-format
-msgid "Remove"
-msgstr "Retirar"
-
-#. i18n: ectx: property (toolTip), widget (QPushButton, schemeImportButton)
-#: editor/colorsettings.ui:83
-#, kde-format
-msgid "Import a color scheme from a file"
-msgstr "Importar un esquema de cores dun ficheiro"
-
-#. i18n: ectx: property (text), widget (QPushButton, schemeImportButton)
-#: editor/colorsettings.ui:86
-#, kde-format
-msgid "&Install from File..."
-msgstr "&Instalar desde un ficheiro…"
-
-#. i18n: ectx: property (toolTip), widget (QPushButton, schemeKnsButton)
-#: editor/colorsettings.ui:98
-#, kde-format
-msgid "Get new color schemes from the Internet"
-msgstr "Obtén novos esquemas de cores de internet"
-
-#. i18n: ectx: property (text), widget (QPushButton, schemeKnsButton)
-#: editor/colorsettings.ui:101
-#, kde-format
-msgid "Get &New Color Schemes..."
-msgstr "Obter &novos esquemas de cores…"
-
-#. i18n: ectx: property (text), widget (QCheckBox, applyToAlien)
-#: editor/colorsettings.ui:137
-#, kde-format
-msgid "Apply colors to &non-Qt applications"
-msgstr "Aplicar as cores aos aplicativos &non pertencentes a Qt"
 
 #: editor/kcolorschemeeditor.cpp:35
 #, kde-format
@@ -195,7 +138,7 @@ msgstr ""
 msgid ""
 "Makes the dialog transient for another application window specified by handle"
 msgstr ""
-"Fai que o diálogo sexa transitorio para a xanela doutro aplicativo indicada "
+"Fai que o diálogo sexa transitorio para a xanela doutra aplicación indicada "
 "mediante asa"
 
 #: editor/kcolorschemeeditor.cpp:73
@@ -1194,7 +1137,7 @@ msgstr "foco"
 msgid "This module lets you choose the color scheme."
 msgstr "Este módulo permítelle escoller o esquema de cores."
 
-#: package/contents/ui/main.qml:83
+#: package/contents/ui/main.qml:84
 #, kde-format
 msgid ""
 "The color scheme '%1' is not installed. Selecting the default theme instead."
@@ -1202,94 +1145,99 @@ msgstr ""
 "O esquema de cores «%1» non está instalado. No seu lugar seleccionarase o "
 "tema predeterminado."
 
-#: package/contents/ui/main.qml:95
+#: package/contents/ui/main.qml:96
 #, kde-format
 msgid "Search..."
 msgstr "Buscar…"
 
-#: package/contents/ui/main.qml:133
+#: package/contents/ui/main.qml:134
 #, kde-format
 msgid "All Schemes"
 msgstr "Todos os esquemas"
 
-#: package/contents/ui/main.qml:134
+#: package/contents/ui/main.qml:135
 #, kde-format
 msgid "Light Schemes"
 msgstr "Esquemas claros"
 
-#: package/contents/ui/main.qml:135
+#: package/contents/ui/main.qml:136
 #, kde-format
 msgid "Dark Schemes"
 msgstr "Esquemas escuros"
 
-#: package/contents/ui/main.qml:193
+#: package/contents/ui/main.qml:202
+#, kde-format
+msgid "Window Title"
+msgstr "Título da xanela"
+
+#: package/contents/ui/main.qml:223
 #, kde-format
 msgid "Window text"
 msgstr "Texto da xanela"
 
-#: package/contents/ui/main.qml:200
+#: package/contents/ui/main.qml:230
 #, kde-format
 msgid "Button"
 msgstr "Botón"
 
-#: package/contents/ui/main.qml:219
+#: package/contents/ui/main.qml:249
 #, kde-format
 msgctxt "Hyperlink"
 msgid "link"
 msgstr "ligazón"
 
-#: package/contents/ui/main.qml:221
+#: package/contents/ui/main.qml:251
 #, kde-format
 msgctxt "Visited hyperlink"
 msgid "visited"
 msgstr "visitada"
 
-#: package/contents/ui/main.qml:227
+#: package/contents/ui/main.qml:257
 #, kde-format
 msgid "Normal text"
 msgstr "Texto normal"
 
-#: package/contents/ui/main.qml:235
+#: package/contents/ui/main.qml:265
 #, kde-format
 msgid "Highlighted text"
 msgstr "Texto realzado"
 
-#: package/contents/ui/main.qml:242
+#: package/contents/ui/main.qml:272
 #, kde-format
 msgid "Disabled text"
 msgstr "Texto desactivado"
 
-#: package/contents/ui/main.qml:260
+#: package/contents/ui/main.qml:290
 #, kde-format
 msgid "Edit Color Scheme..."
 msgstr "Editar o esquema de cores…"
 
-#: package/contents/ui/main.qml:266
+#: package/contents/ui/main.qml:296
 #, kde-format
 msgid "Remove Color Scheme"
 msgstr "Retirar o esquema de cores"
 
-#: package/contents/ui/main.qml:273
+#: package/contents/ui/main.qml:303
 #, kde-format
 msgid "Restore Color Scheme"
 msgstr "Restaurar o esquema de cores"
 
-#: package/contents/ui/main.qml:316
+#: package/contents/ui/main.qml:346
 #, kde-format
 msgid "Install from File..."
 msgstr "Instalar desde un ficheiro…"
 
-#: package/contents/ui/main.qml:322
+#: package/contents/ui/main.qml:352
 #, kde-format
 msgid "Get New Color Schemes..."
 msgstr "Obter novos esquemas de cores…"
 
-#: package/contents/ui/main.qml:334
+#: package/contents/ui/main.qml:364
 #, kde-format
 msgid "Open Color Scheme"
 msgstr "Abrir un esquema de cores"
 
-#: package/contents/ui/main.qml:336
+#: package/contents/ui/main.qml:366
 #, kde-format
 msgid "Color Scheme Files (*.colors)"
 msgstr "Ficheiros de esquema de cores (*.colors)"

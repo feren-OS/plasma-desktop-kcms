@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_folderview\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"POT-Creation-Date: 2019-08-03 03:23+0200\n"
 "PO-Revision-Date: 2016-08-20 02:06+0300\n"
 "Last-Translator: Marek Laane <qiilaq69@gmail.com>\n"
 "Language-Team: Estonian <kde-i18n-doc@kde.org>\n"
@@ -35,18 +35,6 @@ msgstr "Filter"
 #: package/contents/config/config.qml:50
 msgid "Tweaks"
 msgstr "Trikid"
-
-#: package/contents/ui/AppletHandle.qml:105
-msgid "Resize"
-msgstr "Muuda suurust"
-
-#: package/contents/ui/AppletHandle.qml:127
-msgid "Rotate"
-msgstr "Pööra"
-
-#: package/contents/ui/AppletHandle.qml:284
-msgid "Remove"
-msgstr "Eemalda"
 
 #: package/contents/ui/BackButtonItem.qml:116
 msgid "Back"
@@ -236,57 +224,57 @@ msgstr "Väike"
 msgid "Large"
 msgstr "Suur"
 
-#: package/contents/ui/ConfigIcons.qml:263
+#: package/contents/ui/ConfigIcons.qml:264
 #, fuzzy
 #| msgid "Label:"
 msgid "Label width:"
 msgstr "Pealdis:"
 
-#: package/contents/ui/ConfigIcons.qml:266
+#: package/contents/ui/ConfigIcons.qml:267
 msgid "Narrow"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:267
+#: package/contents/ui/ConfigIcons.qml:268
 #: plugins/folder/viewpropertiesmenu.cpp:88
 #, kde-format
 msgid "Medium"
 msgstr "Keskmine"
 
-#: package/contents/ui/ConfigIcons.qml:268
+#: package/contents/ui/ConfigIcons.qml:269
 msgid "Wide"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:276
+#: package/contents/ui/ConfigIcons.qml:277
 #, fuzzy
 #| msgid "Text lines:"
 msgid "Text lines:"
 msgstr "Tekstiread:"
 
-#: package/contents/ui/ConfigIcons.qml:292
+#: package/contents/ui/ConfigIcons.qml:293
 #, fuzzy
 #| msgid "Features"
 msgid "Features:"
 msgstr "Võimalused"
 
-#: package/contents/ui/ConfigIcons.qml:294
+#: package/contents/ui/ConfigIcons.qml:295
 #, fuzzy
 #| msgid "Tooltips"
 msgid "Tooltips"
 msgstr "Kohtspikrid"
 
-#: package/contents/ui/ConfigIcons.qml:301
+#: package/contents/ui/ConfigIcons.qml:302
 msgid "Selection markers"
 msgstr "Valikumarkerid"
 
-#: package/contents/ui/ConfigIcons.qml:308
+#: package/contents/ui/ConfigIcons.qml:309
 msgid "Folder preview popups"
 msgstr "Kataloogi hüpikeelvaatlused"
 
-#: package/contents/ui/ConfigIcons.qml:314
+#: package/contents/ui/ConfigIcons.qml:315
 msgid "Preview thumbnails"
 msgstr "Eelvaatluse pisipildid"
 
-#: package/contents/ui/ConfigIcons.qml:321
+#: package/contents/ui/ConfigIcons.qml:323
 #, fuzzy
 #| msgid "More Preview Options..."
 msgid "Configure Preview Plugins..."
@@ -353,6 +341,14 @@ msgstr "Kohandatud pealdis"
 msgid "Enter custom title..."
 msgstr "Sisesta kohandatud pealdis"
 
+#: package/contents/ui/ConfigOverlay.qml:101
+msgid "Rotate"
+msgstr "Pööra"
+
+#: package/contents/ui/ConfigOverlay.qml:224
+msgid "Remove"
+msgstr "Eemalda"
+
 #: package/contents/ui/ConfigTweaks.qml:43
 msgid ""
 "With the Desktop Toolbox hidden, right-click on the desktop and choose "
@@ -380,20 +376,20 @@ msgstr "OK"
 msgid "Cancel"
 msgstr "Loobu"
 
-#: package/contents/ui/main.qml:382
+#: package/contents/ui/main.qml:277
 msgid "Widgets unlocked"
 msgstr "Vidinad on lahtilukustatud"
 
-#: package/contents/ui/main.qml:383
+#: package/contents/ui/main.qml:278
 msgid "You can press and hold widgets to move them and reveal their handles."
 msgstr ""
 "Vidinate liigutamiseks ja pidemete nähtavale toomiseks vajuta ja hoia all."
 
-#: package/contents/ui/main.qml:384
+#: package/contents/ui/main.qml:279
 msgid "Got it"
 msgstr "Selge"
 
-#: package/contents/ui/main.qml:597
+#: package/contents/ui/main.qml:403
 #, fuzzy
 #| msgid "Configure Desktop"
 msgid "Configure Desktop..."

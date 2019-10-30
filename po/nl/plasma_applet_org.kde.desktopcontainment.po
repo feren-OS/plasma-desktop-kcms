@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
-"PO-Revision-Date: 2019-04-30 11:42+0200\n"
+"POT-Creation-Date: 2019-08-03 03:23+0200\n"
+"PO-Revision-Date: 2019-09-01 23:40+0200\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: Dutch <kde-i18n-nl@kde.org>\n"
 "Language: nl\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 19.04.0\n"
+"X-Generator: Lokalize 19.08.0\n"
 
 #: package/contents/config/config.qml:29
 msgid "Location"
@@ -35,18 +35,6 @@ msgstr "Filter"
 msgid "Tweaks"
 msgstr "Tweaks"
 
-#: package/contents/ui/AppletHandle.qml:105
-msgid "Resize"
-msgstr "Grootte wijzigen"
-
-#: package/contents/ui/AppletHandle.qml:127
-msgid "Rotate"
-msgstr "Draaien"
-
-#: package/contents/ui/AppletHandle.qml:284
-msgid "Remove"
-msgstr "Verwijderen"
-
 #: package/contents/ui/BackButtonItem.qml:116
 msgid "Back"
 msgstr "Terug"
@@ -57,7 +45,7 @@ msgstr "Bestanden:"
 
 #: package/contents/ui/ConfigFilter.qml:77
 msgid "Show all"
-msgstr "Toon alles"
+msgstr "Alles tonen"
 
 #: package/contents/ui/ConfigFilter.qml:77
 msgid "Show matching"
@@ -208,49 +196,49 @@ msgstr "Klein"
 msgid "Large"
 msgstr "Groot"
 
-#: package/contents/ui/ConfigIcons.qml:263
+#: package/contents/ui/ConfigIcons.qml:264
 msgid "Label width:"
 msgstr "Labelbreedte:"
 
-#: package/contents/ui/ConfigIcons.qml:266
+#: package/contents/ui/ConfigIcons.qml:267
 msgid "Narrow"
 msgstr "Smal"
 
-#: package/contents/ui/ConfigIcons.qml:267
+#: package/contents/ui/ConfigIcons.qml:268
 #: plugins/folder/viewpropertiesmenu.cpp:88
 #, kde-format
 msgid "Medium"
 msgstr "Middelgroot"
 
-#: package/contents/ui/ConfigIcons.qml:268
+#: package/contents/ui/ConfigIcons.qml:269
 msgid "Wide"
 msgstr "Breed"
 
-#: package/contents/ui/ConfigIcons.qml:276
+#: package/contents/ui/ConfigIcons.qml:277
 msgid "Text lines:"
 msgstr "Tekstregels:"
 
-#: package/contents/ui/ConfigIcons.qml:292
+#: package/contents/ui/ConfigIcons.qml:293
 msgid "Features:"
 msgstr "Mogelijkheden:"
 
-#: package/contents/ui/ConfigIcons.qml:294
+#: package/contents/ui/ConfigIcons.qml:295
 msgid "Tooltips"
 msgstr "Tekstballonnen"
 
-#: package/contents/ui/ConfigIcons.qml:301
+#: package/contents/ui/ConfigIcons.qml:302
 msgid "Selection markers"
 msgstr "Markering van selectie"
 
-#: package/contents/ui/ConfigIcons.qml:308
+#: package/contents/ui/ConfigIcons.qml:309
 msgid "Folder preview popups"
 msgstr "Pop-ups van voorbeeldweergave van map"
 
-#: package/contents/ui/ConfigIcons.qml:314
+#: package/contents/ui/ConfigIcons.qml:315
 msgid "Preview thumbnails"
 msgstr "Voorbeeldweergave van miniaturen"
 
-#: package/contents/ui/ConfigIcons.qml:321
+#: package/contents/ui/ConfigIcons.qml:323
 msgid "Configure Preview Plugins..."
 msgstr "Voorbeeldplug-ins configureren..."
 
@@ -302,6 +290,14 @@ msgstr "Aangepaste titel"
 msgid "Enter custom title..."
 msgstr "Voer aangepaste titel in..."
 
+#: package/contents/ui/ConfigOverlay.qml:101
+msgid "Rotate"
+msgstr "Draaien"
+
+#: package/contents/ui/ConfigOverlay.qml:224
+msgid "Remove"
+msgstr "Verwijderen"
+
 #: package/contents/ui/ConfigTweaks.qml:43
 msgid ""
 "With the Desktop Toolbox hidden, right-click on the desktop and choose "
@@ -332,21 +328,21 @@ msgstr "OK"
 msgid "Cancel"
 msgstr "Annuleren"
 
-#: package/contents/ui/main.qml:382
+#: package/contents/ui/main.qml:277
 msgid "Widgets unlocked"
 msgstr "Widgets ontgrendeld"
 
-#: package/contents/ui/main.qml:383
+#: package/contents/ui/main.qml:278
 msgid "You can press and hold widgets to move them and reveal their handles."
 msgstr ""
 "U kunt widgets indrukken en vasthouden om ze te verplaatsen en hun besturing "
 "tonen."
 
-#: package/contents/ui/main.qml:384
+#: package/contents/ui/main.qml:279
 msgid "Got it"
 msgstr "Ontvangen"
 
-#: package/contents/ui/main.qml:597
+#: package/contents/ui/main.qml:403
 msgid "Configure Desktop..."
 msgstr "Bureaublad configureren..."
 

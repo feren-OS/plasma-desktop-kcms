@@ -2,7 +2,6 @@
 # Galician translation of kcmicons.
 # Copyright (C) 2002, 2003, 2004, 2006, 2007, 2008 This_file_is_part_of_KDE
 # This file is distributed under the same license as the package kcmicons
-#
 # Xabi García <xabigf@gmx.net>, 2002, 2003.
 # <xabigf@gmx.net>, 2002.
 # Xabier García Feal <xabigf@gmx.net>, 2004.
@@ -12,24 +11,22 @@
 # marce villarino <mvillarino@users.sourceforge.net>, 2009.
 # Marce Villarino <mvillarino@kde-espana.es>, 2009, 2011.
 # Marce Villarino <mvillarino@kde-espana.es>, 2012, 2014.
-# Adrián Chaves (Gallaecio) <adrian@chaves.io>, 2017, 2018.
+# Adrián Chaves (Gallaecio) <adrian@chaves.io>, 2017, 2018, 2019.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: kcmicons\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
-"PO-Revision-Date: 2018-11-01 09:59+0100\n"
+"POT-Creation-Date: 2019-05-20 03:25+0200\n"
+"PO-Revision-Date: 2019-07-28 12:43+0200\n"
 "Last-Translator: Adrián Chaves (Gallaecio) <adrian@chaves.io>\n"
-"Language-Team: Galician <kde-i18n-doc@kde.org>\n"
+"Language-Team: Galician <proxecto@trasno.gal>\n"
 "Language: gl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 2.0\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Environment: kde\n"
-"X-Accelerator-Marker: &\n"
-"X-Text-Markup: kde4\n"
+"X-Generator: Lokalize 19.11.70\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -89,7 +86,7 @@ msgstr "Descargar novos temas de iconas"
 #: main.cpp:320
 #, kde-format
 msgid "Unable to create a temporary file."
-msgstr "Non se pode crear un ficheiro temporal."
+msgstr "Non foi posíbel crear un ficheiro temporal."
 
 #: main.cpp:332
 #, kde-format
@@ -107,8 +104,8 @@ msgid ""
 "A problem occurred during the installation process; however, most of the "
 "themes in the archive have been installed"
 msgstr ""
-"Ocorreu un problema durante o proceso de instalación; porén, a maioría dos "
-"temas contidos no arquivo instaláronse."
+"Aconteceu un problema durante o proceso de instalación; porén, a maioría dos "
+"temas contidos no arquivo foron instalados"
 
 #: main.cpp:355
 #, kde-format

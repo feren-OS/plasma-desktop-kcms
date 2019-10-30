@@ -2,6 +2,7 @@
 # Copyright (C) 2014-2019 This_file_is_part_of_KDE
 # This file is distributed under the license LGPL version 2.1 or
 # version 3 or later versions approved by the membership of KDE e.V.
+# or the same license as the source of its messages in English.
 #
 # Antoni Bella Pérez <antonibella5@yahoo.com>, 2014, 2015.
 # Josep Ma. Ferrer <txemaq@gmail.com>, 2019.
@@ -9,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_toolbox_org.kde.desktoptoolbox\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
-"PO-Revision-Date: 2019-01-26 13:27+0100\n"
+"POT-Creation-Date: 2019-10-23 07:53+0200\n"
+"PO-Revision-Date: 2019-06-25 13:46+0200\n"
 "Last-Translator: Josep Ma. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca@valencia\n"
@@ -19,19 +20,19 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Accelerator-Marker: &\n"
-"X-Generator: Lokalize 2.0\n"
+"X-Generator: Poedit 2.0.6\n"
 
 #: contents/ui/ToolBoxButton.qml:30
 #, kde-format
 msgid "Default"
 msgstr "Predeterminat"
 
-#: contents/ui/ToolBoxButton.qml:30
+#: contents/ui/ToolBoxButton.qml:31
 #, kde-format
 msgid "Desktop Toolbox"
 msgstr "Quadre d'eines de l'escriptori"
 
-#: contents/ui/ToolBoxButton.qml:30
+#: contents/ui/ToolBoxButton.qml:32
 #, kde-format
 msgid "Desktop Toolbox — %1 Activity"
 msgstr "Quadre d'eines de l'escriptori — Activitat %1"

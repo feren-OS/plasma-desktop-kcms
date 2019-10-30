@@ -6,15 +6,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcm_touchpad\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-06-20 07:49+0200\n"
-"PO-Revision-Date: 2019-05-19 18:46+0200\n"
+"POT-Creation-Date: 2019-06-20 03:22+0200\n"
+"PO-Revision-Date: 2019-07-11 19:36+0200\n"
 "Last-Translator: Matej Mrenica <matejm98mthw@gmail.com>\n"
 "Language-Team: Slovak <kde-i18n-doc@kde.org>\n"
 "Language: sk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 19.04.1\n"
+"X-Generator: Lokalize 19.04.3\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 
 #, kde-format
@@ -63,7 +63,7 @@ msgstr "Nemôžem čítať nastavenie touchpadu"
 #: src/backends/x11/xlibbackend.cpp:204
 #, kde-format
 msgid "Cannot read default touchpad configuration"
-msgstr "Nepodarilo sa prečítať prevolené nastavenia touchpadu"
+msgstr "Nemôžem čítať predvolené nastavenia touchpadu"
 
 #: src/kcm/libinput/touchpad.qml:89
 #, kde-format
@@ -108,9 +108,9 @@ msgstr "Vymeniť ľavé a pravé tlačidlo."
 #: src/kcm/libinput/touchpad.qml:202
 #, kde-format
 msgid "Press left and right buttons for middle click"
-msgstr "Stlačiť ľavé a pravé tlačidlo na kliknutie stredným tlačidlom."
+msgstr "Stlačte naraz ľavé a pravé tlačidlo na kliknutie stredným tlačidlom"
 
-#: src/kcm/libinput/touchpad.qml:206 src/kcm/libinput/touchpad.qml:720
+#: src/kcm/libinput/touchpad.qml:206 src/kcm/libinput/touchpad.qml:721
 #, kde-format
 msgid ""
 "Clicking left and right button simultaneously sends middle button click."
@@ -273,58 +273,58 @@ msgstr "Zakázať horizontálne rolovanie"
 
 #: src/kcm/libinput/touchpad.qml:603
 #, kde-format
-msgid "Right-click :"
+msgid "Right-click:"
 msgstr "Pravý klik:"
 
-#: src/kcm/libinput/touchpad.qml:641
+#: src/kcm/libinput/touchpad.qml:642
 #, kde-format
 msgid "Press bottom-right corner"
 msgstr "Stlačte pravý dolný roh"
 
-#: src/kcm/libinput/touchpad.qml:645
+#: src/kcm/libinput/touchpad.qml:646
 #, kde-format
 msgid ""
 "Software enabled buttons will be added to bottom portion of your touchpad."
 msgstr "Pridá virtuálne tlačidlá na spodok vášho touchpadu."
 
-#: src/kcm/libinput/touchpad.qml:653
+#: src/kcm/libinput/touchpad.qml:654
 #, kde-format
 msgid "Press anywhere with two fingers"
 msgstr "Stlačte hocikde s dvoma prstami"
 
-#: src/kcm/libinput/touchpad.qml:657
+#: src/kcm/libinput/touchpad.qml:658
 #, kde-format
 msgid "Tap with two finger to enable right click."
 msgstr "Ťuknite dvoma prstami na pravý klik."
 
-#: src/kcm/libinput/touchpad.qml:670
+#: src/kcm/libinput/touchpad.qml:671
 #, kde-format
 msgid "Middle-click: "
 msgstr "Stredný klik:"
 
-#: src/kcm/libinput/touchpad.qml:704
+#: src/kcm/libinput/touchpad.qml:705
 #, kde-format
 msgid "Press bottom-middle"
 msgstr "Stlačte na spodu v strede"
 
-#: src/kcm/libinput/touchpad.qml:708
+#: src/kcm/libinput/touchpad.qml:709
 #, kde-format
 msgid ""
 "Software enabled middle-button will be added to bottom portion of your "
 "touchpad."
 msgstr "Pridá virtuálne stredné tlačidlo na spodok vášho touchpadu."
 
-#: src/kcm/libinput/touchpad.qml:716
+#: src/kcm/libinput/touchpad.qml:717
 #, kde-format
 msgid "Press bottom left and bottom right corners simultaneously"
 msgstr "Stlačte naraz dolný ľavý a dolný pravý roh"
 
-#: src/kcm/libinput/touchpad.qml:729
+#: src/kcm/libinput/touchpad.qml:730
 #, kde-format
 msgid "Press anywhere with three fingers"
 msgstr "Stlačte hocikde s troma prstami"
 
-#: src/kcm/libinput/touchpad.qml:735
+#: src/kcm/libinput/touchpad.qml:736
 #, kde-format
 msgid "Press anywhere with three fingers."
 msgstr "Stlačte hocikde s troma prstami."

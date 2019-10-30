@@ -2,6 +2,7 @@
 # Copyright (C) 2004-2015 This_file_is_part_of_KDE
 # This file is distributed under the license LGPL version 2.1 or
 # version 3 or later versions approved by the membership of KDE e.V.
+# or the same license as the source of its messages in English.
 #
 # Sebastià Pla i Sanz <sps@sastia.com>, 2004, 2006.
 # Albert Astals Cid <aacid@kde.org>, 2005.
@@ -11,15 +12,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcm5_joystick\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
-"PO-Revision-Date: 2015-05-16 11:56+0200\n"
+"POT-Creation-Date: 2019-09-12 03:25+0200\n"
+"PO-Revision-Date: 2019-06-28 09:32+0200\n"
 "Last-Translator: Josep Ma. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca@valencia\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 1.5\n"
+"X-Generator: Poedit 2.0.6\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Accelerator-Marker: &\n"
 
@@ -46,7 +47,7 @@ msgstr "Següent"
 #: caldialog.cpp:59
 #, kde-format
 msgid "Please wait a moment to calculate the precision"
-msgstr "Per favor, espereu un moment per a calcular la precisió"
+msgstr "Espereu un moment per a calcular la precisió"
 
 #: caldialog.cpp:90
 #, kde-format
@@ -67,9 +68,9 @@ msgid ""
 "button to continue with the next step.</qt>"
 msgstr ""
 "<qt>El calibratge està a punt de comprovar l'interval de valors que "
-"proporciona el dispositiu.<br /><br />Per favor, moveu <b>l'eix %1 %2</b> "
-"del dispositiu a la posició <b>mínima</b>.<br /><br />Premeu qualsevol botó "
-"del dispositiu o al botó «Següent» per a continuar amb el pas següent.</qt>"
+"proporciona el dispositiu.<br /><br />Moveu <b>l'eix %1 %2</b> del "
+"dispositiu a la posició <b>mínima</b>.<br /><br />Premeu qualsevol botó del "
+"dispositiu o el botó «Següent» per a continuar amb el pas següent.</qt>"
 
 #: caldialog.cpp:114
 #, kde-format
@@ -80,10 +81,10 @@ msgid ""
 "button to continue with the next step.</qt>"
 msgstr ""
 "<qt>El calibratge està a punt de comprovar l'interval de valors que "
-"proporciona el dispositiu. <br /><br />Per favor, moveu <b>l'eix %1 %2</b> "
-"del dispositiu a la posició <b>central</b>.<br /><br />Premeu qualsevol botó "
-"del dispositiu o cliqueu el botó «Següent» per a continuar amb el pas "
-"següent.</qt>"
+"proporciona el dispositiu. <br /><br />Moveu <b>l'eix %1 %2</b> del "
+"dispositiu a la posició <b>central</b>.<br /><br />Premeu qualsevol botó del "
+"dispositiu o cliqueu al botó «Següent» per a continuar amb el pas següent.</"
+"qt>"
 
 #: caldialog.cpp:131
 #, kde-format
@@ -94,9 +95,9 @@ msgid ""
 "button to continue with the next step.</qt>"
 msgstr ""
 "<qt>El calibratge ara comprovarà l'interval de valors que proporciona el "
-"dispositiu. <br /><br />Per favor, moveu <b>l'eix %1 %2</b> del dispositiu a "
-"la posició <b>màxima</b>. <br /><br />Premeu qualsevol botó del dispositiu o "
-"cliqueu al botó «Següent» per a continuar amb el pas següent.</qt>"
+"dispositiu. <br /><br />Moveu <b>l'eix %1 %2</b> del dispositiu a la posició "
+"<b>màxima</b>. <br /><br />Premeu qualsevol botó del dispositiu o cliqueu al "
+"botó «Següent» per a continuar amb el pas següent.</qt>"
 
 #: caldialog.cpp:154 joywidget.cpp:371 joywidget.cpp:406
 #, kde-format
@@ -118,24 +119,24 @@ msgstr "Èxit en el calibratge"
 msgid "Value Axis %1: %2"
 msgstr "Valor a l'eix %1: %2"
 
-#: joydevice.cpp:56
+#: joydevice.cpp:55
 #, kde-format
 msgid "The given device %1 could not be opened: %2"
 msgstr "El dispositiu indicat %1 no es pot obrir: %2"
 
-#: joydevice.cpp:62
+#: joydevice.cpp:61
 #, kde-format
 msgid "The given device %1 is not a joystick."
 msgstr "El dispositiu indicat %1 no és una palanca de control."
 
-#: joydevice.cpp:67
+#: joydevice.cpp:66
 #, kde-format
 msgid "Could not get kernel driver version for joystick device %1: %2"
 msgstr ""
 "No s'ha pogut obtindre la versió del controlador del nucli per al dispositiu "
 "palanca de control %1: %2"
 
-#: joydevice.cpp:81
+#: joydevice.cpp:80
 #, kde-format
 msgid ""
 "The current running kernel driver version (%1.%2.%3) is not the one this "
@@ -144,49 +145,49 @@ msgstr ""
 "La versió del controlador del nucli actualment en execució (%1.%2.%3) no és "
 "aquella per a la que es va compilar aquest mòdul (%4.%5.%6)."
 
-#: joydevice.cpp:93
+#: joydevice.cpp:92
 #, kde-format
 msgid "Could not get number of buttons for joystick device %1: %2"
 msgstr ""
 "No s'ha pogut obtindre el nombre de botons per al dispositiu de palanca de "
 "control %1: %2"
 
-#: joydevice.cpp:99
+#: joydevice.cpp:98
 #, kde-format
 msgid "Could not get number of axes for joystick device %1: %2"
 msgstr ""
 "No s'ha pogut obtindre el nombre d'eixos per al dispositiu de palanca de "
 "control %1: %2"
 
-#: joydevice.cpp:105
+#: joydevice.cpp:104
 #, kde-format
 msgid "Could not get calibration values for joystick device %1: %2"
 msgstr ""
 "No s'han pogut obtindre els valors de calibratge per al dispositiu de "
 "palanca de control %1: %2"
 
-#: joydevice.cpp:111
+#: joydevice.cpp:110
 #, kde-format
 msgid "Could not restore calibration values for joystick device %1: %2"
 msgstr ""
 "No s'han pogut restaurar els valors de calibratge per al dispositiu de "
 "palanca de control %1: %2"
 
-#: joydevice.cpp:117
+#: joydevice.cpp:116
 #, kde-format
 msgid "Could not initialize calibration values for joystick device %1: %2"
 msgstr ""
 "No s'han pogut inicialitzar els valors de calibratge per al dispositiu de "
 "palanca de control %1: %2"
 
-#: joydevice.cpp:123
+#: joydevice.cpp:122
 #, kde-format
 msgid "Could not apply calibration values for joystick device %1: %2"
 msgstr ""
 "No s'han pogut aplicar els valors de calibratge per al dispositiu de palanca "
 "de control %1: %2"
 
-#: joydevice.cpp:127
+#: joydevice.cpp:126
 #, kde-format
 msgid "internal error - code %1 unknown"
 msgstr "error intern - codi %1 desconegut"
@@ -200,7 +201,7 @@ msgstr "Mòdul de control per a la palanca de control del KDE"
 #, kde-format
 msgid "KDE System Settings Module to test Joysticks"
 msgstr ""
-"Mòdul de l'Arranjament del sistema del KDE per a provar palanques de control"
+"Mòdul de configuració del sistema de KDE per a provar palanques de control"
 
 #: joystick.cpp:49
 #, kde-format
@@ -223,9 +224,9 @@ msgid ""
 "can check your Linux source/Documentation/input/joystick.txt)"
 msgstr ""
 "<h1>Palanca de control</h1>Aquest mòdul ajuda a comprovar si la palanca de "
-"control funciona correctament.<br />Si proporciona valors incorrectes pels "
-"eixos, podeu provar de solucionar-ho amb el calibratge.<br />Aquest mòdul "
-"prova de trobar tots els dispositius de palanca de control disponibles "
+"control funciona correctament.<br />Si proporciona valors incorrectes per "
+"als eixos, podeu intentar solucionar-ho amb el calibratge.<br />Aquest mòdul "
+"intenta trobar tots els dispositius de palanca de control disponibles "
 "comprovant /dev/js[0-4] i /dev/input/js[0-4] <br />Si teniu un altre fitxer "
 "dispositiu, introduïu-lo al quadre combinat.<br />La llista de botons mostra "
 "l'estat dels botons de la palanca de control, la llista d'eixos mostra el "
@@ -290,9 +291,9 @@ msgid ""
 "one attached, please enter the correct device file."
 msgstr ""
 "No s'ha trobat automàticament cap dispositiu de palanca de control en aquest "
-"ordinador.<br />S'han fet comprovacions a /dev/js[0-4] i /dev/input/js[0-4] "
-"<br />Si sabeu que n'hi ha un connectat, per favor, introduïu el fitxer "
-"dispositiu correcte."
+"ordinador.<br />S'han fet comprovacions en /dev/js[0-4] i /dev/input/js[0-4] "
+"<br />Si sabeu que n'hi ha un connectat, introduïu el fitxer dispositiu "
+"correcte."
 
 #: joywidget.cpp:265
 #, kde-format
@@ -334,7 +335,7 @@ msgid ""
 msgstr ""
 "<qt>El calibratge està a punt de comprovar la precisió.<br /><br /><b>Moveu "
 "tots els eixos a la posició central i no torneu a tocar la palanca.</b><br /"
-"><br />Cliqueu Bé per a engegar el calibratge.</qt>"
+"><br />Cliqueu Bé per a iniciar el calibratge.</qt>"
 
 #: joywidget.cpp:411
 #, kde-format

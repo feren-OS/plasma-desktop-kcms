@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kxkb\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"POT-Creation-Date: 2019-08-11 03:10+0200\n"
 "PO-Revision-Date: 2009-12-15 19:24+0100\n"
 "Last-Translator: Mark Kwidzińśczi <mark@linuxcsb.org>\n"
 "Language-Team: Kaszëbsczi <i18n-csb@linuxcsb.org>\n"
@@ -62,7 +62,7 @@ msgstr ""
 msgid "Any language"
 msgstr ""
 
-#: kcm_add_layout_dialog.cpp:141 kcm_view_models.cpp:319
+#: kcm_add_layout_dialog.cpp:141 kcm_view_models.cpp:311
 #, fuzzy, kde-format
 #| msgctxt "Default variant"
 #| msgid "Default"
@@ -422,29 +422,29 @@ msgstr[0] "Przédné skrodzënë:"
 msgstr[1] "Przédné skrodzënë:"
 msgstr[2] "Przédné skrodzënë:"
 
-#: kcm_view_models.cpp:226
+#: kcm_view_models.cpp:220
 #, fuzzy, kde-format
 #| msgid "Map"
 msgctxt "layout map name"
 msgid "Map"
 msgstr "Mapa"
 
-#: kcm_view_models.cpp:226
+#: kcm_view_models.cpp:220
 #, kde-format
 msgid "Layout"
 msgstr "Ùstôw"
 
-#: kcm_view_models.cpp:226
+#: kcm_view_models.cpp:220
 #, kde-format
 msgid "Variant"
 msgstr "Wariant"
 
-#: kcm_view_models.cpp:226
+#: kcm_view_models.cpp:220
 #, kde-format
 msgid "Label"
 msgstr "Òpisënk"
 
-#: kcm_view_models.cpp:226
+#: kcm_view_models.cpp:220
 #, fuzzy, kde-format
 #| msgid "Main shortcuts:"
 msgid "Shortcut"

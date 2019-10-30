@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_folderview\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
-"PO-Revision-Date: 2019-07-11 23:09+0700\n"
+"POT-Creation-Date: 2019-08-03 03:23+0200\n"
+"PO-Revision-Date: 2019-08-31 19:52+0700\n"
 "Last-Translator: Wantoyo <wantoyek@gmail.com>\n"
 "Language-Team: Indonesian <kde-i18n-doc@kde.org>\n"
 "Language: id\n"
@@ -17,7 +17,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 19.04.2\n"
 
 #: package/contents/config/config.qml:29
 msgid "Location"
@@ -36,18 +35,6 @@ msgstr "Filter"
 #: package/contents/config/config.qml:50
 msgid "Tweaks"
 msgstr "Uprekan"
-
-#: package/contents/ui/AppletHandle.qml:105
-msgid "Resize"
-msgstr "Ubah Ukuran"
-
-#: package/contents/ui/AppletHandle.qml:127
-msgid "Rotate"
-msgstr "Rotasikan"
-
-#: package/contents/ui/AppletHandle.qml:284
-msgid "Remove"
-msgstr "Hapus"
 
 #: package/contents/ui/BackButtonItem.qml:116
 msgid "Back"
@@ -179,11 +166,11 @@ msgstr "Tanggal"
 #: plugins/folder/viewpropertiesmenu.cpp:79
 #, kde-format
 msgid "Descending"
-msgstr "Turun"
+msgstr "Urut turun"
 
 #: package/contents/ui/ConfigIcons.qml:204
 msgid "Folders first"
-msgstr "Folder pertama"
+msgstr "Folder dulu"
 
 #: package/contents/ui/ConfigIcons.qml:218
 msgctxt "whether to use icon or list view"
@@ -210,49 +197,49 @@ msgstr "Kecil"
 msgid "Large"
 msgstr "Besar"
 
-#: package/contents/ui/ConfigIcons.qml:263
+#: package/contents/ui/ConfigIcons.qml:264
 msgid "Label width:"
 msgstr "Lebar label:"
 
-#: package/contents/ui/ConfigIcons.qml:266
+#: package/contents/ui/ConfigIcons.qml:267
 msgid "Narrow"
 msgstr "Sempit"
 
-#: package/contents/ui/ConfigIcons.qml:267
+#: package/contents/ui/ConfigIcons.qml:268
 #: plugins/folder/viewpropertiesmenu.cpp:88
 #, kde-format
 msgid "Medium"
 msgstr "Sedang"
 
-#: package/contents/ui/ConfigIcons.qml:268
+#: package/contents/ui/ConfigIcons.qml:269
 msgid "Wide"
 msgstr "Luas"
 
-#: package/contents/ui/ConfigIcons.qml:276
+#: package/contents/ui/ConfigIcons.qml:277
 msgid "Text lines:"
 msgstr "Baris teks:"
 
-#: package/contents/ui/ConfigIcons.qml:292
+#: package/contents/ui/ConfigIcons.qml:293
 msgid "Features:"
 msgstr "Fitur:"
 
-#: package/contents/ui/ConfigIcons.qml:294
+#: package/contents/ui/ConfigIcons.qml:295
 msgid "Tooltips"
 msgstr "Tip alat"
 
-#: package/contents/ui/ConfigIcons.qml:301
+#: package/contents/ui/ConfigIcons.qml:302
 msgid "Selection markers"
 msgstr "Pemilihan penanda"
 
-#: package/contents/ui/ConfigIcons.qml:308
+#: package/contents/ui/ConfigIcons.qml:309
 msgid "Folder preview popups"
 msgstr "Sembulan pratinjau folder"
 
-#: package/contents/ui/ConfigIcons.qml:314
+#: package/contents/ui/ConfigIcons.qml:315
 msgid "Preview thumbnails"
 msgstr "Gambar-mini pratinjau"
 
-#: package/contents/ui/ConfigIcons.qml:321
+#: package/contents/ui/ConfigIcons.qml:323
 msgid "Configure Preview Plugins..."
 msgstr "Konfigurasikan Plugin Pratinjau..."
 
@@ -304,6 +291,14 @@ msgstr "Judul kustom"
 msgid "Enter custom title..."
 msgstr "Masukkan judul kustom..."
 
+#: package/contents/ui/ConfigOverlay.qml:101
+msgid "Rotate"
+msgstr "Rotasikan"
+
+#: package/contents/ui/ConfigOverlay.qml:224
+msgid "Remove"
+msgstr "Hapus"
+
 #: package/contents/ui/ConfigTweaks.qml:43
 msgid ""
 "With the Desktop Toolbox hidden, right-click on the desktop and choose "
@@ -333,21 +328,21 @@ msgstr "Oke"
 msgid "Cancel"
 msgstr "Batal"
 
-#: package/contents/ui/main.qml:382
+#: package/contents/ui/main.qml:277
 msgid "Widgets unlocked"
 msgstr "Widget dilepas-kunci"
 
-#: package/contents/ui/main.qml:383
+#: package/contents/ui/main.qml:278
 msgid "You can press and hold widgets to move them and reveal their handles."
 msgstr ""
 "Kamu bisa tekan dan tahan widget untuk memindahnya dan menampakkan "
 "pegangannya"
 
-#: package/contents/ui/main.qml:384
+#: package/contents/ui/main.qml:279
 msgid "Got it"
 msgstr "Mengerti"
 
-#: package/contents/ui/main.qml:597
+#: package/contents/ui/main.qml:403
 msgid "Configure Desktop..."
 msgstr "Konfigurasikan Desktop..."
 
@@ -375,7 +370,7 @@ msgstr "&Bersihkan Sesampahan"
 #, kde-format
 msgctxt "Restore from trash"
 msgid "Restore"
-msgstr "Pulihkan"
+msgstr "Kembalikan"
 
 #: plugins/folder/foldermodel.cpp:1624
 #, kde-format

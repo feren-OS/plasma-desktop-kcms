@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmaccess\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
-"PO-Revision-Date: 2015-12-30 18:09+0200\n"
-"Last-Translator: Mindaugas Baranauskas <opensuse.lietuviu.kalba@gmail.com>\n"
+"POT-Creation-Date: 2019-08-01 03:13+0200\n"
+"PO-Revision-Date: 2019-08-03 20:02+0300\n"
+"Last-Translator: Moo\n"
 "Language-Team: lt <kde-i18n-lt@kde.org>\n"
 "Language: lt\n"
 "MIME-Version: 1.0\n"
@@ -17,75 +17,64 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : n%10>=2 && (n%100<10 || n"
 "%100>=20) ? 1 : n%10==0 || (n%100>10 && n%100<20) ? 2 : 3);\n"
-"X-Generator: Lokalize 1.5\n"
+"X-Generator: Poedit 2.0.6\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "Eugenijus Paulauskas, Donatas Glodenis"
+msgstr "Eugenijus Paulauskas, Donatas Glodenis, Moo"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "eugenijus@agvila.lt, dgvirtual@akl.lt"
+msgstr "eugenijus@agvila.lt, dgvirtual@akl.lt, <>"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tabBell)
 #: accessibility.ui:21
 #, kde-format
 msgid "&Bell"
-msgstr "&Signalas"
+msgstr "&Skambutis"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: accessibility.ui:27
 #, kde-format
 msgid "Audible Bell"
-msgstr "Garsinis signalas"
+msgstr "Garsinis skambutis"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, systemBell)
 #. i18n: ectx: property (toolTip), widget (QCheckBox, gestures)
 #: accessibility.ui:33 accessibility.ui:576
-#, fuzzy, kde-format
-#| msgid ""
-#| "If this option is checked, the default system bell will be used. See the "
-#| "\"System Bell\" control module for how to customize the system bell. "
-#| "Normally, this is just a \"beep\"."
+#, kde-format
 msgid ""
 "If this option is checked, the default system bell will be used. Usually, "
 "this is just a \"beep\"."
 msgstr ""
-"Jeigu pažymėta šita parinktis, bus naudojami pagrindiniai sistemos signalai. "
-"Skaitykite „Sistemos signalai“ valdymo modulį, kaip pritaikyti sau sistemos "
-"signalus. Paprastai, tai yra tik „pyptelėjimas“."
+"Jeigu ši parinktis yra pažymėta, bus naudojamas numatytasis sistemos "
+"skambutis. Paprastai, tai yra tik „pyptelėjimas“."
 
 #. i18n: ectx: property (text), widget (QCheckBox, systemBell)
 #: accessibility.ui:36
 #, kde-format
 msgid "Use &system bell"
-msgstr "Naudoti &sistemos signalus"
+msgstr "Naudoti &sistemos skambutį"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, customBell)
 #. i18n: ectx: property (toolTip), widget (QCheckBox, accessxBeep)
 #: accessibility.ui:43 accessibility.ui:660
-#, fuzzy, kde-format
-#| msgid ""
-#| "<p>Check this option if you want to use a customized bell, playing a "
-#| "sound file. If you do this, you will probably want to turn off the system "
-#| "bell.</p><p> Please note that on slow machines this may cause a \"lag\" "
-#| "between the event causing the bell and the sound being played.</p>"
+#, kde-format
 msgid ""
 "Check this option if you want to use a customized bell, playing a sound "
 "file. If you do this, you will probably want to turn off the system bell."
 msgstr ""
-"<p>Pažymėkite šitą parinktį, jeigu norite naudoti savitus skambučius - "
-"grojantį garso failą. Jeigu tai padarysite, tai tikriausiai norėsite "
-"išjungti sistemos signalus.</p><p>Žinokite, kad lėtuose kompiuteriuose gali "
-"atsirasti „tarpas“ tarp signalą sukeliančio įvykio ir pagrojamo garso.</p>"
+"Pažymėkite šią parinktį, jei norite naudoti tinkintą, garso failą atkuriantį "
+"skambutį. Jei tai padarysite, tikriausiai, pageidausite išjungti sistemos "
+"skambutį."
 
 #. i18n: ectx: property (text), widget (QCheckBox, customBell)
 #: accessibility.ui:46
 #, kde-format
 msgid "Us&e customized bell"
-msgstr "Naudoti &savitą skambutį"
+msgstr "Naudoti &tinkintą skambutį"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, soundLabel)
 #. i18n: ectx: property (toolTip), widget (QLineEdit, soundEdit)
@@ -96,15 +85,15 @@ msgid ""
 "If the option \"Use customized bell\" is enabled, you can choose a sound "
 "file here. Click \"Browse...\" to choose a sound file using the file dialog."
 msgstr ""
-"Jeigu parinktis „Naudoti derintus signalus“ yra įjungta, čia galite "
-"pasirinkti garso failą. Norėdami pasirinkti garso failą paspauskite mygtuką "
-"„Naršyti...“ ir failų dialoge nurodykite pageidaujamą."
+"Jeigu parinktis „Naudoti tinkintą skambutį“ yra įjungta, čia galite "
+"pasirinkti garso failą. Norėdami pasirinkti garso failą, paspauskite mygtuką "
+"„Naršyti...“ ir failų dialoge nurodykite pageidaujamą failą."
 
 #. i18n: ectx: property (text), widget (QLabel, soundLabel)
 #: accessibility.ui:74
 #, kde-format
 msgid "Sound &to play:"
-msgstr "Garsas į gro&ti:"
+msgstr "Garsas, kurį &atkurti:"
 
 #. i18n: ectx: property (text), widget (QPushButton, soundButton)
 #: accessibility.ui:94
@@ -114,33 +103,27 @@ msgstr "Naršyti..."
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
 #: accessibility.ui:106
-#, fuzzy, kde-format
-#| msgid "Visible Bell"
+#, kde-format
 msgid "Visual Bell"
-msgstr "Matomi signalai"
+msgstr "Vaizdinis skambutis"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, visibleBell)
 #: accessibility.ui:112
-#, fuzzy, kde-format
-#| msgid ""
-#| "This option will turn on the \"visible bell\", i.e. a visible "
-#| "notification shown every time that normally just a bell would occur. This "
-#| "is especially useful for deaf people."
+#, kde-format
 msgid ""
 "This option will turn on the \"visual bell\", i.e. a visual notification "
 "shown every time that normally just a bell would occur. This is especially "
 "useful for deaf people."
 msgstr ""
-"Šita parinkti įjungs \"matomus signalus\", t.y., vizualius pranešimus, "
-"rodomus kaskart vietoje to, kad, kaip įprasta, būtų signalizuojama garsu. "
-"Tai naudojama specialiai dėl kurčiųjų."
+"Ši parinktis įjungs \"vaizdinį skambutį\", t. y. vaizdinį pranešimą, kuris "
+"bus rodomas kiekvieną kartą, kai būtų atsiradęs, tiesiogm skambutis. Tai "
+"ypač naudinga kurtiems žmonėms."
 
 #. i18n: ectx: property (text), widget (QCheckBox, visibleBell)
 #: accessibility.ui:115
-#, fuzzy, kde-format
-#| msgid "&Use visible bell"
+#, kde-format
 msgid "&Use visual bell"
-msgstr "Na&udoti matomus signalus"
+msgstr "Na&udoti vaizdinį skambutį"
 
 #. i18n: ectx: property (toolTip), widget (QRadioButton, flashScreen)
 #: accessibility.ui:122
@@ -148,21 +131,20 @@ msgstr "Na&udoti matomus signalus"
 msgid ""
 "The screen will turn to a custom color for the amount of time specified "
 "below."
-msgstr "Ekranas, praėjus žemiau nurodytam laikui, nusidažys pasirinkta spalva."
+msgstr "Ekranas, žemiau nurodytam laikui, nusidažys pasirinkta spalva."
 
 #. i18n: ectx: property (text), widget (QRadioButton, flashScreen)
 #: accessibility.ui:125
 #, kde-format
 msgid "F&lash screen"
-msgstr "Ekrano &blyksnis"
+msgstr "Mirginti e&kraną"
 
 #. i18n: ectx: property (toolTip), widget (QRadioButton, invertScreen)
 #: accessibility.ui:132
 #, kde-format
 msgid ""
 "All screen colors will be inverted for the amount of time specified below."
-msgstr ""
-"Visos ekrano spalvos, praėjus žemiau nurodytam laikui, bus invertuojamos."
+msgstr "Visos ekrano spalvos, žemiau nurodytam laikui, bus invertuotos."
 
 #. i18n: ectx: property (text), widget (QRadioButton, invertScreen)
 #: accessibility.ui:135
@@ -176,14 +158,14 @@ msgstr "I&nvertuoti ekraną"
 msgid ""
 "Click here to choose the color used for the \"flash screen\" visible bell."
 msgstr ""
-"Paspauskite čia, pasirinkti vizualaus signalo \"ekrano blyksnis\" spalvai."
+"Spustelėkite čia, norėdami pasirinkti \"mirginti ekraną\" vaizdiniam "
+"skambučiui naudojamą spalvą."
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: accessibility.ui:165
-#, fuzzy, kde-format
-#| msgid "Duration:"
+#, kde-format
 msgid "&Duration:"
-msgstr "Trukmė:"
+msgstr "&Trukmė:"
 
 #. i18n: ectx: property (toolTip), widget (QSpinBox, duration)
 #. i18n: ectx: property (toolTip), widget (QSpinBox, slowKeysDelay)
@@ -195,48 +177,50 @@ msgstr "Trukmė:"
 msgid ""
 "Here you can customize the duration of the \"visible bell\" effect being "
 "shown."
-msgstr "Čia galite suderinti „matomo signalo“ efekto trukmę."
+msgstr "Čia galite tinkinti rodomo „vaizdinio skambučio“ efekto trukmę."
 
 #. i18n: ectx: property (suffix), widget (QSpinBox, duration)
 #. i18n: ectx: property (suffix), widget (QSpinBox, slowKeysDelay)
 #. i18n: ectx: property (suffix), widget (QSpinBox, bounceKeysDelay)
+#. i18n: ectx: property (suffix), widget (QSpinBox, mk_delay)
+#. i18n: ectx: property (suffix), widget (QSpinBox, mk_interval)
+#. i18n: ectx: property (suffix), widget (QSpinBox, mk_time_to_max)
 #: accessibility.ui:181 accessibility.ui:392 accessibility.ui:489
+#: accessibility.ui:766 accessibility.ui:808 accessibility.ui:840
 #, kde-format
 msgid " msec"
-msgstr " msec"
+msgstr " msek."
 
 #. i18n: ectx: attribute (title), widget (QWidget, tabModifier)
 #: accessibility.ui:224
-#, fuzzy, kde-format
-#| msgid "&Modifier Keys"
+#, kde-format
 msgid "&Modifier Keys"
-msgstr "Klavišai &modifikatoriai"
+msgstr "&Modifikavimo klavišai"
 
 #. i18n: ectx: property (title), widget (QGroupBox, sticky)
 #: accessibility.ui:230
-#, fuzzy, kde-format
-#| msgid "S&ticky Keys"
+#, kde-format
 msgid "Sticky Keys"
-msgstr "Lip&nieji klavišai"
+msgstr "Atmenieji klavišai"
 
 #. i18n: ectx: property (text), widget (QCheckBox, stickyKeys)
 #: accessibility.ui:236
 #, kde-format
 msgid "Use &sticky keys"
-msgstr "Naudoti &lipniuosius klavišus"
+msgstr "Naudoti &atmeniuosius klavišus"
 
 #. i18n: ectx: property (text), widget (QCheckBox, stickyKeysLock)
 #: accessibility.ui:263
 #, kde-format
 msgid "&Lock sticky keys"
-msgstr "B&lokuoti lipniuosius klavišus"
+msgstr "&Užrakinti atmeniuosius klavišus"
 
 #. i18n: ectx: property (text), widget (QCheckBox, stickyKeysAutoOff)
 #: accessibility.ui:270
 #, kde-format
 msgid "Turn sticky keys off when two keys are pressed simultaneously"
 msgstr ""
-"Išjungti lipniuosius klavišus kai du klavišai spaudžiami tuo pačiu metu"
+"Išjungti atmeniuosius klavišus, kai vienu metu yra paspaudžiami du klavišai"
 
 #. i18n: ectx: property (text), widget (QCheckBox, stickyKeysBeep)
 #: accessibility.ui:277
@@ -244,33 +228,30 @@ msgstr ""
 msgid "Use system bell whenever a modifier gets latched, locked or unlocked"
 msgstr ""
 "Naudoti sistemos skambutį kiekvieną kartą, kai modifikatoriai yra "
-"užrakinami, atrakinami arba netyčia įjungiami"
+"užrakinami, atrakinami arba laikomi nuspausti"
 
 #. i18n: ectx: property (title), widget (QGroupBox, locking)
 #: accessibility.ui:291
 #, kde-format
 msgid "Locking Keys"
-msgstr "Rakinimo klavišai"
+msgstr "Užrakinimo klavišai"
 
 #. i18n: ectx: property (text), widget (QCheckBox, toggleKeysBeep)
 #: accessibility.ui:297
 #, kde-format
 msgid "Use system bell whenever a locking key gets activated or deactivated"
 msgstr ""
-"Naudoti sistemos skambutį kai rakinimo klavišas aktyvuojamas arba "
-"dezaktyvuojamas"
+"Naudoti sistemos skambutį, kai užrakinimo klavišas yra aktyvuojamas arba "
+"pasyvinamas"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kNotifyModifiers)
 #: accessibility.ui:304
-#, fuzzy, kde-format
-#| msgid ""
-#| "Use Plasma's system notification mechanism whenever a modifier or locking "
-#| "key changes its state"
+#, kde-format
 msgid ""
 "Use Plasma's notification mechanism for modifier or locking key state changes"
 msgstr ""
-"Naudoti Plasma sistemos perspėjimų mechanizmą modifikatorius ar rakinimo "
-"klavišas pakeičia būseną"
+"Modifikavimo ar užrakinimo klavišų būsenos pakeitimams, naudoti Plasma "
+"pranešimų mechanizmą"
 
 #. i18n: ectx: property (text), widget (QPushButton, kNotifyModifiersButton)
 #. i18n: ectx: property (text), widget (QPushButton, kNotifyAccessButton)
@@ -289,68 +270,67 @@ msgstr "&Klaviatūros filtrai"
 #: accessibility.ui:374
 #, kde-format
 msgid "Slo&w Keys"
-msgstr "L&ėti klavišai"
+msgstr "Lė&tieji klavišai"
 
 #. i18n: ectx: property (text), widget (QCheckBox, slowKeys)
 #: accessibility.ui:382
 #, kde-format
 msgid "&Use slow keys"
-msgstr "Na&udoti lėtus klavišus"
+msgstr "Na&udoti lėtuosius klavišus"
 
 #. i18n: ectx: property (text), widget (QCheckBox, slowKeysPressBeep)
 #: accessibility.ui:443
 #, kde-format
 msgid "&Use system bell whenever a key is pressed"
-msgstr "Na&udoti sistemos skambutį kiekvieną kartą nuspaudus klavišą"
+msgstr "Na&udoti sistemos skambutį kiekvieną kartą paspaudus klavišą"
 
 #. i18n: ectx: property (text), widget (QCheckBox, slowKeysAcceptBeep)
 #: accessibility.ui:450
 #, kde-format
 msgid "&Use system bell whenever a key is accepted"
-msgstr "Na&udoti sistemos skambutį kiekvieną kartą kai raktas priimamas"
+msgstr "Na&udoti sistemos skambutį kiekvieną kartą, kai klavišas yra priimamas"
 
 #. i18n: ectx: property (text), widget (QCheckBox, slowKeysRejectBeep)
 #: accessibility.ui:457
 #, kde-format
 msgid "&Use system bell whenever a key is rejected"
-msgstr "Na&udoti sistemos skambutį kiekvieną kartą kai raktas atmetamas"
+msgstr "Na&udoti sistemos skambutį kiekvieną kartą, kai klavišas yra atmetamas"
 
 #. i18n: ectx: property (title), widget (QGroupBox, bouncekeys)
 #: accessibility.ui:471
 #, kde-format
 msgid "Bounce Keys"
-msgstr "Tamprūs klavišai"
+msgstr "Pasikartojantys klavišai"
 
 #. i18n: ectx: property (text), widget (QCheckBox, bounceKeys)
 #: accessibility.ui:479
 #, kde-format
 msgid "Use bou&nce keys"
-msgstr "&Naudoti tamprius klavišus"
+msgstr "&Naudoti pasikartojančius klavišus"
 
 #. i18n: ectx: property (text), widget (QCheckBox, bounceKeysRejectBeep)
 #: accessibility.ui:538
 #, kde-format
 msgid "Use the system bell whenever a key is rejected"
-msgstr "Naudoti sistemos skambutį kiekvieną kartą kai raktas atmetamas"
+msgstr "Naudoti sistemos skambutį kiekvieną kartą, kai klavišas yra atmetamas"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tabActivationGestures)
 #: accessibility.ui:564
-#, fuzzy, kde-format
-#| msgid "Activation Gestures"
+#, kde-format
 msgid "Activation &Gestures"
-msgstr "Aktyvavimo veiksmai"
+msgstr "Aktyvavimo &gestai"
 
 #. i18n: ectx: property (title), widget (QGroupBox, activationgestures)
 #: accessibility.ui:570
 #, kde-format
 msgid "Activation Gestures"
-msgstr "Aktyvavimo veiksmai"
+msgstr "Aktyvavimo gestai"
 
 #. i18n: ectx: property (text), widget (QCheckBox, gestures)
 #: accessibility.ui:579
 #, kde-format
 msgid "Use gestures for activating sticky keys and slow keys"
-msgstr "Lipnių ir lėtųjų klavišų aktyvavimui naudoti gestus"
+msgstr "Naudoti gestus atmeniųjų ir lėtųjų klavišų aktyvavimui"
 
 #. i18n: ectx: property (text), widget (QCheckBox, timeout)
 #: accessibility.ui:589
@@ -358,14 +338,13 @@ msgstr "Lipnių ir lėtųjų klavišų aktyvavimui naudoti gestus"
 msgid ""
 "Turn sticky keys and slow keys off after a certain period of inactivity."
 msgstr ""
-"Išjungti lipniuosius klavišus bei lėtus klavišus po tam tikro neaktyvumo "
-"periodo."
+"Išjungti atmeniuosius ir lėtuosius klavišus po tam tikro neveiklumo laiko."
 
 #. i18n: ectx: property (suffix), widget (QSpinBox, timeoutDelay)
 #: accessibility.ui:617
 #, kde-format
 msgid " min"
-msgstr " min"
+msgstr " min."
 
 #. i18n: ectx: property (title), widget (QGroupBox, notification)
 #: accessibility.ui:654
@@ -375,16 +354,13 @@ msgstr "Pranešimas"
 
 #. i18n: ectx: property (text), widget (QCheckBox, accessxBeep)
 #: accessibility.ui:663
-#, fuzzy, kde-format
-#| msgid ""
-#| "Use the system bell whenever a gesture is used to turn an accessibility "
-#| "feature on or off"
+#, kde-format
 msgid ""
 "Use the system bell whenever a gesture is used to toggle an accessibility "
 "feature"
 msgstr ""
-"Naudoti sistemos skambutį kai naudojamas gestas prieinamumo savybei įjungti "
-"ar išjungti"
+"Naudoti sistemos skambutį kiekvieną kartą, kai yra naudojamas gestas "
+"prieinamumo ypatybė įjungti ar išjungti"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, gestureConfirmation)
 #: accessibility.ui:671
@@ -395,63 +371,106 @@ msgid ""
 "Ensure you know what you are doing if you uncheck it, as the keyboard "
 "accessibility settings will then always be applied without confirmation."
 msgstr ""
-"Pažymėjus šią parinktį KDE rodys patvirtinimo dialogą kiekvieną kartą, kai "
-"klaviatūros pritaikymo neįgaliesiems savybė įjungiama ar išjungiama.\n"
-"Pasirinkdami šios parinkties nepažymėti gerai pagalvokite, nes tuomet "
-"klaviatūros pritaikymo neįgaliesiems nuostatos galės būti įjungtos be "
-"patvirtinimo."
+"Pažymėjus šią parinktį, KDE rodys patvirtinimo dialogą kiekvieną kartą, kai "
+"klaviatūros prieinamumo ypatybė yra įjungiama ar išjungiama.\n"
+"Nepažymėdami šios parinkties, gerai pagalvokite, nes tuomet klaviatūros "
+"prieinamumo nuostatos bus visada taikomos be jokio patvirtinimo."
 
 #. i18n: ectx: property (text), widget (QCheckBox, gestureConfirmation)
 #: accessibility.ui:674
-#, fuzzy, kde-format
-#| msgid ""
-#| "Show a confirmation dialog whenever a keyboard accessibility feature is "
-#| "turned on or off"
+#, kde-format
 msgid ""
 "Show a confirmation dialog whenever a keyboard accessibility feature is "
 "toggled"
 msgstr ""
-"Rodyti patvirtinimo dialogą kiekvieną kartą, kai klaviatūros pritaikymo "
-"neįgaliesiems savybė įjungiama ar išjungiama"
+"Rodyti patvirtinimo dialogą kiekvieną kartą, kai yra įjungiama ar išjungiama "
+"klaviatūros prieinamumo ypatybė"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kNotifyAccess)
 #: accessibility.ui:681
-#, fuzzy, kde-format
-#| msgid ""
-#| "Use Plasma's system notification mechanism whenever a keyboard "
-#| "accessibility feature is turned on or off"
+#, kde-format
 msgid ""
 "Use Plasma's notification mechanism whenever a keyboard accessibility "
 "feature is toggled"
 msgstr ""
-"Naudoti Plasma sistemos pranešimų mechanizmą kai klaviatūros pritaikymo "
-"neįgaliesiems savybė įjungiama ar išjungiama"
+"Naudoti Plasma pranešimų mechanizmą kiekvieną kartą, kai yra įjungiama ar "
+"išjungiama klaviatūros prieinamumo ypatybė"
 
-#. i18n: ectx: attribute (title), widget (QWidget, tabScreenReader)
+#. i18n: ectx: attribute (title), widget (QWidget, tabMouseKeys)
 #: accessibility.ui:745
 #, kde-format
+msgid "Mouse Navigation"
+msgstr "Naršymas pele"
+
+#. i18n: ectx: property (text), widget (QCheckBox, mouseKeys)
+#: accessibility.ui:753
+#, kde-format
+msgid "&Move pointer with keyboard (using the num pad)"
+msgstr "&Judinti rodyklę naudojant klaviatūrą (skaitmenų klaviatūrą)"
+
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: accessibility.ui:782
+#, kde-format
+msgid "&Acceleration delay:"
+msgstr "&Pagreičio delsa:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_8)
+#: accessibility.ui:792
+#, kde-format
+msgid "R&epeat interval:"
+msgstr "&Kartojimo intervalas:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_9)
+#: accessibility.ui:824
+#, kde-format
+msgid "Acceleration &time:"
+msgstr "Pagreičio &laikas:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_10)
+#: accessibility.ui:856
+#, kde-format
+msgid "Ma&ximum speed:"
+msgstr "&Didžiausias greitis:"
+
+#. i18n: ectx: property (suffix), widget (QSpinBox, mk_max_speed)
+#: accessibility.ui:872
+#, kde-format
+msgid " pixel/sec"
+msgstr " piks./sek."
+
+#. i18n: ectx: property (text), widget (QLabel, label_11)
+#: accessibility.ui:888
+#, kde-format
+msgid "Acceleration &profile:"
+msgstr "Pagreičio &profilis:"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tabScreenReader)
+#: accessibility.ui:933
+#, kde-format
 msgid "Screen Reader"
-msgstr ""
+msgstr "Ekrano skaityklė"
 
 #. i18n: ectx: property (text), widget (QCheckBox, screenReaderEnabled)
-#: accessibility.ui:751
+#: accessibility.ui:939
 #, kde-format
 msgid "Screen reader enabled"
-msgstr ""
+msgstr "Ekrano skaityklė įjungta"
 
 #. i18n: ectx: property (text), widget (QPushButton, launchOrcaConfiguration)
-#: accessibility.ui:760
+#: accessibility.ui:948
 #, kde-format
 msgid "&Launch Orca Configuration"
-msgstr ""
+msgstr "&Paleisti Orca konfigūraciją"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: accessibility.ui:785
+#: accessibility.ui:973
 #, kde-format
 msgid ""
 "Please note that you may have to log out once to allow the screen reader to "
 "work properly."
 msgstr ""
+"Turėkite omenyje, jog tam, kad ekrano skaityklė tinkamai veiktų, jums gali "
+"tekti vieną kartą atsijungti."
 
 #: kcmaccess.cpp:121
 #, kde-format
@@ -471,47 +490,47 @@ msgstr "Super"
 #: kcmaccess.cpp:139
 #, kde-format
 msgid "Press %1 while NumLock, CapsLock and ScrollLock are active"
-msgstr "Spauskite %1, kol NumLock, CapsLock ir ScrollLock yra aktyvūs"
+msgstr "Paspauskite %1, kol NumLock, CapsLock ir ScrollLock yra aktyvūs"
 
 #: kcmaccess.cpp:141
 #, kde-format
 msgid "Press %1 while CapsLock and ScrollLock are active"
-msgstr "Spauskite %1, kol CapsLock ir ScrollLock yra aktyvūs"
+msgstr "Paspauskite %1, kol CapsLock ir ScrollLock yra aktyvūs"
 
 #: kcmaccess.cpp:143
 #, kde-format
 msgid "Press %1 while NumLock and ScrollLock are active"
-msgstr "Spauskite %1, kol NumLock ir ScrollLock yra aktyvūs"
+msgstr "Paspauskite %1, kol NumLock ir ScrollLock yra aktyvūs"
 
 #: kcmaccess.cpp:145
 #, kde-format
 msgid "Press %1 while ScrollLock is active"
-msgstr "Spauskite %1, kol  ScrollLock yra aktyvus"
+msgstr "Paspauskite %1, kol ScrollLock yra aktyvus"
 
 #: kcmaccess.cpp:148
 #, kde-format
 msgid "Press %1 while NumLock and CapsLock are active"
-msgstr "Spauskite %1, kol NumLock, ir CapsLock yra aktyvūs"
+msgstr "Paspauskite %1, kol NumLock, ir CapsLock yra aktyvūs"
 
 #: kcmaccess.cpp:150
 #, kde-format
 msgid "Press %1 while CapsLock is active"
-msgstr "Spauskite %1, kol CapsLock yra aktyvus"
+msgstr "Paspauskite %1, kol CapsLock yra aktyvus"
 
 #: kcmaccess.cpp:152
 #, kde-format
 msgid "Press %1 while NumLock is active"
-msgstr "Spauskite %1, kol NumLock yra aktyvus"
+msgstr "Paspauskite %1, kol NumLock yra aktyvus"
 
 #: kcmaccess.cpp:154
 #, kde-format
 msgid "Press %1"
-msgstr "Spauskite %1"
+msgstr "Paspauskite %1"
 
 #: kcmaccess.cpp:163
 #, kde-format
 msgid "KDE Accessibility Tool"
-msgstr "KDE Prieinamumo įrankis"
+msgstr "KDE prieinamumo įrankis"
 
 #: kcmaccess.cpp:164
 #, kde-format
@@ -536,9 +555,9 @@ msgid ""
 "Sticky keys: Press Shift key 5 consecutive times\n"
 "Slow keys: Hold down Shift for 8 seconds"
 msgstr ""
-"Čia galite aktyvuoti klaviatūros veiksmus šioms savybėms įjungti: \n"
-"Lipnūs klavišai: nuspauskite Lyg2 klavišą 5 kartus iš eilės\n"
-"Lėti klavišai: laikykite Lyg2 klavišą nuspaudę 8 sekundes"
+"Čia galite aktyvuoti klaviatūros gestus, kurie įjungia šias ypatybes: \n"
+"Atmenieji klavišai: Paspauskite Lyg2 klavišą 5 kartus iš eilės\n"
+"Lėtieji klavišai: Laikykite Lyg2 klavišą nuspaudę 8 sekundes"
 
 #: kcmaccess.cpp:225
 #, kde-format
@@ -549,17 +568,17 @@ msgid ""
 "Sticky keys: Press Shift key 5 consecutive times\n"
 "Slow keys: Hold down Shift for 8 seconds"
 msgstr ""
-"Čia galite aktyvuoti klaviatūros veiksmus šioms savybėms įjungti: \n"
+"Čia galite aktyvuoti klaviatūros gestus, kurie įjungia šias ypatybes: \n"
 "Pelės klavišai: %1\n"
-"Lipnūs klavišai: nuspauskite Lyg2 klavišą 5 kartus iš eilės\n"
-"Lėti klavišai: laikykite Lyg2 klavišą nuspaudę 8 sekundes"
+"Atmenieji klavišai: Paspauskite Lyg2 klavišą 5 kartus iš eilės\n"
+"Lėtieji klavišai: Laikykite Lyg2 klavišą nuspaudę 8 sekundes"
 
-#: kcmaccess.cpp:261
+#: kcmaccess.cpp:269
 #, kde-format
 msgid "Could not set gsettings for Orca: \"%1\" failed"
-msgstr ""
+msgstr "Nepavyko gauti Orca gsettings: \"%1\" patyrė nesėkmę"
 
-#: kcmaccess.cpp:268
+#: kcmaccess.cpp:276
 #, kde-format
 msgid "Error: Could not launch \"orca --setup\""
-msgstr ""
+msgstr "Klaida: Nepavyko paleisti \"orca --setup\""

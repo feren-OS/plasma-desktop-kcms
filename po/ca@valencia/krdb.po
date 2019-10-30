@@ -2,6 +2,7 @@
 # Copyright (C) 2002-2017 This_file_is_part_of_KDE
 # This file is distributed under the license LGPL version 2.1 or
 # version 3 or later versions approved by the membership of KDE e.V.
+# or the same license as the source of its messages in English.
 #
 # Antoni Bella Pérez <antonibella5@yahoo.com>, 2002, 2014.
 # Josep Ma. Ferrer <txemaq@gmail.com>, 2008, 2009, 2012, 2017.
@@ -9,19 +10,19 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krdb\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
-"PO-Revision-Date: 2017-01-27 17:24+0100\n"
+"POT-Creation-Date: 2019-08-05 03:06+0200\n"
+"PO-Revision-Date: 2019-06-28 12:20+0200\n"
 "Last-Translator: Josep Ma. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca@valencia\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 2.0\n"
+"X-Generator: Poedit 2.0.6\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Accelerator-Marker: &\n"
 
-#: krdb.cpp:270
+#: krdb.cpp:271
 #, kde-format
 msgid ""
 "# created by KDE Plasma, %1\n"
@@ -32,11 +33,10 @@ msgid ""
 "#\n"
 "#\n"
 msgstr ""
-"# creat per al Plasma del KDE, %1\n"
+"# creat per a Plasma de KDE, %1\n"
 "#\n"
-"# Si no desitgeu que el Plasma sobreescrigui les vostres preferències del "
-"GTK,\n"
-"# a l'arranjament del sistema seleccioneu «Colors» i desactiveu-hi\n"
+"# Si no desitgeu que Plasma sobreescriga les vostres preferències de GTK,\n"
+"# a la configuració del sistema seleccioneu «Colors» i desactiveu-hi\n"
 "# la casella de selecció «Aplica els colors a les aplicacions no-Qt»\n"
 "#\n"
 "#\n"

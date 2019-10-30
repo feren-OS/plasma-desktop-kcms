@@ -9,9 +9,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_pager\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
-"PO-Revision-Date: 2016-11-04 19:44+0200\n"
-"Last-Translator: Mindaugas Baranauskas <opensuse.lietuviu.kalba@gmail.com>\n"
+"POT-Creation-Date: 2019-05-20 03:25+0200\n"
+"PO-Revision-Date: 2019-07-31 00:22+0300\n"
+"Last-Translator: Moo\n"
 "Language-Team: Lithuanian <kde-i18n-lt@kde.org>\n"
 "Language: lt\n"
 "MIME-Version: 1.0\n"
@@ -19,34 +19,32 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : n%10>=2 && (n%100<10 || n"
 "%100>=20) ? 1 : n%10==0 || (n%100>10 && n%100<20) ? 2 : 3);\n"
-"X-Generator: Lokalize 1.5\n"
+"X-Generator: Poedit 2.0.6\n"
 
 #: package/contents/config/config.qml:25
 #, kde-format
 msgid "General"
-msgstr "Bendri"
+msgstr "Bendra"
 
 #: package/contents/ui/configGeneral.qml:84
-#, fuzzy, kde-format
-#| msgid "General"
+#, kde-format
 msgid "General:"
-msgstr "Bendri"
+msgstr "Bendra:"
 
 #: package/contents/ui/configGeneral.qml:86
 #, kde-format
 msgid "Show application icons on window outlines"
-msgstr ""
+msgstr "Langų kontūruose rodyti programų piktogramas"
 
 #: package/contents/ui/configGeneral.qml:91
-#, fuzzy, kde-format
-#| msgid "Only the current screen"
+#, kde-format
 msgid "Show only current screen"
-msgstr "Tik veikiamojo ekrano"
+msgstr "Rodyti tik dabartinį ekraną"
 
 #: package/contents/ui/configGeneral.qml:96
 #, kde-format
 msgid "Navigation wraps around"
-msgstr ""
+msgstr "Cikliškai perjunginėti"
 
 #: package/contents/ui/configGeneral.qml:108
 #, kde-format
@@ -70,56 +68,52 @@ msgid "Vertical"
 msgstr "Vertikaliai"
 
 #: package/contents/ui/configGeneral.qml:124
-#, fuzzy, kde-format
-#| msgid "Display:"
+#, kde-format
 msgid "Text display:"
-msgstr "Rodyti:"
+msgstr "Teksto rodymas:"
 
 #: package/contents/ui/configGeneral.qml:127
 #, kde-format
 msgid "No text"
-msgstr "Nerodyti jokio teksto"
+msgstr "Jokio teksto"
 
 #: package/contents/ui/configGeneral.qml:133
 #, kde-format
 msgid "Activity number"
-msgstr "Veiklos numerį"
+msgstr "Veiklos numeris"
 
 #: package/contents/ui/configGeneral.qml:133
 #, kde-format
 msgid "Desktop number"
-msgstr "Darbalaukio numerį"
+msgstr "Darbalaukio numeris"
 
 #: package/contents/ui/configGeneral.qml:139
 #, kde-format
 msgid "Activity name"
-msgstr "Veiklos pavadinimą"
+msgstr "Veiklos pavadinimas"
 
 #: package/contents/ui/configGeneral.qml:139
 #, kde-format
 msgid "Desktop name"
-msgstr "Darbalaukio pavadinimą"
+msgstr "Darbalaukio pavadinimas"
 
 #: package/contents/ui/configGeneral.qml:152
-#, fuzzy, kde-format
-#| msgid "Selecting current desktop:"
+#, kde-format
 msgid "Selecting current Activity:"
-msgstr "Spragtelėjus dabartinį darbalaukį:"
+msgstr "Pasirinkus dabartinę veiklą:"
 
 #: package/contents/ui/configGeneral.qml:152
-#, fuzzy, kde-format
-#| msgid "Selecting current desktop:"
+#, kde-format
 msgid "Selecting current virtual desktop:"
-msgstr "Spragtelėjus dabartinį darbalaukį:"
+msgstr "Pasirinkus dabartinį virtualų darbalaukį:"
 
 #: package/contents/ui/configGeneral.qml:155
 #, kde-format
 msgid "Does nothing"
-msgstr "Nieko nenutinka"
+msgstr "Nieko nedaroma"
 
 #: package/contents/ui/configGeneral.qml:161
-#, fuzzy, kde-format
-#| msgid "Shows desktop"
+#, kde-format
 msgid "Shows the desktop"
 msgstr "Parodomas darbalaukis"
 
@@ -127,33 +121,33 @@ msgstr "Parodomas darbalaukis"
 #, kde-format
 msgid "...and %1 other window"
 msgid_plural "...and %1 other windows"
-msgstr[0] "...ir %1 kitas langas"
-msgstr[1] "...ir %1 kiti langai"
-msgstr[2] "...ir %1 kitų langų"
-msgstr[3] "...ir %1 kitas langas"
+msgstr[0] "...ir dar %1 langas"
+msgstr[1] "...ir dar %1 langai"
+msgstr[2] "...ir dar %1 langų"
+msgstr[3] "...ir dar %1 langas"
 
 #: package/contents/ui/main.qml:353
 #, kde-format
 msgid "%1 Window:"
 msgid_plural "%1 Windows:"
-msgstr[0] "%1 langas"
-msgstr[1] "%1 langai"
-msgstr[2] "%1 langų"
-msgstr[3] "%1 langas"
+msgstr[0] "%1 langas:"
+msgstr[1] "%1 langai:"
+msgstr[2] "%1 langų:"
+msgstr[3] "%1 langas:"
 
 #: package/contents/ui/main.qml:362
 #, kde-format
 msgid "%1 Minimized Window:"
 msgid_plural "%1 Minimized Windows:"
-msgstr[0] "%1 sumažintas langas"
-msgstr[1] "%1 sumažinti langai"
-msgstr[2] "%1 sumažintų langų"
-msgstr[3] "%1 sumažintas langas"
+msgstr[0] "%1 suskleistas langas:"
+msgstr[1] "%1 suskleisti langai:"
+msgstr[2] "%1 suskleistų langų:"
+msgstr[3] "%1 suskleistas langas:"
 
 #: package/contents/ui/main.qml:537
 #, kde-format
 msgid "Show Activity Manager..."
-msgstr "Rodyti veiklų tvarkyklę..."
+msgstr "Rodyti veiklų tvarkytuvę..."
 
 #: package/contents/ui/main.qml:540
 #, kde-format
@@ -163,10 +157,9 @@ msgstr "Pridėti virtualų darbalaukį"
 #: package/contents/ui/main.qml:541
 #, kde-format
 msgid "Remove Virtual Desktop"
-msgstr "Pašalinti virtualų darbalaukį"
+msgstr "Šalinti virtualų darbalaukį"
 
 #: package/contents/ui/main.qml:546
-#, fuzzy, kde-format
-#| msgid "Configure Desktops..."
+#, kde-format
 msgid "Configure Virtual Desktops..."
-msgstr "Konfigūruoti darbalaukius..."
+msgstr "Konfigūruoti virtualius darbalaukius..."

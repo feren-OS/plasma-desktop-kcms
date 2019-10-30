@@ -6,15 +6,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-06-20 07:49+0200\n"
-"PO-Revision-Date: 2019-07-24 21:37+0300\n"
+"POT-Creation-Date: 2019-06-20 03:22+0200\n"
+"PO-Revision-Date: 2019-08-31 13:44+0300\n"
 "Last-Translator: Alexander Yavorsky <kekcuha@gmail.com>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 19.04.3\n"
+"X-Generator: Lokalize 19.08.0\n"
 "Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
 "%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 
@@ -119,7 +119,7 @@ msgstr ""
 "Воспринимать одновременное нажатие левой и правой кнопок как нажатие средней "
 "кнопки"
 
-#: src/kcm/libinput/touchpad.qml:206 src/kcm/libinput/touchpad.qml:720
+#: src/kcm/libinput/touchpad.qml:206 src/kcm/libinput/touchpad.qml:721
 #, kde-format
 msgid ""
 "Clicking left and right button simultaneously sends middle button click."
@@ -288,63 +288,63 @@ msgid "Disable horizontal scrolling"
 msgstr "Отключить горизонтальную прокрутку"
 
 #: src/kcm/libinput/touchpad.qml:603
-#, fuzzy, kde-format
-#| msgid "Right-click"
-msgid "Right-click :"
-msgstr "Нажатие правой кнопки"
+#, kde-format
+msgid "Right-click:"
+msgstr "Щелчок правой кнопкой мыши:"
 
-#: src/kcm/libinput/touchpad.qml:641
-#, fuzzy, kde-format
-#| msgctxt "Touchpad Edge"
-#| msgid "Bottom right corner"
+#: src/kcm/libinput/touchpad.qml:642
+#, kde-format
 msgid "Press bottom-right corner"
-msgstr "Правый нижний угол"
+msgstr "Нажмите правый нижний угол"
 
-#: src/kcm/libinput/touchpad.qml:645
+#: src/kcm/libinput/touchpad.qml:646
 #, kde-format
 msgid ""
 "Software enabled buttons will be added to bottom portion of your touchpad."
 msgstr ""
+"Виртуальные программные кнопки будут добавлены в нижней части сенсорной "
+"панели."
 
-#: src/kcm/libinput/touchpad.qml:653
+#: src/kcm/libinput/touchpad.qml:654
 #, kde-format
 msgid "Press anywhere with two fingers"
 msgstr "Нажмите двумя пальцами"
 
-#: src/kcm/libinput/touchpad.qml:657
-#, fuzzy, kde-format
-#| msgid "Tap with two fingers to right-click."
+#: src/kcm/libinput/touchpad.qml:658
+#, kde-format
 msgid "Tap with two finger to enable right click."
 msgstr "Касание двумя пальцами обрабатывается как нажатие правой кнопки."
 
-#: src/kcm/libinput/touchpad.qml:670
+#: src/kcm/libinput/touchpad.qml:671
 #, kde-format
 msgid "Middle-click: "
 msgstr "Нажатие средней кнопки: "
 
-#: src/kcm/libinput/touchpad.qml:704
+#: src/kcm/libinput/touchpad.qml:705
 #, kde-format
 msgid "Press bottom-middle"
-msgstr ""
+msgstr "Нажмите внизу посередине"
 
-#: src/kcm/libinput/touchpad.qml:708
+#: src/kcm/libinput/touchpad.qml:709
 #, kde-format
 msgid ""
 "Software enabled middle-button will be added to bottom portion of your "
 "touchpad."
 msgstr ""
+"Виртуальная программная средняя кнопка будут добавлена в нижней части "
+"сенсорной панели."
 
-#: src/kcm/libinput/touchpad.qml:716
+#: src/kcm/libinput/touchpad.qml:717
 #, kde-format
 msgid "Press bottom left and bottom right corners simultaneously"
-msgstr ""
+msgstr "Нажмите одновременно внизу в правом и левом углах"
 
-#: src/kcm/libinput/touchpad.qml:729
+#: src/kcm/libinput/touchpad.qml:730
 #, kde-format
 msgid "Press anywhere with three fingers"
 msgstr "Нажмите тремя пальцами"
 
-#: src/kcm/libinput/touchpad.qml:735
+#: src/kcm/libinput/touchpad.qml:736
 #, kde-format
 msgid "Press anywhere with three fingers."
 msgstr "Нажмите тремя пальцами."
@@ -455,7 +455,7 @@ msgstr "Средняя кнопка"
 #, kde-format
 msgctxt "Emulated mouse button"
 msgid "No action"
-msgstr "Нет действия"
+msgstr "Не назначено"
 
 #. i18n: ectx: label, entry ($(TapAction)Button), group (parameters)
 #: src/kcm/xlib/touchpad.kcfg:30

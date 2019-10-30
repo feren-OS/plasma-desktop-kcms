@@ -1,142 +1,111 @@
 # translation of kcmstyle.po to Tajik
 # translation of kcmstyle.po to Тоҷикӣ
 # Copyright (C) 2004, 2005 Free Software Foundation, Inc.
-# Victor Ibragimov <youth_opportunities@tajikngo.org>, 2005.
 #
+# Victor Ibragimov <youth_opportunities@tajikngo.org>, 2005, 2019.
 msgid ""
 msgstr ""
 "Project-Id-Version: kcmstyle\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
-"PO-Revision-Date: 2010-01-29 22:23+0500\n"
+"POT-Creation-Date: 2019-10-19 08:02+0200\n"
+"PO-Revision-Date: 2019-09-16 17:39+0500\n"
 "Last-Translator: Victor Ibragimov <victor.ibragimov@gmail.com>\n"
-"Language-Team: Tajik\n"
+"Language-Team: English <kde-i18n-doc@kde.org>\n"
 "Language: tg\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.10\n"
+"X-Generator: Lokalize 19.04.3\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr ""
-"НПО \"Имкониятҳои ҷавонон\" ва Khujand Computer Technologies, Inc. USA, "
-"Роҷер Ковакс, Виктор Ибрагимов, Марина Колючева"
+msgstr "Victor Ibragimov"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr ""
-"youth_opportunities@tajikngo.org,,rkovacs@khujand.org,,MarinaKL@tajikngo.org"
+msgstr "victor.ibragimov@gmail.com"
 
-#: kcmstyle.cpp:173
-#, fuzzy, kde-format
-#| msgid ""
-#| "<h1>Style</h1>This module allows you to modify the visual appearance of "
-#| "user interface elements, such as the widget style and effects."
+#: kcmstyle.cpp:171
+#, kde-format
 msgid ""
 "This module allows you to modify the visual appearance of applications' user "
 "interface elements."
 msgstr ""
-"<h1>Стиль</h1>Этот модуль позволяет изменить визуальное отображение "
-"элементов интерфейса пользователя и настроить эффекты."
+
+#: kcmstyle.cpp:181
+#, kde-format
+msgid "Application Style"
+msgstr ""
 
 #: kcmstyle.cpp:183
-#, fuzzy, kde-format
-#| msgctxt "@title:tab"
-#| msgid "&Applications"
-msgid "Application Style"
-msgstr "&Барномаҳо"
+#, kde-format
+msgid "(c) 2002 Karol Szwed, Daniel Molkentin"
+msgstr ""
 
 #: kcmstyle.cpp:185
 #, kde-format
-msgid "(c) 2002 Karol Szwed, Daniel Molkentin"
-msgstr "(c) 2002 Карол Швэд, Даниэл Молкентин"
-
-#: kcmstyle.cpp:187
-#, kde-format
 msgid "Karol Szwed"
-msgstr "Karol Szwed"
+msgstr ""
 
-#: kcmstyle.cpp:188
+#: kcmstyle.cpp:186
 #, kde-format
 msgid "Daniel Molkentin"
-msgstr "Daniel Molkentin"
+msgstr ""
 
-#: kcmstyle.cpp:198
+#: kcmstyle.cpp:196
 #, kde-format
 msgid "Preview"
 msgstr "Пешнамоиш"
 
-#: kcmstyle.cpp:252 kcmstyle.cpp:263
+#: kcmstyle.cpp:250 kcmstyle.cpp:261
 #, kde-format
 msgid "There was an error loading the configuration dialog for this style."
-msgstr "Вақти пурборкардани танзими диалог барои ин услуб хато шуд."
+msgstr ""
 
-#: kcmstyle.cpp:254 kcmstyle.cpp:265
+#: kcmstyle.cpp:252 kcmstyle.cpp:263
 #, kde-format
 msgid "Unable to Load Dialog"
-msgstr "Диалогро ба кор дароварда натавонист"
+msgstr ""
 
-#: kcmstyle.cpp:488
+#: kcmstyle.cpp:479
 #, kde-format
 msgid "No description available."
-msgstr "Ягон тасвир надорад"
+msgstr ""
 
-#: kcmstyle.cpp:695
+#: kcmstyle.cpp:686
 #, kde-format
 msgid ""
 "This area shows a preview of the currently selected style without having to "
 "apply it to the whole desktop."
 msgstr ""
-"Это область показывает предварительный просмотр стиля без необходимости "
-"применить его ко всему рабочему столу."
 
-#: kcmstyle.cpp:697
+#: kcmstyle.cpp:688
 #, kde-format
 msgid ""
 "Here you can choose from a list of predefined widget styles (e.g. the way "
 "buttons are drawn) which may or may not be combined with a theme (additional "
 "information like a marble texture or a gradient)."
 msgstr ""
-"Здесь вы можете выбрать предопределенные стили графических элементов "
-"(например, способ отображения кнопок), которые дополнительно можно сочетать "
-"с темой (например, с мраморной текстурой или градиентом)."
 
-#: kcmstyle.cpp:701
-#, fuzzy, kde-format
-#| msgid ""
-#| "If you enable this option, KDE Applications will show small icons "
-#| "alongside some important buttons."
+#: kcmstyle.cpp:692
+#, kde-format
 msgid ""
 "If you enable this option, applications will show small icons alongside some "
 "important buttons."
 msgstr ""
-"Если включить этот параметр, приложения KDE будут показывать небольшие "
-"значки рядом с некоторыми важными кнопками."
 
-#: kcmstyle.cpp:703
-#, fuzzy, kde-format
-#| msgid ""
-#| "If you enable this option, KDE Applications will show small icons "
-#| "alongside some important buttons."
+#: kcmstyle.cpp:694
+#, kde-format
 msgid ""
 "If you enable this option, applications will show small icons alongside most "
 "menu items."
 msgstr ""
-"Если включить этот параметр, приложения KDE будут показывать небольшие "
-"значки рядом с некоторыми важными кнопками."
 
-#: kcmstyle.cpp:705
-#, fuzzy, kde-format
-#| msgid ""
-#| "<p><b>No Text:</b> Shows only icons on toolbar buttons. Best option for "
-#| "low resolutions.</p><p><b>Text Only: </b>Shows only text on toolbar "
-#| "buttons.</p><p><b>Text Beside Icons: </b> Shows icons and text on toolbar "
-#| "buttons. Text is aligned beside the icon.</p><b>Text Below Icons: </b> "
-#| "Shows icons and text on toolbar buttons. Text is aligned below the icon."
+#: kcmstyle.cpp:696
+#, kde-format
 msgid ""
 "<p><b>No text:</b> Shows only icons on toolbar buttons. Best option for low "
 "resolutions.</p><p><b>Text only: </b>Shows only text on toolbar buttons.</"
@@ -144,25 +113,17 @@ msgid ""
 "Text is aligned beside the icon.</p><b>Text below icons: </b> Shows icons "
 "and text on toolbar buttons. Text is aligned below the icon."
 msgstr ""
-"<p><b>Только значки:</b> Показывает на панели инструментов только значки. "
-"Очень удобно для дисплеев с низким разрешением. </p><p><b>Только текст:</b> "
-"Показывает на кнопках панели только текст.</p><p><b>Текст рядом со значками:"
-"</b> Показывает на кнопках панели инструментов и значки и текст, "
-"расположенный рядом с ними.</p><p><b>Текст под значками</b>Показывает на "
-"кнопках панели значки и кнопки, расположенные под ними.</p>"
 
-#: styleconfdialog.cpp:29
+#: styleconfdialog.cpp:33
 #, kde-format
 msgid "Configure %1"
 msgstr "Танзимоти %1"
 
 #. i18n: ectx: property (text), widget (QLabel, labelApplicationStyle)
 #: styleconfig.ui:20
-#, fuzzy, kde-format
-#| msgctxt "@title:tab"
-#| msgid "&Applications"
+#, kde-format
 msgid "Application style:"
-msgstr "&Барномаҳо"
+msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, pbConfigStyle)
 #: styleconfig.ui:45
@@ -172,17 +133,15 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, labelShowIcons)
 #: styleconfig.ui:61
-#, fuzzy, kde-format
-#| msgid "Show icons on buttons:"
+#, kde-format
 msgid "Show icons:"
-msgstr "Показывать значки на кнопках"
+msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, labelToolbarIcons)
 #: styleconfig.ui:68
-#, fuzzy, kde-format
-#| msgid "Main toolbar text:"
+#, kde-format
 msgid "Main toolbar label:"
-msgstr "Основная панель инструментов:"
+msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, comboToolbarIcons)
 #. i18n: ectx: property (text), item, widget (QComboBox, comboSecondaryToolbarIcons)
@@ -194,40 +153,35 @@ msgstr ""
 #. i18n: ectx: property (text), item, widget (QComboBox, comboToolbarIcons)
 #. i18n: ectx: property (text), item, widget (QComboBox, comboSecondaryToolbarIcons)
 #: styleconfig.ui:84 styleconfig.ui:118
-#, fuzzy, kde-format
-#| msgid "Text Only"
+#, kde-format
 msgid "Text only"
-msgstr "Фақат матн"
+msgstr "Танҳо матн"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, comboToolbarIcons)
 #. i18n: ectx: property (text), item, widget (QComboBox, comboSecondaryToolbarIcons)
 #: styleconfig.ui:89 styleconfig.ui:123
-#, fuzzy, kde-format
-#| msgid "Text Beside Icons"
+#, kde-format
 msgid "Beside icons"
-msgstr "Текст за значками"
+msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, comboToolbarIcons)
 #. i18n: ectx: property (text), item, widget (QComboBox, comboSecondaryToolbarIcons)
 #: styleconfig.ui:94 styleconfig.ui:128
-#, fuzzy, kde-format
-#| msgid "Text Below Icons"
+#, kde-format
 msgid "Below icons"
-msgstr "Текст под значками"
+msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, labelSecondaryToolbarIcons)
 #: styleconfig.ui:102
-#, fuzzy, kde-format
-#| msgid "Secondary toolbar text:"
+#, kde-format
 msgid "Secondary toolbar label:"
-msgstr "Дополнительная панель инструментов:"
+msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, cbIconsOnButtons)
 #: styleconfig.ui:136
-#, fuzzy, kde-format
-#| msgid "Radio button"
+#, kde-format
 msgid "On buttons"
-msgstr "Кнопкаи Радио"
+msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, cbIconsInMenus)
 #: styleconfig.ui:146
@@ -239,37 +193,35 @@ msgstr ""
 #: stylepreview.ui:33
 #, kde-format
 msgid "Tab 1"
-msgstr "Монданҳои 1"
+msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, pushButton)
 #: stylepreview.ui:65
-#, fuzzy, kde-format
-#| msgid "Button"
+#, kde-format
 msgid "Push Button"
-msgstr "Кнопка"
+msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBox)
 #: stylepreview.ui:86
-#, fuzzy, kde-format
-#| msgid "Combobox"
+#, kde-format
 msgid "Combo box"
-msgstr "Рӯйхати зоҳирӣ"
+msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, checkBox)
 #: stylepreview.ui:96
 #, kde-format
 msgid "Checkbox"
-msgstr "Байрақ"
+msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, radioButton_2)
 #. i18n: ectx: property (text), widget (QRadioButton, radioButton_1)
 #: stylepreview.ui:106 stylepreview.ui:116
 #, kde-format
 msgid "Radio button"
-msgstr "Кнопкаи Радио"
+msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_2)
 #: stylepreview.ui:133
 #, kde-format
 msgid "Tab 2"
-msgstr "Монданҳои 2"
+msgstr ""

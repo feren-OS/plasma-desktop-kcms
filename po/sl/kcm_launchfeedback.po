@@ -1,7 +1,7 @@
 # Translation of kcmlaunch.po to Slovenian
 # SLOVENIAN TRANSLATION OF K DESKTOP ENVIRONMENT.
 # Copyright (C) 2001, 2003 Free Software Foundation, Inc.
-# $Id: kcm_launchfeedback.po 1542253 2019-05-20 06:55:29Z scripty $
+# $Id: kcm_launchfeedback.po 1554198 2019-10-22 06:25:51Z scripty $
 # $Source$
 #
 # Andrej Vernekar <andrej.vernekar@moj.net>, 2001.
@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmlaunch\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"POT-Creation-Date: 2019-10-22 07:36+0200\n"
 "PO-Revision-Date: 2013-06-16 16:37+0200\n"
 "Last-Translator: Andrej Mernik <andrejm@ubuntu.si>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
@@ -88,7 +88,7 @@ msgstr "Omogoči obves&tilo v opravilni vrstici"
 msgid "Stop animation after:"
 msgstr "Ča&sovni pretek obvestila o zagonu:"
 
-#: package/contents/ui/main.qml:113
+#: package/contents/ui/main.qml:114
 #, fuzzy, kde-format
 #| msgid " sec"
 msgid "%1 sec"

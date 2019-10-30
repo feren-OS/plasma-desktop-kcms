@@ -1,4 +1,5 @@
 [Desktop Entry]
+Exec=kcmshell5 activities
 Icon=preferences-desktop-activities
 Type=Service
 X-KDE-ServiceTypes=KCModule
@@ -61,6 +62,7 @@ Name[sr@ijekavian]=активности
 Name[sr@ijekavianlatin]=aktivnosti
 Name[sr@latin]=aktivnosti
 Name[sv]=Aktiviteter
+Name[tg]=Фаъолиятҳо
 Name[tr]=Etkinlikler
 Name[ug]=پائالىيەتلەر
 Name[uk]=Простори дій
@@ -88,6 +90,7 @@ Comment[id]=Activities membantu Anda untuk fokus pada tugas yang khusus
 Comment[it]=Le attività ti aiutano a concentrarti su un compito specifico
 Comment[ja]=アクティビティは一つの作業に集中する手助けをします
 Comment[ko]=활동을 사용하면 개별 작업에 집중할 수 있습니다
+Comment[lt]=Veiklos padeda jums susitelkti ties tam tikra užduotimi
 Comment[nl]=Activiteiten helpen u om u te focussen op een specifieke taak
 Comment[nn]=Aktivitetar hjelper deg å fokusera på oppgåver
 Comment[pa]=ਖਾਸ ਕੰਮ ਉੱਤੇ ਧਿਆਨ ਲਗਾਉਣ ਲਈ ਮਦਦ ਵਾਸਤੇ ਸਰਗਰਮੀਆਂ

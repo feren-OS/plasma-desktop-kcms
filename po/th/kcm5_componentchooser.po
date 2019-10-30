@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmcomponentchooser\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"POT-Creation-Date: 2019-09-18 03:38+0200\n"
 "PO-Revision-Date: 2010-02-27 23:08+0700\n"
 "Last-Translator: Thanomsub Noppaburana <donga.nb@gmail.com>\n"
 "Language-Team: Thai <thai-l10n@googlegroups.com>\n"
@@ -65,19 +65,19 @@ msgstr "ในเบราว์เซอร์ต่อไปนี้:"
 msgid "..."
 msgstr "..."
 
-#: componentchooser.cpp:134
+#: componentchooser.cpp:133
 #, kde-format
 msgid "Unknown"
 msgstr "ไม่รู้จัก"
 
-#: componentchooser.cpp:151
+#: componentchooser.cpp:150
 #, kde-format
 msgid ""
 "Choose from the list below which component should be used by default for the "
 "%1 service."
 msgstr "เลือกส่วนประกอบปริยายที่ควรใช้กับบริการ %1 จากรายการด้านล่างนี้"
 
-#: componentchooser.cpp:183
+#: componentchooser.cpp:182
 #, kde-format
 msgid ""
 "<qt>You changed the default component of your choice, do want to save that "
@@ -86,7 +86,7 @@ msgstr ""
 "<qt>คุณได้แก้ไขค่าส่วนประกอบปริยายเป็นตามการเลือกของคุณเอง "
 "ต้องการจะบันทึกการเปลี่ยนแปลงเดี๋ยวนี้หรือไม่ ?</qt>"
 
-#: componentchooser.cpp:188
+#: componentchooser.cpp:187
 #, kde-format
 msgid "No description available"
 msgstr "ไม่มีคำอธิบายอยู่"
@@ -151,7 +151,7 @@ msgstr "เลือกเว็บเบราว์เซอร์ที่ค
 msgid "Select preferred email client:"
 msgstr "เลือกโปรแกรมรับส่งอีเมลที่ควรใช้:"
 
-#: componentchooserterminal.cpp:104
+#: componentchooserterminal.cpp:102
 #, kde-format
 msgid "Select preferred terminal application:"
 msgstr "เลือกโปรแกรมเทอร์มินัลที่ควรใช้:"

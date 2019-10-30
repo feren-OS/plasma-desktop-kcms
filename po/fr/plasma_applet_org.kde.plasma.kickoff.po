@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-06-23 07:22+0200\n"
+"POT-Creation-Date: 2019-09-27 07:54+0200\n"
 "PO-Revision-Date: 2019-04-25 18:20+0800\n"
 "Last-Translator: Simon Depiets <sdepiets@gmail.com>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
@@ -33,7 +33,7 @@ msgstr "Général"
 msgid "All Applications"
 msgstr "Les Applications"
 
-#: package/contents/ui/ApplicationsView.qml:270
+#: package/contents/ui/ApplicationsView.qml:273
 #, kde-format
 msgid "Applications updated."
 msgstr "Applications mises à jour."
@@ -54,104 +54,106 @@ msgid "On All Activities"
 msgstr "Sur toutes les activités"
 
 #: package/contents/ui/code/tools.js:133
-#, kde-format
-msgid "On The Current Activity"
+#, fuzzy, kde-format
+#| msgid "On The Current Activity"
+msgid "On the Current Activity"
 msgstr "Sur l'activité courante"
 
 #: package/contents/ui/code/tools.js:147
-#, kde-format
-msgid "Show In Favorites"
+#, fuzzy, kde-format
+#| msgid "Show In Favorites"
+msgid "Show in Favorites"
 msgstr "Afficher dans les favoris"
 
 #: package/contents/ui/ConfigButtons.qml:36
-#: package/contents/ui/FullRepresentation.qml:754
+#: package/contents/ui/FullRepresentation.qml:717
 #, kde-format
 msgid "Favorites"
 msgstr "Favoris"
 
 #: package/contents/ui/ConfigButtons.qml:37
-#: package/contents/ui/FullRepresentation.qml:756
+#: package/contents/ui/FullRepresentation.qml:719
 #, kde-format
 msgid "Applications"
 msgstr "Applications"
 
 #: package/contents/ui/ConfigButtons.qml:38
-#: package/contents/ui/FullRepresentation.qml:758
+#: package/contents/ui/FullRepresentation.qml:721
 #, kde-format
 msgid "Computer"
 msgstr "Ordinateur"
 
 #: package/contents/ui/ConfigButtons.qml:39
-#: package/contents/ui/FullRepresentation.qml:760
+#: package/contents/ui/FullRepresentation.qml:723
 #, kde-format
 msgid "History"
 msgstr "Historique"
 
 #: package/contents/ui/ConfigButtons.qml:40
-#: package/contents/ui/FullRepresentation.qml:762
+#: package/contents/ui/FullRepresentation.qml:725
 #, kde-format
 msgid "Often Used"
 msgstr "Utilisé couramment"
 
 #: package/contents/ui/ConfigButtons.qml:41
-#: package/contents/ui/FullRepresentation.qml:764
+#: package/contents/ui/FullRepresentation.qml:727
 #, kde-format
 msgid "Leave"
 msgstr "Quitter"
 
-#: package/contents/ui/ConfigButtons.qml:215
+#: package/contents/ui/ConfigButtons.qml:214
 #, kde-format
 msgid "Active Tabs"
 msgstr "Onglets actifs"
 
-#: package/contents/ui/ConfigButtons.qml:221
+#: package/contents/ui/ConfigButtons.qml:222
 #, kde-format
 msgid "Inactive Tabs"
 msgstr "Onglets inactifs"
 
-#: package/contents/ui/ConfigGeneral.qml:41
+#: package/contents/ui/ConfigGeneral.qml:40
 #, kde-format
 msgid "Icon:"
 msgstr "Icône :"
 
-#: package/contents/ui/ConfigGeneral.qml:76
+#: package/contents/ui/ConfigGeneral.qml:75
 #, kde-format
 msgctxt "@item:inmenu Open icon chooser dialog"
 msgid "Choose..."
 msgstr "Sélectionner…"
 
-#: package/contents/ui/ConfigGeneral.qml:81
+#: package/contents/ui/ConfigGeneral.qml:80
 #, kde-format
 msgctxt "@item:inmenu Reset icon to default"
 msgid "Clear Icon"
 msgstr "Réinitialiser l'icône"
 
-#: package/contents/ui/ConfigGeneral.qml:95
+#: package/contents/ui/ConfigGeneral.qml:94
 #, kde-format
 msgid "General:"
 msgstr "Général :"
 
-#: package/contents/ui/ConfigGeneral.qml:97
+#: package/contents/ui/ConfigGeneral.qml:96
 #, kde-format
 msgid "Switch tabs on hover"
 msgstr "Changer d'onglet au survol"
 
-#: package/contents/ui/ConfigGeneral.qml:102
+#: package/contents/ui/ConfigGeneral.qml:101
 #, kde-format
 msgid "Show applications by name"
 msgstr "Afficher les applications par nom"
 
-#: package/contents/ui/ConfigGeneral.qml:107
+#: package/contents/ui/ConfigGeneral.qml:106
 #, kde-format
 msgid "Expand search to bookmarks, files and emails"
 msgstr "Étendre la recherche aux signets, aux fichiers et aux courriels"
 
-#: package/contents/ui/ConfigGeneral.qml:112
+#: package/contents/ui/ConfigGeneral.qml:111
 #, kde-format
 msgid "Sort alphabetically"
 msgstr "Trier par ordre alphabétique"
 
-#: package/contents/ui/ConfigGeneral.qml:126
+#: package/contents/ui/ConfigGeneral.qml:121
 #, kde-format
 msgid ""
 "Drag tabs between the boxes to show/hide them, or reorder the visible tabs "

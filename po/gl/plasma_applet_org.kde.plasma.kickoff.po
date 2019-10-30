@@ -1,26 +1,23 @@
 # Copyright (C) YEAR This_file_is_part_of_KDE
 # This file is distributed under the same license as the PACKAGE package.
-#
 # Marce Villarino <mvillarino@kde-espana.org>, 2013, 2014.
 # Adrián Chaves Fernández <adriyetichaves@gmail.com>, 2015, 2016.
 # Adrián Chaves (Gallaecio) <adrian@chaves.io>, 2017, 2018, 2019.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-06-23 07:22+0200\n"
-"PO-Revision-Date: 2019-05-28 21:39+0200\n"
+"POT-Creation-Date: 2019-09-27 07:54+0200\n"
+"PO-Revision-Date: 2019-10-19 21:49+0200\n"
 "Last-Translator: Adrián Chaves (Gallaecio) <adrian@chaves.io>\n"
-"Language-Team: Galician <kde-i18n-doc@kde.org>\n"
+"Language-Team: Galician <proxecto@trasno.gal>\n"
 "Language: gl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 19.04.1\n"
-"X-Environment: kde\n"
-"X-Accelerator-Marker: &\n"
-"X-Text-Markup: kde4\n"
+"X-Generator: Lokalize 19.11.70\n"
 
 #: package/contents/config/config.qml:25
 #, kde-format
@@ -30,12 +27,12 @@ msgstr "Xeral"
 #: package/contents/ui/ApplicationsView.qml:121
 #, kde-format
 msgid "All Applications"
-msgstr "Todos os aplicativos"
+msgstr "Todas as aplicacións"
 
-#: package/contents/ui/ApplicationsView.qml:270
+#: package/contents/ui/ApplicationsView.qml:273
 #, kde-format
 msgid "Applications updated."
-msgstr "Actualizáronse os aplicativos."
+msgstr "Actualizáronse as aplicacións."
 
 #: package/contents/ui/code/tools.js:55
 #, kde-format
@@ -54,103 +51,103 @@ msgstr "En todas as actividades"
 
 #: package/contents/ui/code/tools.js:133
 #, kde-format
-msgid "On The Current Activity"
+msgid "On the Current Activity"
 msgstr "Na actividade actual"
 
 #: package/contents/ui/code/tools.js:147
 #, kde-format
-msgid "Show In Favorites"
+msgid "Show in Favorites"
 msgstr "Mostrar nos favoritos"
 
 #: package/contents/ui/ConfigButtons.qml:36
-#: package/contents/ui/FullRepresentation.qml:754
+#: package/contents/ui/FullRepresentation.qml:717
 #, kde-format
 msgid "Favorites"
 msgstr "Favoritos"
 
 #: package/contents/ui/ConfigButtons.qml:37
-#: package/contents/ui/FullRepresentation.qml:756
+#: package/contents/ui/FullRepresentation.qml:719
 #, kde-format
 msgid "Applications"
-msgstr "Aplicativos"
+msgstr "Aplicacións"
 
 #: package/contents/ui/ConfigButtons.qml:38
-#: package/contents/ui/FullRepresentation.qml:758
+#: package/contents/ui/FullRepresentation.qml:721
 #, kde-format
 msgid "Computer"
 msgstr "Computador"
 
 #: package/contents/ui/ConfigButtons.qml:39
-#: package/contents/ui/FullRepresentation.qml:760
+#: package/contents/ui/FullRepresentation.qml:723
 #, kde-format
 msgid "History"
 msgstr "Historial"
 
 #: package/contents/ui/ConfigButtons.qml:40
-#: package/contents/ui/FullRepresentation.qml:762
+#: package/contents/ui/FullRepresentation.qml:725
 #, kde-format
 msgid "Often Used"
 msgstr "Usados habitualmente"
 
 #: package/contents/ui/ConfigButtons.qml:41
-#: package/contents/ui/FullRepresentation.qml:764
+#: package/contents/ui/FullRepresentation.qml:727
 #, kde-format
 msgid "Leave"
 msgstr "Saír"
 
-#: package/contents/ui/ConfigButtons.qml:215
+#: package/contents/ui/ConfigButtons.qml:214
 #, kde-format
 msgid "Active Tabs"
 msgstr "Lapelas activas"
 
-#: package/contents/ui/ConfigButtons.qml:221
+#: package/contents/ui/ConfigButtons.qml:222
 #, kde-format
 msgid "Inactive Tabs"
 msgstr "Lapelas inactivas"
 
-#: package/contents/ui/ConfigGeneral.qml:41
+#: package/contents/ui/ConfigGeneral.qml:40
 #, kde-format
 msgid "Icon:"
 msgstr "Icona:"
 
-#: package/contents/ui/ConfigGeneral.qml:76
+#: package/contents/ui/ConfigGeneral.qml:75
 #, kde-format
 msgctxt "@item:inmenu Open icon chooser dialog"
 msgid "Choose..."
 msgstr "Escoller…"
 
-#: package/contents/ui/ConfigGeneral.qml:81
+#: package/contents/ui/ConfigGeneral.qml:80
 #, kde-format
 msgctxt "@item:inmenu Reset icon to default"
 msgid "Clear Icon"
 msgstr "Borrar a icona"
 
-#: package/contents/ui/ConfigGeneral.qml:95
+#: package/contents/ui/ConfigGeneral.qml:94
 #, kde-format
 msgid "General:"
 msgstr "Xeral:"
 
-#: package/contents/ui/ConfigGeneral.qml:97
+#: package/contents/ui/ConfigGeneral.qml:96
 #, kde-format
 msgid "Switch tabs on hover"
 msgstr "Pasar á lapela baixo o rato"
 
-#: package/contents/ui/ConfigGeneral.qml:102
+#: package/contents/ui/ConfigGeneral.qml:101
 #, kde-format
 msgid "Show applications by name"
-msgstr "Mostrar o nome dos aplicativos"
+msgstr "Mostrar o nome das aplicacións"
 
-#: package/contents/ui/ConfigGeneral.qml:107
+#: package/contents/ui/ConfigGeneral.qml:106
 #, kde-format
 msgid "Expand search to bookmarks, files and emails"
 msgstr "Incluír na busca marcadores, ficheiros e correos"
 
-#: package/contents/ui/ConfigGeneral.qml:112
+#: package/contents/ui/ConfigGeneral.qml:111
 #, kde-format
 msgid "Sort alphabetically"
 msgstr "Ordenar alfabeticamente"
 
-#: package/contents/ui/ConfigGeneral.qml:126
+#: package/contents/ui/ConfigGeneral.qml:121
 #, kde-format
 msgid ""
 "Drag tabs between the boxes to show/hide them, or reorder the visible tabs "
@@ -177,4 +174,4 @@ msgstr "Buscar…"
 #: package/contents/ui/Kickoff.qml:145
 #, kde-format
 msgid "Edit Applications..."
-msgstr "Editar os aplicativos…"
+msgstr "Editar as aplicacións…"

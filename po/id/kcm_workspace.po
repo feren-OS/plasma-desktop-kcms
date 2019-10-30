@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
-"PO-Revision-Date: 2019-01-18 19:21+0700\n"
+"POT-Creation-Date: 2019-08-02 03:11+0200\n"
+"PO-Revision-Date: 2019-08-07 19:32+0700\n"
 "Last-Translator: Wantoyo <wantoyek@gmail.com>\n"
 "Language-Team: Indonesian <kde-i18n-doc@kde.org>\n"
 "Language: id\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 19.04.2\n"
+"X-Generator: Lokalize 19.08.1\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -59,15 +59,13 @@ msgstr "Klik ganda untuk membuka file dan folder (klik tunggal untuk memilih)"
 
 #: workspaceoptions.cpp:40
 #, kde-format
-msgid "Plasma Workspace global options"
-msgstr "Opsi global Workspace Plasma"
+msgid "General Behavior"
+msgstr "Perilaku Umum"
 
 #: workspaceoptions.cpp:42
 #, kde-format
-msgid ""
-"System Settings module for managing global options for the Plasma Workspace."
-msgstr ""
-"Modul System Settings untuk mengelola opsi global terhadap Workspace Plasma."
+msgid "System Settings module for configuring general workspace behavior."
+msgstr "Modul System Settings untuk mengelola perilaku ruang-kerja umum."
 
 #: workspaceoptions.cpp:45
 #, kde-format

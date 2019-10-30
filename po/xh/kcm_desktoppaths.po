@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkonq\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"POT-Creation-Date: 2019-09-12 03:25+0200\n"
 "PO-Revision-Date: 2002-10-26 12:43SAST\n"
 "Last-Translator: Lwandle Mgidlana <lwandle@translate.org.za>\n"
 "Language-Team: Xhosa <xhosa@translate.org.za>\n"
@@ -25,7 +25,7 @@ msgstr ""
 "X-Generator: KBabel 1.0beta2\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
-#: globalpaths.cpp:113
+#: globalpaths.cpp:115
 #, fuzzy, kde-format
 msgid ""
 "<h1>Paths</h1>\n"
@@ -39,13 +39,13 @@ msgstr ""
 "Sebenzisa i \"Yintoni le?\" (Shift+F1) ukufumana uncedo kwiinketho "
 "ezikhankanyiweyo."
 
-#: globalpaths.cpp:118
+#: globalpaths.cpp:120
 #, fuzzy, kde-format
 #| msgid "Des&ktop path:"
 msgid "Desktop path:"
 msgstr "&Umendo we desktop:"
 
-#: globalpaths.cpp:119
+#: globalpaths.cpp:121
 #, fuzzy, kde-format
 msgid ""
 "This folder contains all the files which you see on your desktop. You can "
@@ -56,13 +56,13 @@ msgstr ""
 "tshintsha indawo yolu lawulo ukuba ufuna njalo, kwaye imixholo iza kuhamba "
 "ngokuzenzekela kwindawo entsha kwakhona."
 
-#: globalpaths.cpp:124
+#: globalpaths.cpp:126
 #, fuzzy, kde-format
 #| msgid "A&utostart path:"
 msgid "Autostart path:"
 msgstr "&Umendo wesiqalo esizenzekelayo:"
 
-#: globalpaths.cpp:125
+#: globalpaths.cpp:127
 #, fuzzy, kde-format
 msgid ""
 "This folder contains applications or links to applications (shortcuts) that "
@@ -75,13 +75,13 @@ msgstr ""
 "Ungatshintsha indawo yolulawulo ukuba ufuna njalo, kwaye imixholo iza "
 "kuhamba ngokuzenzekela kwindawo entsha."
 
-#: globalpaths.cpp:131
+#: globalpaths.cpp:133
 #, fuzzy, kde-format
 #| msgid "D&ocuments path:"
 msgid "Documents path:"
 msgstr "&Umendo wamaxwebhu:"
 
-#: globalpaths.cpp:132
+#: globalpaths.cpp:134
 #, fuzzy, kde-format
 msgid ""
 "This folder will be used by default to load or save documents from or to."
@@ -89,39 +89,39 @@ msgstr ""
 "Lo mlawuli uzakusetyenziswa kokungagqibekanga ukulayisha okanye ukugcina "
 "amaxwebhu ukusuka okanye ukuya."
 
-#: globalpaths.cpp:135
+#: globalpaths.cpp:137
 #, fuzzy, kde-format
 #| msgid "D&ocuments path:"
 msgid "Downloads path:"
 msgstr "&Umendo wamaxwebhu:"
 
-#: globalpaths.cpp:136
+#: globalpaths.cpp:138
 #, fuzzy, kde-format
 msgid "This folder will be used by default to save your downloaded items."
 msgstr ""
 "Lo mlawuli uzakusetyenziswa kokungagqibekanga ukulayisha okanye ukugcina "
 "amaxwebhu ukusuka okanye ukuya."
 
-#: globalpaths.cpp:139
+#: globalpaths.cpp:141
 #, fuzzy, kde-format
 #| msgid "D&ocuments path:"
 msgid "Movies path:"
 msgstr "&Umendo wamaxwebhu:"
 
-#: globalpaths.cpp:140
+#: globalpaths.cpp:142
 #, fuzzy, kde-format
 msgid "This folder will be used by default to load or save movies from or to."
 msgstr ""
 "Lo mlawuli uzakusetyenziswa kokungagqibekanga ukulayisha okanye ukugcina "
 "amaxwebhu ukusuka okanye ukuya."
 
-#: globalpaths.cpp:143
+#: globalpaths.cpp:145
 #, fuzzy, kde-format
 #| msgid "D&ocuments path:"
 msgid "Pictures path:"
 msgstr "&Umendo wamaxwebhu:"
 
-#: globalpaths.cpp:144
+#: globalpaths.cpp:146
 #, fuzzy, kde-format
 msgid ""
 "This folder will be used by default to load or save pictures from or to."
@@ -129,59 +129,59 @@ msgstr ""
 "Lo mlawuli uzakusetyenziswa kokungagqibekanga ukulayisha okanye ukugcina "
 "amaxwebhu ukusuka okanye ukuya."
 
-#: globalpaths.cpp:147
+#: globalpaths.cpp:149
 #, fuzzy, kde-format
 #| msgid "D&ocuments path:"
 msgid "Music path:"
 msgstr "&Umendo wamaxwebhu:"
 
-#: globalpaths.cpp:148
+#: globalpaths.cpp:150
 #, fuzzy, kde-format
 msgid "This folder will be used by default to load or save music from or to."
 msgstr ""
 "Lo mlawuli uzakusetyenziswa kokungagqibekanga ukulayisha okanye ukugcina "
 "amaxwebhu ukusuka okanye ukuya."
 
-#: globalpaths.cpp:277 globalpaths.cpp:295
+#: globalpaths.cpp:279 globalpaths.cpp:297
 #, kde-format
 msgid "Autostart"
 msgstr "Isiqalo esizenzekelayo"
 
-#: globalpaths.cpp:281
+#: globalpaths.cpp:283
 #, kde-format
 msgid "Desktop"
 msgstr "Desktop"
 
-#: globalpaths.cpp:305
+#: globalpaths.cpp:307
 #, fuzzy, kde-format
 #| msgid "D&ocuments path:"
 msgid "Documents"
 msgstr "&Umendo wamaxwebhu:"
 
-#: globalpaths.cpp:308
+#: globalpaths.cpp:310
 #, fuzzy, kde-format
 #| msgid "D&ocuments path:"
 msgid "Downloads"
 msgstr "&Umendo wamaxwebhu:"
 
-#: globalpaths.cpp:311
+#: globalpaths.cpp:313
 #, fuzzy, kde-format
 #| msgid "D&ocuments path:"
 msgid "Movies"
 msgstr "&Umendo wamaxwebhu:"
 
-#: globalpaths.cpp:314
+#: globalpaths.cpp:316
 #, fuzzy, kde-format
 #| msgid "D&ocuments path:"
 msgid "Pictures"
 msgstr "&Umendo wamaxwebhu:"
 
-#: globalpaths.cpp:317
+#: globalpaths.cpp:319
 #, kde-format
 msgid "Music"
 msgstr ""
 
-#: globalpaths.cpp:376
+#: globalpaths.cpp:378
 #, fuzzy, kde-format
 msgid ""
 "The path for '%1' has been changed.\n"
@@ -190,19 +190,19 @@ msgstr ""
 "Umendo we '%1' utshintshiwe.\n"
 "Ufuna ukuya kwiifayile ukusuka ku '%2' ukuya ku '%3'?"
 
-#: globalpaths.cpp:379
+#: globalpaths.cpp:381
 #, kde-format
 msgctxt "Move files from old to new place"
 msgid "Move"
 msgstr ""
 
-#: globalpaths.cpp:380
+#: globalpaths.cpp:382
 #, kde-format
 msgctxt "Use the new directory but do not move files"
 msgid "Do not Move"
 msgstr ""
 
-#: globalpaths.cpp:382
+#: globalpaths.cpp:384
 #, fuzzy, kde-format
 msgid ""
 "The path for '%1' has been changed.\n"
@@ -211,19 +211,19 @@ msgstr ""
 "Umendo we '%1' utshintshiwe.\n"
 "Ufuna ukuya kwiifayile ukusuka ku '%2' ukuya ku '%3'?"
 
-#: globalpaths.cpp:385
+#: globalpaths.cpp:387
 #, kde-format
 msgctxt "Move the directory"
 msgid "Move"
 msgstr ""
 
-#: globalpaths.cpp:386
+#: globalpaths.cpp:388
 #, kde-format
 msgctxt "Use the new directory but do not move anything"
 msgid "Do not Move"
 msgstr ""
 
-#: globalpaths.cpp:390
+#: globalpaths.cpp:392
 #, fuzzy, kde-format
 msgid "Confirmation Required"
 msgstr "Uqinisekiso luyafuneka"

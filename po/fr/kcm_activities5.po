@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"POT-Creation-Date: 2019-08-28 03:26+0200\n"
 "PO-Revision-Date: 2018-02-26 10:32+0800\n"
 "Last-Translator: Simon Depiets <sdepiets@gmail.com>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
@@ -38,7 +38,7 @@ msgstr "Supprimer l'activité"
 msgid "Are you sure you want to delete '%1'?"
 msgstr "Voulez-vous vraiment supprimer « %1 » ?"
 
-#: imports/dialog.cpp:94
+#: imports/dialog.cpp:88
 #, kde-format
 msgid ""
 "Error loading the QML files. Check your installation.\n"
@@ -48,58 +48,36 @@ msgstr ""
 "installation.\n"
 "Fichier %1 manquant"
 
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#: imports/dialog.cpp:158 ui/SwitchingTabBase.ui:17
+#: imports/dialog.cpp:152
 #, kde-format
 msgid "General"
 msgstr "Général"
 
-#: imports/dialog.cpp:159
-#, kde-format
-msgid "Other"
-msgstr "Autre"
-
-#: imports/dialog.cpp:176
+#: imports/dialog.cpp:169
 #, kde-format
 msgctxt "@title:window"
 msgid "Create a New Activity"
 msgstr "Créer une nouvelle activité"
 
-#: imports/dialog.cpp:177
+#: imports/dialog.cpp:170
 #, kde-format
 msgctxt "@title:window"
 msgid "Activity Settings"
 msgstr "Paramètres des activités"
 
-#: imports/dialog.cpp:180
+#: imports/dialog.cpp:173
 #, kde-format
 msgctxt "@action:button"
 msgid "Create"
 msgstr "Créer"
 
-#: imports/qml/activityDialog/components/DialogButtons.qml:44
-#, kde-format
-msgctxt "@action:button"
-msgid "Apply"
-msgstr "Appliquer"
+#: imports/qml/activityDialog/GeneralTab.qml:54
+#, fuzzy, kde-format
+#| msgid "Icon"
+msgid "Icon:"
+msgstr "Icône"
 
-#: imports/qml/activityDialog/components/DialogButtons.qml:53
-#, kde-format
-msgctxt "@action:button"
-msgid "Cancel"
-msgstr "Annuler"
-
-#: imports/qml/activityDialog/components/ShortcutChooser.qml:36
-#, kde-format
-msgid "Shortcut for switching to this activity:"
-msgstr "Raccourci pour basculer vers cette activité : "
-
-#: imports/qml/activityDialog/GeneralTab.qml:58
-#, kde-format
-msgid "Activity information"
-msgstr "Informations de l'activité"
-
-#: imports/qml/activityDialog/GeneralTab.qml:66
+#: imports/qml/activityDialog/GeneralTab.qml:68
 #, kde-format
 msgid "Name:"
 msgstr "Nom :"
@@ -109,26 +87,23 @@ msgstr "Nom :"
 msgid "Description:"
 msgstr "Description :"
 
-#: imports/qml/activityDialog/GeneralTab.qml:99
-#, kde-format
-msgid "Wallpaper"
-msgstr "Fond d'écran"
+#: imports/qml/activityDialog/GeneralTab.qml:82
+#, fuzzy, kde-format
+#| msgid "Privacy"
+msgid "Privacy:"
+msgstr "Vie privée"
 
-#: imports/qml/activityDialog/GeneralTab.qml:105
-#, kde-format
-msgctxt "@action:button"
-msgid "Change..."
-msgstr "Modifier…"
-
-#: imports/qml/activityDialog/GeneralTab.qml:138
-#, kde-format
-msgid "Icon"
-msgstr "Icône"
-
-#: imports/qml/activityDialog/OtherTab.qml:44
-#, kde-format
-msgid "Private - do not track usage for this activity"
+#: imports/qml/activityDialog/GeneralTab.qml:83
+#, fuzzy, kde-format
+#| msgid "Private - do not track usage for this activity"
+msgid "Do not track usage for this activity"
 msgstr "Privé - ne pas conserver d'historique pour cette activité"
+
+#: imports/qml/activityDialog/GeneralTab.qml:88
+#, fuzzy, kde-format
+#| msgid "Shortcut for switching to this activity:"
+msgid "Shortcut for switching:"
+msgstr "Raccourci pour basculer vers cette activité : "
 
 #: MainConfigurationWidget.cpp:47
 #, kde-format
@@ -140,33 +115,35 @@ msgstr "Basculer"
 msgid "Privacy"
 msgstr "Vie privée"
 
-#: PrivacyTab.cpp:74
-#, kde-format
+#: PrivacyTab.cpp:75
+#, fuzzy, kde-format
+#| msgctxt "unlimited number of months"
+#| msgid "forever"
 msgctxt "unlimited number of months"
-msgid "forever"
+msgid "Forever"
 msgstr "Illimité"
 
-#: PrivacyTab.cpp:84
+#: PrivacyTab.cpp:85
 #, kde-format
 msgid "Forget the last hour"
 msgstr "Effacer la dernière heure"
 
-#: PrivacyTab.cpp:86
+#: PrivacyTab.cpp:87
 #, kde-format
 msgid "Forget the last two hours"
 msgstr "Effacer les deux dernières heures"
 
-#: PrivacyTab.cpp:88
+#: PrivacyTab.cpp:89
 #, kde-format
 msgid "Forget a day"
 msgstr "Effacer la dernière journée"
 
-#: PrivacyTab.cpp:90
+#: PrivacyTab.cpp:91
 #, kde-format
 msgid "Forget everything"
 msgstr "Effacer tout"
 
-#: PrivacyTab.cpp:218
+#: PrivacyTab.cpp:223
 #, kde-format
 msgctxt "unit of time. months to keep the history"
 msgid " month"
@@ -174,15 +151,30 @@ msgid_plural " months"
 msgstr[0] " mois"
 msgstr[1] " mois"
 
-#: PrivacyTab.cpp:222
+#: PrivacyTab.cpp:227
 #, kde-format
 msgctxt "for in 'keep history for 5 months'"
-msgid "for "
-msgstr "pour "
+msgid "For "
+msgstr ""
 
-#: qml/activitiesTab/ActivitiesView.qml:37
+#: qml/activitiesTab/ActivitiesView.qml:66
 #, kde-format
-msgid "Create activity..."
+msgctxt "@info:tooltip"
+msgid "Configure %1 activity"
+msgstr ""
+
+#: qml/activitiesTab/ActivitiesView.qml:73
+#, fuzzy, kde-format
+#| msgctxt "@title:window"
+#| msgid "Delete Activity"
+msgctxt "@info:tooltip"
+msgid "Delete %1 activity"
+msgstr "Supprimer l'activité"
+
+#: qml/activitiesTab/ActivitiesView.qml:84
+#, fuzzy, kde-format
+#| msgid "Create activity..."
+msgid "Create New..."
 msgstr "Créer une activité..."
 
 #: SwitchingTab.cpp:65
@@ -202,58 +194,78 @@ msgctxt "@action"
 msgid "Walk through activities (Reverse)"
 msgstr "Parcourir les activités (inversé)"
 
-#. i18n: ectx: property (text), widget (QLabel, labelRememberDocuments)
+#. i18n: ectx: property (text), widget (KMessageWidget, messageWidget)
 #: ui/PrivacyTabBase.ui:17
+#, fuzzy, kde-format
+#| msgid "Clear recent history"
+msgid "Cleared the activity history."
+msgstr "Effacer l'historique récent"
+
+#. i18n: ectx: property (text), widget (QLabel, labelRememberDocuments)
+#: ui/PrivacyTabBase.ui:36
 #, kde-format
 msgid "Remember opened documents:"
 msgstr "Se souvenir des documents ouverts : "
 
 #. i18n: ectx: property (text), widget (QRadioButton, radioRememberAllApplications)
-#: ui/PrivacyTabBase.ui:28
+#: ui/PrivacyTabBase.ui:43
 #, kde-format
 msgid "For a&ll applications"
 msgstr "Pour toutes les app&lications"
 
 #. i18n: ectx: property (text), widget (QRadioButton, radioDontRememberApplications)
-#: ui/PrivacyTabBase.ui:38
+#: ui/PrivacyTabBase.ui:53
 #, kde-format
 msgid "&Do not remember"
 msgstr "Ne &pas se souvenir"
 
 #. i18n: ectx: property (text), widget (QRadioButton, radioRememberSpecificApplications)
-#: ui/PrivacyTabBase.ui:45
-#, kde-format
-msgid "O&nly for specific applications"
+#: ui/PrivacyTabBase.ui:60
+#, fuzzy, kde-format
+#| msgid "O&nly for specific applications"
+msgid "O&nly for specific applications:"
 msgstr "U&niquement pour des applications spécifiques"
 
-#. i18n: ectx: property (text), widget (QLabel, labelKeepHistory)
-#: ui/PrivacyTabBase.ui:67
-#, kde-format
-msgid "Keep history"
-msgstr "Conserver l'historique"
-
 #. i18n: ectx: property (text), widget (QPushButton, buttonClearRecentHistory)
-#: ui/PrivacyTabBase.ui:93
-#, kde-format
-msgid "Clear recent history"
+#: ui/PrivacyTabBase.ui:72
+#, fuzzy, kde-format
+#| msgid "Clear recent history"
+msgid "Clear History"
 msgstr "Effacer l'historique récent"
 
+#. i18n: ectx: property (text), widget (QLabel, labelKeepHistory)
+#: ui/PrivacyTabBase.ui:85
+#, fuzzy, kde-format
+#| msgid "Keep history"
+msgid "Keep history:"
+msgstr "Conserver l'historique"
+
 #. i18n: ectx: property (text), widget (QCheckBox, checkBlacklistAllNotOnList)
-#: ui/PrivacyTabBase.ui:112
-#, kde-format
-msgid "Blacklist all applications not on this list"
+#: ui/PrivacyTabBase.ui:109
+#, fuzzy, kde-format
+#| msgid "Blacklist all applications not on this list"
+msgid "Blacklist applications not on the list"
 msgstr "Mettre toutes ces applications sur liste noire"
 
 #. i18n: ectx: property (text), widget (QCheckBox, checkRememberVirtualDesktop)
-#: ui/SwitchingTabBase.ui:23
-#, kde-format
-msgid "Remember the current virtual desktop for each activity (needs restart)"
+#: ui/SwitchingTabBase.ui:22
+#, fuzzy, kde-format
+#| msgid ""
+#| "Remember the current virtual desktop for each activity (needs restart)"
+msgid "Remember for each activity (needs restart)"
 msgstr ""
 "Se souvenir du bureau virtuel courant pour chaque activité (nécessite un "
 "redémarrage)"
 
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: ui/SwitchingTabBase.ui:33
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: ui/SwitchingTabBase.ui:29
 #, kde-format
-msgid "Shortcuts"
+msgid "Current virtual desktop:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_1)
+#: ui/SwitchingTabBase.ui:38
+#, fuzzy, kde-format
+#| msgid "Shortcuts"
+msgid "Shortcuts:"
 msgstr "Raccourcis"

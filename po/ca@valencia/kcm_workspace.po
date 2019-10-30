@@ -2,14 +2,15 @@
 # Copyright (C) 2014-2018 This_file_is_part_of_KDE
 # This file is distributed under the license LGPL version 2.1 or
 # version 3 or later versions approved by the membership of KDE e.V.
+# or the same license as the source of its messages in English.
 #
 # Josep Ma. Ferrer <txemaq@gmail.com>, 2014, 2017, 2018.
 msgid ""
 msgstr ""
 "Project-Id-Version: kcm_workspace\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
-"PO-Revision-Date: 2018-05-22 20:26+0100\n"
+"POT-Creation-Date: 2019-08-02 03:11+0200\n"
+"PO-Revision-Date: 2019-06-28 08:12+0200\n"
 "Last-Translator: Josep Ma. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca@valencia\n"
@@ -18,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Accelerator-Marker: &\n"
-"X-Generator: Lokalize 2.0\n"
+"X-Generator: Poedit 2.0.6\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -43,7 +44,7 @@ msgstr "Mostra els consells informatius en passar-hi per sobre amb el ratolí"
 #: package/contents/ui/main.qml:45
 #, kde-format
 msgid "Display visual feedback for status changes"
-msgstr "Mostra retroalimentació visual pels canvis d'estat"
+msgstr "Mostra retroalimentació visual per als canvis d'estat"
 
 #: package/contents/ui/main.qml:64
 #, kde-format
@@ -53,25 +54,29 @@ msgstr "Comportament del clic:"
 #: package/contents/ui/main.qml:65
 #, kde-format
 msgid "Single-click to open files and folders"
-msgstr "Clic únic per obrir fitxers i carpetes"
+msgstr "Clic únic per a obrir fitxers i carpetes"
 
 #: package/contents/ui/main.qml:72
 #, kde-format
 msgid "Double-click to open files and folders (single click to select)"
-msgstr "Doble clic per obrir fitxers i carpetes (clic únic per seleccionar)"
+msgstr ""
+"Doble clic per a obrir fitxers i carpetes (clic únic per a seleccionar)"
 
 #: workspaceoptions.cpp:40
-#, kde-format
-msgid "Plasma Workspace global options"
-msgstr "Opcions globals de l'espai de treball del Plasma"
+#, fuzzy, kde-format
+#| msgid "Visual behavior:"
+msgid "General Behavior"
+msgstr "Comportament visual:"
 
 #: workspaceoptions.cpp:42
-#, kde-format
-msgid ""
-"System Settings module for managing global options for the Plasma Workspace."
+#, fuzzy, kde-format
+#| msgid ""
+#| "System Settings module for managing global options for the Plasma "
+#| "Workspace."
+msgid "System Settings module for configuring general workspace behavior."
 msgstr ""
-"Mòdul de l'Arranjament del sistema per gestionar les opcions globals de "
-"l'espai de treball del Plasma."
+"Mòdul de configuració del sistema per a gestionar les opcions globals de "
+"l'espai de treball de Plasma."
 
 #: workspaceoptions.cpp:45
 #, kde-format

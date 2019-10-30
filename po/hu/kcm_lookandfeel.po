@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-06-26 07:33+0200\n"
+"POT-Creation-Date: 2019-08-16 03:26+0200\n"
 "PO-Revision-Date: 2017-02-03 15:38+0100\n"
 "Last-Translator: Kiszel Kristóf <kiszel.kristof@gmail.com>\n"
 "Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
@@ -28,44 +28,44 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "ulysses@kubuntu.org"
 
-#: kcm.cpp:76
-#, fuzzy, kde-format
-#| msgid "Configure Look and Feel details"
-msgid "Look and Feel"
-msgstr "A megjelenés beállítása"
+#: kcm.cpp:72
+#, kde-format
+msgid "Global Theme"
+msgstr ""
 
-#: kcm.cpp:78 lnftool.cpp:43
+#: kcm.cpp:74 lnftool.cpp:43
 #, kde-format
 msgid "Marco Martin"
 msgstr "Marco Martin"
 
-#: kcm.cpp:112
+#: kcm.cpp:108
 #, fuzzy, kde-format
 #| msgid "Download New Look And Feel Packages"
-msgid "Download New Look and Feel Themes"
+msgid "Download New Global Themes"
 msgstr "Új megjelenési témák letöltése"
 
-#: kcm.cpp:572
+#: kcm.cpp:569
 #, fuzzy, kde-format
 #| msgid "You have to restart KDE for cursor changes to take effect."
 msgid ""
 "You have to restart the Plasma session for these changes to take effect."
 msgstr "A KDE-t újra kell indítani, hogy a kurzormódosítások érvényesüljenek."
 
-#: kcm.cpp:573
+#: kcm.cpp:570
 #, kde-format
 msgid "Cursor Settings Changed"
 msgstr "Az egérmutató beállításai megváltoztak"
 
 #: lnftool.cpp:42
-#, fuzzy, kde-format
-#| msgid "Configure Look and Feel details"
-msgid "Look and feel tool"
-msgstr "A megjelenés beállítása"
+#, kde-format
+msgid "Global Theme Tool"
+msgstr ""
 
 #: lnftool.cpp:42
 #, kde-format
-msgid "Command line tool to apply look and feel packages."
+msgid ""
+"Command line tool to apply global theme packages for changing the look and "
+"feel."
 msgstr ""
 
 #: lnftool.cpp:42
@@ -82,13 +82,13 @@ msgstr ""
 #: lnftool.cpp:52
 #, fuzzy, kde-format
 #| msgid "Download New Look And Feel Packages"
-msgid "List available Look and feel packages"
+msgid "List available global theme packages"
 msgstr "Új megjelenési témák letöltése"
 
 #: lnftool.cpp:54
 #, fuzzy, kde-format
 #| msgid "Download New Look And Feel Packages"
-msgid "Apply a look and feel package"
+msgid "Apply a global theme package"
 msgstr "Új megjelenési témák letöltése"
 
 #: lnftool.cpp:54
@@ -106,7 +106,7 @@ msgstr ""
 #| msgid ""
 #| "This module lets you configure the look of the whole workspace with some "
 #| "ready to go presets."
-msgid "This module lets you choose the Look and Feel theme."
+msgid "This module lets you choose the global look and feel."
 msgstr ""
 "Ez  a modul lehetővé teszi a teljes környezet megjelenésének beállítását "
 "néhány kész összeállítással."
@@ -137,5 +137,5 @@ msgstr "A téma asztali elrendezésének használata"
 #: package/contents/ui/main.qml:84
 #, fuzzy, kde-format
 #| msgid "Get New Looks..."
-msgid "Get New Look and Feel Themes..."
+msgid "Get New Global Themes..."
 msgstr "Új téma letöltése…"

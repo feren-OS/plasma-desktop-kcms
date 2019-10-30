@@ -2,16 +2,18 @@
 # Copyright (C) 2015-2019 This_file_is_part_of_KDE
 # This file is distributed under the license LGPL version 2.1 or
 # version 3 or later versions approved by the membership of KDE e.V.
+# or the same license as the source of its messages in English.
 #
 # Josep Ma. Ferrer <txemaq@gmail.com>, 2015, 2017, 2018, 2019.
 # Antoni Bella Pérez <antonibella5@yahoo.com>, 2017, 2018.
+# Alfredo vicente <alviboi@gmail.com>, 2019.
 msgid ""
 msgstr ""
 "Project-Id-Version: kcm_touchpad\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-06-20 07:49+0200\n"
-"PO-Revision-Date: 2019-05-15 20:07+0100\n"
-"Last-Translator: Josep Ma. Ferrer <txemaq@gmail.com>\n"
+"POT-Creation-Date: 2019-06-20 03:22+0200\n"
+"PO-Revision-Date: 2019-07-05 11:29+0200\n"
+"Last-Translator: Alfredo vicente <alviboi@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca@valencia\n"
 "MIME-Version: 1.0\n"
@@ -19,7 +21,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Accelerator-Marker: &\n"
-"X-Generator: Lokalize 2.0\n"
+"X-Generator: Lokalize 19.04.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -36,14 +38,14 @@ msgstr "txemaq@gmail.com"
 msgid "Querying input devices failed. Please reopen this settings module."
 msgstr ""
 "La consulta dels dispositius d'entrada ha fallat. Torneu a obrir aquest "
-"mòdul d'arranjament."
+"mòdul de configuració."
 
 #: src/backends/kwin_wayland/kwinwaylandbackend.cpp:92
 #, kde-format
 msgid "Critical error on reading fundamental device infos for touchpad %1."
 msgstr ""
-"Error crític en llegir la informació fonamental del dispositiu per al ratolí "
-"tàctil %1."
+"S'ha produït un error crític en llegir la informació fonamental del "
+"dispositiu per al ratolí tàctil %1."
 
 #: src/backends/x11/xlibbackend.cpp:88
 #, kde-format
@@ -99,7 +101,7 @@ msgstr "Desactiva en teclejar"
 #, kde-format
 msgid "Disable touchpad while typing to prevent accidental inputs."
 msgstr ""
-"Desactiva el ratolí tàctil en teclejar per evitar entrades accidentals."
+"Desactiva el ratolí tàctil en teclejar per a evitar entrades accidentals."
 
 #: src/kcm/libinput/touchpad.qml:174
 #, kde-format
@@ -116,7 +118,7 @@ msgstr "Intercanvia el botó esquerre i el dret."
 msgid "Press left and right buttons for middle click"
 msgstr "Premeu els botons esquerre i dret per al clic del mig"
 
-#: src/kcm/libinput/touchpad.qml:206 src/kcm/libinput/touchpad.qml:720
+#: src/kcm/libinput/touchpad.qml:206 src/kcm/libinput/touchpad.qml:721
 #, kde-format
 msgid ""
 "Clicking left and right button simultaneously sends middle button click."
@@ -127,7 +129,7 @@ msgstr ""
 #: src/kcm/libinput/touchpad.qml:237
 #, kde-format
 msgid "Pointer speed:"
-msgstr "Velocitat de l'apuntador:"
+msgstr "Velocitat del punter:"
 
 #: src/kcm/libinput/touchpad.qml:266
 #, kde-format
@@ -152,7 +154,8 @@ msgstr "Adaptatiu"
 #: src/kcm/libinput/touchpad.qml:315
 #, kde-format
 msgid "Cursor travel distance depends on movement speed of finger."
-msgstr "La distància que recorre depèn de la velocitat de moviment del dit."
+msgstr ""
+"La distància que recorre el cursor depén de la velocitat de moviment del dit."
 
 #: src/kcm/libinput/touchpad.qml:329
 #, kde-format
@@ -172,7 +175,7 @@ msgstr "Un toc únic és un clic del botó esquerre."
 #: src/kcm/libinput/touchpad.qml:364
 #, kde-format
 msgid "Tap-and-drag"
-msgstr "Tocar i arrossegar"
+msgstr "Toca i arrossega"
 
 #: src/kcm/libinput/touchpad.qml:368
 #, kde-format
@@ -183,7 +186,7 @@ msgstr ""
 #: src/kcm/libinput/touchpad.qml:395
 #, kde-format
 msgid "Tap-and-drag lock"
-msgstr "Bloqueig de tocar i arrossegar"
+msgstr "Bloqueig de toca i arrossega"
 
 #: src/kcm/libinput/touchpad.qml:399
 #, kde-format
@@ -283,64 +286,63 @@ msgstr "Desactiva el desplaçament horitzontal"
 
 #: src/kcm/libinput/touchpad.qml:603
 #, kde-format
-msgid "Right-click :"
+msgid "Right-click:"
 msgstr "Clic dret:"
 
-#: src/kcm/libinput/touchpad.qml:641
+#: src/kcm/libinput/touchpad.qml:642
 #, kde-format
 msgid "Press bottom-right corner"
-msgstr "Premeu la cantonada inferior dreta"
+msgstr "Premeu el cantó inferior dret"
 
-#: src/kcm/libinput/touchpad.qml:645
+#: src/kcm/libinput/touchpad.qml:646
 #, kde-format
 msgid ""
 "Software enabled buttons will be added to bottom portion of your touchpad."
 msgstr ""
-"Els botons activats per programari s'afegiran a la porció inferior del "
+"Els botons activats per a programari s'afegiran a la part inferior del "
 "ratolí tàctil."
 
-#: src/kcm/libinput/touchpad.qml:653
+#: src/kcm/libinput/touchpad.qml:654
 #, kde-format
 msgid "Press anywhere with two fingers"
-msgstr "Premeu a qualsevol lloc amb dos dits"
+msgstr "Premeu en qualsevol lloc amb dos dits"
 
-#: src/kcm/libinput/touchpad.qml:657
+#: src/kcm/libinput/touchpad.qml:658
 #, kde-format
 msgid "Tap with two finger to enable right click."
-msgstr "Un toc amb dos dits per activar el clic dret."
+msgstr "Un toc amb dos dits per a activar el clic dret."
 
-#: src/kcm/libinput/touchpad.qml:670
+#: src/kcm/libinput/touchpad.qml:671
 #, kde-format
 msgid "Middle-click: "
 msgstr "Clic del mig: "
 
-#: src/kcm/libinput/touchpad.qml:704
+#: src/kcm/libinput/touchpad.qml:705
 #, kde-format
 msgid "Press bottom-middle"
-msgstr "Premeu la part inferior mitja"
+msgstr "Premeu la part inferior central"
 
-#: src/kcm/libinput/touchpad.qml:708
+#: src/kcm/libinput/touchpad.qml:709
 #, kde-format
 msgid ""
 "Software enabled middle-button will be added to bottom portion of your "
 "touchpad."
 msgstr ""
-"El botó del mig activat per programari s'afegirà a la porció inferior del "
+"El botó del mig activat per a programari s'afegirà a la part inferior del "
 "ratolí tàctil."
 
-#: src/kcm/libinput/touchpad.qml:716
+#: src/kcm/libinput/touchpad.qml:717
 #, kde-format
 msgid "Press bottom left and bottom right corners simultaneously"
 msgstr ""
-"Premeu la cantonada inferior esquerra i la cantonada inferior dreta "
-"simultàniament"
+"Premeu el cantó inferior esquerre i el cantó inferior dret simultàniament"
 
-#: src/kcm/libinput/touchpad.qml:729
+#: src/kcm/libinput/touchpad.qml:730
 #, kde-format
 msgid "Press anywhere with three fingers"
 msgstr "Premeu a qualsevol lloc amb tres dits"
 
-#: src/kcm/libinput/touchpad.qml:735
+#: src/kcm/libinput/touchpad.qml:736
 #, kde-format
 msgid "Press anywhere with three fingers."
 msgstr "Premeu a qualsevol lloc amb tres dits."
@@ -354,7 +356,7 @@ msgstr "KCM del ratolí tàctil"
 #: src/kcm/libinput/touchpadconfiglibinput.cpp:44
 #, kde-format
 msgid "System Settings module for managing your touchpad"
-msgstr "Mòdul de l'Arranjament del sistema per gestionar el ratolí tàctil"
+msgstr "Mòdul de configuració del sistema per a gestionar el ratolí tàctil"
 
 #: src/kcm/libinput/touchpadconfiglibinput.cpp:46
 #, kde-format
@@ -393,8 +395,8 @@ msgid ""
 "this configuration module and try again."
 msgstr ""
 "No s'han pogut guardar tots els canvis. Vegeu els registres per a més "
-"informació. Torneu a iniciar aquest mòdul de configuració i proveu-ho un "
-"altre cop."
+"informació. Torneu a iniciar aquest mòdul de configuració i proveu-ho una "
+"altra vegada."
 
 #: src/kcm/libinput/touchpadconfiglibinput.cpp:151
 #, kde-format
@@ -429,7 +431,7 @@ msgstr ""
 #: src/kcm/xlib/testarea.cpp:32
 #, kde-format
 msgid "Drag me"
-msgstr "Arrossega'm"
+msgstr "Arrossegueu-me"
 
 #: src/kcm/xlib/testbutton.cpp:40
 #, kde-format
@@ -496,7 +498,7 @@ msgstr "Vora superior"
 #, kde-format
 msgctxt "Touchpad Edge"
 msgid "Top right corner"
-msgstr "Cantonada superior dreta"
+msgstr "Cantó superior dret"
 
 #. i18n: ectx: label, entry (CircScrollTrigger), group (parameters)
 #: src/kcm/xlib/touchpad.kcfg:294
@@ -510,7 +512,7 @@ msgstr "Vora dreta"
 #, kde-format
 msgctxt "Touchpad Edge"
 msgid "Bottom right corner"
-msgstr "Cantonada inferior dreta"
+msgstr "Cantó inferior dret"
 
 #. i18n: ectx: label, entry (CircScrollTrigger), group (parameters)
 #: src/kcm/xlib/touchpad.kcfg:300
@@ -524,7 +526,7 @@ msgstr "Vora inferior"
 #, kde-format
 msgctxt "Touchpad Edge"
 msgid "Bottom left corner"
-msgstr "Cantonada inferior esquerra"
+msgstr "Cantó inferior esquerra"
 
 #. i18n: ectx: label, entry (CircScrollTrigger), group (parameters)
 #: src/kcm/xlib/touchpad.kcfg:306
@@ -538,14 +540,14 @@ msgstr "Vora esquerra"
 #, kde-format
 msgctxt "Touchpad Edge"
 msgid "Top left corner"
-msgstr "Cantonada superior esquerra"
+msgstr "Cantó superior esquerre"
 
 #: src/kcm/xlib/touchpadconfigxlib.cpp:108
 #, kde-format
 msgid ""
 "System Settings module, daemon and Plasma applet for managing your touchpad"
 msgstr ""
-"Mòdul de l'Arranjament del sistema, dimoni i miniaplicació del Plasma per "
+"Mòdul de configuració del sistema, dimoni i miniaplicació de Plasma per a "
 "gestionar el ratolí tàctil"
 
 #: src/kcm/xlib/touchpadconfigxlib.cpp:110
@@ -717,7 +719,7 @@ msgstr "Desactiva només els tocs i el desplaçament"
 #: src/kcm/xlib/ui/kded.ui:119
 #, kde-format
 msgid "Disable touchpad when mouse is plugged in"
-msgstr "Desactiva el ratolí tàctil quan el ratolí està endollat"
+msgstr "Desactiva el ratolí tàctil quan el ratolí està connectat"
 
 #. i18n: ectx: property (text), widget (QLabel, notificationsLabel)
 #: src/kcm/xlib/ui/kded.ui:136
@@ -740,7 +742,7 @@ msgid ""
 "plugged in."
 msgstr ""
 "Alguns dispositius podrien tractar-se incorrectament com un ratolí.\n"
-"Els podeu afegir en aquesta llista per tal que s'ignorin quan s'endollin."
+"Els podeu afegir en aquesta llista per tal que s'ignoren quan es connecten."
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, PointerMotionForm)
 #: src/kcm/xlib/ui/pointermotion.ui:14
@@ -834,14 +836,14 @@ msgstr "Factor màxim:"
 #, kde-format
 msgid "Finger pressure at which minimum pressure motion factor is applied"
 msgstr ""
-"Pressió del dit en la qual s'aplica el factor mínim de moviment de pressió"
+"Pressió del dit a la qual s'aplica el factor mínim de moviment de pressió"
 
 #. i18n: ectx: property (toolTip), widget (QSlider, kcfg_PressureMotionMaxZ)
 #: src/kcm/xlib/ui/pointermotion.ui:166
 #, kde-format
 msgid "Finger pressure at which maximum pressure motion factor is applied"
 msgstr ""
-"Pressió del dit en la qual s'aplica el factor màxim de moviment de pressió"
+"Pressió del dit a la qual s'aplica el factor màxim de moviment de pressió"
 
 #. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_PressureMotionMinFactor)
 #: src/kcm/xlib/ui/pointermotion.ui:179
@@ -882,7 +884,7 @@ msgstr "Horitzontal:"
 msgid ""
 "The minimum vertical hardware distance required to generate motion events"
 msgstr ""
-"La distància vertical mínima del maquinari requerida per generar "
+"La distància vertical mínima del maquinari requerida per a generar "
 "esdeveniments de moviment"
 
 #. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_VertHysteresis)
@@ -898,7 +900,7 @@ msgstr " unitats"
 msgid ""
 "The minimum horizontal hardware distance required to generate motion events"
 msgstr ""
-"La distància horitzontal mínima del maquinari requerida per generar "
+"La distància horitzontal mínima del maquinari requerida per a generar "
 "esdeveniments de moviment"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, ScrollForm)
@@ -1032,7 +1034,7 @@ msgstr "Horitzontal:"
 msgid ""
 "Continue scrolling after the finger is released from the edge of the touchpad"
 msgstr ""
-"Continua el desplaçament després que el dit deixi la vora del ratolí tàctil"
+"Continua el desplaçament després que el dit deixe la vora del ratolí tàctil"
 
 #. i18n: ectx: property (title), widget (QGroupBox, kcfg_Coasting)
 #: src/kcm/xlib/ui/scroll.ui:202
@@ -1055,7 +1057,7 @@ msgid ""
 "Your finger needs to produce this many scrolls per second in order to start "
 "coasting"
 msgstr ""
-"Cal que el dit presenti aquesta quantitat de desplaçaments per segon per tal "
+"Cal que el dit presente aquesta quantitat de desplaçaments per segon per tal "
 "d'iniciar el lliscament"
 
 #. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_CoastingSpeed)
@@ -1076,7 +1078,7 @@ msgstr "Desacceleració:"
 #, kde-format
 msgid "Number of scrolls/second² to decrease the coasting speed"
 msgstr ""
-"Nombre de desplaçaments/segon² per disminuir la velocitat de lliscament"
+"Nombre de desplaçaments/segon² per a disminuir la velocitat de lliscament"
 
 #. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_CoastingFriction)
 #: src/kcm/xlib/ui/scroll.ui:256
@@ -1088,7 +1090,7 @@ msgstr " desplaçaments/seg²"
 #: src/kcm/xlib/ui/scroll.ui:263
 #, kde-format
 msgid "Corner coasting:"
-msgstr "Cantonada de lliscament:"
+msgstr "Cantó de lliscament:"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_CornerCoasting)
 #: src/kcm/xlib/ui/scroll.ui:273
@@ -1096,8 +1098,8 @@ msgstr "Cantonada de lliscament:"
 msgid ""
 "Enable edge scrolling to continue while the finger stays in an edge corner"
 msgstr ""
-"Activa la cantonada de lliscament per continuar mentre el dit està en una "
-"cantonada de la vora"
+"Activa el cantó de lliscament per a continuar mentre el dit està en un cantó "
+"de la vora"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_CornerCoasting)
 #: src/kcm/xlib/ui/scroll.ui:276
@@ -1139,7 +1141,7 @@ msgstr "Àrea d'activació:"
 #, kde-format
 msgid "Trigger region on the touchpad to start circular scrolling"
 msgstr ""
-"Àrea d'activació en el ratolí tàctil per iniciar el desplaçament circular"
+"Àrea d'activació en el ratolí tàctil per a iniciar el desplaçament circular"
 
 #. i18n: ectx: property (text), widget (QLabel, label_6)
 #: src/kcm/xlib/ui/scroll.ui:323
@@ -1153,7 +1155,8 @@ msgstr "Angle:"
 #, kde-format
 msgid "Move angle (degrees) of finger to generate a scroll event"
 msgstr ""
-"Angle de moviment (graus) del dit per generar un esdeveniment de desplaçament"
+"Angle de moviment (graus) del dit per a generar un esdeveniment de "
+"desplaçament"
 
 #. i18n: ectx: property (suffix), widget (QDoubleSpinBox, kcfg_CircScrollDelta)
 #: src/kcm/xlib/ui/scroll.ui:348
@@ -1169,9 +1172,9 @@ msgid ""
 "When used together with vertical scrolling, hitting the upper or lower right "
 "corner will seamlessly switch over from vertical to circular scrolling"
 msgstr ""
-"Quan s'usa conjuntament amb el desplaçament vertical, en tocar la cantonada "
-"dreta superior o inferior es commutarà amb fluïdesa des del desplaçament "
-"vertical al circular"
+"Quan s'usa conjuntament amb el desplaçament vertical, en tocar el cantó dret "
+"superior o inferior es commutarà amb fluïdesa des del desplaçament vertical "
+"al circular"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, SensitivityForm)
 #: src/kcm/xlib/ui/sensitivity.ui:14
@@ -1190,13 +1193,13 @@ msgstr "Sensibilitat"
 #: src/kcm/xlib/ui/sensitivity.ui:29
 #, kde-format
 msgid "Pressure for detecting a touch:"
-msgstr "Pressió per detectar un toc:"
+msgstr "Pressió per a detectar un toc:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: src/kcm/xlib/ui/sensitivity.ui:39
 #, kde-format
 msgid "Pressure for detecting a release:"
-msgstr "Pressió per detectar un alliberament:"
+msgstr "Pressió per a detectar un alliberament:"
 
 #. i18n: ectx: property (toolTip), widget (QSlider, kcfg_FingerHigh)
 #: src/kcm/xlib/ui/sensitivity.ui:49
@@ -1204,8 +1207,8 @@ msgstr "Pressió per detectar un alliberament:"
 msgid ""
 "When finger pressure goes above this value, the driver counts it as a touch"
 msgstr ""
-"Quan la pressió del dit està per sobre d'aquest valor, el controlador el "
-"compta com un toc"
+"Quan la pressió del dit està per damunt d'aquest valor, el controlador el "
+"compta com a un toc"
 
 #. i18n: ectx: property (toolTip), widget (QSlider, kcfg_FingerLow)
 #: src/kcm/xlib/ui/sensitivity.ui:62
@@ -1214,8 +1217,8 @@ msgid ""
 "When finger pressure drops below this value, the driver counts it as a "
 "release"
 msgstr ""
-"Quan la pressió del dit està per sota d'aquest valor, el controlador el "
-"compta com un alliberament"
+"Quan la pressió del dit està per davall d'aquest valor, el controlador el "
+"compta com a un alliberament"
 
 #. i18n: ectx: property (toolTip), widget (QGroupBox, kcfg_PalmDetect)
 #: src/kcm/xlib/ui/sensitivity.ui:78
@@ -1224,7 +1227,7 @@ msgid ""
 "If palm detection should be enabled. Note that this also requires hardware/"
 "firmware support from the touchpad"
 msgstr ""
-"Si s'ha d'activar la detecció de palmell. Tingueu en compte que això també "
+"Si s'ha d'activar la detecció de palmell. Tingueu en compte que açò també "
 "requereix implementació de maquinari/microprogramari del ratolí tàctil"
 
 #. i18n: ectx: property (title), widget (QGroupBox, kcfg_PalmDetect)
@@ -1271,7 +1274,7 @@ msgstr "Tocs"
 #: src/kcm/xlib/ui/tap.ui:28
 #, kde-format
 msgid "Tap to Click"
-msgstr "Toc per fer clic"
+msgstr "Toc per a fer clic"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: src/kcm/xlib/ui/tap.ui:43
@@ -1284,8 +1287,7 @@ msgstr "Un dit:"
 #: src/kcm/xlib/ui/tap.ui:53
 #, kde-format
 msgid "Which mouse button is reported on a non-corner one-finger tap"
-msgstr ""
-"Botó del ratolí que s'informa en fer un toc amb un dit fora d'una cantonada"
+msgstr "Botó del ratolí que s'informa en fer un toc amb un dit fora d'un cantó"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: src/kcm/xlib/ui/tap.ui:60
@@ -1299,7 +1301,7 @@ msgstr "Dos dits:"
 #, kde-format
 msgid "Which mouse button is reported on a non-corner two-finger tap"
 msgstr ""
-"Botó del ratolí que s'informa en fer un toc amb dos dits fora d'una cantonada"
+"Botó del ratolí que s'informa en fer un toc amb dos dits fora d'un cantó"
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: src/kcm/xlib/ui/tap.ui:77
@@ -1313,15 +1315,14 @@ msgstr "Tres dits:"
 #, kde-format
 msgid "Which mouse button is reported on a non-corner three-finger tap"
 msgstr ""
-"Botó del ratolí que s'informa en fer un toc amb tres dits fora d'una "
-"cantonada"
+"Botó del ratolí que s'informa en fer un toc amb tres dits fora d'un cantó"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
 #: src/kcm/xlib/ui/tap.ui:107
 #, kde-format
 msgctxt "Touchpad"
 msgid "Corners"
-msgstr "Cantonades"
+msgstr "Cantons"
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
 #: src/kcm/xlib/ui/tap.ui:131
@@ -1335,8 +1336,8 @@ msgstr "Superior esquerra:"
 #, kde-format
 msgid "Which mouse button is reported on a left top corner tap"
 msgstr ""
-"Botó del ratolí que s'informa en fer un toc amb un dit en la cantonada "
-"superior esquerra"
+"Botó del ratolí que s'informa en fer un toc amb un dit en el cantó superior "
+"esquerre"
 
 #. i18n: ectx: property (text), widget (QLabel, label_7)
 #: src/kcm/xlib/ui/tap.ui:151
@@ -1357,24 +1358,24 @@ msgstr "Superior dreta:"
 #, kde-format
 msgid "Which mouse button is reported on a left bottom corner tap"
 msgstr ""
-"Botó del ratolí que s'informa en fer un toc amb un dit en la cantonada "
-"inferior esquerra"
+"Botó del ratolí que s'informa en fer un toc amb un dit en el cantó inferior "
+"esquerre"
 
 #. i18n: ectx: property (toolTip), widget (KComboBox, kcfg_RTCornerButton)
 #: src/kcm/xlib/ui/tap.ui:184
 #, kde-format
 msgid "Which mouse button is reported on a right top corner tap"
 msgstr ""
-"Botó del ratolí que s'informa en fer un toc amb un dit en la cantonada "
-"superior dreta"
+"Botó del ratolí que s'informa en fer un toc amb un dit en el cantó superior "
+"dret"
 
 #. i18n: ectx: property (toolTip), widget (KComboBox, kcfg_RBCornerButton)
 #: src/kcm/xlib/ui/tap.ui:191
 #, kde-format
 msgid "Which mouse button is reported on a right bottom corner tap"
 msgstr ""
-"Botó del ratolí que s'informa en fer un toc amb un dit en la cantonada "
-"inferior dreta"
+"Botó del ratolí que s'informa en fer un toc amb un dit en el cantó inferior "
+"dret"
 
 #. i18n: ectx: property (text), widget (QLabel, label_8)
 #: src/kcm/xlib/ui/tap.ui:214
@@ -1409,8 +1410,8 @@ msgid ""
 "gesture is active until you tap a second time, or until timeout expires"
 msgstr ""
 "Si està inactiu, un gest de tocar i arrossegar finalitza quan s'allibera el "
-"dit. Si està actiu, el gest estarà funcionant fins que feu un segon toc, o "
-"fins que s'exhaurisca el temps d'espera"
+"dit. Si està actiu, el gest estarà funcionant fins que hi feu un segon toc, "
+"o fins que s'exhaurisca el temps d'espera"
 
 #. i18n: ectx: property (title), widget (QGroupBox, kcfg_LockedDrags)
 #: src/kcm/xlib/ui/tap.ui:269
@@ -1433,8 +1434,8 @@ msgid ""
 "How long it takes (in milliseconds) for the \"Locked Drags\" mode to be "
 "automatically turned off after the finger is released from the touchpad"
 msgstr ""
-"Quant triga (en mil·lisegons) el mode «Arrossegaments bloquejats» en "
-"desconnectar-se automàticament després que el dit s'alliberi del ratolí "
+"Quant tarda (en mil·lisegons) el mode «Arrossegaments bloquejats» en "
+"desconnectar-se automàticament després que el dit s'allibere del ratolí "
 "tàctil"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
@@ -1459,7 +1460,7 @@ msgstr "Moviment màxim del dit:"
 #: src/kcm/xlib/ui/tap.ui:366
 #, kde-format
 msgid "Maximum time for double tap:"
-msgstr "Temps màxim pel toc doble:"
+msgstr "Temps màxim per al toc doble:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_13)
 #: src/kcm/xlib/ui/tap.ui:379
@@ -1471,25 +1472,26 @@ msgstr "Temps d'espera del toc simple:"
 #: src/kcm/xlib/ui/tap.ui:389
 #, kde-format
 msgid "Maximum time (in milliseconds) for detecting a tap"
-msgstr "Temps màxim (en mil·lisegons) per detectar un toc"
+msgstr "Temps màxim (en mil·lisegons) per a detectar un toc"
 
 #. i18n: ectx: property (toolTip), widget (QDoubleSpinBox, kcfg_MaxTapMove)
 #: src/kcm/xlib/ui/tap.ui:408
 #, kde-format
 msgid "Maximum movement of the finger for detecting a tap"
-msgstr "Moviment màxim del dit per detectar un toc"
+msgstr "Moviment màxim del dit per a detectar un toc"
 
 #. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_MaxDoubleTapTime)
 #: src/kcm/xlib/ui/tap.ui:427
 #, kde-format
 msgid "Maximum time (in milliseconds) for detecting a double tap"
-msgstr "Temps màxim (en mil·lisegons) per detectar un toc doble"
+msgstr "Temps màxim (en mil·lisegons) per a detectar un toc doble"
 
 #. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_SingleTapTimeout)
 #: src/kcm/xlib/ui/tap.ui:446
 #, kde-format
 msgid "Timeout after a tap to recognize it as a single tap"
-msgstr "Temps d'espera després d'un toc per reconèixer com un toc simple"
+msgstr ""
+"Temps d'espera després d'un toc per a reconéixer-lo com a un toc simple"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: src/kcm/xlib/ui/testarea.ui:20
@@ -1506,12 +1508,12 @@ msgstr "Clica'm"
 #: src/kded/kded.cpp:217
 #, kde-format
 msgid "Touchpad was disabled because a mouse was plugged in"
-msgstr "El ratolí tàctil s'ha desactivat perquè s'ha endollat un ratolí"
+msgstr "El ratolí tàctil s'ha desactivat perquè s'ha connectat un ratolí"
 
 #: src/kded/kded.cpp:221
 #, kde-format
 msgid "Touchpad was enabled because the mouse was unplugged"
-msgstr "El ratolí tàctil s'ha activat perquè en ratolí s'ha desendollat"
+msgstr "El ratolí tàctil s'ha activat perquè en ratolí s'ha desconnectat"
 
 #: src/kded/kdedactions.cpp:35
 #, kde-format
@@ -1526,4 +1528,4 @@ msgstr "Desactiva el ratolí tàctil"
 #: src/kded/kdedactions.cpp:51
 #, kde-format
 msgid "Toggle Touchpad"
-msgstr "Commuta el ratolí tàctil"
+msgstr "Activa/desactiva el ratolí tàctil"

@@ -1,7 +1,7 @@
 # translation of kcmcomponentchooser.po to Slovenian
 # Translation of kcmcomponentchooser.po to Slovenian
 # SLOVENIAN TRANSLATION OF KDEBASE.
-# $Id: kcm5_componentchooser.po 1542253 2019-05-20 06:55:29Z scripty $
+# $Id: kcm5_componentchooser.po 1551942 2019-09-18 03:11:17Z scripty $
 # $Source$
 #
 # Copyright (C) 2002, 2003, 2004, 2005, 2006, 2007 Free Software Foundation, Inc.
@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmcomponentchooser\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"POT-Creation-Date: 2019-09-18 03:38+0200\n"
 "PO-Revision-Date: 2018-01-11 20:49+0100\n"
 "Last-Translator: Andrej Mernik <andrejm@ubuntu.si>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
@@ -70,12 +70,12 @@ msgstr "z naslednjim ukazom:"
 msgid "..."
 msgstr "..."
 
-#: componentchooser.cpp:134
+#: componentchooser.cpp:133
 #, kde-format
 msgid "Unknown"
 msgstr "Neznano"
 
-#: componentchooser.cpp:151
+#: componentchooser.cpp:150
 #, kde-format
 msgid ""
 "Choose from the list below which component should be used by default for the "
@@ -84,7 +84,7 @@ msgstr ""
 "Izberite iz spodnjega seznama sestavni del, ki naj se uporablja za storitev "
 "%1."
 
-#: componentchooser.cpp:183
+#: componentchooser.cpp:182
 #, kde-format
 msgid ""
 "<qt>You changed the default component of your choice, do want to save that "
@@ -93,7 +93,7 @@ msgstr ""
 "<qt>Spremenili ste privzet sestavni del po svoji želji. Ali želite shraniti "
 "spremembo?</qt>"
 
-#: componentchooser.cpp:188
+#: componentchooser.cpp:187
 #, kde-format
 msgid "No description available"
 msgstr "Opis ni na voljo"
@@ -158,7 +158,7 @@ msgstr "Izberite prednostni program za spletno brskanje:"
 msgid "Select preferred email client:"
 msgstr "Izberite prednostni odjemalec e-pošte:"
 
-#: componentchooserterminal.cpp:104
+#: componentchooserterminal.cpp:102
 #, kde-format
 msgid "Select preferred terminal application:"
 msgstr "izberite prednostni terminalski program:"

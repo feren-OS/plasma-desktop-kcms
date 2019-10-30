@@ -7,7 +7,7 @@
 <article id="desktopthemedetails" lang="&language;">
 <articleinfo>
 <title
->Tema del Plasma</title>
+>Estil del Plasma</title>
 <authorgroup>
 <author
 ><firstname
@@ -107,7 +107,7 @@
   <varlistentry>
     <term
 ><guilabel
->Obtén temes nous del Plasma...</guilabel
+>Obtén estils nous del Plasma...</guilabel
 ></term>
     <listitem>
     <para
@@ -119,14 +119,14 @@
     <para>
     <screenshot>
     <screeninfo
->Obtén temes nous del Plasma...</screeninfo>
+>Obtén estils nous del Plasma...</screeninfo>
       <mediaobject>
         <imageobject>
           <imagedata fileref="get-new-theme.png" format="PNG"/>
         </imageobject>
         <textobject>
           <phrase
->Obtén temes nous del Plasma...</phrase>
+>Obtén estils nous del Plasma...</phrase>
         </textobject>
       </mediaobject>
     </screenshot>

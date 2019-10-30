@@ -8,9 +8,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: trunk-kf 5\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
-"PO-Revision-Date: 2015-01-25 12:13+0200\n"
-"Last-Translator: Liudas Ališauskas <liudas@akmc.lt>\n"
+"POT-Creation-Date: 2019-08-02 03:11+0200\n"
+"PO-Revision-Date: 2019-08-03 19:44+0300\n"
+"Last-Translator: Moo\n"
 "Language-Team: Lithuanian <kde-i18n-lt@kde.org>\n"
 "Language: lt\n"
 "MIME-Version: 1.0\n"
@@ -18,61 +18,62 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : n%10>=2 && (n%100<10 || n"
 "%100>=20) ? 1 : n%10==0 || (n%100>10 && n%100<20) ? 2 : 3);\n"
-"X-Generator: Lokalize 1.5\n"
+"X-Generator: Poedit 2.0.6\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "Liudas Ališauskas"
+msgstr "Liudas Ališauskas, Moo"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "liudas@akmc.lt"
+msgstr "liudas@akmc.lt, <>"
 
 #: package/contents/ui/main.qml:37
 #, kde-format
 msgid "Visual behavior:"
-msgstr ""
+msgstr "Vaizdinė elgsena:"
 
 #: package/contents/ui/main.qml:38
 #, kde-format
 msgid "Display informational tooltips on mouse hover"
-msgstr ""
+msgstr "Užvedus pelę, rodyti informacinius paaiškinimus"
 
 #: package/contents/ui/main.qml:45
 #, kde-format
 msgid "Display visual feedback for status changes"
-msgstr ""
+msgstr "Rodyti vaizdinį grįžtamąjį ryšį apie būsenos pasikeitimus"
 
 #: package/contents/ui/main.qml:64
 #, kde-format
 msgid "Click behavior:"
-msgstr ""
+msgstr "Spustelėjimo elgsena:"
 
 #: package/contents/ui/main.qml:65
 #, kde-format
 msgid "Single-click to open files and folders"
-msgstr ""
+msgstr "Failams ir aplankams atverti naudoti vienkartį spustelėjimą"
 
 #: package/contents/ui/main.qml:72
 #, kde-format
 msgid "Double-click to open files and folders (single click to select)"
 msgstr ""
+"Failams ir aplankams atverti naudoti dvikartį spustelėjimą (vienkartis "
+"spustelėjimas, norint pažymėti)"
 
 #: workspaceoptions.cpp:40
 #, kde-format
-msgid "Plasma Workspace global options"
-msgstr ""
+msgid "General Behavior"
+msgstr "Bendra elgsena"
 
 #: workspaceoptions.cpp:42
-#, fuzzy, kde-format
-#| msgid "Global options for the Plasma Workspace"
-msgid ""
-"System Settings module for managing global options for the Plasma Workspace."
-msgstr "Plazma darbalaukio globalūs nustatymai"
+#, kde-format
+msgid "System Settings module for configuring general workspace behavior."
+msgstr ""
+"Sistemos nuostatų modulis, skirtas konfigūruoti bendrą darbo sričių elgseną."
 
 #: workspaceoptions.cpp:45
 #, kde-format
 msgid "Furkan Tokac"
-msgstr ""
+msgstr "Furkan Tokac"

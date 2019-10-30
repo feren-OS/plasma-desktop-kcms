@@ -14,23 +14,18 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 *********************************************************************/
-import QtQuick 2.1
+import QtQuick 2.12
 import QtQuick.Layouts 1.1
-import QtQuick.Controls 1.4 as Controls
+import QtQuick.Controls 2.5 as QQC2
 
-import org.kde.kquickcontrolsaddons 2.0
-import org.kde.plasma.core 2.0 as PlasmaCore
-import org.kde.plasma.extras 2.0 as PlasmaExtras
+import org.kde.kirigami 2.5 as Kirigami
+import org.kde.kcm 1.2 as KCM
 
 import org.kde.colorcorrect 0.1 as CC
 
-Item {
+KCM.SimpleKCM {
     id: root
-
-    implicitHeight: units.gridUnit * 20
-
     property int error: cA.error
-
     property bool defaultRequested: false
 
     CC.CompositorAdaptor {
@@ -91,272 +86,246 @@ Item {
     }
     signal reset()
 
-    Item {
-        id: main
-        width: childrenRect.width
-        height: childrenRect.height
-
-        enabled: cA.nightColorAvailable
-
-        Controls.CheckBox {
-            id: activator
-            text: i18n("Activate Night Color")
-            checked: cA.active
-
-            onCheckedChanged: {
-                cA.activeStaged = checked;
-                calcNeedsSave();
-            }
+    header: ColumnLayout{
+        Kirigami.InlineMessage {
+            id: errorMessage
+            Layout.fillWidth: true
+            visible: error != CC.CompositorAdaptor.ErrorCodeSuccess
+            type: Kirigami.MessageType.Error
+            text: cA.errorText
         }
+    }
 
-        ColumnLayout {
-            id: mainControls
-            anchors.top: activator.bottom
-            anchors.topMargin: units.largeSpacing
+    ColumnLayout {
+        spacing: 0
 
-            enabled: activator.checked
+        Kirigami.FormLayout {
+            id: parentLayout
 
-            Controls.Label {
-                text: i18n("Night Color Temperature: ") + tempSlider.value + i18n(" K")
-            }
+            QQC2.CheckBox {
+                id: activator
+                text: i18n("Activate Night Color")
+                enabled: cA.nightColorAvailable
+                checked: cA.active
 
-            Controls.Slider {
-                id: tempSlider
-                implicitWidth: units.gridUnit * 15
-
-                minimumValue: cA.minimalTemperature
-                maximumValue: cA.neutralTemperature
-                value: cA.nightTemperature
-                stepSize: 100
-
-                onValueChanged: {
-                    cA.nightTemperatureStaged = value;
+                onCheckedChanged: {
+                    cA.activeStaged = checked;
                     calcNeedsSave();
                 }
             }
 
             RowLayout {
-                spacing: units.largeSpacing
-                Controls.Label {
-                    text: i18n("Operation mode:")
-                }
-                Controls.ComboBox {
-                    id: modeSwitcher
-                    width: theme.mSize(theme.defaultFont).width * 9
-                    model: [i18n("Automatic"),
-                    i18n("Location"),
-                    i18n("Times")]
-                    currentIndex: cA.mode
-                    onCurrentIndexChanged: {
-                        cA.modeStaged = currentIndex;
-                        advancedControlLoader.updatePage(currentIndex);
+                Kirigami.FormData.label: i18n("Night Color temperature:")
+                enabled: activator.checked
+
+                QQC2.Slider {
+                    id: tempSlider
+                    enabled: activator.checked
+                    from: cA.minimalTemperature
+                    implicitWidth: modeSwitcher.width
+                    to: cA.neutralTemperature
+                    value: cA.nightTemperature
+                    stepSize: 100
+
+                    onValueChanged: {
+                        cA.nightTemperatureStaged = value;
                         calcNeedsSave();
                     }
                 }
-            }
-        }
 
-        Loader {
-            id: advancedControlLoader
-
-            anchors.top: mainControls.bottom
-            anchors.topMargin: units.largeSpacing
-
-            function updatePage(index) {
-                sourceComponent = undefined;
-                var page;
-                if (index === CC.CompositorAdaptor.ModeLocation) {
-                    page = manualLocationsView;
-                } else if (index === CC.CompositorAdaptor.ModeTimings) {
-                    page = manualTimingsView;
-                } else {
-                    page = automaticView;
-                }
-
-                sourceComponent = page;
-            }
-        }
-
-        Component {
-            id: automaticView
-            Row {
-                spacing: units.largeSpacing
-
-                Loader {
-                    sourceComponent: TimingsView {
-                        latitude: locator.latitude
-                        longitude: locator.longitude
+                    QQC2.Label {
+                        text: tempSlider.value + i18n(" K")
                     }
                 }
-                Loader {
-                    sourceComponent: LocationsAutoView {
-                        latitude: locator.latitude
-                        longitude: locator.longitude
-                    }
+
+            QQC2.ComboBox {
+                id: modeSwitcher
+                Kirigami.FormData.label: i18n("Operation mode:")
+                enabled: activator.checked
+                model: [
+                    i18n("Automatic"),
+                    i18n("Location"),
+                    i18n("Times"),
+                    i18n("Constant")
+                ]
+                currentIndex: cA.mode
+                onCurrentIndexChanged: {
+                    cA.modeStaged = currentIndex;
+                    advancedControlLoader.updatePage(currentIndex);
+                    calcNeedsSave();
                 }
             }
         }
 
-        Component {
-            id: manualLocationsView
+        Kirigami.FormLayout {
 
-            Row {
-                id: manualLocationsViewRow
-                spacing: units.largeSpacing
+            Loader {
+                id: advancedControlLoader
 
-                signal change()
 
-                Loader {
-                    sourceComponent: TimingsView {
-                        latitude: cA.latitudeFixedStaged
-                        longitude: cA.longitudeFixedStaged
+                function updatePage(index) {
+                    switch (index) {
+                    case CC.CompositorAdaptor.ModeAutomatic:
+                        sourceComponent = automaticView;
+                        break;
+                    case CC.CompositorAdaptor.ModeLocation:
+                        sourceComponent = manualLocationsView;
+                        break;
+                    case CC.CompositorAdaptor.ModeTimings:
+                        sourceComponent = manualTimingsView;
+                        break;
+                    case CC.CompositorAdaptor.ModeConstant:
+                    default:
+                        sourceComponent = undefined;
+                        break;
+                    }
+                }
+            }
 
-                        Connections {
-                            target: manualLocationsViewRow
-                            onChange: {
-                                reset();
+            Component {
+                id: automaticView
+
+                    ColumnLayout {
+
+                    Loader {
+                        sourceComponent: TimingsView {
+                            latitude: locator.latitude
+                            longitude: locator.longitude
+                        }
+                    }
+
+                    Kirigami.Separator {
+                        Layout.fillWidth: true
+                        Kirigami.FormData.isSection: true
+                    }
+
+                    Loader {
+                        sourceComponent: LocationsAutoView {
+                            latitude: locator.latitude
+                            longitude: locator.longitude
+                        }
+                    }
+                }
+            }
+
+            Component {
+                id: manualLocationsView
+
+                ColumnLayout {
+                    id: manualLocationsViewRow
+                    signal change()
+
+                    Loader {
+                        sourceComponent: TimingsView {
+                            latitude: cA.latitudeFixedStaged
+                            longitude: cA.longitudeFixedStaged
+
+                            Connections {
+                                target: manualLocationsViewRow
+                                onChange: {
+                                    reset();
+                                }
+                            }
+                        }
+                    }
+
+                    Kirigami.Separator {
+                        Layout.fillWidth: true
+                        Kirigami.FormData.isSection: true
+                    }
+
+                    Loader {
+                        sourceComponent: LocationsFixedView {}
+                    }
+                }
+            }
+
+            Component {
+                id: manualTimingsView
+
+                ColumnLayout {
+                    Loader {
+                        sourceComponent: Kirigami.FormLayout {
+                            twinFormLayouts: parentLayout
+                            enabled: activator.checked && cA.timingsEnabled
+
+                            Connections {
+                                target: root
+                                onReset: {
+                                    mornBeginManField.backend = cA.morningBeginFixed;
+                                    evenBeginManField.backend = cA.eveningBeginFixed;
+                                    transTimeField.backend = cA.transitionTime;
+                                }
+                            }
+
+                            TimeField {
+                                id: mornBeginManField
+                                Kirigami.FormData.label: i18n("Sunrise begins:")
+                                backend: cA.morningBeginFixedStaged
+                                onBackendChanged: {cA.morningBeginFixedStaged = backend;
+                                    calcNeedsSave();
+                                }
+
+                                QQC2.ToolTip {
+                                    text: i18n("(Input format: HH:MM)")
+                                }
+                            }
+
+                            TimeField {
+                                id: evenBeginManField
+                                Kirigami.FormData.label: i18n("Sunset begins:")
+                                backend: cA.eveningBeginFixedStaged
+                                onBackendChanged: {cA.eveningBeginFixedStaged = backend;
+                                    calcNeedsSave();
+                                }
+
+                                QQC2.ToolTip {
+                                    text: i18n("Input format: HH:MM")
+                                }
+                            }
+
+                            NumberField {
+                                id: transTimeField
+                                Kirigami.FormData.label: i18n("Transition duration:")
+                                backend: cA.transitionTimeStaged
+                                onBackendChanged: {cA.transitionTimeStaged = backend;
+                                    calcNeedsSave();
+                                }
+
+                                inputMethodHints: Qt.ImhDigitsOnly
+                                validator: IntValidator {bottom: 1; top: 600;}  // less than 12 hours (in minutes: 720)
+
+                                QQC2.ToolTip {
+                                    text: i18n("Input minutes - min. 1, max. 600")
+                                }
+                            }
+
+                            QQC2.Label {
+                                id: manualTimingsError1
+                                visible: evenBeginManField.getNormedDate() - mornBeginManField.getNormedDate() <= 0
+                                font.italic: true
+                                text: i18n("Error: Morning is before evening.")
+                            }
+
+                            QQC2.Label {
+                                id: manualTimingsError2
+                                visible: {
+                                    if (manualTimingsError1.visible) {
+                                        return false;
+                                    }
+                                    var trTime = transTimeField.backend * 60 * 1000;
+                                    var mor = mornBeginManField.getNormedDate();
+                                    var eve = evenBeginManField.getNormedDate();
+
+                                    return eve - mor <= trTime || eve - mor >= 86400000 - trTime;
+                                }
+                                font.italic: true
+                                text: i18n("Error: Transition time overlaps.")
                             }
                         }
                     }
                 }
-                Loader {
-                    sourceComponent: LocationsFixedView {}
-                }
             }
-        }
-
-        Component {
-            id: manualTimingsView
-            Column {
-                spacing: units.smallSpacing
-
-                GridLayout {
-                    id: manualTimingsViewGrid
-
-                    columns: 3
-                    rowSpacing: units.smallSpacing
-                    columnSpacing: units.smallSpacing
-                    enabled: activator.checked && cA.timingsEnabled
-
-                    Connections {
-                        target: root
-                        onReset: {
-                            mornBeginManField.backend = cA.morningBeginFixed;
-                            evenBeginManField.backend = cA.eveningBeginFixed;
-                            transTimeField.backend = cA.transitionTime;
-                        }
-                    }
-
-                    Controls.Label {
-                        text: i18n("Sunrise begins")
-                        Layout.alignment: Qt.AlignRight
-                    }
-                    TimeField {
-                        id: mornBeginManField
-                        backend: cA.morningBeginFixedStaged
-                        onBackendChanged: {cA.morningBeginFixedStaged = backend;
-                            calcNeedsSave();
-                        }
-                    }
-                    Controls.Label {
-                        enabled: false
-                        text: i18n("(HH:MM)")
-                    }
-                    Controls.Label {
-                        text: i18n("Sunset begins")
-                        Layout.alignment: Qt.AlignRight
-                    }
-                    TimeField {
-                        id: evenBeginManField
-                        backend: cA.eveningBeginFixedStaged
-                        onBackendChanged: {cA.eveningBeginFixedStaged = backend;
-                            calcNeedsSave();
-                        }
-                    }
-                    Controls.Label {
-                        enabled: false
-                        text: i18n("(HH:MM)")
-                    }
-                    Controls.Label {
-                        text: i18n("Transition duration")
-                        Layout.alignment: Qt.AlignRight
-                    }
-                    NumberField {
-                        id: transTimeField
-                        backend: cA.transitionTimeStaged
-                        onBackendChanged: {cA.transitionTimeStaged = backend;
-                            calcNeedsSave();
-                        }
-
-                        inputMethodHints: Qt.ImhDigitsOnly
-                        validator: IntValidator {bottom: 1; top: 600;}  // less than 12 hours (in minutes: 720)
-                    }
-                    Controls.Label {
-                        enabled: false
-                        text: i18n("(In minutes - min. 1, max. 600)")
-                    }
-                }
-                Controls.Label {
-                    id: manualTimingsError1
-                    anchors.horizontalCenter: manualTimingsViewGrid.horizontalCenter
-                    visible: evenBeginManField.getNormedDate() - mornBeginManField.getNormedDate() <= 0
-
-                    font.italic: true
-                    text: i18n("Error: Morning not before evening.")
-                }
-                Controls.Label {
-                    id: manualTimingsError2
-                    anchors.horizontalCenter: manualTimingsViewGrid.horizontalCenter
-                    visible: {
-                        if (manualTimingsError1.visible) {
-                            return false;
-                        }
-                        var trTime = transTimeField.backend * 60 * 1000;
-                        var mor = mornBeginManField.getNormedDate();
-                        var eve = evenBeginManField.getNormedDate();
-
-                        return eve - mor <= trTime || eve - mor >= 86400000 - trTime;
-                    }
-                    font.italic: true
-                    text: i18n("Error: Transition time overlaps.")
-                }
-            }
-        }
-    }
-
-    // error message as overlay
-    Item {
-        width: 0.8 * main.width
-        height: 0.8 * main.height
-        anchors.centerIn: main
-
-        visible: error != CC.CompositorAdaptor.ErrorCodeSuccess
-
-        Rectangle {
-            anchors.centerIn: parent
-            width: errorMessage.contentWidth * 1.1
-            height: errorMessage.contentHeight * 1.1
-            color: theme.backgroundColor
-            opacity: 0.8
-
-            border {
-                width: units.devicePixelRatio
-                color: theme.textColor
-            }
-        }
-
-        PlasmaExtras.Heading {
-            id: errorMessage
-            anchors.fill: parent
-
-            level: 4
-            text: cA.errorText
-
-            horizontalAlignment: Text.AlignHCenter
-            verticalAlignment: Text.AlignVCenter
-
-            wrapMode: Text.Wrap
-            textFormat: Text.PlainText
         }
     }
 }

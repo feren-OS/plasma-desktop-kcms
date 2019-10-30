@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkeys\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"POT-Creation-Date: 2019-09-12 03:25+0200\n"
 "PO-Revision-Date: 2013-01-11 02:41+0330\n"
 "Last-Translator: Mohammad Reza Mirdamadi <mohi@linuxshop.ir>\n"
 "Language-Team: Farsi (Persian) <kde-i18n-fa@kde.org>\n"
@@ -32,60 +32,60 @@ msgstr ""
 msgid "Components"
 msgstr "جزء KDE:"
 
-#: globalshortcuts.cpp:67
+#: globalshortcuts.cpp:65
 #, kde-format
 msgid "You are about to reset all shortcuts to their default values."
 msgstr ""
 
-#: globalshortcuts.cpp:68
+#: globalshortcuts.cpp:66
 #, fuzzy, kde-format
 #| msgid "Prefer 4-modifier defaults"
 msgid "Reset to defaults"
 msgstr "ترجیح پیش‌فرضهای ۴-تغییردهنده"
 
-#: globalshortcuts.cpp:69
+#: globalshortcuts.cpp:67
 #, fuzzy, kde-format
 #| msgid "KDE Component:"
 msgid "Current Component"
 msgstr "جزء KDE:"
 
-#: globalshortcuts.cpp:70
+#: globalshortcuts.cpp:68
 #, fuzzy, kde-format
 #| msgid "KDE Component:"
 msgid "All Components"
 msgstr "جزء KDE:"
 
-#: kglobalshortcutseditor.cpp:231
+#: kglobalshortcutseditor.cpp:233
 #, fuzzy, kde-format
 #| msgctxt "@action:button"
 #| msgid "&Save Scheme..."
 msgid "Import Scheme..."
 msgstr "&ذخیره‌سازی طرحواره...‌"
 
-#: kglobalshortcutseditor.cpp:232
+#: kglobalshortcutseditor.cpp:234
 #, fuzzy, kde-format
 #| msgctxt "@action:button"
 #| msgid "&Save Scheme..."
 msgid "Export Scheme..."
 msgstr "&ذخیره‌سازی طرحواره...‌"
 
-#: kglobalshortcutseditor.cpp:233
+#: kglobalshortcutseditor.cpp:235
 #, kde-format
 msgid "Set All Shortcuts to None"
 msgstr ""
 
-#: kglobalshortcutseditor.cpp:241
+#: kglobalshortcutseditor.cpp:243
 #, fuzzy, kde-format
 #| msgid "App&lication Shortcuts"
 msgid "Applications"
 msgstr "میان‌برهای &کاربرد‌"
 
-#: kglobalshortcutseditor.cpp:292
+#: kglobalshortcutseditor.cpp:294
 #, kde-format
 msgid "Launch %1"
 msgstr ""
 
-#: kglobalshortcutseditor.cpp:328
+#: kglobalshortcutseditor.cpp:330
 #, kde-format
 msgid ""
 "Component '%1' is currently active. Only global shortcuts currently not "
@@ -94,13 +94,13 @@ msgid ""
 "they are next started."
 msgstr ""
 
-#: kglobalshortcutseditor.cpp:330 kglobalshortcutseditor.cpp:340
+#: kglobalshortcutseditor.cpp:332 kglobalshortcutseditor.cpp:342
 #, fuzzy, kde-format
 #| msgid "KDE Component:"
 msgid "Remove component"
 msgstr "جزء KDE:"
 
-#: kglobalshortcutseditor.cpp:336
+#: kglobalshortcutseditor.cpp:338
 #, kde-format
 msgid ""
 "Are you sure you want to remove the registered shortcuts for component '%1'? "
@@ -108,19 +108,19 @@ msgid ""
 "settings when they are next started."
 msgstr ""
 
-#: kglobalshortcutseditor.cpp:450
+#: kglobalshortcutseditor.cpp:452
 #, fuzzy, kde-format
 #| msgid "App&lication Shortcuts"
 msgid "Application Launchers"
 msgstr "میان‌برهای &کاربرد‌"
 
-#: kglobalshortcutseditor.cpp:453
+#: kglobalshortcutseditor.cpp:455
 #, fuzzy, kde-format
 #| msgid "Shortcuts:"
 msgid "Other Shortcuts"
 msgstr "میان‌برها:"
 
-#: kglobalshortcutseditor.cpp:558
+#: kglobalshortcutseditor.cpp:560
 #, fuzzy, kde-format
 msgid ""
 "Your current changes will be lost if you load another scheme before saving "
@@ -129,12 +129,12 @@ msgstr ""
 "در صورتی که قبل از ذخیره این طرحواره، طرحواره دیگری را بارگذاری کنید، "
 "تغییرات جاری شما از دست می‌روند."
 
-#: kglobalshortcutseditor.cpp:559
+#: kglobalshortcutseditor.cpp:561
 #, fuzzy, kde-format
 msgid "Load Shortcut Scheme"
 msgstr "طرحواره‌های میان‌بر"
 
-#: kglobalshortcutseditor.cpp:560
+#: kglobalshortcutseditor.cpp:562
 #, kde-format
 msgid "Load"
 msgstr ""
@@ -144,14 +144,14 @@ msgstr ""
 msgid "This file (%1) does not exist. You can only select local files."
 msgstr ""
 
-#: kglobalshortcutseditor.cpp:601 kglobalshortcutseditor.cpp:624
+#: kglobalshortcutseditor.cpp:602 kglobalshortcutseditor.cpp:625
 #, kde-format
 msgid ""
 "Message: %1\n"
 "Error: %2"
 msgstr ""
 
-#: kglobalshortcutseditor.cpp:606 kglobalshortcutseditor.cpp:629
+#: kglobalshortcutseditor.cpp:607 kglobalshortcutseditor.cpp:630
 #, kde-format
 msgid "Failed to contact the KDE global shortcuts daemon\n"
 msgstr ""

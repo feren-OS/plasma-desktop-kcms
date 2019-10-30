@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkeys\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"POT-Creation-Date: 2019-09-12 03:25+0200\n"
 "PO-Revision-Date: 2008-12-29 15:55+0530\n"
 "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
 "Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
@@ -32,56 +32,56 @@ msgstr ""
 msgid "Components"
 msgstr "KDE-র অংশবিশেষ:"
 
-#: globalshortcuts.cpp:67
+#: globalshortcuts.cpp:65
 #, kde-format
 msgid "You are about to reset all shortcuts to their default values."
 msgstr ""
 
-#: globalshortcuts.cpp:68
+#: globalshortcuts.cpp:66
 #, kde-format
 msgid "Reset to defaults"
 msgstr ""
 
-#: globalshortcuts.cpp:69
+#: globalshortcuts.cpp:67
 #, fuzzy, kde-format
 #| msgid "KDE component:"
 msgid "Current Component"
 msgstr "KDE-র অংশবিশেষ:"
 
-#: globalshortcuts.cpp:70
+#: globalshortcuts.cpp:68
 #, fuzzy, kde-format
 #| msgid "KDE component:"
 msgid "All Components"
 msgstr "KDE-র অংশবিশেষ:"
 
-#: kglobalshortcutseditor.cpp:231
+#: kglobalshortcutseditor.cpp:233
 #, fuzzy, kde-format
 #| msgid "Import Scheme..."
 msgid "Import Scheme..."
 msgstr "স্কিম ইম্পোর্ট করুন..."
 
-#: kglobalshortcutseditor.cpp:232
+#: kglobalshortcutseditor.cpp:234
 #, fuzzy, kde-format
 #| msgid "Export Scheme..."
 msgid "Export Scheme..."
 msgstr "স্কিম এক্সপোর্ট করুন..."
 
-#: kglobalshortcutseditor.cpp:233
+#: kglobalshortcutseditor.cpp:235
 #, kde-format
 msgid "Set All Shortcuts to None"
 msgstr ""
 
-#: kglobalshortcutseditor.cpp:241
+#: kglobalshortcutseditor.cpp:243
 #, kde-format
 msgid "Applications"
 msgstr ""
 
-#: kglobalshortcutseditor.cpp:292
+#: kglobalshortcutseditor.cpp:294
 #, kde-format
 msgid "Launch %1"
 msgstr ""
 
-#: kglobalshortcutseditor.cpp:328
+#: kglobalshortcutseditor.cpp:330
 #, kde-format
 msgid ""
 "Component '%1' is currently active. Only global shortcuts currently not "
@@ -90,13 +90,13 @@ msgid ""
 "they are next started."
 msgstr ""
 
-#: kglobalshortcutseditor.cpp:330 kglobalshortcutseditor.cpp:340
+#: kglobalshortcutseditor.cpp:332 kglobalshortcutseditor.cpp:342
 #, fuzzy, kde-format
 #| msgid "KDE component:"
 msgid "Remove component"
 msgstr "KDE-র অংশবিশেষ:"
 
-#: kglobalshortcutseditor.cpp:336
+#: kglobalshortcutseditor.cpp:338
 #, kde-format
 msgid ""
 "Are you sure you want to remove the registered shortcuts for component '%1'? "
@@ -104,18 +104,18 @@ msgid ""
 "settings when they are next started."
 msgstr ""
 
-#: kglobalshortcutseditor.cpp:450
+#: kglobalshortcutseditor.cpp:452
 #, kde-format
 msgid "Application Launchers"
 msgstr ""
 
-#: kglobalshortcutseditor.cpp:453
+#: kglobalshortcutseditor.cpp:455
 #, fuzzy, kde-format
 #| msgid "Shortcuts:"
 msgid "Other Shortcuts"
 msgstr "শর্ট-কাট:"
 
-#: kglobalshortcutseditor.cpp:558
+#: kglobalshortcutseditor.cpp:560
 #, kde-format
 msgid ""
 "Your current changes will be lost if you load another scheme before saving "
@@ -124,13 +124,13 @@ msgstr ""
 "বর্তমান স্কিম সংরক্ষণ না করে অন্য একটি স্কিম লোড করা হলে, সম্প্রতি করা পরিবর্তনগুলি "
 "হারিয়ে যাবে।"
 
-#: kglobalshortcutseditor.cpp:559
+#: kglobalshortcutseditor.cpp:561
 #, fuzzy, kde-format
 #| msgid "Load Shortcurt Scheme"
 msgid "Load Shortcut Scheme"
 msgstr "শর্ট-কাট স্কিম লোড করুন"
 
-#: kglobalshortcutseditor.cpp:560
+#: kglobalshortcutseditor.cpp:562
 #, kde-format
 msgid "Load"
 msgstr "লোড করুন"
@@ -140,7 +140,7 @@ msgstr "লোড করুন"
 msgid "This file (%1) does not exist. You can only select local files."
 msgstr "এই ফাইলটি (%1) উপস্থিত নেই। শুধুমাত্র স্থানীয় ফাইল নির্বাচন করা যাবে।"
 
-#: kglobalshortcutseditor.cpp:601 kglobalshortcutseditor.cpp:624
+#: kglobalshortcutseditor.cpp:602 kglobalshortcutseditor.cpp:625
 #, kde-format
 msgid ""
 "Message: %1\n"
@@ -149,7 +149,7 @@ msgstr ""
 "বার্তা: %1\n"
 "ত্রুটি: %2"
 
-#: kglobalshortcutseditor.cpp:606 kglobalshortcutseditor.cpp:629
+#: kglobalshortcutseditor.cpp:607 kglobalshortcutseditor.cpp:630
 #, kde-format
 msgid "Failed to contact the KDE global shortcuts daemon\n"
 msgstr "KDE গ্লোবাল শর্ট-কাট ডেমনের সাথে সংযোগ স্থাপন করতে ব্যর্থ\n"

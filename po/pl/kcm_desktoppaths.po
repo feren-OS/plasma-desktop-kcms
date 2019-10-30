@@ -1,6 +1,6 @@
 # translation of kcmkonq.po to
 # translation of kcmkonq.po to
-# Version: $Revision: 1542253 $
+# Version: $Revision: 1551547 $
 # translation of kcmkonq.po to Polish
 # translation of kcmkonq.po to
 # translation of kcmkonq.po to
@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkonq\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"POT-Creation-Date: 2019-09-12 03:25+0200\n"
 "PO-Revision-Date: 2017-09-02 19:51+0100\n"
 "Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
 "Language-Team: Polish <kde-i18n-doc@kde.org>\n"
@@ -32,7 +32,7 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2);\n"
 
-#: globalpaths.cpp:113
+#: globalpaths.cpp:115
 #, kde-format
 msgid ""
 "<h1>Paths</h1>\n"
@@ -45,12 +45,12 @@ msgstr ""
 "przechowywane są różne pliki pulpitu.\n"
 "Użyj \"Co to jest?\" (Shift+F1), by uzyskać pomoc o konkretnych opcjach."
 
-#: globalpaths.cpp:118
+#: globalpaths.cpp:120
 #, kde-format
 msgid "Desktop path:"
 msgstr "Ścieżka do pulpitu:"
 
-#: globalpaths.cpp:119
+#: globalpaths.cpp:121
 #, kde-format
 msgid ""
 "This folder contains all the files which you see on your desktop. You can "
@@ -61,12 +61,12 @@ msgstr ""
 "położenie tego katalogu, jego zawartość zostanie automatycznie przeniesiona "
 "na nowe miejsce."
 
-#: globalpaths.cpp:124
+#: globalpaths.cpp:126
 #, kde-format
 msgid "Autostart path:"
 msgstr "Ścieżka do programów Autostartu:"
 
-#: globalpaths.cpp:125
+#: globalpaths.cpp:127
 #, kde-format
 msgid ""
 "This folder contains applications or links to applications (shortcuts) that "
@@ -78,12 +78,12 @@ msgstr ""
 "przy każdym rozpoczęciu sesji. Można zmienić położenie tego katalogu, jego "
 "zawartość zostanie samoczynnie przeniesiona na nowe miejsce."
 
-#: globalpaths.cpp:131
+#: globalpaths.cpp:133
 #, kde-format
 msgid "Documents path:"
 msgstr "Ścieżka do dokumentów:"
 
-#: globalpaths.cpp:132
+#: globalpaths.cpp:134
 #, kde-format
 msgid ""
 "This folder will be used by default to load or save documents from or to."
@@ -91,36 +91,36 @@ msgstr ""
 "Ten katalog będzie używany jako domyślne miejsce wczytywania i zapisywania "
 "dokumentów."
 
-#: globalpaths.cpp:135
+#: globalpaths.cpp:137
 #, kde-format
 msgid "Downloads path:"
 msgstr "Ścieżka do pobranych:"
 
-#: globalpaths.cpp:136
+#: globalpaths.cpp:138
 #, kde-format
 msgid "This folder will be used by default to save your downloaded items."
 msgstr ""
 "Ten katalog będzie używany jako domyślne miejsce zapisywania pobieranych "
 "elementów."
 
-#: globalpaths.cpp:139
+#: globalpaths.cpp:141
 #, kde-format
 msgid "Movies path:"
 msgstr "Ścieżka do filmów:"
 
-#: globalpaths.cpp:140
+#: globalpaths.cpp:142
 #, kde-format
 msgid "This folder will be used by default to load or save movies from or to."
 msgstr ""
 "Ten katalog będzie używany jako domyślne miejsce wczytywania i zapisywania "
 "filmów."
 
-#: globalpaths.cpp:143
+#: globalpaths.cpp:145
 #, kde-format
 msgid "Pictures path:"
 msgstr "Ścieżka do obrazków:"
 
-#: globalpaths.cpp:144
+#: globalpaths.cpp:146
 #, kde-format
 msgid ""
 "This folder will be used by default to load or save pictures from or to."
@@ -128,54 +128,54 @@ msgstr ""
 "Ten katalog będzie używany jako domyślne miejsce wczytywania i zapisywania "
 "obrazków."
 
-#: globalpaths.cpp:147
+#: globalpaths.cpp:149
 #, kde-format
 msgid "Music path:"
 msgstr "Ścieżka do muzyki:"
 
-#: globalpaths.cpp:148
+#: globalpaths.cpp:150
 #, kde-format
 msgid "This folder will be used by default to load or save music from or to."
 msgstr ""
 "Ten katalog będzie używany jako domyślne miejsce wczytywania i zapisywania "
 "muzyki."
 
-#: globalpaths.cpp:277 globalpaths.cpp:295
+#: globalpaths.cpp:279 globalpaths.cpp:297
 #, kde-format
 msgid "Autostart"
 msgstr "Autostart"
 
-#: globalpaths.cpp:281
+#: globalpaths.cpp:283
 #, kde-format
 msgid "Desktop"
 msgstr "Pulpit"
 
-#: globalpaths.cpp:305
+#: globalpaths.cpp:307
 #, kde-format
 msgid "Documents"
 msgstr "Dokumenty"
 
-#: globalpaths.cpp:308
+#: globalpaths.cpp:310
 #, kde-format
 msgid "Downloads"
 msgstr "Pobierane"
 
-#: globalpaths.cpp:311
+#: globalpaths.cpp:313
 #, kde-format
 msgid "Movies"
 msgstr "Filmy"
 
-#: globalpaths.cpp:314
+#: globalpaths.cpp:316
 #, kde-format
 msgid "Pictures"
 msgstr "Obrazki"
 
-#: globalpaths.cpp:317
+#: globalpaths.cpp:319
 #, kde-format
 msgid "Music"
 msgstr "Muzyka"
 
-#: globalpaths.cpp:376
+#: globalpaths.cpp:378
 #, kde-format
 msgid ""
 "The path for '%1' has been changed.\n"
@@ -184,19 +184,19 @@ msgstr ""
 "Ścieżka dla '%1' uległa zmianie.\n"
 "Czy przenieść pliki z '%2' do '%3'?"
 
-#: globalpaths.cpp:379
+#: globalpaths.cpp:381
 #, kde-format
 msgctxt "Move files from old to new place"
 msgid "Move"
 msgstr "Przenieś"
 
-#: globalpaths.cpp:380
+#: globalpaths.cpp:382
 #, kde-format
 msgctxt "Use the new directory but do not move files"
 msgid "Do not Move"
 msgstr "Nie przenoś"
 
-#: globalpaths.cpp:382
+#: globalpaths.cpp:384
 #, kde-format
 msgid ""
 "The path for '%1' has been changed.\n"
@@ -205,19 +205,19 @@ msgstr ""
 "Ścieżka dla '%1' uległa zmianie.\n"
 "Czy przenieść pliki z '%2' do '%3'?"
 
-#: globalpaths.cpp:385
+#: globalpaths.cpp:387
 #, kde-format
 msgctxt "Move the directory"
 msgid "Move"
 msgstr "Przenieś"
 
-#: globalpaths.cpp:386
+#: globalpaths.cpp:388
 #, kde-format
 msgctxt "Use the new directory but do not move anything"
 msgid "Do not Move"
 msgstr "Nie przenoś"
 
-#: globalpaths.cpp:390
+#: globalpaths.cpp:392
 #, kde-format
 msgid "Confirmation Required"
 msgstr "Spytaj o potwierdzenie"

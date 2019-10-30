@@ -12,8 +12,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcm_colors\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-06-21 07:50+0200\n"
-"PO-Revision-Date: 2019-05-31 18:44+0100\n"
+"POT-Creation-Date: 2019-08-05 03:06+0200\n"
+"PO-Revision-Date: 2019-06-26 20:39+0100\n"
 "Last-Translator: Josep Ma. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -34,105 +34,51 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "aacid@kde.org"
 
-#: colors.cpp:69 editor/scmeditordialog.cpp:80
+#: colors.cpp:70 editor/scmeditordialog.cpp:80
 #, kde-format
 msgid "Colors"
 msgstr "Colors"
 
-#: colors.cpp:71
+#: colors.cpp:72
 #, kde-format
 msgid "Kai Uwe Broulik"
 msgstr "Kai Uwe Broulik"
 
-#: colors.cpp:110
+#: colors.cpp:111
 #, kde-format
 msgid "Download New Color Schemes"
 msgstr "Baixa esquemes nous de colors"
 
-#: colors.cpp:166
+#: colors.cpp:167
 #, kde-format
 msgid "Unable to create a temporary file."
 msgstr "No s'ha pogut crear el fitxer temporal."
 
-#: colors.cpp:180
+#: colors.cpp:181
 #, kde-format
 msgid "Unable to download the color scheme: %1"
 msgstr "No s'ha pogut baixar l'esquema de colors: %1"
 
-#: colors.cpp:198
+#: colors.cpp:199
 #, kde-format
 msgid "This file is not a color scheme file."
 msgstr "Aquest fitxer no és un esquema de colors."
 
-#: colors.cpp:218
+#: colors.cpp:219
 #, kde-format
 msgid "Failed to create 'color-scheme' data folder."
 msgstr "Ha fallat en crear la carpeta de dades «color-scheme»."
 
-#: colors.cpp:225
+#: colors.cpp:226
 #, kde-format
 msgid "Failed to copy color scheme into 'color-scheme' data folder."
 msgstr ""
 "Ha fallat en copiar l'esquema de colors a la carpeta de dades «color-scheme»."
 
-#: colors.cpp:242
+#: colors.cpp:243
 #, kde-format
 msgid "Color scheme installed successfully."
 msgstr "L'esquema de colors s'ha instal·lat correctament."
-
-#. i18n: ectx: property (toolTip), widget (QPushButton, schemeEditButton)
-#: editor/colorsettings.ui:31
-#, kde-format
-msgid "Configure the current color scheme"
-msgstr "Configura l'esquema de color actual"
-
-#. i18n: ectx: property (text), widget (QPushButton, schemeEditButton)
-#: editor/colorsettings.ui:34
-#, kde-format
-msgid "Edit..."
-msgstr "Edita..."
-
-#. i18n: ectx: property (toolTip), widget (QPushButton, schemeRemoveButton)
-#: editor/colorsettings.ui:52
-#, kde-format
-msgid "Remove the selected scheme"
-msgstr "Elimina l'esquema seleccionat"
-
-#. i18n: ectx: property (text), widget (QPushButton, schemeRemoveButton)
-#: editor/colorsettings.ui:55
-#, kde-format
-msgid "Remove"
-msgstr "Elimina"
-
-#. i18n: ectx: property (toolTip), widget (QPushButton, schemeImportButton)
-#: editor/colorsettings.ui:83
-#, kde-format
-msgid "Import a color scheme from a file"
-msgstr "Importa un esquema de color des d'un fitxer"
-
-#. i18n: ectx: property (text), widget (QPushButton, schemeImportButton)
-#: editor/colorsettings.ui:86
-#, kde-format
-msgid "&Install from File..."
-msgstr "&Instal·la des d'un fitxer..."
-
-#. i18n: ectx: property (toolTip), widget (QPushButton, schemeKnsButton)
-#: editor/colorsettings.ui:98
-#, kde-format
-msgid "Get new color schemes from the Internet"
-msgstr "Obtén esquemes de color nous des d'Internet"
-
-#. i18n: ectx: property (text), widget (QPushButton, schemeKnsButton)
-#: editor/colorsettings.ui:101
-#, kde-format
-msgid "Get &New Color Schemes..."
-msgstr "Obtén esquemes &nous de colors..."
-
-#. i18n: ectx: property (text), widget (QCheckBox, applyToAlien)
-#: editor/colorsettings.ui:137
-#, kde-format
-msgid "Apply colors to &non-Qt applications"
-msgstr "Aplica els colors a les aplicacions &no-Qt"
 
 #: editor/kcolorschemeeditor.cpp:35
 #, kde-format
@@ -1187,7 +1133,7 @@ msgstr "focus"
 msgid "This module lets you choose the color scheme."
 msgstr "Aquest mòdul permet triar l'esquema de colors."
 
-#: package/contents/ui/main.qml:83
+#: package/contents/ui/main.qml:84
 #, kde-format
 msgid ""
 "The color scheme '%1' is not installed. Selecting the default theme instead."
@@ -1195,94 +1141,99 @@ msgstr ""
 "L'esquema de colors «%1» no està instal·lat. En el seu lloc se selecciona el "
 "tema predeterminat."
 
-#: package/contents/ui/main.qml:95
+#: package/contents/ui/main.qml:96
 #, kde-format
 msgid "Search..."
 msgstr "Cerca..."
 
-#: package/contents/ui/main.qml:133
+#: package/contents/ui/main.qml:134
 #, kde-format
 msgid "All Schemes"
 msgstr "Tots els esquemes"
 
-#: package/contents/ui/main.qml:134
+#: package/contents/ui/main.qml:135
 #, kde-format
 msgid "Light Schemes"
 msgstr "Esquemes clars"
 
-#: package/contents/ui/main.qml:135
+#: package/contents/ui/main.qml:136
 #, kde-format
 msgid "Dark Schemes"
 msgstr "Esquemes foscos"
 
-#: package/contents/ui/main.qml:193
+#: package/contents/ui/main.qml:202
+#, kde-format
+msgid "Window Title"
+msgstr "Títol de la finestra"
+
+#: package/contents/ui/main.qml:223
 #, kde-format
 msgid "Window text"
 msgstr "Text de la finestra"
 
-#: package/contents/ui/main.qml:200
+#: package/contents/ui/main.qml:230
 #, kde-format
 msgid "Button"
 msgstr "Botó"
 
-#: package/contents/ui/main.qml:219
+#: package/contents/ui/main.qml:249
 #, kde-format
 msgctxt "Hyperlink"
 msgid "link"
 msgstr "enllaç"
 
-#: package/contents/ui/main.qml:221
+#: package/contents/ui/main.qml:251
 #, kde-format
 msgctxt "Visited hyperlink"
 msgid "visited"
 msgstr "visitat"
 
-#: package/contents/ui/main.qml:227
+#: package/contents/ui/main.qml:257
 #, kde-format
 msgid "Normal text"
 msgstr "Text normal"
 
-#: package/contents/ui/main.qml:235
+#: package/contents/ui/main.qml:265
 #, kde-format
 msgid "Highlighted text"
 msgstr "Text ressaltat"
 
-#: package/contents/ui/main.qml:242
+#: package/contents/ui/main.qml:272
 #, kde-format
 msgid "Disabled text"
 msgstr "Text desactivat"
 
-#: package/contents/ui/main.qml:260
+#: package/contents/ui/main.qml:290
 #, kde-format
 msgid "Edit Color Scheme..."
 msgstr "Edició de l'esquema de color..."
 
-#: package/contents/ui/main.qml:266
+#: package/contents/ui/main.qml:296
 #, kde-format
 msgid "Remove Color Scheme"
 msgstr "Elimina l'esquema de colors"
 
-#: package/contents/ui/main.qml:273
+#: package/contents/ui/main.qml:303
 #, kde-format
 msgid "Restore Color Scheme"
 msgstr "Restaura l'esquema de colors"
 
-#: package/contents/ui/main.qml:316
+#: package/contents/ui/main.qml:346
 #, kde-format
 msgid "Install from File..."
 msgstr "Instal·la des d'un fitxer..."
 
-#: package/contents/ui/main.qml:322
+#: package/contents/ui/main.qml:352
 #, kde-format
 msgid "Get New Color Schemes..."
 msgstr "Obtén esquemes &nous de colors..."
 
-#: package/contents/ui/main.qml:334
+#: package/contents/ui/main.qml:364
 #, kde-format
 msgid "Open Color Scheme"
 msgstr "Obre un esquema de colors"
 
-#: package/contents/ui/main.qml:336
+#: package/contents/ui/main.qml:366
 #, kde-format
 msgid "Color Scheme Files (*.colors)"
 msgstr "Fitxers d'esquema de colors (*.colors)"

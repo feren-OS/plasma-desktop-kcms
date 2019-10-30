@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kappfinder\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"POT-Creation-Date: 2019-07-11 03:14+0200\n"
 "PO-Revision-Date: 2008-07-04 11:50+0530\n"
 "Last-Translator: ANI PETER|അനി പീറ്റര്‍ <peter.ani@gmail.com>\n"
 "Language-Team: Swathanthra|സ്വതന്ത്ര Malayalam|മലയാളം Computing|കമ്പ്യൂട്ടിങ്ങ് <smc-"
@@ -19,7 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: KBabel 1.11.4\n"
 
-#: kcmsmserver.cpp:62
+#: kcmsmserver.cpp:63
 #, kde-format
 msgid ""
 "<h1>Session Manager</h1> You can configure the session manager here. This "
@@ -32,35 +32,34 @@ msgstr ""
 "പോകുന്നതിനെ (ലോഗൌട്ട്) സ്ഥിരീകരിക്കണോ വേണ്ടയോ , സെഷന്‍ പുന:സ്ഥാപിക്കണോ വേണ്ടയോ , സെഷനില്‍ "
 "നിന്ന് പുറത്ത് പോയതിന് ശേഷം കമ്പ്യൂട്ടര്‍ സ്വയം അടച്ചു പൂട്ടണോ എന്നിവയൊക്കെ ഈക്രമീകരണങ്ങളില്‍ പെടും"
 
-#: kcmsmserver.cpp:82
+#: kcmsmserver.cpp:83
 #, fuzzy, kde-format
-#| msgid "&Restart computer"
 msgid "Restart Now"
 msgstr "കമ്പ്യൂട്ടര്‍ &വീണ്ടും ആരംഭിക്കുക"
 
-#: kcmsmserver.cpp:114
+#: kcmsmserver.cpp:124
 #, kde-format
 msgid "Failed to request restart to firmware setup: %1"
 msgstr ""
 
-#: kcmsmserver.cpp:126
+#: kcmsmserver.cpp:136
 #, kde-format
 msgid ""
 "Next time the computer is restarted, it will enter the UEFI setup screen."
 msgstr ""
 
-#: kcmsmserver.cpp:128
+#: kcmsmserver.cpp:138
 #, kde-format
 msgid ""
 "Next time the computer is restarted, it will enter the firmware setup screen."
 msgstr ""
 
-#: kcmsmserver.cpp:140
+#: kcmsmserver.cpp:150
 #, kde-format
 msgid "UEFI Setup"
 msgstr ""
 
-#: kcmsmserver.cpp:141
+#: kcmsmserver.cpp:151
 #, kde-format
 msgid "Enter UEFI setup on next restart"
 msgstr ""
@@ -106,7 +105,6 @@ msgstr ""
 #. i18n: ectx: property (title), widget (QGroupBox, sdGroup)
 #: smserverconfigdlg.ui:46
 #, fuzzy, kde-format
-#| msgid "Default Shutdown Option"
 msgid "Default Leave Option"
 msgstr "അടച്ചു പൂട്ടുന്നതിനു് സ്വതവേയുള്ള ഉപാധി"
 
@@ -185,10 +183,6 @@ msgstr "സെഷനുകളില്‍ നിന്നും &മാറ്റ
 #. i18n: ectx: property (whatsThis), widget (QLineEdit, excludeLineedit)
 #: smserverconfigdlg.ui:123
 #, fuzzy, kde-format
-#| msgid ""
-#| "Here you can enter a comma-separated list of applications that should not "
-#| "be saved in sessions, and therefore will not be started when restoring a "
-#| "session. For example 'xterm,xconsole'."
 msgid ""
 "Here you can enter a colon or comma separated list of applications that "
 "should not be saved in sessions, and therefore will not be started when "

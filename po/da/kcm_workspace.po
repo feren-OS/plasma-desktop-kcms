@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"POT-Creation-Date: 2019-08-02 03:11+0200\n"
 "PO-Revision-Date: 2019-05-07 13:24+0100\n"
 "Last-Translator: Martin Schlander <mschlander@opensuse.org>\n"
 "Language-Team: Danish <kde-i18n-doc@kde.org>\n"
@@ -58,14 +58,17 @@ msgid "Double-click to open files and folders (single click to select)"
 msgstr "Dobbeltklik for at åbne filer og mapper (enkeltklik for at markere)"
 
 #: workspaceoptions.cpp:40
-#, kde-format
-msgid "Plasma Workspace global options"
-msgstr "Globale indstillinger for Plasma arbejdsområde"
+#, fuzzy, kde-format
+#| msgid "Visual behavior:"
+msgid "General Behavior"
+msgstr "Visuel opførsel:"
 
 #: workspaceoptions.cpp:42
-#, kde-format
-msgid ""
-"System Settings module for managing global options for the Plasma Workspace."
+#, fuzzy, kde-format
+#| msgid ""
+#| "System Settings module for managing global options for the Plasma "
+#| "Workspace."
+msgid "System Settings module for configuring general workspace behavior."
 msgstr ""
 "Systemindstillinger-modul til håndtering af globale indstillinger for Plasma "
 "arbejdsområdet."

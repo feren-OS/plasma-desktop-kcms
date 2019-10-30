@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcm_desktopthemedetails\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
-"PO-Revision-Date: 2019-05-12 18:26+0200\n"
+"POT-Creation-Date: 2019-08-16 03:26+0200\n"
+"PO-Revision-Date: 2019-08-08 15:40+0200\n"
 "Last-Translator: Tommi Nieminen <translator@legisign.org>\n"
 "Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
 "Language: fi\n"
@@ -34,50 +34,50 @@ msgid "Your emails"
 msgstr ""
 "teemu.rytilahti@kde-fi.org,karvonen.jorma@gmail.com,translator@legisign.org"
 
-#: kcm.cpp:61
+#: kcm.cpp:57
 #, kde-format
-msgid "Plasma Theme"
-msgstr "Plasma-teema"
+msgid "Plasma Style"
+msgstr "Plasma-tyyli"
 
-#: kcm.cpp:63
+#: kcm.cpp:59
 #, kde-format
 msgid "David Rosca"
 msgstr "David Rosca"
 
-#: kcm.cpp:139
+#: kcm.cpp:135
 #, kde-format
-msgid "Download New Plasma Themes"
-msgstr "Lataa uusia Plasma-teemoja"
+msgid "Download New Plasma Styles"
+msgstr "Lataa uusia Plasma-tyylejä"
 
-#: kcm.cpp:165
+#: kcm.cpp:161
 #, kde-format
 msgid "Unable to create a temporary file."
 msgstr "Väliaikaistiedostoa ei voida luoda."
 
-#: kcm.cpp:177
+#: kcm.cpp:173
 #, kde-format
 msgid "Unable to download the theme: %1"
 msgstr "Ei voida ladata teemaa: %1"
 
-#: kcm.cpp:200
+#: kcm.cpp:196
 #, kde-format
 msgid "Theme installed successfully."
 msgstr "Teeman asennus onnistui."
 
-#: kcm.cpp:203 kcm.cpp:211
+#: kcm.cpp:199 kcm.cpp:207
 #, kde-format
 msgid "Theme installation failed."
 msgstr "Teeman asennus epäonnistui."
 
-#: kcm.cpp:360
+#: kcm.cpp:356
 #, kde-format
 msgid "Removing theme failed: %1"
 msgstr "Teeman poisto epäonnistui: %1"
 
 #: package/contents/ui/main.qml:30
 #, kde-format
-msgid "This module lets you choose the Plasma theme."
-msgstr "Tässä osiossa voit valita työpöytäteeman."
+msgid "This module lets you choose the Plasma style."
+msgstr "Tässä osiossa voit valita Plasma-tyylin."
 
 #: package/contents/ui/main.qml:68
 #, kde-format
@@ -101,8 +101,8 @@ msgstr "Asenna tiedostosta…"
 
 #: package/contents/ui/main.qml:126
 #, kde-format
-msgid "Get New Plasma Themes..."
-msgstr "Hae uusia Plasma-teemoja…"
+msgid "Get New Plasma Styles..."
+msgstr "Hae uusia Plasma-tyylejä…"
 
 #: package/contents/ui/main.qml:138
 #, kde-format

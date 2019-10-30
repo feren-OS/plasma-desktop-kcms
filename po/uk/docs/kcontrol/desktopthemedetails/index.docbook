@@ -7,7 +7,7 @@
 <article id="desktopthemedetails" lang="&language;">
 <articleinfo>
 <title
->Теми Плазми</title>
+>Стиль Плазми</title>
 <authorgroup>
 <author
 ><firstname
@@ -121,7 +121,7 @@
   <varlistentry>
     <term
 ><guilabel
->Отримати нові теми Плазми…</guilabel
+>Отримати нові стилі Плазми…</guilabel
 ></term>
     <listitem>
     <para
@@ -133,14 +133,14 @@
     <para>
     <screenshot>
     <screeninfo
->Отримати нові теми Плазми…</screeninfo>
+>Отримати нові стилі Плазми…</screeninfo>
       <mediaobject>
         <imageobject>
           <imagedata fileref="get-new-theme.png" format="PNG"/>
         </imageobject>
         <textobject>
           <phrase
->Отримати нові теми Плазми…</phrase>
+>Отримати нові стилі Плазми…</phrase>
         </textobject>
       </mediaobject>
     </screenshot>

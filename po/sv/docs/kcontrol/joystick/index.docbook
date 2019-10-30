@@ -7,7 +7,7 @@
 <article id="joystick" lang="&language;">
 <articleinfo>
 <title
->Styrspak</title>
+>Spelkontroll</title>
 <authorgroup>
 <author
 ><firstname
@@ -51,28 +51,32 @@
 <keyword
 >styrspak</keyword>
 <keyword
+>kontroll</keyword>
+<keyword
+>handkontroll</keyword>
+<keyword
 >kalibrera</keyword>
 </keywordset>
 </articleinfo>
 
 <sect1 id="kcm_joystick">
 <title
->Inställningsmodul för styrspak</title>
+>Kalibrera spelkontroll</title>
 
 <para
->Den här modulen tillhandahåller ett gränssnitt för att kalibrera en styrspak, samt för att se vilka funktioner på styrspaken som motsvarar vilken logisk knapp eller axel.</para>
+>Den här modulen tillhandahåller ett gränssnitt för att kalibrera en spelkontroll, samt för att se vilka funktioner på spelkontrollen som motsvarar vilken logisk knapp eller axel.</para>
 
 <para>
 <screenshot>
 <screeninfo
->Här är en skärmbild av styrspaksmodulen</screeninfo>
+>Här är en skärmbild av spelkontrollmodulen</screeninfo>
   <mediaobject>
     <imageobject>
       <imagedata fileref="joystick-main.png" format="PNG"/>
     </imageobject>
     <textobject>
       <phrase
->Styrspaksmodulen</phrase>
+>Spelkontrollmodulen</phrase>
     </textobject>
   </mediaobject>
 </screenshot>
@@ -86,9 +90,9 @@
 ></term>
 <listitem>
 <para
->Hät kan du se enhetens logiska plats. Om du har mer än en styrspak kan du också välja vilken du vill ställa in. </para>
+>Här kan du se enhetens logiska plats. Om du har mer än en spelkontroll kan du också välja vilken du vill ställa in. </para>
 <para
->Om ingen styrspak hittas automatiskt på datorn och du vet att det finns en som är ansluten, kan du skriva in rätt enhetsfil här. </para>
+>Om ingen spelkontroll hittas automatiskt på datorn och du vet att det finns en som är ansluten, kan du skriva in rätt enhetsfil här. </para>
 </listitem>
 </varlistentry>
 
@@ -99,7 +103,7 @@
 ></term>
 <listitem>
 <para
->Den uppritade platsen för styrspakens X- och Y-axlar. Aktivera <guibutton
+>Den uppritade platsen för spelkontrollens X- och Y-axlar. Aktivera <guibutton
 >Visa spår</guibutton
 > för att rita upp spåret av styrspaken från en punkt till en annan. </para>
 <tip
@@ -117,7 +121,7 @@
 ></term>
 <listitem>
 <para
->Ett ställe där du kan se knapparnas nertryckta tillstånd på styrspaken, och om knapparna är riktigt avbildade. När en knapp på styrspaken trycks ner, visas <guilabel
+>Ett ställe där du kan se knapparnas nertryckta tillstånd på spelkontrollen, och om knapparna är riktigt avbildade. När en knapp trycks ner, visas <guilabel
 >TRYCKT</guilabel
 > intill det logiska numret (som datorn ser det) för knappen som trycktes ner. </para>
 </listitem>
@@ -130,7 +134,7 @@
 ></term>
 <listitem>
 <para
->Det här visar de numeriska värdena hos axlarnas positioner. Noll är i mitten, och de maximala och minimala värdena beror på styrspaken och den specifika axeln. </para>
+>Det här visar de numeriska värdena hos axlarnas positioner. Noll är i mitten, och de maximala och minimala värdena beror på spelkontrollen och den specifika axeln. </para>
 </listitem>
 </varlistentry>
 
@@ -143,19 +147,19 @@
 <para
 >Att klicka på <guibutton
 >Kalibrera</guibutton
-> visar en dialogruta för att kalibrera styrspakens alla axlar. </para>
+> visar en dialogruta för att kalibrera spelkontrollens alla axlar. </para>
 
 <para>
 <screenshot>
 <screeninfo
->Kalibrering av styrspaken</screeninfo>
+>Kalibrering av spelkontrollen</screeninfo>
   <mediaobject>
     <imageobject>
       <imagedata fileref="joystick-calibration.png" format="PNG"/>
     </imageobject>
     <textobject>
       <phrase
->Kalibrering av styrspaken</phrase>
+>Kalibrering av spelkontrollen</phrase>
     </textobject>
   </mediaobject>
 </screenshot>

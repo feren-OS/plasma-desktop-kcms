@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KDE 4.1\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"POT-Creation-Date: 2019-09-18 03:38+0200\n"
 "PO-Revision-Date: 2017-12-13 17:25-0500\n"
 "Last-Translator: Kiszel Kristóf <kiszel.kristof@gmail.com>\n"
 "Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
@@ -61,12 +61,12 @@ msgstr "A következő paranccsal:"
 msgid "..."
 msgstr "…"
 
-#: componentchooser.cpp:134
+#: componentchooser.cpp:133
 #, kde-format
 msgid "Unknown"
 msgstr "Ismeretlen"
 
-#: componentchooser.cpp:151
+#: componentchooser.cpp:150
 #, kde-format
 msgid ""
 "Choose from the list below which component should be used by default for the "
@@ -75,7 +75,7 @@ msgstr ""
 "Válassza ki az alábbi listából a(z) %1 szolgáltatás alapértelmezett "
 "komponensét."
 
-#: componentchooser.cpp:183
+#: componentchooser.cpp:182
 #, kde-format
 msgid ""
 "<qt>You changed the default component of your choice, do want to save that "
@@ -84,7 +84,7 @@ msgstr ""
 "<qt>Megváltoztatott egy alapértelmezett komponenst, el szeretné menteni a "
 "módosítást?</qt>"
 
-#: componentchooser.cpp:188
+#: componentchooser.cpp:187
 #, kde-format
 msgid "No description available"
 msgstr "Nincs leírás"
@@ -154,7 +154,7 @@ msgstr "Válassza ki az alapértelmezett webböngészőt:"
 msgid "Select preferred email client:"
 msgstr "Az alapértelmezett e-mail-kliens:"
 
-#: componentchooserterminal.cpp:104
+#: componentchooserterminal.cpp:102
 #, kde-format
 msgid "Select preferred terminal application:"
 msgstr "Az alapértelmezett parancsértelmező:"

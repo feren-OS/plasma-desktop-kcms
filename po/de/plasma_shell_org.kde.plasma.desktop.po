@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-06-15 07:36+0200\n"
-"PO-Revision-Date: 2019-05-22 07:54+0200\n"
+"POT-Creation-Date: 2019-07-26 03:18+0200\n"
+"PO-Revision-Date: 2019-08-06 21:19+0200\n"
 "Last-Translator: Burkhard Lück <lueck@hube-lueck.de>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
 "Language: de\n"
@@ -56,11 +56,11 @@ msgstr "Löschen"
 msgid "Keyboard Shortcuts"
 msgstr "Kurzbefehle"
 
-#: contents/configuration/AppletConfiguration.qml:111
+#: contents/configuration/AppletConfiguration.qml:133
 msgid "Apply Settings"
 msgstr "Einstellungen anwenden"
 
-#: contents/configuration/AppletConfiguration.qml:112
+#: contents/configuration/AppletConfiguration.qml:134
 msgid ""
 "The settings of the current module have changed. Do you want to apply the "
 "changes or discard them?"
@@ -68,15 +68,15 @@ msgstr ""
 "Die Einstellungen im aktuellen Modul wurden geändert. Möchten Sie die "
 "Änderungen anwenden oder verwerfen?"
 
-#: contents/configuration/AppletConfiguration.qml:407
+#: contents/configuration/AppletConfiguration.qml:418
 msgid "OK"
 msgstr "OK"
 
-#: contents/configuration/AppletConfiguration.qml:414
+#: contents/configuration/AppletConfiguration.qml:425
 msgid "Apply"
 msgstr "Anwenden"
 
-#: contents/configuration/AppletConfiguration.qml:420
+#: contents/configuration/AppletConfiguration.qml:431
 #: contents/explorer/AppletAlternatives.qml:185
 msgid "Cancel"
 msgstr "Abbrechen"
@@ -165,6 +165,8 @@ msgstr "Jetzt anwenden"
 #: contents/configuration/ConfigurationShortcuts.qml:39
 msgid "This shortcut will activate the applet as though it had been clicked."
 msgstr ""
+"Mit diesem Kurzbefehl wird das Miniprogramm so aktiviert wie beim Klicken "
+"darauf."
 
 #: contents/configuration/ContainmentConfiguration.qml:43
 msgid "Wallpaper"

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkeys\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"POT-Creation-Date: 2019-09-12 03:25+0200\n"
 "PO-Revision-Date: 2010-12-21 16:15+0530\n"
 "Last-Translator: Shankar Prasad <svenkate@redhat.com>\n"
 "Language-Team: kn-l10n <kde-kn-l10n@kde.org>\n"
@@ -32,54 +32,54 @@ msgstr "ರಫ್ತು ಮಾಡಲು ಘಟಕವನ್ನು ಆಯ್ಕೆ
 msgid "Components"
 msgstr "ಘಟಕಗಳು"
 
-#: globalshortcuts.cpp:67
+#: globalshortcuts.cpp:65
 #, kde-format
 msgid "You are about to reset all shortcuts to their default values."
 msgstr ""
 "ನೀವು ಎಲ್ಲಾ ಶೀಘ್ರಮಾರ್ಗಗಳನ್ನು (ಶಾರ್ಟ್ ಕಟ್) ಅವುಗಳ ಪೂರ್ವನಿಯೋಜಿತ ಮೌಲ್ಯಕ್ಕೆ ಬದಲಾಯಿಸಲಿದ್ದೀರಿ."
 
-#: globalshortcuts.cpp:68
+#: globalshortcuts.cpp:66
 #, kde-format
 msgid "Reset to defaults"
 msgstr "ಪೂರ್ವನಿಯೋಜಿತಕ್ಕೆ ಮರಳಿ ಹೊಂದಿಸುಪೂರ್ವನಿಯೋಜಿತಕ್ಕೆ ಮರಳಿ ಹೊಂದಿsಸ"
 
-#: globalshortcuts.cpp:69
+#: globalshortcuts.cpp:67
 #, kde-format
 msgid "Current Component"
 msgstr "ಪ್ರಸಕ್ತ ಘಟಕ"
 
-#: globalshortcuts.cpp:70
+#: globalshortcuts.cpp:68
 #, kde-format
 msgid "All Components"
 msgstr "ಎಲ್ಲಾ ಘಟಕಗಳು"
 
-#: kglobalshortcutseditor.cpp:231
+#: kglobalshortcutseditor.cpp:233
 #, kde-format
 msgid "Import Scheme..."
 msgstr "ಪದ್ಧತಿಯನ್ನು (ಸ್ಕೀಮ್) ಆಮದು ಮಾಡಿಕೊ..."
 
-#: kglobalshortcutseditor.cpp:232
+#: kglobalshortcutseditor.cpp:234
 #, kde-format
 msgid "Export Scheme..."
 msgstr "ಪದ್ಧತಿಯನ್ನು (ಸ್ಕೀಮ್) ರಫ್ತು ಮಾಡು..."
 
-#: kglobalshortcutseditor.cpp:233
+#: kglobalshortcutseditor.cpp:235
 #, kde-format
 msgid "Set All Shortcuts to None"
 msgstr "ಎಲ್ಲಾ ಶೀಘ್ರ ಮಾರ್ಗಗಳನ್ನು ಏನೂ ಇಲ್ಲ ಎಂಬುದಕ್ಕೆ ಹೊಂದಿಸಿ"
 
-#: kglobalshortcutseditor.cpp:241
+#: kglobalshortcutseditor.cpp:243
 #, fuzzy, kde-format
 #| msgid "App&lication Shortcuts"
 msgid "Applications"
 msgstr "ಅನ್ವ&ಯ ಶೀಘ್ರಮಾರ್ಗಗಳು (ಶಾರ್ಟ್ ಕಟ್)"
 
-#: kglobalshortcutseditor.cpp:292
+#: kglobalshortcutseditor.cpp:294
 #, kde-format
 msgid "Launch %1"
 msgstr ""
 
-#: kglobalshortcutseditor.cpp:328
+#: kglobalshortcutseditor.cpp:330
 #, kde-format
 msgid ""
 "Component '%1' is currently active. Only global shortcuts currently not "
@@ -92,12 +92,12 @@ msgstr ""
 "ಮುಂದಿನ ಬಾರಿ ಪ್ರಾರಂಭಿಸಿದಾಗ ಎಲ್ಲಾ ಜಾಗತಿಕ ಶೀಘ್ರಮಾರ್ಗಗಳನ್ನು ಅವುಗಳ ಪೂರ್ವನಿಯೋಜಿತ "
 "ಘಟಕಗಳೊಂದಿಗೆ ನೋಂದಣಿ ಮಾಡಲಾಗುತ್ತದೆ."
 
-#: kglobalshortcutseditor.cpp:330 kglobalshortcutseditor.cpp:340
+#: kglobalshortcutseditor.cpp:332 kglobalshortcutseditor.cpp:342
 #, kde-format
 msgid "Remove component"
 msgstr "ಘಟಕವನ್ನು ತೆಗೆದುಹಾಕು"
 
-#: kglobalshortcutseditor.cpp:336
+#: kglobalshortcutseditor.cpp:338
 #, kde-format
 msgid ""
 "Are you sure you want to remove the registered shortcuts for component '%1'? "
@@ -108,18 +108,18 @@ msgstr ""
 "ಬಯಸುತ್ತೀರಾ? ಮುಂದಿನ ಬಾರಿ ಪ್ರಾರಂಭಿಸಿದಾಗ ಘಟಕ ಹಾಗು ಶೀಘ್ರಮಾರ್ಗಗಳು ಅವುಗಳ ಪೂರ್ವನಿಯೋಜಿತ "
 "ಸಂಯೋಜನೆಗಳೊಂದಿಗೆ ಮರು ನೋಂದಣಿ ಮಾಡಲ್ಪಡುತ್ತವೆ."
 
-#: kglobalshortcutseditor.cpp:450
+#: kglobalshortcutseditor.cpp:452
 #, fuzzy, kde-format
 #| msgid "App&lication Shortcuts"
 msgid "Application Launchers"
 msgstr "ಅನ್ವ&ಯ ಶೀಘ್ರಮಾರ್ಗಗಳು (ಶಾರ್ಟ್ ಕಟ್)"
 
-#: kglobalshortcutseditor.cpp:453
+#: kglobalshortcutseditor.cpp:455
 #, fuzzy, kde-format
 msgid "Other Shortcuts"
 msgstr "ಶೀಘ್ರಮಾರ್ಗ (ಶಾರ್ಟ್ ಕಟ್)"
 
-#: kglobalshortcutseditor.cpp:558
+#: kglobalshortcutseditor.cpp:560
 #, kde-format
 msgid ""
 "Your current changes will be lost if you load another scheme before saving "
@@ -128,12 +128,12 @@ msgstr ""
 "ನೀವು ಬೇರೊಂದು ಪದ್ಧತಿಯನ್ನು (ಸ್ಕೀಮ್) ಉತ್ಥಾಪಿಸುವ ಮುನ್ನ ಈ ಪದ್ಧತಿಯನ್ನು (ಸ್ಕೀಮ್) ಉಳಿಸದಿದ್ದರೆ, "
 "ನೀವು ಮಾಡಿದ ಪ್ರಸ್ತುತ ಬದಲಾವಣೆಗಳು ನಷ್ಟವಾಗುತ್ತವೆ."
 
-#: kglobalshortcutseditor.cpp:559
+#: kglobalshortcutseditor.cpp:561
 #, kde-format
 msgid "Load Shortcut Scheme"
 msgstr "ಶೀಘ್ರಮಾರ್ಗ (ಶಾರ್ಟ್ ಕಟ್) ಪದ್ಧತಿಗಳನ್ನು (ಸ್ಕೀಮ್) ಉತ್ಥಾಪಿಸು"
 
-#: kglobalshortcutseditor.cpp:560
+#: kglobalshortcutseditor.cpp:562
 #, kde-format
 msgid "Load"
 msgstr "ಉತ್ಥಾಪಿಸು"
@@ -143,7 +143,7 @@ msgstr "ಉತ್ಥಾಪಿಸು"
 msgid "This file (%1) does not exist. You can only select local files."
 msgstr "ಈ ಕಡತ (%1) ಅಸ್ತಿತ್ವದಲ್ಲಿಲ್ಲ. ನೀವು ಕೇವಲ ಸ್ಥಳೀಯ ಕಡತಗಳನ್ನು ಮಾತ್ರವೆ ಆರಿಸಬಹುದು."
 
-#: kglobalshortcutseditor.cpp:601 kglobalshortcutseditor.cpp:624
+#: kglobalshortcutseditor.cpp:602 kglobalshortcutseditor.cpp:625
 #, kde-format
 msgid ""
 "Message: %1\n"
@@ -152,7 +152,7 @@ msgstr ""
 "ಸಂದೇಶ: %1\n"
 "ದೋಷ: %2"
 
-#: kglobalshortcutseditor.cpp:606 kglobalshortcutseditor.cpp:629
+#: kglobalshortcutseditor.cpp:607 kglobalshortcutseditor.cpp:630
 #, kde-format
 msgid "Failed to contact the KDE global shortcuts daemon\n"
 msgstr "KDE ಜಾಗತಿಕ ಶೀಘ್ರ ಮಾರ್ಗಗಳ ನೇಪಥಿಕವನ್ನು ಸಂಪರ್ಕಿಸುವಲ್ಲಿ ವಿಫಲಗೊಂಡಿದೆ\n"

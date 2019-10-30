@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmaccess\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
-"PO-Revision-Date: 2019-07-19 03:20+0700\n"
+"POT-Creation-Date: 2019-08-01 03:13+0200\n"
+"PO-Revision-Date: 2019-08-01 18:55+0700\n"
 "Last-Translator: Wantoyo <wantoyek@gmail.com>\n"
 "Language-Team: Indonesian <kde-i18n-doc@kde.org>\n"
 "Language: id\n"
@@ -17,7 +17,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 19.04.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -187,7 +186,11 @@ msgstr ""
 #. i18n: ectx: property (suffix), widget (QSpinBox, duration)
 #. i18n: ectx: property (suffix), widget (QSpinBox, slowKeysDelay)
 #. i18n: ectx: property (suffix), widget (QSpinBox, bounceKeysDelay)
+#. i18n: ectx: property (suffix), widget (QSpinBox, mk_delay)
+#. i18n: ectx: property (suffix), widget (QSpinBox, mk_interval)
+#. i18n: ectx: property (suffix), widget (QSpinBox, mk_time_to_max)
 #: accessibility.ui:181 accessibility.ui:392 accessibility.ui:489
+#: accessibility.ui:766 accessibility.ui:808 accessibility.ui:840
 #, kde-format
 msgid " msec"
 msgstr " md"
@@ -396,26 +399,74 @@ msgstr ""
 "Gunakan mekanisme notifikasi Plasma kapanpun sebuah fitur aksesibilitas "
 "keyboard yang dijungkit"
 
-#. i18n: ectx: attribute (title), widget (QWidget, tabScreenReader)
+#. i18n: ectx: attribute (title), widget (QWidget, tabMouseKeys)
 #: accessibility.ui:745
+#, kde-format
+msgid "Mouse Navigation"
+msgstr "Navigasi Mouse"
+
+#. i18n: ectx: property (text), widget (QCheckBox, mouseKeys)
+#: accessibility.ui:753
+#, kde-format
+msgid "&Move pointer with keyboard (using the num pad)"
+msgstr "&Pindah penunjuk dengan keyboard (menggunakan num pad)"
+
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: accessibility.ui:782
+#, kde-format
+msgid "&Acceleration delay:"
+msgstr "&Tundaan akselerasi:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_8)
+#: accessibility.ui:792
+#, kde-format
+msgid "R&epeat interval:"
+msgstr "Int&erval pengulangan:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_9)
+#: accessibility.ui:824
+#, kde-format
+msgid "Acceleration &time:"
+msgstr "Wak&tu akselerasi:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_10)
+#: accessibility.ui:856
+#, kde-format
+msgid "Ma&ximum speed:"
+msgstr "Kecepatan ma&ksimum:"
+
+#. i18n: ectx: property (suffix), widget (QSpinBox, mk_max_speed)
+#: accessibility.ui:872
+#, kde-format
+msgid " pixel/sec"
+msgstr " piksel/det"
+
+#. i18n: ectx: property (text), widget (QLabel, label_11)
+#: accessibility.ui:888
+#, kde-format
+msgid "Acceleration &profile:"
+msgstr "&Profil akselerasi:"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tabScreenReader)
+#: accessibility.ui:933
 #, kde-format
 msgid "Screen Reader"
 msgstr "Pembaca Layar"
 
 #. i18n: ectx: property (text), widget (QCheckBox, screenReaderEnabled)
-#: accessibility.ui:751
+#: accessibility.ui:939
 #, kde-format
 msgid "Screen reader enabled"
 msgstr "Pembaca layar difungsikan"
 
 #. i18n: ectx: property (text), widget (QPushButton, launchOrcaConfiguration)
-#: accessibility.ui:760
+#: accessibility.ui:948
 #, kde-format
 msgid "&Launch Orca Configuration"
 msgstr "&Luncurkan Konfigurasi Orca"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: accessibility.ui:785
+#: accessibility.ui:973
 #, kde-format
 msgid ""
 "Please note that you may have to log out once to allow the screen reader to "
@@ -502,8 +553,8 @@ msgstr "Penulis"
 #: kcmaccess.cpp:221
 #, kde-format
 msgid ""
-"Here you can activate keyboard gestures that turn on the following features: "
-"\n"
+"Here you can activate keyboard gestures that turn on the following "
+"features: \n"
 "Sticky keys: Press Shift key 5 consecutive times\n"
 "Slow keys: Hold down Shift for 8 seconds"
 msgstr ""
@@ -515,8 +566,8 @@ msgstr ""
 #: kcmaccess.cpp:225
 #, kde-format
 msgid ""
-"Here you can activate keyboard gestures that turn on the following features: "
-"\n"
+"Here you can activate keyboard gestures that turn on the following "
+"features: \n"
 "Mouse Keys: %1\n"
 "Sticky keys: Press Shift key 5 consecutive times\n"
 "Slow keys: Hold down Shift for 8 seconds"
@@ -527,12 +578,12 @@ msgstr ""
 "Tuts lekat: Tekan tuts Shift selama 5 kali berturut-turut\n"
 "Tuts pelan: Tahan Shift selama 8 detik"
 
-#: kcmaccess.cpp:261
+#: kcmaccess.cpp:269
 #, kde-format
 msgid "Could not set gsettings for Orca: \"%1\" failed"
 msgstr "Tidak dapat mengeset gsettings untuk Orca: \"%1\" gagal"
 
-#: kcmaccess.cpp:268
+#: kcmaccess.cpp:276
 #, kde-format
 msgid "Error: Could not launch \"orca --setup\""
 msgstr "Error: Tidak dapat meluncurkan \"orca --setup\""

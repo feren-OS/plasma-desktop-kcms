@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmcomponentchooser\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"POT-Creation-Date: 2019-09-18 03:38+0200\n"
 "PO-Revision-Date: 2005-02-14 02:32-0800\n"
 "Last-Translator: Tamil PC <tamilpc@ambalam.com>\n"
 "Language-Team:  <ta@li.org>\n"
@@ -63,12 +63,12 @@ msgstr "¦¾¡¼Õõ ¯Ä¡Å¢Â¢ø:"
 msgid "..."
 msgstr "..."
 
-#: componentchooser.cpp:134
+#: componentchooser.cpp:133
 #, kde-format
 msgid "Unknown"
 msgstr "தெரியாதது"
 
-#: componentchooser.cpp:151
+#: componentchooser.cpp:150
 #, kde-format
 msgid ""
 "Choose from the list below which component should be used by default for the "
@@ -77,7 +77,7 @@ msgstr ""
 "கீழே கொடுக்கப்பட்டுள்ள பட்டியலில் உள்ள பயன்பாட்டு நிரலில், %1 சேவைக்கு எது பயன்படுத்தப்பட "
 "வேண்டும்"
 
-#: componentchooser.cpp:183
+#: componentchooser.cpp:182
 #, fuzzy, kde-format
 msgid ""
 "<qt>You changed the default component of your choice, do want to save that "
@@ -86,7 +86,7 @@ msgstr ""
 "<qt>உங்களுடைய கொடாநிலை பயன்பாட்டு நிரல் ஒன்றை மாற்றியுள்ளீர்கள். இந்த மாற்றத்தை இப்போது "
 "சேமிக்க வேண்டுமா?<BR><BR> <B>இல்லை</B> என்பதை தேர்ந்தெடுத்தால் மாற்றங்கள் மறக்கப்படும்</qt>"
 
-#: componentchooser.cpp:188
+#: componentchooser.cpp:187
 #, kde-format
 msgid "No description available"
 msgstr "விளக்கம் ஏதும் அளிக்கப்படவில்லை"
@@ -151,7 +151,7 @@ msgstr "உங்களுக்கு விருப்பமான வலை 
 msgid "Select preferred email client:"
 msgstr "உங்களுக்கு விருப்பமான மின்னஞ்சல் கருவியை தேர்ந்தெடுங்கள்"
 
-#: componentchooserterminal.cpp:104
+#: componentchooserterminal.cpp:102
 #, kde-format
 msgid "Select preferred terminal application:"
 msgstr "உங்களுக்கு விருப்பமான முனைய கருவியை தேர்ந்தெடுங்கள்"

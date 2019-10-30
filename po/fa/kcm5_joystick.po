@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: joystick\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"POT-Creation-Date: 2019-09-12 03:25+0200\n"
 "PO-Revision-Date: 2012-01-12 16:51+0330\n"
 "Last-Translator: Mohammad Reza Mirdamadi <mohi@linuxshop.ir>\n"
 "Language-Team: Farsi (Persian) <>\n"
@@ -113,23 +113,23 @@ msgstr "درجه‌بندی موفق"
 msgid "Value Axis %1: %2"
 msgstr "محور مقدار %1: %2"
 
-#: joydevice.cpp:56
+#: joydevice.cpp:55
 #, kde-format
 msgid "The given device %1 could not be opened: %2"
 msgstr "دستگاه مفروض %1 را نمی‌توان باز کرد:%2"
 
-#: joydevice.cpp:62
+#: joydevice.cpp:61
 #, kde-format
 msgid "The given device %1 is not a joystick."
 msgstr "دستگاه مفروض %1 اهرم کنترل نیست."
 
-#: joydevice.cpp:67
+#: joydevice.cpp:66
 #, kde-format
 msgid "Could not get kernel driver version for joystick device %1: %2"
 msgstr ""
 "نتوانست نسخه گرداننده هسته را برای دستگاه اهرم کنترل %1 به دست آورد: %2"
 
-#: joydevice.cpp:81
+#: joydevice.cpp:80
 #, kde-format
 msgid ""
 "The current running kernel driver version (%1.%2.%3) is not the one this "
@@ -138,38 +138,38 @@ msgstr ""
 "نسخه گرداننده هسته در حال اجرای جاری )%1.%2.%3(، یکی از این پیمانه‌های "
 "ترجمه‌شده برای )%4.%5.%6( نیست."
 
-#: joydevice.cpp:93
+#: joydevice.cpp:92
 #, kde-format
 msgid "Could not get number of buttons for joystick device %1: %2"
 msgstr "تعداد دکمه‌ها را نتوانست برای دستگاه اهرم کنترل %1 به دست آورد: %2"
 
-#: joydevice.cpp:99
+#: joydevice.cpp:98
 #, kde-format
 msgid "Could not get number of axes for joystick device %1: %2"
 msgstr "نتوانست تعداد محورها را برای دستگاه اهرم کنترل %1 به دست آورد: %2"
 
-#: joydevice.cpp:105
+#: joydevice.cpp:104
 #, kde-format
 msgid "Could not get calibration values for joystick device %1: %2"
 msgstr "نتوانست مقادیر درجه‌بندی را برای دستگاه اهرم کنترل %1 به دست آورد: %2"
 
-#: joydevice.cpp:111
+#: joydevice.cpp:110
 #, kde-format
 msgid "Could not restore calibration values for joystick device %1: %2"
 msgstr "نتوانست مقادیر درجه‌بندی را برای دستگاه اهرم کنترل %1 بازگرداند: %2"
 
-#: joydevice.cpp:117
+#: joydevice.cpp:116
 #, kde-format
 msgid "Could not initialize calibration values for joystick device %1: %2"
 msgstr ""
 "نتوانست مقادیر درجه‌بندی را برای دستگاه اهرم کنترل %1 مقداردهی اولیه کند: %2"
 
-#: joydevice.cpp:123
+#: joydevice.cpp:122
 #, kde-format
 msgid "Could not apply calibration values for joystick device %1: %2"
 msgstr "نتوانست مقادیر درجه‌بندی را برای دستگاه اهرم کنترل %1 اعمال کند: %2"
 
-#: joydevice.cpp:127
+#: joydevice.cpp:126
 #, kde-format
 msgid "internal error - code %1 unknown"
 msgstr "خطای درونی - کد ناشناخته %1"

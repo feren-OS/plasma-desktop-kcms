@@ -5,8 +5,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
-"PO-Revision-Date: 2018-01-22 21:15+0100\n"
+"POT-Creation-Date: 2019-05-23 03:23+0200\n"
+"PO-Revision-Date: 2019-06-29 09:38+0200\n"
 "Last-Translator: Karl Ove Hufthammer <karl@huftis.org>\n"
 "Language-Team: Norwegian Nynorsk <i18n-nn@lister.ping.uio.no>\n"
 "Language: nn\n"
@@ -42,8 +42,8 @@ msgstr "Vishesh Handa"
 
 #: kcm.cpp:59
 #, kde-format
-msgid "Select the search plugins:"
-msgstr "Vel søkjetillegg:"
+msgid "Enable or disable KRunner plugins:"
+msgstr "Slå på/av KRunner-tillegg:"
 
 #: kcm.cpp:61
 #, kde-format

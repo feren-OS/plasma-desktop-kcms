@@ -7,20 +7,20 @@
 # Artem Sereda <overmind88@gmail.com>, 2008.
 # Andrey Cherepanov <skull@kde.ru>, 2009.
 # Nick Shaforostoff <shafff@ukr.net>, 2009.
-# Alexander Potashev <aspotashev@gmail.com>, 2014, 2015, 2016, 2017.
+# Alexander Potashev <aspotashev@gmail.com>, 2014, 2015, 2016, 2017, 2019.
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_pager\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
-"PO-Revision-Date: 2017-01-22 03:10+0300\n"
+"POT-Creation-Date: 2019-05-20 03:25+0200\n"
+"PO-Revision-Date: 2019-10-09 16:44+0300\n"
 "Last-Translator: Alexander Potashev <aspotashev@gmail.com>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 2.0\n"
+"X-Generator: Lokalize 19.07.70\n"
 "Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
 "%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Environment: kde\n"
@@ -33,26 +33,24 @@ msgid "General"
 msgstr "Основное"
 
 #: package/contents/ui/configGeneral.qml:84
-#, fuzzy, kde-format
-#| msgid "General"
+#, kde-format
 msgid "General:"
-msgstr "Основное"
+msgstr "Основные параметры:"
 
 #: package/contents/ui/configGeneral.qml:86
 #, kde-format
 msgid "Show application icons on window outlines"
-msgstr ""
+msgstr "Показывать значки приложений на схемах окон"
 
 #: package/contents/ui/configGeneral.qml:91
-#, fuzzy, kde-format
-#| msgid "Only the current screen"
+#, kde-format
 msgid "Show only current screen"
-msgstr "Только текущий экран"
+msgstr "Показывать только текущий экран"
 
 #: package/contents/ui/configGeneral.qml:96
 #, kde-format
 msgid "Navigation wraps around"
-msgstr ""
+msgstr "Навигация с переходом по циклу"
 
 #: package/contents/ui/configGeneral.qml:108
 #, kde-format
@@ -76,10 +74,9 @@ msgid "Vertical"
 msgstr "Вертикальная"
 
 #: package/contents/ui/configGeneral.qml:124
-#, fuzzy, kde-format
-#| msgid "Display:"
+#, kde-format
 msgid "Text display:"
-msgstr "Показывать:"
+msgstr "Текстовые подписи:"
 
 #: package/contents/ui/configGeneral.qml:127
 #, kde-format
@@ -107,14 +104,12 @@ msgid "Desktop name"
 msgstr "Название рабочего стола"
 
 #: package/contents/ui/configGeneral.qml:152
-#, fuzzy, kde-format
-#| msgid "Selecting current desktop:"
+#, kde-format
 msgid "Selecting current Activity:"
-msgstr "При выборе текущего рабочего стола:"
+msgstr "При выборе текущей комнаты:"
 
 #: package/contents/ui/configGeneral.qml:152
-#, fuzzy, kde-format
-#| msgid "Selecting current desktop:"
+#, kde-format
 msgid "Selecting current virtual desktop:"
 msgstr "При выборе текущего рабочего стола:"
 
@@ -124,8 +119,7 @@ msgid "Does nothing"
 msgstr "Не делать ничего"
 
 #: package/contents/ui/configGeneral.qml:161
-#, fuzzy, kde-format
-#| msgid "Shows desktop"
+#, kde-format
 msgid "Shows the desktop"
 msgstr "Показать рабочий стол"
 
@@ -172,7 +166,6 @@ msgid "Remove Virtual Desktop"
 msgstr "Удалить виртуальный рабочий стол"
 
 #: package/contents/ui/main.qml:546
-#, fuzzy, kde-format
-#| msgid "&Configure Virtual Desktops..."
+#, kde-format
 msgid "Configure Virtual Desktops..."
-msgstr "&Настроить виртуальные рабочие столы..."
+msgstr "Настроить виртуальные рабочие столы..."

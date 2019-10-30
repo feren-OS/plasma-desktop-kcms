@@ -10,20 +10,20 @@
 # Nick Shaforostoff <shafff@ukr.net>, 2009, 2010.
 # Yuri Efremov <yur.arh@gmail.com>, 2011, 2012.
 # Alexander Lakhin <exclusion@gmail.com>, 2013.
-# Alexander Yavorsky <kekcuha@gmail.com>, 2018.
+# Alexander Yavorsky <kekcuha@gmail.com>, 2018, 2019.
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_launcher\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-06-23 07:22+0200\n"
-"PO-Revision-Date: 2018-10-06 21:03+0300\n"
+"POT-Creation-Date: 2019-09-27 07:54+0200\n"
+"PO-Revision-Date: 2019-10-08 15:19+0300\n"
 "Last-Translator: Alexander Yavorsky <kekcuha@gmail.com>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 2.0\n"
+"X-Generator: Lokalize 19.08.1\n"
 "Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
 "%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Environment: kde\n"
@@ -31,18 +31,16 @@ msgstr ""
 "X-Text-Markup: kde4\n"
 
 #: package/contents/config/config.qml:25
-#, fuzzy, kde-format
-#| msgctxt "General configuration page"
-#| msgid "General"
+#, kde-format
 msgid "General"
-msgstr "Основное"
+msgstr "Общие"
 
 #: package/contents/ui/ApplicationsView.qml:121
 #, kde-format
 msgid "All Applications"
 msgstr "Все приложения"
 
-#: package/contents/ui/ApplicationsView.qml:270
+#: package/contents/ui/ApplicationsView.qml:273
 #, kde-format
 msgid "Applications updated."
 msgstr "Список приложений обновлён."
@@ -64,107 +62,104 @@ msgstr "Во всех комнатах"
 
 #: package/contents/ui/code/tools.js:133
 #, kde-format
-msgid "On The Current Activity"
+msgid "On the Current Activity"
 msgstr "Только в текущей комнате"
 
 #: package/contents/ui/code/tools.js:147
 #, kde-format
-msgid "Show In Favorites"
+msgid "Show in Favorites"
 msgstr "Показывать в избранном"
 
 #: package/contents/ui/ConfigButtons.qml:36
-#: package/contents/ui/FullRepresentation.qml:754
+#: package/contents/ui/FullRepresentation.qml:717
 #, kde-format
 msgid "Favorites"
 msgstr "Избранное"
 
 #: package/contents/ui/ConfigButtons.qml:37
-#: package/contents/ui/FullRepresentation.qml:756
+#: package/contents/ui/FullRepresentation.qml:719
 #, kde-format
 msgid "Applications"
 msgstr "Приложения"
 
 #: package/contents/ui/ConfigButtons.qml:38
-#: package/contents/ui/FullRepresentation.qml:758
+#: package/contents/ui/FullRepresentation.qml:721
 #, kde-format
 msgid "Computer"
 msgstr "Компьютер"
 
 #: package/contents/ui/ConfigButtons.qml:39
-#: package/contents/ui/FullRepresentation.qml:760
+#: package/contents/ui/FullRepresentation.qml:723
 #, kde-format
 msgid "History"
 msgstr "Последние"
 
 #: package/contents/ui/ConfigButtons.qml:40
-#: package/contents/ui/FullRepresentation.qml:762
+#: package/contents/ui/FullRepresentation.qml:725
 #, kde-format
 msgid "Often Used"
 msgstr "Популярные"
 
 # shutdown-method
 #: package/contents/ui/ConfigButtons.qml:41
-#: package/contents/ui/FullRepresentation.qml:764
+#: package/contents/ui/FullRepresentation.qml:727
 #, kde-format
 msgid "Leave"
 msgstr "Выход"
 
-#: package/contents/ui/ConfigButtons.qml:215
-#, fuzzy, kde-format
-#| msgid "Hidden Tabs"
+#: package/contents/ui/ConfigButtons.qml:214
+#, kde-format
 msgid "Active Tabs"
-msgstr "Скрытые вкладки"
+msgstr "Активные вкладки"
 
-#: package/contents/ui/ConfigButtons.qml:221
+#: package/contents/ui/ConfigButtons.qml:222
 #, kde-format
 msgid "Inactive Tabs"
-msgstr ""
+msgstr "Неактивные вкладки"
 
-#: package/contents/ui/ConfigGeneral.qml:41
+#: package/contents/ui/ConfigGeneral.qml:40
 #, kde-format
 msgid "Icon:"
 msgstr "Значок:"
 
-#: package/contents/ui/ConfigGeneral.qml:76
+#: package/contents/ui/ConfigGeneral.qml:75
 #, kde-format
 msgctxt "@item:inmenu Open icon chooser dialog"
 msgid "Choose..."
 msgstr "Выбрать..."
 
-#: package/contents/ui/ConfigGeneral.qml:81
+#: package/contents/ui/ConfigGeneral.qml:80
 #, kde-format
 msgctxt "@item:inmenu Reset icon to default"
 msgid "Clear Icon"
 msgstr "Вернуть стандартный значок"
 
-#: package/contents/ui/ConfigGeneral.qml:95
-#, fuzzy, kde-format
-#| msgctxt "General configuration page"
-#| msgid "General"
+#: package/contents/ui/ConfigGeneral.qml:94
+#, kde-format
 msgid "General:"
-msgstr "Основное"
+msgstr "Основное:"
 
-#: package/contents/ui/ConfigGeneral.qml:97
+#: package/contents/ui/ConfigGeneral.qml:96
 #, kde-format
 msgid "Switch tabs on hover"
 msgstr "Переключать вкладки при наведении мыши"
 
-#: package/contents/ui/ConfigGeneral.qml:102
+#: package/contents/ui/ConfigGeneral.qml:101
 #, kde-format
 msgid "Show applications by name"
 msgstr "Показывать названия программ"
 
-#: package/contents/ui/ConfigGeneral.qml:107
+#: package/contents/ui/ConfigGeneral.qml:106
 #, kde-format
 msgid "Expand search to bookmarks, files and emails"
 msgstr "Также искать закладки, файлы и электронные письма"
 
-#: package/contents/ui/ConfigGeneral.qml:112
+#: package/contents/ui/ConfigGeneral.qml:111
 #, kde-format
 msgid "Sort alphabetically"
 msgstr "Сортировать по алфавиту"
 
-#: package/contents/ui/ConfigGeneral.qml:126
+#: package/contents/ui/ConfigGeneral.qml:121
 #, kde-format
 msgid ""
 "Drag tabs between the boxes to show/hide them, or reorder the visible tabs "

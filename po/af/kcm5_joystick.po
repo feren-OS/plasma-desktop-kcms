@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: joystick stable\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"POT-Creation-Date: 2019-09-12 03:25+0200\n"
 "PO-Revision-Date: 2005-10-06 21:18+0200\n"
 "Last-Translator: Kobus Venter <kabousv@therugby.co.za>\n"
 "Language-Team: Afrikaans <af@li.org>\n"
@@ -127,23 +127,23 @@ msgstr "Kalibrering Suksesvol"
 msgid "Value Axis %1: %2"
 msgstr "Waarde As %1: %2"
 
-#: joydevice.cpp:56
+#: joydevice.cpp:55
 #, kde-format
 msgid "The given device %1 could not be opened: %2"
 msgstr "Die gegewe toestel %1 kon nie oopgemaak word nie: %2"
 
-#: joydevice.cpp:62
+#: joydevice.cpp:61
 #, kde-format
 msgid "The given device %1 is not a joystick."
 msgstr "Die aangebode toestel %1 is nie 'n speelstok nie"
 
-#: joydevice.cpp:67
+#: joydevice.cpp:66
 #, kde-format
 msgid "Could not get kernel driver version for joystick device %1: %2"
 msgstr ""
 "Kon nie die kernel aandrywer weergawe vir speelstok toestel %1:%2 kry nie."
 
-#: joydevice.cpp:81
+#: joydevice.cpp:80
 #, kde-format
 msgid ""
 "The current running kernel driver version (%1.%2.%3) is not the one this "
@@ -152,41 +152,41 @@ msgstr ""
 "Die lopende kernel aandrywer weergawe (%1.%2.%3) is nie die een waarvoor "
 "hierdie module saamgestel is nie (%4.%5.%6)."
 
-#: joydevice.cpp:93
+#: joydevice.cpp:92
 #, kde-format
 msgid "Could not get number of buttons for joystick device %1: %2"
 msgstr "Kon nie die aantal knoppies van speelstok toestel %1: %2 bepaal nie."
 
-#: joydevice.cpp:99
+#: joydevice.cpp:98
 #, kde-format
 msgid "Could not get number of axes for joystick device %1: %2"
 msgstr "Kon nie die aantal asse van speelstok toestel %1: %2 bepaal nie."
 
-#: joydevice.cpp:105
+#: joydevice.cpp:104
 #, kde-format
 msgid "Could not get calibration values for joystick device %1: %2"
 msgstr ""
 "Kon nie die kalibrering waardes van speelstok toestel %1: %2 bepaal nie."
 
-#: joydevice.cpp:111
+#: joydevice.cpp:110
 #, kde-format
 msgid "Could not restore calibration values for joystick device %1: %2"
 msgstr ""
 "Kon nie die kalibrering waardes van speelstok toestel %1: %2 herstel nie."
 
-#: joydevice.cpp:117
+#: joydevice.cpp:116
 #, kde-format
 msgid "Could not initialize calibration values for joystick device %1: %2"
 msgstr ""
 "Kon nie die kalibrering waardes van speelstok toestel %1: %2 begin nie."
 
-#: joydevice.cpp:123
+#: joydevice.cpp:122
 #, kde-format
 msgid "Could not apply calibration values for joystick device %1: %2"
 msgstr ""
 "Kon nie die kalibrering waardes van speelstok toestel %1: %2 aanwend nie."
 
-#: joydevice.cpp:127
+#: joydevice.cpp:126
 #, kde-format
 msgid "internal error - code %1 unknown"
 msgstr "interne fout - kode %1 onbekend"

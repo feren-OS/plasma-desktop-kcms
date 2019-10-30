@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: joystick\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"POT-Creation-Date: 2019-09-12 03:25+0200\n"
 "PO-Revision-Date: 2009-01-21 18:30+0530\n"
 "Last-Translator: Ravishankar Shrivastava <raviratlami@aol.in>\n"
 "Language-Team: Hindi <kde-i18n-doc@lists.kde.org>\n"
@@ -101,22 +101,22 @@ msgstr "कैलिब्रेसन सफल"
 msgid "Value Axis %1: %2"
 msgstr "अक्छ मूल्य %1: %2"
 
-#: joydevice.cpp:56
+#: joydevice.cpp:55
 #, kde-format
 msgid "The given device %1 could not be opened: %2"
 msgstr "दे गे उपकरन %1  खोले नइ जा सकिस: %2"
 
-#: joydevice.cpp:62
+#: joydevice.cpp:61
 #, kde-format
 msgid "The given device %1 is not a joystick."
 msgstr "दे गे उपकरन %1 जायस्टिक नइ हे."
 
-#: joydevice.cpp:67
+#: joydevice.cpp:66
 #, kde-format
 msgid "Could not get kernel driver version for joystick device %1: %2"
 msgstr "जायस्टिक उपकरन %1: बर कर्नेल ड्राइवर संस्करन प्राप्त नइ कर सकिस %2"
 
-#: joydevice.cpp:81
+#: joydevice.cpp:80
 #, kde-format
 msgid ""
 "The current running kernel driver version (%1.%2.%3) is not the one this "
@@ -125,37 +125,37 @@ msgstr ""
 "अभी चलत कर्नेल ड्राइवर संस्करन हे (%1.%2.%3) जऊन ह ओ नइ हे जऊन कि  (%4.%5.%6) के लिए "
 "कम्पाइल्ड हे."
 
-#: joydevice.cpp:93
+#: joydevice.cpp:92
 #, kde-format
 msgid "Could not get number of buttons for joystick device %1: %2"
 msgstr "जायस्टिक उपकरन %1 बर बटन मन के संख्या प्राप्त नइ कर सकिस: %2"
 
-#: joydevice.cpp:99
+#: joydevice.cpp:98
 #, kde-format
 msgid "Could not get number of axes for joystick device %1: %2"
 msgstr "जायस्टिक उपकरन %1 बर अक्छ मन के संख्या प्राप्त नइ कर सकिस: %2"
 
-#: joydevice.cpp:105
+#: joydevice.cpp:104
 #, kde-format
 msgid "Could not get calibration values for joystick device %1: %2"
 msgstr "जायस्टिक उपकरन %1 बर कैलिब्रेसम मान नइ मिलिस: %2"
 
-#: joydevice.cpp:111
+#: joydevice.cpp:110
 #, kde-format
 msgid "Could not restore calibration values for joystick device %1: %2"
 msgstr "जायस्टिक उपकरन %1 बर कैलिब्रेसम मान पुनर्स्थापित नइ कर सकिस: %2"
 
-#: joydevice.cpp:117
+#: joydevice.cpp:116
 #, kde-format
 msgid "Could not initialize calibration values for joystick device %1: %2"
 msgstr "जायस्टिक उपकरन %1 बर कैलिब्रेसम मान चालू नइ कर सकिस: %2"
 
-#: joydevice.cpp:123
+#: joydevice.cpp:122
 #, kde-format
 msgid "Could not apply calibration values for joystick device %1: %2"
 msgstr "जायस्टिक उपकरन %1 बर कैलिब्रेसम मान लागू नइ कर सकिस: %2"
 
-#: joydevice.cpp:127
+#: joydevice.cpp:126
 #, kde-format
 msgid "internal error - code %1 unknown"
 msgstr "अंदर के गलती - कोड %1 अग्यात"

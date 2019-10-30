@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmlocale\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
-"PO-Revision-Date: 2014-11-02 23:00+0200\n"
-"Last-Translator: \n"
+"POT-Creation-Date: 2019-05-20 03:25+0200\n"
+"PO-Revision-Date: 2019-07-26 15:02+0300\n"
+"Last-Translator: Moo\n"
 "Language-Team: Lithuanian <kde-i18n-lt@kde.org>\n"
 "Language: lt\n"
 "MIME-Version: 1.0\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : n%10>=2 && (n%100<10 || n"
 "%100>=20) ? 1 : n%10==0 || (n%100>10 && n%100<20) ? 2 : 3);\n"
-"X-Generator: Lokalize 1.5\n"
+"X-Generator: Poedit 2.0.6\n"
 
 #: kcmformats.cpp:45
 #, kde-format
@@ -25,6 +25,8 @@ msgid ""
 "<h1>Formats</h1>You can configure the formats used for time, dates, money "
 "and other numbers here."
 msgstr ""
+"<h1>Formatai</h1>Čia galite konfigūruoti laikui, datai, valiutai ir kitoms "
+"reikšmėms naudojamus formatus."
 
 #: kcmformats.cpp:102
 #, kde-format
@@ -39,27 +41,27 @@ msgstr "%1 - %2 (%3)"
 #: kcmformats.cpp:141
 #, kde-format
 msgid "%1 (%2)"
-msgstr ""
+msgstr "%1 (%2)"
 
 #: kcmformats.cpp:274
 #, kde-format
 msgid "Your changes will take effect the next time you log in."
-msgstr "Jūsų padaryti pasikeitimai įsigalios kitą kartą Jums prisijungus."
+msgstr "Jūsų padaryti pakeitimai įsigalios kitą kartą jums prisijungus."
 
 #: kcmformats.cpp:275
 #, kde-format
 msgid "Format Settings Changed"
-msgstr "Formatų nustatymai pakeisti"
+msgstr "Formatų nuostatos pakeistos"
 
 #: kcmformats.cpp:341
 #, kde-format
 msgid "%1 (long format)"
-msgstr ""
+msgstr "%1 (ilgasis formatas)"
 
 #: kcmformats.cpp:342
 #, kde-format
 msgid "%1 (short format)"
-msgstr ""
+msgstr "%1 (trumpasis formatas)"
 
 #: kcmformats.cpp:347
 #, kde-format
@@ -83,19 +85,19 @@ msgstr "Metrinė"
 #: kcmformatswidget.ui:47
 #, kde-format
 msgid "Re&gion:"
-msgstr "Regionas:"
+msgstr "Re&gionas:"
 
 #. i18n: ectx: property (text), widget (QCheckBox, checkDetailed)
 #: kcmformatswidget.ui:76
 #, kde-format
 msgid "De&tailed Settings"
-msgstr "Išsamūs nustatymai"
+msgstr "Išsamios nuos&tatos"
 
 #. i18n: ectx: property (text), widget (QLabel, labelNumbers)
 #: kcmformatswidget.ui:83
 #, kde-format
 msgid "&Numbers:"
-msgstr "&Skaičių"
+msgstr "&Skaičiai:"
 
 #. i18n: ectx: property (text), widget (QLabel, labelTime)
 #: kcmformatswidget.ui:112
@@ -107,25 +109,25 @@ msgstr "&Laikas:"
 #: kcmformatswidget.ui:141
 #, kde-format
 msgid "Currenc&y:"
-msgstr "Valiuta:"
+msgstr "Va&liuta:"
 
 #. i18n: ectx: property (text), widget (QLabel, labelMeasurement)
 #: kcmformatswidget.ui:170
 #, kde-format
 msgid "Measurement &Units:"
-msgstr "Matų sistema:"
+msgstr "Matavimo vie&netai:"
 
 #. i18n: ectx: property (text), widget (QLabel, labelCollate)
 #: kcmformatswidget.ui:199
 #, kde-format
 msgid "Co&llation and Sorting:"
-msgstr "Grupavimas ir rikiavimas:"
+msgstr "Gru&pavimas ir rikiavimas:"
 
 #. i18n: ectx: property (text), widget (QLabel, labelMeasurement_2)
 #: kcmformatswidget.ui:238
 #, kde-format
 msgid "<b>Description</b>"
-msgstr ""
+msgstr "<b>Aprašas</b>"
 
 #. i18n: ectx: property (text), widget (QLabel, lexNumbers)
 #: kcmformatswidget.ui:248

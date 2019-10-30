@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcminput\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"POT-Creation-Date: 2019-09-18 03:38+0200\n"
 "PO-Revision-Date: 2012-01-12 16:57+0330\n"
 "Last-Translator: Mohammad Reza Mirdamadi <mohi@linuxshop.ir>\n"
 "Language-Team: Farsi (Persian) <>\n"
@@ -29,63 +29,63 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "mohi@linuxshop.ir , kazemi@itland.ir"
 
-#: kcmcursortheme.cpp:74
+#: kcmcursortheme.cpp:73
 #, fuzzy, kde-format
 #| msgid "&Cursor Theme"
 msgid "Cursors"
 msgstr "چهره &مکان‌نما‌"
 
-#: kcmcursortheme.cpp:75
+#: kcmcursortheme.cpp:74
 #, kde-format
 msgid "(c) 2003-2007 Fredrik Höglund"
 msgstr "(c) 2003-2007 Fredrik Höglund"
 
-#: kcmcursortheme.cpp:76
+#: kcmcursortheme.cpp:75
 #, kde-format
 msgid "Fredrik Höglund"
 msgstr "Fredrik Höglund"
 
-#: kcmcursortheme.cpp:77
+#: kcmcursortheme.cpp:76
 #, kde-format
 msgid "Marco Martin"
 msgstr ""
 
-#: kcmcursortheme.cpp:244
+#: kcmcursortheme.cpp:243
 #, kde-format
 msgctxt "@item:inlistbox size"
 msgid "Resolution dependent"
 msgstr ""
 
-#: kcmcursortheme.cpp:376
+#: kcmcursortheme.cpp:375
 #, fuzzy, kde-format
 #| msgid "You have to restart KDE for these changes to take effect."
 msgid ""
 "You have to restart the Plasma session for these changes to take effect."
 msgstr "برای تأثیر داشتن این تغییرات، باید KDE را باز آغاز کنید."
 
-#: kcmcursortheme.cpp:511
+#: kcmcursortheme.cpp:510
 #, kde-format
 msgid "Unable to create a temporary file."
 msgstr ""
 
-#: kcmcursortheme.cpp:523
+#: kcmcursortheme.cpp:522
 #, fuzzy, kde-format
 #| msgid "Unable to find the cursor theme archive %1."
 msgid "Unable to download the icon theme archive: %1"
 msgstr "قادر به یافتن بایگانی چهره مکان‌نمای %1 نیست."
 
-#: kcmcursortheme.cpp:554
+#: kcmcursortheme.cpp:553
 #, fuzzy, kde-format
 #| msgid "The file %1 does not appear to be a valid cursor theme archive."
 msgid "The file is not a valid icon theme archive."
 msgstr "به نظر نمی‌رسد پرونده %1یک بایگانی چهره مکان‌نمای معتبر باشد."
 
-#: kcmcursortheme.cpp:561
+#: kcmcursortheme.cpp:560
 #, kde-format
 msgid "Failed to create 'icons' folder."
 msgstr ""
 
-#: kcmcursortheme.cpp:569
+#: kcmcursortheme.cpp:568
 #, kde-format
 msgid ""
 "A theme named %1 already exists in your icon theme folder. Do you want "
@@ -94,17 +94,17 @@ msgstr ""
 "هم اکنون، چهره‌ای با نام %1در پوشه چهره شمایل شما وجود دارد. آیا می‌خواهید با "
 "این جایگزین کنید؟"
 
-#: kcmcursortheme.cpp:573
+#: kcmcursortheme.cpp:572
 #, kde-format
 msgid "Overwrite Theme?"
 msgstr "چهره جای‌نوشت شود؟"
 
-#: kcmcursortheme.cpp:599
+#: kcmcursortheme.cpp:598
 #, kde-format
 msgid "Theme installed successfully."
 msgstr ""
 
-#: kcmcursortheme.cpp:615
+#: kcmcursortheme.cpp:614
 #, kde-format
 msgid ""
 "<qt>You cannot delete the theme you are currently using.<br />You have to "
@@ -113,7 +113,7 @@ msgstr ""
 "<qt>نمی‌توانید چهره‌ای که هم اکنون استفاده می‌کنید را حذف نمایید.<br />ابتدا "
 "باید به چهره دیگری سودهی کنید.</qt>"
 
-#: kcmcursortheme.cpp:621
+#: kcmcursortheme.cpp:620
 #, kde-format
 msgid ""
 "<qt>Are you sure you want to remove the <i>%1</i> cursor theme?<br />This "
@@ -122,7 +122,7 @@ msgstr ""
 "<qt>آیا مطمئن هستید که می‌خواهید چهره مکان‌نمای <i>%1</i> را حذف کنید؟ <br /"
 ">این‌ کار همه پرونده‌های نصب‌شده توسط این چهره را حذف می‌کند.</qt>"
 
-#: kcmcursortheme.cpp:627
+#: kcmcursortheme.cpp:626
 #, kde-format
 msgid "Confirmation"
 msgstr "تأیید"

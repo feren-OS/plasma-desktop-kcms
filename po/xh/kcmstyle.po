@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmstyle\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"POT-Creation-Date: 2019-10-19 08:02+0200\n"
 "PO-Revision-Date: 2002-11-08 09:44+0200\n"
 "Last-Translator: Thelma Lungcuzo <thelma@translate.org.za>\n"
 "Language-Team: Xhosa <xhosa@translate.org.za>\n"
@@ -34,7 +34,7 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "antoinette@translate.org.za,lwandle@translate.org.za"
 
-#: kcmstyle.cpp:173
+#: kcmstyle.cpp:171
 #, fuzzy, kde-format
 msgid ""
 "This module allows you to modify the visual appearance of applications' user "
@@ -44,48 +44,48 @@ msgstr ""
 "imbonakalo yosebenziso lojongano ye elements, njengohlobo lwe widget "
 "neziqhamo."
 
-#: kcmstyle.cpp:183
+#: kcmstyle.cpp:181
 #, fuzzy, kde-format
 #| msgid "Application Level"
 msgid "Application Style"
 msgstr "Umphakamo Wesicelo"
 
-#: kcmstyle.cpp:185
+#: kcmstyle.cpp:183
 #, kde-format
 msgid "(c) 2002 Karol Szwed, Daniel Molkentin"
 msgstr "(c) 2002 Karol Szwed, Daniel Molkentin"
 
-#: kcmstyle.cpp:187
+#: kcmstyle.cpp:185
 #, kde-format
 msgid "Karol Szwed"
 msgstr ""
 
-#: kcmstyle.cpp:188
+#: kcmstyle.cpp:186
 #, kde-format
 msgid "Daniel Molkentin"
 msgstr ""
 
-#: kcmstyle.cpp:198
+#: kcmstyle.cpp:196
 #, fuzzy, kde-format
 msgid "Preview"
 msgstr "Uhlobo Lwemboniso yangaphambili"
 
-#: kcmstyle.cpp:252 kcmstyle.cpp:263
+#: kcmstyle.cpp:250 kcmstyle.cpp:261
 #, kde-format
 msgid "There was an error loading the configuration dialog for this style."
 msgstr ""
 
-#: kcmstyle.cpp:254 kcmstyle.cpp:265
+#: kcmstyle.cpp:252 kcmstyle.cpp:263
 #, kde-format
 msgid "Unable to Load Dialog"
 msgstr ""
 
-#: kcmstyle.cpp:488
+#: kcmstyle.cpp:479
 #, kde-format
 msgid "No description available."
 msgstr "Akukho nkcazelo ikhoyo."
 
-#: kcmstyle.cpp:695
+#: kcmstyle.cpp:686
 #, kde-format
 msgid ""
 "This area shows a preview of the currently selected style without having to "
@@ -94,7 +94,7 @@ msgstr ""
 "Lendawo ibonisa imboniso yohlobo oselelukhetiwe ingafuni ukuyifaka kwi "
 "desktop yonke."
 
-#: kcmstyle.cpp:697
+#: kcmstyle.cpp:688
 #, kde-format
 msgid ""
 "Here you can choose from a list of predefined widget styles (e.g. the way "
@@ -106,7 +106,7 @@ msgstr ""
 "nomxholo wokuxoxwa (olongeziweyo ulwazi njenge marble texture okanye "
 "ithambeka)."
 
-#: kcmstyle.cpp:701
+#: kcmstyle.cpp:692
 #, fuzzy, kde-format
 #| msgid ""
 #| "If you enable this option, KDE Applications will show small icons "
@@ -118,7 +118,7 @@ msgstr ""
 "Ukuba wenza olukhetho, i KDE Izakubonisa iicons ezincinci ecaleni kwamanye "
 "amgqosha abalulekileyo."
 
-#: kcmstyle.cpp:703
+#: kcmstyle.cpp:694
 #, fuzzy, kde-format
 #| msgid ""
 #| "If you enable this option, KDE Applications will show small icons "
@@ -130,7 +130,7 @@ msgstr ""
 "Ukuba wenza olukhetho, i KDE Izakubonisa iicons ezincinci ecaleni kwamanye "
 "amgqosha abalulekileyo."
 
-#: kcmstyle.cpp:705
+#: kcmstyle.cpp:696
 #, fuzzy, kde-format
 #| msgid ""
 #| "<p><b>Icons only:</b> Shows only icons on toolbar buttons. Best option "
@@ -154,7 +154,7 @@ msgstr ""
 "Bonisa i icons nokubhaliweyo kwi toolbar. okubhaliweyo kubekwe ngapantsi kwe "
 "icon."
 
-#: styleconfdialog.cpp:29
+#: styleconfdialog.cpp:33
 #, kde-format
 msgid "Configure %1"
 msgstr ""

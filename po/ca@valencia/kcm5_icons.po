@@ -2,6 +2,7 @@
 # Copyright (C) 1998-2018 This_file_is_part_of_KDE
 # This file is distributed under the license LGPL version 2.1 or
 # version 3 or later versions approved by the membership of KDE e.V.
+# or the same license as the source of its messages in English.
 #
 # Sebastià Pla i Sanz <sps@sastia.com>, 1998, 1999, 2000, 2001, 2002, 2004, 2005, 2006.
 # Albert Astals Cid <aacid@kde.org>, 2003, 2004.
@@ -12,15 +13,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcm5_icons\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
-"PO-Revision-Date: 2018-10-31 17:53+0100\n"
+"POT-Creation-Date: 2019-05-20 03:25+0200\n"
+"PO-Revision-Date: 2019-06-28 09:12+0200\n"
 "Last-Translator: Josep Ma. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca@valencia\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 2.0\n"
+"X-Generator: Poedit 2.0.6\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Accelerator-Marker: &\n"
 
@@ -136,7 +137,7 @@ msgstr "Barra d'eines principal"
 #: package/contents/ui/IconSizePopup.qml:94
 #, kde-format
 msgid "Small Icons"
-msgstr "Icones petites"
+msgstr "Icones xicotetes"
 
 #: package/contents/ui/IconSizePopup.qml:95
 #, kde-format
@@ -176,7 +177,7 @@ msgstr "Instal·la des d'un fitxer..."
 #: package/contents/ui/main.qml:253
 #, kde-format
 msgid "Get New Icons..."
-msgstr "Obtén icones noves..."
+msgstr "Obtín icones noves..."
 
 #: package/contents/ui/main.qml:274
 #, kde-format

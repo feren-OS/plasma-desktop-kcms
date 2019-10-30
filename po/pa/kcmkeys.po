@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkeys\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"POT-Creation-Date: 2019-09-12 03:25+0200\n"
 "PO-Revision-Date: 2010-06-27 08:54+0530\n"
 "Last-Translator: A S Alam <aalam@users.sf.net>\n"
 "Language-Team: Punjabi/Panjabi <punjabi-users@lists.sf.net>\n"
@@ -30,52 +30,52 @@ msgstr "ਐਕਸਪੋਰਟ ਕਰਨ ਲਈ ਭਾਗ ਚੁਣੋ"
 msgid "Components"
 msgstr "ਭਾਗ"
 
-#: globalshortcuts.cpp:67
+#: globalshortcuts.cpp:65
 #, kde-format
 msgid "You are about to reset all shortcuts to their default values."
 msgstr "ਤੁਸੀਂ ਸਭ ਸ਼ਾਰਟਕੱਟ ਨੂੰ ਉਹਨਾਂ ਦੇ ਡਿਫਾਲਟ ਮੁੱਲ ਲਈ ਮੁੜ-ਸੈੱਟ ਕਰਨ ਜਾ ਰਹੇ ਹੈ।"
 
-#: globalshortcuts.cpp:68
+#: globalshortcuts.cpp:66
 #, kde-format
 msgid "Reset to defaults"
 msgstr "ਡਿਫਾਲਟ ਲਈ ਰੀ-ਸੈੱਟ"
 
-#: globalshortcuts.cpp:69
+#: globalshortcuts.cpp:67
 #, kde-format
 msgid "Current Component"
 msgstr "ਮੌਜੂਦਾ ਭਾਗ"
 
-#: globalshortcuts.cpp:70
+#: globalshortcuts.cpp:68
 #, kde-format
 msgid "All Components"
 msgstr "ਸਭ ਭਾਗ"
 
-#: kglobalshortcutseditor.cpp:231
+#: kglobalshortcutseditor.cpp:233
 #, kde-format
 msgid "Import Scheme..."
 msgstr "ਸਕੀਮ ਇੰਪੋਰਟ..."
 
-#: kglobalshortcutseditor.cpp:232
+#: kglobalshortcutseditor.cpp:234
 #, kde-format
 msgid "Export Scheme..."
 msgstr "ਸਕੀਮ ਐਕਸਪੋਰਟ..."
 
-#: kglobalshortcutseditor.cpp:233
+#: kglobalshortcutseditor.cpp:235
 #, kde-format
 msgid "Set All Shortcuts to None"
 msgstr "ਸਭ ਸ਼ਾਰਟਕੱਟ ਕੋਈ ਨਹੀਂ ਸੈੱਟ ਕਰੋ"
 
-#: kglobalshortcutseditor.cpp:241
+#: kglobalshortcutseditor.cpp:243
 #, kde-format
 msgid "Applications"
 msgstr ""
 
-#: kglobalshortcutseditor.cpp:292
+#: kglobalshortcutseditor.cpp:294
 #, kde-format
 msgid "Launch %1"
 msgstr ""
 
-#: kglobalshortcutseditor.cpp:328
+#: kglobalshortcutseditor.cpp:330
 #, kde-format
 msgid ""
 "Component '%1' is currently active. Only global shortcuts currently not "
@@ -84,12 +84,12 @@ msgid ""
 "they are next started."
 msgstr ""
 
-#: kglobalshortcutseditor.cpp:330 kglobalshortcutseditor.cpp:340
+#: kglobalshortcutseditor.cpp:332 kglobalshortcutseditor.cpp:342
 #, kde-format
 msgid "Remove component"
 msgstr "ਭਾਗ ਹਟਾਓ"
 
-#: kglobalshortcutseditor.cpp:336
+#: kglobalshortcutseditor.cpp:338
 #, kde-format
 msgid ""
 "Are you sure you want to remove the registered shortcuts for component '%1'? "
@@ -97,30 +97,30 @@ msgid ""
 "settings when they are next started."
 msgstr ""
 
-#: kglobalshortcutseditor.cpp:450
+#: kglobalshortcutseditor.cpp:452
 #, kde-format
 msgid "Application Launchers"
 msgstr ""
 
-#: kglobalshortcutseditor.cpp:453
+#: kglobalshortcutseditor.cpp:455
 #, fuzzy, kde-format
 #| msgid "Shortcuts:"
 msgid "Other Shortcuts"
 msgstr "ਸ਼ਾਰਟਕੱਟ:"
 
-#: kglobalshortcutseditor.cpp:558
+#: kglobalshortcutseditor.cpp:560
 #, kde-format
 msgid ""
 "Your current changes will be lost if you load another scheme before saving "
 "this one"
 msgstr "ਤੁਹਾਡੀਆਂ ਮੌਜੂਦਾ ਸਕੀਮ ਗੁਆਚ ਜਾਵੇਗੀ, ਜੇਕਰ ਤੁਸੀਂ ਹੋਰ ਸਕੀਮ ਸੰਭਾਲਣ ਤੋਂ ਪਹਿਲਾਂ ਲੋਡ ਕਰ ਲਈ"
 
-#: kglobalshortcutseditor.cpp:559
+#: kglobalshortcutseditor.cpp:561
 #, kde-format
 msgid "Load Shortcut Scheme"
 msgstr "ਸ਼ਾਰਟਕੱਟ ਸਕੀਮ ਲੋਡ ਕਰੋ"
 
-#: kglobalshortcutseditor.cpp:560
+#: kglobalshortcutseditor.cpp:562
 #, kde-format
 msgid "Load"
 msgstr "ਲੋਡ ਕਰੋ"
@@ -130,7 +130,7 @@ msgstr "ਲੋਡ ਕਰੋ"
 msgid "This file (%1) does not exist. You can only select local files."
 msgstr "ਇਹ ਫਾਈਲ (%1) ਮੌਜੂਦ ਨਹੀਂ ਹੈ। ਤੁਸੀਂ ਕੇਵਲ ਲੋਕਲ ਫਾਈਲਾਂ ਹੀ ਚੁਣ ਸਕਦੇ ਹੋ।"
 
-#: kglobalshortcutseditor.cpp:601 kglobalshortcutseditor.cpp:624
+#: kglobalshortcutseditor.cpp:602 kglobalshortcutseditor.cpp:625
 #, kde-format
 msgid ""
 "Message: %1\n"
@@ -139,7 +139,7 @@ msgstr ""
 "ਸੁਨੇਹਾ: %1\n"
 "ਗਲਤੀ: %2"
 
-#: kglobalshortcutseditor.cpp:606 kglobalshortcutseditor.cpp:629
+#: kglobalshortcutseditor.cpp:607 kglobalshortcutseditor.cpp:630
 #, kde-format
 msgid "Failed to contact the KDE global shortcuts daemon\n"
 msgstr "KDE ਗਲੋਬਲ ਸ਼ਾਰਟਕੱਟ ਡੈਮਨ ਨਾਲ ਸੰਪਰਕ ਫੇਲ੍ਹ\n"

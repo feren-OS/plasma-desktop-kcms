@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcm_desktoppaths\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"POT-Creation-Date: 2019-09-12 03:25+0200\n"
 "PO-Revision-Date: 2017-09-14 16:15-0300\n"
 "Last-Translator: Luiz Fernando Ranghetti <elchevive@opensuse.org>\n"
 "Language-Team: Portuguese <kde-i18n-pt_BR@kde.org>\n"
@@ -25,7 +25,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Lokalize 2.0\n"
 
-#: globalpaths.cpp:113
+#: globalpaths.cpp:115
 #, kde-format
 msgid ""
 "<h1>Paths</h1>\n"
@@ -39,12 +39,12 @@ msgstr ""
 "Use o \"O que é isto?\" (Shift+F1) para obter ajuda sobre as opções "
 "específicas."
 
-#: globalpaths.cpp:118
+#: globalpaths.cpp:120
 #, kde-format
 msgid "Desktop path:"
 msgstr "Caminho da área de trabalho:"
 
-#: globalpaths.cpp:119
+#: globalpaths.cpp:121
 #, kde-format
 msgid ""
 "This folder contains all the files which you see on your desktop. You can "
@@ -55,12 +55,12 @@ msgstr ""
 "possível mudar a localização desta pasta caso queira, e os conteúdos também "
 "serão movidos automaticamente para a nova localização."
 
-#: globalpaths.cpp:124
+#: globalpaths.cpp:126
 #, kde-format
 msgid "Autostart path:"
 msgstr "Caminho de auto-início:"
 
-#: globalpaths.cpp:125
+#: globalpaths.cpp:127
 #, kde-format
 msgid ""
 "This folder contains applications or links to applications (shortcuts) that "
@@ -73,96 +73,96 @@ msgstr ""
 "alterar a localização desta pasta se desejar, e os conteúdos também serão "
 "movidos automaticamente para a nova localização."
 
-#: globalpaths.cpp:131
+#: globalpaths.cpp:133
 #, kde-format
 msgid "Documents path:"
 msgstr "Caminho dos documentos:"
 
-#: globalpaths.cpp:132
+#: globalpaths.cpp:134
 #, kde-format
 msgid ""
 "This folder will be used by default to load or save documents from or to."
 msgstr "Esta pasta será usada por padrão para carregar ou salvar documentos."
 
-#: globalpaths.cpp:135
+#: globalpaths.cpp:137
 #, kde-format
 msgid "Downloads path:"
 msgstr "Caminho dos downloads:"
 
-#: globalpaths.cpp:136
+#: globalpaths.cpp:138
 #, kde-format
 msgid "This folder will be used by default to save your downloaded items."
 msgstr ""
 "Esta pasta será usada por padrão para carregar ou salvar os seus itens "
 "baixados."
 
-#: globalpaths.cpp:139
+#: globalpaths.cpp:141
 #, kde-format
 msgid "Movies path:"
 msgstr "Caminho dos filmes:"
 
-#: globalpaths.cpp:140
+#: globalpaths.cpp:142
 #, kde-format
 msgid "This folder will be used by default to load or save movies from or to."
 msgstr "Esta pasta será usada por padrão para carregar ou salvar filmes."
 
-#: globalpaths.cpp:143
+#: globalpaths.cpp:145
 #, kde-format
 msgid "Pictures path:"
 msgstr "Caminho das imagens:"
 
-#: globalpaths.cpp:144
+#: globalpaths.cpp:146
 #, kde-format
 msgid ""
 "This folder will be used by default to load or save pictures from or to."
 msgstr "Esta pasta será usada por padrão para carregar ou salvar imagens."
 
-#: globalpaths.cpp:147
+#: globalpaths.cpp:149
 #, kde-format
 msgid "Music path:"
 msgstr "Caminho das músicas:"
 
-#: globalpaths.cpp:148
+#: globalpaths.cpp:150
 #, kde-format
 msgid "This folder will be used by default to load or save music from or to."
 msgstr "Esta pasta será usada por padrão para carregar ou salvar músicas."
 
-#: globalpaths.cpp:277 globalpaths.cpp:295
+#: globalpaths.cpp:279 globalpaths.cpp:297
 #, kde-format
 msgid "Autostart"
 msgstr "Iniciar automaticamente"
 
-#: globalpaths.cpp:281
+#: globalpaths.cpp:283
 #, kde-format
 msgid "Desktop"
 msgstr "Área de trabalho"
 
-#: globalpaths.cpp:305
+#: globalpaths.cpp:307
 #, kde-format
 msgid "Documents"
 msgstr "Documentos"
 
-#: globalpaths.cpp:308
+#: globalpaths.cpp:310
 #, kde-format
 msgid "Downloads"
 msgstr "Downloads"
 
-#: globalpaths.cpp:311
+#: globalpaths.cpp:313
 #, kde-format
 msgid "Movies"
 msgstr "Filmes"
 
-#: globalpaths.cpp:314
+#: globalpaths.cpp:316
 #, kde-format
 msgid "Pictures"
 msgstr "Imagens"
 
-#: globalpaths.cpp:317
+#: globalpaths.cpp:319
 #, kde-format
 msgid "Music"
 msgstr "Músicas"
 
-#: globalpaths.cpp:376
+#: globalpaths.cpp:378
 #, kde-format
 msgid ""
 "The path for '%1' has been changed.\n"
@@ -171,19 +171,19 @@ msgstr ""
 "O caminho para '%1' foi alterado.\n"
 "Deseja mover os arquivos de '%2' para '%3'?"
 
-#: globalpaths.cpp:379
+#: globalpaths.cpp:381
 #, kde-format
 msgctxt "Move files from old to new place"
 msgid "Move"
 msgstr "Mover"
 
-#: globalpaths.cpp:380
+#: globalpaths.cpp:382
 #, kde-format
 msgctxt "Use the new directory but do not move files"
 msgid "Do not Move"
 msgstr "Não mover"
 
-#: globalpaths.cpp:382
+#: globalpaths.cpp:384
 #, kde-format
 msgid ""
 "The path for '%1' has been changed.\n"
@@ -192,19 +192,19 @@ msgstr ""
 "O caminho para '%1' foi alterado.\n"
 "Deseja mover a pasta '%2' para '%3'?"
 
-#: globalpaths.cpp:385
+#: globalpaths.cpp:387
 #, kde-format
 msgctxt "Move the directory"
 msgid "Move"
 msgstr "Mover"
 
-#: globalpaths.cpp:386
+#: globalpaths.cpp:388
 #, kde-format
 msgctxt "Use the new directory but do not move anything"
 msgid "Do not Move"
 msgstr "Não mover"
 
-#: globalpaths.cpp:390
+#: globalpaths.cpp:392
 #, kde-format
 msgid "Confirmation Required"
 msgstr "Confirmação necessária"

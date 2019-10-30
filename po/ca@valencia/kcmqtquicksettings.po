@@ -2,14 +2,15 @@
 # Copyright (C) 2018 This_file_is_part_of_KDE
 # This file is distributed under the license LGPL version 2.1 or
 # version 3 or later versions approved by the membership of KDE e.V.
+# or the same license as the source of its messages in English.
 #
 # Josep Ma. Ferrer <txemaq@gmail.com>, 2018.
 msgid ""
 msgstr ""
 "Project-Id-Version: kcmqtquicksettings\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
-"PO-Revision-Date: 2018-04-24 19:32+0100\n"
+"POT-Creation-Date: 2019-05-20 03:25+0200\n"
+"PO-Revision-Date: 2019-06-28 11:59+0200\n"
 "Last-Translator: Josep Ma. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca@valencia\n"
@@ -18,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Accelerator-Marker: &\n"
-"X-Generator: Lokalize 2.0\n"
+"X-Generator: Poedit 2.0.6\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -33,12 +34,12 @@ msgstr "txemaq@gmail.com"
 #: kcmqtquicksettings.cpp:37
 #, kde-format
 msgid "Plasma QtQuick Settings"
-msgstr "Arranjament del QtQuick del Plasma"
+msgstr "Paràmetres de QtQuick de Plasma"
 
 #: kcmqtquicksettings.cpp:39
 #, kde-format
 msgid "Configure Plasma QtQuick Settings"
-msgstr "Configura l'arranjament del QtQuick del Plasma"
+msgstr "Configura els paràmetres de QtQuick de Plasma"
 
 #: kcmqtquicksettings.cpp:41
 #, kde-format
@@ -82,8 +83,8 @@ msgid ""
 "These settings adjust the QtQuick settings used by Plasma. Only adjust if "
 "you know what you are doing."
 msgstr ""
-"Aquests paràmetres ajusten l'arranjament del QtQuick usat pel Plasma. "
-"Ajusteu-ho només si sabeu el que esteu fent."
+"Aquests paràmetres ajusten la configuració de QtQuick utilitzat per Plasma. "
+"Ajusteu-los només si sabeu el que esteu fent."
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: kcmqtquicksettingswidget.ui:38

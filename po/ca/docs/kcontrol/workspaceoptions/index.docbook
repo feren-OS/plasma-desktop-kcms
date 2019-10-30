@@ -9,7 +9,7 @@
 <article id="workspaceoptions" lang="&language;">
 <articleinfo>
 <title
->Comportament de l'espai de treball</title>
+>Comportament general</title>
 <authorgroup>
 <author
 >&Burkhard.Lueck; &Burkhard.Lueck.mail;</author>
@@ -17,10 +17,10 @@
 </authorgroup>
 
 <date
->21 de maig de 2018</date>
+>1 d'agost de 2019</date>
 
 <releaseinfo
->&plasma; 5.13</releaseinfo>
+>&plasma; 5.16</releaseinfo>
 
 <keywordset>
 <keyword
@@ -34,7 +34,7 @@
 </articleinfo>
 
 <para
->Aquest és un mòdul per a configurar les opcions globals per a l'espai de treball &plasma;. </para>
+>Aquest és un mòdul per a configurar el comportament general de l'espai de treball. </para>
 
 <variablelist>
 

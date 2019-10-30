@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: joystick\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"POT-Creation-Date: 2019-09-12 03:25+0200\n"
 "PO-Revision-Date: 2006-11-01 21:00+0900\n"
 "Last-Translator: Yukiko Bando <ybando@k6.dion.ne.jp>\n"
 "Language-Team: Japanese <kde-jp@kde.org>\n"
@@ -116,24 +116,24 @@ msgstr "キャリブレーション成功"
 msgid "Value Axis %1: %2"
 msgstr "軸 %1 の値: %2"
 
-#: joydevice.cpp:56
+#: joydevice.cpp:55
 #, kde-format
 msgid "The given device %1 could not be opened: %2"
 msgstr "指定されたデバイス %1 を開けませんでした: %2"
 
-#: joydevice.cpp:62
+#: joydevice.cpp:61
 #, kde-format
 msgid "The given device %1 is not a joystick."
 msgstr "指定されたデバイス %1 はジョイスティックではありません。"
 
-#: joydevice.cpp:67
+#: joydevice.cpp:66
 #, kde-format
 msgid "Could not get kernel driver version for joystick device %1: %2"
 msgstr ""
 "ジョイスティックデバイス %1 のカーネルドライバのバージョンを取得できませんで"
 "した: %2"
 
-#: joydevice.cpp:81
+#: joydevice.cpp:80
 #, kde-format
 msgid ""
 "The current running kernel driver version (%1.%2.%3) is not the one this "
@@ -142,42 +142,42 @@ msgstr ""
 "現在実行中のカーネルドライバのバージョン (%1.%2.%3) は、このモジュールのバー"
 "ジョン (%4.%5.%6) 向けにコンパイルされたものではありません。"
 
-#: joydevice.cpp:93
+#: joydevice.cpp:92
 #, kde-format
 msgid "Could not get number of buttons for joystick device %1: %2"
 msgstr "ジョイスティックデバイス %1 のボタンの数を取得できませんでした: %2"
 
-#: joydevice.cpp:99
+#: joydevice.cpp:98
 #, kde-format
 msgid "Could not get number of axes for joystick device %1: %2"
 msgstr "ジョイスティックデバイス %1 の軸の数を取得できませんでした: %2"
 
-#: joydevice.cpp:105
+#: joydevice.cpp:104
 #, kde-format
 msgid "Could not get calibration values for joystick device %1: %2"
 msgstr ""
 "ジョイスティックデバイス %1 のキャリブレーション値を取得できませんでした: %2"
 
-#: joydevice.cpp:111
+#: joydevice.cpp:110
 #, kde-format
 msgid "Could not restore calibration values for joystick device %1: %2"
 msgstr ""
 "ジョイスティックデバイス %1 のキャリブレーション値を復元できませんでした: %2"
 
-#: joydevice.cpp:117
+#: joydevice.cpp:116
 #, kde-format
 msgid "Could not initialize calibration values for joystick device %1: %2"
 msgstr ""
 "ジョイスティックデバイス %1 のキャリブレーション値を初期化できませんでした: "
 "%2"
 
-#: joydevice.cpp:123
+#: joydevice.cpp:122
 #, kde-format
 msgid "Could not apply calibration values for joystick device %1: %2"
 msgstr ""
 "ジョイスティックデバイス %1 のキャリブレーション値を適用できませんでした: %2"
 
-#: joydevice.cpp:127
+#: joydevice.cpp:126
 #, kde-format
 msgid "internal error - code %1 unknown"
 msgstr "内部エラー - 不明なコード %1"

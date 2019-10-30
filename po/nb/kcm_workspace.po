@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"POT-Creation-Date: 2019-08-02 03:11+0200\n"
 "PO-Revision-Date: 2011-07-10 14:22+0200\n"
 "Last-Translator: Bjørn Steensrud <bjornst@skogkatt.homelinux.org>\n"
 "Language-Team: Norwegian Bokmål <i18n-nb@lister.ping.uio.no>\n"
@@ -61,13 +61,12 @@ msgstr ""
 
 #: workspaceoptions.cpp:40
 #, kde-format
-msgid "Plasma Workspace global options"
+msgid "General Behavior"
 msgstr ""
 
 #: workspaceoptions.cpp:42
 #, kde-format
-msgid ""
-"System Settings module for managing global options for the Plasma Workspace."
+msgid "System Settings module for configuring general workspace behavior."
 msgstr ""
 
 #: workspaceoptions.cpp:45

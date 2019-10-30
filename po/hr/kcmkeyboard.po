@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkeyboard\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"POT-Creation-Date: 2019-08-11 03:10+0200\n"
 "PO-Revision-Date: 2011-03-04 18:44+0100\n"
 "Last-Translator: Marko Dimjasevic <marko@dimjasevic.net>\n"
 "Language-Team: Croatian <kde-croatia-list@lists.sourceforge.net>\n"
@@ -66,7 +66,7 @@ msgstr "%1 – %2"
 msgid "Any language"
 msgstr "Bilo koji jezik"
 
-#: kcm_add_layout_dialog.cpp:141 kcm_view_models.cpp:319
+#: kcm_add_layout_dialog.cpp:141 kcm_view_models.cpp:311
 #, kde-format
 msgctxt "variant"
 msgid "Default"
@@ -414,31 +414,31 @@ msgstr[0] "Prečac:"
 msgstr[1] "Prečac:"
 msgstr[2] "Prečac:"
 
-#: kcm_view_models.cpp:226
+#: kcm_view_models.cpp:220
 #, kde-format
 msgctxt "layout map name"
 msgid "Map"
 msgstr "Preslikavanje"
 
-#: kcm_view_models.cpp:226
+#: kcm_view_models.cpp:220
 #, fuzzy, kde-format
 #| msgid "Layout:"
 msgid "Layout"
 msgstr "Raspored:"
 
-#: kcm_view_models.cpp:226
+#: kcm_view_models.cpp:220
 #, fuzzy, kde-format
 #| msgid "Variant:"
 msgid "Variant"
 msgstr "Varijanta:"
 
-#: kcm_view_models.cpp:226
+#: kcm_view_models.cpp:220
 #, fuzzy, kde-format
 #| msgid "Label:"
 msgid "Label"
 msgstr "Natpis:"
 
-#: kcm_view_models.cpp:226
+#: kcm_view_models.cpp:220
 #, fuzzy, kde-format
 #| msgid "Shortcut:"
 msgid "Shortcut"

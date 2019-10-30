@@ -9,7 +9,7 @@
 <article id="workspaceoptions" lang="&language;">
 <articleinfo>
 <title
->Поведінка робочого простору</title>
+>Загальна поведінка</title>
 <authorgroup>
 <author
 >&Burkhard.Lueck; &Burkhard.Lueck.mail;</author>
@@ -31,10 +31,10 @@
 </authorgroup>
 
 <date
->21 травня 2018 року</date>
+>1 серпня 2019 року</date>
 
 <releaseinfo
->Плазма 5.13</releaseinfo>
+>Плазма 5.16</releaseinfo>
 
 <keywordset>
 <keyword
@@ -48,7 +48,7 @@
 </articleinfo>
 
 <para
->Цей модуль призначено для налаштовування загальних параметрів роботи робочого простору Плазми. </para>
+>Цей модуль призначено для налаштовування загальної поведінки робочого простору Плазми. </para>
 
 <variablelist>
 

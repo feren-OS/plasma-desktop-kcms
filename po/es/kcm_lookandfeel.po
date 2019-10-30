@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcm_lookandfeel\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-06-26 07:33+0200\n"
-"PO-Revision-Date: 2019-02-14 19:57+0100\n"
+"POT-Creation-Date: 2019-08-16 03:26+0200\n"
+"PO-Revision-Date: 2019-08-12 20:10+0200\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 18.12.2\n"
+"X-Generator: Lokalize 19.07.90\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -29,42 +29,46 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "ecuadra@eloihr.net"
 
-#: kcm.cpp:76
+#: kcm.cpp:72
 #, kde-format
-msgid "Look and Feel"
-msgstr "Aspecto visual"
+msgid "Global Theme"
+msgstr "Tema global"
 
-#: kcm.cpp:78 lnftool.cpp:43
+#: kcm.cpp:74 lnftool.cpp:43
 #, kde-format
 msgid "Marco Martin"
 msgstr "Marco Martin"
 
-#: kcm.cpp:112
+#: kcm.cpp:108
 #, kde-format
-msgid "Download New Look and Feel Themes"
-msgstr "Descargar nuevos temas de aspecto visual"
+msgid "Download New Global Themes"
+msgstr "Descargar nuevos temas globales"
 
-#: kcm.cpp:572
+#: kcm.cpp:569
 #, kde-format
 msgid ""
 "You have to restart the Plasma session for these changes to take effect."
 msgstr ""
 "Debe reiniciar la sesión de Plasma para que estos cambios tengan efecto."
 
-#: kcm.cpp:573
+#: kcm.cpp:570
 #, kde-format
 msgid "Cursor Settings Changed"
 msgstr "Preferencias de cursores cambiadas"
 
 #: lnftool.cpp:42
 #, kde-format
-msgid "Look and feel tool"
-msgstr "Herramienta de aspecto visual"
+msgid "Global Theme Tool"
+msgstr "Herramienta de temas globales"
 
 #: lnftool.cpp:42
 #, kde-format
-msgid "Command line tool to apply look and feel packages."
-msgstr "Herramienta de consola para aplicar paquetes de aspecto visual."
+msgid ""
+"Command line tool to apply global theme packages for changing the look and "
+"feel."
+msgstr ""
+"Herramienta de consola para aplicar paquetes de tema global para cambiar el "
+"aspecto visual."
 
 #: lnftool.cpp:42
 #, kde-format
@@ -78,13 +82,13 @@ msgstr "Responsable"
 
 #: lnftool.cpp:52
 #, kde-format
-msgid "List available Look and feel packages"
-msgstr "Listar los paquetes de aspecto visual disponibles"
+msgid "List available global theme packages"
+msgstr "Listar los paquetes de temas globales disponibles"
 
 #: lnftool.cpp:54
 #, kde-format
-msgid "Apply a look and feel package"
-msgstr "Aplicar un paquete de aspecto visual"
+msgid "Apply a global theme package"
+msgstr "Aplicar un paquete de tema global"
 
 #: lnftool.cpp:54
 #, kde-format
@@ -98,8 +102,8 @@ msgstr "Reiniciar la distribución del escritorio Plasma"
 
 #: package/contents/ui/main.qml:28
 #, kde-format
-msgid "This module lets you choose the Look and Feel theme."
-msgstr "Este módulo le permite escoger el tema del aspecto visual."
+msgid "This module lets you choose the global look and feel."
+msgstr "Este módulo le permite escoger el aspecto visual global."
 
 #: package/contents/ui/main.qml:49
 #, kde-format
@@ -122,5 +126,5 @@ msgstr "Usar diseño de escritorio del tema"
 
 #: package/contents/ui/main.qml:84
 #, kde-format
-msgid "Get New Look and Feel Themes..."
-msgstr "Obtener nuevos temas de aspectos visuales..."
+msgid "Get New Global Themes..."
+msgstr "Obtener nuevos temas globales..."

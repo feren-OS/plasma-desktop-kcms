@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
-"PO-Revision-Date: 2019-01-14 16:54+0100\n"
+"POT-Creation-Date: 2019-05-20 03:25+0200\n"
+"PO-Revision-Date: 2019-08-22 12:49+0200\n"
 "Last-Translator: Vit Pelcak <vit@pelcak.org>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
 "Language: cs\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Lokalize 18.12.0\n"
+"X-Generator: Lokalize 19.04.3\n"
 "X-Language: cs_CZ\n"
 "X-Source-Language: en_US\n"
 
@@ -32,17 +32,17 @@ msgstr "Obecné:"
 #: package/contents/ui/configGeneral.qml:86
 #, kde-format
 msgid "Show application icons on window outlines"
-msgstr ""
+msgstr "Zobrazovat ikony aplikací na okraji okna"
 
 #: package/contents/ui/configGeneral.qml:91
 #, kde-format
 msgid "Show only current screen"
-msgstr ""
+msgstr "Zobrazit pouze aktuální obrazovku"
 
 #: package/contents/ui/configGeneral.qml:96
 #, kde-format
 msgid "Navigation wraps around"
-msgstr ""
+msgstr "Přepínání rotuje dokola"
 
 #: package/contents/ui/configGeneral.qml:108
 #, kde-format
@@ -68,7 +68,7 @@ msgstr "Svisle"
 #: package/contents/ui/configGeneral.qml:124
 #, kde-format
 msgid "Text display:"
-msgstr ""
+msgstr "Text k zobrazení:"
 
 #: package/contents/ui/configGeneral.qml:127
 #, kde-format
@@ -98,12 +98,12 @@ msgstr "Název plochy"
 #: package/contents/ui/configGeneral.qml:152
 #, kde-format
 msgid "Selecting current Activity:"
-msgstr ""
+msgstr "Výběr aktuální aktivity:"
 
 #: package/contents/ui/configGeneral.qml:152
 #, kde-format
 msgid "Selecting current virtual desktop:"
-msgstr ""
+msgstr "Výběr aktuální virtuální plochy:"
 
 #: package/contents/ui/configGeneral.qml:155
 #, kde-format
@@ -113,7 +113,7 @@ msgstr "Nedělá nic"
 #: package/contents/ui/configGeneral.qml:161
 #, kde-format
 msgid "Shows the desktop"
-msgstr ""
+msgstr "Zobrazí plochu"
 
 #: package/contents/ui/main.qml:329
 #, kde-format

@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-30 07:24+0200\n"
-"PO-Revision-Date: 2019-07-18 15:09\n"
+"POT-Creation-Date: 2019-09-09 03:17+0200\n"
+"PO-Revision-Date: 2019-10-09 10:03\n"
 "Last-Translator: Guo Yunhe (guoyunhe)\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -47,13 +47,12 @@ msgid "Show popups"
 msgstr "显示弹出窗口"
 
 #: package/contents/ui/ApplicationConfiguration.qml:105
-#: package/contents/ui/main.qml:51
 #, kde-format
 msgid "Show in do not disturb mode"
 msgstr "勿扰模式下显示"
 
 #: package/contents/ui/ApplicationConfiguration.qml:113
-#: package/contents/ui/main.qml:70
+#: package/contents/ui/main.qml:77
 #, kde-format
 msgid "Show in history"
 msgstr "显示于历史记录"
@@ -82,84 +81,100 @@ msgstr "此模块允许您管理应用程序和系统通知。"
 
 #: package/contents/ui/main.qml:50
 #, kde-format
+msgid "Do not disturb:"
+msgstr "请勿打扰："
+
+#: package/contents/ui/main.qml:51
+#, kde-format
+msgctxt "Do not disturb when screens are mirrored"
+msgid "When screens are mirrored"
+msgstr "当屏幕被镜像时"
+
+#: package/contents/ui/main.qml:57
+#, kde-format
+msgid "Show critical notifications"
+msgstr "显示紧急通知"
+
+#: package/contents/ui/main.qml:63
+#, kde-format
 msgid "Critical notifications:"
 msgstr "紧急通知："
 
-#: package/contents/ui/main.qml:57
+#: package/contents/ui/main.qml:64
 #, kde-format
 msgid "Always keep on top"
 msgstr "总是保持顶部"
 
-#: package/contents/ui/main.qml:63
+#: package/contents/ui/main.qml:70
 #, kde-format
 msgid "Low priority notifications:"
 msgstr "低优先级通知："
 
-#: package/contents/ui/main.qml:64
+#: package/contents/ui/main.qml:71
 #, kde-format
 msgid "Show popup"
 msgstr "显示弹出窗口"
 
-#: package/contents/ui/main.qml:82
+#: package/contents/ui/main.qml:89
 #, kde-format
 msgid "Popup position:"
 msgstr "弹出位置："
 
-#: package/contents/ui/main.qml:83
+#: package/contents/ui/main.qml:90
 #, kde-format
 msgctxt "Popup position near notification plasmoid"
 msgid "Near the notification icon"
 msgstr "靠近通知图标"
 
-#: package/contents/ui/main.qml:102
+#: package/contents/ui/main.qml:109
 #, kde-format
 msgid "Choose Custom Position..."
 msgstr "选择自定义位置..."
 
-#: package/contents/ui/main.qml:111 package/contents/ui/main.qml:127
+#: package/contents/ui/main.qml:118 package/contents/ui/main.qml:134
 #, kde-format
 msgid "%1 second"
 msgid_plural "%1 seconds"
 msgstr[0] "%1 秒"
 
-#: package/contents/ui/main.qml:116
+#: package/contents/ui/main.qml:123
 #, kde-format
 msgid "Hide popup after:"
 msgstr "弹出窗口显示时间："
 
-#: package/contents/ui/main.qml:137
+#: package/contents/ui/main.qml:144
 #, kde-format
 msgid "Application progress:"
 msgstr "应用程序进度："
 
-#: package/contents/ui/main.qml:138 package/contents/ui/main.qml:163
+#: package/contents/ui/main.qml:145 package/contents/ui/main.qml:170
 #, kde-format
 msgid "Show in task manager"
 msgstr "在任务管理器中显示"
 
-#: package/contents/ui/main.qml:145
+#: package/contents/ui/main.qml:152
 #, kde-format
 msgctxt "Show application jobs in notification widget"
 msgid "Show in notifications"
 msgstr "在通知中显示"
 
-#: package/contents/ui/main.qml:154
+#: package/contents/ui/main.qml:161
 #, kde-format
 msgctxt "Keep application job popup open for entire duration of job"
 msgid "Keep popup open during progress"
 msgstr "在过程中保持弹窗打开"
 
-#: package/contents/ui/main.qml:162
+#: package/contents/ui/main.qml:169
 #, kde-format
 msgid "Notification badges:"
 msgstr "通知徽章："
 
-#: package/contents/ui/main.qml:173
+#: package/contents/ui/main.qml:180
 #, kde-format
 msgid "Applications:"
 msgstr "应用程序："
 
-#: package/contents/ui/main.qml:174
+#: package/contents/ui/main.qml:181
 #, kde-format
 msgid "Configure..."
 msgstr "配置..."
@@ -184,12 +199,12 @@ msgstr "应用程序"
 msgid "System Services"
 msgstr "系统服务"
 
-#: package/contents/ui/SourcesPage.qml:189
+#: package/contents/ui/SourcesPage.qml:177
 #, kde-format
 msgid "No application or event matches your search term."
 msgstr "没有找到匹配搜索的应用或事件。"
 
-#: package/contents/ui/SourcesPage.qml:218
+#: package/contents/ui/SourcesPage.qml:206
 #, kde-format
 msgid ""
 "Select an application from the list to configure its notification settings "

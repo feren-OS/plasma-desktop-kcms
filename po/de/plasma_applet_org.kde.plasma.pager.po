@@ -5,8 +5,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_pager\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
-"PO-Revision-Date: 2019-07-09 11:56+0200\n"
+"POT-Creation-Date: 2019-05-20 03:25+0200\n"
+"PO-Revision-Date: 2019-08-22 20:58+0200\n"
 "Last-Translator: Burkhard Lück <lueck@hube-lueck.de>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
 "Language: de\n"
@@ -29,7 +29,7 @@ msgstr "Allgemein:"
 #: package/contents/ui/configGeneral.qml:86
 #, kde-format
 msgid "Show application icons on window outlines"
-msgstr ""
+msgstr "Anwendungssymbole auf Fensterumrissen anzeigen"
 
 #: package/contents/ui/configGeneral.qml:91
 #, kde-format

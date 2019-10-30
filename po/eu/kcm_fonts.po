@@ -12,15 +12,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-desktop\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-07-12 07:37+0200\n"
-"PO-Revision-Date: 2019-05-01 13:52+0100\n"
+"POT-Creation-Date: 2019-10-29 07:53+0100\n"
+"PO-Revision-Date: 2019-07-27 18:40+0200\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@euskalnet.net>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
 "Language: eu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 2.0\n"
+"X-Generator: Lokalize 19.04.3\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #, kde-format
@@ -35,95 +35,73 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "marcos@euskalgnu.org,xalba@euskalnet.net,Hizpol@ej-gv.es"
 
-#: fonts.cpp:279
-#, kde-format
-msgid ""
-"<p>Some changes such as anti-aliasing or DPI will only affect newly started "
-"applications.</p>"
-msgstr ""
-"<p>Aldaketa batzuk, tartean ertzak-leuntzea edo DPI, hemendik aurrera "
-"abiarazten diren aplikazioetan baino ez dute izango eragina.</p>"
-
-#: fonts.cpp:280 fonts.cpp:290
-#, kde-format
-msgid "Font Settings Changed"
-msgstr "Letra-tipoen ezarpenak aldatuak"
-
-#: fonts.cpp:289
-#, kde-format
-msgid ""
-"<p>Some changes such as DPI will only affect newly started applications.</p>"
-msgstr ""
-"<p>Aldaketa batzuk, tartean DPI, hemendik aurrera abiarazten diren "
-"aplikazioetan baino ez dute izango eragina.</p>"
-
-#: fonts.cpp:443
+#: fonts.cpp:472
 #, kde-format
 msgid "Fonts"
 msgstr "Letra-tipoak"
 
-#: fonts.cpp:445
+#: fonts.cpp:474
 #, kde-format
 msgid "Antonis Tsiapaliokas"
 msgstr "Antonis Tsiapaliokas"
 
-#: kxftconfig.cpp:444
+#: kxftconfig.cpp:480
 #, kde-format
 msgctxt "use system subpixel setting"
 msgid "Vendor default"
 msgstr "Hornitzailearen lehenetsia"
 
-#: kxftconfig.cpp:446
+#: kxftconfig.cpp:482
 #, kde-format
 msgctxt "no subpixel rendering"
 msgid "None"
 msgstr "Bat ere ez"
 
-#: kxftconfig.cpp:448
+#: kxftconfig.cpp:484
 #, kde-format
 msgid "RGB"
 msgstr "RGB"
 
-#: kxftconfig.cpp:450
+#: kxftconfig.cpp:486
 #, kde-format
 msgid "BGR"
 msgstr "BGR"
 
-#: kxftconfig.cpp:452
+#: kxftconfig.cpp:488
 #, kde-format
 msgid "Vertical RGB"
 msgstr "RGB bertikala"
 
-#: kxftconfig.cpp:454
+#: kxftconfig.cpp:490
 #, kde-format
 msgid "Vertical BGR"
 msgstr "BGR bertikala"
 
-#: kxftconfig.cpp:482
+#: kxftconfig.cpp:518
 #, kde-format
 msgctxt "use system hinting settings"
 msgid "Vendor default"
 msgstr "Hornitzailearen lehenetsia"
 
-#: kxftconfig.cpp:484
+#: kxftconfig.cpp:520
 #, kde-format
 msgctxt "medium hinting"
 msgid "Medium"
 msgstr "Ertaina"
 
-#: kxftconfig.cpp:486
+#: kxftconfig.cpp:522
 #, kde-format
 msgctxt "no hinting"
 msgid "None"
 msgstr "Bat ere ez"
 
-#: kxftconfig.cpp:488
+#: kxftconfig.cpp:524
 #, kde-format
 msgctxt "slight hinting"
 msgid "Slight"
 msgstr "Arina"
 
-#: kxftconfig.cpp:490
+#: kxftconfig.cpp:526
 #, kde-format
 msgctxt "full hinting"
 msgid "Full"
@@ -139,78 +117,76 @@ msgstr "Hautatu %1 letra-tipoa..."
 msgid "This module lets you configure the system fonts."
 msgstr "Modulu honek sistemaren letra-tipoa aukeratzen uzten dizu."
 
-#: package/contents/ui/main.qml:40
+#: package/contents/ui/main.qml:38
+#, kde-format
+msgid ""
+"Some changes such as anti-aliasing or DPI will only affect newly started "
+"applications."
+msgstr ""
+"Aldaketa batzuk, tartean ertzak-leuntzea edo DPI, hemendik aurrera "
+"abiarazten diren aplikazioetan baino ez dute izango eragina."
+
+#: package/contents/ui/main.qml:54
 #, kde-format
 msgid "&Adjust All Fonts..."
 msgstr "&Doitu letra tipo guztiak..."
 
-#: package/contents/ui/main.qml:47
+#: package/contents/ui/main.qml:61
 #, kde-format
 msgid "General:"
 msgstr "Orokorra:"
 
-#: package/contents/ui/main.qml:52
+#: package/contents/ui/main.qml:66
 #, kde-format
 msgid "Fixed width:"
 msgstr "Zabalera finkoa:"
 
-#: package/contents/ui/main.qml:57
+#: package/contents/ui/main.qml:71
 #, kde-format
 msgid "Small:"
 msgstr "Txikia:"
 
-#: package/contents/ui/main.qml:62
+#: package/contents/ui/main.qml:76
 #, kde-format
 msgid "Toolbar:"
 msgstr "Tresna-barra:"
 
-#: package/contents/ui/main.qml:67
+#: package/contents/ui/main.qml:81
 #, kde-format
 msgid "Menu:"
 msgstr "Menua:"
 
-#: package/contents/ui/main.qml:72
+#: package/contents/ui/main.qml:86
 #, kde-format
 msgid "Window title:"
 msgstr "Leiho-izenburua:"
 
-#: package/contents/ui/main.qml:84
+#: package/contents/ui/main.qml:99
 #, kde-format
-msgctxt "Used as a noun, and precedes a combobox full of options"
-msgid "Anti-aliasing:"
+msgid "Anti-Aliasing:"
 msgstr "Ertzak-leuntzea:"
 
-#: package/contents/ui/main.qml:86
+#: package/contents/ui/main.qml:100
 #, kde-format
-msgid "Enabled"
-msgstr "Gaituta"
+msgid "Enable"
+msgstr "Gaitua"
 
-#: package/contents/ui/main.qml:86
-#, kde-format
-msgid "Vendor default"
-msgstr "Hornitzailearen lehenetsia"
-
-#: package/contents/ui/main.qml:86
-#, kde-format
-msgid "Disabled"
-msgstr "Desgaituta"
-
-#: package/contents/ui/main.qml:96
+#: package/contents/ui/main.qml:108
 #, kde-format
 msgid "Exclude range from anti-aliasing"
 msgstr "Baztertu barrutia ertzak-leuntzetik"
 
-#: package/contents/ui/main.qml:113 package/contents/ui/main.qml:128
+#: package/contents/ui/main.qml:121 package/contents/ui/main.qml:138
 #, kde-format
 msgid "%1 pt"
 msgstr "%1 pt"
 
-#: package/contents/ui/main.qml:120
+#: package/contents/ui/main.qml:130
 #, kde-format
 msgid "to"
 msgstr "->"
 
-#: package/contents/ui/main.qml:141
+#: package/contents/ui/main.qml:153
 #, kde-format
 msgctxt "Used as a noun, and precedes a combobox full of options"
 msgid "Sub-pixel rendering:"
@@ -218,18 +194,18 @@ msgstr "Azpi-pixel errendatzea:"
 
 # Font hinting <https://en.wikipedia.org/wiki/Font_hinting>
 # Font hinting (also known as instructing) is the use of mathematical instructions to adjust the display of an outline font so that it lines up with a rasterized grid. At low screen resolutions, hinting is critical for producing clear, legible text. It can be accompanied by antialiasing and (on liquid crystal displays) subpixel rendering for further clarity.
-#: package/contents/ui/main.qml:178
+#: package/contents/ui/main.qml:190
 #, kde-format
 msgctxt "Used as a noun, and precedes a combobox full of options"
 msgid "Hinting:"
 msgstr "Errendatzea doitzea:"
 
-#: package/contents/ui/main.qml:216
+#: package/contents/ui/main.qml:228
 #, kde-format
 msgid "Force font DPI:"
 msgstr "Behartu letra-tipoen DPI:"
 
-#: package/contents/ui/main.qml:234
+#: package/contents/ui/main.qml:248
 #, kde-format
 msgid "Select Font"
 msgstr "Hautatu letra-tipoa"

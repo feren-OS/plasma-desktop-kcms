@@ -52,13 +52,9 @@ KCMDesktopTheme::KCMDesktopTheme(QObject *parent, const QVariantList &args)
     , m_defaultTheme(new Plasma::Theme(this))
     , m_haveThemeExplorerInstalled(false)
 {
-    //This flag seems to be needed in order for QQuickWidget to work
-    //see https://bugreports.qt-project.org/browse/QTBUG-40765
-    //also, it seems to work only if set in the kcm, not in the systemsettings' main
-    qApp->setAttribute(Qt::AA_DontCreateNativeWidgetSiblings);
     qmlRegisterType<QStandardItemModel>();
 
-    KAboutData* about = new KAboutData(QStringLiteral("kcm_desktoptheme"), i18n("Plasma Theme"),
+    KAboutData* about = new KAboutData(QStringLiteral("kcm_desktoptheme"), i18n("Plasma Style"),
                                        QStringLiteral("0.1"), QString(), KAboutLicense::LGPL);
     about->addAuthor(i18n("David Rosca"), QString(), QStringLiteral("nowrep@gmail.com"));
     setAboutData(about);
@@ -136,7 +132,7 @@ void KCMDesktopTheme::getNewStuff(QQuickItem *ctx)
 {
     if (!m_newStuffDialog) {
         m_newStuffDialog = new KNS3::DownloadDialog(QStringLiteral("plasma-themes.knsrc"));
-        m_newStuffDialog.data()->setWindowTitle(i18n("Download New Plasma Themes"));
+        m_newStuffDialog.data()->setWindowTitle(i18n("Download New Plasma Styles"));
         m_newStuffDialog->setWindowModality(Qt::WindowModal);
         m_newStuffDialog->winId(); // so it creates the windowHandle();
         connect(m_newStuffDialog.data(), &KNS3::DownloadDialog::accepted, this, &KCMDesktopTheme::load);
@@ -191,7 +187,7 @@ void KCMDesktopTheme::installTheme(const QString &path)
     const QString program = QStringLiteral("kpackagetool5");
     const QStringList arguments = { QStringLiteral("--type"), QStringLiteral("Plasma/Theme"), QStringLiteral("--install"), path};
 
-    qCDebug(KCM_DESKTOP_THEME) << program << arguments.join(QStringLiteral(" "));
+    qCDebug(KCM_DESKTOP_THEME) << program << arguments.join(QLatin1Char(' '));
     QProcess *myProcess = new QProcess(this);
     connect(myProcess, static_cast<void (QProcess::*)(int, QProcess::ExitStatus)>(&QProcess::finished),
             this, [this, myProcess](int exitCode, QProcess::ExitStatus exitStatus) {

@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcm5_componentchooser\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"POT-Creation-Date: 2019-09-18 03:38+0200\n"
 "PO-Revision-Date: 2018-06-30 22:42+0100\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@euskalnet.net>\n"
 "Language-Team: Basque <kde-i18n-doc@kde.org>\n"
@@ -73,12 +73,12 @@ msgstr "ondorengo komandoarekin:"
 msgid "..."
 msgstr "..."
 
-#: componentchooser.cpp:134
+#: componentchooser.cpp:133
 #, kde-format
 msgid "Unknown"
 msgstr "Ezezaguna"
 
-#: componentchooser.cpp:151
+#: componentchooser.cpp:150
 #, kde-format
 msgid ""
 "Choose from the list below which component should be used by default for the "
@@ -87,7 +87,7 @@ msgstr ""
 "Aukeratu zerrenda honetatik zer osagai erabili behar den lehenespenez %1 "
 "zerbitzurako."
 
-#: componentchooser.cpp:183
+#: componentchooser.cpp:182
 #, kde-format
 msgid ""
 "<qt>You changed the default component of your choice, do want to save that "
@@ -96,7 +96,7 @@ msgstr ""
 "<qt>Aldatu egin duzu zuk aukeratutako osagai lehenetsia. Orain gorde nahi "
 "duzu aldaketa hori?</qt>"
 
-#: componentchooser.cpp:188
+#: componentchooser.cpp:187
 #, kde-format
 msgid "No description available"
 msgstr "Ez dago deskribapenik erabilgarri"
@@ -162,7 +162,7 @@ msgstr "Hautatu gogoko web-arakatzailearen aplikazioa:"
 msgid "Select preferred email client:"
 msgstr "Hautatu gogoko posta-bezeroa:"
 
-#: componentchooserterminal.cpp:104
+#: componentchooserterminal.cpp:102
 #, kde-format
 msgid "Select preferred terminal application:"
 msgstr "Hautatu gogoko terminal-aplikazioa:"

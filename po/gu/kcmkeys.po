@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkeys\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"POT-Creation-Date: 2019-09-12 03:25+0200\n"
 "PO-Revision-Date: 2010-06-24 14:41+0530\n"
 "Last-Translator: Sweta Kothari <swkothar@redhat.com>\n"
 "Language-Team: Gujarati\n"
@@ -30,52 +30,52 @@ msgstr "નિકાસ કરવા માટે ઘટકો પસંદ ક�
 msgid "Components"
 msgstr "ઘટકો"
 
-#: globalshortcuts.cpp:67
+#: globalshortcuts.cpp:65
 #, kde-format
 msgid "You are about to reset all shortcuts to their default values."
 msgstr "તમે તેની મૂળભૂત કિંમતોનાં બધા ટૂંકાણોને પુન:સુયોજિત કરવાનાં છો."
 
-#: globalshortcuts.cpp:68
+#: globalshortcuts.cpp:66
 #, kde-format
 msgid "Reset to defaults"
 msgstr "મૂળભૂત પર પાછું લાવો"
 
-#: globalshortcuts.cpp:69
+#: globalshortcuts.cpp:67
 #, kde-format
 msgid "Current Component"
 msgstr "હાલનો ઘટક"
 
-#: globalshortcuts.cpp:70
+#: globalshortcuts.cpp:68
 #, kde-format
 msgid "All Components"
 msgstr "બધા ઘટકો"
 
-#: kglobalshortcutseditor.cpp:231
+#: kglobalshortcutseditor.cpp:233
 #, kde-format
 msgid "Import Scheme..."
 msgstr "પધ્ધતિ આયાત કરો..."
 
-#: kglobalshortcutseditor.cpp:232
+#: kglobalshortcutseditor.cpp:234
 #, kde-format
 msgid "Export Scheme..."
 msgstr "પધ્ધતિ નિકાસ કરો..."
 
-#: kglobalshortcutseditor.cpp:233
+#: kglobalshortcutseditor.cpp:235
 #, kde-format
 msgid "Set All Shortcuts to None"
 msgstr "બધા ટૂંકાણોને કંઇ નહી પર ગોઠવો"
 
-#: kglobalshortcutseditor.cpp:241
+#: kglobalshortcutseditor.cpp:243
 #, kde-format
 msgid "Applications"
 msgstr ""
 
-#: kglobalshortcutseditor.cpp:292
+#: kglobalshortcutseditor.cpp:294
 #, kde-format
 msgid "Launch %1"
 msgstr ""
 
-#: kglobalshortcutseditor.cpp:328
+#: kglobalshortcutseditor.cpp:330
 #, kde-format
 msgid ""
 "Component '%1' is currently active. Only global shortcuts currently not "
@@ -87,12 +87,12 @@ msgstr ""
 "હશે. બધા વૈશ્ર્વિક ટૂંકાણો તેનાં મૂળભૂતો સાથે પોતાની જાતે જ રજીસ્ટર થશે જ્યારે તેઓ પછી શરૂ થાય "
 "છે."
 
-#: kglobalshortcutseditor.cpp:330 kglobalshortcutseditor.cpp:340
+#: kglobalshortcutseditor.cpp:332 kglobalshortcutseditor.cpp:342
 #, kde-format
 msgid "Remove component"
 msgstr "ઘટક દૂર કરો"
 
-#: kglobalshortcutseditor.cpp:336
+#: kglobalshortcutseditor.cpp:338
 #, kde-format
 msgid ""
 "Are you sure you want to remove the registered shortcuts for component '%1'? "
@@ -102,17 +102,17 @@ msgstr ""
 "શું તમે ખરેખર ઘટક '%1' માટે રજીસ્ટર થયેલ ટૂંકાણોને દૂર કરવા માંગો છો? ઘટક અને ટૂંકાણો તેનાં "
 "મૂળભૂત સુયોજનો સાથે પોતાની જાતે જ રજીસ્ટર થશે જ્યારે તેઓ પછી શરૂ થાય છે."
 
-#: kglobalshortcutseditor.cpp:450
+#: kglobalshortcutseditor.cpp:452
 #, kde-format
 msgid "Application Launchers"
 msgstr ""
 
-#: kglobalshortcutseditor.cpp:453
+#: kglobalshortcutseditor.cpp:455
 #, kde-format
 msgid "Other Shortcuts"
 msgstr ""
 
-#: kglobalshortcutseditor.cpp:558
+#: kglobalshortcutseditor.cpp:560
 #, kde-format
 msgid ""
 "Your current changes will be lost if you load another scheme before saving "
@@ -120,12 +120,12 @@ msgid ""
 msgstr ""
 "જો આ રુપરેખાને બચાવ્યા વગર તમે બીજી રુપરેખા લાવશો તો, તમે હાલના ફેરફારો ગુમાવી દેશો."
 
-#: kglobalshortcutseditor.cpp:559
+#: kglobalshortcutseditor.cpp:561
 #, kde-format
 msgid "Load Shortcut Scheme"
 msgstr "ટૂંકાણ પધ્ધતિ લાવો"
 
-#: kglobalshortcutseditor.cpp:560
+#: kglobalshortcutseditor.cpp:562
 #, kde-format
 msgid "Load"
 msgstr "લાવો"
@@ -135,7 +135,7 @@ msgstr "લાવો"
 msgid "This file (%1) does not exist. You can only select local files."
 msgstr "આ ફાઇલ (%1) અસ્તિત્વમાં નથી. તમે માત્ર સ્થાનિક ફાઇલો પસંદ કરી શકશો."
 
-#: kglobalshortcutseditor.cpp:601 kglobalshortcutseditor.cpp:624
+#: kglobalshortcutseditor.cpp:602 kglobalshortcutseditor.cpp:625
 #, kde-format
 msgid ""
 "Message: %1\n"
@@ -144,7 +144,7 @@ msgstr ""
 "સંદેશો: %1\n"
 "ભૂલ: %2"
 
-#: kglobalshortcutseditor.cpp:606 kglobalshortcutseditor.cpp:629
+#: kglobalshortcutseditor.cpp:607 kglobalshortcutseditor.cpp:630
 #, kde-format
 msgid "Failed to contact the KDE global shortcuts daemon\n"
 msgstr "KDE ના વૈશ્વિક ડેઇમોન સાથે સંપર્ક સાધવામાં નિષ્ફળ થયા છીએ\n"

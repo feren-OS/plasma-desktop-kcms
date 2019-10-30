@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_org.kde.plasma.taskmanager\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-06-23 07:22+0200\n"
-"PO-Revision-Date: 2019-04-25 08:22+0300\n"
+"POT-Creation-Date: 2019-10-21 07:47+0200\n"
+"PO-Revision-Date: 2019-10-21 20:23+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
 "%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Lokalize 19.03.70\n"
+"X-Generator: Lokalize 19.11.70\n"
 
 #: package/contents/config/config.qml:26
 #, kde-format
@@ -89,15 +89,13 @@ msgstr "Максимальна кількість рядків:"
 
 #: package/contents/ui/ConfigAppearance.qml:111
 #, kde-format
-msgid "Always arrange tasks in as many rows as columns"
-msgstr ""
-"Завжди компонувати так, щоб кількість рядків дорівнювала кількості стовпчиків"
+msgid "Always arrange tasks in rows of as many columns"
+msgstr "Завжди компонувати завдання у рядки із такою кількістю стовпчиків"
 
 #: package/contents/ui/ConfigAppearance.qml:111
 #, kde-format
-msgid "Always arrange tasks in as many columns as rows"
-msgstr ""
-"Завжди компонувати так, щоб кількість стовпчиків дорівнювала кількості рядків"
+msgid "Always arrange tasks in columns of as many rows"
+msgstr "Завжди компонувати завдання у стовпчики із такою кількістю рядків"
 
 #: package/contents/ui/ConfigBehavior.qml:52
 #, kde-format
@@ -226,76 +224,76 @@ msgstr "Показувати тільки завдання з поточного
 msgid "Show only tasks that are minimized"
 msgstr "Показувати лише мінімізовані завдання"
 
-#: package/contents/ui/ContextMenu.qml:100
+#: package/contents/ui/ContextMenu.qml:99
 #, kde-format
 msgid "Places"
 msgstr "Місця"
 
-#: package/contents/ui/ContextMenu.qml:105
+#: package/contents/ui/ContextMenu.qml:104
 #, kde-format
 msgid "Recent Documents"
 msgstr "Недавні документи"
 
-#: package/contents/ui/ContextMenu.qml:110
+#: package/contents/ui/ContextMenu.qml:109
 #, kde-format
 msgid "Actions"
 msgstr "Дії"
 
-#: package/contents/ui/ContextMenu.qml:168
+#: package/contents/ui/ContextMenu.qml:167
 #, kde-format
 msgctxt "Play previous track"
 msgid "Previous Track"
 msgstr "Попередня композиція"
 
-#: package/contents/ui/ContextMenu.qml:182
+#: package/contents/ui/ContextMenu.qml:181
 #, kde-format
 msgctxt "Pause playback"
 msgid "Pause"
 msgstr "Пауза"
 
-#: package/contents/ui/ContextMenu.qml:182
+#: package/contents/ui/ContextMenu.qml:181
 #, kde-format
 msgctxt "Start playback"
 msgid "Play"
 msgstr "Пуск"
 
-#: package/contents/ui/ContextMenu.qml:200
+#: package/contents/ui/ContextMenu.qml:199
 #, kde-format
 msgctxt "Play next track"
 msgid "Next Track"
 msgstr "Наступна композиція"
 
-#: package/contents/ui/ContextMenu.qml:211
+#: package/contents/ui/ContextMenu.qml:210
 #, kde-format
 msgctxt "Stop playback"
 msgid "Stop"
 msgstr "Стоп"
 
-#: package/contents/ui/ContextMenu.qml:231
+#: package/contents/ui/ContextMenu.qml:230
 #, kde-format
 msgctxt "Quit media player app"
 msgid "Quit"
 msgstr "Вийти"
 
-#: package/contents/ui/ContextMenu.qml:246
+#: package/contents/ui/ContextMenu.qml:245
 #, kde-format
 msgctxt "Open or bring to the front window of media player app"
 msgid "Restore"
 msgstr "Відновити"
 
-#: package/contents/ui/ContextMenu.qml:272
+#: package/contents/ui/ContextMenu.qml:271
 #, kde-format
 msgid "Mute"
 msgstr "Вимкнути звук"
 
-#: package/contents/ui/ContextMenu.qml:286
+#: package/contents/ui/ContextMenu.qml:285
 #, kde-format
 msgid "Start New Instance"
 msgstr "Запустити новий екземпляр"
 
-#: package/contents/ui/ContextMenu.qml:302
+#: package/contents/ui/ContextMenu.qml:301
 #, kde-format
-msgid "Move To &Desktop"
+msgid "Move to &Desktop"
 msgstr "Пересунути на с&тільницю"
 
 #: package/contents/ui/ContextMenu.qml:325
@@ -321,114 +319,114 @@ msgstr "С&творити стільницю"
 
 #: package/contents/ui/ContextMenu.qml:381
 #, kde-format
-msgid "Move To &Activity"
-msgstr "Пересунути до п&ростору дій"
+msgid "Show in &Activities"
+msgstr "Показати у п&росторах дій"
 
-#: package/contents/ui/ContextMenu.qml:402
+#: package/contents/ui/ContextMenu.qml:403
 #, kde-format
 msgid "Add To Current Activity"
 msgstr "Додати до поточного простору дій"
 
-#: package/contents/ui/ContextMenu.qml:412
+#: package/contents/ui/ContextMenu.qml:413
 #, kde-format
 msgid "All Activities"
 msgstr "Усі простори дій"
 
-#: package/contents/ui/ContextMenu.qml:471
+#: package/contents/ui/ContextMenu.qml:472
 #, kde-format
 msgid "More Actions"
 msgstr "Додаткові дії"
 
-#: package/contents/ui/ContextMenu.qml:480
+#: package/contents/ui/ContextMenu.qml:481
 #, kde-format
 msgid "&Move"
 msgstr "&Пересунути"
 
-#: package/contents/ui/ContextMenu.qml:489
+#: package/contents/ui/ContextMenu.qml:490
 #, kde-format
 msgid "Re&size"
 msgstr "Змінити &розмір"
 
-#: package/contents/ui/ContextMenu.qml:503
+#: package/contents/ui/ContextMenu.qml:504
 #, kde-format
 msgid "Ma&ximize"
 msgstr "М&аксимізувати"
 
-#: package/contents/ui/ContextMenu.qml:517
+#: package/contents/ui/ContextMenu.qml:518
 #, kde-format
 msgid "Mi&nimize"
 msgstr "&Мінімізувати"
 
-#: package/contents/ui/ContextMenu.qml:527
+#: package/contents/ui/ContextMenu.qml:528
 #, kde-format
 msgid "Keep &Above Others"
 msgstr "Утримувати &понад іншими"
 
-#: package/contents/ui/ContextMenu.qml:537
+#: package/contents/ui/ContextMenu.qml:538
 #, kde-format
 msgid "Keep &Below Others"
 msgstr "Утримувати п&ід іншими"
 
-#: package/contents/ui/ContextMenu.qml:549
+#: package/contents/ui/ContextMenu.qml:550
 #, kde-format
 msgid "&Fullscreen"
 msgstr "&На весь екран"
 
-#: package/contents/ui/ContextMenu.qml:561
+#: package/contents/ui/ContextMenu.qml:562
 #, kde-format
 msgid "&Shade"
 msgstr "З&горнути"
 
-#: package/contents/ui/ContextMenu.qml:577
+#: package/contents/ui/ContextMenu.qml:578
 #, kde-format
 msgid "Allow this program to be grouped"
 msgstr "Дозволити групування для цієї програми"
 
-#: package/contents/ui/ContextMenu.qml:629
-#: package/contents/ui/ContextMenu.qml:644
+#: package/contents/ui/ContextMenu.qml:630
+#: package/contents/ui/ContextMenu.qml:645
 #, kde-format
 msgid "&Pin to Task Manager"
 msgstr "&Пришпилити до панелі керування завданнями"
 
-#: package/contents/ui/ContextMenu.qml:697
+#: package/contents/ui/ContextMenu.qml:698
 #, kde-format
 msgid "On All Activities"
 msgstr "На усіх просторах дій"
 
-#: package/contents/ui/ContextMenu.qml:703
+#: package/contents/ui/ContextMenu.qml:704
 #, kde-format
 msgid "On The Current Activity"
 msgstr "На поточному просторі дій"
 
-#: package/contents/ui/ContextMenu.qml:724
+#: package/contents/ui/ContextMenu.qml:728
 #, kde-format
 msgid "Unpin from Task Manager"
 msgstr "Відшпилити від панелі керування завданнями"
 
-#: package/contents/ui/ContextMenu.qml:738
+#: package/contents/ui/ContextMenu.qml:742
 #, kde-format
 msgid "&Close"
 msgstr "&Закрити"
 
-#: package/contents/ui/ToolTipInstance.qml:469
+#: package/contents/ui/ToolTipInstance.qml:414
 #, kde-format
 msgctxt "Comma-separated list of desktops"
 msgid "On %1"
 msgstr "На %1"
 
-#: package/contents/ui/ToolTipInstance.qml:479
+#: package/contents/ui/ToolTipInstance.qml:424
 #, kde-format
 msgctxt "Which virtual desktop a window is currently on"
 msgid "Available on all activities"
 msgstr "Доступне у всіх просторах дій"
 
-#: package/contents/ui/ToolTipInstance.qml:501
+#: package/contents/ui/ToolTipInstance.qml:446
 #, kde-format
 msgctxt "Activities a window is currently on (apart from the current one)"
 msgid "Also available on %1"
 msgstr "Також доступне у %1"
 
-#: package/contents/ui/ToolTipInstance.qml:505
+#: package/contents/ui/ToolTipInstance.qml:450
 #, kde-format
 msgctxt "Which activities a window is currently on"
 msgid "Available on %1"

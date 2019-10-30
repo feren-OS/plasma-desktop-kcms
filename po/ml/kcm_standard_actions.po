@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"POT-Creation-Date: 2019-05-20 03:25+0200\n"
 "PO-Revision-Date: 2008-12-02 00:41+0730\n"
 "Last-Translator: Hari|ഹരി  Vishnu | വിഷ്ണു <harivishnu@gmail.com>\n"
 "Language-Team: Malayalam <smc-discuss@googlegroups.com>\n"
@@ -40,10 +40,6 @@ msgstr "സാധാരണ പ്രവൃത്തികള്‍ വിജയ�
 
 #: standard_actions_module.cpp:156
 #, fuzzy, kde-format
-#| msgid ""
-#| "The changes have been saved. Please consider:<ul><li>Applications need to "
-#| "be restarted to see the changes.</li>    <li>This change could introduce "
-#| "shortcut conflicts in some applications.</li></ul>"
 msgid ""
 "The changes have been saved. Please note that:<ul><li>Applications need to "
 "be restarted to see the changes.</li>    <li>This change could introduce "

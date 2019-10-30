@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bosnianuniversetranslation\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-06-26 07:33+0200\n"
+"POT-Creation-Date: 2019-08-16 03:26+0200\n"
 "PO-Revision-Date: 2015-01-06 23:58+0000\n"
 "Last-Translator: Samir Ribić <Unknown>\n"
 "Language-Team: Bosnian <bs@li.org>\n"
@@ -30,41 +30,43 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "samir.ribic@etf.unsa.ba"
 
-#: kcm.cpp:76
-#, fuzzy, kde-format
-msgid "Look and Feel"
-msgstr "Konfiguriši detalje pozdravnog ekrana"
+#: kcm.cpp:72
+#, kde-format
+msgid "Global Theme"
+msgstr ""
 
-#: kcm.cpp:78 lnftool.cpp:43
+#: kcm.cpp:74 lnftool.cpp:43
 #, kde-format
 msgid "Marco Martin"
 msgstr "Marco Martin"
 
-#: kcm.cpp:112
+#: kcm.cpp:108
 #, fuzzy, kde-format
-msgid "Download New Look and Feel Themes"
+msgid "Download New Global Themes"
 msgstr "Konfiguriši detalje pozdravnog ekrana"
 
-#: kcm.cpp:572
+#: kcm.cpp:569
 #, fuzzy, kde-format
 #| msgid "You have to restart KDE for cursor changes to take effect."
 msgid ""
 "You have to restart the Plasma session for these changes to take effect."
 msgstr "Morate ponovo pokrenuti KDE da bi promjena kursora imala efekta."
 
-#: kcm.cpp:573
+#: kcm.cpp:570
 #, kde-format
 msgid "Cursor Settings Changed"
 msgstr "Postavke kursora promijenjene"
 
 #: lnftool.cpp:42
-#, fuzzy, kde-format
-msgid "Look and feel tool"
-msgstr "Konfiguriši detalje pozdravnog ekrana"
+#, kde-format
+msgid "Global Theme Tool"
+msgstr ""
 
 #: lnftool.cpp:42
 #, kde-format
-msgid "Command line tool to apply look and feel packages."
+msgid ""
+"Command line tool to apply global theme packages for changing the look and "
+"feel."
 msgstr ""
 
 #: lnftool.cpp:42
@@ -80,12 +82,12 @@ msgstr ""
 
 #: lnftool.cpp:52
 #, kde-format
-msgid "List available Look and feel packages"
+msgid "List available global theme packages"
 msgstr ""
 
 #: lnftool.cpp:54
 #, kde-format
-msgid "Apply a look and feel package"
+msgid "Apply a global theme package"
 msgstr ""
 
 #: lnftool.cpp:54
@@ -100,7 +102,7 @@ msgstr ""
 
 #: package/contents/ui/main.qml:28
 #, kde-format
-msgid "This module lets you choose the Look and Feel theme."
+msgid "This module lets you choose the global look and feel."
 msgstr ""
 
 #: package/contents/ui/main.qml:49
@@ -122,5 +124,5 @@ msgstr ""
 
 #: package/contents/ui/main.qml:84
 #, kde-format
-msgid "Get New Look and Feel Themes..."
+msgid "Get New Global Themes..."
 msgstr ""

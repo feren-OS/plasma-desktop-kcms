@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmstyle\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"POT-Creation-Date: 2019-10-19 08:02+0200\n"
 "PO-Revision-Date: 2007-06-23 21:08+0930\n"
 "Last-Translator: Clytie Siddall <clytie@riverland.net.au>\n"
 "Language-Team: Vietnamese <gnomevi-list@lists.sourceforge.net>\n"
@@ -27,7 +27,7 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "kde-l10n-vi@kde.org"
 
-#: kcmstyle.cpp:173
+#: kcmstyle.cpp:171
 #, fuzzy, kde-format
 #| msgid ""
 #| "<h1>Style</h1>This module allows you to modify the visual appearance of "
@@ -39,48 +39,48 @@ msgstr ""
 "<h1>Kiểu dáng</h1>Mô-đun này cho bạn khả năng sửa đổi diện mạo của yếu tố "
 "của giao diện người dùng, như kiểu dáng và hiệu ứng của ô điều khiển."
 
-#: kcmstyle.cpp:183
+#: kcmstyle.cpp:181
 #, fuzzy, kde-format
 #| msgid "Application Level"
 msgid "Application Style"
 msgstr "Cấp ứng dụng:"
 
-#: kcmstyle.cpp:185
+#: kcmstyle.cpp:183
 #, kde-format
 msgid "(c) 2002 Karol Szwed, Daniel Molkentin"
 msgstr "Bản quyền © năm 2002 của Karol Szwed và Daniel Molkentin"
 
-#: kcmstyle.cpp:187
+#: kcmstyle.cpp:185
 #, kde-format
 msgid "Karol Szwed"
 msgstr ""
 
-#: kcmstyle.cpp:188
+#: kcmstyle.cpp:186
 #, kde-format
 msgid "Daniel Molkentin"
 msgstr ""
 
-#: kcmstyle.cpp:198
+#: kcmstyle.cpp:196
 #, kde-format
 msgid "Preview"
 msgstr "Xem thử"
 
-#: kcmstyle.cpp:252 kcmstyle.cpp:263
+#: kcmstyle.cpp:250 kcmstyle.cpp:261
 #, kde-format
 msgid "There was an error loading the configuration dialog for this style."
 msgstr "Gặp lỗi khi tải hộp thoại cấu hình cho kiểu dáng này."
 
-#: kcmstyle.cpp:254 kcmstyle.cpp:265
+#: kcmstyle.cpp:252 kcmstyle.cpp:263
 #, kde-format
 msgid "Unable to Load Dialog"
 msgstr "Không thể tải hộp thoại"
 
-#: kcmstyle.cpp:488
+#: kcmstyle.cpp:479
 #, kde-format
 msgid "No description available."
 msgstr "Không có mô tả."
 
-#: kcmstyle.cpp:695
+#: kcmstyle.cpp:686
 #, kde-format
 msgid ""
 "This area shows a preview of the currently selected style without having to "
@@ -89,7 +89,7 @@ msgstr ""
 "Vùng này hiển thị ô xen thử kiểu dáng đã chọn hiện thời, không cần áp dụng "
 "nó vào toàn màn hình nền."
 
-#: kcmstyle.cpp:697
+#: kcmstyle.cpp:688
 #, kde-format
 msgid ""
 "Here you can choose from a list of predefined widget styles (e.g. the way "
@@ -100,7 +100,7 @@ msgstr ""
 "sẵn (v.d. cách vẽ cái nút) mà có thể được tổ hợp với sắc thái (thông tin "
 "thêm như hoạ tiết cẩm thạch hay dốc)."
 
-#: kcmstyle.cpp:701
+#: kcmstyle.cpp:692
 #, fuzzy, kde-format
 #| msgid ""
 #| "If you enable this option, KDE Applications will show small icons "
@@ -112,7 +112,7 @@ msgstr ""
 "Nếu bạn bật tùy chọn này, ứng dụng KDE sẽ hiển thị biểu tượng nhỏ bên cạnh "
 "cái nút quan trọng."
 
-#: kcmstyle.cpp:703
+#: kcmstyle.cpp:694
 #, fuzzy, kde-format
 #| msgid ""
 #| "If you enable this option, KDE Applications will show small icons "
@@ -124,7 +124,7 @@ msgstr ""
 "Nếu bạn bật tùy chọn này, ứng dụng KDE sẽ hiển thị biểu tượng nhỏ bên cạnh "
 "cái nút quan trọng."
 
-#: kcmstyle.cpp:705
+#: kcmstyle.cpp:696
 #, fuzzy, kde-format
 #| msgid ""
 #| "<p><b>Icons only:</b> Shows only icons on toolbar buttons. Best option "
@@ -147,7 +147,7 @@ msgstr ""
 "dưới hình: </b> Hiển thị cả biểu tượng lẫn nhãn trên cái nút nằm trên thanh "
 "công cụ. Nhãn được canh dưới biểu tượng."
 
-#: styleconfdialog.cpp:29
+#: styleconfdialog.cpp:33
 #, kde-format
 msgid "Configure %1"
 msgstr "Cấu hình %1"

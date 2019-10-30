@@ -1,13 +1,13 @@
 # Copyright (C) YEAR This_file_is_part_of_KDE
 # This file is distributed under the same license as the PACKAGE package.
-# Shinjo Park <kde@peremen.name>, 2009, 2010, 2011, 2012, 2017, 2018.
+# Shinjo Park <kde@peremen.name>, 2009, 2010, 2011, 2012, 2017, 2018, 2019.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
-"PO-Revision-Date: 2018-08-14 14:14+0100\n"
+"POT-Creation-Date: 2019-08-02 03:11+0200\n"
+"PO-Revision-Date: 2019-09-25 00:37+0200\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
 "Language-Team: Korean <kde-kr@kde.org>\n"
 "Language: ko\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Lokalize 2.0\n"
+"X-Generator: Lokalize 18.12.3\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -59,14 +59,13 @@ msgstr "두 번 눌러서 파일과 폴더 열기(한 번 눌러서 선택)"
 
 #: workspaceoptions.cpp:40
 #, kde-format
-msgid "Plasma Workspace global options"
-msgstr "Plasma 작업 공간 전역 설정"
+msgid "General Behavior"
+msgstr "일반 행동"
 
 #: workspaceoptions.cpp:42
 #, kde-format
-msgid ""
-"System Settings module for managing global options for the Plasma Workspace."
-msgstr "Plasma 작업 공간의 전역 설정을 관리하는 시스템 설정 모듈입니다."
+msgid "System Settings module for configuring general workspace behavior."
+msgstr "일반 작업 공간 행동을 관리하는 시스템 설정 모듈입니다."
 
 #: workspaceoptions.cpp:45
 #, kde-format

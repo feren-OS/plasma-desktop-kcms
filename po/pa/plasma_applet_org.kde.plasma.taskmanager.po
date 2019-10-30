@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-06-23 07:22+0200\n"
+"POT-Creation-Date: 2019-10-21 07:47+0200\n"
 "PO-Revision-Date: 2018-11-08 22:40-0800\n"
 "Last-Translator: A S Alam <alam.yellow@gmail.com>\n"
 "Language-Team: Punjabi <punjabi-users@lists.sf.net>\n"
@@ -87,12 +87,12 @@ msgstr "ਵੱਧੋ-ਵੱਧ ਕਤਾਰਾਂ:"
 
 #: package/contents/ui/ConfigAppearance.qml:111
 #, kde-format
-msgid "Always arrange tasks in as many rows as columns"
+msgid "Always arrange tasks in rows of as many columns"
 msgstr ""
 
 #: package/contents/ui/ConfigAppearance.qml:111
 #, kde-format
-msgid "Always arrange tasks in as many columns as rows"
+msgid "Always arrange tasks in columns of as many rows"
 msgstr ""
 
 #: package/contents/ui/ConfigBehavior.qml:52
@@ -234,78 +234,79 @@ msgstr "ਕੇਵਲ ਮੌਜੂਦਾ ਸਰਗਰਮੀ ਤੋਂ ਹੀ ਟ�
 msgid "Show only tasks that are minimized"
 msgstr "ਕੇਵਲ ਉਹੀ ਟਾਸਕ ਵੇਖੋ, ਜੋ ਕਿ ਘੱਟੋ-ਘੱਟ ਹੋਣ"
 
-#: package/contents/ui/ContextMenu.qml:100
+#: package/contents/ui/ContextMenu.qml:99
 #, kde-format
 msgid "Places"
 msgstr ""
 
-#: package/contents/ui/ContextMenu.qml:105
+#: package/contents/ui/ContextMenu.qml:104
 #, fuzzy, kde-format
 #| msgid "Forget Recent Documents"
 msgid "Recent Documents"
 msgstr "ਤਾਜ਼ਾ ਦਸਤਾਵੇਜ਼ਾਂ ਨੂੰ ਭੁਲਾਓ"
 
-#: package/contents/ui/ContextMenu.qml:110
+#: package/contents/ui/ContextMenu.qml:109
 #, fuzzy, kde-format
 #| msgid "More Actions"
 msgid "Actions"
 msgstr "ਹੋਰ ਕਾਰਵਾਈਆਂ"
 
-#: package/contents/ui/ContextMenu.qml:168
+#: package/contents/ui/ContextMenu.qml:167
 #, kde-format
 msgctxt "Play previous track"
 msgid "Previous Track"
 msgstr "ਪਿਛਲਾ ਟਰੈਕ"
 
-#: package/contents/ui/ContextMenu.qml:182
+#: package/contents/ui/ContextMenu.qml:181
 #, kde-format
 msgctxt "Pause playback"
 msgid "Pause"
 msgstr "ਵਿਰਾਮ"
 
-#: package/contents/ui/ContextMenu.qml:182
+#: package/contents/ui/ContextMenu.qml:181
 #, kde-format
 msgctxt "Start playback"
 msgid "Play"
 msgstr "ਚਲਾਓ"
 
-#: package/contents/ui/ContextMenu.qml:200
+#: package/contents/ui/ContextMenu.qml:199
 #, kde-format
 msgctxt "Play next track"
 msgid "Next Track"
 msgstr "ਅਗਲਾ ਟਰੈਕ"
 
-#: package/contents/ui/ContextMenu.qml:211
+#: package/contents/ui/ContextMenu.qml:210
 #, kde-format
 msgctxt "Stop playback"
 msgid "Stop"
 msgstr "ਰੋਕੋ"
 
-#: package/contents/ui/ContextMenu.qml:231
+#: package/contents/ui/ContextMenu.qml:230
 #, kde-format
 msgctxt "Quit media player app"
 msgid "Quit"
 msgstr "ਬਾਹਰ"
 
-#: package/contents/ui/ContextMenu.qml:246
+#: package/contents/ui/ContextMenu.qml:245
 #, kde-format
 msgctxt "Open or bring to the front window of media player app"
 msgid "Restore"
 msgstr "ਬਹਾਲ ਕਰੋ"
 
-#: package/contents/ui/ContextMenu.qml:272
+#: package/contents/ui/ContextMenu.qml:271
 #, kde-format
 msgid "Mute"
 msgstr "ਚੁੱਪ"
 
-#: package/contents/ui/ContextMenu.qml:286
+#: package/contents/ui/ContextMenu.qml:285
 #, kde-format
 msgid "Start New Instance"
 msgstr "ਨਵੇਂ ਮੌਕੇ ਨੂੰ ਸ਼ੁਰੂ ਕਰੋ"
 
-#: package/contents/ui/ContextMenu.qml:302
-#, kde-format
-msgid "Move To &Desktop"
+#: package/contents/ui/ContextMenu.qml:301
+#, fuzzy, kde-format
+#| msgid "Move To &Desktop"
+msgid "Move to &Desktop"
 msgstr "ਡੈਸਕਟਾਪ ਉੱਤੇ ਭੇਜੋ(&D)"
 
 #: package/contents/ui/ContextMenu.qml:325
@@ -330,116 +331,117 @@ msgid "&New Desktop"
 msgstr "ਨਵਾਂ ਡੈਸਕਟਾਪ(&N)"
 
 #: package/contents/ui/ContextMenu.qml:381
-#, kde-format
-msgid "Move To &Activity"
-msgstr "ਸਰਗਰਮੀ ਵਿੱਚ ਭੇਜੋ(&A)"
+#, fuzzy, kde-format
+#| msgid "All Activities"
+msgid "Show in &Activities"
+msgstr "ਸਭ ਸਰਗਰਮੀਆਂ"
 
-#: package/contents/ui/ContextMenu.qml:402
+#: package/contents/ui/ContextMenu.qml:403
 #, kde-format
 msgid "Add To Current Activity"
 msgstr "ਮੌਜੂਦਾ ਸਰਗਰਮੀ 'ਚ ਜੋੜੋ"
 
-#: package/contents/ui/ContextMenu.qml:412
+#: package/contents/ui/ContextMenu.qml:413
 #, kde-format
 msgid "All Activities"
 msgstr "ਸਭ ਸਰਗਰਮੀਆਂ"
 
-#: package/contents/ui/ContextMenu.qml:471
+#: package/contents/ui/ContextMenu.qml:472
 #, kde-format
 msgid "More Actions"
 msgstr "ਹੋਰ ਕਾਰਵਾਈਆਂ"
 
-#: package/contents/ui/ContextMenu.qml:480
+#: package/contents/ui/ContextMenu.qml:481
 #, kde-format
 msgid "&Move"
 msgstr "ਭੇਜੋ(&M)"
 
-#: package/contents/ui/ContextMenu.qml:489
+#: package/contents/ui/ContextMenu.qml:490
 #, kde-format
 msgid "Re&size"
 msgstr "ਮੁੜ-ਆਕਾਰ(&s)"
 
-#: package/contents/ui/ContextMenu.qml:503
+#: package/contents/ui/ContextMenu.qml:504
 #, kde-format
 msgid "Ma&ximize"
 msgstr "ਵੱਧੋ-ਵੱਧ(&x)"
 
-#: package/contents/ui/ContextMenu.qml:517
+#: package/contents/ui/ContextMenu.qml:518
 #, kde-format
 msgid "Mi&nimize"
 msgstr "ਘੱਟੋ-ਘੱਟ(&n)"
 
-#: package/contents/ui/ContextMenu.qml:527
+#: package/contents/ui/ContextMenu.qml:528
 #, kde-format
 msgid "Keep &Above Others"
 msgstr "ਸਭ ਤੋਂ ਉੱਤੇ ਰੱਖੋ(&A)"
 
-#: package/contents/ui/ContextMenu.qml:537
+#: package/contents/ui/ContextMenu.qml:538
 #, kde-format
 msgid "Keep &Below Others"
 msgstr "ਸਭ ਤੋਂ ਹੇਠਾਂ ਰੱਖੋ(&B)"
 
-#: package/contents/ui/ContextMenu.qml:549
+#: package/contents/ui/ContextMenu.qml:550
 #, kde-format
 msgid "&Fullscreen"
 msgstr "ਪੂਰੀ ਸਕਰੀਨ(&F)"
 
-#: package/contents/ui/ContextMenu.qml:561
+#: package/contents/ui/ContextMenu.qml:562
 #, kde-format
 msgid "&Shade"
 msgstr "ਸ਼ੇਡ(&S)"
 
-#: package/contents/ui/ContextMenu.qml:577
+#: package/contents/ui/ContextMenu.qml:578
 #, kde-format
 msgid "Allow this program to be grouped"
 msgstr "ਇਸ ਗਰੁੱਪ ਨੂੰ ਗਰੁੱਪ ਬਣਾਉਣ ਦੀ ਇਜਾਜ਼ਤ ਦਿਓ"
 
-#: package/contents/ui/ContextMenu.qml:629
-#: package/contents/ui/ContextMenu.qml:644
+#: package/contents/ui/ContextMenu.qml:630
+#: package/contents/ui/ContextMenu.qml:645
 #, kde-format
 msgid "&Pin to Task Manager"
 msgstr ""
 
-#: package/contents/ui/ContextMenu.qml:697
+#: package/contents/ui/ContextMenu.qml:698
 #, kde-format
 msgid "On All Activities"
 msgstr "ਸਭ ਸਰਗਰਮੀਆਂ ਉੱਤੇ"
 
-#: package/contents/ui/ContextMenu.qml:703
+#: package/contents/ui/ContextMenu.qml:704
 #, kde-format
 msgid "On The Current Activity"
 msgstr "ਮੌਜੂਦਾ ਸਰਗਰਮੀ 'ਚ ਜੋੜੋ"
 
-#: package/contents/ui/ContextMenu.qml:724
+#: package/contents/ui/ContextMenu.qml:728
 #, kde-format
 msgid "Unpin from Task Manager"
 msgstr ""
 
-#: package/contents/ui/ContextMenu.qml:738
+#: package/contents/ui/ContextMenu.qml:742
 #, kde-format
 msgid "&Close"
 msgstr "ਬੰਦ ਕਰੋ(&C)"
 
-#: package/contents/ui/ToolTipInstance.qml:469
+#: package/contents/ui/ToolTipInstance.qml:414
 #, fuzzy, kde-format
 #| msgid "On %1"
 msgctxt "Comma-separated list of desktops"
 msgid "On %1"
 msgstr "%1 ਉੱਤੇ"
 
-#: package/contents/ui/ToolTipInstance.qml:479
+#: package/contents/ui/ToolTipInstance.qml:424
 #, kde-format
 msgctxt "Which virtual desktop a window is currently on"
 msgid "Available on all activities"
 msgstr "ਸਭ ਸਰਗਰਮੀਆਂ ਉੱਤੇ ਉਪਲੱਬਧ"
 
-#: package/contents/ui/ToolTipInstance.qml:501
+#: package/contents/ui/ToolTipInstance.qml:446
 #, kde-format
 msgctxt "Activities a window is currently on (apart from the current one)"
 msgid "Also available on %1"
 msgstr "%1 ਉੱਤੇ ਵੀ ਉਪਲੱਬਧ"
 
-#: package/contents/ui/ToolTipInstance.qml:505
+#: package/contents/ui/ToolTipInstance.qml:450
 #, kde-format
 msgctxt "Which activities a window is currently on"
 msgid "Available on %1"

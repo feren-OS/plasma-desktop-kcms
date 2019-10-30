@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmstyle\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"POT-Creation-Date: 2019-10-19 08:02+0200\n"
 "PO-Revision-Date: 2007-11-01 19:58+0545\n"
 "Last-Translator: Shyam Krishna Bal <shyamkrishna_bal@yahoo.com>\n"
 "Language-Team: Nepali <info@mpp.org.np>\n"
@@ -30,7 +30,7 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "nabin@mpp.org.np,shyam@mpp.org.np"
 
-#: kcmstyle.cpp:173
+#: kcmstyle.cpp:171
 #, fuzzy, kde-format
 #| msgid ""
 #| "<h1>Style</h1>This module allows you to modify the visual appearance of "
@@ -42,55 +42,55 @@ msgstr ""
 "<h1>शैली</h1>यो मोड्युलले तपाईँलाई प्रयोगकर्ता इन्टरफेस तत्वहरूको वास्तविक दृश्य परिमार्जन "
 "गर्न अनुमति दिन्छ, जस्तै विजेट शैली र प्रभाव ।"
 
-#: kcmstyle.cpp:183
+#: kcmstyle.cpp:181
 #, fuzzy, kde-format
 #| msgid "Application Level"
 msgid "Application Style"
 msgstr "अनुप्रयोग स्तर"
 
-#: kcmstyle.cpp:185
+#: kcmstyle.cpp:183
 #, kde-format
 msgid "(c) 2002 Karol Szwed, Daniel Molkentin"
 msgstr "(सी) २००२ कारोल सेज्ड, डानियल मोल्कानटिन"
 
-#: kcmstyle.cpp:187
+#: kcmstyle.cpp:185
 #, kde-format
 msgid "Karol Szwed"
 msgstr "कारोल सेज्ड"
 
-#: kcmstyle.cpp:188
+#: kcmstyle.cpp:186
 #, kde-format
 msgid "Daniel Molkentin"
 msgstr "डानियल मोलकेन्टिन"
 
-#: kcmstyle.cpp:198
+#: kcmstyle.cpp:196
 #, kde-format
 msgid "Preview"
 msgstr "पूर्वावलोकन गर्नुहोस्"
 
-#: kcmstyle.cpp:252 kcmstyle.cpp:263
+#: kcmstyle.cpp:250 kcmstyle.cpp:261
 #, kde-format
 msgid "There was an error loading the configuration dialog for this style."
 msgstr "त्यहाँ यो शैलीका लागि कन्फिगरेसन संवाद लोड गर्दा एउटा त्रुटि थियो ।"
 
-#: kcmstyle.cpp:254 kcmstyle.cpp:265
+#: kcmstyle.cpp:252 kcmstyle.cpp:263
 #, kde-format
 msgid "Unable to Load Dialog"
 msgstr "संवाद लोड गर्न अक्षम भयो"
 
-#: kcmstyle.cpp:488
+#: kcmstyle.cpp:479
 #, kde-format
 msgid "No description available."
 msgstr "कुनै वर्णन उपलब्ध छैन ।"
 
-#: kcmstyle.cpp:695
+#: kcmstyle.cpp:686
 #, kde-format
 msgid ""
 "This area shows a preview of the currently selected style without having to "
 "apply it to the whole desktop."
 msgstr "पूरै डेस्कटपमा लागू नगरीकन यो क्षेत्रले हालै चयन गरिएको शैलीको पूर्वावलोकन देखाउँछ ।"
 
-#: kcmstyle.cpp:697
+#: kcmstyle.cpp:688
 #, kde-format
 msgid ""
 "Here you can choose from a list of predefined widget styles (e.g. the way "
@@ -101,7 +101,7 @@ msgstr ""
 "कोरिएका छन्) जुन विषयवस्तुद्वारा संयोजन गर्न सकिनेछ वा सकिनेछैन (थप जानकारी जस्तै कडा "
 "बनावट वा ग्रेडियन्ट ) ।"
 
-#: kcmstyle.cpp:701
+#: kcmstyle.cpp:692
 #, fuzzy, kde-format
 #| msgid ""
 #| "If you enable this option, KDE Applications will show small icons "
@@ -113,7 +113,7 @@ msgstr ""
 "यदि तपाईँले यो विकल्प सक्षम पार्नु भयो भने, केडीई अनुप्रयोगहरूले केही महत्वपूर्ण बटनहरू "
 "वरिपरि साना प्रतिमाहरू देखाउँनेछ ।"
 
-#: kcmstyle.cpp:703
+#: kcmstyle.cpp:694
 #, fuzzy, kde-format
 #| msgid ""
 #| "If you enable this option, KDE Applications will show small icons "
@@ -125,7 +125,7 @@ msgstr ""
 "यदि तपाईँले यो विकल्प सक्षम पार्नु भयो भने, केडीई अनुप्रयोगहरूले केही महत्वपूर्ण बटनहरू "
 "वरिपरि साना प्रतिमाहरू देखाउँनेछ ।"
 
-#: kcmstyle.cpp:705
+#: kcmstyle.cpp:696
 #, fuzzy, kde-format
 #| msgid ""
 #| "<p><b>Icons only:</b> Shows only icons on toolbar buttons. Best option "
@@ -148,7 +148,7 @@ msgstr ""
 "</b> उपकरणपट्टी बटनहरूमा प्रतिमाहरु र पाठ देखाउँदछ । पाठ प्रतिमा मुनि पङ्क्तिबद्ध "
 "गरिएको छ ।"
 
-#: styleconfdialog.cpp:29
+#: styleconfdialog.cpp:33
 #, kde-format
 msgid "Configure %1"
 msgstr "%1 कन्फिगर गर्नुहोस्"

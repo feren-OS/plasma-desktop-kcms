@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-06-20 07:49+0200\n"
-"PO-Revision-Date: 2019-07-17 18:01+0200\n"
+"POT-Creation-Date: 2019-06-20 03:22+0200\n"
+"PO-Revision-Date: 2019-08-22 20:59+0200\n"
 "Last-Translator: Burkhard Lück <lueck@hube-lueck.de>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
 "Language: de\n"
@@ -109,7 +109,7 @@ msgstr "Linke und Rechte Taste tauschen"
 msgid "Press left and right buttons for middle click"
 msgstr "Linke und rechte Taste für Mittelklick drücken"
 
-#: src/kcm/libinput/touchpad.qml:206 src/kcm/libinput/touchpad.qml:720
+#: src/kcm/libinput/touchpad.qml:206 src/kcm/libinput/touchpad.qml:721
 #, kde-format
 msgid ""
 "Clicking left and right button simultaneously sends middle button click."
@@ -152,7 +152,7 @@ msgstr ""
 #: src/kcm/libinput/touchpad.qml:329
 #, kde-format
 msgid "Tapping:"
-msgstr ""
+msgstr "Klicken:"
 
 #: src/kcm/libinput/touchpad.qml:331
 #, kde-format
@@ -162,7 +162,7 @@ msgstr "Tippen zum Klicken"
 #: src/kcm/libinput/touchpad.qml:335
 #, kde-format
 msgid "Single tap is left button click."
-msgstr ""
+msgstr "Einfach Tippen entspricht Klicken mit der linken Maustaste"
 
 #: src/kcm/libinput/touchpad.qml:364
 #, kde-format
@@ -186,11 +186,9 @@ msgid "Dragging continues after a short finger lift."
 msgstr ""
 
 #: src/kcm/libinput/touchpad.qml:418
-#, fuzzy, kde-format
-#| msgctxt "Tapping"
-#| msgid "Two fingers:"
+#, kde-format
 msgid "Two-finger tap:"
-msgstr "Zwei Finger:"
+msgstr "Zweifingertippen:"
 
 #: src/kcm/libinput/touchpad.qml:427
 #, kde-format
@@ -250,11 +248,9 @@ msgid "Slide with two fingers scrolls."
 msgstr ""
 
 #: src/kcm/libinput/touchpad.qml:537
-#, fuzzy, kde-format
-#| msgctxt "Touchpad Edge"
-#| msgid "Top edge"
+#, kde-format
 msgid "Touchpad edges"
-msgstr "Oberer Rand"
+msgstr "Touchpad-Rand"
 
 #: src/kcm/libinput/touchpad.qml:541
 #, kde-format
@@ -273,67 +269,64 @@ msgid "Touchscreen like scrolling."
 msgstr "Bildlauf wie auf dem Touchscreen."
 
 #: src/kcm/libinput/touchpad.qml:575 src/kcm/libinput/touchpad.qml:592
-#, fuzzy, kde-format
-#| msgid "Reverse horizontal scrolling"
+#, kde-format
 msgid "Disable horizontal scrolling"
-msgstr "Umgekehrter waagerechter Bildlauf"
+msgstr "Waagerechter Bildlauf deaktivieren"
 
 #: src/kcm/libinput/touchpad.qml:603
 #, kde-format
-msgid "Right-click :"
+msgid "Right-click:"
 msgstr "Rechtsklick:"
 
-#: src/kcm/libinput/touchpad.qml:641
-#, fuzzy, kde-format
-#| msgctxt "Touchpad Edge"
-#| msgid "Bottom right corner"
+#: src/kcm/libinput/touchpad.qml:642
+#, kde-format
 msgid "Press bottom-right corner"
-msgstr "Untere rechte Ecke"
+msgstr "Untere rechte Ecke drücken"
 
-#: src/kcm/libinput/touchpad.qml:645
+#: src/kcm/libinput/touchpad.qml:646
 #, kde-format
 msgid ""
 "Software enabled buttons will be added to bottom portion of your touchpad."
 msgstr ""
 
-#: src/kcm/libinput/touchpad.qml:653
+#: src/kcm/libinput/touchpad.qml:654
 #, kde-format
 msgid "Press anywhere with two fingers"
 msgstr ""
 
-#: src/kcm/libinput/touchpad.qml:657
+#: src/kcm/libinput/touchpad.qml:658
 #, kde-format
 msgid "Tap with two finger to enable right click."
 msgstr ""
 
-#: src/kcm/libinput/touchpad.qml:670
+#: src/kcm/libinput/touchpad.qml:671
 #, kde-format
 msgid "Middle-click: "
 msgstr "Mittelklick: "
 
-#: src/kcm/libinput/touchpad.qml:704
+#: src/kcm/libinput/touchpad.qml:705
 #, kde-format
 msgid "Press bottom-middle"
 msgstr ""
 
-#: src/kcm/libinput/touchpad.qml:708
+#: src/kcm/libinput/touchpad.qml:709
 #, kde-format
 msgid ""
 "Software enabled middle-button will be added to bottom portion of your "
 "touchpad."
 msgstr ""
 
-#: src/kcm/libinput/touchpad.qml:716
+#: src/kcm/libinput/touchpad.qml:717
 #, kde-format
 msgid "Press bottom left and bottom right corners simultaneously"
 msgstr ""
 
-#: src/kcm/libinput/touchpad.qml:729
+#: src/kcm/libinput/touchpad.qml:730
 #, kde-format
 msgid "Press anywhere with three fingers"
 msgstr ""
 
-#: src/kcm/libinput/touchpad.qml:735
+#: src/kcm/libinput/touchpad.qml:736
 #, kde-format
 msgid "Press anywhere with three fingers."
 msgstr ""
@@ -385,7 +378,7 @@ msgid ""
 "Not able to save all changes. See logs for more information. Please restart "
 "this configuration module and try again."
 msgstr ""
-"Es konnten nicht alle Änderungen gespeichert werden. Im Protokoll finden Sie "
+"Es können nicht alle Änderungen gespeichert werden. Im Protokoll finden Sie "
 "weitere Informationen dazu. Bitte starten Sie dieses Einrichtungsmodul neu "
 "und versuchen es nochmal."
 
@@ -395,7 +388,7 @@ msgid ""
 "Error while loading default values. Failed to set some options to their "
 "default values."
 msgstr ""
-"Fehler beim Laden der Standardwerte. Es konnten nicht alle Einstellungen auf "
+"Fehler beim Laden der Standardwerte. Es können nicht alle Einstellungen auf "
 "die Standardwerte zurückgesetzt werden."
 
 #: src/kcm/libinput/touchpadconfiglibinput.cpp:173
@@ -1024,8 +1017,7 @@ msgstr "Waagerecht:"
 msgid ""
 "Continue scrolling after the finger is released from the edge of the touchpad"
 msgstr ""
-"Setzt das Blättern fort, wenn der Finger von der Kante des Touchpads gelöst "
-"wird"
+"Setzt das Blättern fort, wenn der Finger vom Rand des Touchpads gelöst wird"
 
 #. i18n: ectx: property (title), widget (QGroupBox, kcfg_Coasting)
 #: src/kcm/xlib/ui/scroll.ui:202

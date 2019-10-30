@@ -1,21 +1,22 @@
 # Copyright (C) YEAR This_file_is_part_of_KDE
 # This file is distributed under the same license as the kcmqtquicksettings package.
 # Paolo Zamponi <zapaolo@email.it>, 2018.
+# Vincenzo Reale <smart2128@baslug.org>, 2019.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
-"PO-Revision-Date: 2018-05-15 18:33+0100\n"
-"Last-Translator: Paolo Zamponi <zapaolo@email.it>\n"
+"POT-Creation-Date: 2019-05-20 03:25+0200\n"
+"PO-Revision-Date: 2019-09-18 20:59+0200\n"
+"Last-Translator: Vincenzo Reale <smart2128@baslug.org>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 2.0\n"
+"X-Generator: Lokalize 19.08.1\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -70,7 +71,7 @@ msgstr "Di base"
 #: kcmqtquicksettings.cpp:51
 #, kde-format
 msgid "Threaded"
-msgstr ""
+msgstr "Con thread"
 
 #. i18n: ectx: property (text), widget (KMessageWidget, kmessagewidget)
 #: kcmqtquicksettingswidget.ui:23
@@ -98,7 +99,7 @@ msgstr "Profilo di GL Core:"
 #: kcmqtquicksettingswidget.ui:55
 #, kde-format
 msgid "Render Loop:"
-msgstr ""
+msgstr "Ciclo di rendering:"
 
 #. i18n: ectx: property (text), widget (QCheckBox, glCoreProfileCheckbox)
 #: kcmqtquicksettingswidget.ui:65

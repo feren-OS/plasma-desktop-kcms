@@ -191,11 +191,11 @@ QString findLayout(const QString &layout, const QString &layoutVariant)
 
             QString symbolCont = scontentList.at(current);
 
-            int index = symbolCont.indexOf(QStringLiteral("\""));
+            int index = symbolCont.indexOf(QLatin1String("\""));
             symbolCont = symbolCont.mid(index);
-            index = symbolCont.indexOf(QStringLiteral("{"));
-            symbolCont = symbolCont.left(index);
-            symbolCont = symbolCont.remove(QStringLiteral(" "));
+            index = symbolCont.indexOf(QLatin1String("{"));
+            symbolCont.truncate(index);
+            symbolCont.remove(QStringLiteral(" "));
             variant = symbolCont.remove(QStringLiteral("\""));
 
             input.prepend("xkb_symbols");
@@ -243,7 +243,7 @@ KbLayout parseSymbols(const QString &layout, const QString &layoutVariant)
             currentInclude < symbolParser.layout.getIncludeCount();
             currentInclude++) {
         QString include = symbolParser.layout.getInclude(currentInclude);
-        QStringList includeFile = include.split(QStringLiteral("("));
+        QStringList includeFile = include.split(QLatin1Char('('));
         if (includeFile.size() == 2) {
             QString file = includeFile.at(0);
             QString layout = includeFile.at(1);

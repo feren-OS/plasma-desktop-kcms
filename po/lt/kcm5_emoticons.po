@@ -8,9 +8,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcm_emoticons\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
-"PO-Revision-Date: 2017-06-25 01:09+0200\n"
-"Last-Translator: Mindaugas Baranauskas <opensuse.lietuviu.kalba@gmail.com>\n"
+"POT-Creation-Date: 2019-05-20 03:25+0200\n"
+"PO-Revision-Date: 2019-07-31 00:39+0300\n"
+"Last-Translator: Moo\n"
 "Language-Team: Lithuanian <kde-i18n-lt@kde.org>\n"
 "Language: lt\n"
 "MIME-Version: 1.0\n"
@@ -18,17 +18,17 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : n%10>=2 && (n%100<10 || n"
 "%100>=20) ? 1 : n%10==0 || (n%100>10 && n%100<20) ? 2 : 3);\n"
-"X-Generator: Lokalize 2.0\n"
+"X-Generator: Poedit 2.0.6\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "Matas Brazdeikis, Antanas Uršulis"
+msgstr "Matas Brazdeikis, Antanas Uršulis, Moo"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "matasbbb@gmail.com, antanas.ursulis@gmail.com"
+msgstr "matasbbb@gmail.com, antanas.ursulis@gmail.com, <>"
 
 #: emoticonslist.cpp:70
 #, kde-format
@@ -36,7 +36,7 @@ msgid ""
 "Insert the string for the emoticon.  If you want multiple strings, separate "
 "them by spaces."
 msgstr ""
-"Įveskite jaustuko frazę. Jei norite kelių frazių - atskirkite jas tarpais."
+"Įveskite jaustuko frazę.  Jei norite kelių frazių - atskirkite jas tarpais."
 
 #: emoticonslist.cpp:110
 #, kde-format
@@ -46,12 +46,12 @@ msgstr "Jaustukai"
 #: emoticonslist.cpp:254
 #, kde-format
 msgid "Drag or Type Emoticon Theme URL"
-msgstr "Nuvilkite arba įveskite jaustukų apipavidalinimo adresą"
+msgstr "Tempkite arba įveskite jaustukų apipavidalinimo URL adresą"
 
 #: emoticonslist.cpp:259
 #, kde-format
 msgid "Emoticon themes must be installed from local files."
-msgstr "Jaustukų temos turi būti įdiegtos iš vietinių failų."
+msgstr "Jaustukų apipavidalinimai turi būti įdiegti iš vietinių failų."
 
 #: emoticonslist.cpp:260
 #, kde-format
@@ -61,12 +61,12 @@ msgstr "Nepavyko įdiegti jaustukų apipavidalinimo"
 #: emoticonslist.cpp:278
 #, kde-format
 msgid "Do you want to remove %1 too?"
-msgstr "Ar taip pat norite ištrinti ir %1?"
+msgstr "Ar norite taip pat pašalinti ir %1?"
 
 #: emoticonslist.cpp:278
 #, kde-format
 msgid "Delete emoticon"
-msgstr "Pašalinti jaustuką"
+msgstr "Ištrinti jaustuką"
 
 #: emoticonslist.cpp:294
 #, kde-format
@@ -81,35 +81,34 @@ msgstr "Keisti jaustuką"
 #: emoticonslist.cpp:364 emoticonslist.cpp:388
 #, kde-format
 msgid "New Emoticon Theme"
-msgstr "Nauja jaustukų apipavidalinimas"
+msgstr "Naujas jaustukų apipavidalinimas"
 
 #: emoticonslist.cpp:364
-#, fuzzy, kde-format
-#| msgid "Design a new emoticon theme"
+#, kde-format
 msgid "Name of new emoticon theme:"
-msgstr "Sukurti naują jaustukų apipavidalinimą"
+msgstr "Naujo jaustukų apipavidalinimo pavadinimas:"
 
 #: emoticonslist.cpp:370
 #, kde-format
 msgid "%1 theme already exists"
-msgstr "%1 tema jau egzistuoja"
+msgstr "Apipavidalinimas %1 jau yra"
 
 #: emoticonslist.cpp:388
 #, kde-format
 msgid "Choose the type of emoticon theme to create"
-msgstr "Pasirinkite kuriamos jaustukų temos tipą"
+msgstr "Pasirinkite norimo sukurti jaustukų apipavidalinimo tipą"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, EmoticonsManager)
 #: emoticonslist.ui:14
 #, kde-format
 msgid "Emoticons Manager"
-msgstr "Jaustukų tvarkyklė"
+msgstr "Jaustukų tvarkytuvė"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, btInstall)
 #: emoticonslist.ui:26
 #, kde-format
 msgid "Install a theme archive file you already have locally"
-msgstr "Įdiegti apipavidalinimą iš archyvo, kurį turite kompiuteryje"
+msgstr "Įdiegti apipavidalinimą iš archyvo failo, kurį turite kompiuteryje"
 
 #. i18n: ectx: property (whatsThis), widget (QPushButton, btInstall)
 #: emoticonslist.ui:29
@@ -118,41 +117,36 @@ msgid ""
 "If you already have an emoticon theme archive locally, this button will "
 "unpack it and make it available for KDE applications"
 msgstr ""
-"Jei jūs turite jaustukų temos archyvą kompiuteryje, šis mygtukas išpakuos ją "
-"ir padarys prieinamą KDE programoms"
+"Jeigu turite jaustukų apipavidalinimo archyvą kompiuteryje, šis mygtukas jį "
+"išpakuos ir padarys prieinamą KDE programoms"
 
 #. i18n: ectx: property (text), widget (QPushButton, btInstall)
 #: emoticonslist.ui:32
-#, fuzzy, kde-format
-#| msgid "Install from File"
+#, kde-format
 msgid "Install from File..."
-msgstr "Įdiegti iš failo"
+msgstr "Įdiegti iš failo..."
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, btNew)
 #: emoticonslist.ui:45
-#, fuzzy, kde-format
-#| msgid "Get new Theme"
+#, kde-format
 msgid "Create New Theme..."
-msgstr "Parsisiųsti naują apipavidalinimą"
+msgstr "Sukurti naują apipavidalinimą..."
 
 #. i18n: ectx: property (whatsThis), widget (QPushButton, btNew)
 #: emoticonslist.ui:48
-#, fuzzy, kde-format
-#| msgid ""
-#| "Start a new theme by assigning it a name. Then use the Add button on the "
-#| "right to add emoticons to this theme."
+#, kde-format
 msgid ""
 "Create a new theme by assigning it a name. Then use the Add button on the "
 "right to add emoticons to this theme."
 msgstr ""
-"Pradėkite naują apipavidalinimą duodami jam pavadinimą. Tada spauskite "
-"Pridėti mygtuką dešinėje, kad pridėtumėte jaustukų į apipavidalinimą."
+"Sukurkite naują apipavidalinimą suteikdami jam pavadinimą. Tuomet, dešinėje "
+"spustelėkite mygtuką Pridėti, kad pridėtumėte jaustukus į šį apipavidalinimą."
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, btRemoveTheme)
 #: emoticonslist.ui:99
 #, kde-format
 msgid "Remove Theme"
-msgstr "Pašalinti apipavidalinimą"
+msgstr "Šalinti apipavidalinimą"
 
 #. i18n: ectx: property (whatsThis), widget (QPushButton, btRemoveTheme)
 #: emoticonslist.ui:102
@@ -162,62 +156,53 @@ msgstr "Tai pašalins pažymėtą apipavidalinimą iš disko."
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, btGetNew)
 #: emoticonslist.ui:115
-#, fuzzy, kde-format
-#| msgid "Get new icon themes from the Internet"
+#, kde-format
 msgid "Get new emoticon icon themes from the Internet"
-msgstr "Gauti naujų apipavidalinimų iš interneto"
+msgstr "Gauti naujus jaustukų piktogramų apipavidalinimus iš interneto"
 
 #. i18n: ectx: property (whatsThis), widget (QPushButton, btGetNew)
 #: emoticonslist.ui:118
-#, fuzzy, kde-format
-#| msgid ""
-#| "You need to be connected to the Internet to use this action. A dialog "
-#| "will display a list of emoticon themes from the http://www.kde-look.org "
-#| "website. Clicking the Install button associated with a theme will install "
-#| "this theme locally."
+#, kde-format
 msgid ""
 "You need to be connected to the Internet to use this action. A dialog will "
 "display a list of emoticon themes from the https://store.kde.org website. "
 "Clicking the Install button associated with a theme will install this theme "
 "locally."
 msgstr ""
-"Jūs turite būti prisijungę prie interneto, norėdami naudoti šią funkciją. "
-"Dialogo langas parodys jaustukų apipavidalinimų sąrašą iš http://www.kde-"
-"look.org puslapio. Paspausdę mygtuką Įdiegti, įdiegsite apipavidalinimą į "
-"kompiuterį."
+"Norėdami naudoti šį veiksmą, turite būti prisijungę prie interneto. Dialogas "
+"rodys jaustukų apipavidalinimų sąrašą iš https://store.kde.org internetinės "
+"svetainės. Spustelėjus su apipavidalinimu susietą mygtuką Įdiegti, "
+"apipavidalinimas bus įdiegtas į kompiuterį."
 
 #. i18n: ectx: property (text), widget (QPushButton, btGetNew)
 #: emoticonslist.ui:121
-#, fuzzy, kde-format
-#| msgid "Create a new emoticon"
+#, kde-format
 msgid "Get New Emoticons..."
-msgstr "Sukurti naują jaustuką"
+msgstr "Gauti naujų jaustukų..."
 
 #. i18n: ectx: property (text), widget (QCheckBox, cbStrict)
 #: emoticonslist.ui:138
 #, kde-format
 msgid "Require spaces around emoticons"
-msgstr "Reikalauti tarpų apie jaustukus"
+msgstr "Reikalauti, kad iš abiejų jaustukų šonų būtų tarpai"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, btAdd)
 #: emoticonslist.ui:161
-#, fuzzy, kde-format
-#| msgid "Create a new emoticon"
+#, kde-format
 msgid "Create New Emoticon..."
-msgstr "Sukurti naują jaustuką"
+msgstr "Sukurti naują jaustuką..."
 
 #. i18n: ectx: property (whatsThis), widget (QPushButton, btAdd)
 #: emoticonslist.ui:164
 #, kde-format
 msgid "Create a new emoticon by assigning it an icon and some text"
-msgstr "Sukurti naują jaustuką, susiejant su ženkliuku ir tekstu"
+msgstr "Sukurti naują jaustuką, priskiriant jam piktogramą ir kažkokį tekstą"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, btRemoveEmoticon)
 #: emoticonslist.ui:177
-#, fuzzy, kde-format
-#| msgid "Add Emoticon"
+#, kde-format
 msgid "Remove Emoticon"
-msgstr "Pridėti jaustuką"
+msgstr "Šalinti jaustuką"
 
 #. i18n: ectx: property (whatsThis), widget (QPushButton, btRemoveEmoticon)
 #: emoticonslist.ui:180
@@ -227,13 +212,12 @@ msgstr "Pašalinti pažymėtą jaustuką iš disko"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, btEdit)
 #: emoticonslist.ui:193
-#, fuzzy, kde-format
-#| msgid "Edit Emoticon"
+#, kde-format
 msgid "Edit Emoticon..."
-msgstr "Keisti jaustuką"
+msgstr "Keisti jaustuką..."
 
 #. i18n: ectx: property (whatsThis), widget (QPushButton, btEdit)
 #: emoticonslist.ui:196
 #, kde-format
 msgid "Edit the selected emoticon to change its icon or its text"
-msgstr "Keisti pasirinktą jaustuką, redaguojant jo ženkliuką arba tekstą"
+msgstr "Keisti pažymėtą jaustuką, redaguojant jo piktogramą ar tekstą"

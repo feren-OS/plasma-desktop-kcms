@@ -1,13 +1,13 @@
 # Copyright (C) YEAR This_file_is_part_of_KDE
 # This file is distributed under the same license as the PACKAGE package.
-# Vít Pelčák <vit@pelcak.org>, 2014, 2015, 2016, 2017.
+# Vít Pelčák <vit@pelcak.org>, 2014, 2015, 2016, 2017, 2019.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
-"PO-Revision-Date: 2017-11-02 13:07+0100\n"
+"POT-Creation-Date: 2019-08-03 03:23+0200\n"
+"PO-Revision-Date: 2019-10-04 14:39+0200\n"
 "Last-Translator: Vit Pelcak <vit@pelcak.org>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
 "Language: cs\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Lokalize 2.0\n"
+"X-Generator: Lokalize 19.08.1\n"
 "X-Language: cs_CZ\n"
 "X-Source-Language: en_US\n"
 
@@ -37,18 +37,6 @@ msgstr "Filtr"
 msgid "Tweaks"
 msgstr "Ladění"
 
-#: package/contents/ui/AppletHandle.qml:105
-msgid "Resize"
-msgstr "+Změnit velikost"
-
-#: package/contents/ui/AppletHandle.qml:127
-msgid "Rotate"
-msgstr "+Otočit"
-
-#: package/contents/ui/AppletHandle.qml:284
-msgid "Remove"
-msgstr "+Odstranit"
-
 #: package/contents/ui/BackButtonItem.qml:116
 msgid "Back"
 msgstr "Zpět"
@@ -63,11 +51,11 @@ msgstr "Ukázat vše"
 
 #: package/contents/ui/ConfigFilter.qml:77
 msgid "Show matching"
-msgstr ""
+msgstr "Zobrazovat odpovídající"
 
 #: package/contents/ui/ConfigFilter.qml:77
 msgid "Hide matching"
-msgstr ""
+msgstr "Skrýt odpovídající"
 
 #: package/contents/ui/ConfigFilter.qml:82
 msgid "File name pattern:"
@@ -188,7 +176,7 @@ msgstr "Složky první"
 #: package/contents/ui/ConfigIcons.qml:218
 msgctxt "whether to use icon or list view"
 msgid "View mode:"
-msgstr ""
+msgstr "Režim pohledu:"
 
 #: package/contents/ui/ConfigIcons.qml:220
 msgid "List"
@@ -210,51 +198,51 @@ msgstr "Malá"
 msgid "Large"
 msgstr "Velká"
 
-#: package/contents/ui/ConfigIcons.qml:263
+#: package/contents/ui/ConfigIcons.qml:264
 msgid "Label width:"
-msgstr ""
-
-#: package/contents/ui/ConfigIcons.qml:266
-msgid "Narrow"
-msgstr ""
+msgstr "Šířka popisky:"
 
 #: package/contents/ui/ConfigIcons.qml:267
+msgid "Narrow"
+msgstr "Úzký"
+
+#: package/contents/ui/ConfigIcons.qml:268
 #: plugins/folder/viewpropertiesmenu.cpp:88
 #, kde-format
 msgid "Medium"
 msgstr "Střední"
 
-#: package/contents/ui/ConfigIcons.qml:268
+#: package/contents/ui/ConfigIcons.qml:269
 msgid "Wide"
-msgstr ""
+msgstr "Široký"
 
-#: package/contents/ui/ConfigIcons.qml:276
+#: package/contents/ui/ConfigIcons.qml:277
 msgid "Text lines:"
 msgstr "Řádky textu:"
 
-#: package/contents/ui/ConfigIcons.qml:292
+#: package/contents/ui/ConfigIcons.qml:293
 msgid "Features:"
 msgstr "Vlastnosti:"
 
-#: package/contents/ui/ConfigIcons.qml:294
+#: package/contents/ui/ConfigIcons.qml:295
 msgid "Tooltips"
 msgstr "Nástrojové tipy"
 
-#: package/contents/ui/ConfigIcons.qml:301
+#: package/contents/ui/ConfigIcons.qml:302
 msgid "Selection markers"
 msgstr "Značky výběru"
 
-#: package/contents/ui/ConfigIcons.qml:308
+#: package/contents/ui/ConfigIcons.qml:309
 msgid "Folder preview popups"
 msgstr "Náhledy složky"
 
-#: package/contents/ui/ConfigIcons.qml:314
+#: package/contents/ui/ConfigIcons.qml:315
 msgid "Preview thumbnails"
 msgstr "Náhled miniatur"
 
-#: package/contents/ui/ConfigIcons.qml:321
+#: package/contents/ui/ConfigIcons.qml:323
 msgid "Configure Preview Plugins..."
-msgstr ""
+msgstr "Nastavit moduly náhledu..."
 
 #: package/contents/ui/ConfigLocation.qml:93
 msgid "Show:"
@@ -262,11 +250,11 @@ msgstr "Zobrazit:"
 
 #: package/contents/ui/ConfigLocation.qml:95
 msgid "Desktop folder"
-msgstr ""
+msgstr "Složka plochy"
 
 #: package/contents/ui/ConfigLocation.qml:102
 msgid "Files linked to the current activity"
-msgstr ""
+msgstr "Soubory spojené s aktuální aktivitou"
 
 #: package/contents/ui/ConfigLocation.qml:109
 msgid "Places panel item:"
@@ -278,7 +266,7 @@ msgstr "Vlastní umístění:"
 
 #: package/contents/ui/ConfigLocation.qml:150
 msgid "Type path or URL..."
-msgstr ""
+msgstr "Zadejte cestu nebo URL"
 
 #: package/contents/ui/ConfigLocation.qml:191
 msgid "Title:"
@@ -302,7 +290,15 @@ msgstr "Vlastní titulek"
 
 #: package/contents/ui/ConfigLocation.qml:208
 msgid "Enter custom title..."
-msgstr ""
+msgstr "Zadejte vlastní titulek..."
+
+#: package/contents/ui/ConfigOverlay.qml:101
+msgid "Rotate"
+msgstr "+Otočit"
+
+#: package/contents/ui/ConfigOverlay.qml:224
+msgid "Remove"
+msgstr "+Odstranit"
 
 #: package/contents/ui/ConfigTweaks.qml:43
 msgid ""
@@ -330,21 +326,21 @@ msgstr "OK"
 msgid "Cancel"
 msgstr "Zrušit"
 
-#: package/contents/ui/main.qml:382
+#: package/contents/ui/main.qml:277
 msgid "Widgets unlocked"
 msgstr "Widgety odemčeny"
 
-#: package/contents/ui/main.qml:383
+#: package/contents/ui/main.qml:278
 msgid "You can press and hold widgets to move them and reveal their handles."
 msgstr ""
 
-#: package/contents/ui/main.qml:384
+#: package/contents/ui/main.qml:279
 msgid "Got it"
 msgstr "Jasně"
 
-#: package/contents/ui/main.qml:597
+#: package/contents/ui/main.qml:403
 msgid "Configure Desktop..."
-msgstr ""
+msgstr "Nastavit pracovní plochu..."
 
 #: plugins/folder/directorypicker.cpp:45
 #, kde-format
@@ -364,7 +360,7 @@ msgstr "Ob&novit pohled"
 #: plugins/folder/foldermodel.cpp:1616
 #, kde-format
 msgid "&Empty Trash"
-msgstr ""
+msgstr "&Vyprázdnit koš"
 
 #: plugins/folder/foldermodel.cpp:1619
 #, kde-format
@@ -445,7 +441,7 @@ msgstr "Obrovská"
 #: plugins/folder/viewpropertiesmenu.cpp:97
 #, kde-format
 msgid "Show Previews"
-msgstr "Náhled"
+msgstr "Zobrazit náhled"
 
 #: plugins/folder/viewpropertiesmenu.cpp:100
 #, kde-format

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcm_emoticons\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"POT-Creation-Date: 2019-05-20 03:25+0200\n"
 "PO-Revision-Date: 2008-11-27 01:20-0800\n"
 "Last-Translator: Praveen Arimbrathodiyil <pravi.a@gmail.com>\n"
 "Language-Team: Malayalam <smc-discuss@googlegroups.com>\n"
@@ -83,7 +83,6 @@ msgstr "പുതിയ വികാരചിഹ്ന പ്രമേയം"
 
 #: emoticonslist.cpp:364
 #, fuzzy, kde-format
-#| msgid "Design a new emoticon theme"
 msgid "Name of new emoticon theme:"
 msgstr "ഒരു പുതിയ വികാരചിഹ്ന പ്രമേയം രൂപകല്പന ചെയ്യുക"
 
@@ -123,23 +122,18 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, btInstall)
 #: emoticonslist.ui:32
 #, fuzzy, kde-format
-#| msgid "Install Theme File..."
 msgid "Install from File..."
 msgstr "പ്രമേയം അടങ്ങിയ ഫയല്‍ ഇന്‍സ്റ്റോള്‍ ചെയ്യുക"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, btNew)
 #: emoticonslist.ui:45
 #, fuzzy, kde-format
-#| msgid "Get New Themes..."
 msgid "Create New Theme..."
 msgstr "പുതിയ പ്രമേയങ്ങള്‍ നേടുക..."
 
 #. i18n: ectx: property (whatsThis), widget (QPushButton, btNew)
 #: emoticonslist.ui:48
 #, fuzzy, kde-format
-#| msgid ""
-#| "Start a new theme by assigning it a name. Then use the Add button on the "
-#| "right to add emoticons to this theme."
 msgid ""
 "Create a new theme by assigning it a name. Then use the Add button on the "
 "right to add emoticons to this theme."
@@ -162,18 +156,12 @@ msgstr "ഇതു നിങ്ങളുടെ ഡിസ്കില്‍ നി
 #. i18n: ectx: property (toolTip), widget (QPushButton, btGetNew)
 #: emoticonslist.ui:115
 #, fuzzy, kde-format
-#| msgid "Get new themes from the Internet"
 msgid "Get new emoticon icon themes from the Internet"
 msgstr "ഇന്റര്‍നെറ്റില്‍ നിന്നും പുതിയ പ്രമേയങ്ങള്‍ നേടുക"
 
 #. i18n: ectx: property (whatsThis), widget (QPushButton, btGetNew)
 #: emoticonslist.ui:118
 #, fuzzy, kde-format
-#| msgid ""
-#| "You need to be connected to the Internet to use this action. A dialog "
-#| "will display a list of emoticon themes from the http://www.kde.org "
-#| "website. Clicking the Install button associated with a theme will install "
-#| "this theme locally."
 msgid ""
 "You need to be connected to the Internet to use this action. A dialog will "
 "display a list of emoticon themes from the https://store.kde.org website. "
@@ -188,7 +176,6 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, btGetNew)
 #: emoticonslist.ui:121
 #, fuzzy, kde-format
-#| msgid "Create a new emoticon"
 msgid "Get New Emoticons..."
 msgstr "പുതിയ ഒരു വികാരചിഹ്നം സൃഷ്ടിക്കുക"
 
@@ -201,7 +188,6 @@ msgstr "വികാരചിഹ്നങ്ങള്‍ക്കു് ചു�
 #. i18n: ectx: property (toolTip), widget (QPushButton, btAdd)
 #: emoticonslist.ui:161
 #, fuzzy, kde-format
-#| msgid "Create a new emoticon"
 msgid "Create New Emoticon..."
 msgstr "പുതിയ ഒരു വികാരചിഹ്നം സൃഷ്ടിക്കുക"
 
@@ -214,7 +200,6 @@ msgstr "ഒരു ചിഹ്നവും ഉചിതമായ പദാവല
 #. i18n: ectx: property (toolTip), widget (QPushButton, btRemoveEmoticon)
 #: emoticonslist.ui:177
 #, fuzzy, kde-format
-#| msgid "Add Emoticon"
 msgid "Remove Emoticon"
 msgstr "വികാരചിഹ്നം ചേര്‍ക്കുക"
 
@@ -227,7 +212,6 @@ msgstr "നിങ്ങളുടെ ഡിസ്കില്‍ നിന്ന�
 #. i18n: ectx: property (toolTip), widget (QPushButton, btEdit)
 #: emoticonslist.ui:193
 #, fuzzy, kde-format
-#| msgid "Edit Emoticon"
 msgid "Edit Emoticon..."
 msgstr "വികാരചിഹ്നം ചിട്ടപ്പെടുത്തുക"
 

@@ -1,0 +1,222 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the plasma-desktop package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-desktop\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-09-09 03:17+0200\n"
+"PO-Revision-Date: 2019-08-17 11:19+0300\n"
+"Last-Translator: Moo\n"
+"Language-Team: Lithuanian <kde-i18n-lt@kde.org>\n"
+"Language: lt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : n%10>=2 && (n%100<10 || n"
+"%100>=20) ? 1 : n%10==0 || (n%100>10 && n%100<20) ? 2 : 3);\n"
+"X-Generator: Poedit 2.2.1\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Moo"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "<>"
+
+#: kcm.cpp:62
+#, kde-format
+msgid "Notifications"
+msgstr "Pranešimai"
+
+#: kcm.cpp:64
+#, kde-format
+msgid "Kai Uwe Broulik"
+msgstr "Kai Uwe Broulik"
+
+#: kcm.cpp:161
+#, kde-format
+msgid "Configure Notifications"
+msgstr "Konfigūruoti pranešimus"
+
+#: package/contents/ui/ApplicationConfiguration.qml:96
+#, kde-format
+msgid "Show popups"
+msgstr "Rodyti iškylančiuosius langus"
+
+#: package/contents/ui/ApplicationConfiguration.qml:105
+#, kde-format
+msgid "Show in do not disturb mode"
+msgstr "Rodyti \"Netrukdyti\" veiksenoje"
+
+#: package/contents/ui/ApplicationConfiguration.qml:113
+#: package/contents/ui/main.qml:77
+#, kde-format
+msgid "Show in history"
+msgstr "Rodyti istorijoje"
+
+#: package/contents/ui/ApplicationConfiguration.qml:119
+#, kde-format
+msgid "Show notification badges"
+msgstr "Rodyti pranešimų ženklelius"
+
+#: package/contents/ui/ApplicationConfiguration.qml:131
+#, kde-format
+msgid "Configure Events..."
+msgstr "Konfigūruoti įvykius..."
+
+#: package/contents/ui/ApplicationConfiguration.qml:141
+#, kde-format
+msgid ""
+"This application does not support configuring notifications on a per-event "
+"basis."
+msgstr ""
+"Ši programa nepalaiko pranešimų konfigūravimo kiekvieno atskiro įvykio "
+"pagrindu."
+
+#: package/contents/ui/main.qml:31
+#, kde-format
+msgid "This module lets you manage application and system notifications."
+msgstr "Šis modulis leidžia jums tvarkyti programas ir sistemos pranešimus."
+
+#: package/contents/ui/main.qml:50
+#, kde-format
+msgid "Do not disturb:"
+msgstr "Netrukdyti:"
+
+#: package/contents/ui/main.qml:51
+#, kde-format
+msgctxt "Do not disturb when screens are mirrored"
+msgid "When screens are mirrored"
+msgstr "Kai ekranai yra suvienyti"
+
+#: package/contents/ui/main.qml:57
+#, kde-format
+msgid "Show critical notifications"
+msgstr "Rodyti kritinius pranešimus"
+
+#: package/contents/ui/main.qml:63
+#, kde-format
+msgid "Critical notifications:"
+msgstr "Kritiniai pranešimai:"
+
+#: package/contents/ui/main.qml:64
+#, kde-format
+msgid "Always keep on top"
+msgstr "Visada laikyti viršuje"
+
+#: package/contents/ui/main.qml:70
+#, kde-format
+msgid "Low priority notifications:"
+msgstr "Žemos pirmenybės pranešimai:"
+
+#: package/contents/ui/main.qml:71
+#, kde-format
+msgid "Show popup"
+msgstr "Rodyti iškylantįjį langą"
+
+#: package/contents/ui/main.qml:89
+#, kde-format
+msgid "Popup position:"
+msgstr "Iškylančiojo lango vieta:"
+
+#: package/contents/ui/main.qml:90
+#, kde-format
+msgctxt "Popup position near notification plasmoid"
+msgid "Near the notification icon"
+msgstr "Šalia pranešimo piktogramos"
+
+#: package/contents/ui/main.qml:109
+#, kde-format
+msgid "Choose Custom Position..."
+msgstr "Pasirinkti tinkintą vietą..."
+
+#: package/contents/ui/main.qml:118 package/contents/ui/main.qml:134
+#, kde-format
+msgid "%1 second"
+msgid_plural "%1 seconds"
+msgstr[0] "%1 sekundė"
+msgstr[1] "%1 sekundės"
+msgstr[2] "%1 sekundžių"
+msgstr[3] "%1 sekundė"
+
+#: package/contents/ui/main.qml:123
+#, kde-format
+msgid "Hide popup after:"
+msgstr "Slėpti iškylantįjį langą po:"
+
+#: package/contents/ui/main.qml:144
+#, kde-format
+msgid "Application progress:"
+msgstr "Programos eiga:"
+
+#: package/contents/ui/main.qml:145 package/contents/ui/main.qml:170
+#, kde-format
+msgid "Show in task manager"
+msgstr "Rodyti užduočių tvarkytuvėje"
+
+#: package/contents/ui/main.qml:152
+#, kde-format
+msgctxt "Show application jobs in notification widget"
+msgid "Show in notifications"
+msgstr "Rodyti pranešimuose"
+
+#: package/contents/ui/main.qml:161
+#, kde-format
+msgctxt "Keep application job popup open for entire duration of job"
+msgid "Keep popup open during progress"
+msgstr "Išlaikyti iškylantįjį langą atvertą visos eigos metu"
+
+#: package/contents/ui/main.qml:169
+#, kde-format
+msgid "Notification badges:"
+msgstr "Pranešimų ženkleliai:"
+
+#: package/contents/ui/main.qml:180
+#, kde-format
+msgid "Applications:"
+msgstr "Programos:"
+
+#: package/contents/ui/main.qml:181
+#, kde-format
+msgid "Configure..."
+msgstr "Konfigūruoti..."
+
+#: package/contents/ui/PopupPositionPage.qml:29
+#, kde-format
+msgid "Popup Position"
+msgstr "Iškylančiojo lango vieta"
+
+#: package/contents/ui/SourcesPage.qml:32
+#, kde-format
+msgid "Application Settings"
+msgstr "Programos nuostatos"
+
+#: package/contents/ui/SourcesPage.qml:116
+#, kde-format
+msgid "Applications"
+msgstr "Programos"
+
+#: package/contents/ui/SourcesPage.qml:117
+#, kde-format
+msgid "System Services"
+msgstr "Sistemos tarnybos"
+
+#: package/contents/ui/SourcesPage.qml:177
+#, kde-format
+msgid "No application or event matches your search term."
+msgstr "Nei viena programa ar įvykis neatitinka jūsų paieškos užklausos."
+
+#: package/contents/ui/SourcesPage.qml:206
+#, kde-format
+msgid ""
+"Select an application from the list to configure its notification settings "
+"and behavior."
+msgstr ""
+"Pasirinkite programą iš sąrašo, norėdami konfigūruoti jos pranešimų "
+"nuostatas ir elgseną."

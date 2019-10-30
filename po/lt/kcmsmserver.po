@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmsmserver\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
-"PO-Revision-Date: 2015-01-28 06:57+0200\n"
-"Last-Translator: Liudas Ališauskas <liudas@akmc.lt>\n"
+"POT-Creation-Date: 2019-07-11 03:14+0200\n"
+"PO-Revision-Date: 2019-06-19 18:02+0300\n"
+"Last-Translator: Moo\n"
 "Language-Team: Lithuanian <kde-i18n-lt@kde.org>\n"
 "Language: lt\n"
 "MIME-Version: 1.0\n"
@@ -17,9 +17,9 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : n%10>=2 && (n%100<10 || n"
 "%100>=20) ? 1 : n%10==0 || (n%100>10 && n%100<20) ? 2 : 3);\n"
-"X-Generator: Lokalize 1.5\n"
+"X-Generator: Poedit 2.0.6\n"
 
-#: kcmsmserver.cpp:62
+#: kcmsmserver.cpp:63
 #, kde-format
 msgid ""
 "<h1>Session Manager</h1> You can configure the session manager here. This "
@@ -28,44 +28,47 @@ msgid ""
 "whether the computer should be automatically shut down after session exit by "
 "default."
 msgstr ""
-"<h1>Sesijų tvarkyklė</h1>Čia Jūs galite konfigūruoti sesijų tvarkyklę. "
-"Galite nustatyti, ar reikia patvirtinti sesijos pabaigą (išsiregistravimą), "
-"ir ar turi būti praėjusi sesija išsaugoma išsiregistruojant ir atstatoma "
-"registruojantis iš naujo kitaip nenurodžius, ir ar kompiuteris turi būti "
-"automatiškai išjungiamas numatytu būdu baigus sesiją."
+"<h1>Seansų tvarkytuvė</h1> Čia galite konfigūruoti seansų tvarkytuvę. Į tai "
+"įeina tokios parinktys kaip: ar išėjimas iš sistemos (atsijungimas) turėtų "
+"būti patvirtinamas, ar prisijungiant, seansas turėtų būti atkuriamas ir, ar "
+"pagal numatymą išėjus iš seanso kompiuteris turėtų būti išjungiamas ar ne."
 
-#: kcmsmserver.cpp:82
-#, fuzzy, kde-format
-#| msgid "&Restart computer"
+#: kcmsmserver.cpp:83
+#, kde-format
 msgid "Restart Now"
-msgstr "Pa&leisti iš naujo kompiuterį"
+msgstr "Paleisti iš naujo dabar"
 
-#: kcmsmserver.cpp:114
+#: kcmsmserver.cpp:124
 #, kde-format
 msgid "Failed to request restart to firmware setup: %1"
 msgstr ""
+"Nepavyko programinės aparatinės įrangos sąrankai užklausti paleidimo iš "
+"naujo: %1"
 
-#: kcmsmserver.cpp:126
+#: kcmsmserver.cpp:136
 #, kde-format
 msgid ""
 "Next time the computer is restarted, it will enter the UEFI setup screen."
 msgstr ""
+"Kitą kartą paleidus kompiuterį iš naujo, jis įžengs į UEFI sąrankos langą."
 
-#: kcmsmserver.cpp:128
+#: kcmsmserver.cpp:138
 #, kde-format
 msgid ""
 "Next time the computer is restarted, it will enter the firmware setup screen."
 msgstr ""
+"Kitą kartą paleidus kompiuterį iš naujo, jis įžengs į programinės aparatinės "
+"įrangos sąrankos langą."
 
-#: kcmsmserver.cpp:140
+#: kcmsmserver.cpp:150
 #, kde-format
 msgid "UEFI Setup"
-msgstr ""
+msgstr "UEFI sąranka"
 
-#: kcmsmserver.cpp:141
+#: kcmsmserver.cpp:151
 #, kde-format
 msgid "Enter UEFI setup on next restart"
-msgstr ""
+msgstr "Kito paleidimo iš naujo metu įžengti į UEFI sąranką"
 
 #. i18n: ectx: property (title), widget (QGroupBox, topBox)
 #: smserverconfigdlg.ui:17
@@ -80,14 +83,14 @@ msgid ""
 "Check this option if you want the session manager to display a logout "
 "confirmation dialog box."
 msgstr ""
-"Pažymėkite šią parinktį, jei Jūs norite, kad sesijų tvarkyklė rodytų "
-"išsiregistravimo patvirtinimo dialogo langą."
+"Pažymėkite šią parinktį, jei norite, kad seansų tvarkytuvė rodytų "
+"atsijungimo patvirtinimo dialogo langą."
 
 #. i18n: ectx: property (text), widget (QCheckBox, confirmLogoutCheck)
 #: smserverconfigdlg.ui:26
 #, kde-format
 msgid "Conf&irm logout"
-msgstr "Patvirtinti išsi&registravimą"
+msgstr "Patvirtinti at&sijungimą"
 
 #. i18n: ectx: property (text), widget (QCheckBox, offerShutdownCheck)
 #: smserverconfigdlg.ui:33
@@ -102,21 +105,20 @@ msgid ""
 "Here you can choose what should happen by default when you log out. This "
 "only has meaning, if you logged in through KDM."
 msgstr ""
-"Čia Jūs galite pasirinkti, kas turi įvykti kitaip nenurodžius po "
-"išsiregistravimo.  Tai turi prasmę tik tuo atveju, jei Jūs įsiregistravote "
-"KDM pagalba."
+"Čia galite pasirinkti, kas pagal numatymą turi įvykti jums atsijungiant. Tai "
+"turi prasmę tik tuo atveju, jei prisijungėte per KDM."
 
 #. i18n: ectx: property (title), widget (QGroupBox, sdGroup)
 #: smserverconfigdlg.ui:46
 #, kde-format
 msgid "Default Leave Option"
-msgstr "Numatyta išjungimo parinktis"
+msgstr "Numatytoji išėjimo parinktis"
 
 #. i18n: ectx: property (text), widget (QRadioButton, logoutRadio)
 #: smserverconfigdlg.ui:52
 #, kde-format
 msgid "&End current session"
-msgstr "&Baigti dabartinę sesiją"
+msgstr "Už&baigti dabartinį seansą"
 
 #. i18n: ectx: property (text), widget (QRadioButton, haltRadio)
 #: smserverconfigdlg.ui:59
@@ -128,7 +130,7 @@ msgstr "&Išjungti kompiuterį"
 #: smserverconfigdlg.ui:66
 #, kde-format
 msgid "&Restart computer"
-msgstr "Pa&leisti iš naujo kompiuterį"
+msgstr "Pa&leisti kompiuterį iš naujo"
 
 #. i18n: ectx: property (whatsThis), widget (QGroupBox, loginGroup)
 #: smserverconfigdlg.ui:80
@@ -145,45 +147,44 @@ msgid ""
 "</ul>"
 msgstr ""
 "<ul>\n"
-"<li><b>Atstatyti prieš tai buvusią sesiją:</b> Išsaugos programų nustatymus "
-"išjungimo metu ir atstatys jas kitą kartą įjungus kompiuterį</li>\n"
-"<li><b>Atstatyti rankiniu būdu išsaugotą sesiją: </b> Leidžia išsaugoti "
-"sesiją bet kuriuo metu pasirinkus „Išsaugoti sesiją“ įrašą K-Meniu. Tai "
-"reiškia, kad išsaugota sesija iš naujo pasirodys kito kompiuterio paleidimo "
-"metu.</li>\n"
-"<li><b>Pradėti tuščią sesiją:</b> Neišsaugoti nieko. Įjungus kompiuterį "
-"jokia sesija nebus tęsiama.</li>\n"
+"<li><b>Atkurti ankstesnį seansą:</b> Įrašys visas išėjimo metu veikiančias "
+"programas ir kito paleidimo metu jas atkurs</li>\n"
+"<li><b>Atkurti rankiniu būdu įrašytą seansą: </b> Leidžia bet kuriuo metu "
+"įrašyti seansą per K-Meniu esantį įrašą \"Įrašyti seansą\". Tai reiškia, kad "
+"kito paleidimo metu, šiuo metu paleistos programos, atsiras iš naujo.</li>\n"
+"<li><b>Pradėti tuščią seansą:</b> Nieko neįrašyti. Kito paleidimo metu bus "
+"pradėta nuo tuščio darbalaukio seanso.</li>\n"
 "</ul>"
 
 #. i18n: ectx: property (title), widget (QGroupBox, loginGroup)
 #: smserverconfigdlg.ui:83
 #, kde-format
 msgid "On Login"
-msgstr "Registruojantis"
+msgstr "Prisijungiant"
 
 #. i18n: ectx: property (text), widget (QRadioButton, previousSessionRadio)
 #: smserverconfigdlg.ui:89
 #, kde-format
 msgid "Restore &previous session"
-msgstr "Atstatyti &prieš tai buvusią sesiją"
+msgstr "Atkurti &ankstesnį seansą"
 
 #. i18n: ectx: property (text), widget (QRadioButton, savedSessionRadio)
 #: smserverconfigdlg.ui:96
 #, kde-format
 msgid "Restore &manually saved session"
-msgstr "Atstatyti &rankiniu būdu išsaugotą sesiją"
+msgstr "Atkurti &rankiniu būdu įrašytą seansą"
 
 #. i18n: ectx: property (text), widget (QRadioButton, emptySessionRadio)
 #: smserverconfigdlg.ui:103
 #, kde-format
 msgid "Start with an empty &session"
-msgstr "Pradėti &tuščią sesiją"
+msgstr "Pradėti &tuščią seansą"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
 #: smserverconfigdlg.ui:110
 #, kde-format
 msgid "Applications to be e&xcluded from sessions:"
-msgstr "Programos, kurių &nereikia paleisti sesijose:"
+msgstr "Programos, kurios bus iš&brauktos iš seansų:"
 
 #. i18n: ectx: property (whatsThis), widget (QLineEdit, excludeLineedit)
 #: smserverconfigdlg.ui:123
@@ -193,15 +194,15 @@ msgid ""
 "should not be saved in sessions, and therefore will not be started when "
 "restoring a session. For example 'xterm:konsole' or 'xterm,konsole'."
 msgstr ""
-"Čia galite įrašyti programas, atskirdami jas dvitaškiu arba kableliu, kurių "
-"nereikia išsaugoti sesijose, ir todėl jos nebus paleistos atstatant sesiją. "
-"Pavyzdžiui, „xterm:konsole“ arba „xterm,konsole“."
+"Čia galite įrašyti kableliu ar dvitaškiu atskirtas programas, kurios "
+"neturėtų būti įrašytos seansuose ir, todėl, atkuriant seansą, nebus "
+"paleidžiamos. Pavyzdžiui, „xterm:konsole“ arba „xterm,konsole“."
 
 #. i18n: ectx: property (title), widget (QGroupBox, firmwareSetupBox)
 #: smserverconfigdlg.ui:133
 #, kde-format
 msgid "Firmware Setup"
-msgstr ""
+msgstr "Programinės aparatinės įrangos sąranka"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, firmwareSetupCheck)
 #: smserverconfigdlg.ui:146
@@ -210,9 +211,11 @@ msgid ""
 "When the computer is restarted the next time, enter firmware setup screen (e."
 "g. UEFI or BIOS setup)"
 msgstr ""
+"Kitą kartą paleidus kompiuterį iš naujo, įžengti į programinės aparatinės "
+"įrangos langą (pvz., UEFI ar BIOS sąranką)"
 
 #. i18n: ectx: property (text), widget (QCheckBox, firmwareSetupCheck)
 #: smserverconfigdlg.ui:149
 #, kde-format
 msgid "Enter firmware setup on next restart"
-msgstr ""
+msgstr "Kito paleidimo metu įžengti į programinės aparatinės įrangos sąranką"

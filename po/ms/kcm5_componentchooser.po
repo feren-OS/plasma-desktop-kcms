@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmcomponentchooser\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"POT-Creation-Date: 2019-09-18 03:38+0200\n"
 "PO-Revision-Date: 2011-05-15 23:36+0800\n"
 "Last-Translator: Sharuzzaman Ahmat Raslan <sharuzzaman@gmail.com>\n"
 "Language-Team: Malay <kedidiemas@yahoogroups.com>\n"
@@ -65,12 +65,12 @@ msgstr "dalam pelayar berikut:"
 msgid "..."
 msgstr "..."
 
-#: componentchooser.cpp:134
+#: componentchooser.cpp:133
 #, kde-format
 msgid "Unknown"
 msgstr "Tidak Diketahui"
 
-#: componentchooser.cpp:151
+#: componentchooser.cpp:150
 #, kde-format
 msgid ""
 "Choose from the list below which component should be used by default for the "
@@ -79,7 +79,7 @@ msgstr ""
 "Pilih dari senarai di bawah komponen mana yang patut dijadikan sebagai "
 "default untuk servis %1."
 
-#: componentchooser.cpp:183
+#: componentchooser.cpp:182
 #, kde-format
 msgid ""
 "<qt>You changed the default component of your choice, do want to save that "
@@ -88,7 +88,7 @@ msgstr ""
 "<qt>Anda telah mengubah komponen default pilihan anda, adakah anda ingin "
 "simpan perubahan itu sekarang ?</qt>"
 
-#: componentchooser.cpp:188
+#: componentchooser.cpp:187
 #, kde-format
 msgid "No description available"
 msgstr "Tidak keterangan didapati"
@@ -153,7 +153,7 @@ msgstr "Pilih aplikasi pelayar Web digemari:"
 msgid "Select preferred email client:"
 msgstr "Pilih klien email digemari"
 
-#: componentchooserterminal.cpp:104
+#: componentchooserterminal.cpp:102
 #, kde-format
 msgid "Select preferred terminal application:"
 msgstr "Pilih terminal aplikasi digemari."

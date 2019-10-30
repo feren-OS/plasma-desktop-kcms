@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmcolors\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-06-21 07:50+0200\n"
-"PO-Revision-Date: 2019-06-06 01:14+0200\n"
+"POT-Creation-Date: 2019-08-05 03:06+0200\n"
+"PO-Revision-Date: 2019-07-24 00:08+0200\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
 "Language-Team: Korean <kde-kr@kde.org>\n"
 "Language: ko\n"
@@ -30,104 +30,50 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "kde@peremen.name"
 
-#: colors.cpp:69 editor/scmeditordialog.cpp:80
+#: colors.cpp:70 editor/scmeditordialog.cpp:80
 #, kde-format
 msgid "Colors"
 msgstr "색상"
 
-#: colors.cpp:71
+#: colors.cpp:72
 #, kde-format
 msgid "Kai Uwe Broulik"
 msgstr "Kai Uwe Broulik"
 
-#: colors.cpp:110
+#: colors.cpp:111
 #, kde-format
 msgid "Download New Color Schemes"
 msgstr "새 색 배열 다운로드"
 
-#: colors.cpp:166
+#: colors.cpp:167
 #, kde-format
 msgid "Unable to create a temporary file."
 msgstr "임시 파일을 만들 수 없습니다."
 
-#: colors.cpp:180
+#: colors.cpp:181
 #, kde-format
 msgid "Unable to download the color scheme: %1"
 msgstr "색 배열을 다운로드할 수 없음: %1"
 
-#: colors.cpp:198
+#: colors.cpp:199
 #, kde-format
 msgid "This file is not a color scheme file."
 msgstr "이 파일은 색 배열 파일이 아닙니다."
 
-#: colors.cpp:218
+#: colors.cpp:219
 #, kde-format
 msgid "Failed to create 'color-scheme' data folder."
 msgstr "'color-scheme' 데이터 폴더를 만들 수 없습니다."
 
-#: colors.cpp:225
+#: colors.cpp:226
 #, kde-format
 msgid "Failed to copy color scheme into 'color-scheme' data folder."
 msgstr "색 배열을 'color-scheme' 데이터 폴더로 복사할 수 없습니다."
 
-#: colors.cpp:242
+#: colors.cpp:243
 #, kde-format
 msgid "Color scheme installed successfully."
 msgstr "색 배열을 설치했습니다."
-
-#. i18n: ectx: property (toolTip), widget (QPushButton, schemeEditButton)
-#: editor/colorsettings.ui:31
-#, kde-format
-msgid "Configure the current color scheme"
-msgstr "현재 색 배열 설정하기"
-
-#. i18n: ectx: property (text), widget (QPushButton, schemeEditButton)
-#: editor/colorsettings.ui:34
-#, kde-format
-msgid "Edit..."
-msgstr "편집..."
-
-#. i18n: ectx: property (toolTip), widget (QPushButton, schemeRemoveButton)
-#: editor/colorsettings.ui:52
-#, kde-format
-msgid "Remove the selected scheme"
-msgstr "선택한 색 배열 삭제하기"
-
-#. i18n: ectx: property (text), widget (QPushButton, schemeRemoveButton)
-#: editor/colorsettings.ui:55
-#, kde-format
-msgid "Remove"
-msgstr "삭제"
-
-#. i18n: ectx: property (toolTip), widget (QPushButton, schemeImportButton)
-#: editor/colorsettings.ui:83
-#, kde-format
-msgid "Import a color scheme from a file"
-msgstr "파일에서 색 배열 가져오기"
-
-#. i18n: ectx: property (text), widget (QPushButton, schemeImportButton)
-#: editor/colorsettings.ui:86
-#, kde-format
-msgid "&Install from File..."
-msgstr "파일에서 설치(&I)..."
-
-#. i18n: ectx: property (toolTip), widget (QPushButton, schemeKnsButton)
-#: editor/colorsettings.ui:98
-#, kde-format
-msgid "Get new color schemes from the Internet"
-msgstr "인터넷에서 색 배열 가져오기"
-
-#. i18n: ectx: property (text), widget (QPushButton, schemeKnsButton)
-#: editor/colorsettings.ui:101
-#, kde-format
-msgid "Get &New Color Schemes..."
-msgstr "새 색 배열 가져오기(&N)..."
-
-#. i18n: ectx: property (text), widget (QCheckBox, applyToAlien)
-#: editor/colorsettings.ui:137
-#, kde-format
-msgid "Apply colors to &non-Qt applications"
-msgstr "비 Qt 프로그램에도 색 적용하기(&N)"
 
 #: editor/kcolorschemeeditor.cpp:35
 #, kde-format
@@ -1174,100 +1120,105 @@ msgstr "초점"
 msgid "This module lets you choose the color scheme."
 msgstr "이 모듈에서 색 배열을 선택할 수 있습니다."
 
-#: package/contents/ui/main.qml:83
+#: package/contents/ui/main.qml:84
 #, kde-format
 msgid ""
 "The color scheme '%1' is not installed. Selecting the default theme instead."
 msgstr "색 배열 '%1'이(가) 설치되어 있지 않습니다. 기본 테마를 사용합니다."
 
-#: package/contents/ui/main.qml:95
+#: package/contents/ui/main.qml:96
 #, kde-format
 msgid "Search..."
 msgstr "찾기..."
 
-#: package/contents/ui/main.qml:133
+#: package/contents/ui/main.qml:134
 #, kde-format
 msgid "All Schemes"
 msgstr "모든 색 배열"
 
-#: package/contents/ui/main.qml:134
+#: package/contents/ui/main.qml:135
 #, kde-format
 msgid "Light Schemes"
 msgstr "밝은 색 배열"
 
-#: package/contents/ui/main.qml:135
+#: package/contents/ui/main.qml:136
 #, kde-format
 msgid "Dark Schemes"
 msgstr "어두운 색 배열"
 
-#: package/contents/ui/main.qml:193
+#: package/contents/ui/main.qml:202
+#, kde-format
+msgid "Window Title"
+msgstr "창 제목"
+
+#: package/contents/ui/main.qml:223
 #, kde-format
 msgid "Window text"
 msgstr "창 텍스트"
 
-#: package/contents/ui/main.qml:200
+#: package/contents/ui/main.qml:230
 #, kde-format
 msgid "Button"
 msgstr "단추"
 
-#: package/contents/ui/main.qml:219
+#: package/contents/ui/main.qml:249
 #, kde-format
 msgctxt "Hyperlink"
 msgid "link"
 msgstr "링크"
 
-#: package/contents/ui/main.qml:221
+#: package/contents/ui/main.qml:251
 #, kde-format
 msgctxt "Visited hyperlink"
 msgid "visited"
 msgstr "방문함"
 
-#: package/contents/ui/main.qml:227
+#: package/contents/ui/main.qml:257
 #, kde-format
 msgid "Normal text"
 msgstr "일반 텍스트"
 
-#: package/contents/ui/main.qml:235
+#: package/contents/ui/main.qml:265
 #, kde-format
 msgid "Highlighted text"
 msgstr "방문한 링크 텍스트"
 
-#: package/contents/ui/main.qml:242
+#: package/contents/ui/main.qml:272
 #, kde-format
 msgid "Disabled text"
 msgstr "비활성화된 텍스트"
 
-#: package/contents/ui/main.qml:260
+#: package/contents/ui/main.qml:290
 #, kde-format
 msgid "Edit Color Scheme..."
 msgstr "색 배열 편집..."
 
-#: package/contents/ui/main.qml:266
+#: package/contents/ui/main.qml:296
 #, kde-format
 msgid "Remove Color Scheme"
 msgstr "색 배열 삭제"
 
-#: package/contents/ui/main.qml:273
+#: package/contents/ui/main.qml:303
 #, kde-format
 msgid "Restore Color Scheme"
 msgstr "색 배열 복원"
 
-#: package/contents/ui/main.qml:316
+#: package/contents/ui/main.qml:346
 #, kde-format
 msgid "Install from File..."
 msgstr "파일에서 설치..."
 
-#: package/contents/ui/main.qml:322
+#: package/contents/ui/main.qml:352
 #, kde-format
 msgid "Get New Color Schemes..."
 msgstr "새 배열 가져오기..."
 
-#: package/contents/ui/main.qml:334
+#: package/contents/ui/main.qml:364
 #, kde-format
 msgid "Open Color Scheme"
 msgstr "색 배열 열기"
 
-#: package/contents/ui/main.qml:336
+#: package/contents/ui/main.qml:366
 #, kde-format
 msgid "Color Scheme Files (*.colors)"
 msgstr "색 배열 파일 (*.colors)"

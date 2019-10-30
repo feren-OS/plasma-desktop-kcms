@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmcomponentchooser\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"POT-Creation-Date: 2019-09-18 03:38+0200\n"
 "PO-Revision-Date: 2011-12-18 18:18+0100\n"
 "Last-Translator: Jean Cayron <jean.cayron@base.be>\n"
 "Language-Team: Walloon <linux-wa@walon.org>\n"
@@ -66,12 +66,12 @@ msgstr "e betcheu shuvant:"
 msgid "..."
 msgstr "..."
 
-#: componentchooser.cpp:134
+#: componentchooser.cpp:133
 #, kde-format
 msgid "Unknown"
 msgstr "Nén cnoxhou"
 
-#: componentchooser.cpp:151
+#: componentchooser.cpp:150
 #, kde-format
 msgid ""
 "Choose from the list below which component should be used by default for the "
@@ -80,7 +80,7 @@ msgstr ""
 "Tchoezixhoz el djivêye chal pa dzo ké componint duvreut esse eployî come "
 "prémetou pol siervice %1."
 
-#: componentchooser.cpp:183
+#: componentchooser.cpp:182
 #, kde-format
 msgid ""
 "<qt>You changed the default component of your choice, do want to save that "
@@ -89,7 +89,7 @@ msgstr ""
 "<qt>Vos avoz candjî l' prémetou componint di vosse tchoes, voloz vs schaper "
 "ç' candjmint asteure?</qt>"
 
-#: componentchooser.cpp:188
+#: componentchooser.cpp:187
 #, kde-format
 msgid "No description available"
 msgstr "I gn a pont d' discrijhaedje"
@@ -155,7 +155,7 @@ msgstr "Tchoezi programe di betchteu waibe ki vs inmez mia:"
 msgid "Select preferred email client:"
 msgstr "Tchoezi cliyint emile ki vs inmez mia:"
 
-#: componentchooserterminal.cpp:104
+#: componentchooserterminal.cpp:102
 #, kde-format
 msgid "Select preferred terminal application:"
 msgstr "Tchoezixhoz l' terminå ki vs inmez mia:"

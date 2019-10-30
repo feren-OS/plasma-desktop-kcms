@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkeyboard\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
-"PO-Revision-Date: 2019-07-19 03:37+0700\n"
+"POT-Creation-Date: 2019-08-11 03:10+0200\n"
+"PO-Revision-Date: 2019-08-24 17:51+0700\n"
 "Last-Translator: Wantoyo <wantoyek@gmail.com>\n"
 "Language-Team: Indonesian <kde-i18n-doc@kde.org>\n"
 "Language: id\n"
@@ -17,7 +17,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 19.04.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -32,7 +31,7 @@ msgstr "andhika.padmawan@gmail.com,wantoyek@gmail.com"
 #: bindings.cpp:33
 #, kde-format
 msgid "Switch to Next Keyboard Layout"
-msgstr "Alihkan ke Tataletak Keyboard Berikutnya"
+msgstr "Alihkan ke Tataletak Keyboard Selanjutnya"
 
 #: bindings.cpp:34
 #, kde-format
@@ -61,7 +60,7 @@ msgstr "%1 - %2"
 msgid "Any language"
 msgstr "Bahasa Apapun"
 
-#: kcm_add_layout_dialog.cpp:141 kcm_view_models.cpp:319
+#: kcm_add_layout_dialog.cpp:141 kcm_view_models.cpp:311
 #, kde-format
 msgctxt "variant"
 msgid "Default"
@@ -149,8 +148,8 @@ msgid ""
 "keyboard layout and refers to the \"hardware\" model, i.e. the way your "
 "keyboard is manufactured. Modern keyboards that come with your computer "
 "usually have two extra keys and are referred to as \"104-key\" models, which "
-"is probably what you want if you do not know what kind of keyboard you have."
-"\n"
+"is probably what you want if you do not know what kind of keyboard you "
+"have.\n"
 msgstr ""
 "Di sini anda dapat memilih model keyboard. Setelan ini independen dari tata "
 "letak keyboard anda dan merujuk ke model \"perangkat keras\", misalnya kode "
@@ -399,28 +398,28 @@ msgid_plural "%1 shortcuts"
 msgstr[0] "%1 pintasan"
 msgstr[1] "%1 pintasan"
 
-#: kcm_view_models.cpp:226
+#: kcm_view_models.cpp:220
 #, kde-format
 msgctxt "layout map name"
 msgid "Map"
 msgstr "Peta"
 
-#: kcm_view_models.cpp:226
+#: kcm_view_models.cpp:220
 #, kde-format
 msgid "Layout"
 msgstr "Tataletak"
 
-#: kcm_view_models.cpp:226
+#: kcm_view_models.cpp:220
 #, kde-format
 msgid "Variant"
 msgstr "Varian"
 
-#: kcm_view_models.cpp:226
+#: kcm_view_models.cpp:220
 #, kde-format
 msgid "Label"
 msgstr "Label"
 
-#: kcm_view_models.cpp:226
+#: kcm_view_models.cpp:220
 #, kde-format
 msgid "Shortcut"
 msgstr "Pintasan"

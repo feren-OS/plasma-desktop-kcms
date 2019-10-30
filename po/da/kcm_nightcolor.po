@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcm_nightcolor\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"POT-Creation-Date: 2019-08-07 03:21+0200\n"
 "PO-Revision-Date: 2018-07-12 10:15+0100\n"
 "Last-Translator: Martin Schlander <mschlander@opensuse.org>\n"
 "Language-Team: Danish <kde-i18n-doc@kde.org>\n"
@@ -38,39 +38,43 @@ msgstr "Natfarve"
 msgid "Roman Gilg"
 msgstr "Roman Gilg"
 
-#: package/contents/ui/LocationsAutoView.qml:34
-#: package/contents/ui/LocationsFixedView.qml:38
-#, kde-format
-msgid "Latitude"
+#: package/contents/ui/LocationsAutoView.qml:32
+#: package/contents/ui/LocationsFixedView.qml:37
+#, fuzzy, kde-format
+#| msgid "Latitude"
+msgid "Latitude:"
 msgstr "Breddegrad"
 
-#: package/contents/ui/LocationsAutoView.qml:44
-#: package/contents/ui/LocationsFixedView.qml:53
-#, kde-format
-msgid "Longitude"
+#: package/contents/ui/LocationsAutoView.qml:39
+#: package/contents/ui/LocationsFixedView.qml:49
+#, fuzzy, kde-format
+#| msgid "Longitude"
+msgid "Longitude:"
 msgstr "Længdegrad"
 
-#: package/contents/ui/LocationsFixedView.qml:69
-#, kde-format
-msgid "Detect location"
+#: package/contents/ui/LocationsFixedView.qml:60
+#, fuzzy, kde-format
+#| msgid "Detect location"
+msgid "Detect Location"
 msgstr "Registrer placering"
 
-#: package/contents/ui/main.qml:103
+#: package/contents/ui/main.qml:107
 #, kde-format
 msgid "Activate Night Color"
 msgstr "Aktivér natfarve"
 
-#: package/contents/ui/main.qml:120
-#, kde-format
-msgid "Night Color Temperature: "
+#: package/contents/ui/main.qml:118
+#, fuzzy, kde-format
+#| msgid "Night Color Temperature: "
+msgid "Night Color temperature:"
 msgstr "Natfarvens temperatur: "
 
-#: package/contents/ui/main.qml:120
+#: package/contents/ui/main.qml:137
 #, kde-format
 msgid " K"
 msgstr " K"
 
-#: package/contents/ui/main.qml:141
+#: package/contents/ui/main.qml:143
 #, kde-format
 msgid "Operation mode:"
 msgstr "Handlingstilstand:"
@@ -90,43 +94,59 @@ msgstr "Placering"
 msgid "Times"
 msgstr "Tidspunkter"
 
-#: package/contents/ui/main.qml:251 package/contents/ui/TimingsView.qml:39
+#: package/contents/ui/main.qml:149
 #, kde-format
-msgid "Sunrise begins"
+msgid "Constant"
+msgstr ""
+
+#: package/contents/ui/main.qml:263 package/contents/ui/TimingsView.qml:38
+#, fuzzy, kde-format
+#| msgid "Sunrise begins"
+msgid "Sunrise begins:"
 msgstr "Solopgang begynder"
 
-#: package/contents/ui/main.qml:263 package/contents/ui/main.qml:278
+#: package/contents/ui/main.qml:270
 #, kde-format
-msgid "(HH:MM)"
-msgstr "(TT:MM)"
+msgid "(Input format: HH:MM)"
+msgstr ""
 
-#: package/contents/ui/main.qml:266 package/contents/ui/TimingsView.qml:59
-#, kde-format
-msgid "Sunset begins"
+#: package/contents/ui/main.qml:276 package/contents/ui/TimingsView.qml:52
+#, fuzzy, kde-format
+#| msgid "Sunset begins"
+msgid "Sunset begins:"
 msgstr "Solnedgang begynder"
 
-#: package/contents/ui/main.qml:281
+#: package/contents/ui/main.qml:283
 #, kde-format
-msgid "Transition duration"
+msgid "Input format: HH:MM"
+msgstr ""
+
+#: package/contents/ui/main.qml:289
+#, fuzzy, kde-format
+#| msgid "Transition duration"
+msgid "Transition duration:"
 msgstr "Overgangens varighed"
 
-#: package/contents/ui/main.qml:296
-#, kde-format
-msgid "(In minutes - min. 1, max. 600)"
+#: package/contents/ui/main.qml:299
+#, fuzzy, kde-format
+#| msgid "(In minutes - min. 1, max. 600)"
+msgid "Input minutes - min. 1, max. 600"
 msgstr "(i minutter - min. 1, maks. 600)"
 
-#: package/contents/ui/main.qml:305
-#, kde-format
-msgid "Error: Morning not before evening."
+#: package/contents/ui/main.qml:307
+#, fuzzy, kde-format
+#| msgid "Error: Morning not before evening."
+msgid "Error: Morning is before evening."
 msgstr "Fejl: Morgen ikke før aften."
 
-#: package/contents/ui/main.qml:321
+#: package/contents/ui/main.qml:323
 #, kde-format
 msgid "Error: Transition time overlaps."
 msgstr "Fejl: Overgangstidspunkt overlapper."
 
-#: package/contents/ui/TimingsView.qml:49
-#: package/contents/ui/TimingsView.qml:69
-#, kde-format
-msgid "and ends"
+#: package/contents/ui/TimingsView.qml:45
+#: package/contents/ui/TimingsView.qml:59
+#, fuzzy, kde-format
+#| msgid "and ends"
+msgid "...and ends:"
 msgstr "og slutter"

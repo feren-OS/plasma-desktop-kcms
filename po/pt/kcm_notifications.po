@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-desktop\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-30 07:24+0200\n"
-"PO-Revision-Date: 2019-05-11 17:46+0100\n"
+"POT-Creation-Date: 2019-09-09 03:17+0200\n"
+"PO-Revision-Date: 2019-08-14 10:26+0100\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -44,13 +44,12 @@ msgid "Show popups"
 msgstr "Mostrar as mensagens"
 
 #: package/contents/ui/ApplicationConfiguration.qml:105
-#: package/contents/ui/main.qml:51
 #, kde-format
 msgid "Show in do not disturb mode"
 msgstr "Mostrar num modo para não incomodar"
 
 #: package/contents/ui/ApplicationConfiguration.qml:113
-#: package/contents/ui/main.qml:70
+#: package/contents/ui/main.qml:77
 #, kde-format
 msgid "Show in history"
 msgstr "Mostrar no histórico"
@@ -81,85 +80,101 @@ msgstr ""
 
 #: package/contents/ui/main.qml:50
 #, kde-format
+msgid "Do not disturb:"
+msgstr "Não incomodar:"
+
+#: package/contents/ui/main.qml:51
+#, kde-format
+msgctxt "Do not disturb when screens are mirrored"
+msgid "When screens are mirrored"
+msgstr "Quando os ecrãs estiverem em espelho"
+
+#: package/contents/ui/main.qml:57
+#, kde-format
+msgid "Show critical notifications"
+msgstr "Mostrar as notificações críticas"
+
+#: package/contents/ui/main.qml:63
+#, kde-format
 msgid "Critical notifications:"
 msgstr "Notificações críticas:"
 
-#: package/contents/ui/main.qml:57
+#: package/contents/ui/main.qml:64
 #, kde-format
 msgid "Always keep on top"
 msgstr "Manter sempre no topo"
 
-#: package/contents/ui/main.qml:63
+#: package/contents/ui/main.qml:70
 #, kde-format
 msgid "Low priority notifications:"
 msgstr "Notificações de baixa prioridade:"
 
-#: package/contents/ui/main.qml:64
+#: package/contents/ui/main.qml:71
 #, kde-format
 msgid "Show popup"
 msgstr "Mostrar uma mensagem"
 
-#: package/contents/ui/main.qml:82
+#: package/contents/ui/main.qml:89
 #, kde-format
 msgid "Popup position:"
 msgstr "Posição da mensagem:"
 
-#: package/contents/ui/main.qml:83
+#: package/contents/ui/main.qml:90
 #, kde-format
 msgctxt "Popup position near notification plasmoid"
 msgid "Near the notification icon"
 msgstr "Perto do ícone da notificação"
 
-#: package/contents/ui/main.qml:102
+#: package/contents/ui/main.qml:109
 #, kde-format
 msgid "Choose Custom Position..."
 msgstr "Escolher uma Posição Personalizada..."
 
-#: package/contents/ui/main.qml:111 package/contents/ui/main.qml:127
+#: package/contents/ui/main.qml:118 package/contents/ui/main.qml:134
 #, kde-format
 msgid "%1 second"
 msgid_plural "%1 seconds"
 msgstr[0] "%1 segundo"
 msgstr[1] "%1 segundos"
 
-#: package/contents/ui/main.qml:116
+#: package/contents/ui/main.qml:123
 #, kde-format
 msgid "Hide popup after:"
 msgstr "Esconder a mensagem ao fim de:"
 
-#: package/contents/ui/main.qml:137
+#: package/contents/ui/main.qml:144
 #, kde-format
 msgid "Application progress:"
 msgstr "Progresso da aplicação:"
 
-#: package/contents/ui/main.qml:138 package/contents/ui/main.qml:163
+#: package/contents/ui/main.qml:145 package/contents/ui/main.qml:170
 #, kde-format
 msgid "Show in task manager"
 msgstr "Mostrar no gestor de tarefas"
 
-#: package/contents/ui/main.qml:145
+#: package/contents/ui/main.qml:152
 #, kde-format
 msgctxt "Show application jobs in notification widget"
 msgid "Show in notifications"
 msgstr "Mostrar nas notificações"
 
-#: package/contents/ui/main.qml:154
+#: package/contents/ui/main.qml:161
 #, kde-format
 msgctxt "Keep application job popup open for entire duration of job"
 msgid "Keep popup open during progress"
 msgstr "Manter a mensagem aberta durante o progresso"
 
-#: package/contents/ui/main.qml:162
+#: package/contents/ui/main.qml:169
 #, kde-format
 msgid "Notification badges:"
 msgstr "Emblemas da notificação:"
 
-#: package/contents/ui/main.qml:173
+#: package/contents/ui/main.qml:180
 #, kde-format
 msgid "Applications:"
 msgstr "Aplicações:"
 
-#: package/contents/ui/main.qml:174
+#: package/contents/ui/main.qml:181
 #, kde-format
 msgid "Configure..."
 msgstr "Configurar..."
@@ -184,12 +199,12 @@ msgstr "Aplicações"
 msgid "System Services"
 msgstr "Serviços do Sistema"
 
-#: package/contents/ui/SourcesPage.qml:189
+#: package/contents/ui/SourcesPage.qml:177
 #, kde-format
 msgid "No application or event matches your search term."
 msgstr "Nenhuma aplicação ou evento corresponde ao seu texto de pesquisa."
 
-#: package/contents/ui/SourcesPage.qml:218
+#: package/contents/ui/SourcesPage.qml:206
 #, kde-format
 msgid ""
 "Select an application from the list to configure its notification settings "

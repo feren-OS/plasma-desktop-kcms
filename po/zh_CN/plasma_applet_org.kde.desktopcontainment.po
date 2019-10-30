@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
-"PO-Revision-Date: 2019-07-18 15:07\n"
+"POT-Creation-Date: 2019-08-03 03:23+0200\n"
+"PO-Revision-Date: 2019-10-09 10:01\n"
 "Last-Translator: Guo Yunhe (guoyunhe)\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -40,18 +40,6 @@ msgstr "过滤"
 #: package/contents/config/config.qml:50
 msgid "Tweaks"
 msgstr "调整"
-
-#: package/contents/ui/AppletHandle.qml:105
-msgid "Resize"
-msgstr "缩放"
-
-#: package/contents/ui/AppletHandle.qml:127
-msgid "Rotate"
-msgstr "旋转"
-
-#: package/contents/ui/AppletHandle.qml:284
-msgid "Remove"
-msgstr "删除"
 
 #: package/contents/ui/BackButtonItem.qml:116
 msgid "Back"
@@ -214,49 +202,49 @@ msgstr "小"
 msgid "Large"
 msgstr "大"
 
-#: package/contents/ui/ConfigIcons.qml:263
+#: package/contents/ui/ConfigIcons.qml:264
 msgid "Label width:"
 msgstr "标签宽度："
 
-#: package/contents/ui/ConfigIcons.qml:266
+#: package/contents/ui/ConfigIcons.qml:267
 msgid "Narrow"
 msgstr "窄"
 
-#: package/contents/ui/ConfigIcons.qml:267
+#: package/contents/ui/ConfigIcons.qml:268
 #: plugins/folder/viewpropertiesmenu.cpp:88
 #, kde-format
 msgid "Medium"
 msgstr "中等"
 
-#: package/contents/ui/ConfigIcons.qml:268
+#: package/contents/ui/ConfigIcons.qml:269
 msgid "Wide"
 msgstr "宽"
 
-#: package/contents/ui/ConfigIcons.qml:276
+#: package/contents/ui/ConfigIcons.qml:277
 msgid "Text lines:"
 msgstr "文本行数："
 
-#: package/contents/ui/ConfigIcons.qml:292
+#: package/contents/ui/ConfigIcons.qml:293
 msgid "Features:"
 msgstr "功能："
 
-#: package/contents/ui/ConfigIcons.qml:294
+#: package/contents/ui/ConfigIcons.qml:295
 msgid "Tooltips"
 msgstr "工具提示"
 
-#: package/contents/ui/ConfigIcons.qml:301
+#: package/contents/ui/ConfigIcons.qml:302
 msgid "Selection markers"
 msgstr "选择标记"
 
-#: package/contents/ui/ConfigIcons.qml:308
+#: package/contents/ui/ConfigIcons.qml:309
 msgid "Folder preview popups"
 msgstr "文件夹预览弹出窗口"
 
-#: package/contents/ui/ConfigIcons.qml:314
+#: package/contents/ui/ConfigIcons.qml:315
 msgid "Preview thumbnails"
 msgstr "预览缩略图"
 
-#: package/contents/ui/ConfigIcons.qml:321
+#: package/contents/ui/ConfigIcons.qml:323
 msgid "Configure Preview Plugins..."
 msgstr "配置预览插件..."
 
@@ -308,6 +296,14 @@ msgstr "自定义标题"
 msgid "Enter custom title..."
 msgstr "输入自定义标题..."
 
+#: package/contents/ui/ConfigOverlay.qml:101
+msgid "Rotate"
+msgstr "旋转"
+
+#: package/contents/ui/ConfigOverlay.qml:224
+msgid "Remove"
+msgstr "删除"
+
 #: package/contents/ui/ConfigTweaks.qml:43
 msgid ""
 "With the Desktop Toolbox hidden, right-click on the desktop and choose "
@@ -316,7 +312,7 @@ msgstr "桌面工具箱隐藏之后，请右击桌面并选择“配置桌面...
 
 #: package/contents/ui/ConfigTweaks.qml:54
 msgid "Show the desktop toolbox"
-msgstr "显示桌面工具栏"
+msgstr "显示桌面工具箱"
 
 #: package/contents/ui/ConfigTweaks.qml:72
 msgid "Press and hold widgets to move them and reveal their handles"
@@ -334,19 +330,19 @@ msgstr "确定"
 msgid "Cancel"
 msgstr "取消"
 
-#: package/contents/ui/main.qml:382
+#: package/contents/ui/main.qml:277
 msgid "Widgets unlocked"
 msgstr "部件已解锁"
 
-#: package/contents/ui/main.qml:383
+#: package/contents/ui/main.qml:278
 msgid "You can press and hold widgets to move them and reveal their handles."
 msgstr "您可以按下并按住部件将移动部件并且显示他们的控制栏。"
 
-#: package/contents/ui/main.qml:384
+#: package/contents/ui/main.qml:279
 msgid "Got it"
 msgstr "知道了"
 
-#: package/contents/ui/main.qml:597
+#: package/contents/ui/main.qml:403
 msgid "Configure Desktop..."
 msgstr "配置桌面..."
 

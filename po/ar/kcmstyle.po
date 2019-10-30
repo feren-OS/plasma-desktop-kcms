@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmstyle\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"POT-Creation-Date: 2019-10-19 08:02+0200\n"
 "PO-Revision-Date: 2008-12-03 06:16+0400\n"
 "Last-Translator: zayed <zayed.alsaidi@gmail.com>\n"
 "Language-Team: Arabic <linuxac-kde-arabic-team@googlegroups.com>\n"
@@ -36,7 +36,7 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "metehyi@free.fr,zayed.alsaidi@gmail.com"
 
-#: kcmstyle.cpp:173
+#: kcmstyle.cpp:171
 #, fuzzy, kde-format
 #| msgid ""
 #| "<h1>Style</h1>This module allows you to modify the visual appearance of "
@@ -48,47 +48,47 @@ msgstr ""
 "<h1>الأسلوب</h1>هذه الوحدة تسمح لك بتعديل المظهر المرئي لعناصر واجهة "
 "الرسومية مثل التأثيرات و أسلوب الودجات."
 
-#: kcmstyle.cpp:183
+#: kcmstyle.cpp:181
 #, kde-format
 msgid "Application Style"
 msgstr ""
 
-#: kcmstyle.cpp:185
+#: kcmstyle.cpp:183
 #, kde-format
 msgid "(c) 2002 Karol Szwed, Daniel Molkentin"
 msgstr "(c) 2002 Karol Szwed, Daniel Molkentin"
 
-#: kcmstyle.cpp:187
+#: kcmstyle.cpp:185
 #, kde-format
 msgid "Karol Szwed"
 msgstr "Karol Szwed"
 
-#: kcmstyle.cpp:188
+#: kcmstyle.cpp:186
 #, kde-format
 msgid "Daniel Molkentin"
 msgstr "Daniel Molkentin"
 
-#: kcmstyle.cpp:198
+#: kcmstyle.cpp:196
 #, kde-format
 msgid "Preview"
 msgstr "معاينة"
 
-#: kcmstyle.cpp:252 kcmstyle.cpp:263
+#: kcmstyle.cpp:250 kcmstyle.cpp:261
 #, kde-format
 msgid "There was an error loading the configuration dialog for this style."
 msgstr "هناك خطأ في تحميل مربع حوار التشكيل لهذا الأسلوب."
 
-#: kcmstyle.cpp:254 kcmstyle.cpp:265
+#: kcmstyle.cpp:252 kcmstyle.cpp:263
 #, kde-format
 msgid "Unable to Load Dialog"
 msgstr "غير قادر على تحميل مربع الحوار"
 
-#: kcmstyle.cpp:488
+#: kcmstyle.cpp:479
 #, kde-format
 msgid "No description available."
 msgstr "لا يوجد وصف."
 
-#: kcmstyle.cpp:695
+#: kcmstyle.cpp:686
 #, kde-format
 msgid ""
 "This area shows a preview of the currently selected style without having to "
@@ -96,7 +96,7 @@ msgid ""
 msgstr ""
 "هذه المنطقة تظهر معاينة للأسلوب المنتقى حالياً بدون تطبيقه على كل سطح المكتب."
 
-#: kcmstyle.cpp:697
+#: kcmstyle.cpp:688
 #, kde-format
 msgid ""
 "Here you can choose from a list of predefined widget styles (e.g. the way "
@@ -107,7 +107,7 @@ msgstr ""
 "الأزرار) و الذي يمكن دمجه أو لا في سِمة (معلومات إضافية مثل تركيب رخامي أو "
 "تدرّج في الألوان)."
 
-#: kcmstyle.cpp:701
+#: kcmstyle.cpp:692
 #, fuzzy, kde-format
 #| msgid ""
 #| "If you enable this option, KDE Applications will show small icons "
@@ -119,7 +119,7 @@ msgstr ""
 "إذا مكّنت هذا الخيار، فإن تطبيقات كدي ستظهر  أيقونات صغيرة بجانب بعض الأزرار "
 "المهمة."
 
-#: kcmstyle.cpp:703
+#: kcmstyle.cpp:694
 #, fuzzy, kde-format
 msgid ""
 "If you enable this option, applications will show small icons alongside most "
@@ -128,7 +128,7 @@ msgstr ""
 "إذا مكّنت هذا الخيار، فإن تطبيقات كدي ستظهر  أيقونات صغيرة بجانب بعض الأزرار "
 "المهمة."
 
-#: kcmstyle.cpp:705
+#: kcmstyle.cpp:696
 #, fuzzy, kde-format
 msgid ""
 "<p><b>No text:</b> Shows only icons on toolbar buttons. Best option for low "
@@ -143,7 +143,7 @@ msgstr ""
 "شريط الأدوات. النص بجانب الأيقونات.</p><b>نص أسفل الأيقونات: </b> إظهار "
 "أيقونات و نص على أزرار شريط الأدوات. النص أسفل الأيقونات."
 
-#: styleconfdialog.cpp:29
+#: styleconfdialog.cpp:33
 #, kde-format
 msgid "Configure %1"
 msgstr "اضبط %1"

@@ -9,7 +9,7 @@
 <article id="workspaceoptions" lang="&language;">
 <articleinfo>
 <title
->Gedrag van werkruimte</title>
+>Algemeen gedrag</title>
 <authorgroup>
 <author
 >&Burkhard.Lueck; &Burkhard.Lueck.mail;</author>
@@ -17,10 +17,10 @@
 </authorgroup>
 
 <date
->2018-05-21</date>
+>2019-08-01</date>
 
 <releaseinfo
->&plasma; 5.13</releaseinfo>
+>&plasma; 5.16</releaseinfo>
 
 <keywordset>
 <keyword
@@ -34,7 +34,7 @@
 </articleinfo>
 
 <para
->Dit is een module om globale opties voor de &plasma; werkruimte te configureren. </para>
+>Dit is een module om algemeen gedrag van de werkruimte te configureren. </para>
 
 <variablelist>
 

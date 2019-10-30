@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-06-23 07:22+0200\n"
+"POT-Creation-Date: 2019-09-27 07:54+0200\n"
 "PO-Revision-Date: 2017-02-14 20:17+0300\n"
 "Last-Translator: Safa Alfulaij <safa1996alfulaij@gmail.com>\n"
 "Language-Team: Arabic <doc@arabeyes.org>\n"
@@ -28,7 +28,7 @@ msgstr ""
 msgid "All Applications"
 msgstr "كلّ التّطبيقات"
 
-#: package/contents/ui/ApplicationsView.qml:270
+#: package/contents/ui/ApplicationsView.qml:273
 #, kde-format
 msgid "Applications updated."
 msgstr "حُدّثت التّطبيقات."
@@ -50,106 +50,106 @@ msgstr ""
 
 #: package/contents/ui/code/tools.js:133
 #, kde-format
-msgid "On The Current Activity"
+msgid "On the Current Activity"
 msgstr ""
 
 #: package/contents/ui/code/tools.js:147
 #, fuzzy, kde-format
 #| msgid "Favorites"
-msgid "Show In Favorites"
+msgid "Show in Favorites"
 msgstr "المفضّلة"
 
 #: package/contents/ui/ConfigButtons.qml:36
-#: package/contents/ui/FullRepresentation.qml:754
+#: package/contents/ui/FullRepresentation.qml:717
 #, kde-format
 msgid "Favorites"
 msgstr "المفضّلة"
 
 #: package/contents/ui/ConfigButtons.qml:37
-#: package/contents/ui/FullRepresentation.qml:756
+#: package/contents/ui/FullRepresentation.qml:719
 #, kde-format
 msgid "Applications"
 msgstr "التّطبيقات"
 
 #: package/contents/ui/ConfigButtons.qml:38
-#: package/contents/ui/FullRepresentation.qml:758
+#: package/contents/ui/FullRepresentation.qml:721
 #, kde-format
 msgid "Computer"
 msgstr "الحاسوب"
 
 #: package/contents/ui/ConfigButtons.qml:39
-#: package/contents/ui/FullRepresentation.qml:760
+#: package/contents/ui/FullRepresentation.qml:723
 #, kde-format
 msgid "History"
 msgstr "التّأريخ"
 
 #: package/contents/ui/ConfigButtons.qml:40
-#: package/contents/ui/FullRepresentation.qml:762
+#: package/contents/ui/FullRepresentation.qml:725
 #, fuzzy, kde-format
 #| msgid "Recently Used"
 msgid "Often Used"
 msgstr "آخر المستخدم"
 
 #: package/contents/ui/ConfigButtons.qml:41
-#: package/contents/ui/FullRepresentation.qml:764
+#: package/contents/ui/FullRepresentation.qml:727
 #, kde-format
 msgid "Leave"
 msgstr "اترك"
 
-#: package/contents/ui/ConfigButtons.qml:215
+#: package/contents/ui/ConfigButtons.qml:214
 #, fuzzy, kde-format
 #| msgid "Hidden Tabs"
 msgid "Active Tabs"
 msgstr "الألسنة المخفيّة"
 
-#: package/contents/ui/ConfigButtons.qml:221
+#: package/contents/ui/ConfigButtons.qml:222
 #, kde-format
 msgid "Inactive Tabs"
 msgstr ""
 
-#: package/contents/ui/ConfigGeneral.qml:41
+#: package/contents/ui/ConfigGeneral.qml:40
 #, kde-format
 msgid "Icon:"
 msgstr "الأيقونة:"
 
-#: package/contents/ui/ConfigGeneral.qml:76
+#: package/contents/ui/ConfigGeneral.qml:75
 #, kde-format
 msgctxt "@item:inmenu Open icon chooser dialog"
 msgid "Choose..."
 msgstr "اختر..."
 
-#: package/contents/ui/ConfigGeneral.qml:81
+#: package/contents/ui/ConfigGeneral.qml:80
 #, kde-format
 msgctxt "@item:inmenu Reset icon to default"
 msgid "Clear Icon"
 msgstr "امسح الأيقونة"
 
-#: package/contents/ui/ConfigGeneral.qml:95
+#: package/contents/ui/ConfigGeneral.qml:94
 #, kde-format
 msgid "General:"
 msgstr ""
 
-#: package/contents/ui/ConfigGeneral.qml:97
+#: package/contents/ui/ConfigGeneral.qml:96
 #, kde-format
 msgid "Switch tabs on hover"
 msgstr "بدّل الألسنة عند المرور عليها"
 
-#: package/contents/ui/ConfigGeneral.qml:102
+#: package/contents/ui/ConfigGeneral.qml:101
 #, kde-format
 msgid "Show applications by name"
 msgstr "أظهر التّطبيقات بالاسم"
 
-#: package/contents/ui/ConfigGeneral.qml:107
+#: package/contents/ui/ConfigGeneral.qml:106
 #, kde-format
 msgid "Expand search to bookmarks, files and emails"
 msgstr "وسّع البحث ليشمل العلامات، والملفّات والبُرد الإلكترونيّة"
 
-#: package/contents/ui/ConfigGeneral.qml:112
+#: package/contents/ui/ConfigGeneral.qml:111
 #, kde-format
 msgid "Sort alphabetically"
 msgstr "افرز أبجديًّا"
 
-#: package/contents/ui/ConfigGeneral.qml:126
+#: package/contents/ui/ConfigGeneral.qml:121
 #, kde-format
 msgid ""
 "Drag tabs between the boxes to show/hide them, or reorder the visible tabs "

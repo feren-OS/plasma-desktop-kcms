@@ -1,15 +1,15 @@
 # Translation of kcm_workspace.po to Catalan
-# Copyright (C) 2014-2018 This_file_is_part_of_KDE
+# Copyright (C) 2014-2019 This_file_is_part_of_KDE
 # This file is distributed under the license LGPL version 2.1 or
 # version 3 or later versions approved by the membership of KDE e.V.
 #
-# Josep Ma. Ferrer <txemaq@gmail.com>, 2014, 2017, 2018.
+# Josep Ma. Ferrer <txemaq@gmail.com>, 2014, 2017, 2018, 2019.
 msgid ""
 msgstr ""
 "Project-Id-Version: kcm_workspace\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
-"PO-Revision-Date: 2018-05-22 20:26+0100\n"
+"POT-Creation-Date: 2019-08-02 03:11+0200\n"
+"PO-Revision-Date: 2019-08-02 18:03+0100\n"
 "Last-Translator: Josep Ma. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -62,16 +62,15 @@ msgstr "Doble clic per obrir fitxers i carpetes (clic únic per seleccionar)"
 
 #: workspaceoptions.cpp:40
 #, kde-format
-msgid "Plasma Workspace global options"
-msgstr "Opcions globals de l'espai de treball del Plasma"
+msgid "General Behavior"
+msgstr "Comportament general"
 
 #: workspaceoptions.cpp:42
 #, kde-format
-msgid ""
-"System Settings module for managing global options for the Plasma Workspace."
+msgid "System Settings module for configuring general workspace behavior."
 msgstr ""
-"Mòdul de l'Arranjament del sistema per gestionar les opcions globals de "
-"l'espai de treball del Plasma."
+"Mòdul de l'Arranjament del sistema per configurar el comportament general de "
+"l'espai de treball."
 
 #: workspaceoptions.cpp:45
 #, kde-format

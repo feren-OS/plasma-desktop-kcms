@@ -15,16 +15,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcm_fonts\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-07-12 07:37+0200\n"
-"PO-Revision-Date: 2019-06-01 09:24-0300\n"
-"Last-Translator: André Marcelo Alvarenga <alvarenga@kde.org>\n"
-"Language-Team: Brazilian Portuguese <kde-i18n-pt_BR@kde.org>\n"
+"POT-Creation-Date: 2019-10-29 07:53+0100\n"
+"PO-Revision-Date: 2019-07-27 10:51-0300\n"
+"Last-Translator: Luiz Fernando Ranghetti <elchevive@opensuse.org>\n"
+"Language-Team: Portuguese <kde-i18n-pt_BR@kde.org>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 19.04.1\n"
+"X-Generator: Lokalize 19.04.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -36,95 +36,73 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "elchevive@opensuse.org, alvarenga@kde.org"
 
-#: fonts.cpp:279
-#, kde-format
-msgid ""
-"<p>Some changes such as anti-aliasing or DPI will only affect newly started "
-"applications.</p>"
-msgstr ""
-"<p>Algumas alterações como de anti-aliasing ou PPP afetarão apenas os "
-"aplicativos iniciados a partir de agora.</p>"
-
-#: fonts.cpp:280 fonts.cpp:290
-#, kde-format
-msgid "Font Settings Changed"
-msgstr "Configurações da fonte alteradas"
-
-#: fonts.cpp:289
-#, kde-format
-msgid ""
-"<p>Some changes such as DPI will only affect newly started applications.</p>"
-msgstr ""
-"<p>Algumas mudanças como as de PPP afetarão apenas os aplicativos iniciados "
-"a partir de agora.</p>"
-
-#: fonts.cpp:443
+#: fonts.cpp:472
 #, kde-format
 msgid "Fonts"
 msgstr "Fontes"
 
-#: fonts.cpp:445
+#: fonts.cpp:474
 #, kde-format
 msgid "Antonis Tsiapaliokas"
 msgstr "Antonis Tsiapaliokas"
 
-#: kxftconfig.cpp:444
+#: kxftconfig.cpp:480
 #, kde-format
 msgctxt "use system subpixel setting"
 msgid "Vendor default"
 msgstr "Padrão do fornecedor"
 
-#: kxftconfig.cpp:446
+#: kxftconfig.cpp:482
 #, kde-format
 msgctxt "no subpixel rendering"
 msgid "None"
 msgstr "Nenhum"
 
-#: kxftconfig.cpp:448
+#: kxftconfig.cpp:484
 #, kde-format
 msgid "RGB"
 msgstr "RGB"
 
-#: kxftconfig.cpp:450
+#: kxftconfig.cpp:486
 #, kde-format
 msgid "BGR"
 msgstr "BGR"
 
-#: kxftconfig.cpp:452
+#: kxftconfig.cpp:488
 #, kde-format
 msgid "Vertical RGB"
 msgstr "RGB vertical"
 
-#: kxftconfig.cpp:454
+#: kxftconfig.cpp:490
 #, kde-format
 msgid "Vertical BGR"
 msgstr "BGR vertical"
 
-#: kxftconfig.cpp:482
+#: kxftconfig.cpp:518
 #, kde-format
 msgctxt "use system hinting settings"
 msgid "Vendor default"
 msgstr "Padrão do fornecedor"
 
-#: kxftconfig.cpp:484
+#: kxftconfig.cpp:520
 #, kde-format
 msgctxt "medium hinting"
 msgid "Medium"
 msgstr "Médio"
 
-#: kxftconfig.cpp:486
+#: kxftconfig.cpp:522
 #, kde-format
 msgctxt "no hinting"
 msgid "None"
 msgstr "Nenhum"
 
-#: kxftconfig.cpp:488
+#: kxftconfig.cpp:524
 #, kde-format
 msgctxt "slight hinting"
 msgid "Slight"
 msgstr "Leve"
 
-#: kxftconfig.cpp:490
+#: kxftconfig.cpp:526
 #, kde-format
 msgctxt "full hinting"
 msgid "Full"
@@ -140,95 +118,93 @@ msgstr "Selecionar fonte %1..."
 msgid "This module lets you configure the system fonts."
 msgstr "Este módulo permite que você configure as fontes do sistema."
 
-#: package/contents/ui/main.qml:40
+#: package/contents/ui/main.qml:38
+#, kde-format
+msgid ""
+"Some changes such as anti-aliasing or DPI will only affect newly started "
+"applications."
+msgstr ""
+"Algumas alterações como de anti-aliasing ou PPP afetarão apenas os "
+"aplicativos iniciados a partir de agora."
+
+#: package/contents/ui/main.qml:54
 #, kde-format
 msgid "&Adjust All Fonts..."
 msgstr "A&justar todas as fontes..."
 
-#: package/contents/ui/main.qml:47
+#: package/contents/ui/main.qml:61
 #, kde-format
 msgid "General:"
 msgstr "Geral:"
 
-#: package/contents/ui/main.qml:52
+#: package/contents/ui/main.qml:66
 #, kde-format
 msgid "Fixed width:"
 msgstr "Largura fixa:"
 
-#: package/contents/ui/main.qml:57
+#: package/contents/ui/main.qml:71
 #, kde-format
 msgid "Small:"
 msgstr "Pequena:"
 
-#: package/contents/ui/main.qml:62
+#: package/contents/ui/main.qml:76
 #, kde-format
 msgid "Toolbar:"
 msgstr "Barra de ferramentas:"
 
-#: package/contents/ui/main.qml:67
+#: package/contents/ui/main.qml:81
 #, kde-format
 msgid "Menu:"
 msgstr "Menu:"
 
-#: package/contents/ui/main.qml:72
+#: package/contents/ui/main.qml:86
 #, kde-format
 msgid "Window title:"
 msgstr "Título da janela:"
 
-#: package/contents/ui/main.qml:84
+#: package/contents/ui/main.qml:99
 #, kde-format
-msgctxt "Used as a noun, and precedes a combobox full of options"
-msgid "Anti-aliasing:"
+msgid "Anti-Aliasing:"
 msgstr "Anti-aliasing:"
 
-#: package/contents/ui/main.qml:86
+#: package/contents/ui/main.qml:100
 #, kde-format
-msgid "Enabled"
+msgid "Enable"
 msgstr "Habilitado"
 
-#: package/contents/ui/main.qml:86
-#, kde-format
-msgid "Vendor default"
-msgstr "Padrão do fornecedor"
-
-#: package/contents/ui/main.qml:86
-#, kde-format
-msgid "Disabled"
-msgstr "Desabilitado"
-
-#: package/contents/ui/main.qml:96
+#: package/contents/ui/main.qml:108
 #, kde-format
 msgid "Exclude range from anti-aliasing"
 msgstr "Excluir faixa do anti-aliasing"
 
-#: package/contents/ui/main.qml:113 package/contents/ui/main.qml:128
+#: package/contents/ui/main.qml:121 package/contents/ui/main.qml:138
 #, kde-format
 msgid "%1 pt"
 msgstr "%1 pt"
 
-#: package/contents/ui/main.qml:120
+#: package/contents/ui/main.qml:130
 #, kde-format
 msgid "to"
 msgstr " até "
 
-#: package/contents/ui/main.qml:141
+#: package/contents/ui/main.qml:153
 #, kde-format
 msgctxt "Used as a noun, and precedes a combobox full of options"
 msgid "Sub-pixel rendering:"
 msgstr "Renderização de subpixel:"
 
-#: package/contents/ui/main.qml:178
+#: package/contents/ui/main.qml:190
 #, kde-format
 msgctxt "Used as a noun, and precedes a combobox full of options"
 msgid "Hinting:"
 msgstr "Hinting:"
 
-#: package/contents/ui/main.qml:216
+#: package/contents/ui/main.qml:228
 #, kde-format
 msgid "Force font DPI:"
 msgstr "Forçar PPP das fontes:"
 
-#: package/contents/ui/main.qml:234
+#: package/contents/ui/main.qml:248
 #, kde-format
 msgid "Select Font"
 msgstr "Selecionar fonte"

@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
-"PO-Revision-Date: 2017-12-02 23:13+0100\n"
+"POT-Creation-Date: 2019-05-23 03:23+0200\n"
+"PO-Revision-Date: 2019-05-29 00:26+0200\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
 "Language-Team: Korean <kde-kr@kde.org>\n"
 "Language: ko\n"
@@ -40,8 +40,8 @@ msgstr "Vishesh Handa"
 
 #: kcm.cpp:59
 #, kde-format
-msgid "Select the search plugins:"
-msgstr "검색 플러그인 선택:"
+msgid "Enable or disable KRunner plugins:"
+msgstr "KRunner 플러그인 활성화 및 비활성화:"
 
 #: kcm.cpp:61
 #, kde-format

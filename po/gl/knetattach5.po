@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: knetattach\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"POT-Creation-Date: 2019-05-20 03:25+0200\n"
 "PO-Revision-Date: 2019-01-01 15:32+0100\n"
 "Last-Translator: Adrián Chaves (Gallaecio) <adrian@chaves.io>\n"
 "Language-Team: Galician <kde-i18n-doc@kde.org>\n"
@@ -19,11 +19,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 2.0\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Environment: kde\n"
-"X-Accelerator-Marker: &\n"
-"X-Text-Markup: kde4\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -52,9 +48,9 @@ msgid ""
 "address, port and folder path to use and press the <b>Save & Connect</b> "
 "button."
 msgstr ""
-"Insira un nome para esta <i>Conexión segura de intérprete de ordes</i> así "
-"como o enderezo do servidor, o porto e a ruta ao cartafol e prema bo botón "
-"<b>Gardar e conectar</b>."
+"Insira un nome para esta <i>Conexión segura de shell</i> así como o enderezo "
+"do servidor, o porto e a ruta ao cartafol e prema bo botón <b>Gardar e "
+"conectar</b>."
 
 #: knetattach.cpp:98
 #, kde-format
@@ -82,7 +78,7 @@ msgstr ""
 #, kde-format
 msgid "Unable to connect to server.  Please check your settings and try again."
 msgstr ""
-"Non se pode conectar co servidor. Comprobe a configuración e inténteo de "
+"Non foi posíbel conectar co servidor. Comprobe a configuración e inténteo de "
 "novo."
 
 #: knetattach.cpp:354
@@ -133,7 +129,7 @@ msgstr "Cartafol &web (webdav)"
 #: knetattach.ui:82
 #, kde-format
 msgid "&Secure shell (ssh)"
-msgstr "Intérprete de ordes &seguro (ssh)"
+msgstr "&Shell segura (ssh)"
 
 #. i18n: ectx: property (text), widget (QRadioButton, _ftp)
 #: knetattach.ui:111
@@ -225,4 +221,4 @@ msgstr "George Staikos"
 #: main.cpp:35
 #, kde-format
 msgid "Primary author and maintainer"
-msgstr "Autor principal e mantedor"
+msgstr "Autor principal e mantenedor"

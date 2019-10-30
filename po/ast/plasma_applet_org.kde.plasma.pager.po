@@ -1,0 +1,155 @@
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the plasma-desktop package.
+#
+# enolp <enolp@softastur.org>, 2019.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-desktop\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-05-20 03:25+0200\n"
+"PO-Revision-Date: 2019-09-07 13:31+0200\n"
+"Last-Translator: enolp <enolp@softastur.org>\n"
+"Language-Team: Asturian <alministradores@softastur.org>\n"
+"Language: ast\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 19.08.0\n"
+
+#: package/contents/config/config.qml:25
+#, kde-format
+msgid "General"
+msgstr "Xeneral"
+
+#: package/contents/ui/configGeneral.qml:84
+#, kde-format
+msgid "General:"
+msgstr "Xeneral:"
+
+#: package/contents/ui/configGeneral.qml:86
+#, kde-format
+msgid "Show application icons on window outlines"
+msgstr ""
+
+#: package/contents/ui/configGeneral.qml:91
+#, kde-format
+msgid "Show only current screen"
+msgstr "Amosar namái la pantalla actual"
+
+#: package/contents/ui/configGeneral.qml:96
+#, kde-format
+msgid "Navigation wraps around"
+msgstr ""
+
+#: package/contents/ui/configGeneral.qml:108
+#, kde-format
+msgid "Layout:"
+msgstr ""
+
+#: package/contents/ui/configGeneral.qml:110
+#, kde-format
+msgctxt "The pager layout"
+msgid "Default"
+msgstr ""
+
+#: package/contents/ui/configGeneral.qml:110
+#, kde-format
+msgid "Horizontal"
+msgstr "Horizontal"
+
+#: package/contents/ui/configGeneral.qml:110
+#, kde-format
+msgid "Vertical"
+msgstr "Vertical"
+
+#: package/contents/ui/configGeneral.qml:124
+#, kde-format
+msgid "Text display:"
+msgstr "Amuesa de testu:"
+
+#: package/contents/ui/configGeneral.qml:127
+#, kde-format
+msgid "No text"
+msgstr ""
+
+#: package/contents/ui/configGeneral.qml:133
+#, kde-format
+msgid "Activity number"
+msgstr ""
+
+#: package/contents/ui/configGeneral.qml:133
+#, kde-format
+msgid "Desktop number"
+msgstr ""
+
+#: package/contents/ui/configGeneral.qml:139
+#, kde-format
+msgid "Activity name"
+msgstr ""
+
+#: package/contents/ui/configGeneral.qml:139
+#, kde-format
+msgid "Desktop name"
+msgstr ""
+
+#: package/contents/ui/configGeneral.qml:152
+#, kde-format
+msgid "Selecting current Activity:"
+msgstr ""
+
+#: package/contents/ui/configGeneral.qml:152
+#, kde-format
+msgid "Selecting current virtual desktop:"
+msgstr "La esbilla del escritoriu virtual actual:"
+
+#: package/contents/ui/configGeneral.qml:155
+#, kde-format
+msgid "Does nothing"
+msgstr "Nun fai nada"
+
+#: package/contents/ui/configGeneral.qml:161
+#, kde-format
+msgid "Shows the desktop"
+msgstr "Amuesa l'escritoriu"
+
+#: package/contents/ui/main.qml:329
+#, kde-format
+msgid "...and %1 other window"
+msgid_plural "...and %1 other windows"
+msgstr[0] ""
+msgstr[1] ""
+
+#: package/contents/ui/main.qml:353
+#, kde-format
+msgid "%1 Window:"
+msgid_plural "%1 Windows:"
+msgstr[0] "%1 ventana:"
+msgstr[1] "%1 ventanes:"
+
+#: package/contents/ui/main.qml:362
+#, kde-format
+msgid "%1 Minimized Window:"
+msgid_plural "%1 Minimized Windows:"
+msgstr[0] "%1 ventana minimizada:"
+msgstr[1] "%1 ventanes minimizaes:"
+
+#: package/contents/ui/main.qml:537
+#, kde-format
+msgid "Show Activity Manager..."
+msgstr "Amosar el xestor actividaes..."
+
+#: package/contents/ui/main.qml:540
+#, kde-format
+msgid "Add Virtual Desktop"
+msgstr "Amestar un escritoriu virtual"
+
+#: package/contents/ui/main.qml:541
+#, kde-format
+msgid "Remove Virtual Desktop"
+msgstr "Desaniciar l'escritoriu virtual"
+
+#: package/contents/ui/main.qml:546
+#, kde-format
+msgid "Configure Virtual Desktops..."
+msgstr ""

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkeyboard trunk\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"POT-Creation-Date: 2019-08-11 03:10+0200\n"
 "PO-Revision-Date: 2010-12-16 22:21+0530\n"
 "Last-Translator: Anish A <anish.nl@gmail.com>\n"
 "Language-Team: Swathantra Malayalam Computing\n"
@@ -30,34 +30,27 @@ msgstr "manusmad@gmail.com, aneeshn.nl@gmail.com"
 
 #: bindings.cpp:33
 #, fuzzy, kde-format
-#| msgid "Switch to Next Keyboard Layout"
 msgid "Switch to Next Keyboard Layout"
 msgstr "അടുത്ത കീബോര്‍ഡു് വിന്യാസത്തിലേയ്ക്കു് മാറ്റുക"
 
 #: bindings.cpp:34
 #, fuzzy, kde-format
-#| msgid "Switch to Next Keyboard Layout"
 msgid "KDE Keyboard Layout Switcher"
 msgstr "അടുത്ത കീബോര്‍ഡു് വിന്യാസത്തിലേയ്ക്കു് മാറ്റുക"
 
 #: bindings.cpp:67
 #, fuzzy, kde-format
-#| msgid "Error changing keyboard layout to '%1'"
 msgid "Switch keyboard layout to %1"
 msgstr "'%1' കീബോര്‍ഡു് വിന്യാസത്തിലേയ്ക്കു് മാറ്റുന്നതില്‍ പിശകു്"
 
 #: flags.cpp:168
 #, fuzzy, kde-format
-#| msgctxt "vendor | keyboard model"
-#| msgid "%1 | %2"
 msgctxt "short layout label - full layout name"
 msgid "%1 - %2"
 msgstr "%1 | %2"
 
 #: flags.cpp:176
 #, fuzzy, kde-format
-#| msgctxt "vendor | keyboard model"
-#| msgid "%1 | %2"
 msgctxt "layout - variant"
 msgid "%1 - %2"
 msgstr "%1 | %2"
@@ -67,7 +60,7 @@ msgstr "%1 | %2"
 msgid "Any language"
 msgstr "ഏതു ഭാഷയും"
 
-#: kcm_add_layout_dialog.cpp:141 kcm_view_models.cpp:319
+#: kcm_add_layout_dialog.cpp:141 kcm_view_models.cpp:311
 #, kde-format
 msgctxt "variant"
 msgid "Default"
@@ -76,7 +69,6 @@ msgstr "സഹജമായ"
 #. i18n: ectx: property (windowTitle), widget (QDialog, AddLayoutDialog)
 #: kcm_add_layout_dialog.ui:14
 #, fuzzy, kde-format
-#| msgid "Keyboard Repeat"
 msgid "Add Layout"
 msgstr "കീബോര്‍ഡ് റിപ്പീറ്റ്"
 
@@ -145,7 +137,6 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: kcm_keyboard.ui:33
 #, fuzzy, kde-format
-#| msgid "Keyboard Repeat"
 msgid "Keyboard &model:"
 msgstr "കീബോര്‍ഡ് റിപ്പീറ്റ്"
 
@@ -182,7 +173,6 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, showSingleChk)
 #: kcm_keyboard.ui:115
 #, fuzzy, kde-format
-#| msgid "&Enable keyboard repeat"
 msgid "Show for single layout"
 msgstr "കീബോര്‍ഡ് റിപ്പീറ്റ് &പ്രാവര്‍ത്തികമാക്കുക"
 
@@ -309,7 +299,6 @@ msgstr ""
 #. i18n: ectx: property (title), widget (QGroupBox, layoutsGroupBox)
 #: kcm_keyboard.ui:298
 #, fuzzy, kde-format
-#| msgid "&Enable keyboard repeat"
 msgid "Configure layouts"
 msgstr "കീബോര്‍ഡ് റിപ്പീറ്റ് &പ്രാവര്‍ത്തികമാക്കുക"
 
@@ -340,7 +329,6 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, layoutLoopingCheckBox)
 #: kcm_keyboard.ui:387
 #, fuzzy, kde-format
-#| msgid "&Enable keyboard repeat"
 msgid "Spare layouts"
 msgstr "കീബോര്‍ഡ് റിപ്പീറ്റ് &പ്രാവര്‍ത്തികമാക്കുക"
 
@@ -359,7 +347,6 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, configureKeyboardOptionsChk)
 #: kcm_keyboard.ui:455
 #, fuzzy, kde-format
-#| msgid "&Enable keyboard repeat"
 msgid "&Configure keyboard options"
 msgstr "കീബോര്‍ഡ് റിപ്പീറ്റ് &പ്രാവര്‍ത്തികമാക്കുക"
 
@@ -395,41 +382,35 @@ msgid_plural "%1 shortcuts"
 msgstr[0] ""
 msgstr[1] ""
 
-#: kcm_view_models.cpp:226
+#: kcm_view_models.cpp:220
 #, kde-format
 msgctxt "layout map name"
 msgid "Map"
 msgstr "മാപ്പ്"
 
-#: kcm_view_models.cpp:226
+#: kcm_view_models.cpp:220
 #, kde-format
 msgid "Layout"
 msgstr "വിന്യാസം"
 
-#: kcm_view_models.cpp:226
+#: kcm_view_models.cpp:220
 #, kde-format
 msgid "Variant"
 msgstr "മാറ്റമുള്ള"
 
-#: kcm_view_models.cpp:226
+#: kcm_view_models.cpp:220
 #, kde-format
 msgid "Label"
 msgstr "പേരു്"
 
-#: kcm_view_models.cpp:226
+#: kcm_view_models.cpp:220
 #, fuzzy, kde-format
-#| msgid "%1 shortcut"
-#| msgid_plural "%1 shortcuts"
 msgid "Shortcut"
 msgstr "%1 കുറുക്കുവഴി"
 
 #. i18n: ectx: property (whatsThis), widget (QGroupBox, numlockGroupBox)
 #: kcmmiscwidget.ui:17
 #, fuzzy, kde-format
-#| msgid ""
-#| "If supported, this option allows you to setup the state of NumLock after "
-#| "KDE startup.<p>You can configure NumLock to be turned on or off, or "
-#| "configure KDE not to set NumLock state."
 msgid ""
 "If supported, this option allows you to setup the state of NumLock after "
 "Plasma startup.<p>You can configure NumLock to be turned on or off, or "
@@ -442,7 +423,6 @@ msgstr ""
 #. i18n: ectx: property (title), widget (QGroupBox, numlockGroupBox)
 #: kcmmiscwidget.ui:20
 #, fuzzy, kde-format
-#| msgid "NumLock on KDE Startup"
 msgid "NumLock on Plasma Startup"
 msgstr "കെഡിഇ തുടങ്ങുമ്പോള്‍ നംലോക്ക് (NumLock)"
 
@@ -456,7 +436,6 @@ msgstr "&ഓണാക്കുക"
 #. i18n: ectx: property (text), widget (QRadioButton, radioButton2)
 #: kcmmiscwidget.ui:39
 #, fuzzy, kde-format
-#| msgid "Turn o&ff"
 msgid "&Turn off"
 msgstr "ഓ&ഫാക്കുക"
 
@@ -481,7 +460,6 @@ msgstr "ഓ&ഫാക്കുക"
 #. i18n: ectx: property (text), widget (QRadioButton, keyboardRepeatUnchangedRadioButton)
 #: kcmmiscwidget.ui:85
 #, fuzzy, kde-format
-#| msgid "Leave unchan&ged"
 msgid "&Leave unchanged"
 msgstr "&മാറ്റാതെ വിടുക"
 
@@ -549,13 +527,11 @@ msgstr ""
 
 #: layout_tray_icon.cpp:46 layout_tray_icon.cpp:47
 #, fuzzy, kde-format
-#| msgid "Keyboard Repeat"
 msgctxt "tooltip title"
 msgid "Keyboard Layout"
 msgstr "കീബോര്‍ഡ് റിപ്പീറ്റ്"
 
 #: layouts_menu.cpp:135
 #, fuzzy, kde-format
-#| msgid "&Enable keyboard repeat"
 msgid "Configure Layouts..."
 msgstr "കീബോര്‍ഡ് റിപ്പീറ്റ് &പ്രാവര്‍ത്തികമാക്കുക"

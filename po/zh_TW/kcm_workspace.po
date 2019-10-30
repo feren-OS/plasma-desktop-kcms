@@ -3,21 +3,21 @@
 #
 # Franklin Weng <franklin at goodhorse dot idv dot tw>, 2014.
 # Jeff Huang <s8321414@gmail.com>, 2017.
-# pan93412 <pan93412@gmail.com>, 2018.
+# pan93412 <pan93412@gmail.com>, 2018, 2019.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
-"PO-Revision-Date: 2018-05-22 23:33+0800\n"
+"POT-Creation-Date: 2019-08-02 03:11+0200\n"
+"PO-Revision-Date: 2019-10-11 17:57+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
-"Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
+"Language-Team: Chinese <chinese-l10n@googlegroups.com>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Lokalize 2.0\n"
+"X-Generator: Lokalize 19.08.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -37,7 +37,7 @@ msgstr "視覺行為："
 #: package/contents/ui/main.qml:38
 #, kde-format
 msgid "Display informational tooltips on mouse hover"
-msgstr "顯示鼠標停留時的訊息提示"
+msgstr "顯示游標停留時的訊息提示"
 
 #: package/contents/ui/main.qml:45
 #, kde-format
@@ -61,14 +61,13 @@ msgstr "按兩下開啟檔案與資料夾（按一下選擇）"
 
 #: workspaceoptions.cpp:40
 #, kde-format
-msgid "Plasma Workspace global options"
-msgstr "Plasma 工作空間全域設定"
+msgid "General Behavior"
+msgstr "一般行為"
 
 #: workspaceoptions.cpp:42
 #, kde-format
-msgid ""
-"System Settings module for managing global options for the Plasma Workspace."
-msgstr "管理 Plasma 工作空間的全域選項的系統設定模組"
+msgid "System Settings module for configuring general workspace behavior."
+msgstr "用來設定一般工作空間行為的「系統設定」模組。"
 
 #: workspaceoptions.cpp:45
 #, kde-format

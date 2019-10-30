@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcm_emoticons\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
-"PO-Revision-Date: 2019-01-14 16:50+0100\n"
+"POT-Creation-Date: 2019-05-20 03:25+0200\n"
+"PO-Revision-Date: 2019-08-21 14:24+0200\n"
 "Last-Translator: Vit Pelcak <vit@pelcak.org>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
 "Language: cs\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Lokalize 18.12.0\n"
+"X-Generator: Lokalize 19.04.3\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -84,7 +84,7 @@ msgstr "Nový motiv emotikonů"
 #: emoticonslist.cpp:364
 #, kde-format
 msgid "Name of new emoticon theme:"
-msgstr ""
+msgstr "Dejte novému emotikonu název:"
 
 #: emoticonslist.cpp:370
 #, kde-format
@@ -128,7 +128,7 @@ msgstr "Instalovat ze souboru..."
 #: emoticonslist.ui:45
 #, kde-format
 msgid "Create New Theme..."
-msgstr ""
+msgstr "Vytvořit nový motiv..."
 
 #. i18n: ectx: property (whatsThis), widget (QPushButton, btNew)
 #: emoticonslist.ui:48
@@ -137,6 +137,8 @@ msgid ""
 "Create a new theme by assigning it a name. Then use the Add button on the "
 "right to add emoticons to this theme."
 msgstr ""
+"Nový motiv vytvoříte přidáním jména a poté použijte tlačítko Přidat na pravé "
+"straně k přidání jednotlivých emotikonů do motivu."
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, btRemoveTheme)
 #: emoticonslist.ui:99
@@ -154,7 +156,7 @@ msgstr "Tímto odstraníte vybraný motiv z disku."
 #: emoticonslist.ui:115
 #, kde-format
 msgid "Get new emoticon icon themes from the Internet"
-msgstr ""
+msgstr "Získat nové motivy emotikonů z Internetu"
 
 #. i18n: ectx: property (whatsThis), widget (QPushButton, btGetNew)
 #: emoticonslist.ui:118
@@ -165,6 +167,9 @@ msgid ""
 "Clicking the Install button associated with a theme will install this theme "
 "locally."
 msgstr ""
+"K použití této činnosti musíte být připojeni k Internetu. Dialog zobrazí "
+"motivy ze stránky https://store.kde.org. Kliknutím na tlačítko Instalovat "
+"vedle motivu jej nainstalujete lokálně."
 
 #. i18n: ectx: property (text), widget (QPushButton, btGetNew)
 #: emoticonslist.ui:121
@@ -182,7 +187,7 @@ msgstr "Vyžadovat mezery okolo emotikonů"
 #: emoticonslist.ui:161
 #, kde-format
 msgid "Create New Emoticon..."
-msgstr ""
+msgstr "Vytvořit nový emotikon..."
 
 #. i18n: ectx: property (whatsThis), widget (QPushButton, btAdd)
 #: emoticonslist.ui:164
@@ -194,7 +199,7 @@ msgstr "Vytvořit nový emotikon přiřazením ikony a textu"
 #: emoticonslist.ui:177
 #, kde-format
 msgid "Remove Emoticon"
-msgstr ""
+msgstr "Odstranit emotikon"
 
 #. i18n: ectx: property (whatsThis), widget (QPushButton, btRemoveEmoticon)
 #: emoticonslist.ui:180
@@ -206,7 +211,7 @@ msgstr "Odstranit vybraný emotikon z disku"
 #: emoticonslist.ui:193
 #, kde-format
 msgid "Edit Emoticon..."
-msgstr ""
+msgstr "Upravit emotikon..."
 
 #. i18n: ectx: property (whatsThis), widget (QPushButton, btEdit)
 #: emoticonslist.ui:196

@@ -5,9 +5,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: joystick\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
-"PO-Revision-Date: 2010-05-27 22:59+0300\n"
-"Last-Translator: Tomas Straupis <tomasstraupis@gmail.com>\n"
+"POT-Creation-Date: 2019-09-12 03:25+0200\n"
+"PO-Revision-Date: 2019-07-26 16:09+0300\n"
+"Last-Translator: Moo\n"
 "Language-Team: Lithuanian <kde-i18n-lt@kde.org>\n"
 "Language: lt\n"
 "MIME-Version: 1.0\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : n%10>=2 && (n%100<10 || n"
 "%100>=20) ? 1 : n%10==0 || (n%100>10 && n%100<20) ? 2 : 3);\n"
-"X-Generator: Lokalize 1.0\n"
+"X-Generator: Poedit 2.0.6\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -111,23 +111,23 @@ msgstr "Kalibravimas sėkmingas"
 msgid "Value Axis %1: %2"
 msgstr "Ašies %1 reikšmė: %2"
 
-#: joydevice.cpp:56
+#: joydevice.cpp:55
 #, kde-format
 msgid "The given device %1 could not be opened: %2"
 msgstr "Nurodytas įrenginys %1 negali būti atvertas: %2"
 
-#: joydevice.cpp:62
+#: joydevice.cpp:61
 #, kde-format
 msgid "The given device %1 is not a joystick."
 msgstr "Nurodytas įrenginys %1 nėra valdymo svirtis."
 
-#: joydevice.cpp:67
+#: joydevice.cpp:66
 #, kde-format
 msgid "Could not get kernel driver version for joystick device %1: %2"
 msgstr ""
 "Nepavyksta nustatyti branduolio valdyklės valdymo svirčiai %1 versijos: %2"
 
-#: joydevice.cpp:81
+#: joydevice.cpp:80
 #, kde-format
 msgid ""
 "The current running kernel driver version (%1.%2.%3) is not the one this "
@@ -136,38 +136,38 @@ msgstr ""
 "Dabar veikiančios branduolio valdyklės versija (%1.%2.%3) nėra ta, kuriai "
 "vienas iš šių modulių buvo sukompiliuotas (%4.%5.%6)."
 
-#: joydevice.cpp:93
+#: joydevice.cpp:92
 #, kde-format
 msgid "Could not get number of buttons for joystick device %1: %2"
 msgstr "Nepavyksta sužinoti mygtukų skaičiaus valdymo svirtyje %1: %2"
 
-#: joydevice.cpp:99
+#: joydevice.cpp:98
 #, kde-format
 msgid "Could not get number of axes for joystick device %1: %2"
 msgstr "Nepavyksta sužinoti ašių skaičiaus valdymo svirtyje %1: %2"
 
-#: joydevice.cpp:105
+#: joydevice.cpp:104
 #, kde-format
 msgid "Could not get calibration values for joystick device %1: %2"
 msgstr "Nepavyksta sužinoti kalibravimo verčių valdymo svirčiai %1: %2"
 
-#: joydevice.cpp:111
+#: joydevice.cpp:110
 #, kde-format
 msgid "Could not restore calibration values for joystick device %1: %2"
 msgstr "Nepavyksta atstatyti kalibravimo verčių valdymo svirčiai %1: %2"
 
-#: joydevice.cpp:117
+#: joydevice.cpp:116
 #, kde-format
 msgid "Could not initialize calibration values for joystick device %1: %2"
 msgstr "Nepavyksta įkelti kalibravimo verčių valdymo svirčiai %1: %2"
 
-#: joydevice.cpp:123
+#: joydevice.cpp:122
 #, kde-format
 msgid "Could not apply calibration values for joystick device %1: %2"
 msgstr ""
 "Nepavyksta pritaikyti kalibravimo verčių valdymo svirties įrenginiui %1: %2"
 
-#: joydevice.cpp:127
+#: joydevice.cpp:126
 #, kde-format
 msgid "internal error - code %1 unknown"
 msgstr "vidinė klaida – kodas %1 nežinomas"
@@ -180,7 +180,7 @@ msgstr "KDE valdymo svirties valdymo modulis"
 #: joystick.cpp:48
 #, kde-format
 msgid "KDE System Settings Module to test Joysticks"
-msgstr "KDE Sistemos nustatymų modulis valdymo svirčių bandymui"
+msgstr "KDE sistemos nuostatų modulis, skirtas valdymo svirčių bandymui"
 
 #: joystick.cpp:49
 #, kde-format

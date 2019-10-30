@@ -6,9 +6,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: knetattach\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
-"PO-Revision-Date: 2015-12-29 20:05+0200\n"
-"Last-Translator: Mindaugas Baranauskas <opensuse.lietuviu.kalba@gmail.com>\n"
+"POT-Creation-Date: 2019-05-20 03:25+0200\n"
+"PO-Revision-Date: 2019-07-31 12:21+0300\n"
+"Last-Translator: Moo\n"
 "Language-Team: lt <kde-i18n-lt@kde.org>\n"
 "Language: lt\n"
 "MIME-Version: 1.0\n"
@@ -16,17 +16,17 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : n%10>=2 && (n%100<10 || n"
 "%100>=20) ? 1 : n%10==0 || (n%100>10 && n%100<20) ? 2 : 3);\n"
-"X-Generator: Lokalize 1.5\n"
+"X-Generator: Poedit 2.0.6\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "Donatas Glodenis"
+msgstr "Donatas Glodenis, Moo"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "dgvirtual@akl.lt"
+msgstr "dgvirtual@akl.lt, <>"
 
 #: knetattach.cpp:94
 #, kde-format
@@ -34,8 +34,9 @@ msgid ""
 "Enter a name for this <i>WebFolder</i> as well as a server address, port and "
 "folder path to use and press the <b>Save & Connect</b> button."
 msgstr ""
-"Įrašykite šio <i>Tinklo aplanko</i> pavadinimą bei serverio adresą, prievadą "
-"ir aplanko kelią ir spauskite mygtuką <b>„Įrašyti ir prisijungti“</b>."
+"Įrašykite šio <i>Tinklo aplanko</i> pavadinimą bei norimus naudoti serverio "
+"adresą, prievadą ir aplanko kelią, o tuomet paspauskite <b>„Įrašyti ir "
+"prisijungti“</b>."
 
 #: knetattach.cpp:96
 #, kde-format
@@ -44,9 +45,9 @@ msgid ""
 "address, port and folder path to use and press the <b>Save & Connect</b> "
 "button."
 msgstr ""
-"Įrašykite vardą šiam <i>Saugaus apvalkalo prisijungimui</i> bei serverio "
-"adresą, prievadą ir aplanko kelią ir spauskite spauskite mygtuką <b>„Įrašyti "
-"ir prisijungti“</b>."
+"Įrašykite šio <i>Saugaus apvalkalo prisijungimo</i> pavadinimą bei norimus "
+"naudoti serverio adresą, prievadą ir aplanko kelią, o tuomet paspauskite "
+"<b>„Įrašyti ir prisijungti“</b>."
 
 #: knetattach.cpp:98
 #, kde-format
@@ -55,9 +56,9 @@ msgid ""
 "server address and folder path to use and press the <b>Save & Connect</b> "
 "button."
 msgstr ""
-"Įrašykite pavadinimą šiam <i>Failų perdavimo protokolo (FTP) prisijungimui</"
-"i> bei serverio adresą ir naudotiną aplanko kelią ir spauskite spauskite "
-"mygtuką <b>„Įrašyti ir prisijungti“</b>."
+"Įrašykite šio <i>Failų perdavimo protokolo (FTP) prisijungimo</i> pavadinimą "
+"bei norimus naudoti serverio adresą ir aplanko kelią, o tuomet paspauskite "
+"<b>„Įrašyti ir prisijungti“</b>."
 
 #: knetattach.cpp:100
 #, kde-format
@@ -66,16 +67,16 @@ msgid ""
 "server address and folder path to use and press the <b>Save & Connect</b> "
 "button."
 msgstr ""
-"Įrašykite vardą šiam <i>Microsoft Windows tinklo diskui</i> bei serverio "
-"adresą ir naudotiną aplanko kelią ir spauskite spauskite mygtuką <b>„Įrašyti "
+"Įrašykite šio <i>Microsoft Windows tinklo disko</i> pavadinimą bei norimus "
+"naudoti serverio adresą ir aplanko kelią, o tuomet paspauskite <b>„Įrašyti "
 "ir prisijungti“</b>."
 
 #: knetattach.cpp:220
 #, kde-format
 msgid "Unable to connect to server.  Please check your settings and try again."
 msgstr ""
-"Nepavyksta prisijungti prie serverio. Prašome patikrinti nuostatas ir "
-"bandyti iš naujo."
+"Nepavyko prisijungti prie serverio.  Patikrinkite savo nuostatas ir "
+"bandykite dar kartą."
 
 #: knetattach.cpp:354
 #, kde-format
@@ -91,7 +92,7 @@ msgstr "P&risijungti"
 #: knetattach.ui:14
 #, kde-format
 msgid "Network Folder Wizard"
-msgstr "Tinklo aplankų prijungimo vedlys"
+msgstr "Tinklo aplanko vediklis"
 
 #. i18n: ectx: property (title), widget (QWizardPage, _folderType)
 #: knetattach.ui:18
@@ -106,20 +107,20 @@ msgid ""
 "Select the type of network folder you wish to connect to and press the Next "
 "button."
 msgstr ""
-"Pasirinkite tinklo aplanko, prie kurio norite prisijungti, tipą, ir "
-"spauskite mygtuką „Toliau“"
+"Pasirinkite tinklo aplanko, prie kurio norite prisijungti, tipą ir "
+"paspauskite mygtuką „Kitas“."
 
 #. i18n: ectx: property (text), widget (QRadioButton, _recent)
 #: knetattach.ui:65
 #, kde-format
 msgid "&Recent connection:"
-msgstr "&Nesenas prisijungimas:"
+msgstr "&Paskiausias prisijungimas:"
 
 #. i18n: ectx: property (text), widget (QRadioButton, _webfolder)
 #: knetattach.ui:72
 #, kde-format
 msgid "&WebFolder (webdav)"
-msgstr "Ži&niatinklio aplankas (webdav)"
+msgstr "Sai&tyno aplankas (webdav)"
 
 #. i18n: ectx: property (text), widget (QRadioButton, _fish)
 #: knetattach.ui:82
@@ -149,7 +150,7 @@ msgstr "Tinklo aplanko informacija"
 #: knetattach.ui:177
 #, kde-format
 msgid "&Name:"
-msgstr "&Vardas:"
+msgstr "&Pavadinimas:"
 
 #. i18n: ectx: property (text), widget (QLabel, _userText)
 #: knetattach.ui:196
@@ -191,7 +192,7 @@ msgstr "Koduotė:"
 #: knetattach.ui:351
 #, kde-format
 msgid "Cr&eate an icon for this remote folder"
-msgstr "Sukur&ti ženkliuką nutolusiam aplankui"
+msgstr "Sukur&ti šio nuotolinio aplanko piktogramą"
 
 #. i18n: ectx: property (text), widget (QCheckBox, _useEncryption)
 #: knetattach.ui:361
@@ -202,7 +203,7 @@ msgstr "&Naudoti šifravimą"
 #: main.cpp:33
 #, kde-format
 msgid "KDE Network Wizard"
-msgstr "KDE tinklo vedlys"
+msgstr "KDE tinklo vediklis"
 
 #: main.cpp:33
 #, kde-format
@@ -217,4 +218,4 @@ msgstr "George Staikos"
 #: main.cpp:35
 #, kde-format
 msgid "Primary author and maintainer"
-msgstr "Autorius ir prižiūrėtojas"
+msgstr "Pirminis autorius ir prižiūrėtojas"

@@ -9,9 +9,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkeyboard\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
-"PO-Revision-Date: 2017-06-25 01:14+0200\n"
-"Last-Translator: Mindaugas Baranauskas <opensuse.lietuviu.kalba@gmail.com>\n"
+"POT-Creation-Date: 2019-08-11 03:10+0200\n"
+"PO-Revision-Date: 2019-07-26 16:13+0300\n"
+"Last-Translator: Moo\n"
 "Language-Team: Lithuanian <kde-i18n-lt@kde.org>\n"
 "Language: lt\n"
 "MIME-Version: 1.0\n"
@@ -19,17 +19,17 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : n%10>=2 && (n%100<10 || n"
 "%100>=20) ? 1 : n%10==0 || (n%100>10 && n%100<20) ? 2 : 3);\n"
-"X-Generator: Lokalize 2.0\n"
+"X-Generator: Poedit 2.0.6\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "Andrius Štikonas"
+msgstr "Andrius Štikonas, Moo"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "andrius@stikonas.eu"
+msgstr "andrius@stikonas.eu, <>"
 
 #: bindings.cpp:33
 #, kde-format
@@ -39,7 +39,7 @@ msgstr "Perjungti į kitą klaviatūros išdėstymą"
 #: bindings.cpp:34
 #, kde-format
 msgid "KDE Keyboard Layout Switcher"
-msgstr "KDE klaviatūros išdėstymo perjungimo programa"
+msgstr "KDE klaviatūros išdėstymų perjungiklis"
 
 #: bindings.cpp:67
 #, kde-format
@@ -63,11 +63,11 @@ msgstr "%1 – %2"
 msgid "Any language"
 msgstr "Bet kokia kalba"
 
-#: kcm_add_layout_dialog.cpp:141 kcm_view_models.cpp:319
+#: kcm_add_layout_dialog.cpp:141 kcm_view_models.cpp:311
 #, kde-format
 msgctxt "variant"
 msgid "Default"
-msgstr "Numatytoji"
+msgstr "Numatytasis"
 
 #. i18n: ectx: property (windowTitle), widget (QDialog, AddLayoutDialog)
 #: kcm_add_layout_dialog.ui:14
@@ -85,7 +85,7 @@ msgstr "Išdėstymas:"
 #: kcm_add_layout_dialog.ui:47
 #, kde-format
 msgid "Shortcut:"
-msgstr "Klavišų derinys:"
+msgstr "Spartusis klavišas:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: kcm_add_layout_dialog.ui:54
@@ -120,7 +120,7 @@ msgstr "KDE Klaviatūros valdymo modulis"
 #: kcm_keyboard.cpp:50
 #, kde-format
 msgid "(c) 2010 Andriy Rysin"
-msgstr "Autorinės teisės (c) 2010 Andriy Rysin"
+msgstr "Autorių teisės (c) 2010 Andriy Rysin"
 
 #: kcm_keyboard.cpp:53
 #, kde-format
@@ -129,7 +129,7 @@ msgid ""
 "parameters and layouts."
 msgstr ""
 "<h1>Klaviatūra</h1> Šio valdymo modulio pagalba galima konfigūruoti "
-"klaviatūros parametrus ir išdėliojimus."
+"klaviatūros parametrus ir išdėstymus."
 
 #. i18n: ectx: attribute (title), widget (QWidget, tabHardware)
 #: kcm_keyboard.ui:18
@@ -154,11 +154,12 @@ msgid ""
 "is probably what you want if you do not know what kind of keyboard you "
 "have.\n"
 msgstr ""
-"Čia galite parinkti klaviatūros modelį. Ši nuostata nepriklausoma nuo jūsų "
-"klaviatūros išdėstymo. Ji tiesiog nurodo klaviatūros įrangos modelį, t.y. "
-"gamintojo nurodomą tipą. Šiuolaikinėse klaviatūrose dažniausiai pridėti du "
-"papildomi klavišai, todėl jos vadinamos „104 klavišų“ modeliais. Būtent šitą "
-"modelį galite pasirinkti, jei nežinote tikslaus savo klaviatūros modelio.\n"
+"Čia galite pasirinkti klaviatūros modelį. Ši nuostata yra nepriklausomas nuo "
+"jūsų klaviatūros išdėstymo. Jis tiesiog nurodo klaviatūros \"aparatinės "
+"įrangos\" modelį, t.y. gamintojo nurodomą tipą. Šiuolaikinėse klaviatūrose, "
+"dažniausiai, yra pridėti du papildomi klavišai, todėl jos vadinamos „104 "
+"klavišų“ modeliais. Būtent šį modelį ir galite pasirinkti, jei nežinote "
+"tikslaus savo klaviatūros modelio.\n"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tabLayouts)
 #: kcm_keyboard.ui:94
@@ -200,7 +201,7 @@ msgstr "Rodyti pavadinimą"
 #: kcm_keyboard.ui:136
 #, kde-format
 msgid "Show label on flag"
-msgstr "Rodyti pavadinimą ant vėliavų"
+msgstr "Rodyti pavadinimą ant vėliavos"
 
 #. i18n: ectx: property (whatsThis), widget (QGroupBox, switchingPolicyGroupBox)
 #: kcm_keyboard.ui:146
@@ -209,14 +210,14 @@ msgid ""
 "If you select \"Application\" or \"Window\" switching policy, changing the "
 "keyboard layout will only affect the current application or window."
 msgstr ""
-"Jei pasirenkate perjungimo variantą „Programoje“ arba „Lange“, klaviatūros "
-"išdėstymo keitimas veiks tik dabartinėje programoje ar lange."
+"Jei pasirenkate perjungimo politiką „Programoje“ arba „Lange“, klaviatūros "
+"išdėstymo keitimas veiks tik esamoje programoje ar esamame lange."
 
 #. i18n: ectx: property (title), widget (QGroupBox, switchingPolicyGroupBox)
 #: kcm_keyboard.ui:149
 #, kde-format
 msgid "Switching Policy"
-msgstr "Perjungimo taisyklė"
+msgstr "Perjungimo politika"
 
 #. i18n: ectx: property (text), widget (QRadioButton, switchByGlobalRadioBtn)
 #: kcm_keyboard.ui:155
@@ -261,8 +262,8 @@ msgid ""
 "This is a shortcut for switching layouts which is handled by X.org. It "
 "allows modifier-only shortcuts."
 msgstr ""
-"Tai X.org valdomas išdėstymo perjungimo spartusis klavišas. Čia galima "
-"naudoti sparčiuosius klavišus vien iš modikuojančių klavišų."
+"Tai yra X.org valdomas išdėstymo perjungimo spartusis klavišas. Čia galima "
+"naudoti sparčiuosius klavišus vien iš modifikavimo klavišų."
 
 #. i18n: ectx: property (text), widget (QPushButton, xkbGrpShortcutBtn)
 #. i18n: ectx: property (text), widget (QPushButton, xkb3rdLevelShortcutBtn)
@@ -292,8 +293,9 @@ msgid ""
 "This is a shortcut for switching to a third level of the active layout (if "
 "it has one) which is handled by X.org. It allows modifier-only shortcuts."
 msgstr ""
-"Tai X.org valdomas spartusis klavišas, naudojamas perjungimui į trečiąjį "
-"išdėstymo lygmenį (jei toks yra). Čia galimi vien modifikuojantys klavišai."
+"Tai yra X.org valdomas spartusis klavišas, naudojamas perjungimui į trečiąjį "
+"išdėstymo lygmenį (jei toks yra). Čia galima naudoti sparčiuosius klavišus "
+"vien iš modifikavimo klavišų."
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: kcm_keyboard.ui:267
@@ -303,20 +305,16 @@ msgstr "Alternatyvus spartusis klavišas:"
 
 #. i18n: ectx: property (whatsThis), widget (KKeySequenceWidget, kdeKeySequence)
 #: kcm_keyboard.ui:280
-#, fuzzy, kde-format
-#| msgid ""
-#| "This is a shortcut for switching layouts which is handled by KDE. It does "
-#| "not support modifier-only shortcuts and also may not work in some "
-#| "situations (e.g. if popup is active or from screensaver)."
+#, kde-format
 msgid ""
 "This is a shortcut for switching layouts. It does not support modifier-only "
 "shortcuts and also may not work in some situations (e.g. if popup is active "
 "or from screensaver)."
 msgstr ""
-"Tai KDE valdomas išdėstymo perjungimo spartusis klavišas. Čia negalima "
-"naudoti vien iš modifikuojančių klavišų sudarytus sparčiuosius klavišus. Jis "
-"taipogi neveiks kai kuriose situacijose (pavyzdžiui esant aktyviam "
-"iššokančiam langui arba ekrano užsklandoje)."
+"Tai yra išdėstymo perjungimo spartusis klavišas. Čia negalima naudoti vien "
+"iš modifikavimo klavišų sudarytus sparčiuosius klavišus. Jis taipogi neveiks "
+"kai kuriose situacijose (pavyzdžiui esant aktyviam iškylančiajam langui arba "
+"ekrano užsklandoje)."
 
 #. i18n: ectx: property (title), widget (QGroupBox, layoutsGroupBox)
 #: kcm_keyboard.ui:298
@@ -334,19 +332,19 @@ msgstr "Pridėti"
 #: kcm_keyboard.ui:322
 #, kde-format
 msgid "Remove"
-msgstr "Pašalinti"
+msgstr "Šalinti"
 
 #. i18n: ectx: property (text), widget (QPushButton, moveUpBtn)
 #: kcm_keyboard.ui:332
 #, kde-format
 msgid "Move Up"
-msgstr "Aukštyn"
+msgstr "Pakelti"
 
 #. i18n: ectx: property (text), widget (QPushButton, moveDownBtn)
 #: kcm_keyboard.ui:342
 #, kde-format
 msgid "Move Down"
-msgstr "Žemyn"
+msgstr "Nuleisti"
 
 #. i18n: ectx: property (text), widget (QCheckBox, layoutLoopingCheckBox)
 #: kcm_keyboard.ui:387
@@ -364,7 +362,7 @@ msgstr "Pagrindinių išdėstymų skaičius:"
 #: kcm_keyboard.ui:449
 #, kde-format
 msgid "Advanced"
-msgstr "Išsamiau"
+msgstr "Sudėtingesni"
 
 #. i18n: ectx: property (text), widget (QCheckBox, configureKeyboardOptionsChk)
 #: kcm_keyboard.ui:455
@@ -376,7 +374,7 @@ msgstr "&Konfigūruoti klaviatūros parinktis"
 #, kde-format
 msgctxt "unknown keyboard model vendor"
 msgid "Unknown"
-msgstr "Nežinoma"
+msgstr "Nežinomas"
 
 #: kcm_keyboard_widget.cpp:218
 #, kde-format
@@ -403,37 +401,37 @@ msgstr "Nėra"
 #, kde-format
 msgid "%1 shortcut"
 msgid_plural "%1 shortcuts"
-msgstr[0] "%1 klavišų kombinacija"
-msgstr[1] "%1 klavišų kombinacijos"
-msgstr[2] "%1 klavišų kombinacijų"
-msgstr[3] "%1 klavišų kombinacija"
+msgstr[0] "%1 spartusis klavišas"
+msgstr[1] "%1 spartieji klavišai"
+msgstr[2] "%1 sparčiųjų klavišų"
+msgstr[3] "%1 spartusis klavišas"
 
 # Pavadinimas stulpelio, kuriame yra išdėstymų trumpiniai "lt", "us", "de" ir t.t.
-#: kcm_view_models.cpp:226
+#: kcm_view_models.cpp:220
 #, kde-format
 msgctxt "layout map name"
 msgid "Map"
-msgstr "Trumpinys"
+msgstr "Schema"
 
-#: kcm_view_models.cpp:226
+#: kcm_view_models.cpp:220
 #, kde-format
 msgid "Layout"
 msgstr "Išdėstymas"
 
-#: kcm_view_models.cpp:226
+#: kcm_view_models.cpp:220
 #, kde-format
 msgid "Variant"
-msgstr "Variantai"
+msgstr "Variantas"
 
-#: kcm_view_models.cpp:226
+#: kcm_view_models.cpp:220
 #, kde-format
 msgid "Label"
-msgstr "Etiketė"
+msgstr "Pavadinimas"
 
-#: kcm_view_models.cpp:226
+#: kcm_view_models.cpp:220
 #, kde-format
 msgid "Shortcut"
-msgstr "Klavišų derinys"
+msgstr "Spartusis klavišas"
 
 #. i18n: ectx: property (whatsThis), widget (QGroupBox, numlockGroupBox)
 #: kcmmiscwidget.ui:17
@@ -443,15 +441,16 @@ msgid ""
 "Plasma startup.<p>You can configure NumLock to be turned on or off, or "
 "configure Plasma not to set NumLock state."
 msgstr ""
-"Jei palaikoma, ši parinktis leidžia nustatyti skaičių klaviatūros būseną po "
-"KDE paleidimo.<p>Galite nustatyti, kad skaičių klaviatūra būtų įjungta arba "
-"išjungta, arba nustatyti, kad KDE nekeistų skaičių klaviatūros būsenos."
+"Jei palaikoma, ši parinktis leidžia nustatyti skaitmenų klaviatūros būseną "
+"po Plasma paleidimo.<p>Galite nustatyti, kad skaitmenų klaviatūra būtų "
+"įjungta arba išjungta, arba nustatyti, kad Plasma nekeistų skaitmenų "
+"klaviatūros būsenos."
 
 #. i18n: ectx: property (title), widget (QGroupBox, numlockGroupBox)
 #: kcmmiscwidget.ui:20
 #, kde-format
 msgid "NumLock on Plasma Startup"
-msgstr "Skaičių klaviatūra paleidžiant KDE Plasma"
+msgstr "Skaitmenų klaviatūros būsena paleidžiant KDE Plasma"
 
 #. i18n: ectx: property (text), widget (QRadioButton, radioButton1)
 #. i18n: ectx: property (text), widget (QRadioButton, keyboardRepeatOnRadioButton)
@@ -476,7 +475,7 @@ msgstr "&Nekeisti"
 #: kcmmiscwidget.ui:59
 #, kde-format
 msgid "Keyboard Repeat"
-msgstr "Klavišo pakartojimas"
+msgstr "Klavišo kartojimas"
 
 #. i18n: ectx: property (text), widget (QRadioButton, keyboardRepeatOffRadioButton)
 #: kcmmiscwidget.ui:78
@@ -494,7 +493,7 @@ msgstr "&Nekeisti"
 #: kcmmiscwidget.ui:123
 #, kde-format
 msgid "&Delay:"
-msgstr "&Pauzė:"
+msgstr "&Delsa:"
 
 #. i18n: ectx: property (whatsThis), widget (QSlider, delaySlider)
 #. i18n: ectx: property (whatsThis), widget (QSpinBox, delay)
@@ -505,7 +504,7 @@ msgid ""
 "key will start generating keycodes. The 'Repeat rate' option controls the "
 "frequency of these keycodes."
 msgstr ""
-"Jei palaikoma, ši parinktis leidžia nustatyti pauzę, po kurios paspaustas "
+"Jei palaikoma, ši parinktis leidžia nustatyti delsą, po kurios nuspaustas "
 "klavišas pradės generuoti simbolius. Kartojimo spartos parinktis nustato, "
 "kokiu dažniu bus generuojami simboliai."
 
@@ -529,14 +528,14 @@ msgid ""
 "If supported, this option allows you to set the rate at which keycodes are "
 "generated while a key is pressed."
 msgstr ""
-" Jei palaikoma, ši parinktis leidžia nustatyti spartą, kuria generuojami "
+"Jei palaikoma, ši parinktis leidžia nustatyti spartą, kuria generuojami "
 "simboliai nuspaudus klavišą."
 
 #. i18n: ectx: property (suffix), widget (QDoubleSpinBox, rate)
 #: kcmmiscwidget.ui:218
 #, kde-format
 msgid " repeats/s"
-msgstr " pakartojimai/sek"
+msgstr " kartojimų/sek."
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: kcmmiscwidget.ui:236
@@ -551,8 +550,8 @@ msgid ""
 "Allows to test keyboard repeat and click volume (just don't forget to apply "
 "the changes)."
 msgstr ""
-"Leidžia išbandyti klaviatūros pakartojimą ir paspaudimo garsą (nepamirškite "
-"pritaikyti pakeitimus)."
+"Leidžia išbandyti klaviatūros kartojimus ir paspaudimų garsumą (tik "
+"nepamirškite pritaikyti pakeitimus)."
 
 #: layout_tray_icon.cpp:46 layout_tray_icon.cpp:47
 #, kde-format

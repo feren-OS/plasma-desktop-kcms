@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmcomponentchooser\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"POT-Creation-Date: 2019-09-18 03:38+0200\n"
 "PO-Revision-Date: 2009-05-18 20:46+0300\n"
 "Last-Translator: Viesturs Zariņš <viesturs.zarins@mii.lu.lv>\n"
 "Language-Team: Latvian <locale@laka.lv>\n"
@@ -68,12 +68,12 @@ msgstr "šajā pārlūkā:"
 msgid "..."
 msgstr "..."
 
-#: componentchooser.cpp:134
+#: componentchooser.cpp:133
 #, kde-format
 msgid "Unknown"
 msgstr "Nezināms"
 
-#: componentchooser.cpp:151
+#: componentchooser.cpp:150
 #, kde-format
 msgid ""
 "Choose from the list below which component should be used by default for the "
@@ -81,7 +81,7 @@ msgid ""
 msgstr ""
 "No zemāk esošā saraksta izvēlies, kuru komponenti izmantot %1 servisam."
 
-#: componentchooser.cpp:183
+#: componentchooser.cpp:182
 #, kde-format
 msgid ""
 "<qt>You changed the default component of your choice, do want to save that "
@@ -90,7 +90,7 @@ msgstr ""
 "<qt>Jūs izmainījāt noklusēto vēlamo komponenti, vai tagad vēlaties saglabāt "
 "izmaiņas?</qt>"
 
-#: componentchooser.cpp:188
+#: componentchooser.cpp:187
 #, kde-format
 msgid "No description available"
 msgstr "Apraksta nav"
@@ -155,7 +155,7 @@ msgstr "Izvēlieties vēlamo tīmekļa pārlūku:"
 msgid "Select preferred email client:"
 msgstr "Izvēlieties vēlamo e-pasta klientu:"
 
-#: componentchooserterminal.cpp:104
+#: componentchooserterminal.cpp:102
 #, kde-format
 msgid "Select preferred terminal application:"
 msgstr "Izvēlies vēlamo termināļa programmu:"

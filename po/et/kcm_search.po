@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"POT-Creation-Date: 2019-05-23 03:23+0200\n"
 "PO-Revision-Date: 2016-01-10 09:28+0200\n"
 "Last-Translator: Marek Laane <qiilaq69@gmail.com>\n"
 "Language-Team: Estonian <kde-i18n-doc@kde.org>\n"
@@ -40,10 +40,9 @@ msgid "Vishesh Handa"
 msgstr "Vishesh Handa"
 
 #: kcm.cpp:59
-#, fuzzy, kde-format
-#| msgid "Select the search plugins"
-msgid "Select the search plugins:"
-msgstr "Otsingupluginate valimine"
+#, kde-format
+msgid "Enable or disable KRunner plugins:"
+msgstr ""
 
 #: kcm.cpp:61
 #, kde-format

@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-desktop\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-30 07:24+0200\n"
-"PO-Revision-Date: 2019-05-11 06:15+0200\n"
+"POT-Creation-Date: 2019-09-09 03:17+0200\n"
+"PO-Revision-Date: 2019-08-15 06:35+0200\n"
 "Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
 "Language-Team: Polish <kde-i18n-doc@kde.org>\n"
 "Language: pl\n"
@@ -49,13 +49,12 @@ msgid "Show popups"
 msgstr "Pokaż okna wysuwne"
 
 #: package/contents/ui/ApplicationConfiguration.qml:105
-#: package/contents/ui/main.qml:51
 #, kde-format
 msgid "Show in do not disturb mode"
 msgstr "Pokaż w trybie nie-przeszkadzać"
 
 #: package/contents/ui/ApplicationConfiguration.qml:113
-#: package/contents/ui/main.qml:70
+#: package/contents/ui/main.qml:77
 #, kde-format
 msgid "Show in history"
 msgstr "Pokaż w historii"
@@ -84,41 +83,57 @@ msgstr "Ten moduł umożliwia zarządzanie powiadomieniami programu i systemu."
 
 #: package/contents/ui/main.qml:50
 #, kde-format
+msgid "Do not disturb:"
+msgstr "Nie przeszkadzać:"
+
+#: package/contents/ui/main.qml:51
+#, kde-format
+msgctxt "Do not disturb when screens are mirrored"
+msgid "When screens are mirrored"
+msgstr "Gdy ekrany są lustrzanie odbite"
+
+#: package/contents/ui/main.qml:57
+#, kde-format
+msgid "Show critical notifications"
+msgstr "Pokaż krytyczne powiadomienia"
+
+#: package/contents/ui/main.qml:63
+#, kde-format
 msgid "Critical notifications:"
 msgstr "Krytyczne powiadomienia:"
 
-#: package/contents/ui/main.qml:57
+#: package/contents/ui/main.qml:64
 #, kde-format
 msgid "Always keep on top"
 msgstr "Zawsze na wierzchu"
 
-#: package/contents/ui/main.qml:63
+#: package/contents/ui/main.qml:70
 #, kde-format
 msgid "Low priority notifications:"
 msgstr "Powiadomienia o niskiej ważności:"
 
-#: package/contents/ui/main.qml:64
+#: package/contents/ui/main.qml:71
 #, kde-format
 msgid "Show popup"
 msgstr "Pokaż okno wysuwane"
 
-#: package/contents/ui/main.qml:82
+#: package/contents/ui/main.qml:89
 #, kde-format
 msgid "Popup position:"
 msgstr "Miejsce okna wysuwnego:"
 
-#: package/contents/ui/main.qml:83
+#: package/contents/ui/main.qml:90
 #, kde-format
 msgctxt "Popup position near notification plasmoid"
 msgid "Near the notification icon"
 msgstr "Obok ikony powiadomień"
 
-#: package/contents/ui/main.qml:102
+#: package/contents/ui/main.qml:109
 #, kde-format
 msgid "Choose Custom Position..."
 msgstr "Wybierz własne miejsce..."
 
-#: package/contents/ui/main.qml:111 package/contents/ui/main.qml:127
+#: package/contents/ui/main.qml:118 package/contents/ui/main.qml:134
 #, kde-format
 msgid "%1 second"
 msgid_plural "%1 seconds"
@@ -126,44 +141,44 @@ msgstr[0] "%1 sekunda"
 msgstr[1] "%1 sekundy"
 msgstr[2] "%1 sekund"
 
-#: package/contents/ui/main.qml:116
+#: package/contents/ui/main.qml:123
 #, kde-format
 msgid "Hide popup after:"
 msgstr "Ukryj okno wysuwne po:"
 
-#: package/contents/ui/main.qml:137
+#: package/contents/ui/main.qml:144
 #, kde-format
 msgid "Application progress:"
 msgstr "Postęp programu:"
 
-#: package/contents/ui/main.qml:138 package/contents/ui/main.qml:163
+#: package/contents/ui/main.qml:145 package/contents/ui/main.qml:170
 #, kde-format
 msgid "Show in task manager"
 msgstr "Pokaż w zarządzaniu zadaniami"
 
-#: package/contents/ui/main.qml:145
+#: package/contents/ui/main.qml:152
 #, kde-format
 msgctxt "Show application jobs in notification widget"
 msgid "Show in notifications"
 msgstr "Pokaż w powiadomieniach"
 
-#: package/contents/ui/main.qml:154
+#: package/contents/ui/main.qml:161
 #, kde-format
 msgctxt "Keep application job popup open for entire duration of job"
 msgid "Keep popup open during progress"
 msgstr "Miej okno wysuwne otwarte podczas pokazywania postępu"
 
-#: package/contents/ui/main.qml:162
+#: package/contents/ui/main.qml:169
 #, kde-format
 msgid "Notification badges:"
 msgstr "Odznaki powiadomień:"
 
-#: package/contents/ui/main.qml:173
+#: package/contents/ui/main.qml:180
 #, kde-format
 msgid "Applications:"
 msgstr "Programy:"
 
-#: package/contents/ui/main.qml:174
+#: package/contents/ui/main.qml:181
 #, kde-format
 msgid "Configure..."
 msgstr "Ustawienia..."
@@ -188,12 +203,12 @@ msgstr "Programy"
 msgid "System Services"
 msgstr "Usługi systemowe"
 
-#: package/contents/ui/SourcesPage.qml:189
+#: package/contents/ui/SourcesPage.qml:177
 #, kde-format
 msgid "No application or event matches your search term."
 msgstr "Żaden program lub zdarzenie nie pasuje do wyrażenia wyszukiwania."
 
-#: package/contents/ui/SourcesPage.qml:218
+#: package/contents/ui/SourcesPage.qml:206
 #, kde-format
 msgid ""
 "Select an application from the list to configure its notification settings "

@@ -8,9 +8,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaccess\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
-"PO-Revision-Date: 2017-06-25 00:57+0200\n"
-"Last-Translator: Mindaugas Baranauskas <opensuse.lietuviu.kalba@gmail.com>\n"
+"POT-Creation-Date: 2019-05-29 03:32+0200\n"
+"PO-Revision-Date: 2019-07-26 14:54+0300\n"
+"Last-Translator: Moo\n"
 "Language-Team: Lithuanian <kde-i18n-lt@kde.org>\n"
 "Language: lt\n"
 "MIME-Version: 1.0\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : n%10>=2 && (n%100<10 || n"
 "%100>=20) ? 1 : n%10==0 || (n%100>10 && n%100<20) ? 2 : 3);\n"
-"X-Generator: Lokalize 2.0\n"
+"X-Generator: Poedit 2.0.6\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -55,18 +55,18 @@ msgid ""
 "The Control key has been locked and is now active for all of the following "
 "keypresses."
 msgstr ""
-"Ctrl klavišas buvo užrakintas ir dabar yra aktyvus visiems būsimiems klavišų "
+"Vald klavišas buvo užrakintas ir dabar yra aktyvus visiems būsimiems klavišų "
 "paspaudimams."
 
 #: kaccess.cpp:84
 #, kde-format
 msgid "The Control key is now active."
-msgstr "Ctrl klavišas dabar yra aktyvus."
+msgstr "Vald klavišas dabar yra aktyvus."
 
 #: kaccess.cpp:85
 #, kde-format
 msgid "The Control key is now inactive."
-msgstr "Ctrl klavišas dabar yra neaktyvus."
+msgstr "Vald klavišas dabar yra neaktyvus."
 
 #: kaccess.cpp:89
 #, kde-format
@@ -246,7 +246,7 @@ msgstr "Meta"
 #: kaccess.cpp:671
 #, kde-format
 msgid "Warning"
-msgstr "Dėmesio"
+msgstr "Įspėjimas"
 
 #: kaccess.cpp:699
 #, kde-format
@@ -256,7 +256,7 @@ msgstr "&Kada buvo naudojamas gestas:"
 #: kaccess.cpp:705
 #, kde-format
 msgid "Change Settings Without Asking"
-msgstr "Keisti nustatymus neklausiant"
+msgstr "Keisti nuostatas neklausiant"
 
 #: kaccess.cpp:706
 #, kde-format
@@ -271,17 +271,17 @@ msgstr "Panaikinti visų AccessX ir gestų aktyvavimą"
 #: kaccess.cpp:753 kaccess.cpp:755
 #, kde-format
 msgid "Slow keys"
-msgstr "Lėti klavišai"
+msgstr "Lėtieji klavišai"
 
 #: kaccess.cpp:758 kaccess.cpp:760
 #, kde-format
 msgid "Bounce keys"
-msgstr "Tamprūs klavišai"
+msgstr "Pasikartojantys klavišai"
 
 #: kaccess.cpp:763 kaccess.cpp:765
 #, kde-format
 msgid "Sticky keys"
-msgstr "Lipnūs klavišai"
+msgstr "Atmenieji klavišai"
 
 #: kaccess.cpp:768 kaccess.cpp:770
 #, kde-format
@@ -374,7 +374,7 @@ msgstr "Ar tikrai norite aktyvuoti „%1“, „%2“ „%3“ ir „%4“?"
 #: kaccess.cpp:840
 #, kde-format
 msgid "An application has requested to change this setting."
-msgstr "Programa pateikė prašymą pakeisti šį nustatymą."
+msgstr "Programa pateikė prašymą pakeisti šią nuostatą."
 
 #: kaccess.cpp:844
 #, kde-format
@@ -382,8 +382,8 @@ msgid ""
 "You held down the Shift key for 8 seconds or an application has requested to "
 "change this setting."
 msgstr ""
-"Arba Jūs laikėte nuspaudę Lyg2 klavišą 8 sekundes, arba programa pati "
-"paprašė pakeisti šį nustatymą."
+"Arba jūs laikėte nuspaudę Lyg2 klavišą 8 sekundes, arba programa pati "
+"paprašė pakeisti šią nuostatą."
 
 #: kaccess.cpp:846
 #, kde-format
@@ -391,13 +391,13 @@ msgid ""
 "You pressed the Shift key 5 consecutive times or an application has "
 "requested to change this setting."
 msgstr ""
-"Arba Jūs nuspaudėte Lyg2 klavišą 5 kartus iš eilės, arba programa pati "
-"paprašė pakeisti šį nustatymą."
+"Arba jūs nuspaudėte Lyg2 klavišą 5 kartus iš eilės, arba programa pati "
+"paprašė pakeisti šią nuostatą."
 
 #: kaccess.cpp:850
 #, kde-format
 msgid "You pressed %1 or an application has requested to change this setting."
-msgstr "Jūs nuspaudėte %1 arba programa pati paprašė pakeisti šį nustatymą."
+msgstr "Jūs paspaudėte %1 arba programa pati paprašė pakeisti šią nuostatą."
 
 #: kaccess.cpp:855
 #, kde-format
@@ -405,7 +405,7 @@ msgid ""
 "An application has requested to change these settings, or you used a "
 "combination of several keyboard gestures."
 msgstr ""
-"Programa paprašė pakeisti šias nuostatas, arba Jūs panaudojote keleto "
+"Programa paprašė pakeisti šias nuostatas, arba jūs panaudojote keleto "
 "klaviatūros gestų kombinaciją."
 
 #: kaccess.cpp:857
@@ -425,9 +425,9 @@ msgid ""
 msgstr ""
 "Šios AccessX nuostatos reikalingos kai kuriems naudotojams su judesio "
 "sutrikimais, jos gali būti konfigūruojamos KDE sistemos nuostatose. Jūs taip "
-"pat galite juos įjungti ar išjungti nustatytais klaviatūros gestais.\n"
+"pat galite jas įjungti ar išjungti nustatytais klaviatūros gestais.\n"
 "\n"
-"Jei jie jums nereikalingi, galite juos išjungti pažymėdami parinktį "
+"Jeigu jos jums nereikalingos, galite jas išjungti pažymėdami parinktį "
 "„Panaikinti visų AccessX ir gestų aktyvavimą“."
 
 #: kaccess.cpp:880
@@ -436,13 +436,13 @@ msgid ""
 "Slow keys has been enabled. From now on, you need to press each key for a "
 "certain length of time before it gets accepted."
 msgstr ""
-"Lėti klavišai įgalinti. Nuo dabar norėdami, kad kiekvienas klavišas "
-"suveiktų, turėsite jį palaikyti nuspaudę tam tikrą laiką."
+"Lėtieji klavišai įjungti. Nuo dabar, norėdami, kad klavišas suveiktų, "
+"turėsite jį palaikyti nuspaudę tam tikrą laiką."
 
 #: kaccess.cpp:882
 #, kde-format
 msgid "Slow keys has been disabled."
-msgstr "Lėti klavišai išjungti."
+msgstr "Lėtieji klavišai išjungti."
 
 #: kaccess.cpp:885
 #, kde-format
@@ -450,13 +450,13 @@ msgid ""
 "Bounce keys has been enabled. From now on, each key will be blocked for a "
 "certain length of time after it was used."
 msgstr ""
-"Klavišų pasikartojimo kontrolė įjungta. Nuo dabar kiekvienas klavišas bus "
-"blokuojamas tam tikrą laiko tarpą po to, kai bus nuspaustas."
+"Pasikartojantys klavišai įjungti. Nuo dabar, panaudojus klavišą, jis tam "
+"tikrą laiką bus blokuojamas."
 
 #: kaccess.cpp:887
 #, kde-format
 msgid "Bounce keys has been disabled."
-msgstr "Klavišų pasikartojimo kontrolė išjungta."
+msgstr "Pasikartojantys klavišai išjungti."
 
 #: kaccess.cpp:890
 #, kde-format
@@ -464,13 +464,13 @@ msgid ""
 "Sticky keys has been enabled. From now on, modifier keys will stay latched "
 "after you have released them."
 msgstr ""
-"Lipnūs klavišai įjungti. Nuo dabar modifikuojantys klavišai bus laikomi "
+"Atmenieji klavišai įjungti. Nuo dabar, modifikavimo klavišai bus laikomi "
 "nuspaustais net ir juos atleidus."
 
 #: kaccess.cpp:892
 #, kde-format
 msgid "Sticky keys has been disabled."
-msgstr "Lipnūs klavišai išjungti."
+msgstr "Atmenieji klavišai išjungti."
 
 #: kaccess.cpp:895
 #, kde-format
@@ -478,30 +478,30 @@ msgid ""
 "Mouse keys has been enabled. From now on, you can use the number pad of your "
 "keyboard in order to control the mouse."
 msgstr ""
-"Pelės klavišai įgalinti. Dabar galite naudoti klaviatūros skaitinius "
-"klavišus pelės judesiams valdyti."
+"Pelės klavišai įjungti. Dabar, pelės valdymui galite naudoti skaitmeninę "
+"klaviatūrą."
 
 #: kaccess.cpp:897
 #, kde-format
 msgid "Mouse keys has been disabled."
 msgstr "Pelės klavišai išjungti."
 
-#: main.cpp:55
+#: main.cpp:54
 #, kde-format
 msgid "KDE Accessibility Tool"
-msgstr "KDE prieinamumo priemonė"
+msgstr "KDE prieinamumo įrankis"
 
-#: main.cpp:57
+#: main.cpp:56
 #, kde-format
 msgid "(c) 2000, Matthias Hoelzer-Kluepfel"
 msgstr "(c) 2000, Matthias Hoelzer-Kluepfel"
 
-#: main.cpp:59
+#: main.cpp:58
 #, kde-format
 msgid "Matthias Hoelzer-Kluepfel"
 msgstr "Matthias Hoelzer-Kluepfel"
 
-#: main.cpp:59
+#: main.cpp:58
 #, kde-format
 msgid "Author"
 msgstr "Autorius"

@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-desktop\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-30 07:24+0200\n"
-"PO-Revision-Date: 2019-07-19 03:20+0700\n"
+"POT-Creation-Date: 2019-09-09 03:17+0200\n"
+"PO-Revision-Date: 2019-08-16 05:48+0700\n"
 "Last-Translator: Wantoyo <wantoyek@gmail.com>\n"
 "Language-Team: Indonesian <kde-i18n-doc@kde.org>\n"
 "Language: id\n"
@@ -15,7 +15,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 19.04.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -48,13 +47,12 @@ msgid "Show popups"
 msgstr "Tampilkan sembulan"
 
 #: package/contents/ui/ApplicationConfiguration.qml:105
-#: package/contents/ui/main.qml:51
 #, kde-format
 msgid "Show in do not disturb mode"
 msgstr "Tampilkan dalam mode jangan mengganggu"
 
 #: package/contents/ui/ApplicationConfiguration.qml:113
-#: package/contents/ui/main.qml:70
+#: package/contents/ui/main.qml:77
 #, kde-format
 msgid "Show in history"
 msgstr "Tampilkan dalam histori"
@@ -84,85 +82,101 @@ msgstr "Modul ini membiarkan kamu mengelola aplikasi dan notifikasi sistem."
 
 #: package/contents/ui/main.qml:50
 #, kde-format
+msgid "Do not disturb:"
+msgstr "Jangan ganggu:"
+
+#: package/contents/ui/main.qml:51
+#, kde-format
+msgctxt "Do not disturb when screens are mirrored"
+msgid "When screens are mirrored"
+msgstr "Ketika layar sedang dicerminkan"
+
+#: package/contents/ui/main.qml:57
+#, kde-format
+msgid "Show critical notifications"
+msgstr "Tampilkan notifikasi kritis"
+
+#: package/contents/ui/main.qml:63
+#, kde-format
 msgid "Critical notifications:"
 msgstr "Notifikasi kritis"
 
-#: package/contents/ui/main.qml:57
+#: package/contents/ui/main.qml:64
 #, kde-format
 msgid "Always keep on top"
 msgstr "Selalu tetap di atas"
 
-#: package/contents/ui/main.qml:63
+#: package/contents/ui/main.qml:70
 #, kde-format
 msgid "Low priority notifications:"
 msgstr "Notifikasi prioritas rendah:"
 
-#: package/contents/ui/main.qml:64
+#: package/contents/ui/main.qml:71
 #, kde-format
 msgid "Show popup"
 msgstr "Tampilkan sembulan"
 
-#: package/contents/ui/main.qml:82
+#: package/contents/ui/main.qml:89
 #, kde-format
 msgid "Popup position:"
 msgstr "Posisi sembulan:"
 
-#: package/contents/ui/main.qml:83
+#: package/contents/ui/main.qml:90
 #, kde-format
 msgctxt "Popup position near notification plasmoid"
 msgid "Near the notification icon"
 msgstr "Dekat ikon notifikasi"
 
-#: package/contents/ui/main.qml:102
+#: package/contents/ui/main.qml:109
 #, kde-format
 msgid "Choose Custom Position..."
 msgstr "Memilih Posisi Kustom..."
 
-#: package/contents/ui/main.qml:111 package/contents/ui/main.qml:127
+#: package/contents/ui/main.qml:118 package/contents/ui/main.qml:134
 #, kde-format
 msgid "%1 second"
 msgid_plural "%1 seconds"
 msgstr[0] "%1 detik"
 msgstr[1] "%1 detik"
 
-#: package/contents/ui/main.qml:116
+#: package/contents/ui/main.qml:123
 #, kde-format
 msgid "Hide popup after:"
 msgstr "Sembunyikan sembulan setelah:"
 
-#: package/contents/ui/main.qml:137
+#: package/contents/ui/main.qml:144
 #, kde-format
 msgid "Application progress:"
 msgstr "Progres aplikasi:"
 
-#: package/contents/ui/main.qml:138 package/contents/ui/main.qml:163
+#: package/contents/ui/main.qml:145 package/contents/ui/main.qml:170
 #, kde-format
 msgid "Show in task manager"
 msgstr "Tampilkan dalam pengelola tugas"
 
-#: package/contents/ui/main.qml:145
+#: package/contents/ui/main.qml:152
 #, kde-format
 msgctxt "Show application jobs in notification widget"
 msgid "Show in notifications"
 msgstr "Tampilkan di dalam notifikasi"
 
-#: package/contents/ui/main.qml:154
+#: package/contents/ui/main.qml:161
 #, kde-format
 msgctxt "Keep application job popup open for entire duration of job"
 msgid "Keep popup open during progress"
 msgstr "Jaga sembulan terbuka selagi progres"
 
-#: package/contents/ui/main.qml:162
+#: package/contents/ui/main.qml:169
 #, kde-format
 msgid "Notification badges:"
 msgstr "Lencana notifikasi:"
 
-#: package/contents/ui/main.qml:173
+#: package/contents/ui/main.qml:180
 #, kde-format
 msgid "Applications:"
 msgstr "Aplikasi:"
 
-#: package/contents/ui/main.qml:174
+#: package/contents/ui/main.qml:181
 #, kde-format
 msgid "Configure..."
 msgstr "Konfigurasikan..."
@@ -187,13 +201,13 @@ msgstr "Aplikasi"
 msgid "System Services"
 msgstr "Layanan Sistem"
 
-#: package/contents/ui/SourcesPage.qml:189
+#: package/contents/ui/SourcesPage.qml:177
 #, kde-format
 msgid "No application or event matches your search term."
 msgstr ""
 "Tidak ada aplikasi atau peristiwa yang cocok dengan istilah yang kamu cari."
 
-#: package/contents/ui/SourcesPage.qml:218
+#: package/contents/ui/SourcesPage.qml:206
 #, kde-format
 msgid ""
 "Select an application from the list to configure its notification settings "

@@ -12,19 +12,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcm_emoticons\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
-"PO-Revision-Date: 2019-03-24 09:39+0100\n"
+"POT-Creation-Date: 2019-05-20 03:25+0200\n"
+"PO-Revision-Date: 2019-10-19 22:12+0200\n"
 "Last-Translator: Adrián Chaves (Gallaecio) <adrian@chaves.io>\n"
-"Language-Team: Galician <kde-i18n-doc@kde.org>\n"
+"Language-Team: Galician <proxecto@trasno.gal>\n"
 "Language: gl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 18.12.2\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Environment: kde\n"
-"X-Accelerator-Marker: &\n"
-"X-Text-Markup: kde4\n"
+"X-Generator: Lokalize 19.11.70\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -57,7 +54,7 @@ msgstr "Arrastre ou escriba o URL do tema de emoticonas"
 #: emoticonslist.cpp:259
 #, kde-format
 msgid "Emoticon themes must be installed from local files."
-msgstr "Os temas de emoticonas deben instalarse de ficheiros locais."
+msgstr "Os temas de emoticonas deben ser instalados de ficheiros locais."
 
 #: emoticonslist.cpp:260
 #, kde-format
@@ -114,7 +111,7 @@ msgstr "Xestor de emoticonas"
 #: emoticonslist.ui:26
 #, kde-format
 msgid "Install a theme archive file you already have locally"
-msgstr "Instalar un ficheiro de arquivo de tema que xa teña localmente"
+msgstr "Instala un ficheiro de arquivo de tema que xa teña en local"
 
 #. i18n: ectx: property (whatsThis), widget (QPushButton, btInstall)
 #: emoticonslist.ui:29
@@ -123,8 +120,8 @@ msgid ""
 "If you already have an emoticon theme archive locally, this button will "
 "unpack it and make it available for KDE applications"
 msgstr ""
-"Se xa ten localmente un arquivo de tema de emoticonas, este botón "
-"desempaquetarao e porao a disposición dos aplicativos de KDE."
+"Se xa ten en local un arquivo de tema de emoticonas, este botón "
+"desempaquetarao e porao a disposición das aplicacións de KDE"
 
 #. i18n: ectx: property (text), widget (QPushButton, btInstall)
 #: emoticonslist.ui:32

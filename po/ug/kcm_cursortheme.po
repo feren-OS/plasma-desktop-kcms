@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcminput\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"POT-Creation-Date: 2019-09-18 03:38+0200\n"
 "PO-Revision-Date: 2013-09-08 07:05+0900\n"
 "Last-Translator: Gheyret Kenji <gheyret@gmail.com>\n"
 "Language-Team: Uyghur Computer Science Association <UKIJ@yahoogroups.com>\n"
@@ -27,34 +27,34 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "sahran.ug@gmail.com,  gheyret@gmail.com"
 
-#: kcmcursortheme.cpp:74
+#: kcmcursortheme.cpp:73
 #, fuzzy, kde-format
 #| msgid "Cursor Theme"
 msgid "Cursors"
 msgstr "نۇربەلگە ئۆرنىكى"
 
-#: kcmcursortheme.cpp:75
+#: kcmcursortheme.cpp:74
 #, kde-format
 msgid "(c) 2003-2007 Fredrik Höglund"
 msgstr "(c) 2003-2007 Fredrik Höglund"
 
-#: kcmcursortheme.cpp:76
+#: kcmcursortheme.cpp:75
 #, kde-format
 msgid "Fredrik Höglund"
 msgstr "Fredrik Höglund"
 
-#: kcmcursortheme.cpp:77
+#: kcmcursortheme.cpp:76
 #, kde-format
 msgid "Marco Martin"
 msgstr ""
 
-#: kcmcursortheme.cpp:244
+#: kcmcursortheme.cpp:243
 #, kde-format
 msgctxt "@item:inlistbox size"
 msgid "Resolution dependent"
 msgstr ""
 
-#: kcmcursortheme.cpp:376
+#: kcmcursortheme.cpp:375
 #, fuzzy, kde-format
 #| msgid "You have to restart KDE for these changes to take effect."
 msgid ""
@@ -63,46 +63,46 @@ msgstr ""
 "بۇ ئۆزگىرىشلەرنىڭ كۈچكە ئىگە قىلماقچى بولسىڭىز KDE نى قايتا قوزغىتىشىڭىز "
 "كېرەك."
 
-#: kcmcursortheme.cpp:511
+#: kcmcursortheme.cpp:510
 #, kde-format
 msgid "Unable to create a temporary file."
 msgstr ""
 
-#: kcmcursortheme.cpp:523
+#: kcmcursortheme.cpp:522
 #, fuzzy, kde-format
 #| msgid "Unable to find the cursor theme archive %1."
 msgid "Unable to download the icon theme archive: %1"
 msgstr "نۇربەلگە ئۆرنەك ئارخىپى %1 تېپىلمىدى."
 
-#: kcmcursortheme.cpp:554
+#: kcmcursortheme.cpp:553
 #, fuzzy, kde-format
 #| msgid "The file %1 does not appear to be a valid cursor theme archive."
 msgid "The file is not a valid icon theme archive."
 msgstr "«%1» ئىناۋەتلىك نۇربەلگە ئۆرنەك  ئارخىپى ئەمەستەك تۇرىدۇ."
 
-#: kcmcursortheme.cpp:561
+#: kcmcursortheme.cpp:560
 #, kde-format
 msgid "Failed to create 'icons' folder."
 msgstr ""
 
-#: kcmcursortheme.cpp:569
+#: kcmcursortheme.cpp:568
 #, kde-format
 msgid ""
 "A theme named %1 already exists in your icon theme folder. Do you want "
 "replace it with this one?"
 msgstr "سىنبەلگە  ئۆرنەك قىسقۇچىدا %1 ئاتلىق ئۆرنەك مەۋجۇت. ئالماشتۇرامسىز؟"
 
-#: kcmcursortheme.cpp:573
+#: kcmcursortheme.cpp:572
 #, kde-format
 msgid "Overwrite Theme?"
 msgstr "ئۆرنەكنى قاپلامسىز؟"
 
-#: kcmcursortheme.cpp:599
+#: kcmcursortheme.cpp:598
 #, kde-format
 msgid "Theme installed successfully."
 msgstr ""
 
-#: kcmcursortheme.cpp:615
+#: kcmcursortheme.cpp:614
 #, kde-format
 msgid ""
 "<qt>You cannot delete the theme you are currently using.<br />You have to "
@@ -111,14 +111,14 @@ msgstr ""
 "<qt>نۆۋەتتە ئىشلىتىۋاتقان ئۆرنەكنى ئۆچۈرگىلى بولمايدۇ.<br />ئالدى بىلەن "
 "باشقا بىر ئۆرنەككە ئالمىشىشىڭىز كېرەك.</qt>"
 
-#: kcmcursortheme.cpp:621
+#: kcmcursortheme.cpp:620
 #, kde-format
 msgid ""
 "<qt>Are you sure you want to remove the <i>%1</i> cursor theme?<br />This "
 "will delete all the files installed by this theme.</qt>"
 msgstr ""
 
-#: kcmcursortheme.cpp:627
+#: kcmcursortheme.cpp:626
 #, kde-format
 msgid "Confirmation"
 msgstr "جەزملەش"

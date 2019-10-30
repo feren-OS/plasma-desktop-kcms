@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-06-23 07:22+0200\n"
+"POT-Creation-Date: 2019-09-17 03:28+0200\n"
 "PO-Revision-Date: 2017-10-28 20:00+0100\n"
 "Last-Translator: Martin Schlander <mschlander@opensuse.org>\n"
 "Language-Team: Danish <kde-i18n-doc@kde.org>\n"
@@ -38,123 +38,130 @@ msgid "On All Activities"
 msgstr "På alle aktiviteter"
 
 #: package/contents/ui/code/tools.js:133
-#, kde-format
-msgid "On The Current Activity"
+#, fuzzy, kde-format
+#| msgid "On The Current Activity"
+msgid "On the Current Activity"
 msgstr "På den aktuelle aktivitet"
 
 #: package/contents/ui/code/tools.js:147
-#, kde-format
-msgid "Show In Favorites"
+#, fuzzy, kde-format
+#| msgid "Show In Favorites"
+msgid "Show in Favorites"
 msgstr "Vis i favoritter"
 
-#: package/contents/ui/ConfigGeneral.qml:58
+#: package/contents/ui/ConfigGeneral.qml:59
 #, kde-format
 msgid "Icon:"
 msgstr "Ikon:"
 
-#: package/contents/ui/ConfigGeneral.qml:138
+#: package/contents/ui/ConfigGeneral.qml:139
 #, kde-format
 msgctxt "@item:inmenu Open icon chooser dialog"
 msgid "Choose..."
 msgstr "Vælg..."
 
-#: package/contents/ui/ConfigGeneral.qml:143
+#: package/contents/ui/ConfigGeneral.qml:144
 #, kde-format
 msgctxt "@item:inmenu Reset icon to default"
 msgid "Clear Icon"
 msgstr "Ryd ikon"
 
-#: package/contents/ui/ConfigGeneral.qml:161
+#: package/contents/ui/ConfigGeneral.qml:162
 #, kde-format
 msgid "Show applications as:"
 msgstr "Vis programmer som:"
 
-#: package/contents/ui/ConfigGeneral.qml:163
+#: package/contents/ui/ConfigGeneral.qml:164
 #, kde-format
 msgid "Name only"
 msgstr "Kun navn"
 
-#: package/contents/ui/ConfigGeneral.qml:163
+#: package/contents/ui/ConfigGeneral.qml:164
 #, kde-format
 msgid "Description only"
 msgstr "Kun beskrivelse"
 
-#: package/contents/ui/ConfigGeneral.qml:163
+#: package/contents/ui/ConfigGeneral.qml:164
 #, kde-format
 msgid "Name (Description)"
 msgstr "Navn (beskrivelse)"
 
-#: package/contents/ui/ConfigGeneral.qml:163
+#: package/contents/ui/ConfigGeneral.qml:164
 #, kde-format
 msgid "Description (Name)"
 msgstr "Beskrivelse (navn)"
 
-#: package/contents/ui/ConfigGeneral.qml:173
+#: package/contents/ui/ConfigGeneral.qml:174
 #, fuzzy, kde-format
 #| msgid "Behavior"
 msgid "Behavior:"
 msgstr "Opførsel"
 
-#: package/contents/ui/ConfigGeneral.qml:175
+#: package/contents/ui/ConfigGeneral.qml:176
 #, fuzzy, kde-format
 #| msgid "Sort alphabetically"
 msgid "Sort applications alphabetically"
 msgstr "Sortér alfabetisk"
 
-#: package/contents/ui/ConfigGeneral.qml:183
+#: package/contents/ui/ConfigGeneral.qml:184
 #, fuzzy, kde-format
 #| msgid "Flatten menu to a single level"
 msgid "Flatten sub-menus to a single level"
 msgstr "Gør menuen flad ned til et enkelt niveau"
 
-#: package/contents/ui/ConfigGeneral.qml:194
+#: package/contents/ui/ConfigGeneral.qml:192
+#, kde-format
+msgid "Show icons on the root level of the menu"
+msgstr ""
+
+#: package/contents/ui/ConfigGeneral.qml:202
 #, fuzzy, kde-format
 #| msgid "Categories"
 msgid "Show categories:"
 msgstr "Kategorier"
 
-#: package/contents/ui/ConfigGeneral.qml:197
+#: package/contents/ui/ConfigGeneral.qml:205
 #, fuzzy, kde-format
 #| msgid "Recent Applications"
 msgid "Recent applications"
 msgstr "Nylige programmer"
 
-#: package/contents/ui/ConfigGeneral.qml:198
+#: package/contents/ui/ConfigGeneral.qml:206
 #, fuzzy, kde-format
 #| msgid "Often Used Applications"
 msgid "Often used applications"
 msgstr "Ofte anvendte programmer"
 
-#: package/contents/ui/ConfigGeneral.qml:205
+#: package/contents/ui/ConfigGeneral.qml:213
 #, fuzzy, kde-format
 #| msgid "Recent Documents"
 msgid "Recent documents"
 msgstr "Nylige dokumenter"
 
-#: package/contents/ui/ConfigGeneral.qml:206
+#: package/contents/ui/ConfigGeneral.qml:214
 #, fuzzy, kde-format
 #| msgid "Often Used Documents"
 msgid "Often used documents"
 msgstr "Ofte anvendte dokumenter"
 
-#: package/contents/ui/ConfigGeneral.qml:213
+#: package/contents/ui/ConfigGeneral.qml:221
 #, fuzzy, kde-format
 #| msgid "Recent Contacts"
 msgid "Recent contacts"
 msgstr "Nylige kontakter"
 
-#: package/contents/ui/ConfigGeneral.qml:214
+#: package/contents/ui/ConfigGeneral.qml:222
 #, fuzzy, kde-format
 #| msgid "Show often used contacts"
 msgid "Often used contacts"
 msgstr "Vis ofte anvendte kontakter"
 
-#: package/contents/ui/ConfigGeneral.qml:220
+#: package/contents/ui/ConfigGeneral.qml:228
 #, kde-format
 msgid "Sort items in categories by:"
 msgstr ""
 
-#: package/contents/ui/ConfigGeneral.qml:221
+#: package/contents/ui/ConfigGeneral.qml:229
 #, fuzzy, kde-format
 #| msgid "Recently used"
 msgctxt ""
@@ -162,7 +169,7 @@ msgctxt ""
 msgid "Recently used"
 msgstr "Nyligt anvendt"
 
-#: package/contents/ui/ConfigGeneral.qml:221
+#: package/contents/ui/ConfigGeneral.qml:229
 #, fuzzy, kde-format
 #| msgid "Often used"
 msgctxt ""
@@ -170,18 +177,18 @@ msgctxt ""
 msgid "Often used"
 msgstr "Ofte anvendt"
 
-#: package/contents/ui/ConfigGeneral.qml:231
+#: package/contents/ui/ConfigGeneral.qml:239
 #, fuzzy, kde-format
 #| msgid "Search"
 msgid "Search:"
 msgstr "Søg"
 
-#: package/contents/ui/ConfigGeneral.qml:233
+#: package/contents/ui/ConfigGeneral.qml:241
 #, kde-format
 msgid "Expand search to bookmarks, files and emails"
 msgstr "Udvid søgning til bogmærker, filer og e-mails"
 
-#: package/contents/ui/ConfigGeneral.qml:241
+#: package/contents/ui/ConfigGeneral.qml:249
 #, kde-format
 msgid "Align search results to bottom"
 msgstr "Justér søgeresultater nederst"
@@ -198,7 +205,6 @@ msgid "Type to search..."
 msgstr "Skriv for at søge."
 
 #: package/contents/ui/DashboardRepresentation.qml:405
-#: plugin/kastatsfavoritesmodel.cpp:494 plugin/simplefavoritesmodel.cpp:43
 #, kde-format
 msgid "Favorites"
 msgstr "Favoritter"
@@ -214,7 +220,7 @@ msgstr "Widgets"
 msgid "Apps & Docs"
 msgstr "Programmer og dokumenter"
 
-#: package/contents/ui/main.qml:272
+#: package/contents/ui/main.qml:273
 #, kde-format
 msgid "Edit Applications..."
 msgstr "Redigér programmer..."
@@ -223,286 +229,3 @@ msgstr "Redigér programmer..."
 #, kde-format
 msgid "Search..."
 msgstr "Søg..."
-
-#: plugin/actionlist.cpp:95
-#, kde-format
-msgid "Open with:"
-msgstr "Åbn med:"
-
-#: plugin/actionlist.cpp:108
-#, kde-format
-msgid "Properties"
-msgstr "Egenskaber"
-
-#: plugin/actionlist.cpp:153
-#, kde-format
-msgid "Add to Desktop"
-msgstr "Føj til skrivebordet"
-
-#: plugin/actionlist.cpp:157
-#, kde-format
-msgid "Add to Panel (Widget)"
-msgstr "Føj til panel (widget)"
-
-#: plugin/actionlist.cpp:161
-#, kde-format
-msgid "Pin to Task Manager"
-msgstr "Fastgør til opgavelinje"
-
-#: plugin/actionlist.cpp:270 plugin/rootmodel.cpp:390
-#, kde-format
-msgid "Recent Documents"
-msgstr "Nylige dokumenter"
-
-#: plugin/actionlist.cpp:280
-#, kde-format
-msgid "Forget Recent Documents"
-msgstr "Glem nylige dokumenter"
-
-#: plugin/actionlist.cpp:336
-#, kde-format
-msgid "Edit Application..."
-msgstr "Redigér program..."
-
-#: plugin/actionlist.cpp:383
-#, kde-format
-msgctxt "@action opens a software center with the application"
-msgid "Manage '%1'..."
-msgstr "Håndtér \"%1\"..."
-
-#: plugin/appentry.cpp:178
-#, kde-format
-msgid "Hide Application"
-msgstr "Skjul program"
-
-#: plugin/appentry.cpp:237
-#, kde-format
-msgctxt "App name (Generic name)"
-msgid "%1 (%2)"
-msgstr "%1 (%2)"
-
-#: plugin/appentry.cpp:239
-#, kde-format
-msgctxt "Generic name (App name)"
-msgid "%1 (%2)"
-msgstr "%1 (%2)"
-
-#: plugin/appsmodel.cpp:45 plugin/appsmodel.cpp:69 plugin/computermodel.cpp:110
-#: plugin/computermodel.cpp:242 plugin/recentusagemodel.cpp:149
-#: plugin/recentusagemodel.cpp:209
-#, kde-format
-msgid "Applications"
-msgstr "Programmer"
-
-#: plugin/appsmodel.cpp:165
-#, kde-format
-msgid "Unhide Applications in this Submenu"
-msgstr "Stop med at skjule programmer i denne undermenu"
-
-#: plugin/appsmodel.cpp:171
-#, kde-format
-msgid "Unhide Applications in '%1'"
-msgstr "Stop med at skjule programmer i \"%1\""
-
-#: plugin/computermodel.cpp:104
-#, kde-format
-msgid "Run Command..."
-msgstr "Kør kommando..."
-
-#: plugin/computermodel.cpp:108
-#, kde-format
-msgid "Run a command or a search query"
-msgstr "Kør en kommando eller søgeforespørgsel"
-
-#: plugin/computermodel.cpp:161
-#, kde-format
-msgid "Computer"
-msgstr "Computer"
-
-#: plugin/contactentry.cpp:117 plugin/recentcontactsmodel.cpp:93
-#, kde-format
-msgid "Show Contact Information..."
-msgstr "Vis kontaktinformation..."
-
-#: plugin/recentcontactsmodel.cpp:52
-#, kde-format
-msgid "Contacts"
-msgstr "Kontakter"
-
-#: plugin/recentcontactsmodel.cpp:85
-#, kde-format
-msgid "Forget Contact"
-msgstr "Glem kontakt"
-
-#: plugin/recentcontactsmodel.cpp:88 plugin/recentcontactsmodel.cpp:165
-#, kde-format
-msgid "Forget All Contacts"
-msgstr "Glem alle kontakter"
-
-#: plugin/recentusagemodel.cpp:147
-#, kde-format
-msgid "Recently Used"
-msgstr "Nyligt anvendt"
-
-#: plugin/recentusagemodel.cpp:152 plugin/recentusagemodel.cpp:263
-#, kde-format
-msgid "Documents"
-msgstr "Dokumenter"
-
-#: plugin/recentusagemodel.cpp:227
-#, kde-format
-msgid "Forget Application"
-msgstr "Glem program"
-
-#: plugin/recentusagemodel.cpp:275
-#, kde-format
-msgid "Forget Document"
-msgstr "Glem dokument"
-
-#: plugin/recentusagemodel.cpp:403
-#, kde-format
-msgid "Forget All"
-msgstr "Glem alt"
-
-#: plugin/recentusagemodel.cpp:405
-#, kde-format
-msgid "Forget All Applications"
-msgstr "Glem alle programmer"
-
-#: plugin/recentusagemodel.cpp:408
-#, kde-format
-msgid "Forget All Documents"
-msgstr "Glem alle dokumenter"
-
-#: plugin/rootmodel.cpp:106
-#, kde-format
-msgid "Hide %1"
-msgstr "Skjul %1"
-
-#: plugin/rootmodel.cpp:376
-#, kde-format
-msgid "All Applications"
-msgstr "Alle programmer"
-
-#: plugin/rootmodel.cpp:382
-#, kde-format
-msgid "Recent Contacts"
-msgstr "Nylige kontakter"
-
-#: plugin/rootmodel.cpp:391
-#, kde-format
-msgid "Often Used Documents"
-msgstr "Ofte anvendte dokumenter"
-
-#: plugin/rootmodel.cpp:401
-#, kde-format
-msgid "Recent Applications"
-msgstr "Nylige programmer"
-
-#: plugin/rootmodel.cpp:402
-#, kde-format
-msgid "Often Used Applications"
-msgstr "Ofte anvendte programmer"
-
-#: plugin/rootmodel.cpp:416
-#, kde-format
-msgid "Power / Session"
-msgstr "Strøm / session"
-
-#: plugin/runnermodel.cpp:238
-#, kde-format
-msgid "Search results"
-msgstr "Søgeresultater"
-
-#: plugin/systementry.cpp:166
-#, kde-format
-msgid "Lock"
-msgstr "Lås"
-
-#: plugin/systementry.cpp:169
-#, kde-format
-msgid "Log Out"
-msgstr ""
-
-#: plugin/systementry.cpp:172 plugin/systementry.cpp:240
-#, kde-format
-msgid "Save Session"
-msgstr "Gem session"
-
-#: plugin/systementry.cpp:175
-#, kde-format
-msgid "Switch User"
-msgstr "Skift bruger"
-
-#: plugin/systementry.cpp:178
-#, kde-format
-msgctxt "Suspend to RAM"
-msgid "Sleep"
-msgstr ""
-
-#: plugin/systementry.cpp:181
-#, kde-format
-msgid "Hibernate"
-msgstr "Dvale"
-
-#: plugin/systementry.cpp:184
-#, kde-format
-msgid "Restart"
-msgstr "Genstart"
-
-#: plugin/systementry.cpp:187
-#, kde-format
-msgid "Shut Down"
-msgstr "Luk ned"
-
-#: plugin/systementry.cpp:200 plugin/systementry.cpp:203
-#: plugin/systementry.cpp:206 plugin/systementry.cpp:209
-#, kde-format
-msgid "Session"
-msgstr "Session"
-
-#: plugin/systementry.cpp:212 plugin/systementry.cpp:215
-#: plugin/systementry.cpp:218 plugin/systementry.cpp:221
-#, kde-format
-msgid "System"
-msgstr "System"
-
-#: plugin/systementry.cpp:234
-#, kde-format
-msgid "Lock screen"
-msgstr "Lås skærmen"
-
-#: plugin/systementry.cpp:237
-#, kde-format
-msgid "End session"
-msgstr "Afslut session"
-
-#: plugin/systementry.cpp:243
-#, kde-format
-msgid "Start a parallel session as a different user"
-msgstr "Start en parallel session som en anden bruger"
-
-#: plugin/systementry.cpp:246
-#, kde-format
-msgid "Suspend to RAM"
-msgstr "Suspendér til ram"
-
-#: plugin/systementry.cpp:249
-#, kde-format
-msgid "Suspend to disk"
-msgstr "Suspendér til disk"
-
-#: plugin/systementry.cpp:252
-#, kde-format
-msgid "Restart computer"
-msgstr "Genstart computeren"
-
-#: plugin/systementry.cpp:255
-#, kde-format
-msgid "Turn off computer"
-msgstr "Sluk computeren"
-
-#: plugin/systemmodel.cpp:75
-#, kde-format
-msgid "System actions"
-msgstr "Systemhandlinger"

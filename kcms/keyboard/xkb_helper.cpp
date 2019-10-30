@@ -80,7 +80,7 @@ void executeXmodmap(const QString& configFileName)
     	KProcess xmodmapProcess;
     	xmodmapProcess << xmodmapExe;
     	xmodmapProcess << configFileName;
-    	qCDebug(KCM_KEYBOARD) << "Executing" << xmodmapProcess.program().join(QStringLiteral(" "));
+    	qCDebug(KCM_KEYBOARD) << "Executing" << xmodmapProcess.program().join(QLatin1Char(' '));
     	if( xmodmapProcess.execute() != 0 ) {
     		qCCritical(KCM_KEYBOARD) << "Failed to execute " << xmodmapProcess.program();
     	}
@@ -108,13 +108,13 @@ bool XkbHelper::runConfigLayoutCommand(const QStringList& setxkbmapCommandArgume
 	int res = setxkbmapProcess.execute();
 
 	if( res == 0 ) {	// restore Xmodmap mapping reset by setxkbmap
-		qCDebug(KCM_KEYBOARD) << "Executed successfully in " << timer.elapsed() << "ms" << setxkbmapProcess.program().join(QStringLiteral(" "));
+		qCDebug(KCM_KEYBOARD) << "Executed successfully in " << timer.elapsed() << "ms" << setxkbmapProcess.program().join(QLatin1Char(' '));
 		restoreXmodmap();
 		qCDebug(KCM_KEYBOARD) << "\t and with xmodmap" << timer.elapsed() << "ms";
 	    return true;
 	}
 	else {
-		qCCritical(KCM_KEYBOARD) << "Failed to run" << setxkbmapProcess.program().join(QStringLiteral(" ")) << "return code:" << res;
+		qCCritical(KCM_KEYBOARD) << "Failed to run" << setxkbmapProcess.program().join(QLatin1Char(' ')) << "return code:" << res;
 	}
 	return false;
 }
@@ -124,8 +124,8 @@ bool XkbHelper::initializeKeyboardLayouts(const QList<LayoutUnit>& layoutUnits)
 	QStringList layouts;
 	QStringList variants;
 	foreach (const LayoutUnit& layoutUnit, layoutUnits) {
-		layouts.append(layoutUnit.layout);
-		variants.append(layoutUnit.variant);
+        layouts.append(layoutUnit.layout());
+        variants.append(layoutUnit.variant());
 	}
 
 	QStringList setxkbmapCommandArguments;
@@ -155,8 +155,8 @@ bool XkbHelper::initializeKeyboardLayouts(KeyboardConfig& config)
 		QStringList variants;
 		QList<LayoutUnit> defaultLayouts = config.getDefaultLayouts();
 		foreach (const LayoutUnit& layoutUnit, defaultLayouts) {
-			layouts.append(layoutUnit.layout);
-			variants.append(layoutUnit.variant);
+            layouts.append(layoutUnit.layout());
+            variants.append(layoutUnit.variant());
 		}
 
 		setxkbmapCommandArguments.append(QStringLiteral("-layout"));

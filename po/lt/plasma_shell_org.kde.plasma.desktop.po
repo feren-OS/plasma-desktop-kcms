@@ -9,9 +9,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: l 10n\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-06-15 07:36+0200\n"
-"PO-Revision-Date: 2017-06-25 00:06+0200\n"
-"Last-Translator: Mindaugas Baranauskas <opensuse.lietuviu.kalba@gmail.com>\n"
+"POT-Creation-Date: 2019-07-26 03:18+0200\n"
+"PO-Revision-Date: 2019-07-31 00:20+0300\n"
+"Last-Translator: Moo\n"
 "Language-Team: Lithuanian <kde-i18n-lt@kde.org>\n"
 "Language: lt\n"
 "MIME-Version: 1.0\n"
@@ -19,11 +19,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : n%10>=2 && (n%100<10 || n"
 "%100>=20) ? 1 : n%10==0 || (n%100>10 && n%100<20) ? 2 : 3);\n"
-"X-Generator: Lokalize 2.0\n"
+"X-Generator: Poedit 2.0.6\n"
 
 #: contents/activitymanager/ActivityItem.qml:206
 msgid "Currently being used"
-msgstr "Naudojama dabar"
+msgstr "Šiuo metu naudojamas"
 
 #: contents/activitymanager/ActivityItem.qml:284
 msgid "Configure"
@@ -31,7 +31,7 @@ msgstr "Konfigūruoti"
 
 #: contents/activitymanager/ActivityItem.qml:300
 msgid "Stop activity"
-msgstr "Sustabdyti veiklą"
+msgstr "Stabdyti veiklą"
 
 #: contents/activitymanager/ActivityList.qml:155
 msgid "Stopped activities:"
@@ -56,58 +56,56 @@ msgstr "Konfigūruoti veiklą"
 
 #: contents/activitymanager/StoppedActivityItem.qml:161
 msgid "Delete"
-msgstr "Šalinti"
+msgstr "Ištrinti"
 
 #: contents/configuration/AppletConfiguration.qml:53
-#, fuzzy
-#| msgid "Keyboard shortcuts"
 msgid "Keyboard Shortcuts"
 msgstr "Spartieji klavišai"
 
-#: contents/configuration/AppletConfiguration.qml:111
+#: contents/configuration/AppletConfiguration.qml:133
 msgid "Apply Settings"
-msgstr "Pritaikyti nuostatas"
+msgstr "Taikyti nuostatas"
 
-#: contents/configuration/AppletConfiguration.qml:112
+#: contents/configuration/AppletConfiguration.qml:134
 msgid ""
 "The settings of the current module have changed. Do you want to apply the "
 "changes or discard them?"
 msgstr ""
-"Šio modulio nuostatos pasikeitė. Norite šiuos pakeitimus pritaikyti ar "
+"Šio modulio nuostatos pasikeitė. Ar norite šiuos pakeitimus taikyti ar juos "
 "atmesti?"
 
-#: contents/configuration/AppletConfiguration.qml:407
+#: contents/configuration/AppletConfiguration.qml:418
 msgid "OK"
 msgstr "Gerai"
 
-#: contents/configuration/AppletConfiguration.qml:414
+#: contents/configuration/AppletConfiguration.qml:425
 msgid "Apply"
-msgstr "Pritaikyti"
+msgstr "Taikyti"
 
-#: contents/configuration/AppletConfiguration.qml:420
+#: contents/configuration/AppletConfiguration.qml:431
 #: contents/explorer/AppletAlternatives.qml:185
 msgid "Cancel"
-msgstr "Atšaukti"
+msgstr "Atsisakyti"
 
 #: contents/configuration/ConfigurationContainmentActions.qml:31
 msgid "Left-Button"
-msgstr "Kairys mygtukas"
+msgstr "Kairysis mygtukas"
 
 #: contents/configuration/ConfigurationContainmentActions.qml:32
 msgid "Right-Button"
-msgstr "Dešinys mygtukas"
+msgstr "Dešinysis mygtukas"
 
 #: contents/configuration/ConfigurationContainmentActions.qml:33
 msgid "Middle-Button"
-msgstr "Vidurinis mygtukas"
+msgstr "Vidurinysis mygtukas"
 
 #: contents/configuration/ConfigurationContainmentActions.qml:34
 msgid "Back-Button"
-msgstr "Mygtukas ėjimui atgal"
+msgstr "Perėjimo atgal mygtukas"
 
 #: contents/configuration/ConfigurationContainmentActions.qml:35
 msgid "Forward-Button"
-msgstr "Mygtukas ėjimui toliau"
+msgstr "Perėjimo pirmyn mygtukas"
 
 #: contents/configuration/ConfigurationContainmentActions.qml:37
 msgid "Vertical-Scroll"
@@ -136,7 +134,7 @@ msgstr "Meta"
 #: contents/configuration/ConfigurationContainmentActions.qml:83
 msgctxt "Concatenation sign for shortcuts, e.g. Ctrl+Shift"
 msgid "+"
-msgstr ""
+msgstr "+"
 
 #: contents/configuration/ConfigurationContainmentActions.qml:163
 #: contents/configuration/MouseEventInputButton.qml:27
@@ -144,10 +142,8 @@ msgid "Add Action"
 msgstr "Pridėti veiksmą"
 
 #: contents/configuration/ConfigurationContainmentAppearance.qml:75
-#, fuzzy
-#| msgid "Layout cannot be changed whilst widgets are locked"
 msgid "Layout cannot be changed while widgets are locked"
-msgstr "Negalite keisti išdėstymo, jei valdikliai užrakinti"
+msgstr "Kol valdikliai užrakinti, negalite keisti išdėstymo"
 
 #: contents/configuration/ConfigurationContainmentAppearance.qml:90
 msgid "Layout:"
@@ -159,19 +155,21 @@ msgstr "Darbalaukio fono tipas:"
 
 #: contents/configuration/ConfigurationContainmentAppearance.qml:122
 msgid "Get New Plugins..."
-msgstr ""
+msgstr "Gauti naujus priedus..."
 
 #: contents/configuration/ConfigurationContainmentAppearance.qml:140
 msgid "Layout changes must be applied before other changes can be made"
-msgstr "Prieš ką nors toliau keisdami, turite pritaikyti išdėstymo pakeitimus"
+msgstr ""
+"Prieš atliekant kitus pakeitimus, turi būti įrašyti išdėstymo pakeitimai"
 
 #: contents/configuration/ConfigurationContainmentAppearance.qml:146
 msgid "Apply now"
-msgstr "Pritaikyti dabar"
+msgstr "Taikyti dabar"
 
 #: contents/configuration/ConfigurationShortcuts.qml:39
 msgid "This shortcut will activate the applet as though it had been clicked."
 msgstr ""
+"Šis spartusis klavišas aktyvuos programėlę taip, lyg ant jos buvo spustelėta."
 
 #: contents/configuration/ContainmentConfiguration.qml:43
 msgid "Wallpaper"
@@ -192,6 +190,8 @@ msgstr "Ekrano kraštas"
 #: contents/configuration/panelconfiguration/EdgeHandle.qml:40
 msgid "Click and drag the button to a screen edge to move the panel there."
 msgstr ""
+"Spustelėkite ir tempkite mygtuką į ekrano kraštą, norėdami perkelti ten "
+"skydelį."
 
 #: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:43
 msgid "Panel Alignment"
@@ -223,7 +223,7 @@ msgstr "Matomumas"
 
 #: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:93
 msgid "Always Visible"
-msgstr "Visuomet matoma"
+msgstr "Visada matomas"
 
 #: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:101
 msgid "Auto Hide"
@@ -239,7 +239,7 @@ msgstr "Langai palenda"
 
 #: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:126
 msgid "Maximize Panel"
-msgstr "Išdidinti skydelį"
+msgstr "Išskleisti skydelį"
 
 #: contents/configuration/panelconfiguration/SizeHandle.qml:28
 msgid "Width"
@@ -251,7 +251,7 @@ msgstr "Aukštis"
 
 #: contents/configuration/panelconfiguration/SizeHandle.qml:54
 msgid "Click and drag the button to resize the panel."
-msgstr ""
+msgstr "Spustelėkite ir tempkite mygtuką, norėdami keisti skydelio dydį."
 
 #: contents/configuration/panelconfiguration/ToolBar.qml:33
 msgid "Lock Widgets"
@@ -259,11 +259,11 @@ msgstr "Užrakinti valdiklius"
 
 #: contents/configuration/panelconfiguration/ToolBar.qml:34
 msgid "Remove Panel"
-msgstr "Pašalinti pultą"
+msgstr "Šalinti skydelį"
 
 #: contents/configuration/panelconfiguration/ToolBar.qml:35
 msgid "Add Widgets..."
-msgstr "Pridėti valdiklių..."
+msgstr "Pridėti valdiklius..."
 
 #: contents/configuration/panelconfiguration/ToolBar.qml:36
 msgid "Add Spacer"
@@ -271,7 +271,7 @@ msgstr "Pridėti skirtuką"
 
 #: contents/configuration/panelconfiguration/ToolBar.qml:37
 msgid "More Settings..."
-msgstr "Daugiau nustatymų..."
+msgstr "Daugiau nuostatų..."
 
 #: contents/configuration/panelconfiguration/ToolBar.qml:196
 msgid "Close"
@@ -307,7 +307,7 @@ msgstr "El. paštas:"
 
 #: contents/explorer/Tooltip.qml:142
 msgid "Uninstall"
-msgstr "Išdiegti"
+msgstr "Pašalinti"
 
 #: contents/explorer/WidgetExplorer.qml:216
 msgid "Widgets"
@@ -318,7 +318,5 @@ msgid "Categories"
 msgstr "Kategorijos"
 
 #: contents/explorer/WidgetExplorer.qml:355
-#, fuzzy
-#| msgid "Get new widgets"
 msgid "Get New Widgets..."
-msgstr "Parsisiųsti naujų valdiklių"
+msgstr "Gauti naujus valdiklius..."

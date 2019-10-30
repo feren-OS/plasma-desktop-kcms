@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmcomponentchooser\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"POT-Creation-Date: 2019-09-18 03:38+0200\n"
 "PO-Revision-Date: 2008-12-07 01:00+0900\n"
 "Last-Translator: Yukiko Bando <ybando@k6.dion.ne.jp>\n"
 "Language-Team: Japanese <kde-jp@kde.org>\n"
@@ -76,12 +76,12 @@ msgstr "以下のブラウザ(&I):"
 msgid "..."
 msgstr "..."
 
-#: componentchooser.cpp:134
+#: componentchooser.cpp:133
 #, kde-format
 msgid "Unknown"
 msgstr "不明"
 
-#: componentchooser.cpp:151
+#: componentchooser.cpp:150
 #, kde-format
 msgid ""
 "Choose from the list below which component should be used by default for the "
@@ -90,7 +90,7 @@ msgstr ""
 "%1 サービスにデフォルトで使用するコンポーネントを下のリストから選択してくださ"
 "い。"
 
-#: componentchooser.cpp:183
+#: componentchooser.cpp:182
 #, kde-format
 msgid ""
 "<qt>You changed the default component of your choice, do want to save that "
@@ -98,7 +98,7 @@ msgid ""
 msgstr ""
 "<qt>デフォルトのコンポーネントが変更されました。変更を保存しますか？</qt>"
 
-#: componentchooser.cpp:188
+#: componentchooser.cpp:187
 #, kde-format
 msgid "No description available"
 msgstr "説明はありません"
@@ -164,7 +164,7 @@ msgstr "デフォルトのウェブブラウザを選択:"
 msgid "Select preferred email client:"
 msgstr "デフォルトのメールクライアントを選択:"
 
-#: componentchooserterminal.cpp:104
+#: componentchooserterminal.cpp:102
 #, kde-format
 msgid "Select preferred terminal application:"
 msgstr "デフォルトのターミナルエミュレータを選択:"

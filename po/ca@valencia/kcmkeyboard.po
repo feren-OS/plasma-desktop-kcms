@@ -2,22 +2,24 @@
 # Copyright (C) 2007-2017 This_file_is_part_of_KDE
 # This file is distributed under the license LGPL version 2.1 or
 # version 3 or later versions approved by the membership of KDE e.V.
+# or the same license as the source of its messages in English.
 #
 # Josep Ma. Ferrer <txemaq@gmail.com>, 2007, 2008, 2010, 2011, 2012, 2014, 2015, 2016.
 # Antoni Bella Pérez <antonibella5@yahoo.com>, 2014, 2016, 2017.
+# Alfredo vicente <alviboi@gmail.com>, 2019.
 msgid ""
 msgstr ""
 "Project-Id-Version: kcmkeyboard\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
-"PO-Revision-Date: 2017-08-09 21:39+0100\n"
-"Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
+"POT-Creation-Date: 2019-08-11 03:10+0200\n"
+"PO-Revision-Date: 2019-07-05 11:30+0200\n"
+"Last-Translator: Alfredo vicente <alviboi@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca@valencia\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 2.0\n"
+"X-Generator: Lokalize 19.04.2\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Accelerator-Marker: &\n"
 
@@ -34,7 +36,7 @@ msgstr "txemaq@gmail.com"
 #: bindings.cpp:33
 #, kde-format
 msgid "Switch to Next Keyboard Layout"
-msgstr "Commuta a la següent disposició del teclat"
+msgstr "Canvia a la següent disposició del teclat"
 
 #: bindings.cpp:34
 #, kde-format
@@ -44,7 +46,7 @@ msgstr "Commutador de disposició del teclat del KDE"
 #: bindings.cpp:67
 #, kde-format
 msgid "Switch keyboard layout to %1"
-msgstr "Commuta la disposició del teclat a %1"
+msgstr "Canvia la disposició del teclat a %1"
 
 #: flags.cpp:168
 #, kde-format
@@ -63,11 +65,11 @@ msgstr "%1 - %2"
 msgid "Any language"
 msgstr "Qualsevol idioma"
 
-#: kcm_add_layout_dialog.cpp:141 kcm_view_models.cpp:319
+#: kcm_add_layout_dialog.cpp:141 kcm_view_models.cpp:311
 #, kde-format
 msgctxt "variant"
 msgid "Default"
-msgstr "Omissió"
+msgstr "Per defecte"
 
 #. i18n: ectx: property (windowTitle), widget (QDialog, AddLayoutDialog)
 #: kcm_add_layout_dialog.ui:14
@@ -115,7 +117,7 @@ msgstr "Vista prèvia"
 #: kcm_keyboard.cpp:48
 #, kde-format
 msgid "KDE Keyboard Control Module"
-msgstr "Mòdul de control del teclat pel KDE"
+msgstr "Mòdul de control del teclat per al KDE"
 
 #: kcm_keyboard.cpp:50
 #, kde-format
@@ -156,9 +158,9 @@ msgid ""
 msgstr ""
 "Ací podeu triar un model de teclat. Aquest valor és independent de la "
 "disposició del vostre teclat i fa referència al model «maquinari», p. ex. la "
-"manufactura del teclat. Els teclats moderns que vénen amb un ordinador "
-"usualment tenen dues tecles extres i s'anomenen models de «104-tecles», això "
-"és el que probablement voleu si no sabeu quina mena de teclat teniu.\n"
+"manufactura del teclat. Els teclats moderns que venen amb un ordinador, "
+"usualment tenen dues tecles extres i s'anomenen models de «104-tecles» "
+"probablement el que voleu si no sabeu quina mena de teclat teniu.\n"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tabLayouts)
 #: kcm_keyboard.ui:94
@@ -200,7 +202,7 @@ msgstr "Mostra l'etiqueta"
 #: kcm_keyboard.ui:136
 #, kde-format
 msgid "Show label on flag"
-msgstr "Mostra l'etiqueta a la bandera"
+msgstr "Mostra l'etiqueta en la bandera"
 
 #. i18n: ectx: property (whatsThis), widget (QGroupBox, switchingPolicyGroupBox)
 #: kcm_keyboard.ui:146
@@ -261,8 +263,8 @@ msgid ""
 "This is a shortcut for switching layouts which is handled by X.org. It "
 "allows modifier-only shortcuts."
 msgstr ""
-"Aquesta és una drecera per commutar disposicions gestionades pel X.org. "
-"Permet dreceres de només modificador."
+"Aquesta és una drecera per a commutar les disposicions gestionades per X."
+"org. Permet dreceres de només modificador."
 
 #. i18n: ectx: property (text), widget (QPushButton, xkbGrpShortcutBtn)
 #. i18n: ectx: property (text), widget (QPushButton, xkb3rdLevelShortcutBtn)
@@ -292,8 +294,9 @@ msgid ""
 "This is a shortcut for switching to a third level of the active layout (if "
 "it has one) which is handled by X.org. It allows modifier-only shortcuts."
 msgstr ""
-"Aquesta és una drecera per commutar al tercer nivell de la disposició activa "
-"(si n'hi ha una) gestionada pel X.org. Permet dreceres de només modificador."
+"Aquesta és una drecera per a canviar al tercer nivell de la disposició "
+"activa (si n'hi ha una) gestionada per X.org. Permet dreceres de només "
+"modificador."
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: kcm_keyboard.ui:267
@@ -309,9 +312,9 @@ msgid ""
 "shortcuts and also may not work in some situations (e.g. if popup is active "
 "or from screensaver)."
 msgstr ""
-"Aquesta és una drecera per a commutar les disposicions. No permet dreceres "
-"de només modificador i pot no funcionar en algunes situacions (p. ex. si hi "
-"ha una finestra emergent o des de l'estalvi de pantalla)."
+"Aquesta és una drecera per a canviar les disposicions. No permet dreceres de "
+"només modificador i pot no funcionar en algunes situacions (p. ex. si hi ha "
+"una finestra emergent o des de l'estalvi de pantalla)."
 
 #. i18n: ectx: property (title), widget (QGroupBox, layoutsGroupBox)
 #: kcm_keyboard.ui:298
@@ -399,28 +402,28 @@ msgid_plural "%1 shortcuts"
 msgstr[0] "%1 drecera"
 msgstr[1] "%1 dreceres"
 
-#: kcm_view_models.cpp:226
+#: kcm_view_models.cpp:220
 #, kde-format
 msgctxt "layout map name"
 msgid "Map"
 msgstr "Mapa"
 
-#: kcm_view_models.cpp:226
+#: kcm_view_models.cpp:220
 #, kde-format
 msgid "Layout"
 msgstr "Disposició"
 
-#: kcm_view_models.cpp:226
+#: kcm_view_models.cpp:220
 #, kde-format
 msgid "Variant"
 msgstr "Variant"
 
-#: kcm_view_models.cpp:226
+#: kcm_view_models.cpp:220
 #, kde-format
 msgid "Label"
 msgstr "Etiqueta"
 
-#: kcm_view_models.cpp:226
+#: kcm_view_models.cpp:220
 #, kde-format
 msgid "Shortcut"
 msgstr "Drecera"
@@ -433,23 +436,23 @@ msgid ""
 "Plasma startup.<p>You can configure NumLock to be turned on or off, or "
 "configure Plasma not to set NumLock state."
 msgstr ""
-"Si està admesa, aquesta opció vos permet establir l'estat de la fixació del "
-"teclat numèric després d'iniciar el Plasma.<p>Podeu configurar que el Bloq "
-"Núm estiga engegat o apagat, o configurar que el Plasma no establisca "
-"l'estat del Bloq Núm."
+"Si està admesa, aquesta opció us permet establir l'estat de la fixació del "
+"teclat numèric després d'iniciar Plasma.<p>Podeu configurar que Bloq Núm "
+"estiga activat o apagat, o configurar que el Plasma no establisca l'estat de "
+"Bloq Núm."
 
 #. i18n: ectx: property (title), widget (QGroupBox, numlockGroupBox)
 #: kcmmiscwidget.ui:20
 #, kde-format
 msgid "NumLock on Plasma Startup"
-msgstr "Bloq Núm en iniciar el Plasma"
+msgstr "Bloq Núm en iniciar Plasma"
 
 #. i18n: ectx: property (text), widget (QRadioButton, radioButton1)
 #. i18n: ectx: property (text), widget (QRadioButton, keyboardRepeatOnRadioButton)
 #: kcmmiscwidget.ui:32 kcmmiscwidget.ui:71
 #, kde-format
 msgid "T&urn on"
-msgstr "&Engegat"
+msgstr "&Activa"
 
 #. i18n: ectx: property (text), widget (QRadioButton, radioButton2)
 #: kcmmiscwidget.ui:39
@@ -496,7 +499,7 @@ msgid ""
 "key will start generating keycodes. The 'Repeat rate' option controls the "
 "frequency of these keycodes."
 msgstr ""
-"Si està admesa, aquesta opció vos permet establir el retard després del que "
+"Si està admesa, aquesta opció us permet establir el retard després del qual "
 "una tecla premuda començarà a generar codis de tecla. L'opció de la "
 "«velocitat de repetició» controla la freqüència d'aquests codis de tecla."
 
@@ -520,7 +523,7 @@ msgid ""
 "If supported, this option allows you to set the rate at which keycodes are "
 "generated while a key is pressed."
 msgstr ""
-"Si està admesa, aquesta opció vos permet establir la velocitat de generació "
+"Si està admesa, aquesta opció us permet establir la velocitat de generació "
 "dels codis de tecla mentre es prem una tecla."
 
 #. i18n: ectx: property (suffix), widget (QDoubleSpinBox, rate)

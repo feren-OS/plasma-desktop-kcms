@@ -2,16 +2,18 @@
 # Copyright (C) 2014-2019 This_file_is_part_of_KDE
 # This file is distributed under the license LGPL version 2.1 or
 # version 3 or later versions approved by the membership of KDE e.V.
+# or the same license as the source of its messages in English.
 #
 # Josep Ma. Ferrer <txemaq@gmail.com>, 2014, 2015, 2016, 2017, 2018, 2019.
 # Antoni Bella Pérez <antonibella5@yahoo.com>, 2015, 2018.
+# Alfredo vicente <alviboi@gmail.com>, 2019.
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_org.kde.desktopcontainment\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
-"PO-Revision-Date: 2019-04-30 17:43+0100\n"
-"Last-Translator: Josep Ma. Ferrer <txemaq@gmail.com>\n"
+"POT-Creation-Date: 2019-08-03 03:23+0200\n"
+"PO-Revision-Date: 2019-07-05 11:42+0200\n"
+"Last-Translator: Alfredo vicente <alviboi@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca@valencia\n"
 "MIME-Version: 1.0\n"
@@ -19,7 +21,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Accelerator-Marker: &\n"
-"X-Generator: Lokalize 2.0\n"
+"X-Generator: Lokalize 19.04.2\n"
 
 #: package/contents/config/config.qml:29
 msgid "Location"
@@ -39,18 +41,6 @@ msgstr "Filtre"
 msgid "Tweaks"
 msgstr "Ajustaments"
 
-#: package/contents/ui/AppletHandle.qml:105
-msgid "Resize"
-msgstr "Redimensiona"
-
-#: package/contents/ui/AppletHandle.qml:127
-msgid "Rotate"
-msgstr "Gira"
-
-#: package/contents/ui/AppletHandle.qml:284
-msgid "Remove"
-msgstr "Elimina"
-
 #: package/contents/ui/BackButtonItem.qml:116
 msgid "Back"
 msgstr "Arrere"
@@ -69,7 +59,7 @@ msgstr "Mostra els coincidents"
 
 #: package/contents/ui/ConfigFilter.qml:77
 msgid "Hide matching"
-msgstr "Oculta els coincidents"
+msgstr "Amaga els coincidents"
 
 #: package/contents/ui/ConfigFilter.qml:82
 msgid "File name pattern:"
@@ -81,7 +71,7 @@ msgstr "Tipus de fitxers:"
 
 #: package/contents/ui/ConfigFilter.qml:90
 msgid "Search..."
-msgstr "Cerca..."
+msgstr "Busca..."
 
 #: package/contents/ui/ConfigFilter.qml:188
 msgid "File type"
@@ -105,7 +95,7 @@ msgstr "Botó del plafó:"
 
 #: package/contents/ui/ConfigIcons.qml:81
 msgid "Use a custom icon"
-msgstr "Usa una icona personalitzada"
+msgstr "Utilitza una icona personalitzada"
 
 #: package/contents/ui/ConfigIcons.qml:115
 msgctxt "@item:inmenu Open icon chooser dialog"
@@ -190,7 +180,7 @@ msgstr "Primer les carpetes"
 #: package/contents/ui/ConfigIcons.qml:218
 msgctxt "whether to use icon or list view"
 msgid "View mode:"
-msgstr "Mode de vista:"
+msgstr "Mode de visualització"
 
 #: package/contents/ui/ConfigIcons.qml:220
 msgid "List"
@@ -204,7 +194,7 @@ msgstr "Mida de les icones:"
 #: plugins/folder/viewpropertiesmenu.cpp:88
 #, kde-format
 msgid "Small"
-msgstr "Petita"
+msgstr "Xicoteta"
 
 #: package/contents/ui/ConfigIcons.qml:255
 #: plugins/folder/viewpropertiesmenu.cpp:88
@@ -212,49 +202,49 @@ msgstr "Petita"
 msgid "Large"
 msgstr "Gran"
 
-#: package/contents/ui/ConfigIcons.qml:263
+#: package/contents/ui/ConfigIcons.qml:264
 msgid "Label width:"
 msgstr "Amplària de les etiquetes:"
 
-#: package/contents/ui/ConfigIcons.qml:266
+#: package/contents/ui/ConfigIcons.qml:267
 msgid "Narrow"
 msgstr "Estreta"
 
-#: package/contents/ui/ConfigIcons.qml:267
+#: package/contents/ui/ConfigIcons.qml:268
 #: plugins/folder/viewpropertiesmenu.cpp:88
 #, kde-format
 msgid "Medium"
 msgstr "Mitjana"
 
-#: package/contents/ui/ConfigIcons.qml:268
+#: package/contents/ui/ConfigIcons.qml:269
 msgid "Wide"
 msgstr "Ampla"
 
-#: package/contents/ui/ConfigIcons.qml:276
+#: package/contents/ui/ConfigIcons.qml:277
 msgid "Text lines:"
 msgstr "Línies de text:"
 
-#: package/contents/ui/ConfigIcons.qml:292
+#: package/contents/ui/ConfigIcons.qml:293
 msgid "Features:"
 msgstr "Característiques:"
 
-#: package/contents/ui/ConfigIcons.qml:294
+#: package/contents/ui/ConfigIcons.qml:295
 msgid "Tooltips"
 msgstr "Consells d'eina"
 
-#: package/contents/ui/ConfigIcons.qml:301
+#: package/contents/ui/ConfigIcons.qml:302
 msgid "Selection markers"
 msgstr "Marcadors de la selecció"
 
-#: package/contents/ui/ConfigIcons.qml:308
+#: package/contents/ui/ConfigIcons.qml:309
 msgid "Folder preview popups"
 msgstr "Vista prèvia emergent de la carpeta"
 
-#: package/contents/ui/ConfigIcons.qml:314
+#: package/contents/ui/ConfigIcons.qml:315
 msgid "Preview thumbnails"
-msgstr "Miniatures per a la vista prèvia"
+msgstr "Miniatures de la vista prèvia"
 
-#: package/contents/ui/ConfigIcons.qml:321
+#: package/contents/ui/ConfigIcons.qml:323
 msgid "Configure Preview Plugins..."
 msgstr "Configura els connectors de vista prèvia..."
 
@@ -272,7 +262,7 @@ msgstr "Fitxers enllaçats amb l'activitat actual"
 
 #: package/contents/ui/ConfigLocation.qml:109
 msgid "Places panel item:"
-msgstr "Element del plafó Llocs:"
+msgstr "Element del plafó de Llocs:"
 
 #: package/contents/ui/ConfigLocation.qml:142
 msgid "Custom location:"
@@ -288,11 +278,11 @@ msgstr "Títol:"
 
 #: package/contents/ui/ConfigLocation.qml:193
 msgid "None"
-msgstr "Sense"
+msgstr "Cap"
 
 #: package/contents/ui/ConfigLocation.qml:193
 msgid "Default"
-msgstr "Omissió"
+msgstr "Per defecte"
 
 #: package/contents/ui/ConfigLocation.qml:193
 msgid "Full path"
@@ -306,13 +296,21 @@ msgstr "Títol personalitzat"
 msgid "Enter custom title..."
 msgstr "Introduïu un títol personalitzat..."
 
+#: package/contents/ui/ConfigOverlay.qml:101
+msgid "Rotate"
+msgstr "Gira"
+
+#: package/contents/ui/ConfigOverlay.qml:224
+msgid "Remove"
+msgstr "Elimina"
+
 #: package/contents/ui/ConfigTweaks.qml:43
 msgid ""
 "With the Desktop Toolbox hidden, right-click on the desktop and choose "
 "'Configure Desktop...' to access this configuration window in the future"
 msgstr ""
-"Si el quadre d'eines de l'escriptori està ocultat, feu clic dret a "
-"l'escriptori i trieu «Configura l'escriptori...» per accedir a aquesta "
+"Si el quadre d'eines de l'escriptori està amagat, feu clic dret a "
+"l'escriptori i trieu «Configura l'escriptori...» per a accedir a aquesta "
 "finestra de configuració en el futur"
 
 #: package/contents/ui/ConfigTweaks.qml:54
@@ -322,7 +320,8 @@ msgstr "Mostra el quadre d'eines de l'escriptori"
 #: package/contents/ui/ConfigTweaks.qml:72
 msgid "Press and hold widgets to move them and reveal their handles"
 msgstr ""
-"Premeu i mantingueu els estris per moure'ls i descobrir les seues nanses"
+"Premeu i manteniu els ginys («widgets») per a moure'ls i descobrir les seues "
+"anses"
 
 #: package/contents/ui/FolderItemPreviewPluginsDialog.qml:36
 msgid "Preview Plugins"
@@ -336,28 +335,28 @@ msgstr "D'acord"
 msgid "Cancel"
 msgstr "Cancel·la"
 
-#: package/contents/ui/main.qml:382
+#: package/contents/ui/main.qml:277
 msgid "Widgets unlocked"
-msgstr "Estris desbloquejats"
+msgstr "Ginys («widgets») desbloquejats"
 
-#: package/contents/ui/main.qml:383
+#: package/contents/ui/main.qml:278
 msgid "You can press and hold widgets to move them and reveal their handles."
 msgstr ""
-"Podeu prémer i mantindre els estris per moure'ls i descobrir les seues "
-"nanses."
+"Podeu prémer i mantindre els ginys (widgets) per a moure'ls i descobrir les "
+"seues anses."
 
-#: package/contents/ui/main.qml:384
+#: package/contents/ui/main.qml:279
 msgid "Got it"
 msgstr "Ho heu fet"
 
-#: package/contents/ui/main.qml:597
+#: package/contents/ui/main.qml:403
 msgid "Configure Desktop..."
 msgstr "Configura l'escriptori..."
 
 #: plugins/folder/directorypicker.cpp:45
 #, kde-format
 msgid "Select Folder"
-msgstr "Selecció de carpeta"
+msgstr "Selecciona una carpeta"
 
 #: plugins/folder/foldermodel.cpp:402
 #, kde-format
@@ -388,7 +387,7 @@ msgstr "&Obri"
 #: plugins/folder/foldermodel.cpp:1740
 #, kde-format
 msgid "&Paste"
-msgstr "&Enganxa"
+msgstr "&Apega"
 
 #: plugins/folder/foldermodel.cpp:1848
 #, kde-format
@@ -443,7 +442,7 @@ msgstr "Minúscula"
 #: plugins/folder/viewpropertiesmenu.cpp:88
 #, kde-format
 msgid "Small Medium"
-msgstr "Mitjana petita"
+msgstr "Mitjana xicoteta"
 
 #: plugins/folder/viewpropertiesmenu.cpp:88
 #, kde-format
@@ -458,4 +457,4 @@ msgstr "Mostra les vistes prèvies"
 #: plugins/folder/viewpropertiesmenu.cpp:100
 #, kde-format
 msgid "Locked"
-msgstr "Blocat"
+msgstr "Bloquejat"

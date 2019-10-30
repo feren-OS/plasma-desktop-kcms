@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmcomponentchooser\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"POT-Creation-Date: 2019-09-18 03:38+0200\n"
 "PO-Revision-Date: 2002-10-23 09:40SAST\n"
 "Last-Translator: Lwandle Mgidlana <lwandle@translate.org.za>\n"
 "Language-Team: Xhosa <xhosa@translate.org.za>\n"
@@ -65,12 +65,12 @@ msgstr ""
 msgid "..."
 msgstr "..."
 
-#: componentchooser.cpp:134
+#: componentchooser.cpp:133
 #, kde-format
 msgid "Unknown"
 msgstr "Engaziwayo"
 
-#: componentchooser.cpp:151
+#: componentchooser.cpp:150
 #, kde-format
 msgid ""
 "Choose from the list below which component should be used by default for the "
@@ -79,7 +79,7 @@ msgstr ""
 "Khetha kudweliso olungezantsi yeyiphi ezakusebenziswa ngokwendalo %1 "
 "kwenkonzo."
 
-#: componentchooser.cpp:183
+#: componentchooser.cpp:182
 #, fuzzy, kde-format
 msgid ""
 "<qt>You changed the default component of your choice, do want to save that "
@@ -89,7 +89,7 @@ msgstr ""
 "utshintsho ngoku ?<BR><BR>Iyakhetha <B>Hayi</B> izakulahla utshintsho "
 "lwakho</qt>"
 
-#: componentchooser.cpp:188
+#: componentchooser.cpp:187
 #, kde-format
 msgid "No description available"
 msgstr "Akukho nkcazelo ikhoyo"
@@ -138,7 +138,7 @@ msgstr "Khetha umyalelo wesiphelo sendlela ekhetiweyo:"
 msgid "Select preferred email client:"
 msgstr "Khetha umxhasi we email owukhethayo:"
 
-#: componentchooserterminal.cpp:104
+#: componentchooserterminal.cpp:102
 #, kde-format
 msgid "Select preferred terminal application:"
 msgstr "Khetha umyalelo wesiphelo sendlela ekhetiweyo:"

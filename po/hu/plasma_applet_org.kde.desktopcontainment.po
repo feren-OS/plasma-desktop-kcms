@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KDE 4.2\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"POT-Creation-Date: 2019-08-03 03:23+0200\n"
 "PO-Revision-Date: 2017-02-12 13:22+0100\n"
 "Last-Translator: Kiszel Kristóf <kiszel.kristof@gmail.com>\n"
 "Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
@@ -37,18 +37,6 @@ msgstr "Szűrő"
 #: package/contents/config/config.qml:50
 msgid "Tweaks"
 msgstr "Finomhangolások"
-
-#: package/contents/ui/AppletHandle.qml:105
-msgid "Resize"
-msgstr "Átméretezés"
-
-#: package/contents/ui/AppletHandle.qml:127
-msgid "Rotate"
-msgstr "Elforgatás"
-
-#: package/contents/ui/AppletHandle.qml:284
-msgid "Remove"
-msgstr "Eltávolítás"
 
 #: package/contents/ui/BackButtonItem.qml:116
 msgid "Back"
@@ -238,57 +226,57 @@ msgstr "Kicsi"
 msgid "Large"
 msgstr "Nagy"
 
-#: package/contents/ui/ConfigIcons.qml:263
+#: package/contents/ui/ConfigIcons.qml:264
 #, fuzzy
 #| msgid "Label:"
 msgid "Label width:"
 msgstr "Címke:"
 
-#: package/contents/ui/ConfigIcons.qml:266
+#: package/contents/ui/ConfigIcons.qml:267
 msgid "Narrow"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:267
+#: package/contents/ui/ConfigIcons.qml:268
 #: plugins/folder/viewpropertiesmenu.cpp:88
 #, kde-format
 msgid "Medium"
 msgstr "Közepes"
 
-#: package/contents/ui/ConfigIcons.qml:268
+#: package/contents/ui/ConfigIcons.qml:269
 msgid "Wide"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:276
+#: package/contents/ui/ConfigIcons.qml:277
 #, fuzzy
 #| msgid "Text lines:"
 msgid "Text lines:"
 msgstr "Szövegsorok:"
 
-#: package/contents/ui/ConfigIcons.qml:292
+#: package/contents/ui/ConfigIcons.qml:293
 #, fuzzy
 #| msgid "Features"
 msgid "Features:"
 msgstr "Szolgáltatások"
 
-#: package/contents/ui/ConfigIcons.qml:294
+#: package/contents/ui/ConfigIcons.qml:295
 #, fuzzy
 #| msgid "Tooltips"
 msgid "Tooltips"
 msgstr "Buboréksúgók"
 
-#: package/contents/ui/ConfigIcons.qml:301
+#: package/contents/ui/ConfigIcons.qml:302
 msgid "Selection markers"
 msgstr "Kijelölés módja"
 
-#: package/contents/ui/ConfigIcons.qml:308
+#: package/contents/ui/ConfigIcons.qml:309
 msgid "Folder preview popups"
 msgstr "Felugró előnézet"
 
-#: package/contents/ui/ConfigIcons.qml:314
+#: package/contents/ui/ConfigIcons.qml:315
 msgid "Preview thumbnails"
 msgstr "Bélyegképek előnézete"
 
-#: package/contents/ui/ConfigIcons.qml:321
+#: package/contents/ui/ConfigIcons.qml:323
 #, fuzzy
 #| msgid "More Preview Options..."
 msgid "Configure Preview Plugins..."
@@ -355,6 +343,14 @@ msgstr "Egyéni cím"
 msgid "Enter custom title..."
 msgstr "Itt adjon meg egyéni címet"
 
+#: package/contents/ui/ConfigOverlay.qml:101
+msgid "Rotate"
+msgstr "Elforgatás"
+
+#: package/contents/ui/ConfigOverlay.qml:224
+msgid "Remove"
+msgstr "Eltávolítás"
+
 #: package/contents/ui/ConfigTweaks.qml:43
 msgid ""
 "With the Desktop Toolbox hidden, right-click on the desktop and choose "
@@ -382,21 +378,21 @@ msgstr "OK"
 msgid "Cancel"
 msgstr "Mégsem"
 
-#: package/contents/ui/main.qml:382
+#: package/contents/ui/main.qml:277
 msgid "Widgets unlocked"
 msgstr "Elemek feloldva"
 
-#: package/contents/ui/main.qml:383
+#: package/contents/ui/main.qml:278
 msgid "You can press and hold widgets to move them and reveal their handles."
 msgstr ""
 "Lenyomhatja és tarthatja az elemeket a mozgatásukhoz és a kezelőik "
 "megjelenítéséhez."
 
-#: package/contents/ui/main.qml:384
+#: package/contents/ui/main.qml:279
 msgid "Got it"
 msgstr "Értem"
 
-#: package/contents/ui/main.qml:597
+#: package/contents/ui/main.qml:403
 #, fuzzy
 #| msgid "Configure Desktop"
 msgid "Configure Desktop..."

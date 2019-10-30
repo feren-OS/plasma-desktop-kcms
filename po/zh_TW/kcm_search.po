@@ -3,13 +3,13 @@
 #
 # Franklin, 2014.
 # Jeff Huang <s8321414@gmail.com>, 2016.
-# pan93412 <pan93412@gmail.com>, 2018.
+# pan93412 <pan93412@gmail.com>, 2018, 2019.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
-"PO-Revision-Date: 2018-03-25 11:38+0800\n"
+"POT-Creation-Date: 2019-05-23 03:23+0200\n"
+"PO-Revision-Date: 2019-05-24 23:08+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
 "Language: zh_TW\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Lokalize 2.0\n"
+"X-Generator: Lokalize 19.04.1\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -42,8 +42,8 @@ msgstr "Vishesh Handa"
 
 #: kcm.cpp:59
 #, kde-format
-msgid "Select the search plugins:"
-msgstr "選擇搜尋外掛程式："
+msgid "Enable or disable KRunner plugins:"
+msgstr "啟用或停用 KRunner 外掛程式："
 
 #: kcm.cpp:61
 #, kde-format

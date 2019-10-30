@@ -1,5 +1,5 @@
-# Translation of kcmsmserver.po to Brazilian Portuguese
-# Copyright (C) 2002, 2003, 2004, 2008, 2009, 2010 Free Software Foundation, Inc.
+# Translation of kcmsmserver.po para Brazilian Portuguese
+# Copyright (C) 2002, 2003, 2004, 2008, 2009, 2010, 2019 Free Software Foundation, Inc.
 #
 # Lisiane Sztoltz <lisiane@conectiva.com.br>, 2002,2003.
 # Henrique Pinto <stampede@coltec.ufmg.br>, 2003.
@@ -12,10 +12,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmsmserver\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"POT-Creation-Date: 2019-07-11 03:14+0200\n"
 "PO-Revision-Date: 2019-05-27 00:28-0300\n"
 "Last-Translator: André Marcelo Alvarenga <alvarenga@kde.org>\n"
-"Language-Team: Brazilian Portuguese <kde-i18n-pt_BR@kde.org>\n"
+"Language-Team: Brazilian Portuguese <kde-i18n-pt_br@kde.org>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,7 +23,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Lokalize 19.04.1\n"
 
-#: kcmsmserver.cpp:62
+#: kcmsmserver.cpp:63
 #, kde-format
 msgid ""
 "<h1>Session Manager</h1> You can configure the session manager here. This "
@@ -37,18 +37,18 @@ msgstr ""
 "sessão para o próximo login e se o computador deve ser automaticamente "
 "desligado por padrão quando a sessão é encerrada."
 
-#: kcmsmserver.cpp:82
+#: kcmsmserver.cpp:83
 #, kde-format
 msgid "Restart Now"
 msgstr "Reiniciar agora"
 
-#: kcmsmserver.cpp:114
+#: kcmsmserver.cpp:124
 #, kde-format
 msgid "Failed to request restart to firmware setup: %1"
 msgstr ""
 "Não foi possível solicitar o reinício para configuração do firmware: %1"
 
-#: kcmsmserver.cpp:126
+#: kcmsmserver.cpp:136
 #, kde-format
 msgid ""
 "Next time the computer is restarted, it will enter the UEFI setup screen."
@@ -56,7 +56,7 @@ msgstr ""
 "Da próxima vez que reiniciar o computador, ele irá entrar na tela de "
 "configuração do UEFI."
 
-#: kcmsmserver.cpp:128
+#: kcmsmserver.cpp:138
 #, kde-format
 msgid ""
 "Next time the computer is restarted, it will enter the firmware setup screen."
@@ -64,12 +64,12 @@ msgstr ""
 "Da próxima vez que reiniciar o computador, ele irá entrar na tela de "
 "configuração do firmware."
 
-#: kcmsmserver.cpp:140
+#: kcmsmserver.cpp:150
 #, kde-format
 msgid "UEFI Setup"
 msgstr "Configuração do UEFI"
 
-#: kcmsmserver.cpp:141
+#: kcmsmserver.cpp:151
 #, kde-format
 msgid "Enter UEFI setup on next restart"
 msgstr "Entrar na configuração do UEFI ao reiniciar"

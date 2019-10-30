@@ -12,9 +12,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_folderview\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
-"PO-Revision-Date: 2019-07-07 15:21+0200\n"
-"Last-Translator: Mindaugas Baranauskas <opensuse.lietuviu.kalba@gmail.com>\n"
+"POT-Creation-Date: 2019-08-03 03:23+0200\n"
+"PO-Revision-Date: 2019-07-31 16:38+0300\n"
+"Last-Translator: Moo\n"
 "Language-Team: Lithuanian <kde-i18n-lt@kde.org>\n"
 "Language: lt\n"
 "MIME-Version: 1.0\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : n%10>=2 && (n%100<10 || n"
 "%100>=20) ? 1 : n%10==0 || (n%100>10 && n%100<20) ? 2 : 3);\n"
-"X-Generator: Lokalize 2.0\n"
+"X-Generator: Poedit 2.0.6\n"
 
 #: package/contents/config/config.qml:29
 msgid "Location"
@@ -32,7 +32,7 @@ msgstr "Vieta"
 #: package/contents/ui/ConfigIcons.qml:220
 #: package/contents/ui/FolderViewLayer.qml:422
 msgid "Icons"
-msgstr "Ženkliukai"
+msgstr "Piktogramos"
 
 #: package/contents/config/config.qml:43
 msgid "Filter"
@@ -41,18 +41,6 @@ msgstr "Filtras"
 #: package/contents/config/config.qml:50
 msgid "Tweaks"
 msgstr "Pagerinimai"
-
-#: package/contents/ui/AppletHandle.qml:105
-msgid "Resize"
-msgstr "Keisti dydį"
-
-#: package/contents/ui/AppletHandle.qml:127
-msgid "Rotate"
-msgstr "Sukti"
-
-#: package/contents/ui/AppletHandle.qml:284
-msgid "Remove"
-msgstr "Pašalinti"
 
 #: package/contents/ui/BackButtonItem.qml:116
 msgid "Back"
@@ -80,7 +68,7 @@ msgstr "Failų pavadinimų šablonas:"
 
 #: package/contents/ui/ConfigFilter.qml:88
 msgid "File types:"
-msgstr "Failų tipai"
+msgstr "Failų tipai:"
 
 #: package/contents/ui/ConfigFilter.qml:90
 msgid "Search..."
@@ -96,11 +84,11 @@ msgstr "Aprašas"
 
 #: package/contents/ui/ConfigFilter.qml:211
 msgid "Select All"
-msgstr "Pažymėti viską"
+msgstr "Žymėti visus"
 
 #: package/contents/ui/ConfigFilter.qml:222
 msgid "Deselect All"
-msgstr "Atžymėti viską"
+msgstr "Nuimti žymėjimą nuo visų"
 
 #: package/contents/ui/ConfigIcons.qml:75
 msgid "Panel button:"
@@ -108,7 +96,7 @@ msgstr "Skydelio mygtukas:"
 
 #: package/contents/ui/ConfigIcons.qml:81
 msgid "Use a custom icon"
-msgstr "Naudoti savitą ženkliuką"
+msgstr "Naudoti tinkintą piktogramą"
 
 #: package/contents/ui/ConfigIcons.qml:115
 msgctxt "@item:inmenu Open icon chooser dialog"
@@ -118,7 +106,7 @@ msgstr "Pasirinkti..."
 #: package/contents/ui/ConfigIcons.qml:121
 msgctxt "@item:inmenu Reset icon to default"
 msgid "Clear Icon"
-msgstr "Atkurti ženkliuką"
+msgstr "Išvalyti piktogramą"
 
 #: package/contents/ui/ConfigIcons.qml:140
 msgid "Arrangement:"
@@ -193,7 +181,7 @@ msgstr "Pirma aplankai"
 #: package/contents/ui/ConfigIcons.qml:218
 msgctxt "whether to use icon or list view"
 msgid "View mode:"
-msgstr "Rodymo būdas:"
+msgstr "Rodinio veiksena:"
 
 #: package/contents/ui/ConfigIcons.qml:220
 msgid "List"
@@ -201,7 +189,7 @@ msgstr "Sąrašas"
 
 #: package/contents/ui/ConfigIcons.qml:231
 msgid "Icon size:"
-msgstr "Ženkliukų dydis:"
+msgstr "Piktogramų dydis:"
 
 #: package/contents/ui/ConfigIcons.qml:246
 #: plugins/folder/viewpropertiesmenu.cpp:88
@@ -215,49 +203,49 @@ msgstr "Mažas"
 msgid "Large"
 msgstr "Didelis"
 
-#: package/contents/ui/ConfigIcons.qml:263
+#: package/contents/ui/ConfigIcons.qml:264
 msgid "Label width:"
-msgstr "Etiketės plotis:"
+msgstr "Etikečių plotis:"
 
-#: package/contents/ui/ConfigIcons.qml:266
+#: package/contents/ui/ConfigIcons.qml:267
 msgid "Narrow"
 msgstr "Siauras"
 
-#: package/contents/ui/ConfigIcons.qml:267
+#: package/contents/ui/ConfigIcons.qml:268
 #: plugins/folder/viewpropertiesmenu.cpp:88
 #, kde-format
 msgid "Medium"
 msgstr "Vidutinis"
 
-#: package/contents/ui/ConfigIcons.qml:268
+#: package/contents/ui/ConfigIcons.qml:269
 msgid "Wide"
 msgstr "Platus"
 
-#: package/contents/ui/ConfigIcons.qml:276
+#: package/contents/ui/ConfigIcons.qml:277
 msgid "Text lines:"
 msgstr "Teksto eilutės:"
 
-#: package/contents/ui/ConfigIcons.qml:292
+#: package/contents/ui/ConfigIcons.qml:293
 msgid "Features:"
 msgstr "Savybės:"
 
-#: package/contents/ui/ConfigIcons.qml:294
+#: package/contents/ui/ConfigIcons.qml:295
 msgid "Tooltips"
 msgstr "Paaiškinimai"
 
-#: package/contents/ui/ConfigIcons.qml:301
+#: package/contents/ui/ConfigIcons.qml:302
 msgid "Selection markers"
 msgstr "Pasirinkimo žymekliai"
 
-#: package/contents/ui/ConfigIcons.qml:308
+#: package/contents/ui/ConfigIcons.qml:309
 msgid "Folder preview popups"
-msgstr "Aplanko peržiūros iššokantys langai"
+msgstr "Aplanko peržiūros iškylantieji langai"
 
-#: package/contents/ui/ConfigIcons.qml:314
+#: package/contents/ui/ConfigIcons.qml:315
 msgid "Preview thumbnails"
 msgstr "Peržiūros miniatiūros"
 
-#: package/contents/ui/ConfigIcons.qml:321
+#: package/contents/ui/ConfigIcons.qml:323
 msgid "Configure Preview Plugins..."
 msgstr "Konfigūruoti peržiūros papildinius..."
 
@@ -279,7 +267,7 @@ msgstr "Vietų skydelio elementas:"
 
 #: package/contents/ui/ConfigLocation.qml:142
 msgid "Custom location:"
-msgstr "Savita vieta:"
+msgstr "Tinkinta vieta:"
 
 #: package/contents/ui/ConfigLocation.qml:150
 msgid "Type path or URL..."
@@ -291,11 +279,11 @@ msgstr "Pavadinimas:"
 
 #: package/contents/ui/ConfigLocation.qml:193
 msgid "None"
-msgstr "Nieko"
+msgstr "Nėra"
 
 #: package/contents/ui/ConfigLocation.qml:193
 msgid "Default"
-msgstr "Numatytas"
+msgstr "Numatytasis"
 
 #: package/contents/ui/ConfigLocation.qml:193
 msgid "Full path"
@@ -303,34 +291,42 @@ msgstr "Pilnas kelias"
 
 #: package/contents/ui/ConfigLocation.qml:193
 msgid "Custom title"
-msgstr "Savitas pavadinimas"
+msgstr "Tinkintas pavadinimas"
 
 #: package/contents/ui/ConfigLocation.qml:208
 msgid "Enter custom title..."
-msgstr "Įveskite savitą pavadinimą..."
+msgstr "Įveskite tinkintą pavadinimą..."
+
+#: package/contents/ui/ConfigOverlay.qml:101
+msgid "Rotate"
+msgstr "Pasukti"
+
+#: package/contents/ui/ConfigOverlay.qml:224
+msgid "Remove"
+msgstr "Šalinti"
 
 #: package/contents/ui/ConfigTweaks.qml:43
 msgid ""
 "With the Desktop Toolbox hidden, right-click on the desktop and choose "
 "'Configure Desktop...' to access this configuration window in the future"
 msgstr ""
-"Jei darbalaukio įrankinė paslėpta, šį konfigūracijos langą pasieksite "
-"dešiniu pelės klavišu spragtelėję darbalaukyje ir pasirinkite „Konfigūruoti "
+"Jei darbalaukio parankinė yra paslėpta, šį konfigūracijos langą pasieksite "
+"dešiniu pelės mygtuku spustelėję ant darbalaukio ir pasirinkę „Konfigūruoti "
 "darbalaukį...“"
 
 #: package/contents/ui/ConfigTweaks.qml:54
 msgid "Show the desktop toolbox"
-msgstr "Rodyti darbalaukio priemonių komplektą"
+msgstr "Rodyti darbalaukio parankinę"
 
 #: package/contents/ui/ConfigTweaks.qml:72
 msgid "Press and hold widgets to move them and reveal their handles"
 msgstr ""
-"Paspauskite ir palaikykite valdiklius, kad perkelti juos ir pamatyti jų "
+"Paspauskite ir palaikykite valdiklius, norėdami juos perkelti ir pamatyti jų "
 "rankenėles"
 
 #: package/contents/ui/FolderItemPreviewPluginsDialog.qml:36
 msgid "Preview Plugins"
-msgstr "Peržiūros papildiniai:"
+msgstr "Peržiūros papildiniai"
 
 #: package/contents/ui/FolderItemPreviewPluginsDialog.qml:94
 msgid "OK"
@@ -338,23 +334,23 @@ msgstr "Gerai"
 
 #: package/contents/ui/FolderItemPreviewPluginsDialog.qml:107
 msgid "Cancel"
-msgstr "Atšaukti"
+msgstr "Atsisakyti"
 
-#: package/contents/ui/main.qml:382
+#: package/contents/ui/main.qml:277
 msgid "Widgets unlocked"
 msgstr "Valdikliai atrakinti"
 
-#: package/contents/ui/main.qml:383
+#: package/contents/ui/main.qml:278
 msgid "You can press and hold widgets to move them and reveal their handles."
 msgstr ""
-"Paspauskite ir palaikykite valdiklius, kad perkelti juos ir pamatyti jų "
+"Paspauskite ir palaikykite valdiklius, norėdami juos perkelti ir pamatyti jų "
 "rankenėles."
 
-#: package/contents/ui/main.qml:384
+#: package/contents/ui/main.qml:279
 msgid "Got it"
 msgstr "Supratau"
 
-#: package/contents/ui/main.qml:597
+#: package/contents/ui/main.qml:403
 msgid "Configure Desktop..."
 msgstr "Konfigūruoti darbalaukį..."
 
@@ -366,23 +362,23 @@ msgstr "Pasirinkite aplanką"
 #: plugins/folder/foldermodel.cpp:402
 #, kde-format
 msgid "&Refresh Desktop"
-msgstr "&Atnaujinti darbalaukį"
+msgstr "Į&kelti darbalaukį iš naujo"
 
 #: plugins/folder/foldermodel.cpp:402 plugins/folder/foldermodel.cpp:1609
 #, kde-format
 msgid "&Refresh View"
-msgstr "&Atnaujinti vaizdą"
+msgstr "Įke&lti rodinį iš naujo"
 
 #: plugins/folder/foldermodel.cpp:1616
 #, kde-format
 msgid "&Empty Trash"
-msgstr "Iš&valyti šiukšlinę"
+msgstr "&Išvalyti šiukšlinę"
 
 #: plugins/folder/foldermodel.cpp:1619
 #, kde-format
 msgctxt "Restore from trash"
 msgid "Restore"
-msgstr "Atstatyti"
+msgstr "Atkurti"
 
 #: plugins/folder/foldermodel.cpp:1624
 #, kde-format
@@ -392,7 +388,7 @@ msgstr "At&verti"
 #: plugins/folder/foldermodel.cpp:1740
 #, kde-format
 msgid "&Paste"
-msgstr "&Padėti"
+msgstr "Į&dėti"
 
 #: plugins/folder/foldermodel.cpp:1848
 #, kde-format
@@ -437,12 +433,12 @@ msgstr "Pirma aplankai"
 #: plugins/folder/viewpropertiesmenu.cpp:84
 #, kde-format
 msgid "Icon Size"
-msgstr "Ženkliukų dydis"
+msgstr "Piktogramų dydis"
 
 #: plugins/folder/viewpropertiesmenu.cpp:88
 #, kde-format
 msgid "Tiny"
-msgstr "Smulkus"
+msgstr "Mažytis"
 
 #: plugins/folder/viewpropertiesmenu.cpp:88
 #, kde-format
@@ -452,7 +448,7 @@ msgstr "Mažesnis nei vidutinis"
 #: plugins/folder/viewpropertiesmenu.cpp:88
 #, kde-format
 msgid "Huge"
-msgstr "Milžiniškas"
+msgstr "Didžiulis"
 
 #: plugins/folder/viewpropertiesmenu.cpp:97
 #, kde-format
@@ -462,4 +458,4 @@ msgstr "Rodyti peržiūras"
 #: plugins/folder/viewpropertiesmenu.cpp:100
 #, kde-format
 msgid "Locked"
-msgstr "Užrakintas"
+msgstr "Užrakinta"

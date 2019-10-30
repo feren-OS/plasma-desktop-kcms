@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkeyboard\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"POT-Creation-Date: 2019-08-11 03:10+0200\n"
 "PO-Revision-Date: 2017-12-03 21:06+0900\n"
 "Last-Translator: Lasse Liehu <lasse.liehu@gmail.com>\n"
 "Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
@@ -69,7 +69,7 @@ msgstr "%1 – %2"
 msgid "Any language"
 msgstr "Mikä tahansa kieli"
 
-#: kcm_add_layout_dialog.cpp:141 kcm_view_models.cpp:319
+#: kcm_add_layout_dialog.cpp:141 kcm_view_models.cpp:311
 #, kde-format
 msgctxt "variant"
 msgid "Default"
@@ -413,29 +413,29 @@ msgstr[0] "%1 pikanäppäin"
 msgstr[1] "%1 pikanäppäintä"
 
 # Vastaa kcmkeyboard.po-tiedoston käytäntöä: lyhyt (aina?) kaksikirjaiminen jono, joka kuvaa asettelun
-#: kcm_view_models.cpp:226
+#: kcm_view_models.cpp:220
 #, kde-format
 msgctxt "layout map name"
 msgid "Map"
 msgstr "Nimiö"
 
-#: kcm_view_models.cpp:226
+#: kcm_view_models.cpp:220
 #, kde-format
 msgid "Layout"
 msgstr "Asettelu"
 
-#: kcm_view_models.cpp:226
+#: kcm_view_models.cpp:220
 #, kde-format
 msgid "Variant"
 msgstr "Muunnelma"
 
 # Outo käännösvastine, mutta tämän alle näppäimistöasettelujen ikkunassa tulee yleensä lipun kuva tai vapaavalintainen 1-3-kirjaiminen teksti
-#: kcm_view_models.cpp:226
+#: kcm_view_models.cpp:220
 #, kde-format
 msgid "Label"
 msgstr "Tunnus"
 
-#: kcm_view_models.cpp:226
+#: kcm_view_models.cpp:220
 #, kde-format
 msgid "Shortcut"
 msgstr "Pikanäppäin"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmcolors\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-06-21 07:50+0200\n"
+"POT-Creation-Date: 2019-08-05 03:06+0200\n"
 "PO-Revision-Date: 2007-09-02 12:20+0330\n"
 "Last-Translator: Nazanin Kazemi <kazemi@itland.ir>\n"
 "Language-Team: Persian <kde-i18n-fa@kde.org>\n"
@@ -28,108 +28,51 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "kazemi@itland.ir"
 
-#: colors.cpp:69 editor/scmeditordialog.cpp:80
+#: colors.cpp:70 editor/scmeditordialog.cpp:80
 #, kde-format
 msgid "Colors"
 msgstr "رنگها"
 
-#: colors.cpp:71
+#: colors.cpp:72
 #, kde-format
 msgid "Kai Uwe Broulik"
 msgstr ""
 
-#: colors.cpp:110
+#: colors.cpp:111
 #, fuzzy, kde-format
 #| msgid "Save Color Scheme"
 msgid "Download New Color Schemes"
 msgstr "ذخیره طرحواره رنگ"
 
-#: colors.cpp:166
+#: colors.cpp:167
 #, kde-format
 msgid "Unable to create a temporary file."
 msgstr ""
 
-#: colors.cpp:180
+#: colors.cpp:181
 #, fuzzy, kde-format
 msgid "Unable to download the color scheme: %1"
 msgstr "نامی برای طرحواره رنگ وارد کنید:"
 
-#: colors.cpp:198
+#: colors.cpp:199
 #, fuzzy, kde-format
 msgid "This file is not a color scheme file."
 msgstr "طرحواره رنگ"
 
-#: colors.cpp:218
+#: colors.cpp:219
 #, kde-format
 msgid "Failed to create 'color-scheme' data folder."
 msgstr ""
 
-#: colors.cpp:225
+#: colors.cpp:226
 #, kde-format
 msgid "Failed to copy color scheme into 'color-scheme' data folder."
 msgstr ""
 
-#: colors.cpp:242
+#: colors.cpp:243
 #, kde-format
 msgid "Color scheme installed successfully."
 msgstr ""
-
-#. i18n: ectx: property (toolTip), widget (QPushButton, schemeEditButton)
-#: editor/colorsettings.ui:31
-#, fuzzy, kde-format
-msgid "Configure the current color scheme"
-msgstr "ذخیره طرحواره رنگ"
-
-#. i18n: ectx: property (text), widget (QPushButton, schemeEditButton)
-#: editor/colorsettings.ui:34
-#, fuzzy, kde-format
-#| msgid "Edit"
-msgid "Edit..."
-msgstr "ویرایش"
-
-#. i18n: ectx: property (toolTip), widget (QPushButton, schemeRemoveButton)
-#: editor/colorsettings.ui:52
-#, fuzzy, kde-format
-msgid "Remove the selected scheme"
-msgstr "طرحواره رنگ"
-
-#. i18n: ectx: property (text), widget (QPushButton, schemeRemoveButton)
-#: editor/colorsettings.ui:55
-#, fuzzy, kde-format
-#| msgid "Color Scheme"
-msgid "Remove"
-msgstr "طرحواره رنگ"
-
-#. i18n: ectx: property (toolTip), widget (QPushButton, schemeImportButton)
-#: editor/colorsettings.ui:83
-#, fuzzy, kde-format
-msgid "Import a color scheme from a file"
-msgstr "طرحواره رنگ"
-
-#. i18n: ectx: property (text), widget (QPushButton, schemeImportButton)
-#: editor/colorsettings.ui:86
-#, kde-format
-msgid "&Install from File..."
-msgstr ""
-
-#. i18n: ectx: property (toolTip), widget (QPushButton, schemeKnsButton)
-#: editor/colorsettings.ui:98
-#, fuzzy, kde-format
-msgid "Get new color schemes from the Internet"
-msgstr "طرحواره رنگ"
-
-#. i18n: ectx: property (text), widget (QPushButton, schemeKnsButton)
-#: editor/colorsettings.ui:101
-#, fuzzy, kde-format
-#| msgid "Save Color Scheme"
-msgid "Get &New Color Schemes..."
-msgstr "ذخیره طرحواره رنگ"
-
-#. i18n: ectx: property (text), widget (QCheckBox, applyToAlien)
-#: editor/colorsettings.ui:137
-#, fuzzy, kde-format
-msgid "Apply colors to &non-Qt applications"
-msgstr "اعمال رنگها به کاربردهای &غیر KDE‌"
 
 #: editor/kcolorschemeeditor.cpp:35
 #, fuzzy, kde-format
@@ -1166,106 +1109,111 @@ msgstr ""
 msgid "This module lets you choose the color scheme."
 msgstr ""
 
-#: package/contents/ui/main.qml:83
+#: package/contents/ui/main.qml:84
 #, kde-format
 msgid ""
 "The color scheme '%1' is not installed. Selecting the default theme instead."
 msgstr ""
 
-#: package/contents/ui/main.qml:95
+#: package/contents/ui/main.qml:96
 #, kde-format
 msgid "Search..."
 msgstr ""
 
-#: package/contents/ui/main.qml:133
+#: package/contents/ui/main.qml:134
 #, fuzzy, kde-format
 msgid "All Schemes"
 msgstr "طرحواره رنگ"
 
-#: package/contents/ui/main.qml:134
+#: package/contents/ui/main.qml:135
 #, fuzzy, kde-format
 msgid "Light Schemes"
 msgstr "&حذف طرحواره‌"
 
-#: package/contents/ui/main.qml:135
+#: package/contents/ui/main.qml:136
 #, fuzzy, kde-format
 #| msgid "Save Color Scheme"
 msgid "Dark Schemes"
 msgstr "ذخیره طرحواره رنگ"
 
-#: package/contents/ui/main.qml:193
+#: package/contents/ui/main.qml:202
+#, fuzzy, kde-format
+msgid "Window Title"
+msgstr "پنجره"
+
+#: package/contents/ui/main.qml:223
 #, fuzzy, kde-format
 msgid "Window text"
 msgstr "پنجره"
 
-#: package/contents/ui/main.qml:200
+#: package/contents/ui/main.qml:230
 #, fuzzy, kde-format
 msgid "Button"
 msgstr "دکمه"
 
-#: package/contents/ui/main.qml:219
+#: package/contents/ui/main.qml:249
 #, fuzzy, kde-format
 #| msgid "link"
 msgctxt "Hyperlink"
 msgid "link"
 msgstr "پیوند"
 
-#: package/contents/ui/main.qml:221
+#: package/contents/ui/main.qml:251
 #, kde-format
 msgctxt "Visited hyperlink"
 msgid "visited"
 msgstr ""
 
-#: package/contents/ui/main.qml:227
+#: package/contents/ui/main.qml:257
 #, kde-format
 msgid "Normal text"
 msgstr ""
 
-#: package/contents/ui/main.qml:235
+#: package/contents/ui/main.qml:265
 #, fuzzy, kde-format
 #| msgid "Selected text"
 msgid "Highlighted text"
 msgstr "متن برگزیده"
 
-#: package/contents/ui/main.qml:242
+#: package/contents/ui/main.qml:272
 #, fuzzy, kde-format
 msgid "Disabled text"
 msgstr "دکمه عنوان غیرفعال"
 
-#: package/contents/ui/main.qml:260
+#: package/contents/ui/main.qml:290
 #, fuzzy, kde-format
 msgid "Edit Color Scheme..."
 msgstr "طرحواره رنگ"
 
-#: package/contents/ui/main.qml:266
+#: package/contents/ui/main.qml:296
 #, fuzzy, kde-format
 #| msgid "Save Color Scheme"
 msgid "Remove Color Scheme"
 msgstr "ذخیره طرحواره رنگ"
 
-#: package/contents/ui/main.qml:273
+#: package/contents/ui/main.qml:303
 #, fuzzy, kde-format
 msgid "Restore Color Scheme"
 msgstr "طرحواره رنگ"
 
-#: package/contents/ui/main.qml:316
+#: package/contents/ui/main.qml:346
 #, kde-format
 msgid "Install from File..."
 msgstr ""
 
-#: package/contents/ui/main.qml:322
+#: package/contents/ui/main.qml:352
 #, fuzzy, kde-format
 #| msgid "Save Color Scheme"
 msgid "Get New Color Schemes..."
 msgstr "ذخیره طرحواره رنگ"
 
-#: package/contents/ui/main.qml:334
+#: package/contents/ui/main.qml:364
 #, fuzzy, kde-format
 #| msgid "Save Color Scheme"
 msgid "Open Color Scheme"
 msgstr "ذخیره طرحواره رنگ"
 
-#: package/contents/ui/main.qml:336
+#: package/contents/ui/main.qml:366
 #, kde-format
 msgid "Color Scheme Files (*.colors)"
 msgstr ""

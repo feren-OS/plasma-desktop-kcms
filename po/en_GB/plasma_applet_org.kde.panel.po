@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"POT-Creation-Date: 2019-06-23 03:18+0200\n"
 "PO-Revision-Date: 2019-04-22 12:54+0100\n"
 "Last-Translator: Steve Allewell <steve.allewell@gmail.com>\n"
 "Language-Team: British English <kde-i18n-doc@kde.org>\n"
@@ -17,17 +17,17 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Lokalize 19.07.70\n"
 
-#: contents/ui/ConfigOverlay.qml:383
+#: contents/ui/ConfigOverlay.qml:385
 #, kde-format
 msgid "Configure..."
 msgstr "Configure..."
 
-#: contents/ui/ConfigOverlay.qml:393
+#: contents/ui/ConfigOverlay.qml:395
 #, kde-format
 msgid "Show Alternatives..."
 msgstr "Show Alternatives..."
 
-#: contents/ui/ConfigOverlay.qml:403
+#: contents/ui/ConfigOverlay.qml:405
 #, kde-format
 msgid "Remove"
 msgstr "Remove"

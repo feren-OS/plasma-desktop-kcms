@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_pager trunk\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"POT-Creation-Date: 2019-05-20 03:25+0200\n"
 "PO-Revision-Date: 2008-11-23 20:00-0800\n"
 "Last-Translator: Praveen Arimbrathodiyil <pravi.a@gmail.com>\n"
 "Language-Team: Malayalam <smc-discuss@googlegroups.com>\n"
@@ -67,7 +67,6 @@ msgstr ""
 
 #: package/contents/ui/configGeneral.qml:124
 #, fuzzy, kde-format
-#| msgid "Display text:"
 msgid "Text display:"
 msgstr "പദാവലി പ്രദര്‍ശിപ്പിയ്ക്കുക:"
 
@@ -103,7 +102,6 @@ msgstr ""
 
 #: package/contents/ui/configGeneral.qml:152
 #, fuzzy, kde-format
-#| msgid "&Configure Desktops..."
 msgid "Selecting current virtual desktop:"
 msgstr "പണിയിടങ്ങള്‍ &ക്രമീകരിയ്ക്കുക..."
 
@@ -119,8 +117,6 @@ msgstr ""
 
 #: package/contents/ui/main.qml:329
 #, fuzzy, kde-format
-#| msgid "and 1 other"
-#| msgid_plural "and %1 others"
 msgid "...and %1 other window"
 msgid_plural "...and %1 other windows"
 msgstr[0] "1 കൂടി"
@@ -128,8 +124,6 @@ msgstr[1] "1 കൂടി"
 
 #: package/contents/ui/main.qml:353
 #, fuzzy, kde-format
-#| msgid "One window:"
-#| msgid_plural "%1 windows:"
 msgid "%1 Window:"
 msgid_plural "%1 Windows:"
 msgstr[0] "ഒരു ജാലകം:"
@@ -149,18 +143,15 @@ msgstr ""
 
 #: package/contents/ui/main.qml:540
 #, fuzzy, kde-format
-#| msgid "&Configure Desktops..."
 msgid "Add Virtual Desktop"
 msgstr "പണിയിടങ്ങള്‍ &ക്രമീകരിയ്ക്കുക..."
 
 #: package/contents/ui/main.qml:541
 #, fuzzy, kde-format
-#| msgid "&Configure Desktops..."
 msgid "Remove Virtual Desktop"
 msgstr "പണിയിടങ്ങള്‍ &ക്രമീകരിയ്ക്കുക..."
 
 #: package/contents/ui/main.qml:546
 #, fuzzy, kde-format
-#| msgid "&Configure Desktops..."
 msgid "Configure Virtual Desktops..."
 msgstr "പണിയിടങ്ങള്‍ &ക്രമീകരിയ്ക്കുക..."

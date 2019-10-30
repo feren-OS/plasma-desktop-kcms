@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmcomponentchooser\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"POT-Creation-Date: 2019-09-18 03:38+0200\n"
 "PO-Revision-Date: 2011-12-28 00:41+0330\n"
 "Last-Translator: Mohammad Reza Mirdamadi <mohi@linuxshop.ir>\n"
 "Language-Team: Farsi (Persian) <>\n"
@@ -65,12 +65,12 @@ msgstr "در مرورگر زیر:"
 msgid "..."
 msgstr "..."
 
-#: componentchooser.cpp:134
+#: componentchooser.cpp:133
 #, kde-format
 msgid "Unknown"
 msgstr "ناشناخته"
 
-#: componentchooser.cpp:151
+#: componentchooser.cpp:150
 #, kde-format
 msgid ""
 "Choose from the list below which component should be used by default for the "
@@ -79,7 +79,7 @@ msgstr ""
 "مؤلفه‌ای را که باید به طور پیش‌فرض برای خدمت %1 استفاده شود را از این فهرست "
 "انتخاب کنید."
 
-#: componentchooser.cpp:183
+#: componentchooser.cpp:182
 #, kde-format
 msgid ""
 "<qt>You changed the default component of your choice, do want to save that "
@@ -88,7 +88,7 @@ msgstr ""
 "<qt>شما مؤلفه پیش‌فرض انتخاب خود را تغییر دادید، الان می‌خواهید آن تغییر را "
 "ذخیره کنید؟</qt>"
 
-#: componentchooser.cpp:188
+#: componentchooser.cpp:187
 #, kde-format
 msgid "No description available"
 msgstr "توصیفی وجود ندارد"
@@ -153,7 +153,7 @@ msgstr "برگزیدن کاربرد مرورگر وب ارجح:"
 msgid "Select preferred email client:"
 msgstr "برگزیدن کارخواه رایانامه ارجح:"
 
-#: componentchooserterminal.cpp:104
+#: componentchooserterminal.cpp:102
 #, kde-format
 msgid "Select preferred terminal application:"
 msgstr "برگزیدن کاربرد پایانه ارجح:"

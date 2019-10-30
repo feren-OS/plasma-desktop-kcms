@@ -12,9 +12,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_tasks\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-06-23 07:22+0200\n"
-"PO-Revision-Date: 2017-06-25 01:36+0200\n"
-"Last-Translator: Mindaugas Baranauskas <opensuse.lietuviu.kalba@gmail.com>\n"
+"POT-Creation-Date: 2019-10-21 07:47+0200\n"
+"PO-Revision-Date: 2019-09-08 18:29+0300\n"
+"Last-Translator: Moo\n"
 "Language-Team: Lithuanian <kde-i18n-lt@kde.org>\n"
 "Language: lt\n"
 "MIME-Version: 1.0\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : n%10>=2 && (n%100<10 || n"
 "%100>=20) ? 1 : n%10==0 || (n%100>10 && n%100<20) ? 2 : 3);\n"
-"X-Generator: Lokalize 2.0\n"
+"X-Generator: Poedit 2.2.1\n"
 
 #: package/contents/config/config.qml:26
 #, kde-format
@@ -38,19 +38,18 @@ msgstr "Elgsena"
 #, kde-format
 msgctxt "Invalid number of new messages, overlay, keep short"
 msgid "—"
-msgstr ""
+msgstr "—"
 
 #: package/contents/ui/Badge.qml:50
 #, kde-format
 msgctxt "Over 9999 new messages, overlay, keep short"
 msgid "9,999+"
-msgstr ""
+msgstr "9,999+"
 
 #: package/contents/ui/ConfigAppearance.qml:48
-#, fuzzy, kde-format
-#| msgid "General"
+#, kde-format
 msgid "General:"
-msgstr "Bendra"
+msgstr "Bendra:"
 
 #: package/contents/ui/ConfigAppearance.qml:49
 #, kde-format
@@ -60,17 +59,17 @@ msgstr "Rodyti paaiškinimus"
 #: package/contents/ui/ConfigAppearance.qml:54
 #, kde-format
 msgid "Highlight windows when hovering over tasks"
-msgstr ""
+msgstr "Užvedant pelę virš užduočių, paryškinti langus"
 
 #: package/contents/ui/ConfigAppearance.qml:59
 #, kde-format
 msgid "Mark applications that play audio"
-msgstr "Pažymėti programas, kuriose grojamas garsas"
+msgstr "Pažymėti programas, kuriose atkuriamas garsas"
 
 #: package/contents/ui/ConfigAppearance.qml:73
 #, kde-format
 msgid "Icon size:"
-msgstr "Ženkliuko dydis:"
+msgstr "Piktogramų dydis:"
 
 #: package/contents/ui/ConfigAppearance.qml:85
 #, kde-format
@@ -85,64 +84,58 @@ msgstr "Didelis"
 #: package/contents/ui/ConfigAppearance.qml:105
 #, kde-format
 msgid "Maximum columns:"
-msgstr "Didžiausias stulpelių skaičius:"
+msgstr "Daugiausia stulpelių:"
 
 #: package/contents/ui/ConfigAppearance.qml:105
 #, kde-format
 msgid "Maximum rows:"
-msgstr "Didžiausias eilučių skaičius:"
+msgstr "Daugiausia eilučių:"
 
 #: package/contents/ui/ConfigAppearance.qml:111
 #, fuzzy, kde-format
-#| msgid "Always arrange tasks in rows of as many columns"
-msgid "Always arrange tasks in as many rows as columns"
-msgstr "Visada rikiuoti užduotis į tiek eilučių kiek yra stulpelių"
+#| msgid "Always arrange tasks in columns of as many rows"
+msgid "Always arrange tasks in rows of as many columns"
+msgstr "Visada rikiuoti užduotis į tiek stulpelių kiek yra eilučių"
 
 #: package/contents/ui/ConfigAppearance.qml:111
-#, fuzzy, kde-format
-#| msgid "Always arrange tasks in rows of as many columns"
-msgid "Always arrange tasks in as many columns as rows"
-msgstr "Visada rikiuoti užduotis į tiek eilučių kiek yra stulpelių"
+#, kde-format
+msgid "Always arrange tasks in columns of as many rows"
+msgstr "Visada rikiuoti užduotis į tiek stulpelių kiek yra eilučių"
 
 #: package/contents/ui/ConfigBehavior.qml:52
-#, fuzzy, kde-format
-#| msgid "Grouping:"
+#, kde-format
 msgid "Group:"
-msgstr "Grupavimas:"
+msgstr "Grupuoti:"
 
 #: package/contents/ui/ConfigBehavior.qml:54
-#, fuzzy, kde-format
-#| msgid "Do Not Group"
+#, kde-format
 msgid "Do not group"
 msgstr "Negrupuoti"
 
 #: package/contents/ui/ConfigBehavior.qml:54
-#, fuzzy, kde-format
-#| msgid "By Program Name"
+#, kde-format
 msgid "By program name"
 msgstr "Pagal programos pavadinimą"
 
 #: package/contents/ui/ConfigBehavior.qml:60
 #, kde-format
 msgid "Open groups in popups"
-msgstr "Grupes atverti iškylančiuose languose"
+msgstr "Atverti grupes iškylančiuosiuose languose"
 
 #: package/contents/ui/ConfigBehavior.qml:74
-#, fuzzy, kde-format
-#| msgid "Only group when the task manager is full"
+#, kde-format
 msgid "Group only when the Task Manager is full"
-msgstr "Grupuoti tik kai užduočių tvarkytuvė pilna"
+msgstr "Grupuoti tik tuomet, kai užduočių tvarkytuvė yra pilna"
 
 #: package/contents/ui/ConfigBehavior.qml:88
-#, fuzzy, kde-format
-#| msgid "Sorting:"
+#, kde-format
 msgid "Sort:"
-msgstr "Rikiavimas:"
+msgstr "Rikiuoti:"
 
 #: package/contents/ui/ConfigBehavior.qml:90
 #, kde-format
 msgid "Do not sort"
-msgstr ""
+msgstr "Nerikiuoti"
 
 #: package/contents/ui/ConfigBehavior.qml:90
 #, kde-format
@@ -155,73 +148,66 @@ msgid "Alphabetically"
 msgstr "Pagal abėcėlę"
 
 #: package/contents/ui/ConfigBehavior.qml:90
-#, fuzzy, kde-format
-#| msgid "By Desktop"
+#, kde-format
 msgid "By desktop"
 msgstr "Pagal darbalaukį"
 
 #: package/contents/ui/ConfigBehavior.qml:90
-#, fuzzy, kde-format
-#| msgid "By Activity"
+#, kde-format
 msgid "By activity"
 msgstr "Pagal veiklą"
 
 #: package/contents/ui/ConfigBehavior.qml:96
 #, kde-format
 msgid "Keep launchers separate"
-msgstr "Paleidiklius laikyti atskirai"
+msgstr "Laikyti paleidykles atskirai"
 
 #: package/contents/ui/ConfigBehavior.qml:108
 #, kde-format
 msgid "On middle-click:"
-msgstr "Spragtelėjant viduriniu mygtuku:"
+msgstr "Spustelėjus viduriniuoju pelės mygtuku:"
 
 #: package/contents/ui/ConfigBehavior.qml:111
 #, kde-format
 msgctxt "The click action"
 msgid "None"
-msgstr "Joks"
+msgstr "Nėra"
 
 #: package/contents/ui/ConfigBehavior.qml:112
-#, fuzzy, kde-format
-#| msgid "Close Window or Group"
+#, kde-format
 msgid "Close window or group"
 msgstr "Užverti langą ar grupę"
 
 #: package/contents/ui/ConfigBehavior.qml:113
-#, fuzzy, kde-format
-#| msgid "New Instance"
+#, kde-format
 msgid "New instance"
-msgstr "Naujas langas"
+msgstr "Naujas egzempliorius"
 
 #: package/contents/ui/ConfigBehavior.qml:114
-#, fuzzy, kde-format
-#| msgid "Minimize/Restore Window or Group"
+#, kde-format
 msgid "Minimize/Restore window or group"
-msgstr "Sumažinti/atstatyti langą ar grupę"
+msgstr "Suskleisti/Grąžinti iš suskleidimo langą ar grupę"
 
 #: package/contents/ui/ConfigBehavior.qml:115
 #, kde-format
 msgctxt "When clicking it would toggle grouping windows of a specific app"
 msgid "Group/Ungroup"
-msgstr "Grupuoti / išgrupuoti"
+msgstr "Grupuoti /Išgrupuoti"
 
 #: package/contents/ui/ConfigBehavior.qml:116
-#, fuzzy, kde-format
-#| msgid "Show only tasks from the current desktop"
+#, kde-format
 msgid "Bring to the current virtual desktop"
-msgstr "Rodyti tik šio darbalaukio užduotis"
+msgstr "Pristatyti į dabartinį virtualų darbalaukį"
 
 #: package/contents/ui/ConfigBehavior.qml:122
 #, kde-format
 msgid "Cycle through tasks with mouse wheel"
-msgstr "Eiti per užduotis su pelės ratuku"
+msgstr "Perjunginėti užduotis naudojant pelės ratuką"
 
 #: package/contents/ui/ConfigBehavior.qml:131
-#, fuzzy, kde-format
-#| msgid "Filters"
+#, kde-format
 msgid "Filter:"
-msgstr "Filtrai"
+msgstr "Filtras:"
 
 #: package/contents/ui/ConfigBehavior.qml:132
 #, kde-format
@@ -241,90 +227,89 @@ msgstr "Rodyti tik šios veiklos užduotis"
 #: package/contents/ui/ConfigBehavior.qml:148
 #, kde-format
 msgid "Show only tasks that are minimized"
-msgstr "Rodyti tik užduotis, kurios yra sumažintos"
+msgstr "Rodyti tik užduotis, kurios yra suskleistos"
 
-#: package/contents/ui/ContextMenu.qml:100
+#: package/contents/ui/ContextMenu.qml:99
 #, kde-format
 msgid "Places"
-msgstr ""
+msgstr "Vietos"
 
-#: package/contents/ui/ContextMenu.qml:105
+#: package/contents/ui/ContextMenu.qml:104
 #, kde-format
 msgid "Recent Documents"
-msgstr "Paskiausi dokumentai"
+msgstr "Paskiausiai naudoti dokumentai"
 
-#: package/contents/ui/ContextMenu.qml:110
-#, fuzzy, kde-format
-#| msgid "More Actions"
+#: package/contents/ui/ContextMenu.qml:109
+#, kde-format
 msgid "Actions"
-msgstr "Daugiau veiksmų"
+msgstr "Veiksmai"
 
-#: package/contents/ui/ContextMenu.qml:168
+#: package/contents/ui/ContextMenu.qml:167
 #, kde-format
 msgctxt "Play previous track"
 msgid "Previous Track"
-msgstr "Ankstesnė daina"
+msgstr "Ankstesnis takelis"
 
-#: package/contents/ui/ContextMenu.qml:182
+#: package/contents/ui/ContextMenu.qml:181
 #, kde-format
 msgctxt "Pause playback"
 msgid "Pause"
-msgstr "Pauzė"
+msgstr "Pristabdyti"
 
-#: package/contents/ui/ContextMenu.qml:182
+#: package/contents/ui/ContextMenu.qml:181
 #, kde-format
 msgctxt "Start playback"
 msgid "Play"
-msgstr "Groti"
+msgstr "Atkurti"
 
-#: package/contents/ui/ContextMenu.qml:200
+#: package/contents/ui/ContextMenu.qml:199
 #, kde-format
 msgctxt "Play next track"
 msgid "Next Track"
-msgstr "Kita daina"
+msgstr "Kitas takelis"
 
-#: package/contents/ui/ContextMenu.qml:211
+#: package/contents/ui/ContextMenu.qml:210
 #, kde-format
 msgctxt "Stop playback"
 msgid "Stop"
 msgstr "Stabdyti"
 
-#: package/contents/ui/ContextMenu.qml:231
+#: package/contents/ui/ContextMenu.qml:230
 #, kde-format
 msgctxt "Quit media player app"
 msgid "Quit"
-msgstr "Baigti"
+msgstr "Išeiti"
 
-#: package/contents/ui/ContextMenu.qml:246
+#: package/contents/ui/ContextMenu.qml:245
 #, kde-format
 msgctxt "Open or bring to the front window of media player app"
 msgid "Restore"
-msgstr "Atstatyti"
+msgstr "Rodyti langą"
 
-#: package/contents/ui/ContextMenu.qml:272
+#: package/contents/ui/ContextMenu.qml:271
 #, kde-format
 msgid "Mute"
 msgstr "Nutildyti"
 
-#: package/contents/ui/ContextMenu.qml:286
+#: package/contents/ui/ContextMenu.qml:285
 #, kde-format
 msgid "Start New Instance"
-msgstr "Atverti naują langą"
+msgstr "Paleisti naują egzempliorių"
 
-#: package/contents/ui/ContextMenu.qml:302
+#: package/contents/ui/ContextMenu.qml:301
 #, kde-format
-msgid "Move To &Desktop"
+msgid "Move to &Desktop"
 msgstr "Perkelti į &darbalaukį"
 
 #: package/contents/ui/ContextMenu.qml:325
 #, kde-format
 msgid "Move &To Current Desktop"
-msgstr "Perkelti į &dabartinį darbalaukį"
+msgstr "Perkelti į da&bartinį darbalaukį"
 
 #: package/contents/ui/ContextMenu.qml:334
 #, kde-format
 msgid "&All Desktops"
-msgstr "į &visus darbalaukius"
+msgstr "&Visi darbalaukiai"
 
 #: package/contents/ui/ContextMenu.qml:348
 #, kde-format
@@ -335,135 +320,135 @@ msgstr "&%1 %2"
 #: package/contents/ui/ContextMenu.qml:362
 #, kde-format
 msgid "&New Desktop"
-msgstr "į &naują darbalaukį"
+msgstr "&Naujas darbalaukis"
 
 #: package/contents/ui/ContextMenu.qml:381
-#, kde-format
-msgid "Move To &Activity"
-msgstr "Perkelti į &veiklą"
+#, fuzzy, kde-format
+#| msgid "All Activities"
+msgid "Show in &Activities"
+msgstr "Visos veiklos"
 
-#: package/contents/ui/ContextMenu.qml:402
+#: package/contents/ui/ContextMenu.qml:403
 #, kde-format
 msgid "Add To Current Activity"
-msgstr "Pridėti prie dabartinės veiklos"
+msgstr "Pridėti į dabartinę veiklą"
 
-#: package/contents/ui/ContextMenu.qml:412
+#: package/contents/ui/ContextMenu.qml:413
 #, kde-format
 msgid "All Activities"
 msgstr "Visos veiklos"
 
-#: package/contents/ui/ContextMenu.qml:471
+#: package/contents/ui/ContextMenu.qml:472
 #, kde-format
 msgid "More Actions"
 msgstr "Daugiau veiksmų"
 
-#: package/contents/ui/ContextMenu.qml:480
+#: package/contents/ui/ContextMenu.qml:481
 #, kde-format
 msgid "&Move"
 msgstr "&Perkelti"
 
-#: package/contents/ui/ContextMenu.qml:489
+#: package/contents/ui/ContextMenu.qml:490
 #, kde-format
 msgid "Re&size"
 msgstr "Keisti &dydį"
 
-#: package/contents/ui/ContextMenu.qml:503
+#: package/contents/ui/ContextMenu.qml:504
 #, kde-format
 msgid "Ma&ximize"
-msgstr "&Išdidinti"
+msgstr "&Išskleisti"
 
-#: package/contents/ui/ContextMenu.qml:517
+#: package/contents/ui/ContextMenu.qml:518
 #, kde-format
 msgid "Mi&nimize"
-msgstr "&Sumažinti"
+msgstr "&Suskleisti"
 
-#: package/contents/ui/ContextMenu.qml:527
+#: package/contents/ui/ContextMenu.qml:528
 #, kde-format
 msgid "Keep &Above Others"
 msgstr "Laikyti &virš kitų"
 
-#: package/contents/ui/ContextMenu.qml:537
+#: package/contents/ui/ContextMenu.qml:538
 #, kde-format
 msgid "Keep &Below Others"
 msgstr "Laikyti &po kitais"
 
-#: package/contents/ui/ContextMenu.qml:549
+#: package/contents/ui/ContextMenu.qml:550
 #, kde-format
 msgid "&Fullscreen"
 msgstr "&Visas ekranas"
 
-#: package/contents/ui/ContextMenu.qml:561
+#: package/contents/ui/ContextMenu.qml:562
 #, kde-format
 msgid "&Shade"
 msgstr "&Tik antraštės juosta"
 
-#: package/contents/ui/ContextMenu.qml:577
+#: package/contents/ui/ContextMenu.qml:578
 #, kde-format
 msgid "Allow this program to be grouped"
-msgstr "Leisti šią programą grupuoti"
+msgstr "Leisti grupuoti šią programą"
 
-#: package/contents/ui/ContextMenu.qml:629
-#: package/contents/ui/ContextMenu.qml:644
+#: package/contents/ui/ContextMenu.qml:630
+#: package/contents/ui/ContextMenu.qml:645
 #, kde-format
 msgid "&Pin to Task Manager"
-msgstr ""
+msgstr "&Prisegti prie užduočių tvarkytuvės"
 
-#: package/contents/ui/ContextMenu.qml:697
+#: package/contents/ui/ContextMenu.qml:698
 #, kde-format
 msgid "On All Activities"
 msgstr "Visose veiklose"
 
-#: package/contents/ui/ContextMenu.qml:703
+#: package/contents/ui/ContextMenu.qml:704
 #, kde-format
 msgid "On The Current Activity"
 msgstr "Dabartinėje veikloje"
 
-#: package/contents/ui/ContextMenu.qml:724
+#: package/contents/ui/ContextMenu.qml:728
 #, kde-format
 msgid "Unpin from Task Manager"
-msgstr ""
+msgstr "Atsegti nuo užduočių tvarkytuvės"
 
-#: package/contents/ui/ContextMenu.qml:738
+#: package/contents/ui/ContextMenu.qml:742
 #, kde-format
 msgid "&Close"
 msgstr "&Užverti"
 
-#: package/contents/ui/ToolTipInstance.qml:469
-#, fuzzy, kde-format
-#| msgid "On %1"
+#: package/contents/ui/ToolTipInstance.qml:414
+#, kde-format
 msgctxt "Comma-separated list of desktops"
 msgid "On %1"
-msgstr "Įjungta %1"
+msgstr "Šiuose darbalaukiuose: %1"
 
-#: package/contents/ui/ToolTipInstance.qml:479
+#: package/contents/ui/ToolTipInstance.qml:424
 #, kde-format
 msgctxt "Which virtual desktop a window is currently on"
 msgid "Available on all activities"
-msgstr "Pasiekiamas visose veiklose"
+msgstr "Prieinamas visose veiklose"
 
-#: package/contents/ui/ToolTipInstance.qml:501
+#: package/contents/ui/ToolTipInstance.qml:446
 #, kde-format
 msgctxt "Activities a window is currently on (apart from the current one)"
 msgid "Also available on %1"
-msgstr "Taip pat pasiekiamas %1"
+msgstr "Taip pat prieinamas šiose veiklose: %1"
 
-#: package/contents/ui/ToolTipInstance.qml:505
+#: package/contents/ui/ToolTipInstance.qml:450
 #, kde-format
 msgctxt "Which activities a window is currently on"
 msgid "Available on %1"
-msgstr "Pasiekiamas %1"
+msgstr "Prieinamas šiose veiklose: %1"
 
 #: plugin/backend.cpp:278
 #, kde-format
 msgctxt "Show all user Places"
 msgid "%1 more Place"
 msgid_plural "%1 more Places"
-msgstr[0] "dar %1 vieta"
-msgstr[1] "dar %1 vietos"
-msgstr[2] "dar %1 vietos"
-msgstr[3] "dar %1 vietos"
+msgstr[0] "ir dar %1 vieta"
+msgstr[1] "ir dar %1 vietos"
+msgstr[2] "ir dar %1 vietų"
+msgstr[3] "ir dar %1 vieta"
 
 #: plugin/backend.cpp:351
 #, kde-format
 msgid "Forget Recent Documents"
-msgstr "Užmiršti paskiausius dokumentus"
+msgstr "Užmiršti paskiausiai naudotus dokumentus"

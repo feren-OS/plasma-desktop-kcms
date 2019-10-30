@@ -2,14 +2,15 @@
 # Copyright (C) 2014-2018 This_file_is_part_of_KDE
 # This file is distributed under the license LGPL version 2.1 or
 # version 3 or later versions approved by the membership of KDE e.V.
+# or the same license as the source of its messages in English.
 #
 # Josep Ma. Ferrer <txemaq@gmail.com>, 2014, 2015, 2017, 2018.
 msgid ""
 msgstr ""
 "Project-Id-Version: kcmformats\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
-"PO-Revision-Date: 2018-01-02 22:09+0100\n"
+"POT-Creation-Date: 2019-05-20 03:25+0200\n"
+"PO-Revision-Date: 2019-06-28 11:08+0200\n"
 "Last-Translator: Josep Ma. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca@valencia\n"
@@ -18,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Accelerator-Marker: &\n"
-"X-Generator: Lokalize 2.0\n"
+"X-Generator: Poedit 2.0.6\n"
 
 #: kcmformats.cpp:45
 #, kde-format
@@ -47,12 +48,12 @@ msgstr "%1 (%2)"
 #: kcmformats.cpp:274
 #, kde-format
 msgid "Your changes will take effect the next time you log in."
-msgstr "Els canvis tindran efecte la pròxima vegada que vos connecteu."
+msgstr "Els canvis s'efectuaran la pròxima vegada que us connecteu."
 
 #: kcmformats.cpp:275
 #, kde-format
 msgid "Format Settings Changed"
-msgstr "Ha canviat l'arranjament dels formats"
+msgstr "Ha canviat la configuració dels formats"
 
 #: kcmformats.cpp:341
 #, kde-format
@@ -92,7 +93,7 @@ msgstr "Re&gió:"
 #: kcmformatswidget.ui:76
 #, kde-format
 msgid "De&tailed Settings"
-msgstr "Arranjament de&tallat"
+msgstr "Configuració de&tallada"
 
 #. i18n: ectx: property (text), widget (QLabel, labelNumbers)
 #: kcmformatswidget.ui:83

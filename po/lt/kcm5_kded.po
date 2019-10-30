@@ -6,9 +6,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkded\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
-"PO-Revision-Date: 2017-06-25 01:11+0200\n"
-"Last-Translator: Mindaugas Baranauskas <opensuse.lietuviu.kalba@gmail.com>\n"
+"POT-Creation-Date: 2019-05-20 03:25+0200\n"
+"PO-Revision-Date: 2019-06-05 13:56+0000\n"
+"Last-Translator: Moo\n"
 "Language-Team: Lithuanian <kde-i18n-lt@kde.org>\n"
 "Language: lt\n"
 "MIME-Version: 1.0\n"
@@ -16,17 +16,17 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : n%10>=2 && (n%100<10 || n"
 "%100>=20) ? 1 : n%10==0 || (n%100>10 && n%100<20) ? 2 : 3);\n"
-"X-Generator: Lokalize 2.0\n"
+"X-Generator: Poedit 2.0.6\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "Ričardas Čepas"
+msgstr "Ričardas Čepas, Moo"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "rch@richard.eu.org"
+msgstr "rch@richard.eu.org, <>"
 
 #: kcmkded.cpp:79
 #, kde-format
@@ -36,7 +36,7 @@ msgstr "kcmkded"
 #: kcmkded.cpp:79
 #, kde-format
 msgid "KDE Service Manager"
-msgstr "KDE tarnybų tvarkyklė"
+msgstr "KDE tarnybų tvarkytuvė"
 
 #: kcmkded.cpp:81
 #, kde-format
@@ -60,15 +60,16 @@ msgid ""
 "startup.</p><p><b> Use this with care: some services are vital for Plasma; "
 "do not deactivate services if you do not know what you are doing.</b></p>"
 msgstr ""
-"<h1>KDE Tarnybos</h1><p>Šis modulis leidžia jums matyti visus KDE tarnybos "
-"papildinius, taip pat vadinamus KDE tarnybomis. Paprastai išskiriami du "
-"tarnybų tipai:</p><ul><li>Tarnybos, paleidžiamos seanso pradžioje</"
-"li><li>Tarnybos, iškviečiamos esant poreikiui</li></ul><p>Pastarosios "
-"pateiktos tik dėl patogumo. Įkrovos metu paleidžiamos tarnybos gali būti "
-"paleistos ir sustabdytos. Turėdami administratoriaus teises taip pat galite "
-"nurodyti, ar tarnybos turėtų būti įkeltos paleidimo metu.</p><p><b> "
-"Naudokite tai atsargiai, kai kurios tarnybos yra būtinos Plasma veikimui. "
-"Neišjunginėkite tarnybų, jei nežinote, ką darote!</b></p>"
+"<h1>Tarnybų tvarkytuvė</h1><p>Šis modulis jums leidžia matyti visų KDE "
+"tarnybos priedų, taip pat vadinamų KDE tarnybomis, apžvalgą. Paprastai "
+"išskiriami du tarnybų tipai:</p><ul><li>Tarnybos, paleidžiamos seanso "
+"pradžioje</li><li>Tarnybos, iškviečiamos esant poreikiui</li></"
+"ul><p>Pastarosios pateiktos tik dėl patogumo. Kompiuterio paleidimo metu "
+"paleidžiamos tarnybos gali būti paleistos ir sustabdytos. Administratoriaus "
+"veiksenoje taip pat galite apibrėžti, ar tarnybos turėtų būti įkeltos "
+"paleidimo metu.</p><p><b> Naudokite tai atsargiai, kai kurios tarnybos yra "
+"būtinos Plasma veikimui. Neišjunginėkite tarnybų, jei nežinote, ką darote!</"
+"b></p>"
 
 #: kcmkded.cpp:93
 #, kde-format
@@ -92,9 +93,9 @@ msgid ""
 "They are only listed for convenience, as you cannot manipulate these "
 "services."
 msgstr ""
-"Čia yra sąrašas prieinamų KDE tarnybų, kurios bus paleistos esant "
-"poreikiui.  Jos išvardintos tik dėl patogumo, kadangi Jūs negalite "
-"manipuliuoti šiomis tarnybomis."
+"Čia yra sąrašas prieinamų KDE tarnybų, kurios bus paleistos esant poreikiui. "
+"Jos išvardytos tik dėl patogumo, kadangi jūs negalite manipuliuoti šiomis "
+"tarnybomis."
 
 #: kcmkded.cpp:109 kcmkded.cpp:131
 #, kde-format
@@ -109,7 +110,7 @@ msgstr "Būsena"
 #: kcmkded.cpp:111 kcmkded.cpp:133
 #, kde-format
 msgid "Description"
-msgstr "Aprašymas"
+msgstr "Aprašas"
 
 #: kcmkded.cpp:120
 #, kde-format
@@ -117,24 +118,20 @@ msgid "Startup Services"
 msgstr "Tarnybos, paleidžiamos seanso pradžioje"
 
 #: kcmkded.cpp:121
-#, fuzzy, kde-format
-#| msgid ""
-#| "This shows all KDE services that can be loaded on KDE startup. Checked "
-#| "services will be invoked on next startup. Be careful with deactivation of "
-#| "unknown services."
+#, kde-format
 msgid ""
 "This shows all KDE services that can be loaded on Plasma startup. Checked "
 "services will be invoked on next startup. Be careful with deactivation of "
 "unknown services."
 msgstr ""
-"Tai rodo visas KDE tarnybas, kurios gali būti įkeltos KDE paleidimo metu. "
+"Tai rodo visas KDE tarnybas, kurios gali būti įkeltos Plasma paleidimo metu. "
 "Pažymėtos tarnybos bus iškviestos kito paleidimo metu. Būkite atsargūs "
 "išjungdami jums nežinomas tarnybas."
 
 #: kcmkded.cpp:130
 #, kde-format
 msgid "Use"
-msgstr "Naudojimas"
+msgstr "Naudoti"
 
 #: kcmkded.cpp:143
 #, kde-format
@@ -149,26 +146,24 @@ msgstr "Stabdyti"
 #: kcmkded.cpp:325
 #, kde-format
 msgid "Unable to contact KDED."
-msgstr "Nepavyksta susisiekti su KDED."
+msgstr "Nepavyko susisiekti su KDED."
 
 #: kcmkded.cpp:469
 #, kde-format
 msgid "Unable to start server <em>%1</em>."
-msgstr "Nepavyksta paleisti serverio <em>%1</em>."
+msgstr "Nepavyko paleisti serverio <em>%1</em>."
 
 #: kcmkded.cpp:472
 #, kde-format
 msgid "Unable to start service <em>%1</em>.<br /><br /><i>Error: %2</i>"
-msgstr "Nepavyksta paleisti tarnybos <em>%1</em>.<br /><br /><i>Klaida: %2</i>"
+msgstr "Nepavyko paleisti tarnybos <em>%1</em>.<br /><br /><i>Klaida: %2</i>"
 
 #: kcmkded.cpp:489
-#, fuzzy, kde-format
-#| msgid "Unable to stop server <em>%1</em>."
+#, kde-format
 msgid "Unable to stop service <em>%1</em>."
-msgstr "Nepavyksta sustabdyti serverio <em>%1</em>."
+msgstr "Nepavyko sustabdyti tarnybos <em>%1</em>."
 
 #: kcmkded.cpp:492
 #, kde-format
 msgid "Unable to stop service <em>%1</em>.<br /><br /><i>Error: %2</i>"
-msgstr ""
-"Nepavyksta sustabdyti tarnybos <em>%1</em>.<br /><br /><i>Klaida: %2</i>"
+msgstr "Nepavyko sustabdyti tarnybos <em>%1</em>.<br /><br /><i>Klaida: %2</i>"

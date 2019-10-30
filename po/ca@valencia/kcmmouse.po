@@ -2,6 +2,7 @@
 # Copyright (C) 1998-2019 This_file_is_part_of_KDE
 # This file is distributed under the license LGPL version 2.1 or
 # version 3 or later versions approved by the membership of KDE e.V.
+# or the same license as the source of its messages in English.
 #
 # Sebastià Pla i Sanz <sps@sastia.com>, 1998, 1999, 2000, 2001, 2002, 2004, 2005, 2006.
 # Antoni Bella Pérez <antonibella5@yahoo.com>, 2003, 2011, 2014, 2018.
@@ -11,15 +12,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmmouse\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
-"PO-Revision-Date: 2019-03-17 20:26+0100\n"
+"POT-Creation-Date: 2019-05-20 03:25+0200\n"
+"PO-Revision-Date: 2019-06-28 11:54+0200\n"
 "Last-Translator: Josep Ma. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca@valencia\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 2.0\n"
+"X-Generator: Poedit 2.0.6\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Accelerator-Marker: &\n"
 
@@ -38,7 +39,7 @@ msgstr "sps@sastia.com,antonibella5@yahoo.com,aacid@kde.org"
 msgid "Querying input devices failed. Please reopen this settings module."
 msgstr ""
 "La consulta dels dispositius d'entrada ha fallat. Torneu a obrir aquest "
-"mòdul d'arranjament."
+"mòdul de configuració."
 
 #: backends/kwin_wl/kwin_wl_backend.cpp:96
 #, kde-format
@@ -48,12 +49,12 @@ msgstr "Error crític en llegir la informació fonamental del dispositiu %1."
 #: kcm/libinput/libinput_config.cpp:47
 #, kde-format
 msgid "Pointer device KCM"
-msgstr "KCM del dispositiu apuntador"
+msgstr "KCM del dispositiu del punter"
 
 #: kcm/libinput/libinput_config.cpp:49
 #, kde-format
 msgid "System Settings module for managing mice and trackballs."
-msgstr "Mòdul de l'Arranjament del sistema per gestionar ratolins i boles."
+msgstr "Mòdul de Configuració del sistema per a gestionar ratolins i boles."
 
 #: kcm/libinput/libinput_config.cpp:51
 #, kde-format
@@ -76,13 +77,13 @@ msgid ""
 "Error while loading values. See logs for more information. Please restart "
 "this configuration module."
 msgstr ""
-"Error en carregar els valors. Vegeu els registres per a més informació. "
-"Torneu a iniciar aquest mòdul de configuració."
+"S'ha produït un error en carregar els valors. Vegeu els registres per a més "
+"informació. Torneu a iniciar aquest mòdul de configuració."
 
 #: kcm/libinput/libinput_config.cpp:130
 #, kde-format
 msgid "No pointer device found. Connect now."
-msgstr "No s'ha trobat cap dispositiu apuntador. Connecteu-lo ara."
+msgstr "No s'ha trobat cap dispositiu del punter. Connecteu-lo ara."
 
 #: kcm/libinput/libinput_config.cpp:141
 #, kde-format
@@ -91,8 +92,8 @@ msgid ""
 "this configuration module and try again."
 msgstr ""
 "No s'han pogut guardar tots els canvis. Vegeu els registres per a més "
-"informació. Torneu a iniciar aquest mòdul de configuració i proveu-ho un "
-"altre cop."
+"informació. Torneu a iniciar aquest mòdul de configuració i proveu-ho una "
+"altra vegada."
 
 #: kcm/libinput/libinput_config.cpp:161
 #, kde-format
@@ -100,8 +101,8 @@ msgid ""
 "Error while loading default values. Failed to set some options to their "
 "default values."
 msgstr ""
-"Error en carregar els valors predeterminats. Ha fallat en establir diverses "
-"opcions als seus valors predeterminats."
+"S'ha produït un error en carregar els valors predeterminats. Ha fallat en "
+"establir diverses opcions als valors predeterminats."
 
 #: kcm/libinput/libinput_config.cpp:183
 #, kde-format
@@ -109,21 +110,21 @@ msgid ""
 "Error while adding newly connected device. Please reconnect it and restart "
 "this configuration module."
 msgstr ""
-"Error en afegir un dispositiu connectat nou. Torneu a connectar-lo i "
-"reinicieu aquest mòdul de configuració."
+"S'ha produït un error en afegir un dispositiu connectat nou. Torneu a "
+"connectar-lo i reinicieu aquest mòdul de configuració."
 
 #: kcm/libinput/libinput_config.cpp:207
 #, kde-format
 msgid "Pointer device disconnected. Closed its setting dialog."
 msgstr ""
-"S'ha desconnectat el dispositiu apuntador. Es tanca el seu diàleg de "
+"S'ha desconnectat el dispositiu del punter. Es tanca el diàleg de "
 "configuració."
 
 #: kcm/libinput/libinput_config.cpp:209
 #, kde-format
 msgid "Pointer device disconnected. No other devices found."
 msgstr ""
-"S'ha desconnectat el dispositiu apuntador. No s'ha trobat cap altre "
+"S'ha desconnectat el dispositiu del punter. No s'ha trobat cap altre "
 "dispositiu."
 
 #: kcm/libinput/main.qml:84
@@ -172,7 +173,7 @@ msgstr ""
 #: kcm/libinput/main.qml:191 kcm/libinput/main_deviceless.qml:121
 #, kde-format
 msgid "Pointer speed:"
-msgstr "Velocitat de l'apuntador:"
+msgstr "Velocitat del punter:"
 
 #: kcm/libinput/main.qml:223 kcm/libinput/main_deviceless.qml:153
 #, kde-format
@@ -198,7 +199,7 @@ msgstr "Adaptativa"
 #, kde-format
 msgid "Cursor travel distance depends on the mouse movement speed."
 msgstr ""
-"La distància que recorre el cursor depèn de la velocitat de moviment del "
+"La distància que recorre el cursor depén de la velocitat de moviment del "
 "ratolí."
 
 #: kcm/libinput/main.qml:279 kcm/libinput/main_deviceless.qml:209
@@ -214,7 +215,7 @@ msgstr "Inverteix la direcció de desplaçament"
 #: kcm/libinput/main.qml:296 kcm/libinput/main_deviceless.qml:226
 #, kde-format
 msgid "Touchscreen like scrolling."
-msgstr "Pantalla tàctil com el desplaçament."
+msgstr "Pantalla tàctil com a desplaçament."
 
 #. i18n: ectx: property (whatsThis), widget (QWidget, KCMMouse)
 #: kcm/xlib/kcmmouse.ui:14
@@ -224,8 +225,8 @@ msgid ""
 "in which your pointing device works. Your pointing device may be a mouse, "
 "trackball, or some other hardware that performs a similar function."
 msgstr ""
-"<h1>Ratolí</h1> Aquest mòdul vos permet escollir diverses opcions quant a la "
-"manera de treballar del dispositiu apuntador. Aquest pot ser un ratolí, una "
+"<h1>Ratolí</h1> Aquest mòdul us permet escollir diverses opcions quant a la "
+"manera de treballar del dispositiu del punter. Aquest pot ser un ratolí, una "
 "bola o algun altre maquinari que faça una funció similar."
 
 #. i18n: ectx: attribute (title), widget (QWidget, generalTab)
@@ -244,9 +245,9 @@ msgid ""
 "as the left and right buttons are affected. For example, if you have a three-"
 "button mouse, the middle button is unaffected."
 msgstr ""
-"Si sou esquerrà, potser vos voldreu intercanviar les funcions dels botons "
-"esquerre i dret del dispositiu apuntador escollint l'opció «mà esquerra». Si "
-"el vostre dispositiu apuntador té més de dos botons, només es canvien els "
+"Si sou esquerrà, potser voldreu intercanviar les funcions dels botons "
+"esquerre i dret del dispositiu del punter escollint l'opció «mà esquerra». "
+"Si el vostre dispositiu de punter té més de dos botons, només es canvien els "
 "que funcionen com a botó esquerre i dret. Per exemple, si teniu un ratolí de "
 "tres botons, el botó del mig no es veu afectat."
 
@@ -295,13 +296,13 @@ msgstr "Avançat"
 #: kcm/xlib/kcmmouse.ui:164
 #, kde-format
 msgid "Pointer acceleration:"
-msgstr "Acceleració de l'apuntador:"
+msgstr "Acceleració del punter:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: kcm/xlib/kcmmouse.ui:174
 #, kde-format
 msgid "Pointer threshold:"
-msgstr "Llindar de l'apuntador:"
+msgstr "Llindar del punter:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: kcm/xlib/kcmmouse.ui:184
@@ -340,13 +341,13 @@ msgid ""
 "result in the mouse pointer flying across the screen, making it hard to "
 "control.</p>"
 msgstr ""
-"<p>Aquesta opció vos permet canviar la relació entre la distància del "
-"desplaçament de l'apuntador del ratolí a la pantalla i el moviment relatiu "
-"del dispositiu físic (que pot ser un ratolí, una bola o qualsevol altre "
-"dispositiu apuntador).</p><p> Un valor alt de l'acceleració provocarà grans "
-"moviments de l'apuntador del ratolí a la pantalla, fins i tot si només feu "
-"un moviment petit amb el dispositiu físic. La selecció de valors molt alts "
-"pot fer que l'apuntador voli travessant la pantalla, fent-se difícil de "
+"<p>Aquesta opció us permet canviar la relació entre la distància del "
+"desplaçament del punter del ratolí a la pantalla i el moviment relatiu del "
+"dispositiu físic (que pot ser un ratolí, una bola o qualsevol altre "
+"dispositiu de punter).</p><p> Un valor alt de l'acceleració provocarà grans "
+"moviments del punter del ratolí a la pantalla, fins i tot si només feu un "
+"moviment xicotet amb el dispositiu físic. La selecció de valors molt alts "
+"pot fer que el punter vole travessant la pantalla i es fa difícil de "
 "controlar.</p>"
 
 #. i18n: ectx: property (suffix), widget (QDoubleSpinBox, accel)
@@ -367,13 +368,13 @@ msgid ""
 "the mouse pointer. With larger movements of the physical device, you can "
 "move the mouse pointer rapidly to different areas on the screen.</p>"
 msgstr ""
-"<p>El llindar és la distància més petita que s'ha de moure l'apuntador del "
+"<p>El llindar és la distància més xicoteta que s'ha de moure el punter del "
 "ratolí per la pantalla abans que faça efecte l'acceleració. Si el moviment "
-"és més petit que el llindar, l'apuntador es mourà com si l'acceleració fos "
-"1X;</p><p>per tant, si feu moviments petits amb el dispositiu físic, no hi "
-"haurà acceleració en absolut, donant-vos un grau de control més gran de "
-"l'apuntador del ratolí. Amb moviments més grans del dispositiu físic, podreu "
-"moure l'apuntador ràpidament a diferents àrees de la pantalla.</p>"
+"és més xicotet que el llindar, el punter es mourà com si l'acceleració fora "
+"1X;</p><p>per tant, si feu moviments xicotets amb el dispositiu físic, no hi "
+"haurà acceleració en absolut i us donarà un grau de control més gran del "
+"punter del ratolí. Amb moviments més grans del dispositiu físic, podreu "
+"moure el punter ràpidament a diferents àrees de la pantalla.</p>"
 
 #. i18n: ectx: property (whatsThis), widget (QSpinBox, doubleClickInterval)
 #: kcm/xlib/kcmmouse.ui:280
@@ -433,7 +434,7 @@ msgstr ""
 "Si useu la roda d'un ratolí, aquest valor determina el nombre de línies de "
 "desplaçament per a cada moviment de la roda. Tingueu present que si aquest "
 "nombre excedeix el nombre de línies visibles, s'ignorarà i el moviment de la "
-"roda es gestionarà com un moviment de pàgina amunt/avall."
+"roda i es gestionarà com un moviment de pàgina amunt/avall."
 
 #. i18n: ectx: attribute (title), widget (QWidget, MouseNavigation)
 #: kcm/xlib/kcmmouse.ui:387
@@ -445,7 +446,7 @@ msgstr "Navegació amb el teclat"
 #: kcm/xlib/kcmmouse.ui:395
 #, kde-format
 msgid "&Move pointer with keyboard (using the num pad)"
-msgstr "&Mou l'apuntador amb el teclat (usant el teclat numèric)"
+msgstr "&Mou el punter amb el teclat (usant el teclat numèric)"
 
 #. i18n: ectx: property (text), widget (QLabel, label_7)
 #: kcm/xlib/kcmmouse.ui:424

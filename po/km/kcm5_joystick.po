@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: joystick\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"POT-Creation-Date: 2019-09-12 03:25+0200\n"
 "PO-Revision-Date: 2010-02-01 08:29+0700\n"
 "Last-Translator: Khoem Sokhem <khoemsokhem@khmeros.info>\n"
 "Language-Team: Khmer <support@khmeros.info>\n"
@@ -110,22 +110,22 @@ msgstr "ការ​ក្រិត​តាមខ្នាត​ដោយ​ជ
 msgid "Value Axis %1: %2"
 msgstr "អ័ក្ស​តម្លៃ %1 ៖ %2"
 
-#: joydevice.cpp:56
+#: joydevice.cpp:55
 #, kde-format
 msgid "The given device %1 could not be opened: %2"
 msgstr "ឧបករណ៍​ដែល​បាន​ផ្ដល់ %1 មិន​អាច​បើក​បាន​ឡើយ ៖ %2"
 
-#: joydevice.cpp:62
+#: joydevice.cpp:61
 #, kde-format
 msgid "The given device %1 is not a joystick."
 msgstr "ឧបករណ៍​ដែល​បាន​ផ្តល់ %1 មិន​មែន​ជា​យ៉យ​ស្ទីក​ឡើយ ។"
 
-#: joydevice.cpp:67
+#: joydevice.cpp:66
 #, kde-format
 msgid "Could not get kernel driver version for joystick device %1: %2"
 msgstr "មិន​អាច​យក​កំណែ​កម្មវិធី​បញ្ជា​ខឺណែល សម្រាប់​ឧបករណ៍​យ៉យស្ទីក %1 ៖ %2"
 
-#: joydevice.cpp:81
+#: joydevice.cpp:80
 #, kde-format
 msgid ""
 "The current running kernel driver version (%1.%2.%3) is not the one this "
@@ -134,37 +134,37 @@ msgstr ""
 "កំណែ​កម្មវិធី​បញ្ជា​ខឺណែល​ដែល​កំពុង​រត់​បច្ចុប្បន្ន (%1.%2.%3) មិន​មែន​ជា​កំណែ​ដែល​ចងក្រង​សម្រាប់​ម៉ូឌុល (%4.%5."
 "%6) ឡើយ ។"
 
-#: joydevice.cpp:93
+#: joydevice.cpp:92
 #, kde-format
 msgid "Could not get number of buttons for joystick device %1: %2"
 msgstr "មិន​អាច​យក​លេខ​ប៊ូតុង សម្រាប់​ឧបករណ៍​យ៉យ​ស្ទីក %1 ៖ %2 បានទេ"
 
-#: joydevice.cpp:99
+#: joydevice.cpp:98
 #, kde-format
 msgid "Could not get number of axes for joystick device %1: %2"
 msgstr "មិន​អាច​យក​លេខ​អ័ក្ស សម្រាប់​ឧបករណ៍​យ៉យ​ស្ទីក %1 ៖ %2 បានទេ"
 
-#: joydevice.cpp:105
+#: joydevice.cpp:104
 #, kde-format
 msgid "Could not get calibration values for joystick device %1: %2"
 msgstr "មិន​អាច​យក​តម្លៃ​ក្រិត​ទៅ​ឲ្យ​ឧបករណ៍​យ៉យស្ទីក %1 ៖ %2 បានទេ"
 
-#: joydevice.cpp:111
+#: joydevice.cpp:110
 #, kde-format
 msgid "Could not restore calibration values for joystick device %1: %2"
 msgstr "មិន​អាច​ស្តារ​តម្លៃ​ក្រិត​ទៅ​ឲ្យ​ឧបករណ៍​យ៉យស្ទីក %1 ៖ %2 បាន​ទេ"
 
-#: joydevice.cpp:117
+#: joydevice.cpp:116
 #, kde-format
 msgid "Could not initialize calibration values for joystick device %1: %2"
 msgstr "មិន​អាច​ចាប់ផ្តើម​តម្លៃ​ក្រិត​ទៅ​ឲ្យ​ឧបករណ៍​យ៉យស្ទីក %1 ៖ %2 បានទេ"
 
-#: joydevice.cpp:123
+#: joydevice.cpp:122
 #, kde-format
 msgid "Could not apply calibration values for joystick device %1: %2"
 msgstr "មិន​អាច​កំណត់​តម្លៃ​ក្រិត ទៅ​ឲ្យ​ឧបករណ៍​យ៉យស្ទីក %1 ៖ %2 បានទេ"
 
-#: joydevice.cpp:127
+#: joydevice.cpp:126
 #, kde-format
 msgid "internal error - code %1 unknown"
 msgstr "កំហុស​ខាង​ក្នុង - មិន​ស្គាល់​កូដ %1"

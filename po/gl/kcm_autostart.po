@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcm_autostart\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"POT-Creation-Date: 2019-05-20 03:25+0200\n"
 "PO-Revision-Date: 2019-01-01 15:32+0100\n"
 "Last-Translator: Adrián Chaves (Gallaecio) <adrian@chaves.io>\n"
 "Language-Team: Galician <kde-i18n-doc@kde.org>\n"
@@ -20,11 +20,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 2.0\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Environment: kde\n"
-"X-Accelerator-Marker: &\n"
-"X-Text-Markup: kde4\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -39,7 +35,7 @@ msgstr "mvillarino@users.sourceforge.net"
 #: addscriptdialog.cpp:40
 #, kde-format
 msgid "Shell script path:"
-msgstr "Ruta do script do intérprete de ordes:"
+msgstr "Ruta ao script da shell:"
 
 #: addscriptdialog.cpp:44
 #, kde-format
@@ -122,7 +118,7 @@ msgstr "Montel Laurent"
 #: autostart.cpp:81
 #, kde-format
 msgid "Maintainer"
-msgstr "Mantedor"
+msgstr "Mantenedor"
 
 #: autostart.cpp:108 autostart.cpp:122
 #, kde-format

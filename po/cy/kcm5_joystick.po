@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: joystick\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"POT-Creation-Date: 2019-09-12 03:25+0200\n"
 "PO-Revision-Date: 2004-07-03 11:25+0100\n"
 "Last-Translator: KD at KGyfieithu <kyfieithu@dotmon.com>\n"
 "Language-Team: Cymraeg <cy@li.org>\n"
@@ -109,23 +109,23 @@ msgstr "Llwyddiant Graddnodi"
 msgid "Value Axis %1: %2"
 msgstr "Gwerth Echelin %1: %2"
 
-#: joydevice.cpp:56
+#: joydevice.cpp:55
 #, kde-format
 msgid "The given device %1 could not be opened: %2"
 msgstr "Ni allwyd agor y ddyfais benodol %1: %2"
 
-#: joydevice.cpp:62
+#: joydevice.cpp:61
 #, kde-format
 msgid "The given device %1 is not a joystick."
 msgstr "Nid ffon rheoli yw'r ddyfais benodol %1."
 
-#: joydevice.cpp:67
+#: joydevice.cpp:66
 #, kde-format
 msgid "Could not get kernel driver version for joystick device %1: %2"
 msgstr ""
 "Methu nôl fersiwn y gyrriant cnewyllyn ar gyfer dyfais ffon rheoli %1: %2"
 
-#: joydevice.cpp:81
+#: joydevice.cpp:80
 #, kde-format
 msgid ""
 "The current running kernel driver version (%1.%2.%3) is not the one this "
@@ -134,39 +134,39 @@ msgstr ""
 "Nid yw'r fersiwn gyrriant cnewyllyn sy'n rhedeg yn gyfredol (%1.%2.%3) yr un "
 "a gafodd y modiwl yma ei grynhoi amdano  (%4.%5.%6)."
 
-#: joydevice.cpp:93
+#: joydevice.cpp:92
 #, kde-format
 msgid "Could not get number of buttons for joystick device %1: %2"
 msgstr "Methu cael nifer y botymau ar gyfer dyfais ffon rheoli %1: %2"
 
-#: joydevice.cpp:99
+#: joydevice.cpp:98
 #, kde-format
 msgid "Could not get number of axes for joystick device %1: %2"
 msgstr "Methu cael nifer yr echeliniau ar gyfer dyfais ffon rheoli %1: %2"
 
-#: joydevice.cpp:105
+#: joydevice.cpp:104
 #, kde-format
 msgid "Could not get calibration values for joystick device %1: %2"
 msgstr "Methu cael gwerthoedd graddnodi ar gyfer dyfais ffon rheoli %1: %2"
 
-#: joydevice.cpp:111
+#: joydevice.cpp:110
 #, kde-format
 msgid "Could not restore calibration values for joystick device %1: %2"
 msgstr "Methu adfer gwerthoedd graddnodi ar gyfer dyfais ffon rheoli %1: %2"
 
-#: joydevice.cpp:117
+#: joydevice.cpp:116
 #, kde-format
 msgid "Could not initialize calibration values for joystick device %1: %2"
 msgstr ""
 "Methu ymgychwyn gwerthoedd graddnodi ar gyfer dyfais ffon rheoli %1: %2"
 
-#: joydevice.cpp:123
+#: joydevice.cpp:122
 #, kde-format
 msgid "Could not apply calibration values for joystick device %1: %2"
 msgstr ""
 "Methu gweithredu gwerthoedd graddnodi ar gyfer dyfais ffon rheoli %1: %2"
 
-#: joydevice.cpp:127
+#: joydevice.cpp:126
 #, kde-format
 msgid "internal error - code %1 unknown"
 msgstr "gwall mewnol - côd %1 anhysbys"

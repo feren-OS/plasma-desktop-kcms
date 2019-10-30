@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmcomponentchooser\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
-"PO-Revision-Date: 2019-04-16 07:54+0700\n"
+"POT-Creation-Date: 2019-09-18 03:38+0200\n"
+"PO-Revision-Date: 2019-08-28 14:55+0700\n"
 "Last-Translator: Wantoyo <wantoyek@gmail.com>\n"
 "Language-Team: Indonesian <kde-i18n-doc@kde.org>\n"
 "Language: id\n"
@@ -17,7 +17,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 18.12.3\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -63,12 +62,12 @@ msgstr "dengan perintah berikut:"
 msgid "..."
 msgstr "..."
 
-#: componentchooser.cpp:134
+#: componentchooser.cpp:133
 #, kde-format
 msgid "Unknown"
 msgstr "Tak Diketahui"
 
-#: componentchooser.cpp:151
+#: componentchooser.cpp:150
 #, kde-format
 msgid ""
 "Choose from the list below which component should be used by default for the "
@@ -77,7 +76,7 @@ msgstr ""
 "Pilih dari senarai di bawah ini komponen mana yang harus digunakan sebagai "
 "baku untuk layanan %1."
 
-#: componentchooser.cpp:183
+#: componentchooser.cpp:182
 #, kde-format
 msgid ""
 "<qt>You changed the default component of your choice, do want to save that "
@@ -86,7 +85,7 @@ msgstr ""
 "<qt>Anda mengubah komponen baku pilihan anda, apakah anda ingin menyimpan "
 "perubahan tersebut sekarang ?</qt>"
 
-#: componentchooser.cpp:188
+#: componentchooser.cpp:187
 #, kde-format
 msgid "No description available"
 msgstr "Tak ada deskripsi yang tersedia"
@@ -152,7 +151,7 @@ msgstr "Pilih aplikasi penelusur Web favorit:"
 msgid "Select preferred email client:"
 msgstr "Pilih klien email favorit:"
 
-#: componentchooserterminal.cpp:104
+#: componentchooserterminal.cpp:102
 #, kde-format
 msgid "Select preferred terminal application:"
 msgstr "Pilih aplikasi terminal favorit:"
@@ -209,7 +208,7 @@ msgid ""
 msgstr ""
 "Tekan tombol ini untuk memilih klien email favorit anda. Perlu dicatat bahwa "
 "file yang anda pilih harus memiliki seperangkat atribut yang dapat "
-"dieksekusi agar dapat diterima.<br/> Anda juga dapat menggunakan beberapa "
+"dilaksanakan agar dapat diterima.<br/> Anda juga dapat menggunakan beberapa "
 "placeholder yang akan digantikan dengan nilai sebenarnya ketika klien email "
 "dipanggil:<ul> <li>%t: Alamat penerima</li> <li>%s: Subjek</li> <li>%c: "
 "Carbon Copy (CC)</li> <li>%b: Blind Carbon Copy (BCC)</li> <li>%B: Templat "
@@ -229,7 +228,7 @@ msgid ""
 "a terminal (e.g. <em>Konsole</em>)."
 msgstr ""
 "Aktifkan opsi ini jika anda ingin memilih klien email terpilih untuk "
-"dieksekusi dalam terminal (misalnya <em>Konsole</em>"
+"dilaksanakan dalam terminal (misalnya <em>Konsole</em>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkRunTerminal)
 #: emailclientconfig_ui.ui:102
@@ -287,7 +286,7 @@ msgid ""
 msgstr ""
 "Tekan tombol ini untuk memilih klien terminal favorit anda. Perlu dicatat "
 "bahwa file yang anda pilih harus memiliki seperangkat atribut yang dapat "
-"dieksekusi agar diterima.<br/> Perlu juga dicatat bahwa beberapa program "
+"dilaksanakan agar diterima.<br/> Perlu juga dicatat bahwa beberapa program "
 "yang menggunakan Emulator Terminal tidak akan bekerja jika anda menambahkan "
 "argumen baris perintah (Misalnya: konsole -ls)."
 

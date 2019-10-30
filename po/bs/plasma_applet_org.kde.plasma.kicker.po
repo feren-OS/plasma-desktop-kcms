@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kde 49i410\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-06-23 07:22+0200\n"
+"POT-Creation-Date: 2019-09-17 03:28+0200\n"
 "PO-Revision-Date: 2015-02-04 15:12+0000\n"
 "Last-Translator: Samir Ribić <Unknown>\n"
 "Language-Team: Bosnian\n"
@@ -42,124 +42,129 @@ msgstr ""
 
 #: package/contents/ui/code/tools.js:133
 #, kde-format
-msgid "On The Current Activity"
+msgid "On the Current Activity"
 msgstr ""
 
 #: package/contents/ui/code/tools.js:147
 #, fuzzy, kde-format
 #| msgid "Add to Favorites"
-msgid "Show In Favorites"
+msgid "Show in Favorites"
 msgstr "Dodaj u omiljene"
 
-#: package/contents/ui/ConfigGeneral.qml:58
+#: package/contents/ui/ConfigGeneral.qml:59
 #, fuzzy, kde-format
 #| msgid "Icon"
 msgid "Icon:"
 msgstr "Ikona"
 
-#: package/contents/ui/ConfigGeneral.qml:138
+#: package/contents/ui/ConfigGeneral.qml:139
 #, kde-format
 msgctxt "@item:inmenu Open icon chooser dialog"
 msgid "Choose..."
 msgstr ""
 
-#: package/contents/ui/ConfigGeneral.qml:143
+#: package/contents/ui/ConfigGeneral.qml:144
 #, kde-format
 msgctxt "@item:inmenu Reset icon to default"
 msgid "Clear Icon"
 msgstr ""
 
-#: package/contents/ui/ConfigGeneral.qml:161
+#: package/contents/ui/ConfigGeneral.qml:162
 #, kde-format
 msgid "Show applications as:"
 msgstr "Prikaži aplikaciju kao:"
 
-#: package/contents/ui/ConfigGeneral.qml:163
+#: package/contents/ui/ConfigGeneral.qml:164
 #, kde-format
 msgid "Name only"
 msgstr "Samo ime"
 
-#: package/contents/ui/ConfigGeneral.qml:163
+#: package/contents/ui/ConfigGeneral.qml:164
 #, kde-format
 msgid "Description only"
 msgstr "Samo opis"
 
-#: package/contents/ui/ConfigGeneral.qml:163
+#: package/contents/ui/ConfigGeneral.qml:164
 #, kde-format
 msgid "Name (Description)"
 msgstr "Ime (Opis)"
 
-#: package/contents/ui/ConfigGeneral.qml:163
+#: package/contents/ui/ConfigGeneral.qml:164
 #, kde-format
 msgid "Description (Name)"
 msgstr "Opis (ime)"
 
-#: package/contents/ui/ConfigGeneral.qml:173
+#: package/contents/ui/ConfigGeneral.qml:174
 #, fuzzy, kde-format
 #| msgid "Behavior"
 msgid "Behavior:"
 msgstr "Ponašanje"
 
-#: package/contents/ui/ConfigGeneral.qml:175
+#: package/contents/ui/ConfigGeneral.qml:176
 #, fuzzy, kde-format
 #| msgid "Show applications as:"
 msgid "Sort applications alphabetically"
 msgstr "Prikaži aplikaciju kao:"
 
-#: package/contents/ui/ConfigGeneral.qml:183
+#: package/contents/ui/ConfigGeneral.qml:184
 #, fuzzy, kde-format
 #| msgid "Flatten menu to a single level"
 msgid "Flatten sub-menus to a single level"
 msgstr "Izravnajte menu na jedan nivo"
 
-#: package/contents/ui/ConfigGeneral.qml:194
+#: package/contents/ui/ConfigGeneral.qml:192
+#, kde-format
+msgid "Show icons on the root level of the menu"
+msgstr ""
+
+#: package/contents/ui/ConfigGeneral.qml:202
 #, fuzzy, kde-format
 #| msgid "Add to Favorites"
 msgid "Show categories:"
 msgstr "Dodaj u omiljene"
 
-#: package/contents/ui/ConfigGeneral.qml:197
+#: package/contents/ui/ConfigGeneral.qml:205
 #, fuzzy, kde-format
 #| msgid "Recent Applications"
 msgid "Recent applications"
 msgstr "Skorašnji programi"
 
-#: package/contents/ui/ConfigGeneral.qml:198
+#: package/contents/ui/ConfigGeneral.qml:206
 #, fuzzy, kde-format
 #| msgid "Recent Applications"
 msgid "Often used applications"
 msgstr "Skorašnji programi"
 
-#: package/contents/ui/ConfigGeneral.qml:205
+#: package/contents/ui/ConfigGeneral.qml:213
 #, fuzzy, kde-format
 #| msgid "Recent Documents"
 msgid "Recent documents"
 msgstr "Skorašnji dokumenti"
 
-#: package/contents/ui/ConfigGeneral.qml:206
+#: package/contents/ui/ConfigGeneral.qml:214
 #, fuzzy, kde-format
 #| msgid "Recent Documents"
 msgid "Often used documents"
 msgstr "Skorašnji dokumenti"
 
-#: package/contents/ui/ConfigGeneral.qml:213
+#: package/contents/ui/ConfigGeneral.qml:221
 #, fuzzy, kde-format
 #| msgid "Recent Documents"
 msgid "Recent contacts"
 msgstr "Skorašnji dokumenti"
 
-#: package/contents/ui/ConfigGeneral.qml:214
+#: package/contents/ui/ConfigGeneral.qml:222
 #, fuzzy, kde-format
 #| msgid "Recent Documents"
 msgid "Often used contacts"
 msgstr "Skorašnji dokumenti"
 
-#: package/contents/ui/ConfigGeneral.qml:220
+#: package/contents/ui/ConfigGeneral.qml:228
 #, kde-format
 msgid "Sort items in categories by:"
 msgstr ""
 
-#: package/contents/ui/ConfigGeneral.qml:221
+#: package/contents/ui/ConfigGeneral.qml:229
 #, fuzzy, kde-format
 #| msgid "Recent Documents"
 msgctxt ""
@@ -167,7 +172,7 @@ msgctxt ""
 msgid "Recently used"
 msgstr "Skorašnji dokumenti"
 
-#: package/contents/ui/ConfigGeneral.qml:221
+#: package/contents/ui/ConfigGeneral.qml:229
 #, fuzzy, kde-format
 #| msgid "Recent Documents"
 msgctxt ""
@@ -175,18 +180,18 @@ msgctxt ""
 msgid "Often used"
 msgstr "Skorašnji dokumenti"
 
-#: package/contents/ui/ConfigGeneral.qml:231
+#: package/contents/ui/ConfigGeneral.qml:239
 #, fuzzy, kde-format
 #| msgid "Search"
 msgid "Search:"
 msgstr "Pretraživanje"
 
-#: package/contents/ui/ConfigGeneral.qml:233
+#: package/contents/ui/ConfigGeneral.qml:241
 #, kde-format
 msgid "Expand search to bookmarks, files and emails"
 msgstr "Proširi pretragu na zabilješke, datoteke i e-poštu"
 
-#: package/contents/ui/ConfigGeneral.qml:241
+#: package/contents/ui/ConfigGeneral.qml:249
 #, kde-format
 msgid "Align search results to bottom"
 msgstr "Svrstajte rezultate pretrage na dno"
@@ -203,7 +208,6 @@ msgid "Type to search..."
 msgstr "Traži..."
 
 #: package/contents/ui/DashboardRepresentation.qml:405
-#: plugin/kastatsfavoritesmodel.cpp:494 plugin/simplefavoritesmodel.cpp:43
 #, fuzzy, kde-format
 #| msgid "Add to Favorites"
 msgid "Favorites"
@@ -220,7 +224,7 @@ msgstr ""
 msgid "Apps & Docs"
 msgstr ""
 
-#: package/contents/ui/main.qml:272
+#: package/contents/ui/main.qml:273
 #, kde-format
 msgid "Edit Applications..."
 msgstr "Izmijeni programe..."
@@ -229,306 +233,3 @@ msgstr "Izmijeni programe..."
 #, kde-format
 msgid "Search..."
 msgstr "Traži..."
-
-#: plugin/actionlist.cpp:95
-#, kde-format
-msgid "Open with:"
-msgstr "Otvori sa:"
-
-#: plugin/actionlist.cpp:108
-#, kde-format
-msgid "Properties"
-msgstr "Podešavanja"
-
-#: plugin/actionlist.cpp:153
-#, kde-format
-msgid "Add to Desktop"
-msgstr "Dodaj na površ"
-
-#: plugin/actionlist.cpp:157
-#, fuzzy, kde-format
-#| msgid "Add to Panel"
-msgid "Add to Panel (Widget)"
-msgstr "Dodaj na panel"
-
-#: plugin/actionlist.cpp:161
-#, kde-format
-msgid "Pin to Task Manager"
-msgstr ""
-
-#: plugin/actionlist.cpp:270 plugin/rootmodel.cpp:390
-#, kde-format
-msgid "Recent Documents"
-msgstr "Skorašnji dokumenti"
-
-#: plugin/actionlist.cpp:280
-#, fuzzy, kde-format
-#| msgid "Recent Documents"
-msgid "Forget Recent Documents"
-msgstr "Skorašnji dokumenti"
-
-#: plugin/actionlist.cpp:336
-#, kde-format
-msgid "Edit Application..."
-msgstr "Podesavanje aplikacije..."
-
-#: plugin/actionlist.cpp:383
-#, fuzzy, kde-format
-#| msgid "Remove '%1'..."
-msgctxt "@action opens a software center with the application"
-msgid "Manage '%1'..."
-msgstr "Ukloni '%1'..."
-
-#: plugin/appentry.cpp:178
-#, kde-format
-msgid "Hide Application"
-msgstr "Sakrij aplikaciju"
-
-#: plugin/appentry.cpp:237
-#, kde-format
-msgctxt "App name (Generic name)"
-msgid "%1 (%2)"
-msgstr "%1 ( %2)"
-
-#: plugin/appentry.cpp:239
-#, kde-format
-msgctxt "Generic name (App name)"
-msgid "%1 (%2)"
-msgstr "%1 ( %2)"
-
-#: plugin/appsmodel.cpp:45 plugin/appsmodel.cpp:69 plugin/computermodel.cpp:110
-#: plugin/computermodel.cpp:242 plugin/recentusagemodel.cpp:149
-#: plugin/recentusagemodel.cpp:209
-#, fuzzy, kde-format
-#| msgid "Hide Application"
-msgid "Applications"
-msgstr "Sakrij aplikaciju"
-
-#: plugin/appsmodel.cpp:165
-#, kde-format
-msgid "Unhide Applications in this Submenu"
-msgstr "Prikaži aplikacije u podmenu-u"
-
-#: plugin/appsmodel.cpp:171
-#, kde-format
-msgid "Unhide Applications in '%1'"
-msgstr "Prikaži aplikacije u '%1'"
-
-#: plugin/computermodel.cpp:104
-#, kde-format
-msgid "Run Command..."
-msgstr ""
-
-#: plugin/computermodel.cpp:108
-#, kde-format
-msgid "Run a command or a search query"
-msgstr ""
-
-#: plugin/computermodel.cpp:161
-#, kde-format
-msgid "Computer"
-msgstr ""
-
-#: plugin/contactentry.cpp:117 plugin/recentcontactsmodel.cpp:93
-#, kde-format
-msgid "Show Contact Information..."
-msgstr ""
-
-#: plugin/recentcontactsmodel.cpp:52
-#, fuzzy, kde-format
-#| msgid "Recent Documents"
-msgid "Contacts"
-msgstr "Skorašnji dokumenti"
-
-#: plugin/recentcontactsmodel.cpp:85
-#, fuzzy, kde-format
-#| msgid "Forget Document"
-msgid "Forget Contact"
-msgstr "Zaboravi dokument"
-
-#: plugin/recentcontactsmodel.cpp:88 plugin/recentcontactsmodel.cpp:165
-#, fuzzy, kde-format
-#| msgid "Forget All Documents"
-msgid "Forget All Contacts"
-msgstr "Zaboravi sve dokumente"
-
-#: plugin/recentusagemodel.cpp:147
-#, kde-format
-msgid "Recently Used"
-msgstr ""
-
-#: plugin/recentusagemodel.cpp:152 plugin/recentusagemodel.cpp:263
-#, fuzzy, kde-format
-#| msgid "Recent Documents"
-msgid "Documents"
-msgstr "Skorašnji dokumenti"
-
-#: plugin/recentusagemodel.cpp:227
-#, kde-format
-msgid "Forget Application"
-msgstr "Zaboravi aplikaciju"
-
-#: plugin/recentusagemodel.cpp:275
-#, kde-format
-msgid "Forget Document"
-msgstr "Zaboravi dokument"
-
-#: plugin/recentusagemodel.cpp:403
-#, fuzzy, kde-format
-#| msgid "Forget All Documents"
-msgid "Forget All"
-msgstr "Zaboravi sve dokumente"
-
-#: plugin/recentusagemodel.cpp:405
-#, kde-format
-msgid "Forget All Applications"
-msgstr "Zaboravi sve aplikacije"
-
-#: plugin/recentusagemodel.cpp:408
-#, kde-format
-msgid "Forget All Documents"
-msgstr "Zaboravi sve dokumente"
-
-#: plugin/rootmodel.cpp:106
-#, kde-format
-msgid "Hide %1"
-msgstr ""
-
-#: plugin/rootmodel.cpp:376
-#, fuzzy, kde-format
-#| msgid "Forget All Applications"
-msgid "All Applications"
-msgstr "Zaboravi sve aplikacije"
-
-#: plugin/rootmodel.cpp:382
-#, fuzzy, kde-format
-#| msgid "Recent Documents"
-msgid "Recent Contacts"
-msgstr "Skorašnji dokumenti"
-
-#: plugin/rootmodel.cpp:391
-#, fuzzy, kde-format
-#| msgid "Recent Documents"
-msgid "Often Used Documents"
-msgstr "Skorašnji dokumenti"
-
-#: plugin/rootmodel.cpp:401
-#, kde-format
-msgid "Recent Applications"
-msgstr "Skorašnji programi"
-
-#: plugin/rootmodel.cpp:402
-#, fuzzy, kde-format
-#| msgid "Recent Applications"
-msgid "Often Used Applications"
-msgstr "Skorašnji programi"
-
-#: plugin/rootmodel.cpp:416
-#, kde-format
-msgid "Power / Session"
-msgstr "Napajanje / Sesija"
-
-#: plugin/runnermodel.cpp:238
-#, fuzzy, kde-format
-#| msgid "Search"
-msgid "Search results"
-msgstr "Pretraživanje"
-
-#: plugin/systementry.cpp:166
-#, kde-format
-msgid "Lock"
-msgstr "Zaključaj"
-
-#: plugin/systementry.cpp:169
-#, kde-format
-msgid "Log Out"
-msgstr ""
-
-#: plugin/systementry.cpp:172 plugin/systementry.cpp:240
-#, kde-format
-msgid "Save Session"
-msgstr "Sačuvaj sesiju"
-
-#: plugin/systementry.cpp:175
-#, kde-format
-msgid "Switch User"
-msgstr ""
-
-#: plugin/systementry.cpp:178
-#, kde-format
-msgctxt "Suspend to RAM"
-msgid "Sleep"
-msgstr ""
-
-#: plugin/systementry.cpp:181
-#, kde-format
-msgid "Hibernate"
-msgstr "Hibernacija"
-
-#: plugin/systementry.cpp:184
-#, kde-format
-msgid "Restart"
-msgstr "Ponovo pokreni"
-
-#: plugin/systementry.cpp:187
-#, fuzzy, kde-format
-#| msgid "Shutdown"
-msgid "Shut Down"
-msgstr "Ugasi"
-
-#: plugin/systementry.cpp:200 plugin/systementry.cpp:203
-#: plugin/systementry.cpp:206 plugin/systementry.cpp:209
-#, fuzzy, kde-format
-#| msgid "New Session"
-msgid "Session"
-msgstr "Nova sesija"
-
-#: plugin/systementry.cpp:212 plugin/systementry.cpp:215
-#: plugin/systementry.cpp:218 plugin/systementry.cpp:221
-#, kde-format
-msgid "System"
-msgstr ""
-
-#: plugin/systementry.cpp:234
-#, kde-format
-msgid "Lock screen"
-msgstr ""
-
-#: plugin/systementry.cpp:237
-#, fuzzy, kde-format
-#| msgid "New Session"
-msgid "End session"
-msgstr "Nova sesija"
-
-#: plugin/systementry.cpp:243
-#, kde-format
-msgid "Start a parallel session as a different user"
-msgstr ""
-
-#: plugin/systementry.cpp:246
-#, fuzzy, kde-format
-#| msgid "Suspend"
-msgid "Suspend to RAM"
-msgstr "Suspenduj"
-
-#: plugin/systementry.cpp:249
-#, fuzzy, kde-format
-#| msgid "Suspend"
-msgid "Suspend to disk"
-msgstr "Suspenduj"
-
-#: plugin/systementry.cpp:252
-#, fuzzy, kde-format
-#| msgid "Restart"
-msgid "Restart computer"
-msgstr "Ponovo pokreni"
-
-#: plugin/systementry.cpp:255
-#, kde-format
-msgid "Turn off computer"
-msgstr ""
-
-#: plugin/systemmodel.cpp:75
-#, kde-format
-msgid "System actions"
-msgstr ""

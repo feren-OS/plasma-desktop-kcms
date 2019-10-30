@@ -19,11 +19,6 @@
 #include "x11_helper.h"
 #include "debug.h"
 
-#define explicit explicit_is_keyword_in_cpp
-#include <xcb/xkb.h>
-#undef explicit
-
-
 #include <QX11Info>
 #include <QCoreApplication>
 #include <QDebug>
@@ -33,7 +28,7 @@
 #include <X11/Xatom.h>
 #include <X11/XKBlib.h>
 #include <X11/extensions/XKBrules.h>
-#include <xcb/xcb.h>
+
 #include <fixx11h.h>
 
 // more information about the limit https://bugs.freedesktop.org/show_bug.cgi?id=19501
@@ -129,14 +124,14 @@ LayoutUnit X11Helper::getCurrentLayout()
     if (!QX11Info::isPlatformX11()) {
         return LayoutUnit();
     }
-	QList<LayoutUnit> currentLayouts = getLayoutsList();
-	unsigned int group = X11Helper::getGroup();
-	if( group < (unsigned int)currentLayouts.size() )
-		return currentLayouts[group];
+    QList<LayoutUnit> currentLayouts = getLayoutsList();
+    unsigned int group = X11Helper::getGroup();
+    if( group < static_cast<unsigned int>(currentLayouts.size()) )
+        return currentLayouts.at(static_cast<int>(group));
 
-	qCWarning(KCM_KEYBOARD) << "Current group number" << group << "is outside of current layout list" <<
-						getLayoutsListAsString(currentLayouts);
-	return LayoutUnit();
+    qCWarning(KCM_KEYBOARD) << "Current group number" << group << "is outside of current layout list" <<
+                               getLayoutsListAsString(currentLayouts);
+    return LayoutUnit();
 }
 
 LayoutSet X11Helper::getCurrentLayouts()
@@ -437,16 +432,16 @@ static QString& stripVariantName(QString& variant)
 LayoutUnit::LayoutUnit(const QString& fullLayoutName)
 {
 	QStringList lv = fullLayoutName.split(LAYOUT_VARIANT_SEPARATOR_PREFIX);
-	layout = lv[0];
-	variant = lv.size() > 1 ? stripVariantName(lv[1]) : QLatin1String("");
+    m_layout = lv[0];
+    m_variant = lv.size() > 1 ? stripVariantName(lv[1]) : QLatin1String("");
 }
 
 QString LayoutUnit::toString() const
 {
-	if( variant.isEmpty() )
-		return layout;
+    if( m_variant.isEmpty() )
+        return m_layout;
 
-	return layout + LAYOUT_VARIANT_SEPARATOR_PREFIX+variant+LAYOUT_VARIANT_SEPARATOR_SUFFIX;
+    return m_layout + LAYOUT_VARIANT_SEPARATOR_PREFIX + m_variant + LAYOUT_VARIANT_SEPARATOR_SUFFIX;
 }
 
 const int LayoutUnit::MAX_LABEL_LENGTH = 3;

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcm_cursortheme\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"POT-Creation-Date: 2019-09-18 03:38+0200\n"
 "PO-Revision-Date: 2019-02-02 11:56+0100\n"
 "Last-Translator: Josep Ma. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
@@ -30,33 +30,33 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "txemaq@gmail.com"
 
-#: kcmcursortheme.cpp:74
+#: kcmcursortheme.cpp:73
 #, kde-format
 msgid "Cursors"
 msgstr "Cursors"
 
-#: kcmcursortheme.cpp:75
+#: kcmcursortheme.cpp:74
 #, kde-format
 msgid "(c) 2003-2007 Fredrik Höglund"
 msgstr "(c) 2003-2007 Fredrik Höglund"
 
-#: kcmcursortheme.cpp:76
+#: kcmcursortheme.cpp:75
 #, kde-format
 msgid "Fredrik Höglund"
 msgstr "Fredrik Höglund"
 
-#: kcmcursortheme.cpp:77
+#: kcmcursortheme.cpp:76
 #, kde-format
 msgid "Marco Martin"
 msgstr "Marco Martin"
 
-#: kcmcursortheme.cpp:244
+#: kcmcursortheme.cpp:243
 #, kde-format
 msgctxt "@item:inlistbox size"
 msgid "Resolution dependent"
 msgstr "Depenent de la resolució"
 
-#: kcmcursortheme.cpp:376
+#: kcmcursortheme.cpp:375
 #, kde-format
 msgid ""
 "You have to restart the Plasma session for these changes to take effect."
@@ -64,27 +64,27 @@ msgstr ""
 "Cal tornar a engegar la sessió del Plasma perquè aquests canvis tinguin "
 "efecte."
 
-#: kcmcursortheme.cpp:511
+#: kcmcursortheme.cpp:510
 #, kde-format
 msgid "Unable to create a temporary file."
 msgstr "No s'ha pogut crear el fitxer temporal."
 
-#: kcmcursortheme.cpp:523
+#: kcmcursortheme.cpp:522
 #, kde-format
 msgid "Unable to download the icon theme archive: %1"
 msgstr "No s'ha pogut baixar l'arxiu del tema d'icones: %1"
 
-#: kcmcursortheme.cpp:554
+#: kcmcursortheme.cpp:553
 #, kde-format
 msgid "The file is not a valid icon theme archive."
 msgstr "El fitxer no és un arxiu vàlid de tema d'icones."
 
-#: kcmcursortheme.cpp:561
+#: kcmcursortheme.cpp:560
 #, kde-format
 msgid "Failed to create 'icons' folder."
 msgstr "Ha fallat en crear la carpeta «Icones»."
 
-#: kcmcursortheme.cpp:569
+#: kcmcursortheme.cpp:568
 #, kde-format
 msgid ""
 "A theme named %1 already exists in your icon theme folder. Do you want "
@@ -93,17 +93,17 @@ msgstr ""
 "A la vostra carpeta per a temes d'icones ja existeix un tema anomenat %1. "
 "Desitgeu substituir-lo per aquest?"
 
-#: kcmcursortheme.cpp:573
+#: kcmcursortheme.cpp:572
 #, kde-format
 msgid "Overwrite Theme?"
 msgstr "Sobreescriure el tema?"
 
-#: kcmcursortheme.cpp:599
+#: kcmcursortheme.cpp:598
 #, kde-format
 msgid "Theme installed successfully."
 msgstr "El tema s'ha instal·lat correctament."
 
-#: kcmcursortheme.cpp:615
+#: kcmcursortheme.cpp:614
 #, kde-format
 msgid ""
 "<qt>You cannot delete the theme you are currently using.<br />You have to "
@@ -112,7 +112,7 @@ msgstr ""
 "<qt>No podeu suprimir el tema que esteu usant actualment.<br />Primer heu de "
 "canviar a un altre tema.</qt>"
 
-#: kcmcursortheme.cpp:621
+#: kcmcursortheme.cpp:620
 #, kde-format
 msgid ""
 "<qt>Are you sure you want to remove the <i>%1</i> cursor theme?<br />This "
@@ -121,7 +121,7 @@ msgstr ""
 "<qt>Esteu segur que voleu eliminar el tema de cursor <i>%1</i>?<br />Això "
 "esborrarà tots els fitxers instal·lats per aquest tema.</qt>"
 
-#: kcmcursortheme.cpp:627
+#: kcmcursortheme.cpp:626
 #, kde-format
 msgid "Confirmation"
 msgstr "Confirmació"

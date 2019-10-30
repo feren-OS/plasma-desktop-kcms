@@ -5,8 +5,9 @@
   <project_license>GPL-2.0+</project_license>
   <name>KDE Plasma Desktop</name>
   <name xml:lang="ar">سطح مكتب بلازما كدي</name>
+  <name xml:lang="ast">Escritoriu Plasma de KDE</name>
   <name xml:lang="ca">Escriptori Plasma del KDE</name>
-  <name xml:lang="ca-valencia">Escriptori Plasma del KDE</name>
+  <name xml:lang="ca-valencia">Escriptori Plasma de KDE</name>
   <name xml:lang="cs">Plocha KDE Plasma</name>
   <name xml:lang="da">KDE Plasma skrivebordsmiljø</name>
   <name xml:lang="de">KDE-Plasma-Arbeitsfläche</name>
@@ -23,6 +24,7 @@
   <name xml:lang="id">KDE Plasma Desktop</name>
   <name xml:lang="it">Desktop KDE Plasma</name>
   <name xml:lang="ko">KDE Plasma 데스크톱</name>
+  <name xml:lang="lt">KDE Plasma darbalaukis</name>
   <name xml:lang="nb">KDE Plasma-skrivebord</name>
   <name xml:lang="nl">KDE Plasma Bureaublad</name>
   <name xml:lang="nn">KDE Plasma-skrivebord</name>
@@ -44,8 +46,9 @@
   <name xml:lang="zh-CN">KDE Plasma 桌面</name>
   <name xml:lang="zh-TW">KDE Plasma 桌面</name>
   <summary>KDE's complete desktop experience. Simple by default, powerful when needed</summary>
+  <summary xml:lang="ast">La esperiencia d'escritoriu completa de KDE. Cenciellu por defeutu, potente cuando se precisa</summary>
   <summary xml:lang="ca">Experiència completa de l'escriptori KDE. Senzilla per omissió, potent quan cal</summary>
-  <summary xml:lang="ca-valencia">Experiència completa de l'escriptori KDE. Senzilla per omissió, potent quan cal</summary>
+  <summary xml:lang="ca-valencia">Experiència completa de l'escriptori KDE. Senzilla per defecte, potent quan cal</summary>
   <summary xml:lang="da">KDE's komplette desktop-oplevelse. Simpelt som standard, kraftfuldt når det behøves</summary>
   <summary xml:lang="de">Das umfassende Arbeitsflächen-Erlebnis von KDE. Standardmäßig einfach, bei Bedarf leistungsstark</summary>
   <summary xml:lang="el">Η πλήρης εμπειρία επιφάνειας εργασίας του KDE. Προκαθορισμένα απλή, πανίσχυρη όταν χρειάζεται.</summary>
@@ -54,10 +57,11 @@
   <summary xml:lang="eu">KDEren mahaigain osoko esperientzia. Erraza izatez, ahaltsua behar denean</summary>
   <summary xml:lang="fi">KDE:n täydellinen työpöytäkokemus. Oletuksena yksinkertainen, tarvittaessa tehokas</summary>
   <summary xml:lang="fr">L'expérience de bureau complète de KDE. Simple par défaut, puissant si nécessaire</summary>
-  <summary xml:lang="gl">Experiencia de escritorio completa de KDE. Simple de maneira predeterminada, potente cando cómpre</summary>
+  <summary xml:lang="gl">Experiencia de escritorio completa de KDE. Simple de primeiras, potente cando cómpre</summary>
   <summary xml:lang="id">KDE adalah desktop lengkap yang berpengalaman. Sederhana secara baku, bertenaga ketika diperlukan</summary>
   <summary xml:lang="it">L'esperienza completa del desktop da KDE. Semplice nelle scelte predefinite, potente quando c'è bisogno</summary>
   <summary xml:lang="ko">KDE 데스크톱 사용자 환경입니다. 첫 시작은 간단하게, 필요할 때에는 강력하게</summary>
+  <summary xml:lang="lt">Pilnas KDE darbalaukio aplinkos patyrimas. Paprastas pagal numatymą, galingas to prireikus</summary>
   <summary xml:lang="nb">En komplett KDE-opplevelse – enkel som standard og kraftig når nødvendig</summary>
   <summary xml:lang="nl">De complete bureaubladervaring van KDE. Standaard eenvoudig, krachtig indien nodig</summary>
   <summary xml:lang="nn">Komplett KDE-oppleving – enkel som standard og kraftig når nødvendig</summary>
@@ -86,8 +90,9 @@
   <screenshots>
     <screenshot type="default">
       <caption>Plasma being used as a desktop</caption>
+      <caption xml:lang="ast">Plasma usándose como escritoriu</caption>
       <caption xml:lang="ca">Fa servir el Plasma com a escriptori</caption>
-      <caption xml:lang="ca-valencia">Fa servir el Plasma com a escriptori</caption>
+      <caption xml:lang="ca-valencia">S'utilitza Plasma com a escriptori</caption>
       <caption xml:lang="cs">Plasma je použita jako pracovní prostředí</caption>
       <caption xml:lang="da">Plasma bruges som skrivebord</caption>
       <caption xml:lang="de">Plasma als eine Arbeitsfläche benutzt</caption>
@@ -101,6 +106,7 @@
       <caption xml:lang="id">Plasma telah digunakan sebagai desktop</caption>
       <caption xml:lang="it">Plasma usato come desktop</caption>
       <caption xml:lang="ko">Plasma를 데스크톱으로 사용함</caption>
+      <caption xml:lang="lt">Plasma yra naudojama kaip darbalaukis</caption>
       <caption xml:lang="nb">Plasma blir brukt som skrivebord</caption>
       <caption xml:lang="nl">Plasma gebruikt wordend als een bureaublad</caption>
       <caption xml:lang="nn">Plasma vert brukt som skrivebord</caption>
@@ -124,9 +130,9 @@
     </screenshot>
   </screenshots>
   <releases>
-    <release version="5.16.4" date="2019-07-30"/>
-    <release version="5.16.3" date="2019-07-09"/>
-    <release version="5.16.2" date="2019-06-25"/>
-    <release version="5.16.1" date="2019-06-18"/>
+    <release version="5.17.2" date="2019-10-29"/>
+    <release version="5.17.1" date="2019-10-22"/>
+    <release version="5.17.0" date="2019-10-15"/>
+    <release version="5.16.5" date="2019-09-03"/>
   </releases>
 </component>

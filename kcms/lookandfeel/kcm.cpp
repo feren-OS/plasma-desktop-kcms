@@ -23,7 +23,6 @@
 #include "config-kcm.h"
 #include "config-workspace.h"
 #include <klauncher_iface.h>
-#include <cstring>
 
 #include <KAboutData>
 #include <KSharedConfig>
@@ -68,13 +67,9 @@ KCMLookandFeel::KCMLookandFeel(QObject* parent, const QVariantList& args)
     , m_resetDefaultLayout(false)
     , m_applyWindowDecoration(true)
 {
-    //This flag seems to be needed in order for QQuickWidget to work
-    //see https://bugreports.qt-project.org/browse/QTBUG-40765
-    //also, it seems to work only if set in the kcm, not in the systemsettings' main
-    qApp->setAttribute(Qt::AA_DontCreateNativeWidgetSiblings);
     qmlRegisterType<QStandardItemModel>();
     qmlRegisterType<KCMLookandFeel>();
-    KAboutData* about = new KAboutData(QStringLiteral("kcm_lookandfeel"), i18n("Look and Feel"),
+    KAboutData* about = new KAboutData(QStringLiteral("kcm_lookandfeel"), i18n("Global Theme"),
                                        QStringLiteral("0.1"), QString(), KAboutLicense::LGPL);
     about->addAuthor(i18n("Marco Martin"), QString(), QStringLiteral("mart@kde.org"));
     setAboutData(about);
@@ -110,7 +105,7 @@ void KCMLookandFeel::getNewStuff(QQuickItem *ctx)
 {
     if (!m_newStuffDialog) {
         m_newStuffDialog = new KNS3::DownloadDialog( QLatin1String("lookandfeel.knsrc") );
-        m_newStuffDialog.data()->setWindowTitle(i18n("Download New Look and Feel Themes"));
+        m_newStuffDialog.data()->setWindowTitle(i18n("Download New Global Themes"));
         m_newStuffDialog->setWindowModality(Qt::WindowModal);
         m_newStuffDialog->winId(); // so it creates the windowHandle();
         connect(m_newStuffDialog.data(), &KNS3::DownloadDialog::accepted, this,  &KCMLookandFeel::loadModel);
@@ -280,56 +275,22 @@ void KCMLookandFeel::save()
     m_configGroup.writeEntry("LookAndFeelPackage", m_selectedPlugin);
 
     if (m_resetDefaultLayout) {
-        if (!package.filePath("defaults").isEmpty()) {
-            KSharedConfigPtr conf = KSharedConfig::openConfig(package.filePath("defaults"));
-            KConfigGroup cg(conf, "FerenThemer");
-            cg = KConfigGroup(&cg, "Options");
-            // Cleanly quit Latte Dock
-            QDBusMessage message = QDBusMessage::createMethodCall(QStringLiteral("org.kde.lattedock"), QStringLiteral("/MainApplication"),
-                                                    QStringLiteral("org.qtproject.Qt.QCoreApplication"), QStringLiteral("quit"));
-            QDBusConnection::sessionBus().call(message, QDBus::NoBlock);
-            if (cg.readEntry("MetaType", QString()) == "Latte") {
-                std::system("/usr/bin/feren-theme-tool-plasma lattemeta");
-            } else {
-                std::system("/usr/bin/feren-theme-tool-plasma revertmeta");
-            }
-        }
-        // Disabled because it didn't seem to want to change the desktop type used reliably when switching to Ubuntu Unity Layout
-//         QDBusMessage message = QDBusMessage::createMethodCall(QStringLiteral("org.kde.plasmashell"), QStringLiteral("/PlasmaShell"),
-//                                                    QStringLiteral("org.kde.PlasmaShell"), QStringLiteral("loadLookAndFeelDefaultLayout"));
-// 
-//         QList<QVariant> args;
-//         args << m_selectedPlugin;
-//         message.setArguments(args);
-// 
-//         QDBusConnection::sessionBus().call(message, QDBus::NoBlock);
-        //...so here's the substitute
-        std::system("/usr/bin/feren-theme-tool-plasma resetlayout");
+        QDBusMessage message = QDBusMessage::createMethodCall(QStringLiteral("org.kde.plasmashell"), QStringLiteral("/PlasmaShell"),
+                                                   QStringLiteral("org.kde.PlasmaShell"), QStringLiteral("loadLookAndFeelDefaultLayout"));
+
+        QList<QVariant> args;
+        args << m_selectedPlugin;
+        message.setArguments(args);
+
+        QDBusConnection::sessionBus().call(message, QDBus::NoBlock);
     }
-    
+
     if (!package.filePath("defaults").isEmpty()) {
         KSharedConfigPtr conf = KSharedConfig::openConfig(package.filePath("defaults"));
         KConfigGroup cg(conf, "kdeglobals");
         cg = KConfigGroup(&cg, "KDE");
         if (m_applyWidgetStyle) {
-            KConfigGroup cg2(conf, "kvantum.kvconfig");
-            cg2 = KConfigGroup(&cg2, "General");
-            setKvantum(cg2.readEntry("theme",QString()));
             setWidgetStyle(cg.readEntry("widgetStyle", QString()));
-        }
-        
-        if (m_resetDefaultLayout) {
-            KConfigGroup cg(conf, "kwinrc");
-            cg = KConfigGroup(&cg, "org.kde.kdecoration2");
-            setWindowButtonsLayout(cg.readEntry("ButtonsOnLeft", QString()), cg.readEntry("ButtonsOnRight", QString()));
-            
-            cg = KConfigGroup(conf, "lattedockrc");
-            cg = KConfigGroup(&cg, "UniversalSettings");
-            setLatteLayout(cg.readEntry("currentLayout", QString()));
-            
-            KConfigGroup cg2(conf, "kwinrc");
-            cg2 = KConfigGroup(&cg2, "Windows");
-            setBorderlessMaximised(cg2.readEntry("BorderlessMaximizedWindows", QString()));
         }
 
         if (m_applyColors) {
@@ -393,10 +354,6 @@ void KCMLookandFeel::save()
             cg = KConfigGroup(&cg, "Mouse");
             setCursorTheme(cg.readEntry("cursorTheme", QString()));
         }
-        
-        // Feren OS addition to trigger Themer theme change //
-        //std::string selectedtheme = m_selectedPlugin.toStdString();
-        //std::system(("/usr/bin/themer-file-apply-kde --apply-theme "+selectedtheme).c_str());
 
         if (m_applyWindowSwitcher) {
             cg = KConfigGroup(conf, "kwinrc");
@@ -419,27 +376,14 @@ void KCMLookandFeel::save()
             setWindowDecoration(cg.readEntry("library", QStringLiteral("org.kde.kwin.aurorae")), cg.readEntry("theme", QString()));
 #endif
         }
-        
-        cg = KConfigGroup(conf, "FerenThemer");
-        cg = KConfigGroup(&cg, "Options");
-        setDarkDeco(cg.readEntry("DarkAppsDecoColourScheme", QString()));
-        if (m_resetDefaultLayout) {
-            setFilesLayout(cg.readEntry("FilesStyle", QString()));
-        }
 
         // Reload KWin if something changed, but only once.
-        if (m_applyWindowSwitcher || m_applyDesktopSwitcher || m_applyWindowDecoration || m_resetDefaultLayout) {
+        if (m_applyWindowSwitcher || m_applyDesktopSwitcher || m_applyWindowDecoration) {
             QDBusMessage message = QDBusMessage::createSignal(QStringLiteral("/KWin"),
                                                     QStringLiteral("org.kde.KWin"),
                                                     QStringLiteral("reloadConfig"));
             QDBusConnection::sessionBus().send(message);
         }
-        
-        cg = KConfigGroup(conf, "GTK");
-        cg = KConfigGroup(&cg, "Settings");
-        setGTK(cg.readEntry("gtk-theme-name", QString()));
-        
-        std::system("/usr/bin/feren-theme-tool-plasma triggerxsettingsd");
 
         //autostart
         if (m_resetDefaultLayout) {
@@ -475,111 +419,11 @@ void KCMLookandFeel::save()
                 }
             }
         }
-        //TODO: option to enable/disable apply? they don't seem required by UI design
-        cg = KConfigGroup(conf, "ksplashrc");
-        cg = KConfigGroup(&cg, "KSplash");
-        QString splashScreen = (cg.readEntry("Theme", QString()));
-        // Retain compatibility with certain Look & Feels - L&Fs without a specified Splash Screen will have the splash screen set to their theme name instead
-        if (!splashScreen.isEmpty()) {
-            setSplashScreen(splashScreen);
-        } else {
-            setSplashScreen(m_selectedPlugin);
-        }
-    } else {
-        // The old behaviour was to set the Splash Screen regardless of whether there was a defaults file or not, therefore we'll use the old behaviour still if there's NO defaults file found
-        setSplashScreen(m_selectedPlugin);
     }
 
     //TODO: option to enable/disable apply? they don't seem required by UI design
+    setSplashScreen(m_selectedPlugin);
     setLockScreen(m_selectedPlugin);
-
-    m_configGroup.sync();
-    m_package.setPath(m_selectedPlugin);
-    runRdb(KRdbExportQtColors | KRdbExportGtkTheme | KRdbExportColors | KRdbExportQtSettings | KRdbExportXftSettings);
-}
-
-void KCMLookandFeel::saveThemeColouriser()
-{
-    Plasma::Package package = Plasma::PluginLoader::self()->loadPackage(QStringLiteral("Plasma/LookAndFeel"));
-    package.setPath(m_selectedPlugin);
-
-    if (!package.isValid()) {
-        return;
-    }
-    
-    if (!package.filePath("defaults").isEmpty()) {
-        KSharedConfigPtr conf = KSharedConfig::openConfig(package.filePath("defaults"));
-        KConfigGroup cg(conf, "kdeglobals");
-        cg = KConfigGroup(&cg, "KDE");
-        if (m_applyWidgetStyle) {
-            KConfigGroup cg2(conf, "kvantum.kvconfig");
-            cg2 = KConfigGroup(&cg2, "General");
-            setKvantum(cg2.readEntry("theme",QString()));
-            setWidgetStyle(cg.readEntry("widgetStyle", QString()));
-        }
-        
-        if (m_applyColors) {
-            QString colorsFile = package.filePath("colors");
-            KConfigGroup cg(conf, "kdeglobals");
-            cg = KConfigGroup(&cg, "General");
-            QString colorScheme = cg.readEntry("ColorScheme", QString());
-
-            if (!colorsFile.isEmpty()) {
-                if (!colorScheme.isEmpty()) {
-                    setColors(colorScheme, colorsFile);
-                } else {
-                    setColors(package.metadata().name(), colorsFile);
-                }
-            } else if (!colorScheme.isEmpty()) {
-                colorScheme.remove(QLatin1Char('\'')); // So Foo's does not become FooS
-                QRegExp fixer(QStringLiteral("[\\W,.-]+(.?)"));
-                int offset;
-                while ((offset = fixer.indexIn(colorScheme)) >= 0) {
-                    colorScheme.replace(offset, fixer.matchedLength(), fixer.cap(1).toUpper());
-                }
-                colorScheme.replace(0, 1, colorScheme.at(0).toUpper());
-
-                //NOTE: why this loop trough all the scheme files?
-                //the scheme theme name is an heuristic, there is no plugin metadata whatsoever.
-                //is based on the file name stripped from weird characters or the
-                //eventual id- prefix store.kde.org puts, so we can just find a
-                //theme that ends as the specified name
-                bool schemeFound = false;
-                const QStringList schemeDirs = QStandardPaths::locateAll(QStandardPaths::GenericDataLocation, QStringLiteral("color-schemes"), QStandardPaths::LocateDirectory);
-                for (const QString &dir : schemeDirs) {
-                    const QStringList fileNames = QDir(dir).entryList(QStringList()<<QStringLiteral("*.colors"));
-                    for (const QString &file : fileNames) {
-                        if (file.endsWith(colorScheme + QStringLiteral(".colors"))) {
-                            setColors(colorScheme, dir + QLatin1Char('/') + file);
-                            schemeFound = true;
-                            break;
-                        }
-                    }
-                    if (schemeFound) {
-                        break;
-                    }
-                }
-            }
-        }
-        
-        cg = KConfigGroup(conf, "GTK");
-        cg = KConfigGroup(&cg, "Settings");
-        setGTK(cg.readEntry("gtk-theme-name", QString()));
-        
-        std::system("/usr/bin/feren-theme-tool-plasma triggerxsettingsd");
-
-        if (m_applyIcons) {
-            cg = KConfigGroup(conf, "kdeglobals");
-            cg = KConfigGroup(&cg, "Icons");
-            setIcons(cg.readEntry("Theme", QString()));
-        }
-
-        if (m_applyPlasmaTheme) {
-            cg = KConfigGroup(conf, "plasmarc");
-            cg = KConfigGroup(&cg, "Theme");
-            setPlasmaTheme(cg.readEntry("name", QString()));
-        }
-    }
 
     m_configGroup.sync();
     m_package.setPath(m_selectedPlugin);
@@ -627,35 +471,6 @@ void KCMLookandFeel::setColors(const QString &scheme, const QString &colorFile)
     KGlobalSettings::self()->emitChange(KGlobalSettings::PaletteChanged);
 }
 
-
-void KCMLookandFeel::setKvantum(const QString &theme)
-{
-    if (theme.isEmpty()) {
-        return;
-    }
-
-    KConfig kvantumconfig(QString("Kvantum/kvantum.kvconfig"));
-    KConfigGroup cg(&kvantumconfig, "General");
-    cg.writeEntry("theme", theme);
-    cg.sync();
-}
-
-void KCMLookandFeel::setBorderlessMaximised(const QString &theme)
-{
-    
-    KConfig kwinconfig(QString("kwinrc"));
-    KConfigGroup cg(&kwinconfig, "Windows");
-    
-    if (theme.isEmpty()) {
-        cg.writeEntry("BorderlessMaximizedWindows", "false");
-        cg.sync();
-        return;
-    }
-    
-    cg.writeEntry("BorderlessMaximizedWindows", theme);
-    cg.sync();
-}
-
 void KCMLookandFeel::setIcons(const QString &theme)
 {
     if (theme.isEmpty()) {
@@ -669,68 +484,6 @@ void KCMLookandFeel::setIcons(const QString &theme)
     for (int i=0; i < KIconLoader::LastGroup; i++) {
         KIconLoader::emitChange(KIconLoader::Group(i));
     }
-    
-    KConfig gtkconfig(QString("gtk-3.0/settings.ini"));
-    KConfigGroup cg2(&gtkconfig, "Settings");
-    cg2.writeEntry("gtk-icon-theme-name", theme);
-    cg2.sync();
-}
-
-void KCMLookandFeel::setGTK(const QString &theme)
-{
-    if (theme.isEmpty()) {
-        return;
-    }
-    
-//     KConfig gtkconfig(QString("gtk-3.0/settings.ini"));
-//     KConfigGroup cg(&gtkconfig, "Settings");
-//     cg.writeEntry("gtk-theme-name", theme);
-//     cg.sync();
-    std::string selectedtheme = theme.toStdString();
-    std::system(("/usr/bin/plasma-gtk-apply '"+selectedtheme+"' --no-xsettings").c_str());
-}
-
-void KCMLookandFeel::setLatteLayout(const QString &theme)
-{
-    
-    if (theme.isEmpty()) {
-        return;
-    }
-    
-    if (QString(theme) != "None") {
-        KConfig config(QString("lattedockrc"));
-        KConfigGroup cg(&config, "UniversalSettings");
-        //lastNonAssignedLayout also needs to be changed as otherwise Latte switches back to the layout that lastNonAssignedLayout is currently set to when loading up
-        cg.writeEntry("currentLayout", theme);
-        cg.writeEntry("lastNonAssignedLayout", theme);
-        cg.sync();
-        QDBusMessage message = QDBusMessage::createMethodCall(QStringLiteral("org.kde.lattedock"), QStringLiteral("/Latte"),
-                                                    QStringLiteral("org.kde.LatteDock"), QStringLiteral("switchToLayout"));
- 
-         QList<QVariant> args;
-         args << theme;
-         message.setArguments(args);
- 
-         QDBusConnection::sessionBus().call(message, QDBus::NoBlock);
-    } else {
-        // Disable Latte Dock's autostarting
-        KAutostart as("org.kde.latte-dock");
-        as.setAutostarts(false);
-        // Cleanly quit Latte Dock
-        QDBusMessage message = QDBusMessage::createMethodCall(QStringLiteral("org.kde.lattedock"), QStringLiteral("/MainApplication"),
-                                                    QStringLiteral("org.qtproject.Qt.QCoreApplication"), QStringLiteral("quit"));
-        QDBusConnection::sessionBus().call(message, QDBus::NoBlock);
-    }
-}
-
-void KCMLookandFeel::setFilesLayout(const QString &theme)
-{
-    if (theme.isEmpty()) {
-        return;
-    }
-    
-    std::string selectedtheme = theme.toStdString();
-    std::system(("/usr/bin/feren-theme-tool-plasma setnemo "+selectedtheme).c_str());
 }
 
 void KCMLookandFeel::setPlasmaTheme(const QString &theme)
@@ -756,13 +509,6 @@ void KCMLookandFeel::setCursorTheme(const QString themeName)
     KConfigGroup cg(&config, "Mouse");
     cg.writeEntry("cursorTheme", themeName);
     cg.sync();
-    
-//     KConfig gtkconfig(QString("gtk-3.0/settings.ini"));
-//     KConfigGroup cg2(&gtkconfig, "Settings");
-//     cg2.writeEntry("gtk-cursor-theme-name", themeName);
-//     cg2.sync();
-    std::string selectedtheme = themeName.toStdString();
-    std::system(("/usr/bin/plasma-gtkcursor-apply '"+selectedtheme+"' --no-xsettings").c_str());
 
     // Require the Xcursor version that shipped with X11R6.9 or greater, since
     // in previous versions the Xfixes code wasn't enabled due to a bug in the
@@ -968,11 +714,6 @@ void KCMLookandFeel::setWindowDecoration(const QString &library, const QString &
     KConfig config(QStringLiteral("kwinrc"));
     KConfigGroup cg(&config, "org.kde.kdecoration2");
     cg.writeEntry("library", library);
-    if (QString(library) == "org.kde.kwin.aurorae") {
-        std::system("/usr/bin/feren-theme-tool-plasma disableshadowfix");
-    } else {
-        std::system("/usr/bin/feren-theme-tool-plasma shadowfix");
-    }
     cg.writeEntry("theme", theme);
     
     cg.sync();
@@ -981,40 +722,6 @@ void KCMLookandFeel::setWindowDecoration(const QString &library, const QString &
                                                       QStringLiteral("org.kde.KWin"),
                                                       QStringLiteral("reloadConfig"));
     QDBusConnection::sessionBus().send(message);
-}
-
-void KCMLookandFeel::setWindowButtonsLayout(const QString &leftbtns, const QString &rightbtns)
-{
-    if (leftbtns.isEmpty() && rightbtns.isEmpty()) {
-        return;
-    }
-    
-    KConfig config(QStringLiteral("kwinrc"));
-    KConfigGroup cg(&config, "org.kde.kdecoration2");
-    cg.writeEntry("ButtonsOnLeft", leftbtns);
-    cg.writeEntry("ButtonsOnRight", rightbtns);
-    
-    cg.sync();
-    // Reload KWin.
-    QDBusMessage message = QDBusMessage::createSignal(QStringLiteral("/KWin"),
-                                                      QStringLiteral("org.kde.KWin"),
-                                                      QStringLiteral("reloadConfig"));
-    QDBusConnection::sessionBus().send(message);
-    
-    std::string leftbuttons = leftbtns.toStdString();
-    std::string rightbuttons = rightbtns.toStdString();
-    std::system(("/usr/bin/plasma-wmlayout-apply "+leftbuttons+":"+rightbuttons+" --gtk-only").c_str());
-    
-}
-
-void KCMLookandFeel::setDarkDeco(const QString &theme)
-{
-    if (theme.isEmpty()) {
-        return;
-    }
-    
-    std::string selectedtheme = theme.toStdString();
-    std::system(("/usr/bin/feren-theme-tool-plasma setdarktheme '"+selectedtheme+"'").c_str());
 }
 
 void KCMLookandFeel::setApplyColors(bool apply)

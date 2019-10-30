@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmcomponentchooser\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"POT-Creation-Date: 2019-09-18 03:38+0200\n"
 "PO-Revision-Date: 2009-05-06 09:51+0700\n"
 "Last-Translator: Khoem Sokhem <khoemsokhem@khmeros.info>\n"
 "Language-Team: Khmer <support@khmeros.info>\n"
@@ -69,19 +69,19 @@ msgstr "ក្នុង​កម្មវិធី​រុករក​ខាង
 msgid "..."
 msgstr "..."
 
-#: componentchooser.cpp:134
+#: componentchooser.cpp:133
 #, kde-format
 msgid "Unknown"
 msgstr "មិន​ស្គាល់"
 
-#: componentchooser.cpp:151
+#: componentchooser.cpp:150
 #, kde-format
 msgid ""
 "Choose from the list below which component should be used by default for the "
 "%1 service."
 msgstr "ជ្រើស​ពី​បញ្ជី​ខាងក្រោម​នូវ​សមាសភាគ​ដែល​គួរ​ត្រូវ​ប្រើ​ជា​លំនាំ​ដើម​សម្រាប់​សេវា %1 ។"
 
-#: componentchooser.cpp:183
+#: componentchooser.cpp:182
 #, kde-format
 msgid ""
 "<qt>You changed the default component of your choice, do want to save that "
@@ -90,7 +90,7 @@ msgstr ""
 "<qt>អ្នក​បាន​ផ្លាស់​ប្តូរ​សមាសភាគ​លំនាំ​ដើម​នៃ​ជម្រើស​របស់​អ្នក តើ​អ្នក​ចង់​រក្សាទុក​ការ​ផ្លាស់ប្តូរ​នោះ ឥឡូវ​ ឬ​"
 "ទេ?</qt>"
 
-#: componentchooser.cpp:188
+#: componentchooser.cpp:187
 #, kde-format
 msgid "No description available"
 msgstr "មិន​មាន​សេចក្ដី​ពិពណ៌នា"
@@ -155,7 +155,7 @@ msgstr "ជ្រើស​កម្មវិធី​រុករក​អ៊ិ
 msgid "Select preferred email client:"
 msgstr "ជ្រើស​កម្មវិធី​អ៊ីមែល​ដែល​ចូលចិត្ត ៖"
 
-#: componentchooserterminal.cpp:104
+#: componentchooserterminal.cpp:102
 #, kde-format
 msgid "Select preferred terminal application:"
 msgstr "ជ្រើស​កម្មវិធី​ស្ថានីយ​ដែល​ចូលចិត្ត ៖"

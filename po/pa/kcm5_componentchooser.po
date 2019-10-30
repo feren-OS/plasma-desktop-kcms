@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmcomponentchooser\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"POT-Creation-Date: 2019-09-18 03:38+0200\n"
 "PO-Revision-Date: 2011-01-05 21:24+0530\n"
 "Last-Translator: A S Alam <aalam@users.sf.net>\n"
 "Language-Team: Punjabi/Panjabi <punjab-l10n@list.sf.net>\n"
@@ -64,19 +64,19 @@ msgstr "ਇਹ ਬਰਾਊਜ਼ਰ ਵਿੱਚ:"
 msgid "..."
 msgstr "..."
 
-#: componentchooser.cpp:134
+#: componentchooser.cpp:133
 #, kde-format
 msgid "Unknown"
 msgstr "ਅਣਜਾਣ"
 
-#: componentchooser.cpp:151
+#: componentchooser.cpp:150
 #, kde-format
 msgid ""
 "Choose from the list below which component should be used by default for the "
 "%1 service."
 msgstr "ਹੇਠ ਦਿੱਤੀ ਲਿਸਟ ਵਿੱਚੋਂ ਸਰਵਿਸ %1 ਲਈ ਡਿਫਾਲਟ ਰੂਪ ਵਿੱਚ ਵਰਤੇ ਜਾਣ ਵਾਲੇ ਭਾਗ ਦੀ ਚੋਣ ਕਰੋ।"
 
-#: componentchooser.cpp:183
+#: componentchooser.cpp:182
 #, kde-format
 msgid ""
 "<qt>You changed the default component of your choice, do want to save that "
@@ -85,7 +85,7 @@ msgstr ""
 "<qt>ਤੁਸੀਂ ਆਪਣੀ ਚੋਣ ਮੁਤਾਬਕ ਡਿਫਾਲਟ ਭਾਗ ਤਬਦੀਲ ਕਰ ਦਿੱਤਾ ਹੈ। ਕੀ ਤੁਸੀਂ ਤਬਦੀਲੀਆਂ ਨੂੰ ਹੁਣ ਸੰਭਾਲਣਾ "
 "ਚਾਹੁੰਦੇ ਹੋ?</qt>"
 
-#: componentchooser.cpp:188
+#: componentchooser.cpp:187
 #, kde-format
 msgid "No description available"
 msgstr "ਕੋਈ ਵੇਰਵਾ ਉਪਲੱਬਧ ਨਹੀਂ ਹੈ"
@@ -134,7 +134,7 @@ msgstr "ਪਸੰਦੀਦਾ ਵੈੱਬ ਬਰਾਊਜ਼ਰ ਐਪਲੀਕ
 msgid "Select preferred email client:"
 msgstr "ਪਸੰਦੀਦਾ ਈ-ਮੇਲ ਕਲਾਇਟ ਚੁਣੋ:"
 
-#: componentchooserterminal.cpp:104
+#: componentchooserterminal.cpp:102
 #, kde-format
 msgid "Select preferred terminal application:"
 msgstr "ਪਸੰਦੀਦਾ ਟਰਮੀਨਲ ਐਪਲੀਕੇਸ਼ਨ ਚੁਣੋ:"

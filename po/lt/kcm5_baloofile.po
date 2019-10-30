@@ -9,9 +9,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: l 10n\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-30 07:24+0200\n"
-"PO-Revision-Date: 2017-06-25 01:08+0200\n"
-"Last-Translator: Mindaugas Baranauskas <opensuse.lietuviu.kalba@gmail.com>\n"
+"POT-Creation-Date: 2019-05-30 03:16+0200\n"
+"PO-Revision-Date: 2019-06-19 02:15+0300\n"
+"Last-Translator: Moo\n"
 "Language-Team: Lithuanian <kde-i18n-lt@kde.org>\n"
 "Language: lt\n"
 "MIME-Version: 1.0\n"
@@ -19,24 +19,24 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : n%10>=2 && (n%100<10 || n"
 "%100>=20) ? 1 : n%10==0 || (n%100>10 && n%100<20) ? 2 : 3);\n"
-"X-Generator: Lokalize 2.0\n"
+"X-Generator: Poedit 2.0.6\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "Liudas Ališauskas"
+msgstr "Liudas Ališauskas, Moo"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "liudas@akmc.lt"
+msgstr "liudas@akmc.lt, <>"
 
 #. i18n: ectx: property (text), widget (QLabel, m_mainLabel)
 #: configwidget.ui:26
 #, kde-format
 msgid ""
 "File Search helps you quickly locate all your files based on their content"
-msgstr "Failo paieška leidžia Jums greitai rasti failus pagal jų turinį"
+msgstr "Failų paieška leidžia jums greitai rasti failus pagal jų turinį"
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_enableCheckbox)
 #: configwidget.ui:38
@@ -52,15 +52,14 @@ msgstr "Taip pat indeksuoti failų turinį"
 
 #. i18n: ectx: property (text), widget (QLabel, m_excludeLabel)
 #: configwidget.ui:76
-#, fuzzy, kde-format
-#| msgid "Do not search in these locations"
+#, kde-format
 msgid "Do not search in these locations:"
-msgstr "Neieškoti šiose vietose"
+msgstr "Neieškoti šiose vietose:"
 
 #: folderselectionwidget.cpp:202
 #, kde-format
 msgid "Select the folder which should be excluded"
-msgstr "Nurodykite aplanką, kurį reikia išskirti"
+msgstr "Pasirinkite aplanką, kurį reikia išskirti"
 
 #: folderselectionwidget.cpp:212
 #, kde-format
@@ -68,6 +67,8 @@ msgid ""
 "Not allowed to exclude root folder, please disable File Search if you do not "
 "want it"
 msgstr ""
+"Neleidžiama išskirti šaknies aplanko. Jei to nenorite, išjunkite failų "
+"paiešką"
 
 #: folderselectionwidget.cpp:226
 #, kde-format
@@ -77,7 +78,7 @@ msgstr "Aplankas %1 jau yra išskirtas"
 #: folderselectionwidget.cpp:247
 #, kde-format
 msgid "Folder's parent %1 is already excluded"
-msgstr "Aplanko tėvinis elementas %1 jau yra išskirtas"
+msgstr "Aplanko viršaplankis %1 jau yra išskirtas"
 
 #: kcm.cpp:60
 #, kde-format
@@ -87,7 +88,7 @@ msgstr "Konfigūruoti failų paiešką"
 #: kcm.cpp:62
 #, kde-format
 msgid "Copyright 2007-2010 Sebastian Trüg"
-msgstr "Autorinės teisės 2007-2010 Sebastian Trüg"
+msgstr "Autorių teisės 2007-2010 Sebastian Trüg"
 
 #: kcm.cpp:63
 #, kde-format

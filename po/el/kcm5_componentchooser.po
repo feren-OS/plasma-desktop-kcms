@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmcomponentchooser\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"POT-Creation-Date: 2019-09-18 03:38+0200\n"
 "PO-Revision-Date: 2016-09-16 14:41+0200\n"
 "Last-Translator: Dimitris Kardarakos <dimkard@gmail.com>\n"
 "Language-Team: Greek <kde-i18n-el@kde.org>\n"
@@ -72,12 +72,12 @@ msgstr "στον ακόλουθο περιηγητή:"
 msgid "..."
 msgstr "..."
 
-#: componentchooser.cpp:134
+#: componentchooser.cpp:133
 #, kde-format
 msgid "Unknown"
 msgstr "Άγνωστο"
 
-#: componentchooser.cpp:151
+#: componentchooser.cpp:150
 #, kde-format
 msgid ""
 "Choose from the list below which component should be used by default for the "
@@ -86,7 +86,7 @@ msgstr ""
 "Επιλέξτε από τη λίστα παρακάτω ποιο συστατικό πρόκειται να χρησιμοποιηθεί, "
 "ως προκαθορισμένο, από την υπηρεσία %1."
 
-#: componentchooser.cpp:183
+#: componentchooser.cpp:182
 #, kde-format
 msgid ""
 "<qt>You changed the default component of your choice, do want to save that "
@@ -95,7 +95,7 @@ msgstr ""
 "<qt>Αλλάξατε το προκαθορισμένο συστατικό της επιλογής σας, θέλετε να "
 "αποθηκεύσετε αυτή την αλλαγή τώρα;</qt>"
 
-#: componentchooser.cpp:188
+#: componentchooser.cpp:187
 #, kde-format
 msgid "No description available"
 msgstr "Δεν υπάρχει διαθέσιμη περιγραφή"
@@ -160,7 +160,7 @@ msgstr "Επιλογή προτιμώμενης εφαρμογής περιηγ�
 msgid "Select preferred email client:"
 msgstr "Επιλογή προτιμώμενου πελάτη email:"
 
-#: componentchooserterminal.cpp:104
+#: componentchooserterminal.cpp:102
 #, kde-format
 msgid "Select preferred terminal application:"
 msgstr "Επιλογή προτιμώμενης εφαρμογής τερματικού:"

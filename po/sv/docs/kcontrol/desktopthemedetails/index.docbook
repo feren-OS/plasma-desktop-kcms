@@ -7,7 +7,7 @@
 <article id="desktopthemedetails" lang="&language;">
 <articleinfo>
 <title
->Plasmatema</title>
+>Plasmastil</title>
 <authorgroup>
 <author
 ><firstname
@@ -121,7 +121,7 @@
   <varlistentry>
     <term
 ><guilabel
->Hämta nya Plasmateman...</guilabel
+>Hämta nya Plasmastilar...</guilabel
 ></term>
     <listitem>
     <para
@@ -133,14 +133,14 @@
     <para>
     <screenshot>
     <screeninfo
->Hämta nya Plasmateman...</screeninfo>
+>Hämta nya Plasmastilar...</screeninfo>
       <mediaobject>
         <imageobject>
           <imagedata fileref="get-new-theme.png" format="PNG"/>
         </imageobject>
         <textobject>
           <phrase
->Hämta nya Plasmateman...</phrase>
+>Hämta nya Plasmastilar...</phrase>
         </textobject>
       </mediaobject>
     </screenshot>

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkonq stable\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"POT-Creation-Date: 2019-09-12 03:25+0200\n"
 "PO-Revision-Date: 2006-01-19 21:33+0200\n"
 "Last-Translator: Frikkie Thirion <frikkie.thirion@deneloptronics.co.za>\n"
 "Language-Team: AFRIKAANS <translate-discuss-af@lists.sourceforge.net>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "X-Generator: KBabel 1.10.2\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
-#: globalpaths.cpp:113
+#: globalpaths.cpp:115
 #, fuzzy, kde-format
 msgid ""
 "<h1>Paths</h1>\n"
@@ -32,13 +32,13 @@ msgstr ""
 "Gebruik die \"Wat is Hierdie?\" (Shift+F1) om hulp oor spesifieke opsies te "
 "kry"
 
-#: globalpaths.cpp:118
+#: globalpaths.cpp:120
 #, fuzzy, kde-format
 #| msgid "Des&ktop path:"
 msgid "Desktop path:"
 msgstr "Werkskerm gids soeklys:"
 
-#: globalpaths.cpp:119
+#: globalpaths.cpp:121
 #, kde-format
 msgid ""
 "This folder contains all the files which you see on your desktop. You can "
@@ -49,13 +49,13 @@ msgstr ""
 "ligging van hierdie vouer verander as jy wil hê, en die inhoud sal "
 "automaties  beweeg na die nuwe ligging."
 
-#: globalpaths.cpp:124
+#: globalpaths.cpp:126
 #, fuzzy, kde-format
 #| msgid "A&utostart path:"
 msgid "Autostart path:"
 msgstr "Outomatiese begin gids soeklys:"
 
-#: globalpaths.cpp:125
+#: globalpaths.cpp:127
 #, fuzzy, kde-format
 #| msgid ""
 #| "This folder contains applications or links to applications (shortcuts) "
@@ -73,13 +73,13 @@ msgstr ""
 "hierdie gids as jy wil hê, en die inhoud sal automaties na die nuwe ligging  "
 "beweeg."
 
-#: globalpaths.cpp:131
+#: globalpaths.cpp:133
 #, fuzzy, kde-format
 #| msgid "D&ocuments path:"
 msgid "Documents path:"
 msgstr "Dokumente gids soeklys:"
 
-#: globalpaths.cpp:132
+#: globalpaths.cpp:134
 #, kde-format
 msgid ""
 "This folder will be used by default to load or save documents from or to."
@@ -87,13 +87,13 @@ msgstr ""
 "Hierdie gids sal by verstek gebruik word om dokumente vanaf oop te maak of "
 "na toe te stoor."
 
-#: globalpaths.cpp:135
+#: globalpaths.cpp:137
 #, fuzzy, kde-format
 #| msgid "D&ocuments path:"
 msgid "Downloads path:"
 msgstr "Dokumente gids soeklys:"
 
-#: globalpaths.cpp:136
+#: globalpaths.cpp:138
 #, fuzzy, kde-format
 #| msgid ""
 #| "This folder will be used by default to load or save documents from or to."
@@ -102,13 +102,13 @@ msgstr ""
 "Hierdie gids sal by verstek gebruik word om dokumente vanaf oop te maak of "
 "na toe te stoor."
 
-#: globalpaths.cpp:139
+#: globalpaths.cpp:141
 #, fuzzy, kde-format
 #| msgid "D&ocuments path:"
 msgid "Movies path:"
 msgstr "Dokumente gids soeklys:"
 
-#: globalpaths.cpp:140
+#: globalpaths.cpp:142
 #, fuzzy, kde-format
 #| msgid ""
 #| "This folder will be used by default to load or save documents from or to."
@@ -117,13 +117,13 @@ msgstr ""
 "Hierdie gids sal by verstek gebruik word om dokumente vanaf oop te maak of "
 "na toe te stoor."
 
-#: globalpaths.cpp:143
+#: globalpaths.cpp:145
 #, fuzzy, kde-format
 #| msgid "D&ocuments path:"
 msgid "Pictures path:"
 msgstr "Dokumente gids soeklys:"
 
-#: globalpaths.cpp:144
+#: globalpaths.cpp:146
 #, fuzzy, kde-format
 #| msgid ""
 #| "This folder will be used by default to load or save documents from or to."
@@ -133,13 +133,13 @@ msgstr ""
 "Hierdie gids sal by verstek gebruik word om dokumente vanaf oop te maak of "
 "na toe te stoor."
 
-#: globalpaths.cpp:147
+#: globalpaths.cpp:149
 #, fuzzy, kde-format
 #| msgid "D&ocuments path:"
 msgid "Music path:"
 msgstr "Dokumente gids soeklys:"
 
-#: globalpaths.cpp:148
+#: globalpaths.cpp:150
 #, fuzzy, kde-format
 #| msgid ""
 #| "This folder will be used by default to load or save documents from or to."
@@ -148,46 +148,46 @@ msgstr ""
 "Hierdie gids sal by verstek gebruik word om dokumente vanaf oop te maak of "
 "na toe te stoor."
 
-#: globalpaths.cpp:277 globalpaths.cpp:295
+#: globalpaths.cpp:279 globalpaths.cpp:297
 #, kde-format
 msgid "Autostart"
 msgstr "Outomatiese begin"
 
-#: globalpaths.cpp:281
+#: globalpaths.cpp:283
 #, kde-format
 msgid "Desktop"
 msgstr "Werkskerm"
 
-#: globalpaths.cpp:305
+#: globalpaths.cpp:307
 #, fuzzy, kde-format
 #| msgid "D&ocuments path:"
 msgid "Documents"
 msgstr "Dokumente gids soeklys:"
 
-#: globalpaths.cpp:308
+#: globalpaths.cpp:310
 #, fuzzy, kde-format
 #| msgid "D&ocuments path:"
 msgid "Downloads"
 msgstr "Dokumente gids soeklys:"
 
-#: globalpaths.cpp:311
+#: globalpaths.cpp:313
 #, fuzzy, kde-format
 #| msgid "D&ocuments path:"
 msgid "Movies"
 msgstr "Dokumente gids soeklys:"
 
-#: globalpaths.cpp:314
+#: globalpaths.cpp:316
 #, fuzzy, kde-format
 #| msgid "D&ocuments path:"
 msgid "Pictures"
 msgstr "Dokumente gids soeklys:"
 
-#: globalpaths.cpp:317
+#: globalpaths.cpp:319
 #, kde-format
 msgid "Music"
 msgstr ""
 
-#: globalpaths.cpp:376
+#: globalpaths.cpp:378
 #, fuzzy, kde-format
 #| msgid ""
 #| "The path for '%1' has been changed;\n"
@@ -199,19 +199,19 @@ msgstr ""
 "Die gids pad vir '%1' het verander;\n"
 "wil hê die lêers moet van '%2' na '%3' geskuif word?"
 
-#: globalpaths.cpp:379
+#: globalpaths.cpp:381
 #, kde-format
 msgctxt "Move files from old to new place"
 msgid "Move"
 msgstr ""
 
-#: globalpaths.cpp:380
+#: globalpaths.cpp:382
 #, kde-format
 msgctxt "Use the new directory but do not move files"
 msgid "Do not Move"
 msgstr ""
 
-#: globalpaths.cpp:382
+#: globalpaths.cpp:384
 #, fuzzy, kde-format
 #| msgid ""
 #| "The path for '%1' has been changed;\n"
@@ -223,19 +223,19 @@ msgstr ""
 "Die gids pad vir '%1' het verander;\n"
 "wil hê die lêers moet van '%2' na '%3' geskuif word?"
 
-#: globalpaths.cpp:385
+#: globalpaths.cpp:387
 #, kde-format
 msgctxt "Move the directory"
 msgid "Move"
 msgstr ""
 
-#: globalpaths.cpp:386
+#: globalpaths.cpp:388
 #, kde-format
 msgctxt "Use the new directory but do not move anything"
 msgid "Do not Move"
 msgstr ""
 
-#: globalpaths.cpp:390
+#: globalpaths.cpp:392
 #, kde-format
 msgid "Confirmation Required"
 msgstr "Bevestiging benodig"

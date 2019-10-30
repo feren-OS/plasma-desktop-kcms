@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
-"PO-Revision-Date: 2019-04-25 18:18+0800\n"
+"POT-Creation-Date: 2019-08-03 03:23+0200\n"
+"PO-Revision-Date: 2019-07-21 19:56+0800\n"
 "Last-Translator: Simon Depiets <sdepiets@gmail.com>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
@@ -41,45 +41,25 @@ msgstr "Filtre"
 msgid "Tweaks"
 msgstr "Bidouilles"
 
-#: package/contents/ui/AppletHandle.qml:105
-msgid "Resize"
-msgstr "Redimensionner"
-
-#: package/contents/ui/AppletHandle.qml:127
-msgid "Rotate"
-msgstr "Faire pivoter"
-
-#: package/contents/ui/AppletHandle.qml:284
-msgid "Remove"
-msgstr "Supprimer"
-
 #: package/contents/ui/BackButtonItem.qml:116
 msgid "Back"
 msgstr "Retour"
 
 #: package/contents/ui/ConfigFilter.qml:76
-#, fuzzy
-#| msgid "File types:"
 msgid "Files:"
-msgstr "Types de fichiers :"
+msgstr "Fichiers :"
 
 #: package/contents/ui/ConfigFilter.qml:77
-#, fuzzy
-#| msgid "Show a place:"
 msgid "Show all"
-msgstr "Afficher un emplacement :"
+msgstr "Tout afficher"
 
 #: package/contents/ui/ConfigFilter.qml:77
-#, fuzzy
-#| msgid "Show Files Matching"
 msgid "Show matching"
-msgstr "Afficher les fichiers correspondants"
+msgstr "Afficher les correspondances"
 
 #: package/contents/ui/ConfigFilter.qml:77
-#, fuzzy
-#| msgid "Hide Files Matching"
 msgid "Hide matching"
-msgstr "cacher les fichiers correspondants"
+msgstr "Cacher les correspondances"
 
 #: package/contents/ui/ConfigFilter.qml:82
 msgid "File name pattern:"
@@ -90,10 +70,8 @@ msgid "File types:"
 msgstr "Types de fichiers :"
 
 #: package/contents/ui/ConfigFilter.qml:90
-#, fuzzy
-#| msgid "Search file type..."
 msgid "Search..."
-msgstr "Rechercher le type de fichier…"
+msgstr "Chercher…"
 
 #: package/contents/ui/ConfigFilter.qml:188
 msgid "File type"
@@ -147,14 +125,10 @@ msgid "Columns"
 msgstr "Colonnes"
 
 #: package/contents/ui/ConfigIcons.qml:149
-#, fuzzy
-#| msgid "Align Left"
 msgid "Align left"
 msgstr "Aligner à gauche"
 
 #: package/contents/ui/ConfigIcons.qml:149
-#, fuzzy
-#| msgid "Align Right"
 msgid "Align right"
 msgstr "Aligner à droite"
 
@@ -229,53 +203,52 @@ msgstr "Petite"
 msgid "Large"
 msgstr "Grande"
 
-#: package/contents/ui/ConfigIcons.qml:263
+#: package/contents/ui/ConfigIcons.qml:264
 msgid "Label width:"
 msgstr "Largeur de l'intitulé :"
 
-#: package/contents/ui/ConfigIcons.qml:266
+#: package/contents/ui/ConfigIcons.qml:267
 msgid "Narrow"
 msgstr "Étroit"
 
-#: package/contents/ui/ConfigIcons.qml:267
+#: package/contents/ui/ConfigIcons.qml:268
 #: plugins/folder/viewpropertiesmenu.cpp:88
 #, kde-format
 msgid "Medium"
 msgstr "Moyenne"
 
-#: package/contents/ui/ConfigIcons.qml:268
+#: package/contents/ui/ConfigIcons.qml:269
 msgid "Wide"
 msgstr "Large"
 
-#: package/contents/ui/ConfigIcons.qml:276
+#: package/contents/ui/ConfigIcons.qml:277
 msgid "Text lines:"
 msgstr "Lignes de texte :"
 
-#: package/contents/ui/ConfigIcons.qml:292
+#: package/contents/ui/ConfigIcons.qml:293
 msgid "Features:"
 msgstr "Fonctionnalités :"
 
-#: package/contents/ui/ConfigIcons.qml:294
+#: package/contents/ui/ConfigIcons.qml:295
 msgid "Tooltips"
 msgstr "Aides"
 
-#: package/contents/ui/ConfigIcons.qml:301
+#: package/contents/ui/ConfigIcons.qml:302
 msgid "Selection markers"
 msgstr "Marqueurs de sélection"
 
-#: package/contents/ui/ConfigIcons.qml:308
+#: package/contents/ui/ConfigIcons.qml:309
 msgid "Folder preview popups"
 msgstr "Aperçus flottants des dossiers"
 
-#: package/contents/ui/ConfigIcons.qml:314
+#: package/contents/ui/ConfigIcons.qml:315
 msgid "Preview thumbnails"
 msgstr "Vignettes d'aperçu"
 
-#: package/contents/ui/ConfigIcons.qml:321
-#, fuzzy
-#| msgid "More Preview Options..."
+# unreviewed-context
+#: package/contents/ui/ConfigIcons.qml:323
 msgid "Configure Preview Plugins..."
-msgstr "Plus d'options d'aperçu…"
+msgstr "Configurer les modules externes d'aperçu..."
 
 #: package/contents/ui/ConfigLocation.qml:93
 msgid "Show:"
@@ -298,10 +271,8 @@ msgid "Custom location:"
 msgstr "Emplacement personnalisée :"
 
 #: package/contents/ui/ConfigLocation.qml:150
-#, fuzzy
-#| msgid "Type a path or a URL here"
 msgid "Type path or URL..."
-msgstr "Saisissez un emplacement ou une URL ici"
+msgstr "Saisissez un emplacement ou une URL..."
 
 #: package/contents/ui/ConfigLocation.qml:191
 msgid "Title:"
@@ -324,10 +295,16 @@ msgid "Custom title"
 msgstr "Titre personnalisé"
 
 #: package/contents/ui/ConfigLocation.qml:208
-#, fuzzy
-#| msgid "Enter custom title here"
 msgid "Enter custom title..."
-msgstr "Saisissez un titre personnalisé ici"
+msgstr "Saisissez un titre personnalisé..."
+
+#: package/contents/ui/ConfigOverlay.qml:101
+msgid "Rotate"
+msgstr "Faire pivoter"
+
+#: package/contents/ui/ConfigOverlay.qml:224
+msgid "Remove"
+msgstr "Supprimer"
 
 #: package/contents/ui/ConfigTweaks.qml:43
 msgid ""
@@ -360,21 +337,21 @@ msgstr "Ok"
 msgid "Cancel"
 msgstr "Annuler"
 
-#: package/contents/ui/main.qml:382
+#: package/contents/ui/main.qml:277
 msgid "Widgets unlocked"
 msgstr "Composants graphiques déverrouillés"
 
-#: package/contents/ui/main.qml:383
+#: package/contents/ui/main.qml:278
 msgid "You can press and hold widgets to move them and reveal their handles."
 msgstr ""
 "Vous pouvez rester appuyé sur les composants graphiques pour les déplacer et "
 "faire apparaître leurs poignées."
 
-#: package/contents/ui/main.qml:384
+#: package/contents/ui/main.qml:279
 msgid "Got it"
 msgstr "Compris"
 
-#: package/contents/ui/main.qml:597
+#: package/contents/ui/main.qml:403
 msgid "Configure Desktop..."
 msgstr "Configurer le bureau…"
 

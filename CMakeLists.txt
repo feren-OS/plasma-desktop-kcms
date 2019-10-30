@@ -2,11 +2,11 @@ cmake_minimum_required(VERSION 3.0)
 
 project(plasma-desktop)
 
-set(PROJECT_VERSION "5.16.4")
+set(PROJECT_VERSION "5.17.2")
 set(PROJECT_VERSION_MAJOR 5)
 
 set(QT_MIN_VERSION "5.11.0")
-set(KF5_MIN_VERSION "5.58.0")
+set(KF5_MIN_VERSION "5.62.0")
 
 find_package(ECM ${KF5_MIN_VERSION} REQUIRED NO_MODULE)
 set(CMAKE_MODULE_PATH ${ECM_MODULE_PATH} ${ECM_KDE_MODULE_DIR} ${CMAKE_CURRENT_SOURCE_DIR}/cmake/modules)
@@ -48,7 +48,6 @@ find_package(KF5 ${KF5_MIN_VERSION} REQUIRED COMPONENTS
     Runner
     GlobalAccel
     Declarative
-    People
     DBusAddons
     Activities
     ActivitiesStats
@@ -69,11 +68,10 @@ set_package_properties(KF5QQC2DeskopStyle PROPERTIES
     TYPE RUNTIME
 )
 
-find_package(LibKWorkspace 5.14.90 CONFIG REQUIRED)
-find_package(LibNotificationManager 5.15.80 CONFIG REQUIRED)
-find_package(LibTaskManager 5.14.90 CONFIG REQUIRED)
-find_package(LibNotificationManager 5.14.90 CONFIG REQUIRED)
-find_package(LibColorCorrect 5.14.90 CONFIG REQUIRED)
+find_package(LibKWorkspace ${PROJECT_VERSION} CONFIG REQUIRED)
+find_package(LibNotificationManager ${PROJECT_VERSION} CONFIG REQUIRED)
+find_package(LibTaskManager ${PROJECT_VERSION} CONFIG REQUIRED)
+find_package(LibColorCorrect ${PROJECT_VERSION} CONFIG REQUIRED)
 find_package(KWinDBusInterface CONFIG REQUIRED)
 find_package(ScreenSaverDBusInterface CONFIG REQUIRED)
 find_package(KRunnerAppDBusInterface CONFIG REQUIRED)
@@ -81,11 +79,6 @@ find_package(KSMServerDBusInterface CONFIG REQUIRED)
 find_package(KF5ItemModels CONFIG REQUIRED)
 find_package(KF5Emoticons CONFIG REQUIRED)
 
-find_package(AppStreamQt 0.10.4)
-set_package_properties(AppStreamQt PROPERTIES DESCRIPTION "Appstream integration"
-                       TYPE RECOMMENDED
-                       PURPOSE "Needed to allow appstream integration from application menus"
-                      )
 find_package(KF5Baloo 5.15)
 set_package_properties(KF5Baloo PROPERTIES DESCRIPTION "File Searching"
                        TYPE RECOMMENDED
@@ -161,15 +154,10 @@ else()
     set(HAVE_BREEZE_DECO FALSE)
 endif()
 
-if(${AppStreamQt_FOUND})
-    set(HAVE_APPSTREAMQT true)
-endif()
-
 include_directories("${CMAKE_CURRENT_BINARY_DIR}")
 
 configure_file(config-workspace.h.cmake ${CMAKE_CURRENT_BINARY_DIR}/config-workspace.h)
 configure_file(config-unix.h.cmake ${CMAKE_CURRENT_BINARY_DIR}/config-unix.h )
-configure_file(config-appstream.h.cmake ${CMAKE_CURRENT_BINARY_DIR}/config-appstream.h )
 configure_file(config-X11.h.cmake ${CMAKE_CURRENT_BINARY_DIR}/config-X11.h)
 configure_file(config-runtime.h.cmake ${CMAKE_CURRENT_BINARY_DIR}/config-runtime.h)
 
@@ -178,9 +166,8 @@ plasma_install_package(desktoppackage org.kde.plasma.desktop shells shell)
 add_definitions(-DQT_NO_URL_CAST_FROM_STRING)
 
 add_subdirectory(kcms)
-
 install(FILES org.kde.plasmashell.metainfo.xml DESTINATION ${KDE_INSTALL_METAINFODIR})
-install(FILES plasma-desktop.categories DESTINATION ${KDE_INSTALL_CONFDIR})
+
 feature_summary(WHAT ALL INCLUDE_QUIET_PACKAGES FATAL_ON_MISSING_REQUIRED_PACKAGES)
 
 find_package(KF5I18n CONFIG REQUIRED)

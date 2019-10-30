@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmcomponentchooser\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"POT-Creation-Date: 2019-09-18 03:38+0200\n"
 "PO-Revision-Date: 2012-07-13 21:56+0530\n"
 "Last-Translator: Deepayan Sarkar <deepayan.sarkar@gmail.com>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -73,12 +73,12 @@ msgstr "নিম্নলিখিত ব্রাউজারে:"
 msgid "..."
 msgstr "..."
 
-#: componentchooser.cpp:134
+#: componentchooser.cpp:133
 #, kde-format
 msgid "Unknown"
 msgstr "অজানা"
 
-#: componentchooser.cpp:151
+#: componentchooser.cpp:150
 #, fuzzy, kde-format
 msgid ""
 "Choose from the list below which component should be used by default for the "
@@ -87,7 +87,7 @@ msgstr ""
 "ের নিচে তালিকা থেকে বেছে নাও যেটি উপাদানের %1 চাকরির জন্য ডিফল্টের মধ্যে ব্যবহার "
 "করা উচিত।"
 
-#: componentchooser.cpp:183
+#: componentchooser.cpp:182
 #, kde-format
 msgid ""
 "<qt>You changed the default component of your choice, do want to save that "
@@ -96,7 +96,7 @@ msgstr ""
 "<qt>আপনি আপনার পছন্দের ডিফল্ট উপাদান পরিবর্তন করেছেন, সেই পরিবর্তনটি কি এখন "
 "সংরক্ষণ করতে চান?</qt>"
 
-#: componentchooser.cpp:188
+#: componentchooser.cpp:187
 #, kde-format
 msgid "No description available"
 msgstr "কোন বর্ণনা পাওয়া যাচ্ছে না"
@@ -160,7 +160,7 @@ msgstr "পছন্দের ওয়েব ব্রাউজার অ্যা
 msgid "Select preferred email client:"
 msgstr "পছন্দের ই-মেল অ্যাপলিকেশন বেছে নিন:"
 
-#: componentchooserterminal.cpp:104
+#: componentchooserterminal.cpp:102
 #, kde-format
 msgid "Select preferred terminal application:"
 msgstr "পছন্দের টার্মিনাল অ্যাপলিকেশন বেছে নিন:"

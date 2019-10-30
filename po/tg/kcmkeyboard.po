@@ -1,48 +1,46 @@
 # Copyright (C) YEAR This_file_is_part_of_KDE
 # This file is distributed under the same license as the PACKAGE package.
 #
-# Victor Ibragimov <victor.ibragimov@gmail.com>, 2008.
+# Victor Ibragimov <victor.ibragimov@gmail.com>, 2008, 2019.
 msgid ""
 msgstr ""
 "Project-Id-Version: kcmkeyboard\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
-"PO-Revision-Date: 2009-01-16 13:42+0500\n"
+"POT-Creation-Date: 2019-08-11 03:10+0200\n"
+"PO-Revision-Date: 2019-09-16 14:13+0500\n"
 "Last-Translator: Victor Ibragimov <victor.ibragimov@gmail.com>\n"
-"Language-Team: Tajik <>\n"
+"Language-Team: Tajik <kde-i18n-doc@kde.org>\n"
 "Language: tg\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 0.2\n"
+"X-Generator: Lokalize 19.04.3\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "Абророва Хиромон"
+msgstr "Victor Ibragimov"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "H_Abrorova@rambler.ru"
+msgstr "victor.ibragimov@gmail.com"
 
 #: bindings.cpp:33
 #, kde-format
 msgid "Switch to Next Keyboard Layout"
-msgstr "Гузариш ба Ҷобаҷогузории Забонаки Оянда"
+msgstr ""
 
 #: bindings.cpp:34
-#, fuzzy, kde-format
-#| msgid "Keyboard Layout"
+#, kde-format
 msgid "KDE Keyboard Layout Switcher"
-msgstr "Тарҳбандии клавиатура"
+msgstr ""
 
 #: bindings.cpp:67
-#, fuzzy, kde-format
-#| msgid "Error changing keyboard layout to '%1'"
+#, kde-format
 msgid "Switch keyboard layout to %1"
-msgstr "Хатогӣ, ивази ҷобаҷогузории забонак '%1'"
+msgstr ""
 
 #: flags.cpp:168
 #, kde-format
@@ -61,20 +59,17 @@ msgstr ""
 msgid "Any language"
 msgstr ""
 
-#: kcm_add_layout_dialog.cpp:141 kcm_view_models.cpp:319
-#, fuzzy, kde-format
-#| msgctxt "Default variant"
-#| msgid "Default"
+#: kcm_add_layout_dialog.cpp:141 kcm_view_models.cpp:311
+#, kde-format
 msgctxt "variant"
 msgid "Default"
 msgstr "Стандартӣ"
 
 #. i18n: ectx: property (windowTitle), widget (QDialog, AddLayoutDialog)
 #: kcm_add_layout_dialog.ui:14
-#, fuzzy, kde-format
-#| msgid "Keyboard Repeat"
+#, kde-format
 msgid "Add Layout"
-msgstr "Рафтори тугмаҳои клавиатура"
+msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: kcm_add_layout_dialog.ui:30
@@ -111,19 +106,17 @@ msgstr ""
 #: kcm_add_layout_dialog.ui:101 kcm_keyboard.ui:352
 #, kde-format
 msgid "Preview"
-msgstr ""
+msgstr "Пешнамоиш"
 
 #: kcm_keyboard.cpp:48
-#, fuzzy, kde-format
-#| msgid "KDE Keyboard Layout Switcher"
+#, kde-format
 msgid "KDE Keyboard Control Module"
-msgstr "Асбоби KDE барои кор бо клавиатура"
+msgstr ""
 
 #: kcm_keyboard.cpp:50
-#, fuzzy, kde-format
-#| msgid "Copyright (C) 2006-2007 Andriy Rysin"
+#, kde-format
 msgid "(c) 2010 Andriy Rysin"
-msgstr "Copyright (C) 2006-2007 Andriy Rysin"
+msgstr ""
 
 #: kcm_keyboard.cpp:53
 #, kde-format
@@ -140,14 +133,13 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: kcm_keyboard.ui:33
-#, fuzzy, kde-format
-#| msgid "Keyboard Repeat"
+#, kde-format
 msgid "Keyboard &model:"
-msgstr "Рафтори тугмаҳои клавиатура"
+msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (QComboBox, keyboardModelComboBox)
 #: kcm_keyboard.ui:53
-#, fuzzy, kde-format
+#, kde-format
 msgid ""
 "Here you can choose a keyboard model. This setting is independent of your "
 "keyboard layout and refers to the \"hardware\" model, i.e. the way your "
@@ -156,19 +148,12 @@ msgid ""
 "is probably what you want if you do not know what kind of keyboard you "
 "have.\n"
 msgstr ""
-"Дар инҷо метавонед модули сафҳаи кнопкаро интихоб кунед. Ин танзимот "
-"мустақил аз тарҳбандии сафҳаи кнопка аст ва ба модули \"сахтафзор\" орҷоҳ "
-"медиҳад, бутури мисол, равише, ки сафҳаи кнопкаи шумо сохта мешавад. Сафҳаи "
-"калидҳои имрӯзе, ки бо роёнаи шумо арза мешаванд, маъмулан ду кнопкаи "
-"изофадоранда ва ба \"104-кнопка\" нисбат дода мешаванд, чизе ки шумо эҳтимол "
-"мехоҳед, агар чӣ нӯҳ сафҳаи калиде доред.\n"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tabLayouts)
 #: kcm_keyboard.ui:94
-#, fuzzy, kde-format
-#| msgid "&Enable keyboard repeat"
+#, kde-format
 msgid "Layouts"
-msgstr "&Фаъол кардани рафтори тугмаҳои клавиатура"
+msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, kbuttongroup)
 #: kcm_keyboard.ui:102
@@ -184,10 +169,9 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, showSingleChk)
 #: kcm_keyboard.ui:115
-#, fuzzy, kde-format
-#| msgid "&Enable keyboard repeat"
+#, kde-format
 msgid "Show for single layout"
-msgstr "&Фаъол кардани рафтори тугмаҳои клавиатура"
+msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, showFlagRadioBtn)
 #: kcm_keyboard.ui:122
@@ -214,21 +198,18 @@ msgid ""
 "If you select \"Application\" or \"Window\" switching policy, changing the "
 "keyboard layout will only affect the current application or window."
 msgstr ""
-"Агар шумо\"Барнома\" ёки \"тиреза\"-и таъғири образи корбариро интихоб "
-"кунед, дигаргунии забонаки тарҳбандӣ танҳо ба барномаи ҳозира ёки тиреза "
-"таъсир мекунад."
 
 #. i18n: ectx: property (title), widget (QGroupBox, switchingPolicyGroupBox)
 #: kcm_keyboard.ui:149
 #, kde-format
 msgid "Switching Policy"
-msgstr "Таъғири образи корбарӣ"
+msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, switchByGlobalRadioBtn)
 #: kcm_keyboard.ui:155
 #, kde-format
 msgid "&Global"
-msgstr "&Глобалӣ"
+msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, switchByDesktopRadioBtn)
 #: kcm_keyboard.ui:168
@@ -240,20 +221,19 @@ msgstr "&Мизи корӣ"
 #: kcm_keyboard.ui:178
 #, kde-format
 msgid "&Application"
-msgstr "&Барномаҳо"
+msgstr "&Барнома"
 
 #. i18n: ectx: property (text), widget (QRadioButton, switchByWindowRadioBtn)
 #: kcm_keyboard.ui:188
 #, kde-format
 msgid "&Window"
-msgstr "&Тиреза"
+msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, shortcutsGroupBox)
 #: kcm_keyboard.ui:201
-#, fuzzy, kde-format
-#| msgid "&Enable keyboard repeat"
+#, kde-format
 msgid "Shortcuts for Switching Layout"
-msgstr "&Фаъол кардани рафтори тугмаҳои клавиатура"
+msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: kcm_keyboard.ui:207
@@ -275,14 +255,14 @@ msgstr ""
 #, kde-format
 msgctxt "no shortcut defined"
 msgid "None"
-msgstr ""
+msgstr "Ҳеҷ чиз"
 
 #. i18n: ectx: property (text), widget (QToolButton, xkbGrpClearBtn)
 #. i18n: ectx: property (text), widget (QToolButton, xkb3rdLevelClearBtn)
 #: kcm_keyboard.ui:230 kcm_keyboard.ui:260
 #, kde-format
 msgid "..."
-msgstr "..."
+msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: kcm_keyboard.ui:237
@@ -315,10 +295,9 @@ msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, layoutsGroupBox)
 #: kcm_keyboard.ui:298
-#, fuzzy, kde-format
-#| msgid "&Enable keyboard repeat"
+#, kde-format
 msgid "Configure layouts"
-msgstr "&Фаъол кардани рафтори тугмаҳои клавиатура"
+msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, addLayoutBtn)
 #: kcm_keyboard.ui:312
@@ -330,7 +309,7 @@ msgstr ""
 #: kcm_keyboard.ui:322
 #, kde-format
 msgid "Remove"
-msgstr ""
+msgstr "Тоза кардан"
 
 #. i18n: ectx: property (text), widget (QPushButton, moveUpBtn)
 #: kcm_keyboard.ui:332
@@ -346,10 +325,9 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, layoutLoopingCheckBox)
 #: kcm_keyboard.ui:387
-#, fuzzy, kde-format
-#| msgid "&Enable keyboard repeat"
+#, kde-format
 msgid "Spare layouts"
-msgstr "&Фаъол кардани рафтори тугмаҳои клавиатура"
+msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
 #: kcm_keyboard.ui:419
@@ -361,20 +339,19 @@ msgstr ""
 #: kcm_keyboard.ui:449
 #, kde-format
 msgid "Advanced"
-msgstr "Иловагӣ"
+msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, configureKeyboardOptionsChk)
 #: kcm_keyboard.ui:455
-#, fuzzy, kde-format
-#| msgid "&Enable keyboard repeat"
+#, kde-format
 msgid "&Configure keyboard options"
-msgstr "&Фаъол кардани рафтори тугмаҳои клавиатура"
+msgstr ""
 
 #: kcm_keyboard_widget.cpp:216
 #, kde-format
 msgctxt "unknown keyboard model vendor"
 msgid "Unknown"
-msgstr ""
+msgstr "Номаълум"
 
 #: kcm_keyboard_widget.cpp:218
 #, kde-format
@@ -390,9 +367,7 @@ msgstr[0] ""
 msgstr[1] ""
 
 #: kcm_keyboard_widget.cpp:611
-#, fuzzy, kde-format
-#| msgctxt "no shortcut defined"
-#| msgid "None"
+#, kde-format
 msgctxt "no shortcuts defined"
 msgid "None"
 msgstr "Ҳеҷ чиз"
@@ -404,56 +379,46 @@ msgid_plural "%1 shortcuts"
 msgstr[0] ""
 msgstr[1] ""
 
-#: kcm_view_models.cpp:226
-#, fuzzy, kde-format
-#| msgid "Map"
+#: kcm_view_models.cpp:220
+#, kde-format
 msgctxt "layout map name"
 msgid "Map"
 msgstr "Харита"
 
-#: kcm_view_models.cpp:226
+#: kcm_view_models.cpp:220
 #, kde-format
 msgid "Layout"
-msgstr "Тарҳбандӣ"
+msgstr ""
 
-#: kcm_view_models.cpp:226
+#: kcm_view_models.cpp:220
 #, kde-format
 msgid "Variant"
-msgstr "Вариант"
+msgstr ""
 
-#: kcm_view_models.cpp:226
+#: kcm_view_models.cpp:220
 #, kde-format
 msgid "Label"
 msgstr "Тамға"
 
-#: kcm_view_models.cpp:226
-#, fuzzy, kde-format
-#| msgid "Main shortcuts:"
+#: kcm_view_models.cpp:220
+#, kde-format
 msgid "Shortcut"
-msgstr "Миёнбурҳои асосӣ:"
+msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (QGroupBox, numlockGroupBox)
 #: kcmmiscwidget.ui:17
-#, fuzzy, kde-format
-#| msgid ""
-#| "If supported, this option allows you to setup the state of NumLock after "
-#| "KDE startup.<p>You can configure NumLock to be turned on or off, or "
-#| "configure KDE not to set NumLock state."
+#, kde-format
 msgid ""
 "If supported, this option allows you to setup the state of NumLock after "
 "Plasma startup.<p>You can configure NumLock to be turned on or off, or "
 "configure Plasma not to set NumLock state."
 msgstr ""
-"Если поддерживается, этот параметр позволяет установить состояние NumLock "
-"после запуска KDE. <p> Можно настроить включение или отключение NumLock, или "
-"не изменять состояние NumLock при запуске KDE."
 
 #. i18n: ectx: property (title), widget (QGroupBox, numlockGroupBox)
 #: kcmmiscwidget.ui:20
-#, fuzzy, kde-format
-#| msgid "NumLock on KDE Startup"
+#, kde-format
 msgid "NumLock on Plasma Startup"
-msgstr "NumLock дар оғози мизи кории KDE"
+msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, radioButton1)
 #. i18n: ectx: property (text), widget (QRadioButton, keyboardRepeatOnRadioButton)
@@ -464,22 +429,21 @@ msgstr "Ф&аъол кардан"
 
 #. i18n: ectx: property (text), widget (QRadioButton, radioButton2)
 #: kcmmiscwidget.ui:39
-#, fuzzy, kde-format
-#| msgid "Turn o&ff"
+#, kde-format
 msgid "&Turn off"
-msgstr "Хомӯш кар&дан"
+msgstr "&Хомӯш кардан"
 
 #. i18n: ectx: property (text), widget (QRadioButton, radioButton3)
 #: kcmmiscwidget.ui:46
 #, kde-format
 msgid "Leave unchan&ged"
-msgstr "Тағйир надиҳед"
+msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, keyboardRepeatGroupBox)
 #: kcmmiscwidget.ui:59
 #, kde-format
 msgid "Keyboard Repeat"
-msgstr "Рафтори тугмаҳои клавиатура"
+msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, keyboardRepeatOffRadioButton)
 #: kcmmiscwidget.ui:78
@@ -489,16 +453,15 @@ msgstr "Хомӯш кар&дан"
 
 #. i18n: ectx: property (text), widget (QRadioButton, keyboardRepeatUnchangedRadioButton)
 #: kcmmiscwidget.ui:85
-#, fuzzy, kde-format
-#| msgid "Leave unchan&ged"
+#, kde-format
 msgid "&Leave unchanged"
-msgstr "Тағйир надиҳед"
+msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lblDelay)
 #: kcmmiscwidget.ui:123
 #, kde-format
 msgid "&Delay:"
-msgstr "&Нигоҳ доштан:"
+msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (QSlider, delaySlider)
 #. i18n: ectx: property (whatsThis), widget (QSpinBox, delay)
@@ -509,9 +472,6 @@ msgid ""
 "key will start generating keycodes. The 'Repeat rate' option controls the "
 "frequency of these keycodes."
 msgstr ""
-"Если поддерживается, этот параметр позволяет установить задержку, после "
-"которой нажатая клавиша начинает генерировать коды. Параметр 'Частота' "
-"определяет частоту автоповтора."
 
 #. i18n: ectx: property (suffix), widget (QSpinBox, delay)
 #: kcmmiscwidget.ui:164
@@ -523,7 +483,7 @@ msgstr ""
 #: kcmmiscwidget.ui:177
 #, kde-format
 msgid "&Rate:"
-msgstr "&Суръат:"
+msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (QSlider, rateSlider)
 #. i18n: ectx: property (whatsThis), widget (QDoubleSpinBox, rate)
@@ -533,8 +493,6 @@ msgid ""
 "If supported, this option allows you to set the rate at which keycodes are "
 "generated while a key is pressed."
 msgstr ""
-"Если поддерживается, этот параметр позволяет установить частоту автоповтора "
-"при длительном нажатии клавиши."
 
 #. i18n: ectx: property (suffix), widget (QDoubleSpinBox, rate)
 #: kcmmiscwidget.ui:218
@@ -557,14 +515,12 @@ msgid ""
 msgstr ""
 
 #: layout_tray_icon.cpp:46 layout_tray_icon.cpp:47
-#, fuzzy, kde-format
-#| msgid "Keyboard Repeat"
+#, kde-format
 msgctxt "tooltip title"
 msgid "Keyboard Layout"
-msgstr "Рафтори тугмаҳои клавиатура"
+msgstr ""
 
 #: layouts_menu.cpp:135
-#, fuzzy, kde-format
-#| msgid "&Enable keyboard repeat"
+#, kde-format
 msgid "Configure Layouts..."
-msgstr "&Фаъол кардани рафтори тугмаҳои клавиатура"
+msgstr ""

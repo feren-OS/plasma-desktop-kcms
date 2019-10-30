@@ -29,6 +29,7 @@
 #include <KConfig>
 #include <QDebug>
 #include <KGlobalAccel>
+#include <KConfigGroup>
 #include <KIconLoader>
 #include <KMessageBox>
 #include <KStringHandler>
@@ -51,6 +52,7 @@
 #include <QDBusReply>
 
 #include <QFileDialog>
+#include <QStandardPaths>
 
 /*
  * README
@@ -256,7 +258,7 @@ void KGlobalShortcutsEditor::KGlobalShortcutsEditorPrivate::initGUI()
 
                 if (!desktopPath.isEmpty()) {
                     KDesktopFile sourceDF(desktopPath);
-                    KDesktopFile *destinationDF = sourceDF.copyTo(QStandardPaths::writableLocation(QStandardPaths::GenericDataLocation) + QStringLiteral("/kglobalaccel/") + desktopFile);
+                    KDesktopFile *destinationDF = sourceDF.copyTo(QStandardPaths::writableLocation(QStandardPaths::GenericDataLocation) + QLatin1String("/kglobalaccel/") + desktopFile);
                     qWarning()<<QStandardPaths::writableLocation(QStandardPaths::GenericDataLocation) + QStringLiteral("/kglobalaccel/") + desktopFile;
                     destinationDF->sync();
                     //TODO: a DBUS call to tell the daemon to refresh desktop files
@@ -471,7 +473,7 @@ void KGlobalShortcutsEditor::addCollection(
 
     if (d->proxyModel->rowCount() > -1) {
         d->ui.components->setCurrentIndex(d->proxyModel->index(0, 0));
-        QString name = d->proxyModel->data(d->proxyModel->index(0, 0)).toString();
+        const QString name = d->proxyModel->data(d->proxyModel->index(0, 0)).toString();
         activateComponent(name);
     }
 }
@@ -479,7 +481,7 @@ void KGlobalShortcutsEditor::addCollection(
 
 void KGlobalShortcutsEditor::clearConfiguration()
 {
-    QString name = d->proxyModel->data(d->ui.components->currentIndex()).toString();
+    const QString name = d->proxyModel->data(d->ui.components->currentIndex()).toString();
     d->components[name]->editor()->clearConfiguration();
 }
 
@@ -489,14 +491,14 @@ void KGlobalShortcutsEditor::defaults(ComponentScope scope)
     switch (scope)
         {
         case AllComponents:
-            Q_FOREACH (ComponentData *cd, d->components) {
+            for (ComponentData *cd : qAsConst(d->components)) {
                 // The editors are responsible for the reset
                 cd->editor()->allDefault();
             }
             break;
 
         case CurrentComponent: {
-            QString name = d->proxyModel->data(d->ui.components->currentIndex()).toString();
+            const QString name = d->proxyModel->data(d->ui.components->currentIndex()).toString();
             // The editors are responsible for the reset
             d->components[name]->editor()->allDefault();
             }
@@ -564,18 +566,17 @@ void KGlobalShortcutsEditor::importScheme()
     }
 
     SelectSchemeDialog dialog(this);
-    if (dialog.exec() != KDialog::Accepted) {
-        return;
-    }
+    if (dialog.exec()) {
 
-    QUrl url = dialog.selectedScheme();
-    if (!url.isLocalFile()) {
-        KMessageBox::sorry(this, i18n("This file (%1) does not exist. You can only select local files.",
-                           url.url()));
-        return;
+        QUrl url = dialog.selectedScheme();
+        if (!url.isLocalFile()) {
+            KMessageBox::sorry(this, i18n("This file (%1) does not exist. You can only select local files.",
+                                          url.url()));
+            return;
+        }
+        KConfig config(url.path(), KConfig::SimpleConfig);
+        importConfiguration(&config);
     }
-    KConfig config(url.path(), KConfig::SimpleConfig);
-    importConfiguration(&config);
 }
 
 
@@ -772,7 +773,7 @@ bool KGlobalShortcutsEditor::KGlobalShortcutsEditorPrivate::loadComponent(const 
         // kglobalaccel knows that '|' is our separator between
         // component and context
         if (shortcutContext != QLatin1String("default")) {
-            componentContextId += QStringLiteral("|") + shortcutContext;
+            componentContextId += QLatin1String("|") + shortcutContext;
         }
 
         // Create a action collection for our current component:context

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaccess\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"POT-Creation-Date: 2019-05-29 03:32+0200\n"
 "PO-Revision-Date: 2006-03-29 22:33+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -448,23 +448,23 @@ msgstr ""
 msgid "Mouse keys has been disabled."
 msgstr ""
 
-#: main.cpp:55
+#: main.cpp:54
 #, kde-format
 msgid "KDE Accessibility Tool"
 msgstr "KDE qulaylik vositasi"
 
-#: main.cpp:57
+#: main.cpp:56
 #, kde-format
 msgid "(c) 2000, Matthias Hoelzer-Kluepfel"
 msgstr "(C) 2000, Matias Xoʻlser-Klyupfel (Matthias Hölzer-Klüpfel)"
 
-#: main.cpp:59
+#: main.cpp:58
 #, fuzzy, kde-format
 #| msgid "(c) 2000, Matthias Hoelzer-Kluepfel"
 msgid "Matthias Hoelzer-Kluepfel"
 msgstr "(C) 2000, Matias Xoʻlser-Klyupfel (Matthias Hölzer-Klüpfel)"
 
-#: main.cpp:59
+#: main.cpp:58
 #, kde-format
 msgid "Author"
 msgstr "Muallif"

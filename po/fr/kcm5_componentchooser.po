@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmcomponentchooser\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"POT-Creation-Date: 2019-09-18 03:38+0200\n"
 "PO-Revision-Date: 2017-09-14 17:29+0100\n"
 "Last-Translator: Vincent Pinon <vpinon@kde.org>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
@@ -76,12 +76,12 @@ msgstr "avec la commande suivante :"
 msgid "..."
 msgstr "..."
 
-#: componentchooser.cpp:134
+#: componentchooser.cpp:133
 #, kde-format
 msgid "Unknown"
 msgstr "Inconnu"
 
-#: componentchooser.cpp:151
+#: componentchooser.cpp:150
 #, kde-format
 msgid ""
 "Choose from the list below which component should be used by default for the "
@@ -90,7 +90,7 @@ msgstr ""
 "Choisissez dans la liste ci-dessous quel composant doit être utilisé par "
 "défaut pour le service « %1 »."
 
-#: componentchooser.cpp:183
+#: componentchooser.cpp:182
 #, kde-format
 msgid ""
 "<qt>You changed the default component of your choice, do want to save that "
@@ -99,7 +99,7 @@ msgstr ""
 "<qt>Vous avez modifié le composant par défaut de votre choix. Voulez-vous "
 "enregistrer les changements maintenant ?</qt>"
 
-#: componentchooser.cpp:188
+#: componentchooser.cpp:187
 #, kde-format
 msgid "No description available"
 msgstr "Pas de description disponible"
@@ -167,7 +167,7 @@ msgstr "Choisissez votre navigateur web préféré :"
 msgid "Select preferred email client:"
 msgstr "Choisissez votre client de messagerie préféré :"
 
-#: componentchooserterminal.cpp:104
+#: componentchooserterminal.cpp:102
 #, kde-format
 msgid "Select preferred terminal application:"
 msgstr "Choisissez votre application de terminal préférée :"

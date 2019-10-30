@@ -22,7 +22,7 @@ import QtQuick 2.9
 import QtQuick.Layouts 1.1
 import QtQuick.Controls 2.3 as QtControls
 
-import org.kde.kirigami 2.8 as Kirigami
+import org.kde.kirigami 2.10 as Kirigami
 import org.kde.kcm 1.2 as KCM
 
 import org.kde.private.kcms.notifications 1.0 as Private
@@ -108,27 +108,15 @@ Kirigami.Page {
                     section {
                         criteria: ViewSection.FullString
                         property: "sourceType"
-                        delegate: QtControls.ItemDelegate {
+                        delegate: Kirigami.ListSectionHeader {
                             id: sourceSection
                             width: sourcesList.width
-                            text: {
+                            label: {
                                 switch (Number(section)) {
-                                case Private.SourcesModel.ApplicationType: return i18n("Applications");
-                                case Private.SourcesModel.ServiceType: return i18n("System Services");
+                                    case Private.SourcesModel.ApplicationType: return i18n("Applications");
+                                    case Private.SourcesModel.ServiceType: return i18n("System Services");
                                 }
                             }
-
-                            // unset "disabled" text color...
-                            contentItem: QtControls.Label {
-                                text: sourceSection.text
-                                // FIXME why does none of this work :(
-                                //Kirigami.Theme.colorGroup: Kirigami.Theme.Active
-                                //color: Kirigami.Theme.textColor
-                                color: rootRow.Kirigami.Theme.textColor
-                                elide: Text.ElideRight
-                                verticalAlignment: Text.AlignVCenter
-                            }
-                            enabled: false
                         }
                     }
 

@@ -27,80 +27,25 @@
 #include <QX11Info>
 #include <QAbstractNativeEventFilter>
 
+#define explicit explicit_is_keyword_in_cpp
 #include <xcb/xcb.h>
-//#include <xcb/xkb.h>
+#include <xcb/xkb.h>
+#undef explicit
 
-//union _xkb_event;
-//class xcb_generic_event_t;
-
-// TODO: remove this when we can include xcb/xkb.h
-namespace
-{
-typedef struct _xcb_xkb_map_notify_event_t {
-    uint8_t         response_type;
-    uint8_t         xkbType;
-    uint16_t        sequence;
-    xcb_timestamp_t time;
-    uint8_t         deviceID;
-    uint8_t         ptrBtnActions;
-    uint16_t        changed;
-    xcb_keycode_t   minKeyCode;
-    xcb_keycode_t   maxKeyCode;
-    uint8_t         firstType;
-    uint8_t         nTypes;
-    xcb_keycode_t   firstKeySym;
-    uint8_t         nKeySyms;
-    xcb_keycode_t   firstKeyAct;
-    uint8_t         nKeyActs;
-    xcb_keycode_t   firstKeyBehavior;
-    uint8_t         nKeyBehavior;
-    xcb_keycode_t   firstKeyExplicit;
-    uint8_t         nKeyExplicit;
-    xcb_keycode_t   firstModMapKey;
-    uint8_t         nModMapKeys;
-    xcb_keycode_t   firstVModMapKey;
-    uint8_t         nVModMapKeys;
-    uint16_t        virtualMods;
-    uint8_t         pad0[2];
-} _xcb_xkb_map_notify_event_t;
-typedef struct _xcb_xkb_state_notify_event_t {
-    uint8_t         response_type;
-    uint8_t         xkbType;
-    uint16_t        sequence;
-    xcb_timestamp_t time;
-    uint8_t         deviceID;
-    uint8_t         mods;
-    uint8_t         baseMods;
-    uint8_t         latchedMods;
-    uint8_t         lockedMods;
-    uint8_t         group;
-    int16_t         baseGroup;
-    int16_t         latchedGroup;
-    uint8_t         lockedGroup;
-    uint8_t         compatState;
-    uint8_t         grabMods;
-    uint8_t         compatGrabMods;
-    uint8_t         lookupMods;
-    uint8_t         compatLoockupMods;
-    uint16_t        ptrBtnState;
-    uint16_t        changed;
-    xcb_keycode_t   keycode;
-    uint8_t         eventType;
-    uint8_t         requestMajor;
-    uint8_t         requestMinor;
-} _xcb_xkb_state_notify_event_t;
-typedef union {
-    /* All XKB events share these fields. */
-    struct {
-        uint8_t response_type;
-        uint8_t xkbType;
-        uint16_t sequence;
-        xcb_timestamp_t time;
-        uint8_t deviceID;
-    } any;
-    _xcb_xkb_map_notify_event_t map_notify;
-    _xcb_xkb_state_notify_event_t state_notify;
-} _xkb_event;
+namespace {
+    typedef union {
+        /* All XKB events share these fields. */
+        struct {
+            uint8_t response_type;
+            uint8_t xkbType;
+            uint16_t sequence;
+            xcb_timestamp_t time;
+            uint8_t deviceID;
+        } any;
+        xcb_xkb_new_keyboard_notify_event_t new_keyboard_notify;
+        xcb_xkb_map_notify_event_t map_notify;
+        xcb_xkb_state_notify_event_t state_notify;
+    } _xkb_event;
 }
 
 class XEventNotifier : public QObject, public QAbstractNativeEventFilter {
@@ -142,46 +87,57 @@ struct XkbConfig {
 };
 
 
-struct LayoutUnit {
-	static const int MAX_LABEL_LENGTH;
+class LayoutUnit {
+public:
+    static const int MAX_LABEL_LENGTH;
 
-	//TODO: move these to private?
-	QString layout;
-	QString variant;
+    LayoutUnit() {}
+    explicit LayoutUnit(const QString& fullLayoutName);
+    LayoutUnit(const QString& layout, const QString& variant) {
+        m_layout = layout;
+        m_variant = variant;
+    }
+    /*explicit*/ LayoutUnit(const LayoutUnit& other) {
+        operator=(other);
+    }
 
-	LayoutUnit() {}
-	explicit LayoutUnit(const QString& fullLayoutName);
-	LayoutUnit(const QString& layout_, const QString& variant_) {
-		layout = layout_;
-		variant = variant_;
-	}
-	/*explicit*/ LayoutUnit(const LayoutUnit& layoutUnit) {
-		layout = layoutUnit.layout;
-		variant = layoutUnit.variant;
-		displayName = layoutUnit.displayName;
-		shortcut = layoutUnit.shortcut;
-	}
+    LayoutUnit &operator=(const LayoutUnit &other) {
+        if (this != &other) {
+            m_layout = other.m_layout;
+            m_variant = other.m_variant;
+            displayName = other.displayName;
+            shortcut = other.shortcut;
+        }
+        return *this;
+    }
 
-	QString getRawDisplayName() const { return displayName; }
-	QString getDisplayName() const { return !displayName.isEmpty() ? displayName :  layout; }
-	void setDisplayName(const QString& name) { displayName = name; }
+    QString getRawDisplayName() const { return displayName; }
+    QString getDisplayName() const { return !displayName.isEmpty() ? displayName :  m_layout; }
+    void setDisplayName(const QString& name) { displayName = name; }
 
-	void setShortcut(const QKeySequence& shortcut) { this->shortcut = shortcut; }
-	QKeySequence getShortcut() const { return shortcut; }
+    void setShortcut(const QKeySequence& shortcut) { this->shortcut = shortcut; }
+    QKeySequence getShortcut() const { return shortcut; }
+    QString layout() const { return m_layout; }
+    void setLayout(const QString &layout) { m_layout = layout; }
+    QString variant() const { return m_variant; }
+    void setVariant(const QString &variant) { m_variant = variant; }
 
-	bool isEmpty() const { return layout.isEmpty(); }
-	bool isValid() const { return ! isEmpty(); }
-	bool operator==(const LayoutUnit& layoutItem) const {
-		return layout==layoutItem.layout && variant==layoutItem.variant;
-	}
-	bool operator!=(const LayoutUnit& layoutItem) const {
-		return ! (*this == layoutItem);
-	}
-	QString toString() const;
+    bool isEmpty() const { return m_layout.isEmpty(); }
+    bool isValid() const { return ! isEmpty(); }
+    bool operator==(const LayoutUnit& layoutItem) const {
+        // FIXME: why not compare the other properties?
+        return m_layout == layoutItem.m_layout && m_variant == layoutItem.m_variant;
+    }
+    bool operator!=(const LayoutUnit& layoutItem) const {
+        return ! (*this == layoutItem);
+    }
+    QString toString() const;
 
 private:
-	QString displayName;
-	QKeySequence shortcut;
+    QString displayName;
+    QKeySequence shortcut;
+    QString m_layout;
+    QString m_variant;
 };
 
 struct LayoutSet {
@@ -190,9 +146,8 @@ struct LayoutSet {
 
 	LayoutSet() {}
 
-	LayoutSet(const LayoutSet& currentLayouts) {
-		this->layouts = currentLayouts.layouts;
-		this->currentLayout = currentLayouts.currentLayout;
+    LayoutSet(const LayoutSet& other) {
+        operator=(other);
 	}
 
 	bool isValid() const {
@@ -214,7 +169,7 @@ struct LayoutSet {
 		QString str(currentLayout.toString());
 		str += QLatin1String(": ");
 		foreach(const LayoutUnit& layoutUnit, layouts) {
-			str += layoutUnit.toString() + " ";
+			str += layoutUnit.toString() + QLatin1Char(' ');
 		}
 		return str;
 	}
@@ -222,7 +177,7 @@ struct LayoutSet {
 	static QString toString(const QList<LayoutUnit>& layoutUnits) {
 		QString str;
 		foreach(const LayoutUnit& layoutUnit, layoutUnits) {
-			str += layoutUnit.toString() + ",";
+			str += layoutUnit.toString() + QLatin1Char(',');
 		}
 		return str;
 	}

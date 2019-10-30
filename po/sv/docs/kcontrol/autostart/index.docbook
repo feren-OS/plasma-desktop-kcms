@@ -52,7 +52,7 @@
 >Hantering av autostart</title>
 
 <para
->Den här modulen är ett inställningsverktyg för att hantera vilka program som startas tillsammans ditt personliga &plasma;. Den låter dig lägga till och hantera program eller skript så att de automatiskt startas när din &plasma;-session startas.</para>
+>Den här modulen är ett inställningsverktyg för att hantera vilka program som startas tillsammans ditt personliga &plasma;. Den låter dig lägga till och hantera program eller skript så att de automatiskt kör när din &plasma;-session startas eller avslutas.</para>
 
 <note
 ><para
@@ -212,7 +212,7 @@
 > och körs automatiskt när &plasma; avslutas efter användaren har loggat ut. </para>
 <para
 >Skript som ställs in att köra <guilabel
->Innan &kde; har startat</guilabel
+>Innan &plasma; har startat</guilabel
 > kopieras till eller får en symbolisk länk i <filename class="directory"
 >$HOME/.config/plasma-workspace/env</filename
 > och körs vid start av &plasma; (skriptet <filename
@@ -300,7 +300,7 @@
 ></term>
 <listitem>
 <para
->Knappen gäller bara för program (dvs. Desktop-filer). En dialogruta frågar dig om du bara vill att programmet ska startas automatiskt med &plasma; (och inte i andra skrivbordsmiljöer som du kanske kör). Normalt startas programmet automatiskt i alla skrivbordsmiljöer du kör. Genom att markera <guilabel
+>Knappen gäller bara för program (dvs. Desktop-filer). En dialogruta frågar dig om du vill att programmet ska startas automatiskt med &plasma; (och inte i andra skrivbordsmiljöer som du kanske kör). Normalt startas programmet automatiskt i alla skrivbordsmiljöer du kör. Genom att markera <guilabel
 >Starta bara automatiskt i Plasma</guilabel
 > startas programmet enbart automatiskt om du startar skrivbordsmiljön &plasma;. </para>
 <para

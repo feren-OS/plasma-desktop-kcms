@@ -35,6 +35,7 @@
 #include <QQuickWindow>
 
 #include <KAboutData>
+#include <KColorUtils>
 #include <KColorScheme>
 #include <KConfigGroup>
 #include <KLocalizedString>
@@ -51,8 +52,6 @@
 
 #include "colorsmodel.h"
 #include "filterproxymodel.h"
-
-#include <fstream>
 
 static const QString s_defaultColorSchemeName = QStringLiteral("Breeze");
 
@@ -430,33 +429,10 @@ void KCMColors::saveColors()
     }
 
     m_config->sync();
-    
-    // Feren OS code addition: If the colour scheme has an accompanying Kvantum theme, we'll apply it, otherwise we'll apply Breeze to prevent readability issues (also applies the Kvantum theme to the kvantum configs regardless so if the user switches back to kvantum post-Breeze-switch it will fit immediately unless they've changed the colour scheme beforehand again)
-    const QString schemename = (m_model->selectedScheme());
-    KConfig kdeglobalsconfig(QString("kdeglobals"));
-    KConfigGroup cg(&kdeglobalsconfig, "KDE");
-    std::string schemenamestd = schemename.toUtf8().constData();
-    // Check if the colour scheme mentions a Kvantum theme, if so the Kvantum theme is that, otherwise we'll check if a Kvantum theme of the colour scheme's name exists and if not then Breeze style it is
-    std::string homepath(getenv("HOME"));
-    std::string path1 = "/usr/share/Kvantum/"+schemenamestd+"/"+schemenamestd+".kvconfig";
-    std::string path2 = homepath+"/.config/Kvantum/"+schemenamestd+"/"+schemenamestd+".kvconfig";
-    std::ifstream file1(path1.c_str());
-    std::ifstream file2(path2.c_str());
-    if (file1.good() || file2.good()) {
-        KConfig kvantumconfig(QString("Kvantum/kvantum.kvconfig"));
-        KConfigGroup cg3(&kvantumconfig, "General");
-        cg3.writeEntry("theme", QString::fromStdString(schemenamestd));
-        cg3.sync();
-    }
-    if (cg.readEntry("widgetStyle", QString()) == "kvantum" || cg.readEntry("widgetStyle", QString()) == "kvantum-dark") {
-        if (file1.good() || file2.good()) {
-            std::system("/usr/bin/qtstyletool -a kvantum");
-        } else {
-            std::system("/usr/bin/qtstyletool -a Breeze");
-        }
-    }
 
-    runRdb(KRdbExportQtColors | KRdbExportGtkTheme | (m_applyToAlien ? KRdbExportColors : 0));
+    runRdb(KRdbExportQtColors | KRdbExportGtkTheme | KRdbExportGtkColors | (m_applyToAlien ? KRdbExportColors : 0));
+
+    saveGtkColors(config);
 
     QDBusMessage message = QDBusMessage::createSignal(QStringLiteral("/KGlobalSettings"),
                                                       QStringLiteral("org.kde.KGlobalSettings"),
@@ -466,12 +442,6 @@ void KCMColors::saveColors()
         0  //unused in palette changed but needed for the DBus signature
     });
     QDBusConnection::sessionBus().send(message);
-
-    if (KWindowSystem::isPlatformX11()) {
-        // Send signal to all kwin instances
-        QDBusMessage message = QDBusMessage::createSignal(QStringLiteral("/KWin"), QStringLiteral("org.kde.KWin"), QStringLiteral("reloadConfig"));
-        QDBusConnection::sessionBus().send(message);
-    }
 
     m_selectedSchemeDirty = false;
 }

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmicons\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"POT-Creation-Date: 2019-05-20 03:25+0200\n"
 "PO-Revision-Date: 2008-12-24 18:12-0800\n"
 "Last-Translator: Abhishek Jacob <abhishekjacob123@gmail.com>\n"
 "Language-Team: Malayalam <smc-discuss@googlegroups.com>\n"
@@ -80,7 +80,6 @@ msgstr ""
 
 #: main.cpp:332
 #, fuzzy, kde-format
-#| msgid "Unable to find the icon theme archive %1."
 msgid "Unable to download the icon theme archive: %1"
 msgstr "ചിഹ്നത്തിന്റെ പ്രമേയത്തിനുള്ള ആര്‍ക്കൈവ് %1 ലഭ്യമായില്ല."
 
@@ -105,13 +104,11 @@ msgstr ""
 
 #: main.cpp:465
 #, fuzzy, kde-format
-#| msgid "Installing icon themes"
 msgid "Installing icon themes..."
 msgstr "ചിഹ്നത്തിനുള്ള പ്രമേയങ്ങള്‍ ചേര്‍ക്കുന്നു"
 
 #: main.cpp:475
 #, fuzzy, kde-format
-#| msgid "Installing icon themes"
 msgid "Installing %1 theme..."
 msgstr "ചിഹ്നത്തിനുള്ള പ്രമേയങ്ങള്‍ ചേര്‍ക്കുന്നു"
 
@@ -152,13 +149,11 @@ msgstr ""
 
 #: package/contents/ui/main.qml:155
 #, fuzzy, kde-format
-#| msgid "Remove Theme"
 msgid "Remove Icon Theme"
 msgstr "പ്രമേയം നീക്കം ചെയ്യുക"
 
 #: package/contents/ui/main.qml:162
 #, fuzzy, kde-format
-#| msgid "Remove Theme"
 msgid "Restore Icon Theme"
 msgstr "പ്രമേയം നീക്കം ചെയ്യുക"
 
@@ -169,19 +164,16 @@ msgstr ""
 
 #: package/contents/ui/main.qml:247
 #, fuzzy, kde-format
-#| msgid "Install Theme File..."
 msgid "Install from File..."
 msgstr "പ്രമേയ ഫയല്‍ ചേര്‍ക്കുക..."
 
 #: package/contents/ui/main.qml:253
 #, fuzzy, kde-format
-#| msgid "Get New Themes..."
 msgid "Get New Icons..."
 msgstr "പുതിയ പ്രമേയങ്ങള്‍ ലഭ്യമാക്കുക..."
 
 #: package/contents/ui/main.qml:274
 #, fuzzy, kde-format
-#| msgid "Remove Theme"
 msgid "Open Theme"
 msgstr "പ്രമേയം നീക്കം ചെയ്യുക"
 

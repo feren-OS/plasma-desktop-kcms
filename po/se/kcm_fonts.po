@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmfonts\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-07-12 07:37+0200\n"
+"POT-Creation-Date: 2019-08-16 03:26+0200\n"
 "PO-Revision-Date: 2007-12-24 01:28+0100\n"
 "Last-Translator: Børre Gaup <boerre@skolelinux.no>\n"
 "Language-Team: Northern Sami <i18n-sme@lister.ping.uio.no>\n"
@@ -30,93 +30,73 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr ""
 
-#: fonts.cpp:279
-#, kde-format
-msgid ""
-"<p>Some changes such as anti-aliasing or DPI will only affect newly started "
-"applications.</p>"
-msgstr ""
-
-#: fonts.cpp:280 fonts.cpp:290
-#, kde-format
-msgid "Font Settings Changed"
-msgstr "Fontaheivehusat leat rievdaduvvon"
-
-#: fonts.cpp:289
-#, kde-format
-msgid ""
-"<p>Some changes such as DPI will only affect newly started applications.</p>"
-msgstr ""
-"<p>Muhton rievdadusat, nugo DPI, guoská dušše prográmmaide mat álggahuvvojit "
-"ođđasit.</p>"
-
-#: fonts.cpp:443
+#: fonts.cpp:471
 #, kde-format
 msgid "Fonts"
 msgstr "Fonttat"
 
-#: fonts.cpp:445
+#: fonts.cpp:473
 #, kde-format
 msgid "Antonis Tsiapaliokas"
 msgstr ""
 
-#: kxftconfig.cpp:444
+#: kxftconfig.cpp:480
 #, kde-format
 msgctxt "use system subpixel setting"
 msgid "Vendor default"
 msgstr ""
 
-#: kxftconfig.cpp:446
+#: kxftconfig.cpp:482
 #, kde-format
 msgctxt "no subpixel rendering"
 msgid "None"
 msgstr ""
 
-#: kxftconfig.cpp:448
+#: kxftconfig.cpp:484
 #, kde-format
 msgid "RGB"
 msgstr "RGB"
 
-#: kxftconfig.cpp:450
+#: kxftconfig.cpp:486
 #, kde-format
 msgid "BGR"
 msgstr "BGR"
 
-#: kxftconfig.cpp:452
+#: kxftconfig.cpp:488
 #, kde-format
 msgid "Vertical RGB"
 msgstr "Ceakko RGB"
 
-#: kxftconfig.cpp:454
+#: kxftconfig.cpp:490
 #, kde-format
 msgid "Vertical BGR"
 msgstr "Ceakko BGR"
 
-#: kxftconfig.cpp:482
+#: kxftconfig.cpp:518
 #, kde-format
 msgctxt "use system hinting settings"
 msgid "Vendor default"
 msgstr ""
 
-#: kxftconfig.cpp:484
+#: kxftconfig.cpp:520
 #, kde-format
 msgctxt "medium hinting"
 msgid "Medium"
 msgstr ""
 
-#: kxftconfig.cpp:486
+#: kxftconfig.cpp:522
 #, kde-format
 msgctxt "no hinting"
 msgid "None"
 msgstr ""
 
-#: kxftconfig.cpp:488
+#: kxftconfig.cpp:524
 #, kde-format
 msgctxt "slight hinting"
 msgid "Slight"
 msgstr ""
 
-#: kxftconfig.cpp:490
+#: kxftconfig.cpp:526
 #, kde-format
 msgctxt "full hinting"
 msgid "Full"
@@ -132,95 +112,91 @@ msgstr ""
 msgid "This module lets you configure the system fonts."
 msgstr ""
 
-#: package/contents/ui/main.qml:40
+#: package/contents/ui/main.qml:38
+#, kde-format
+msgid ""
+"Some changes such as anti-aliasing or DPI will only affect newly started "
+"applications."
+msgstr ""
+
+#: package/contents/ui/main.qml:54
 #, kde-format
 msgid "&Adjust All Fonts..."
 msgstr ""
 
-#: package/contents/ui/main.qml:47
+#: package/contents/ui/main.qml:61
 #, kde-format
 msgid "General:"
 msgstr ""
 
-#: package/contents/ui/main.qml:52
+#: package/contents/ui/main.qml:66
 #, kde-format
 msgid "Fixed width:"
 msgstr ""
 
-#: package/contents/ui/main.qml:57
+#: package/contents/ui/main.qml:71
 #, kde-format
 msgid "Small:"
 msgstr ""
 
-#: package/contents/ui/main.qml:62
+#: package/contents/ui/main.qml:76
 #, kde-format
 msgid "Toolbar:"
 msgstr ""
 
-#: package/contents/ui/main.qml:67
+#: package/contents/ui/main.qml:81
 #, kde-format
 msgid "Menu:"
 msgstr ""
 
-#: package/contents/ui/main.qml:72
+#: package/contents/ui/main.qml:86
 #, kde-format
 msgid "Window title:"
 msgstr ""
 
-#: package/contents/ui/main.qml:84
+#: package/contents/ui/main.qml:99
 #, kde-format
-msgctxt "Used as a noun, and precedes a combobox full of options"
-msgid "Anti-aliasing:"
+msgid "Anti-Aliasing:"
 msgstr ""
 
-#: package/contents/ui/main.qml:86
+#: package/contents/ui/main.qml:100
 #, kde-format
-msgid "Enabled"
-msgstr "Alde"
-
-#: package/contents/ui/main.qml:86
-#, kde-format
-msgid "Vendor default"
+msgid "Enable"
 msgstr ""
 
-#: package/contents/ui/main.qml:86
-#, kde-format
-msgid "Disabled"
-msgstr ""
-
-#: package/contents/ui/main.qml:96
+#: package/contents/ui/main.qml:108
 #, kde-format
 msgid "Exclude range from anti-aliasing"
 msgstr ""
 
-#: package/contents/ui/main.qml:113 package/contents/ui/main.qml:128
+#: package/contents/ui/main.qml:121 package/contents/ui/main.qml:136
 #, kde-format
 msgid "%1 pt"
 msgstr ""
 
-#: package/contents/ui/main.qml:120
+#: package/contents/ui/main.qml:128
 #, kde-format
 msgid "to"
 msgstr "gitta"
 
-#: package/contents/ui/main.qml:141
+#: package/contents/ui/main.qml:149
 #, kde-format
 msgctxt "Used as a noun, and precedes a combobox full of options"
 msgid "Sub-pixel rendering:"
 msgstr ""
 
-#: package/contents/ui/main.qml:178
+#: package/contents/ui/main.qml:186
 #, kde-format
 msgctxt "Used as a noun, and precedes a combobox full of options"
 msgid "Hinting:"
 msgstr ""
 
-#: package/contents/ui/main.qml:216
+#: package/contents/ui/main.qml:224
 #, kde-format
 msgid "Force font DPI:"
 msgstr ""
 
-#: package/contents/ui/main.qml:234
+#: package/contents/ui/main.qml:242
 #, kde-format
 msgid "Select Font"
 msgstr ""

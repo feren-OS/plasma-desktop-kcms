@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-06-26 07:33+0200\n"
-"PO-Revision-Date: 2019-03-18 20:27+0200\n"
+"POT-Creation-Date: 2019-08-16 03:26+0200\n"
+"PO-Revision-Date: 2019-08-19 18:10+0300\n"
 "Last-Translator: Tommi Nieminen <translator@legisign.org>\n"
 "Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
 "Language: fi\n"
@@ -29,22 +29,22 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "lasse.liehu@gmail.com, translator@legisign.org"
 
-#: kcm.cpp:76
+#: kcm.cpp:72
 #, kde-format
-msgid "Look and Feel"
-msgstr "Ulkoasu"
+msgid "Global Theme"
+msgstr "Yleisteema"
 
-#: kcm.cpp:78 lnftool.cpp:43
+#: kcm.cpp:74 lnftool.cpp:43
 #, kde-format
 msgid "Marco Martin"
 msgstr "Marco Martin"
 
-#: kcm.cpp:112
+#: kcm.cpp:108
 #, kde-format
-msgid "Download New Look and Feel Themes"
-msgstr "Lataa uusia ulkoasuteemoja"
+msgid "Download New Global Themes"
+msgstr "Lataa uusia yleisteemoja"
 
-#: kcm.cpp:572
+#: kcm.cpp:569
 #, kde-format
 msgid ""
 "You have to restart the Plasma session for these changes to take effect."
@@ -52,20 +52,23 @@ msgstr ""
 "Plasma-istunto on käynnistettävä uudestaan, jotta muutokset tulisivat "
 "voimaan."
 
-#: kcm.cpp:573
+#: kcm.cpp:570
 #, kde-format
 msgid "Cursor Settings Changed"
 msgstr "Osoitinasetuksia muutettiin"
 
 #: lnftool.cpp:42
 #, kde-format
-msgid "Look and feel tool"
-msgstr "Ulkoasutyökalu"
+msgid "Global Theme Tool"
+msgstr "Yleisteematyökalu"
 
 #: lnftool.cpp:42
 #, kde-format
-msgid "Command line tool to apply look and feel packages."
-msgstr "Komentorivityökalu ulkoasupakettien käyttämiseen."
+msgid ""
+"Command line tool to apply global theme packages for changing the look and "
+"feel."
+msgstr ""
+"Komentorivityökalu yleisteemapakettien käyttämiseksi ulkoasun muuttamiseen."
 
 #: lnftool.cpp:42
 #, kde-format
@@ -79,13 +82,13 @@ msgstr "Ylläpitäjä"
 
 #: lnftool.cpp:52
 #, kde-format
-msgid "List available Look and feel packages"
-msgstr "Luettele saatavilla olevat ulkoasupaketit"
+msgid "List available global theme packages"
+msgstr "Luettele saatavilla olevat yleisteemapaketit"
 
 #: lnftool.cpp:54
 #, kde-format
-msgid "Apply a look and feel package"
-msgstr "Käytä ulkoasupakettia"
+msgid "Apply a global theme package"
+msgstr "Käytä yleisteemapakettia"
 
 #: lnftool.cpp:54
 #, kde-format
@@ -99,8 +102,8 @@ msgstr "Palauta Plasma-työpöydän alkuperäinen asettelu"
 
 #: package/contents/ui/main.qml:28
 #, kde-format
-msgid "This module lets you choose the Look and Feel theme."
-msgstr "Tässä osiossa voit valita ulkoasuteeman."
+msgid "This module lets you choose the global look and feel."
+msgstr "Tässä osiossa voit asettaa työpöydän yleisen ulkoasun."
 
 #: package/contents/ui/main.qml:49
 #, kde-format
@@ -123,5 +126,5 @@ msgstr "Käytä teeman työpöytäasettelua"
 
 #: package/contents/ui/main.qml:84
 #, kde-format
-msgid "Get New Look and Feel Themes..."
-msgstr "Hae uusia ulkoasuteemoja…"
+msgid "Get New Global Themes..."
+msgstr "Hae uusia yleisteemoja…"

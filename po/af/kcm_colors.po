@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmcolors stable\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-06-21 07:50+0200\n"
+"POT-Creation-Date: 2019-08-05 03:06+0200\n"
 "PO-Revision-Date: 2005-11-23 16:45+0200\n"
 "Last-Translator: Kobus <kabousv@therugby.co.za>\n"
 "Language-Team: AFRIKAANS <translate-discuss-af@lists.sourceforge.net>\n"
@@ -28,114 +28,53 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "juanita.franz@vr-web.de, kabousv@therugby.co.za"
 
-#: colors.cpp:69 editor/scmeditordialog.cpp:80
+#: colors.cpp:70 editor/scmeditordialog.cpp:80
 #, kde-format
 msgid "Colors"
 msgstr "Kleure"
 
-#: colors.cpp:71
+#: colors.cpp:72
 #, kde-format
 msgid "Kai Uwe Broulik"
 msgstr ""
 
-#: colors.cpp:110
+#: colors.cpp:111
 #, fuzzy, kde-format
 #| msgid "Save Color Scheme"
 msgid "Download New Color Schemes"
 msgstr "Stoor Kleur Skema"
 
-#: colors.cpp:166
+#: colors.cpp:167
 #, kde-format
 msgid "Unable to create a temporary file."
 msgstr ""
 
-#: colors.cpp:180
+#: colors.cpp:181
 #, fuzzy, kde-format
 #| msgid "Enter a name for the color scheme:"
 msgid "Unable to download the color scheme: %1"
 msgstr "Invoer 'n naam vir die kleur skema:"
 
-#: colors.cpp:198
+#: colors.cpp:199
 #, fuzzy, kde-format
 #| msgid "Color Scheme"
 msgid "This file is not a color scheme file."
 msgstr "Kleur Skema"
 
-#: colors.cpp:218
+#: colors.cpp:219
 #, kde-format
 msgid "Failed to create 'color-scheme' data folder."
 msgstr ""
 
-#: colors.cpp:225
+#: colors.cpp:226
 #, kde-format
 msgid "Failed to copy color scheme into 'color-scheme' data folder."
 msgstr ""
 
-#: colors.cpp:242
+#: colors.cpp:243
 #, kde-format
 msgid "Color scheme installed successfully."
 msgstr ""
-
-#. i18n: ectx: property (toolTip), widget (QPushButton, schemeEditButton)
-#: editor/colorsettings.ui:31
-#, fuzzy, kde-format
-#| msgid "Save Color Scheme"
-msgid "Configure the current color scheme"
-msgstr "Stoor Kleur Skema"
-
-#. i18n: ectx: property (text), widget (QPushButton, schemeEditButton)
-#: editor/colorsettings.ui:34
-#, kde-format
-msgid "Edit..."
-msgstr ""
-
-#. i18n: ectx: property (toolTip), widget (QPushButton, schemeRemoveButton)
-#: editor/colorsettings.ui:52
-#, fuzzy, kde-format
-#| msgid "Color Scheme"
-msgid "Remove the selected scheme"
-msgstr "Kleur Skema"
-
-#. i18n: ectx: property (text), widget (QPushButton, schemeRemoveButton)
-#: editor/colorsettings.ui:55
-#, fuzzy, kde-format
-#| msgid "Color Scheme"
-msgid "Remove"
-msgstr "Kleur Skema"
-
-#. i18n: ectx: property (toolTip), widget (QPushButton, schemeImportButton)
-#: editor/colorsettings.ui:83
-#, fuzzy, kde-format
-#| msgid "Color Scheme"
-msgid "Import a color scheme from a file"
-msgstr "Kleur Skema"
-
-#. i18n: ectx: property (text), widget (QPushButton, schemeImportButton)
-#: editor/colorsettings.ui:86
-#, kde-format
-msgid "&Install from File..."
-msgstr ""
-
-#. i18n: ectx: property (toolTip), widget (QPushButton, schemeKnsButton)
-#: editor/colorsettings.ui:98
-#, fuzzy, kde-format
-#| msgid "Color Scheme"
-msgid "Get new color schemes from the Internet"
-msgstr "Kleur Skema"
-
-#. i18n: ectx: property (text), widget (QPushButton, schemeKnsButton)
-#: editor/colorsettings.ui:101
-#, fuzzy, kde-format
-#| msgid "Save Color Scheme"
-msgid "Get &New Color Schemes..."
-msgstr "Stoor Kleur Skema"
-
-#. i18n: ectx: property (text), widget (QCheckBox, applyToAlien)
-#: editor/colorsettings.ui:137
-#, fuzzy, kde-format
-#| msgid "Apply colors to &non-KDE applications"
-msgid "Apply colors to &non-Qt applications"
-msgstr "Wend aan kleure na Nie-kde programme"
 
 #: editor/kcolorschemeeditor.cpp:35
 #, fuzzy, kde-format
@@ -1233,112 +1172,117 @@ msgstr ""
 msgid "This module lets you choose the color scheme."
 msgstr ""
 
-#: package/contents/ui/main.qml:83
+#: package/contents/ui/main.qml:84
 #, kde-format
 msgid ""
 "The color scheme '%1' is not installed. Selecting the default theme instead."
 msgstr ""
 
-#: package/contents/ui/main.qml:95
+#: package/contents/ui/main.qml:96
 #, kde-format
 msgid "Search..."
 msgstr ""
 
-#: package/contents/ui/main.qml:133
+#: package/contents/ui/main.qml:134
 #, fuzzy, kde-format
 #| msgid "Color Scheme"
 msgid "All Schemes"
 msgstr "Kleur Skema"
 
-#: package/contents/ui/main.qml:134
+#: package/contents/ui/main.qml:135
 #, fuzzy, kde-format
 #| msgid "R&emove Scheme"
 msgid "Light Schemes"
 msgstr "Verwyder Skema"
 
-#: package/contents/ui/main.qml:135
+#: package/contents/ui/main.qml:136
 #, fuzzy, kde-format
 #| msgid "Save Color Scheme"
 msgid "Dark Schemes"
 msgstr "Stoor Kleur Skema"
 
-#: package/contents/ui/main.qml:193
+#: package/contents/ui/main.qml:202
+#, fuzzy, kde-format
+msgid "Window Title"
+msgstr "Venster teks"
+
+#: package/contents/ui/main.qml:223
 #, fuzzy, kde-format
 msgid "Window text"
 msgstr "Venster teks"
 
-#: package/contents/ui/main.qml:200
+#: package/contents/ui/main.qml:230
 #, fuzzy, kde-format
 msgid "Button"
 msgstr "Knoppie Teks"
 
-#: package/contents/ui/main.qml:219
+#: package/contents/ui/main.qml:249
 #, fuzzy, kde-format
 #| msgid "link"
 msgctxt "Hyperlink"
 msgid "link"
 msgstr "skakel"
 
-#: package/contents/ui/main.qml:221
+#: package/contents/ui/main.qml:251
 #, fuzzy, kde-format
 #| msgid "Active Title Text"
 msgctxt "Visited hyperlink"
 msgid "visited"
 msgstr "Aktiewe titel teks"
 
-#: package/contents/ui/main.qml:227
+#: package/contents/ui/main.qml:257
 #, kde-format
 msgid "Normal text"
 msgstr ""
 
-#: package/contents/ui/main.qml:235
+#: package/contents/ui/main.qml:265
 #, fuzzy, kde-format
 #| msgid "Active Title Text"
 msgid "Highlighted text"
 msgstr "Aktiewe titel teks"
 
-#: package/contents/ui/main.qml:242
+#: package/contents/ui/main.qml:272
 #, fuzzy, kde-format
 #| msgid "Inactive Title Button"
 msgid "Disabled text"
 msgstr "Onaktiewe titel Knoppie"
 
-#: package/contents/ui/main.qml:260
+#: package/contents/ui/main.qml:290
 #, fuzzy, kde-format
 #| msgid "Color Scheme"
 msgid "Edit Color Scheme..."
 msgstr "Kleur Skema"
 
-#: package/contents/ui/main.qml:266
+#: package/contents/ui/main.qml:296
 #, fuzzy, kde-format
 #| msgid "Save Color Scheme"
 msgid "Remove Color Scheme"
 msgstr "Stoor Kleur Skema"
 
-#: package/contents/ui/main.qml:273
+#: package/contents/ui/main.qml:303
 #, fuzzy, kde-format
 #| msgid "Color Scheme"
 msgid "Restore Color Scheme"
 msgstr "Kleur Skema"
 
-#: package/contents/ui/main.qml:316
+#: package/contents/ui/main.qml:346
 #, kde-format
 msgid "Install from File..."
 msgstr ""
 
-#: package/contents/ui/main.qml:322
+#: package/contents/ui/main.qml:352
 #, fuzzy, kde-format
 #| msgid "Save Color Scheme"
 msgid "Get New Color Schemes..."
 msgstr "Stoor Kleur Skema"
 
-#: package/contents/ui/main.qml:334
+#: package/contents/ui/main.qml:364
 #, fuzzy, kde-format
 #| msgid "Save Color Scheme"
 msgid "Open Color Scheme"
 msgstr "Stoor Kleur Skema"
 
-#: package/contents/ui/main.qml:336
+#: package/contents/ui/main.qml:366
 #, kde-format
 msgid "Color Scheme Files (*.colors)"
 msgstr ""

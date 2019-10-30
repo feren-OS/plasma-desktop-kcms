@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmaccess\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"POT-Creation-Date: 2019-08-01 03:13+0200\n"
 "PO-Revision-Date: 2008-11-16 19:27-0800\n"
 "Last-Translator: പ്രവീണ്‍ അരിമ്പ്രത്തൊടിയില്‍ <pravi.a@gmail.com>\n"
 "Language-Team: Malayalam <smc-discuss@googlegroups.com>\n"
@@ -45,10 +45,6 @@ msgstr "കേള്‍ക്കാന്‍ പറ്റുന്ന മണി"
 #. i18n: ectx: property (toolTip), widget (QCheckBox, gestures)
 #: accessibility.ui:33 accessibility.ui:576
 #, fuzzy, kde-format
-#| msgid ""
-#| "If this option is checked, the default system bell will be used. See the "
-#| "\"System Bell\" control module for how to customize the system bell. "
-#| "Normally, this is just a \"beep\"."
 msgid ""
 "If this option is checked, the default system bell will be used. Usually, "
 "this is just a \"beep\"."
@@ -67,11 +63,6 @@ msgstr "&സിസ്റ്റം മണി ഉപയോഗിക്കുക"
 #. i18n: ectx: property (toolTip), widget (QCheckBox, accessxBeep)
 #: accessibility.ui:43 accessibility.ui:660
 #, fuzzy, kde-format
-#| msgid ""
-#| "<p>Check this option if you want to use a customized bell, playing a "
-#| "sound file. If you do this, you will probably want to turn off the system "
-#| "bell.</p><p> Please note that on slow machines this may cause a \"lag\" "
-#| "between the event causing the bell and the sound being played.</p>"
 msgid ""
 "Check this option if you want to use a customized bell, playing a sound "
 "file. If you do this, you will probably want to turn off the system bell."
@@ -115,17 +106,12 @@ msgstr "തെരയുക..."
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
 #: accessibility.ui:106
 #, fuzzy, kde-format
-#| msgid "Visible Bell"
 msgid "Visual Bell"
 msgstr "ദൃശ്യമായ മണി"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, visibleBell)
 #: accessibility.ui:112
 #, fuzzy, kde-format
-#| msgid ""
-#| "This option will turn on the \"visible bell\", i.e. a visible "
-#| "notification shown every time that normally just a bell would occur. This "
-#| "is especially useful for deaf people."
 msgid ""
 "This option will turn on the \"visual bell\", i.e. a visual notification "
 "shown every time that normally just a bell would occur. This is especially "
@@ -138,7 +124,6 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, visibleBell)
 #: accessibility.ui:115
 #, fuzzy, kde-format
-#| msgid "&Use visible bell"
 msgid "&Use visual bell"
 msgstr "&ദൃശ്യമായ മണി ഉപയോഗിക്കുക"
 
@@ -182,7 +167,6 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: accessibility.ui:165
 #, fuzzy, kde-format
-#| msgid "Duration:"
 msgid "&Duration:"
 msgstr "&സമയപരിധി:"
 
@@ -201,7 +185,11 @@ msgstr "\"ദൃശ്യമായ മണി\" എന്ന പ്രഭാവ�
 #. i18n: ectx: property (suffix), widget (QSpinBox, duration)
 #. i18n: ectx: property (suffix), widget (QSpinBox, slowKeysDelay)
 #. i18n: ectx: property (suffix), widget (QSpinBox, bounceKeysDelay)
+#. i18n: ectx: property (suffix), widget (QSpinBox, mk_delay)
+#. i18n: ectx: property (suffix), widget (QSpinBox, mk_interval)
+#. i18n: ectx: property (suffix), widget (QSpinBox, mk_time_to_max)
 #: accessibility.ui:181 accessibility.ui:392 accessibility.ui:489
+#: accessibility.ui:766 accessibility.ui:808 accessibility.ui:840
 #, kde-format
 msgid " msec"
 msgstr "മില്ലിസെക്കന്‍ഡ്"
@@ -209,14 +197,12 @@ msgstr "മില്ലിസെക്കന്‍ഡ്"
 #. i18n: ectx: attribute (title), widget (QWidget, tabModifier)
 #: accessibility.ui:224
 #, fuzzy, kde-format
-#| msgid "&Modifier Keys"
 msgid "&Modifier Keys"
 msgstr "&മോഡിഫയര്‍ കീകള്‍"
 
 #. i18n: ectx: property (title), widget (QGroupBox, sticky)
 #: accessibility.ui:230
 #, fuzzy, kde-format
-#| msgid "S&ticky Keys"
 msgid "Sticky Keys"
 msgstr "&സ്റ്റിക്കി കി"
 
@@ -262,9 +248,6 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, kNotifyModifiers)
 #: accessibility.ui:304
 #, fuzzy, kde-format
-#| msgid ""
-#| "Use KDE's system notification mechanism whenever a modifier or locking "
-#| "key changes its state"
 msgid ""
 "Use Plasma's notification mechanism for modifier or locking key state changes"
 msgstr ""
@@ -335,7 +318,6 @@ msgstr "ഏതെങ്കിലും കീ തിരസ്കരിക്ക�
 #. i18n: ectx: attribute (title), widget (QWidget, tabActivationGestures)
 #: accessibility.ui:564
 #, fuzzy, kde-format
-#| msgid "Activation Gestures"
 msgid "Activation &Gestures"
 msgstr "സജീവമാക്കാന്‍ ഉപയോഗിക്കുന്ന ആംഗ്യങ്ങള്‍"
 
@@ -373,9 +355,6 @@ msgstr "അറിയിപ്പ്"
 #. i18n: ectx: property (text), widget (QCheckBox, accessxBeep)
 #: accessibility.ui:663
 #, fuzzy, kde-format
-#| msgid ""
-#| "Use the system bell whenever a gesture is used to turn an accessibility "
-#| "feature on or off"
 msgid ""
 "Use the system bell whenever a gesture is used to toggle an accessibility "
 "feature"
@@ -401,9 +380,6 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, gestureConfirmation)
 #: accessibility.ui:674
 #, fuzzy, kde-format
-#| msgid ""
-#| "Show a confirmation dialog whenever a keyboard accessibility feature is "
-#| "turned on or off"
 msgid ""
 "Show a confirmation dialog whenever a keyboard accessibility feature is "
 "toggled"
@@ -414,9 +390,6 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, kNotifyAccess)
 #: accessibility.ui:681
 #, fuzzy, kde-format
-#| msgid ""
-#| "Use KDE's system notification mechanism whenever a keyboard accessibility "
-#| "feature is turned on or off"
 msgid ""
 "Use Plasma's notification mechanism whenever a keyboard accessibility "
 "feature is toggled"
@@ -424,26 +397,75 @@ msgstr ""
 "ഏതെങ്കിലും കീബോര്‍ഡ്  അക്സസബിളിറ്റി കഴിവുകള്‍ സജീവമാക്കുകയോ നിര്‍ജ്ജീവമാക്കുകയോ "
 "ചെയ്യുകയാണെങ്കില്‍കെഡിഇയുടെ സിസ്റ്റം അറിയിപ്പുകള്‍ക്കായുള്ള സംവിധാനം ഉപയോഗിക്കുക"
 
-#. i18n: ectx: attribute (title), widget (QWidget, tabScreenReader)
+#. i18n: ectx: attribute (title), widget (QWidget, tabMouseKeys)
 #: accessibility.ui:745
+#, kde-format
+msgid "Mouse Navigation"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, mouseKeys)
+#: accessibility.ui:753
+#, kde-format
+msgid "&Move pointer with keyboard (using the num pad)"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: accessibility.ui:782
+#, fuzzy, kde-format
+#| msgid "Acceptance dela&y:"
+msgid "&Acceleration delay:"
+msgstr "&അംഗീകരിക്കാനുള്ള കാലതാമസം"
+
+#. i18n: ectx: property (text), widget (QLabel, label_8)
+#: accessibility.ui:792
+#, kde-format
+msgid "R&epeat interval:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_9)
+#: accessibility.ui:824
+#, kde-format
+msgid "Acceleration &time:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_10)
+#: accessibility.ui:856
+#, kde-format
+msgid "Ma&ximum speed:"
+msgstr ""
+
+#. i18n: ectx: property (suffix), widget (QSpinBox, mk_max_speed)
+#: accessibility.ui:872
+#, kde-format
+msgid " pixel/sec"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_11)
+#: accessibility.ui:888
+#, kde-format
+msgid "Acceleration &profile:"
+msgstr ""
+
+#. i18n: ectx: attribute (title), widget (QWidget, tabScreenReader)
+#: accessibility.ui:933
 #, kde-format
 msgid "Screen Reader"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, screenReaderEnabled)
-#: accessibility.ui:751
+#: accessibility.ui:939
 #, kde-format
 msgid "Screen reader enabled"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, launchOrcaConfiguration)
-#: accessibility.ui:760
+#: accessibility.ui:948
 #, kde-format
 msgid "&Launch Orca Configuration"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: accessibility.ui:785
+#: accessibility.ui:973
 #, kde-format
 msgid ""
 "Please note that you may have to log out once to allow the screen reader to "
@@ -552,12 +574,12 @@ msgstr ""
 "സ്റ്റിക്കി കീകള്‍: ഷിഫ്റ്റ് കീ 5 തവണ അടുപ്പിച്ച് അമര്‍ത്തുക\n"
 "സ്ലോ കീകള്‍: ഷിഫ്റ്റ് കീ 8 സെക്കന്‍ഡ് നേരം അടുപ്പിച്ച് അമര്‍ത്തി പിടിക്കുക"
 
-#: kcmaccess.cpp:261
+#: kcmaccess.cpp:269
 #, kde-format
 msgid "Could not set gsettings for Orca: \"%1\" failed"
 msgstr ""
 
-#: kcmaccess.cpp:268
+#: kcmaccess.cpp:276
 #, kde-format
 msgid "Error: Could not launch \"orca --setup\""
 msgstr ""

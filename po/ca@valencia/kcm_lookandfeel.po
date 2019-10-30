@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcm_lookandfeel\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-06-26 07:33+0200\n"
-"PO-Revision-Date: 2019-02-14 20:05+0100\n"
+"POT-Creation-Date: 2019-08-16 03:26+0200\n"
+"PO-Revision-Date: 2019-06-27 12:39+0200\n"
 "Last-Translator: Josep Ma. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca@valencia\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Accelerator-Marker: &\n"
-"X-Generator: Lokalize 2.0\n"
+"X-Generator: Poedit 2.0.6\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -31,44 +31,47 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "sps@sastia.com,antonibella5@yahoo.com,aacid@kde.org"
 
-#: kcm.cpp:76
+#: kcm.cpp:72
 #, kde-format
-msgid "Look and Feel"
-msgstr "Aspecte i comportament"
+msgid "Global Theme"
+msgstr ""
 
-#: kcm.cpp:78 lnftool.cpp:43
+#: kcm.cpp:74 lnftool.cpp:43
 #, kde-format
 msgid "Marco Martin"
 msgstr "Marco Martin"
 
-#: kcm.cpp:112
-#, kde-format
-msgid "Download New Look and Feel Themes"
+#: kcm.cpp:108
+#, fuzzy, kde-format
+#| msgid "Download New Look and Feel Themes"
+msgid "Download New Global Themes"
 msgstr "Baixa temes nous d'aspecte i comportament"
 
-#: kcm.cpp:572
+#: kcm.cpp:569
 #, kde-format
 msgid ""
 "You have to restart the Plasma session for these changes to take effect."
 msgstr ""
-"Cal tornar a engegar la sessió del Plasma perquè aquests canvis tinguen "
-"efecte."
+"Cal reiniciar la sessió de Plasma perquè aquests canvis tinguen efecte."
 
-#: kcm.cpp:573
+#: kcm.cpp:570
 #, kde-format
 msgid "Cursor Settings Changed"
-msgstr "Ha canviat l'arranjament del cursor"
+msgstr "Ha canviat la configuració del cursor"
 
 #: lnftool.cpp:42
 #, kde-format
-msgid "Look and feel tool"
-msgstr "Eina d'aspecte i comportament"
-
-#: lnftool.cpp:42
-#, kde-format
-msgid "Command line tool to apply look and feel packages."
+msgid "Global Theme Tool"
 msgstr ""
-"Eina de la línia d'ordres per aplicar paquets d'aspecte i comportament."
+
+#: lnftool.cpp:42
+#, fuzzy, kde-format
+#| msgid "Command line tool to apply look and feel packages."
+msgid ""
+"Command line tool to apply global theme packages for changing the look and "
+"feel."
+msgstr ""
+"Eina de la línia d'ordres per a aplicar paquets d'aspecte i comportament."
 
 #: lnftool.cpp:42
 #, kde-format
@@ -81,13 +84,15 @@ msgid "Maintainer"
 msgstr "Mantenidor"
 
 #: lnftool.cpp:52
-#, kde-format
-msgid "List available Look and feel packages"
+#, fuzzy, kde-format
+#| msgid "List available Look and feel packages"
+msgid "List available global theme packages"
 msgstr "Llista de paquets disponibles d'aspecte i comportament"
 
 #: lnftool.cpp:54
-#, kde-format
-msgid "Apply a look and feel package"
+#, fuzzy, kde-format
+#| msgid "Apply a look and feel package"
+msgid "Apply a global theme package"
 msgstr "Aplica un paquet d'aspecte i comportament"
 
 #: lnftool.cpp:54
@@ -101,8 +106,9 @@ msgid "Reset the Plasma Desktop layout"
 msgstr "Reinicia la disposició de l'escriptori Plasma"
 
 #: package/contents/ui/main.qml:28
-#, kde-format
-msgid "This module lets you choose the Look and Feel theme."
+#, fuzzy, kde-format
+#| msgid "This module lets you choose the Look and Feel theme."
+msgid "This module lets you choose the global look and feel."
 msgstr "Aquest mòdul permet triar el tema d'aspecte i comportament."
 
 #: package/contents/ui/main.qml:49
@@ -116,15 +122,16 @@ msgid ""
 "Your desktop layout will be lost and reset to the default layout provided by "
 "the selected theme."
 msgstr ""
-"La vostra disposició de l'escriptori es perdrà i es restaurarà a la "
+"La vostra disposició de l'escriptori es perdrà i es restaurarà en la "
 "disposició predeterminada proporcionada pel tema seleccionat."
 
 #: package/contents/ui/main.qml:77
 #, kde-format
 msgid "Use desktop layout from theme"
-msgstr "Usa la disposició de l'escriptori des del tema"
+msgstr "Utilitza la disposició de l'escriptori des del tema"
 
 #: package/contents/ui/main.qml:84
-#, kde-format
-msgid "Get New Look and Feel Themes..."
-msgstr "Obtén temes nous d'aspecte i comportament..."
+#, fuzzy, kde-format
+#| msgid "Get New Look and Feel Themes..."
+msgid "Get New Global Themes..."
+msgstr "Obtín temes nous d'aspecte i comportament..."

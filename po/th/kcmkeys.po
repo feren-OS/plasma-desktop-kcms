@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkeys\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"POT-Creation-Date: 2019-09-12 03:25+0200\n"
 "PO-Revision-Date: 2010-02-27 23:33+0700\n"
 "Last-Translator: Thanomsub Noppaburana <donga.nb@gmail.com>\n"
 "Language-Team: Thai <thai-l10n@googlegroups.com>\n"
@@ -31,52 +31,52 @@ msgstr "เลือกส่วนประกอบที่จะส่งอ
 msgid "Components"
 msgstr "ส่วนประกอบ"
 
-#: globalshortcuts.cpp:67
+#: globalshortcuts.cpp:65
 #, kde-format
 msgid "You are about to reset all shortcuts to their default values."
 msgstr "คุณต้องการจะตั้งค่าปุ่มพิมพ์ลัดทั้งหมดให้กลับไปใช้ค่าปริยายของพวกมัน"
 
-#: globalshortcuts.cpp:68
+#: globalshortcuts.cpp:66
 #, kde-format
 msgid "Reset to defaults"
 msgstr "กลับไปใช้ค่าปริยาย"
 
-#: globalshortcuts.cpp:69
+#: globalshortcuts.cpp:67
 #, kde-format
 msgid "Current Component"
 msgstr "ส่วนประกอบปัจจุบัน"
 
-#: globalshortcuts.cpp:70
+#: globalshortcuts.cpp:68
 #, kde-format
 msgid "All Components"
 msgstr "ส่วนประกอบทั้งหมด"
 
-#: kglobalshortcutseditor.cpp:231
+#: kglobalshortcutseditor.cpp:233
 #, kde-format
 msgid "Import Scheme..."
 msgstr "นำเข้าชุดปุ่มพิมพ์..."
 
-#: kglobalshortcutseditor.cpp:232
+#: kglobalshortcutseditor.cpp:234
 #, kde-format
 msgid "Export Scheme..."
 msgstr "ส่งออกชุดปุ่มพิมพ์..."
 
-#: kglobalshortcutseditor.cpp:233
+#: kglobalshortcutseditor.cpp:235
 #, kde-format
 msgid "Set All Shortcuts to None"
 msgstr "ตั้งปุ่มพิมพ์ลัดทั้งหมดให้ไม่มีปุ่มลัด"
 
-#: kglobalshortcutseditor.cpp:241
+#: kglobalshortcutseditor.cpp:243
 #, kde-format
 msgid "Applications"
 msgstr ""
 
-#: kglobalshortcutseditor.cpp:292
+#: kglobalshortcutseditor.cpp:294
 #, kde-format
 msgid "Launch %1"
 msgstr ""
 
-#: kglobalshortcutseditor.cpp:328
+#: kglobalshortcutseditor.cpp:330
 #, kde-format
 msgid ""
 "Component '%1' is currently active. Only global shortcuts currently not "
@@ -89,12 +89,12 @@ msgstr ""
 "ปุ่มพิมพ์ลัดใช้งานส่วนรวมทั้งหมดจะทำการลงทะเบียนตัวมันเองด้วยค่าปริยายของพวกมัน "
 "เมื่อเริ่มการทำงานในครั้งหน้า"
 
-#: kglobalshortcutseditor.cpp:330 kglobalshortcutseditor.cpp:340
+#: kglobalshortcutseditor.cpp:332 kglobalshortcutseditor.cpp:342
 #, kde-format
 msgid "Remove component"
 msgstr "ลบส่วนประกอบ"
 
-#: kglobalshortcutseditor.cpp:336
+#: kglobalshortcutseditor.cpp:338
 #, kde-format
 msgid ""
 "Are you sure you want to remove the registered shortcuts for component '%1'? "
@@ -105,18 +105,18 @@ msgstr ""
 "ส่วนประกอบและปุ่มพิมพ์ลัดต่าง ๆ จะทำการลงทะเบียนตัวมันเองด้วยค่าปริยายของพวกมัน "
 "เมื่อเริ่มการทำงานในครั้งหน้า"
 
-#: kglobalshortcutseditor.cpp:450
+#: kglobalshortcutseditor.cpp:452
 #, kde-format
 msgid "Application Launchers"
 msgstr ""
 
-#: kglobalshortcutseditor.cpp:453
+#: kglobalshortcutseditor.cpp:455
 #, fuzzy, kde-format
 #| msgid "Shortcuts:"
 msgid "Other Shortcuts"
 msgstr "ปุ่มพิมพ์ลัด:"
 
-#: kglobalshortcutseditor.cpp:558
+#: kglobalshortcutseditor.cpp:560
 #, kde-format
 msgid ""
 "Your current changes will be lost if you load another scheme before saving "
@@ -125,12 +125,12 @@ msgstr ""
 "การเปลี่ยนแปลงในปัจจุบันของคุณจะสูญหายไป หากคุณโหลดชุดแป้นพิมพ์อื่น ๆ "
 "ก่อนจะทำการบันทึกสิ่งที่ตั้งไว้นี้"
 
-#: kglobalshortcutseditor.cpp:559
+#: kglobalshortcutseditor.cpp:561
 #, kde-format
 msgid "Load Shortcut Scheme"
 msgstr "โหลดชุดปุ่มพิมพ์ลัด"
 
-#: kglobalshortcutseditor.cpp:560
+#: kglobalshortcutseditor.cpp:562
 #, kde-format
 msgid "Load"
 msgstr "โหลด"
@@ -140,7 +140,7 @@ msgstr "โหลด"
 msgid "This file (%1) does not exist. You can only select local files."
 msgstr "ยังไม่มีแฟ้ม (%1) อยู่ คุณสามารถเลือกได้เพียงแฟ้มภายในเครื่องเท่านั้น"
 
-#: kglobalshortcutseditor.cpp:601 kglobalshortcutseditor.cpp:624
+#: kglobalshortcutseditor.cpp:602 kglobalshortcutseditor.cpp:625
 #, kde-format
 msgid ""
 "Message: %1\n"
@@ -149,7 +149,7 @@ msgstr ""
 "ข้อความ: %1\n"
 "ข้อผิดพลาด: %2"
 
-#: kglobalshortcutseditor.cpp:606 kglobalshortcutseditor.cpp:629
+#: kglobalshortcutseditor.cpp:607 kglobalshortcutseditor.cpp:630
 #, kde-format
 msgid "Failed to contact the KDE global shortcuts daemon\n"
 msgstr "ล้มเหลวในการติดต่อกับดีมอนปุ่มพิมพ์ลัดส่วนรวมของ KDE\n"

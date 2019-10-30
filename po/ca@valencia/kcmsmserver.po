@@ -2,6 +2,7 @@
 # Copyright (C) 2001-2019 This_file_is_part_of_KDE
 # This file is distributed under the license LGPL version 2.1 or
 # version 3 or later versions approved by the membership of KDE e.V.
+# or the same license as the source of its messages in English.
 #
 # Sebastià Pla i Sanz <sps@sastia.com>, 2001, 2002, 2004.
 # Antoni Bella Pérez <antonibella5@yahoo.com>, 2003.
@@ -11,19 +12,19 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmsmserver\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
-"PO-Revision-Date: 2019-03-15 21:01+0100\n"
+"POT-Creation-Date: 2019-07-11 03:14+0200\n"
+"PO-Revision-Date: 2019-06-28 12:07+0200\n"
 "Last-Translator: Josep Ma. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca@valencia\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 2.0\n"
+"X-Generator: Poedit 2.0.6\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Accelerator-Marker: &\n"
 
-#: kcmsmserver.cpp:62
+#: kcmsmserver.cpp:63
 #, kde-format
 msgid ""
 "<h1>Session Manager</h1> You can configure the session manager here. This "
@@ -32,23 +33,24 @@ msgid ""
 "whether the computer should be automatically shut down after session exit by "
 "default."
 msgstr ""
-"<h1>Gestor de sessió</h1> Ací podeu configurar el gestor de sessió. Això "
+"<h1>Gestor de sessió</h1> Ací podeu configurar el gestor de sessió. Açò "
 "inclou opcions com ara si s'ha de confirmar o no l'eixida de sessió, si s'ha "
 "de tornar a restaurar la sessió en tornar-se a connectar i si l'ordinador "
 "s'ha d'apagar automàticament en eixir de la sessió."
 
-#: kcmsmserver.cpp:82
+#: kcmsmserver.cpp:83
 #, kde-format
 msgid "Restart Now"
 msgstr "Reinicia ara"
 
-#: kcmsmserver.cpp:114
+#: kcmsmserver.cpp:124
 #, kde-format
 msgid "Failed to request restart to firmware setup: %1"
 msgstr ""
-"Ha fallat en sol·licitar un reinici a la configuració del microprogramari: %1"
+"No s'ha pogut sol·licitar un reinici a la configuració del microprogramari: "
+"%1"
 
-#: kcmsmserver.cpp:126
+#: kcmsmserver.cpp:136
 #, kde-format
 msgid ""
 "Next time the computer is restarted, it will enter the UEFI setup screen."
@@ -56,7 +58,7 @@ msgstr ""
 "La propera vegada que es reinicie l'ordinador, presentarà la configuració de "
 "la UEFI."
 
-#: kcmsmserver.cpp:128
+#: kcmsmserver.cpp:138
 #, kde-format
 msgid ""
 "Next time the computer is restarted, it will enter the firmware setup screen."
@@ -64,12 +66,12 @@ msgstr ""
 "La propera vegada que es reinicie l'ordinador, presentarà la configuració "
 "del microprogramari."
 
-#: kcmsmserver.cpp:140
+#: kcmsmserver.cpp:150
 #, kde-format
 msgid "UEFI Setup"
 msgstr "Configuració de la UEFI"
 
-#: kcmsmserver.cpp:141
+#: kcmsmserver.cpp:151
 #, kde-format
 msgid "Enter UEFI setup on next restart"
 msgstr "Entra a la configuració de la UEFI en el proper reinici"
@@ -100,7 +102,7 @@ msgstr "Con&firma l'eixida"
 #: smserverconfigdlg.ui:33
 #, kde-format
 msgid "O&ffer shutdown options"
-msgstr "O&fereix les opcions d'aturada"
+msgstr "O&fereix les opcions de parada"
 
 #. i18n: ectx: property (whatsThis), widget (QGroupBox, sdGroup)
 #: smserverconfigdlg.ui:43
@@ -109,14 +111,14 @@ msgid ""
 "Here you can choose what should happen by default when you log out. This "
 "only has meaning, if you logged in through KDM."
 msgstr ""
-"Ací podeu triar que hauria de passar per omissió quan vos desconnecteu. Això "
-"només té significat si vos heu connectat mitjançant KDM."
+"Ací podeu triar que hauria de passar per defecte quan us desconnecteu. Açò "
+"només té significat si us heu connectat mitjançant KDM."
 
 #. i18n: ectx: property (title), widget (QGroupBox, sdGroup)
 #: smserverconfigdlg.ui:46
 #, kde-format
 msgid "Default Leave Option"
-msgstr "Opció d'eixida per omissió"
+msgstr "Opció d'eixida per defecte"
 
 #. i18n: ectx: property (text), widget (QRadioButton, logoutRadio)
 #: smserverconfigdlg.ui:52
@@ -134,7 +136,7 @@ msgstr "Apa&ga l'ordinador"
 #: smserverconfigdlg.ui:66
 #, kde-format
 msgid "&Restart computer"
-msgstr "&Torna a engegar l'ordinador"
+msgstr "&Reinicia l'ordinador"
 
 #. i18n: ectx: property (whatsThis), widget (QGroupBox, loginGroup)
 #: smserverconfigdlg.ui:80
@@ -151,10 +153,10 @@ msgid ""
 "</ul>"
 msgstr ""
 "<ul>\n"
-"<li><b>Restaura la sessió anterior:</b> Quan isca desarà l'estat de totes "
+"<li><b>Restaura la sessió anterior:</b> Quan isca guardarà l'estat de totes "
 "les aplicacions en execució i les restaurarà en el següent inici.</li>\n"
 "<li><b>Restaura la sessió guardada manualment: </b> Permet guardar la sessió "
-"en qualsevol moment mitjançant l'element del menú K «Guarda la sessió». Això "
+"en qualsevol moment mitjançant l'element del menú K «Guarda la sessió». Açò "
 "vol dir que les aplicacions en execució apareixeran en el següent inici.</"
 "li>\n"
 "<li><b>Inicia amb una sessió buida:</b> No guarda res. En el següent inici "
@@ -200,8 +202,8 @@ msgid ""
 "restoring a session. For example 'xterm:konsole' or 'xterm,konsole'."
 msgstr ""
 "Ací podeu introduir, separades per dos punts o per comes, una llista de les "
-"aplicacions que no s'haurien de guardar a les sessions, i que, per tant, no "
-"s'iniciaran quan es restauri una sessió. Per exemple «xterm:konsole» o "
+"aplicacions que no s'haurien de guardar en les sessions, i que, per tant, no "
+"s'iniciaran quan es restaure una sessió. Per exemple «xterm:konsole» o "
 "«xterm,konsole»."
 
 #. i18n: ectx: property (title), widget (QGroupBox, firmwareSetupBox)

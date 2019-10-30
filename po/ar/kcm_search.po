@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"POT-Creation-Date: 2019-05-23 03:23+0200\n"
 "PO-Revision-Date: ٢٠١٦-٠٩-٠٤ ١٢:٥٦+0300\n"
 "Last-Translator: Safa Alfulaij <safa1996alfulaij@gmail.com>\n"
 "Language-Team: Arabic <doc@arabeyes.org>\n"
@@ -41,10 +41,9 @@ msgid "Vishesh Handa"
 msgstr "Vishesh Handa"
 
 #: kcm.cpp:59
-#, fuzzy, kde-format
-#| msgid "Select the search plugins"
-msgid "Select the search plugins:"
-msgstr "حدّد ملحقات البحث"
+#, kde-format
+msgid "Enable or disable KRunner plugins:"
+msgstr ""
 
 #: kcm.cpp:61
 #, kde-format

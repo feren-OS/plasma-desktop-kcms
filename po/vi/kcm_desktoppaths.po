@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkonq\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"POT-Creation-Date: 2019-09-12 03:25+0200\n"
 "PO-Revision-Date: 2007-06-23 20:25+0930\n"
 "Last-Translator: Clytie Siddall <clytie@riverland.net.au>\n"
 "Language-Team: Vietnamese <kde-l10n-vi@kde.org>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: LocFactoryEditor 1.6.4a2\n"
 
-#: globalpaths.cpp:113
+#: globalpaths.cpp:115
 #, kde-format
 msgid ""
 "<h1>Paths</h1>\n"
@@ -31,13 +31,13 @@ msgstr ""
 "Hãy sử dụng tính năng « Cái này là gì? » để đạt được trợ giúp về tùy chọn "
 "riêng."
 
-#: globalpaths.cpp:118
+#: globalpaths.cpp:120
 #, fuzzy, kde-format
 #| msgid "Des&ktop path:"
 msgid "Desktop path:"
 msgstr "Đường &dẫn màn hình nền:"
 
-#: globalpaths.cpp:119
+#: globalpaths.cpp:121
 #, kde-format
 msgid ""
 "This folder contains all the files which you see on your desktop. You can "
@@ -48,13 +48,13 @@ msgstr ""
 "đổi địa điểm của thư mục này, nếu bạn muốn, và nội dung của nó sẽ cũng di "
 "chuyển tự động sang địa điểm mới."
 
-#: globalpaths.cpp:124
+#: globalpaths.cpp:126
 #, fuzzy, kde-format
 #| msgid "A&utostart path:"
 msgid "Autostart path:"
 msgstr "Đ&ường dẫn khởi chạy tự động:"
 
-#: globalpaths.cpp:125
+#: globalpaths.cpp:127
 #, fuzzy, kde-format
 #| msgid ""
 #| "This folder contains applications or links to applications (shortcuts) "
@@ -72,51 +72,51 @@ msgstr ""
 "thư mục này, nếu bạn muốn, và nội dung của nó sẽ cũng di chuyển tự động sang "
 "địa điểm mới."
 
-#: globalpaths.cpp:131
+#: globalpaths.cpp:133
 #, fuzzy, kde-format
 #| msgid "D&ocuments path:"
 msgid "Documents path:"
 msgstr "Đư&ờng dẫn tài liệu :"
 
-#: globalpaths.cpp:132
+#: globalpaths.cpp:134
 #, kde-format
 msgid ""
 "This folder will be used by default to load or save documents from or to."
 msgstr "Thư mục này sẽ được dùng theo mặc định để tải hay lưu tài liệu."
 
-#: globalpaths.cpp:135
+#: globalpaths.cpp:137
 #, fuzzy, kde-format
 #| msgid "D&ocuments path:"
 msgid "Downloads path:"
 msgstr "Đư&ờng dẫn tài liệu :"
 
-#: globalpaths.cpp:136
+#: globalpaths.cpp:138
 #, fuzzy, kde-format
 #| msgid ""
 #| "This folder will be used by default to load or save documents from or to."
 msgid "This folder will be used by default to save your downloaded items."
 msgstr "Thư mục này sẽ được dùng theo mặc định để tải hay lưu tài liệu."
 
-#: globalpaths.cpp:139
+#: globalpaths.cpp:141
 #, fuzzy, kde-format
 #| msgid "D&ocuments path:"
 msgid "Movies path:"
 msgstr "Đư&ờng dẫn tài liệu :"
 
-#: globalpaths.cpp:140
+#: globalpaths.cpp:142
 #, fuzzy, kde-format
 #| msgid ""
 #| "This folder will be used by default to load or save documents from or to."
 msgid "This folder will be used by default to load or save movies from or to."
 msgstr "Thư mục này sẽ được dùng theo mặc định để tải hay lưu tài liệu."
 
-#: globalpaths.cpp:143
+#: globalpaths.cpp:145
 #, fuzzy, kde-format
 #| msgid "D&ocuments path:"
 msgid "Pictures path:"
 msgstr "Đư&ờng dẫn tài liệu :"
 
-#: globalpaths.cpp:144
+#: globalpaths.cpp:146
 #, fuzzy, kde-format
 #| msgid ""
 #| "This folder will be used by default to load or save documents from or to."
@@ -124,59 +124,59 @@ msgid ""
 "This folder will be used by default to load or save pictures from or to."
 msgstr "Thư mục này sẽ được dùng theo mặc định để tải hay lưu tài liệu."
 
-#: globalpaths.cpp:147
+#: globalpaths.cpp:149
 #, fuzzy, kde-format
 #| msgid "D&ocuments path:"
 msgid "Music path:"
 msgstr "Đư&ờng dẫn tài liệu :"
 
-#: globalpaths.cpp:148
+#: globalpaths.cpp:150
 #, fuzzy, kde-format
 #| msgid ""
 #| "This folder will be used by default to load or save documents from or to."
 msgid "This folder will be used by default to load or save music from or to."
 msgstr "Thư mục này sẽ được dùng theo mặc định để tải hay lưu tài liệu."
 
-#: globalpaths.cpp:277 globalpaths.cpp:295
+#: globalpaths.cpp:279 globalpaths.cpp:297
 #, kde-format
 msgid "Autostart"
 msgstr "Khởi chạy tự động"
 
-#: globalpaths.cpp:281
+#: globalpaths.cpp:283
 #, kde-format
 msgid "Desktop"
 msgstr "Màn hình nền"
 
-#: globalpaths.cpp:305
+#: globalpaths.cpp:307
 #, fuzzy, kde-format
 #| msgid "D&ocuments path:"
 msgid "Documents"
 msgstr "Đư&ờng dẫn tài liệu :"
 
-#: globalpaths.cpp:308
+#: globalpaths.cpp:310
 #, fuzzy, kde-format
 #| msgid "D&ocuments path:"
 msgid "Downloads"
 msgstr "Đư&ờng dẫn tài liệu :"
 
-#: globalpaths.cpp:311
+#: globalpaths.cpp:313
 #, fuzzy, kde-format
 #| msgid "Move"
 msgid "Movies"
 msgstr "Chuyển"
 
-#: globalpaths.cpp:314
+#: globalpaths.cpp:316
 #, fuzzy, kde-format
 #| msgid "D&ocuments path:"
 msgid "Pictures"
 msgstr "Đư&ờng dẫn tài liệu :"
 
-#: globalpaths.cpp:317
+#: globalpaths.cpp:319
 #, kde-format
 msgid "Music"
 msgstr ""
 
-#: globalpaths.cpp:376
+#: globalpaths.cpp:378
 #, fuzzy, kde-format
 #| msgid ""
 #| "The path for '%1' has been changed;\n"
@@ -188,20 +188,20 @@ msgstr ""
 "Đường dẫn cho « %1 » đã được thay đổi;\n"
 "bạn có muốn các tập tin được di chuyển từ « %2 » sang « %3 » không?"
 
-#: globalpaths.cpp:379
+#: globalpaths.cpp:381
 #, fuzzy, kde-format
 #| msgid "Move"
 msgctxt "Move files from old to new place"
 msgid "Move"
 msgstr "Chuyển"
 
-#: globalpaths.cpp:380
+#: globalpaths.cpp:382
 #, kde-format
 msgctxt "Use the new directory but do not move files"
 msgid "Do not Move"
 msgstr ""
 
-#: globalpaths.cpp:382
+#: globalpaths.cpp:384
 #, fuzzy, kde-format
 #| msgid ""
 #| "The path for '%1' has been changed;\n"
@@ -213,20 +213,20 @@ msgstr ""
 "Đường dẫn cho « %1 » đã được thay đổi;\n"
 "bạn có muốn các tập tin được di chuyển từ « %2 » sang « %3 » không?"
 
-#: globalpaths.cpp:385
+#: globalpaths.cpp:387
 #, fuzzy, kde-format
 #| msgid "Move"
 msgctxt "Move the directory"
 msgid "Move"
 msgstr "Chuyển"
 
-#: globalpaths.cpp:386
+#: globalpaths.cpp:388
 #, kde-format
 msgctxt "Use the new directory but do not move anything"
 msgid "Do not Move"
 msgstr ""
 
-#: globalpaths.cpp:390
+#: globalpaths.cpp:392
 #, kde-format
 msgid "Confirmation Required"
 msgstr "Cần thiết xác nhận"

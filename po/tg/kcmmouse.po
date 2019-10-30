@@ -1,26 +1,20 @@
 # translation of kcminput.po to Tajik
 # translation of kcminput.po to Тоҷикӣ
 # Copyright (C) 2003,2004 Free Software Foundation, Inc.
-# 2004, infoDev, a World Bank organization
-# 2004, Khujand Computer Technologies, Inc.
-# 2004, KCT1, NGO
-# Akmal Salomov <youth_opportunities@tajik.net>, 2004
-# Victor Ibragimov <youth_opportunities@tajik.net>, 2004
-# Dilshod Marupov <dma165@hotmail.com>, 2003, 2004
-#
+# Victor Ibragimov <victor.ibragimov@gmail.com>, 2004, 2019.
 msgid ""
 msgstr ""
 "Project-Id-Version: kcminput\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
-"PO-Revision-Date: 2010-01-29 22:17+0500\n"
+"POT-Creation-Date: 2019-05-20 03:25+0200\n"
+"PO-Revision-Date: 2019-09-16 17:54+0500\n"
 "Last-Translator: Victor Ibragimov <victor.ibragimov@gmail.com>\n"
-"Language-Team: Tajik\n"
+"Language-Team: English <kde-i18n-doc@kde.org>\n"
 "Language: tg\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.0.1\n"
+"X-Generator: Lokalize 19.04.3\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
 #, kde-format
@@ -114,13 +108,12 @@ msgstr ""
 #: kcm/libinput/main.qml:84
 #, kde-format
 msgid "Device:"
-msgstr ""
+msgstr "Дастгоҳ:"
 
 #: kcm/libinput/main.qml:110 kcm/libinput/main_deviceless.qml:65
-#, fuzzy, kde-format
-#| msgid "&General"
+#, kde-format
 msgid "General:"
-msgstr "&Умумӣ"
+msgstr "Умумӣ:"
 
 #: kcm/libinput/main.qml:112
 #, kde-format
@@ -133,10 +126,9 @@ msgid "Accept input through this device."
 msgstr ""
 
 #: kcm/libinput/main.qml:137 kcm/libinput/main_deviceless.qml:67
-#, fuzzy, kde-format
-#| msgid "Le&ft handed"
+#, kde-format
 msgid "Left handed mode"
-msgstr "&Чапдаст"
+msgstr ""
 
 #: kcm/libinput/main.qml:156 kcm/libinput/main_deviceless.qml:86
 #, kde-format
@@ -155,16 +147,14 @@ msgid ""
 msgstr ""
 
 #: kcm/libinput/main.qml:191 kcm/libinput/main_deviceless.qml:121
-#, fuzzy, kde-format
-#| msgid "Pointer threshold:"
+#, kde-format
 msgid "Pointer speed:"
-msgstr "Остона нишоннамо:"
+msgstr ""
 
 #: kcm/libinput/main.qml:223 kcm/libinput/main_deviceless.qml:153
-#, fuzzy, kde-format
-#| msgid "Acceleration &profile:"
+#, kde-format
 msgid "Acceleration profile:"
-msgstr "&Тахассуси шитобёбӣ:"
+msgstr ""
 
 #: kcm/libinput/main.qml:254 kcm/libinput/main_deviceless.qml:184
 #, kde-format
@@ -192,10 +182,9 @@ msgid "Scrolling:"
 msgstr ""
 
 #: kcm/libinput/main.qml:281 kcm/libinput/main_deviceless.qml:211
-#, fuzzy, kde-format
-#| msgid "Re&verse scroll direction"
+#, kde-format
 msgid "Invert scroll direction"
-msgstr "Изменить напра&вление прокрутки"
+msgstr ""
 
 #: kcm/libinput/main.qml:296 kcm/libinput/main_deviceless.qml:226
 #, kde-format
@@ -210,9 +199,6 @@ msgid ""
 "in which your pointing device works. Your pointing device may be a mouse, "
 "trackball, or some other hardware that performs a similar function."
 msgstr ""
-"<h1>Муш</h1> Ин дастгоҳ имконияти интихоби хосиятҳои гуногун барои барои "
-"дастгоҳи нишоннамоии шумо. Дастгоҳи нишоннамоии муш, куррадасти идорӣ ё ягон "
-"дигар сахтафзоре, ки вазифаҳои монандро иҷро мекунад, буда метавонад."
 
 #. i18n: ectx: attribute (title), widget (QWidget, generalTab)
 #: kcm/xlib/kcmmouse.ui:36
@@ -230,29 +216,24 @@ msgid ""
 "as the left and right buttons are affected. For example, if you have a three-"
 "button mouse, the middle button is unaffected."
 msgstr ""
-"Агар шумо чапдаст бошед, шумо метавонед ҷойҳои тугмаи рост ва чапро ба "
-"воситаи интихоби хосияти 'чапдаст' иваз намоед. Агар дастгоҳи шумо зиёда аз "
-"ду тугма дошта бошад, пас ин хосият танҳо ба тирчаҳои чапу рости он таъсир "
-"мекунад. Масалан, агар шумо муши сетугмаро дошта бошед, тугмаи миёна "
-"бетаъсир мемонад."
 
 #. i18n: ectx: property (title), widget (QGroupBox, handedBox)
 #: kcm/xlib/kcmmouse.ui:55
 #, kde-format
 msgid "Button Order"
-msgstr "Порядок кнопок"
+msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, rightHanded)
 #: kcm/xlib/kcmmouse.ui:64
 #, kde-format
 msgid "Righ&t handed"
-msgstr "&Ростдаст"
+msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, leftHanded)
 #: kcm/xlib/kcmmouse.ui:77
 #, kde-format
 msgid "Le&ft handed"
-msgstr "&Чапдаст"
+msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, cbScrollPolarity)
 #: kcm/xlib/kcmmouse.ui:106
@@ -261,55 +242,54 @@ msgid ""
 "Change the direction of scrolling for the mouse wheel or the 4th and 5th "
 "mouse buttons."
 msgstr ""
-"Ивази самти чархиш барои чархаи муш ё барои тугмаҳои 4-ум ва 5-уми муш. "
 
 #. i18n: ectx: property (text), widget (QCheckBox, cbScrollPolarity)
 #: kcm/xlib/kcmmouse.ui:109
 #, kde-format
 msgid "Re&verse scroll direction"
-msgstr "Изменить напра&вление прокрутки"
+msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, advancedTab)
 #: kcm/xlib/kcmmouse.ui:156
 #, kde-format
 msgid "Advanced"
-msgstr "Пешрафта"
+msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: kcm/xlib/kcmmouse.ui:164
 #, kde-format
 msgid "Pointer acceleration:"
-msgstr "Интихоби нишоннамо:"
+msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: kcm/xlib/kcmmouse.ui:174
 #, kde-format
 msgid "Pointer threshold:"
-msgstr "Остона нишоннамо:"
+msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: kcm/xlib/kcmmouse.ui:184
 #, kde-format
 msgid "Double click interval:"
-msgstr "Фосилаи ангуштзании дубора:"
+msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: kcm/xlib/kcmmouse.ui:194
 #, kde-format
 msgid "Drag start time:"
-msgstr "Вақти оғозёбии кашолакунӣ:"
+msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
 #: kcm/xlib/kcmmouse.ui:204
 #, kde-format
 msgid "Drag start distance:"
-msgstr "Фосилаи оғозёбии кашолакунӣ:"
+msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_6)
 #: kcm/xlib/kcmmouse.ui:214
 #, kde-format
 msgid "Mouse wheel scrolls by:"
-msgstr "Чархаи муш мегардонад:"
+msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (QDoubleSpinBox, accel)
 #: kcm/xlib/kcmmouse.ui:230
@@ -324,13 +304,6 @@ msgid ""
 "result in the mouse pointer flying across the screen, making it hard to "
 "control.</p>"
 msgstr ""
-"<p>Эта опция позволяет изменить соотношение между расстоянием, которое "
-"пробегает курсор мыши на экране, и движением самого устройства (мышь, "
-"трекбол или какое-либо другое устройство указания).</p><p> Более высокое "
-"значение ускорения приводит к значительному перемещению курсора мыши даже "
-"при небольшом движении физического устройства. Выбор высокого значения "
-"ускорения может привести к трудностям в работе с устройством, когда "
-"указатель мыши будет просто летать по экрану и управлять ею будет сложно.</p>"
 
 #. i18n: ectx: property (suffix), widget (QDoubleSpinBox, accel)
 #: kcm/xlib/kcmmouse.ui:233
@@ -350,13 +323,6 @@ msgid ""
 "the mouse pointer. With larger movements of the physical device, you can "
 "move the mouse pointer rapidly to different areas on the screen.</p>"
 msgstr ""
-"<p>Порог - это наименьшее расстояние, на которое должен сместиться указатель "
-"мыши, прежде чем включится ускорение. Пока перемещение меньше заданной "
-"величины порога, курсор будет двигаться так, как если бы ускорение имело "
-"значение 1X.</p><p> Таким образом, перемещая физическое устройство на "
-"небольшие расстояния, вы не используете ускорение, так легче управлять "
-"указателем мыши. В то же время большим перемещением физического устройства "
-"вы можете быстро переместить курсор в нужную область экрана.</p>"
 
 #. i18n: ectx: property (whatsThis), widget (QSpinBox, doubleClickInterval)
 #: kcm/xlib/kcmmouse.ui:280
@@ -367,11 +333,6 @@ msgid ""
 "happens later than this time interval after the first click, they are "
 "recognized as two separate clicks."
 msgstr ""
-"Фосилаи ангуштзании дубора - ин вақти максималӣ (бо милли сонияҳо) дар байни "
-"ду маротиба ангуштзании тугмаи муш, ки онҳоро ҳамчун ангуштзании дубораи муш "
-"табдил медиҳад, мебошад. Агар ангуштзании дуюм назар ба фосилаи вақти баъди "
-"ангуштзании якум дертар ба амал ояд, пас онҳо ҳамчун ду ангуштзаниҳои "
-"алоҳида фаҳмида мешаванд."
 
 #. i18n: ectx: property (suffix), widget (QSpinBox, doubleClickInterval)
 #. i18n: ectx: property (suffix), widget (QSpinBox, dragStartTime)
@@ -391,9 +352,6 @@ msgid ""
 "If you click with the mouse (e.g. in a multi-line editor) and begin to move "
 "the mouse within the drag start time, a drag operation will be initiated."
 msgstr ""
-"Агар шумо тугмаи мушро ангушт занед (масалан дар муҳаррири матнӣ) ва "
-"ҷойивазкунии мушро на дертар аз вақти оғозёбии кашолакунӣ сар кунед, "
-"амалиёти кашолакунӣ иҷро мегардад."
 
 #. i18n: ectx: property (whatsThis), widget (QSpinBox, dragStartDist)
 #: kcm/xlib/kcmmouse.ui:333
@@ -402,8 +360,6 @@ msgid ""
 "If you click with the mouse and begin to move the mouse at least the drag "
 "start distance, a drag operation will be initiated."
 msgstr ""
-"Агар шумо тугмаи мушро ангушт занед ва онро ақалан ба фосилаи оғозёбии "
-"кашолакунӣ ҷойиваз кунед, амалиёти кашолакунӣ иҷро мегардад."
 
 #. i18n: ectx: property (whatsThis), widget (QSpinBox, wheelScrollLines)
 #: kcm/xlib/kcmmouse.ui:355
@@ -414,49 +370,42 @@ msgid ""
 "number of visible lines, it will be ignored and the wheel movement will be "
 "handled as a page up/down movement."
 msgstr ""
-"Агар шумо чархаи мушро истифода баред, ин қиммат шумораи сатрҳоро, ки бояд "
-"чарх гарданд, муайян месозад. Дар хотир доред, ки агар адади додашуда аз "
-"шумораи сатрҳои додашаванда зиёд бошад, он рад мегардад ва ҳаракатҳои чарха "
-"ҳамчун ҳаракатҳои бо боло/поёни саҳифа дасткорӣ мегардад."
 
 #. i18n: ectx: attribute (title), widget (QWidget, MouseNavigation)
 #: kcm/xlib/kcmmouse.ui:387
-#, fuzzy, kde-format
-#| msgid "Mouse Navigation"
+#, kde-format
 msgid "Keyboard Navigation"
-msgstr "Навигатсияи Муш"
+msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, mouseKeys)
 #: kcm/xlib/kcmmouse.ui:395
 #, kde-format
 msgid "&Move pointer with keyboard (using the num pad)"
 msgstr ""
-"Нишоннамои мушро ба воситаи забонак &ҳаракат диҳед (бо истифодаи калидҳои "
-"ададии иловагӣ)"
 
 #. i18n: ectx: property (text), widget (QLabel, label_7)
 #: kcm/xlib/kcmmouse.ui:424
 #, kde-format
 msgid "&Acceleration delay:"
-msgstr "&Таваққуфи шитобёбӣ:"
+msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_8)
 #: kcm/xlib/kcmmouse.ui:434
 #, kde-format
 msgid "R&epeat interval:"
-msgstr "Фосилаи &такроршавӣ:"
+msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_9)
 #: kcm/xlib/kcmmouse.ui:466
 #, kde-format
 msgid "Acceleration &time:"
-msgstr "&Вақти шитобёбӣ:"
+msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_10)
 #: kcm/xlib/kcmmouse.ui:498
 #, kde-format
 msgid "Ma&ximum speed:"
-msgstr "Суръати &калонтарин:"
+msgstr ""
 
 #. i18n: ectx: property (suffix), widget (QSpinBox, mk_max_speed)
 #: kcm/xlib/kcmmouse.ui:514
@@ -468,53 +417,52 @@ msgstr " пиксел/сония"
 #: kcm/xlib/kcmmouse.ui:530
 #, kde-format
 msgid "Acceleration &profile:"
-msgstr "&Тахассуси шитобёбӣ:"
+msgstr ""
 
 #: kcm/xlib/xlib_config.cpp:95
 #, kde-format
 msgid "Mouse"
-msgstr "Мӯш"
+msgstr ""
 
 #: kcm/xlib/xlib_config.cpp:98
-#, fuzzy, kde-format
-#| msgid "(c) 1997 - 2005 Mouse developers"
+#, kde-format
 msgid "(c) 1997 - 2018 Mouse developers"
-msgstr "(c) 1997 - 2005 Mouse developers"
+msgstr ""
 
 #: kcm/xlib/xlib_config.cpp:99
 #, kde-format
 msgid "Patrick Dowler"
-msgstr "Patrick Dowler"
+msgstr ""
 
 #: kcm/xlib/xlib_config.cpp:100
 #, kde-format
 msgid "Dirk A. Mueller"
-msgstr "Dirk A. Mueller"
+msgstr ""
 
 #: kcm/xlib/xlib_config.cpp:101
 #, kde-format
 msgid "David Faure"
-msgstr "David Faure"
+msgstr ""
 
 #: kcm/xlib/xlib_config.cpp:102
 #, kde-format
 msgid "Bernd Gehrmann"
-msgstr "Bernd Gehrmann"
+msgstr ""
 
 #: kcm/xlib/xlib_config.cpp:103
 #, kde-format
 msgid "Rik Hemsley"
-msgstr "Rik Hemsley"
+msgstr ""
 
 #: kcm/xlib/xlib_config.cpp:104
 #, kde-format
 msgid "Brad Hughes"
-msgstr "Brad Hughes"
+msgstr ""
 
 #: kcm/xlib/xlib_config.cpp:105
 #, kde-format
 msgid "Brad Hards"
-msgstr "Brad Hards"
+msgstr ""
 
 #: kcm/xlib/xlib_config.cpp:302 kcm/xlib/xlib_config.cpp:307
 #, kde-format
@@ -527,5 +475,5 @@ msgstr[1] " пиксел"
 #, kde-format
 msgid " line"
 msgid_plural " lines"
-msgstr[0] " хат"
-msgstr[1] " хат"
+msgstr[0] " сатр"
+msgstr[1] " сатр"

@@ -8,9 +8,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: l 10n\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
-"PO-Revision-Date: 2014-03-22 08:56+0200\n"
-"Last-Translator: Liudas Ališauskas <liudas@aksioma.lt>\n"
+"POT-Creation-Date: 2019-05-20 03:25+0200\n"
+"PO-Revision-Date: 2019-06-02 01:33+0300\n"
+"Last-Translator: Moo\n"
 "Language-Team: Lithuanian <kde-i18n-lt@kde.org>\n"
 "Language: lt\n"
 "MIME-Version: 1.0\n"
@@ -18,12 +18,12 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : n%10>=2 && (n%100<10 || n"
 "%100>=20) ? 1 : n%10==0 || (n%100>10 && n%100<20) ? 2 : 3);\n"
-"X-Generator: Lokalize 1.5\n"
+"X-Generator: Poedit 2.2.1\n"
 
 #: src/applet/qml/contents/ui/touchpad.qml:50
 #, kde-format
 msgid "No touchpad was found"
-msgstr "Nerastas jutiklinis kilimėlis"
+msgstr "Nerasta jokio jutiklinio kilimėlio"
 
 #: src/applet/qml/contents/ui/touchpad.qml:52
 #, kde-format
@@ -56,7 +56,7 @@ msgid ""
 "No mouse was detected.\n"
 "Are you sure you want to disable the touchpad?"
 msgstr ""
-"Neaptikta pelė.\n"
+"Neaptikta jokia pelė.\n"
 "Ar tikrai norite išjungti jutiklinį kilimėlį?"
 
 #: src/applet/qml/contents/ui/touchpad.qml:152

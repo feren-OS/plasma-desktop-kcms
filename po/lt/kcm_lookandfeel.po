@@ -8,9 +8,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: trunk-kf 5\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-06-26 07:33+0200\n"
-"PO-Revision-Date: 2017-06-25 01:00+0200\n"
-"Last-Translator: Mindaugas Baranauskas <opensuse.lietuviu.kalba@gmail.com>\n"
+"POT-Creation-Date: 2019-08-16 03:26+0200\n"
+"PO-Revision-Date: 2019-08-12 21:30+0300\n"
+"Last-Translator: Moo\n"
 "Language-Team: Lithuanian <kde-i18n-lt@kde.org>\n"
 "Language: lt\n"
 "MIME-Version: 1.0\n"
@@ -18,99 +18,98 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : n%10>=2 && (n%100<10 || n"
 "%100>=20) ? 1 : n%10==0 || (n%100>10 && n%100<20) ? 2 : 3);\n"
-"X-Generator: Lokalize 2.0\n"
+"X-Generator: Poedit 2.2.1\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "Liudas Ališauskas"
+msgstr "Liudas Ališauskas, Moo"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "liudas@akmc.lt"
+msgstr "liudas@akmc.lt, <>"
 
-#: kcm.cpp:76
-#, fuzzy, kde-format
-#| msgid "Configure Look and Feel details"
-msgid "Look and Feel"
-msgstr "Konfigūruoti išvaizdą išsamiau"
+#: kcm.cpp:72
+#, kde-format
+msgid "Global Theme"
+msgstr "Visuotinis apipavidalinimas"
 
-#: kcm.cpp:78 lnftool.cpp:43
+#: kcm.cpp:74 lnftool.cpp:43
 #, kde-format
 msgid "Marco Martin"
 msgstr "Marco Martin"
 
-#: kcm.cpp:112
-#, fuzzy, kde-format
-#| msgid "Get New Looks..."
-msgid "Download New Look and Feel Themes"
-msgstr "Parsisiųsti naują apipavidalinimą..."
+#: kcm.cpp:108
+#, kde-format
+msgid "Download New Global Themes"
+msgstr "Atsisiųsti naujus visuotinius apipavidalinimus"
 
-#: kcm.cpp:572
-#, fuzzy, kde-format
-#| msgid "You have to restart KDE for cursor changes to take effect."
+#: kcm.cpp:569
+#, kde-format
 msgid ""
 "You have to restart the Plasma session for these changes to take effect."
 msgstr ""
-"Turite perstartuoti KDE jei norite, kad žymeklio pakeitimai įsigaliotų."
+"Tam, kad šie pakeitimai įsigaliotų, turite iš naujo paleisti Plasma seansą."
 
-#: kcm.cpp:573
+#: kcm.cpp:570
 #, kde-format
 msgid "Cursor Settings Changed"
-msgstr "Žymeklio nustatymai pakeisti"
-
-#: lnftool.cpp:42
-#, fuzzy, kde-format
-#| msgid "Configure Look and Feel details"
-msgid "Look and feel tool"
-msgstr "Konfigūruoti išvaizdą išsamiau"
+msgstr "Žymeklio nuostatos pakeistos"
 
 #: lnftool.cpp:42
 #, kde-format
-msgid "Command line tool to apply look and feel packages."
-msgstr ""
+msgid "Global Theme Tool"
+msgstr "Visuotinio apipavidalinimo įrankis"
 
 #: lnftool.cpp:42
-#, fuzzy, kde-format
-#| msgid "Marco Martin"
+#, kde-format
+msgid ""
+"Command line tool to apply global theme packages for changing the look and "
+"feel."
+msgstr ""
+"Komandų eilutės įrankis, skirtas taikyti visuotinio apipavidalinimo paketus, "
+"kurie yra skirti keisti išvaizdą ir turinį."
+
+#: lnftool.cpp:42
+#, kde-format
 msgid "Copyright 2017, Marco Martin"
-msgstr "Marco Martin"
+msgstr "Autorių teisės 2017, Marco Martin"
 
 #: lnftool.cpp:43
 #, kde-format
 msgid "Maintainer"
-msgstr ""
+msgstr "Prižiūrėtojas"
 
 #: lnftool.cpp:52
 #, kde-format
-msgid "List available Look and feel packages"
-msgstr ""
+msgid "List available global theme packages"
+msgstr "Išvardyti prieinamus visuotinio apipavidalinimo paketus"
 
 #: lnftool.cpp:54
 #, kde-format
-msgid "Apply a look and feel package"
-msgstr ""
+msgid "Apply a global theme package"
+msgstr "Taikyti visuotinio apipavidalinimo paketą"
 
 #: lnftool.cpp:54
 #, kde-format
 msgid "packagename"
-msgstr ""
+msgstr "paketo_pavadinimas"
 
 #: lnftool.cpp:56
 #, kde-format
 msgid "Reset the Plasma Desktop layout"
-msgstr ""
+msgstr "Atstatyti Plasma darbalaukio išdėstymą"
 
 #: package/contents/ui/main.qml:28
 #, kde-format
-msgid "This module lets you choose the Look and Feel theme."
-msgstr ""
+msgid "This module lets you choose the global look and feel."
+msgstr "Šis modulis leidžia jums pasirinkti visuotinę išvaizdą ir turinį."
 
 #: package/contents/ui/main.qml:49
 #, kde-format
 msgid "Preview Theme"
-msgstr ""
+msgstr "Peržiūrėti apipavidalinimą"
 
 #: package/contents/ui/main.qml:67
 #, kde-format
@@ -118,15 +117,15 @@ msgid ""
 "Your desktop layout will be lost and reset to the default layout provided by "
 "the selected theme."
 msgstr ""
+"Jūsų darbalaukio išdėstymas bus prarastas ir atstatytas į numatytąjį "
+"pasirinkto apipavidalinimo teikiamą išdėstymą."
 
 #: package/contents/ui/main.qml:77
-#, fuzzy, kde-format
-#| msgid "Use Desktop Layout from theme"
+#, kde-format
 msgid "Use desktop layout from theme"
-msgstr "Naudoti darbalaukio išdėstymą pagal apipavidalinimą"
+msgstr "Naudoti darbalaukio išdėstymą iš apipavidalinimo"
 
 #: package/contents/ui/main.qml:84
-#, fuzzy, kde-format
-#| msgid "Get New Looks..."
-msgid "Get New Look and Feel Themes..."
-msgstr "Parsisiųsti naują apipavidalinimą..."
+#, kde-format
+msgid "Get New Global Themes..."
+msgstr "Gauti naujus visuotinius apipavidalinimus..."

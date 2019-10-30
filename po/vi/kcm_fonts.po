@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmfonts\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-07-12 07:37+0200\n"
+"POT-Creation-Date: 2019-10-29 07:53+0100\n"
 "PO-Revision-Date: 2007-06-23 17:29+0930\n"
 "Last-Translator: Phan Vĩnh Thịnh <teppi82@gmail.com>\n"
 "Language-Team: Vietnamese <kde-l10n-vi@kde.org>\n"
@@ -28,107 +28,79 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr ""
 
-#: fonts.cpp:279
-#, fuzzy, kde-format
-#| msgid ""
-#| "<p>Some changes such as anti-aliasing will only affect newly started "
-#| "applications.</p>"
-msgid ""
-"<p>Some changes such as anti-aliasing or DPI will only affect newly started "
-"applications.</p>"
-msgstr ""
-"<p>Một số thay đổi như khả năng làm trơn chỉ có hiệu lực đối với các chương "
-"trình sẽ chạy.</p>"
-
-#: fonts.cpp:280 fonts.cpp:290
-#, kde-format
-msgid "Font Settings Changed"
-msgstr "Thiết lập phông đã thay đổi"
-
-#: fonts.cpp:289
-#, fuzzy, kde-format
-#| msgid ""
-#| "<p>Some changes such as anti-aliasing will only affect newly started "
-#| "applications.</p>"
-msgid ""
-"<p>Some changes such as DPI will only affect newly started applications.</p>"
-msgstr ""
-"<p>Một số thay đổi như khả năng làm trơn chỉ có hiệu lực đối với các chương "
-"trình sẽ chạy.</p>"
-
-#: fonts.cpp:443
+#: fonts.cpp:472
 #, kde-format
 msgid "Fonts"
 msgstr ""
 
-#: fonts.cpp:445
+#: fonts.cpp:474
 #, kde-format
 msgid "Antonis Tsiapaliokas"
 msgstr ""
 
-#: kxftconfig.cpp:444
+#: kxftconfig.cpp:480
 #, fuzzy, kde-format
 #| msgid "System settings"
 msgctxt "use system subpixel setting"
 msgid "Vendor default"
 msgstr "Thiết lập hệ thống"
 
-#: kxftconfig.cpp:446
+#: kxftconfig.cpp:482
 #, fuzzy, kde-format
 #| msgid "None"
 msgctxt "no subpixel rendering"
 msgid "None"
 msgstr "Không"
 
-#: kxftconfig.cpp:448
+#: kxftconfig.cpp:484
 #, kde-format
 msgid "RGB"
 msgstr "RGB"
 
-#: kxftconfig.cpp:450
+#: kxftconfig.cpp:486
 #, kde-format
 msgid "BGR"
 msgstr "BGR"
 
-#: kxftconfig.cpp:452
+#: kxftconfig.cpp:488
 #, kde-format
 msgid "Vertical RGB"
 msgstr "RGB đứng"
 
-#: kxftconfig.cpp:454
+#: kxftconfig.cpp:490
 #, kde-format
 msgid "Vertical BGR"
 msgstr "BGR đứng"
 
-#: kxftconfig.cpp:482
+#: kxftconfig.cpp:518
 #, fuzzy, kde-format
 #| msgid "System settings"
 msgctxt "use system hinting settings"
 msgid "Vendor default"
 msgstr "Thiết lập hệ thống"
 
-#: kxftconfig.cpp:484
+#: kxftconfig.cpp:520
 #, fuzzy, kde-format
 #| msgid "Medium"
 msgctxt "medium hinting"
 msgid "Medium"
 msgstr "Vừa"
 
-#: kxftconfig.cpp:486
+#: kxftconfig.cpp:522
 #, fuzzy, kde-format
 #| msgid "None"
 msgctxt "no hinting"
 msgid "None"
 msgstr "Không"
 
-#: kxftconfig.cpp:488
+#: kxftconfig.cpp:524
 #, fuzzy, kde-format
 #| msgid "Slight"
 msgctxt "slight hinting"
 msgid "Slight"
 msgstr "Mỏng"
 
-#: kxftconfig.cpp:490
+#: kxftconfig.cpp:526
 #, fuzzy, kde-format
 #| msgid "Full"
 msgctxt "full hinting"
@@ -145,109 +117,108 @@ msgstr ""
 msgid "This module lets you configure the system fonts."
 msgstr ""
 
-#: package/contents/ui/main.qml:40
+#: package/contents/ui/main.qml:38
+#, fuzzy, kde-format
+#| msgid ""
+#| "<p>Some changes such as anti-aliasing will only affect newly started "
+#| "applications.</p>"
+msgid ""
+"Some changes such as anti-aliasing or DPI will only affect newly started "
+"applications."
+msgstr ""
+"<p>Một số thay đổi như khả năng làm trơn chỉ có hiệu lực đối với các chương "
+"trình sẽ chạy.</p>"
+
+#: package/contents/ui/main.qml:54
 #, fuzzy, kde-format
 #| msgid "Ad&just All Fonts..."
 msgid "&Adjust All Fonts..."
 msgstr "Chỉnh tất cả các &phông..."
 
-#: package/contents/ui/main.qml:47
+#: package/contents/ui/main.qml:61
 #, fuzzy, kde-format
 #| msgid "General"
 msgid "General:"
 msgstr "Chung"
 
-#: package/contents/ui/main.qml:52
+#: package/contents/ui/main.qml:66
 #, fuzzy, kde-format
 #| msgid "Fixed width"
 msgid "Fixed width:"
 msgstr "Bề ngang cố định"
 
-#: package/contents/ui/main.qml:57
+#: package/contents/ui/main.qml:71
 #, kde-format
 msgid "Small:"
 msgstr ""
 
-#: package/contents/ui/main.qml:62
+#: package/contents/ui/main.qml:76
 #, fuzzy, kde-format
 #| msgid "Toolbar"
 msgid "Toolbar:"
 msgstr "Thanh công cụ"
 
-#: package/contents/ui/main.qml:67
+#: package/contents/ui/main.qml:81
 #, fuzzy, kde-format
 #| msgid "Menu"
 msgid "Menu:"
 msgstr "Thực đơn"
 
-#: package/contents/ui/main.qml:72
+#: package/contents/ui/main.qml:86
 #, fuzzy, kde-format
 #| msgid "Window title"
 msgid "Window title:"
 msgstr "Tiêu đề cửa sổ"
 
-#: package/contents/ui/main.qml:84
+#: package/contents/ui/main.qml:99
 #, fuzzy, kde-format
 #| msgid "Use a&nti-aliasing:"
-msgctxt "Used as a noun, and precedes a combobox full of options"
-msgid "Anti-aliasing:"
+msgid "Anti-Aliasing:"
 msgstr "Làm trơ&n phông:"
 
-#: package/contents/ui/main.qml:86
+#: package/contents/ui/main.qml:100
 #, fuzzy, kde-format
 #| msgid "Enabled"
-msgid "Enabled"
+msgid "Enable"
 msgstr "Bật"
 
-#: package/contents/ui/main.qml:86
-#, fuzzy, kde-format
-#| msgid "System settings"
-msgid "Vendor default"
-msgstr "Thiết lập hệ thống"
-
-#: package/contents/ui/main.qml:86
-#, fuzzy, kde-format
-#| msgid "Disabled"
-msgid "Disabled"
-msgstr "Tắt"
-
-#: package/contents/ui/main.qml:96
+#: package/contents/ui/main.qml:108
 #, kde-format
 msgid "Exclude range from anti-aliasing"
 msgstr ""
 
-#: package/contents/ui/main.qml:113 package/contents/ui/main.qml:128
+#: package/contents/ui/main.qml:121 package/contents/ui/main.qml:138
 #, kde-format
 msgid "%1 pt"
 msgstr ""
 
-#: package/contents/ui/main.qml:120
+#: package/contents/ui/main.qml:130
 #, fuzzy, kde-format
 #| msgid " to "
 msgid "to"
 msgstr " tới "
 
-#: package/contents/ui/main.qml:141
+#: package/contents/ui/main.qml:153
 #, fuzzy, kde-format
 #| msgid "&Use sub-pixel rendering:"
 msgctxt "Used as a noun, and precedes a combobox full of options"
 msgid "Sub-pixel rendering:"
 msgstr "&Vẽ điểm ảnh phụ :"
 
-#: package/contents/ui/main.qml:178
+#: package/contents/ui/main.qml:190
 #, fuzzy, kde-format
 #| msgid "Hinting style: "
 msgctxt "Used as a noun, and precedes a combobox full of options"
 msgid "Hinting:"
 msgstr "Kiểu vết: "
 
-#: package/contents/ui/main.qml:216
+#: package/contents/ui/main.qml:228
 #, fuzzy, kde-format
 #| msgid "Force fonts DPI:"
 msgid "Force font DPI:"
 msgstr "Buộc chấm/insơ phông:"
 
-#: package/contents/ui/main.qml:234
+#: package/contents/ui/main.qml:248
 #, kde-format
 msgid "Select Font"
 msgstr ""
