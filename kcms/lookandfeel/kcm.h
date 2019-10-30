@@ -83,6 +83,8 @@ public:
     void setWidgetStyle(const QString &style);
     void setColors(const QString &scheme, const QString &colorFile);
     void setIcons(const QString &theme);
+    void setGTK(const QString &theme);
+    void setDarkDeco(const QString &theme);
     void setPlasmaTheme(const QString &theme);
     void setCursorTheme(const QString theme);
     void setSplashScreen(const QString &theme);
@@ -90,6 +92,11 @@ public:
     void setWindowSwitcher(const QString &theme);
     void setDesktopSwitcher(const QString &theme);
     void setWindowDecoration(const QString &library, const QString &theme);
+    void setWindowButtonsLayout(const QString &leftbtns, const QString &rightbtns);
+    void setKvantum(const QString &theme);
+    void setFilesLayout(const QString &theme);
+    void setLatteLayout(const QString &theme);
+    void setBorderlessMaximised(const QString &theme);
 
     void setApplyColors(bool apply);
     bool applyColors() const;
@@ -114,6 +121,7 @@ public Q_SLOTS:
     void load() override;
     void save() override;
     void defaults() override;
+    void saveThemeColouriser();
 
 Q_SIGNALS:
     void selectedPluginChanged();
