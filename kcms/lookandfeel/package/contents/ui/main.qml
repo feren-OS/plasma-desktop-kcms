@@ -56,7 +56,7 @@ KCM.GridViewKCM {
         onClicked: {
             kcm.selectedPlugin = model.pluginName;
             view.forceActiveFocus();
-            resetCheckbox.checked = false;
+            resetCheckbox.checked = true;
         }
     }
 
