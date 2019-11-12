@@ -282,6 +282,7 @@ void KCMLookandFeel::save()
             KConfigGroup cg(conf, "FerenThemer");
             cg = KConfigGroup(&cg, "Options");
             // Cleanly quit Latte Dock
+            std::system("/usr/bin/killall feren-latte-launch");
             QDBusMessage message = QDBusMessage::createMethodCall(QStringLiteral("org.kde.lattedock"), QStringLiteral("/MainApplication"),
                                                     QStringLiteral("org.qtproject.Qt.QCoreApplication"), QStringLiteral("quit"));
             QDBusConnection::sessionBus().call(message, QDBus::NoBlock);
