@@ -696,6 +696,9 @@ void KCMLookandFeel::setLatteLayout(const QString &theme)
     }
     
     if (QString(theme) != "None") {
+        // Make sure Latte is not running as there seems to be inconsistencies with applying layouts
+        std::system("/usr/bin/killall feren-latte-launch")
+        std::system("/usr/bin/killall latte-dock")
         KConfig config(QString("lattedockrc"));
         KConfigGroup cg(&config, "UniversalSettings");
         //lastNonAssignedLayout also needs to be changed as otherwise Latte switches back to the layout that lastNonAssignedLayout is currently set to when loading up
