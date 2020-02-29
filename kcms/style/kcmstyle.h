@@ -3,6 +3,8 @@
  * Copyright (C) 2002 Karol Szwed <gallium@kde.org>
  * Copyright (C) 2002 Daniel Molkentin <molkentin@kde.org>
  * Copyright (C) 2007 Urs Wolfer <uwolfer @ kde.org>
+ * Copyright (C) 2019 Kai Uwe Broulik <kde@broulik.de>
+ * Copyright (C) 2019 Cyril Rossi <cyril.rossi@enioka.com>
  *
  * Portions Copyright (C) TrollTech AS.
  *
@@ -28,77 +30,77 @@
 #ifndef KCMSTYLE_H
 #define KCMSTYLE_H
 
-#include <QHash>
-#include <QLayout>
-#include <QMap>
+#include <QPointer>
 
-#include <kcmodule.h>
+#include <KQuickAddons/ManagedConfigModule>
 
-class KConfig;
-class StylePreview;
-class StyleConfig;
+#include "gtkpage.h"
 
-struct StyleEntry {
-    QString name;
-    QString desc;
-    QString configPage;
-    bool hidden;
-};
+class QQuickItem;
 
-class KCMStyle : public KCModule
+class StyleSettings;
+class StylesModel;
+class StyleConfigDialog;
+
+class KCMStyle : public KQuickAddons::ManagedConfigModule
 {
     Q_OBJECT
 
+    Q_PROPERTY(GtkPage *gtkPage MEMBER m_gtkPage CONSTANT)
+    Q_PROPERTY(StylesModel *model READ model CONSTANT)
+    Q_PROPERTY(StyleSettings *styleSettings READ styleSettings CONSTANT)
+    Q_PROPERTY(ToolBarStyle mainToolBarStyle READ mainToolBarStyle WRITE setMainToolBarStyle NOTIFY mainToolBarStyleChanged)
+    Q_PROPERTY(ToolBarStyle otherToolBarStyle READ otherToolBarStyle WRITE setOtherToolBarStyle NOTIFY otherToolBarStyleChanged)
+
 public:
-    KCMStyle( QWidget* parent, const QVariantList& );
+    KCMStyle(QObject *parent, const QVariantList &args);
     ~KCMStyle() override;
+
+    enum ToolBarStyle {
+        NoText,
+        TextOnly,
+        TextBesideIcon,
+        TextUnderIcon
+    };
+    Q_ENUM(ToolBarStyle)
+
+    StylesModel *model() const;
+
+    StyleSettings *styleSettings() const;
+
+    ToolBarStyle mainToolBarStyle() const;
+    void setMainToolBarStyle(ToolBarStyle style);
+    Q_SIGNAL void mainToolBarStyleChanged();
+
+    ToolBarStyle otherToolBarStyle() const;
+    void setOtherToolBarStyle(ToolBarStyle style);
+    Q_SIGNAL void otherToolBarStyleChanged();
+
+    Q_INVOKABLE void configure(const QString &title, const QString &styleName, QQuickItem *ctx = nullptr);
+    Q_INVOKABLE bool gtkConfigKdedModuleLoaded();
 
     void load() override;
     void save() override;
     void defaults() override;
 
-    static QString defaultStyle();
-
-protected:
-    bool findStyle( const QString& str, int& combobox_item );
-    void switchStyle(const QString& styleName, bool force = false);
-    void setStyleRecursive(QWidget* w, QStyle* s);
-
-    void loadStyle( KConfig& config );
-    void loadEffects( KConfig& config );
-    void addWhatsThis();
-
-    void changeEvent( QEvent *event ) override;
-
-protected Q_SLOTS:
-    void styleSpecificConfig();
-    void updateConfigButton();
-
-    void setStyleDirty();
-    void setEffectsDirty();
-
-    void styleChanged();
+Q_SIGNALS:
+    void showErrorMessage(const QString &message);
+    void styleReconfigured(const QString &styleName);
 
 private:
-    QString currentStyle();
-    static QString toolbarButtonText(int index);
-    static int toolbarButtonIndex(const QString &text);
-    static QString menuBarStyleText(int index);
-    static int menuBarStyleIndex(const QString &text);
+    void loadSettingsToModel();
 
-    bool m_bStyleDirty, m_bEffectsDirty;
-    QHash <QString,StyleEntry*> styleEntries;
-    QMap  <QString,QString>     nameToStyleKey;
+    StyleSettings *m_settings;
+    StylesModel *m_model;
 
-    QVBoxLayout* mainLayout;
+    QString m_previousStyle;
+    bool m_effectsDirty = false;
 
-    // Widgets
-    StylePreview* stylePreview;
-    StyleConfig* styleConfig;
-    QStyle* appliedStyle;
-    QPalette palette;
+    ToolBarStyle m_mainToolBarStyle = NoText;
+    ToolBarStyle m_otherToolBarStyle = NoText;
+
+    QPointer<StyleConfigDialog> m_styleConfigDialog;
+    GtkPage *m_gtkPage;
 };
 
 #endif // __KCMSTYLE_H
-
-// vim: set noet ts=4:

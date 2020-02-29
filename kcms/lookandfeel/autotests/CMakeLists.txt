@@ -6,12 +6,20 @@ set( kcmTest_SRCS
      kcmtest.cpp
      ../kcm.cpp
      ../../krdb/krdb.cpp
-     ../../cursortheme/xcursor/cursortheme.cpp
-     ../../cursortheme/xcursor/xcursortheme.cpp
 )
+
+if (X11_Xcursor_FOUND)
+    set(kcmTest_SRCS
+        ${kcmTest_SRCS}
+        ../../cursortheme/xcursor/cursortheme.cpp
+        ../../cursortheme/xcursor/xcursortheme.cpp
+    )
+endif ()
 
 set(klauncher_xml ${KINIT_DBUS_INTERFACES_DIR}/kf5_org.kde.KLauncher.xml)
 qt5_add_dbus_interface(kcmTest_SRCS ${klauncher_xml} klauncher_iface)
+
+kconfig_add_kcfg_files(kcmTest_SRCS ../lookandfeelsettings.kcfgc GENERATE_MOC)
 
 add_executable(kcmTest ${kcmTest_SRCS})
 

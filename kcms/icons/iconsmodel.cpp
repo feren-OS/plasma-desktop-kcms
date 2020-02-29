@@ -6,7 +6,7 @@
  * Copyright (C) 2018 Kai Uwe Broulik <kde@privat.broulik.de>
  *
  * Requires the Qt widget libraries, available at no cost at
- * http://www.troll.no/
+ * https://www.qt.io/
  *
  *  This program is free software; you can redistribute it and/or modify
  *  it under the terms of the GNU General Public License as published by
@@ -29,7 +29,11 @@
 
 #include <KIconTheme>
 
-IconsModel::IconsModel(QObject *parent) : QAbstractListModel(parent)
+#include "iconssettings.h"
+
+IconsModel::IconsModel(IconsSettings *iconsSettings, QObject *parent)
+    : QAbstractListModel(parent)
+    , m_settings(iconsSettings)
 {
 
 }
@@ -79,12 +83,11 @@ bool IconsModel::setData(const QModelIndex &index, const QVariant &value, int ro
             item.pendingDeletion = pendingDeletion;
             emit dataChanged(index, index, {PendingDeletionRole});
 
-            // move to the next non-pending theme
+            // if we delete current selected theme move to the next non-pending theme
             const auto nonPending = match(index, PendingDeletionRole, false);
-            if (!nonPending.isEmpty()) {
-                setSelectedTheme(nonPending.first().data(ThemeNameRole).toString());
+            if (m_settings->theme() == index.data(ThemeNameRole)  && !nonPending.isEmpty()) {
+                m_settings->setTheme(nonPending.first().data(ThemeNameRole).toString());
             }
-
             emit pendingDeletionsChanged();
             return true;
         }
@@ -104,44 +107,9 @@ QHash<int, QByteArray> IconsModel::roleNames() const
     };
 }
 
-QString IconsModel::selectedTheme() const
-{
-    return m_selectedTheme;
-}
-
-void IconsModel::setSelectedTheme(const QString &theme)
-{
-    if (m_selectedTheme == theme) {
-        return;
-    }
-
-    const bool firstTime = m_selectedTheme.isNull();
-    m_selectedTheme = theme;
-
-    if (!firstTime) {
-        emit selectedThemeChanged();
-    }
-    emit selectedThemeIndexChanged();
-}
-
-int IconsModel::selectedThemeIndex() const
-{
-    auto it = std::find_if(m_data.begin(), m_data.end(), [this](const IconsModelData &item) {
-        return item.themeName == m_selectedTheme;
-    });
-
-    if (it != m_data.end()) {
-        return std::distance(m_data.begin(), it);
-    }
-
-    return -1;
-}
-
 void IconsModel::load()
 {
     beginResetModel();
-
-    const int oldCount = m_data.count();
 
     m_data.clear();
 
@@ -175,11 +143,6 @@ void IconsModel::load()
     });
 
     endResetModel();
-
-    // an item might have been added before the currently selected one
-    if (oldCount != m_data.count()) {
-        emit selectedThemeIndexChanged();
-    }
 }
 
 QStringList IconsModel::pendingDeletions() const

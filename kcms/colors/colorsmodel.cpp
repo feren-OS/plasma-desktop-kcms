@@ -85,10 +85,12 @@ bool ColorsModel::setData(const QModelIndex &index, const QVariant &value, int r
             item.pendingDeletion = pendingDeletion;
             emit dataChanged(index, index, {PendingDeletionRole});
 
-            // move to the next non-pending theme
-            const auto nonPending = match(index, PendingDeletionRole, false);
-            if (!nonPending.isEmpty()) {
-                setSelectedScheme(nonPending.first().data(SchemeNameRole).toString());
+            if (index.row() == selectedSchemeIndex() && pendingDeletion) {
+                // move to the next non-pending theme
+                const auto nonPending = match(index, PendingDeletionRole, false);
+                if (!nonPending.isEmpty()) {
+                    setSelectedScheme(nonPending.first().data(SchemeNameRole).toString());
+                }
             }
 
             emit pendingDeletionsChanged();
@@ -123,18 +125,15 @@ void ColorsModel::setSelectedScheme(const QString &scheme)
         return;
     }
 
-    const bool firstTime = m_selectedScheme.isNull();
     m_selectedScheme = scheme;
 
-    if (!firstTime) {
-        emit selectedSchemeChanged(scheme);
-    }
+    emit selectedSchemeChanged(scheme);
     emit selectedSchemeIndexChanged();
 }
 
 int ColorsModel::indexOfScheme(const QString &scheme) const
 {
-    auto it = std::find_if(m_data.begin(), m_data.end(), [this, &scheme](const ColorsModelData &item) {
+    auto it = std::find_if(m_data.begin(), m_data.end(), [ &scheme](const ColorsModelData &item) {
         return item.schemeName == scheme;
     });
 

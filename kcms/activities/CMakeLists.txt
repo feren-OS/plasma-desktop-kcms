@@ -33,8 +33,6 @@ set (KAMD_KCM_SRCS
 
    BlacklistedApplicationsModel.cpp
    ExtraActivitiesInterface.cpp
-
-   utils/dbusfuture_p.cpp
    )
 
 ki18n_wrap_ui (
@@ -50,6 +48,9 @@ qt5_add_dbus_interface (
    common/dbus/org.kde.ActivityManager.Features.xml
    features_interface
    )
+
+kconfig_add_kcfg_files(KAMD_KCM_SRCS kactivitymanagerd_settings.kcfgc GENERATE_MOC)
+kconfig_add_kcfg_files(KAMD_KCM_SRCS kactivitymanagerd_plugins_settings.kcfgc GENERATE_MOC)
 
 add_library (kcm_activities MODULE ${KAMD_KCM_SRCS})
 
@@ -87,3 +88,5 @@ install (
    DESTINATION ${KAMD_KCM_DATADIR}/qml
    )
 
+install(FILES kactivitymanagerd_settings.kcfg DESTINATION ${KDE_INSTALL_KCFGDIR})
+install(FILES kactivitymanagerd_plugins_settings.kcfg DESTINATION ${KDE_INSTALL_KCFGDIR})

@@ -19,6 +19,8 @@
  */
 
 #include "PrivacyTab.h"
+#include "kactivitymanagerd_settings.h"
+#include "kactivitymanagerd_plugins_settings.h"
 
 #include <QMenu>
 #include <QQmlContext>
@@ -34,7 +36,6 @@
 
 #include "ui_PrivacyTabBase.h"
 #include "BlacklistedApplicationsModel.h"
-#include "definitions.h"
 
 #include <utils/d_ptr_implementation.h>
 
@@ -46,15 +47,17 @@
 
 class PrivacyTab::Private : public Ui::PrivacyTabBase {
 public:
-    KSharedConfig::Ptr mainConfig;
-    KSharedConfig::Ptr pluginConfig;
+    KActivityManagerdSettings *mainConfig;
+    KActivityManagerdPluginsSettings *pluginConfig;
 
     BlacklistedApplicationsModel *blacklistedApplicationsModel;
     QObject *viewBlacklistedApplicationsRoot;
     std::unique_ptr<QQuickView> viewBlacklistedApplications;
 
-    Private()
-        : viewBlacklistedApplicationsRoot(nullptr)
+    Private(QObject *parent)
+        : mainConfig(new KActivityManagerdSettings(parent))
+        , pluginConfig(new KActivityManagerdPluginsSettings(parent))
+        , viewBlacklistedApplicationsRoot(nullptr)
         , viewBlacklistedApplications(nullptr)
     {
     }
@@ -62,12 +65,9 @@ public:
 
 PrivacyTab::PrivacyTab(QWidget *parent)
     : QWidget(parent)
-    , d()
+    , d(this)
 {
     d->setupUi(this);
-
-    d->mainConfig = KSharedConfig::openConfig(QStringLiteral("kactivitymanagerdrc"));
-    d->pluginConfig = KSharedConfig::openConfig(QStringLiteral("kactivitymanagerd-pluginsrc"));
 
     // Keep history initialization
 
@@ -108,19 +108,15 @@ PrivacyTab::PrivacyTab(QWidget *parent)
 
     // React to changes
 
-    connect(d->radioRememberAllApplications, SIGNAL(toggled(bool)), this, SIGNAL(changed()));
-    connect(d->radioDontRememberApplications, SIGNAL(toggled(bool)), this, SIGNAL(changed()));
+    connect(d->radioRememberAllApplications, &QAbstractButton::toggled, this, &PrivacyTab::changed);
+    connect(d->radioDontRememberApplications, &QAbstractButton::toggled, this, &PrivacyTab::changed);
     connect(d->spinKeepHistory, SIGNAL(valueChanged(int)), this, SIGNAL(changed()));
-    connect(d->blacklistedApplicationsModel, SIGNAL(changed()), this, SIGNAL(changed()));
+    connect(d->blacklistedApplicationsModel, &BlacklistedApplicationsModel::changed, this, &PrivacyTab::changed);
 
-    connect(d->radioRememberSpecificApplications, SIGNAL(toggled(bool)),
-            d->blacklistedApplicationsModel, SLOT(setEnabled(bool)));
+    connect(d->radioRememberSpecificApplications, &QAbstractButton::toggled,
+            d->blacklistedApplicationsModel, &BlacklistedApplicationsModel::setEnabled);
 
-    connect(d->radioRememberSpecificApplications, SIGNAL(toggled(bool)),
-            d->viewBlacklistedApplicationsContainer, SLOT(setEnabled(bool)));
-
-    connect(d->radioRememberSpecificApplications, SIGNAL(toggled(bool)),
-            d->checkBlacklistAllNotOnList, SLOT(setEnabled(bool)));
+    connect(d->checkBlacklistAllNotOnList, &QAbstractButton::toggled, this, &PrivacyTab::changed);
 
     defaults();
 
@@ -135,56 +131,53 @@ PrivacyTab::~PrivacyTab()
 {
 }
 
+bool PrivacyTab::isDefault()
+{
+    return d->radioRememberAllApplications->isChecked() &&
+            d->spinKeepHistory->value() == d->pluginConfig->defaultKeepHistoryForValue() &&
+            d->checkBlacklistAllNotOnList->isChecked() == d->pluginConfig->defaultBlockedByDefaultValue();
+}
+
 void PrivacyTab::defaults()
 {
-    d->radioRememberAllApplications->click();
-    d->spinKeepHistory->setValue(0);
     d->blacklistedApplicationsModel->defaults();
+
+    d->radioRememberAllApplications->click();
+    d->spinKeepHistory->setValue(d->pluginConfig->defaultKeepHistoryForValue());
+    d->checkBlacklistAllNotOnList->setChecked(d->pluginConfig->defaultBlockedByDefaultValue());
 }
 
 void PrivacyTab::load()
 {
     d->blacklistedApplicationsModel->load();
 
-    const auto statisticsConfig
-        = d->pluginConfig->group(SQLITE_PLUGIN_CONFIG_KEY);
-
-    const auto whatToRemember = static_cast<WhatToRemember>(statisticsConfig.readEntry(
-        "what-to-remember", static_cast<int>(AllApplications)));
+    const auto whatToRemember = static_cast<WhatToRemember>(d->pluginConfig->whatToRemember());
 
     d->radioRememberAllApplications->setChecked(whatToRemember == AllApplications);
     d->radioRememberSpecificApplications->setChecked(whatToRemember == SpecificApplications);
     d->radioDontRememberApplications->setChecked(whatToRemember == NoApplications);
 
-    d->spinKeepHistory->setValue(
-        statisticsConfig.readEntry("keep-history-for", 0));
-    d->checkBlacklistAllNotOnList->setChecked(
-        statisticsConfig.readEntry("blocked-by-default", false));
+    d->spinKeepHistory->setValue(d->pluginConfig->keepHistoryFor());
+    d->checkBlacklistAllNotOnList->setChecked(d->pluginConfig->blockedByDefault());
 }
 
 void PrivacyTab::save()
 {
     d->blacklistedApplicationsModel->save();
 
-    auto statisticsConfig = d->pluginConfig->group(SQLITE_PLUGIN_CONFIG_KEY);
-
     const auto whatToRemember =
         d->radioRememberSpecificApplications->isChecked() ? SpecificApplications :
         d->radioDontRememberApplications->isChecked()     ? NoApplications :
         /* otherwise */                                     AllApplications;
 
-    statisticsConfig.writeEntry("what-to-remember", static_cast<int>(whatToRemember));
-    statisticsConfig.writeEntry("keep-history-for", d->spinKeepHistory->value());
-    statisticsConfig.writeEntry("blocked-by-default", d->checkBlacklistAllNotOnList->isChecked());
+    d->pluginConfig->setWhatToRemember(static_cast<int>(whatToRemember));
+    d->pluginConfig->setKeepHistoryFor(d->spinKeepHistory->value());
+    d->pluginConfig->setBlockedByDefault(d->checkBlacklistAllNotOnList->isChecked());
 
-    statisticsConfig.sync();
+    d->pluginConfig->save();
 
-    auto pluginListConfig = d->mainConfig->group("Plugins");
-
-    pluginListConfig.writeEntry("org.kde.ActivityManager.ResourceScoringEnabled",
-                                whatToRemember != NoApplications);
-
-    pluginListConfig.sync();
+    d->mainConfig->setResourceScoringEnabled(whatToRemember != NoApplications);
+    d->mainConfig->save();
 }
 
 void PrivacyTab::forget(int count, const QString &what)

@@ -1,6 +1,7 @@
 /*
    Copyright (c) 2014 Marco Martin <mart@kde.org>
    Copyright (c) 2014 Vishesh Handa <me@vhanda.in>
+   Copyright (c) 2019 Cyril Rossi <cyril.rossi@enioka.com>
 
    This library is free software; you can redistribute it and/or
    modify it under the terms of the GNU Library General Public
@@ -22,36 +23,26 @@
 
 #include <KConfig>
 #include <KConfigGroup>
-#include <QListWidget>
 #include <QDir>
 
-#include <KNewStuff3/KNS3/DownloadDialog>
-
-#include <Plasma/Package>
-#include <KQuickAddons/ConfigModule>
+#include <KPackage/Package>
+#include <KQuickAddons/ManagedConfigModule>
 
 class QQuickItem;
 class QStandardItemModel;
+class LookAndFeelSettings;
 
-class KCMLookandFeel : public KQuickAddons::ConfigModule
+class KCMLookandFeel : public KQuickAddons::ManagedConfigModule
 {
     Q_OBJECT
+    Q_PROPERTY(LookAndFeelSettings *lookAndFeelSettings READ lookAndFeelSettings CONSTANT)
     Q_PROPERTY(QStandardItemModel *lookAndFeelModel READ lookAndFeelModel CONSTANT)
-    Q_PROPERTY(QString selectedPlugin READ selectedPlugin WRITE setSelectedPlugin NOTIFY selectedPluginChanged)
-    Q_PROPERTY(int selectedPluginIndex READ selectedPluginIndex NOTIFY selectedPluginIndexChanged)
-
-    Q_PROPERTY(bool applyColors READ applyColors WRITE setApplyColors NOTIFY applyColorsChanged)
-    Q_PROPERTY(bool applyWidgetStyle READ applyWidgetStyle WRITE setApplyWidgetStyle NOTIFY applyWidgetStyleChanged)
-    Q_PROPERTY(bool applyIcons READ applyIcons WRITE setApplyIcons NOTIFY applyIconsChanged)
-    Q_PROPERTY(bool applyPlasmaTheme READ applyPlasmaTheme WRITE setApplyPlasmaTheme NOTIFY applyPlasmaThemeChanged)
-    Q_PROPERTY(bool applyWindowSwitcher READ applyWindowSwitcher WRITE setApplyWindowSwitcher NOTIFY applyWindowSwitcherChanged)
-    Q_PROPERTY(bool applyDesktopSwitcher READ applyDesktopSwitcher WRITE setApplyDesktopSwitcher NOTIFY applyDesktopSwitcherChanged)
     Q_PROPERTY(bool resetDefaultLayout READ resetDefaultLayout WRITE setResetDefaultLayout NOTIFY resetDefaultLayoutChanged)
 
 public:
     enum Roles {
         PluginNameRole = Qt::UserRole +1,
-        ScreenhotRole,
+        ScreenshotRole,
         FullScreenPreviewRole,
         DescriptionRole,
         HasSplashRole,
@@ -66,25 +57,22 @@ public:
         HasWindowSwitcherRole,
         HasDesktopSwitcherRole
     };
+
     KCMLookandFeel(QObject* parent, const QVariantList& args);
     ~KCMLookandFeel() override;
 
-    //List only packages which provide at least one of the components
-    QList<Plasma::Package> availablePackages(const QStringList &components);
+    LookAndFeelSettings *lookAndFeelSettings() const;
+    QStandardItemModel *lookAndFeelModel() const;
 
-    QStandardItemModel *lookAndFeelModel();
+    Q_INVOKABLE int pluginIndex(const QString &pluginName) const;
 
-    QString selectedPlugin() const;
-    void setSelectedPlugin(const QString &plugin);
-
-    int selectedPluginIndex() const;
+    bool resetDefaultLayout() const;
+    void setResetDefaultLayout(bool reset);
 
     //Setters of the various theme pieces
     void setWidgetStyle(const QString &style);
     void setColors(const QString &scheme, const QString &colorFile);
     void setIcons(const QString &theme);
-    void setGTK(const QString &theme);
-    void setDarkDeco(const QString &theme);
     void setPlasmaTheme(const QString &theme);
     void setCursorTheme(const QString theme);
     void setSplashScreen(const QString &theme);
@@ -92,57 +80,27 @@ public:
     void setWindowSwitcher(const QString &theme);
     void setDesktopSwitcher(const QString &theme);
     void setWindowDecoration(const QString &library, const QString &theme);
-    void setWindowButtonsLayout(const QString &leftbtns, const QString &rightbtns);
-    void setKvantum(const QString &theme);
-    void setFilesLayout(const QString &theme);
-    void setLatteLayout(const QString &theme);
-    void setBorderlessMaximised(const QString &theme);
 
-    void setApplyColors(bool apply);
-    bool applyColors() const;
-    void setApplyWidgetStyle(bool apply);
-    bool applyWidgetStyle() const;
-    void setApplyIcons(bool apply);
-    bool applyIcons() const;
-    void setApplyPlasmaTheme(bool apply);
-    bool applyPlasmaTheme() const;
-    void setApplyWindowSwitcher(bool apply);
-    bool applyWindowSwitcher() const;
-    void setApplyDesktopSwitcher(bool apply);
-    bool applyDesktopSwitcher() const;
-    bool resetDefaultLayout() const;
-    void setResetDefaultLayout(bool reset);
-
-    void loadModel();
-
-    Q_INVOKABLE void getNewStuff(QQuickItem *ctx);
+    Q_INVOKABLE void reloadModel();
 
 public Q_SLOTS:
     void load() override;
     void save() override;
-    void defaults() override;
-    void saveThemeColouriser();
 
 Q_SIGNALS:
-    void selectedPluginChanged();
-
-    void applyColorsChanged();
-    void applyWidgetStyleChanged();
-    void applyIconsChanged();
-    void applyPlasmaThemeChanged();
-    void applyWindowSwitcherChanged();
-    void applyDesktopSwitcherChanged();
     void resetDefaultLayoutChanged();
-    void selectedPluginIndexChanged();
 
 private:
+    //List only packages which provide at least one of the components
+    QList<KPackage::Package> availablePackages(const QStringList &components);
+    void loadModel();
     QDir cursorThemeDir(const QString &theme, const int depth);
     const QStringList cursorSearchPaths();
+
+    LookAndFeelSettings *m_settings;
     QStandardItemModel *m_model;
-    Plasma::Package m_package;
-    QString m_selectedPlugin;
+    KPackage::Package m_package;
     QStringList m_cursorSearchPaths;
-    QPointer<KNS3::DownloadDialog> m_newStuffDialog;
 
     KConfig m_config;
     KConfigGroup m_configGroup;

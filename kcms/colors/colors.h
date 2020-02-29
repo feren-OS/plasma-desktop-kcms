@@ -1,5 +1,6 @@
 /*
  * Copyright (c) 2019 Kai Uwe Broulik <kde@privat.broulik.de>
+ * Copyright (c) 2019 Cyril Rossi <cyril.rossi@enioka.com>
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License as
@@ -22,12 +23,12 @@
 
 #include <QScopedPointer>
 #include <QPointer>
+#include <QQmlListReference>
 
 #include <KSharedConfig>
 
-#include <KNewStuff3/KNS3/DownloadDialog>
 
-#include <KQuickAddons/ConfigModule>
+#include <KQuickAddons/ManagedConfigModule>
 
 class QProcess;
 class QTemporaryFile;
@@ -39,25 +40,20 @@ class FileCopyJob;
 
 class ColorsModel;
 class FilterProxyModel;
+class ColorsSettings;
 
-class KCMColors : public KQuickAddons::ConfigModule
+class KCMColors : public KQuickAddons::ManagedConfigModule
 {
     Q_OBJECT
 
     Q_PROPERTY(ColorsModel *model READ model CONSTANT)
     Q_PROPERTY(FilterProxyModel *filteredModel READ filteredModel CONSTANT)
+    Q_PROPERTY(ColorsSettings *colorsSettings READ colorsSettings CONSTANT)
     Q_PROPERTY(bool downloadingFile READ downloadingFile NOTIFY downloadingFileChanged)
 
 public:
     KCMColors(QObject *parent, const QVariantList &args);
     ~KCMColors() override;
-
-    enum Roles {
-        SchemeNameRole = Qt::UserRole + 1,
-        PaletteRole,
-        RemovableRole,
-        PendingDeletionRole
-    };
 
     enum SchemeFilter {
         AllSchemes,
@@ -68,10 +64,10 @@ public:
 
     ColorsModel *model() const;
     FilterProxyModel *filteredModel() const;
-
+    ColorsSettings *colorsSettings() const;
     bool downloadingFile() const;
 
-    Q_INVOKABLE void getNewStuff(QQuickItem *ctx);
+    Q_INVOKABLE void reloadModel(const QQmlListReference &changedEntries);
     Q_INVOKABLE void installSchemeFromFile(const QUrl &url);
 
     Q_INVOKABLE void editScheme(const QString &schemeName, QQuickItem *ctx);
@@ -79,11 +75,8 @@ public:
 public Q_SLOTS:
     void load() override;
     void save() override;
-    void defaults() override;
 
 Q_SIGNALS:
-    void selectedSchemeChanged();
-    void selectedSchemeIndexChanged();
     void downloadingFileChanged();
 
     void showSuccessMessage(const QString &message);
@@ -92,6 +85,8 @@ Q_SIGNALS:
     void showSchemeNotInstalledWarning(const QString &schemeName);
 
 private:
+    bool isSaveNeeded() const override;
+
     void saveColors();
     void processPendingDeletions();
 
@@ -99,12 +94,12 @@ private:
 
     ColorsModel *m_model;
     FilterProxyModel *m_filteredModel;
+    ColorsSettings *m_settings;
 
     bool m_selectedSchemeDirty = false;
+    bool m_activeSchemeEdited = false;
 
     bool m_applyToAlien = true;
-
-    QPointer<KNS3::DownloadDialog> m_newStuffDialog;
 
     QProcess *m_editDialogProcess = nullptr;
 

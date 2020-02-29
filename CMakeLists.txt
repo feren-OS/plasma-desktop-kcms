@@ -2,11 +2,11 @@ cmake_minimum_required(VERSION 3.0)
 
 project(plasma-desktop)
 
-set(PROJECT_VERSION "5.17.2")
+set(PROJECT_VERSION "5.18.2")
 set(PROJECT_VERSION_MAJOR 5)
 
-set(QT_MIN_VERSION "5.11.0")
-set(KF5_MIN_VERSION "5.62.0")
+set(QT_MIN_VERSION "5.12.0")
+set(KF5_MIN_VERSION "5.66.0")
 
 find_package(ECM ${KF5_MIN_VERSION} REQUIRED NO_MODULE)
 set(CMAKE_MODULE_PATH ${ECM_MODULE_PATH} ${ECM_KDE_MODULE_DIR} ${CMAKE_CURRENT_SOURCE_DIR}/cmake/modules)
@@ -21,6 +21,7 @@ include(ECMOptionalAddSubdirectory)
 include(ECMQtDeclareLoggingCategory)
 include(FeatureSummary)
 include(CheckIncludeFiles)
+include(KDEClangFormat)
 
 find_package(Qt5 ${QT_MIN_VERSION} CONFIG REQUIRED COMPONENTS
     Quick
@@ -40,6 +41,7 @@ find_package(KF5 ${KF5_MIN_VERSION} REQUIRED COMPONENTS
     I18n
     KCMUtils
     NewStuff
+    NewStuffQuick
     KDELibs4Support
     Notifications
     NotifyConfig
@@ -61,8 +63,8 @@ set_package_properties(KF5Kirigami2 PROPERTIES
     TYPE RUNTIME
 )
 
-find_package(KF5QQC2DeskopStyle ${KF5_MIN_VERSION} CONFIG)
-set_package_properties(KF5QQC2DeskopStyle PROPERTIES
+find_package(KF5QQC2DesktopStyle ${KF5_MIN_VERSION} CONFIG)
+set_package_properties(KF5QQC2DesktopStyle PROPERTIES
     DESCRIPTION "QtQuickControls 2 style that uses QWidget's QStyle for painting"
     PURPOSE "Required at runtime by many KCMs"
     TYPE RUNTIME
@@ -78,19 +80,20 @@ find_package(KRunnerAppDBusInterface CONFIG REQUIRED)
 find_package(KSMServerDBusInterface CONFIG REQUIRED)
 find_package(KF5ItemModels CONFIG REQUIRED)
 find_package(KF5Emoticons CONFIG REQUIRED)
+find_package(KF5 REQUIRED COMPONENTS SysGuard)
 
-find_package(KF5Baloo 5.15)
-set_package_properties(KF5Baloo PROPERTIES DESCRIPTION "File Searching"
-                       TYPE RECOMMENDED
-                       PURPOSE "Needed to build the File Search KCM"
-                      )
-
-find_package(Fontconfig)
-set_package_properties(Fontconfig PROPERTIES DESCRIPTION "Font access configuration library"
-                       URL "https://www.freedesktop.org/wiki/Software/fontconfig"
-                       TYPE OPTIONAL
-                       PURPOSE "Needed to build font configuration and installation tools"
-                      )
+# find_package(KF5Baloo ${KF5_MIN_VERSION})
+# set_package_properties(KF5Baloo PROPERTIES DESCRIPTION "File Searching"
+#                        TYPE RECOMMENDED
+#                        PURPOSE "Needed to build the File Search KCM"
+#                       )
+# 
+# find_package(Fontconfig)
+# set_package_properties(Fontconfig PROPERTIES DESCRIPTION "Font access configuration library"
+#                        URL "https://www.freedesktop.org/wiki/Software/fontconfig"
+#                        TYPE OPTIONAL
+#                        PURPOSE "Needed to build font configuration and installation tools"
+#                       )
 
 find_package(X11)
 set_package_properties(X11 PROPERTIES DESCRIPTION "X11 libraries"
@@ -104,7 +107,7 @@ endif()
 
 find_package(UDev)
 set_package_properties(UDev PROPERTIES DESCRIPTION "UDev library"
-                        URL "http://www.kernel.org/pub/linux/utils/kernel/hotplug/udev.html"
+                        URL "https://www.freedesktop.org/wiki/Software/systemd/"
                         TYPE OPTIONAL
                         PURPOSE "Required for device discovery in keyboard daemon"
                       )
@@ -138,9 +141,7 @@ endif()
 
 include(ConfigureChecks.cmake)
 
-string(REGEX MATCHALL "[0-9]+" PROJECT_VERSION_COMPONENTS ${PROJECT_VERSION})
-list(GET PROJECT_VERSION_COMPONENTS 1 PROJECT_VERSION_MINOR)
-find_package(Breeze ${PROJECT_VERSION_MAJOR}.${PROJECT_VERSION_MINOR} CONFIG)
+find_package(Breeze ${PROJECT_VERSION} CONFIG)
 set_package_properties(Breeze PROPERTIES
                        TYPE OPTIONAL
                        PURPOSE "For setting the default window decoration plugin")
@@ -165,15 +166,26 @@ plasma_install_package(desktoppackage org.kde.plasma.desktop shells shell)
 
 add_definitions(-DQT_NO_URL_CAST_FROM_STRING)
 
+# add_subdirectory(layout-templates)
+
+# add_subdirectory(doc)
+# add_subdirectory(runners)
+# add_subdirectory(containments)
+# add_subdirectory(toolboxes)
+# add_subdirectory(applets)
+# add_subdirectory(dataengines)
 add_subdirectory(kcms)
+# add_subdirectory(knetattach)
+# add_subdirectory(attica-kde)
+# add_subdirectory(imports/activitymanager/)
+# add_subdirectory(solid-device-automounter)
+# if(X11_Xkb_FOUND AND XCB_XKB_FOUND)
+#     add_subdirectory(kaccess)
+# endif()
 install(FILES org.kde.plasmashell.metainfo.xml DESTINATION ${KDE_INSTALL_METAINFODIR})
 
+# add clang-format target for all our real source files
+file(GLOB_RECURSE ALL_CLANG_FORMAT_SOURCE_FILES *.cpp *.h)
+kde_clang_format(${ALL_CLANG_FORMAT_SOURCE_FILES})
+
 feature_summary(WHAT ALL INCLUDE_QUIET_PACKAGES FATAL_ON_MISSING_REQUIRED_PACKAGES)
-
-find_package(KF5I18n CONFIG REQUIRED)
-ki18n_install(po)
-
-  find_package(KF5DocTools CONFIG)
-  if(KF5DocTools_FOUND)
-    kdoctools_install(po)
-  endif()

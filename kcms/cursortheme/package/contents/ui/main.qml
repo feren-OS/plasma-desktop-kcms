@@ -22,7 +22,7 @@ import QtQuick.Layouts 1.1
 import QtQuick.Controls 2.2 as QtControls
 import QtQuick.Dialogs 1.1 as QtDialogs
 import org.kde.kirigami 2.4 as Kirigami
-import org.kde.kconfig 1.0 // for KAuthorized
+import org.kde.newstuff 1.62 as NewStuff
 import org.kde.kcm 1.1 as KCM
 
 import org.kde.private.kcm_cursortheme 1.0
@@ -32,9 +32,15 @@ KCM.GridViewKCM {
 
     view.model: kcm.cursorsModel
     view.delegate: Delegate {}
+    view.currentIndex: kcm.cursorThemeIndex(kcm.cursorThemeSettings.cursorTheme);
+
     view.onCurrentIndexChanged: {
-        kcm.selectedThemeRow = view.currentIndex;
+        kcm.cursorThemeSettings.cursorTheme = kcm.cursorThemeFromIndex(view.currentIndex)
         view.positionViewAtIndex(view.currentIndex, view.GridView.Beginning);
+    }
+
+    Component.onCompleted: {
+        view.positionViewAtIndex(view.currentIndex, GridView.Beginning);
     }
 
     enabled: !kcm.downloadingFile
@@ -47,11 +53,6 @@ KCM.GridViewKCM {
             }
         }
         onDropped: kcm.installThemeFromFile(drop.urls[0])
-    }
-
-    Connections {
-        target: kcm
-        onSelectedThemeRowChanged: view.currentIndex = kcm.selectedThemeRow;
     }
 
     footer: ColumnLayout {
@@ -101,15 +102,10 @@ KCM.GridViewKCM {
                     id: sizeCombo
                     model: kcm.sizesModel
                     textRole: "display"
+                    currentIndex: kcm.cursorSizeIndex(kcm.cursorThemeSettings.cursorSize);
                     onActivated: {
-                        kcm.selectedSizeRow = sizeCombo.currentIndex
-                    }
-
-                    Connections {
-                        target: kcm
-                        onSelectedSizeRowChanged: {
-                            sizeCombo.currentIndex = kcm.selectedSizeRow
-                        }
+                        kcm.cursorThemeSettings.cursorSize = kcm.cursorSizeFromIndex(sizeCombo.currentIndex);
+                        kcm.preferredSize = kcm.cursorSizeFromIndex(sizeCombo.currentIndex);
                     }
 
                     delegate: QtControls.ItemDelegate {
@@ -134,6 +130,7 @@ KCM.GridViewKCM {
                                 Layout.fillWidth: true
                                 color: sizeComboDelegate.highlighted ? Kirigami.Theme.highlightedTextColor : Kirigami.Theme.textColor
                                 text: model[sizeCombo.textRole]
+                                elide: Text.ElideRight
                             }
                         }
                     }
@@ -147,12 +144,13 @@ KCM.GridViewKCM {
                     onClicked: fileDialogLoader.active = true;
                     enabled: kcm.canInstall
                 }
-                QtControls.Button {
-                    icon.name: "get-hot-new-stuff"
-                    text: i18n("&Get New Cursors...")
-                    onClicked: kcm.getNewClicked();
+                NewStuff.Button {
+                    id: newStuffButton
                     enabled: kcm.canInstall
-                    visible: KAuthorized.authorize("ghns")
+                    text: i18n("&Get New Cursors...")
+                    configFile: "xcursor.knsrc"
+                    viewMode: NewStuff.Page.ViewMode.Tiles
+                    onChangedEntriesChanged: kcm.ghnsEntriesChanged(newStuffButton.changedEntries);
                 }
             }
         }

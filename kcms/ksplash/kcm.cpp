@@ -1,6 +1,7 @@
 /* This file is part of the KDE Project
    Copyright (c) 2014 Marco Martin <mart@kde.org>
    Copyright (c) 2014 Vishesh Handa <me@vhanda.in>
+   Copyright (c) 2019 Cyril Rossi <cyril.rossi@enioka.com>
 
    This library is free software; you can redistribute it and/or
    modify it under the terms of the GNU Library General Public
@@ -22,48 +23,44 @@
 #include <KPluginFactory>
 #include <KPluginLoader>
 #include <KAboutData>
-#include <KSharedConfig>
+#include <KLocalizedString>
+
 #include <QStandardPaths>
 #include <QProcess>
-#include <QQuickView>
-
-#include <QVBoxLayout>
-#include <QPushButton>
 #include <QStandardItemModel>
-#include <QQmlContext>
 #include <QDir>
 
-#include <KLocalizedString>
-#include <Plasma/PluginLoader>
+#include <KPackage/PackageLoader>
 
-#include <KNewStuff3/KNS3/DownloadDialog>
+#include "splashscreensettings.h"
 
 K_PLUGIN_FACTORY_WITH_JSON(KCMSplashScreenFactory, "kcm_splashscreen.json", registerPlugin<KCMSplashScreen>();)
 
 KCMSplashScreen::KCMSplashScreen(QObject* parent, const QVariantList& args)
-    : KQuickAddons::ConfigModule(parent, args)
-    , m_config(QStringLiteral("ksplashrc"))
-    , m_configGroup(m_config.group("KSplash"))
+    : KQuickAddons::ManagedConfigModule(parent, args)
+    , m_settings(new SplashScreenSettings(this))
+    , m_model(new QStandardItemModel(this))
 {
+    qmlRegisterType<SplashScreenSettings>();
     qmlRegisterType<QStandardItemModel>();
+
     KAboutData* about = new KAboutData(QStringLiteral("kcm_splashscreen"), i18n("Splash Screen"),
                                        QStringLiteral("0.1"), QString(), KAboutLicense::LGPL);
     about->addAuthor(i18n("Marco Martin"), QString(), QStringLiteral("mart@kde.org"));
     setAboutData(about);
     setButtons(Help | Apply | Default);
 
-    m_model = new QStandardItemModel(this);
     QHash<int, QByteArray> roles = m_model->roleNames();
     roles[PluginNameRole] = "pluginName";
-    roles[ScreenhotRole] = "screenshot";
+    roles[ScreenshotRole] = "screenshot";
     roles[DescriptionRole] = "description";
     m_model->setItemRoleNames(roles);
     loadModel();
 }
 
-QList<Plasma::Package> KCMSplashScreen::availablePackages(const QString &component)
+QList<KPackage::Package> KCMSplashScreen::availablePackages(const QString &component)
 {
-    QList<Plasma::Package> packages;
+    QList<KPackage::Package> packages;
     QStringList paths;
     const QStringList dataPaths = QStandardPaths::standardLocations(QStandardPaths::GenericDataLocation);
 
@@ -73,9 +70,9 @@ QList<Plasma::Package> KCMSplashScreen::availablePackages(const QString &compone
     }
 
     for (const QString &path : paths) {
-        Plasma::Package pkg = Plasma::PluginLoader::self()->loadPackage(QStringLiteral("Plasma/LookAndFeel"));
+        KPackage::Package pkg = KPackage::PackageLoader::self()->loadPackage(QStringLiteral("Plasma/LookAndFeel"));
         pkg.setPath(path);
-        pkg.setFallbackPackage(Plasma::Package());
+        pkg.setFallbackPackage(KPackage::Package());
         if (component.isEmpty() || !pkg.filePath(component.toUtf8()).isEmpty()) {
             packages << pkg;
         }
@@ -84,38 +81,20 @@ QList<Plasma::Package> KCMSplashScreen::availablePackages(const QString &compone
     return packages;
 }
 
-QStandardItemModel *KCMSplashScreen::splashModel()
+SplashScreenSettings *KCMSplashScreen::splashScreenSettings() const
+{
+    return m_settings;
+}
+
+QStandardItemModel *KCMSplashScreen::splashModel() const
 {
     return m_model;
 }
 
-QString KCMSplashScreen::selectedPlugin() const
+void KCMSplashScreen::ghnsEntriesChanged(const QQmlListReference &changedEntries)
 {
-    return m_selectedPlugin;
-}
-
-void KCMSplashScreen::setSelectedPlugin(const QString &plugin)
-{
-    if (m_selectedPlugin == plugin) {
-        return;
-    }
-
-    if (!m_selectedPlugin.isEmpty()) {
-        setNeedsSave(true);
-    }
-    m_selectedPlugin = plugin;
-    emit selectedPluginChanged();
-    emit selectedPluginIndexChanged();
-}
-
-void KCMSplashScreen::getNewClicked()
-{
-    KNS3::DownloadDialog dialog("ksplash.knsrc", nullptr);
-    if (dialog.exec()) {
-        KNS3::Entry::List list = dialog.changedEntries();
-        if (!list.isEmpty()) {
-            loadModel();
-        }
+    if (changedEntries.count() > 0) {
+        loadModel();
     }
 }
 
@@ -123,12 +102,12 @@ void KCMSplashScreen::loadModel()
 {
     m_model->clear();
 
-    const QList<Plasma::Package> pkgs = availablePackages(QStringLiteral("splashmainscript"));
-    for (const Plasma::Package &pkg : pkgs) {
+    const QList<KPackage::Package> pkgs = availablePackages(QStringLiteral("splashmainscript"));
+    for (const KPackage::Package &pkg : pkgs) {
         QStandardItem* row = new QStandardItem(pkg.metadata().name());
-        row->setData(pkg.metadata().pluginName(), PluginNameRole);
-        row->setData(pkg.filePath("previews", QStringLiteral("splash.png")), ScreenhotRole);
-        row->setData(pkg.metadata().comment(), DescriptionRole);
+        row->setData(pkg.metadata().pluginId(), PluginNameRole);
+        row->setData(pkg.filePath("previews", QStringLiteral("splash.png")), ScreenshotRole);
+        row->setData(pkg.metadata().description(), DescriptionRole);
         m_model->appendRow(row);
     }
     m_model->sort(0 /*column*/);
@@ -138,59 +117,26 @@ void KCMSplashScreen::loadModel()
     row->setData(i18n("No splash screen will be shown"), DescriptionRole);
     m_model->insertRow(0, row);
 
-    emit selectedPluginIndexChanged();
-}
-
-void KCMSplashScreen::load()
-{
-    m_package = Plasma::PluginLoader::self()->loadPackage(QStringLiteral("Plasma/LookAndFeel"));
-    KConfigGroup cg(KSharedConfig::openConfig(QStringLiteral("kdeglobals")), "KDE");
-    const QString packageName = cg.readEntry("LookAndFeelPackage", QString());
-    if (!packageName.isEmpty()) {
-        m_package.setPath(packageName);
+    if (-1 == pluginIndex(m_settings->theme())) {
+        defaults();
     }
 
-    QString currentPlugin = m_configGroup.readEntry("Theme", QString());
-    if (currentPlugin.isEmpty()) {
-        currentPlugin = m_package.metadata().pluginName();
-    }
-    setSelectedPlugin(currentPlugin);
-    
-    setNeedsSave(false);
+    emit m_settings->themeChanged();
 }
-
 
 void KCMSplashScreen::save()
 {
-    if (m_selectedPlugin.isEmpty()) {
-        return;
-    } else if (m_selectedPlugin == QLatin1String("None")) {
-        m_configGroup.writeEntry("Theme", m_selectedPlugin);
-        m_configGroup.writeEntry("Engine", "none");
-    } else {
-        m_configGroup.writeEntry("Theme", m_selectedPlugin);
-        m_configGroup.writeEntry("Engine", "KSplashQML");
-    }
-
-    m_configGroup.sync();
-    setNeedsSave(false);
+    m_settings->setEngine(m_settings->theme() == QStringLiteral("None") ? QStringLiteral("none") : QStringLiteral("KSplashQML"));
+    ManagedConfigModule::save();
 }
 
-void KCMSplashScreen::defaults()
+int KCMSplashScreen::pluginIndex(const QString &pluginName) const
 {
-    if (!m_package.metadata().isValid()) {
-        return;
+    const auto results = m_model->match(m_model->index(0, 0), PluginNameRole, pluginName);
+    if (results.count() == 1) {
+        return results.first().row();
     }
-    setSelectedPlugin(m_package.metadata().pluginName());
-}
 
-int KCMSplashScreen::selectedPluginIndex() const
-{
-    for (int i = 0; i < m_model->rowCount(); ++i) {
-        if (m_model->data(m_model->index(i, 0), PluginNameRole).toString() == m_selectedPlugin) {
-            return i;
-        }
-    }
     return -1;
 }
 
@@ -207,13 +153,13 @@ void KCMSplashScreen::test(const QString &plugin)
 
     m_testProcess = new QProcess(this);
     connect(m_testProcess, &QProcess::errorOccurred, this, [this](QProcess::ProcessError error) {
-        Q_UNUSED(error);
+        Q_UNUSED(error)
         emit testingFailed();
     });
     connect(m_testProcess, QOverload<int, QProcess::ExitStatus>::of(&QProcess::finished), this,
         [this](int exitCode, QProcess::ExitStatus exitStatus) {
-        Q_UNUSED(exitCode);
-        Q_UNUSED(exitStatus);
+        Q_UNUSED(exitCode)
+        Q_UNUSED(exitStatus)
 
         m_testProcess->deleteLater();
         m_testProcess = nullptr;

@@ -19,6 +19,7 @@
  */
 
 #include "SwitchingTab.h"
+#include "kactivitymanagerd_settings.h"
 
 #include <KActionCollection>
 #include <KConfigGroup>
@@ -32,18 +33,19 @@
 
 class SwitchingTab::Private : public Ui::SwitchingTabBase {
 public:
-    KSharedConfig::Ptr mainConfig;
+    KActivityManagerdSettings mainConfig;
 
     KActionCollection *mainActionCollection;
     KActivities::Consumer activities;
 
     void createAction(const QString &actionName, const QString &actionText,
-                      const QList<QKeySequence> &sequence)
+                      const QList<QKeySequence> &defaultSequence)
     {
         auto action = mainActionCollection->addAction(actionName);
         action->setProperty("isConfigurationAction", true);
         action->setText(actionText);
-        KGlobalAccel::self()->setShortcut(action, sequence);
+        KGlobalAccel::self()->setShortcut(action, defaultSequence);
+        KGlobalAccel::self()->setDefaultShortcut(action, defaultSequence);
     }
 
     Private()
@@ -57,8 +59,6 @@ SwitchingTab::SwitchingTab(QWidget *parent)
     , d()
 {
     d->setupUi(this);
-
-    d->mainConfig = KSharedConfig::openConfig(QStringLiteral("kactivitymanagerdrc"));
 
     // Shortcut config. The shortcut belongs to the component "plasmashell"!
     d->mainActionCollection = new KActionCollection(this, QStringLiteral("plasmashell"));
@@ -77,14 +77,19 @@ SwitchingTab::SwitchingTab(QWidget *parent)
 
     connect(d->scActivities, &KShortcutsEditor::keyChange,
             this, [this] { changed(); });
-    connect(d->checkRememberVirtualDesktop, SIGNAL(toggled(bool)),
-            this, SIGNAL(changed()));
+    connect(d->checkRememberVirtualDesktop, &QAbstractButton::toggled,
+            this, &SwitchingTab::changed);
 
     defaults();
 }
 
 SwitchingTab::~SwitchingTab()
 {
+}
+
+bool SwitchingTab::isDefault()
+{
+    return !d->checkRememberVirtualDesktop->isChecked();
 }
 
 void SwitchingTab::shortcutChanged(const QKeySequence &sequence)
@@ -111,19 +116,12 @@ void SwitchingTab::defaults()
 
 void SwitchingTab::load()
 {
-    auto pluginListConfig = d->mainConfig->group("Plugins");
 
-    d->checkRememberVirtualDesktop->setChecked(pluginListConfig.readEntry(
-        "org.kde.ActivityManager.VirtualDesktopSwitchEnabled", false));
+    d->checkRememberVirtualDesktop->setChecked(d->mainConfig.virtualDesktopSwitchEnabled());
 }
 
 void SwitchingTab::save()
 {
-    auto pluginListConfig = d->mainConfig->group("Plugins");
-
-    pluginListConfig.writeEntry(
-        "org.kde.ActivityManager.VirtualDesktopSwitchEnabled",
-        d->checkRememberVirtualDesktop->isChecked());
-
-    pluginListConfig.sync();
+    d->mainConfig.setVirtualDesktopSwitchEnabled(d->checkRememberVirtualDesktop->isChecked());
+    d->mainConfig.save();
 }

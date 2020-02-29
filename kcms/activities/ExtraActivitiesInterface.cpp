@@ -29,9 +29,7 @@
 #include <memory>
 #include <utils/d_ptr_implementation.h>
 
-#include "utils/dbusfuture_p.h"
 #include "features_interface.h"
-#include "definitions.h"
 #include "common/dbus/common.h"
 
 #define ENABLE_QJSVALUE_CONTINUATION

@@ -2,6 +2,7 @@
    Copyright (c) 2014 Marco Martin <mart@kde.org>
    Copyright (c) 2016 David Rosca <nowrep@gmail.com>
    Copyright (c) 2018 Kai Uwe Broulik <kde@privat.broulik.de>
+   Copyright (c) 2019 Kevin Ottens <kevin.ottens@enioka.com>
 
    This library is free software; you can redistribute it and/or
    modify it under the terms of the GNU Library General Public
@@ -23,16 +24,30 @@ import QtQuick.Layouts 1.1
 import QtQuick.Dialogs 1.0
 import QtQuick.Controls 2.3 as QtControls
 import org.kde.kirigami 2.4 as Kirigami
-import org.kde.kconfig 1.0 // for KAuthorized
+import org.kde.newstuff 1.62 as NewStuff
 import org.kde.kcm 1.1 as KCM
+import org.kde.private.kcms.desktoptheme 1.0 as Private
+
 
 KCM.GridViewKCM {
     KCM.ConfigModule.quickHelp: i18n("This module lets you choose the Plasma style.")
 
-    view.model: kcm.desktopThemeModel
-    view.currentIndex: kcm.selectedPluginIndex
+    view.model: kcm.filteredModel
+    view.currentIndex: kcm.filteredModel.selectedThemeIndex
 
-    enabled: !kcm.downloadingFile
+      Binding {
+        target: kcm.filteredModel
+        property: "query"
+        value: searchField.text
+    }
+
+    Binding {
+        target: kcm.filteredModel
+        property: "filter"
+        value:  filterCombo.model[filterCombo.currentIndex].filter
+    }
+
+    enabled: !kcm.downloadingFile && !kcm.desktopThemeSettings.isImmutable("name")
 
     DropArea {
         anchors.fill: parent
@@ -43,12 +58,81 @@ KCM.GridViewKCM {
         }
         onDropped: kcm.installThemeFromFile(drop.urls[0])
     }
+     header: RowLayout {
+        Layout.fillWidth: true
+
+        QtControls.TextField {
+            id: searchField
+            Layout.fillWidth: true
+            placeholderText: i18n("Search...")
+            leftPadding: LayoutMirroring.enabled ? clearButton.width : undefined
+            rightPadding: LayoutMirroring.enabled ? undefined : clearButton.width
+            // this could be useful as a component
+            MouseArea {
+                id: clearButton
+                anchors {
+                top: parent.top
+                    topMargin: parent.topPadding
+                    right: parent.right
+                    // the TextField's padding is taking into account the clear button's size
+                    // so we just use the opposite one for positioning the clear button
+                    rightMargin: LayoutMirroring.enabled ? parent.rightPadding: parent.leftPadding
+                    bottom: parent.bottom
+                    bottomMargin: parent.bottomPadding
+                }
+                width: height
+
+                opacity: searchField.length > 0 ? 1 : 0
+                onClicked: searchField.clear()
+
+                Kirigami.Icon {
+                    anchors.fill: parent
+                    active: parent.pressed
+                    source: "edit-clear-locationbar-" + (LayoutMirroring.enabled ? "ltr" : "rtl")
+                }
+
+                Behavior on opacity {
+                    NumberAnimation { duration: Kirigami.Units.longDuration }
+                }
+            }
+        }
+        QtControls.ComboBox {
+            id: filterCombo
+            textRole: "text"
+            model: [
+                {text: i18n("All Themes"), filter: Private.FilterProxyModel.AllThemes},
+                {text: i18n("Light Themes"), filter: Private.FilterProxyModel.LightThemes},
+                {text: i18n("Dark Themes"), filter: Private.FilterProxyModel.DarkThemes},
+                {text: i18n("Color scheme compatible"), filter: Private.FilterProxyModel.ThemesFollowingColors}
+            ]
+
+            // HACK QQC2 doesn't support icons, so we just tamper with the desktop style ComboBox's background
+            // and inject a nice little filter icon.
+            Component.onCompleted: {
+                if (!background || !background.hasOwnProperty("properties")) {
+                    // not a KQuickStyleItem
+                    return;
+                }
+
+                var props = background.properties || {};
+
+                background.properties = Qt.binding(function() {
+                    var newProps = props;
+                    newProps.currentIcon = "view-filter";
+                    newProps.iconColor = Kirigami.Theme.textColor;
+                    return newProps;
+                });
+            }
+        }
+    }
 
     view.delegate: KCM.GridDelegate {
         id: delegate
 
-        text: model.themeName
-        toolTip: model.description || model.themeName
+        text: model.display
+        subtitle: model.colorType == Private.ThemesModel.FollowsColorTheme
+            && view.model.filter != Private.FilterProxyModel.ThemesFollowingColors ? i18n("Follows color scheme") : ""
+        toolTip: model.description || model.display
 
         opacity: model.pendingDeletion ? 0.3 : 1
         Behavior on opacity {
@@ -75,18 +159,18 @@ KCM.GridViewKCM {
                 tooltip: i18n("Remove Theme")
                 enabled: model.isLocal
                 visible: !model.pendingDeletion
-                onTriggered: kcm.setPendingDeletion(model.index, true);
+                onTriggered: model.pendingDeletion = true;
             },
             Kirigami.Action {
                 iconName: "edit-undo"
                 tooltip: i18n("Restore Theme")
                 visible: model.pendingDeletion
-                onTriggered: kcm.setPendingDeletion(model.index, false);
+                onTriggered: model.pendingDeletion = false;
             }
         ]
 
         onClicked: {
-            kcm.selectedPlugin = model.pluginName;
+            kcm.desktopThemeSettings.name = model.pluginName;
             view.forceActiveFocus();
         }
     }
@@ -122,11 +206,12 @@ KCM.GridViewKCM {
                 onClicked: fileDialogLoader.active = true;
             }
 
-            QtControls.Button {
+            NewStuff.Button {
+                id: newStuffButton
                 text: i18n("Get New Plasma Styles...")
-                icon.name: "get-hot-new-stuff"
-                onClicked: kcm.getNewStuff(this)
-                visible: KAuthorized.authorize("ghns")
+                configFile: "plasma-themes.knsrc"
+                viewMode: NewStuff.Page.ViewMode.Preview
+                onChangedEntriesChanged: kcm.load();
             }
         }
     }

@@ -69,6 +69,7 @@ Name[zh_TW]=可變更頻率
 
 [Desktop Action instructionSets]
 Name=Instruction Sets
+Name[ast]=Conxuntos d'instrucciones
 Name[bg]=Набор инструкции
 Name[bn]=ইনস্ট্রাকশন সেট
 Name[bs]=Skup instrukcija
@@ -137,6 +138,7 @@ Name[zh_TW]=指令集
 [Desktop Action maxSpeed]
 Name=Max Speed
 Name[ar]=أقصى سرعة
+Name[ast]=Velocidá máxima
 Name[bg]=Макс. скорост
 Name[bn]=সর্বোচ্চ গতি
 Name[bs]=Najveća brzina
@@ -209,6 +211,7 @@ Name[zh_TW]=最大速率
 [Desktop Action number]
 Name=Number
 Name[ar]=الرّقم
+Name[ast]=Númberu
 Name[bg]=Номер
 Name[bn]=সংখ্যা
 Name[bs]=Broj
@@ -321,7 +324,7 @@ Name[nb]=Solid-enhet
 Name[nds]=Solid-Reedschap
 Name[nl]=Solid-apparaat
 Name[nn]=Solid-eining
-Name[pa]=ਸਾਲਡ ਜੰਤਰ
+Name[pa]=ਸਾਲਡ ਡਿਵਾਈਸ
 Name[pl]=Urządzenie Solid
 Name[pt]=Dispositivo do Solid
 Name[pt_BR]=Dispositivo do Solid

@@ -4,7 +4,7 @@
  * Copyright (c) 2018 Kai Uwe Broulik <kde@privat.broulik.de>
  *
  * Requires the Qt widget libraries, available at no cost at
- * http://www.troll.no/
+ * https://www.qt.io/
  *
  *  This program is free software; you can redistribute it and/or modify
  *  it under the terms of the GNU General Public License as published by
@@ -27,6 +27,8 @@
 #include <QString>
 #include <QVector>
 
+class IconsSettings;
+
 struct IconsModelData
 {
     QString display;
@@ -41,11 +43,8 @@ class IconsModel : public QAbstractListModel
 {
     Q_OBJECT
 
-    Q_PROPERTY(QString selectedTheme READ selectedTheme WRITE setSelectedTheme NOTIFY selectedThemeChanged)
-    Q_PROPERTY(int selectedThemeIndex READ selectedThemeIndex NOTIFY selectedThemeIndexChanged)
-
 public:
-    IconsModel(QObject *parent);
+    IconsModel(IconsSettings *iconsSettings, QObject *parent = nullptr);
     ~IconsModel() override;
 
     enum Roles {
@@ -60,25 +59,16 @@ public:
     bool setData(const QModelIndex &index, const QVariant &value, int role) override;
     QHash<int, QByteArray> roleNames() const override;
 
-    QString selectedTheme() const;
-    void setSelectedTheme(const QString &theme);
-
-    int selectedThemeIndex() const;
-
     QStringList pendingDeletions() const;
     void removeItemsPendingDeletion();
 
     void load();
 
 signals:
-    void selectedThemeChanged();
-    void selectedThemeIndexChanged();
-
     void pendingDeletionsChanged();
 
 private:
-    QString m_selectedTheme;
-
     QVector<IconsModelData> m_data;
+    IconsSettings *m_settings;
 
 };

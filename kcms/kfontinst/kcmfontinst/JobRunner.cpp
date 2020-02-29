@@ -229,8 +229,8 @@ CJobRunner::CJobRunner(QWidget *parent, int xid)
                                                            QDBusConnection::sessionBus(),
                                                            QDBusServiceWatcher::WatchForOwnerChange, this);
 
-    connect(watcher, SIGNAL(serviceOwnerChanged(QString,QString,QString)), SLOT(dbusServiceOwnerChanged(QString,QString,QString)));
-    connect(dbus(), SIGNAL(status(int,int)), SLOT(dbusStatus(int,int)));
+    connect(watcher, &QDBusServiceWatcher::serviceOwnerChanged, this, &CJobRunner::dbusServiceOwnerChanged);
+    connect(dbus(), &OrgKdeFontinstInterface::status, this, &CJobRunner::dbusStatus);
     setMinimumSize(420, 160);
 }
 
@@ -376,8 +376,8 @@ int CJobRunner::exec(ECommand cmd, const ItemList &urls, bool destIsSystem)
     itsCurrentFile=QString();
     itsStatusLabel->setText(QString());
     setPage(PAGE_PROGRESS);
-    QTimer::singleShot(0, this, SLOT(doNext()));
-    QTimer::singleShot(constInterfaceCheck, this, SLOT(checkInterface()));
+    QTimer::singleShot(0, this, &CJobRunner::doNext);
+    QTimer::singleShot(constInterfaceCheck, this, &CJobRunner::checkInterface);
     itsActionLabel->startAnimation();
     int rv=QDialog::exec();
     if(itsTempDir)
@@ -766,7 +766,7 @@ QString CJobRunner::errorString(int value) const
             return i18n("Permission denied.<br><i>%1</i>", urlStr);
         case KIO::ERR_UNSUPPORTED_ACTION:
             return i18n("Unsupported action.<br><i>%1</i>", urlStr);
-        case KIO::ERR_COULD_NOT_AUTHENTICATE:
+        case KIO::ERR_CANNOT_AUTHENTICATE:
             return i18n("Authentication failed.<br><i>%1</i>", urlStr);
         default:
             return i18n("Unexpected error while processing: <i>%1</i>", urlStr);

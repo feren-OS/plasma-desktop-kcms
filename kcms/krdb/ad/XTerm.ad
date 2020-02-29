@@ -1,8 +1,4 @@
-Xterm*background: WINDOW_BACKGROUND
-Xterm*foreground: WINDOW_FOREGROUND
-Xterm.SimpleMenu*background: BACKGROUND
-Xterm.SimpleMenu*foreground: FOREGROUND
-UXterm*background: WINDOW_BACKGROUND
-UXterm*foreground: WINDOW_FOREGROUND
-UXterm.SimpleMenu*background: BACKGROUND
-UXterm.SimpleMenu*foreground: FOREGROUND
+xterm*background: WINDOW_BACKGROUND
+xterm*foreground: WINDOW_FOREGROUND
+xterm.SimpleMenu*background: BACKGROUND
+xterm.SimpleMenu*foreground: FOREGROUND

@@ -40,7 +40,6 @@
 #include <X11/XKBlib.h>
 #include <X11/extensions/XKBrules.h>
 #include <fixx11h.h>
-#include <config-workspace.h>
 
 
 
@@ -95,7 +94,7 @@ void removeEmptyItems(QList<T*>& list)
 {
 #ifdef __GNUC__
 #if __GNUC__ == 4 && (__GNUC_MINOR__ == 8 && __GNUC_PATCHLEVEL__ < 3) || (__GNUC_MINOR__ == 7 && __GNUC_PATCHLEVEL__ < 4)
-#warning Compiling with a workaround for GCC < 4.8.3 || GCC < 4.7.4 http://gcc.gnu.org/bugzilla/show_bug.cgi?id=58800
+#warning Compiling with a workaround for GCC < 4.8.3 || GCC < 4.7.4 https://gcc.gnu.org/bugzilla/show_bug.cgi?id=58800
     Q_FOREACH(T* x, list) {
         ConfigItem *y = static_cast<ConfigItem*>(x);
         if (y->name.isEmpty()) {
@@ -410,86 +409,3 @@ bool LayoutInfo::isLanguageSupportedByVariant(const VariantInfo* variantInfo, co
 
 	return false;
 }
-
-#ifdef NEW_GEOMETRY
-
-Rules::GeometryId Rules::getGeometryId(const QString& model) {
-    QString xkbDir = Rules::findXkbDir();
-    QString rulesName = Rules::getRulesName();
-    QString ruleFileName = QStringLiteral("%1/rules/%2").arg(xkbDir, rulesName);
-    QFile ruleFile(ruleFileName);
-
-    GeometryId defaultGeoId(QStringLiteral("pc"), QStringLiteral("pc104"));
-
-    if ( ! ruleFile.open(QIODevice::ReadOnly | QIODevice::Text) ){
-        qCCritical(KCM_KEYBOARD) << "Unable to open file" << ruleFileName;
-        return defaultGeoId;
-    }
-    
-    QString modelGeoId = model;
-    bool inTable = false;
-    QTextStream in(&ruleFile);
-    
-    while (!in.atEnd()) {
-        QString line = in.readLine().trimmed();
-
-	if( line.isEmpty() || QRegExp(QStringLiteral("^\\s*//")).indexIn(line) != -1 )
-	    continue;
-
-        QRegExp modelGroupRegex(QStringLiteral("!\\s*(\\$[a-zA-Z0-9_]+)\\s*=(.*)"));
-        
-        if( modelGroupRegex.indexIn(line) != -1 ) {
-    	    QStringList parts = modelGroupRegex.capturedTexts();
-    	    QString groupName = parts[1];
-    	    QStringList models = parts[2].split(QRegExp(QStringLiteral("\\s+")), QString::SkipEmptyParts);
-    	    
-//    	    qCDebug(KCM_KEYBOARD) << "modelGroup definition" << groupName << ":" << models;
-    	    if( models.contains(model) ) {
-    	        modelGeoId = groupName;
-    	    }
-    	    continue;
-        }
-
-
-	if( inTable ) {
-    	    QRegExp modelTableEntry (QStringLiteral("\\s*(\\$?[a-zA-Z0-9_]+|\\*)\\s*=\\s*([a-zA-Z0-9_]+)\\(([a-zA-Z0-9_%]+)\\)"));
-    	    if( modelTableEntry.indexIn(line) == -1 ) {
-    	       if( QRegExp(QStringLiteral("^!\\s*")).indexIn(line) != -1 )
-    	         break;
-    	        
-    		qCWarning(KCM_KEYBOARD) << "could not parse geometry line" << line;
-    		continue;
-    	    }
-        
-    	    QStringList parts = modelTableEntry.capturedTexts();
-    	    QString modelName = parts[1];
-    	    QString fileName = parts[2];
-    	    QString geoName = parts[3];
-    	    if( geoName == QLatin1String("%m") ) {
-    	      geoName = model;
-    	    }
-    	    if( modelName == QLatin1String("*") ) {
-    		defaultGeoId = GeometryId(fileName, geoName);
-    	    }
-    	    
-//    	    qCDebug(KCM_KEYBOARD) << "geo entry" << modelName << fileName << geoName;
-        
-    	    if( modelName == model ) {
-    		return GeometryId(fileName, geoName);
-    	    }
-    	    
-    	    continue;
-        }
-
-        QRegExp modelTableHeader (QStringLiteral("!\\s+model\\s*=\\s*geometry"));
-        if( modelTableHeader.indexIn(line) != -1 ) {
-    	    inTable = true;
-    	    continue;
-        }
-
-    }
-
-    return defaultGeoId;
-}
-
-#endif

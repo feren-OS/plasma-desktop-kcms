@@ -21,6 +21,7 @@ import QtQuick.Layouts 1.1
 import QtQuick.Window 2.2
 import QtQuick.Controls 2.3 as QtControls
 import org.kde.kirigami 2.4 as Kirigami
+import org.kde.newstuff 1.62 as NewStuff
 import org.kde.kconfig 1.0 // for KAuthorized
 import org.kde.kcm 1.1 as KCM
 
@@ -28,7 +29,10 @@ KCM.GridViewKCM {
     KCM.ConfigModule.quickHelp: i18n("This module lets you choose the global look and feel.")
 
     view.model: kcm.lookAndFeelModel
-    view.currentIndex: kcm.selectedPluginIndex
+    view.currentIndex: kcm.pluginIndex(kcm.lookAndFeelSettings.lookAndFeelPackage)
+
+    enabled: !kcm.lookAndFeelSettings.isImmutable("lookAndFeelPackage")
+
     view.delegate: KCM.GridDelegate {
         id: delegate
 
@@ -54,9 +58,9 @@ KCM.GridViewKCM {
             }
         ]
         onClicked: {
-            kcm.selectedPlugin = model.pluginName;
+            kcm.lookAndFeelSettings.lookAndFeelPackage = model.pluginName;
             view.forceActiveFocus();
-            resetCheckbox.checked = true;
+            resetCheckbox.checked = false;
         }
     }
 
@@ -80,11 +84,11 @@ KCM.GridViewKCM {
             Item {
                 Layout.fillWidth: true
             }
-            QtControls.Button {
+            NewStuff.Button {
                 text: i18n("Get New Global Themes...")
-                icon.name: "get-hot-new-stuff"
-                onClicked: kcm.getNewStuff(this);
-                visible: KAuthorized.authorize("ghns")
+                configFile: "lookandfeel.knsrc"
+                viewMode: NewStuff.Page.ViewMode.Preview
+                onChangedEntriesChanged: kcm.reloadModel();
             }
         }
     }

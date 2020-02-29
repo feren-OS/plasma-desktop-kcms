@@ -1,6 +1,7 @@
 [Desktop Action bus]
 Name=Bus
 Name[ar]=النّاقل
+Name[ast]=Bus
 Name[bg]=Шина
 Name[bn]=বাস
 Name[bs]=Magistrala
@@ -60,6 +61,7 @@ Name[sr@ijekavian]=магистрала
 Name[sr@ijekavianlatin]=magistrala
 Name[sr@latin]=magistrala
 Name[sv]=Buss
+Name[tg]=Bus
 Name[th]=ระบบบัส
 Name[tr]=Yol
 Name[ug]=باش لىنىيە
@@ -118,7 +120,7 @@ Name[nb]=Drev-type
 Name[nds]=Loopwark-Typ
 Name[nl]=Apparaattype
 Name[nn]=Stasjonstype
-Name[pa]=ਡਰਾਇਵਰ ਕਿਸਮ
+Name[pa]=ਡਰਾਇਵ ਕਿਸਮ
 Name[pl]=Typ napędu
 Name[pt]=Tipo de Unidade
 Name[pt_BR]=Tipo de unidade
@@ -213,6 +215,7 @@ Name[zh_TW]=可熱插拔
 [Desktop Action readSpeed]
 Name=Read Speed
 Name[ar]=سرعة القراءة
+Name[ast]=Velocidá de llectura
 Name[bg]=Скорост на четене
 Name[bn]=পড়ার গতি
 Name[bs]=Brzina čitanja
@@ -357,6 +360,7 @@ Name[zh_TW]=可移除
 [Desktop Action size]
 Name=Size
 Name[ar]=الحجم
+Name[ast]=Tamañu
 Name[bg]=Големина
 Name[bn]=মাপ
 Name[bs]=Veličina
@@ -501,6 +505,7 @@ Name[zh_TW]=支援的媒體
 [Desktop Action writeSpeed]
 Name=Write Speed
 Name[ar]=سرعة الكتابة
+Name[ast]=Velocidá d'escritura
 Name[bg]=Скорост на запис
 Name[bn]=লেখার গতি
 Name[bs]=Brzina pisanja
@@ -574,6 +579,7 @@ Name[zh_TW]=寫入速度
 [Desktop Action writeSpeeds]
 Name=Write Speeds
 Name[ar]=سرعات الكتابة
+Name[ast]=Velocidá d'escritura
 Name[bg]=Скорости на запис
 Name[bn]=লেখার গতি
 Name[bs]=Brzine pisanja
@@ -688,7 +694,7 @@ Name[nb]=Solid-enhet
 Name[nds]=Solid-Reedschap
 Name[nl]=Solid-apparaat
 Name[nn]=Solid-eining
-Name[pa]=ਸਾਲਡ ਜੰਤਰ
+Name[pa]=ਸਾਲਡ ਡਿਵਾਈਸ
 Name[pl]=Urządzenie Solid
 Name[pt]=Dispositivo do Solid
 Name[pt_BR]=Dispositivo do Solid

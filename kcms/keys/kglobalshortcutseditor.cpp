@@ -30,12 +30,11 @@
 #include <QDebug>
 #include <KGlobalAccel>
 #include <KConfigGroup>
-#include <KIconLoader>
 #include <KMessageBox>
 #include <KStringHandler>
 #include <KLocalizedString>
 #include <KService>
-#include <KRecursiveFilterProxyModel>
+#include <QSortFilterProxyModel>
 #include <KServiceGroup>
 #include <KDesktopFile>
 #include <KCategorizedSortFilterProxyModel>
@@ -230,13 +229,14 @@ void KGlobalShortcutsEditor::KGlobalShortcutsEditorPrivate::initGUI()
 
     // Build the menu
     QMenu *menu = new QMenu(q);
-    menu->addAction( QIcon::fromTheme(QStringLiteral("document-import")), i18n("Import Scheme..."), q, SLOT(importScheme()));
-    menu->addAction( QIcon::fromTheme(QStringLiteral("document-export")), i18n("Export Scheme..."), q, SLOT(exportScheme()));
-    menu->addAction( i18n("Set All Shortcuts to None"), q, SLOT(clearConfiguration()));
+    menu->addAction( QIcon::fromTheme(QStringLiteral("document-import")), i18n("Import Scheme..."), q, &KGlobalShortcutsEditor::importScheme);
+    menu->addAction( QIcon::fromTheme(QStringLiteral("document-export")), i18n("Export Scheme..."), q, &KGlobalShortcutsEditor::exportScheme);
+    menu->addAction( i18n("Set All Shortcuts to None"), q, &KGlobalShortcutsEditor::clearConfiguration);
     
     connect(ui.addButton, &QToolButton::clicked, [this]() {
         if (!selectApplicationDialogUi.treeView->model()) {
-            KRecursiveFilterProxyModel *filterModel = new KRecursiveFilterProxyModel(selectApplicationDialogUi.treeView);
+            QSortFilterProxyModel *filterModel = new QSortFilterProxyModel(selectApplicationDialogUi.treeView);
+            filterModel->setRecursiveFilteringEnabled(true);
             QStandardItemModel *appModel = new QStandardItemModel(selectApplicationDialogUi.treeView);
             selectApplicationDialogUi.kfilterproxysearchline->setProxy(filterModel);
             filterModel->setSourceModel(appModel);
@@ -431,23 +431,22 @@ void KGlobalShortcutsEditor::addCollection(
         editor = new KShortcutsEditor(this, d->actionTypes);
         d->stack->addWidget(editor);
 
-        // try to find one appropriate icon ( allowing NULL pixmap to be returned)
-        QPixmap pixmap = KIconLoader::global()->loadIcon(id, KIconLoader::Small, 0,
-                                  KIconLoader::DefaultState, QStringList(), nullptr, true);
-        if (pixmap.isNull()) {
+        // try to find one appropriate icon
+        QIcon icon = QIcon::fromTheme(id);
+        if (icon.isNull()) {
             KService::Ptr service = KService::serviceByStorageId(id);
-            if(service) {
-                pixmap = KIconLoader::global()->loadIcon(service->icon(), KIconLoader::Small, 0,
-                                  KIconLoader::DefaultState, QStringList(), nullptr, true);
+            if (service) {
+                icon = QIcon::fromTheme(service->icon());
             }
         }
-        // if NULL pixmap is returned, use the F.D.O "system-run" icon
-        if (pixmap.isNull()) {
-            pixmap = KIconLoader::global()->loadIcon(QStringLiteral("system-run"), KIconLoader::Small);
+
+        // if NULL icon is returned, use the F.D.O "system-run" icon
+        if (icon.isNull()) {
+            icon = QIcon::fromTheme(QStringLiteral("system-run"));
         }
 
         // Add to the component list
-        QStandardItem *item = new QStandardItem(pixmap, friendlyName);
+        QStandardItem *item = new QStandardItem(icon, friendlyName);
         if (id.endsWith(QLatin1String(".desktop"))) {
             item->setData(i18n("Application Launchers"), KCategorizedSortFilterProxyModel::CategoryDisplayRole);
             item->setData(0, KCategorizedSortFilterProxyModel::CategorySortRole);

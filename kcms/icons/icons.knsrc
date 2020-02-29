@@ -3,6 +3,7 @@ Name=Icons
 Name[af]=Ikone
 Name[ar]=الأيقونات
 Name[as]=আইকন
+Name[ast]=Iconos
 Name[be]=Значкі
 Name[be@latin]=Ikony
 Name[bg]=Икони
@@ -91,7 +92,7 @@ Name[x-test]=xxIconsxx
 Name[zh_CN]=图标
 Name[zh_TW]=圖示
 
-ProvidersUrl=https://download.kde.org/ocs/providers.xml
+ProvidersUrl=https://autoconfig.kde.org/ocs/providers.xml
 Categories=KDE Icon Theme
 TargetDir=icons
 Uncompress=true

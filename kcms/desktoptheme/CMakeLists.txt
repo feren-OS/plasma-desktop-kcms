@@ -3,7 +3,11 @@ add_definitions(-DTRANSLATION_DOMAIN=\"kcm_desktoptheme\")
 
 set(kcm_desktoptheme_SRCS
   kcm.cpp
+  themesmodel.cpp
+  filterproxymodel.cpp
 )
+
+kconfig_add_kcfg_files(kcm_desktoptheme_SRCS desktopthemesettings.kcfgc GENERATE_MOC)
 
 add_library(kcm_desktoptheme MODULE ${kcm_desktoptheme_SRCS})
 
@@ -16,7 +20,6 @@ target_link_libraries(kcm_desktoptheme
   KF5::Plasma
   KF5::Declarative
   KF5::QuickAddons
-  KF5::NewStuff
 )
 
 kcoreaddons_desktop_to_json(kcm_desktoptheme "kcm_desktoptheme.desktop" SERVICE_TYPES kcmodule.desktop)

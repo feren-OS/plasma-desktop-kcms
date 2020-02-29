@@ -60,8 +60,8 @@ CViewer::CViewer()
         itsPrintAct->setEnabled(false);
 
         if(itsPreview->browserExtension())
-            connect(itsPreview->browserExtension(), SIGNAL(enableAction(const char*,bool)),
-                    this, SLOT(enableAction(const char*,bool)));
+            connect(itsPreview->browserExtension(), &KParts::BrowserExtension::enableAction,
+                    this, &CViewer::enableAction);
 
         setCentralWidget(itsPreview->widget());
         createGUI(itsPreview);
@@ -118,8 +118,6 @@ public:
     ViewerApplication(int &argc, char **argv)
         : QApplication(argc, argv)
     {
-        cmdParser.addVersionOption();
-        cmdParser.addHelpOption();
         cmdParser.addPositionalArgument(QLatin1String("[URL]"), i18n("URL to open"));
     }
 

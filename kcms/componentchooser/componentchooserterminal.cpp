@@ -8,12 +8,13 @@
 /***************************************************************************
  *                                                                         *
  *   This program is free software; you can redistribute it and/or modify  *
- *   it under the terms of the GNU General Public License verstion 2 as    *
+ *   it under the terms of the GNU General Public License version 2 as     *
  *   published by the Free Software Foundation                             *
  *                                                                         *
  ***************************************************************************/
 
 #include "componentchooserterminal.h"
+#include "terminal_settings.h"
 
 #include <ktoolinvocation.h>
 #include <QDBusConnection>
@@ -28,11 +29,8 @@
 #include <kurlrequester.h>
 #include <kconfiggroup.h>
 #include <KLocalizedString>
-#include <KGlobalSettings>
 
 #include <QUrl>
-
-#include "../migrationlib/kdelibs4config.h"
 
 CfgTerminalEmulator::CfgTerminalEmulator(QWidget *parent)
     : QWidget(parent), Ui::TerminalEmulatorConfig_UI(), CfgPlugin()
@@ -56,12 +54,19 @@ void CfgTerminalEmulator::configChanged()
 void CfgTerminalEmulator::defaults()
 {
 	load(nullptr);
+	terminalCB->setChecked(true);
+}
+
+bool CfgTerminalEmulator::isDefaults() const
+{
+	return terminalCB->isChecked();
 }
 
 
-void CfgTerminalEmulator::load(KConfig *) {
-        KConfigGroup config(KSharedConfig::openConfig(QStringLiteral("kdeglobals")), "General");
-	QString terminal = config.readPathEntry("TerminalApplication",QStringLiteral("konsole"));
+void CfgTerminalEmulator::load(KConfig *)
+{
+	TerminalSettings settings;
+	QString terminal = settings.terminalApplication();
 	if (terminal == QLatin1String("konsole"))
 	{
 	   terminalLE->setText(QStringLiteral("xterm"));
@@ -78,21 +83,15 @@ void CfgTerminalEmulator::load(KConfig *) {
 
 void CfgTerminalEmulator::save(KConfig *)
 {
-	KSharedConfig::Ptr profile = KSharedConfig::openConfig(QStringLiteral("kdeglobals"));
-	KConfigGroup config(profile, QStringLiteral("General"));
-	const QString terminal = terminalCB->isChecked() ? QStringLiteral("konsole") : terminalLE->text();
-	config.writePathEntry("TerminalApplication", terminal); // KConfig::Normal|KConfig::Global);
+	TerminalSettings settings;
+	settings.setTerminalApplication(terminalCB->isChecked() ? settings.defaultTerminalApplicationValue() : terminalLE->text());
+	settings.save();
 
-	config.sync();
-        Kdelibs4SharedConfig::syncConfigGroup(QLatin1String("General"), "kdeglobals");
-
-	KGlobalSettings::self()->emitChange(KGlobalSettings::SettingsChanged);
-
-        QDBusMessage message  = QDBusMessage::createMethodCall(QStringLiteral("org.kde.klauncher5"),
-                                                      QStringLiteral("/KLauncher"),
-                                                      QStringLiteral("org.kde.KLauncher"),
-                                                      QStringLiteral("reparseConfiguration"));
-        QDBusConnection::sessionBus().send(message);
+	QDBusMessage message  = QDBusMessage::createMethodCall(QStringLiteral("org.kde.klauncher5"),
+                                                           QStringLiteral("/KLauncher"),
+                                                           QStringLiteral("org.kde.KLauncher"),
+                                                           QStringLiteral("reparseConfiguration"));
+    QDBusConnection::sessionBus().send(message);
 	emit changed(false);
 }
 

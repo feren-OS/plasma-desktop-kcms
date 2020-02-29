@@ -21,17 +21,17 @@ import QtQuick.Window 2.2
 import QtQuick.Layouts 1.1
 import QtQuick.Controls 1.0 as QtControls
 import org.kde.kirigami 2.4 as Kirigami
-import org.kde.kconfig 1.0 // for KAuthorized
+import org.kde.newstuff 1.62 as NewStuff
 import org.kde.kcm 1.1 as KCM
 
 KCM.GridViewKCM {
     KCM.ConfigModule.quickHelp: i18n("This module lets you choose the splash screen theme.")
 
-    enabled: !kcm.testing
+    enabled: !kcm.testing && !kcm.splashScreenSettings.isImmutable("theme")
 
     view.model: kcm.splashModel
     //NOTE: pay attention to never break this binding
-    view.currentIndex: kcm.selectedPluginIndex
+    view.currentIndex: kcm.pluginIndex(kcm.splashScreenSettings.theme)
 
     // putting the InlineMessage as header item causes it to show up initially despite visible false
     header: ColumnLayout {
@@ -71,7 +71,7 @@ KCM.GridViewKCM {
             }
         ]
         onClicked: {
-            kcm.selectedPlugin = model.pluginName;
+            kcm.splashScreenSettings.theme = model.pluginName;
             view.forceActiveFocus();
         }
     }
@@ -80,11 +80,12 @@ KCM.GridViewKCM {
         Item {
             Layout.fillWidth: true
         }
-        QtControls.Button {
-            iconName: "get-hot-new-stuff"
+        NewStuff.Button {
+            id: newStuffButton
             text: i18n("&Get New Splash Screens...")
-            onClicked: kcm.getNewClicked();
-            visible: KAuthorized.authorize("ghns")
+            configFile: "ksplash.knsrc"
+            viewMode: NewStuff.Page.ViewMode.Preview
+            onChangedEntriesChanged: kcm.ghnsEntriesChanged(newStuffButton.changedEntries);
         }
     }
 }

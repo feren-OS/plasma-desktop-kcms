@@ -33,6 +33,7 @@ public:
     void load(KConfig *cfg) override;
     void save(KConfig *cfg) override;
     void defaults() override;
+    bool isDefaults() const override;
 
 protected Q_SLOTS:
     void slotAddFileManager();
@@ -42,7 +43,7 @@ Q_SIGNALS:
     void changed(bool);
 
 private:
-    QList<QObject *> mDynamicWidgets;
+    QList<QRadioButton *> mDynamicRadioButtons;
 };
 
 #endif

@@ -3,6 +3,7 @@ Name=Emoticons
 Name[af]=Emotikons
 Name[ar]=الوجوه التّعبيرية
 Name[as]=ভাব-প্ৰতীক
+Name[ast]=Fustaxes
 Name[be@latin]=Smajliki
 Name[bg]=Емотикони
 Name[bn]=ইমোট-আইকন
@@ -83,7 +84,7 @@ Name[x-test]=xxEmoticonsxx
 Name[zh_CN]=表情符号
 Name[zh_TW]=表情圖示
 
-ProvidersUrl=https://download.kde.org/ocs/providers.xml
+ProvidersUrl=https://autoconfig.kde.org/ocs/providers.xml
 Categories=Emoticon Theme
 TargetDir=emoticons
 Uncompress=always

@@ -3,6 +3,7 @@
  * Copyright (C) 2007 Jeremy Whiting <jpwhiting@kde.org>
  * Copyright (C) 2016 Olivier Churlaud <olivier@churlaud.com>
  * Copyright (C) 2019 Kai Uwe Broulik <kde@privat.broulik.de>
+ * Copyright (c) 2019 Cyril Rossi <cyril.rossi@enioka.com>
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License as
@@ -46,40 +47,47 @@
 #include <KIO/DeleteJob>
 #include <KIO/JobUiDelegate>
 
+#include <knewstuffcore_version.h>
+#if KNEWSTUFFCORE_VERSION_MAJOR==5 && KNEWSTUFFCORE_VERSION_MINOR>=68
+#include <KNSCore/EntryWrapper>
+#endif
+
 #include <algorithm>
 
 #include "../krdb/krdb.h"
 
 #include "colorsmodel.h"
 #include "filterproxymodel.h"
-
-#include <fstream>
-
-static const QString s_defaultColorSchemeName = QStringLiteral("Breeze");
+#include "colorssettings.h"
 
 K_PLUGIN_FACTORY_WITH_JSON(KCMColorsFactory, "kcm_colors.json", registerPlugin<KCMColors>();)
 
 KCMColors::KCMColors(QObject *parent, const QVariantList &args)
-    : KQuickAddons::ConfigModule(parent, args)
+    : KQuickAddons::ManagedConfigModule(parent, args)
     , m_model(new ColorsModel(this))
     , m_filteredModel(new FilterProxyModel(this))
+    , m_settings(new ColorsSettings(this))
     , m_config(KSharedConfig::openConfig(QStringLiteral("kdeglobals")))
 {
     qmlRegisterUncreatableType<KCMColors>("org.kde.private.kcms.colors", 1, 0, "KCM", QStringLiteral("Cannot create instances of KCM"));
     qmlRegisterType<ColorsModel>();
     qmlRegisterType<FilterProxyModel>();
+    qmlRegisterType<ColorsSettings>();
 
     KAboutData *about = new KAboutData(QStringLiteral("kcm_colors"), i18n("Colors"),
                                        QStringLiteral("2.0"), QString(), KAboutLicense::GPL);
     about->addAuthor(i18n("Kai Uwe Broulik"), QString(), QStringLiteral("kde@privat.broulik.de"));
     setAboutData(about);
 
-    connect(m_model, &ColorsModel::selectedSchemeChanged, this, [this] {
+    connect(m_model, &ColorsModel::pendingDeletionsChanged, this, &KCMColors::settingsChanged);
+
+    connect(m_model, &ColorsModel::selectedSchemeChanged, this, [this](const QString &scheme) {
         m_selectedSchemeDirty = true;
-        setNeedsSave(true);
+        m_settings->setColorScheme(scheme);
     });
-    connect(m_model, &ColorsModel::pendingDeletionsChanged, this, [this] {
-        setNeedsSave(true);
+
+    connect(m_settings, &ColorsSettings::colorSchemeChanged, this, [this] {
+        m_model->setSelectedScheme(m_settings->colorScheme());
     });
 
     connect(m_model, &ColorsModel::selectedSchemeChanged, m_filteredModel, &FilterProxyModel::setSelectedScheme);
@@ -101,30 +109,31 @@ FilterProxyModel *KCMColors::filteredModel() const
     return m_filteredModel;
 }
 
+ColorsSettings *KCMColors::colorsSettings() const
+{
+    return m_settings;
+}
+
 bool KCMColors::downloadingFile() const
 {
     return m_tempCopyJob;
 }
 
-void KCMColors::getNewStuff(QQuickItem *ctx)
+void KCMColors::reloadModel(const QQmlListReference &changedEntries)
 {
-    if (!m_newStuffDialog) {
-        m_newStuffDialog = new KNS3::DownloadDialog(QStringLiteral("colorschemes.knsrc"));
-        m_newStuffDialog.data()->setWindowTitle(i18n("Download New Color Schemes"));
-        m_newStuffDialog->setWindowModality(Qt::WindowModal);
-        m_newStuffDialog->winId(); // so it creates the windowHandle();
+    m_model->load();
 
-        connect(m_newStuffDialog.data(), &KNS3::DownloadDialog::accepted, this, [this] {
-            m_model->load();
+#if KNEWSTUFFCORE_VERSION_MAJOR==5 && KNEWSTUFFCORE_VERSION_MINOR>=68
+    // If a new theme was installed, select the first color file in it
+    if (changedEntries.count() > 0) {
+        QStringList installedThemes;
 
-            const auto newEntries = m_newStuffDialog->installedEntries();
-            // If one new theme was installed, select the first color file in it
-            if (newEntries.count() == 1) {
-                QStringList installedThemes;
+        const QString suffix = QStringLiteral(".colors");
 
-                const QString suffix = QStringLiteral(".colors");
-
-                for (const QString &path : newEntries.first().installedFiles()) {
+        for (int i = 0; i < changedEntries.count(); ++i) {
+            KNSCore::EntryWrapper* entry = qobject_cast<KNSCore::EntryWrapper*>(changedEntries.at(i));
+            if (entry && entry->entry().status() == KNS3::Entry::Installed) {
+                for (const QString &path : entry->entry().installedFiles()) {
                     const QString fileName = path.section(QLatin1Char('/'), -1, -1);
 
                     const int suffixPos = fileName.indexOf(suffix);
@@ -142,15 +151,12 @@ void KCMColors::getNewStuff(QQuickItem *ctx)
 
                     m_model->setSelectedScheme(installedThemes.constFirst());
                 }
+                // Only do this for the first newly installed theme we find
+                break;
             }
-        });
+        }
     }
-
-    if (ctx && ctx->window()) {
-        m_newStuffDialog->windowHandle()->setTransientParent(ctx->window());
-    }
-
-    m_newStuffDialog.data()->show();
+#endif
 }
 
 void KCMColors::installSchemeFromFile(const QUrl &url)
@@ -237,7 +243,7 @@ void KCMColors::installSchemeFile(const QString &path)
 
     m_model->load();
 
-    const auto results = m_model->match(m_model->index(0, 0), SchemeNameRole, newName);
+    const auto results = m_model->match(m_model->index(0, 0), ColorsModel::SchemeNameRole, newName);
     if (!results.isEmpty()) {
         m_model->setSelectedScheme(newName);
     }
@@ -264,6 +270,12 @@ void KCMColors::editScheme(const QString &schemeName, QQuickItem *ctx)
         if (!savedThemes.isEmpty()) {
             m_model->load(); // would be cool to just reload/add the changed/new ones
 
+            // If the currently active scheme was edited, consider settings dirty even if the scheme itself didn't change
+            if (savedThemes.contains(m_settings->colorScheme())) {
+                m_activeSchemeEdited = true;
+                settingsChanged();
+            }
+
             m_model->setSelectedScheme(savedThemes.last());
         }
 
@@ -272,8 +284,8 @@ void KCMColors::editScheme(const QString &schemeName, QQuickItem *ctx)
     });
 
     QStringList args;
-    args << idx.data(KCMColors::SchemeNameRole).toString();
-    if (idx.data(KCMColors::RemovableRole).toBool()) {
+    args << idx.data(ColorsModel::SchemeNameRole).toString();
+    if (idx.data(ColorsModel::RemovableRole).toBool()) {
         args << QStringLiteral("--overwrite");
     }
 
@@ -293,22 +305,28 @@ void KCMColors::editScheme(const QString &schemeName, QQuickItem *ctx)
     m_editDialogProcess->start(QStringLiteral("kcolorschemeeditor"), args);
 }
 
+bool KCMColors::isSaveNeeded() const
+{
+    return m_activeSchemeEdited || !m_model->match(m_model->index(0, 0), ColorsModel::PendingDeletionRole, true).isEmpty();
+}
+
+
 void KCMColors::load()
 {
+    ManagedConfigModule::load();
     m_model->load();
 
     m_config->markAsClean();
     m_config->reparseConfiguration();
 
-    KConfigGroup group(m_config, "General");
-    const QString schemeName = group.readEntry("ColorScheme", s_defaultColorSchemeName);
+    const QString schemeName = m_settings->colorScheme();
 
     // If the scheme named in kdeglobals doesn't exist, show a warning and use default scheme
     if (m_model->indexOfScheme(schemeName) == -1) {
-        m_model->setSelectedScheme(s_defaultColorSchemeName);
+        m_model->setSelectedScheme(m_settings->defaultColorSchemeValue());
         // These are normally synced but initially the model doesn't emit a change to avoid the
         // Apply button from being enabled without any user interaction. Sync manually here.
-        m_filteredModel->setSelectedScheme(s_defaultColorSchemeName);
+        m_filteredModel->setSelectedScheme(m_settings->defaultColorSchemeValue());
         emit showSchemeNotInstalledWarning(schemeName);
     } else {
         m_model->setSelectedScheme(schemeName);
@@ -317,6 +335,7 @@ void KCMColors::load()
 
     {
         KConfig cfg(QStringLiteral("kcmdisplayrc"), KConfig::NoGlobals);
+        KConfigGroup group(m_config, "General");
         group = KConfigGroup(&cfg, "X11");
         m_applyToAlien = group.readEntry("exportKDEColors", true);
     }
@@ -324,20 +343,17 @@ void KCMColors::load()
 
 void KCMColors::save()
 {
+    ManagedConfigModule::save();
     if (m_selectedSchemeDirty) {
         saveColors();
     }
+    m_activeSchemeEdited = false;
 
     processPendingDeletions();
-
-    setNeedsSave(false);
 }
 
 void KCMColors::saveColors()
 {
-    KConfigGroup grp(m_config, "General");
-    grp.writeEntry("ColorScheme", m_model->selectedScheme());
-
     const QString path = QStandardPaths::locate(QStandardPaths::GenericDataLocation,
         QStringLiteral("color-schemes/%1.colors").arg(m_model->selectedScheme()));
 
@@ -431,31 +447,6 @@ void KCMColors::saveColors()
     }
 
     m_config->sync();
-    
-    // Feren OS code addition: If the colour scheme has an accompanying Kvantum theme, we'll apply it, otherwise we'll apply Breeze to prevent readability issues (also applies the Kvantum theme to the kvantum configs regardless so if the user switches back to kvantum post-Breeze-switch it will fit immediately unless they've changed the colour scheme beforehand again)
-    const QString schemename = (m_model->selectedScheme());
-    KConfig kdeglobalsconfig(QString("kdeglobals"));
-    KConfigGroup cg(&kdeglobalsconfig, "KDE");
-    std::string schemenamestd = schemename.toUtf8().constData();
-    // Check if the colour scheme mentions a Kvantum theme, if so the Kvantum theme is that, otherwise we'll check if a Kvantum theme of the colour scheme's name exists and if not then Breeze style it is
-    std::string homepath(getenv("HOME"));
-    std::string path1 = "/usr/share/Kvantum/"+schemenamestd+"/"+schemenamestd+".kvconfig";
-    std::string path2 = homepath+"/.config/Kvantum/"+schemenamestd+"/"+schemenamestd+".kvconfig";
-    std::ifstream file1(path1.c_str());
-    std::ifstream file2(path2.c_str());
-    if (file1.good() || file2.good()) {
-        KConfig kvantumconfig(QString("Kvantum/kvantum.kvconfig"));
-        KConfigGroup cg3(&kvantumconfig, "General");
-        cg3.writeEntry("theme", QString::fromStdString(schemenamestd));
-        cg3.sync();
-    }
-    if (cg.readEntry("widgetStyle", QString()) == "kvantum" || cg.readEntry("widgetStyle", QString()) == "kvantum-dark") {
-        if (file1.good() || file2.good()) {
-            std::system("/usr/bin/qtstyletool -a kvantum");
-        } else {
-            std::system("/usr/bin/qtstyletool -a Breeze");
-        }
-    }
 
     runRdb(KRdbExportQtColors | KRdbExportGtkTheme | KRdbExportGtkColors | (m_applyToAlien ? KRdbExportColors : 0));
 
@@ -489,13 +480,6 @@ void KCMColors::processPendingDeletions()
     }
 
     m_model->removeItemsPendingDeletion();
-}
-
-void KCMColors::defaults()
-{
-    m_model->setSelectedScheme(s_defaultColorSchemeName);
-
-    setNeedsSave(true);
 }
 
 #include "colors.moc"

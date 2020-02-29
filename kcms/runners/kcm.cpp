@@ -18,6 +18,8 @@
 
 #include "kcm.h"
 
+#include "kcmutils_version.h"
+
 #include <KPluginFactory>
 #include <KPluginLoader>
 #include <KAboutData>
@@ -28,7 +30,6 @@
 #include <KRunner/RunnerManager>
 #include <KCModuleInfo>
 #include <KCModuleProxy>
-#include <KIconLoader>
 #include <KPluginSelector>
 
 #include <QApplication>
@@ -73,9 +74,16 @@ SearchConfigModule::SearchConfigModule(QWidget* parent, const QVariantList& args
 
     m_pluginSelector = new KPluginSelector(this);
 
-    //overload, can't use the new syntax
-    connect(m_pluginSelector, SIGNAL(changed(bool)),
-            this, SIGNAL(changed(bool)));
+    auto markAsChanged = [this] {
+        emit changed();
+    };
+    connect(m_pluginSelector, &KPluginSelector::changed, this, markAsChanged);
+    connect(m_pluginSelector, &KPluginSelector::configCommitted, this, markAsChanged);
+
+#if KCMUTILS_VERSION >= QT_VERSION_CHECK(5, 67, 0)
+    connect(m_pluginSelector, &KPluginSelector::defaulted,
+            this, &KCModule::defaulted);
+#endif
 
     layout->addLayout(headerLayout);
     layout->addWidget(m_pluginSelector);
@@ -93,6 +101,7 @@ void SearchConfigModule::load()
                     KPluginSelector::ReadConfigFile,
                     i18n("Available Plugins"), QString(),
                     KSharedConfig::openConfig(QLatin1String( "krunnerrc" )));
+    m_pluginSelector->load();
 }
 
 
@@ -103,6 +112,7 @@ void SearchConfigModule::save()
 
 void SearchConfigModule::defaults()
 {
+    m_pluginSelector->defaults();
 }
 
 #include "kcm.moc"

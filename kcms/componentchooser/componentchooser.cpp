@@ -8,7 +8,7 @@
 /***************************************************************************
  *                                                                         *
  *   This program is free software; you can redistribute it and/or modify  *
- *   it under the terms of the GNU General Public License verstion 2 as    *
+ *   it under the terms of the GNU General Public License version 2 as     *
  *   published by the Free Software Foundation                             *
  *                                                                         *
  ***************************************************************************/
@@ -80,10 +80,10 @@ void CfgComponent::load(KConfig *cfg) {
 
 	const KService::List offers = KServiceTypeTrader::self()->query(serviceTypeToConfigure);
 
-	for (KService::List::const_iterator tit = offers.begin(); tit != offers.end(); ++tit) {
-		ComponentSelector->addItem((*tit)->name());
-		m_lookupDict.insert((*tit)->name(), (*tit)->desktopEntryName());
-		m_revLookupDict.insert((*tit)->desktopEntryName(), (*tit)->name());
+	for (const auto &service: offers) {
+		ComponentSelector->addItem(service->name());
+		m_lookupDict.insert(service->name(), service->desktopEntryName());
+		m_revLookupDict.insert(service->desktopEntryName(), service->name());
 	}
 
 	KConfig store(mainGroup.readPathEntry("storeInFile",QStringLiteral("null")));
@@ -109,6 +109,11 @@ void CfgComponent::defaults()
     //todo
 }
 
+bool CfgComponent::isDefaults() const
+{
+	return false;
+}
+
 //END  General kpart based Component selection
 
 
@@ -122,18 +127,25 @@ ComponentChooser::ComponentChooser(QWidget *parent):
 	setupUi(this);
 	static_cast<QGridLayout*>(layout())->setRowStretch(1, 1);
 
-	const QStringList services=KGlobal::dirs()->findAllResources( "data",QStringLiteral("kcm_componentchooser/*.desktop"),
-															KStandardDirs::NoDuplicates);
-	for (QStringList::const_iterator it=services.constBegin(); it!=services.constEnd(); ++it)
+	const QStringList directories = QStandardPaths::locateAll(QStandardPaths::GenericDataLocation, QStringLiteral("kcm_componentchooser"), QStandardPaths::LocateDirectory);
+	QStringList services;
+	for(const QString &directory : directories) {
+		const QDir dir(directory);
+		for(const QString &f: dir.entryList(QStringList("*.desktop"))) {
+			services += dir.absoluteFilePath(f);
+		}
+	}
+
+	for (const QString &service : qAsConst(services))
 	{
-		KConfig cfg(*it, KConfig::SimpleConfig);
+		KConfig cfg(service, KConfig::SimpleConfig);
 		KConfigGroup cg = cfg.group(QByteArray());
 		QListWidgetItem *item = new QListWidgetItem(
 			QIcon::fromTheme(cg.readEntry("Icon",QStringLiteral("preferences-desktop-default-applications"))), 
 			cg.readEntry("Name",i18n("Unknown")));
-		item->setData(Qt::UserRole, (*it));
+		item->setData(Qt::UserRole, service);
 		ServiceChooser->addItem(item);
-		loadConfigWidget((*it), cfg.group(QByteArray()).readEntry("configurationType"), item->text());
+		loadConfigWidget(service, cfg.group(QByteArray()).readEntry("configurationType"), item->text());
 	}
 	ServiceChooser->setFixedWidth(ServiceChooser->sizeHintForColumn(0) + 20);
 	ServiceChooser->sortItems();
@@ -189,8 +201,10 @@ void ComponentChooser::slotServiceSelected(QListWidgetItem* it) {
 
 	configWidget = configWidgetMap.value(service);
 	if (configWidget) {
-		configContainer->setCurrentWidget(configWidget);
-		dynamic_cast<CfgPlugin*>(configWidget)->load(&cfg);
+        configContainer->setCurrentWidget(configWidget);
+        const auto plugin = dynamic_cast<CfgPlugin*>(configWidget);
+        plugin->load(&cfg);
+        emit defaulted(plugin->isDefaults());
 	}
 
 	emitChanged(false);
@@ -201,6 +215,9 @@ void ComponentChooser::slotServiceSelected(QListWidgetItem* it) {
 void ComponentChooser::emitChanged(bool val) {
 	somethingChanged=val;
 	emit changed(val);
+
+	CfgPlugin *plugin = dynamic_cast<CfgPlugin *>( configWidget );
+	emit defaulted(plugin->isDefaults());
 }
 
 

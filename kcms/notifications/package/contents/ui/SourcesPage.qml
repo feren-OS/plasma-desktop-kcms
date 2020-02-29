@@ -59,17 +59,6 @@ Kirigami.Page {
         value: searchField.text
     }
 
-    // We need to manually keep track of the index as we store the sourceModel index
-    // and then use a proxy model to filter it. We don't get any QML change signals anywhere
-    // and ListView needs a currentIndex number
-    Connections {
-        target: kcm.filteredModel
-        onRowsRemoved: sourcesList.updateCurrentIndex()
-        onRowsInserted: sourcesList.updateCurrentIndex()
-        // TODO re-create model index if possible
-        onModelReset: appConfiguration.rootIndex = undefined
-    }
-
     RowLayout {
         id: rootRow
         anchors.fill: parent
@@ -87,7 +76,6 @@ Kirigami.Page {
                 id: sourcesScroll
                 Layout.fillWidth: true
                 Layout.fillHeight: true
-                activeFocusOnTab: false
                 Kirigami.Theme.colorSet: Kirigami.Theme.View
                 Kirigami.Theme.inherit: false
 
@@ -96,6 +84,7 @@ Kirigami.Page {
                 ListView {
                     id: sourcesList
                     clip: true
+                    focus: true
                     activeFocusOnTab: true
 
                     keyNavigationEnabled: true
@@ -120,20 +109,9 @@ Kirigami.Page {
                         }
                     }
 
-                    // We need to manually keep track of the index when we filter
-                    function updateCurrentIndex() {
-                        if (!appConfiguration.rootIndex || !appConfiguration.rootIndex.valid) {
-                            currentIndex = -1;
-                            return;
-                        }
-
-                        var filteredIdx = kcm.filteredModel.mapFromSource(appConfiguration.rootIndex);
-                        if (!filteredIdx.valid) {
-                            currentIndex = -1;
-                            return;
-                        }
-
-                        currentIndex = filteredIdx.row;
+                    onCurrentItemChanged: {
+                        var sourceIdx = kcm.filteredModel.mapToSource(kcm.filteredModel.index(sourcesList.currentIndex, 0));
+                        appConfiguration.rootIndex = kcm.sourcesModel.makePersistentModelIndex(sourceIdx);
                     }
 
                     delegate: QtControls.ItemDelegate {
@@ -142,9 +120,8 @@ Kirigami.Page {
                         text: model.display
                         highlighted: ListView.isCurrentItem
                         onClicked: {
-                            var sourceIdx = kcm.filteredModel.mapToSource(kcm.filteredModel.index(index, 0));
-                            appConfiguration.rootIndex = kcm.sourcesModel.makePersistentModelIndex(sourceIdx);
-                            sourcesList.updateCurrentIndex();
+                            sourcesList.forceActiveFocus();
+                            sourcesList.currentIndex = index;
                         }
 
                         contentItem: RowLayout {
@@ -190,7 +167,6 @@ Kirigami.Page {
             ApplicationConfiguration {
                 id: appConfiguration
                 anchors.fill: parent
-                onRootIndexChanged: sourcesList.updateCurrentIndex()
                 visible: typeof appConfiguration.rootIndex !== "undefined" && appConfiguration.rootIndex.valid
             }
 

@@ -25,7 +25,7 @@ import QtQuick.Dialogs 1.0 as QtDialogs
 import QtQuick.Controls 2.3 as QtControls
 import org.kde.kirigami 2.4 as Kirigami
 import org.kde.kquickcontrolsaddons 2.0 as KQCAddons
-import org.kde.kconfig 1.0 // for KAuthorized
+import org.kde.newstuff 1.62 as NewStuff
 import org.kde.kcm 1.1 as KCM
 
 import org.kde.private.kcms.icons 1.0 as Private
@@ -34,11 +34,12 @@ KCM.GridViewKCM {
     KCM.ConfigModule.quickHelp: i18n("This module allows you to choose the icons for your desktop.")
 
     view.model: kcm.iconsModel
-    view.currentIndex: kcm.iconsModel.selectedThemeIndex
-
+    view.currentIndex: kcm.pluginIndex(kcm.iconsSettings.theme)
     enabled: !kcm.downloadingFile
+    view.enabled: !kcm.iconsSettings.isImmutable("Theme")
 
     DropArea {
+        enabled: !kcm.iconsSettings.isImmutable("Theme")
         anchors.fill: parent
         onEntered: {
             if (!drag.hasUrls) {
@@ -166,7 +167,7 @@ KCM.GridViewKCM {
         ]
         onClicked: {
             if (!model.pendingDeletion) {
-                kcm.iconsModel.selectedTheme = model.themeName;
+                kcm.iconsSettings.theme = model.themeName;
             }
             view.forceActiveFocus();
         }
@@ -243,17 +244,19 @@ KCM.GridViewKCM {
             }
 
             QtControls.Button {
+                enabled: !kcm.iconsSettings.isImmutable("Theme")
                 id: installFromFileButton
                 text: i18n("Install from File...")
                 icon.name: "document-import"
                 onClicked: fileDialogLoader.active = true
             }
 
-            QtControls.Button {
+            NewStuff.Button {
+                id: newStuffButton
                 text: i18n("Get New Icons...")
-                icon.name: "get-hot-new-stuff"
-                onClicked: kcm.getNewStuff(this)
-                visible: KAuthorized.authorize("ghns")
+                configFile: "icons.knsrc"
+                viewMode: NewStuff.Page.ViewMode.Preview
+                onChangedEntriesChanged: kcm.ghnsEntriesChanged(newStuffButton.changedEntries);
             }
         }
     }

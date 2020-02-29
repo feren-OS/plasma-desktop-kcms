@@ -31,11 +31,14 @@
 
 #include <KConfig>
 #include <KConfigGroup>
+#include <KLocalizedString>
 #include <KSharedConfig>
 #include <KService>
 #include <KServiceTypeTrader>
 
 #include <algorithm>
+
+static const QString s_plasmaWorkspaceNotifyRcName = QStringLiteral("plasma_workspace");
 
 SourcesModel::SourcesModel(QObject *parent) : QAbstractItemModel(parent)
 {
@@ -341,12 +344,30 @@ void SourcesModel::load()
         desktopEntries.append(service->desktopEntryName());
     }
 
-    auto sortData = [&collator](const SourceData &a, const SourceData &b) {
+    std::sort(appsData.begin(), appsData.end(), [&collator](const SourceData &a, const SourceData &b) {
         return collator.compare(a.display(), b.display()) < 0;
+    });
+
+    // Fake entry for configuring non-identifyable applications
+    appsData << SourceData{
+        i18n("Other Applications"),
+        {},
+        QStringLiteral("applications-other"),
+        QString(),
+        QStringLiteral("@other"),
+        {}
     };
 
-    std::sort(appsData.begin(), appsData.end(), sortData);
-    std::sort(servicesData.begin(), servicesData.end(), sortData);
+    // Sort and make sure plasma_workspace is at the beginning of the list
+    std::sort(servicesData.begin(), servicesData.end(), [&collator](const SourceData &a, const SourceData &b) {
+        if (a.notifyRcName == s_plasmaWorkspaceNotifyRcName) {
+            return true;
+        }
+        if (b.notifyRcName == s_plasmaWorkspaceNotifyRcName) {
+            return false;
+        }
+        return collator.compare(a.display(), b.display()) < 0;
+    });
 
     m_data << appsData << servicesData;
 

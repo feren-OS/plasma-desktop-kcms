@@ -40,12 +40,9 @@ void FilterProxyModel::setSelectedScheme(const QString &scheme)
         return;
     }
 
-    const bool firstTime = m_selectedScheme.isNull();
     m_selectedScheme = scheme;
 
-    if (!firstTime) {
-        emit selectedSchemeChanged();
-    }
+    emit selectedSchemeChanged();
     emit selectedSchemeIndexChanged();
 }
 
@@ -112,13 +109,13 @@ bool FilterProxyModel::filterAcceptsRow(int source_row, const QModelIndex &sourc
 
     if (!m_query.isEmpty()) {
         if (!idx.data(Qt::DisplayRole).toString().contains(m_query, Qt::CaseInsensitive)
-                && !idx.data(KCMColors::SchemeNameRole).toString().contains(m_query, Qt::CaseInsensitive)) {
+                && !idx.data(ColorsModel::SchemeNameRole).toString().contains(m_query, Qt::CaseInsensitive)) {
             return false;
         }
     }
 
     if (m_filter != KCMColors::AllSchemes) {
-        const QPalette palette = idx.data(KCMColors::PaletteRole).value<QPalette>();
+        const QPalette palette = idx.data(ColorsModel::PaletteRole).value<QPalette>();
 
         const int windowBackgroundGray = qGray(palette.window().color().rgb());
 

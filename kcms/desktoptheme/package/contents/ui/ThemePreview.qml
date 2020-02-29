@@ -20,6 +20,7 @@ import QtQuick.Layouts 1.1
 import org.kde.plasma.core 2.0 as PlasmaCore
 import org.kde.kirigami 2.4 as Kirigami
 import org.kde.plasma.components 2.0 as PlasmaComponents
+import org.kde.private.kcms.desktoptheme 1.0 as Private
 
 Item {
     id: root
@@ -52,6 +53,7 @@ Item {
 
     RowLayout {
         id: contents
+        spacing: 0
         anchors {
             fill: parent
             topMargin: background.generalMargin
@@ -84,16 +86,13 @@ Item {
             }
         }
 
-        Item {
-            Layout.fillWidth: true
-        }
-
         // Analog clock
         Item {
             id: clock
             Layout.fillHeight: true
+            Layout.fillWidth: true
             Layout.preferredWidth: height
-
+            Layout.alignment: Qt.AlignHCenter
             property int hours: 9
             property int minutes: 5
 
@@ -176,6 +175,13 @@ Item {
                 width: naturalSize.width * clock.svgScale
                 height: naturalSize.height * clock.svgScale
             }
+        }
+        Kirigami.Icon {
+            visible: model.colorType === Private.ThemesModel.FollowsColorTheme
+            source: "color-profile"
+            width: Kirigami.Units.iconSizes.smallMedium
+            height: width
+            Layout.alignment: Qt.AlignRight && Qt.AlignTop
         }
     }
 

@@ -457,10 +457,10 @@ CFontList::CFontList(QWidget *parent)
                                                            QDBusConnection::sessionBus(),
                                                            QDBusServiceWatcher::WatchForOwnerChange, this);
 
-    connect(watcher, SIGNAL(serviceOwnerChanged(QString,QString,QString)), SLOT(dbusServiceOwnerChanged(QString,QString,QString)));
-    connect(CJobRunner::dbus(), SIGNAL(fontsAdded(KFI::Families)), SLOT(fontsAdded(KFI::Families)));
-    connect(CJobRunner::dbus(), SIGNAL(fontsRemoved(KFI::Families)), SLOT(fontsRemoved(KFI::Families)));
-    connect(CJobRunner::dbus(), SIGNAL(fontList(int,QList<KFI::Families>)), SLOT(fontList(int,QList<KFI::Families>)));
+    connect(watcher, &QDBusServiceWatcher::serviceOwnerChanged, this, &CFontList::dbusServiceOwnerChanged);
+    connect(CJobRunner::dbus(), &OrgKdeFontinstInterface::fontsAdded, this, &CFontList::fontsAdded);
+    connect(CJobRunner::dbus(), &OrgKdeFontinstInterface::fontsRemoved, this, &CFontList::fontsRemoved);
+    connect(CJobRunner::dbus(), &OrgKdeFontinstInterface::fontList, this, &CFontList::fontList);
 }
 
 CFontList::~CFontList()
@@ -957,7 +957,7 @@ CFamilyItem * CFontList::findFamily(const QString &familyName)
 {
     CFamilyItemHash::Iterator it=itsFamilyHash.find(familyName);
 
-    return it==itsFamilyHash.end() ? 0L : *it;
+    return it==itsFamilyHash.end() ? nullptr : *it;
 }
 
 inline bool matchString(const QString &str, const QString &pattern)
@@ -977,8 +977,8 @@ CFontListSortFilterProxy::CFontListSortFilterProxy(QObject *parent, QAbstractIte
     setFilterKeyColumn(0);
     setDynamicSortFilter(false);
     itsTimer=new QTimer(this);
-    connect(itsTimer, SIGNAL(timeout()), SLOT(timeout()));
-    connect(model, SIGNAL(layoutChanged()), SLOT(invalidate()));
+    connect(itsTimer, &QTimer::timeout, this, &CFontListSortFilterProxy::timeout);
+    connect(model, &QAbstractItemModel::layoutChanged, this, &QSortFilterProxyModel::invalidate);
     itsTimer->setSingleShot(true);
 }
 
@@ -1289,7 +1289,7 @@ void CFontListSortFilterProxy::setFilterGroup(CGroupListItem *grp)
         itsGroup=grp;
 
        // if(!(wasNull && itsGroup && CGroupListItem::ALL==itsGroup->type()))
-            clear();
+            invalidate();
     }
 }
 
@@ -1355,14 +1355,14 @@ void CFontListSortFilterProxy::timeout()
         if(!itsFcQuery)
         {
             itsFcQuery=new CFcQuery(this);
-            connect(itsFcQuery, SIGNAL(finished()), SLOT(fcResults()));
+            connect(itsFcQuery, &CFcQuery::finished, this, &CFontListSortFilterProxy::fcResults);
         }
 
         itsFcQuery->run(query);
     }
     else
     {
-        clear();
+        invalidate();
         emit refresh();
     }
 }
@@ -1371,7 +1371,7 @@ void CFontListSortFilterProxy::fcResults()
 {
     if(CFontFilter::CRIT_FONTCONFIG==itsFilterCriteria)
     {
-        clear();
+        invalidate();
         emit refresh();
     }
 }
@@ -1386,8 +1386,8 @@ CFontListView::CFontListView(QWidget *parent, CFontList *model)
     itsModel=model;
     header()->setStretchLastSection(false);
     resizeColumnToContents(COL_STATUS);
-    header()->setResizeMode(COL_STATUS, QHeaderView::Fixed);
-    header()->setResizeMode(COL_FONT, QHeaderView::Stretch);
+    header()->setSectionResizeMode(COL_STATUS, QHeaderView::Fixed);
+    header()->setSectionResizeMode(COL_FONT, QHeaderView::Stretch);
     setSelectionMode(QAbstractItemView::ExtendedSelection);
     setSelectionBehavior(QAbstractItemView::SelectRows);
     setSortingEnabled(true);
@@ -1398,31 +1398,31 @@ CFontListView::CFontListView(QWidget *parent, CFontList *model)
     setDropIndicatorShown(false);
     setDragEnabled(true);
     setDragDropMode(QAbstractItemView::DragDrop);
-    header()->setClickable(true);
+    header()->setSectionsClickable(true);
     header()->setSortIndicatorShown(true);
-    connect(this, SIGNAL(collapsed(QModelIndex)), SLOT(itemCollapsed(QModelIndex)));
-    connect(header(), SIGNAL(sectionClicked(int)), SLOT(setSortColumn(int)));
-    connect(itsProxy, SIGNAL(refresh()), SIGNAL(refresh()));
-    connect(itsModel, SIGNAL(listingPercent(int)), SLOT(listingPercent(int)));
+    connect(this, &QTreeView::collapsed, this, &CFontListView::itemCollapsed);
+    connect(header(), &QHeaderView::sectionClicked, this, &CFontListView::setSortColumn);
+    connect(itsProxy, &CFontListSortFilterProxy::refresh, this, &CFontListView::refresh);
+    connect(itsModel, &CFontList::listingPercent, this, &CFontListView::listingPercent);
 
     setWhatsThis(model->whatsThis());
     header()->setWhatsThis(whatsThis());
     itsMenu=new QMenu(this);
     itsDeleteAct=itsMenu->addAction(QIcon::fromTheme("edit-delete"), i18n("Delete"),
-                                       this, SIGNAL(del()));
+                                       this, &CFontListView::del);
     itsMenu->addSeparator();
     itsEnableAct=itsMenu->addAction(QIcon::fromTheme("font-enable"), i18n("Enable"),
-                                       this, SIGNAL(enable()));
+                                       this, &CFontListView::enable);
     itsDisableAct=itsMenu->addAction(QIcon::fromTheme("font-disable"), i18n("Disable"),
-                                        this, SIGNAL(disable()));
+                                        this, &CFontListView::disable);
     if(!Misc::app(KFI_VIEWER).isEmpty())
         itsMenu->addSeparator();
     itsPrintAct=Misc::app(KFI_VIEWER).isEmpty() ? nullptr : itsMenu->addAction(QIcon::fromTheme("document-print"), i18n("Print..."),
-                                                                          this, SIGNAL(print()));
+                                                                          this, &CFontListView::print);
     itsViewAct=Misc::app(KFI_VIEWER).isEmpty() ? nullptr : itsMenu->addAction(QIcon::fromTheme("kfontview"), i18n("Open in Font Viewer"),
-                                                                         this, SLOT(view()));
+                                                                         this, &CFontListView::view);
     itsMenu->addSeparator();
-    itsMenu->addAction(QIcon::fromTheme("view-refresh"), i18n("Reload"), model, SLOT(load()));
+    itsMenu->addAction(QIcon::fromTheme("view-refresh"), i18n("Reload"), model, &CFontList::load);
 }
 
 void CFontListView::getFonts(CJobRunner::ItemList &urls, QStringList &fontNames, QSet<Misc::TFont> *fonts,
@@ -1710,7 +1710,7 @@ void CFontListView::setSortColumn(int col)
     if(col!=itsProxy->filterKeyColumn())
     {
         itsProxy->setFilterKeyColumn(col);
-        itsProxy->clear();
+        itsProxy->invalidate();
     }
 }
 

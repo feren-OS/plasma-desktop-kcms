@@ -269,11 +269,6 @@ static void createGtkrc( bool exportColors, const QPalette& cg, bool exportGtkTh
 
     t << i18n(
             "# created by KDE Plasma, %1\n"
-            "#\n"
-            "# If you do not want Plasma to override your GTK settings, select\n"
-            "# Colors in the System Settings and disable the checkbox\n"
-            "# \"Apply colors to non-Qt applications\"\n"
-            "#\n"
             "#\n", QDateTime::currentDateTime().toString());
 
     if ( 2==version ) {  // we should maybe check for MacOS settings here
@@ -519,7 +514,7 @@ void exportGtkColors(QList<KColorScheme> activeColorSchemes, QList<KColorScheme>
   colorsStream << gtkColorsHelper("error_color_insensitive", disabledColorSchemes[0].foreground(KColorScheme::NegativeText).color().name());
 
   /* 
-      Insensitive Backdrop (Inactive Disabled) These pretty much have the same appearance as regular inactive colors, but they're seperate in case we decide to make
+      Insensitive Backdrop (Inactive Disabled) These pretty much have the same appearance as regular inactive colors, but they're separate in case we decide to make
       them different in the future.
   */
 
@@ -754,8 +749,8 @@ void runRdb( uint flags )
 
   // Export the Xcursor theme & size settings
   KConfigGroup mousecfg(KSharedConfig::openConfig( QStringLiteral("kcminputrc") ), "Mouse" );
-  QString theme = mousecfg.readEntry("cursorTheme", QString());
-  QString size  = mousecfg.readEntry("cursorSize", QString());
+  QString theme = mousecfg.readEntry("cursorTheme", QString("breeze_cursors"));
+  QString size  = mousecfg.readEntry("cursorSize", QString("0"));
   QString contents;
 
   if (!theme.isNull())
@@ -848,7 +843,7 @@ void runRdb( uint flags )
       applyQtSettings( kglobalcfg, *settings );          // For kcmstyle
 
     delete settings;
-    QApplication::flush();
+    QCoreApplication::processEvents();
 #if HAVE_X11
     if (qApp->platformName() == QLatin1String("xcb")) {
         // We let KIPC take care of ourselves, as we are in a KDE app with
@@ -887,11 +882,8 @@ void runRdb( uint flags )
   KConfigGroup generalGroup(kglobalcfg, "General");
   KConfigGroup iconsGroup(kglobalcfg, "Icons");
 
-  const QString colorSchemeName = generalGroup.readEntry("ColorScheme", QString());
-  //if no valid color scheme saved, something weird is going on, abort
-  if (colorSchemeName.isEmpty()) {
-      return;
-  }
+  const QString colorSchemeName = generalGroup.readEntry("ColorScheme", QStringLiteral("Breeze"));
+
   QString colorSchemeSrcFile;
   if (colorSchemeName != QLatin1String("Default")) {
       //fix filename, copied from ColorsCM::saveScheme()

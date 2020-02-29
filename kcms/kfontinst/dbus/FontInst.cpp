@@ -122,8 +122,8 @@ FontInst::FontInst()
     registerSignalHandler(signalHander);
     itsConnectionsTimer=new QTimer(this);
     itsFontListTimer=new QTimer(this);
-    connect(itsConnectionsTimer, SIGNAL(timeout()), SLOT(connectionsTimeout()));
-    connect(itsFontListTimer, SIGNAL(timeout()), SLOT(fontListTimeout()));
+    connect(itsConnectionsTimer, &QTimer::timeout, this, &FontInst::connectionsTimeout);
+    connect(itsFontListTimer, &QTimer::timeout, this, &FontInst::fontListTimeout);
     itsConnectionsTimer->start(constConnectionsTimeout);
     itsFontListTimer->start(constFontListTimeout);
 
@@ -961,7 +961,7 @@ int FontInst::performAction(const QVariantMap &args)
             case KAuth::ActionReply::Error::AuthorizationDeniedError:
                 /*fall through*/
             case KAuth::ActionReply::Error::NoSuchActionError:
-                return KIO::ERR_COULD_NOT_AUTHENTICATE;
+                return KIO::ERR_CANNOT_AUTHENTICATE;
             default:
                 return KIO::ERR_INTERNAL;
         }
