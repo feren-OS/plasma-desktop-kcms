@@ -32,7 +32,7 @@
 #include <KPackage/Package>
 #include <KPackage/PackageLoader>
 
-#include "lookandfeelsettings.h"
+#include "desktoplayoutsettings.h"
 
 int main(int argc, char **argv)
 {
@@ -87,10 +87,16 @@ int main(int argc, char **argv)
             return 1;
         }
 
-        KCMLookandFeel *kcm = new KCMLookandFeel(nullptr, QVariantList());
+        KCMDesktopLayout *kcm = new KCMDesktopLayout(nullptr, QVariantList());
+//         KCMDesktopLayout *dlkcm = new KCMDesktopLayout(nullptr, QVariantList());
         kcm->load();
-        kcm->setResetDefaultLayout(parser.isSet(_resetLayout));
-        kcm->lookAndFeelSettings()->setGlobalThemePackage(parser.value(_apply));
+//         dlkcm->load();
+//         if (parser.isSet(_resetLayout)) {
+//             dlkcm->desktopLayoutSettings()->setLookAndFeelPackage(parser.value(_apply));
+//             dlkcm->save();
+//             delete dlkcm;
+//         }
+        kcm->desktopLayoutSettings()->setLookAndFeelPackage(parser.value(_apply));
         kcm->save();
         delete kcm;
     }

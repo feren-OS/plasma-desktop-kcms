@@ -26,12 +26,12 @@ import org.kde.kconfig 1.0 // for KAuthorized
 import org.kde.kcm 1.1 as KCM
 
 KCM.GridViewKCM {
-    KCM.ConfigModule.quickHelp: i18n("This module lets you choose the global look and feel.")
+    KCM.ConfigModule.quickHelp: i18n("This module lets you choose the desktop layout.")
 
-    view.model: kcm.lookAndFeelModel
-    view.currentIndex: kcm.pluginIndex(kcm.lookAndFeelSettings.globalThemePackage)
+    view.model: kcm.desktopLayoutModel
+    view.currentIndex: kcm.pluginIndex(kcm.desktopLayoutSettings.lookAndFeelPackage)
 
-    enabled: !kcm.lookAndFeelSettings.isImmutable("globalThemePackage")
+    enabled: !kcm.desktopLayoutSettings.isImmutable("lookAndFeelPackage")
 
     view.delegate: KCM.GridDelegate {
         id: delegate
@@ -58,7 +58,7 @@ KCM.GridViewKCM {
             }
         ]
         onClicked: {
-            kcm.lookAndFeelSettings.globalThemePackage = model.pluginName;
+            kcm.desktopLayoutSettings.lookAndFeelPackage = model.pluginName;
             view.forceActiveFocus();
         }
     }

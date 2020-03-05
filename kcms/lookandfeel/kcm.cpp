@@ -221,7 +221,7 @@ void KCMLookandFeel::loadModel()
     m_model->sort(0 /*column*/);
 
     //Model has been cleared so pretend the selected look and fell changed to force view update
-    emit m_settings->lookAndFeelPackageChanged();
+    emit m_settings->globalThemePackageChanged();
 }
 
 void KCMLookandFeel::load()
@@ -229,13 +229,13 @@ void KCMLookandFeel::load()
     ManagedConfigModule::load();
 
     m_package = KPackage::PackageLoader::self()->loadPackage(QStringLiteral("Plasma/LookAndFeel"));
-    m_package.setPath(m_settings->lookAndFeelPackage());
+    m_package.setPath(m_settings->globalThemePackage());
 }
 
 void KCMLookandFeel::save()
 {
     KPackage::Package package = KPackage::PackageLoader::self()->loadPackage(QStringLiteral("Plasma/LookAndFeel"));
-    package.setPath(m_settings->lookAndFeelPackage());
+    package.setPath(m_settings->globalThemePackage());
 
     if (!package.isValid()) {
         return;
@@ -248,7 +248,7 @@ void KCMLookandFeel::save()
                                                    QStringLiteral("org.kde.PlasmaShell"), QStringLiteral("loadLookAndFeelDefaultLayout"));
 
         QList<QVariant> args;
-        args << m_settings->lookAndFeelPackage();
+        args << m_settings->globalThemePackage();
         message.setArguments(args);
 
         QDBusConnection::sessionBus().call(message, QDBus::NoBlock);
@@ -391,11 +391,11 @@ void KCMLookandFeel::save()
     }
 
     //TODO: option to enable/disable apply? they don't seem required by UI design
-    setSplashScreen(m_settings->lookAndFeelPackage());
-    setLockScreen(m_settings->lookAndFeelPackage());
+    setSplashScreen(m_settings->globalThemePackage());
+    setLockScreen(m_settings->globalThemePackage());
 
     m_configGroup.sync();
-    m_package.setPath(m_settings->lookAndFeelPackage());
+    m_package.setPath(m_settings->globalThemePackage());
     runRdb(KRdbExportQtColors | KRdbExportGtkTheme | KRdbExportColors | KRdbExportQtSettings | KRdbExportXftSettings);
 }
 
