@@ -1,0 +1,258 @@
+#!/bin/bash
+
+cd
+
+if [ "$1" = "--kill-plasma" ]; then
+    while true; do
+        killall latte-dock plasmashell feren-latte-launch >/dev/null 2>&1
+    done
+    exit 0
+fi
+
+function findcategory {
+    currentdir="$(pwd)"
+    xdgdirs="$(echo $XDG_CONFIG_DIRS | sed 's/:/ /g')"
+    xdgdirs="$HOME/.config $xdgdirs"
+    for folder in $xdgdirs; do
+        if [ -d "$folder" ]; then
+            cd "$folder"
+            if [ -f "kwinrulesrc" ]; then
+                if grep -q "Description=Feren Themer GTK Dark Titlebars Workaround" "kwinrulesrc"; then
+                    filecontents=$(cat "kwinrulesrc" | grep 'Description=Feren Themer GTK Dark Titlebars Workaround' -B5 | grep '\[' | sed 's/\[//g' | sed 's/\]//g')
+                    if [ ! -z "$filecontents" ]; then
+                        echo "$filecontents"
+                        cd "$currentdir"
+                        break
+                    fi
+                fi
+            fi
+            cd "$currentdir"
+        fi
+    done
+}
+function findcategoryshadow {
+    currentdir="$(pwd)"
+    xdgdirs="$(echo $XDG_CONFIG_DIRS | sed 's/:/ /g')"
+    xdgdirs="$HOME/.config $xdgdirs"
+    for folder in $xdgdirs; do
+        if [ -d "$folder" ]; then
+            cd "$folder"
+            if [ -f "kwinrulesrc" ]; then
+                if grep -q "Description=(BREEZE DECORATIONS ONLY) Certain Apps Shadows Workaround" "kwinrulesrc"; then
+                    filecontents=$(cat "kwinrulesrc" | grep 'Description=(BREEZE DECORATIONS ONLY) Certain Apps Shadows Workaround' -B5 | grep '\[' | sed 's/\[//g' | sed 's/\]//g')
+                    if [ ! -z "$filecontents" ]; then
+                        echo "$filecontents"
+                        cd "$currentdir"
+                        break
+                    fi
+                fi
+            fi
+            cd "$currentdir"
+        fi
+    done
+}
+
+function maximizetitlebarhide {
+    kwriteconfig5 --file ~/.config/kwinrc --group Windows --key BorderlessMaximizedWindows "true"
+}
+function nomaximizetitlebarhide {
+    kwriteconfig5 --file ~/.config/kwinrc --group Windows --key BorderlessMaximizedWindows "false"
+}
+
+function latte-meta {
+    kwriteconfig5 --file ~/.config/kwinrc --group ModifierOnlyShortcuts --key Meta "org.kde.lattedock,/Latte,org.kde.LatteDock,activateLauncherMenu"
+}
+function revert-meta {
+    kwriteconfig5 --file ~/.config/kwinrc --group ModifierOnlyShortcuts --key Meta "org.kde.plasmashell,/PlasmaShell,org.kde.PlasmaShell,activateLauncherMenu"
+    if grep -q "\[lattedock\]" "$HOME/.config/kglobalshortcutsrc"; then
+    kglobalshortcutsrc=$(cat "$HOME/.config/kglobalshortcutsrc" | sed -n -e '/\[lattedock\]/,/\[/ p' | grep "Alt+F1,")
+    while read -r line; do
+        mainsetting=${line%%=*}
+        value=${line##*=}
+        value=$(echo "$value" | sed 's/Alt+F1,/none,/g')
+        echo "$mainsetting, $value"
+        kwriteconfig5 --file ~/.config/kglobalshortcutsrc --group lattedock --key "$mainsetting" "$value"
+    done <<< "$kglobalshortcutsrc"
+    fi
+    sed -i 's/global=Alt+F1/global=/g' "$HOME/.config/plasma-org.kde.plasma.desktop-appletsrc"
+    if grep -q "\[plasmashell\]" "$HOME/.config/kglobalshortcutsrc"; then
+    kglobalshortcutsrc=$(cat "$HOME/.config/kglobalshortcutsrc" | sed -n -e '/\[plasmashell\]/,/\[/ p' | grep "Alt+F1,")
+    while read -r line; do
+        mainsetting=${line%%=*}
+        value=${line##*=}
+        value=$(echo "$value" | sed 's/Alt+F1,/none,/g')
+        echo "$mainsetting, $value"
+        kwriteconfig5 --file ~/.config/kglobalshortcutsrc --group plasmashell --key "$mainsetting" "$value"
+    done <<< "$kglobalshortcutsrc"
+    fi
+}
+
+function shadowfix-on {
+    wmruleno=$(findcategoryshadow)
+    kwriteconfig5 --file ~/.config/kwinrulesrc --group $wmruleno --key "noborderrule" "2"
+}
+function shadowfix-off {
+    wmruleno=$(findcategoryshadow)
+    kwriteconfig5 --file ~/.config/kwinrulesrc --group $wmruleno --key "noborderrule" "1"
+}
+
+if [ "$1" = "hide-maximised-titlebar" ]; then
+    maximizetitlebarhide
+elif [ "$1" = "show-maximised-titlebar" ]; then
+    nomaximizetitlebarhide
+elif [ "$1" = "lattemeta" ]; then
+    latte-meta
+elif [ "$1" = "revertmeta" ]; then
+    revert-meta
+elif [ "$1" = "shadowfix" ]; then
+    shadowfix-on
+elif [ "$1" = "disableshadowfix" ]; then
+    shadowfix-off
+elif [ "$1" = "setdarktheme" ] && [ ! -z "$2" ]; then
+    wmruleno=$(findcategory)
+    kwriteconfig5 --file ~/.config/kwinrulesrc --group $wmruleno --key "decocolor" "$2"
+elif [ "$1" = "setqttheme" ] && [ ! -z "$2" ]; then
+     /usr/bin/qtstyletool -a "$2"
+elif [ "$1" = "setnemo" ] && [ ! -z "$2" ]; then
+            if [ "$2" = "Redmond" ]; then
+                gsettings set org.nemo.preferences show-location-entry true
+                gsettings set org.nemo.preferences show-new-folder-icon-toolbar true
+                gsettings set org.nemo.preferences show-up-icon-toolbar true
+                gsettings set org.nemo.preferences show-reload-icon-toolbar true
+                gsettings set org.nemo.window-state start-with-sidebar true
+                gsettings set org.nemo.window-state start-with-status-bar true
+                gsettings set org.nemo.window-state start-with-menu-bar true
+                gsettings set org.nemo.window-state start-with-toolbar true
+                gsettings set org.nemo.preferences show-full-path-titles false
+                gsettings set org.nemo.preferences always-use-browser true
+                gsettings set org.nemo.preferences show-edit-icon-toolbar false
+            elif [ "$2" = "FamiliarTabbed" ]; then
+                gsettings set org.nemo.preferences show-location-entry false
+                gsettings set org.nemo.preferences show-new-folder-icon-toolbar true
+                gsettings set org.nemo.preferences show-up-icon-toolbar true
+                gsettings set org.nemo.preferences show-reload-icon-toolbar true
+                gsettings set org.nemo.window-state start-with-sidebar true
+                gsettings set org.nemo.window-state start-with-status-bar false
+                gsettings set org.nemo.window-state start-with-menu-bar false
+                gsettings set org.nemo.window-state start-with-toolbar true
+                gsettings set org.nemo.preferences show-full-path-titles false
+                gsettings set org.nemo.preferences always-use-browser true
+                gsettings set org.nemo.preferences show-edit-icon-toolbar false
+            elif [ "$2" = "Familiar" ]; then
+                gsettings set org.nemo.preferences show-location-entry false
+                gsettings set org.nemo.preferences show-new-folder-icon-toolbar true
+                gsettings set org.nemo.preferences show-up-icon-toolbar true
+                gsettings set org.nemo.preferences show-reload-icon-toolbar true
+                gsettings set org.nemo.window-state start-with-sidebar true
+                gsettings set org.nemo.window-state start-with-status-bar false
+                gsettings set org.nemo.window-state start-with-menu-bar false
+                gsettings set org.nemo.window-state start-with-toolbar true
+                gsettings set org.nemo.preferences show-full-path-titles false
+                gsettings set org.nemo.preferences always-use-browser true
+                gsettings set org.nemo.preferences show-edit-icon-toolbar false
+            elif [ "$2" = "Basic" ]; then
+                gsettings set org.nemo.preferences show-location-entry true
+                gsettings set org.nemo.preferences show-new-folder-icon-toolbar true
+                gsettings set org.nemo.preferences show-up-icon-toolbar true
+                gsettings set org.nemo.preferences show-reload-icon-toolbar true
+                gsettings set org.nemo.window-state start-with-sidebar false
+                gsettings set org.nemo.window-state start-with-status-bar true
+                gsettings set org.nemo.window-state start-with-menu-bar true
+                gsettings set org.nemo.window-state start-with-toolbar false
+                gsettings set org.nemo.preferences show-full-path-titles true
+                gsettings set org.nemo.preferences always-use-browser false
+                gsettings set org.nemo.preferences show-edit-icon-toolbar false
+            elif [ "$2" = "Feren" ]; then
+                gsettings set org.nemo.preferences show-location-entry false
+                gsettings set org.nemo.preferences show-new-folder-icon-toolbar false
+                gsettings set org.nemo.preferences show-up-icon-toolbar true
+                gsettings set org.nemo.preferences show-reload-icon-toolbar false
+                gsettings set org.nemo.window-state start-with-sidebar true
+                gsettings set org.nemo.window-state start-with-status-bar false
+                gsettings set org.nemo.window-state start-with-menu-bar true
+                gsettings set org.nemo.window-state start-with-toolbar true
+                gsettings set org.nemo.preferences show-full-path-titles false
+                gsettings set org.nemo.preferences always-use-browser true
+                gsettings set org.nemo.preferences show-edit-icon-toolbar false
+            elif [ "$2" = "FerenOld" ]; then
+                gsettings set org.nemo.preferences show-location-entry false
+                gsettings set org.nemo.preferences show-new-folder-icon-toolbar false
+                gsettings set org.nemo.preferences show-up-icon-toolbar true
+                gsettings set org.nemo.preferences show-reload-icon-toolbar false
+                gsettings set org.nemo.window-state start-with-sidebar true
+                gsettings set org.nemo.window-state start-with-status-bar false
+                gsettings set org.nemo.window-state start-with-menu-bar false
+                gsettings set org.nemo.window-state start-with-toolbar true
+                gsettings set org.nemo.preferences show-full-path-titles false
+                gsettings set org.nemo.preferences always-use-browser true
+                gsettings set org.nemo.preferences show-edit-icon-toolbar false
+            elif [ "$2" = "Cupertino" ]; then
+                gsettings set org.nemo.preferences show-location-entry false
+                gsettings set org.nemo.preferences show-new-folder-icon-toolbar false
+                gsettings set org.nemo.preferences show-up-icon-toolbar true
+                gsettings set org.nemo.preferences show-reload-icon-toolbar true
+                gsettings set org.nemo.window-state start-with-sidebar true
+                gsettings set org.nemo.window-state start-with-status-bar false
+                gsettings set org.nemo.window-state start-with-menu-bar true
+                gsettings set org.nemo.window-state start-with-toolbar true
+                gsettings set org.nemo.preferences show-full-path-titles false
+                gsettings set org.nemo.preferences always-use-browser true
+                gsettings set org.nemo.preferences show-edit-icon-toolbar false
+            elif [ "$2" = "Vanadium" ]; then
+                gsettings set org.nemo.preferences show-location-entry false
+                gsettings set org.nemo.preferences show-new-folder-icon-toolbar false
+                gsettings set org.nemo.preferences show-up-icon-toolbar false
+                gsettings set org.nemo.preferences show-reload-icon-toolbar false
+                gsettings set org.nemo.window-state start-with-sidebar true
+                gsettings set org.nemo.window-state start-with-status-bar false
+                gsettings set org.nemo.window-state start-with-menu-bar false
+                gsettings set org.nemo.window-state start-with-toolbar true
+                gsettings set org.nemo.preferences show-full-path-titles false
+                gsettings set org.nemo.preferences always-use-browser true
+                gsettings set org.nemo.preferences show-edit-icon-toolbar false
+            elif [ "$2" = "Vanilla" ]; then
+                gsettings set org.nemo.preferences show-location-entry false
+                gsettings set org.nemo.preferences show-new-folder-icon-toolbar false
+                gsettings set org.nemo.preferences show-up-icon-toolbar true
+                gsettings set org.nemo.preferences show-reload-icon-toolbar false
+                gsettings set org.nemo.window-state start-with-sidebar true
+                gsettings set org.nemo.window-state start-with-status-bar true
+                gsettings set org.nemo.window-state start-with-menu-bar true
+                gsettings set org.nemo.window-state start-with-toolbar true
+                gsettings set org.nemo.preferences show-full-path-titles false
+                gsettings set org.nemo.preferences always-use-browser true
+                gsettings set org.nemo.preferences show-edit-icon-toolbar true
+            fi
+elif [ "$1" = "latteon" ]; then
+    cp -f "/usr/share/applications/org.kde.latte-dock.desktop" "$HOME/.config/autostart/org.kde.latte-dock.desktop"
+    /usr/bin/feren-latte-launch >/dev/null 2>&1 &
+elif [ "$1" = "latteoff" ]; then
+    rm -f $HOME/.config/autostart/org.kde.latte-dock.desktop
+    /usr/bin/feren-latte-launch quit
+elif [ "$1" = "resetlayout" ]; then
+    killall plasmashell
+    /bin/rm "$HOME/.config/plasma-org.kde.plasma.desktop-appletsrc"
+    sleep 0.2
+    /usr/bin/plasmashell --replace >/dev/null 2>&1 &
+elif [ "$1" = "triggerxsettingsd" ]; then
+    killall change-xsettingsd-theme feren-xsettings-daemon feren-xsettings-daemon-start
+    rm -f /tmp/xsettings-lock-$(whoami)
+    /usr/bin/feren-xsettings-daemon-start --start >/dev/null 2>&1 &
+else
+    echo "feren-theme-tool usage:
+hide-maximised-titlebar: Hide maximised titlebars
+show-maximised-titlebar: Show maximised titlebars
+lattemeta: Set Meta to trigger the assigned menu applet in Latte Dock rather than in Plasma Shell
+revertmeta: Revert Meta to triggering the assigned menu applet in Plasma Shell rather than in Latte Dock
+shadowfix: Enable Breeze-only shadows fixing on certain applications
+disableshadowfix: Disable Breeze-only shadows fixing on certain applications (recommended for Aurorae themes)
+setdarktheme colourname: Change the Dark Theme Applications workaround titlebar colour scheme
+setqttheme applicationstyle: Set the Qt5 Application Style (requires applications to be reloaded)
+setnemo Redmond/FamiliarTabbed/Familiar/Basic/Feren/FerenOld/Cupertino/Vanadium/Vanilla: Sets the Files (Nemo) Layout to a predefined layout (does not affect Dolphin)
+latteon: Enables Latte Dock and adds it to autostart
+latteoff: Disables Latte Dock and removes it from autostart
+resetlayout: Resets the Plasma Desktop Layout by force
+triggerxsettingd: Immediately triggers xsettingd and reloads the daemon for checking for theme changes"
+    exit 1
+fi
+exit 0

@@ -2,6 +2,7 @@
    Copyright (c) 2014 Marco Martin <mart@kde.org>
    Copyright (c) 2014 Vishesh Handa <me@vhanda.in>
    Copyright (c) 2019 Cyril Rossi <cyril.rossi@enioka.com>
+   Copyright (c) 2020 Dominic Hayes <ferenosdev@outlook.com>
 
    This library is free software; you can redistribute it and/or
    modify it under the terms of the GNU Library General Public
@@ -71,8 +72,11 @@ public:
 
     //Setters of the various theme pieces
     void setWidgetStyle(const QString &style);
+    void setKvantum(const QString &theme);
     void setColors(const QString &scheme, const QString &colorFile);
     void setIcons(const QString &theme);
+    void setGTK(const QString &gtk2, const QString &gtk3);
+    void setDarkDeco(const QString &theme);
     void setPlasmaTheme(const QString &theme);
     void setCursorTheme(const QString theme);
     void setSplashScreen(const QString &theme);

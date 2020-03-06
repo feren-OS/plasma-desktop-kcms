@@ -2,6 +2,7 @@
    Copyright (c) 2014 Marco Martin <mart@kde.org>
    Copyright (c) 2014 Vishesh Handa <me@vhanda.in>
    Copyright (c) 2019 Cyril Rossi <cyril.rossi@enioka.com>
+   Copyright (c) 2020 Dominic Hayes <ferenosdev@outlook.com>
 
    This library is free software; you can redistribute it and/or
    modify it under the terms of the GNU Library General Public
@@ -53,6 +54,12 @@ public:
     QStandardItemModel *desktopLayoutModel() const;
 
     Q_INVOKABLE int pluginIndex(const QString &pluginName) const;
+    
+    //Setters of the various layout pieces
+    void setFilesLayout(const QString &theme);
+    void setLatteLayout(const QString &theme);
+    void setBorderlessMaximised(const QString &theme);
+    void setWindowButtonsLayout(const QString &leftbtns, const QString &rightbtns);
 
     Q_INVOKABLE void reloadModel();
 

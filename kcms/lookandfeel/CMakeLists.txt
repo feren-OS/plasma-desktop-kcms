@@ -124,3 +124,55 @@ endif ()
 
 install( TARGETS lookandfeeltool ${KDE_INSTALL_TARGETS_DEFAULT_ARGS} )
 
+#Qt Style Tool
+set(qtstyletool_SRCS
+    qtstyletool.cpp
+    # TODO: load kcm plugin instead of using code copy
+    kcm.cpp
+    ../krdb/krdb.cpp
+)
+
+if (X11_Xcursor_FOUND)
+    set(qtstyletool_SRCS
+        ${qtstyletool_SRCS}
+        ../cursortheme/xcursor/cursortheme.cpp
+        ../cursortheme/xcursor/xcursortheme.cpp
+    )
+endif ()
+
+qt5_add_dbus_interface(qtstyletool_SRCS ${klauncher_xml} klauncher_iface)
+
+kconfig_add_kcfg_files(qtstyletool_SRCS lookandfeelsettings.kcfgc GENERATE_MOC)
+
+add_executable(qtstyletool ${qtstyletool_SRCS})
+
+target_link_libraries(qtstyletool
+  KF5::KIOWidgets
+  KF5::CoreAddons
+  KF5::KCMUtils
+  KF5::I18n
+  #TODO:kpackage
+  KF5::Plasma
+  KF5::PlasmaQuick
+  KF5::KDELibs4Support
+  KF5::Declarative
+  KF5::QuickAddons
+  KF5::NewStuff
+
+  Qt5::DBus
+  Qt5::Widgets
+  Qt5::QuickWidgets
+  ${X11_LIBRARIES}
+)
+
+if(X11_FOUND)
+    target_link_libraries(qtstyletool Qt5::X11Extras)
+endif()
+if (X11_Xcursor_FOUND)
+   target_link_libraries(qtstyletool ${X11_Xcursor_LIB})
+endif ()
+if (X11_Xfixes_FOUND)
+   target_link_libraries(qtstyletool ${X11_Xfixes_LIB})
+endif ()
+
+install( TARGETS qtstyletool ${KDE_INSTALL_TARGETS_DEFAULT_ARGS} )

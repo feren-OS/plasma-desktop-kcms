@@ -2,6 +2,7 @@
    Copyright (c) 2014 Marco Martin <mart@kde.org>
    Copyright (c) 2014 Vishesh Handa <me@vhanda.in>
    Copyright (c) 2019 Cyril Rossi <cyril.rossi@enioka.com>
+   Copyright (c) 2020 Dominic Hayes <ferenosdev@outlook.com>
 
    This library is free software; you can redistribute it and/or
    modify it under the terms of the GNU Library General Public
@@ -187,19 +188,59 @@ void KCMDesktopLayout::save()
 
     ManagedConfigModule::save();
 
-            QDBusMessage message = QDBusMessage::createMethodCall(QStringLiteral("org.kde.plasmashell"), QStringLiteral("/PlasmaShell"),
+    QDBusMessage message = QDBusMessage::createMethodCall(QStringLiteral("org.kde.plasmashell"), QStringLiteral("/PlasmaShell"),
                                                    QStringLiteral("org.kde.PlasmaShell"), QStringLiteral("loadLookAndFeelDefaultLayout"));
 
-        QList<QVariant> args;
-        args << m_settings->lookAndFeelPackage();
-        message.setArguments(args);
+    QList<QVariant> args;
+    args << m_settings->lookAndFeelPackage();
+    message.setArguments(args);
 
-        QDBusConnection::sessionBus().call(message, QDBus::NoBlock);
+    QDBusConnection::sessionBus().call(message, QDBus::NoBlock);
 
     if (!package.filePath("defaults").isEmpty()) {
         KSharedConfigPtr conf = KSharedConfig::openConfig(package.filePath("defaults"));
-        KConfigGroup cg(conf, "kdeglobals");
+        KConfigGroup cg(conf, "FerenThemer");
+        cg = KConfigGroup(&cg, "Options");
+        setFilesLayout(cg.readEntry("FilesStyle", QString()));
+        // Cleanly quit Latte Dock
+        std::system("/usr/bin/killall feren-latte-launch");
+        QDBusMessage message = QDBusMessage::createMethodCall(QStringLiteral("org.kde.lattedock"), QStringLiteral("/MainApplication"),
+                                                QStringLiteral("org.qtproject.Qt.QCoreApplication"), QStringLiteral("quit"));
+        QDBusConnection::sessionBus().call(message, QDBus::NoBlock);
+        if (cg.readEntry("MetaType", QString()) == "Latte") {
+                std::system("/usr/bin/feren-theme-tool-plasma lattemeta");
+        } else {
+                std::system("/usr/bin/feren-theme-tool-plasma revertmeta");
+        }
+        cg = KConfigGroup(conf, "kwinrc");
+        cg = KConfigGroup(&cg, "org.kde.kdecoration2");
+        setWindowButtonsLayout(cg.readEntry("ButtonsOnLeft", QString()), cg.readEntry("ButtonsOnRight", QString()));
+            
+        cg = KConfigGroup(conf, "lattedockrc");
+        cg = KConfigGroup(&cg, "UniversalSettings");
+        setLatteLayout(cg.readEntry("currentLayout", QString()));
+        
+        cg = KConfigGroup(conf, "kwinrc");
+        cg = KConfigGroup(&cg, "Windows");
+        setBorderlessMaximised(cg.readEntry("BorderlessMaximizedWindows", QString()));
+        
+        cg = KConfigGroup(conf, "kdeglobals");
         cg = KConfigGroup(&cg, "KDE");
+        
+        // If the Desktop Layout is not org.feren.default and the Plasma Theme specified is 'feren', set it to 'feren-alt' instead - same for 'feren-light' -> 'feren-light-alt', and if it is org.feren.default switch it back if on -alt
+        KConfig config2(QStringLiteral("plasmarc"));
+        KConfigGroup cg2(&config2, "Theme");
+
+        if ((cg2.readEntry("name", QString()) == "feren") && (m_settings->lookAndFeelPackage() != "org.feren.default")) {
+            cg2.writeEntry("name", QString("feren-alt"));
+        } else if ((cg2.readEntry("name", QString()) == "feren-light") && (m_settings->lookAndFeelPackage() != "org.feren.default")) {
+            cg2.writeEntry("name", QString("feren-light-alt"));
+        } else if ((cg2.readEntry("name", QString()) == "feren-alt") && (m_settings->lookAndFeelPackage() == "org.feren.default")) {
+            cg2.writeEntry("name", QString("feren"));
+        } else if ((cg2.readEntry("name", QString()) == "feren-light-alt") && (m_settings->lookAndFeelPackage() == "org.feren.default")) {
+            cg2.writeEntry("name", QString("feren-light"));
+        }
+        cg2.sync();
         
         //autostart
         //remove all the old package to autostart
@@ -235,6 +276,90 @@ void KCMDesktopLayout::save()
         }
     }
 
+    // Reload KWin if something changed, but only once.
+    QDBusMessage message2 = QDBusMessage::createSignal(QStringLiteral("/KWin"),
+                                            QStringLiteral("org.kde.KWin"),
+                                            QStringLiteral("reloadConfig"));
+    QDBusConnection::sessionBus().send(message2);
+
     m_configGroup.sync();
     m_package.setPath(m_settings->lookAndFeelPackage());
+}
+
+void KCMDesktopLayout::setBorderlessMaximised(const QString &theme)
+{
+    
+    KConfig kwinconfig(QString("kwinrc"));
+    KConfigGroup cg(&kwinconfig, "Windows");
+    
+    if (theme.isEmpty()) {
+        cg.writeEntry("BorderlessMaximizedWindows", "false");
+        cg.sync();
+        return;
+    }
+    
+    cg.writeEntry("BorderlessMaximizedWindows", theme);
+    cg.sync();
+}
+
+void KCMDesktopLayout::setLatteLayout(const QString &theme)
+{
+    
+    if (theme.isEmpty()) {
+        return;
+    }
+    
+    if (QString(theme) != "None") {
+        // Make sure Latte is not running as there seems to be inconsistencies with applying layouts
+        std::system("/usr/bin/killall feren-latte-launch");
+        std::system("/usr/bin/killall latte-dock");
+        KConfig config(QString("lattedockrc"));
+        KConfigGroup cg(&config, "UniversalSettings");
+        //lastNonAssignedLayout also needs to be changed as otherwise Latte switches back to the layout that lastNonAssignedLayout is currently set to when loading up
+        cg.writeEntry("currentLayout", theme);
+        cg.writeEntry("lastNonAssignedLayout", theme);
+        cg.sync();
+        QDBusMessage message = QDBusMessage::createMethodCall(QStringLiteral("org.kde.lattedock"), QStringLiteral("/Latte"),
+                                                    QStringLiteral("org.kde.LatteDock"), QStringLiteral("switchToLayout"));
+ 
+         QList<QVariant> args;
+         args << theme;
+         message.setArguments(args);
+ 
+         QDBusConnection::sessionBus().call(message, QDBus::NoBlock);
+    } else {
+        // Disable Latte Dock's autostarting
+        KAutostart as("org.kde.latte-dock");
+        as.setAutostarts(false);
+        // Cleanly quit Latte Dock
+        std::system("/usr/bin/killall feren-latte-launch");
+        QDBusMessage message = QDBusMessage::createMethodCall(QStringLiteral("org.kde.lattedock"), QStringLiteral("/MainApplication"),
+                                                    QStringLiteral("org.qtproject.Qt.QCoreApplication"), QStringLiteral("quit"));
+        QDBusConnection::sessionBus().call(message, QDBus::NoBlock);
+    }
+}
+
+void KCMDesktopLayout::setFilesLayout(const QString &theme)
+{
+    if (theme.isEmpty()) {
+        return;
+    }
+    
+    std::string selectedtheme = theme.toStdString();
+    std::system(("/usr/bin/feren-theme-tool-plasma setnemo "+selectedtheme).c_str());
+}
+
+void KCMDesktopLayout::setWindowButtonsLayout(const QString &leftbtns, const QString &rightbtns)
+{
+    if (leftbtns.isEmpty() && rightbtns.isEmpty()) {
+        return;
+    }
+    
+    KConfig config(QStringLiteral("kwinrc"));
+    KConfigGroup cg(&config, "org.kde.kdecoration2");
+    cg.writeEntry("ButtonsOnLeft", leftbtns);
+    cg.writeEntry("ButtonsOnRight", rightbtns);
+    
+    cg.sync();
+    
 }
