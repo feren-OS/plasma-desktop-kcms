@@ -21,7 +21,6 @@
 
 #include "kcm.h"
 #include "../krdb/krdb.h"
-#include "../desktoplayout/kcm.h"
 #include "config-kcm.h"
 #include "config-workspace.h"
 #include <klauncher_iface.h>
@@ -385,7 +384,6 @@ void KCMLookandFeel::save()
     m_configGroup.sync();
     m_package.setPath(m_settings->globalThemePackage());
     
-    //Regenerate GTK Colour Scheme
     runRdb(KRdbExportQtColors | KRdbExportGtkTheme | KRdbExportColors | KRdbExportQtSettings | KRdbExportXftSettings);
 }
 
@@ -420,6 +418,7 @@ void KCMLookandFeel::setColors(const QString &scheme, const QString &colorFile)
     configGroup.sync();
     KGlobalSettings::self()->emitChange(KGlobalSettings::PaletteChanged);
 
+    //Regenerate GTK Colour Scheme
     saveGtkColors(conf);
 }
 
