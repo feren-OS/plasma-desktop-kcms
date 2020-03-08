@@ -62,7 +62,7 @@ KCMDesktopLayout::KCMDesktopLayout(QObject *parent, const QVariantList &args)
 
     KAboutData *about = new KAboutData(QStringLiteral("kcm_desktoplayout"), i18n("Desktop Layout"),
                                        QStringLiteral("0.1"), QString(), KAboutLicense::LGPL);
-    about->addAuthor(i18n("Marco Martin"), QString(), QStringLiteral("mart@kde.org"));
+    about->addAuthor(i18n("Dominic Hayes"), QString(), QStringLiteral("ferenosdev@outlook.com"));
     setAboutData(about);
     setButtons(Apply | Default);
 

@@ -42,7 +42,7 @@ int main(int argc, char **argv)
     const char version[] = "1.0";
 
     // About data
-    KAboutData aboutData("desktoplayouttool", i18n("Desktop Layout Tool"), version, i18n("Command line tool to apply desktop layout packages for changing the desktop layout."), KAboutLicense::GPL, i18n("Copyright 2020, Dominic Hayes"));
+    KAboutData aboutData("desktoplayouttool", i18n("Desktop Layout Tool"), version, i18n("Command line tool to apply desktop layout packages for changing the desktop layout."), KAboutLicense::GPL, i18n("Copyright 2017, Marco Martin, Copyright 2020, Dominic Hayes"));
     aboutData.addAuthor(i18n("Dominic Hayes"), i18n("Maintainer"), QStringLiteral("ferenosdev@outlook.com"));
     aboutData.setDesktopFileName("org.feren.plasma.desktoplayouttool");
     KAboutData::setApplicationData(aboutData);

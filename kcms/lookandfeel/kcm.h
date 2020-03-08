@@ -38,7 +38,6 @@ class KCMLookandFeel : public KQuickAddons::ManagedConfigModule
     Q_OBJECT
     Q_PROPERTY(LookAndFeelSettings *lookAndFeelSettings READ lookAndFeelSettings CONSTANT)
     Q_PROPERTY(QStandardItemModel *lookAndFeelModel READ lookAndFeelModel CONSTANT)
-    Q_PROPERTY(bool resetDefaultLayout READ resetDefaultLayout WRITE setResetDefaultLayout NOTIFY resetDefaultLayoutChanged)
 
 public:
     enum Roles {

@@ -42,7 +42,7 @@ int main(int argc, char **argv)
     const char version[] = "1.0";
 
     // About data
-    KAboutData aboutData("qtstyletool", i18n("Application Style tool"), version, i18n("Command line tool to apply a Qt Application Style."), KAboutLicense::GPL, i18n("Copyright 2017, Marco Martin, 2019, The Feren OS Dev"));
+    KAboutData aboutData("qtstyletool", i18n("Application Style tool"), version, i18n("Command line tool to apply a Qt Application Style."), KAboutLicense::GPL, i18n("Copyright 2017, Marco Martin, 2020, The Feren OS Dev"));
     aboutData.addAuthor(i18n("The Feren OS Dev"), i18n("Maintainer"), QStringLiteral("ferenosdev@outlook.com"));
     aboutData.setDesktopFileName("org.feren.qtstyletool");
     KAboutData::setApplicationData(aboutData);
