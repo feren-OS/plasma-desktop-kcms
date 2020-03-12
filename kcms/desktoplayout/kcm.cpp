@@ -357,8 +357,8 @@ void KCMDesktopLayout::setWindowButtonsLayout(const QString &leftbtns, const QSt
     
     KConfig config(QStringLiteral("kwinrc"));
     KConfigGroup cg(&config, "org.kde.kdecoration2");
-    cg.writeEntry("ButtonsOnLeft", leftbtns);
-    cg.writeEntry("ButtonsOnRight", rightbtns);
+    cg.writeEntry("ButtonsOnLeft", leftbtns, KConfigBase::Notify);
+    cg.writeEntry("ButtonsOnRight", rightbtns, KConfigBase::Notify);
     
     cg.sync();
     
