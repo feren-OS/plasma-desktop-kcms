@@ -88,6 +88,11 @@ int main(int argc, char **argv)
         kcm->load();
         kcm->desktopLayoutSettings()->setLookAndFeelPackage(parser.value(_apply));
         kcm->save();
+        // TODO: figure out why setLookAndFeelPackage isn't setting LookAndFeelPackage
+        KConfig config(QStringLiteral("kdeglobals"));
+        KConfigGroup cg(&config, "KDE");
+        cg.writeEntry("LookAndFeelPackage", parser.value(_apply));
+        cg.sync();
         delete kcm;
     }
 

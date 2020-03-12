@@ -96,6 +96,11 @@ int main(int argc, char **argv)
             std::string laftheme = parser.value(_apply).toStdString();
             std::system(("/usr/bin/desktoplayouttool -a " + laftheme).c_str());
         }
+        // TODO: figure out why setGlobalThemePackage isn't setting GlobalThemePackage
+        KConfig config(QStringLiteral("kdeglobals"));
+        KConfigGroup cg(&config, "KDE");
+        cg.writeEntry("GlobalThemePackage", parser.value(_apply));
+        cg.sync();
         delete kcm;
     }
 
