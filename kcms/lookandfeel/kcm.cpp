@@ -75,7 +75,6 @@ KCMLookandFeel::KCMLookandFeel(QObject *parent, const QVariantList &args)
     , m_applyWindowSwitcher(true)
     , m_applyDesktopSwitcher(true)
     , m_applyWindowDecoration(true)
-    , m_selectedScheme("")
 {
     qmlRegisterType<LookAndFeelSettings>();
     qmlRegisterType<QStandardItemModel>();
@@ -441,23 +440,17 @@ void KCMLookandFeel::setColors(const QString &scheme, const QString &colorFile)
     configGroup.sync();
     KGlobalSettings::self()->emitChange(KGlobalSettings::PaletteChanged);
     
-    setSelectedScheme(scheme);
-}
+    //FIXME: Find a way to make this instantly affect GTK3 applications
+    runRdb(KRdbExportQtColors | KRdbExportGtkTheme | KRdbExportColors);
 
-QString KCMLookandFeel::selectedScheme() const
-{
-    return m_selectedScheme;
-}
-
-void KCMLookandFeel::setSelectedScheme(const QString &scheme)
-{
-    if (m_selectedScheme == scheme) {
-        return;
-    }
-
-    m_selectedScheme = scheme;
-
-    emit selectedSchemeChanged(scheme);
+    QDBusMessage message = QDBusMessage::createSignal(QStringLiteral("/KGlobalSettings"),
+                                                      QStringLiteral("org.kde.KGlobalSettings"),
+                                                      QStringLiteral("notifyChange"));
+    message.setArguments({
+        0, //previous KGlobalSettings::PaletteChanged. This is now private API in khintsettings
+        0  //unused in palette changed but needed for the DBus signature
+    });
+    QDBusConnection::sessionBus().send(message);
 }
 
 void KCMLookandFeel::setKvantum(const QString &theme)

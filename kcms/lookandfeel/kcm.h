@@ -37,8 +37,7 @@ class KCMLookandFeel : public KQuickAddons::ManagedConfigModule
     Q_OBJECT
     Q_PROPERTY(LookAndFeelSettings *lookAndFeelSettings READ lookAndFeelSettings CONSTANT)
     Q_PROPERTY(QStandardItemModel *lookAndFeelModel READ lookAndFeelModel CONSTANT)
-    Q_PROPERTY(QString selectedScheme READ selectedScheme WRITE setSelectedScheme NOTIFY selectedSchemeChanged)
-    
+
 public:
     enum Roles {
         PluginNameRole = Qt::UserRole +1,
@@ -57,7 +56,7 @@ public:
         HasWindowSwitcherRole,
         HasDesktopSwitcherRole
     };
-    
+
     KCMLookandFeel(QObject* parent, const QVariantList& args);
     ~KCMLookandFeel() override;
 
@@ -80,15 +79,9 @@ public:
     void setWindowSwitcher(const QString &theme);
     void setDesktopSwitcher(const QString &theme);
     void setWindowDecoration(const QString &library, const QString &theme);
-    
-    QString selectedScheme() const;
-    void setSelectedScheme(const QString &scheme);
 
     Q_INVOKABLE void reloadModel();
-    
-Q_SIGNALS:
-    void selectedSchemeChanged(const QString &scheme);
-    
+
 public Q_SLOTS:
     void load() override;
     void save() override;
@@ -116,7 +109,6 @@ private:
     bool m_applyWindowSwitcher : 1;
     bool m_applyDesktopSwitcher : 1;
     bool m_applyWindowDecoration : 1;
-    QString m_selectedScheme;
 };
 
 #endif
