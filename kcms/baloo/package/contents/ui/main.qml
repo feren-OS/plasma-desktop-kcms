@@ -28,7 +28,8 @@ import org.kde.kcm 1.1 as KCM
 KCM.SimpleKCM {
     id: root
 
-    implicitHeight: Kirigami.Units.gridUnit * 22
+    implicitWidth: Kirigami.Units.gridUnit * 42
+    implicitHeight: Kirigami.Units.gridUnit * 25
 
     KCM.ConfigModule.quickHelp: i18n("This module lets you configure the file indexer and search functionality.")
     ColumnLayout {
@@ -42,24 +43,43 @@ KCM.SimpleKCM {
         QQC2.CheckBox {
             id: fileSearchEnabled
             text: i18n("Enable File Search")
-            checked: kcm.indexing
+            enabled: !kcm.balooSettings.isImmutable("indexingEnabled")
+            checked: kcm.balooSettings.indexingEnabled
             onCheckStateChanged: {
-                kcm.indexing = checked
+                kcm.balooSettings.indexingEnabled = checked
             }
         }
 
-        QQC2.CheckBox {
-            id: indexFileContents
-            text: i18n("Also index file content")
-            enabled: fileSearchEnabled.checked
-            checked: kcm.fileContents
-            onCheckStateChanged: kcm.fileContents = checked
+        RowLayout {
+            Layout.fillWidth: true
+
+            Item {
+                width: units.largeSpacing
+            }
+
+            ColumnLayout {
+                QQC2.CheckBox {
+                    id: indexFileContents
+                    text: i18n("Also index file content")
+                    enabled: fileSearchEnabled.checked && !kcm.balooSettings.isImmutable("onlyBasicIndexing")
+                    checked: !kcm.balooSettings.onlyBasicIndexing
+                    onCheckStateChanged: kcm.balooSettings.onlyBasicIndexing = !checked
+                }
+                QQC2.CheckBox {
+                    id: indexHiddenFolders
+                    text: i18n("Index hidden files and folders")
+                    enabled: fileSearchEnabled.checked && !kcm.balooSettings.isImmutable("indexHiddenFolders")
+                    checked: kcm.balooSettings.indexHiddenFolders
+                    onCheckStateChanged: kcm.balooSettings.indexHiddenFolders = checked
+                }
+            }
         }
+
         Item {
             Layout.preferredHeight: Kirigami.Units.gridUnit
         }
         QQC2.Label {
-            text: i18n("Do not search in these locations:")
+            text: i18n("Folder specific configuration:")
         }
 
         QQC2.ScrollView {
@@ -69,31 +89,139 @@ KCM.SimpleKCM {
             Layout.fillHeight: true
 
             ListView {
-                id: fileExcludeList
-
+                id: directoryConfigList
                 clip: true
+                currentIndex: -1
+
                 model: kcm.filteredModel
-                delegate: Kirigami.BasicListItem {
-                    icon: model.decoration
-                    label: model.folder
-                    onClicked: fileExcludeList.currentIndex = index
-                }
+                delegate: directoryConfigDelegate
             }
         }
 
-        RowLayout {
-            QQC2.Button {
-                id: addFolder
-                icon.name: "list-add"
-                onClicked: fileDialogLoader.active = true
-            }
+        QQC2.Button {
+            id: menuButton
 
-            QQC2.Button{
-                id: removeFolder
-                icon.name: "list-remove"
-                enabled: fileExcludeList.currentIndex !== -1
+            Layout.alignment: Qt.AlignRight
+
+            icon.name: "folder-add"
+            text: i18n("Add folder configuration...")
+
+            checkable: true
+            checked: menu.opened
+
+            onClicked: {
+                // Appear above the button, not below it, since the button is at
+                // the bottom of the window and QQC2 items can't leave the window
+
+                // HACK: since we want to position the menu above the button,
+                // we need to know the menu's height, but it only has a height
+                // after the first time it's been shown, so until then, we need
+                // to provide an artificially-synthesized-and-hopefully-good-enough
+                // height value
+                var menuHeight = menu.height && menu.height > 0 ? menu.height : Kirigami.Units.gridUnit * 3
+                menu.popup(menuButton, 0, -menuHeight)
+            }
+        }
+
+        QQC2.Menu {
+            id: menu
+
+            modal: true
+
+            QQC2.MenuItem {
+                text: i18n("Start indexing a folder...")
+                icon.name: "list-add"
+
                 onClicked: {
-                    kcm.filteredModel.removeFolder(fileExcludeList.currentIndex)
+                    fileDialogLoader.included = true
+                    fileDialogLoader.active = true
+                }
+            }
+            QQC2.MenuItem {
+                text: i18n("Stop indexing a folder...")
+                icon.name: "list-remove"
+
+                onClicked: {
+                    fileDialogLoader.included = false
+                    fileDialogLoader.active = true
+                }
+            }
+        }
+    }
+
+    Component {
+        id: directoryConfigDelegate
+        Kirigami.AbstractListItem {
+            id: listItem
+
+            // Store this as a property so we can access it within the combobox,
+            // which also has a `model` property
+            property var indexingModel: model
+
+            // There's no need for a list item to ever be selected
+            highlighted: false
+            hoverEnabled: false
+
+            contentItem: RowLayout {
+                spacing: units.smallSpacing
+
+                // The folder's icon
+                Kirigami.Icon {
+                    source: indexingModel.decoration
+
+                    Layout.preferredHeight: Kirigami.Units.iconSizes.smallMedium
+                    Layout.preferredWidth: Layout.preferredHeight
+                }
+
+                // The folder's path
+                QQC2.Label {
+                    text: indexingModel.folder
+                    elide: Text.ElideRight
+
+                    Layout.fillWidth: true
+                }
+
+                // What kind of indexing to do for the folder
+                QQC2.ComboBox {
+                    id: indexingOptionsCombobox
+
+                    property bool indexingDisabled: !indexingModel.enableIndex
+                    property bool fullContentIndexing: indexingModel.enableIndex
+
+                    model: [
+                        i18n("Not indexed"),
+                        i18n("Full content indexing")
+                    ]
+
+                    // Intentionally not a simple ternary to facilitate adding
+                    // more conditions in the future
+                    currentIndex: {
+                        if (indexingDisabled) return 0
+                        if (fullContentIndexing) return 1
+                    }
+
+                    onActivated: {
+                        // New value is "Not indexed"
+                        if (indexingOptionsCombobox.currentIndex === 0 && fullContentIndexing) {
+                            indexingModel.enableIndex = false
+                        // New value is "Full content indexing"
+                        } else if (indexingOptionsCombobox.currentIndex === 1 && indexingDisabled) {
+                            indexingModel.enableIndex = true
+                        }
+                    }
+                }
+
+                // Delete button to remove this folder entry
+                QQC2.Button {
+                    enabled: model.deletable
+
+                    icon.name: "edit-delete"
+
+                    onClicked: kcm.filteredModel.removeFolder(index)
+
+                    QQC2.ToolTip {
+                        text: i18n("Delete entry")
+                    }
                 }
             }
         }
@@ -101,14 +229,18 @@ KCM.SimpleKCM {
 
     Loader {
         id: fileDialogLoader
+
+        property bool included: false
+
         active: false
+
         sourceComponent: QtDialogs.FileDialog {
             title: i18n("Select a folder to filter")
             folder: shortcuts.home
             selectFolder: true
 
             onAccepted: {
-                kcm.filteredModel.addFolder(fileUrls[0])
+                kcm.filteredModel.addFolder(fileUrls[0], included)
                 fileDialogLoader.active = false
             }
 

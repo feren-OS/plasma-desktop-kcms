@@ -2,7 +2,6 @@
    Copyright (c) 2014 Marco Martin <mart@kde.org>
    Copyright (c) 2014 Vishesh Handa <me@vhanda.in>
    Copyright (c) 2019 Cyril Rossi <cyril.rossi@enioka.com>
-   Copyright (c) 2020 Dominic Hayes <ferenosdev@outlook.com>
 
    This library is free software; you can redistribute it and/or
    modify it under the terms of the GNU Library General Public
@@ -38,7 +37,8 @@ class KCMLookandFeel : public KQuickAddons::ManagedConfigModule
     Q_OBJECT
     Q_PROPERTY(LookAndFeelSettings *lookAndFeelSettings READ lookAndFeelSettings CONSTANT)
     Q_PROPERTY(QStandardItemModel *lookAndFeelModel READ lookAndFeelModel CONSTANT)
-
+    Q_PROPERTY(QString selectedScheme READ selectedScheme WRITE setSelectedScheme NOTIFY selectedSchemeChanged)
+    
 public:
     enum Roles {
         PluginNameRole = Qt::UserRole +1,
@@ -57,7 +57,7 @@ public:
         HasWindowSwitcherRole,
         HasDesktopSwitcherRole
     };
-
+    
     KCMLookandFeel(QObject* parent, const QVariantList& args);
     ~KCMLookandFeel() override;
 
@@ -65,9 +65,6 @@ public:
     QStandardItemModel *lookAndFeelModel() const;
 
     Q_INVOKABLE int pluginIndex(const QString &pluginName) const;
-
-    bool resetDefaultLayout() const;
-    void setResetDefaultLayout(bool reset);
 
     //Setters of the various theme pieces
     void setWidgetStyle(const QString &style);
@@ -83,15 +80,18 @@ public:
     void setWindowSwitcher(const QString &theme);
     void setDesktopSwitcher(const QString &theme);
     void setWindowDecoration(const QString &library, const QString &theme);
+    
+    QString selectedScheme() const;
+    void setSelectedScheme(const QString &scheme);
 
     Q_INVOKABLE void reloadModel();
-
+    
+Q_SIGNALS:
+    void selectedSchemeChanged(const QString &scheme);
+    
 public Q_SLOTS:
     void load() override;
     void save() override;
-
-Q_SIGNALS:
-    void resetDefaultLayoutChanged();
 
 private:
     //List only packages which provide at least one of the components
@@ -115,8 +115,8 @@ private:
     bool m_applyCursors : 1;
     bool m_applyWindowSwitcher : 1;
     bool m_applyDesktopSwitcher : 1;
-    bool m_resetDefaultLayout : 1;
     bool m_applyWindowDecoration : 1;
+    QString m_selectedScheme;
 };
 
 #endif

@@ -20,9 +20,6 @@ if (X11_Xcursor_FOUND)
     )
 endif ()
 
-set(klauncher_xml ${KINIT_DBUS_INTERFACES_DIR}/kf5_org.kde.KLauncher.xml)
-qt5_add_dbus_interface(kcm_lookandfeel_SRCS ${klauncher_xml} klauncher_iface)
-
 kconfig_add_kcfg_files(kcm_lookandfeel_SRCS lookandfeelsettings.kcfgc GENERATE_MOC)
 
 add_library(kcm_lookandfeel MODULE ${kcm_lookandfeel_SRCS})
@@ -38,6 +35,7 @@ target_link_libraries(kcm_lookandfeel
   KF5::KDELibs4Support
   KF5::Declarative
   KF5::QuickAddons
+  PW::KWorkspace
 
   Qt5::DBus
   Qt5::Widgets
@@ -87,8 +85,6 @@ if (X11_Xcursor_FOUND)
     )
 endif ()
 
-qt5_add_dbus_interface(lookandfeeltool_SRCS ${klauncher_xml} klauncher_iface)
-
 kconfig_add_kcfg_files(lookandfeeltool_SRCS lookandfeelsettings.kcfgc GENERATE_MOC)
 
 add_executable(lookandfeeltool ${lookandfeeltool_SRCS})
@@ -105,6 +101,7 @@ target_link_libraries(lookandfeeltool
   KF5::Declarative
   KF5::QuickAddons
   KF5::NewStuff
+  PW::KWorkspace
 
   Qt5::DBus
   Qt5::Widgets
@@ -124,7 +121,9 @@ endif ()
 
 install( TARGETS lookandfeeltool ${KDE_INSTALL_TARGETS_DEFAULT_ARGS} )
 
-#Qt Style Tool
+
+###### Qt5 Style tool
+
 set(qtstyletool_SRCS
     qtstyletool.cpp
     # TODO: load kcm plugin instead of using code copy
@@ -139,8 +138,6 @@ if (X11_Xcursor_FOUND)
         ../cursortheme/xcursor/xcursortheme.cpp
     )
 endif ()
-
-qt5_add_dbus_interface(qtstyletool_SRCS ${klauncher_xml} klauncher_iface)
 
 kconfig_add_kcfg_files(qtstyletool_SRCS lookandfeelsettings.kcfgc GENERATE_MOC)
 
@@ -158,6 +155,7 @@ target_link_libraries(qtstyletool
   KF5::Declarative
   KF5::QuickAddons
   KF5::NewStuff
+  PW::KWorkspace
 
   Qt5::DBus
   Qt5::Widgets

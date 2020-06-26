@@ -50,6 +50,7 @@
   <summary xml:lang="ast">La esperiencia d'escritoriu completa de KDE. Cenciellu por defeutu, potente cuando se precisa</summary>
   <summary xml:lang="ca">Experiència completa de l'escriptori KDE. Senzilla per omissió, potent quan cal</summary>
   <summary xml:lang="ca-valencia">Experiència completa de l'escriptori KDE. Senzilla per defecte, potent quan cal</summary>
+  <summary xml:lang="cs">Úplné grafické prostředí KDE. Jednoduché, ale mocné</summary>
   <summary xml:lang="da">KDE's komplette desktop-oplevelse. Simpelt som standard, kraftfuldt når det behøves</summary>
   <summary xml:lang="de">Das umfassende Arbeitsflächen-Erlebnis von KDE. Standardmäßig einfach, bei Bedarf leistungsstark</summary>
   <summary xml:lang="el">Η πλήρης εμπειρία επιφάνειας εργασίας του KDE. Προκαθορισμένα απλή, πανίσχυρη όταν χρειάζεται.</summary>
@@ -107,6 +108,7 @@
       <caption xml:lang="fi">Plasma on käytössä työpöytänä</caption>
       <caption xml:lang="fr">Plasma utilisé comme bureau</caption>
       <caption xml:lang="gl">Plasma usado como escritorio.</caption>
+      <caption xml:lang="ia">Plasma es usate como scriptorio</caption>
       <caption xml:lang="id">Plasma telah digunakan sebagai desktop</caption>
       <caption xml:lang="it">Plasma usato come desktop</caption>
       <caption xml:lang="ko">Plasma를 데스크톱으로 사용함</caption>
@@ -135,9 +137,9 @@
     </screenshot>
   </screenshots>
   <releases>
-    <release version="5.18.2" date="2020-02-25"/>
-    <release version="5.18.1" date="2020-02-18"/>
-    <release version="5.18.0" date="2020-02-11"/>
-    <release version="5.17.5" date="2020-01-07"/>
+    <release version="5.19.2" date="2020-06-23"/>
+    <release version="5.19.1" date="2020-06-16"/>
+    <release version="5.19.0" date="2020-06-09"/>
+    <release version="5.18.5" date="2020-05-05"/>
   </releases>
 </component>

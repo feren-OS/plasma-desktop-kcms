@@ -51,8 +51,9 @@
 #include <X11/Xlib.h>
 #include <X11/Xcursor/Xcursor.h>
 
+#include <updatelaunchenvjob.h>
+
 #include "cursorthemesettings.h"
-#include <klauncher_iface.h>
 
 #ifdef HAVE_XFIXES
 #  include <X11/extensions/Xfixes.h>
@@ -216,11 +217,7 @@ void CursorThemeConfig::updateSizeComboBox()
             if (m_pixmap.height() > maxIconHeight) {
                 maxIconHeight = m_pixmap.height();
             }
-            QStandardItem *item = new QStandardItem(QIcon(m_pixmap),
-                i18nc("@item:inlistbox size", "Resolution dependent"));
-            item->setData(0);
-            m_sizesModel->appendRow(item);
-            comboBoxList << 0;
+
             foreach (i, sizes) {
                 m_pixmap = theme->createIcon(i);
                 if (m_pixmap.width() > maxIconWidth) {
@@ -289,10 +286,7 @@ bool CursorThemeConfig::applyTheme(const CursorTheme *theme, const int size)
     QByteArray themeName = QFile::encodeName(theme->name());
 
     // Set up the proper launch environment for newly started apps
-    OrgKdeKLauncherInterface klauncher(QStringLiteral("org.kde.klauncher5"),
-                                       QStringLiteral("/KLauncher"),
-                                       QDBusConnection::sessionBus());
-    klauncher.setLaunchEnv(QStringLiteral("XCURSOR_THEME"), themeName);
+    UpdateLaunchEnvJob launchEnvJob(QStringLiteral("XCURSOR_THEME"), themeName);
 
     // Update the Xcursor X resources
     runRdb(0);
@@ -334,9 +328,6 @@ bool CursorThemeConfig::applyTheme(const CursorTheme *theme, const int size)
 int CursorThemeConfig::cursorSizeIndex(int cursorSize) const
 {
     if (m_sizesModel->rowCount() > 0) {
-         if (cursorSize  == 0) {
-             return 0;
-         }
          const auto items = m_sizesModel->findItems(QString::number(cursorSize));
          if (items.count() == 1) {
              return items.first()->row();

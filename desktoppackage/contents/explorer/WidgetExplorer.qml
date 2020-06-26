@@ -210,9 +210,10 @@ Item {
             id: header
             Layout.fillWidth: true
             Layout.alignment: Qt.AlignVCenter
-            PlasmaExtras.Title {
+            PlasmaExtras.Heading {
                 id: heading
                 anchors.verticalCenter: parent.verticalCenter
+                level: 1
                 text: i18nd("plasma_shell_org.kde.plasma.desktop", "Widgets")
                 width: parent.width
                 elide: Text.ElideRight
@@ -305,9 +306,7 @@ Item {
                 NumberAnimation {
                     properties: "x"
                     from: -list.width
-                    to: 0
-                    duration: units.shortDuration * 3
-
+                    duration: units.shortDuration
                 }
             }
 
@@ -316,7 +315,7 @@ Item {
                 NumberAnimation {
                     properties: "x"
                     to: list.width
-                    duration: units.shortDuration * 3
+                    duration: units.shortDuration
                 }
             }
 
@@ -328,9 +327,21 @@ Item {
             //moved due to filtering
             displaced: Transition {
                 NumberAnimation {
-                    properties: "y"
-                    duration: units.shortDuration * 3
+                    properties: "x,y"
+                    duration: units.shortDuration
                 }
+            }
+
+            PlasmaExtras.Heading {
+                anchors.fill: parent
+                anchors.margins: units.largeSpacing
+                horizontalAlignment: Text.AlignHCenter
+                verticalAlignment: Text.AlignVCenter
+                wrapMode: Text.WordWrap
+                level: 2
+                text: searchInput.text.length > 0 ? i18n("No widgets matched the search terms") : i18n("No widgets available")
+                enabled: false
+                visible: list.count == 0
             }
         }
     }

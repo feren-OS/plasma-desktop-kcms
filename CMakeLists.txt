@@ -2,11 +2,11 @@ cmake_minimum_required(VERSION 3.0)
 
 project(plasma-desktop)
 
-set(PROJECT_VERSION "5.18.2")
+set(PROJECT_VERSION "5.19.2")
 set(PROJECT_VERSION_MAJOR 5)
 
 set(QT_MIN_VERSION "5.12.0")
-set(KF5_MIN_VERSION "5.66.0")
+set(KF5_MIN_VERSION "5.69.0")
 
 find_package(ECM ${KF5_MIN_VERSION} REQUIRED NO_MODULE)
 set(CMAKE_MODULE_PATH ${ECM_MODULE_PATH} ${ECM_KDE_MODULE_DIR} ${CMAKE_CURRENT_SOURCE_DIR}/cmake/modules)
@@ -54,6 +54,7 @@ find_package(KF5 ${KF5_MIN_VERSION} REQUIRED COMPONENTS
     Activities
     ActivitiesStats
     Config
+    WidgetsAddons
 )
 
 find_package(KF5Kirigami2 ${KF5_MIN_VERSION} CONFIG)
@@ -80,20 +81,21 @@ find_package(KRunnerAppDBusInterface CONFIG REQUIRED)
 find_package(KSMServerDBusInterface CONFIG REQUIRED)
 find_package(KF5ItemModels CONFIG REQUIRED)
 find_package(KF5Emoticons CONFIG REQUIRED)
-find_package(KF5 REQUIRED COMPONENTS SysGuard)
+find_package(KSysGuard CONFIG REQUIRED)
+find_package(KDED CONFIG REQUIRED)
 
-# find_package(KF5Baloo ${KF5_MIN_VERSION})
-# set_package_properties(KF5Baloo PROPERTIES DESCRIPTION "File Searching"
-#                        TYPE RECOMMENDED
-#                        PURPOSE "Needed to build the File Search KCM"
-#                       )
-# 
-# find_package(Fontconfig)
-# set_package_properties(Fontconfig PROPERTIES DESCRIPTION "Font access configuration library"
-#                        URL "https://www.freedesktop.org/wiki/Software/fontconfig"
-#                        TYPE OPTIONAL
-#                        PURPOSE "Needed to build font configuration and installation tools"
-#                       )
+find_package(KF5Baloo ${KF5_MIN_VERSION})
+set_package_properties(KF5Baloo PROPERTIES DESCRIPTION "File Searching"
+                       TYPE RECOMMENDED
+                       PURPOSE "Needed to build the File Search KCM"
+                      )
+
+find_package(Fontconfig)
+set_package_properties(Fontconfig PROPERTIES DESCRIPTION "Font access configuration library"
+                       URL "https://www.freedesktop.org/wiki/Software/fontconfig"
+                       TYPE OPTIONAL
+                       PURPOSE "Needed to build font configuration and installation tools"
+                      )
 
 find_package(X11)
 set_package_properties(X11 PROPERTIES DESCRIPTION "X11 libraries"
@@ -131,6 +133,10 @@ find_package(Synaptics)
 set_package_properties(Synaptics PROPERTIES TYPE OPTIONAL)
 add_feature_info("Synaptics" SYNAPTICS_FOUND "Synaptics libraries needed for touchpad KCM")
 
+find_package(XorgServer)
+set_package_properties(XorgServer PROPERTIES TYPE OPTIONAL)
+add_feature_info("XorgServer" XORGSERVER_FOUND "XServer header needed for touchpad KCM (X11 backend)")
+
 find_package(XorgLibinput)
 set_package_properties(XorgLibinput PROPERTIES TYPE OPTIONAL)
 add_feature_info("XorgLibinput" XORGLIBINPUT_FOUND "Libinput driver headers needed for mouse and touchpad KCM")
@@ -166,22 +172,22 @@ plasma_install_package(desktoppackage org.kde.plasma.desktop shells shell)
 
 add_definitions(-DQT_NO_URL_CAST_FROM_STRING)
 
-# add_subdirectory(layout-templates)
+#add_subdirectory(layout-templates)
 
-# add_subdirectory(doc)
-# add_subdirectory(runners)
-# add_subdirectory(containments)
-# add_subdirectory(toolboxes)
-# add_subdirectory(applets)
-# add_subdirectory(dataengines)
+#add_subdirectory(doc)
+#add_subdirectory(runners)
+#add_subdirectory(containments)
+#add_subdirectory(toolboxes)
+#add_subdirectory(applets)
+#add_subdirectory(dataengines)
 add_subdirectory(kcms)
-# add_subdirectory(knetattach)
-# add_subdirectory(attica-kde)
-# add_subdirectory(imports/activitymanager/)
-# add_subdirectory(solid-device-automounter)
-# if(X11_Xkb_FOUND AND XCB_XKB_FOUND)
-#     add_subdirectory(kaccess)
-# endif()
+#add_subdirectory(knetattach)
+#add_subdirectory(attica-kde)
+#add_subdirectory(imports/activitymanager/)
+#add_subdirectory(solid-device-automounter)
+#if(X11_Xkb_FOUND AND XCB_XKB_FOUND)
+    #add_subdirectory(kaccess)
+#endif()
 install(FILES org.kde.plasmashell.metainfo.xml DESTINATION ${KDE_INSTALL_METAINFODIR})
 
 # add clang-format target for all our real source files

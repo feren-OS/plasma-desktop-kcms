@@ -1,6 +1,7 @@
 /*
  * This file is part of the KDE Baloo project
  * Copyright (C) 2014  Vishesh Handa <me@vhanda.in>
+ * Copyright (c) 2020 Benjamin Port <benjamin.port@enioka.com>
  *
  * This library is free software; you can redistribute it and/or
  * modify it under the terms of the GNU Lesser General Public
@@ -22,52 +23,50 @@
 #define FILTEREDFOLDERMODEL_H
 
 #include <QAbstractListModel>
+#include <Baloo/IndexerConfig>
+
+class BalooSettings;
 
 class FilteredFolderModel : public QAbstractListModel
 {
     Q_OBJECT
 public:
-    explicit FilteredFolderModel(QObject* parent);
-
-    void setDirectoryList(const QStringList& includeDirs, const QStringList& exclude);
-    QStringList includeFolders() const;
-    QStringList excludeFolders() const;
+    explicit FilteredFolderModel(BalooSettings *settings, QObject *parent);
 
     enum Roles {
         Folder = Qt::UserRole + 1,
-        Url
+        Url,
+        EnableIndex,
+        Deletable,
     };
 
     QVariant data(const QModelIndex& idx, int role) const override;
+    bool setData(const QModelIndex& idx, const QVariant& value, int role) override;
     int rowCount(const QModelIndex& parent) const override;
 
-    Q_INVOKABLE void addFolder(const QString& folder);
+    Q_INVOKABLE void addFolder(const QString& folder, const bool included);
     Q_INVOKABLE void removeFolder(int row);
     QHash<int, QByteArray> roleNames() const override;
-Q_SIGNALS:
-    void folderAdded();
-    void folderRemoved();
+
+public slots:
+    void updateDirectoryList();
 
 private:
-    QString folderDisplayName(const QString& url) const;
-    bool shouldShowMountPoint(const QString& mountPoint);
-    QString fetchMountPoint(const QString& url) const;
-    void showMessage(const QString& message);
+    BalooSettings *m_settings;
+    Baloo::IndexerConfig m_runtimeConfig;
 
-    /**
-     * @brief Get the theme valid icon name for \p path.
-     *
-     * @param path Path to be analysed.
-     * @return One of: "user-home", "drive-harddisk" or "folder"
-     */
-    QString iconName(QString path) const;
+    struct FolderInfo {
+        QString url;
+        QString displayName;
+        QString icon;
+        bool enableIndex;
+        bool isFromConfig;
+    };
 
-    /**
-     * @brief Widget with the list of directories.
-     *
-     */
-    QStringList m_mountPoints;
-    QStringList m_excludeList;
+    QVector<FolderInfo> m_folderList;
+    QStringList m_deletedSettings; //< track deleted entries
+
+    void syncFolderConfig(const FolderInfo& entry);
 };
 
 #endif // FILTEREDFOLDERMODEL_H

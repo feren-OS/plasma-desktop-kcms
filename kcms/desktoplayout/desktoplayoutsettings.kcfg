@@ -6,7 +6,7 @@
   <kcfgfile name="kdeglobals" />
   <group name="KDE">
     <entry name="lookAndFeelPackage" key="LookAndFeelPackage" type="String">
-      <label>Global look and feel</label>
+      <label>Desktop layout</label>
       <default>org.kde.breeze.desktop</default>
     </entry>
   </group>

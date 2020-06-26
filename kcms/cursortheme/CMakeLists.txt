@@ -13,10 +13,6 @@ xcursor/sortproxymodel.cpp
 ../krdb/krdb.cpp )
 include_directories( ${CMAKE_CURRENT_SOURCE_DIR}/xcursor/ )
 
-
-set(klauncher_xml ${KINIT_DBUS_INTERFACES_DIR}/kf5_org.kde.KLauncher.xml)
-qt5_add_dbus_interface(libnoinst_SRCS ${klauncher_xml} klauncher_iface)
-
 ########### next target ###############
 
 set(kcm_cursortheme_PART_SRCS kcmcursortheme.cpp ${libnoinst_SRCS})
@@ -41,6 +37,7 @@ target_link_libraries(kcm_cursortheme
     KF5::QuickAddons
     ${X11_LIBRARIES}
     XCB::XCB
+    PW::KWorkspace
 )
 
 if (X11_Xcursor_FOUND)
@@ -57,6 +54,7 @@ kcoreaddons_desktop_to_json(kcm_cursortheme "kcm_cursortheme.desktop")
 ########### install files ###############
 
 install(FILES cursorthemesettings.kcfg DESTINATION ${KDE_INSTALL_KCFGDIR})
+install(FILES delete_cursor_old_default_size.upd delete_cursor_old_default_size.pl DESTINATION ${KDE_INSTALL_DATADIR}/kconf_update)
 install( FILES kcm_cursortheme.desktop  DESTINATION  ${KDE_INSTALL_KSERVICES5DIR} )
 install( FILES xcursor/xcursor.knsrc DESTINATION  ${KDE_INSTALL_KNSRCDIR} )
 

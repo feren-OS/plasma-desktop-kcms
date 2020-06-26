@@ -1,6 +1,5 @@
 /*
    Copyright (c) 2018 Marco Martin <mart@kde.org>
-   Copyright (c) 2020 Dominic Hayes <ferenosdev@outlook.com>
 
    This library is free software; you can redistribute it and/or
    modify it under the terms of the GNU Library General Public
@@ -64,17 +63,24 @@ KCM.GridViewKCM {
         }
     }
 
-    footer: RowLayout {
-        Layout.fillWidth: true
-
-        Item {
+    footer: ColumnLayout {
+        Kirigami.InlineMessage {
             Layout.fillWidth: true
+            type: Kirigami.MessageType.Warning
+            text: i18n("Your desktop layout will be lost and reset to the default layout provided by the selected theme.")
+            visible: true
         }
-        NewStuff.Button {
-            text: i18n("Get New Global Themes...")
-            configFile: "lookandfeel.knsrc"
-            viewMode: NewStuff.Page.ViewMode.Preview
-            onChangedEntriesChanged: kcm.reloadModel();
+
+        RowLayout {
+            Item {
+                Layout.fillWidth: true
+            }
+            NewStuff.Button {
+                text: i18n("Get New Global Themes...")
+                configFile: "lookandfeel.knsrc"
+                viewMode: NewStuff.Page.ViewMode.Preview
+                onChangedEntriesChanged: kcm.reloadModel();
+            }
         }
     }
 

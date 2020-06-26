@@ -20,9 +20,10 @@
 
 #pragma once
 
-#include <KQuickAddons/ConfigModule>
+#include <KQuickAddons/ManagedConfigModule>
 
 #include <QKeySequence>
+#include <QHash>
 
 class QAction;
 
@@ -30,17 +31,24 @@ class SourcesModel;
 class FilterProxyModel;
 
 namespace NotificationManager {
-class Settings;
+class DoNotDisturbSettings;
+class NotificationSettings;
+class JobSettings;
+class BadgeSettings;
+class BehaviorSettings;
 }
 
-class KCMNotifications : public KQuickAddons::ConfigModule
+class KCMNotifications : public KQuickAddons::ManagedConfigModule
 {
     Q_OBJECT
 
     Q_PROPERTY(SourcesModel *sourcesModel READ sourcesModel CONSTANT)
     Q_PROPERTY(FilterProxyModel *filteredModel READ filteredModel CONSTANT)
 
-    Q_PROPERTY(NotificationManager::Settings *settings READ settings CONSTANT)
+    Q_PROPERTY(NotificationManager::DoNotDisturbSettings *dndSettings READ dndSettings CONSTANT)
+    Q_PROPERTY(NotificationManager::NotificationSettings *notificationSettings READ notificationSettings CONSTANT)
+    Q_PROPERTY(NotificationManager::JobSettings *jobSettings READ jobSettings CONSTANT)
+    Q_PROPERTY(NotificationManager::BadgeSettings *badgeSettings READ badgeSettings CONSTANT)
 
     Q_PROPERTY(QKeySequence toggleDoNotDisturbShortcut
                READ toggleDoNotDisturbShortcut
@@ -59,7 +67,10 @@ public:
     SourcesModel *sourcesModel() const;
     FilterProxyModel *filteredModel() const;
 
-    NotificationManager::Settings *settings() const;
+    NotificationManager::DoNotDisturbSettings *dndSettings() const;
+    NotificationManager::NotificationSettings *notificationSettings() const;
+    NotificationManager::JobSettings *jobSettings() const;
+    NotificationManager::BadgeSettings *badgeSettings() const;
 
     QKeySequence toggleDoNotDisturbShortcut() const;
     void setToggleDoNotDisturbShortcut(const QKeySequence &shortcut);
@@ -76,6 +87,8 @@ public:
 
     Q_INVOKABLE void configureEvents(const QString &notifyRcName, const QString &eventId, QQuickItem *ctx = nullptr);
 
+    Q_INVOKABLE NotificationManager::BehaviorSettings *behaviorSettings(const QModelIndex &index);
+
 public Q_SLOTS:
     void load() override;
     void save() override;
@@ -85,21 +98,29 @@ signals:
     void initialDesktopEntryChanged();
     void initialNotifyRcNameChanged();
     void initialEventIdChanged();
+    void firstLoadDone();
 
 private:
     void processPendingDeletions();
+    bool isSaveNeeded() const override;
+    bool isDefaults() const override;
+    void createConnections(NotificationManager::BehaviorSettings *settings);
 
     SourcesModel *m_sourcesModel;
     FilterProxyModel *m_filteredModel;
 
-    NotificationManager::Settings *m_settings;
+    NotificationManager::DoNotDisturbSettings *m_dndSettings;
+    NotificationManager::NotificationSettings *m_notificationSettings;
+    NotificationManager::JobSettings *m_jobSettings;
+    NotificationManager::BadgeSettings *m_badgeSettings;
+    QHash<int, NotificationManager::BehaviorSettings *> m_behaviorSettingsList;
 
     QAction *m_toggleDoNotDisturbAction;
     QKeySequence m_toggleDoNotDisturbShortcut;
     bool m_toggleDoNotDisturbShortcutDirty = false;
+    bool m_firstLoad = true;
 
     QString m_initialDesktopEntry;
     QString m_initialNotifyRcName;
     QString m_initialEventId;
-
 };

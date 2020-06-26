@@ -21,10 +21,10 @@
 #ifndef COMPONENTCHOOSERFILEMANAGER_H
 #define COMPONENTCHOOSERFILEMANAGER_H
 
-#include "ui_filemanagerconfig_ui.h"
 #include "componentchooser.h"
+#include <QComboBox>
 
-class CfgFileManager: public QWidget, public Ui::FileManagerConfig_UI, public CfgPlugin
+class CfgFileManager: public CfgPlugin
 {
     Q_OBJECT
 public:
@@ -32,18 +32,9 @@ public:
     ~CfgFileManager() override;
     void load(KConfig *cfg) override;
     void save(KConfig *cfg) override;
-    void defaults() override;
-    bool isDefaults() const override;
 
 protected Q_SLOTS:
-    void slotAddFileManager();
-    void configChanged();
-
-Q_SIGNALS:
-    void changed(bool);
-
-private:
-    QList<QRadioButton *> mDynamicRadioButtons;
+    void selectFileManager(int index);
 };
 
 #endif

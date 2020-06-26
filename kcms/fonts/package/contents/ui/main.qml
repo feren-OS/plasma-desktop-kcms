@@ -22,6 +22,9 @@ import QtQuick 2.1
 import QtQuick.Layouts 1.1
 import QtQuick.Controls 2.0 as QtControls
 import QtQuick.Dialogs 1.2 as QtDialogs
+
+// For KCMShell.open()
+import org.kde.kquickcontrolsaddons 2.0
 import org.kde.kirigami 2.4 as Kirigami
 import org.kde.kcm 1.1 as KCM
 
@@ -29,6 +32,14 @@ KCM.SimpleKCM {
     id: root
 
     KCM.ConfigModule.quickHelp: i18n("This module lets you configure the system fonts.")
+
+    Kirigami.Action {
+        id: kscreenAction
+        visible: KCMShell.authorize("kcm_kscreen.desktop").length > 0
+        text: i18n("Change Display Scaling...")
+        iconName: "preferences-desktop-display"
+        onTriggered: KCMShell.open("kcm_kscreen.desktop")
+    }
 
     ColumnLayout {
 
@@ -39,9 +50,37 @@ KCM.SimpleKCM {
             text: i18n("Some changes such as anti-aliasing or DPI will only affect newly started applications.")
 
             Connections {
-                target: kcm.fontAASettings
+                target: kcm
                 onAliasingChangeApplied: antiAliasingMessage.visible = true
             }
+        }
+
+        Kirigami.InlineMessage {
+            id: hugeFontsMessage
+            Layout.fillWidth: true
+            showCloseButton: true
+            text: i18n("Very large fonts may produce odd-looking results. Consider adjusting the global screen scale instead of using a very large font size.")
+
+            Connections {
+                target: kcm
+                onFontsHaveChanged: {
+                    hugeFontsMessage.visible = generalFontWidget.font.pointSize > 14
+                    || fixedWidthFontWidget.font.pointSize > 14
+                    || smallFontWidget.font.pointSize > 14
+                    || toolbarFontWidget.font.pointSize > 14
+                    || menuFontWidget.font.pointSize > 14
+                }
+            }
+
+            actions: [ kscreenAction ]
+        }
+
+        Kirigami.InlineMessage {
+            id: dpiTwiddledMessage
+            Layout.fillWidth: true
+            showCloseButton: true
+            text: i18n("The recommended way to scale the user interface is using the global screen scaling feature.")
+            actions: [ kscreenAction ]
         }
 
         Kirigami.FormLayout {
@@ -71,24 +110,28 @@ KCM.SimpleKCM {
                 enabled: !kcm.fontsSettings.isImmutable("font")
             }
             FontWidget {
+                id: fixedWidthFontWidget
                 label: i18n("Fixed width:")
                 category: "fixed"
                 font: kcm.fontsSettings.fixed
                 enabled: !kcm.fontsSettings.isImmutable("fixed")
             }
             FontWidget {
+                id: smallFontWidget
                 label: i18n("Small:")
                 category: "smallestReadableFont"
                 font: kcm.fontsSettings.smallestReadableFont
                 enabled: !kcm.fontsSettings.isImmutable("smallestReadableFont")
             }
             FontWidget {
+                id: toolbarFontWidget
                 label: i18n("Toolbar:")
                 category: "toolBarFont"
                 font: kcm.fontsSettings.toolBarFont
                 enabled: !kcm.fontsSettings.isImmutable("toolBarFont")
             }
             FontWidget {
+                id: menuFontWidget
                 label: i18n("Menu:")
                 category: "menuFont"
                 font: kcm.fontsSettings.menuFont
@@ -107,8 +150,8 @@ KCM.SimpleKCM {
 
             QtControls.CheckBox {
                 id: antiAliasingCheckBox
-                checked: kcm.fontAASettings.antiAliasing
-                onCheckedChanged: kcm.fontAASettings.antiAliasing = checked
+                checked: kcm.fontsAASettings.antiAliasing
+                onCheckedChanged: kcm.fontsAASettings.antiAliasing = checked
                 Kirigami.FormData.label: i18n("Anti-Aliasing:")
                 text: i18n("Enable")
                 Layout.fillWidth: true
@@ -116,8 +159,8 @@ KCM.SimpleKCM {
 
             QtControls.CheckBox {
                 id: excludeCheckBox
-                checked: kcm.fontAASettings.exclude
-                onCheckedChanged: kcm.fontAASettings.exclude = checked;
+                checked: kcm.fontsAASettings.exclude
+                onCheckedChanged: kcm.fontsAASettings.exclude = checked;
                 text: i18n("Exclude range from anti-aliasing")
                 Layout.fillWidth: true
                 enabled: antiAliasingCheckBox.checked
@@ -130,11 +173,12 @@ KCM.SimpleKCM {
                 QtControls.SpinBox {
                     id: excludeFromSpinBox
                     stepSize: 1
-                    onValueChanged: kcm.fontAASettings.excludeFrom = value
+                    onValueChanged: kcm.fontsAASettings.excludeFrom = value
                     textFromValue: function(value, locale) { return i18n("%1 pt", value)}
                     valueFromText: function(text, locale) { return parseInt(text) }
                     editable: true
                     enabled: excludeCheckBox.checked
+                    value: kcm.fontsAASettings.excludeFrom
                 }
 
                 QtControls.Label {
@@ -147,16 +191,17 @@ KCM.SimpleKCM {
                 QtControls.SpinBox {
                     id: excludeToSpinBox
                     stepSize: 1
-                    onValueChanged: kcm.fontAASettings.excludeTo = value
+                    onValueChanged: kcm.fontsAASettings.excludeTo = value
                     textFromValue: function(value, locale) { return i18n("%1 pt", value)}
                     valueFromText: function(text, locale) { return parseInt(text) }
                     editable: true
                     enabled: excludeCheckBox.checked
+                    value: kcm.fontsAASettings.excludeTo
                 }
                 Connections {
-                    target: kcm.fontAASettings
-                    onExcludeFromChanged: excludeFromSpinBox.value = kcm.fontAASettings.excludeFrom;
-                    onExcludeToChanged: excludeToSpinBox.value = kcm.fontAASettings.excludeTo;
+                    target: kcm.fontsAASettings
+                    onExcludeFromChanged: excludeFromSpinBox.value = kcm.fontsAASettings.excludeFrom;
+                    onExcludeToChanged: excludeToSpinBox.value = kcm.fontsAASettings.excludeTo;
                 }
             }
 
@@ -164,9 +209,9 @@ KCM.SimpleKCM {
                 id: subPixelCombo
                 Layout.preferredWidth: formLayout.maxImplicitWidth
                 Kirigami.FormData.label: i18nc("Used as a noun, and precedes a combobox full of options", "Sub-pixel rendering:")
-                currentIndex: kcm.fontAASettings.subPixelCurrentIndex
-                onCurrentIndexChanged: kcm.fontAASettings.subPixelCurrentIndex = currentIndex;
-                model: kcm.fontAASettings.subPixelOptionsModel
+                currentIndex: kcm.subPixelCurrentIndex
+                onCurrentIndexChanged: kcm.subPixelCurrentIndex = currentIndex;
+                model: kcm.subPixelOptionsModel
                 textRole: "display"
                 enabled: antiAliasingCheckBox.checked
                 popup.height: popup.implicitHeight
@@ -184,7 +229,7 @@ KCM.SimpleKCM {
                         }
                         Image {
                             id: subPixelComboImage
-                            source: "image://preview/" + model.index + "_" + kcm.fontAASettings.hintingCurrentIndex + ".png"
+                            source: "image://preview/" + model.index + "_" + kcm.hintingCurrentIndex + ".png"
                             // Setting sourceSize here is necessary as a workaround for QTBUG-38127
                             //
                             // With this bug, images requested from a QQuickImageProvider have an incorrect scale with devicePixelRatio != 1 when sourceSize is not set.
@@ -201,9 +246,9 @@ KCM.SimpleKCM {
                 id: hintingCombo
                 Layout.preferredWidth: formLayout.maxImplicitWidth
                 Kirigami.FormData.label: i18nc("Used as a noun, and precedes a combobox full of options", "Hinting:")
-                currentIndex: kcm.fontAASettings.hintingCurrentIndex
-                onCurrentTextChanged: kcm.fontAASettings.hintingCurrentIndex = currentIndex;
-                model: kcm.fontAASettings.hintingOptionsModel
+                currentIndex: kcm.hintingCurrentIndex
+                onCurrentTextChanged: kcm.hintingCurrentIndex = currentIndex;
+                model: kcm.hintingOptionsModel
                 textRole: "display"
                 enabled: antiAliasingCheckBox.checked
                 popup.height: popup.implicitHeight
@@ -221,7 +266,7 @@ KCM.SimpleKCM {
                         }
                         Image {
                             id: hintingComboImage
-                            source: "image://preview/" + kcm.fontAASettings.subPixelCurrentIndex + "_" + model.index + ".png"
+                            source: "image://preview/" + kcm.subPixelCurrentIndex + "_" + model.index + ".png"
                             // Setting sourceSize here is necessary as a workaround for QTBUG-38127
                             //
                             // With this bug, images requested from a QQuickImageProvider have an incorrect scale with devicePixelRatio != 1 when sourceSize is not set.
@@ -237,22 +282,22 @@ KCM.SimpleKCM {
             RowLayout {
                 QtControls.CheckBox {
                     id: dpiCheckBox
-                    checked: kcm.fontAASettings.dpi !== 0
+                    checked: kcm.fontsAASettings.dpi !== 0
                     text: i18n("Force font DPI:")
-                    onClicked: kcm.fontAASettings.dpi = (checked ? dpiSpinBox.value : 0)
+                    onClicked: {
+                        kcm.fontsAASettings.dpi = checked ? dpiSpinBox.value : 0
+                        dpiTwiddledMessage.visible = checked
+                    }
                 }
 
                 QtControls.SpinBox {
                     id: dpiSpinBox
-                    stepSize: 24
                     editable: true
                     enabled: dpiCheckBox.checked
-                    value: kcm.fontAASettings.dpi !== 0 ? kcm.fontAASettings.dpi : 96
-                    onValueModified: kcm.fontAASettings.dpi = value
-                    // to: need to divide to stepSize
-                    to: 1008
-                    // lowest vaue here can be == stepSize, that is because 0 means off
-                    from: 24
+                    value: kcm.fontsAASettings.dpi !== 0 ? kcm.fontsAASettings.dpi : 96
+                    onValueModified: kcm.fontsAASettings.dpi = value
+                    to: 999
+                    from: 1
                 }
             }
 
@@ -264,9 +309,9 @@ KCM.SimpleKCM {
                 property bool adjustAllFonts: false
                 onAccepted: {
                     if (adjustAllFonts) {
-                        kcm.adjustAllFonts(font);
+                        kcm.adjustAllFonts()
                     } else {
-                        kcm.fontsSettings[currentCategory] = font;
+                        kcm.adjustFont(font, currentCategory)
                     }
                 }
             }

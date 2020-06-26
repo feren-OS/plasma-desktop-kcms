@@ -12,8 +12,6 @@ set(kcm_style_PART_SRCS
     gtkpage.cpp
     previewitem.cpp
 )
-set(klauncher_xml ${KINIT_DBUS_INTERFACES_DIR}/kf5_org.kde.KLauncher.xml)
-qt5_add_dbus_interface(kcm_style_PART_SRCS ${klauncher_xml} klauncher_iface)
 
 ki18n_wrap_ui(kcm_style_PART_SRCS stylepreview.ui)
 
@@ -38,11 +36,13 @@ target_link_libraries(kcm_style
     KF5::WindowSystem
     KF5::Archive
     KF5::NewStuff
+    PW::KWorkspace
 )
 
 kcoreaddons_desktop_to_json(kcm_style "kcm_style.desktop")
 
 install(FILES stylesettings.kcfg DESTINATION ${KDE_INSTALL_KCFGDIR})
+install(FILES style_widgetstyle_default_breeze.upd style_widgetstyle_default_breeze.pl DESTINATION ${KDE_INSTALL_DATADIR}/kconf_update)
 install(FILES gtk2_themes.knsrc gtk3_themes.knsrc DESTINATION ${KDE_INSTALL_KNSRCDIR})
 install(FILES kcm_style.desktop DESTINATION ${KDE_INSTALL_KSERVICES5DIR})
 install(TARGETS kcm_style DESTINATION ${KDE_INSTALL_PLUGINDIR}/kcms)

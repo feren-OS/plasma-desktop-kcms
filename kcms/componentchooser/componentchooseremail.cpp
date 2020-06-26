@@ -1,8 +1,8 @@
 /***************************************************************************
                           componentchooseremail.cpp
                              -------------------
-    copyright            : (C) 2002 by Joseph Wenninger
-    email                : jowenn@kde.org
+    copyright            : (C) 2002 by Joseph Wenninger <jowenn@kde.org>
+    copyright            : (C) 2020 by Méven Car <meven.car@enioka.com>
  ***************************************************************************/
 
 /***************************************************************************
@@ -22,132 +22,148 @@
 #include <KConfigGroup>
 #include <KSharedConfig>
 #include <KService>
+#include <KServiceTypeTrader>
+#include <KMimeTypeTrader>
+#include <KShell>
+
 #include <QDBusConnection>
 #include <QDBusMessage>
 #include <QUrl>
 #include <QFile>
 #include <QCheckBox>
 
-// for chmod:
-#include <sys/types.h>
-#include <sys/stat.h>
-#include <QStandardPaths>
-
+namespace {
+    static const char s_defaultApplication[] = "Default Applications";
+    static const char s_AddedAssociations[] = "Added Associations";
+    static const auto s_mimetype = QStringLiteral("x-scheme-handler/mailto");
+}
 
 CfgEmailClient::CfgEmailClient(QWidget *parent)
-    : QWidget(parent), Ui::EmailClientConfig_UI(), CfgPlugin()
+    : CfgPlugin(parent)
 {
-    setupUi( this );
-
     pSettings = new KEMailSettings();
 
-    connect(kmailCB, &QRadioButton::toggled, this, &CfgEmailClient::configChanged);
-    connect(txtEMailClient, &KLineEdit::textChanged, this, &CfgEmailClient::configChanged);
-#ifdef Q_OS_UNIX
-    connect(chkRunTerminal, &QCheckBox::clicked, this, &CfgEmailClient::configChanged);
-#else
-    chkRunTerminal->hide();
-#endif
-    connect(btnSelectEmail, &QToolButton::clicked, this, &CfgEmailClient::selectEmailClient);
+    connect(this, static_cast<void(QComboBox::*)(int)>(&QComboBox::activated), this, &CfgEmailClient::selectEmailClient);
 }
 
 CfgEmailClient::~CfgEmailClient() {
     delete pSettings;
 }
 
-void CfgEmailClient::defaults()
-{
-    kmailCB->setChecked(true);
-    txtEMailClient->clear();
-    chkRunTerminal->setChecked(false);
-}
-
-bool CfgEmailClient::isDefaults() const
-{
-	return kmailCB->isChecked();
-}
-
 void CfgEmailClient::load(KConfig *)
 {
-    QString emailClient = pSettings->getSetting(KEMailSettings::ClientProgram);
-    bool useKMail = (emailClient.isEmpty());
+    const KService::Ptr emailClientService = KMimeTypeTrader::self()->preferredService(s_mimetype);
 
-    kmailCB->setChecked(useKMail);
-    otherCB->setChecked(!useKMail);
-    txtEMailClient->setText(emailClient);
-    txtEMailClient->setFixedHeight(txtEMailClient->sizeHint().height());
-    chkRunTerminal->setChecked((pSettings->getSetting(KEMailSettings::ClientTerminal) == QLatin1String("true")));
+    const auto emailClients = KServiceTypeTrader::self()->query(QStringLiteral("Application"),
+                                                                QStringLiteral("'Email' in Categories and 'x-scheme-handler/mailto' in ServiceTypes"));
+
+    clear();
+    m_currentIndex = -1;
+    m_defaultIndex = -1;
+
+    for (const auto &service : emailClients) {
+
+        addItem(QIcon::fromTheme(service->icon()), service->name(), service->storageId());
+
+        if (emailClientService && emailClientService->storageId() == service->storageId()) {
+            setCurrentIndex(count() - 1);
+            m_currentIndex = count() - 1;
+        }
+        if (service->storageId() == QStringLiteral("org.kde.kmail2.desktop") ||
+                service->storageId() == QStringLiteral("org.kde.kmail.desktop")) {
+            m_defaultIndex = count() - 1;
+        }
+    }
+
+    // in case of a service not associated with Email Category and/or x-scheme-handler/mailto
+    if (m_currentIndex == -1 && emailClientService && !emailClientService->storageId().isEmpty()) {
+        const KService::Ptr service = KService::serviceByStorageId(emailClientService->storageId());
+
+        const QString icon = !service->icon().isEmpty() ? service->icon() : QStringLiteral("application-x-shellscript");
+        addItem(QIcon::fromTheme(icon), service->name(), service->storageId());
+        setCurrentIndex(count() - 1);
+        m_currentIndex = count() - 1;
+    }
+
+    // add a other option to add a new email client with KOpenWithDialog
+    addItem(QIcon::fromTheme(QStringLiteral("application-x-shellscript")), i18n("Other..."), QStringLiteral());
 
     emit changed(false);
-
 }
 
-void CfgEmailClient::configChanged()
+void CfgEmailClient::selectEmailClient(int index)
 {
-    emit changed(true);
-}
+    if (index == count() -1) {
+        // Other option
 
-void CfgEmailClient::selectEmailClient()
-{
-    QList<QUrl> urlList;
-    KOpenWithDialog dlg(urlList, i18n("Select preferred email client:"), QString(), this);
-    // hide "Do not &close when command exits" here, we don't need it for a mail client
-    dlg.hideNoCloseOnExit();
-    if (dlg.exec() != QDialog::Accepted) return;
-    QString client = dlg.text();
-    m_emailClientService = dlg.service();
+        KOpenWithDialog dlg(s_mimetype, QString(), this);
+        dlg.setSaveNewApplications(true);
 
-    // get the preferred Terminal Application
-    KConfigGroup confGroup( KSharedConfig::openConfig(), QStringLiteral("General") );
-    QString preferredTerminal = confGroup.readPathEntry("TerminalApplication", QStringLiteral("konsole"));
-    preferredTerminal += QLatin1String(" -e ");
+        if (dlg.exec() != QDialog::Accepted) {
+            // restore previous setting
+            setCurrentIndex(validLastCurrentIndex());
+            emit changed(false);
+        } else {
+            const auto service = dlg.service();
 
-    int len = preferredTerminal.length();
-    bool b = client.left(len) == preferredTerminal;
-    if (b) client = client.mid(len);
-    if (!client.isEmpty())
-    {
-        chkRunTerminal->setChecked(b);
-        txtEMailClient->setText(client);
+            const auto icon = QIcon::fromTheme(!service->icon().isEmpty() ? service->icon() : QStringLiteral("application-x-shellscript"));
+            insertItem(count() - 1, icon, service->name() + " (" + KShell::tildeCollapse(service->entryPath()) + ")", service->storageId());
+
+            // select newly inserted email client
+            setCurrentIndex(count() - 2);
+
+            emit changed(true);
+            return;
+        }
+    } else {
+        emit changed(m_currentIndex != index);
     }
 }
-
 
 void CfgEmailClient::save(KConfig *)
 {
-    if (kmailCB->isChecked())
-    {
+    if (currentIndex() == count() - 1) {
+        // no email client installed, nor selected
+        return;
+    }
+
+    const QString &storageId = currentData().toString();
+    const KService::Ptr emailClientService = KService::serviceByStorageId(storageId);
+    if (!emailClientService) {
+        // double checking, the selected email client might have been removed
+        return;
+    }
+
+    const bool kmailSelected = m_defaultIndex != -1 && currentIndex() == m_defaultIndex;
+    if (kmailSelected) {
         pSettings->setSetting(KEMailSettings::ClientProgram, QString());
         pSettings->setSetting(KEMailSettings::ClientTerminal, QStringLiteral("false"));
-    }
-    else
-    {
-        pSettings->setSetting(KEMailSettings::ClientProgram, txtEMailClient->text());
-        pSettings->setSetting(KEMailSettings::ClientTerminal, (chkRunTerminal->isChecked()) ? "true" : "false");
+    } else {
+        pSettings->setSetting(KEMailSettings::ClientProgram, emailClientService->storageId());
+        pSettings->setSetting(KEMailSettings::ClientTerminal, emailClientService->terminal() ? QStringLiteral("true") : QStringLiteral("false"));
     }
 
-    // Save the default email client in mimeapps.list into the group [Default Applications]
+    // Save the default email client in mimeapps.list
     KSharedConfig::Ptr profile = KSharedConfig::openConfig(QStringLiteral("mimeapps.list"), KConfig::NoGlobals, QStandardPaths::GenericConfigLocation);
     if (profile->isConfigWritable(true)) {
-        KConfigGroup defaultApp(profile, "Default Applications");
-        if (kmailCB->isChecked()) {
-            QString kmailDesktop = QStringLiteral("org.kde.kmail.desktop");
-            if (KService::serviceByDesktopName(QStringLiteral("org.kde.kmail2"))) {
-                kmailDesktop = QStringLiteral("org.kde.kmail2.desktop");
-            }
-            defaultApp.writeXdgListEntry("x-scheme-handler/mailto", QStringList(kmailDesktop));
-        } else if (m_emailClientService) {
-            defaultApp.writeXdgListEntry("x-scheme-handler/mailto", QStringList(m_emailClientService->storageId()));
-        }
-        profile->sync();
-    }
 
-    // insure proper permissions -- contains sensitive data
-    QString cfgName(QStandardPaths::locate(QStandardPaths::ConfigLocation, QStringLiteral("emails")));
-    if (!cfgName.isEmpty())
-        ::chmod(QFile::encodeName(cfgName), 0600);
-    QDBusMessage message = QDBusMessage::createSignal(QStringLiteral("/Component"), QStringLiteral("org.kde.Kcontrol"), QStringLiteral("KDE_emailSettingsChanged") );
-    QDBusConnection::sessionBus().send(message);
-    emit changed(false);
+        KSharedConfig::Ptr profile = KSharedConfig::openConfig(QStringLiteral("mimeapps.list"), KConfig::NoGlobals, QStandardPaths::GenericConfigLocation);
+
+        // Save the default application according to mime-apps-spec 1.0
+        KConfigGroup defaultApp(profile, s_defaultApplication);
+        defaultApp.writeXdgListEntry(s_mimetype, {emailClientService->storageId()});
+
+        KConfigGroup addedApps(profile, s_AddedAssociations);
+        QStringList apps = addedApps.readXdgListEntry(s_mimetype);
+        apps.removeAll(emailClientService->storageId());
+        apps.prepend(emailClientService->storageId()); // make it the preferred app, i.e first in list
+        addedApps.writeXdgListEntry(s_mimetype, apps);
+
+        profile->sync();
+
+        m_currentIndex = currentIndex();
+
+        emit changed(false);
+    }
 }
 

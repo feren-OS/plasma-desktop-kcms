@@ -60,6 +60,7 @@
 #include "filterproxymodel.h"
 #include "colorssettings.h"
 
+//For the Feren OS code addition
 #include <fstream>
 
 K_PLUGIN_FACTORY_WITH_JSON(KCMColorsFactory, "kcm_colors.json", registerPlugin<KCMColors>();)
@@ -341,14 +342,22 @@ void KCMColors::load()
         group = KConfigGroup(&cfg, "X11");
         m_applyToAlien = group.readEntry("exportKDEColors", true);
     }
+
+    // If need save is true at the end of load() function, it will stay disabled forever.
+    // setSelectedScheme() call due to unexisting scheme name in kdeglobals will trigger a need to save.
+    // this following call ensure the apply button will work properly.
+    setNeedsSave(false);
 }
 
 void KCMColors::save()
 {
-    ManagedConfigModule::save();
-    if (m_selectedSchemeDirty) {
+    // We need to save the colors change first, to avoid a situation,
+    // when we announced that the color scheme has changed, but
+    // the colors themselves in the color scheme have not yet
+    if (m_selectedSchemeDirty || m_activeSchemeEdited) {
         saveColors();
     }
+    ManagedConfigModule::save();
     m_activeSchemeEdited = false;
 
     processPendingDeletions();
@@ -475,9 +484,7 @@ void KCMColors::saveColors()
         }
     }
 
-    runRdb(KRdbExportQtColors | KRdbExportGtkTheme | KRdbExportGtkColors | (m_applyToAlien ? KRdbExportColors : 0));
-
-    saveGtkColors(config);
+    runRdb(KRdbExportQtColors | KRdbExportGtkTheme | (m_applyToAlien ? KRdbExportColors : 0));
 
     QDBusMessage message = QDBusMessage::createSignal(QStringLiteral("/KGlobalSettings"),
                                                       QStringLiteral("org.kde.KGlobalSettings"),

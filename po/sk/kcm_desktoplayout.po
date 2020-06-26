@@ -78,6 +78,13 @@ msgstr ""
 msgid "Preview Theme"
 msgstr "Náhlľad vzhľadu"
 
+#: package/contents/ui/main.qml:70
+#, kde-format
+msgid "Your desktop layout will be lost and reset to the default layout provided by "
+"the selected theme."
+msgstr "Vaše rozloženie plochy sa stratí a vynuluje na predvolený vzhľad pokytnutý "
+"vybraným vzhľadom."
+
 #: package/contents/ui/main.qml:74
 #, kde-format
 msgid "Get New Global Themes..."

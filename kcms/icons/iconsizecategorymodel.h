@@ -16,6 +16,8 @@
  *  Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
+#pragma once
+
 #include <QAbstractListModel>
 #include <QString>
 #include <QVector>
@@ -25,6 +27,7 @@ struct IconSizeCategoryModelData
     QString configKey;
     QString display;
     QString configSection;
+    int kIconloaderGroup;
 };
 
 Q_DECLARE_TYPEINFO(IconSizeCategoryModelData, Q_MOVABLE_TYPE);
@@ -39,7 +42,8 @@ public:
 
     enum Roles {
         ConfigKeyRole = Qt::UserRole + 1,
-        ConfigSectionRole
+        ConfigSectionRole,
+        KIconLoaderGroupRole,
     };
 
     int rowCount(const QModelIndex &parent = QModelIndex()) const override;

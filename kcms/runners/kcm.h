@@ -1,5 +1,6 @@
 /*
    Copyright (c) 2014 Vishesh Handa <me@vhanda.in>
+   Copyright (c) 2020 Alexander Lohnau <alexander.lohnau@gmx.de>
 
    This library is free software; you can redistribute it and/or
    modify it under the terms of the GNU Library General Public
@@ -46,6 +47,7 @@ public Q_SLOTS:
 private:
     KPluginSelector *m_pluginSelector;
     KConfig m_config;
+    QString m_pluginID;
 };
 
 #endif

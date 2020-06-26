@@ -1,5 +1,6 @@
 /*  This file is part of the KDE project
     Copyright (C) 2008 David Faure <faure@kde.org>
+    Copyright (C) 2020 Méven Car <meven.car@enioka.com>
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -19,82 +20,94 @@
 */
 
 #include "componentchooserfilemanager.h"
-#include <kbuildsycocaprogressdialog.h>
 #include <kprocess.h>
 #include <kmimetypetrader.h>
+#include <KApplicationTrader>
 #include <kopenwithdialog.h>
 #include <kconfiggroup.h>
 #include <QStandardPaths>
 #include <KSharedConfig>
 
-namespace  {
-
-QRadioButton *findDolphinRadio(const QList<QRadioButton *> &radioButtons)
-{
-    auto it = std::find_if(radioButtons.begin(), radioButtons.end(), [=](QRadioButton *radio) {
-        return radio->property("storageId") == QStringLiteral("org.kde.dolphin.desktop");
-    });
-    if (it == radioButtons.end()) {
-        return nullptr;
-    }
-    return *it;
-}
-
-}
-
 CfgFileManager::CfgFileManager(QWidget *parent)
-    : QWidget(parent), Ui::FileManagerConfig_UI(),CfgPlugin()
+    : CfgPlugin(parent)
 {
-    setupUi(this);
-    connect(btnSelectFileManager, &QToolButton::clicked, this, &CfgFileManager::slotAddFileManager);
+    connect(this, static_cast<void(QComboBox::*)(int)>(&QComboBox::activated), this, &CfgFileManager::selectFileManager);
 }
 
 CfgFileManager::~CfgFileManager() {
 }
 
-void CfgFileManager::configChanged()
+void CfgFileManager::selectFileManager(int index)
 {
-    emit changed(true);
-}
+    if (index == count() -1) {
 
-void CfgFileManager::defaults()
-{
-    load(nullptr);
-
-    const auto radio = ::findDolphinRadio(mDynamicRadioButtons);
-    if (radio) {
-        radio->setChecked(true);
-    }
-}
-
-bool CfgFileManager::isDefaults() const
-{
-    const auto dolphinRadio = ::findDolphinRadio(mDynamicRadioButtons);
-    // When dolphin is not present, we can't assume any default value
-    return !dolphinRadio || dolphinRadio->isChecked();
-}
-
-static KService::List appOffers()
-{
-    return KMimeTypeTrader::self()->query(QStringLiteral("inode/directory"), QStringLiteral("Application"));
-}
-
-void CfgFileManager::load(KConfig *) {
-    qDeleteAll(mDynamicRadioButtons);
-    mDynamicRadioButtons.clear();
-    const KService::List apps = appOffers();
-    bool first = true;
-    for (const KService::Ptr &service : apps) {
-        QRadioButton *button = new QRadioButton(service->name(), this);
-        connect(button, &QRadioButton::toggled, this, &CfgFileManager::configChanged);
-        button->setProperty("storageId", service->storageId());
-        radioLayout->addWidget(button);
-        if (first) {
-            button->setChecked(true);
-            first = false;
+        KOpenWithDialog dlg({}, i18n("Select preferred file manager:"), QString(), this);
+        dlg.setSaveNewApplications(true);
+        if (dlg.exec() != QDialog::Accepted) {
+            setCurrentIndex(validLastCurrentIndex());
+            return;
         }
-        mDynamicRadioButtons << button;
+
+        const auto service = dlg.service();
+
+        // if the selected service is already in the list
+        const auto matching = model()->match(model()->index(0,0), Qt::UserRole, service->storageId());
+        if (!matching.isEmpty()) {
+            const int index = matching.at(0).row();
+            setCurrentIndex(index);
+            changed(index != m_currentIndex);
+        } else {
+            const QString icon = !service->icon().isEmpty() ? service->icon() : QStringLiteral("application-x-shellscript");
+            insertItem(count() -1, QIcon::fromTheme(icon), service->name(), service->storageId());
+            setCurrentIndex(count() - 2);
+
+            changed(true);
+        }
+    } else {
+        changed(index != m_currentIndex);
     }
+}
+
+static const QString mime = QStringLiteral("inode/directory");
+
+void CfgFileManager::load(KConfig *)
+{
+    clear();
+    m_currentIndex = -1;
+    m_defaultIndex = -1;
+
+    const KService::Ptr fileManager = KMimeTypeTrader::self()->preferredService(mime);
+
+    const auto fileManagers = KApplicationTrader::query([] (const KService::Ptr &service) {
+        if (service->exec().isEmpty()) {
+            return false;
+        }
+        return service->categories().contains("FileManager");
+    });
+    for (const KService::Ptr &service : fileManagers) {
+        addItem(QIcon::fromTheme(service->icon()), service->name(), service->storageId());
+
+        if (fileManager->storageId() == service->storageId()) {
+            setCurrentIndex(count() -1);
+            m_currentIndex = count() -1;
+        }
+        if (service->storageId() == QStringLiteral("org.kde.dolphin.desktop")) {
+            m_defaultIndex = count() -1;
+        }
+    }
+
+    // in case of a service not associated with FileManager Category
+    if (m_currentIndex == -1 && !fileManager->storageId().isEmpty()) {
+        const KService::Ptr service = KService::serviceByStorageId(fileManager->storageId());
+
+        const QString icon = !service->icon().isEmpty() ? service->icon() : QStringLiteral("application-x-shellscript");
+        addItem(QIcon::fromTheme(icon), service->name(), service->storageId());
+        setCurrentIndex(count() -1);
+        m_currentIndex = count() -1;
+    }
+
+    // add a other option to add a new file manager with KOpenWithDialog
+    addItem(QIcon::fromTheme(QStringLiteral("application-x-shellscript")), i18n("Other..."), QStringLiteral());
 
     emit changed(false);
 }
@@ -104,43 +117,29 @@ static const char s_AddedAssociations[] = "Added Associations";
 
 void CfgFileManager::save(KConfig *)
 {
-    QString storageId;
-    for (QRadioButton *button : qAsConst(mDynamicRadioButtons)) {
-        if (button->isChecked()) {
-            storageId = button->property("storageId").toString();
-        }
+    if (currentIndex() == count() - 1) {
+        // no filemanager installed, nor selected
+        return;
     }
 
-    if (!storageId.isEmpty()) {
-        // This is taken from filetypes/mimetypedata.cpp
-        KSharedConfig::Ptr profile = KSharedConfig::openConfig(QStringLiteral("mimeapps.list"), KConfig::NoGlobals, QStandardPaths::GenericConfigLocation);
-        if (!profile->isConfigWritable(true)) // warn user if mimeapps.list is root-owned (#155126/#94504)
-            return;
-        const QString mime = QStringLiteral("inode/directory");
-        KConfigGroup addedApps(profile, s_AddedAssociations);
-        QStringList userApps = addedApps.readXdgListEntry(mime);
-        userApps.removeAll(storageId); // remove if present, to make it first in the list
-        userApps.prepend(storageId);
-        addedApps.writeXdgListEntry(mime, userApps);
+    const QString storageId = currentData().toString();
+    m_currentIndex = currentIndex();
 
-        // Save the default file manager as per mime-apps spec 1.0.1
-        KConfigGroup defaultApp(profile, s_DefaultApplications);
-        defaultApp.writeXdgListEntry(mime, QStringList(storageId));
+    // This is taken from filetypes/mimetypedata.cpp
+    KSharedConfig::Ptr profile = KSharedConfig::openConfig(QStringLiteral("mimeapps.list"), KConfig::NoGlobals, QStandardPaths::GenericConfigLocation);
+    if (!profile->isConfigWritable(true)) // warn user if mimeapps.list is root-owned (#155126/#94504)
+        return;
+    KConfigGroup addedApps(profile, s_AddedAssociations);
+    QStringList userApps = addedApps.readXdgListEntry(mime);
+    userApps.removeAll(storageId); // remove if present, to make it first in the list
+    userApps.prepend(storageId);
+    addedApps.writeXdgListEntry(mime, userApps);
 
-        profile->sync();
+    // Save the default file manager as per mime-apps spec 1.0.1
+    KConfigGroup defaultApp(profile, s_DefaultApplications);
+    defaultApp.writeXdgListEntry(mime, QStringList(storageId));
 
-        KBuildSycocaProgressDialog::rebuildKSycoca(this);
-    }
+    profile->sync();
 
     emit changed(false);
-}
-
-void CfgFileManager::slotAddFileManager()
-{
-    KProcess proc;
-    proc << QStringLiteral("keditfiletype5");
-    proc << QStringLiteral("inode/directory");
-    if (proc.execute() == 0) {
-        load(nullptr);
-    }
 }

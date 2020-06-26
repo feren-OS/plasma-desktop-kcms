@@ -81,6 +81,13 @@ msgstr ""
 msgid "Preview Theme"
 msgstr "Førehandsvis tema"
 
+#: package/contents/ui/main.qml:70
+#, kde-format
+msgid "Your desktop layout will be lost and reset to the default layout provided by "
+"the selected theme."
+msgstr "Du vil mista skrivebordsutforminga di i Plasma. Utforminga vil gå tilbake "
+"til standardutforminga i det valde temaet."
+
 #: package/contents/ui/main.qml:74
 #, kde-format
 msgid "Get New Global Themes..."

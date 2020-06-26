@@ -84,6 +84,13 @@ msgstr "This module lets you choose the desktop layout."
 msgid "Preview Theme"
 msgstr "Preview Theme"
 
+#: package/contents/ui/main.qml:70
+#, kde-format
+msgid "Your desktop layout will be lost and reset to the default layout provided by "
+"the selected theme."
+msgstr "Your desktop layout will be lost and reset to the default layout provided by "
+"the selected theme."
+
 #: package/contents/ui/main.qml:74
 #, kde-format
 msgid "Get New Global Themes..."

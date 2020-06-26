@@ -78,6 +78,13 @@ msgstr ""
 msgid "Preview Theme"
 msgstr "Teema eelvaatlus"
 
+#: package/contents/ui/main.qml:70
+#, kde-format
+msgid "Your desktop layout will be lost and reset to the default layout provided by "
+"the selected theme."
+msgstr "Hoiatus: sinu Plasma töölaua paigutus läheb kaotsi, see lähtestatakse "
+"valitud teema pakutavale vaikimisi paigutusele."
+
 #: package/contents/ui/main.qml:74
 #, kde-format
 msgid "Get New Global Themes..."

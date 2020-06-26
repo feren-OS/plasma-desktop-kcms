@@ -81,6 +81,13 @@ msgstr ""
 msgid "Preview Theme"
 msgstr "Попередній перегляд теми"
 
+#: package/contents/ui/main.qml:70
+#, kde-format
+msgid "Your desktop layout will be lost and reset to the default layout provided by "
+"the selected theme."
+msgstr "Параметри створеного вами компонування стільниці буде втрачено, їх буде "
+"замінено на типові для компонування вибраної теми."
+
 #: package/contents/ui/main.qml:74
 #, kde-format
 msgid "Get New Global Themes..."

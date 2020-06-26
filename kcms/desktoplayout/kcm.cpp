@@ -2,7 +2,6 @@
    Copyright (c) 2014 Marco Martin <mart@kde.org>
    Copyright (c) 2014 Vishesh Handa <me@vhanda.in>
    Copyright (c) 2019 Cyril Rossi <cyril.rossi@enioka.com>
-   Copyright (c) 2020 Dominic Hayes <ferenosdev@outlook.com>
 
    This library is free software; you can redistribute it and/or
    modify it under the terms of the GNU Library General Public
@@ -20,17 +19,21 @@
 */
 
 #include "kcm.h"
+#include "../krdb/krdb.h"
+#include "config-kcm.h"
 #include "config-workspace.h"
-#include <klauncher_iface.h>
 
 #include <KAboutData>
 #include <KSharedConfig>
 #include <KGlobalSettings>
 #include <KIconLoader>
+#include <KIO/ApplicationLauncherJob>
 #include <KAutostart>
-#include <KRun>
+#include <KDialogJobUiDelegate>
 #include <KService>
 
+#include <QDBusConnection>
+#include <QDBusMessage>
 #include <QDebug>
 #include <QQuickItem>
 #include <QQuickWindow>
@@ -38,13 +41,22 @@
 #include <QProcess>
 #include <QStandardItemModel>
 #include <QX11Info>
+#include <QStyle>
+#include <QStyleFactory>
 
 #include <KLocalizedString>
 #include <KPackage/PackageLoader>
 
 #include <X11/Xlib.h>
 
+#include <updatelaunchenvjob.h>
+
 #include "desktoplayoutsettings.h"
+
+#ifdef HAVE_XCURSOR
+#   include "../cursortheme/xcursor/xcursortheme.h"
+#   include <X11/Xcursor/Xcursor.h>
+#endif
 
 #ifdef HAVE_XFIXES
 #  include <X11/extensions/Xfixes.h>
@@ -155,12 +167,6 @@ void KCMDesktopLayout::loadModel()
         row->setData(pkg.filePath("preview"), ScreenshotRole);
         row->setData(pkg.filePath("fullscreenpreview"), FullScreenPreviewRole);
 
-        if (!pkg.filePath("defaults").isEmpty()) {
-            KSharedConfigPtr conf = KSharedConfig::openConfig(pkg.filePath("defaults"));
-            KConfigGroup cg(conf, "kdeglobals");
-            cg = KConfigGroup(&cg, "General");
-        }
-
         m_model->appendRow(row);
     }
     m_model->sort(0 /*column*/);
@@ -189,7 +195,7 @@ void KCMDesktopLayout::save()
     ManagedConfigModule::save();
 
     QDBusMessage message = QDBusMessage::createMethodCall(QStringLiteral("org.kde.plasmashell"), QStringLiteral("/PlasmaShell"),
-                                                   QStringLiteral("org.kde.PlasmaShell"), QStringLiteral("loadLookAndFeelDefaultLayout"));
+                                                QStringLiteral("org.kde.PlasmaShell"), QStringLiteral("loadLookAndFeelDefaultLayout"));
 
     QList<QVariant> args;
     args << m_settings->lookAndFeelPackage();
@@ -241,7 +247,7 @@ void KCMDesktopLayout::save()
             cg2.writeEntry("name", QString("feren-light"));
         }
         cg2.sync();
-        
+
         //autostart
         //remove all the old package to autostart
         {
@@ -265,12 +271,14 @@ void KCMDesktopLayout::save()
             const QStringList autostartServices = cg.readEntry("Services", QStringList());
 
             for (const QString &serviceFile : autostartServices) {
-                KService service(serviceFile + QStringLiteral(".desktop"));
+                KService::Ptr service{new KService(serviceFile + QStringLiteral(".desktop"))};
                 KAutostart as(serviceFile);
-                as.setCommand(service.exec());
+                as.setCommand(service->exec());
                 as.setAutostarts(true);
                 if (qEnvironmentVariableIsSet("KDE_FULL_SESSION")) {
-                    KRun::runApplication(service, {}, nullptr);
+                    auto *job = new KIO::ApplicationLauncherJob(service);
+                    job->setUiDelegate(new KDialogJobUiDelegate(KJobUiDelegate::AutoHandlingEnabled, nullptr));
+                    job->start();
                 }
             }
         }

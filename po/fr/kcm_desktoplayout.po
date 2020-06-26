@@ -85,6 +85,13 @@ msgstr "Ce module vous permet de choisir l'agencement du bureau."
 msgid "Preview Theme"
 msgstr "Afficher un aperçu du thème"
 
+#: package/contents/ui/main.qml:70
+#, kde-format
+msgid "Your desktop layout will be lost and reset to the default layout provided by "
+"the selected theme."
+msgstr "Votre disposition de bureau sera perdue et ré-initialisée à la disposition "
+"par défaut fournie par le thème sélectionné."
+
 #: package/contents/ui/main.qml:74
 #, kde-format
 msgid "Get New Global Themes..."

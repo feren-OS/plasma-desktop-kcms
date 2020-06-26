@@ -1,5 +1,6 @@
 /* This file is part of the KDE Project
    Copyright (c) 2014 Vishesh Handa <me@vhanda.in>
+   Copyright (c) 2020 Alexander Lohnau <alexander.lohnau@gmx.de>
 
    This library is free software; you can redistribute it and/or
    modify it under the terms of the GNU Library General Public
@@ -18,10 +19,7 @@
 
 #include "kcm.h"
 
-#include "kcmutils_version.h"
-
 #include <KPluginFactory>
-#include <KPluginLoader>
 #include <KAboutData>
 #include <KSharedConfig>
 #include <QDebug>
@@ -36,7 +34,6 @@
 #include <QVBoxLayout>
 #include <QLabel>
 #include <QDialog>
-#include <QDialogButtonBox>
 #include <QPainter>
 #include <QPushButton>
 
@@ -53,6 +50,10 @@ SearchConfigModule::SearchConfigModule(QWidget* parent, const QVariantList& args
     setAboutData(about);
     setButtons(Apply | Default);
 
+    if(!args.at(0).toString().isEmpty()) {
+        m_pluginID = args.at(0).toString();
+    }
+
     QVBoxLayout* layout = new QVBoxLayout(this);
 
     QHBoxLayout *headerLayout = new QHBoxLayout(this);
@@ -64,7 +65,7 @@ SearchConfigModule::SearchConfigModule(QWidget* parent, const QVariantList& args
                                                                  : QStringLiteral("edit-clear-locationbar-rtl")));
     connect(clearHistoryButton, &QPushButton::clicked, this, [this] {
         KConfigGroup generalConfig(m_config.group("General"));
-        generalConfig.deleteEntry("history");
+        generalConfig.deleteEntry("history", KConfig::Notify);
         generalConfig.sync();
     });
 
@@ -74,22 +75,12 @@ SearchConfigModule::SearchConfigModule(QWidget* parent, const QVariantList& args
 
     m_pluginSelector = new KPluginSelector(this);
 
-    auto markAsChanged = [this] {
-        emit changed();
-    };
-    connect(m_pluginSelector, &KPluginSelector::changed, this, markAsChanged);
-    connect(m_pluginSelector, &KPluginSelector::configCommitted, this, markAsChanged);
-
-#if KCMUTILS_VERSION >= QT_VERSION_CHECK(5, 67, 0)
-    connect(m_pluginSelector, &KPluginSelector::defaulted,
-            this, &KCModule::defaulted);
-#endif
+    connect(m_pluginSelector, &KPluginSelector::changed, this, &SearchConfigModule::markAsChanged);
+    connect(m_pluginSelector, &KPluginSelector::configCommitted, this, &SearchConfigModule::markAsChanged);
+    connect(m_pluginSelector, &KPluginSelector::defaulted, this, &KCModule::defaulted);
 
     layout->addLayout(headerLayout);
     layout->addWidget(m_pluginSelector);
-
-    Plasma::RunnerManager *manager = new Plasma::RunnerManager(this);
-    manager->reloadConfiguration();
 }
 
 void SearchConfigModule::load()
@@ -100,8 +91,12 @@ void SearchConfigModule::load()
     m_pluginSelector->addPlugins(Plasma::RunnerManager::listRunnerInfo(),
                     KPluginSelector::ReadConfigFile,
                     i18n("Available Plugins"), QString(),
-                    KSharedConfig::openConfig(QLatin1String( "krunnerrc" )));
+                    KSharedConfig::openConfig(QStringLiteral( "krunnerrc" )));
     m_pluginSelector->load();
+
+    if(!m_pluginID.isEmpty()){
+        m_pluginSelector->showConfiguration(m_pluginID);
+    }
 }
 
 

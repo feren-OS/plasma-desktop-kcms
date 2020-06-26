@@ -1,6 +1,5 @@
 /*
    Copyright (c) 2018 Marco Martin <mart@kde.org>
-   Copyright (c) 2020 Dominic Hayes <ferenosdev@outlook.com>
 
    This library is free software; you can redistribute it and/or
    modify it under the terms of the GNU Library General Public
@@ -65,8 +64,6 @@ KCM.GridViewKCM {
     }
 
     footer: RowLayout {
-        Layout.fillWidth: true
-
         Item {
             Layout.fillWidth: true
         }
@@ -74,7 +71,8 @@ KCM.GridViewKCM {
             text: i18n("Get New Global Themes...")
             configFile: "lookandfeel.knsrc"
             viewMode: NewStuff.Page.ViewMode.Preview
-            onChangedEntriesChanged: kcm.reloadModel();
+            //TODO: Figure out how to make this trigger NeedsSave irregardless of if it's the currently selected option here
+            //onChangedEntriesChanged: kcm.setNeedsSave(true)
         }
     }
 

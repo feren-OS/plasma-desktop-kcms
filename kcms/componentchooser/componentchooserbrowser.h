@@ -9,37 +9,27 @@
  *                                                                         *
  *   This program is free software; you can redistribute it and/or modify  *
  *   it under the terms of the GNU General Public License version 2 as     *
- *   published by the Free Software Foundationi                            *
+ *   published by the Free Software Foundation                             *
  *                                                                         *
  ***************************************************************************/
 
 #ifndef COMPONENTCHOOSERBROWSER_H
 #define COMPONENTCHOOSERBROWSER_H
 
-#include "ui_browserconfig_ui.h"
 #include "componentchooser.h"
+#include <QComboBox>
 
-class CfgBrowser: public QWidget, public Ui::BrowserConfig_UI, public CfgPlugin
+class CfgBrowser: public CfgPlugin
 {
 Q_OBJECT
 public:
-	CfgBrowser(QWidget *parent);
-	~CfgBrowser() override;
-	void load(KConfig *cfg) override;
-	void save(KConfig *cfg) override;
-	void defaults() override;
-	bool isDefaults() const override;
+    CfgBrowser(QWidget *parent);
+    ~CfgBrowser() override;
+    void load(KConfig *cfg) override;
+    void save(KConfig *cfg) override;
 
 protected Q_SLOTS:
-	void selectBrowser();
-	void configChanged();
-	void selectBrowserApp();
-
-Q_SIGNALS:
-	void changed(bool);
-private:
-	QString m_browserExec;
-	KService::Ptr m_browserService;
+    void selectBrowser(int index);
 };
 
 #endif /* COMPONENTCHOOSERBROWSER_H */

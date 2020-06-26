@@ -2,7 +2,6 @@
    Copyright (c) 2014 Marco Martin <mart@kde.org>
    Copyright (c) 2014 Vishesh Handa <me@vhanda.in>
    Copyright (c) 2019 Cyril Rossi <cyril.rossi@enioka.com>
-   Copyright (c) 2020 Dominic Hayes <ferenosdev@outlook.com>
 
    This library is free software; you can redistribute it and/or
    modify it under the terms of the GNU Library General Public
@@ -23,16 +22,18 @@
 #include "../krdb/krdb.h"
 #include "config-kcm.h"
 #include "config-workspace.h"
-#include <klauncher_iface.h>
 
 #include <KAboutData>
 #include <KSharedConfig>
 #include <KGlobalSettings>
 #include <KIconLoader>
+#include <KIO/ApplicationLauncherJob>
 #include <KAutostart>
-#include <KRun>
+#include <KDialogJobUiDelegate>
 #include <KService>
 
+#include <QDBusConnection>
+#include <QDBusMessage>
 #include <QDebug>
 #include <QQuickItem>
 #include <QQuickWindow>
@@ -40,11 +41,15 @@
 #include <QProcess>
 #include <QStandardItemModel>
 #include <QX11Info>
+#include <QStyle>
+#include <QStyleFactory>
 
 #include <KLocalizedString>
 #include <KPackage/PackageLoader>
 
 #include <X11/Xlib.h>
+
+#include <updatelaunchenvjob.h>
 
 #include "lookandfeelsettings.h"
 
@@ -69,8 +74,8 @@ KCMLookandFeel::KCMLookandFeel(QObject *parent, const QVariantList &args)
     , m_applyCursors(true)
     , m_applyWindowSwitcher(true)
     , m_applyDesktopSwitcher(true)
-    , m_resetDefaultLayout(false)
     , m_applyWindowDecoration(true)
+    , m_selectedScheme("")
 {
     qmlRegisterType<LookAndFeelSettings>();
     qmlRegisterType<QStandardItemModel>();
@@ -253,15 +258,21 @@ void KCMLookandFeel::save()
         KConfigGroup cg(conf, "kdeglobals");
         cg = KConfigGroup(&cg, "KDE");
         if (m_applyWidgetStyle) {
+            QString widgetStyle = cg.readEntry("widgetStyle", QString());
             KConfigGroup cg2(conf, "kvantum.kvconfig");
             cg2 = KConfigGroup(&cg2, "General");
             setKvantum(cg2.readEntry("theme",QString()));
-            if ((cg2.readEntry("theme",QString()).isEmpty()) && (cg.readEntry("widgetStyle", QString()).toStdString() == "kvantum" || cg.readEntry("widgetStyle", QString()).toStdString() == "kvantum-dark")) {
+            // Some global themes refer to breeze's widgetStyle with a lowercase b.
+            if (widgetStyle == QStringLiteral("breeze")) {
+                widgetStyle = QStringLiteral("Breeze");
+            }
+            if ((cg2.readEntry("theme",QString()).isEmpty()) && (widgetStyle == QStringLiteral("kvantum") || widgetStyle == QStringLiteral("kvantum-dark"))) {
                 // If the widget style is set to Kvantum or Kvantum Dark, but the Kvantum theme to set to isn't specified, we'll override this with a Widget Style change to Breeze to prevent readability issues
                 setWidgetStyle(QString("Breeze"));
             } else {
-                setWidgetStyle(cg.readEntry("widgetStyle", QString()));
+                setWidgetStyle(widgetStyle);
             }
+            
         }
 
         if (m_applyColors) {
@@ -364,26 +375,33 @@ void KCMLookandFeel::save()
         KConfigGroup cg2(conf, "gtk-3.0/settings.ini");
         cg2 = KConfigGroup(&cg2, "Settings");
         setGTK(cg.readEntry("gtk-theme-name", QString()), cg2.readEntry("gtk-theme-name", QString()));
-
+        
         //TODO: option to enable/disable apply? they don't seem required by UI design
         cg = KConfigGroup(conf, "ksplashrc");
         cg = KConfigGroup(&cg, "KSplash");
         QString splashScreen = (cg.readEntry("Theme", QString()));
         // Retain compatibility with certain Look & Feels - L&Fs without a specified Splash Screen will have the splash screen set to their theme name instead
-        if (!splashScreen.isEmpty()) {
-            setSplashScreen(splashScreen);
-        } else {
-            setSplashScreen(m_settings->globalThemePackage());
+        const auto *item = m_model->item(pluginIndex(m_settings->globalThemePackage()));
+        if (item->data(HasSplashRole).toBool()) {
+            if (!splashScreen.isEmpty()) {
+                setSplashScreen(splashScreen);
+            } else {
+                setSplashScreen(m_settings->globalThemePackage());
+            }
         }
     } else {
         // The old behaviour was to set the Splash Screen regardless of whether there was a defaults file or not, therefore we'll use the old behaviour still if there's NO defaults file found
-        setSplashScreen(m_settings->globalThemePackage());
+        const auto *item = m_model->item(pluginIndex(m_settings->globalThemePackage()));
+        if (item->data(HasSplashRole).toBool()) {
+            setSplashScreen(m_settings->globalThemePackage());
+        }
     }
+
+    //TODO: option to enable/disable apply? they don't seem required by UI design
     setLockScreen(m_settings->globalThemePackage());
 
     m_configGroup.sync();
     m_package.setPath(m_settings->globalThemePackage());
-    
     runRdb(KRdbExportQtColors | KRdbExportGtkTheme | KRdbExportColors | KRdbExportQtSettings | KRdbExportXftSettings);
 }
 
@@ -393,10 +411,15 @@ void KCMLookandFeel::setWidgetStyle(const QString &style)
         return;
     }
 
-    m_configGroup.writeEntry("widgetStyle", style);
-    m_configGroup.sync();
-    //FIXME: changing style on the fly breaks QQuickWidgets
-    KGlobalSettings::self()->emitChange(KGlobalSettings::StyleChanged);
+    // Some global themes use styles that may not be installed.
+    // Test if style can be installed before updating the config.
+    QScopedPointer<QStyle> newStyle(QStyleFactory::create(style));
+    if (newStyle) {
+        m_configGroup.writeEntry("widgetStyle", style);
+        m_configGroup.sync();
+        //FIXME: changing style on the fly breaks QQuickWidgets
+        KGlobalSettings::self()->emitChange(KGlobalSettings::StyleChanged);
+    }
 }
 
 void KCMLookandFeel::setColors(const QString &scheme, const QString &colorFile)
@@ -417,9 +440,24 @@ void KCMLookandFeel::setColors(const QString &scheme, const QString &colorFile)
 
     configGroup.sync();
     KGlobalSettings::self()->emitChange(KGlobalSettings::PaletteChanged);
+    
+    setSelectedScheme(scheme);
+}
 
-    //Regenerate GTK Colour Scheme
-    saveGtkColors(conf);
+QString KCMLookandFeel::selectedScheme() const
+{
+    return m_selectedScheme;
+}
+
+void KCMLookandFeel::setSelectedScheme(const QString &scheme)
+{
+    if (m_selectedScheme == scheme) {
+        return;
+    }
+
+    m_selectedScheme = scheme;
+
+    emit selectedSchemeChanged(scheme);
 }
 
 void KCMLookandFeel::setKvantum(const QString &theme)
@@ -513,7 +551,7 @@ void KCMLookandFeel::setCursorTheme(const QString themeName)
     // in previous versions the Xfixes code wasn't enabled due to a bug in the
     // build system (freedesktop bug #975).
 #if defined(HAVE_XFIXES) && XFIXES_MAJOR >= 2 && XCURSOR_LIB_VERSION >= 10105
-    const int cursorSize = cg.readEntry("cursorSize", 0);
+    const int cursorSize = cg.readEntry("cursorSize", 24);
 
     QDir themeDir = cursorThemeDir(themeName, 0);
 
@@ -527,11 +565,7 @@ void KCMLookandFeel::setCursorTheme(const QString themeName)
         return;
     }
 
-    // Set up the proper launch environment for newly started apps
-    OrgKdeKLauncherInterface klauncher(QStringLiteral("org.kde.klauncher5"),
-                                       QStringLiteral("/KLauncher"),
-                                       QDBusConnection::sessionBus());
-    klauncher.setLaunchEnv(QStringLiteral("XCURSOR_THEME"), themeName);
+    UpdateLaunchEnvJob launchEnvJob(QStringLiteral("XCURSOR_THEME"), themeName);
 
     // Update the Xcursor X resources
     runRdb(0);
@@ -741,21 +775,4 @@ void KCMLookandFeel::setDarkDeco(const QString &theme)
     
     std::string selectedtheme = theme.toStdString();
     std::system(("/usr/bin/feren-theme-tool-plasma setdarktheme '"+selectedtheme+"'").c_str());
-}
-
-void KCMLookandFeel::setResetDefaultLayout(bool reset)
-{
-    if (m_resetDefaultLayout == reset) {
-        return;
-    }
-    m_resetDefaultLayout = reset;
-    emit resetDefaultLayoutChanged();
-    if (reset) {
-        setNeedsSave(true);
-    }
-}
-
-bool KCMLookandFeel::resetDefaultLayout() const
-{
-    return m_resetDefaultLayout;
 }
