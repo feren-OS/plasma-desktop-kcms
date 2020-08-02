@@ -87,7 +87,7 @@ void CfgFileManager::load(KConfig *)
     for (const KService::Ptr &service : fileManagers) {
         addItem(QIcon::fromTheme(service->icon()), service->name(), service->storageId());
 
-        if (fileManager->storageId() == service->storageId()) {
+        if (fileManager && fileManager->storageId() == service->storageId()) {
             setCurrentIndex(count() -1);
             m_currentIndex = count() -1;
         }
@@ -97,7 +97,7 @@ void CfgFileManager::load(KConfig *)
     }
 
     // in case of a service not associated with FileManager Category
-    if (m_currentIndex == -1 && !fileManager->storageId().isEmpty()) {
+    if (m_currentIndex == -1 && fileManager && !fileManager->storageId().isEmpty()) {
         const KService::Ptr service = KService::serviceByStorageId(fileManager->storageId());
 
         const QString icon = !service->icon().isEmpty() ? service->icon() : QStringLiteral("application-x-shellscript");
