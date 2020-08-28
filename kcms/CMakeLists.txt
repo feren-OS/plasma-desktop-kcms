@@ -32,7 +32,6 @@ add_subdirectory( standard_actions )
 add_subdirectory( keys )
 add_subdirectory( ksmserver )
 add_subdirectory( lookandfeel )
-add_subdirectory( desktoplayout )
 add_subdirectory( nightcolor )
 
 add_subdirectory( hardware )

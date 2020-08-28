@@ -29,9 +29,9 @@ KCM.GridViewKCM {
     KCM.ConfigModule.quickHelp: i18n("This module lets you choose the global look and feel.")
 
     view.model: kcm.lookAndFeelModel
-    view.currentIndex: kcm.pluginIndex(kcm.lookAndFeelSettings.globalThemePackage)
+    view.currentIndex: kcm.pluginIndex(kcm.lookAndFeelSettings.lookAndFeelPackage)
 
-    enabled: !kcm.lookAndFeelSettings.isImmutable("globalThemePackage")
+    enabled: !kcm.lookAndFeelSettings.isImmutable("lookAndFeelPackage")
 
     view.delegate: KCM.GridDelegate {
         id: delegate
@@ -58,21 +58,38 @@ KCM.GridViewKCM {
             }
         ]
         onClicked: {
-            kcm.lookAndFeelSettings.globalThemePackage = model.pluginName;
+            kcm.lookAndFeelSettings.lookAndFeelPackage = model.pluginName;
             view.forceActiveFocus();
+            resetCheckbox.checked = false;
         }
     }
 
-    footer: RowLayout {
-        Item {
+    footer: ColumnLayout {
+        Kirigami.InlineMessage {
             Layout.fillWidth: true
+            type: Kirigami.MessageType.Warning
+            text: i18n("Your desktop layout will be lost and reset to the default layout provided by the selected theme.")
+            visible: resetCheckbox.checked
         }
-        NewStuff.Button {
-            text: i18n("Get New Global Themes...")
-            configFile: "lookandfeel.knsrc"
-            viewMode: NewStuff.Page.ViewMode.Preview
-            //TODO: Figure out how to make this trigger NeedsSave irregardless of if it's the currently selected option here
-            //onChangedEntriesChanged: kcm.setNeedsSave(true)
+
+        RowLayout {
+            Layout.fillWidth: true
+
+            QtControls.CheckBox {
+                id: resetCheckbox
+                checked: kcm.resetDefaultLayout
+                text: i18n("Use desktop layout from theme")
+                onCheckedChanged: kcm.resetDefaultLayout = checked;
+            }
+            Item {
+                Layout.fillWidth: true
+            }
+            NewStuff.Button {
+                text: i18n("Get New Global Themes...")
+                configFile: "lookandfeel.knsrc"
+                viewMode: NewStuff.Page.ViewMode.Preview
+                onChangedEntriesChanged: kcm.reloadModel();
+            }
         }
     }
 

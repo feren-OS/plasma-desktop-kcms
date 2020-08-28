@@ -37,6 +37,7 @@ class KCMLookandFeel : public KQuickAddons::ManagedConfigModule
     Q_OBJECT
     Q_PROPERTY(LookAndFeelSettings *lookAndFeelSettings READ lookAndFeelSettings CONSTANT)
     Q_PROPERTY(QStandardItemModel *lookAndFeelModel READ lookAndFeelModel CONSTANT)
+    Q_PROPERTY(bool resetDefaultLayout READ resetDefaultLayout WRITE setResetDefaultLayout NOTIFY resetDefaultLayoutChanged)
 
 public:
     enum Roles {
@@ -65,13 +66,13 @@ public:
 
     Q_INVOKABLE int pluginIndex(const QString &pluginName) const;
 
+    bool resetDefaultLayout() const;
+    void setResetDefaultLayout(bool reset);
+
     //Setters of the various theme pieces
     void setWidgetStyle(const QString &style);
-    void setKvantum(const QString &theme);
     void setColors(const QString &scheme, const QString &colorFile);
     void setIcons(const QString &theme);
-    void setGTK(const QString &gtk2, const QString &gtk3);
-    void setDarkDeco(const QString &theme);
     void setPlasmaTheme(const QString &theme);
     void setCursorTheme(const QString theme);
     void setSplashScreen(const QString &theme);
@@ -85,6 +86,9 @@ public:
 public Q_SLOTS:
     void load() override;
     void save() override;
+
+Q_SIGNALS:
+    void resetDefaultLayoutChanged();
 
 private:
     //List only packages which provide at least one of the components
@@ -108,6 +112,7 @@ private:
     bool m_applyCursors : 1;
     bool m_applyWindowSwitcher : 1;
     bool m_applyDesktopSwitcher : 1;
+    bool m_resetDefaultLayout : 1;
     bool m_applyWindowDecoration : 1;
 };
 
