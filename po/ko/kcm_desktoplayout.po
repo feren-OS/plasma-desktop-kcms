@@ -1,0 +1,91 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+# Shinjo Park <kde@peremen.name>, 2014, 2015, 2016, 2017, 2018, 2019, 2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2020-01-31 03:40+0100\n"
+"PO-Revision-Date: 2020-01-29 00:02+0100\n"
+"Last-Translator: Shinjo Park <kde@peremen.name>\n"
+"Language-Team: Korean <kde-kr@kde.org>\n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 19.04.3\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "박신조"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde@peremen.name"
+
+#: kcm.cpp:79
+#, kde-format
+msgid "Desktop Layout"
+msgstr "바탕화면 디자인"
+
+#: dltool.cpp:45
+#, kde-format
+msgid "Desktop Layout Tool"
+msgstr "바탕화면 디자인 도구"
+
+#: dltool.cpp:45
+#, kde-format
+msgid "Command line tool to apply desktop layout packages for changing the desktop "
+"layout."
+msgstr ""
+
+#: dltool.cpp:45
+#, kde-format
+msgid "Copyright 2017, Marco Martin, Copyright 2020, Dominic Hayes"
+msgstr "Copyright 2017, Marco Martin, Copyright 2020, Dominic Hayes"
+
+#: dltool.cpp:46
+#, kde-format
+msgid "Maintainer"
+msgstr "관리자"
+
+#: dltool.cpp:55
+#, kde-format
+msgid "List available desktop layout packages"
+msgstr ""
+
+#: dltool.cpp:57
+#, kde-format
+msgid "Apply a desktop layout package"
+msgstr ""
+
+#: dltool.cpp:57
+#, kde-format
+msgid "packagename"
+msgstr "packagename"
+
+#: package/contents/ui/main.qml:30
+#, kde-format
+msgid "This module lets you choose the desktop layout."
+msgstr ""
+
+#: package/contents/ui/main.qml:54
+#, kde-format
+msgid "Preview Theme"
+msgstr "테마 미리 보기"
+
+#: package/contents/ui/main.qml:70
+#, kde-format
+msgid "Your desktop layout will be lost and reset to the default layout provided by "
+"the selected theme."
+msgstr "현재 설정된 Plasma 데스크톱 레이아웃이 테마에서 지정한 기본 레이아웃으로 변경"
+"됩니다."
+
+#: package/contents/ui/main.qml:74
+#, kde-format
+msgid "Get New Global Themes..."
+msgstr "새 전역 테마 가져오기..."

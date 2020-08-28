@@ -1,0 +1,92 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2020-01-31 03:40+0100\n"
+"PO-Revision-Date: 2019-12-12 22:22+0000\n"
+"Last-Translator: Vivek KJ Pazhedath <vivekkj2004@gmail.com>\n"
+"Language-Team: SMC <smc.org.in>\n"
+"Language: ml\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Weblate 3.9.1\n"
+"X-Language: ml\n"
+"X-Pootle-Path: /ml/l10n-kf5/kde-workspace/kcm_lookandlayout.po\n"
+"X-Pootle-Revision: 6404\n"
+"X-Source-Language: C\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Amrithanath M"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "shijualexonline@gmail.com,snalledam@dataone.in,vivekkj2004@gmail.com"
+
+#: kcm.cpp:79
+#, kde-format
+msgid "Desktop Layout"
+msgstr ""
+
+#: dltool.cpp:45
+#, kde-format
+msgid "Desktop Layout Tool"
+msgstr ""
+
+#: dltool.cpp:45
+#, kde-format
+msgid "Command line tool to apply desktop layout packages for changing the desktop "
+"layout."
+msgstr ""
+
+#: dltool.cpp:45
+#, kde-format
+msgid "Copyright 2017, Marco Martin, Copyright 2020, Dominic Hayes"
+msgstr ""
+
+#: dltool.cpp:46
+#, kde-format
+msgid "Maintainer"
+msgstr "പരിപാലകൻ"
+
+#: dltool.cpp:55
+#, kde-format
+msgid "List available desktop layout packages"
+msgstr ""
+
+#: dltool.cpp:57
+#, kde-format
+msgid "Apply a desktop layout package"
+msgstr ""
+
+#: dltool.cpp:57
+#, kde-format
+msgid "packagename"
+msgstr "പാക്കേജിന്റെ പേര്"
+
+#: package/contents/ui/main.qml:30
+#, kde-format
+msgid "This module lets you choose the desktop layout."
+msgstr ""
+
+#: package/contents/ui/main.qml:54
+#, kde-format
+msgid "Preview Theme"
+msgstr "തീം പ്രിവ്യു"
+
+#: package/contents/ui/main.qml:70
+#, kde-format
+msgid "Your desktop layout will be lost and reset to the default layout provided by "
+"the selected theme."
+msgstr "നിങ്ങളുടെ ഡെസ്ക്ടോപ്പ് ലേഔട്ട് നഷ്ടപ്പെടുകയും തിരഞ്ഞെടുത്ത തീം നൽകിയ സ്ഥിരസ്ഥിതി ലേഔട്ടിലേക്ക് "
+"പുനഃസജ്ജമാക്കുകയും ചെയ്യും."
+
+#: package/contents/ui/main.qml:74
+#, kde-format
+msgid "Get New Global Themes..."
+msgstr ""
