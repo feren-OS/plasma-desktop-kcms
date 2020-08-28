@@ -172,23 +172,10 @@ plasma_install_package(desktoppackage org.kde.plasma.desktop shells shell)
 
 add_definitions(-DQT_NO_URL_CAST_FROM_STRING)
 
-add_subdirectory(layout-templates)
+find_package(KF5I18n CONFIG REQUIRED)
+ki18n_install(po)
 
-add_subdirectory(doc)
-add_subdirectory(runners)
-add_subdirectory(containments)
-add_subdirectory(toolboxes)
-add_subdirectory(applets)
-add_subdirectory(dataengines)
 add_subdirectory(kcms)
-add_subdirectory(knetattach)
-add_subdirectory(attica-kde)
-add_subdirectory(imports/activitymanager/)
-add_subdirectory(solid-device-automounter)
-if(X11_Xkb_FOUND AND XCB_XKB_FOUND)
-    add_subdirectory(kaccess)
-endif()
-install(FILES org.kde.plasmashell.metainfo.xml DESTINATION ${KDE_INSTALL_METAINFODIR})
 
 # add clang-format target for all our real source files
 file(GLOB_RECURSE ALL_CLANG_FORMAT_SOURCE_FILES *.cpp *.h)

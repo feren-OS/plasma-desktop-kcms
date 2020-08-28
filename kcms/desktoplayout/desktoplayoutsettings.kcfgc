@@ -1,0 +1,6 @@
+File=desktoplayoutsettings.kcfg
+ClassName=DesktopLayoutSettings
+Mutators=true
+DefaultValueGetters=true
+GenerateProperties=true
+ParentInConstructor=true
