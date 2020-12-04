@@ -165,9 +165,6 @@ public:
         categories.remove({});
         m_categories = categories.values();
         m_categories.sort();
-        m_categories.prepend({});
-        m_categories.prepend(QStringLiteral(":find:"));
-        m_categories.prepend(QStringLiteral(":recent:"));
     }
 
     Q_SCRIPTABLE QString findFirstEmojiForCategory(const QString &category) {
@@ -304,7 +301,7 @@ public:
         object->installEventFilter(this);
     }
 
-    bool eventFilter(QObject * object, QEvent * event)
+    bool eventFilter(QObject * object, QEvent * event) override
     {
         if (event->type() == QEvent::Close) {
             QWindow* window = qobject_cast<QWindow*>(object);

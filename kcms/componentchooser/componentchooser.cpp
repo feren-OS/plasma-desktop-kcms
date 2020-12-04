@@ -22,18 +22,11 @@
 #include "componentchooserterminal.h"
 #endif
 
-#include <QCheckBox>
+#include <QDir>
 
-#include <kmessagebox.h>
-#include <kconfig.h>
-#include <kstandarddirs.h>
-#include <kmimetypetrader.h>
-#include <kurlrequester.h>
-#include <ktoolinvocation.h>
-#include <kconfiggroup.h>
-#include <KServiceTypeTrader>
+#include <KConfig>
+#include <KConfigGroup>
 #include <KGlobal>
-#include <QIcon>
 #include <QLabel>
 #include <KLocalizedString>
 #include <KBuildSycocaProgressDialog>

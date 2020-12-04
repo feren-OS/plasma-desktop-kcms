@@ -104,7 +104,6 @@ Rectangle {
 //BEGIN UI components
     Rectangle {
         id: sidebar
-        visible: configDialog.configModel
         anchors.left: root.left
         width: categoriesScroll.width
         height: root.height
@@ -114,7 +113,6 @@ Rectangle {
     }
 
     Kirigami.Separator {
-        visible: configDialog.configModel
         anchors.left: sidebar.right
         height: root.height
     }
@@ -143,8 +141,8 @@ Rectangle {
 
     RowLayout {
         anchors {
+            topMargin: topSeparator.height
             fill: parent
-            leftMargin: configDialog.configModel ? 0 : units.smallSpacing * 2
         }
         spacing: 0
 
@@ -213,6 +211,16 @@ Rectangle {
                 }
                 Repeater {
                     model: !root.isContainment ? globalConfigModel : undefined
+                    delegate: ConfigCategoryDelegate {}
+                }
+                 Repeater {
+                    model: ConfigModel {
+                        ConfigCategory{
+                            name: i18nd("plasma_shell_org.kde.plasma.desktop", "About")
+                            icon: "help-about"
+                            source: "AboutPlugin.qml"
+                        }
+                    }
                     delegate: ConfigCategoryDelegate {}
                 }
             }

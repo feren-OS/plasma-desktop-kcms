@@ -33,8 +33,6 @@ import org.kde.plasma.components 3.0 as PlasmaComponents3
 import org.kde.plasma.extras 2.0 as PlasmaExtras
 import org.kde.kquickcontrolsaddons 2.0 as KQuickControlsAddons
 
-import org.kde.taskmanager 0.1 as TaskManager
-
 ColumnLayout {
     property var submodelIndex
     property int flatIndex: isGroup && index != undefined ? index : 0
@@ -102,11 +100,9 @@ ColumnLayout {
                 visible: text.length !== 0
             }
             // window title
-            PlasmaExtras.Heading {
+            PlasmaComponents.Label {
                 id: winTitle
-                level: 5
                 maximumLineCount: 1
-                lineHeight: isWin ? 1 : winTitle.lineHeight
                 Layout.fillWidth: true
                 elide: Text.ElideRight
                 text: generateTitle()
@@ -114,11 +110,9 @@ ColumnLayout {
                 visible: !hasPlayer && text.length !== 0 && text !== appNameHeading.text
             }
             // subtext
-            PlasmaExtras.Heading {
+            PlasmaComponents.Label {
                 id: subtext
-                level: 5
                 maximumLineCount: 1
-                lineHeight: isWin ? 1 : subtext.lineHeight
                 Layout.fillWidth: true
                 elide: Text.ElideRight
                 text: isWin ? generateSubText() : ""
@@ -164,11 +158,11 @@ ColumnLayout {
         Layout.minimumWidth: header.width
         Layout.preferredHeight: header.width / 2
 
-        visible: isWin
+        visible: toolTipDelegate.isWin
 
         readonly property bool isMinimized: isGroup ? IsMinimized == true : isMinimizedParent
         // TODO: this causes XCB error message when being visible the first time
-        property int winId: isWin && windows[flatIndex] !== undefined ? windows[flatIndex] : 0
+        readonly property var winId: toolTipDelegate.isWin && toolTipDelegate.windows[flatIndex] !== undefined ? toolTipDelegate.windows[flatIndex] : 0
 
         // There's no PlasmaComponents3 version
         PlasmaComponents.Highlight {
@@ -182,8 +176,19 @@ ColumnLayout {
             // Indent by one pixel to make sure we never cover up the entire highlight
             anchors.margins: 1
 
-            visible: !albumArtImage.visible && !thumbnailSourceItem.isMinimized
-            winId: thumbnailSourceItem.winId
+            visible: !albumArtImage.visible && !thumbnailSourceItem.isMinimized && Number.isInteger(thumbnailSourceItem.winId)
+            winId: Number.isInteger(thumbnailSourceItem.winId) ? thumbnailSourceItem.winId : 0
+        }
+
+        Loader {
+            id: pipeWireLoader
+            anchors.fill: hoverHandler
+            anchors.margins: 1
+
+            active: !albumArtImage.visible && !Number.isInteger(thumbnailSourceItem.winId)
+
+            //In a loader since we might not have PipeWire available yet
+            source: "PipeWireThumbnail.qml"
         }
 
         Image {
@@ -217,15 +222,15 @@ ColumnLayout {
             visible: available
         }
 
-        // when minimized, we don't have a preview, so show the icon
+        // when minimized, we don't have a preview on X11, so show the icon
         PlasmaCore.IconItem {
             width: parent.width
             height: thumbnailSourceItem.height
             anchors.horizontalCenter: parent.horizontalCenter
-            source: thumbnailSourceItem.isMinimized && !albumArtImage.visible ? icon : ""
+            source: thumbnailSourceItem.isMinimized && !albumArtImage.visible && Number.isInteger(thumbnailSourceItem.winId) ? icon : ""
             animated: false
             usesPlasmaTheme: false
-            visible: valid
+            visible: valid && !pipeWireLoader.active
         }
 
         ToolTipWindowMouseArea {
@@ -239,15 +244,19 @@ ColumnLayout {
 
     // Player controls row
     RowLayout {
-        Layout.maximumWidth: header.width
+        Layout.maximumWidth: header.Layout.maximumWidth
+        // Match margins of header
+        Layout.leftMargin: isWin ? 0 : PlasmaCore.Units.gridUnit / 2
+        Layout.rightMargin: isWin ? 0 : PlasmaCore.Units.gridUnit / 2
 
         visible: hasPlayer
         enabled: canControl
 
         ColumnLayout {
             Layout.fillWidth: true
-            Layout.topMargin: units.smallSpacing
-            Layout.bottomMargin: units.smallSpacing
+            Layout.topMargin: PlasmaCore.Units.smallSpacing
+            Layout.bottomMargin: PlasmaCore.Units.smallSpacing
+            Layout.rightMargin: isWin ? PlasmaCore.Units.smallSpacing : PlasmaCore.Units.largeSpacing
             spacing: 0
 
              ScrollableTextWrapper {
@@ -255,6 +264,7 @@ ColumnLayout {
 
                 Layout.fillWidth: true
                 Layout.preferredHeight: songText.height
+                implicitWidth: songText.implicitWidth
 
                 PlasmaComponents3.Label {
                     id: songText
@@ -274,6 +284,7 @@ ColumnLayout {
 
                 Layout.fillWidth: true
                 Layout.preferredHeight: artistText.height
+                implicitWidth: artistText.implicitWidth
                 visible: artistText.text !== ""
 
                 PlasmaExtras.DescriptiveLabel {
@@ -285,7 +296,7 @@ ColumnLayout {
                     lineHeight: 1
                     elide: parent.state ? Text.ElideNone : Text.ElideRight
                     text: artist || ""
-                    font.pointSize: theme.smallestFont.pointSize
+                    font: theme.smallestFont
                 }
             }
         }

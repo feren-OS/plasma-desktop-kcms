@@ -28,6 +28,8 @@ import "code/tools.js" as Tools
 Item {
     id: listItem
 
+    enabled: !model.disabled
+
     width: ListView.view.width
     height: (units.smallSpacing * 2) + Math.max(elementIcon.height, titleElement.implicitHeight + subTitleElement.implicitHeight)
 
@@ -49,6 +51,7 @@ Item {
     property bool hasActionList: ((model.favoriteId !== null)
         || (("hasActionList" in model) && (model.hasActionList === true)))
     property Item menu: actionMenu
+    property alias usePlasmaIcon: elementIcon.usesPlasmaTheme
 
     onAboutToShowActionMenu: {
         var actionList = hasActionList ? model.actionList : [];
@@ -141,7 +144,7 @@ Item {
 
         text: model.description || ""
         opacity: isCurrent ? 0.8 : 0.6
-        font.pointSize: theme.smallestFont.pointSize
+        font: theme.smallestFont
         elide: Text.ElideMiddle
         horizontalAlignment: Text.AlignLeft
     }

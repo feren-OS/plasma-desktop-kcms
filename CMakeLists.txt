@@ -2,14 +2,18 @@ cmake_minimum_required(VERSION 3.0)
 
 project(plasma-desktop)
 
-set(PROJECT_VERSION "5.19.4")
+set(PROJECT_VERSION "5.20.4")
 set(PROJECT_VERSION_MAJOR 5)
 
-set(QT_MIN_VERSION "5.12.0")
-set(KF5_MIN_VERSION "5.69.0")
+set(QT_MIN_VERSION "5.15.0")
+set(KF5_MIN_VERSION "5.74")
+set(ACCOUNTSQT_DEP_VERSION "1.13")
+
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 find_package(ECM ${KF5_MIN_VERSION} REQUIRED NO_MODULE)
-set(CMAKE_MODULE_PATH ${ECM_MODULE_PATH} ${ECM_KDE_MODULE_DIR} ${CMAKE_CURRENT_SOURCE_DIR}/cmake/modules)
+set(CMAKE_MODULE_PATH ${ECM_MODULE_PATH} ${CMAKE_CURRENT_SOURCE_DIR}/cmake/modules)
 
 include(KDEInstallDirs)
 include(KDECMakeSettings)
@@ -46,7 +50,6 @@ find_package(KF5 ${KF5_MIN_VERSION} REQUIRED COMPONENTS
     Notifications
     NotifyConfig
     Attica
-    Wallet
     Runner
     GlobalAccel
     Declarative
@@ -56,6 +59,24 @@ find_package(KF5 ${KF5_MIN_VERSION} REQUIRED COMPONENTS
     Config
     WidgetsAddons
 )
+
+find_package(AccountsQt5 ${ACCOUNTSQT_DEP_VERSION} CONFIG)
+set_package_properties(AccountsQt5 PROPERTIES DESCRIPTION "Accounts management library for Qt applications"
+   URL "https://gitlab.com/accounts-sso/libaccounts-qt"
+   TYPE OPTIONAL
+   PURPOSE "Required for building the OpenDesktop integration plugin")
+
+find_package(KAccounts 20.04)
+set_package_properties(KAccounts PROPERTIES DESCRIPTION "Accounts management library for KDE applications"
+   TYPE OPTIONAL
+   PURPOSE "Required for building the OpenDesktop integration plugin")
+
+find_package(PkgConfig REQUIRED)
+pkg_check_modules(SignOnOAuth2 IMPORTED_TARGET signon-oauth2plugin)
+set_package_properties(signon-oauth2plugin PROPERTIES DESCRIPTION "Plugin for SignOnQt5 which handles OAuth and OAuth2 logins"
+   URL "https://gitlab.com/accounts-sso/signon-plugin-oauth2"
+   TYPE RUNTIME
+   PURPOSE "Required for running the OpenDesktop integration plugin")
 
 find_package(KF5Kirigami2 ${KF5_MIN_VERSION} CONFIG)
 set_package_properties(KF5Kirigami2 PROPERTIES
@@ -80,7 +101,6 @@ find_package(ScreenSaverDBusInterface CONFIG REQUIRED)
 find_package(KRunnerAppDBusInterface CONFIG REQUIRED)
 find_package(KSMServerDBusInterface CONFIG REQUIRED)
 find_package(KF5ItemModels CONFIG REQUIRED)
-find_package(KF5Emoticons CONFIG REQUIRED)
 find_package(KSysGuard CONFIG REQUIRED)
 find_package(KDED CONFIG REQUIRED)
 
@@ -88,13 +108,6 @@ find_package(KF5Baloo ${KF5_MIN_VERSION})
 set_package_properties(KF5Baloo PROPERTIES DESCRIPTION "File Searching"
                        TYPE RECOMMENDED
                        PURPOSE "Needed to build the File Search KCM"
-                      )
-
-find_package(Fontconfig)
-set_package_properties(Fontconfig PROPERTIES DESCRIPTION "Font access configuration library"
-                       URL "https://www.freedesktop.org/wiki/Software/fontconfig"
-                       TYPE OPTIONAL
-                       PURPOSE "Needed to build font configuration and installation tools"
                       )
 
 find_package(X11)
@@ -147,20 +160,6 @@ endif()
 
 include(ConfigureChecks.cmake)
 
-find_package(Breeze ${PROJECT_VERSION} CONFIG)
-set_package_properties(Breeze PROPERTIES
-                       TYPE OPTIONAL
-                       PURPOSE "For setting the default window decoration plugin")
-if(${Breeze_FOUND})
-    if(${BREEZE_WITH_KDECORATION})
-        set(HAVE_BREEZE_DECO true)
-    else()
-        set(HAVE_BREEZE_DECO FALSE)
-    endif()
-else()
-    set(HAVE_BREEZE_DECO FALSE)
-endif()
-
 include_directories("${CMAKE_CURRENT_BINARY_DIR}")
 
 configure_file(config-workspace.h.cmake ${CMAKE_CURRENT_BINARY_DIR}/config-workspace.h)
@@ -172,10 +171,24 @@ plasma_install_package(desktoppackage org.kde.plasma.desktop shells shell)
 
 add_definitions(-DQT_NO_URL_CAST_FROM_STRING)
 
-find_package(KF5I18n CONFIG REQUIRED)
-ki18n_install(po)
+add_subdirectory(layout-templates)
 
+add_subdirectory(doc)
+add_subdirectory(runners)
+add_subdirectory(containments)
+add_subdirectory(toolboxes)
+add_subdirectory(applets)
 add_subdirectory(kcms)
+add_subdirectory(knetattach)
+if(KAccounts_FOUND AND AccountsQt5_FOUND)
+    add_subdirectory(attica-kde)
+endif()
+add_subdirectory(imports/activitymanager/)
+add_subdirectory(solid-device-automounter)
+if(X11_Xkb_FOUND AND XCB_XKB_FOUND)
+    add_subdirectory(kaccess)
+endif()
+install(FILES org.kde.plasmashell.metainfo.xml DESTINATION ${KDE_INSTALL_METAINFODIR})
 
 # add clang-format target for all our real source files
 file(GLOB_RECURSE ALL_CLANG_FORMAT_SOURCE_FILES *.cpp *.h)

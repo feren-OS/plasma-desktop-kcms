@@ -45,6 +45,10 @@ Item {
     Accessible.name: name
     Accessible.role: Accessible.Canvas
 
+    MouseArea { anchors.fill: parent } // This MouseArea exists to intercept press and hold;
+                                       // preventing edit mode from being triggered
+                                       // when pressing and holding on an icon
+
     function openPopup() {
         if (isDir) {
             loader.item.openPopup();
@@ -303,6 +307,19 @@ Item {
                     overlays: model.overlays
                 }
 
+                    Rectangle {
+                        id: fallbackRectangleBackground
+                        visible: GraphicsInfo.api === GraphicsInfo.Software && !model.selected
+                        anchors {
+                            fill: label
+                            margins: -units.smallSpacing
+                        }
+
+                        color: "black"
+                        radius: units.smallSpacing
+                        opacity: 0.45
+                    }
+
                 PlasmaComponents.Label {
                     id: label
 
@@ -352,7 +369,7 @@ Item {
                     elide: Text.ElideRight
 
                     color: {
-                        if (frameLoader.textShadow && frameLoader.textShadow.visible) {
+                        if ((frameLoader.textShadow && frameLoader.textShadow.visible) || fallbackRectangleBackground.visible) {
                             return "#fff";
                         } else if (model.selected) {
                             return PlasmaCore.ColorScope.highlightedTextColor;

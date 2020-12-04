@@ -121,9 +121,9 @@ FolderModel::FolderModel(QObject *parent) : QSortFilterProxyModel(parent),
     m_previews(false),
     m_filterMode(NoFilter),
     m_filterPatternMatchAll(true),
+    m_screenUsed(false),
     m_screenMapper(ScreenMapper::instance()),
-    m_complete(false),
-    m_screenUsed(false)
+    m_complete(false)
 {
     //needed to pass the job around with qml
     qmlRegisterType<KIO::DropJob>();
@@ -625,7 +625,7 @@ QStringList FolderModel::filterMimeTypes() const
 
 void FolderModel::setFilterMimeTypes(const QStringList &mimeList)
 {
-    const QSet<QString> &set = QSet<QString>::fromList(mimeList);
+    const QSet<QString> set(mimeList.constBegin(), mimeList.constEnd());
 
     if (m_mimeSet != set) {
 
@@ -1610,7 +1610,12 @@ void FolderModel::createActions()
     QAction *refresh = new QAction(QIcon::fromTheme(QStringLiteral("view-refresh")), i18n("&Refresh View"), this);
     refresh->setShortcut(QKeySequence(QKeySequence::Refresh));
     connect(refresh, &QAction::triggered, this, &FolderModel::refresh);
-
+    
+    QAction* newDirAction = new QAction(QIcon::fromTheme(QStringLiteral("create_dir")), i18n("&Create Folder"), this);
+    m_actionCollection.setDefaultShortcut(newDirAction, KStandardShortcut::createFolder().last() );
+    newDirAction->setVisible(false);
+    connect(newDirAction, &QAction::triggered, this, &FolderModel::createFolder);
+    
     QAction *rename = KStandardAction::renameFile(this, &FolderModel::requestRename, this);
     QAction *trash = KStandardAction::moveToTrash(this, &FolderModel::moveSelectedToTrash, this);
 
@@ -1637,7 +1642,8 @@ void FolderModel::createActions()
     m_actionCollection.addAction(QStringLiteral("del"), del);
     m_actionCollection.addAction(QStringLiteral("restoreFromTrash"), restoreFromTrash);
     m_actionCollection.addAction(QStringLiteral("emptyTrash"), emptyTrash);
-
+    m_actionCollection.addAction(QStringLiteral("create_dir"), newDirAction);
+    
     m_newMenu = new KNewFileMenu(&m_actionCollection, QStringLiteral("newMenu"), this);
     m_newMenu->setModal(false);
     connect(m_newMenu, &KNewFileMenu::directoryCreated, this, &FolderModel::newFileMenuItemCreated);
@@ -1807,7 +1813,13 @@ void FolderModel::openContextMenu(QQuickItem *visualParent, Qt::KeyboardModifier
         menu->addSeparator();
         menu->addAction(m_actionCollection.action(QStringLiteral("cut")));
         menu->addAction(m_actionCollection.action(QStringLiteral("copy")));
-        menu->addAction(m_actionCollection.action(QStringLiteral("paste")));
+        if (urls.length() == 1 && items.first().isDir()) {
+            menu->addAction(m_actionCollection.action(QStringLiteral("pasteto")));
+        }
+        else {
+            menu->addAction(m_actionCollection.action(QStringLiteral("paste")));
+        }
+
         menu->addSeparator();
         menu->addAction(m_actionCollection.action(QStringLiteral("rename")));
         menu->addAction(m_actionCollection.action(QStringLiteral("restoreFromTrash")));
@@ -2106,3 +2118,8 @@ void FolderModel::undoTextChanged(const QString &text)
     }
 }
 
+void FolderModel::createFolder()
+{
+    m_newMenu->setPopupFiles(QList<QUrl>() << m_dirModel->dirLister()->url());
+    m_newMenu->createDirectory();
+}

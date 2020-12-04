@@ -20,11 +20,10 @@
 */
 
 #include "componentchooserfilemanager.h"
-#include <kprocess.h>
-#include <kmimetypetrader.h>
+#include <KProcess>
 #include <KApplicationTrader>
-#include <kopenwithdialog.h>
-#include <kconfiggroup.h>
+#include <KOpenWithDialog>
+#include <KConfigGroup>
 #include <QStandardPaths>
 #include <KSharedConfig>
 
@@ -76,7 +75,7 @@ void CfgFileManager::load(KConfig *)
     m_currentIndex = -1;
     m_defaultIndex = -1;
 
-    const KService::Ptr fileManager = KMimeTypeTrader::self()->preferredService(mime);
+    const KService::Ptr fileManager = KApplicationTrader::preferredService(mime);
 
     const auto fileManagers = KApplicationTrader::query([] (const KService::Ptr &service) {
         if (service->exec().isEmpty()) {
@@ -87,7 +86,7 @@ void CfgFileManager::load(KConfig *)
     for (const KService::Ptr &service : fileManagers) {
         addItem(QIcon::fromTheme(service->icon()), service->name(), service->storageId());
 
-        if (fileManager && fileManager->storageId() == service->storageId()) {
+        if (fileManager->storageId() == service->storageId()) {
             setCurrentIndex(count() -1);
             m_currentIndex = count() -1;
         }
@@ -97,7 +96,7 @@ void CfgFileManager::load(KConfig *)
     }
 
     // in case of a service not associated with FileManager Category
-    if (m_currentIndex == -1 && fileManager && !fileManager->storageId().isEmpty()) {
+    if (m_currentIndex == -1 && !fileManager->storageId().isEmpty()) {
         const KService::Ptr service = KService::serviceByStorageId(fileManager->storageId());
 
         const QString icon = !service->icon().isEmpty() ? service->icon() : QStringLiteral("application-x-shellscript");

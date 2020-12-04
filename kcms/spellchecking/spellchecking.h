@@ -24,14 +24,18 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #ifndef SONNETSPELLCHECKINGMODULE_H
 #define SONNETSPELLCHECKINGMODULE_H
 
-#include "kcmodule.h"
+#include <KCModule>
 #include "spellcheckingskeleton.h"
 
+
 class KConfigDialogManager;
+class SpellCheckingData;
+class SpellCheckingSkeleton;
 
 namespace Sonnet
 {
     class ConfigView;
+    class Settings;
 }
 
 class SonnetSpellCheckingModule : public KCModule
@@ -46,12 +50,14 @@ public:
     void load() override;
     void defaults() override;
 
+    SpellCheckingSkeleton *skeleton() const;
+
 private:
     void stateChanged();
 
     Sonnet::Settings *m_settings;
     Sonnet::ConfigView *m_configWidget;
-    SpellCheckingSkeleton *m_skeleton;
+    SpellCheckingData *m_data;
     KConfigDialogManager *m_managedConfig;
 };
 

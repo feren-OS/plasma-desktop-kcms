@@ -28,14 +28,16 @@
 #include <QX11Info>
 #include <QTimer>
 #include <QDateTime>
+#include <QDBusMessage>
+#include <QDBusConnection>
 
 // Qml and QtQuick
 #include <QQuickImageProvider>
 #include <QQmlEngine>
 
 // KDE
-#include <kglobalaccel.h>
-#include <klocalizedstring.h>
+#include <KGlobalAccel>
+#include <KLocalizedString>
 #include <KIO/PreviewJob>
 #include <KConfig>
 #include <KConfigGroup>
@@ -266,11 +268,11 @@ SwitcherBackend::SwitcherBackend(QObject *parent)
             m_runningActivitiesModel, &SortedActivitiesModel::setInhibitUpdates);
 
     m_modKeyPollingTimer.setInterval(100);
-    m_modKeyPollingTimer.setSingleShot(true);
     connect(&m_modKeyPollingTimer, &QTimer::timeout,
             this, &SwitcherBackend::showActivitySwitcherIfNeeded);
 
     m_dropModeHider.setInterval(500);
+    m_dropModeHider.setSingleShot(true);
     connect(&m_dropModeHider, &QTimer::timeout,
             this, [this] { setShouldShowSwitcher(false); });
 
@@ -524,6 +526,17 @@ void SwitcherBackend::setDropMode(bool value)
     } else {
         m_dropModeHider.start();
     }
+}
+
+void SwitcherBackend::toggleActivityManager()
+{
+    auto message = QDBusMessage::createMethodCall(
+            QStringLiteral("org.kde.plasmashell"),
+            QStringLiteral("/PlasmaShell"),
+            QStringLiteral("org.kde.PlasmaShell"),
+            QStringLiteral("toggleActivityManager"));
+    QDBusConnection::sessionBus().call(message, QDBus::NoBlock);
+
 }
 
 

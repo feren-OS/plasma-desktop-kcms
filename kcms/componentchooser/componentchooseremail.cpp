@@ -15,15 +15,15 @@
 
 #include "componentchooseremail.h"
 
-#include <kemailsettings.h>
-#include <kopenwithdialog.h>
+#include <KEMailSettings>
+#include <KOpenWithDialog>
 
+#include <KApplicationTrader>
 #include <KLocalizedString>
 #include <KConfigGroup>
 #include <KSharedConfig>
 #include <KService>
 #include <KServiceTypeTrader>
-#include <KMimeTypeTrader>
 #include <KShell>
 
 #include <QDBusConnection>
@@ -52,7 +52,7 @@ CfgEmailClient::~CfgEmailClient() {
 
 void CfgEmailClient::load(KConfig *)
 {
-    const KService::Ptr emailClientService = KMimeTypeTrader::self()->preferredService(s_mimetype);
+    const KService::Ptr emailClientService = KApplicationTrader::preferredService(s_mimetype);
 
     const auto emailClients = KServiceTypeTrader::self()->query(QStringLiteral("Application"),
                                                                 QStringLiteral("'Email' in Categories and 'x-scheme-handler/mailto' in ServiceTypes"));

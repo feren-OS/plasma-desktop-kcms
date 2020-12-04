@@ -42,11 +42,11 @@
 #include <QHBoxLayout>
 #include <QVBoxLayout>
 #include <QDebug>
-#include <kprocess.h>
-#include <kmessagebox.h>
-#include <kconfig.h>
-#include <kcolorscheme.h>
-#include <ksystemtimezone.h>
+#include <KProcess>
+#include <KMessageBox>
+#include <KConfig>
+#include <KColorScheme>
+#include <KSystemTimeZone>
 #include <KTreeWidgetSearchLine>
 #include <KGlobal>
 
@@ -161,7 +161,7 @@ void Dtime::findNTPutility(){
 
   const auto possible_ntputilities = {"ntpdate", "rdate"};
   for (const QString &possible_ntputility : possible_ntputilities) {
-    auto ntpUtility = QStandardPaths::findExecutable(possible_ntputility, path);
+    ntpUtility = QStandardPaths::findExecutable(possible_ntputility, path);
     if (!ntpUtility.isEmpty()) {
       qDebug() << "ntpUtility = " << ntpUtility;
       return;
@@ -218,7 +218,7 @@ void Dtime::load()
         asia.pool.ntp.org,\
         europe.pool.ntp.org,\
         north-america.pool.ntp.org,\
-        oceania.pool.ntp.org")).split(',', QString::SkipEmptyParts));
+        oceania.pool.ntp.org")).split(',', Qt::SkipEmptyParts));
         setDateTimeAuto->setChecked(config.readEntry("enabled", false));
 
         if (ntpUtility.isEmpty()) {

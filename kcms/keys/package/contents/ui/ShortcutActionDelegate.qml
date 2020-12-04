@@ -67,12 +67,6 @@ Kirigami.AbstractListItem {
                     }
                 }
             }
-            MouseArea {
-                id: handMouseArea
-                anchors.fill: topRow
-                cursorShape: Qt.PointingHandCursor
-                acceptedButtons: Qt.NoButton
-            }
         }
         Loader {
             id: editLoader
@@ -80,7 +74,10 @@ Kirigami.AbstractListItem {
             visible: false
             Layout.fillWidth: true
             sourceComponent:  RowLayout {
-                readonly property var originalIndex : kcm.filteredModel.mapToSource(dm.modelIndex(index)) 
+                readonly property var originalIndex : {
+                    const concatenatedIndex = kcm.filteredModel.mapToSource(dm.modelIndex(index))
+                    return kcm.shortcutsModel.mapToSource(concatenatedIndex)
+                }
                 spacing: 0
                 ColumnLayout {
                     Layout.alignment: Qt.AlignTop
@@ -100,7 +97,13 @@ Kirigami.AbstractListItem {
                         QQC2.CheckBox {
                             checked: activeShortcuts.indexOf(modelData) != -1
                             text: modelData
-                            onToggled: kcm.shortcutsModel.toggleDefaultShortcut(originalIndex, modelData, checked)
+                            onToggled: {
+                                if (checked) {
+                                     kcm.requestKeySequence(this, originalIndex, modelData)
+                                } else {
+                                    originalIndex.model.disableShortcut(originalIndex, modelData)
+                                }
+                            }
                         }
                     }
                 }
@@ -120,13 +123,15 @@ Kirigami.AbstractListItem {
                             KeySequenceItem {
                                 keySequence: modelData
                                 showClearButton: false
+                                multiKeyShortcutsAllowed: supportsMultipleKeys
+                                checkForConflictsAgainst: ShortcutType.None
                                 onCaptureFinished: {
-                                    kcm.shortcutsModel.changeShortcut(originalIndex, modelData, keySequence)
+                                    kcm.requestKeySequence(this, originalIndex, keySequence, modelData)
                                 }
                             }
                             QQC2.Button {
                                 icon.name: "edit-delete"
-                                onClicked: kcm.shortcutsModel.disableShortcut(originalIndex, modelData)
+                                onClicked: originalIndex.model.disableShortcut(originalIndex, modelData)
                                 QQC2.ToolTip {
                                     text: i18n("Delete this shortcut")
                                 }
@@ -157,8 +162,10 @@ Kirigami.AbstractListItem {
                             signal finished
                             KeySequenceItem {
                                 showClearButton: false
+                                multiKeyShortcutsAllowed: model.supportsMultipleKeys
+                                checkForConflictsAgainst: ShortcutType.None
                                 onCaptureFinished: {
-                                    kcm.shortcutsModel.addShortcut(originalIndex, keySequence)
+                                    kcm.requestKeySequence(this, originalIndex, keySequence)
                                     parent.finished()
                                 }
                             }
@@ -195,10 +202,6 @@ Kirigami.AbstractListItem {
             PropertyChanges {
                 target: expandButton
                 icon.name: "collapse"
-            }
-            PropertyChanges {
-                target: handMouseArea
-                cursorShape: Qt.ArrowCursor
             }
             PropertyChanges {
                 target: editLoader
