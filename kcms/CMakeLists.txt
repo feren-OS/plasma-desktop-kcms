@@ -17,7 +17,7 @@ add_subdirectory( launch )
 add_subdirectory( keys )
 add_subdirectory( ksmserver )
 add_subdirectory( nightcolor )
-add_subdirectory( users )
+#add_subdirectory( users )
 
 add_subdirectory( hardware )
 add_subdirectory( desktoppaths )
